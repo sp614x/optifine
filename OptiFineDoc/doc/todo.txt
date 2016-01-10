@@ -1,0 +1,19 @@
+Not implemented MCPatcher features:
+
+Connected textures
+- innerSeams
+- renderpass
+
+Custom Items
+- method
+- cap
+- fade
+
+Random Mobs
+- redcow_overlay
+- snowman_overlay
+
+Other
+- line.properties
+- renderpass.properties
+- compass.properties
