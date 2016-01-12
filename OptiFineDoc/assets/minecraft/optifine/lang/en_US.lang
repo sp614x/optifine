@@ -13,7 +13,7 @@ of.message.af.shaders1=Anisotropic Filtering is not compatible with Shaders.
 of.message.af.shaders2=Please disable Shaders to enable this option.
 
 of.message.fr.shaders1=Fast Render is not compatible with Shaders.
-of.message.fr.shaders1=Please disable Shaders to enable this option.
+of.message.fr.shaders2=Please disable Shaders to enable this option.
 
 of.message.shaders.aa1=Shaders are not compatible with Antialiasing. 
 of.message.shaders.aa2=Please set Quality -> Antialiasing to OFF and restart the game.
