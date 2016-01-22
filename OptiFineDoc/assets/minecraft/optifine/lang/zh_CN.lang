@@ -4,8 +4,8 @@
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
 
 # General
-of.general.custom=Custom
-of.general.from=From
+of.general.custom=自定义
+of.general.from=从
 of.general.id=Id
 of.general.restart=重启游戏
 of.general.ambiguous=ambiguous
@@ -156,7 +156,7 @@ of.options.otherTitle=其他设置
 
 of.options.other.reset=重置视频设置...
 
-of.shaders.profile=Profile
+of.shaders.profile=配置文件
 
 # Quality
 
