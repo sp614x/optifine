@@ -1,20 +1,24 @@
-#Traslated by xuyu_staryG(gxy17886) From InfinityStudio
+# Contributors of Chinese localization #
+#   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
+#   hukk From MCBBS 2013-7-13 ---- 2016-1-19
+#   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
+
 # General
 of.general.custom=自定义
-of.general.from=从
+of.general.from=来自
 of.general.id=Id
-of.general.restart=重新启动
+of.general.restart=重启游戏
 of.general.ambiguous=ambiguous
 
 # Message
 of.message.aa.shaders1=抗锯齿与光影不兼容.
-of.message.aa.shaders2=请关闭光影来启动这个选项.
+of.message.aa.shaders2=请关闭光影来启用这个选项.
 
 of.message.af.shaders1=各向异性过滤与光影不兼容.
-of.message.af.shaders2=请关闭光影来启动这个选项.
+of.message.af.shaders2=请关闭光影来启用这个选项.
 
 of.message.fr.shaders1=快速渲染与光影不兼容.
-of.message.fr.shaders1=请关闭光影来启动这个选项.
+of.message.fr.shaders2=请关闭光影来启用这个选项.
 
 of.message.shaders.aa1=光影与抗锯齿不兼容. 
 of.message.shaders.aa2=请把 品质 -> 抗锯齿 选项设置为 关 并且重启你的游戏.
@@ -49,8 +53,8 @@ options.renderDistance.tooltip.3=  4 近 - 64m (较快)
 options.renderDistance.tooltip.4=  8 中等 - 128m
 options.renderDistance.tooltip.5=  16 远 - 256m (较慢)
 options.renderDistance.tooltip.6=  32 极限 - 512m (最慢!)
-options.renderDistance.tooltip.7=极限能见度是非常需要性能要求的!
-options.renderDistance.tooltip.8=能见度设置超过 16 远 只有在本地世界起作用.
+options.renderDistance.tooltip.7=极限能见度非常消耗资源!
+options.renderDistance.tooltip.8=超过 16 的能见度值只在本地世界有效.
 
 options.ao.tooltip.1=平滑光照
 options.ao.tooltip.2=  关 - 没有平滑光照(较快)
@@ -59,17 +63,17 @@ options.ao.tooltip.4=  最大 - 复杂柔和的平滑光照(最慢)
 
 options.framerateLimit.tooltip.1=最大帧率
 options.framerateLimit.tooltip.2=  垂直同步 - 受限于显示器帧率(60, 30, 20)
-options.framerateLimit.tooltip.3=  5-255 - 变量
+options.framerateLimit.tooltip.3=  5-255 - 可变
 options.framerateLimit.tooltip.4=  无限制 - 无限制(最快)
-options.framerateLimit.tooltip.5=帧率上限降低FPS
-options.framerateLimit.tooltip.6=即使未达到极限值.
+options.framerateLimit.tooltip.5=帧率上限将降低FPS
+options.framerateLimit.tooltip.6=即使其未达上限值.
 of.options.framerateLimit.vsync=垂直同步
 
 of.options.AO_LEVEL=平滑光照
 of.options.AO_LEVEL.tooltip.1=平滑光照
 of.options.AO_LEVEL.tooltip.2=  关 - 没有阴影
-of.options.AO_LEVEL.tooltip.3=  50%% - 光亮的阴影
-of.options.AO_LEVEL.tooltip.4=  100%% - 黑暗的阴影
+of.options.AO_LEVEL.tooltip.3=  50%% - 较亮的阴影
+of.options.AO_LEVEL.tooltip.4=  100%% - 较暗的阴影
 
 options.viewBobbing.tooltip.1=更真实的运动.
 options.viewBobbing.tooltip.2=当使用多级纹理贴图时,关闭它以取得更佳效果.
@@ -78,19 +82,19 @@ options.guiScale.tooltip.1=界面尺寸
 options.guiScale.tooltip.2=更小的界面会更快速
 
 options.vbo.tooltip.1=启用缓冲区顶点对象
-options.vbo.tooltip.2=使用交替的模型渲染通常可以
-options.vbo.tooltip.3=比默认渲染更快(5-10%%).
+options.vbo.tooltip.2=使用一种替选的渲染模式通常
+options.vbo.tooltip.3=可以比默认渲染快(5-10%%).
 
 options.gamma.tooltip.1=增加较暗物体的亮度
 options.gamma.tooltip.2=  关 - 标准亮度
 options.gamma.tooltip.3=  100%% - 最大亮度
-options.gamma.tooltip.4=此选项不会改变
-options.gamma.tooltip.5=完全黑色的物体的亮度
+options.gamma.tooltip.4=此选项不会改变完全
+options.gamma.tooltip.5=黑色的物体的亮度
 
 options.anaglyph.tooltip.1=3D立体
-options.anaglyph.tooltip.2=使用两边眼睛不同颜色
+options.anaglyph.tooltip.2=通过为每只眼睛分色
 options.anaglyph.tooltip.3=来启用3D立体效果.
-options.anaglyph.tooltip.4=需要红蓝眼镜来舒适的观看.
+options.anaglyph.tooltip.4=需要使用红蓝眼镜正常观看.
 
 options.blockAlternatives.tooltip.1=替选方块
 options.blockAlternatives.tooltip.2=为一些方块使用备选的方块模型.
@@ -106,19 +110,19 @@ of.options.FOG_FANCY.tooltip.6=显卡支持下可用.
 
 of.options.FOG_START=迷雾起始位置
 of.options.FOG_START.tooltip.1=迷雾起始位置
-of.options.FOG_START.tooltip.2=  0.2 - 迷雾在玩家周围起始
-of.options.FOG_START.tooltip.3=  0.8 - 迷雾在远离玩家的地位起始
+of.options.FOG_START.tooltip.2=  0.2 - 迷雾起始于玩家周围
+of.options.FOG_START.tooltip.3=  0.8 - 迷雾在离玩家较远的地方起始
 of.options.FOG_START.tooltip.4=此选项通常不会影响性能.
 
 of.options.CHUNK_LOADING=区块加载
 of.options.CHUNK_LOADING.tooltip.1=区块加载
 of.options.CHUNK_LOADING.tooltip.2=  默认 - 当加载区块时FPS不稳定
 of.options.CHUNK_LOADING.tooltip.3=  平滑 - 稳定FPS
-of.options.CHUNK_LOADING.tooltip.4=  多核心 - 稳定FPS,3倍于默认选项的世界加载速度
-of.options.CHUNK_LOADING.tooltip.5=平滑和多核心消除区块加载
-of.options.CHUNK_LOADING.tooltip.6=引起的延迟和冻结.
-of.options.CHUNK_LOADING.tooltip.7=多核心可以加速3倍的世界加载速度
-of.options.CHUNK_LOADING.tooltip.8=通过使用多个CPU核心来提升FPS.
+of.options.CHUNK_LOADING.tooltip.4=  多核心 - 稳定FPS,3倍的世界加载速度
+of.options.CHUNK_LOADING.tooltip.5=平滑和多核心可消除由区块
+of.options.CHUNK_LOADING.tooltip.6=加载引起的延迟和卡顿.
+of.options.CHUNK_LOADING.tooltip.7=多核心可以令世界加载速度提升3倍
+of.options.CHUNK_LOADING.tooltip.8=并通过使用多个CPU核心来提升FPS.
 of.options.chunkLoading.smooth=平滑
 of.options.chunkLoading.multiCore=多核心
 
@@ -154,23 +158,23 @@ of.options.other.reset=重置视频设置...
 
 of.shaders.profile=配置文件
 
-# Quality 品质
+# Quality
 
 of.options.mipmap.bilinear=双线性
 of.options.mipmap.linear=线性
 of.options.mipmap.nearest=最近
 of.options.mipmap.trilinear=三线性
 
-options.mipmapLevels.tooltip.1=通过平滑纹理细节,
-options.mipmapLevels.tooltip.2=使远处的物体看起来更好的视觉效果
+options.mipmapLevels.tooltip.1=通过平滑材质细节,使远处的
+options.mipmapLevels.tooltip.2=物体看起来更好的视觉效果
 options.mipmapLevels.tooltip.3=  关 - 无平滑
 options.mipmapLevels.tooltip.4=  1 - 最小平滑
 options.mipmapLevels.tooltip.5=  4 - 最大平滑
 options.mipmapLevels.tooltip.6=此选项通常不影响性能.
 
 of.options.MIPMAP_TYPE=多级渐进纹理过滤类型
-of.options.MIPMAP_TYPE.tooltip.1=开启纹理细节平滑会使远处的物品
-of.options.MIPMAP_TYPE.tooltip.2=有更好的视觉效果
+of.options.MIPMAP_TYPE.tooltip.1=通过平滑材质细节,使远处的
+of.options.MIPMAP_TYPE.tooltip.2=物体看起来更好的视觉效果
 of.options.MIPMAP_TYPE.tooltip.3=  最近 - 粗糙平滑(最快)
 of.options.MIPMAP_TYPE.tooltip.4=  线性 - 正常平滑
 of.options.MIPMAP_TYPE.tooltip.5=  双线性 - 精细
@@ -180,19 +184,19 @@ of.options.MIPMAP_TYPE.tooltip.6=  三线性 - 最佳平滑(最慢)
 of.options.AA_LEVEL=抗锯齿
 of.options.AA_LEVEL.tooltip.1=抗锯齿
 of.options.AA_LEVEL.tooltip.2= 关 - (默认)无抗锯齿(较快)
-of.options.AA_LEVEL.tooltip.3= 2-16 - 抗锯齿线和边缘(较慢)
-of.options.AA_LEVEL.tooltip.4=反锯齿平滑锯齿线
-of.options.AA_LEVEL.tooltip.5=和鲜明的色彩过渡.
-of.options.AA_LEVEL.tooltip.6=启用它可能大大降低FPS.
-of.options.AA_LEVEL.tooltip.7=并非所有级别被显卡支持.
+of.options.AA_LEVEL.tooltip.3= 2-16 - 对线和边缘使用抗锯齿(较慢)
+of.options.AA_LEVEL.tooltip.4=反锯齿将平滑锯齿线
+of.options.AA_LEVEL.tooltip.5=和锐利的色彩过渡.
+of.options.AA_LEVEL.tooltip.6=启用它可能会大幅降低FPS.
+of.options.AA_LEVEL.tooltip.7=并非所有级别都被显卡支持.
 of.options.AA_LEVEL.tooltip.8=重启后生效!
 
 of.options.AF_LEVEL=各向异性过滤
 of.options.AF_LEVEL.tooltip.1=各向异性过滤
-of.options.AF_LEVEL.tooltip.2= 关 - (默认)标准纹理细节(较快)
-of.options.AF_LEVEL.tooltip.3= 2-16 - 更加精细的多级化纹理过滤细节(较慢)
-of.options.AF_LEVEL.tooltip.4=各向异性过滤还原了经多级化纹理过滤
-of.options.AF_LEVEL.tooltip.5=材质的细节.
+of.options.AF_LEVEL.tooltip.2= 关 - (默认)标准材质细节(较快)
+of.options.AF_LEVEL.tooltip.3= 2-16 - 为多级纹理过滤后的材质提供精细细节(较慢)
+of.options.AF_LEVEL.tooltip.4=各向异性过滤还原了经多级
+of.options.AF_LEVEL.tooltip.5=纹理过滤后的材质细节.
 of.options.AF_LEVEL.tooltip.6=启用它可能会大幅降低FPS.
 
 of.options.CLEAR_WATER=清澈水体
@@ -200,39 +204,39 @@ of.options.CLEAR_WATER.tooltip.1=清澈水体
 of.options.CLEAR_WATER.tooltip.2=  开 - 清澈、透明水体
 of.options.CLEAR_WATER.tooltip.3=  关 - 默认水体
 
-of.options.RANDOM_MOBS=随机怪物贴图
-of.options.RANDOM_MOBS.tooltip.1=随机怪物贴图
-of.options.RANDOM_MOBS.tooltip.2=  关 - 关闭随机怪物贴图,较快
-of.options.RANDOM_MOBS.tooltip.3=  开 - 随机怪物贴图,较慢
-of.options.RANDOM_MOBS.tooltip.4=游戏中的生物、怪物材质使用随机贴图.
-of.options.RANDOM_MOBS.tooltip.5=这需要材质包内有多个生物、怪物贴图.
+of.options.RANDOM_MOBS=随机生物
+of.options.RANDOM_MOBS.tooltip.1=随机生物
+of.options.RANDOM_MOBS.tooltip.2=  关 - 关闭随机生物,较快
+of.options.RANDOM_MOBS.tooltip.3=  开 - 随机生物,较慢
+of.options.RANDOM_MOBS.tooltip.4=游戏中的生物、怪物材质使用随机的贴图.
+of.options.RANDOM_MOBS.tooltip.5=这需要材质包/资源包内有多个生物、怪物贴图.
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
 of.options.BETTER_GRASS.tooltip.2=  关 - 默认草地材质,较快
-of.options.BETTER_GRASS.tooltip.3=  流畅 - 草地四边全部使用草地材质,较慢
-of.options.BETTER_GRASS.tooltip.4=  高品质 - 草地边角材质动态化,最慢
+of.options.BETTER_GRASS.tooltip.3=  流畅 - 草方块侧面全部使用草地材质,较慢
+of.options.BETTER_GRASS.tooltip.4=  高品质 - 草方块侧面材质动态化,最慢
 
 of.options.BETTER_SNOW=更好的雪地
 of.options.BETTER_SNOW.tooltip.1=更好的雪地
 of.options.BETTER_SNOW.tooltip.2=  关 - 默认的雪地,较快
 of.options.BETTER_SNOW.tooltip.3=  开 - 更好的雪地,较慢
-of.options.BETTER_SNOW.tooltip.4=在透明方块(如栅栏,玻璃板)
-of.options.BETTER_SNOW.tooltip.5=与雪地的交界处显示雪
+of.options.BETTER_SNOW.tooltip.4=在"透明方块"(如栅栏,高草)与雪
+of.options.BETTER_SNOW.tooltip.5=接壤时在其下显示雪
 
 of.options.CUSTOM_FONTS=自定义字体
 of.options.CUSTOM_FONTS.tooltip.1=自定义字体
 of.options.CUSTOM_FONTS.tooltip.2=  开 - 使用自定义字体(默认),较慢
 of.options.CUSTOM_FONTS.tooltip.3=  关 - 使用默认字体,较快
-of.options.CUSTOM_FONTS.tooltip.4=自定义字体由当前的
-of.options.CUSTOM_FONTS.tooltip.5=材质包提供
+of.options.CUSTOM_FONTS.tooltip.4=自定义字体一般由
+of.options.CUSTOM_FONTS.tooltip.5=当前的材质包提供
 
 of.options.CUSTOM_COLORS=自定义色彩
 of.options.CUSTOM_COLORS.tooltip.1=自定义色彩
 of.options.CUSTOM_COLORS.tooltip.2=  开 - 使用自定义色彩(默认),较慢
 of.options.CUSTOM_COLORS.tooltip.3=  关 - 使用默认色彩,较快
-of.options.CUSTOM_COLORS.tooltip.4=自定义色彩由当前的
-of.options.CUSTOM_COLORS.tooltip.5=材质包提供
+of.options.CUSTOM_COLORS.tooltip.4=自定义色彩一般由
+of.options.CUSTOM_COLORS.tooltip.5=当前的材质包提供
 
 of.options.SWAMP_COLORS=沼泽颜色
 of.options.SWAMP_COLORS.tooltip.1=沼泽颜色
@@ -254,7 +258,7 @@ of.options.CONNECTED_TEXTURES.tooltip.2=  关 - 关闭连接纹理(默认)
 of.options.CONNECTED_TEXTURES.tooltip.3=  流畅 - 快速处理纹理连接
 of.options.CONNECTED_TEXTURES.tooltip.4=  高品质 - 精细处理纹理连接
 of.options.CONNECTED_TEXTURES.tooltip.5=连接纹理为玻璃、沙石和书架增加了连接材质,
-of.options.CONNECTED_TEXTURES.tooltip.6=当它们相互放在一起时会吧纹理连接起来.
+of.options.CONNECTED_TEXTURES.tooltip.6=当它们互相放在一起时会将材质连接为一体.
 of.options.CONNECTED_TEXTURES.tooltip.7=连接材质一般由
 of.options.CONNECTED_TEXTURES.tooltip.8=当前的材质包提供.
 
@@ -262,11 +266,11 @@ of.options.NATURAL_TEXTURES=天然纹理
 of.options.NATURAL_TEXTURES.tooltip.1=天然纹理
 of.options.NATURAL_TEXTURES.tooltip.2=  关 - 关闭天然纹理(默认)
 of.options.NATURAL_TEXTURES.tooltip.3=  开 - 使用天然纹理
-of.options.NATURAL_TEXTURES.tooltip.4=天然纹理删除格栅状图案 
-of.options.NATURAL_TEXTURES.tooltip.5=由同一类型的重复块创建.
-of.options.NATURAL_TEXTURES.tooltip.6=它使用旋转和翻转的基块纹理的变体.
-of.options.NATURAL_TEXTURES.tooltip.7=方块贴图、天然纹理的配置和纹理
-of.options.NATURAL_TEXTURES.tooltip.8=一般由当前的材质包提供
+of.options.NATURAL_TEXTURES.tooltip.4=天然纹理移除由同一类型的
+of.options.NATURAL_TEXTURES.tooltip.5=方块重复创建的栅格状图案.
+of.options.NATURAL_TEXTURES.tooltip.6=它通过旋转和翻转方块的基础材质来创建材质变体.
+of.options.NATURAL_TEXTURES.tooltip.7=天然纹理的配置和材质一般由
+of.options.NATURAL_TEXTURES.tooltip.8=当前的材质包提供
 
 of.options.CUSTOM_SKY=自定义天空
 of.options.CUSTOM_SKY.tooltip.1=自定义天空
@@ -282,7 +286,7 @@ of.options.CUSTOM_ITEMS.tooltip.3=  关 - 默认物品材质,较快
 of.options.CUSTOM_ITEMS.tooltip.4=自定义物品材质一般由
 of.options.CUSTOM_ITEMS.tooltip.5=当前的材质包提供
 
-# Details 细节
+# Details
 
 of.options.CLOUDS=云
 of.options.CLOUDS.tooltip.1=云
@@ -328,8 +332,8 @@ of.options.STARS.tooltip.3=  关  - 星星不可见,较快
 
 of.options.SUN_MOON=日月
 of.options.SUN_MOON.tooltip.1=日月
-of.options.SUN_MOON.tooltip.2=  开 - 太阳和月亮是可见的(默认)
-of.options.SUN_MOON.tooltip.3=  关  - 太阳和月亮是不可见的(较快)
+of.options.SUN_MOON.tooltip.2=  开 - 太阳和月亮可见(默认)
+of.options.SUN_MOON.tooltip.3=  关  - 太阳和月亮不可见(较快)
 
 of.options.SHOW_CAPES=显示披风
 of.options.SHOW_CAPES.tooltip.1=显示披风
@@ -338,7 +342,7 @@ of.options.SHOW_CAPES.tooltip.3=  关 - 不显示玩家披风
 
 of.options.TRANSLUCENT_BLOCKS=半透明方块
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明方块
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  高品质 - 校正的混合颜色(默认)
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  高品质 - 准确的混合颜色(默认)
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  流畅 - 快速的混合颜色(较快)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=用于控制半透明方块(彩色玻璃,水,冰)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=与其背面方块的不同颜色间的混合.
@@ -360,19 +364,19 @@ options.entityShadows.tooltip.2=  开 - 显示实体阴影
 options.entityShadows.tooltip.3=  关 - 隐藏实体阴影
 
 of.options.VIGNETTE=晕影
-of.options.VIGNETTE.tooltip.1=屏幕四角的视觉效果会轻微变暗
-of.options.VIGNETTE.tooltip.2=  默认 - 通过显卡设置设定(默认)
+of.options.VIGNETTE.tooltip.1=屏幕四角轻微变暗的视觉效果
+of.options.VIGNETTE.tooltip.2=  默认 - 以“图形品质”的设定为准(默认)
 of.options.VIGNETTE.tooltip.3=  流畅 - 晕影关闭(较快)
 of.options.VIGNETTE.tooltip.4=  高品质 - 晕影开启(较慢)
-of.options.VIGNETTE.tooltip.5=晕影可能对FPS有显著的效果,
+of.options.VIGNETTE.tooltip.5=晕影可能对FPS有显著的影响,
 of.options.VIGNETTE.tooltip.6=尤其是全屏游戏的时候.
 of.options.VIGNETTE.tooltip.7=晕影的效果是非常细微的
 of.options.VIGNETTE.tooltip.8=并且是可以被安全地禁用
 
-# Performance 性能
+# Performance
 
 of.options.SMOOTH_FPS=平滑FPS
-of.options.SMOOTH_FPS.tooltip.1=通过清除图形缓存区来稳定FPS
+of.options.SMOOTH_FPS.tooltip.1=通过清除图形卡缓冲区来稳定FPS
 of.options.SMOOTH_FPS.tooltip.2=  关 - 不稳定,FPS可能波动
 of.options.SMOOTH_FPS.tooltip.3=  开 - FPS稳定
 of.options.SMOOTH_FPS.tooltip.4=此选项依赖于显卡驱动
@@ -382,7 +386,7 @@ of.options.SMOOTH_WORLD=平滑世界
 of.options.SMOOTH_WORLD.tooltip.1=移除内部服务造成的数据延时.
 of.options.SMOOTH_WORLD.tooltip.2=  关 - 不稳定,FPS可能波动
 of.options.SMOOTH_WORLD.tooltip.3=  开 - FPS稳定
-of.options.SMOOTH_WORLD.tooltip.4=分担内部服务器负载来稳定.
+of.options.SMOOTH_WORLD.tooltip.4=分担内部服务器负载来稳定FPS.
 of.options.SMOOTH_WORLD.tooltip.5=只在本地世界(单人游戏)有效.
 
 of.options.FAST_RENDER=快速渲染
@@ -411,19 +415,19 @@ of.options.CHUNK_UPDATES_DYNAMIC=动态更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=动态区块更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= 关 - (默认)每帧标准区块更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= 开 - 当玩家站立不动时更多的区块更新
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=当玩家站立不动时会使更多的区块更新
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=使得世界加载更快.
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=当玩家站立不动时会使更多的
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=区块更新使得世界加载更快.
 
 of.options.LAZY_CHUNK_LOADING=缓慢区块加载
 of.options.LAZY_CHUNK_LOADING.tooltip.1=缓慢区块加载
 of.options.LAZY_CHUNK_LOADING.tooltip.2= 关 - 默认的服务器区块载入
 of.options.LAZY_CHUNK_LOADING.tooltip.3= 开 - 缓慢地服务器区块载入(更平滑)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=通过分布在多个tick进行区块加载
-of.options.LAZY_CHUNK_LOADING.tooltip.5=从而平滑综合服务器区块加载.
+of.options.LAZY_CHUNK_LOADING.tooltip.4=将区块分布在多个"游戏刻"进行加载
+of.options.LAZY_CHUNK_LOADING.tooltip.5=从而平滑服务器整体区块加载.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正确的载入,请把它设置为关.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于本地世界和单核CPU的电脑.
 
-# Animations 动画
+# Animations
 
 of.options.animation.allOn=全部开启
 of.options.animation.allOff=全部关闭
@@ -447,13 +451,13 @@ of.options.ANIMATED_TERRAIN=地形动画
 of.options.ANIMATED_TEXTURES=材质动画
 of.options.FIREWORK_PARTICLES=烟花粒子
 
-# Other 其他
+# Other
 
 of.options.LAGOMETER=快速调试信息
 of.options.LAGOMETER.tooltip.1=在调试界面(F3)显示快速调试信息.
-of.options.LAGOMETER.tooltip.2=* 橙 - 内存无用单元回收
+of.options.LAGOMETER.tooltip.2=* 橙 - 内存垃圾回收
 of.options.LAGOMETER.tooltip.3=* 青 - 游戏刻
-of.options.LAGOMETER.tooltip.4=* 蓝 - 预定的可执行文件
+of.options.LAGOMETER.tooltip.4=* 蓝 - 预定可执行
 of.options.LAGOMETER.tooltip.5=* 紫 - 区块加载
 of.options.LAGOMETER.tooltip.6=* 红 - 区块更新
 of.options.LAGOMETER.tooltip.7=* 黄 - 能见度检查
@@ -461,10 +465,10 @@ of.options.LAGOMETER.tooltip.8=* 绿 - 渲染地形
 
 of.options.PROFILER=调试分析器
 of.options.PROFILER.tooltip.1=调试分析器
-of.options.PROFILER.tooltip.2=  开 - 调试分析器可用, 较慢
-of.options.PROFILER.tooltip.3=  关 - 调试分析器不可用, 较快
-of.options.PROFILER.tooltip.4=调试分析器收集并且显示调试信息
-of.options.PROFILER.tooltip.5=当调试界面是开启状态(F3)
+of.options.PROFILER.tooltip.2=  开 - 调试分析器启用, 较慢
+of.options.PROFILER.tooltip.3=  关 - 调试分析器禁用, 较快
+of.options.PROFILER.tooltip.4=在调试界面开启状态(F3)时
+of.options.PROFILER.tooltip.5=调试分析器收集并且显示调试信息
 
 of.options.WEATHER=天气
 of.options.WEATHER.tooltip.1=天气
@@ -487,8 +491,8 @@ of.options.TIME.tooltip.6=且为本地游戏时有效.
 options.fullscreen.tooltip.1=全屏
 options.fullscreen.tooltip.2=  开 - 使用全屏模式
 options.fullscreen.tooltip.3=  关 - 使用窗口模式
-options.fullscreen.tooltip.4=全屏模式可能比窗口模式更快或者更慢,
-options.fullscreen.tooltip.5=这取决于显卡.
+options.fullscreen.tooltip.4=全屏模式可能比窗口模式更快
+options.fullscreen.tooltip.5=或者更慢,这取决于显卡.
 
 of.options.FULLSCREEN_MODE=全屏模式
 of.options.FULLSCREEN_MODE.tooltip.1=全屏模式
@@ -515,4 +519,4 @@ of.options.AUTOSAVE_TICKS.tooltip.1=自动保存间隔
 of.options.AUTOSAVE_TICKS.tooltip.2=默认自动保存间隔(2秒) 不推荐.
 of.options.AUTOSAVE_TICKS.tooltip.3=自动保存导致了著名的"死亡卡顿".
 
-options.anaglyph.tooltip.1=3D模式请使用3D红蓝眼睛.
+options.anaglyph.tooltip.1=3D模式请使用3D红蓝眼鏡.
