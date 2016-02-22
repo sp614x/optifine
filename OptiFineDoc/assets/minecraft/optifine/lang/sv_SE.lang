@@ -1,12 +1,13 @@
 # Contributors of Swedish localization #
-#   Regnander 2016-01-18 ---- 2016-02-08
+#   Regnander 2016-01-18 ---- 2016-02-22
 
 # General
+of.general.ambiguous=tvetydlig
 of.general.custom=Anpassad
 of.general.from=Från
 of.general.id=ID
-of.general.restart=starta 
-of.general.ambiguous=tvetydlig
+of.general.restart=starta om
+of.general.smart=Smart
 
 # Message
 of.message.aa.shaders1=Kantutjämning är inte kompatibel med Shaders.
@@ -60,7 +61,7 @@ options.ao.tooltip.3=  Minimum - enkel ljusutjämning (långsammare)
 options.ao.tooltip.4=  Maximum - avancerad ljusutjämning (långsammast)
 
 options.framerateLimit.tooltip.1=Maximal bildfrekvens
-options.framerateLimit.tooltip.2=  VSync - använder bildskärmens bildfrekvens (60, 30, 20)
+options.framerateLimit.tooltip.2=  VSync - använder skärmens bildfrekvens (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - variabel
 options.framerateLimit.tooltip.4=  Oändlig - ingen begränsning (snabbast)
 options.framerateLimit.tooltip.5=Bildfrekvensens gräns reducerar bildfrekvensen även
@@ -305,9 +306,10 @@ of.options.TREES=Träd
 of.options.TREES.tooltip.1=Träd
 of.options.TREES.tooltip.2=  Standard - följer grafikinställningarna
 of.options.TREES.tooltip.3=  Snabbt - lägre kvalitet, snabbare
-of.options.TREES.tooltip.4=  Snyggt - högre kvalitet, långsammare
-of.options.TREES.tooltip.5=Snabba träd har ogenomskinliga löv.
-of.options.TREES.tooltip.6=Snygga träd har genomskinliga löv.
+of.options.TREES.tooltip.4=  Smart - högre kvalitet, snabbt
+of.options.TREES.tooltip.5=  Snyggt - högst kvalitet, långsammare
+of.options.TREES.tooltip.6=Snabba träd har ogenomskinliga löv.
+of.options.TREES.tooltip.7=Snygga och smarta träd har genomskinliga löv.
 
 of.options.RAIN=Regn och snö
 of.options.RAIN.tooltip.1=Regn och snö
@@ -370,9 +372,8 @@ of.options.VIGNETTE.tooltip.3=  Snabbt - vinjetten är inaktiverad (snabbare)
 of.options.VIGNETTE.tooltip.4=  Snyggt - vinjetten är aktiverad (långsammare)
 of.options.VIGNETTE.tooltip.5=Vinjetten kan ha en betydande verkan på bildfrekvensen,
 of.options.VIGNETTE.tooltip.6=speciellt när fullskärm är aktiverad.
-of.options.VIGNETTE.tooltip.7=Vinjetteffekten är riktigt diskret och kan stängas av utan
-of.options.VIGNETTE.tooltip.7=Vinjetteffekten är riktigt diskret och kan tas bort utan
-of.options.VIGNETTE.tooltip.8=någon fara.
+of.options.VIGNETTE.tooltip.7=Vinjetteffekten är riktigt diskret och kan stängas av
+of.options.VIGNETTE.tooltip.8=utan någon fara.
 
 # Performance
 
@@ -521,6 +522,6 @@ of.options.save.30min=30 min
 of.options.AUTOSAVE_TICKS=Autosparning
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning
 of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) REKOMMENDERAS INTE.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosparning är ökänt för att orsaka lag spikes.
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosparning är ökänd för att orsaka lag spikes.
 
 options.anaglyph.tooltip.1=3D-effekten används med röd-turkosa 3D-glasögon.
