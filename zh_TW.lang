@@ -494,7 +494,7 @@ options.fullscreen.tooltip.3=  關閉 - 使用視窗模式
 options.fullscreen.tooltip.4=全屏模式可能快過或慢過
 options.fullscreen.tooltip.5=視窗模式,這取決於顯卡.
 
-of.options.FULLSCREEN_MODE=全屏模式
+of.options.FULLSCREEN_MODE=全螢幕模式
 of.options.FULLSCREEN_MODE.tooltip.1=全屏模式
 of.options.FULLSCREEN_MODE.tooltip.2=  預設 - 使用桌面分辨率, 較慢
 of.options.FULLSCREEN_MODE.tooltip.3=  自定義 - 使用自定義的屏幕分辨率, 可能會更快
