@@ -125,7 +125,7 @@ of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
 
 of.options.shaders.ANTIALIASING=Antialiasing
-of.options.shaders.NORMAL_MAP=Normap Map
+of.options.shaders.NORMAL_MAP=Normal Map
 of.options.shaders.SPECULAR_MAP=Specular Map
 of.options.shaders.RENDER_RES_MUL=Render Quality
 of.options.shaders.SHADOW_RES_MUL=Shadow Quality
