@@ -1,9 +1,10 @@
 # General
+of.general.ambiguous=ambiguous
 of.general.custom=Custom
 of.general.from=From
 of.general.id=Id
 of.general.restart=restart
-of.general.ambiguous=ambiguous
+of.general.smart=Smart
 
 # Message
 of.message.aa.shaders1=Antialiasing is not compatible with Shaders.
@@ -301,9 +302,10 @@ of.options.TREES=Trees
 of.options.TREES.tooltip.1=Trees
 of.options.TREES.tooltip.2=  Default - as set by setting Graphics
 of.options.TREES.tooltip.3=  Fast - lower quality, faster
-of.options.TREES.tooltip.4=  Fancy - higher quality, slower
-of.options.TREES.tooltip.5=Fast trees have opaque leaves.
-of.options.TREES.tooltip.6=Fancy trees have transparent leaves.
+of.options.TREES.tooltip.4=  Smart - higher quality, fast
+of.options.TREES.tooltip.5=  Fancy - highest quality, slower
+of.options.TREES.tooltip.6=Fast trees have opaque leaves.
+of.options.TREES.tooltip.7=Fancy and smart trees have transparent leaves.
 
 of.options.RAIN=Rain & Snow
 of.options.RAIN.tooltip.1=Rain & Snow
