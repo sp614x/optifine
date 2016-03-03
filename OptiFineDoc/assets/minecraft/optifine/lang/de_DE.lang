@@ -6,7 +6,7 @@ of.general.custom=Anderes
 of.general.from=Von
 of.general.id=Id
 of.general.restart=Neustart
-of.general.ambiguous=Mehrdeutig
+of.general.smart=Fein
 
 # Message
 of.message.aa.shaders1=Antialiasing ist it Shaders nicht kompatibel.
@@ -304,9 +304,10 @@ of.options.TREES=Bäume
 of.options.TREES.tooltip.1=Bäume
 of.options.TREES.tooltip.2=  Standard - Wie Grafikeinstellungen
 of.options.TREES.tooltip.3=  Schnell - Schlechtere Qualität, schneller
-of.options.TREES.tooltip.4=  Schön - Höhere Qualität, langsamer
-of.options.TREES.tooltip.5=Schnelle Bäume haben undurchsichtige Blätter.
-of.options.TREES.tooltip.6=Schöne Bäume haben durchsichtige Blätter.
+of.options.TREES.tooltip.4=  Fein - Hohe Qualität, schnell
+of.options.TREES.tooltip.5=  Schön - Höchste Qualität, langsamer
+of.options.TREES.tooltip.6=Schnelle Bäume haben undurchsichtige Blätter.
+of.options.TREES.tooltip.7=Schöne Bäume haben durchsichtige Blätter.
 
 of.options.RAIN=Regen & Schnee
 of.options.RAIN.tooltip.1=Regen & Schnee
