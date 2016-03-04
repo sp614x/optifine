@@ -6,7 +6,7 @@
 ##-------------- zh_TW ---------------
 
 # General
-of.general.ambiguous=ambiguous
+of.general.ambiguous=不明確
 of.general.custom=自定義
 of.general.from=來自
 of.general.id=Id
@@ -24,13 +24,13 @@ of.message.fr.shaders1=快速渲染與光影不兼容.
 of.message.fr.shaders2=請關閉光影來啟用這個選項.
 
 of.message.shaders.aa1=光影與抗鋸齒不兼容. 
-of.message.shaders.aa2=請把 品質 -> 抗鋸齒 選項設置為 關 並且重啟你的遊戲.
+of.message.shaders.aa2=請把 品質 -> 抗鋸齒 選項設定為 關閉 並且重啟你的遊戲.
 
 of.message.shaders.af1=光影與各向異性過濾不兼容.
-of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設置為 關. 
+of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設置為 關閉. 
 
 of.message.shaders.fr1=光影與快速渲染不兼容.
-of.message.shaders.fr2=請把 性能 -> 快速渲染 選項設置為 關.
+of.message.shaders.fr2=請把 性能 -> 快速渲染 選項設定為 關閉.
 
 of.message.newVersion=新的§eOptiFine§f版本可以使用了: §e%s§f
 of.message.java64Bit=你可以安裝§e64位元Java§f來提升性能
@@ -48,7 +48,7 @@ options.graphics.tooltip.3=  畫質優先 - 高畫質, 較慢
 options.graphics.tooltip.4=改變雲、樹葉、水、
 options.graphics.tooltip.5=陰影和草地的外觀.
 
-of.options.renderDistance.extreme=極限
+of.options.renderDistance.extreme=最遠
 
 options.renderDistance.tooltip.1=視野
 options.renderDistance.tooltip.2=  2 最近 - 32m (最快)
@@ -56,19 +56,19 @@ options.renderDistance.tooltip.3=  4 近 - 64m (較快)
 options.renderDistance.tooltip.4=  8 中等 - 128m
 options.renderDistance.tooltip.5=  16 遠 - 256m (較慢)
 options.renderDistance.tooltip.6=  32 最遠 - 512m (最慢!)
-options.renderDistance.tooltip.7=極限視野設定非常消耗資源!
+options.renderDistance.tooltip.7=最遠的視野設定非常消耗資源!
 options.renderDistance.tooltip.8= 16 以上的視野值只在本地世界有效.
 
 options.ao.tooltip.1=柔和化照明效果
-options.ao.tooltip.2=  關 - 沒有柔和化照明 (較快)
+options.ao.tooltip.2=  關閉 - 沒有柔和化照明 (較快)
 options.ao.tooltip.3=  最小值 - 簡單柔和化照明 (較慢)
 options.ao.tooltip.4=  最大值 - 複雜柔和化照明 (最慢)
 
-options.framerateLimit.tooltip.1=最大幀率
-options.framerateLimit.tooltip.2=  垂直同步 - 受限於顯示器幀率(60, 30, 20)
+options.framerateLimit.tooltip.1=最大FPS
+options.framerateLimit.tooltip.2=  垂直同步 - 受限於顯示器FPS(60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - 可變
 options.framerateLimit.tooltip.4=  無限制 - 無限制(最快)
-options.framerateLimit.tooltip.5=幀率上限將降低FPS
+options.framerateLimit.tooltip.5=FPS上限會影響性能
 options.framerateLimit.tooltip.6=即使其未達上限值.
 of.options.framerateLimit.vsync=垂直同步
 
@@ -89,7 +89,7 @@ options.vbo.tooltip.2=使用一種替選的渲染模式通常
 options.vbo.tooltip.3=可以比默認渲染快(5-10%%).
 
 options.gamma.tooltip.1=增加較暗物體的亮度
-options.gamma.tooltip.2=  關 - 標準亮度
+options.gamma.tooltip.2=  關閉 - 標準亮度
 options.gamma.tooltip.3=  100%% - 最大亮度
 options.gamma.tooltip.4=此選項不會改變完全
 options.gamma.tooltip.5=黑色的物體的亮度
@@ -107,7 +107,7 @@ of.options.FOG_FANCY=迷霧
 of.options.FOG_FANCY.tooltip.1=迷霧類型
 of.options.FOG_FANCY.tooltip.2=  性能優先 - 較流暢的迷霧
 of.options.FOG_FANCY.tooltip.3=  畫質優先 - 較慢的迷霧,質量更佳
-of.options.FOG_FANCY.tooltip.4=  關 - 無迷霧,最快
+of.options.FOG_FANCY.tooltip.4=  關閉 - 無迷霧,最快
 of.options.FOG_FANCY.tooltip.5=畫質優先的迷霧只在 
 of.options.FOG_FANCY.tooltip.6=顯卡支持下可用.
 
@@ -170,7 +170,7 @@ of.options.mipmap.trilinear=三線性
 
 options.mipmapLevels.tooltip.1=通過柔和化材質細節,使遠處的
 options.mipmapLevels.tooltip.2=物體看起來更好的視覺效果
-options.mipmapLevels.tooltip.3=  關 - 無柔和化
+options.mipmapLevels.tooltip.3=  關閉 - 無柔和化
 options.mipmapLevels.tooltip.4=  1 - 最小柔和化
 options.mipmapLevels.tooltip.5=  4 - 最大柔和化
 options.mipmapLevels.tooltip.6=此選項通常不影響性能.
@@ -186,7 +186,7 @@ of.options.MIPMAP_TYPE.tooltip.6=  三線性 - 最佳柔和化(最慢)
 
 of.options.AA_LEVEL=抗鋸齒
 of.options.AA_LEVEL.tooltip.1=抗鋸齒
-of.options.AA_LEVEL.tooltip.2= 關 - (默認)無抗鋸齒(較快)
+of.options.AA_LEVEL.tooltip.2= 關閉 - (預設)無抗鋸齒(較快)
 of.options.AA_LEVEL.tooltip.3= 2-16 - 對線和邊緣使用抗鋸齒(較慢)
 of.options.AA_LEVEL.tooltip.4=反鋸齒將平滑鋸齒線
 of.options.AA_LEVEL.tooltip.5=和銳利的色彩過渡.
@@ -293,7 +293,7 @@ of.options.CUSTOM_ITEMS.tooltip.5=當前的材質包提供
 
 of.options.CLOUDS=雲塊
 of.options.CLOUDS.tooltip.1=雲塊
-of.options.CLOUDS.tooltip.2=  預設 - 以「圖像品質」的設定為準
+of.options.CLOUDS.tooltip.2=  預設 - 以圖像畫質的設定為準
 of.options.CLOUDS.tooltip.3=  性能優先 - 低品質,較快
 of.options.CLOUDS.tooltip.4=  畫質優先 - 高品質,較慢
 of.options.CLOUDS.tooltip.5=  關閉 - 沒有雲, 最快
@@ -307,7 +307,7 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - 超過世界限定高度
 
 of.options.TREES=樹
 of.options.TREES.tooltip.1=樹
-of.options.TREES.tooltip.2=  預設 - 以圖像的品質設定為標準
+of.options.TREES.tooltip.2=  預設 - 以圖像畫質設定為標準
 of.options.TREES.tooltip.3=  性能優先 - 低品質, 較快
 of.options.TREES.tooltip.4=  智能 - 高品質, 快
 of.options.TREES.tooltip.4=  畫質優先 - 較高品質, 較慢
@@ -316,7 +316,7 @@ of.options.TREES.tooltip.6=畫質優先的樹葉透明.
 
 of.options.RAIN=雨 & 雪
 of.options.RAIN.tooltip.1=雨 & 雪
-of.options.RAIN.tooltip.2=  預設 - 以「圖形品質」的設定為準
+of.options.RAIN.tooltip.2=  預設 - 以圖像畫質的設定為準
 of.options.RAIN.tooltip.3=  性能優先  - 少量的雨/雪,較快
 of.options.RAIN.tooltip.4=  畫質優先 - 大量的雨/雪,較慢
 of.options.RAIN.tooltip.5=  關閉 - 沒有雨/雪, 最快
@@ -359,7 +359,7 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  關閉 - 隱藏持有物信息
 
 of.options.DROPPED_ITEMS=掉落物品
 of.options.DROPPED_ITEMS.tooltip.1=掉落物品
-of.options.DROPPED_ITEMS.tooltip.2=  預設 - 以「圖形品質」的設定為準
+of.options.DROPPED_ITEMS.tooltip.2=  預設 - 以圖像畫質的設定為準
 of.options.DROPPED_ITEMS.tooltip.3=  性能優先 - 2D掉落物品, 較快
 of.options.DROPPED_ITEMS.tooltip.4=  畫質優先 - 3D掉落物品, 較慢
 
@@ -369,7 +369,7 @@ options.entityShadows.tooltip.3=  關閉 - 隱藏實體陰影
 
 of.options.VIGNETTE=暈影
 of.options.VIGNETTE.tooltip.1=螢幕四角輕微變暗的視覺效果
-of.options.VIGNETTE.tooltip.2=  預設 - 以「圖形品質」的設定為準(預設)
+of.options.VIGNETTE.tooltip.2=  預設 - 以圖像畫質的設定為準(預設)
 of.options.VIGNETTE.tooltip.3=  性能優先 - 暈影關閉(較快)
 of.options.VIGNETTE.tooltip.4=  畫質優先 - 暈影開啟(較慢)
 of.options.VIGNETTE.tooltip.5=暈影可能對FPS有顯著的影響,
@@ -413,7 +413,7 @@ of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界載入速度較慢, FPS較高 (預
 of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界載入速度較快, FPS較低
 of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界載入速度最快, FPS最低
 of.options.CHUNK_UPDATES.tooltip.5=渲染每幀時更新的區塊數,
-of.options.CHUNK_UPDATES.tooltip.6=更高的值將會導致幀數不穩定.
+of.options.CHUNK_UPDATES.tooltip.6=更高的值將會導致FPS不穩定.
 
 of.options.CHUNK_UPDATES_DYNAMIC=動態更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=動態更新
@@ -428,7 +428,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.2= 關閉 - 默認的服務器區塊載入
 of.options.LAZY_CHUNK_LOADING.tooltip.3= 開啟 - 平緩服務器區塊載入(更柔和)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=將區塊分佈在多個"遊戲刻"進行載入
 of.options.LAZY_CHUNK_LOADING.tooltip.5=從而柔和化服務器整體區塊載入.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正確的載入,請把它設置為關.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正確的載入,請把它設置為關閉.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=僅適用於本地世界和單核CPU的電腦.
 
 # Animations
@@ -460,8 +460,8 @@ of.options.FIREWORK_PARTICLES=煙花粒子
 of.options.LAGOMETER=快速調試信息
 of.options.LAGOMETER.tooltip.1=顯示調試信息在調試界面 (F3).
 of.options.LAGOMETER.tooltip.2=* 橙 - 內存垃圾回收
-of.options.LAGOMETER.tooltip.3=* 青 - 遊戲刻
-of.options.LAGOMETER.tooltip.4=* 藍 - 預定可執行
+of.options.LAGOMETER.tooltip.3=* 青 - 勾
+of.options.LAGOMETER.tooltip.4=* 藍 - 預定的可執行文件
 of.options.LAGOMETER.tooltip.5=* 紫 - 區塊載入
 of.options.LAGOMETER.tooltip.6=* 紅 - 區塊更新
 of.options.LAGOMETER.tooltip.7=* 黃 - 能見度檢查
@@ -521,6 +521,6 @@ of.options.save.30min=30分鐘
 of.options.AUTOSAVE_TICKS=自動保存
 of.options.AUTOSAVE_TICKS.tooltip.1=自動保存間隔
 of.options.AUTOSAVE_TICKS.tooltip.2=默認自動保存間隔(2秒) 不推薦.
-of.options.AUTOSAVE_TICKS.tooltip.3=自動保存導致了著名的"死亡卡頓".
+of.options.AUTOSAVE_TICKS.tooltip.3=自動保存會導致卡頓.
 
 options.anaglyph.tooltip.1=3D模式請使用3D紅藍眼鏡.
