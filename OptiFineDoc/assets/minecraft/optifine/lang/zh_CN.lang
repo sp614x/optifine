@@ -1,14 +1,16 @@
 # Contributors of Chinese localization #
+#   Degh_Cilon_ From WAWCraft 2016-2-18
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
 
 # General
+of.general.ambiguous=模糊
 of.general.custom=自定义
 of.general.from=来自
 of.general.id=Id
 of.general.restart=重启游戏
-of.general.ambiguous=ambiguous
+of.general.smart=智能
 
 # Message
 of.message.aa.shaders1=抗锯齿与光影不兼容.
@@ -306,6 +308,7 @@ of.options.TREES=树
 of.options.TREES.tooltip.1=树
 of.options.TREES.tooltip.2=  默认 - 以“图形品质”的设定为准
 of.options.TREES.tooltip.3=  流畅 - 低品质,较快
+of.options.TREES.tooltip.4=  智能 - 中等品质,中等速度
 of.options.TREES.tooltip.4=  高品质 - 高品质,较慢
 of.options.TREES.tooltip.5=低品质的树叶不透明.
 of.options.TREES.tooltip.6=高品质的树叶透明镂空.
