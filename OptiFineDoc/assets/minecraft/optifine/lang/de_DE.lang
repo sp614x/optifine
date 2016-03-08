@@ -10,39 +10,39 @@ of.general.restart=Neustart
 of.general.smart=Fein
 
 # Message
-of.message.aa.shaders1=Antialiasing ist it Shaders nicht kompatibel.
-of.message.aa.shaders2=Bitte deaktiviere Shaders um diese Einstellung zu aktivieren.
+of.message.aa.shaders1=Antialiasing ist mit Shader-Effekten nicht kompatibel.
+of.message.aa.shaders2=Bitte deaktiviere Shader-Effekte um diese Einstellung zu aktivieren.
 
-of.message.af.shaders1=Anistropische Filterung ist nicht mit Shaders kompatibel.
-of.message.af.shaders2=Bitte deaktiviere Shaders um diese Einstellung zu aktivieren.
+of.message.af.shaders1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
+of.message.af.shaders2=Bitte deaktiviere Shader-Effekte um diese Einstellung zu aktivieren.
 
-of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shaders kompatibel.
-of.message.fr.shaders2=Bitte deaktiviere Shaders um diese Einstellung zu aktivieren.
+of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
+of.message.fr.shaders2=Bitte deaktiviere Shader-Effekte um diese Einstellung zu aktivieren.
 
-of.message.shaders.aa1=Antialiasing ist nicht mit Shaders kompatibel. 
+of.message.shaders.aa1=Antialiasing ist nicht mit Shader-Effekten kompatibel. 
 of.message.shaders.aa2=Bitte stelle Qualität -> Antialiasing auf AUS und starte das Spiel neu.
 
-of.message.shaders.af1=Anistropische Filterung ist nicht mit Shaders kompatibel.
+of.message.shaders.af1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
 of.message.shaders.af2=Bitte stelle Qualität -> Anistropische Filterung auf AUS.
 
-of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shaders kompatibel.
+of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
 of.message.shaders.fr2=Bitte stelle Leistung -> Schnelles Rendern auf AUS.
 
 of.message.newVersion=Eine neue Version von §eOptiFine§f ist verfügbar: §e%s§f
 of.message.java64Bit=Du kannst §e64-bit Java§f installieren, um die Leistung zu verbessern
 of.message.openglError=§eOpenGL Fehler§f: %s (%s)
 
-of.message.shaders.loading=Lade Shaders: %s
+of.message.shaders.loading=Lade Shader-Effekte: %s
 
-of.message.other.reset=Alle Videoeinstellungen zu deren Standardwerte setzen?
+of.message.other.reset=Alle Videoeinstellungen auf die Standardwerte zurücksetzen?
  
 # Video settings
 
 options.graphics.tooltip.1=Visuelle Qualität
 options.graphics.tooltip.2=  Schnell - Schlechtere Qualität, schneller
 options.graphics.tooltip.3=  Schön   - Höhere Qualität, langsamer
-options.graphics.tooltip.4=Verändert das Aussehen der Wolken, Blätter, Wasser,
-options.graphics.tooltip.5=Schatten und Grasseiten.
+options.graphics.tooltip.4=Verändert das Aussehen der Wolken, Blätter, Grasseiten,
+options.graphics.tooltip.5=Schatten und von Wasser.
 
 of.options.renderDistance.extreme=Extrem
 
@@ -61,12 +61,12 @@ options.ao.tooltip.3=  Minimum - einfache weiche Beleuchtung (langsam)
 options.ao.tooltip.4=  Maximum - komplexe weiche Beleuchtung (am langsamsten)
 
 options.framerateLimit.tooltip.1=Maximale Bildwiederholrate
-options.framerateLimit.tooltip.2=  VSync - auf Monitor-Bildwiederholrate beschränken (60, 30, 20)
+options.framerateLimit.tooltip.2=  V-Sync - auf Monitor-Bildwiederholrate beschränken (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - variabel
 options.framerateLimit.tooltip.4=  Unendlich - kein Limit (am schnellsten)
 options.framerateLimit.tooltip.5=Die Bildwiederholrate beschränkt die FPS, sogar wenn
 options.framerateLimit.tooltip.6=das Limit nicht erreicht ist.
-of.options.framerateLimit.vsync=VSync
+of.options.framerateLimit.vsync=V-Sync
 
 of.options.AO_LEVEL=Weiche Beleuchtungsstufen
 of.options.AO_LEVEL.tooltip.1=Weiche Beleuchtungsstufen
@@ -78,11 +78,11 @@ options.viewBobbing.tooltip.1=Realistischere Bewegung
 options.viewBobbing.tooltip.2=Wenn Mipmaps verwendet werden, stelle es auf AUS für beste Ergebnisse.
 
 options.guiScale.tooltip.1=GUI-Größe
-options.guiScale.tooltip.2=Kleinere GUI sind eventuell schneller
+options.guiScale.tooltip.2=Eine kleinere GUI ist eventuell schneller
 
 options.vbo.tooltip.1=Vertexbufferobjekte
 options.vbo.tooltip.2=Benutzt ein alternatives Rendering-Modell, das normalerweise
-options.vbo.tooltip.3=schneller ist (5-10%%) als das Standard-Rendering.
+options.vbo.tooltip.3=(5-10%%) schneller ist als das Standard-Rendering.
 
 options.gamma.tooltip.1=Erhöht die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  AUS - Standardhelligkeit
@@ -97,7 +97,7 @@ options.anaglyph.tooltip.4=Benötigt eine Rot-Cyan-Brille für korrekte Sicht.
 
 options.blockAlternatives.tooltip.1=Alternative Blöcke
 options.blockAlternatives.tooltip.2=Benutzt alternative Blockmodelle für ein paar Blöcke.
-options.blockAlternatives.tooltip.3=Kommt auf das ausgewählte Resourcepack an.
+options.blockAlternatives.tooltip.3=Kommt auf das ausgewählte Ressourcenpaket an.
 
 of.options.FOG_FANCY=Nebel
 of.options.FOG_FANCY.tooltip.1=Nebeltyp
@@ -115,18 +115,18 @@ of.options.FOG_START.tooltip.4=Diese Option beeinflusst normalerweise nicht die 
 
 of.options.CHUNK_LOADING=Chunkladen
 of.options.CHUNK_LOADING.tooltip.1=Chunkladen
-of.options.CHUNK_LOADING.tooltip.2=  Standard - FPS unstabil, wenn Chunks geladen werden
-of.options.CHUNK_LOADING.tooltip.3=  Weich - FPS stabil
-of.options.CHUNK_LOADING.tooltip.4=  Multi-Kern - FPS stabil, 3x schnelleres Weltladen
-of.options.CHUNK_LOADING.tooltip.5=Weich und Multi-Kern entfernen das Gestotter und
-of.options.CHUNK_LOADING.tooltip.6=Einfieren, verursacht durch Chunkladen.
+of.options.CHUNK_LOADING.tooltip.2=  Standard - unstabile FPS, wenn Chunks geladen werden
+of.options.CHUNK_LOADING.tooltip.3=  Weich - stabile FPS
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Kern - stabile FPS, 3x schnelleres Weltladen
+of.options.CHUNK_LOADING.tooltip.5=Weich und Multi-Kern entfernen Ruckler und
+of.options.CHUNK_LOADING.tooltip.6=Standbilder, welche durch Chunkladen verursacht werden.
 of.options.CHUNK_LOADING.tooltip.7=Multi-Kern kann das Weltladen 3x schneller machen und
 of.options.CHUNK_LOADING.tooltip.8=die FPS erhöhen, indem es einen zweiten CPU-Kern benutzt.
 of.options.chunkLoading.smooth=Weich
 of.options.chunkLoading.multiCore=Multi-Kern
 
-of.options.shaders=Shader...
-of.options.shadersTitle=Shader
+of.options.shaders=Shader-Effekte...
+of.options.shadersTitle=Shader-Effekte
 
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.NORMAL_MAP=Normale Karte
@@ -208,7 +208,7 @@ of.options.RANDOM_MOBS.tooltip.1=Verschiedene Mobs
 of.options.RANDOM_MOBS.tooltip.2=  AUS - keine verschiedenen Mobs, schneller
 of.options.RANDOM_MOBS.tooltip.3=  AN - verschiedene Mobs, langsamer
 of.options.RANDOM_MOBS.tooltip.4=Verschiedene Mobs benutzt verschiedene Texturen für Mobs.
-of.options.RANDOM_MOBS.tooltip.5=Dies benötigt ein Texturepack mit mehreren Mobtexturen.
+of.options.RANDOM_MOBS.tooltip.5=Dies benötigt ein Ressourcenpaket mit mehreren Mobtexturen.
 
 of.options.BETTER_GRASS=Besseres Gras
 of.options.BETTER_GRASS.tooltip.1=Besseres Gras
@@ -228,14 +228,14 @@ of.options.CUSTOM_FONTS.tooltip.1=Eigene Schriftarten
 of.options.CUSTOM_FONTS.tooltip.2=  AN - Benutzt verschiedene Schriftarten (Standard), langsamer
 of.options.CUSTOM_FONTS.tooltip.3=  AUS - Benutzt Standardschriftart, schneller
 of.options.CUSTOM_FONTS.tooltip.4=Die eigenen Schriftarten werden aus dem derzeitigen
-of.options.CUSTOM_FONTS.tooltip.5=Texturenpaket geladen
+of.options.CUSTOM_FONTS.tooltip.5=Ressourcenpaket geladen
 
 of.options.CUSTOM_COLORS=Eigene Farben
 of.options.CUSTOM_COLORS.tooltip.1=Eigene Farben
 of.options.CUSTOM_COLORS.tooltip.2=  AN - Benutzt eigene Farben (Standard), langsamer
 of.options.CUSTOM_COLORS.tooltip.3=  AUS - Benutzt Standardfarben, schneller
 of.options.CUSTOM_COLORS.tooltip.4=Die eigenen Farben werden aus dem derzeitigen
-of.options.CUSTOM_COLORS.tooltip.5=Texturenpaket geladen
+of.options.CUSTOM_COLORS.tooltip.5=Ressourcenpaket geladen
 
 of.options.SWAMP_COLORS=Sumpffarben
 of.options.SWAMP_COLORS.tooltip.1=Sumpffarben
@@ -259,7 +259,7 @@ of.options.CONNECTED_TEXTURES.tooltip.4=  Schöne - Schöne verbundene Texturen
 of.options.CONNECTED_TEXTURES.tooltip.5=Verbundene Texturen verbinden die Texturen von Glas,
 of.options.CONNECTED_TEXTURES.tooltip.6=Sandstein und Bücherregalen, wenn sie nebeneinander
 of.options.CONNECTED_TEXTURES.tooltip.7=platziert werden. Die verbundenen Texturen werden aus dem
-of.options.CONNECTED_TEXTURES.tooltip.8=derzeitigen Texturenpaket geladen.
+of.options.CONNECTED_TEXTURES.tooltip.8=derzeitigen Ressourcenpaket geladen.
 
 of.options.NATURAL_TEXTURES=Natürliche Texturen
 of.options.NATURAL_TEXTURES.tooltip.1=Natürliche Texturen
@@ -269,21 +269,21 @@ of.options.NATURAL_TEXTURES.tooltip.4=Natürliche Texturen entfernen die tabelle
 of.options.NATURAL_TEXTURES.tooltip.5=Anordnung, erzeugt durch Platzieren von gleichen Blöcken.
 of.options.NATURAL_TEXTURES.tooltip.6=Dies benutzt gedrehte und umgekehrte Varianten der Standard-
 of.options.NATURAL_TEXTURES.tooltip.7=Blocktextur. Die Einstellungen für die natürlichen Texturen
-of.options.NATURAL_TEXTURES.tooltip.8=werden aus dem derzeitigen Texturenpaket geladen.
+of.options.NATURAL_TEXTURES.tooltip.8=werden aus dem derzeitigen Ressourcenpaket geladen.
 
 of.options.CUSTOM_SKY=Eigener Himmel
 of.options.CUSTOM_SKY.tooltip.1=Eigener Himmel
 of.options.CUSTOM_SKY.tooltip.2=  AN - Eigene Himmeltexturen (Standard), langsam
 of.options.CUSTOM_SKY.tooltip.3=  AUS - Standardhimmel, schneller
 of.options.CUSTOM_SKY.tooltip.4=Die eigenen Himmeltexturen werden aus dem derzeitigen
-of.options.CUSTOM_SKY.tooltip.5=Texturenpaket geladen.
+of.options.CUSTOM_SKY.tooltip.5=Ressourcenpaket geladen.
 
 of.options.CUSTOM_ITEMS=Eigene Items
 of.options.CUSTOM_ITEMS.tooltip.1=Eigene Itemexturen
 of.options.CUSTOM_ITEMS.tooltip.2=  AN - Eigene Itemtexturen (Standard), langsam
 of.options.CUSTOM_ITEMS.tooltip.3=  AUS - Standard Itemtexturen, schneller
 of.options.CUSTOM_ITEMS.tooltip.4=Die eigenen Itemtexturen werden aus dem derzeitigen
-of.options.CUSTOM_ITEMS.tooltip.5=Texturenpaket geladen.
+of.options.CUSTOM_ITEMS.tooltip.5=Ressourcenpaket geladen.
 
 # Details
 
@@ -321,14 +321,14 @@ of.options.RAIN.tooltip.7=trotzdem noch aktiv.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
-of.options.SKY.tooltip.2=  AN - Himmel ist sehbar, langsamer
-of.options.SKY.tooltip.3=  AUS  - Himmel ist nicht sehbar, schneller
-of.options.SKY.tooltip.4=Wenn Himmel AUS ist, sind der Mond und die Sonne trotzdem noch sehbar.
+of.options.SKY.tooltip.2=  AN - Himmel ist sichtbar, langsamer
+of.options.SKY.tooltip.3=  AUS  - Himmel ist nicht sichtbar, schneller
+of.options.SKY.tooltip.4=Wenn Himmel AUS ist, sind der Mond und die Sonne trotzdem noch sichtbar.
 
 of.options.STARS=Sterne
 of.options.STARS.tooltip.1=Sterne
-of.options.STARS.tooltip.2=  AN - Sterne sind sehbar, langsamer
-of.options.STARS.tooltip.3=  AUS  - Sterne ist nicht sehbar, schneller
+of.options.STARS.tooltip.2=  AN - Sterne sind sichtbar, langsamer
+of.options.STARS.tooltip.3=  AUS  - Sterne ist nicht sichtbar, schneller
 
 of.options.SUN_MOON=Sonne & Mond
 of.options.SUN_MOON.tooltip.1=Sonne & Mond
@@ -383,7 +383,7 @@ of.options.SMOOTH_FPS.tooltip.4=Diese Option ist Grafikkartentreiberabhängig un
 of.options.SMOOTH_FPS.tooltip.5=ist nicht immer spürbar.
 
 of.options.SMOOTH_WORLD=Weiche Welt
-of.options.SMOOTH_WORLD.tooltip.1=Entfernt Lagspitzen, verursacht durch den internen Server.
+of.options.SMOOTH_WORLD.tooltip.1=Entfernt Laggspitzen, verursacht durch den internen Server.
 of.options.SMOOTH_WORLD.tooltip.2=  AUS - Keine Stabilisierung, FPS könnten schwanken
 of.options.SMOOTH_WORLD.tooltip.3=  AN - FPS-Stabilisierung
 of.options.SMOOTH_WORLD.tooltip.4=Stabilisiert die FPS, indem der interne Serverladevorgang aufgeteilt wird.
@@ -407,7 +407,7 @@ of.options.CHUNK_UPDATES=Chunk-Aktualisierungen
 of.options.CHUNK_UPDATES.tooltip.1=Chunk-Aktualisierungen
 of.options.CHUNK_UPDATES.tooltip.2= 1 - Langsameres Weltladen, höhere FPS (Standard)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - Schnelleres Weltladen, niedrigere FPS
-of.options.CHUNK_UPDATES.tooltip.4= 5 - Schnellstes Weltladen, höchste FPS
+of.options.CHUNK_UPDATES.tooltip.4= 5 - Schnellstes Weltladen, niedrigste FPS-Rate
 of.options.CHUNK_UPDATES.tooltip.5=Zahl an Chunk Updates pro gerendertes Bild,
 of.options.CHUNK_UPDATES.tooltip.6=höhere Werte könnten die Bildwiederholrate destabilisieren.
 
@@ -433,22 +433,22 @@ of.options.animation.allOn=Alle AN
 of.options.animation.allOff=Alle AUS
 of.options.animation.dynamic=Dynamisch
 
-of.options.ANIMATED_WATER=Wasser Animiert
-of.options.ANIMATED_LAVA=Lava Animiert
-of.options.ANIMATED_FIRE=Feuer Animiert
-of.options.ANIMATED_PORTAL=Portal Animiert
-of.options.ANIMATED_REDSTONE=Redstone Animiert
-of.options.ANIMATED_EXPLOSION=Explosion Animiert
-of.options.ANIMATED_FLAME=Flamme Animiert
-of.options.ANIMATED_SMOKE=Rauch Animiert
+of.options.ANIMATED_WATER=Animiertes Wasser
+of.options.ANIMATED_LAVA=Animierte Lava
+of.options.ANIMATED_FIRE=Animiertes Feuer
+of.options.ANIMATED_PORTAL=Animierte Portale
+of.options.ANIMATED_REDSTONE=Animiertes Redstone
+of.options.ANIMATED_EXPLOSION=Animierte Explosion
+of.options.ANIMATED_FLAME=Animierte Flammen
+of.options.ANIMATED_SMOKE=Animierter Rauch
 of.options.VOID_PARTICLES=Leerenpartikel
 of.options.WATER_PARTICLES=Wasserpartikel
 of.options.RAIN_SPLASH=Regengeplätscher
 of.options.PORTAL_PARTICLES=Portalpartikel
 of.options.POTION_PARTICLES=Trankpartikel
 of.options.DRIPPING_WATER_LAVA=Tropfendes Wasser/Lava
-of.options.ANIMATED_TERRAIN=Gelände Animiert
-of.options.ANIMATED_TEXTURES=Texturen Animiert
+of.options.ANIMATED_TERRAIN=Animiertes Gelände
+of.options.ANIMATED_TEXTURES=Animierte Texturen
 of.options.FIREWORK_PARTICLES=Feuerwerkpartikel
 
 # Other
@@ -491,8 +491,8 @@ of.options.TIME.tooltip.6=in lokalen Welten effektiv.
 options.fullscreen.tooltip.1=Vollbildschirm
 options.fullscreen.tooltip.2=  AN - Benutze Vollbildschirmmodus
 options.fullscreen.tooltip.3=  AUS - Benutze Fenstermodus
-options.fullscreen.tooltip.4=Vollbildschirmmodus könnte schneller oder langsamer sein als
-options.fullscreen.tooltip.5=Fenstermodus, kommt auf Grafikkarte an.
+options.fullscreen.tooltip.4=Der Vollbildschirmmodus könnte schneller oder langsamer sein als
+options.fullscreen.tooltip.5=der Fenstermodus, kommt auf die Grafikkarte an.
 
 of.options.FULLSCREEN_MODE=Vollbildschirmmodus
 of.options.FULLSCREEN_MODE.tooltip.1=Vollbildschirmmodus
