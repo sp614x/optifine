@@ -1,8 +1,7 @@
 # Contributors of Swedish localization #
-#   Regnander 2016-01-18 ---- 2016-02-22
+#   Regnander 2016-01-18 ---- 2016-03-14
 
 # General
-of.general.ambiguous=tvetydlig
 of.general.custom=Anpassad
 of.general.from=Från
 of.general.id=ID
@@ -34,7 +33,7 @@ of.message.openglError=§eOpenGL-fel§f: %s (%s)
 
 of.message.shaders.loading=Läser in shaders: %s
 
-of.message.other.reset=Återställ alla videoinställningar till dess standardvärden?
+of.message.other.reset=Återställ alla grafikinställningar till dess standardvärden?
  
 # Video settings
 
@@ -116,13 +115,13 @@ of.options.FOG_START.tooltip.4=Detta alternativ påverkar vanligtvis inte presta
 of.options.CHUNK_LOADING=Chunkinläsning
 of.options.CHUNK_LOADING.tooltip.1=Chunkinläsning
 of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när chunks läses in
-of.options.CHUNK_LOADING.tooltip.3=  Stabil - stabil bildfrekvens
+of.options.CHUNK_LOADING.tooltip.3=  Jämn - stabil bildfrekvens
 of.options.CHUNK_LOADING.tooltip.4=  Flerkärnig - stabil bildfrekvens, 3x snabbare inläsning
-of.options.CHUNK_LOADING.tooltip.5=Stabil och Flerkärnig tar bort ryckningar och
+of.options.CHUNK_LOADING.tooltip.5=Jämn och Flerkärnig tar bort ryckningar och
 of.options.CHUNK_LOADING.tooltip.6=frysningar som orsakas av inlästa chunkar.
 of.options.CHUNK_LOADING.tooltip.7=Flerkärnig kan påskynda världens inläsning med 3x
 of.options.CHUNK_LOADING.tooltip.8=och höja bildfrekvensen med en andra processorkärna.
-of.options.chunkLoading.smooth=Stabil
+of.options.chunkLoading.smooth=Jämn
 of.options.chunkLoading.multiCore=Flerkärnig
 
 of.options.shaders=Shader...
@@ -153,7 +152,7 @@ of.options.animationsTitle=Animeringsinställningar
 of.options.other=Övrigt...
 of.options.otherTitle=Övriga inställningar
 
-of.options.other.reset=Återställ videoinställningar...
+of.options.other.reset=Återställ grafikinställningar...
 
 of.shaders.profile=Profil
 
@@ -192,7 +191,7 @@ of.options.AA_LEVEL.tooltip.8=Kräver OMSTART!
 
 of.options.AF_LEVEL=Anisotropisk filtrering
 of.options.AF_LEVEL.tooltip.1=Anisotropisk filtrering
-of.options.AF_LEVEL.tooltip.2=  AV - (standard) standard texture detail (snabbare)
+of.options.AF_LEVEL.tooltip.2=  AV - (standard) standarddetaljer för texturer (snabbare)
 of.options.AF_LEVEL.tooltip.3=  2-16 - finare detaljer i mipmaptexturer (långsammare)
 of.options.AF_LEVEL.tooltip.4=Anisotropiska filtreringen återställer detaljer i
 of.options.AF_LEVEL.tooltip.5=mipmaptexturer.
@@ -244,12 +243,12 @@ of.options.SWAMP_COLORS.tooltip.3=  AV - använd inte träskfärger, snabbare
 of.options.SWAMP_COLORS.tooltip.4=Träskfärgerna påverkar gräs, löv, klätterväxter och
 of.options.SWAMP_COLORS.tooltip.5=vatten.
 
-of.options.SMOOTH_BIOMES=Utjämnade biomer
-of.options.SMOOTH_BIOMES.tooltip.1=Utjämnade biomer
-of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biomkanter jämnas ut (standard), långsammare
-of.options.SMOOTH_BIOMES.tooltip.3=  AV - biomkanter jämnas inte ut, snabbare
-of.options.SMOOTH_BIOMES.tooltip.4=Biomkanterna jämnas ut genom att sampla och beräkna
-of.options.SMOOTH_BIOMES.tooltip.5=medeltalet av färgen för alla block runtomkring.
+of.options.SMOOTH_BIOMES=Utjämnade biotoper
+of.options.SMOOTH_BIOMES.tooltip.1=Utjämnade biotoper
+of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biotopkanter jämnas ut (standard), långsammare
+of.options.SMOOTH_BIOMES.tooltip.3=  AV - biotopkanter jämnas inte ut, snabbare
+of.options.SMOOTH_BIOMES.tooltip.4=biotopkanterna jämnas ut genom att sampla och beräkna
+of.options.SMOOTH_BIOMES.tooltip.5=medelvärdet av färgen för alla block runtomkring.
 of.options.SMOOTH_BIOMES.tooltip.6=Gräs, löv, klätterväxter och vatten påverkas.
 
 of.options.CONNECTED_TEXTURES=Anslutande texturer
@@ -317,8 +316,7 @@ of.options.RAIN.tooltip.2=  Standard - följer grafikinställningarna
 of.options.RAIN.tooltip.3=  Snabbt - lätt regn/snö, snabbare
 of.options.RAIN.tooltip.4=  Snyggt - tungt regn/snö, långsammare
 of.options.RAIN.tooltip.5=  AV - inget regn/snö, snabbast
-of.options.RAIN.tooltip.6=Regnljud kommer fortfarande att höras om regn stängs
-of.options.RAIN.tooltip.7=av.
+of.options.RAIN.tooltip.6=Regnljud kommer fortfarande höras om regn stängs av.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
@@ -360,10 +358,9 @@ of.options.DROPPED_ITEMS.tooltip.2=  Standard - följer grafikinställningarna
 of.options.DROPPED_ITEMS.tooltip.3=  Snabbt - renderas i 2D, snabbare
 of.options.DROPPED_ITEMS.tooltip.4=  Snyggt - renderas i 3D, långsammare
 
-options.entityShadows=Entitetskuggor
-options.entityShadows.tooltip.1=Entitetskuggor
-options.entityShadows.tooltip.2=  PÅ - visa entitetskuggor
-options.entityShadows.tooltip.3=  AV - visa inte entitetskuggor
+options.entityShadows.tooltip.1=Entitetsskuggor
+options.entityShadows.tooltip.2=  PÅ - visa entitetsskuggor
+options.entityShadows.tooltip.3=  AV - visa inte entitetsskuggor
 
 of.options.VIGNETTE=Vinjett
 of.options.VIGNETTE.tooltip.1=Visuell effekt som mörklägger skärmens hörn en aning
@@ -377,14 +374,14 @@ of.options.VIGNETTE.tooltip.8=utan någon fara.
 
 # Performance
 
-of.options.SMOOTH_FPS=Stabil bildfrekvens
+of.options.SMOOTH_FPS=Jämn bildfrekvens
 of.options.SMOOTH_FPS.tooltip.1=Stabiliserar bildfrekvensen genom att rensa
 of.options.SMOOTH_FPS.tooltip.2=grafikdrivrutinernas buffrar
 of.options.SMOOTH_FPS.tooltip.3=  AV - ingen stabilisering, bildfrekvensen kan variera
 of.options.SMOOTH_FPS.tooltip.4=  PÅ - bildfrekvensen stabiliseras
 of.options.SMOOTH_FPS.tooltip.5=Beror på grafikdrivrutinerna och märks inte alltid.
 
-of.options.SMOOTH_WORLD=Stabil värld
+of.options.SMOOTH_WORLD=Jämn värld
 of.options.SMOOTH_WORLD.tooltip.1=Tar bort lag spikes som orsakas av den interna servern.
 of.options.SMOOTH_WORLD.tooltip.2=  AV - ingen stabilisering, bildfrekvensen kan variera
 of.options.SMOOTH_WORLD.tooltip.3=  PÅ - stabiliserar bildfrekvensen
@@ -426,7 +423,7 @@ of.options.LAZY_CHUNK_LOADING=Slö chunkinläsning
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Slö chunkinläsning
 of.options.LAZY_CHUNK_LOADING.tooltip.2=  AV - standardinläsning på servrar
 of.options.LAZY_CHUNK_LOADING.tooltip.3=  PÅ - slö chunkinläsning på servrar (stabilare)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Stabiliserar den integrerade chunkläsningen för servern
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Jämnar ut den integrerade chunkläsningen för servern
 of.options.LAZY_CHUNK_LOADING.tooltip.5=genom att fördela chunkar över flera tickningar.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Inaktivera om delar av världen inte läser in på rätt sätt.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara på lokala världar och enkärniga
