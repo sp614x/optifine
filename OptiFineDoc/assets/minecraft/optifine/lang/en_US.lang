@@ -125,6 +125,9 @@ of.options.chunkLoading.multiCore=Multi-Core
 of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
 
+of.options.shaders.packNone=OFF
+of.options.shaders.packDefault=(internal)
+
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.NORMAL_MAP=Normal Map
 of.options.shaders.SPECULAR_MAP=Specular Map
@@ -134,6 +137,11 @@ of.options.shaders.HAND_DEPTH_MUL=Hand Depth
 of.options.shaders.CLOUD_SHADOW=Cloud Shadow
 of.options.shaders.OLD_LIGHTING=Old Lighting
 of.options.shaders.SHADER_PACK=Shader Pack
+
+of.options.shaders.shadersFolder=Shaders Folder
+of.options.shaders.shaderOptions=Shader Options...
+
+of.options.shaderOptionsTitle=Shader Options
 
 of.options.quality=Quality...
 of.options.qualityTitle=Quality Settings
