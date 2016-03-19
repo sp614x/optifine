@@ -128,6 +128,9 @@ of.options.chunkLoading.multiCore=Мультиядерная
 of.options.shaders=Шейдеры...
 of.options.shadersTitle=Шейдеры
 
+of.options.shaders.packNone=Отключено
+of.options.shaders.packDefault=(встроенный)
+
 of.options.shaders.ANTIALIASING=Антиалиасинг
 of.options.shaders.NORMAL_MAP=Нормальная карта
 of.options.shaders.SPECULAR_MAP=Карта отражений
@@ -137,6 +140,11 @@ of.options.shaders.HAND_DEPTH_MUL=Глубина руки
 of.options.shaders.CLOUD_SHADOW=Тени облаков
 of.options.shaders.OLD_LIGHTING=Старое освещение
 of.options.shaders.SHADER_PACK=Пакет шейдеров
+
+of.options.shaders.shadersFolder=Папка с шейдерами
+of.options.shaders.shaderOptions=Настройки шейдера...
+
+of.options.shaderOptionsTitle=Настройки шейдера
 
 of.options.quality=Качество...
 of.options.qualityTitle=Настройки качества
