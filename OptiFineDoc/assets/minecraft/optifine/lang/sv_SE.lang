@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander 2016-01-18 ---- 2016-03-14
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-03-21
 
 # General
 of.general.custom=Anpassad
@@ -124,8 +124,11 @@ of.options.CHUNK_LOADING.tooltip.8=och höja bildfrekvensen med en andra process
 of.options.chunkLoading.smooth=Jämn
 of.options.chunkLoading.multiCore=Flerkärnig
 
-of.options.shaders=Shader...
-of.options.shadersTitle=Shader
+of.options.shaders=Shaders...
+of.options.shadersTitle=Shaders
+
+of.options.shaders.packNone=AV
+of.options.shaders.packDefault=(intern)
 
 of.options.shaders.ANTIALIASING=Kantutjämning
 of.options.shaders.NORMAL_MAP=Normap map
@@ -136,6 +139,11 @@ of.options.shaders.HAND_DEPTH_MUL=Handdjup
 of.options.shaders.CLOUD_SHADOW=Molnskugga
 of.options.shaders.OLD_LIGHTING=Gammalt ljus
 of.options.shaders.SHADER_PACK=Shaderpaket
+
+of.options.shaders.shadersFolder=Shadermapp
+of.options.shaders.shaderOptions=Shaderalternativ...
+
+of.options.shaderOptionsTitle=Shaderalternativ
 
 of.options.quality=Kvalitet...
 of.options.qualityTitle=Kvalitetsinställningar
@@ -316,7 +324,8 @@ of.options.RAIN.tooltip.2=  Standard - följer grafikinställningarna
 of.options.RAIN.tooltip.3=  Snabbt - lätt regn/snö, snabbare
 of.options.RAIN.tooltip.4=  Snyggt - tungt regn/snö, långsammare
 of.options.RAIN.tooltip.5=  AV - inget regn/snö, snabbast
-of.options.RAIN.tooltip.6=Regnljud kommer fortfarande höras om regn stängs av.
+of.options.RAIN.tooltip.6=Regnljud och regnstänk kommer fortfarande höras och
+of.options.RAIN.tooltip.7=synas om regn stängs av.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
@@ -438,14 +447,14 @@ of.options.animation.dynamic=Dynamiskt
 of.options.ANIMATED_WATER=Animerat vatten
 of.options.ANIMATED_LAVA=Animerad lava
 of.options.ANIMATED_FIRE=Animerad eld
-of.options.ANIMATED_PORTAL=Animerad portal
+of.options.ANIMATED_PORTAL=Animerade portaler
 of.options.ANIMATED_REDSTONE=Animerad rödsten
 of.options.ANIMATED_EXPLOSION=Animerade explosioner
 of.options.ANIMATED_FLAME=Animerade eldflammor
 of.options.ANIMATED_SMOKE=Animerad rök
 of.options.VOID_PARTICLES=Voidpartiklar
 of.options.WATER_PARTICLES=Vattenpartiklar
-of.options.RAIN_SPLASH=Regnskvättar
+of.options.RAIN_SPLASH=Regnstänk
 of.options.PORTAL_PARTICLES=Portalpartiklar
 of.options.POTION_PARTICLES=Brygdpartiklar
 of.options.DRIPPING_WATER_LAVA=Droppande vatten/lava
