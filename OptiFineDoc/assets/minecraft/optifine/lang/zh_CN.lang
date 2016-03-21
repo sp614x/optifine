@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-3-19
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -131,6 +131,9 @@ of.options.chunkLoading.multiCore=多核心
 of.options.shaders=光影...
 of.options.shadersTitle=光影
 
+of.options.shaders.packNone=关闭
+of.options.shaders.packDefault=(内置)
+
 of.options.shaders.ANTIALIASING=抗锯齿
 of.options.shaders.NORMAL_MAP=法线贴图
 of.options.shaders.SPECULAR_MAP=高光贴图
@@ -140,6 +143,11 @@ of.options.shaders.HAND_DEPTH_MUL=手部景深
 of.options.shaders.CLOUD_SHADOW=云的投影
 of.options.shaders.OLD_LIGHTING=经典光效
 of.options.shaders.SHADER_PACK=光影包文件夹
+
+of.options.shaders.shadersFolder=光影包文件夹
+of.options.shaders.shaderOptions=光影设置...
+
+of.options.shaderOptionsTitle=光影设置
 
 of.options.quality=品质...
 of.options.qualityTitle=品质设置
