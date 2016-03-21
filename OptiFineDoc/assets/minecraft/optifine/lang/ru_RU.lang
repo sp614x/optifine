@@ -1,5 +1,6 @@
 # Contributors of Russian localization #
 #   TimkaG 2016-03-01 ---- 2016-03-18
+#   Dibro 2016-03-20
 
 # General
 of.general.ambiguous=неопределенный
@@ -61,12 +62,12 @@ options.ao.tooltip.3=  Минимум - простое мягкое освеще
 options.ao.tooltip.4=  Максимум - комплексное мягкое освещение (еще медленнее)
 
 options.framerateLimit.tooltip.1=Ограничение частоты кадров
-options.framerateLimit.tooltip.2=  VSyns - синхронизация с частотой верт. развертки монитора (60, 30, 20)
+options.framerateLimit.tooltip.2=  VSync - синхронизация с частотой верт. развертки монитора (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - пользовательские значения
 options.framerateLimit.tooltip.4=  Неограничено - без ограничений (еще быстрее)
 options.framerateLimit.tooltip.5=Ограничение частоты кадров уменьшает FPS, даже если значение ограничения
 options.framerateLimit.tooltip.6=не достигнуто.
-of.options.framerateLimit.vsync=VSyns
+of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Уровень мягкого освещения
 of.options.AO_LEVEL.tooltip.1=Уровень мягкого освещения
