@@ -43,15 +43,15 @@ options.graphics.tooltip.3=  Snyggt - högre kvalitet, långsammare
 options.graphics.tooltip.4=Ändrar utseendet för moln, löv, vatten, skuggor och
 options.graphics.tooltip.5=gräskanter.
 
-of.options.renderDistance.extreme=Extrem
+of.options.renderDistance.extreme=Extremt
 
 options.renderDistance.tooltip.1=Synligt avstånd
-options.renderDistance.tooltip.2=   2 Pytteliten - 32 m (snabbast)
+options.renderDistance.tooltip.2=   2 Litet - 32 m (snabbast)
 options.renderDistance.tooltip.3=   4 Kort - 64 m (snabbare)
 options.renderDistance.tooltip.4=   8 Normalt - 128 m
 options.renderDistance.tooltip.5=  16 Långt - 256 m (långsammare)
-options.renderDistance.tooltip.6=  32 Extrem - 512 m (långsammast!)
-options.renderDistance.tooltip.7=Avståndet Extrem är mycket resurskrävande!
+options.renderDistance.tooltip.6=  32 Extremt - 512 m (långsammast!)
+options.renderDistance.tooltip.7=Avståndet Extremt är mycket resurskrävande!
 options.renderDistance.tooltip.8=Värden över 16 fungerar endast i lokala världar.
 
 options.ao.tooltip.1=Ljusutjämning
