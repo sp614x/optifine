@@ -63,7 +63,7 @@ options.ao.tooltip.4=  最大 - 複雑なスムースライティング (より�
 
 options.framerateLimit.tooltip.1=最大のフレームレート
 options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレートに合わせる (60, 30, 20)
-options.framerateLimit.tooltip.3=  5-255 - フレームレートを設定した値までに制限する
+options.framerateLimit.tooltip.3=  5～255 - フレームレートを設定した値までに制限する
 options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない (最速)
 options.framerateLimit.tooltip.5=たとえ制限に達していなくとも、
 options.framerateLimit.tooltip.6=フレームレートを抑制します。
@@ -83,13 +83,13 @@ options.guiScale.tooltip.2=GUIは小さいほうが処理が速くなるかも�
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=描画方式を新しいものに変更し、
-options.vbo.tooltip.3=5-10%%処理を軽くできます。
+options.vbo.tooltip.3=5～10%%処理を軽くできます。
 
 options.gamma.tooltip.1=暗い物体の明るさを変更します
 options.gamma.tooltip.2=  オフ - 通常の明るさ
 options.gamma.tooltip.3=  100%% - 最大の明るさ
-options.gamma.tooltip.4=完全に真っ暗な物体の明るさは。
-options.gamma.tooltip.5=変更できません
+options.gamma.tooltip.4=完全に真っ暗な物体の明るさは、
+options.gamma.tooltip.5=変更できません。
 
 options.anaglyph.tooltip.1=3Dアナグリフ
 options.anaglyph.tooltip.2=それぞれの目に別々の色を使うことで
@@ -121,8 +121,8 @@ of.options.CHUNK_LOADING.tooltip.3=  滑らか - フレームレート低下を�
 of.options.CHUNK_LOADING.tooltip.4=  マルチコア - フレームレートのさらなる安定化 ワールドのロード処理が三倍ほど速くなる。
 of.options.CHUNK_LOADING.tooltip.5=滑らかやマルチコアであれば、チャンクロードに起因する
 of.options.CHUNK_LOADING.tooltip.6=カクつきとフリーズを除けます。
-of.options.CHUNK_LOADING.tooltip.7=マルチコアでは二番目のCPUを用いることでワールドのロード処理が三倍ほど速くでき、
-of.options.CHUNK_LOADING.tooltip.8=FPSも改善できます。
+of.options.CHUNK_LOADING.tooltip.7=マルチコアでは二番目のCPUを用いることでワールドのロード処理が
+of.options.CHUNK_LOADING.tooltip.8=三倍ほど速くでき、FPSも改善できます。
 of.options.chunkLoading.smooth=滑らか
 of.options.chunkLoading.multiCore=マルチコア
 
@@ -164,7 +164,7 @@ of.options.otherTitle=その他の設定
 
 of.options.other.reset=ビデオ設定を初期化する...
 
-of.shaders.profile=Profile
+of.shaders.profile=プロファイル
 
 # Quality
 
@@ -205,7 +205,7 @@ of.options.AF_LEVEL.tooltip.2= オフ - 通常のテクスチャ描画 (低負�
 of.options.AF_LEVEL.tooltip.3= 2-16 - 滑らかなテクスチャ描画 (高負荷)
 of.options.AF_LEVEL.tooltip.4=ミップマップされたテクスチャにおいて、
 of.options.AF_LEVEL.tooltip.5=ちらつきを抑えます。
-of.options.AF_LEVEL.tooltip.6=有効化すると実質上のFPSは下がります。
+of.options.AF_LEVEL.tooltip.6=有効化すると実質的なFPSは下がります。
 
 of.options.CLEAR_WATER=水の透明度を上げる
 of.options.CLEAR_WATER.tooltip.1=水の透明度を上げる設定
@@ -229,8 +229,8 @@ of.options.BETTER_SNOW=設置物の下に雪を表示
 of.options.BETTER_SNOW.tooltip.1=設置物の下に雪を表示する設定
 of.options.BETTER_SNOW.tooltip.2=  オフ - 通常の雪 低負荷
 of.options.BETTER_SNOW.tooltip.3=  オン - 設置物の下でも描画される雪 高負荷
-of.options.BETTER_SNOW.tooltip.4=隣接したブロックに雪が積もっているものがあった時
-of.options.BETTER_SNOW.tooltip.5=透過性のあるブロック (フェンス, 背の高い草)の下で雪を描画します。
+of.options.BETTER_SNOW.tooltip.4=隣接したブロックに雪が積もっているものがあった時に
+of.options.BETTER_SNOW.tooltip.5=透過性のあるブロック(フェンス, 背の高い草)の下でも雪を描画します。
 
 of.options.CUSTOM_FONTS=カスタムフォント
 of.options.CUSTOM_FONTS.tooltip.1=カスタムフォントについての設定
@@ -302,8 +302,8 @@ of.options.CLOUDS.tooltip.2=  デフォルト - グラフィックスの設定�
 of.options.CLOUDS.tooltip.3=  処理優先 - 低品質 低負荷
 of.options.CLOUDS.tooltip.4=  描画優先 - 高品質 高負荷
 of.options.CLOUDS.tooltip.5=  オフ - 雲なし 最低負荷
-of.options.CLOUDS.tooltip.6=処理優先の雲は平面的に描画される。
-of.options.CLOUDS.tooltip.7=描画優先の雲は立体的に描画される。
+of.options.CLOUDS.tooltip.6=処理優先の雲は平面的に描画されます。
+of.options.CLOUDS.tooltip.7=描画優先の雲は立体的に描画されます。
 
 of.options.CLOUD_HEIGHT=雲の高さ
 of.options.CLOUD_HEIGHT.tooltip.1=雲の高さの設定
@@ -317,7 +317,7 @@ of.options.TREES.tooltip.3=  処理優先 - 低品質 より低負荷
 of.options.TREES.tooltip.4=  賢い処理 - 高品質, 低負荷
 of.options.TREES.tooltip.5=  描画優先 - 高品質 高負荷
 of.options.TREES.tooltip.6=処理優先の木は透過しない葉を持ちます。
-of.options.TREES.tooltip.7=描画優先か賢く描画された木は透過する葉を持ちます。
+of.options.TREES.tooltip.7=描画優先や賢く描画された木は透過する葉を持ちます。
 
 of.options.RAIN=雨と雪の設定
 of.options.RAIN.tooltip.1=雨と雪の設定
@@ -332,7 +332,7 @@ of.options.SKY=空の表示
 of.options.SKY.tooltip.1=空の表示の設定
 of.options.SKY.tooltip.2=  オン - 空を描画する 高負荷
 of.options.SKY.tooltip.3=  オフ  - 空を描画しない 低負荷
-of.options.SKY.tooltip.4=OFFにしても太陽や月はそのまま。
+of.options.SKY.tooltip.4=OFFにしても太陽や月はそのままです。
 
 of.options.STARS=星の表示
 of.options.STARS.tooltip.1=星の表示の設定
@@ -380,7 +380,7 @@ of.options.VIGNETTE.tooltip.4=  描画優先 - 視界端の影を表示する (�
 of.options.VIGNETTE.tooltip.5=視界端の影はFPSにとって重要な視覚効果です。
 of.options.VIGNETTE.tooltip.6=特にフルスクリーンで遊ぶ際には、
 of.options.VIGNETTE.tooltip.7=視界端の影は非常に微かであるため、
-of.options.VIGNETTE.tooltip.8= 無効にしてもかまいません。
+of.options.VIGNETTE.tooltip.8=無効にしてもかまいません。
 
 # Performance
 
@@ -389,7 +389,7 @@ of.options.SMOOTH_FPS.tooltip.1=バッファを使ってFPSを安定化する。
 of.options.SMOOTH_FPS.tooltip.2=  オフ - 安定化しない。FPSは変動的になるでしょう。
 of.options.SMOOTH_FPS.tooltip.3=  オン - 安定化する。
 of.options.SMOOTH_FPS.tooltip.4=この設定はグラフィックドライバーに依存し、
-of.options.SMOOTH_FPS.tooltip.5=常には目に見える形で現れません。
+of.options.SMOOTH_FPS.tooltip.5=常には有効ではありません。
 
 of.options.SMOOTH_WORLD=サーバー負荷を分散
 of.options.SMOOTH_WORLD.tooltip.1=内部サーバーによるラグの除去。
@@ -464,8 +464,8 @@ of.options.FIREWORK_PARTICLES=花火の粒子
 
 of.options.LAGOMETER=デバッグの棒グラフを表示
 of.options.LAGOMETER.tooltip.1=F3デバッグに棒グラフを表示。
-of.options.LAGOMETER.tooltip.2=* オレンジ - ガベージコレクション
-of.options.LAGOMETER.tooltip.3=* シアン - Tick処理
+of.options.LAGOMETER.tooltip.2=* 橙 - ガベージコレクション
+of.options.LAGOMETER.tooltip.3=* 藍 - Tick処理
 of.options.LAGOMETER.tooltip.4=* 青 - スケジューリングされた処理
 of.options.LAGOMETER.tooltip.5=* 紫 - チャンクアップローディング
 of.options.LAGOMETER.tooltip.6=* 赤 - チャンクアップデート
@@ -500,8 +500,8 @@ of.options.TIME.tooltip.6=シングルプレイの時のみ有効。
 options.fullscreen.tooltip.1=フルスクリーン
 options.fullscreen.tooltip.2=  オン - フルスクリーンモード
 options.fullscreen.tooltip.3=  オフ - ウィンドウモード
-options.fullscreen.tooltip.4=フルスクリーンはグラフィックカードによって
-options.fullscreen.tooltip.5=処理の速い遅いが変わる。
+options.fullscreen.tooltip.4=フルスクリーンではグラフィックカードによって
+options.fullscreen.tooltip.5=処理の速い遅いが変わります。
 
 of.options.FULLSCREEN_MODE=フルスクリーンの種類
 of.options.FULLSCREEN_MODE.tooltip.1=フルスクリーンの種類の設定
@@ -516,7 +516,7 @@ of.options.SHOW_FPS.tooltip.2=  C: - チャンク描画
 of.options.SHOW_FPS.tooltip.3=  E: - エンティティ描画
 of.options.SHOW_FPS.tooltip.4=  U: - チャンクアップデート
 of.options.SHOW_FPS.tooltip.5=コンパクトなFPS情報は
-of.options.SHOW_FPS.tooltip.6=デバッグが非表示の時のみ表示されます。 
+of.options.SHOW_FPS.tooltip.6=デバッグ画面が非表示の時のみ表示されます。 
 
 of.options.save.default=デフォルト (2s)
 of.options.save.20s=20s
@@ -527,3 +527,5 @@ of.options.AUTOSAVE_TICKS=オートセーブ
 of.options.AUTOSAVE_TICKS.tooltip.1=セーブ間隔
 of.options.AUTOSAVE_TICKS.tooltip.2=2sごとのセーブは推奨されません。
 of.options.AUTOSAVE_TICKS.tooltip.3=オートセーブはラグの原因となります。
+
+options.anaglyph.tooltip.1=3Dモードは赤青メガネとともに使います。
