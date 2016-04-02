@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2016-03-28
+#   CrafterKina 2014-01-04 ---- 2016-04-02
 
 # General
 of.general.custom=カスタム
@@ -104,7 +104,7 @@ of.options.FOG_FANCY=霧の種類
 of.options.FOG_FANCY.tooltip.1=霧の種類の設定
 of.options.FOG_FANCY.tooltip.2=  処理優先 - 低負荷な霧
 of.options.FOG_FANCY.tooltip.3=  描画優先 - 高負荷な霧 より良く見える
-of.options.FOG_FANCY.tooltip.4=  オフ - 霧なし 最も低負荷
+of.options.FOG_FANCY.tooltip.4=  オフ - 霧なし 最低負荷
 of.options.FOG_FANCY.tooltip.5=グラフィックカードが対応している場合のみ
 of.options.FOG_FANCY.tooltip.6=美麗な霧を使用できます。
 
@@ -195,7 +195,7 @@ of.options.AA_LEVEL.tooltip.2= オフ - (通常) 輪郭のギザギザ軽減を�
 of.options.AA_LEVEL.tooltip.3= 2-16 - 輪郭のギザギザ軽減を行う (高負荷)
 of.options.AA_LEVEL.tooltip.4=輪郭のギザギザやシャープな色の変化に 
 of.options.AA_LEVEL.tooltip.5=アンチエイリアスを行います。
-of.options.AA_LEVEL.tooltip.6=有効化すると実質上のFPSは下がります。
+of.options.AA_LEVEL.tooltip.6=有効化すると実質的なFPSは下がります。
 of.options.AA_LEVEL.tooltip.7=すべてのレベルがすべてのグラフィックカードでサポートされているわけではありません。
 of.options.AA_LEVEL.tooltip.8=再起動後に有効化されます!
 
@@ -314,7 +314,7 @@ of.options.TREES=木の設定
 of.options.TREES.tooltip.1=木の設定
 of.options.TREES.tooltip.2=  デフォルト - グラフィックスの設定に合わせる
 of.options.TREES.tooltip.3=  処理優先 - 低品質 より低負荷
-of.options.TREES.tooltip.4=  賢い処理 - 高品質, 低負荷
+of.options.TREES.tooltip.4=  賢い処理 - 高品質 低負荷
 of.options.TREES.tooltip.5=  描画優先 - 高品質 高負荷
 of.options.TREES.tooltip.6=処理優先の木は透過しない葉を持ちます。
 of.options.TREES.tooltip.7=描画優先や賢く描画された木は透過する葉を持ちます。
@@ -518,14 +518,14 @@ of.options.SHOW_FPS.tooltip.4=  U: - チャンクアップデート
 of.options.SHOW_FPS.tooltip.5=コンパクトなFPS情報は
 of.options.SHOW_FPS.tooltip.6=デバッグ画面が非表示の時のみ表示されます。 
 
-of.options.save.default=デフォルト (2s)
-of.options.save.20s=20s
-of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.default=デフォルト (2秒)
+of.options.save.20s=20秒
+of.options.save.3min=3分
+of.options.save.30min=30分
 
 of.options.AUTOSAVE_TICKS=オートセーブ
 of.options.AUTOSAVE_TICKS.tooltip.1=セーブ間隔
-of.options.AUTOSAVE_TICKS.tooltip.2=2sごとのセーブは推奨されません。
+of.options.AUTOSAVE_TICKS.tooltip.2=2秒ごとのセーブは推奨されません。
 of.options.AUTOSAVE_TICKS.tooltip.3=オートセーブはラグの原因となります。
 
 options.anaglyph.tooltip.1=3Dモードは赤青メガネとともに使います。
