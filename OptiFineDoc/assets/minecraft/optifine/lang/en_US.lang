@@ -135,6 +135,7 @@ of.options.shaders.RENDER_RES_MUL=Render Quality
 of.options.shaders.SHADOW_RES_MUL=Shadow Quality
 of.options.shaders.HAND_DEPTH_MUL=Hand Depth
 of.options.shaders.CLOUD_SHADOW=Cloud Shadow
+of.options.shaders.OLD_HAND_LIGHT=Old Hand Light
 of.options.shaders.OLD_LIGHTING=Old Lighting
 of.options.shaders.SHADER_PACK=Shader Pack
 
