@@ -1,8 +1,6 @@
 # Contributors of Traditional Chinese localization #
-#   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
-#   hukk From MCBBS 2013-7-13 ---- 2016-1-19
-#   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
-#   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-03
+#   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
+#   NatsuArashi 2016-03-03
 ##-------------- zh_TW ---------------
 
 # General
@@ -132,6 +130,10 @@ of.options.chunkLoading.multiCore=多核心
 of.options.shaders=光影...
 of.options.shadersTitle=光影
 
+of.options.shaders.packNone=關閉
+of.options.shaders.packDefault=(內置)
+
+
 of.options.shaders.ANTIALIASING=抗鋸齒
 of.options.shaders.NORMAL_MAP=法線貼圖
 of.options.shaders.SPECULAR_MAP=高光貼圖
@@ -141,6 +143,11 @@ of.options.shaders.HAND_DEPTH_MUL=手部景深
 of.options.shaders.CLOUD_SHADOW=雲的陰影
 of.options.shaders.OLD_LIGHTING=經典光照
 of.options.shaders.SHADER_PACK=光影包文件夾
+
+of.options.shaders.shadersFolder=光影資料夾
+of.options.shaders.shaderOptions=光影設定...
+
+of.options.shaderOptionsTitle=光影設定
 
 of.options.quality=品質...
 of.options.qualityTitle=品質設置
