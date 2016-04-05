@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2016-04-02
+#   CrafterKina 2014-01-04 ---- 2016-04-05
 
 # General
 of.general.custom=カスタム
@@ -136,6 +136,7 @@ of.options.shaders.RENDER_RES_MUL=描画の品質
 of.options.shaders.SHADOW_RES_MUL=影の品質
 of.options.shaders.HAND_DEPTH_MUL=手部深度
 of.options.shaders.CLOUD_SHADOW=雲の影
+of.options.shaders.OLD_HAND_LIGHT=古い手持ち光源
 of.options.shaders.OLD_LIGHTING=古いライティング
 of.options.shaders.SHADER_PACK=シェーダーパック
 
