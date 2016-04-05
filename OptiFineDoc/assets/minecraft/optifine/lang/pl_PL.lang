@@ -125,6 +125,9 @@ of.options.chunkLoading.multiCore=Wielordzeniowe
 of.options.shaders=Shadery...
 of.options.shadersTitle=Shadery
 
+of.options.shaders.packNone=Wył.
+of.options.shaders.packDefault=(wewnętrzne)
+
 of.options.shaders.ANTIALIASING=Antyaliasing
 of.options.shaders.NORMAL_MAP=Normalna mapa
 of.options.shaders.SPECULAR_MAP=Lustrzana mapa
@@ -132,8 +135,14 @@ of.options.shaders.RENDER_RES_MUL=Jakość renderowania
 of.options.shaders.SHADOW_RES_MUL=Jakość cieni
 of.options.shaders.HAND_DEPTH_MUL=Głębokość ręki
 of.options.shaders.CLOUD_SHADOW=Cienie chmur
+of.options.shaders.OLD_HAND_LIGHT=Stare oświetlanie ręki
 of.options.shaders.OLD_LIGHTING=Stare oświetlanie
-of.options.shaders.SHADER_PACK=Paczka Shaderów
+of.options.shaders.SHADER_PACK=Paczka shaderów
+
+of.options.shaders.shadersFolder=Folder na shadery
+of.options.shaders.shaderOptions=Ustawienia shaderów...
+
+of.options.shaderOptionsTitle=Ustawienia shaderów
 
 of.options.quality=Jakość...
 of.options.qualityTitle=Ustawienia jakości
