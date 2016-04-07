@@ -1,7 +1,8 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-03-21
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-04-06
 
 # General
+of.general.ambiguous=tvetydig
 of.general.custom=Anpassad
 of.general.from=Från
 of.general.id=ID
@@ -137,6 +138,7 @@ of.options.shaders.RENDER_RES_MUL=Renderingskvalitet
 of.options.shaders.SHADOW_RES_MUL=Skuggkvalitet
 of.options.shaders.HAND_DEPTH_MUL=Handdjup
 of.options.shaders.CLOUD_SHADOW=Molnskugga
+of.options.shaders.OLD_HAND_LIGHT=Gammalt handljus
 of.options.shaders.OLD_LIGHTING=Gammalt ljus
 of.options.shaders.SHADER_PACK=Shaderpaket
 
@@ -251,11 +253,11 @@ of.options.SWAMP_COLORS.tooltip.3=  AV - använd inte träskfärger, snabbare
 of.options.SWAMP_COLORS.tooltip.4=Träskfärgerna påverkar gräs, löv, klätterväxter och
 of.options.SWAMP_COLORS.tooltip.5=vatten.
 
-of.options.SMOOTH_BIOMES=Utjämnade biotoper
-of.options.SMOOTH_BIOMES.tooltip.1=Utjämnade biotoper
-of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biotopkanter jämnas ut (standard), långsammare
-of.options.SMOOTH_BIOMES.tooltip.3=  AV - biotopkanter jämnas inte ut, snabbare
-of.options.SMOOTH_BIOMES.tooltip.4=biotopkanterna jämnas ut genom att sampla och beräkna
+of.options.SMOOTH_BIOMES=Utjämnade biomer
+of.options.SMOOTH_BIOMES.tooltip.1=Utjämnade biomer
+of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biomkanter jämnas ut (standard), långsammare
+of.options.SMOOTH_BIOMES.tooltip.3=  AV - biomkanter jämnas inte ut, snabbare
+of.options.SMOOTH_BIOMES.tooltip.4=Biomkanterna jämnas ut genom att sampla och beräkna
 of.options.SMOOTH_BIOMES.tooltip.5=medelvärdet av färgen för alla block runtomkring.
 of.options.SMOOTH_BIOMES.tooltip.6=Gräs, löv, klätterväxter och vatten påverkas.
 
@@ -343,8 +345,8 @@ of.options.SUN_MOON.tooltip.1=Sol och måne
 of.options.SUN_MOON.tooltip.2=  PÅ - solen och månen syns (standard)
 of.options.SUN_MOON.tooltip.3=  AV - solen och månen syns inte (snabbare)
 
-of.options.SHOW_CAPES=Visa mantel
-of.options.SHOW_CAPES.tooltip.1=Visa mantel
+of.options.SHOW_CAPES=Visa mantlar
+of.options.SHOW_CAPES.tooltip.1=Visa mantlar
 of.options.SHOW_CAPES.tooltip.2=  PÅ - visa spelarmantlar (standard)
 of.options.SHOW_CAPES.tooltip.3=  AV - visa inte spelarmantlar
 
@@ -435,7 +437,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3=  PÅ - slö chunkinläsning på servrar
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Jämnar ut den integrerade chunkläsningen för servern
 of.options.LAZY_CHUNK_LOADING.tooltip.5=genom att fördela chunkar över flera tickningar.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Inaktivera om delar av världen inte läser in på rätt sätt.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara på lokala världar och enkärniga
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara i lokala världar och enkärniga
 of.options.LAZY_CHUNK_LOADING.tooltip.8=processorer.
 
 # Animations
@@ -448,7 +450,7 @@ of.options.ANIMATED_WATER=Animerat vatten
 of.options.ANIMATED_LAVA=Animerad lava
 of.options.ANIMATED_FIRE=Animerad eld
 of.options.ANIMATED_PORTAL=Animerade portaler
-of.options.ANIMATED_REDSTONE=Animerad rödsten
+of.options.ANIMATED_REDSTONE=Animerad redstone
 of.options.ANIMATED_EXPLOSION=Animerade explosioner
 of.options.ANIMATED_FLAME=Animerade eldflammor
 of.options.ANIMATED_SMOKE=Animerad rök
@@ -478,15 +480,15 @@ of.options.PROFILER=Felsökningsprofilerare
 of.options.PROFILER.tooltip.1=Felsökningsprofilerare
 of.options.PROFILER.tooltip.2=  PÅ - felsökningsprofilerare är igång, långsammare
 of.options.PROFILER.tooltip.3=  AV - felsökningsprofilerare är inte igång, snabbare
-of.options.PROFILER.tooltip.4=Felsökningsprofilerare samlar in och visar
+of.options.PROFILER.tooltip.4=Felsökningsprofileraren samlar in och visar
 of.options.PROFILER.tooltip.5=felsökningsinfo när felsökningsskärmen är öppen (F3)
 
 of.options.WEATHER=Väder
 of.options.WEATHER.tooltip.1=Väder
-of.options.WEATHER.tooltip.2=  PÅ - väder är aktivt, långsammare
-of.options.WEATHER.tooltip.3=  AV - väder är inte aktivt, snabbare
+of.options.WEATHER.tooltip.2=  PÅ - väder är aktiverat, långsammare
+of.options.WEATHER.tooltip.3=  AV - väder är inaktiverat, snabbare
 of.options.WEATHER.tooltip.4=Denna inställning omfattar regn, snö och åska.
-of.options.WEATHER.tooltip.5=Detta fungerar bara för lokala världar.
+of.options.WEATHER.tooltip.5=Detta fungerar bara i lokala världar.
 
 of.options.time.dayOnly=Endast dag
 of.options.time.nightOnly=Endast natt
@@ -507,7 +509,7 @@ options.fullscreen.tooltip.5=fönsterläge beroende på grafikkortet.
 
 of.options.FULLSCREEN_MODE=Fullskärmsläge
 of.options.FULLSCREEN_MODE.tooltip.1=Fullskärmsläge
-of.options.FULLSCREEN_MODE.tooltip.2=  Standard - använd datorns upplösning, långsammare
+of.options.FULLSCREEN_MODE.tooltip.2=  Default - använd datorns upplösning, långsammare
 of.options.FULLSCREEN_MODE.tooltip.3=  BxH - använd anpassad upplösning, kan vara snabbare
 of.options.FULLSCREEN_MODE.tooltip.4=Den valda upplösningen används i fullskärmsläge (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Lägre upplösningar bör vanligtvis vara snabbare.
@@ -520,14 +522,14 @@ of.options.SHOW_FPS.tooltip.4=  U: - antal chunkuppdateringar
 of.options.SHOW_FPS.tooltip.5=Informationen visas endast när felsökningsskärmen (F3)
 of.options.SHOW_FPS.tooltip.6=inte syns.
 
-of.options.save.default=Standard (2 s)
-of.options.save.20s=20 s
-of.options.save.3min=3 min
-of.options.save.30min=30 min
+of.options.save.default=Standard (2s)
+of.options.save.20s=20s
+of.options.save.3min=3min
+of.options.save.30min=30min
 
 of.options.AUTOSAVE_TICKS=Autosparning
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning
-of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) REKOMMENDERAS INTE.
+of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2s) REKOMMENDERAS INTE.
 of.options.AUTOSAVE_TICKS.tooltip.3=Autosparning är ökänd för att orsaka lag spikes.
 
 options.anaglyph.tooltip.1=3D-effekten används med röd-turkosa 3D-glasögon.
