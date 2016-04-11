@@ -42,18 +42,18 @@ of.message.other.reset=Сбросить все настройки графики
 options.graphics.tooltip.1=Качество графики
 options.graphics.tooltip.2=  Быстро  - низкое качество, быстрее
 options.graphics.tooltip.3=  Детально - высокое качество, медленнее
-options.graphics.tooltip.4=Изменяет облик облаков, листьев, воды, теней и сторон блока дёрна.
+options.graphics.tooltip.4=Изменяет облик граней дёрна, листьев, воды, теней и облаков. 
 options.graphics.tooltip.5=
 
-of.options.renderDistance.extreme=Экстримальная
+of.options.renderDistance.extreme=Предельная
 
 options.renderDistance.tooltip.1=Дальность прорисовки
-options.renderDistance.tooltip.2=  2 Крошечная - 32м (еще быстрее)
-options.renderDistance.tooltip.3=  4 Короткая - 64м (быстрее)
+options.renderDistance.tooltip.2=  2 Очень близко - 32м (еще быстрее)
+options.renderDistance.tooltip.3=  4 Малая - 64м (быстрее)
 options.renderDistance.tooltip.4=  8 Нормальная - 128м
-options.renderDistance.tooltip.5=  16 Далекая - 256м (медленнее)
-options.renderDistance.tooltip.6=  32 Экстримальная - 512м (еще медленнее!)
-options.renderDistance.tooltip.7=Экстремальная дальность прорисовки очень требовательна к ресурсам!
+options.renderDistance.tooltip.5=  16 Дальняя - 256м (медленнее)
+options.renderDistance.tooltip.6=  32 Предельная - 512м (еще медленнее!)
+options.renderDistance.tooltip.7=Предельная дальность прорисовки очень требовательна к ресурсам!
 options.renderDistance.tooltip.8=Значения более 16 эффективны только в локальных мирах.
 
 options.ao.tooltip.1=Мягкое освещение
@@ -61,10 +61,10 @@ options.ao.tooltip.2=  Выкл - без мягкого освещения (бы
 options.ao.tooltip.3=  Минимум - простое мягкое освещение (медленнее)
 options.ao.tooltip.4=  Максимум - комплексное мягкое освещение (еще медленнее)
 
-options.framerateLimit.tooltip.1=Ограничение частоты кадров
+options.framerateLimit.tooltip.1=Частота кадров
 options.framerateLimit.tooltip.2=  VSync - синхронизация с частотой верт. развертки монитора (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - пользовательские значения
-options.framerateLimit.tooltip.4=  Нет - без ограничений (еще быстрее)
+options.framerateLimit.tooltip.4=  Максимум - без ограничений (еще быстрее)
 options.framerateLimit.tooltip.5=Ограничение частоты кадров уменьшает FPS, даже если значение ограничения
 options.framerateLimit.tooltip.6=не достигнуто.
 of.options.framerateLimit.vsync=VSync
@@ -79,17 +79,17 @@ options.viewBobbing.tooltip.1=Более реалистичное движени
 options.viewBobbing.tooltip.2=При использовании рекомендуется выключить MIP-текстурирование.
 
 options.guiScale.tooltip.1=Размер интерфейса
-options.guiScale.tooltip.2=Маленький размер может работать быстрее.
+options.guiScale.tooltip.2=Из-за маленького размера интерфейса игра может быть быстрее.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Использует альтернативную модель рендеринга, которая, как правило,
 options.vbo.tooltip.3=быстрее (5-10%%), чем стандартная.
 
-options.gamma.tooltip.1=Увеличивает яркость темных объектов.
-options.gamma.tooltip.2=  Выкл - стандартная яркость
-options.gamma.tooltip.3=  100%% - максимальная яркость темных объектов
-options.gamma.tooltip.4=Данный параметр не изменяет яркость полностью черных блоков.
-options.gamma.tooltip.5=
+options.gamma.tooltip.1=Изменяет яркость темных объектов.
+options.gamma.tooltip.2=  Тускло - минимальная яркость
+options.gamma.tooltip.3=  1-99%% - пользовательские значения
+options.gamma.tooltip.4=  Ярко - максимальная яркость темных объектов
+options.gamma.tooltip.5=Данный параметр не изменяет яркость полностью черных объектов.
 
 options.anaglyph.tooltip.1=3D Анаглиф
 options.anaglyph.tooltip.2=Включает стереоскопический 3D-эффект, используя различные цвета
