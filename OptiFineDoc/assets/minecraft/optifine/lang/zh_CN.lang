@@ -3,6 +3,7 @@
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
+#   Language File Begins Here...
 
 # General
 of.general.ambiguous=模糊
@@ -140,8 +141,8 @@ of.options.shaders.SPECULAR_MAP=高光贴图
 of.options.shaders.RENDER_RES_MUL=渲染精细度
 of.options.shaders.SHADOW_RES_MUL=阴影精细度
 of.options.shaders.HAND_DEPTH_MUL=手部景深
-of.options.shaders.CLOUD_SHADOW=云的投影
-of.options.shaders.OLD_HAND_LIGHT=旧式手持光源
+of.options.shaders.CLOUD_SHADOW=云朵阴影
+of.options.shaders.OLD_HAND_LIGHT=经典手持光源
 of.options.shaders.OLD_LIGHTING=经典光效
 of.options.shaders.SHADER_PACK=光影包文件夹
 
