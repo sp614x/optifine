@@ -141,6 +141,7 @@ of.options.shaders.RENDER_RES_MUL=渲染精細度
 of.options.shaders.SHADOW_RES_MUL=陰影精細度
 of.options.shaders.HAND_DEPTH_MUL=手部景深
 of.options.shaders.CLOUD_SHADOW=雲的陰影
+of.options.shaders.OLD_HAND_LIGHT=經典手持光源
 of.options.shaders.OLD_LIGHTING=經典光照
 of.options.shaders.SHADER_PACK=光影包文件夾
 
