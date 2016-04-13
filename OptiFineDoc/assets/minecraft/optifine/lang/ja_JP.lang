@@ -85,7 +85,7 @@ options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=描画方式を新しいものに変更し、
 options.vbo.tooltip.3=5～10%%処理を軽くできます。
 
-options.gamma.tooltip.1=暗い物体の明るさを変更します。
+options.gamma.tooltip.1=暗い物体の明るさの変更
 options.gamma.tooltip.2=  暗い - 通常の明るさ
 options.gamma.tooltip.3=  1～99%% - 明るさを調整する
 options.gamma.tooltip.4=  明るい - 最大の明るさ
