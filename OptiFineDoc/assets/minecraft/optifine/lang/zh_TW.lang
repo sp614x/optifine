@@ -87,10 +87,11 @@ options.vbo.tooltip.2=使用一種替選的渲染模式通常
 options.vbo.tooltip.3=可以比默認渲染快(5-10%%).
 
 options.gamma.tooltip.1=增加較暗物體的亮度
-options.gamma.tooltip.2=  關閉 - 標準亮度
-options.gamma.tooltip.3=  100%% - 最大亮度
-options.gamma.tooltip.4=此選項不會改變完全
-options.gamma.tooltip.5=黑色的物體的亮度
+options.gamma.tooltip.2=  標準 - 標準亮度
+options.gamma.tooltip.3=  1-99%% - 可變亮度
+options.gamma.tooltip.4=  明亮 - 最大亮度
+options.gamma.tooltip.5=此選項不會改變
+options.gamma.tooltip.6=完全黑色的物體的亮度
 
 options.anaglyph.tooltip.1=3D立體
 options.anaglyph.tooltip.2=通過為每隻眼睛分色
