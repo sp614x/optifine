@@ -74,7 +74,7 @@ of.options.AO_LEVEL.tooltip.4=  100%% - ciemne cienie
 options.viewBobbing.tooltip.1=Bardziej realistyczne poruszanie się.
 options.viewBobbing.tooltip.2=Gdy uzywasz mipmap, wyłącz tę opcję, aby podwyższyć wydajność.
 
-options.guiScale.tooltip.1=Skala interfejsu
+options.guiScale.tooltip.1=Wielkość Interfejsu
 options.guiScale.tooltip.2=Mniejszy interfejs może podyższyć wydajność
 
 options.vbo.tooltip.1=Vertex Buffer Objects
@@ -82,10 +82,11 @@ options.vbo.tooltip.2=Używa alternatywnej metody renderowania, która jest
 options.vbo.tooltip.3=szybsza (o 5-10%%) niż zwykła metoda.
 
 options.gamma.tooltip.1=Podwyższa jasność ciemnych obiektów
-options.gamma.tooltip.2=  Wył. - standardowa jasność
-options.gamma.tooltip.3=  100%% - maksymalna jasność ciemnych obiektów
-options.gamma.tooltip.4=Ta opcja nie podwyższa jasności obiektów, które
-options.gamma.tooltip.5=są w pełni czarne.
+options.gamma.tooltip.2=  Nastrojowa - standardowa jasność
+options.gamma.tooltip.3=  1%%-99%% - możliwość dostosowania jasności
+options.gamma.tooltip.4=  Jaskrawa - maksymalna jasność ciemnych obiektów
+options.gamma.tooltip.5=Ta opcja nie podwyższa jasności obiektów, które
+options.gamma.tooltip.6=są w pełni czarne.
 
 options.anaglyph.tooltip.1=Anaglify 3D
 options.anaglyph.tooltip.2=Włącza stereoskopowy efekt 3D używając różnych kolorów
