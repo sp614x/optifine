@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2016-04-05
+#   CrafterKina 2014-01-04 ---- 2016-04-14
 
 # General
 of.general.custom=カスタム
@@ -85,11 +85,12 @@ options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=描画方式を新しいものに変更し、
 options.vbo.tooltip.3=5～10%%処理を軽くできます。
 
-options.gamma.tooltip.1=暗い物体の明るさを変更します
-options.gamma.tooltip.2=  オフ - 通常の明るさ
-options.gamma.tooltip.3=  100%% - 最大の明るさ
-options.gamma.tooltip.4=完全に真っ暗な物体の明るさは、
-options.gamma.tooltip.5=変更できません。
+options.gamma.tooltip.1=暗い物体の明るさの変更
+options.gamma.tooltip.2=  暗い - 通常の明るさ
+options.gamma.tooltip.3=  1～99%% - 明るさを調整する
+options.gamma.tooltip.4=  明るい - 最大の明るさ
+options.gamma.tooltip.5=完全に真っ暗な物体の明るさは、
+options.gamma.tooltip.6=変更できません。
 
 options.anaglyph.tooltip.1=3Dアナグリフ
 options.anaglyph.tooltip.2=それぞれの目に別々の色を使うことで
