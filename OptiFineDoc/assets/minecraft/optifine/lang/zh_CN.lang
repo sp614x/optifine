@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-4-5
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-4-17
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -218,9 +218,9 @@ of.options.CLEAR_WATER.tooltip.2=  开 - 清澈、透明水体
 of.options.CLEAR_WATER.tooltip.3=  关 - 默认水体
 
 of.options.RANDOM_MOBS=随机生物
-of.options.RANDOM_MOBS.tooltip.1=随机生物
-of.options.RANDOM_MOBS.tooltip.2=  关 - 关闭随机生物，较快
-of.options.RANDOM_MOBS.tooltip.3=  开 - 随机生物，较慢
+of.options.RANDOM_MOBS.tooltip.1=随机生物材质
+of.options.RANDOM_MOBS.tooltip.2=  关 - 关闭随机生物材质，较快
+of.options.RANDOM_MOBS.tooltip.3=  开 - 随机生物材质，较慢
 of.options.RANDOM_MOBS.tooltip.4=游戏中的生物材质使用随机的贴图。
 of.options.RANDOM_MOBS.tooltip.5=它需要资源包内有多个生物贴图。
 
@@ -280,7 +280,7 @@ of.options.NATURAL_TEXTURES.tooltip.1=天然纹理
 of.options.NATURAL_TEXTURES.tooltip.2=  关 - 关闭天然纹理（默认）
 of.options.NATURAL_TEXTURES.tooltip.3=  开 - 使用天然纹理
 of.options.NATURAL_TEXTURES.tooltip.4=天然纹理会移除由同一类型的方块重复
-of.options.NATURAL_TEXTURES.tooltip.5=创建的栅格状图案。它通过旋转和翻转
+of.options.NATURAL_TEXTURES.tooltip.5=而创建的栅格状图案。它通过旋转和翻转
 of.options.NATURAL_TEXTURES.tooltip.6=方块的基础材质来创建材质变体。
 of.options.NATURAL_TEXTURES.tooltip.7=天然纹理的配置和材质一般由
 of.options.NATURAL_TEXTURES.tooltip.8=当前的材质包提供
