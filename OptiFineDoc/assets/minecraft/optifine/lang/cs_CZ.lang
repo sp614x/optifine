@@ -4,7 +4,7 @@ of.general.custom=Vlastní
 of.general.from=Z
 of.general.id=Id
 of.general.restart=restart
-of.general.smart=Chytrý
+of.general.smart=Chytrá
 
 # Zprávy
 of.message.aa.shaders1=Antialiasing není kompatibilní se Stíny.
@@ -31,7 +31,7 @@ of.message.openglError=§eChyba OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Načítám stíny: %s
 
-of.message.other.reset=Vyresetovat všechno nastavení videa (grafiky) na defaultní hodnoty?
+of.message.other.reset=Vyresetovat všechno nastavení videa (grafiky) na výchozí hodnoty?
  
 # Nastavení Grafiky
 
@@ -39,7 +39,7 @@ options.graphics.tooltip.1=Vizuální kvality
 options.graphics.tooltip.2=  Rychlá  - nižší kvalita, rychlejší
 options.graphics.tooltip.3=  Pěkná - vyšší kvalita, pomalejší
 options.graphics.tooltip.4=Mění vzhled mraků, listí, vody,
-options.graphics.tooltip.5=shadows and grass sides.
+options.graphics.tooltip.5=stínů a stran trávníků.
 
 of.options.renderDistance.extreme=Extrémní
 
@@ -53,7 +53,7 @@ options.renderDistance.tooltip.7=Extrémní Viditelná vzdálenost je velmi výk
 options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální světy.
 
 options.ao.tooltip.1=Vyhlazené osvětlení.
-options.ao.tooltip.2=  Vypnuto - žádné vyhlazené osvětlení (rychlé)
+options.ao.tooltip.2=  VYPNUTO - žádné vyhlazené osvětlení (rychlé)
 options.ao.tooltip.3=  Minimální - jednoduché vyhlazené osvětlení (pomalejší)
 options.ao.tooltip.4=  Maximum - kompletně vyhlazené osvětlení (nejpomalejší)
 
@@ -67,19 +67,19 @@ of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Úroveň Vyhlazeného Osvětlení
 of.options.AO_LEVEL.tooltip.1=Úroveň vyhlazeného osvětlení
-of.options.AO_LEVEL.tooltip.2=  Vypnuto - žádné stíny
+of.options.AO_LEVEL.tooltip.2=  VYPNUTO - žádné stíny
 of.options.AO_LEVEL.tooltip.3=  50%% - světlé stíny
 of.options.AO_LEVEL.tooltip.4=  100%% - tmavé stíny
 
 options.viewBobbing.tooltip.1=Více realistický pohyb
-options.viewBobbing.tooltip.2=Pokud používáš mipmapu, nastav na Vypnuto pro nejlepší výsledky.
+options.viewBobbing.tooltip.2=Pokud používáš mipmapu, nastav na VYPNUTO pro nejlepší výsledky.
 
 options.guiScale.tooltip.1=Velikost GUI
 options.guiScale.tooltip.2=Menší GUI mohou být rychlejší.
 
 options.vbo.tooltip.1=Vertexově Vyrovnávající objekty
 options.vbo.tooltip.2=Používá alternativní model renderování, který je
-options.vbo.tooltip.3=rychlejší (5-10%%) oproti defaultnímu renderování.
+options.vbo.tooltip.3=rychlejší (5-10%%) oproti výchozímu renderování.
 
 options.gamma.tooltip.1=Zvýší jas tmavých objektů
 options.gamma.tooltip.2=  Tmavý - standardní jas
@@ -101,7 +101,7 @@ of.options.FOG_FANCY=Mlha
 of.options.FOG_FANCY.tooltip.1=Typ mlhy
 of.options.FOG_FANCY.tooltip.2=  Rychlá - rychlejší mlha
 of.options.FOG_FANCY.tooltip.3=  Pěkná - pomalejší mlha, vypadá pěkněji
-of.options.FOG_FANCY.tooltip.4=  Vypnuto - žádná mlha, rychlejší
+of.options.FOG_FANCY.tooltip.4=  VYPNUTO - žádná mlha, rychlejší
 of.options.FOG_FANCY.tooltip.5=Pěkná mlha se aktivuje jen když je podporována
 of.options.FOG_FANCY.tooltip.6=grafickou kartou.
 
@@ -113,7 +113,7 @@ of.options.FOG_START.tooltip.4=Tato možnost většinou neovlivňuje výkon.
 
 of.options.CHUNK_LOADING=Načítaní Chunků
 of.options.CHUNK_LOADING.tooltip.1= Načítaní Chunků
-of.options.CHUNK_LOADING.tooltip.2=  Defaultní - nestabilní FPS při načítání chunků
+of.options.CHUNK_LOADING.tooltip.2=  Výchozí - nestabilní FPS při načítání chunků
 of.options.CHUNK_LOADING.tooltip.3=  Pllynulé - stabilní FPS
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Jádra - stabilní FPS, 3x rychlejší načítání světa
 of.options.CHUNK_LOADING.tooltip.5=Plynulé a Multi-Jádra - odstraní sekání a 
@@ -126,7 +126,7 @@ of.options.chunkLoading.multiCore=Multi-Jádro
 of.options.shaders=Stíny...
 of.options.shadersTitle=Stíny
 
-of.options.shaders.packNone=Vypnuto
+of.options.shaders.packNone=VYPNUTO
 of.options.shaders.packDefault=(vložené)
 
 of.options.shaders.ANTIALIASING=Antialiasing
@@ -173,7 +173,7 @@ of.options.mipmap.trilinear=Trilineární
 
 options.mipmapLevels.tooltip.1=Vizuální efekty mohou udělat vzdálenější objekty pěknější
 options.mipmapLevels.tooltip.2=vyhlazováním a detailními texturami.
-options.mipmapLevels.tooltip.3=  Vypnuto - žádné vyhlazování
+options.mipmapLevels.tooltip.3=  VYPNUTO - žádné vyhlazování
 options.mipmapLevels.tooltip.4=  1 - minimální vyhlazování
 options.mipmapLevels.tooltip.5=  4 - maximální vyhlazování
 options.mipmapLevels.tooltip.6=Tato možnost většinou neovlivňuje výkon.
@@ -189,7 +189,7 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilineární - nejlepší vyhlazování (nej
 
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
-of.options.AA_LEVEL.tooltip.2= Vypnuto - (defaultní) žádný Antialiasing (rychlé)
+of.options.AA_LEVEL.tooltip.2= VYPNUTO - (výchozí) žádný Antialiasing (rychlé)
 of.options.AA_LEVEL.tooltip.3= 2-16 - vyhlazované hrany a lajny (pomalé)
 of.options.AA_LEVEL.tooltip.4=Antialiasing vyhlazuje rozviklané hrany a 
 of.options.AA_LEVEL.tooltip.5=přechody ostrých barev.
@@ -199,7 +199,7 @@ of.options.AA_LEVEL.tooltip.8=Efektivní po RESTARTU!
 
 of.options.AF_LEVEL=Antizotropní Filtrování
 of.options.AF_LEVEL.tooltip.1= Antizotropní Filtrování
-of.options.AF_LEVEL.tooltip.2= Vypnuto - (defaultní) standartní detaily textur (rychlé)
+of.options.AF_LEVEL.tooltip.2= VYPNUTO - (výchozí) standartní detaily textur (rychlé)
 of.options.AF_LEVEL.tooltip.3= 2-16 - lepší detaily v mipmapovaných texturách (pomalé)
 of.options.AF_LEVEL.tooltip.4= Antizotropní Filtrování zachová všechny detaily v
 of.options.AF_LEVEL.tooltip.5=mipmapovaných texturách.
@@ -207,62 +207,62 @@ of.options.AF_LEVEL.tooltip.6=Pokud je zapnuto, výrazně sníží FPS..
 
 of.options.CLEAR_WATER=Čistá Voda
 of.options.CLEAR_WATER.tooltip.1= Čistá Voda
-of.options.CLEAR_WATER.tooltip.2=  Zapnuto - čistá, průhledná voda
-of.options.CLEAR_WATER.tooltip.3=  Vypnuto - defaultní voda
+of.options.CLEAR_WATER.tooltip.2=  ZAPNUTO - čistá, průhledná voda
+of.options.CLEAR_WATER.tooltip.3=  VYPNUTO - výchozí voda
 
 of.options.RANDOM_MOBS=Náhodní Mobové
 of.options.RANDOM_MOBS.tooltip.1= Náhodní Mobové
-of.options.RANDOM_MOBS.tooltip.2=  Vypnuto - žádní náhodní mobové, rychlejší
-of.options.RANDOM_MOBS.tooltip.3=  Zapnuto - náhodní mobové, pomalejší
+of.options.RANDOM_MOBS.tooltip.2=  VYPNUTO - žádní náhodní mobové, rychlejší
+of.options.RANDOM_MOBS.tooltip.3=  ZAPNUTO - náhodní mobové, pomalejší
 of.options.RANDOM_MOBS.tooltip.4=Funkce náhodní mobové používá náhodně textury pro moby ve hře.
 of.options.RANDOM_MOBS.tooltip.5=Vyžaduje balíček textur, který má více textur mobů.
 
 of.options.BETTER_GRASS=Lepší Trávník
 of.options.BETTER_GRASS.tooltip.1=Lepsí Trávník
-of.options.BETTER_GRASS.tooltip.2=  Vypnuto - defaultní strana trávníku, rychlejší
-of.options.BETTER_GRASS.tooltip.3=  Rychlé - plná strana trávníku, pomalejší
-of.options.BETTER_GRASS.tooltip.4=  Pěkné - dynamická strana trávníku, nepomalejší
+of.options.BETTER_GRASS.tooltip.2=  VYPNUTO - výchozí strana trávníku, rychlejší
+of.options.BETTER_GRASS.tooltip.3=  Rychlá - plná strana trávníku, pomalejší
+of.options.BETTER_GRASS.tooltip.4=  Pěkná - dynamická strana trávníku, nepomalejší
 
 of.options.BETTER_SNOW=Lepší Sníh
 of.options.BETTER_SNOW.tooltip.1=Lepší sníh
-of.options.BETTER_SNOW.tooltip.2=  Vypnuto - defaultní sníh, rychlejší
-of.options.BETTER_SNOW.tooltip.3=  Zapnuto - lepší sníh, pomalejší
+of.options.BETTER_SNOW.tooltip.2=  VYPNUTO - výchozí sníh, rychlejší
+of.options.BETTER_SNOW.tooltip.3=  ZAPNUTO - lepší sníh, pomalejší
 of.options.BETTER_SNOW.tooltip.4=Zobrazuje sníh pod průhlednými bloky (plot, vysoká tráva)
 of.options.BETTER_SNOW.tooltip.5=když sousedí se sněhovými bloky.
 
 of.options.CUSTOM_FONTS=Vlastní Písmo
 of.options.CUSTOM_FONTS.tooltip.1= Vlastní Písmo
-of.options.CUSTOM_FONTS.tooltip.2=  Zapnuto - používá vlastní písmo (defaultní), pomalejší
-of.options.CUSTOM_FONTS.tooltip.3=  Vypnuto - používá defaultní písmo, rychlejší
+of.options.CUSTOM_FONTS.tooltip.2=  ZAPNUTO - používá vlastní písmo (výchozí), pomalejší
+of.options.CUSTOM_FONTS.tooltip.3=  VYPNUTO - používá výchozí písmo, rychlejší
 of.options.CUSTOM_FONTS.tooltip.4=Vlastní písmo záleží na vybraném
 of.options.CUSTOM_FONTS.tooltip.5=balíčku textur.
 
 of.options.CUSTOM_COLORS=Vlastní Barvy
 of.options.CUSTOM_COLORS.tooltip.1= Vlastní Barvy
-of.options.CUSTOM_COLORS.tooltip.2=  Zapnuto - používá vlastní barvy (defaultní), pomalejší
-of.options.CUSTOM_COLORS.tooltip.3=  Vypnuto - používá defaultní barvy, rychlejší
+of.options.CUSTOM_COLORS.tooltip.2=  ZAPNUTO - používá vlastní barvy (výchozí), pomalejší
+of.options.CUSTOM_COLORS.tooltip.3=  VYPNUTO - používá výchozí barvy, rychlejší
 of.options.CUSTOM_COLORS.tooltip.4=Vlastní barvy záleží na vybraném
 of.options.CUSTOM_COLORS.tooltip.5=balíčku textur.
 
 of.options.SWAMP_COLORS=Barvy v Bažinách
 of.options.SWAMP_COLORS.tooltip.1= Barvy v Bažinách
-of.options.SWAMP_COLORS.tooltip.2=  Zapnuto - používá barvy v bažinách (defaultní), pomalejší
-of.options.SWAMP_COLORS.tooltip.3=  Vypnuto - nepoužívá barvy v bažinách, rychlejší
+of.options.SWAMP_COLORS.tooltip.2=  ZAPNUTO - používá barvy v bažinách (výchozí), pomalejší
+of.options.SWAMP_COLORS.tooltip.3=  VYPNUTO - nepoužívá barvy v bažinách, rychlejší
 of.options.SWAMP_COLORS.tooltip.4=Barvy v bažinách ovlivňují trávník, listy, lijány a vodu.
 
 of.options.SMOOTH_BIOMES=Vyhlazené Biomy
 of.options.SMOOTH_BIOMES.tooltip.1=Vyhlazené Biomy
-of.options.SMOOTH_BIOMES.tooltip.2=  Zapnuto - vyhlazování hranic biomů (defaultní), pomalejší
-of.options.SMOOTH_BIOMES.tooltip.3=  Vypnuto - žádné vyhlazování hranic biomů, rychlejší.
+of.options.SMOOTH_BIOMES.tooltip.2=  ZAPNUTO - vyhlazování hranic biomů (výchozí), pomalejší
+of.options.SMOOTH_BIOMES.tooltip.3=  VYPNUTO - žádné vyhlazování hranic biomů, rychlejší.
 of.options.SMOOTH_BIOMES.tooltip.4=Vyhlazování hranic biomů je dáno změnou a
 of.options.SMOOTH_BIOMES.tooltip.5=průměru všech sousedících bloků.
 of.options.SMOOTH_BIOMES.tooltip.6=Ovlivňuje trávník, listí, lijány a vodu.
 
 of.options.CONNECTED_TEXTURES=Spojené Textury
 of.options.CONNECTED_TEXTURES.tooltip.1=Spojené Textury
-of.options.CONNECTED_TEXTURES.tooltip.2=  Vypnuto - žádné spojené textury (defaultní), rychlejší
-of.options.CONNECTED_TEXTURES.tooltip.3=  Rychlé - rychle spojené textury
-of.options.CONNECTED_TEXTURES.tooltip.4=  Pěkné - pěkně spojené textury
+of.options.CONNECTED_TEXTURES.tooltip.2=  VYPNUTO - žádné spojené textury (výchozí), rychlejší
+of.options.CONNECTED_TEXTURES.tooltip.3=  Rychlá - rychle spojené textury
+of.options.CONNECTED_TEXTURES.tooltip.4=  Pěkná - pěkně spojené textury
 of.options.CONNECTED_TEXTURES.tooltip.5=Spojené textury spojují textury skla,,
 of.options.CONNECTED_TEXTURES.tooltip.6=pískovce a knihoven když jsou
 of.options.CONNECTED_TEXTURES.tooltip.7=vedle sebe. Spojené textury záleží
@@ -270,8 +270,8 @@ of.options.CONNECTED_TEXTURES.tooltip.8=na vybraném balíčku textur.
 
 of.options.NATURAL_TEXTURES=Naturální Textury
 of.options.NATURAL_TEXTURES.tooltip.1=Naturální Textury
-of.options.NATURAL_TEXTURES.tooltip.2=  Vypnuto - žádné naturální textury, rychlejší
-of.options.NATURAL_TEXTURES.tooltip.3=  Zapnuto - používá naturální textury
+of.options.NATURAL_TEXTURES.tooltip.2=  VYPNUTO - žádné naturální textury, rychlejší
+of.options.NATURAL_TEXTURES.tooltip.3=  ZAPNUTO - používá naturální textury
 of.options.NATURAL_TEXTURES.tooltip.4=Naturální textury odstraňují vzor
 of.options.NATURAL_TEXTURES.tooltip.5=vytvořený opakováním bloků stejných typů.
 of.options.NATURAL_TEXTURES.tooltip.6=Používá otočené a převrácené základy
@@ -280,15 +280,15 @@ of.options.NATURAL_TEXTURES.tooltip.8=je ovlivňováno vybraným balíčkem text
 
 of.options.CUSTOM_SKY=Vlastní Obloha
 of.options.CUSTOM_SKY.tooltip.1=Vlastní Obloha
-of.options.CUSTOM_SKY.tooltip.2=  Zapnuto - používá vlastní textury oblohy (defaultní), pomalejší
-of.options.CUSTOM_SKY.tooltip.3=  Vypnuto - defaultní obloha, rychlejší
+of.options.CUSTOM_SKY.tooltip.2=  ZAPNUTO - používá vlastní textury oblohy (výchozí), pomalejší
+of.options.CUSTOM_SKY.tooltip.3=  VYPNUTO - výchozí obloha, rychlejší
 of.options.CUSTOM_SKY.tooltip.4=Vlastní textura oblohy je ovlivňována vybraným
 of.options.CUSTOM_SKY.tooltip.5=balíčkem textur.
 
 of.options.CUSTOM_ITEMS=Vlastní Itemy
 of.options.CUSTOM_ITEMS.tooltip.1=Vlastní Itemy
-of.options.CUSTOM_ITEMS.tooltip.2=  Zapnuto - vlastní textury itemů (defaultní), pomalejší
-of.options.CUSTOM_ITEMS.tooltip.3=  Vypnuto - defaultní textury itemů, rychlejší
+of.options.CUSTOM_ITEMS.tooltip.2=  ZAPNUTO - vlastní textury itemů (výchozí), pomalejší
+of.options.CUSTOM_ITEMS.tooltip.3=  VYPNUTO - výchozí textury itemů, rychlejší
 of.options.CUSTOM_ITEMS.tooltip.4=Vlastní itemy záleží na vybraném
 of.options.CUSTOM_ITEMS.tooltip.5=balíčku textur.
 
@@ -296,85 +296,85 @@ of.options.CUSTOM_ITEMS.tooltip.5=balíčku textur.
 
 of.options.CLOUDS=Mraky
 of.options.CLOUDS.tooltip.1=Mraky
-of.options.CLOUDS.tooltip.2=  Defaultní - z nastavení Grafiky
-of.options.CLOUDS.tooltip.3=  Rychlé - nižší kvalita, rychlejší
-of.options.CLOUDS.tooltip.4=  Pěkné - vyšší kvalita, pěknější
-of.options.CLOUDS.tooltip.5=  Vypnuto - žádné mraky, nejrychlejší
+of.options.CLOUDS.tooltip.2=  Výchozí - z nastavení Grafiky
+of.options.CLOUDS.tooltip.3=  Rychlá - nižší kvalita, rychlejší
+of.options.CLOUDS.tooltip.4=  Pěkná - vyšší kvalita, pěknější
+of.options.CLOUDS.tooltip.5=  VYPNUTO - žádné mraky, nejrychlejší
 of.options.CLOUDS.tooltip.6=Rychlé mraky jsou 2D.
 of.options.CLOUDS.tooltip.7=Pěkné mraky jsou 3D.
 
 of.options.CLOUD_HEIGHT=Výška Mraků
 of.options.CLOUD_HEIGHT.tooltip.1=Výška Mraků
-of.options.CLOUD_HEIGHT.tooltip.2=  Vypnuto - defaultní výška
+of.options.CLOUD_HEIGHT.tooltip.2=  VYPNUTO - výchozí výška
 of.options.CLOUD_HEIGHT.tooltip.3=  100%% - nad limitem stavění
 
 of.options.TREES=Stromy
 of.options.TREES.tooltip.1=Stromy
-of.options.TREES.tooltip.2=  Defaultní - z nastavení Grafiky
-of.options.TREES.tooltip.3=  Rychlé - nejnižší kvalita, nejrychlejší
-of.options.TREES.tooltip.4=  Chytré - vyšší kvalita, rychlé
-of.options.TREES.tooltip.5=  Pěkné - nejvyšší kvalita, nejpomalejší
-of.options.TREES.tooltip.6=Rychlé stromy mají průhledné listí.
+of.options.TREES.tooltip.2=  Výchozí - z nastavení Grafiky
+of.options.TREES.tooltip.3=  Rychlá - nejnižší kvalita, nejrychlejší
+of.options.TREES.tooltip.4=  Chytrá - vyšší kvalita, rychlé
+of.options.TREES.tooltip.5=  Pěkná - nejvyšší kvalita, nejpomalejší
+of.options.TREES.tooltip.6=Rychlá stromy mají průhledné listí.
 of.options.TREES.tooltip.7=Pěkné a Chytré stromy mají průhledné listí.
 
 of.options.RAIN=Sníh a Déšť
 of.options.RAIN.tooltip.1=Sníh a Déšť
-of.options.RAIN.tooltip.2=  Defaultní - z nastavení Grafiky
-of.options.RAIN.tooltip.3=  Rychlé - lehký sníh/déšť, rychlejší
-of.options.RAIN.tooltip.4=  Pěkné - velký sníh/déšť, pomalejší
-of.options.RAIN.tooltip.5=  Vypnuto - žádný sníh/déšť, nejrychlejší
+of.options.RAIN.tooltip.2=  Výchozí - z nastavení Grafiky
+of.options.RAIN.tooltip.3=  Rychlá - lehký sníh/déšť, rychlejší
+of.options.RAIN.tooltip.4=  Pěkná - velký sníh/déšť, pomalejší
+of.options.RAIN.tooltip.5=  VYPNUTO - žádný sníh/déšť, nejrychlejší
 of.options.RAIN.tooltip.6=Pokud je déšť vypnutý, jeho zvuky stále
 of.options.RAIN.tooltip.7=hrají.
 
 of.options.SKY=Obloha
 of.options.SKY.tooltip.1=Obloha
-of.options.SKY.tooltip.2=  Zapnuto - obloha je viditelná, pomalejší
-of.options.SKY.tooltip.3=  Vypnuto - obloha nejde vidět, rychlejší
+of.options.SKY.tooltip.2=  ZAPNUTO - obloha je viditelná, pomalejší
+of.options.SKY.tooltip.3=  VYPNUTO - obloha nejde vidět, rychlejší
 of.options.SKY.tooltip.4=Pokud je obloha vypnutá, měsíc a slunce půjdou stále vidět.
 
 of.options.STARS=Hvězdy
 of.options.STARS.tooltip.1=Hvězdy
-of.options.STARS.tooltip.2=  Zapnuto - hvězdy jsou viditelné, pomalejší
-of.options.STARS.tooltip.3=  Vypnuto - hvězdy nejdou vidět, rychlejší
+of.options.STARS.tooltip.2=  ZAPNUTO - hvězdy jsou viditelné, pomalejší
+of.options.STARS.tooltip.3=  VYPNUTO - hvězdy nejdou vidět, rychlejší
 
 of.options.SUN_MOON=Slunce a Měsíc
 of.options.SUN_MOON.tooltip.1=Slunce a Měsíc
-of.options.SUN_MOON.tooltip.2=  Zapnuto - slunce a měsíc lze vidět (defaultní)
-of.options.SUN_MOON.tooltip.3=  Vypnuto - slunce a měsíc nelze vidět, rychlejší
+of.options.SUN_MOON.tooltip.2=  ZAPNUTO - slunce a měsíc lze vidět (výchozí)
+of.options.SUN_MOON.tooltip.3=  VYPNUTO - slunce a měsíc nelze vidět, rychlejší
 
 of.options.SHOW_CAPES=Zobrazovat Kápě
 of.options.SHOW_CAPES.tooltip.1=Zobrazovat Kápě
-of.options.SHOW_CAPES.tooltip.2=  Zapnuto - zobrazovat kápě hráčů (defaultní)
-of.options.SHOW_CAPES.tooltip.3=  Vypnuto - nezobrazovat kápě hráčů
+of.options.SHOW_CAPES.tooltip.2=  ZAPNUTO - zobrazovat kápě hráčů (výchozí)
+of.options.SHOW_CAPES.tooltip.3=  VYPNUTO - nezobrazovat kápě hráčů
 
 of.options.TRANSLUCENT_BLOCKS=Průsvitné Bloky
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Průsvitné Bloky
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pěkné - pěkné mixování bloků (defaultní)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rychlé - rychlé mixování bloků (rychlejší)
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pěkná - pěkné mixování bloků (výchozí)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rychlá - rychlé mixování bloků (rychlejší)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=Ovládání mixování bloků zajišťuje blokům
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=s rozfílnou barvou (barevné sklo, voda, led)
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=odstranit vzduch mezi nimi.
 
 of.options.HELD_ITEM_TOOLTIPS=Popisek k Drženému Itemu
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Popisek k Drženému Itemu
-of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Zapnuto - zobrazovat popisky (defaultní)
-of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Vypnuto - nezobrazovat popisky
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  ZAPNUTO - zobrazovat popisky (výchozí)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  VYPNUTO - nezobrazovat popisky
 
 of.options.DROPPED_ITEMS=Vyhozené Itemy
 of.options.DROPPED_ITEMS.tooltip.1=Vyhozené Itemy
-of.options.DROPPED_ITEMS.tooltip.2=  Defaultní - podle nastavení Grafiky
-of.options.DROPPED_ITEMS.tooltip.3=  Rychlé - vyhozené itemy ve 2D, rychlejší
-of.options.DROPPED_ITEMS.tooltip.4=  Pěkné - vyhozené itemy ve 3D, pomalejší
+of.options.DROPPED_ITEMS.tooltip.2=  Výchozí - podle nastavení Grafiky
+of.options.DROPPED_ITEMS.tooltip.3=  Rychlá - vyhozené itemy ve 2D, rychlejší
+of.options.DROPPED_ITEMS.tooltip.4=  Pěkná - vyhozené itemy ve 3D, pomalejší
 
 options.entityShadows.tooltip.1=Stíny Entit
-options.entityShadows.tooltip.2=  Zapnuto - zobrazovat stíny entit
-options.entityShadows.tooltip.3=  Vypnuto - nezobrazovat stíny entit
+options.entityShadows.tooltip.2=  ZAPNUTO - zobrazovat stíny entit
+options.entityShadows.tooltip.3=  VYPNUTO - nezobrazovat stíny entit
 
 of.options.VIGNETTE=Ztmavení
 of.options.VIGNETTE.tooltip.1=Vizuální efekt, který ztmaví okraje obrazovky.
-of.options.VIGNETTE.tooltip.2=  Defaultní - záleží na nastavení Grafiky (defaultní)
-of.options.VIGNETTE.tooltip.3=  Rychlé - ztmavení vypnuto (rychlejší)
-of.options.VIGNETTE.tooltip.4=  Pěkné - ztmavení zapnuto (pomalejší)
+of.options.VIGNETTE.tooltip.2=  Výchozí - záleží na nastavení Grafiky (výchozí)
+of.options.VIGNETTE.tooltip.3=  Rychlá - ztmavení vypnuto (rychlejší)
+of.options.VIGNETTE.tooltip.4=  Pěkná - ztmavení zapnuto (pomalejší)
 of.options.VIGNETTE.tooltip.5=Ztmavení může mít veliký vliv na FPS,
 of.options.VIGNETTE.tooltip.6=speciálně při hraní ve fullscreenu.
 of.options.VIGNETTE.tooltip.7=Efekt ztmavení je velmi jemný a dá se bezpečně
@@ -384,35 +384,35 @@ of.options.VIGNETTE.tooltip.8=vypnout.
 
 of.options.SMOOTH_FPS=Vyhlazené FPS
 of.options.SMOOTH_FPS.tooltip.1=Stabilizuje FPS velikým nátlakem na grafický adaptér
-of.options.SMOOTH_FPS.tooltip.2=  Vypnuto - žádná stabilizace, FPS mohou kolísat
-of.options.SMOOTH_FPS.tooltip.3=  Zapnuto - stabilizace FPS
+of.options.SMOOTH_FPS.tooltip.2=  VYPNUTO - žádná stabilizace, FPS mohou kolísat
+of.options.SMOOTH_FPS.tooltip.3=  ZAPNUTO - stabilizace FPS
 of.options.SMOOTH_FPS.tooltip.4=Tato možnost záleží na grafickém adaptéru a jeho efekt
 of.options.SMOOTH_FPS.tooltip.5=není vždy vidět.
 
 of.options.SMOOTH_WORLD=Vyhlazený Svět
 of.options.SMOOTH_WORLD.tooltip.1=Odstraní lagy způsobené interním serverem.
-of.options.SMOOTH_WORLD.tooltip.2=  Vypnuto - žádná stabilizace, FPS mohou kolísat
-of.options.SMOOTH_WORLD.tooltip.3=  Zapnuto - stabilizace FPS
+of.options.SMOOTH_WORLD.tooltip.2=  VYPNUTO - žádná stabilizace, FPS mohou kolísat
+of.options.SMOOTH_WORLD.tooltip.3=  ZAPNUTO - stabilizace FPS
 of.options.SMOOTH_WORLD.tooltip.4=Stabilizuje FPS rozdělením nsčítání světa.
 of.options.SMOOTH_WORLD.tooltip.5=Funguje jen na lokálních světech (hra pro jednoho hráče).
 
 of.options.FAST_RENDER=Rychlý Render
 of.options.FAST_RENDER.tooltip.1=Rychlý Render
-of.options.FAST_RENDER.tooltip.2= Vypnuto - standardní render
-of.options.FAST_RENDER.tooltip.3= Zapnuto - vyvážený render (rychlejší)
+of.options.FAST_RENDER.tooltip.2= VYPNUTO - standardní render
+of.options.FAST_RENDER.tooltip.3= ZAPNUTO - vyvážený render (rychlejší)
 of.options.FAST_RENDER.tooltip.4=Používáním vyváženěho renderovacího algoritmu se může snížít
 of.options.FAST_RENDER.tooltip.5=využití GPU, což může zvýšit FPS.
 
 of.options.FAST_MATH=Rychlá Matematika
 of.options.FAST_MATH.tooltip.1=Rychlá Matematika
-of.options.FAST_MATH.tooltip.2= Vypnuto - standardní matematika
-of.options.FAST_MATH.tooltip.3= Zapnuto - rychlá matematika
+of.options.FAST_MATH.tooltip.2= VYPNUTO - standardní matematika
+of.options.FAST_MATH.tooltip.3= ZAPNUTO - rychlá matematika
 of.options.FAST_MATH.tooltip.4=Používá vyvážené sin() a cos() funkce, což může
 of.options.FAST_MATH.tooltip.5=lépe šetřit CPU a zvýšit FPS.
 
 of.options.CHUNK_UPDATES=Načítání Chunků
 of.options.CHUNK_UPDATES.tooltip.1=Načítání Chunků
-of.options.CHUNK_UPDATES.tooltip.2= 1 - pomalejší načítání světa, vyšší FPS (defaultní)
+of.options.CHUNK_UPDATES.tooltip.2= 1 - pomalejší načítání světa, vyšší FPS (výchozí)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - rychlejší načítání světa, nižší FPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - nejrychlejší načítání světa, nejnižší FPS
 of.options.CHUNK_UPDATES.tooltip.5=Číslo chnků načtených za 1 FPS,
@@ -420,24 +420,24 @@ of.options.CHUNK_UPDATES.tooltip.6=vyšší hodnoty mohou FPS snížit.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dynamické Načítání
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamické načítání chunků
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Vypnuto - (defaultní) standardní počet chunků na FPS
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Zapnuto - více chunků, když se hráč nehýbe
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VYPNUTO - (výchozí) standardní počet chunků na FPS
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ZAPNUTO - více chunků, když se hráč nehýbe
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamické načítání načte více chunků
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=když se hráč nehýbe, svět se načte rychleji.
 
 of.options.LAZY_CHUNK_LOADING=Líné Načítání Chunků
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Pomalé načítání chunků
-of.options.LAZY_CHUNK_LOADING.tooltip.2= Vypnuto - defaultní načítání serverových chunků
-of.options.LAZY_CHUNK_LOADING.tooltip.3= Zapnuto - pomalé načítání serverových chunků (plynulejší)
+of.options.LAZY_CHUNK_LOADING.tooltip.2= VYPNUTO - výchozí načítání serverových chunků
+of.options.LAZY_CHUNK_LOADING.tooltip.3= ZAPNUTO - pomalé načítání serverových chunků (plynulejší)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Udělá plynulejší načítání chunků na integrovaném serveru
 of.options.LAZY_CHUNK_LOADING.tooltip.5=jejich rozdělováním na několik tiků.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=Pokud je Vypnuto, některé části světa se nenačtou správně.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Pokud je VYPNUTO, některé části světa se nenačtou správně.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektivní pouze pro lokální světy a 1-jádrové CPU.
 
 # Animace
 
-of.options.animation.allOn=Vše Zapnuto
-of.options.animation.allOff=Vše Vypnuto
+of.options.animation.allOn=Vše ZAPNUTO
+of.options.animation.allOff=Vše VYPNUTO
 of.options.animation.dynamic=Dynamické
 
 of.options.ANIMATED_WATER=Animovaná Voda
@@ -472,15 +472,15 @@ of.options.LAGOMETER.tooltip.8=* Zelená - Načítání terénu
 
 of.options.PROFILER=Ladící Profil
 of.options.PROFILER.tooltip.1=Ladící Profil
-of.options.PROFILER.tooltip.2=  Zapnuto - ladící profil je aktivní, pomalejší
-of.options.PROFILER.tooltip.3=  Vypnuto - ladící profil je neaktivní, rychlejší
+of.options.PROFILER.tooltip.2=  ZAPNUTO - ladící profil je aktivní, pomalejší
+of.options.PROFILER.tooltip.3=  VYPNUTO - ladící profil je neaktivní, rychlejší
 of.options.PROFILER.tooltip.4=Ladící profil sbírá a zobrazuje informace když
 of.options.PROFILER.tooltip.5=je otevřena ladící obrazovka (F3)
 
 of.options.WEATHER=Počasí
 of.options.WEATHER.tooltip.1=Počasí
-of.options.WEATHER.tooltip.2=  Zapnuto - počasí je aktivní, pomalejší
-of.options.WEATHER.tooltip.3=  Vypnuto - počasí je neaktivní, rychlejší
+of.options.WEATHER.tooltip.2=  ZAPNUTO - počasí je aktivní, pomalejší
+of.options.WEATHER.tooltip.3=  VYPNUTO - počasí je neaktivní, rychlejší
 of.options.WEATHER.tooltip.4=Počasí ovládá deště, sněžení a bouřky.
 of.options.WEATHER.tooltip.5=Ovládání počasí je možné pouze pro lokální světy.
 
@@ -489,21 +489,21 @@ of.options.time.nightOnly=Pouze Noc
 
 of.options.TIME=Čas
 of.options.TIME.tooltip.1=Čas
-of.options.TIME.tooltip.2= Defaultní - normální denní/noční cyklus
+of.options.TIME.tooltip.2= Výchozí - normální denní/noční cyklus
 of.options.TIME.tooltip.3= Pouze Den - pouze den
 of.options.TIME.tooltip.4= Pouze Noc - pouze noc
 of.options.TIME.tooltip.5=Nastavení času je efektivní jen v KREATIVNíM módu
 of.options.TIME.tooltip.6=a pro lokální světy.
 
 options.fullscreen.tooltip.1=Fullscreen
-options.fullscreen.tooltip.2=  Zapnuto - použít celoobrázkový mód
-options.fullscreen.tooltip.3=  Vypnuto - použít mód v okně
+options.fullscreen.tooltip.2=  ZAPNUTO - použít celoobrázkový mód
+options.fullscreen.tooltip.3=  VYPNUTO - použít mód v okně
 options.fullscreen.tooltip.4=Fullscreen mód může být rychlejší než
 options.fullscreen.tooltip.5=mód v okně, záleží na GPU.
 
 of.options.FULLSCREEN_MODE=Fullscreen Mód
 of.options.FULLSCREEN_MODE.tooltip.1=Celoobrázkový mód
-of.options.FULLSCREEN_MODE.tooltip.2=  Defaultní - používá hlavní rozlišení, pomalejší
+of.options.FULLSCREEN_MODE.tooltip.2=  Výchozí - používá hlavní rozlišení, pomalejší
 of.options.FULLSCREEN_MODE.tooltip.3=  WxH - používá vlastní rozlišení, může být rychlejší
 of.options.FULLSCREEN_MODE.tooltip.4=Vybrané rozlišení je používáno ve fullscreenu (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Nižší rozlišení mohou být rychlejší.
@@ -516,14 +516,14 @@ of.options.SHOW_FPS.tooltip.4=  U: - přednačtené chunky
 of.options.SHOW_FPS.tooltip.5=Informace o FPS se zobrazí jen,
 of.options.SHOW_FPS.tooltip.6=když je ladící obrazovka (F3) zneviditelněná.
 
-of.options.save.default=Defaultní (2s)
+of.options.save.default=Výchozí (2s)
 of.options.save.20s=20s
 of.options.save.3min=3min
 of.options.save.30min=30min
 
 of.options.AUTOSAVE_TICKS=Auto-ukládání
 of.options.AUTOSAVE_TICKS.tooltip.1=Interval auto-ukládání
-of.options.AUTOSAVE_TICKS.tooltip.2=Defaultní interval auto-ukládání (2s) se NEDOPORUčUJE
+of.options.AUTOSAVE_TICKS.tooltip.2=Výchozí interval auto-ukládání (2s) se NEDOPORUčUJE
 of.options.AUTOSAVE_TICKS.tooltip.3=Auto-ukládání způsobuje slavné sekací Smrti (Lag Spikes of Death).
 
 options.anaglyph.tooltip.1=3D mód používá červeno-modré 3D brýle.
