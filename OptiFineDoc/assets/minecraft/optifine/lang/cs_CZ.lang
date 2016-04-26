@@ -55,7 +55,7 @@ options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální 
 options.ao.tooltip.1=Vyhlazené osvětlení.
 options.ao.tooltip.2=  VYPNUTO - žádné vyhlazené osvětlení (rychlé)
 options.ao.tooltip.3=  Minimální - jednoduché vyhlazené osvětlení (pomalejší)
-options.ao.tooltip.4=  Maximum - kompletně vyhlazené osvětlení (nejpomalejší)
+options.ao.tooltip.4=  Maximální - kompletně vyhlazené osvětlení (nejpomalejší)
 
 options.framerateLimit.tooltip.1=Maximální FPS
 options.framerateLimit.tooltip.2=  VSync - limitované pro max počet FPS pro monitor (60, 30, 20)
