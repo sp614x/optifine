@@ -380,6 +380,13 @@ of.options.VIGNETTE.tooltip.6=especially when playing fullscreen.
 of.options.VIGNETTE.tooltip.7=The vignette effect is very subtle and can safely
 of.options.VIGNETTE.tooltip.8=be disabled
 
+of.options.DYNAMIC_FOV=Dynamic FOV
+of.options.DYNAMIC_FOV.tooltip.1=Dynamic FOV
+of.options.DYNAMIC_FOV.tooltip.2=  ON - enable dynamic FOV (default)
+of.options.DYNAMIC_FOV.tooltip.3=  OFF - disable dynamic FOV
+of.options.DYNAMIC_FOV.tooltip.4=Changes the field of view (FOV) when flying, sprinting 
+of.options.DYNAMIC_FOV.tooltip.5=or pulling a bow.
+
 # Performance
 
 of.options.SMOOTH_FPS=Smooth FPS
