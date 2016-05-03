@@ -126,8 +126,8 @@ of.options.chunkLoading.multiCore=Wielordzeniowe
 of.options.shaders=Shadery...
 of.options.shadersTitle=Shadery
 
-of.options.shaders.packNone=Wył.
-of.options.shaders.packDefault=(wewnętrzne)
+of.options.shaders.packNone=Wyłączone
+of.options.shaders.packDefault=Wewnętrzne
 
 of.options.shaders.ANTIALIASING=Antyaliasing
 of.options.shaders.NORMAL_MAP=Normalna mapa
@@ -379,6 +379,13 @@ of.options.VIGNETTE.tooltip.5=Winieta może w małym stopniu obniżyć FPS,
 of.options.VIGNETTE.tooltip.6=szczególnie przy grze na pełnym ekranie.
 of.options.VIGNETTE.tooltip.7=Efekt winiety jest subtelny i może być
 of.options.VIGNETTE.tooltip.8=bezproblemowo wyłączony.
+
+of.options.DYNAMIC_FOV=Dynamiczne FOV
+of.options.DYNAMIC_FOV.tooltip.1=Dynamiczne FOV
+of.options.DYNAMIC_FOV.tooltip.2=  Wł. - włącza dynamiczne FOV (domyślne)
+of.options.DYNAMIC_FOV.tooltip.3=  Wył. - wyłącza dynamiczne FOV
+of.options.DYNAMIC_FOV.tooltip.4=Zmienia pole widzenia (FOV), gdy latasz 
+of.options.DYNAMIC_FOV.tooltip.5=sprintujesz lub naciągasz łuk.
 
 # Performance
 
