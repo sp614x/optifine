@@ -218,7 +218,7 @@ of.options.RANDOM_MOBS.tooltip.4=Funkce náhodní mobové používá náhodně t
 of.options.RANDOM_MOBS.tooltip.5=Vyžaduje balíček textur, který má více textur mobů.
 
 of.options.BETTER_GRASS=Lepší Trávník
-of.options.BETTER_GRASS.tooltip.1=Lepsí Trávník
+of.options.BETTER_GRASS.tooltip.1=Lepší Trávník
 of.options.BETTER_GRASS.tooltip.2=  VYPNUTO - výchozí strana trávníku, rychlejší
 of.options.BETTER_GRASS.tooltip.3=  Rychlá - plná strana trávníku, pomalejší
 of.options.BETTER_GRASS.tooltip.4=  Pěkná - dynamická strana trávníku, nepomalejší
@@ -380,6 +380,13 @@ of.options.VIGNETTE.tooltip.6=speciálně při hraní ve fullscreenu.
 of.options.VIGNETTE.tooltip.7=Efekt ztmavení je velmi jemný a dá se bezpečně
 of.options.VIGNETTE.tooltip.8=vypnout.
 
+of.options.DYNAMIC_FOV=Dynamické FOV
+of.options.DYNAMIC_FOV.tooltip.1=Dynamické FOV
+of.options.DYNAMIC_FOV.tooltip.2=  ZAPNUTO - zapne dynamické FOV (výchozí)
+of.options.DYNAMIC_FOV.tooltip.3=  VYPNUTO - vypne dynamické FOV
+of.options.DYNAMIC_FOV.tooltip.4=Mění pole pohledu (FOV) při létání, sprintování 
+of.options.DYNAMIC_FOV.tooltip.5=nebo při natahování luku.
+ 
 # Výkon
 
 of.options.SMOOTH_FPS=Vyhlazené FPS
