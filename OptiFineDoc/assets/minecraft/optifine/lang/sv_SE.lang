@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-04-25
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-05-06
 
 # General
 of.general.ambiguous=tvetydig
@@ -383,6 +383,13 @@ of.options.VIGNETTE.tooltip.5=Vinjetten kan ha en betydande verkan på bildfrekv
 of.options.VIGNETTE.tooltip.6=speciellt när fullskärm är aktiverad.
 of.options.VIGNETTE.tooltip.7=Vinjetteffekten är riktigt diskret och kan stängas av
 of.options.VIGNETTE.tooltip.8=utan någon fara.
+
+of.options.DYNAMIC_FOV=Dynamiskt synfält
+of.options.DYNAMIC_FOV.tooltip.1=Dynamiskt synfält
+of.options.DYNAMIC_FOV.tooltip.2=  PÅ - aktivera dynamiskt synfält  (standard)
+of.options.DYNAMIC_FOV.tooltip.3=  AV - inaktivera dynamiskt synfält
+of.options.DYNAMIC_FOV.tooltip.4=Ändrar synfältet när du flyger, springer eller siktar
+of.options.DYNAMIC_FOV.tooltip.5=med en pilbåge.
 
 # Performance
 
