@@ -386,6 +386,13 @@ of.options.VIGNETTE.tooltip.6=尤其是全螢幕遊戲的時候.
 of.options.VIGNETTE.tooltip.7=暈影的效果是非常細微的
 of.options.VIGNETTE.tooltip.8=並且是可以被安全地禁用
 
+of.options.DYNAMIC_FOV=動態視場
+of.options.DYNAMIC_FOV.tooltip.1=動態視場
+of.options.DYNAMIC_FOV.tooltip.2=  開 - 啟用動態視場(默認)
+of.options.DYNAMIC_FOV.tooltip.3=  關 - 禁用動態視場
+of.options.DYNAMIC_FOV.tooltip.4=當正在飛行、疾跑或
+of.options.DYNAMIC_FOV.tooltip.5=拉弓時改變視場.
+
 # Performance
 
 of.options.SMOOTH_FPS=柔和化FPS
