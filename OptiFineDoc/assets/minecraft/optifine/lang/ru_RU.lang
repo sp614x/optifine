@@ -86,7 +86,7 @@ options.vbo.tooltip.2=Использует альтернативную моде
 options.vbo.tooltip.3=быстрее (5-10%%), чем стандартная.
 
 options.gamma.tooltip.1=Изменяет яркость темных объектов.
-options.gamma.tooltip.2=  Тускло - минимальная яркость
+options.gamma.tooltip.2=  Тускло - стандартная яркость
 options.gamma.tooltip.3=  1-99%% - пользовательские значения
 options.gamma.tooltip.4=  Ярко - максимальная яркость темных объектов
 options.gamma.tooltip.5=Данный параметр не изменяет яркость полностью черных объектов.
@@ -382,6 +382,13 @@ of.options.VIGNETTE.tooltip.5=Виньетирование может оказы
 of.options.VIGNETTE.tooltip.6=особенно при игре в полноэкранном режиме.
 of.options.VIGNETTE.tooltip.7=Так как виньетирование практически незаметно, его не страшно отключить.
 of.options.VIGNETTE.tooltip.8=
+
+of.options.DYNAMIC_FOV=Динамическое поле зрения
+of.options.DYNAMIC_FOV.tooltip.1=Динамическое поле зрения
+of.options.DYNAMIC_FOV.tooltip.2=  Вкл - включить динамическое поле зрения (по умолчанию)
+of.options.DYNAMIC_FOV.tooltip.3=  Выкл - отключить динамическое поле зрения
+of.options.DYNAMIC_FOV.tooltip.4=Изменяет поле зрения в полете, во время бега или стрельбы из лука.
+of.options.DYNAMIC_FOV.tooltip.5=
 
 # Performance
 
