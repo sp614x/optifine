@@ -26,10 +26,10 @@ of.message.shaders.fr1=Shadery nie są kompatybilne z szybkim renderowaniem.
 of.message.shaders.fr2=Proszę, wyłącz opcję Wydajność -> Szybkie renderowanie.
 
 of.message.newVersion=Nowa wersja §eOptiFine§f jest dostępna: §e%s§f
-of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowej Javę§f, aby podwyższyć wydajność.
+of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowego środowiska Java§f, aby podwyższyć wydajność.
 of.message.openglError=§eBłąd OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Wczytuję Shadery: %s
+of.message.shaders.loading=Wczytuję shadery: %s
 
 of.message.other.reset=Czy chcesz przywrócić wszystkie ustawienia graficzne do ich domyślnych wartości?
  
