@@ -1,7 +1,7 @@
 # Contributors of German localization #
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
-#   violine1101 (German Minecraft Wiki admin) 2016-4-4
+#   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-5-18
 
 # General
 of.general.ambiguous=Unklar
@@ -142,6 +142,7 @@ of.options.shaders.RENDER_RES_MUL=Renderqualität
 of.options.shaders.SHADOW_RES_MUL=Schattenqualität
 of.options.shaders.HAND_DEPTH_MUL=Handtiefe
 of.options.shaders.CLOUD_SHADOW=Wolkenschatten
+of.options.shaders.OLD_HAND_LIGHT=Alte Handbel.
 of.options.shaders.OLD_LIGHTING=Alte Beleuchtung
 of.options.shaders.SHADER_PACK=Shaderpaket
 
@@ -391,6 +392,13 @@ of.options.VIGNETTE.tooltip.5=Die Vignette kann sich extrem auf die Leistung aus
 of.options.VIGNETTE.tooltip.6=besonders im Vollbildschirmmodus.
 of.options.VIGNETTE.tooltip.7=Der Vignetteneffekt ist fast unmerklich und kann sicher
 of.options.VIGNETTE.tooltip.8=deaktiviert werden.
+
+of.options.DYNAMIC_FOV=Dynamisches Sichtfeld
+of.options.DYNAMIC_FOV.tooltip.1=Dynamisches Sichtfeld
+of.options.DYNAMIC_FOV.tooltip.2=  An - Dynamisches Sichtfeld aktivieren (Standard)
+of.options.DYNAMIC_FOV.tooltip.3=  Aus - Dynamisches Sichtfeld ausschalten
+of.options.DYNAMIC_FOV.tooltip.4=Ändert das Sichtfeld beim Fliegen, Sprinten oder beim
+of.options.DYNAMIC_FOV.tooltip.5=Spannen eines Bogens.
 
 # Performance
 
