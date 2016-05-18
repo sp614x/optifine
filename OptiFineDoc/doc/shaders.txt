@@ -1,3 +1,23 @@
+Overview
+========
+The Shaders Mod makes use of a deferred rendering pipeline. 
+The gbuffer shaders come first in the pipeline. They render data to textures that will be sent to the composite shaders. 
+The composite shaders then render to textures that will be sent to the final shader. 
+The final shader renders directly to the screen.
+
+Color Attachments
+=================
+The data is passed from shader to shader using color attachments. 
+There are at least 4 for all machines. For machines that can support it, there are 7. 
+In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, and gaux3 uniforms. 
+Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
+The first one, gcolor has its color cleared to the current fog color before rendering. 
+The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
+The rest have their color cleared to black with 0 alpha.
+
+When writing to the color attachments in the composite shader, blending is disabled. 
+Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
+
 Shader Programs
 ===============
 Id  Name                         Render                                When not defined use
@@ -46,3 +66,277 @@ Todo:
  - Separate programs for world border, entities (by id, by type), cape, elytra, wolf collar, etc. 
  - Pass entityId to program gbuffers_entities
  - Activate gbuffers_beaconbeam
+
+Attributes
+==========
+Source                                          Value                                                    Comment
+=====================================================================================================================================================================
+attribute vec4 mc_Entity;                       xyz = blockID, renderType, metadata                            
+attribute vec4 mc_midTexCoord;                  st = midTexU, midTexV                                    Sprite middle UV coordinates                
+attribute vec4 at_tangent;                      xyz = tangent vector, w = handedness
+
+Uniforms
+==========
+Source                                          Value                                                    
+=====================================================================================================================================================================
+uniform int heldItemId;                         held item ID (main hand)
+uniform int heldBlockLightValue;                held item light value (main hand)
+uniform int heldItemId2;                        held item ID (off hand)
+uniform int heldBlockLightValue2;               held item light value (off hand)
+uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
+uniform vec3 fogColor;                          r, g, b
+uniform vec3 skyColor;                          r, g, b
+uniform int worldTime;                          <ticks>
+uniform int moonPhase;                          0-7
+uniform float frameTimeCounter;                 real time, seconds
+uniform float sunAngle;                         0.0-1.0
+uniform float shadowAngle;                      0.0-1.0
+uniform float rainStrength;                     0.0-1.0
+uniform float aspectRatio;                      viewWidth / viewHeight
+uniform float viewWidth;                        viewWidth
+uniform float viewHeight;                       viewHeight
+uniform float near;                             near viewing plane distance
+uniform float far;                              far viewing plane distance
+uniform vec3 sunPosition;                       sun position in eye space
+uniform vec3 moonPosition;                      moon position in eye space
+uniform vec3 shadowLightPosition;               shadow light (sun or moon) position in eye space
+uniform vec3 upPosition;                        direction up
+uniform vec3 cameraPosition;                    camera position in world space
+uniform vec3 previousCameraPosition;            last frame cameraPosition
+uniform mat4 gbufferModelView;                  modelview matrix after setting up the camera transformations
+uniform mat4 gbufferModelViewInverse;           inverse gbufferModelView
+uniform mat4 gbufferPreviousModelView;          last frame gbufferModelView
+uniform mat4 gbufferProjection;                 projection matrix when the gbuffers were generated
+uniform mat4 gbufferProjectionInverse;          inverse gbufferProjection
+uniform mat4 gbufferPreviousProjection;         last frame gbufferProjection
+uniform mat4 shadowProjection;                  projection matrix when the shadow map was generated
+uniform mat4 shadowProjectionInverse;           inverse shadowProjection
+uniform mat4 shadowModelView;                   modelview matrix when the shadow map was generated
+uniform mat4 shadowModelViewInverse;            inverse shadowModelView
+uniform float wetness;                          rainStrength smoothed with wetnessHalfLife or drynessHalfLife
+uniform float eyeAltitude;                      view entity Y position
+uniform ivec2 eyeBrightness;                    x = block brightness, y = sky brightness, light 0-15 = brightness 0-240 
+uniform ivec2 eyeBrightnessSmooth;              eyeBrightness smoothed with eyeBrightnessHalflife
+uniform ivec2 terrainTextureSize;               not used
+uniform int terrainIconSize;                    not used
+uniform int isEyeInWater;                       camera is underwater
+uniform int hideGUI;                            GUI is hidden
+uniform float centerDepthSmooth;                centerDepth smoothed with centerDepthSmoothHalflife
+uniform ivec2 atlasSize;                        texture atlas size
+uniform int entityHurt;                         isEntityHurt ? 102 : 0 (entity taking damage)
+uniform int entityFlash;                        entity color multiplier (creeper flashing when exploding)
+
+GBuffers Uniforms
+================= 
+Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout_mip, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, weather)
+==================
+Source                                          Value                                                    
+=====================================================================================================================================================================
+uniform sampler2D texture;                      0
+uniform sampler2D lightmap;                     1
+uniform sampler2D normals;                      2         
+uniform sampler2D specular;                     3
+uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
+uniform sampler2D watershadow;                  4
+uniform sampler2D shadowtex0;                   4
+uniform sampler2D shadowtex1;                   5
+uniform sampler2D depthtex0;                    6
+uniform sampler2D depthtex1;                    12
+uniform sampler2D shadowcolor;                  13
+uniform sampler2D shadowcolor0;                 13
+uniform sampler2D shadowcolor1;                 14
+uniform sampler2D noisetex;                     15
+
+Composite Uniforms
+==================
+Programs: composite, composite1, composite2, composite3, composite4, composite5, composite6, composite7, final 
+==================
+Source                                          Value                                                    
+=====================================================================================================================================================================
+uniform sampler2D gcolor;                       0
+uniform sampler2D gdepth;                       1
+uniform sampler2D gnormal;                      2
+uniform sampler2D composite;                    3
+uniform sampler2D gaux1;                        7
+uniform sampler2D gaux2;                        8
+uniform sampler2D gaux3;                        9
+uniform sampler2D gaux4;                        10
+uniform sampler2D colortex0;                    0
+uniform sampler2D colortex1;                    1
+uniform sampler2D colortex2;                    2
+uniform sampler2D colortex3;                    3
+uniform sampler2D colortex4;                    7
+uniform sampler2D colortex5;                    8
+uniform sampler2D colortex6;                    9
+uniform sampler2D colortex7;                    10
+uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
+uniform sampler2D watershadow;                  4
+uniform sampler2D shadowtex0;                   4
+uniform sampler2D shadowtex1;                   5
+uniform sampler2D gdepthtex;                    6
+uniform sampler2D depthtex0;                    6
+uniform sampler2D depthtex1;                    11
+uniform sampler2D depthtex2;                    12
+uniform sampler2D shadowcolor;                  13
+uniform sampler2D shadowcolor0;                 13
+uniform sampler2D shadowcolor1;                 14
+uniform sampler2D noisetex;                     15
+
+Shadow Uniforms
+==================
+Programs: shadow, shadow_solid, shadow_cutout 
+==================
+Source                                          Value                                                    
+=====================================================================================================================================================================
+uniform sampler2D tex;                          0
+uniform sampler2D texture;                      0
+uniform sampler2D lightmap;                     1
+uniform sampler2D normals;                      2         
+uniform sampler2D specular;                     3
+uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
+uniform sampler2D watershadow;                  4
+uniform sampler2D shadowtex0;                   4
+uniform sampler2D shadowtex1;                   5
+uniform sampler2D shadowcolor;                  13
+uniform sampler2D shadowcolor0;                 13
+uniform sampler2D shadowcolor1;                 14
+uniform sampler2D noisetex;                     15
+
+Vertex Shader Configuration
+===========================
+Source                                          Effect                                                    Comment
+=====================================================================================================================================================================
+attribute <type> mc_Entity;                     useEntityAttrib = true
+attribute <type> mc_midTexCoord;                useMidTexCoordAttrib = true             
+attribute <type> at_tangent;                    useTangentAttrib = true
+
+Fragment Shader Configuration
+=============================
+Source                                          Effect                                                    Comment
+=====================================================================================================================================================================
+uniform <type> shadow;                          shadowDepthBuffers = 1
+uniform <type> watershadow;                     shadowDepthBuffers = 2
+uniform <type> shadowtex0;                      shadowDepthBuffers = 1
+uniform <type> shadowtex1;                      shadowDepthBuffers = 2
+uniform <type> shadowcolor;                     shadowColorBuffers = 1
+uniform <type> shadowcolor0;                    shadowColorBuffers = 1
+uniform <type> shadowcolor1;                    shadowColorBuffers = 2
+uniform <type> shadowcolor2;                    shadowColorBuffers = 3
+uniform <type> shadowcolor3;                    shadowColorBuffers = 4
+uniform <type> depthtex0;                       depthBuffers = 1
+uniform <type> depthtex1;                       depthBuffers = 2
+uniform <type> depthtex2;                       depthBuffers = 3
+uniform <type> depthtex3;                       depthBuffers = 4
+uniform <type> gdepth;                          if (bufferFormat[1] == RGBA) bufferFormat[1] = RGBA32F;
+uniform <type> gaux1;                           colorBuffers = 5
+uniform <type> gaux2;                           colorBuffers = 6
+uniform <type> gaux3;                           colorBuffers = 7
+uniform <type> gaux4;                           colorBuffers = 8
+uniform <type> colortex4;                       colorBuffers = 5
+uniform <type> colortex5;                       colorBuffers = 6
+uniform <type> colortex6;                       colorBuffers = 7
+uniform <type> colortex7;                       colorBuffers = 8
+uniform <type> centerDepthSmooth;               centerDepthSmooth = true
+/* SHADOWRES:1024 */                            shadowMapWidth = shadowMapHeight = 1024
+const int shadowMapResolution = 1024;           shadowMapWidth = shadowMapHeight = 1024
+/* SHADOWFOV:90.0 */                            shadowMapFov = 90
+/* SHADOWHPL:160.0 */                           shadowMapDistance = 160.0
+const float shadowDistance = 160.0f;            shadowMapDistance = 160.0
+const float shadowIntervalSize = 2.0f;          shadowIntervalSize = 2.0
+const bool generateShadowMipmap = true;         shadowMipmap = true
+const bool generateShadowColorMipmap = true;    shadowColorMipmap = true
+const bool shadowHardwareFiltering = true;      shadowHardwareFiltering = true
+const bool shadowHardwareFiltering0 = true;     shadowHardwareFiltering[0] = true
+const bool shadowHardwareFiltering1 = true;     shadowHardwareFiltering[1] = true
+const bool shadowtexMipmap = true;              shadowMipmap[0] = true
+const bool shadowtex0Mipmap = true;             shadowMipmap[0] = true
+const bool shadowtex1Mipmap = true;             shadowMipmap[1] = true
+const bool shadowcolor0Mipmap = true;           shadowColorMipmap[0] = true
+const bool shadowColor0Mipmap = true;           shadowColorMipmap[0] = true
+const bool shadowcolor1Mipmap = true;           shadowColorMipmap[1] = true
+const bool shadowColor1Mipmap = true;           shadowColorMipmap[1] = true
+const bool shadowtexNearest = true;             shadowFilterNearest[0] = true
+const bool shadowtex0Nearest = true;            shadowFilterNearest[0] = true
+const bool shadow0MinMagNearest = true;         shadowFilterNearest[0] = true
+const bool shadowtex1Nearest = true;            shadowFilterNearest[1] = true
+const bool shadow1MinMagNearest = true;         shadowFilterNearest[1] = true
+const bool shadowcolor0Nearest = true;          shadowColorFilterNearest[0] = true
+const bool shadowColor0Nearest = true;          shadowColorFilterNearest[0] = true
+const bool shadowColor0MinMagNearest = true;    shadowColorFilterNearest[0] = true
+const bool shadowcolor1Nearest = true;          shadowColorFilterNearest[1] = true
+const bool shadowColor1Nearest = true;          shadowColorFilterNearest[1] = true
+const bool shadowColor1MinMagNearest = true;    shadowColorFilterNearest[1] = true
+/* WETNESSHL:600.0 */                           wetnessHalfLife = 600 (ticks)
+const float wetnessHalflife = 600.0f;           wetnessHalfLife = 600 (ticks)
+/* DRYNESSHL:200.0 */                           drynessHalfLife = 200 (ticks)
+const float drynessHalflife = 200.0f;           drynessHalfLife = 200 (ticks)
+const float eyeBrightnessHalflife = 10.0f;      eyeBrightnessHalflife = 10 (ticks)
+const float centerDepthHalflife = 1.0f;         centerDepthSmoothHalflife = 1 (ticks)
+const float sunPathRotation = 0f;               sunPathRotation = 0f
+const float ambientOcclusionLevel = 0.8f;       ambientOcclusionLevel = 0.8f
+const int superSamplingLevel = 1;               superSamplingLevel = 1
+const int noiseTextureResolution = 256;         noiseTextureResolution = 256
+/* GAUX4FORMAT:RGBA32F */                       buffersFormat[7] = GL_RGBA32F
+/* GAUX4FORMAT:RGB32F */                        buffersFormat[7] = GL_RGB32F
+/* GAUX4FORMAT:RGB16 */                         buffersFormat[7] = GL_RGB16
+const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Buffer Index" and "Texture Formats"
+const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" and "final"
+/* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
+
+Buffer Index 
+============
+Prefix                  Index
+==================================
+colortex<N>             N
+gcolor                  0
+gdepth                  1
+gnormal                 2
+composite               3
+gaux1                   4
+gaux2                   5
+gaux3                   6
+gaux4                   7
+ 
+Texture Formats
+===============
+1. 8-bit normalized
+ R8
+ RG8
+ RGB8
+ RGBA8
+2. 8-bit signed normalized
+ R8_SNORM
+ RG8_SNORM
+ RGB8_SNORM
+ RGBA8_SNORM
+3. 16-bit normalized
+ R16
+ RG16
+ RGB16
+ RGBA16
+4. 16-bit signed normalized 
+ R16_SNORM
+ RG16_SNORM
+ RGB16_SNORM
+ RGBA16_SNORM
+5. 32-bit float     
+ R32F
+ RG32F
+ RGB32F
+ RGBA32F
+6. 32-bit integer
+ R32I
+ RG32I
+ RGB32I
+ RGBA32I
+7. 32-bit unsigned integer 
+ R32UI
+ RG32UI
+ RGB32UI
+ RGBA32UI
+
+ References
+ ==========
+ http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
+ http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix
+ http://www.minecraftforum.net/forums/search?by-author=karyonix&display-type=posts
