@@ -18,6 +18,8 @@ The rest have their color cleared to black with 0 alpha.
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
 
+The current shaderpack can be reloaded by pressing "F3+R"
+
 Shader Programs
 ===============
 Id  Name                         Render                                When not defined use
