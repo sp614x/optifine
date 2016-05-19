@@ -199,9 +199,9 @@ of.options.AA_LEVEL.tooltip.1=Antialiasing
 of.options.AA_LEVEL.tooltip.2= Aus - (Standard) Kein Antialiasing (schneller)
 of.options.AA_LEVEL.tooltip.3= 2-16 - Antialiasierte Linien und Ecken (langsamer)
 of.options.AA_LEVEL.tooltip.4=Das Antialiasing weicht gezackte Linien ab und schärft
-of.options.AA_LEVEL.tooltip.5=Farbübergänge. Wenn aktiviert, sollte es im Wesentlichen
-of.options.AA_LEVEL.tooltip.6=die Bildrate erhöhen. Nicht alle Stufen werden von allen
-of.options.AA_LEVEL.tooltip.7=Grafikkarten unterstützt.
+of.options.AA_LEVEL.tooltip.5=Farbübergänge. Wenn aktiviert, kann es die Bildrate
+of.options.AA_LEVEL.tooltip.6=erheblich beeinträchtigen.
+of.options.AA_LEVEL.tooltip.7=Nicht alle Stufen werden von allen Grafikkarten unterstützt.
 of.options.AA_LEVEL.tooltip.8=Änderung wird erst nach einem Neustart effektiv!
 
 of.options.AF_LEVEL=Anisotropische Filterung
@@ -210,7 +210,7 @@ of.options.AF_LEVEL.tooltip.2= Aus - (Standard) Standard-Texturdetails (schnelle
 of.options.AF_LEVEL.tooltip.3= 2-16 - Feinere Details in Texturen (langsamer)
 of.options.AF_LEVEL.tooltip.4=Die anisotropische Filterung stellt Details in Texturen,
 of.options.AF_LEVEL.tooltip.5=die durch Mipmap ihre Details verloren haben, wieder her.
-of.options.AF_LEVEL.tooltip.6=Wenn aktiviert, sollte es im Wesentlichen die FPS erhöhen.
+of.options.AF_LEVEL.tooltip.6=Wenn aktiviert, kann es die FPS erheblich verringern.
 
 of.options.CLEAR_WATER=Klares Wasser
 of.options.CLEAR_WATER.tooltip.1=Klares Wasser
@@ -235,8 +235,8 @@ of.options.BETTER_SNOW=Besserer Schnee
 of.options.BETTER_SNOW.tooltip.1=Besserer Schnee
 of.options.BETTER_SNOW.tooltip.2=  Aus - Normaler Schnee, schneller
 of.options.BETTER_SNOW.tooltip.3=  An - Besserer Schnee, langsamer
-of.options.BETTER_SNOW.tooltip.4=Setzt Schee unter transparente Blöcke (wie Zäune
-of.options.BETTER_SNOW.tooltip.5=oder hohes Gras), wenn sie an Schneeblöcke grenzen
+of.options.BETTER_SNOW.tooltip.4=Setzt Schnee unter transparente Blöcke (wie Zäune
+of.options.BETTER_SNOW.tooltip.5=oder hohes Gras), wenn sie an Schneeblöcke grenzen.
 
 of.options.CUSTOM_FONTS=Schriftartressourcen
 of.options.CUSTOM_FONTS.tooltip.1=Schriftarteressourcen
@@ -250,7 +250,7 @@ of.options.CUSTOM_COLORS.tooltip.1=Farbressourcen
 of.options.CUSTOM_COLORS.tooltip.2=  An - Ressourcenpaket-Farben (Standard), langsamer
 of.options.CUSTOM_COLORS.tooltip.3=  Aus - Standardfarben, schneller
 of.options.CUSTOM_COLORS.tooltip.4=Die Farben werden aus den aktivierten Ressourcenpaketen
-of.options.CUSTOM_COLORS.tooltip.5=geladen
+of.options.CUSTOM_COLORS.tooltip.5=geladen.
 
 of.options.SWAMP_COLORS=Sumpffarben
 of.options.SWAMP_COLORS.tooltip.1=Sumpffarben
@@ -421,8 +421,8 @@ of.options.FAST_RENDER=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.1=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.2=  Aus - Standard-Rendern (Standard)
 of.options.FAST_RENDER.tooltip.3=  An - Optimiertes Rendern (schneller)
-of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die das Laden der
-of.options.FAST_RENDER.tooltip.5=GPU verkleinern und die Leistung erheblich steigern.
+of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die die GPU
+of.options.FAST_RENDER.tooltip.5=Auslastung verringern und die Leistung erheblich steigern.
 
 of.options.FAST_MATH=Schnelle Mathematik
 of.options.FAST_MATH.tooltip.1=Schnelle Mathematik
