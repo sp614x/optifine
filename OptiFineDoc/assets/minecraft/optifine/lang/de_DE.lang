@@ -89,9 +89,10 @@ options.vbo.tooltip.3=schneller (5-10%%) als das Standard-Rendermodell ist.
 
 options.gamma.tooltip.1=Erhöht die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  Düster - Standardhelligkeit
-options.gamma.tooltip.3=  Hell - Maximale Helligkeit für dunkle Objekte
-options.gamma.tooltip.4=Diese Einstellungen ändern nicht die Helligkeit von ganz
-options.gamma.tooltip.5=schwarzen Objekten
+options.gamma.tooltip.3=  1-99%% - veränderlich
+options.gamma.tooltip.4=  Hell - Maximale Helligkeit für dunkle Objekte
+options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von ganz
+options.gamma.tooltip.6=schwarzen Objekten
 
 options.anaglyph.tooltip.1=3D-Modus
 options.anaglyph.tooltip.2=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
