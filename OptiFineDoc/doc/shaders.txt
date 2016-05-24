@@ -27,10 +27,10 @@ Id  Name                         Render                                When not 
  0  <none>                       gui, menus                            <none>
  1  gbuffers_basic               leash, block selection box            <none>
  2  gbuffers_textured            particles                             gbuffers_basic
- 3  gbuffers_textured_lit        lit_particles                         gbuffers_textured
+ 3  gbuffers_textured_lit        lit_particles, world border           gbuffers_textured
  4  gbuffers_skybasic            sky, horizon, stars, void             gbuffers_basic
  5  gbuffers_skytextured         sun, moon                             gbuffers_textured
- 6  gbuffers_clouds              <not used, bug ???>                   gbuffers_textured
+ 6  gbuffers_clouds              clouds                                gbuffers_textured
  7  gbuffers_terrain             solid, cutout, cutout_mip             gbuffers_textured_lit
  8  gbuffers_terrain_solid       <not used>                            gbuffers_terrain
  9  gbuffers_terrain_cutout_mip  <not used>                            gbuffers_terrain
@@ -59,14 +59,10 @@ Id  Name                         Render                                When not 
 32  shadow_cutout                <not used>                            shadow
 
 Bugs:
- - Clouds are rendered with gbuffers_textured
- - World border may be rendered with gbuffers_hand
  - Programs gbuffers_terrain_solid, cutout and cutout_mip are not used
- - Program gbuffers_armor_glint is only used by CustomItems glint
 
 Todo:
  - Separate programs for world border, entities (by id, by type), cape, elytra, wolf collar, etc. 
- - Pass entityId to program gbuffers_entities
  - Activate gbuffers_beaconbeam
 
 Attributes
