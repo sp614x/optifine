@@ -125,8 +125,9 @@ uniform int isEyeInWater;                       camera is underwater
 uniform int hideGUI;                            GUI is hidden
 uniform float centerDepthSmooth;                centerDepth smoothed with centerDepthSmoothHalflife
 uniform ivec2 atlasSize;                        texture atlas size
-uniform int entityHurt;                         isEntityHurt ? 102 : 0 (entity taking damage)
-uniform int entityFlash;                        entity color multiplier (creeper flashing when exploding)
+uniform vec4 entityColor;                       entity color multiplier (entity hurt, creeper flashing when exploding)
+uniform int entityId;                           entity ID
+uniform int blockEntityId;                      block entity ID (block ID for the tile entity) 
 
 GBuffers Uniforms
 ================= 
