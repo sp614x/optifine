@@ -387,6 +387,14 @@ of.options.DYNAMIC_FOV.tooltip.3=  VYPNUTO - vypne dynamické FOV
 of.options.DYNAMIC_FOV.tooltip.4=Mění pole pohledu (FOV) při létání, sprintování 
 of.options.DYNAMIC_FOV.tooltip.5=nebo při natahování luku.
  
+of.options.DYNAMIC_LIGHTS=Dynamické Světla
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamické Světla
+of.options.DYNAMIC_LIGHTS.tooltip.2=  ZAPNUTO - zapne dynamické světla
+of.options.DYNAMIC_LIGHTS.tooltip.3=  VYPNUTO - vypne dynamické světla (výchozí)
+of.options.DYNAMIC_LIGHTS.tooltip.4=Pokud je zapnuto a v ruce, na zemi nebo v ruce
+of.options.DYNAMIC_LIGHTS.tooltip.5=jiného hráče je držen svítící item (louč, světlit, atd.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=tak se osvětlí vše kolem
+
 # Výkon
 
 of.options.SMOOTH_FPS=Vyhlazené FPS
