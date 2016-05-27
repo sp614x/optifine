@@ -387,6 +387,14 @@ of.options.DYNAMIC_FOV.tooltip.3=  OFF - disable dynamic FOV
 of.options.DYNAMIC_FOV.tooltip.4=Changes the field of view (FOV) when flying, sprinting 
 of.options.DYNAMIC_FOV.tooltip.5=or pulling a bow.
 
+of.options.DYNAMIC_LIGHTS=Dynamic Lights
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamic Lights
+of.options.DYNAMIC_LIGHTS.tooltip.2=  ON - enable dynamic lights
+of.options.DYNAMIC_LIGHTS.tooltip.3=  OFF - disable dynamic lights (default)
+of.options.DYNAMIC_LIGHTS.tooltip.4=Enables light emitting items (torch, glowstone, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.5=to illuminate everything around them when held in hand,
+of.options.DYNAMIC_LIGHTS.tooltip.6=equipped by other player or dropped on the ground
+
 # Performance
 
 of.options.SMOOTH_FPS=Smooth FPS
