@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-5-4
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-5-28
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -393,6 +393,14 @@ of.options.DYNAMIC_FOV.tooltip.2=  开 - 启用动态视场（默认）
 of.options.DYNAMIC_FOV.tooltip.3=  关 - 禁用动态视场
 of.options.DYNAMIC_FOV.tooltip.4=当正在飞行、疾跑或 
 of.options.DYNAMIC_FOV.tooltip.5=拉弓时改变视场。
+
+of.options.DYNAMIC_LIGHTS=动态光源
+of.options.DYNAMIC_LIGHTS.tooltip.1=动态光源
+of.options.DYNAMIC_LIGHTS.tooltip.2=  开 - 启用动态光源
+of.options.DYNAMIC_LIGHTS.tooltip.3=  关 - 禁用动态光源（默认）
+of.options.DYNAMIC_LIGHTS.tooltip.4=允许发光的物品（火把、萤石等）
+of.options.DYNAMIC_LIGHTS.tooltip.5=当被手持、被其他玩家装备
+of.options.DYNAMIC_LIGHTS.tooltip.6=或掉在地上时，照亮周围的一切
 
 # Performance
 
