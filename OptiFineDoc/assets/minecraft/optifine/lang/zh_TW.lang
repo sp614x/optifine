@@ -1,4 +1,5 @@
 # Contributors of Traditional Chinese localization #
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-5-28
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi 2016-03-03
 ##-------------- zh_TW ---------------
@@ -392,6 +393,14 @@ of.options.DYNAMIC_FOV.tooltip.2=  開 - 啟用動態視場(默認)
 of.options.DYNAMIC_FOV.tooltip.3=  關 - 禁用動態視場
 of.options.DYNAMIC_FOV.tooltip.4=當正在飛行、疾跑或
 of.options.DYNAMIC_FOV.tooltip.5=拉弓時改變視場.
+
+of.options.DYNAMIC_LIGHTS=動態光源
+of.options.DYNAMIC_LIGHTS.tooltip.1=動態光源
+of.options.DYNAMIC_LIGHTS.tooltip.2=  開 - 啟用動態光源
+of.options.DYNAMIC_LIGHTS.tooltip.3=  關 - 禁用動態光源(默認)
+of.options.DYNAMIC_LIGHTS.tooltip.4=允許發光的物品(火把,螢石等)
+of.options.DYNAMIC_LIGHTS.tooltip.5=當被手持,被其他玩家裝備
+of.options.DYNAMIC_LIGHTS.tooltip.6=或掉在地上時，照亮周圍的一切
 
 # Performance
 
