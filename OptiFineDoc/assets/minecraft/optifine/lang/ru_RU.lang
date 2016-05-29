@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#   TimkaG 2016-03-01 ---- 2016-04-04
+#   TimkaG 2016-03-01 ---- 2016-05-29
 #   Dibro 2016-03-20
 
 # General
@@ -392,6 +392,8 @@ of.options.DYNAMIC_FOV.tooltip.5=
 
 of.options.DYNAMIC_LIGHTS=Динамическое освещение
 of.options.DYNAMIC_LIGHTS.tooltip.1=Динамическое освещение
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Вкл - включить динамическое освещение
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Выкл - выключить динамическое освещение (по умолчанию)
 of.options.DYNAMIC_LIGHTS.tooltip.4=Даёт возможность предметам, излучающим свет (факел, светокамень и т.д.),
 of.options.DYNAMIC_LIGHTS.tooltip.5=освещать территорию вокруг, пока они находятся в руке, экипированы
 of.options.DYNAMIC_LIGHTS.tooltip.6=другим игроком или выброшены на землю.
