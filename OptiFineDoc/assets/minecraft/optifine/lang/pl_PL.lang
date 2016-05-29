@@ -387,6 +387,14 @@ of.options.DYNAMIC_FOV.tooltip.3=  Wył. - wyłącza dynamiczne FOV
 of.options.DYNAMIC_FOV.tooltip.4=Zmienia pole widzenia (FOV), gdy latasz 
 of.options.DYNAMIC_FOV.tooltip.5=sprintujesz lub naciągasz łuk.
 
+of.options.DYNAMIC_LIGHTS=Dynamiczne światło
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiczne światło
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Wł. - funkcja dynamicznego światła włączona
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Wył. - funkcja dynamicznego światła wyłączona (domyślne)
+of.options.DYNAMIC_LIGHTS.tooltip.4=Przedmioty świecące (pochodnia, jasnopył, itp.)
+of.options.DYNAMIC_LIGHTS.tooltip.5=oświetlają teren, gdy są w Twojej dłoni,
+of.options.DYNAMIC_LIGHTS.tooltip.6=dłoni innego gracza lub gdy są upuszczone na podłoże.
+
 # Performance
 
 of.options.SMOOTH_FPS=Stabilne FPS
