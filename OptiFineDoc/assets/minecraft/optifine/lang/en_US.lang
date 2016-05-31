@@ -93,9 +93,10 @@ options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colo
 options.anaglyph.tooltip.3=for each eye.
 options.anaglyph.tooltip.4=Requires red-cyan glasses for proper viewing.
 
-options.blockAlternatives.tooltip.1=Alternate Blocks
-options.blockAlternatives.tooltip.2=Uses alternative block models for some blocks.
-options.blockAlternatives.tooltip.3=Depends on the selected resource pack.
+of.options.ALTERNATE_BLOCKS=Alternate Blocks
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternate Blocks
+of.options.ALTERNATE_BLOCKS.tooltip.2=Uses alternative block models for some blocks.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Depends on the selected resource pack.
 
 of.options.FOG_FANCY=Fog
 of.options.FOG_FANCY.tooltip.1=Fog type
