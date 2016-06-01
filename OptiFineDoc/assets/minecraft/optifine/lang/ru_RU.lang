@@ -10,6 +10,9 @@ of.general.id=Идентификатор
 of.general.restart=перезапуск
 of.general.smart=Умно
 
+# Keys
+of.key.zoom=Приблизить
+
 # Message
 of.message.aa.shaders1=Антиалиасинг не совместим с шейдерами.
 of.message.aa.shaders2=Пожалуйста, отключите шейдеры, чтобы включить этот параметр.
@@ -90,6 +93,7 @@ options.gamma.tooltip.2=  Тускло - стандартная яркость
 options.gamma.tooltip.3=  1-99%% - пользовательские значения
 options.gamma.tooltip.4=  Ярко - максимальная яркость темных объектов
 options.gamma.tooltip.5=Данный параметр не изменяет яркость полностью черных объектов.
+options.gamma.tooltip.6=
 
 options.anaglyph.tooltip.1=3D Анаглиф
 options.anaglyph.tooltip.2=Включает стереоскопический 3D-эффект, используя различные цвета
@@ -100,7 +104,6 @@ of.options.ALTERNATE_BLOCKS=Альтернативные блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативные блоки
 of.options.ALTERNATE_BLOCKS.tooltip.2=Использование альтернативных моделей для некоторых блоков.
 of.options.ALTERNATE_BLOCKS.tooltip.3=Зависит от выбранного пакета ресурсов.
-
 
 of.options.FOG_FANCY=Туман
 of.options.FOG_FANCY.tooltip.1=Тип тумана
@@ -471,10 +474,10 @@ of.options.ANIMATED_FLAME=Анимация пламени
 of.options.ANIMATED_SMOKE=Анимация дыма
 of.options.VOID_PARTICLES=Частицы пустоты
 of.options.WATER_PARTICLES=Частицы воды
-of.options.RAIN_SPLASH=Брызги капель дождя
+of.options.RAIN_SPLASH=Брызги дождя
 of.options.PORTAL_PARTICLES=Частицы портала
 of.options.POTION_PARTICLES=Частицы зелья
-of.options.DRIPPING_WATER_LAVA=Частицы капающей воды/лавы
+of.options.DRIPPING_WATER_LAVA=Капающая вода/лава
 of.options.ANIMATED_TERRAIN=Анимированная местность
 of.options.ANIMATED_TEXTURES=Анимированные текстуры
 of.options.FIREWORK_PARTICLES=Частицы фейерверка
@@ -537,14 +540,14 @@ of.options.SHOW_FPS.tooltip.4=  U: - обновление чанков
 of.options.SHOW_FPS.tooltip.5=Компактная информация о FPS работает, только тогда, когда экран откладки
 of.options.SHOW_FPS.tooltip.6=отключен.
 
-of.options.save.default=По умолчанию (2с)
-of.options.save.20s=20с
-of.options.save.3min=3мин
-of.options.save.30min=30мин
+of.options.save.default=По умолчанию (2 сек.)
+of.options.save.20s=20 секунд
+of.options.save.3min=3 минуты
+of.options.save.30min=30 минут
 
 of.options.AUTOSAVE_TICKS=Автосохранение
 of.options.AUTOSAVE_TICKS.tooltip.1=Интервал автосохранений
-of.options.AUTOSAVE_TICKS.tooltip.2=Интервал автосохранений по умолчанию (2с) НЕ РЕКОМЕНДУЕТСЯ.
+of.options.AUTOSAVE_TICKS.tooltip.2=Интервал автосохранений по умолчанию (2 сек.) НЕ РЕКОМЕНДУЕТСЯ.
 of.options.AUTOSAVE_TICKS.tooltip.3=Автосохранение может создавать кратковременные зависания.
 
 options.anaglyph.tooltip.1=3D-режим используется вместе с красно-голубыми анаглифными очками.
