@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-05-06
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-05-31
 
 # General
 of.general.ambiguous=tvetydig
@@ -96,9 +96,10 @@ options.anaglyph.tooltip.2=Aktiverar en stereoskopisk 3D-effekt med hjälp av ol
 options.anaglyph.tooltip.3=färger för varje öga.
 options.anaglyph.tooltip.4=Kräver röd-turkosa glasögon för bästa resultat.
 
-options.blockAlternatives.tooltip.1=Alternativa block
-options.blockAlternatives.tooltip.2=Använder alternativa blockmodeller för samma block.
-options.blockAlternatives.tooltip.3=Beror på valt resurspaket.
+of.options.ALTERNATE_BLOCKS=Alternerade block
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternerade block
+of.options.ALTERNATE_BLOCKS.tooltip.2=Använder alternativa blockmodeller för en del block.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Förlitar sig på aktuellt resurspaket.
 
 of.options.FOG_FANCY=Dimma
 of.options.FOG_FANCY.tooltip.1=Typ av dimma
