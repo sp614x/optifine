@@ -23,7 +23,7 @@ of.message.shaders.aa2=Будь ласка, встановіть Якість ->
 of.message.shaders.af1=Шейдери не сумісні із анізотропною фільтрацією.
 of.message.shaders.af2=Будь ласка, встановіть Якість -> Анізотропна фільтрація на Вимк і перезапустіть гру.
 
-of.message.shaders.fr1=Шейдери не сумісні з швидкий рендерос.
+of.message.shaders.fr1=Шейдери не сумісні з швидким рендером.
 of.message.shaders.fr2=Будь ласка, встановіть Продуктивність -> Швидкий рендер на Вимк і перезапустіть гру.
 
 of.message.newVersion=Нова версія §eOptiFine§f доступна: §e%s§f
@@ -361,11 +361,11 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Спливаючі підказки
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Увімк - показувати спливаючі підказки (базово)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Вимк - не показувати підказок
 
-of.options.DROPPED_ITEMS=Dropped Items
-of.options.DROPPED_ITEMS.tooltip.1=Dropped Items
-of.options.DROPPED_ITEMS.tooltip.2=  Default - as set by setting Graphics
-of.options.DROPPED_ITEMS.tooltip.3=  Швидка - 2D dropped items, Швидкаer
-of.options.DROPPED_ITEMS.tooltip.4=  Красива - 3D dropped items, slower
+of.options.DROPPED_ITEMS=Викинуті речі
+of.options.DROPPED_ITEMS.tooltip.1=Викинуті речі
+of.options.DROPPED_ITEMS.tooltip.2=  Базові - як у налаштуваннях відео
+of.options.DROPPED_ITEMS.tooltip.3=  Швидка - викинуті речі у 2D, швидше
+of.options.DROPPED_ITEMS.tooltip.4=  Красива - викинуті речі у 3D, повільніше
 
 options.entityShadows.tooltip.1=Тіні сутностей
 options.entityShadows.tooltip.2=  Увімк - показувати тіні сутностей
