@@ -6,6 +6,9 @@ of.general.id=Id
 of.general.restart=restart
 of.general.smart=Smart
 
+# Keys
+of.key.zoom=Zoom
+
 # Message
 of.message.aa.shaders1=Antialiasing is not compatible with Shaders.
 of.message.aa.shaders2=Please disable Shaders to enable this option.
