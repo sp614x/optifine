@@ -2,6 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-5-18
+#   TheHADILP 2016-5-20 ---- 2016-6-2
 
 # General
 of.general.ambiguous=Unklar
@@ -245,8 +246,8 @@ of.options.BETTER_SNOW.tooltip.5=oder hohes Gras), wenn sie an Schneeblöcke gre
 
 of.options.CUSTOM_FONTS=Schriftartressourcen
 of.options.CUSTOM_FONTS.tooltip.1=Schriftartressourcen
-of.options.CUSTOM_FONTS.tooltip.2=  AN - Ressourcenpaket-Schriftart (Standard), langsamer
-of.options.CUSTOM_FONTS.tooltip.3=  AUS - Standardschriftart, schneller
+of.options.CUSTOM_FONTS.tooltip.2=  An - Ressourcenpaket-Schriftart (Standard), langsamer
+of.options.CUSTOM_FONTS.tooltip.3=  Aus - Standardschriftart, schneller
 of.options.CUSTOM_FONTS.tooltip.4=Die Schriftart wird aus den aktivierten Ressourcenpaketen
 of.options.CUSTOM_FONTS.tooltip.5=geladen
 
@@ -419,7 +420,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedro
 of.options.SMOOTH_FPS=Stabile Bildrate
 of.options.SMOOTH_FPS.tooltip.1=Stabilisiert Bildrate, indem Grafiktreiberpuffer genutzt werden
 of.options.SMOOTH_FPS.tooltip.2=  Aus - Keine Stabilisierung, Bildrate könnte schwanken
-of.options.SMOOTH_FPS.tooltip.3=  Am - Stabilisierung der Bildrate
+of.options.SMOOTH_FPS.tooltip.3=  An - Stabilisierung der Bildrate
 of.options.SMOOTH_FPS.tooltip.4=Diese Einstellung ist abhängig vom Grafikkartentreiber.
 of.options.SMOOTH_FPS.tooltip.5=Eine Wirkung ist nicht immer spürbar.
 
