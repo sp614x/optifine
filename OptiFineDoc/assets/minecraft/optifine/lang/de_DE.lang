@@ -74,8 +74,8 @@ options.framerateLimit.tooltip.5=Die Bildrate grenzt die FPS ein, sogar wenn
 options.framerateLimit.tooltip.6=die Begrenzung nicht erreicht ist.
 of.options.framerateLimit.vsync=V-Sync
 
-of.options.AO_LEVEL=Weiches Beleuchtungsniveau
-of.options.AO_LEVEL.tooltip.1=Weiches Beleuchtungsniveau
+of.options.AO_LEVEL=Schattenhelligkeit
+of.options.AO_LEVEL.tooltip.1=Schattenhelligkeit
 of.options.AO_LEVEL.tooltip.2=  Aus - Keine Schatten
 of.options.AO_LEVEL.tooltip.3=  50%% - Helle Schatten
 of.options.AO_LEVEL.tooltip.4=  100%% - Dunkle Schatten
