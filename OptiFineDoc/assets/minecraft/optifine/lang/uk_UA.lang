@@ -7,6 +7,9 @@ of.general.id=Id
 of.general.restart=перезапуск
 of.general.smart=Розумно
 
+# Keys
+of.key.zoom=Приблизити
+
 # Message
 of.message.aa.shaders1=Згладжування не сумісне з шейдерами.
 of.message.aa.shaders2=Будь ласка, відключіть шейдери щоб увімкнути цю функцію.
