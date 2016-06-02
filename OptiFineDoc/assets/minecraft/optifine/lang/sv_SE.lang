@@ -9,6 +9,9 @@ of.general.id=ID
 of.general.restart=starta om
 of.general.smart=Smart
 
+# Keys
+of.key.zoom=Zooma in
+
 # Message
 of.message.aa.shaders1=Kantutjämning är inte kompatibel med Shaders.
 of.message.aa.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
