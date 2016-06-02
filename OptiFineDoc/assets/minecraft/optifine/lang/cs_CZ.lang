@@ -6,6 +6,9 @@ of.general.id=Id
 of.general.restart=restart
 of.general.smart=Chytrá
 
+# Klávesy
+of.key.zoom=Přiblížení
+
 # Zprávy
 of.message.aa.shaders1=Antialiasing není kompatibilní se Stíny.
 of.message.aa.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
@@ -93,6 +96,7 @@ options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá každé b
 options.anaglyph.tooltip.3=pro každé oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-modré brýle pro lepší vidění.
 
+of.options.ALTERNATE_BLOCKS=Alternativní Bloky
 options.blockAlternatives.tooltip.1=Alternativní Bloky
 options.blockAlternatives.tooltip.2=Používá alternativní model bloku pro některé modely.
 options.blockAlternatives.tooltip.3=Záleží na vybraném balíčku zdrojů.
@@ -389,11 +393,12 @@ of.options.DYNAMIC_FOV.tooltip.5=nebo při natahování luku.
  
 of.options.DYNAMIC_LIGHTS=Dynamické Světla
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamické Světla
-of.options.DYNAMIC_LIGHTS.tooltip.2=  ZAPNUTO - zapne dynamické světla
-of.options.DYNAMIC_LIGHTS.tooltip.3=  VYPNUTO - vypne dynamické světla (výchozí)
-of.options.DYNAMIC_LIGHTS.tooltip.4=Pokud je zapnuto a v ruce, na zemi nebo v ruce
-of.options.DYNAMIC_LIGHTS.tooltip.5=jiného hráče je držen svítící item (louč, světlit, atd.)
-of.options.DYNAMIC_LIGHTS.tooltip.6=tak se osvětlí vše kolem
+of.options.DYNAMIC_LIGHTS.tooltip.2=  VYPNUTO - žádná dynamícká světla (výchozí)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Rychlá - rychlá dynamická světla (aktualizace každých 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Pěkná - pěkná dynamická světla (aktualizovano vzdy)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Pokud je zapnuto a v ruce, na zemi nebo v ruce
+of.options.DYNAMIC_LIGHTS.tooltip.6=jiného hráče je držen svítící item (louč, světlit, atd.)
+of.options.DYNAMIC_LIGHTS.tooltip.7=tak se osvětlí vše kolem
 
 # Výkon
 
