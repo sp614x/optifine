@@ -11,6 +11,9 @@ of.general.id=ID
 of.general.restart=Neustart
 of.general.smart=Fein
 
+# Keys
+of.key.zoom=Zoom
+
 # Message
 of.message.aa.shaders1=Antialiasing ist nicht mit Shader-Effekten kompatibel.
 of.message.aa.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
@@ -70,8 +73,8 @@ options.framerateLimit.tooltip.5=Die Bildrate grenzt die FPS ein, sogar wenn
 options.framerateLimit.tooltip.6=die Begrenzung nicht erreicht ist.
 of.options.framerateLimit.vsync=V-Sync
 
-of.options.AO_LEVEL=Schattenhelligkeit
-of.options.AO_LEVEL.tooltip.1=Schattenhelligkeit
+of.options.AO_LEVEL=Weiches Beleuchtungsniveau
+of.options.AO_LEVEL.tooltip.1=Weiches Beleuchtungsniveau
 of.options.AO_LEVEL.tooltip.2=  Aus - Keine Schatten
 of.options.AO_LEVEL.tooltip.3=  50%% - Helle Schatten
 of.options.AO_LEVEL.tooltip.4=  100%% - Dunkle Schatten
@@ -87,21 +90,22 @@ options.vbo.tooltip.1=Vertexbufferobjekte
 options.vbo.tooltip.2=Benutzt ein alternatives Rendermodell, das normalerweise
 options.vbo.tooltip.3=schneller (5-10%%) als das Standard-Rendermodell ist.
 
-options.gamma.tooltip.1=Erhöht die Helligkeit dunkler Objekte
+options.gamma.tooltip.1=Ändert die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  Düster - Standardhelligkeit
 options.gamma.tooltip.3=  1-99%% - veränderlich
 options.gamma.tooltip.4=  Hell - Maximale Helligkeit für dunkle Objekte
 options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von ganz
-options.gamma.tooltip.6=schwarzen Objekten
+options.gamma.tooltip.6=schwarzen Objekten.
 
 options.anaglyph.tooltip.1=3D-Modus
-options.anaglyph.tooltip.2=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
-options.anaglyph.tooltip.3=Aktiviert einen stereoskopischen 3D-Effekt durch
-options.anaglyph.tooltip.4=Verwenden unterschiedlicher Farben für jedes Auge.
+options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
+options.anaglyph.tooltip.3=Verwenden unterschiedlicher Farben für jedes Auge.
+options.anaglyph.tooltip.4=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
 
-options.blockAlternatives.tooltip.1=Blockvarianten
-options.blockAlternatives.tooltip.2=Benutzt alternative Blockmodelle für einige Blöcke.
-options.blockAlternatives.tooltip.3=Hängt vom ausgewählten Ressourcenpaket ab.
+of.options.ALTERNATE_BLOCKS=Blockvarianten
+of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvarianten
+of.options.ALTERNATE_BLOCKS.tooltip.2=Benutzt alternative Blockmodelle für einige Blöcke.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Abhängig vom ausgewählten Ressourcenpaket.
 
 of.options.FOG_FANCY=Nebel
 of.options.FOG_FANCY.tooltip.1=Nebel
@@ -240,7 +244,7 @@ of.options.BETTER_SNOW.tooltip.4=Setzt Schnee unter transparente Blöcke (wie Z�
 of.options.BETTER_SNOW.tooltip.5=oder hohes Gras), wenn sie an Schneeblöcke grenzen.
 
 of.options.CUSTOM_FONTS=Schriftartressourcen
-of.options.CUSTOM_FONTS.tooltip.1=Schriftarteressourcen
+of.options.CUSTOM_FONTS.tooltip.1=Schriftartressourcen
 of.options.CUSTOM_FONTS.tooltip.2=  AN - Ressourcenpaket-Schriftart (Standard), langsamer
 of.options.CUSTOM_FONTS.tooltip.3=  AUS - Standardschriftart, schneller
 of.options.CUSTOM_FONTS.tooltip.4=Die Schriftart wird aus den aktivierten Ressourcenpaketen
@@ -289,11 +293,11 @@ of.options.NATURAL_TEXTURES.tooltip.6=nutzt gedrehte und umgekehrte Varianten de
 of.options.NATURAL_TEXTURES.tooltip.7=Blocktextur. Die Einstellungen für die natürlichen Texturen
 of.options.NATURAL_TEXTURES.tooltip.8=werden aus den aktivierten Ressourcenpaketen geladen.
 
-of.options.CUSTOM_SKY=Himmeltexturen
-of.options.CUSTOM_SKY.tooltip.1=Himmeltexturen
-of.options.CUSTOM_SKY.tooltip.2=  An - Ressourcenpaket-Himmeltexturen (Standard), langsam
-of.options.CUSTOM_SKY.tooltip.3=  AUS - Standardhimmel, schneller
-of.options.CUSTOM_SKY.tooltip.4=Die Himmeltexturen werden aus den aktivierten
+of.options.CUSTOM_SKY=Himmelstexturen
+of.options.CUSTOM_SKY.tooltip.1=Himmelstexturen
+of.options.CUSTOM_SKY.tooltip.2=  An - Ressourcenpaket-Himmelstexturen (Standard), langsam
+of.options.CUSTOM_SKY.tooltip.3=  Aus - Standardhimmel, schneller
+of.options.CUSTOM_SKY.tooltip.4=Die Himmelstexturen werden aus den aktivierten
 of.options.CUSTOM_SKY.tooltip.5=Ressourcenpaketen geladen.
 
 of.options.CUSTOM_ITEMS=Gegenstandstexturen
@@ -401,6 +405,15 @@ of.options.DYNAMIC_FOV.tooltip.3=  Aus - Dynamisches Sichtfeld ausschalten
 of.options.DYNAMIC_FOV.tooltip.4=Ändert das Sichtfeld beim Fliegen, Sprinten oder beim
 of.options.DYNAMIC_FOV.tooltip.5=Spannen eines Bogens.
 
+of.options.DYNAMIC_LIGHTS=Dynamische Beleuchtung
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamische Beleuchtung
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Aus - Keine dynamische Beleuchtung (Standard)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Schnell - Schnelle dynamische Bel. (alle 500ms aktual.)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Schön - Schöne dynamische Bel. (Echtzeitaktualisierung)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Leuchtende Gegenstände (Fackel, Glowstone, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=beleuchten die Umgebung, wenn sie in der Hand gehalten,
+of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedroppt werden.
+
 # Performance
 
 of.options.SMOOTH_FPS=Stabile Bildrate
@@ -468,7 +481,7 @@ of.options.ANIMATED_WATER=Animiertes Wasser
 of.options.ANIMATED_LAVA=Animierte Lava
 of.options.ANIMATED_FIRE=Animiertes Feuer
 of.options.ANIMATED_PORTAL=Animierte Portale
-of.options.ANIMATED_REDSTONE=Animiertes Redstone
+of.options.ANIMATED_REDSTONE=Animierter Redstone
 of.options.ANIMATED_EXPLOSION=Animierte Explosion
 of.options.ANIMATED_FLAME=Animierte Flammen
 of.options.ANIMATED_SMOKE=Animierter Rauch
@@ -480,7 +493,7 @@ of.options.POTION_PARTICLES=Trankpartikel
 of.options.DRIPPING_WATER_LAVA=Wasser- & Lavatropfen
 of.options.ANIMATED_TERRAIN=Animiertes Gelände
 of.options.ANIMATED_TEXTURES=Animierte Texturen
-of.options.FIREWORK_PARTICLES=Feuerwerkpartikel
+of.options.FIREWORK_PARTICLES=Feuerwerkspartikel
 
 # Other
 
