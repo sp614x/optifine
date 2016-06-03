@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-6-1
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-6-3
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -103,9 +103,10 @@ options.anaglyph.tooltip.2=通过为每只眼睛分色
 options.anaglyph.tooltip.3=来启用3D立体效果。
 options.anaglyph.tooltip.4=需要使用红蓝眼镜正常观看.
 
-options.blockAlternatives.tooltip.1=替选方块
-options.blockAlternatives.tooltip.2=为一些方块使用备选的方块模型。
-options.blockAlternatives.tooltip.3=取决于所选的资源包。
+of.options.ALTERNATE_BLOCKS=替选方块
+of.options.ALTERNATE_BLOCKS.tooltip.1=替选方块
+of.options.ALTERNATE_BLOCKS.tooltip.2=为一些方块使用备选的方块模型。
+of.options.ALTERNATE_BLOCKS.tooltip.3=取决于所选的资源包。
 
 of.options.FOG_FANCY=迷雾
 of.options.FOG_FANCY.tooltip.1=迷雾类型
