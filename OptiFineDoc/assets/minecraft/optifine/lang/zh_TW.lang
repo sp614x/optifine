@@ -1,5 +1,5 @@
 # Contributors of Traditional Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-06-01
+#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-06-03
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi 2016-03-03
 ##-------------- zh_TW ---------------
@@ -102,9 +102,10 @@ options.anaglyph.tooltip.2=通過為每隻眼睛分色
 options.anaglyph.tooltip.3=來啟用3D立體效果.
 options.anaglyph.tooltip.4=需要使用紅藍眼鏡正常觀看.
 
-options.blockAlternatives.tooltip.1=替選方塊
-options.blockAlternatives.tooltip.2=為一些方塊使用備選的方塊模型.
-options.blockAlternatives.tooltip.3=取決於所選的資源包.
+of.options.ALTERNATE_BLOCKS=替選方塊
+of.options.ALTERNATE_BLOCKS.tooltip.1=替選方塊
+of.options.ALTERNATE_BLOCKS.tooltip.2=為一些方塊使用備選的方塊模型.
+of.options.ALTERNATE_BLOCKS.tooltip.3=取決於所選的資源包.
 
 of.options.FOG_FANCY=迷霧
 of.options.FOG_FANCY.tooltip.1=迷霧類型
