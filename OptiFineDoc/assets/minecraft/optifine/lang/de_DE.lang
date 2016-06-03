@@ -2,6 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-5-18
+#   TheHADILP 2016-5-20 ---- 2016-6-2
 
 # General
 of.general.ambiguous=Unklar
@@ -10,6 +11,9 @@ of.general.from=Von
 of.general.id=ID
 of.general.restart=Neustart
 of.general.smart=Fein
+
+# Keys
+of.key.zoom=Zoom
 
 # Message
 of.message.aa.shaders1=Antialiasing ist nicht mit Shader-Effekten kompatibel.
@@ -43,8 +47,8 @@ of.message.other.reset=Alle Videoeinstellungen auf die Standardwerte zurücksetz
 options.graphics.tooltip.1=Grafikmodus
 options.graphics.tooltip.2=  Schnell - Schlechtere Qualität, schneller
 options.graphics.tooltip.3=  Schön   - Höhere Qualität, langsamer
-options.graphics.tooltip.4=Verändert das Aussehen der Wolken, Blätter, Grasblöcke,
-options.graphics.tooltip.5=Schatten und von Wasser.
+options.graphics.tooltip.4=Verändert das Aussehen von Wolken, Blättern, Wasser,
+options.graphics.tooltip.5=Schatten und Grasblöcken.
 
 of.options.renderDistance.extreme=Extrem
 
@@ -87,21 +91,22 @@ options.vbo.tooltip.1=Vertexbufferobjekte
 options.vbo.tooltip.2=Benutzt ein alternatives Rendermodell, das normalerweise
 options.vbo.tooltip.3=schneller (5-10%%) als das Standard-Rendermodell ist.
 
-options.gamma.tooltip.1=Erhöht die Helligkeit dunkler Objekte
+options.gamma.tooltip.1=Ändert die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  Düster - Standardhelligkeit
 options.gamma.tooltip.3=  1-99%% - veränderlich
 options.gamma.tooltip.4=  Hell - Maximale Helligkeit für dunkle Objekte
 options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von ganz
-options.gamma.tooltip.6=schwarzen Objekten
+options.gamma.tooltip.6=schwarzen Objekten.
 
 options.anaglyph.tooltip.1=3D-Modus
-options.anaglyph.tooltip.2=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
-options.anaglyph.tooltip.3=Aktiviert einen stereoskopischen 3D-Effekt durch
-options.anaglyph.tooltip.4=Verwenden unterschiedlicher Farben für jedes Auge.
+options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
+options.anaglyph.tooltip.3=Verwenden unterschiedlicher Farben für jedes Auge.
+options.anaglyph.tooltip.4=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
 
-options.blockAlternatives.tooltip.1=Blockvarianten
-options.blockAlternatives.tooltip.2=Benutzt alternative Blockmodelle für einige Blöcke.
-options.blockAlternatives.tooltip.3=Hängt vom ausgewählten Ressourcenpaket ab.
+of.options.ALTERNATE_BLOCKS=Blockvarianten
+of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvarianten
+of.options.ALTERNATE_BLOCKS.tooltip.2=Benutzt alternative Blockmodelle für einige Blöcke.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Abhängig vom ausgewählten Ressourcenpaket.
 
 of.options.FOG_FANCY=Nebel
 of.options.FOG_FANCY.tooltip.1=Nebel
@@ -240,9 +245,9 @@ of.options.BETTER_SNOW.tooltip.4=Setzt Schnee unter transparente Blöcke (wie Z�
 of.options.BETTER_SNOW.tooltip.5=oder hohes Gras), wenn sie an Schneeblöcke grenzen.
 
 of.options.CUSTOM_FONTS=Schriftartressourcen
-of.options.CUSTOM_FONTS.tooltip.1=Schriftarteressourcen
-of.options.CUSTOM_FONTS.tooltip.2=  AN - Ressourcenpaket-Schriftart (Standard), langsamer
-of.options.CUSTOM_FONTS.tooltip.3=  AUS - Standardschriftart, schneller
+of.options.CUSTOM_FONTS.tooltip.1=Schriftartressourcen
+of.options.CUSTOM_FONTS.tooltip.2=  An - Ressourcenpaket-Schriftart (Standard), langsamer
+of.options.CUSTOM_FONTS.tooltip.3=  Aus - Standardschriftart, schneller
 of.options.CUSTOM_FONTS.tooltip.4=Die Schriftart wird aus den aktivierten Ressourcenpaketen
 of.options.CUSTOM_FONTS.tooltip.5=geladen
 
@@ -262,8 +267,8 @@ of.options.SWAMP_COLORS.tooltip.5=Wasser.
 
 of.options.SMOOTH_BIOMES=Biomübergänge
 of.options.SMOOTH_BIOMES.tooltip.1=Biomübergänge
-of.options.SMOOTH_BIOMES.tooltip.2=  An - Farbübergänge an Biomgrenzen (Standard), langsamer
-of.options.SMOOTH_BIOMES.tooltip.3=  Aus - Keine Farbübergänge an Biomgrenzen, schneller
+of.options.SMOOTH_BIOMES.tooltip.2=  An - Flüssige Biomübergänge (Standard), langsamer
+of.options.SMOOTH_BIOMES.tooltip.3=  Aus - Keine flüssigen Biomübergänge, schneller
 of.options.SMOOTH_BIOMES.tooltip.4=Die Farbübergänge werden durch Probennahme und
 of.options.SMOOTH_BIOMES.tooltip.5=Durchschnittsberechnung der Farben der umliegenden
 of.options.SMOOTH_BIOMES.tooltip.6=Blöcke berechnet. Betroffen sind Gras, Laub, Ranken und
@@ -284,16 +289,16 @@ of.options.NATURAL_TEXTURES.tooltip.1=Natürliche Texturen
 of.options.NATURAL_TEXTURES.tooltip.2=  Aus - Keine natürlichen Texturen (Standard)
 of.options.NATURAL_TEXTURES.tooltip.3=  An - Benutzt natürliche Texturen
 of.options.NATURAL_TEXTURES.tooltip.4=Natürliche Texturen entfernen die rasterartige Anordnung,
-of.options.NATURAL_TEXTURES.tooltip.5=erzeugt durch Platzieren von gleichen Blöcken. Dies be-
-of.options.NATURAL_TEXTURES.tooltip.6=nutzt gedrehte und umgekehrte Varianten der Standard-
+of.options.NATURAL_TEXTURES.tooltip.5=erzeugt durch Platzieren gleicher Blöcke. Dies benutzt
+of.options.NATURAL_TEXTURES.tooltip.6=gedrehte und umgekehrte Varianten der Standard-
 of.options.NATURAL_TEXTURES.tooltip.7=Blocktextur. Die Einstellungen für die natürlichen Texturen
 of.options.NATURAL_TEXTURES.tooltip.8=werden aus den aktivierten Ressourcenpaketen geladen.
 
-of.options.CUSTOM_SKY=Himmeltexturen
-of.options.CUSTOM_SKY.tooltip.1=Himmeltexturen
-of.options.CUSTOM_SKY.tooltip.2=  An - Ressourcenpaket-Himmeltexturen (Standard), langsam
-of.options.CUSTOM_SKY.tooltip.3=  AUS - Standardhimmel, schneller
-of.options.CUSTOM_SKY.tooltip.4=Die Himmeltexturen werden aus den aktivierten
+of.options.CUSTOM_SKY=Himmelstexturen
+of.options.CUSTOM_SKY.tooltip.1=Himmelstexturen
+of.options.CUSTOM_SKY.tooltip.2=  An - Ressourcenpaket-Himmel (Standard), langsam
+of.options.CUSTOM_SKY.tooltip.3=  Aus - Standardhimmel, schneller
+of.options.CUSTOM_SKY.tooltip.4=Die Himmelstexturen werden aus den aktivierten
 of.options.CUSTOM_SKY.tooltip.5=Ressourcenpaketen geladen.
 
 of.options.CUSTOM_ITEMS=Gegenstandstexturen
@@ -401,21 +406,30 @@ of.options.DYNAMIC_FOV.tooltip.3=  Aus - Dynamisches Sichtfeld ausschalten
 of.options.DYNAMIC_FOV.tooltip.4=Ändert das Sichtfeld beim Fliegen, Sprinten oder beim
 of.options.DYNAMIC_FOV.tooltip.5=Spannen eines Bogens.
 
+of.options.DYNAMIC_LIGHTS=Dyn. Beleuchtung
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamische Beleuchtung
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Aus - Keine dynamische Beleuchtung (Standard)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Schnell - Schnelle dyn. Beleuchtung (alle 500ms aktual.)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Schön - Schöne dyn. Beleuchtung (Echtzeitaktualisierung)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Leuchtende Gegenstände (Fackel, Glowstone, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=beleuchten die Umgebung, wenn sie in der Hand gehalten,
+of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedroppt werden.
+
 # Performance
 
 of.options.SMOOTH_FPS=Stabile Bildrate
-of.options.SMOOTH_FPS.tooltip.1=Stabilisiert Bildrate, indem Grafiktreiberpuffer genutzt werden
+of.options.SMOOTH_FPS.tooltip.1=Stabilisiert Bildrate durch Nutzung von Grafiktreiberpuffer
 of.options.SMOOTH_FPS.tooltip.2=  Aus - Keine Stabilisierung, Bildrate könnte schwanken
-of.options.SMOOTH_FPS.tooltip.3=  Am - Stabilisierung der Bildrate
+of.options.SMOOTH_FPS.tooltip.3=  An - Stabilisierung der Bildrate
 of.options.SMOOTH_FPS.tooltip.4=Diese Einstellung ist abhängig vom Grafikkartentreiber.
 of.options.SMOOTH_FPS.tooltip.5=Eine Wirkung ist nicht immer spürbar.
 
 of.options.SMOOTH_WORLD=Weltstabilisierung
-of.options.SMOOTH_WORLD.tooltip.1=Entfernt durch den internen Server verursache starke Lags
+of.options.SMOOTH_WORLD.tooltip.1=Entfernt vom internen Server verursachte starke Lags
 of.options.SMOOTH_WORLD.tooltip.2=  Aus - Keine Stabilisierung, Bildrate könnte schwanken
 of.options.SMOOTH_WORLD.tooltip.3=  An - Weltstabilisierung aktiviert
-of.options.SMOOTH_WORLD.tooltip.4=Stabilisiert die Bildrate, indem der interne Serverlade-
-of.options.SMOOTH_WORLD.tooltip.5=vorgang aufgeteilt wird.
+of.options.SMOOTH_WORLD.tooltip.4=Stabilisiert die Bildrate, indem die interne Server-
+of.options.SMOOTH_WORLD.tooltip.5=auslastung aufgeteilt wird.
 of.options.SMOOTH_WORLD.tooltip=6=Funktioniert nur im Einzelspielermodus.
 
 of.options.FAST_RENDER=Schnelles Rendern
@@ -468,7 +482,7 @@ of.options.ANIMATED_WATER=Animiertes Wasser
 of.options.ANIMATED_LAVA=Animierte Lava
 of.options.ANIMATED_FIRE=Animiertes Feuer
 of.options.ANIMATED_PORTAL=Animierte Portale
-of.options.ANIMATED_REDSTONE=Animiertes Redstone
+of.options.ANIMATED_REDSTONE=Animierter Redstone
 of.options.ANIMATED_EXPLOSION=Animierte Explosion
 of.options.ANIMATED_FLAME=Animierte Flammen
 of.options.ANIMATED_SMOKE=Animierter Rauch
@@ -480,7 +494,7 @@ of.options.POTION_PARTICLES=Trankpartikel
 of.options.DRIPPING_WATER_LAVA=Wasser- & Lavatropfen
 of.options.ANIMATED_TERRAIN=Animiertes Gelände
 of.options.ANIMATED_TEXTURES=Animierte Texturen
-of.options.FIREWORK_PARTICLES=Feuerwerkpartikel
+of.options.FIREWORK_PARTICLES=Feuerwerkspartikel
 
 # Other
 
@@ -529,7 +543,7 @@ options.fullscreen.tooltip.6=karte an.
 of.options.FULLSCREEN_MODE=Vollbild-Auflösung
 of.options.FULLSCREEN_MODE.tooltip.1=Vollbild-Auflösung
 of.options.FULLSCREEN_MODE.tooltip.2=  Standard - Benutze Bildschirmauflösung, langsamer
-of.options.FULLSCREEN_MODE.tooltip.3=  WxH - Benutze andere Auflösung, könnte schneller sein
+of.options.FULLSCREEN_MODE.tooltip.3=  BxH - Benutze andere Auflösung, könnte schneller sein
 of.options.FULLSCREEN_MODE.tooltip.4=Die ausgewählte Auflösung wird im Vollbildschirmmodus
 of.options.FULLSCREEN_MODE.tooltip.5=verwendet (F11). Kleinere Auflösungen sollten generell
 of.options.FULLSCREEN_MODE.tooltip.5=schneller sein.
