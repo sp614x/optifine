@@ -546,7 +546,7 @@ of.options.FULLSCREEN_MODE.tooltip.2=  Standard - Benutze Bildschirmauflösung, 
 of.options.FULLSCREEN_MODE.tooltip.3=  BxH - Benutze andere Auflösung, könnte schneller sein
 of.options.FULLSCREEN_MODE.tooltip.4=Die ausgewählte Auflösung wird im Vollbildschirmmodus
 of.options.FULLSCREEN_MODE.tooltip.5=verwendet (F11). Kleinere Auflösungen sollten generell
-of.options.FULLSCREEN_MODE.tooltip.5=schneller sein.
+of.options.FULLSCREEN_MODE.tooltip.6=schneller sein.
 
 of.options.SHOW_FPS=Bildrate anzeigen
 of.options.SHOW_FPS.tooltip.1=Zeige kurze Bildrate- und Render-Informationen
