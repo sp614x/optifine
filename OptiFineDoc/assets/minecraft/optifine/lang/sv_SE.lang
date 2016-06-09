@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-05-31
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-06-09
 
 # General
 of.general.ambiguous=tvetydig
@@ -394,6 +394,15 @@ of.options.DYNAMIC_FOV.tooltip.2=  PÅ - aktivera dynamiskt synfält  (standard)
 of.options.DYNAMIC_FOV.tooltip.3=  AV - inaktivera dynamiskt synfält
 of.options.DYNAMIC_FOV.tooltip.4=Ändrar synfältet när du flyger, springer eller siktar
 of.options.DYNAMIC_FOV.tooltip.5=med en pilbåge.
+
+of.options.DYNAMIC_LIGHTS=Dynamiskt ljus
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiskt ljus
+of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inget dynamiskt ljus (standard)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabbt dynamiskt ljus (uppdateras varje 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snyggt dynamiskt ljus (uppdateras i realtid)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, glödsten, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de ligger i din hand, hålls av en
+of.options.DYNAMIC_LIGHTS.tooltip.7=annan spelare eller släpps ned på marken
 
 # Performance
 
