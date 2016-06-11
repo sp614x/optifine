@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-5-18
-#   TheHADILP 2016-5-20 ---- 2016-6-2
+#   TheHADILP 2016-5-20 ---- 2016-6-11
 
 # General
 of.general.ambiguous=Unklar
@@ -50,6 +50,10 @@ options.graphics.tooltip.3=  Schön   - Höhere Qualität, langsamer
 options.graphics.tooltip.4=Verändert das Aussehen von Wolken, Blättern, Wasser,
 options.graphics.tooltip.5=Schatten und Grasblöcken.
 
+of.options.renderDistance.tiny=Mini
+of.options.renderDistance.short=Klein
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Weit
 of.options.renderDistance.extreme=Extrem
 
 options.renderDistance.tooltip.1=Sichtweite
