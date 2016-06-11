@@ -44,6 +44,10 @@ options.graphics.tooltip.3=  Fancy - higher quality, slower
 options.graphics.tooltip.4=Changes the appearance of clouds, leaves, water,
 options.graphics.tooltip.5=shadows and grass sides.
 
+of.options.renderDistance.tiny=Tiny
+of.options.renderDistance.short=Short
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Far
 of.options.renderDistance.extreme=Extreme
 
 options.renderDistance.tooltip.1=Visible distance
