@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#   TimkaG 2016-03-01 ---- 2016-06-01
+#   TimkaG 2016-03-01 ---- 2016-06-12
 #   Dibro 2016-03-20
 
 # General
@@ -48,15 +48,19 @@ options.graphics.tooltip.3=  Детально - высокое качество,
 options.graphics.tooltip.4=Изменяет облик граней дёрна, листьев, воды, теней и облаков. 
 options.graphics.tooltip.5=
 
+of.options.renderDistance.tiny=Очень маленькая
+of.options.renderDistance.short=Малая
+of.options.renderDistance.normal=Нормальная
+of.options.renderDistance.far=Дальняя
 of.options.renderDistance.extreme=Предельная
 
 options.renderDistance.tooltip.1=Дальность прорисовки
-options.renderDistance.tooltip.2=  2 Очень близко - 32м (еще быстрее)
+options.renderDistance.tooltip.2=  2 Очень маленькая - 32м (еще быстрее)
 options.renderDistance.tooltip.3=  4 Малая - 64м (быстрее)
 options.renderDistance.tooltip.4=  8 Нормальная - 128м
 options.renderDistance.tooltip.5=  16 Дальняя - 256м (медленнее)
 options.renderDistance.tooltip.6=  32 Предельная - 512м (еще медленнее!)
-options.renderDistance.tooltip.7=Предельная дальность прорисовки очень требовательна к ресурсам!
+options.renderDistance.tooltip.7=Предельная прорисовка очень требовательна к ресурсам компьютера!
 options.renderDistance.tooltip.8=Значения более 16 эффективны только в локальных мирах.
 
 options.ao.tooltip.1=Мягкое освещение
