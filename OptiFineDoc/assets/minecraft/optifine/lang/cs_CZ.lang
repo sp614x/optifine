@@ -44,6 +44,10 @@ options.graphics.tooltip.3=  Pěkná - vyšší kvalita, pomalejší
 options.graphics.tooltip.4=Mění vzhled mraků, listí, vody,
 options.graphics.tooltip.5=stínů a stran trávníků.
 
+of.options.renderDistance.tiny=Maličká
+of.options.renderDistance.short=Malá
+of.options.renderDistance.normal=Normální
+of.options.renderDistance.far=Velká
 of.options.renderDistance.extreme=Extrémní
 
 options.renderDistance.tooltip.1=Viditelná vzdálenost
