@@ -44,16 +44,20 @@ options.graphics.tooltip.3=  Dokładna - wyższa jakość, mniejsza wydajność
 options.graphics.tooltip.4=Zmienia wygląd chmur, liści, wody,
 options.graphics.tooltip.5=cieni oraz boków bloków trawy.
 
+of.options.renderDistance.tiny=Najkrótsza
+of.options.renderDistance.short=Krótka
+of.options.renderDistance.normal=Normalna
+of.options.renderDistance.far=Długa
 of.options.renderDistance.extreme=Ekstremalna
 
 options.renderDistance.tooltip.1=Odległość renderowania
-options.renderDistance.tooltip.2=  2 Niewielka - 32m (najwyższa wydajność)
+options.renderDistance.tooltip.2=  2 Najkrótsza - 32m (najwyższa wydajność)
 options.renderDistance.tooltip.3=  4 Krótka - 64m (wysoka wydajność)
 options.renderDistance.tooltip.4=  8 Normalna - 128m
 options.renderDistance.tooltip.5=  16 Długa - 256m (niska wydajność)
 options.renderDistance.tooltip.6=  32 Ekstremalna - 512m (najniższa wydajność)
 options.renderDistance.tooltip.7=Odległość renderowania ekstremalna jest bardzo zasobożerna!
-options.renderDistance.tooltip.8=Wartości powyżej 16 Długa są zalecane tylko do lokalnych światów.
+options.renderDistance.tooltip.8=Wartości powyżej 16 Długa są zalecane tylko dla lokalnych światów.
 
 options.ao.tooltip.1=Gładkie oświetlenie
 options.ao.tooltip.2=  Wył. - brak wygładzania oświetlenia (wysoka wydajność)
