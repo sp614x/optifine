@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-6-3
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-6-14
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -51,6 +51,10 @@ options.graphics.tooltip.3=  高品质 - 高品质，较慢
 options.graphics.tooltip.4=改变云、树叶、水、
 options.graphics.tooltip.5=阴影和草地的外观。
 
+of.options.renderDistance.tiny=最近
+of.options.renderDistance.short=近
+of.options.renderDistance.normal=中等
+of.options.renderDistance.far=远
 of.options.renderDistance.extreme=极限
 
 options.renderDistance.tooltip.1=能见度
