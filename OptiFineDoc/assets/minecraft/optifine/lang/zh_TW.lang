@@ -1,5 +1,5 @@
 # Contributors of Traditional Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-06-03
+#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-06-14
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi 2016-03-03
 ##-------------- zh_TW ---------------
@@ -50,6 +50,10 @@ options.graphics.tooltip.3=  畫質優先 - 高畫質, 較慢
 options.graphics.tooltip.4=改變雲、樹葉、水、
 options.graphics.tooltip.5=陰影和草地的外觀.
 
+of.options.renderDistance.tiny=最近
+of.options.renderDistance.short=近
+of.options.renderDistance.normal=中等
+of.options.renderDistance.far=遠
 of.options.renderDistance.extreme=最遠
 
 options.renderDistance.tooltip.1=視野
