@@ -45,6 +45,10 @@ options.graphics.tooltip.3=  Красива - вижча якість, пові�
 options.graphics.tooltip.4=Змінює зовнішній вигляд хмар, листя води
 options.graphics.tooltip.5=тіней і сторін трави.
 
+of.options.renderDistance.tiny=Маленька
+of.options.renderDistance.short=Коротка
+of.options.renderDistance.normal=Нормальна
+of.options.renderDistance.far=Далека
 of.options.renderDistance.extreme=Надзвичайна
 
 options.renderDistance.tooltip.1=Видима відстань
@@ -390,6 +394,15 @@ of.options.DYNAMIC_FOV.tooltip.2=  Увімк - динамічний FOV уві�
 of.options.DYNAMIC_FOV.tooltip.3=  Вимк - динамічний FOV вимкнуто
 of.options.DYNAMIC_FOV.tooltip.4=Змінює поле зору (FOV) коли літаємо, біжимо 
 of.options.DYNAMIC_FOV.tooltip.5=чи натягуємо лук.
+
+of.options.DYNAMIC_LIGHTS=Динамічне освітлення
+of.options.DYNAMIC_LIGHTS.tooltip.1=Динамічне освітлення
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Вимк - без динамічного освітлення (базово)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Швидка - швидке динамічне освітлення (оновлення кожні 500мс)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Красива - красиве динамічне освітлення (оновлення в реальному часу)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Дозволяє випромінювати світло речам (факел, гловстоун, т.д.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=щоб освітлювати все навкруги, коли знаходяться в руці,
+of.options.DYNAMIC_LIGHTS.tooltip.7=вдягнуті іншим гравцем або викинуті на землю
 
 # Performance
 
