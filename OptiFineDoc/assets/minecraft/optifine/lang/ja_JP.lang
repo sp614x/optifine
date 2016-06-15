@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2016-06-04
+#   CrafterKina 2014-01-04 ---- 2016-06-14
 
 # General
 of.general.custom=カスタム
@@ -8,7 +8,7 @@ of.general.from=から
 of.general.id=ID
 of.general.restart=再起動
 of.general.ambiguous=不明確
-of.general.smart=賢い処理
+of.general.smart=スマート
 
 # Keys
 of.key.zoom=ズーム
@@ -48,26 +48,30 @@ options.graphics.tooltip.3=  描画優先 - 高い品質、 高負荷
 options.graphics.tooltip.4=葉の透過、アイテムやMobの影、ドロップアイテムの3D描写、
 options.graphics.tooltip.5=厚みのある雲、水の2パスレンダリング、といったグラフィック効果を変更します。
 
-of.options.renderDistance.extreme=凄く遠い
+of.options.renderDistance.tiny=最短
+of.options.renderDistance.short=短い
+of.options.renderDistance.normal=普通
+of.options.renderDistance.far=遠い
+of.options.renderDistance.extreme=最遠
 
 options.renderDistance.tooltip.1=描画距離
-options.renderDistance.tooltip.2=  2 最短 - 32m先まで描画する (より低負荷)
-options.renderDistance.tooltip.3=  4 短い - 64m先まで描画する (低負荷)
-options.renderDistance.tooltip.4=  8 普通 - 128m先まで描画する
-options.renderDistance.tooltip.5=  16 遠い - 256m先まで描画する (高負荷)
-options.renderDistance.tooltip.6=  32 凄く遠い - 512m先まで描画する (超高負荷!)
-options.renderDistance.tooltip.7=「凄く遠い」設定は非常に高いグラフィックス性能を要求します!
-options.renderDistance.tooltip.8=「遠い」を超える描画距離はシングルのワールドでのみ効果があります。
+options.renderDistance.tooltip.2=  2 最短 - 32m (より低負荷)
+options.renderDistance.tooltip.3=  4 短い - 64m (低負荷)
+options.renderDistance.tooltip.4=  8 普通 - 128m
+options.renderDistance.tooltip.5=  16 遠い - 256m (高負荷)
+options.renderDistance.tooltip.6=  32 最遠 - 512m (超高負荷!)
+options.renderDistance.tooltip.7=最遠設定は非常に高いグラフィックス性能を要求します!
+options.renderDistance.tooltip.8=遠いを超える描画距離はシングルのワールドでのみ効果があります。
 
 options.ao.tooltip.1=スムースライティング
 options.ao.tooltip.2=  オフ - スムースライティングを使用しない (低負荷)
-options.ao.tooltip.3=  最小 - 簡単なスムースライティング (高負荷)
-options.ao.tooltip.4=  最大 - 複雑なスムースライティング (より高負荷)
+options.ao.tooltip.3=  最小 - 単純なスムースライティング (高負荷)
+options.ao.tooltip.4=  最大 - 複雑なスムースライティング (最高負荷)
 
 options.framerateLimit.tooltip.1=最大のフレームレート
 options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレートに合わせる (60, 30, 20)
 options.framerateLimit.tooltip.3=  5～255 - フレームレートを設定した値までに制限する
-options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない (最速)
+options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない (最低負荷)
 options.framerateLimit.tooltip.5=たとえ制限に達していなくとも、
 options.framerateLimit.tooltip.6=フレームレートを抑制します。
 of.options.framerateLimit.vsync=垂直同期
@@ -211,7 +215,7 @@ of.options.AF_LEVEL.tooltip.2= オフ - 通常のテクスチャ描画 (低負�
 of.options.AF_LEVEL.tooltip.3= 2-16 - 滑らかなテクスチャ描画 (高負荷)
 of.options.AF_LEVEL.tooltip.4=ミップマップされたテクスチャにおいて、
 of.options.AF_LEVEL.tooltip.5=ちらつきを抑えます。
-of.options.AF_LEVEL.tooltip.6=有効化すると実質的なFPSは下がります。
+of.options.AF_LEVEL.tooltip.6=有効化すると実質的にFPSは下がります。
 
 of.options.CLEAR_WATER=水の透明度を上げる
 of.options.CLEAR_WATER.tooltip.1=水の透明度を上げる設定
@@ -319,8 +323,8 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - ワールドの高さ上限
 of.options.TREES=樹
 of.options.TREES.tooltip.1=樹
 of.options.TREES.tooltip.2=  デフォルト - グラフィックスの設定に合わせる
-of.options.TREES.tooltip.3=  処理優先 - 低品質 より低負荷
-of.options.TREES.tooltip.4=  賢い処理 - 高品質 低負荷
+of.options.TREES.tooltip.3=  処理優先 - 低品質 最低負荷
+of.options.TREES.tooltip.4=  スマート - 高品質 低負荷
 of.options.TREES.tooltip.5=  描画優先 - 高品質 高負荷
 of.options.TREES.tooltip.6=処理優先の木の葉は透過しません。
 of.options.TREES.tooltip.7=描画優先や賢く描画された木の葉は透過します。
@@ -386,7 +390,7 @@ of.options.VIGNETTE.tooltip.4=  描画優先 - 視界端の影を表示する (�
 of.options.VIGNETTE.tooltip.5=視界端の影はFPSにとって重要な視覚効果です。
 of.options.VIGNETTE.tooltip.6=例外としてフルスクリーンで遊ぶ際には、
 of.options.VIGNETTE.tooltip.7=視界端の影は非常に微かであるため、
-of.options.VIGNETTE.tooltip.8=無効にしてもかまいません。
+of.options.VIGNETTE.tooltip.8=無効にしても無害です。
 
 of.options.DYNAMIC_FOV=動的な視野角
 of.options.DYNAMIC_FOV.tooltip.1=動的な視野角
