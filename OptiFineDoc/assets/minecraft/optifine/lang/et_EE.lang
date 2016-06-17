@@ -1,0 +1,553 @@
+# General
+of.general.ambiguous=ebamäärane
+of.general.kohandatud=Kohandatud
+of.general.from=Kohast
+of.general.id=ID
+of.general.restart=taaskäivita
+of.general.smart=tark
+
+# Keys
+of.key.zoom=Suum
+
+# Message
+of.message.aa.shaders1=Anti-aliasing ei ühildu varjutajatega.
+of.message.aa.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+
+of.message.af.shaders1=Anisotroopiline filtreerimine ei ühildu varjutajatega.
+of.message.af.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+
+of.message.fr.shaders1=Kiire renderdus ei ühildu varjutajatega.
+of.message.fr.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+
+of.message.shaders.aa1=Varjutajad ei ühildu anti-aliasing'uga. 
+of.message.shaders.aa2=Palun lülita Kvaliteet -> Anti-aliasing VÄLJA ja taaskäivita mäng.
+
+of.message.shaders.af1=Varjutajad ei ühildu anisotroopilise filtreerimisega.
+of.message.shaders.af2=Palun lülita Kvaliteet -> Anisotroopiline filtr. VÄLJA. 
+
+of.message.shaders.fr1=Varjutajad ei ühildu kiire renderdusega.
+of.message.shaders.fr2=Palun lülita Jõudlus -> Kiire renderdus VÄLJA.
+
+of.message.newVersion=Uus §eOptiFine§f'i versioon on saadaval: §e%s§f
+of.message.java64Bit=Sa võid jõudluse parandamiseks installida §e64-bitise Java§f
+of.message.openglError=§eOpenGL'i viga§f: %s (%s)
+
+of.message.shaders.loading=Varjutajate laadimine: %s
+
+of.message.other.reset=Lähtestad kõik graafikaseaded vaikimisi väärtustele?
+ 
+# Video settings
+
+options.graphics.tooltip.1=Visuaalne kvaliteet
+options.graphics.tooltip.2=  Kiire  - madalam kvaliteet, kiirem
+options.graphics.tooltip.3=  Uhke - kõrgem kvaliteet, aeglasem
+options.graphics.tooltip.4=Muudab pilvede, lehtede, vee, varjude
+options.graphics.tooltip.5=ja muru külgede välimust.
+
+of.options.renderDistance.tiny=pisike
+of.options.renderDistance.short=lühike
+of.options.renderDistance.normal=tavaline
+of.options.renderDistance.far=kauge
+of.options.renderDistance.extreme=ekstreemne
+
+options.renderDistance.tooltip.1=Nähtav kaugus
+options.renderDistance.tooltip.2=  2 pisike - 32m (kiireim)
+options.renderDistance.tooltip.3=  4 lühike - 64m (kiirem)
+options.renderDistance.tooltip.4=  8 tavaline - 128m
+options.renderDistance.tooltip.5=  16 kauge - 256m (aeglasem)
+options.renderDistance.tooltip.6=  32 ekstreemne - 512m (aeglaseim!)
+options.renderDistance.tooltip.7=Ekstreemne nähtavuskaugus on väga ressursinõudlik!
+options.renderDistance.tooltip.8=Väärtused üle "16 kauge" toimivad ainult kohalikes maailmades.
+
+options.ao.tooltip.1=Sujuv valgustus
+options.ao.tooltip.2=  VÄLJAS - sujuv valgustus puudub (kiirem)
+options.ao.tooltip.3=  Minimaalne - lihtne sujuv valgustus (aeglasem)
+options.ao.tooltip.4=  Maksimaalne - keeruline sujuv valgustus (aeglaseim)
+
+options.framerateLimit.tooltip.1=Maksimaalne kaadrisagedus
+options.framerateLimit.tooltip.2=  VSync - piira kuvari kaadrisagedusele (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - muutuja
+options.framerateLimit.tooltip.4=  Piiramatu - piirang puudub (kiireim)
+options.framerateLimit.tooltip.5=Kaadrisageduse piirang alandab kaadrisagedust ka siis,
+options.framerateLimit.tooltip.6=kui piirväärtuseni pole jõutud.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Sujuv valgustustase
+of.options.AO_LEVEL.tooltip.1=Sujuv valgustustase
+of.options.AO_LEVEL.tooltip.2=  VÄLJAS - varjud puuduvad
+of.options.AO_LEVEL.tooltip.3=  50%% - heledad varjud
+of.options.AO_LEVEL.tooltip.4=  100%% - tumedad varjud
+
+options.viewBobbing.tooltip.1=Realistlikum liikumine.
+options.viewBobbing.tooltip.2=Mipmappimist kasutades lülita see VÄLJA parimate tulemuste saavutamiseks.
+
+options.guiScale.tooltip.1=Kasutajaliidese suurus
+options.guiScale.tooltip.2=Väiksem kasutajaliides võib olla kiirem
+
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Kasutab alternatiivset renderdusmudelit, mis on tavaliselt
+options.vbo.tooltip.3=vaikimisi renderdusest kiirem (5-10%%).
+
+options.gamma.tooltip.1=Muudab tumedamate objektide heledust
+options.gamma.tooltip.2=  Tujukas - standardne heledus
+options.gamma.tooltip.3=  1-99%% - muutuja
+options.gamma.tooltip.4=  Hele - maksimaalne heledus tumedamatele objektidele
+options.gamma.tooltip.5=See valik ei muuda täiesti mustade objektide heledust
+options.gamma.tooltip.6=
+
+options.anaglyph.tooltip.1=3D anaglüüf
+options.anaglyph.tooltip.2=Lubab stereoskoopilise 3D-efekti, kasutades erinevaid värve
+options.anaglyph.tooltip.3=eri silmadel.
+options.anaglyph.tooltip.4=Vajab punasiniseid prille korralikuks vaatamiseks.
+
+of.options.ALTERNATE_BLOCKS=Alternatiivsed plokid
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatiivsed plokid
+of.options.ALTERNATE_BLOCKS.tooltip.2=Kasutab alternatiivseid plokimudeleid teatud plokkidel.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Sõltub valitud ressursipakist.
+
+of.options.FOG_FANCY=Udu
+of.options.FOG_FANCY.tooltip.1=Udu tüüp
+of.options.FOG_FANCY.tooltip.2=  Kiire - kiirem udu
+of.options.FOG_FANCY.tooltip.3=  Uhke - aeglasem udu, näeb parem välja
+of.options.FOG_FANCY.tooltip.4=  VÄLJAS - udu puudub, kiireim
+of.options.FOG_FANCY.tooltip.5=Uhke udu on saadaval vaid siis, kui see on toetatud
+of.options.FOG_FANCY.tooltip.6=graafikakaardi poolt.
+
+of.options.FOG_START=Udu algus
+of.options.FOG_START.tooltip.1=Udu algus
+of.options.FOG_START.tooltip.2=  0.2 - udu algab mängija lähedalt
+of.options.FOG_START.tooltip.3=  0.8 - udu algab mängijast kaugel
+of.options.FOG_START.tooltip.4=See valik ei mõjuta tavaliselt jõudlust.
+
+of.options.CHUNK_LOADING=Kamakate laadimine
+of.options.CHUNK_LOADING.tooltip.1=Kamakate laadimine
+of.options.CHUNK_LOADING.tooltip.2=  Vaikimisi - ebastabiilne kaadrisagedus kamakate laadimisel
+of.options.CHUNK_LOADING.tooltip.3=  Sujuv - stabiilne kaadrisagedus
+of.options.CHUNK_LOADING.tooltip.4=  Mitme tuumaga - stabiilne kaadrisagedus, 3x kiirem maailma laadimine
+of.options.CHUNK_LOADING.tooltip.5=Sujuv ja mitme tuumaga eemaldavad kamakate laadimiselt
+of.options.CHUNK_LOADING.tooltip.6=hakkimise ja külmumise.
+of.options.CHUNK_LOADING.tooltip.7=Mitme tuuma režiim võib kiirendada maailma laadimist kuni 3x
+of.options.CHUNK_LOADING.tooltip.8=ja suurendada kaadrisagedust, kasutades teist protsessori tuuma.
+of.options.chunkLoading.smooth=sujuv
+of.options.chunkLoading.multiCore=mitme tuumaga
+
+of.options.shaders=Varjutajad...
+of.options.shadersTitle=Varjutajad
+
+of.options.shaders.packNone=VÄLJAS
+of.options.shaders.packvaikimisi=(sisemised)
+
+of.options.shaders.ANTIALIASING=Anti-aliasing
+of.options.shaders.NORMAL_MAP=Tavaline kaart
+of.options.shaders.SPECULAR_MAP=Peegelduv kaart
+of.options.shaders.RENDER_RES_MUL=Renderduskvaliteet
+of.options.shaders.SHADOW_RES_MUL=Varjukvaliteet
+of.options.shaders.HAND_DEPTH_MUL=Käesügavus
+of.options.shaders.CLOUD_SHADOW=Pilvevari
+of.options.shaders.OLD_HAND_LIGHT=Vana käevalgustus
+of.options.shaders.OLD_LIGHTING=Vana valgustus
+of.options.shaders.SHADER_PACK=Varjutajapakk
+
+of.options.shaders.shadersFolder=Varjutajate kaust
+of.options.shaders.shaderOptions=Varjutajate valikud...
+
+of.options.shaderOptionsTitle=Varjutajate valikud
+
+of.options.quality=Kvaliteet...
+of.options.qualityTitle=Kvaliteedi seaded
+
+of.options.details=Detailid...
+of.options.detailsTitle=Detailiseaded
+
+of.options.performance=Jõudlus...
+of.options.performanceTitle=Jõudluse seaded
+
+of.options.animations=Animatsioonid...
+of.options.animationsTitle=Animatiooniseaded
+
+of.options.other=Muu...
+of.options.otherTitle=Muud seaded
+
+of.options.other.reset=Lähtesta graafikaseaded...
+
+of.shaders.profile=Profiil
+
+# Quality
+
+of.options.mipmap.bilinear=bilineaarne
+of.options.mipmap.linear=lineaarne
+of.options.mipmap.nearest=lähim
+of.options.mipmap.trilinear=trilineaarne
+
+options.mipmapLevels.tooltip.1=Visuaalne efekt, mis muudab kauged objektid ilusamaks,
+options.mipmapLevels.tooltip.2=siludes tekstuuridetaile
+options.mipmapLevels.tooltip.3=  VÄLJAS - silumine puudub
+options.mipmapLevels.tooltip.4=  1 - minimaalne silumine
+options.mipmapLevels.tooltip.5=  4 - maksimaalne silumine
+options.mipmapLevels.tooltip.6=See valik ei mõjuta tavaliselt jõudlust.
+
+of.options.MIPMAP_TYPE=Mipmappimistüüp
+of.options.MIPMAP_TYPE.tooltip.1=Visuaalne efekt, mis muudab kauged objektid ilusamaks,
+of.options.MIPMAP_TYPE.tooltip.2=siludes tekstuuridetaile
+of.options.MIPMAP_TYPE.tooltip.3=  Lähim - jäme silumine (kiireim)
+of.options.MIPMAP_TYPE.tooltip.4=  Lineaarne - tavaline silumine
+of.options.MIPMAP_TYPE.tooltip.5=  Bilineaarne - peen silumine
+of.options.MIPMAP_TYPE.tooltip.6=  Trilineaarne - peeneim silumine (aeglaseim)
+
+
+of.options.AA_LEVEL=Anti-aliasing
+of.options.AA_LEVEL.tooltip.1=Anti-aliasing filter
+of.options.AA_LEVEL.tooltip.2= VÄLJAS - (vaikimisi) anti-aliasing puudub (kiirem)
+of.options.AA_LEVEL.tooltip.3= 2-16 - anti-aliasetud jooned ja servad (aeglasem)
+of.options.AA_LEVEL.tooltip.4=Anti-aliasing silub sakilisi jooni ja 
+of.options.AA_LEVEL.tooltip.5=teravaid värviüleminekuid.
+of.options.AA_LEVEL.tooltip.6=Lubamisel võib see oluliselt alandada kaadrisagedust.
+of.options.AA_LEVEL.tooltip.7=Kõik tasemed pole toetatud kõikidel graafikakaartidel.
+of.options.AA_LEVEL.tooltip.8=Jõustub pärast TAASKÄIVITUST!
+
+of.options.AF_LEVEL=Anisotroopiline filtr.
+of.options.AF_LEVEL.tooltip.1=Anisotroopiline filtreerimine
+of.options.AF_LEVEL.tooltip.2= VÄLJAS - (vaikimisi) standardsed tekstuuridetailid (kiirem)
+of.options.AF_LEVEL.tooltip.3= 2-16 - peenemad detailid mipmapitud tekstuurides (aeglasem)
+of.options.AF_LEVEL.tooltip.4=Anisotroopiline filtreerimine taastab detailid
+of.options.AF_LEVEL.tooltip.5=mipmapitud tekstuurides.
+of.options.AF_LEVEL.tooltip.6=Lubamisel võib see oluliselt alandada kaadrisagedust.
+
+of.options.CLEAR_WATER=Selge vesi
+of.options.CLEAR_WATER.tooltip.1=Selge vesi
+of.options.CLEAR_WATER.tooltip.2=  SEES - selge, läbipaistev vesi
+of.options.CLEAR_WATER.tooltip.3=  VÄLJAS - vaikimisi vesi
+
+of.options.RANDOM_MOBS=Juhuslikud elukad
+of.options.RANDOM_MOBS.tooltip.1=Juhuslikud elukad
+of.options.RANDOM_MOBS.tooltip.2=  VÄLJAS - juhuslikud elukad puuduvad, kiirem
+of.options.RANDOM_MOBS.tooltip.3=  SEES - juhuslikud elukad, aeglasem
+of.options.RANDOM_MOBS.tooltip.4=Juhuslikud elukad kasutab suvalisi tekstuure mängu olenditele.
+of.options.RANDOM_MOBS.tooltip.5=Vajab ressursipakki, millel on mitu elukatekstuuri.
+
+of.options.BETTER_GRASS=Parem muru
+of.options.BETTER_GRASS.tooltip.1=Parem muru
+of.options.BETTER_GRASS.tooltip.2=  VÄLJAS - vaikimisi muru küljetekstuur, kiireim
+of.options.BETTER_GRASS.tooltip.3=  Kiire - täielik muru küljetekstuur, aeglasem
+of.options.BETTER_GRASS.tooltip.4=  Uhke - dünaamiline muru küljetekstuur, aeglaseim
+
+of.options.BETTER_SNOW=Parem lumi
+of.options.BETTER_SNOW.tooltip.1=Parem lumi
+of.options.BETTER_SNOW.tooltip.2=  VÄLJAS - vaikimisi lumi, kiirem
+of.options.BETTER_SNOW.tooltip.3=  SEES - parem lumi, aeglasem
+of.options.BETTER_SNOW.tooltip.4=Näitab lund läbipaistvate plokkide all (aed, kõrge muru),
+of.options.BETTER_SNOW.tooltip.5=kui ääristada lumeplokkidega
+
+of.options.CUSTOM_FONTS=Kohandatud fondid
+of.options.CUSTOM_FONTS.tooltip.1=Kohandatud fondid
+of.options.CUSTOM_FONTS.tooltip.2=  SEES - kasutab kohandatud fonte (vaikimisi), aeglasem
+of.options.CUSTOM_FONTS.tooltip.3=  VÄLJAS - kasutab vaikimisi fonte, kiirem
+of.options.CUSTOM_FONTS.tooltip.4=Kohandatud fonte pakub kasutatav ressursipakk
+of.options.CUSTOM_FONTS.tooltip.5=
+
+of.options.CUSTOM_COLORS=Kohandatud värvid
+of.options.CUSTOM_COLORS.tooltip.1=Kohandatud värvid
+of.options.CUSTOM_COLORS.tooltip.2=  SEES - kasutab kohandatud värve (vaikimisi), aeglasem
+of.options.CUSTOM_COLORS.tooltip.3=  VÄLJAS - kasutab vaikimisi värve, kiirem
+of.options.CUSTOM_COLORS.tooltip.4=Kohandatud värve pakub kasutatav ressursipakk
+of.options.CUSTOM_COLORS.tooltip.5=
+
+of.options.SWAMP_COLORS=Soo värvid
+of.options.SWAMP_COLORS.tooltip.1=Soo värvid
+of.options.SWAMP_COLORS.tooltip.2=  SEES - kasuta soo värve (vaikimisi), aeglasem
+of.options.SWAMP_COLORS.tooltip.3=  VÄLJAS - ära kasuta soo värve, kiirem
+of.options.SWAMP_COLORS.tooltip.4=Soo värvid mõjutavad muru, lehti, vääte ja vett.
+
+of.options.SMOOTH_BIOMES=Sujuvad bioomid
+of.options.SMOOTH_BIOMES.tooltip.1=Sujuvad bioomid
+of.options.SMOOTH_BIOMES.tooltip.2=  SEES - bioomide äärte silumine (vaikimisi), aeglasem
+of.options.SMOOTH_BIOMES.tooltip.3=  VÄLJAS - bioomide äärte silumine puudub, kiirem
+of.options.SMOOTH_BIOMES.tooltip.4=Bioomide äärte silumine toimub kõikide ümbritsevate plokkide
+of.options.SMOOTH_BIOMES.tooltip.5=juhuslike värvide ja värvide keskmise leidmisega.
+of.options.SMOOTH_BIOMES.tooltip.6=Mõjutab muru, lehti, vääte ja vett.
+
+of.options.CONNECTED_TEXTURES=Ühendatud tekstuurid
+of.options.CONNECTED_TEXTURES.tooltip.1=Ühendatud tekstuurid
+of.options.CONNECTED_TEXTURES.tooltip.2=  VÄLJAS - ühendatud tekstuurid puuduvad (vaikimisi)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Kiire - kiired ühendatud tekstuurid
+of.options.CONNECTED_TEXTURES.tooltip.4=  Uhke - uhked ühendatud tekstuurid
+of.options.CONNECTED_TEXTURES.tooltip.5=Ühendatud tekstuurid ühendab klaasi, liivakivi
+of.options.CONNECTED_TEXTURES.tooltip.6=ja raamaturiiulid, kui need on asetatud kõrvuti.
+of.options.CONNECTED_TEXTURES.tooltip.7=Ühendatud tekstuure pakub kasutatav ressursipakk.
+of.options.CONNECTED_TEXTURES.tooltip.8=
+
+of.options.NATURAL_TEXTURES=Naturaalsed tekstuurid
+of.options.NATURAL_TEXTURES.tooltip.1=Naturaalsed tekstuurid
+of.options.NATURAL_TEXTURES.tooltip.2=  VÄLJAS - naturaalsed tekstuurid puuduvad (vaikimisi)
+of.options.NATURAL_TEXTURES.tooltip.3=  SEES - kasuta naturaalseid tekstuure
+of.options.NATURAL_TEXTURES.tooltip.4=Naturaalsed tekstuurid eemaldavad võretaolise mustri,
+of.options.NATURAL_TEXTURES.tooltip.5=mille loovad sama tüüpi korduvad plokid.
+of.options.NATURAL_TEXTURES.tooltip.6=See kasutab pööratud ja peegeldatud variante põhiploki
+of.options.NATURAL_TEXTURES.tooltip.7=tekstuurist. Naturaalsete tekstuuride konfiguratsiooni
+of.options.NATURAL_TEXTURES.tooltip.8=pakub kasutatav ressursipakk
+
+of.options.CUSTOM_SKY=Kohandatud taevas
+of.options.CUSTOM_SKY.tooltip.1=Kohandatud taevas
+of.options.CUSTOM_SKY.tooltip.2=  SEES - kohandatud taevatekstuurid (vaikimisi), aeglane
+of.options.CUSTOM_SKY.tooltip.3=  VÄLJAS - vaikimisi taevas, kiirem
+of.options.CUSTOM_SKY.tooltip.4=Kohandatud taevatekstuure pakub kasutatav ressursipakk.
+of.options.CUSTOM_SKY.tooltip.5=
+
+of.options.CUSTOM_ITEMS=Kohandatud esemed
+of.options.CUSTOM_ITEMS.tooltip.1=Kohandatud esemed
+of.options.CUSTOM_ITEMS.tooltip.2=  SEES - kohandatud esemetekstuurid (vaikimisi), aeglane
+of.options.CUSTOM_ITEMS.tooltip.3=  VÄLJAS - vaikimisi esemetekstuurid, kiirem
+of.options.CUSTOM_ITEMS.tooltip.4=Kohandatud esemetekstuure pakub kasutatav ressursipakk.
+of.options.CUSTOM_ITEMS.tooltip.5=
+
+# Details
+
+of.options.CLOUDS=Pilved
+of.options.CLOUDS.tooltip.1=Pilved
+of.options.CLOUDS.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
+of.options.CLOUDS.tooltip.3=  Kiire - madalam kvaliteet, kiirem
+of.options.CLOUDS.tooltip.4=  Uhke - kõrgem kvaliteet, aeglasem
+of.options.CLOUDS.tooltip.5=  VÄLJAS - pilved puuduvad, kiireim
+of.options.CLOUDS.tooltip.6=Kiired pilved renderdatakse 2D.
+of.options.CLOUDS.tooltip.7=Uhked pilved renderdatakse 3D.
+
+of.options.CLOUD_HEIGHT=Pilvekõrgus
+of.options.CLOUD_HEIGHT.tooltip.1=Pilvekõrgus
+of.options.CLOUD_HEIGHT.tooltip.2=  VÄLJAS - vaikimisi kõrgus
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - maailma kõrguspiirangust kõrgemal
+
+of.options.TREES=Puud
+of.options.TREES.tooltip.1=Puud
+of.options.TREES.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
+of.options.TREES.tooltip.3=  Kiire - madalam kvaliteet, kiirem
+of.options.TREES.tooltip.4=  Tark - kõrgem kvaliteet, kiire
+of.options.TREES.tooltip.5=  Uhke - kõrgeim kvaliteet, aeglasem
+of.options.TREES.tooltip.6=Kiiretel puudel on läbipaistmatud lehed.
+of.options.TREES.tooltip.7=Uhketel ja tarkadel puudel on läbipaistvad lehed.
+
+of.options.RAIN=Vihm ja lumi
+of.options.RAIN.tooltip.1=Vihm ja lumi
+of.options.RAIN.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
+of.options.RAIN.tooltip.3=  Kiire  - kerge vihm/lumi, kiirem
+of.options.RAIN.tooltip.4=  Uhke - tugev vihm/lumi, aeglasem
+of.options.RAIN.tooltip.5=  VÄLJAS - vihm/lumi puuduvad, kiireim
+of.options.RAIN.tooltip.6=Kui vihm on VÄLJAS, on siiski vihma helid ja plärtsatused aktiivsed.
+of.options.RAIN.tooltip.7=
+
+of.options.SKY=Taevas
+of.options.SKY.tooltip.1=Taevas
+of.options.SKY.tooltip.2=  SEES - taevas on nähtav, aeglasem
+of.options.SKY.tooltip.3=  VÄLJAS  - taevas pole nähtav, kiirem
+of.options.SKY.tooltip.4=Kui taevas on VÄLJAS, on kuu ja päike siiski nähtavad.
+
+of.options.STARS=Tähed
+of.options.STARS.tooltip.1=Tähed
+of.options.STARS.tooltip.2=  SEES - tähed on nähtavad, aeglasem
+of.options.STARS.tooltip.3=  VÄLJAS  - tähed pole nähtavad, kiirem
+
+of.options.SUN_MOON=Päike ja kuu
+of.options.SUN_MOON.tooltip.1=Päike ja kuu
+of.options.SUN_MOON.tooltip.2=  SEES - päike ja kuu on nähtavad (vaikimisi)
+of.options.SUN_MOON.tooltip.3=  VÄLJAS  - päike ja kuu pole nähtavad (kiirem)
+
+of.options.SHOW_CAPES=Keebid
+of.options.SHOW_CAPES.tooltip.1=Keebid
+of.options.SHOW_CAPES.tooltip.2=  SEES - kuva mängijate keebid (vaikimisi)
+of.options.SHOW_CAPES.tooltip.3=  VÄLJAS - ära kuva mängijate keepe
+
+of.options.TRANSLUCENT_BLOCKS=Läbikumavad plokid
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Läbikumavad plokid
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Uhke - korrektne värvide üleminek (vaikimisi)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Kiire - kiire värvide üleminek (kiirem)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Juhib erinevate värvidega poolläbipaistvate plokkide
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=(värvitud klaas, vesi, jää) värvide üleminekut,
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=kui need on asetatud õhuvahega üksteise taha.
+
+of.options.HELD_ITEM_TOOLTIPS=Esemete näpunäited
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Käeshoitavate esemete näpunäited
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  SEES - kuva näpunäiteid käeshoitavatel esemetel (vaikimisi)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  VÄLJAS - ära kuva näpunäiteid käeshoitavatel esemetel
+
+of.options.DROPPED_ITEMS=Visatud esemed
+of.options.DROPPED_ITEMS.tooltip.1=Maha visatud esemed
+of.options.DROPPED_ITEMS.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
+of.options.DROPPED_ITEMS.tooltip.3=  Kiire - 2D visatud esemed, kiirem
+of.options.DROPPED_ITEMS.tooltip.4=  Uhke - 3D visatud esemed, aeglasem
+
+options.entityShadows.tooltip.1=Olemite varjud
+options.entityShadows.tooltip.2=  SEES - kuva olemite varje
+options.entityShadows.tooltip.3=  VÄLJAS - ära kuva olemite varje
+
+of.options.VIGNETTE=Vinjett
+of.options.VIGNETTE.tooltip.1=Visuaalne efekt, mis kergelt tumendab ekraani nurki
+of.options.VIGNETTE.tooltip.2=  Vaikimisi - as set by the setting Graphics (vaikimisi)
+of.options.VIGNETTE.tooltip.3=  Kiire - vinjett keelatud (kiirem)
+of.options.VIGNETTE.tooltip.4=  Uhke - vinjett lubatud (aeglasem)
+of.options.VIGNETTE.tooltip.5=Vinjett võib oluliselt mõjutada kaadrisagedust, eriti kui mängida täisekraanil.
+of.options.VIGNETTE.tooltip.6=Vinjetiefekt on vaevu hoomatav, seda võib ohutult keelata
+of.options.VIGNETTE.tooltip.7=
+of.options.VIGNETTE.tooltip.8=
+
+of.options.DYNAMIC_FOV=Dünaamiline vaateväli
+of.options.DYNAMIC_FOV.tooltip.1=Dünaamiline vaateväli
+of.options.DYNAMIC_FOV.tooltip.2=  SEES - luba dünaamiline vaateväli (vaikimisi)
+of.options.DYNAMIC_FOV.tooltip.3=  VÄLJAS - keela dünaamiline vaateväli
+of.options.DYNAMIC_FOV.tooltip.4=Muudab vaatevälja lennates, joostes või vibu tõmmates.
+of.options.DYNAMIC_FOV.tooltip.5=
+
+of.options.DYNAMIC_LIGHTS=Dünaamiline valgustus
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dünaamiline valgustus
+of.options.DYNAMIC_LIGHTS.tooltip.2=  VÄLJAS - dünaamiline valgustus puudub (vaikimisi)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Kiire - kiire dünaamiline valgustus (uuendatud iga 500ms järel)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Uhke - uhke dünaamiline valgustus (uuendatud reaalajas)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Lubab valgust kiirgavatel esemetel (tõrvik, hõõgkivi jne)
+of.options.DYNAMIC_LIGHTS.tooltip.6=käes hoides või maha visates valgustada ümbritsevat ala
+of.options.DYNAMIC_LIGHTS.tooltip.7=
+
+# Performance
+
+of.options.SMOOTH_FPS=Sujuv kaadrisagedus
+of.options.SMOOTH_FPS.tooltip.1=Stabiliseerib kaadrisagedust, tühjendades graafikadraiveri puhvrit
+of.options.SMOOTH_FPS.tooltip.2=  VÄLJAS - stabiliseerimine puudub, kaadrisagedus võib kõikuda
+of.options.SMOOTH_FPS.tooltip.3=  SEES - kaadrisageduse stabiliseerimine
+of.options.SMOOTH_FPS.tooltip.4=See valik sõltub graafikadraiveritest ning selle efekt ei pruugi
+of.options.SMOOTH_FPS.tooltip.5=alati nähtav olla
+
+of.options.SMOOTH_WORLD=Sujuv maailm
+of.options.SMOOTH_WORLD.tooltip.1=Eemaldab sisemise serveri poolt põhjustatud "latentsusokkaid".
+of.options.SMOOTH_WORLD.tooltip.2=  VÄLJAS - stabiliseerimine puudub, kaadrisagedus võib kõikuda
+of.options.SMOOTH_WORLD.tooltip.3=  SEES - kaadrisageduse stabiliseerimine
+of.options.SMOOTH_WORLD.tooltip.4=Stabiliseerib kaadrisagedust, jaotades sisemise serveri koormust.
+of.options.SMOOTH_WORLD.tooltip.5=Toimib ainult kohalikes maailmades (üksikmäng).
+
+of.options.FAST_RENDER=Kiire renderdus
+of.options.FAST_RENDER.tooltip.1=Kiire renderdus
+of.options.FAST_RENDER.tooltip.2= VÄLJAS - standardme renderdus (vaikimisi)
+of.options.FAST_RENDER.tooltip.3= SEES - optimiseeritud renderdus (kiirem)
+of.options.FAST_RENDER.tooltip.4=Kasutab optimiseeritud renderduse algoritmi, mis vähendab
+of.options.FAST_RENDER.tooltip.5=graafikaprotsessori koormust ja võib oluliselt tõsta kaadrisagedust.
+
+of.options.FAST_MATH=Kiire matemaatika
+of.options.FAST_MATH.tooltip.1=Kiire matemaatika
+of.options.FAST_MATH.tooltip.2= VÄLJAS - standardne matemaatika (vaikimisi)
+of.options.FAST_MATH.tooltip.3= SEES - kiirem matemaatika
+of.options.FAST_MATH.tooltip.4=Kasutab optimiseeritud sin() ja cos() funktsioone, mis võivad
+of.options.FAST_MATH.tooltip.5=paremini rakendada protsessori vahemälu ja tõsta kaadrisagedust.
+
+of.options.CHUNK_UPDATES=Kamakauuendused
+of.options.CHUNK_UPDATES.tooltip.1=Kamakate uuendused
+of.options.CHUNK_UPDATES.tooltip.2= 1 - aeglasem maailma laadimine, kõrgem kaadrisagedus (vaikimisi)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - kiirem maailma laadimine, madalam kaadrisagedus
+of.options.CHUNK_UPDATES.tooltip.4= 5 - kiireim maailma laadimine, madalaim kaadrisagedus
+of.options.CHUNK_UPDATES.tooltip.5=Kamakate uuenduste arv renderdatud kaadri kohta,
+of.options.CHUNK_UPDATES.tooltip.6=kõrgemad väärtused võivad kaadrisagedust destabiliseerida.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Dünaamilised uuendused
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dünaamilised kamakauuendused
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VÄLJAS - (vaikimisi) standardsed kamakauuendused kaadri kohta
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= SEES - rohkem uuendusi, kuni mängija seisab paigal
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dünaamilised uuendused sunnivad rohkem kamakauuendusi,
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=kuni mängija seisab paigal, et laadida maailma kiiremini.
+
+of.options.LAZY_CHUNK_LOADING=Laisk kamakalaadimine
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Laisk kamakate laadimine
+of.options.LAZY_CHUNK_LOADING.tooltip.2= VÄLJAS - vaikimisi serveri kamakalaadimine
+of.options.LAZY_CHUNK_LOADING.tooltip.3= SEES - laisk serveri kamakalaadimine (sujuvam)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Silub integreeritud serveri kamaklaadimist, jaotades
+of.options.LAZY_CHUNK_LOADING.tooltip.5=kamakaid mitmete tick'ide vahel.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Lülita VÄLJA, kui osa maailmast ei laadi korralikult.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades ühetuumalise protsessoriga.
+
+# Animations
+
+of.options.animation.allOn=Kõik SISSE
+of.options.animation.allVÄLJAS=Kõik VÄLJA
+of.options.animation.dynamic=Dünaamiline
+
+of.options.ANIMATED_WATER=Veeanimatsioon
+of.options.ANIMATED_LAVA=Laavaanimatsioon
+of.options.ANIMATED_FIRE=Tuleanimatsioon
+of.options.ANIMATED_PORTAL=Portaalianimatsioon
+of.options.ANIMATED_REDSTONE=Redstone-animatsioon
+of.options.ANIMATED_EXPLOSION=Plahvatuse animatsioon
+of.options.ANIMATED_FLAME=Leegi animatsioon
+of.options.ANIMATED_SMOKE=Suitsuanimatsioon
+of.options.VOID_PARTICLES=Tühjuse osakesed
+of.options.WATER_PARTICLES=Veeosakesed
+of.options.RAIN_SPLASH=Vihmaplärtsatused
+of.options.PORTAL_PARTICLES=Portaaliosakesed
+of.options.POTION_PARTICLES=Võlujoogiosakesed
+of.options.DRIPPING_WATER_LAVA=Tilkuv vesi/laava
+of.options.ANIMATED_TERRAIN=Maastikkuanimatsioon
+of.options.ANIMATED_TEXTURES=Tekstuurianimatsioon
+of.options.FIREWORK_PARTICLES=Ilutulestiku osakesed
+
+# Other
+
+of.options.LAGOMETER=Latentsusmõõdik
+of.options.LAGOMETER.tooltip.1=Kuvab latentsusmõõdikut silumisvaatel (F3).
+of.options.LAGOMETER.tooltip.2=* Oranž - Mälu prahikogumine
+of.options.LAGOMETER.tooltip.3=* Tsüaansinine - Tick'id
+of.options.LAGOMETER.tooltip.4=* Sinine - Ajastatud käivitatavad
+of.options.LAGOMETER.tooltip.5=* Lilla - Kamaka üleslaadimine
+of.options.LAGOMETER.tooltip.6=* Punane - Kamakauuendused
+of.options.LAGOMETER.tooltip.7=* Kollane - Nähtavuskontroll
+of.options.LAGOMETER.tooltip.8=* Roheline - Maastikku renderdus
+
+of.options.PROFILER=Silumisprofiilija
+of.options.PROFILER.tooltip.1=Silumisprofiilija
+of.options.PROFILER.tooltip.2=  SEES - silumisprofiilija on aktiivne, aeglasem
+of.options.PROFILER.tooltip.3=  VÄLJAS - silumisprofiilija pole aktiivne, kiirem
+of.options.PROFILER.tooltip.4=Silumisprofiilija kogub ja kuvab silumisinfot, kui
+of.options.PROFILER.tooltip.5=silumisvaade on avatud (F3)
+
+of.options.WEATHER=Ilm
+of.options.WEATHER.tooltip.1=Ilm
+of.options.WEATHER.tooltip.2=  SEES - ilm on aktiivne, aeglasem
+of.options.WEATHER.tooltip.3=  VÄLJAS - ilm pole aktiivne, kiirem
+of.options.WEATHER.tooltip.4=Ilm juhib vihma, lund ja äikest.
+of.options.WEATHER.tooltip.5=Ilma juhtimine on võimalik ainult kohalikes maailmades.
+
+of.options.time.dayOnly=ainult päev
+of.options.time.nightOnly=ainult öö
+
+of.options.TIME=Aeg
+of.options.TIME.tooltip.1=Aeg
+of.options.TIME.tooltip.2= Vaikimisi - tavaline ööpäevatsükkel
+of.options.TIME.tooltip.3= Ainult päev - ainult päev
+of.options.TIME.tooltip.4= Ainult öö - ainult öö
+of.options.TIME.tooltip.5=Aja seadistus töötab ainult kohalikes maailmades LOOMINGUrežiimis.
+of.options.TIME.tooltip.6=
+
+options.fullscreen.tooltip.1=Täisekraan
+options.fullscreen.tooltip.2=  SEES - kasuta täisekraanirežiimi
+options.fullscreen.tooltip.3=  VÄLJAS - kasuta aknarežiimi
+options.fullscreen.tooltip.4=Täisekraanirežiim võib olla kiirem või aeglasem
+options.fullscreen.tooltip.5=aknarežiimist, olenevalt graafikakaardist.
+
+of.options.FULLSCREEN_MODE=Täisekraanirežiim
+of.options.FULLSCREEN_MODE.tooltip.1=Täisekraanirežiim
+of.options.FULLSCREEN_MODE.tooltip.2=  Vaikimisi - kasuta töölaua ekraaniresolutsiooni, aeglasem
+of.options.FULLSCREEN_MODE.tooltip.3=  L x K - kasuta kohandatud ekraaniresolutsiooni, võib olla kiirem
+of.options.FULLSCREEN_MODE.tooltip.4=Valitud resolutsiooni kasutatakse täisekraanirežiimis (F11).
+of.options.FULLSCREEN_MODE.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt olema kiiremad.
+
+of.options.SHOW_FPS=Kuva kaardisagedust
+of.options.SHOW_FPS.tooltip.1=Kuvab kompaktse kaadrisageduse ja renderduse infot
+of.options.SHOW_FPS.tooltip.2=  C: - kamaka renderdajaid
+of.options.SHOW_FPS.tooltip.3=  E: - renderdatud olemeid + plokiolemeid
+of.options.SHOW_FPS.tooltip.4=  U: - kamakauuendusi
+of.options.SHOW_FPS.tooltip.5=Kompaktset kaadrisageduse infot kuvatakse vaid siis,
+of.options.SHOW_FPS.tooltip.6=kui silumisvaade pole nähtav.
+
+of.options.save.vaikimisi=Vaikimisi (2s)
+of.options.save.20s=20 s
+of.options.save.3min=3 min
+of.options.save.30min=30 min
+
+of.options.AUTOSAVE_TICKS=Automaatne salvestus
+of.options.AUTOSAVE_TICKS.tooltip.1=Automaatse salvestuse intervall
+of.options.AUTOSAVE_TICKS.tooltip.2=Vaikimisi automaatse salvestuse intervall (2s) POLE SOOVITATAV.
+of.options.AUTOSAVE_TICKS.tooltip.3=Automaatne salvestus põhjustab kurikuulsa "surmava latentsusokka".
+
+options.anaglyph.tooltip.1=3D režiimi kasutatakse punasiniste 3D-prillidega.
