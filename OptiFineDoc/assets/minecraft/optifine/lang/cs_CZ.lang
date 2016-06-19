@@ -44,17 +44,17 @@ options.graphics.tooltip.3=  Pěkná - vyšší kvalita, pomalejší
 options.graphics.tooltip.4=Mění vzhled mraků, listí, vody,
 options.graphics.tooltip.5=stínů a stran trávníků.
 
-of.options.renderDistance.tiny=Maličká
-of.options.renderDistance.short=Malá
+of.options.renderDistance.tiny=Maličký
+of.options.renderDistance.short=Malý
 of.options.renderDistance.normal=Normální
-of.options.renderDistance.far=Velká
+of.options.renderDistance.far=Velký
 of.options.renderDistance.extreme=Extrémní
 
-options.renderDistance.tooltip.1=Viditelná vzdálenost
-options.renderDistance.tooltip.2=  2 Maličká - 32m (nejrychlejší)
-options.renderDistance.tooltip.3=  4 Malá - 64m (rychlejší)
+options.renderDistance.tooltip.1=Dohled
+options.renderDistance.tooltip.2=  2 Maličký - 32m (nejrychlejší)
+options.renderDistance.tooltip.3=  4 Malý - 64m (rychlejší)
 options.renderDistance.tooltip.4=  8 Normální - 128m
-options.renderDistance.tooltip.5=  16 Velká - 256m (pomalejší)
+options.renderDistance.tooltip.5=  16 Velký - 256m (pomalejší)
 options.renderDistance.tooltip.6=  32 Extrémní - 512m (nejpomalejší!)
 options.renderDistance.tooltip.7=Extrémní Viditelná vzdálenost je velmi výkonově náročná!
 options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální světy.
@@ -91,7 +91,7 @@ options.vbo.tooltip.3=rychlejší (5-10%%) oproti výchozímu renderování.
 options.gamma.tooltip.1=Zvýší jas tmavých objektů
 options.gamma.tooltip.2=  Tmavý - standardní jas
 options.gamma.tooltip.3=  1-99%% - nastavitelné
-options.gamma.tooltip.4=  Světlé - maximální jas tmavých objektů
+options.gamma.tooltip.4=  Jasný - maximální jas tmavých objektů
 options.gamma.tooltip.5=Tato možnost nezmění jas
 options.gamma.tooltip.6=úplně tmavých objektů.
 
