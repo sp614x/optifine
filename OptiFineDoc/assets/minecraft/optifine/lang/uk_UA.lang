@@ -101,9 +101,9 @@ options.anaglyph.tooltip.2=Вмикає стереоскопічний 3D ефе
 options.anaglyph.tooltip.3=для кожного ока.
 options.anaglyph.tooltip.4=Потребує червоно-сині окуляри для перегляду.
 
-options.blockAlternatives.tooltip.1=Альтернативні блоки
-options.blockAlternatives.tooltip.2=Використовує альтернативні моделі для деяких блоків.
-options.blockAlternatives.tooltip.3=Базується на обраному ресурспаці.
+of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативні блоки
+of.options.ALTERNATE_BLOCKS.tooltip.2=Використовує альтернативні моделі для деяких блоків.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Базується на обраному ресурспаці.
 
 of.options.FOG_FANCY=Туман
 of.options.FOG_FANCY.tooltip.1=Тип туману
@@ -400,9 +400,9 @@ of.options.DYNAMIC_LIGHTS.tooltip.1=Динамічне освітлення
 of.options.DYNAMIC_LIGHTS.tooltip.2=  Вимк - без динамічного освітлення (базово)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  Швидка - швидке динамічне освітлення (оновлення кожні 500мс)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Красива - красиве динамічне освітлення (оновлення в реальному часу)
-of.options.DYNAMIC_LIGHTS.tooltip.5=Дозволяє випромінювати світло речам (факел, гловстоун, т.д.)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Дозволяє випромінювати світло речам (факел, світлокамінь, т.д.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=щоб освітлювати все навкруги, коли знаходяться в руці,
-of.options.DYNAMIC_LIGHTS.tooltip.7=вдягнуті іншим гравцем або викинуті на землю
+of.options.DYNAMIC_LIGHTS.tooltip.7=вдягнуті іншим гравцем або викинуті на землю.
 
 # Performance
 
