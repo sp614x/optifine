@@ -534,8 +534,8 @@ of.options.FULLSCREEN_MODE.tooltip.3=  L x K - kasuta kohandatud ekraaniresoluts
 of.options.FULLSCREEN_MODE.tooltip.4=Valitud resolutsiooni kasutatakse täisekraanirežiimis (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt olema kiiremad.
 
-of.options.SHOW_FPS=Kuva kaardisagedust
-of.options.SHOW_FPS.tooltip.1=Kuvab kompaktse kaadrisageduse ja renderduse infot
+of.options.SHOW_FPS=Kaadrisageduse kuva
+of.options.SHOW_FPS.tooltip.1=Kuvab kompaktselt kaadrisageduse ja renderduse infot
 of.options.SHOW_FPS.tooltip.2=  C: - kamaka renderdajaid
 of.options.SHOW_FPS.tooltip.3=  E: - renderdatud olemeid + plokiolemeid
 of.options.SHOW_FPS.tooltip.4=  U: - kamakauuendusi
