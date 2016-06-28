@@ -333,6 +333,11 @@ Texture Formats
  RG32UI
  RGB32UI
  RGBA32UI
+8. Mixed
+ R3_G3_B2
+ RGB5_A1
+ RGB10_A2
+ R11F_G11F_B10F
 
  References
  ==========
