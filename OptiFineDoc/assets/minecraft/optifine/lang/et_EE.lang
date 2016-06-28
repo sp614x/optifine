@@ -19,6 +19,9 @@ of.message.af.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 of.message.fr.shaders1=Kiire renderdus ei ühildu varjutajatega.
 of.message.fr.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 
+of.message.an.shaders1=3D anaglüüf ei ühildu varjutajatega.
+of.message.an.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+
 of.message.shaders.aa1=Varjutajad ei ühildu anti-aliasing'uga. 
 of.message.shaders.aa2=Palun lülita Kvaliteet -> Anti-aliasing VÄLJA ja taaskäivita mäng.
 
@@ -27,6 +30,9 @@ of.message.shaders.af2=Palun lülita Kvaliteet -> Anisotroopiline filtr. VÄLJA.
 
 of.message.shaders.fr1=Varjutajad ei ühildu kiire renderdusega.
 of.message.shaders.fr2=Palun lülita Jõudlus -> Kiire renderdus VÄLJA.
+
+of.message.shaders.an1=Varjutajad ei ühildu 3D anaglüüfiga.
+of.message.shaders.an2=Palun lülita Muu -> 3D anaglüüf VÄLJA.
 
 of.message.newVersion=Uus §eOptiFine§f'i versioon on saadaval: §e%s§f
 of.message.java64Bit=Sa võid jõudluse parandamiseks installida §e64-bitise Java§f
