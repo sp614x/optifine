@@ -19,6 +19,9 @@ of.message.af.shaders2=Please disable Shaders to enable this option.
 of.message.fr.shaders1=Fast Render is not compatible with Shaders.
 of.message.fr.shaders2=Please disable Shaders to enable this option.
 
+of.message.an.shaders1=3D Anaglyph is not compatible with Shaders.
+of.message.an.shaders2=Please disable Shaders to enable this option.
+
 of.message.shaders.aa1=Shaders are not compatible with Antialiasing. 
 of.message.shaders.aa2=Please set Quality -> Antialiasing to OFF and restart the game.
 
@@ -27,6 +30,9 @@ of.message.shaders.af2=Please set Quality -> Anisotropic Filtering to OFF.
 
 of.message.shaders.fr1=Shaders are not compatible with Fast Render.
 of.message.shaders.fr2=Please set Performance -> Fast Render to OFF.
+
+of.message.shaders.an1=Shaders are not compatible with 3D Anaglyph.
+of.message.shaders.an2=Please set Other -> 3D Anaglyph to OFF.
 
 of.message.newVersion=A new §eOptiFine§f version is available: §e%s§f
 of.message.java64Bit=You can install §e64-bit Java§f to increase performance
