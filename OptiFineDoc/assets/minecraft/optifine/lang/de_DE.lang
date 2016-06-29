@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-5-18
-#   TheHADILP 2016-5-20 ---- 2016-6-11
+#   TheHADILP 2016-5-20 ---- 2016-6-28
 
 # General
 of.general.ambiguous=Unklar
@@ -25,6 +25,9 @@ of.message.af.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu
 of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
 of.message.fr.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
 
+of.message.an.shaders1=3D-Effekt ist nicht mit Shader-Effekten kompatibel.
+of.message.an.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+
 of.message.shaders.aa1=Antialiasing ist nicht mit Shader-Effekten kompatibel. 
 of.message.shaders.aa2=Bitte deaktiviere Qualität -> Antialiasing und starte das Spiel neu.
 
@@ -33,6 +36,9 @@ of.message.shaders.af2=Bitte deaktiviere Qualität -> Anistropische Filterung.
 
 of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
 of.message.shaders.fr2=Bitte deaktiviere Leistung -> Schnelles Rendern.
+
+of.message.shaders.an1=Shader-Effekte sind nicht mit dem 3D-Effekt kompatibel.
+of.message.shaders.an2=Bitte deaktiviere Sonstiges -> 3D-Effekt.
 
 of.message.newVersion=Eine neue Version von §eOptiFine§f ist verfügbar: §e%s§f
 of.message.java64Bit=Du kannst die §e64-bit-Version von Java§f installieren, um die Leistung zu verbessern
