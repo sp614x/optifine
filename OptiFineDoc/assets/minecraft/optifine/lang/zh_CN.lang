@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-6-14
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-6-29
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-1-19
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -26,6 +26,9 @@ of.message.af.shaders2=请关闭光影来启用这个选项。
 of.message.fr.shaders1=快速渲染与光影不兼容。
 of.message.fr.shaders2=请关闭光影来启用这个选项。
 
+of.message.an.shaders1=3D立体与光影不兼容。
+of.message.an.shaders2=请关闭光影来启用这个选项。
+
 of.message.shaders.aa1=光影与抗锯齿不兼容。
 of.message.shaders.aa2=请把 品质 -> 抗锯齿 选项设置为 关 并重启您的游戏。
 
@@ -34,6 +37,9 @@ of.message.shaders.af2=请把 品质 -> 各向异性过滤 选项设置为 关�
 
 of.message.shaders.fr1=光影与快速渲染不兼容。
 of.message.shaders.fr2=请把 性能 -> 快速渲染 选项设置为 关。
+
+of.message.shaders.an1=光影与3D立体不兼容。
+of.message.shaders.an2=请把 其他 -> 3D立体 选项设置为 关。
 
 of.message.newVersion=新的§eOptiFine§f版本现已可用：§e%s§f
 of.message.java64Bit=您可以安装§e64位Java§f来提升性能
