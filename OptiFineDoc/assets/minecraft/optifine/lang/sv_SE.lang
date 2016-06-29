@@ -22,6 +22,9 @@ of.message.af.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
 of.message.fr.shaders1=Snabb rendering är inte kompatibel med Shaders.
 of.message.fr.shaders1=Inaktivera Shaders för att aktivera detta alternativ.
 
+of.message.an.shaders1=3D-effekt är inte kompatibel med Shaders.
+of.message.an.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
+
 of.message.shaders.aa1=Shaders är inte kompatibla med Kantutjämning.
 of.message.shaders.aa2=Ändra "Kvalitet -> Kantutjämning" till AV och starta om spelet.
 
@@ -30,6 +33,9 @@ of.message.shaders.af2=Ändra "Kvalitet -> Anisotropisk filtrering" till AV.
 
 of.message.shaders.fr1=Shaders är inte kompatibla med Snabb rendering.
 of.message.shaders.fr2=Ändra "Prestanda -> Snabb rendering" till AV.
+
+of.message.shaders.an1=Shaders är inte kompatibla med 3D-effekt.
+of.message.shaders.an2=Ändra "Övrigt -> 3D-effekt" till AV.
 
 of.message.newVersion=En ny version av §eOptiFine§f finns tillgänglig: §e%s§f
 of.message.java64Bit=Du kan installera §e64-bitarsversionen av Java§f för att förbättra prestandan
