@@ -17,6 +17,9 @@ of.message.aa.shaders2=Будь ласка, відключіть шейдери 
 of.message.af.shaders1=Анізотропна фільтрація не сумісне з шейдерами.
 of.message.af.shaders2=Будь ласка, відключіть шейдери щоб увімкнути цю функцію.
 
+of.message.an.shaders1=3D ефект не сумісний з шейдерами.
+of.message.an.shaders2=Вимкніть шейдери щоб увімкнути цю функцію.
+
 of.message.fr.shaders1=Швидкий рендер не сумісний з шейдерами.
 of.message.fr.shaders2=Будь ласка, вимкнуть шейдери щоб увімкнути цю функцію.
 
@@ -29,6 +32,9 @@ of.message.shaders.af2=Будь ласка, встановіть Якість ->
 of.message.shaders.fr1=Шейдери не сумісні з швидким рендером.
 of.message.shaders.fr2=Будь ласка, встановіть Продуктивність -> Швидкий рендер на Вимк і перезапустіть гру.
 
+of.message.shaders.an1=Шейдери не сумісні з 3D анагліфом.
+of.message.shaders.an2=Будь-ласка, встановіть Інші -> 3D ефект на Вимк.
+ 
 of.message.newVersion=Нова версія §eOptiFine§f доступна: §e%s§f
 of.message.java64Bit=Встанови §e64-bit Java§f щоб покращити продуктивність
 of.message.openglError=§eOpenGL Error§f: %s (%s)
