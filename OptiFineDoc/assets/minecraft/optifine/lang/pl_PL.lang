@@ -19,6 +19,9 @@ of.message.af.shaders2=Proszę, wyłącz Shadery, aby używać tej opcji.
 of.message.fr.shaders1=Szybkie renderowanie nie jest kompatybilne z Shaderami.
 of.message.fr.shaders2=Proszę, wyłącz Shadery, aby używać tej opcji.
 
+of.message.an.shaders1=Anaglifowe 3D nie jest kompatybilne z Shaderami.
+of.message.an.shaders2=Proszę, wyłącz Shadery, aby używać tej opcji.
+
 of.message.shaders.aa1=Shadery nie są kompatybilne z antyaliasingiem. 
 of.message.shaders.aa2=Proszę, wyłącz opcję Jakość -> Antyaliasing, a następnie zrestartuj grę.
 
@@ -27,6 +30,9 @@ of.message.shaders.af2=Proszę, wyłącz opcję Jakość -> Filtrowanie anizotro
 
 of.message.shaders.fr1=Shadery nie są kompatybilne z szybkim renderowaniem.
 of.message.shaders.fr2=Proszę, wyłącz opcję Wydajność -> Szybkie renderowanie.
+
+of.message.shaders.an1=Shadery nie są kompatybilne z anaglifowym 3D.
+of.message.shaders.an2=Proszę, wyłącz opcję Inne -> Anaglifowe 3D.
 
 of.message.newVersion=Nowa wersja §eOptiFine§f jest dostępna: §e%s§f
 of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowego środowiska Java§f, aby podwyższyć wydajność.
@@ -100,9 +106,10 @@ options.anaglyph.tooltip.2=Włącza stereoskopowy efekt 3D używając różnych 
 options.anaglyph.tooltip.3=dla każdego oka.
 options.anaglyph.tooltip.4=Wymaga czerwono-niebieskich okularów.
 
-options.blockAlternatives.tooltip.1=Alternatywne bloki
-options.blockAlternatives.tooltip.2=Używa alternatywnych modeli dla niektóych bloków.
-options.blockAlternatives.tooltip.3=Bazowane na wybranyej paczce tekstur.
+of.options.ALTERNATE_BLOCKS=Alternatywne bloki
+of.options.blockAlternatives.tooltip.1=Alternatywne bloki
+of.options.blockAlternatives.tooltip.2=Używa alternatywnych modeli dla niektóych bloków.
+of.options.blockAlternatives.tooltip.3=Bazowane na wybranyej paczce tekstur.
 
 of.options.FOG_FANCY=Mgła
 of.options.FOG_FANCY.tooltip.1=Typ mgły
@@ -396,11 +403,12 @@ of.options.DYNAMIC_FOV.tooltip.5=sprintujesz lub naciągasz łuk.
 
 of.options.DYNAMIC_LIGHTS=Dynamiczne światło
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiczne światło
-of.options.DYNAMIC_LIGHTS.tooltip.2=  Wł. - funkcja dynamicznego światła włączona
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Wył. - funkcja dynamicznego światła wyłączona (domyślne)
-of.options.DYNAMIC_LIGHTS.tooltip.4=Przedmioty świecące (pochodnia, jasnopył, itp.)
-of.options.DYNAMIC_LIGHTS.tooltip.5=oświetlają teren, gdy są w Twojej dłoni,
-of.options.DYNAMIC_LIGHTS.tooltip.6=dłoni innego gracza lub gdy są upuszczone na podłoże.
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Wył. - funkcja dynamicznego światła wyłączona (domyślne)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Szybka - proste dynamiczne światła - aktualizowane co 500ms
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Dokładna - zaawansowane dynamiczne światło - aktualizowane na bieżąco
+of.options.DYNAMIC_LIGHTS.tooltip.5=Przedmioty świecące (pochodnia, jasnopył, itp.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=oświetlają teren, gdy są w Twojej dłoni,
+of.options.DYNAMIC_LIGHTS.tooltip.7=dłoni innego gracza lub gdy są upuszczone na podłoże.
 
 # Performance
 
