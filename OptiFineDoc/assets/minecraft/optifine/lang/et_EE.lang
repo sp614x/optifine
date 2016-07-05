@@ -87,7 +87,7 @@ of.options.AO_LEVEL.tooltip.4=  100%% - tumedad varjud
 options.viewBobbing.tooltip.1=Realistlikum liikumine.
 options.viewBobbing.tooltip.2=Mipmappimist kasutades lülita see VÄLJA parimate tulemuste
 options.viewBobbing.tooltip.3=saavutamiseks.
-#reviewthis
+# Added extra row to tooltip
 
 options.guiScale.tooltip.1=Kasutajaliidese suurus
 options.guiScale.tooltip.2=Väiksem kasutajaliides võib olla kiirem
@@ -430,7 +430,7 @@ of.options.SMOOTH_WORLD.tooltip.5=koormust. Toimib ainult kohalikes maailmades (
 
 of.options.FAST_RENDER=Kiire renderdus
 of.options.FAST_RENDER.tooltip.1=Kiire renderdus
-of.options.FAST_RENDER.tooltip.2= VÄLJAS - standardme renderdus (vaikimisi)
+of.options.FAST_RENDER.tooltip.2= VÄLJAS - standardne renderdus (vaikimisi)
 of.options.FAST_RENDER.tooltip.3= SEES - optimeeritud renderdus (kiirem)
 of.options.FAST_RENDER.tooltip.4=Kasutab optimeeritud renderduse algoritmi, mis vähendab
 of.options.FAST_RENDER.tooltip.5=graafikaprotsessori koormust ja võib oluliselt tõsta k/s.
@@ -558,6 +558,6 @@ of.options.AUTOSAVE_TICKS.tooltip.1=Automaatse salvestuse intervall
 of.options.AUTOSAVE_TICKS.tooltip.2=Vaikimisi automaatse salvestuse intervall (2s) POLE SOOVITATAV.
 of.options.AUTOSAVE_TICKS.tooltip.3=Automaatne salvestus põhjustab kurikuulsa
 of.options.AUTOSAVE_TICKS.tooltip.4="surmava latentsusokka".
-#reviewthis
+# Added extra row to tooltip
 
 options.anaglyph.tooltip.1=3D režiimi kasutatakse punasiniste 3D-prillidega.
