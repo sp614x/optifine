@@ -1,0 +1,36 @@
+# Video Settings
+
+options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colours
+
+# Quality
+
+of.options.AA_LEVEL.tooltip.5=sharp colour transitions.
+
+of.options.CUSTOM_COLORS=Custom Colours
+of.options.CUSTOM_COLORS.tooltip.1=Custom Colours
+of.options.CUSTOM_COLORS.tooltip.2=  ON - uses custom colours (default), slower
+of.options.CUSTOM_COLORS.tooltip.3=  OFF - uses default colours, faster
+of.options.CUSTOM_COLORS.tooltip.4=The custom colours are supplied by the current
+of.options.CUSTOM_COLORS.tooltip.5=resource pack
+
+of.options.SWAMP_COLORS=Swamp Colours
+of.options.SWAMP_COLORS.tooltip.1=Swamp Colours
+of.options.SWAMP_COLORS.tooltip.2=  ON - use swamp colours (default), slower
+of.options.SWAMP_COLORS.tooltip.3=  OFF - do not use swamp colours, faster
+of.options.SWAMP_COLORS.tooltip.4=The swamp colours affect grass, leaves, vines and water.
+
+of.options.SMOOTH_BIOMES.tooltip.5=averaging the colour of all surrounding blocks.
+
+# Details
+
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Fancy - correct colour blending (default)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Fast - fast colour blending (faster)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Controls the colour blending of translucent blocks
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=with different colour (stained glass, water, ice)
+
+# Performance
+
+of.options.FAST_MATH=Fast Maths
+of.options.FAST_MATH.tooltip.1=Fast Maths
+of.options.FAST_MATH.tooltip.2= OFF - standard maths (default)
+of.options.FAST_MATH.tooltip.3= ON - faster maths
