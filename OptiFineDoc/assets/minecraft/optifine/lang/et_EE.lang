@@ -19,7 +19,7 @@ of.message.af.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 of.message.fr.shaders1=Kiire renderdus ei ühildu varjutajatega.
 of.message.fr.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 
-of.message.an.shaders1=3D anaglüüf ei ühildu varjutajatega.
+of.message.an.shaders1=3D-anaglüüf ei ühildu varjutajatega.
 of.message.an.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 
 of.message.shaders.aa1=Varjutajad ei ühildu anti-aliasing'uga. 
@@ -31,8 +31,8 @@ of.message.shaders.af2=Palun lülita Kvaliteet -> Anisotroopiline filtr. VÄLJA.
 of.message.shaders.fr1=Varjutajad ei ühildu kiire renderdusega.
 of.message.shaders.fr2=Palun lülita Jõudlus -> Kiire renderdus VÄLJA.
 
-of.message.shaders.an1=Varjutajad ei ühildu 3D anaglüüfiga.
-of.message.shaders.an2=Palun lülita Muu -> 3D anaglüüf VÄLJA.
+of.message.shaders.an1=Varjutajad ei ühildu 3D-anaglüüfiga.
+of.message.shaders.an2=Palun lülita Muu -> 3D-anaglüüf VÄLJA.
 
 of.message.newVersion=Uus §eOptiFine§f'i versioon on saadaval: §e%s§f
 of.message.java64Bit=Sa võid jõudluse parandamiseks installida §e64-bitise Java§f
@@ -103,7 +103,7 @@ options.gamma.tooltip.4=  Hele - maksimaalne heledus tumedamatele objektidele
 options.gamma.tooltip.5=See valik ei muuda täiesti mustade objektide heledust
 options.gamma.tooltip.6=
 
-options.anaglyph.tooltip.1=3D anaglüüf
+options.anaglyph.tooltip.1=3D-anaglüüf
 options.anaglyph.tooltip.2=Lubab stereoskoopilise 3D-efekti, kasutades erinevaid
 options.anaglyph.tooltip.3=värve eri silmadel.
 options.anaglyph.tooltip.4=Vajab punasiniseid prille korralikuks vaatamiseks.
@@ -230,7 +230,7 @@ of.options.RANDOM_MOBS=Juhuslikud elukad
 of.options.RANDOM_MOBS.tooltip.1=Juhuslikud elukad
 of.options.RANDOM_MOBS.tooltip.2=  VÄLJAS - juhuslikud elukad puuduvad, kiirem
 of.options.RANDOM_MOBS.tooltip.3=  SEES - juhuslikud elukad, aeglasem
-of.options.RANDOM_MOBS.tooltip.4=Juhuslikud elukad kasutab suvalisi tekstuure mängu olemitele.
+of.options.RANDOM_MOBS.tooltip.4=Juhuslikud elukad kasutab suvalisi tekstuure mängu olemitel.
 of.options.RANDOM_MOBS.tooltip.5=Vajab ressursipakki, millel on mitu elukatekstuuri.
 
 of.options.BETTER_GRASS=Parem muru
@@ -289,10 +289,10 @@ of.options.NATURAL_TEXTURES.tooltip.1=Naturaalsed tekstuurid
 of.options.NATURAL_TEXTURES.tooltip.2=  VÄLJAS - naturaalsed tekstuurid puuduvad (vaikimisi)
 of.options.NATURAL_TEXTURES.tooltip.3=  SEES - kasuta naturaalseid tekstuure
 of.options.NATURAL_TEXTURES.tooltip.4=Naturaalsed tekstuurid eemaldavad võretaolise mustri,
-of.options.NATURAL_TEXTURES.tooltip.5=mille loovad sama tüüpi korduvad plokid.
-of.options.NATURAL_TEXTURES.tooltip.6=See kasutab pööratud ja peegeldatud variante põhiploki
-of.options.NATURAL_TEXTURES.tooltip.7=tekstuurist. Naturaalsete tekstuuride konfiguratsiooni
-of.options.NATURAL_TEXTURES.tooltip.8=pakub kasutatav ressursipakk
+of.options.NATURAL_TEXTURES.tooltip.5=mille loovad sama tüüpi korduvad plokid. See kasutab
+of.options.NATURAL_TEXTURES.tooltip.6=pööratud ja peegeldatud variante põhiploki tekstuurist.
+of.options.NATURAL_TEXTURES.tooltip.7=Naturaalsete tekstuuride konfiguratsiooni pakub
+of.options.NATURAL_TEXTURES.tooltip.8=kasutatav ressursipakk
 
 of.options.CUSTOM_SKY=Kohandatud taevas
 of.options.CUSTOM_SKY.tooltip.1=Kohandatud taevas
@@ -316,8 +316,8 @@ of.options.CLOUDS.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
 of.options.CLOUDS.tooltip.3=  Kiire - madalam kvaliteet, kiirem
 of.options.CLOUDS.tooltip.4=  Uhke - kõrgem kvaliteet, aeglasem
 of.options.CLOUDS.tooltip.5=  VÄLJAS - pilved puuduvad, kiireim
-of.options.CLOUDS.tooltip.6=Kiired pilved renderdatakse 2D.
-of.options.CLOUDS.tooltip.7=Uhked pilved renderdatakse 3D.
+of.options.CLOUDS.tooltip.6=Kiired pilved renderdatakse 2Dna.
+of.options.CLOUDS.tooltip.7=Uhked pilved renderdatakse 3Dna.
 
 of.options.CLOUD_HEIGHT=Pilvekõrgus
 of.options.CLOUD_HEIGHT.tooltip.1=Pilvekõrgus
@@ -339,8 +339,8 @@ of.options.RAIN.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
 of.options.RAIN.tooltip.3=  Kiire  - kerge vihm/lumi, kiirem
 of.options.RAIN.tooltip.4=  Uhke - tugev vihm/lumi, aeglasem
 of.options.RAIN.tooltip.5=  VÄLJAS - vihm/lumi puuduvad, kiireim
-of.options.RAIN.tooltip.6=Kui vihm on VÄLJAS, on siiski vihma helid ja plärtsatused
-of.options.RAIN.tooltip.7=aktiivsed.
+of.options.RAIN.tooltip.6=Kui vihm on VÄLJAS, on vihma helid ja plärtsatused siiski
+of.options.RAIN.tooltip.7=toimivad.
 
 of.options.SKY=Taevas
 of.options.SKY.tooltip.1=Taevas
@@ -379,8 +379,8 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  VÄLJAS - ära kuva näpunäiteid käe
 of.options.DROPPED_ITEMS=Visatud esemed
 of.options.DROPPED_ITEMS.tooltip.1=Maha visatud esemed
 of.options.DROPPED_ITEMS.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
-of.options.DROPPED_ITEMS.tooltip.3=  Kiire - 2D visatud esemed, kiirem
-of.options.DROPPED_ITEMS.tooltip.4=  Uhke - 3D visatud esemed, aeglasem
+of.options.DROPPED_ITEMS.tooltip.3=  Kiire - visatud esemed 2Dna, kiirem
+of.options.DROPPED_ITEMS.tooltip.4=  Uhke - visatud esemed 3Dna, aeglasem
 
 options.entityShadows.tooltip.1=Olemite varjud
 options.entityShadows.tooltip.2=  SEES - kuva olemite varje
@@ -406,7 +406,7 @@ of.options.DYNAMIC_FOV.tooltip.5=
 of.options.DYNAMIC_LIGHTS=Dünaamiline valgustus
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dünaamiline valgustus
 of.options.DYNAMIC_LIGHTS.tooltip.2=  VÄLJAS - dünaamiline valgustus puudub (vaikimisi)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Kiire - kiire dünaamiline valgustus (uuendatud 500ms järel)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Kiire - kiire dünaamiline valgustus (uuendatud 500 ms järel)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Uhke - uhke dünaamiline valgustus (uuendatud reaalajas)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Lubab valgust kiirgavatel esemetel (tõrvik, hõõgkivi jne)
 of.options.DYNAMIC_LIGHTS.tooltip.6=käes hoides või maha visates valgustada ümbritsevat ala
@@ -415,16 +415,16 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=
 # Performance
 
 of.options.SMOOTH_FPS=Sujuv kaadrisagedus
-of.options.SMOOTH_FPS.tooltip.1=Stabiliseerib k/s, tühjendades graafikadraiveri puhvrit
-of.options.SMOOTH_FPS.tooltip.2=  VÄLJAS - stabiliseerimine puudub, k/s võib kõikuda
-of.options.SMOOTH_FPS.tooltip.3=  SEES - k/s stabiliseerimine
+of.options.SMOOTH_FPS.tooltip.1=Stabiliseerib ks, tühjendades graafikadraiveri puhvrit
+of.options.SMOOTH_FPS.tooltip.2=  VÄLJAS - stabiliseerimine puudub, ks võib kõikuda
+of.options.SMOOTH_FPS.tooltip.3=  SEES - kaadrisageduse stabiliseerimine
 of.options.SMOOTH_FPS.tooltip.4=See valik sõltub graafikadraiveritest ning selle efekt
 of.options.SMOOTH_FPS.tooltip.5=ei pruugi alati nähtav olla
 
 of.options.SMOOTH_WORLD=Sujuv maailm
 of.options.SMOOTH_WORLD.tooltip.1=Eemaldab siseserveri poolt põhjustatud "latentsusokkaid".
-of.options.SMOOTH_WORLD.tooltip.2=  VÄLJAS - stabiliseerimine puudub, k/s võib kõikuda
-of.options.SMOOTH_WORLD.tooltip.3=  SEES - k/s stabiliseerimine
+of.options.SMOOTH_WORLD.tooltip.2=  VÄLJAS - stabiliseerimine puudub, ks võib kõikuda
+of.options.SMOOTH_WORLD.tooltip.3=  SEES - kaadrisageduse stabiliseerimine
 of.options.SMOOTH_WORLD.tooltip.4=Stabiliseerib kaadrisagedust, jaotades sisemise serveri
 of.options.SMOOTH_WORLD.tooltip.5=koormust. Toimib ainult kohalikes maailmades (üksikmäng).
 
@@ -433,22 +433,22 @@ of.options.FAST_RENDER.tooltip.1=Kiire renderdus
 of.options.FAST_RENDER.tooltip.2= VÄLJAS - standardne renderdus (vaikimisi)
 of.options.FAST_RENDER.tooltip.3= SEES - optimeeritud renderdus (kiirem)
 of.options.FAST_RENDER.tooltip.4=Kasutab optimeeritud renderduse algoritmi, mis vähendab
-of.options.FAST_RENDER.tooltip.5=graafikaprotsessori koormust ja võib oluliselt tõsta k/s.
+of.options.FAST_RENDER.tooltip.5=graafikaprotsessori koormust ja võib oluliselt tõsta ks.
 
 of.options.FAST_MATH=Kiire matemaatika
 of.options.FAST_MATH.tooltip.1=Kiire matemaatika
 of.options.FAST_MATH.tooltip.2= VÄLJAS - standardne matemaatika (vaikimisi)
 of.options.FAST_MATH.tooltip.3= SEES - kiirem matemaatika
 of.options.FAST_MATH.tooltip.4=Kasutab optimeeritud sin() ja cos() funktsioone, mis võivad
-of.options.FAST_MATH.tooltip.5=paremini rakendada protsessori vahemälu ja tõsta k/s.
+of.options.FAST_MATH.tooltip.5=paremini rakendada protsessori vahemälu ja tõsta ks.
 
 of.options.CHUNK_UPDATES=Kamakauuendused
 of.options.CHUNK_UPDATES.tooltip.1=Kamakate uuendused
-of.options.CHUNK_UPDATES.tooltip.2= 1 - aeglasem maailma laadimine, kõrgem k/s (vaikimisi)
-of.options.CHUNK_UPDATES.tooltip.3= 3 - kiirem maailma laadimine, madalam k/s
-of.options.CHUNK_UPDATES.tooltip.4= 5 - kiireim maailma laadimine, madalaim k/s
+of.options.CHUNK_UPDATES.tooltip.2= 1 - aeglasem maailma laadimine, kõrgem ks (vaikimisi)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - kiirem maailma laadimine, madalam ks
+of.options.CHUNK_UPDATES.tooltip.4= 5 - kiireim maailma laadimine, madalaim ks
 of.options.CHUNK_UPDATES.tooltip.5=Kamakate uuenduste arv renderdatud kaadri kohta,
-of.options.CHUNK_UPDATES.tooltip.6=kõrgemad väärtused võivad k/s destabiliseerida.
+of.options.CHUNK_UPDATES.tooltip.6=kõrgemad väärtused võivad ks destabiliseerida.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dünaamilised uuendused
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dünaamilised kamakauuendused
@@ -494,13 +494,13 @@ of.options.FIREWORK_PARTICLES=Ilutulestiku osakesed
 
 of.options.LAGOMETER=Latentsusmõõdik
 of.options.LAGOMETER.tooltip.1=Kuvab latentsusmõõdikut silumisvaatel (F3).
-of.options.LAGOMETER.tooltip.2=* Oranž - Mälu prahikogumine
-of.options.LAGOMETER.tooltip.3=* Tsüaansinine - Tick'id
-of.options.LAGOMETER.tooltip.4=* Sinine - Ajastatud käivitatavad
-of.options.LAGOMETER.tooltip.5=* Lilla - Kamaka üleslaadimine
-of.options.LAGOMETER.tooltip.6=* Punane - Kamakauuendused
-of.options.LAGOMETER.tooltip.7=* Kollane - Nähtavuskontroll
-of.options.LAGOMETER.tooltip.8=* Roheline - Maastikku renderdus
+of.options.LAGOMETER.tooltip.2=* Oranž - mälu prahikogumine
+of.options.LAGOMETER.tooltip.3=* Tsüaansinine - tick'id
+of.options.LAGOMETER.tooltip.4=* Sinine - ajastatud käivitatavad
+of.options.LAGOMETER.tooltip.5=* Lilla - kamaka üleslaadimine
+of.options.LAGOMETER.tooltip.6=* Punane - kamakauuendused
+of.options.LAGOMETER.tooltip.7=* Kollane - nähtavuskontroll
+of.options.LAGOMETER.tooltip.8=* Roheline - maastiku renderdus
 
 of.options.PROFILER=Silumisprofiilija
 of.options.PROFILER.tooltip.1=Silumisprofiilija
@@ -548,16 +548,16 @@ of.options.SHOW_FPS.tooltip.4=  U: - kamakauuendusi
 of.options.SHOW_FPS.tooltip.5=Kompaktset kaadrisageduse infot kuvatakse vaid siis,
 of.options.SHOW_FPS.tooltip.6=kui silumisvaade pole nähtav.
 
-of.options.save.default=Vaikimisi (2s)
+of.options.save.default=vaik. (2 s)
 of.options.save.20s=20 s
 of.options.save.3min=3 min
 of.options.save.30min=30 min
 
 of.options.AUTOSAVE_TICKS=Automaatne salvestus
 of.options.AUTOSAVE_TICKS.tooltip.1=Automaatse salvestuse intervall
-of.options.AUTOSAVE_TICKS.tooltip.2=Vaikimisi automaatse salvestuse intervall (2s) POLE SOOVITATAV.
-of.options.AUTOSAVE_TICKS.tooltip.3=Automaatne salvestus põhjustab kurikuulsa
+of.options.AUTOSAVE_TICKS.tooltip.2=Vaikimisi automaatse salvestuse intervall (2 s) POLE
+of.options.AUTOSAVE_TICKS.tooltip.3=SOOVITATAV. Automaatne salvestus põhjustab kurikuulsa
 of.options.AUTOSAVE_TICKS.tooltip.4="surmava latentsusokka".
 # Added extra row to tooltip
 
-options.anaglyph.tooltip.1=3D režiimi kasutatakse punasiniste 3D-prillidega.
+options.anaglyph.tooltip.1=3D-režiimi kasutatakse punasiniste 3D-prillidega.
