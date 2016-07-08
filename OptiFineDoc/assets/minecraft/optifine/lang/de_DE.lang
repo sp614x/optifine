@@ -1,7 +1,7 @@
 # Contributors of German localization #
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
-#   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-5-18
+#   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-7-8
 #   TheHADILP 2016-5-20 ---- 2016-6-28
 
 # General
@@ -492,7 +492,7 @@ of.options.ANIMATED_WATER=Animiertes Wasser
 of.options.ANIMATED_LAVA=Animierte Lava
 of.options.ANIMATED_FIRE=Animiertes Feuer
 of.options.ANIMATED_PORTAL=Animierte Portale
-of.options.ANIMATED_REDSTONE=Animierter Redstone
+of.options.ANIMATED_REDSTONE=Animiertes Redstone
 of.options.ANIMATED_EXPLOSION=Animierte Explosion
 of.options.ANIMATED_FLAME=Animierte Flammen
 of.options.ANIMATED_SMOKE=Animierter Rauch
