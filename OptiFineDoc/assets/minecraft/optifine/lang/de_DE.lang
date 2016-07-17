@@ -1,7 +1,7 @@
 # Contributors of German localization #
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
-#   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-7-8
+#   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-7-17
 #   TheHADILP 2016-5-20 ---- 2016-6-28
 
 # General
@@ -46,7 +46,7 @@ of.message.openglError=§eOpenGL-Fehler§f: %s (%s)
 
 of.message.shaders.loading=Lade Shader-Effekte: %s
 
-of.message.other.reset=Alle Videoeinstellungen auf die Standardwerte zurücksetzen?
+of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
  
 # Video settings
 
