@@ -420,7 +420,7 @@ of.options.DYNAMIC_LIGHTS=Dyn. Beleuchtung
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamische Beleuchtung
 of.options.DYNAMIC_LIGHTS.tooltip.2=  Aus - Keine dynamische Beleuchtung (Standard)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  Schnell - Schnelle dyn. Beleuchtung (alle 500ms aktual.)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Schön - Schöne dyn. Beleuchtung (Echtzeitaktualisierung)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Schön - Schöne dyn. Beleuchtung (Echtzeitaktual.)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Leuchtende Gegenstände (Fackel, Glowstone, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=beleuchten die Umgebung, wenn sie in der Hand gehalten,
 of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedroppt werden.
@@ -428,7 +428,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedro
 # Performance
 
 of.options.SMOOTH_FPS=Stabile Bildrate
-of.options.SMOOTH_FPS.tooltip.1=Stabilisiert Bildrate durch Nutzung von Grafiktreiberpuffer
+of.options.SMOOTH_FPS.tooltip.1=Stabilisiert Bildrate durch Grafiktreiberpuffer
 of.options.SMOOTH_FPS.tooltip.2=  Aus - Keine Stabilisierung, Bildrate könnte schwanken
 of.options.SMOOTH_FPS.tooltip.3=  An - Stabilisierung der Bildrate
 of.options.SMOOTH_FPS.tooltip.4=Diese Einstellung ist abhängig vom Grafikkartentreiber.
@@ -446,8 +446,8 @@ of.options.FAST_RENDER=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.1=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.2=  Aus - Standard-Rendern (Standard)
 of.options.FAST_RENDER.tooltip.3=  An - Optimiertes Rendern (schneller)
-of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die die GPU
-of.options.FAST_RENDER.tooltip.5=Auslastung verringern und die Leistung erheblich steigern.
+of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die die GPU-Aus-
+of.options.FAST_RENDER.tooltip.5=lastung verringern und die Leistung erheblich steigern.
 
 of.options.FAST_MATH=Schnelle Mathematik
 of.options.FAST_MATH.tooltip.1=Schnelle Mathematik
