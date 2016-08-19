@@ -1,7 +1,7 @@
 # Contributors of German localization #
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
-#   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-5-18
+#   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-7-17
 #   TheHADILP 2016-5-20 ---- 2016-6-28
 
 # General
@@ -46,7 +46,7 @@ of.message.openglError=§eOpenGL-Fehler§f: %s (%s)
 
 of.message.shaders.loading=Lade Shader-Effekte: %s
 
-of.message.other.reset=Alle Videoeinstellungen auf die Standardwerte zurücksetzen?
+of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
  
 # Video settings
 
@@ -420,7 +420,7 @@ of.options.DYNAMIC_LIGHTS=Dyn. Beleuchtung
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamische Beleuchtung
 of.options.DYNAMIC_LIGHTS.tooltip.2=  Aus - Keine dynamische Beleuchtung (Standard)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  Schnell - Schnelle dyn. Beleuchtung (alle 500ms aktual.)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Schön - Schöne dyn. Beleuchtung (Echtzeitaktualisierung)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Schön - Schöne dyn. Beleuchtung (Echtzeitaktual.)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Leuchtende Gegenstände (Fackel, Glowstone, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=beleuchten die Umgebung, wenn sie in der Hand gehalten,
 of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedroppt werden.
@@ -428,7 +428,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedro
 # Performance
 
 of.options.SMOOTH_FPS=Stabile Bildrate
-of.options.SMOOTH_FPS.tooltip.1=Stabilisiert Bildrate durch Nutzung von Grafiktreiberpuffer
+of.options.SMOOTH_FPS.tooltip.1=Stabilisiert Bildrate durch Grafiktreiberpuffer
 of.options.SMOOTH_FPS.tooltip.2=  Aus - Keine Stabilisierung, Bildrate könnte schwanken
 of.options.SMOOTH_FPS.tooltip.3=  An - Stabilisierung der Bildrate
 of.options.SMOOTH_FPS.tooltip.4=Diese Einstellung ist abhängig vom Grafikkartentreiber.
@@ -446,8 +446,8 @@ of.options.FAST_RENDER=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.1=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.2=  Aus - Standard-Rendern (Standard)
 of.options.FAST_RENDER.tooltip.3=  An - Optimiertes Rendern (schneller)
-of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die die GPU
-of.options.FAST_RENDER.tooltip.5=Auslastung verringern und die Leistung erheblich steigern.
+of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die die GPU-Aus-
+of.options.FAST_RENDER.tooltip.5=lastung verringern und die Leistung erheblich steigern.
 
 of.options.FAST_MATH=Schnelle Mathematik
 of.options.FAST_MATH.tooltip.1=Schnelle Mathematik
@@ -492,7 +492,7 @@ of.options.ANIMATED_WATER=Animiertes Wasser
 of.options.ANIMATED_LAVA=Animierte Lava
 of.options.ANIMATED_FIRE=Animiertes Feuer
 of.options.ANIMATED_PORTAL=Animierte Portale
-of.options.ANIMATED_REDSTONE=Animierter Redstone
+of.options.ANIMATED_REDSTONE=Animiertes Redstone
 of.options.ANIMATED_EXPLOSION=Animierte Explosion
 of.options.ANIMATED_FLAME=Animierte Flammen
 of.options.ANIMATED_SMOKE=Animierter Rauch
