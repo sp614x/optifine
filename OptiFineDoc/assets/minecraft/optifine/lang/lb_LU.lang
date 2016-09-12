@@ -53,6 +53,10 @@ options.graphics.tooltip.3=  Schéin - héich Qualitéit, méi lues
 options.graphics.tooltip.4=Verännert d'Ausgesi vun de Wolleken, Blieder, Grasbléck,
 options.graphics.tooltip.5=Schieter a vum Waasser.
 
+of.options.renderDistance.tiny=Winzeg
+of.options.renderDistance.short=Geréng
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Wéit
 of.options.renderDistance.extreme=Extrem
 
 options.renderDistance.tooltip.1=Siichtwéit
