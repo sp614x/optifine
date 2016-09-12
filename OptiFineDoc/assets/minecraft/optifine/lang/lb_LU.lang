@@ -60,7 +60,7 @@ of.options.renderDistance.far=Wéit
 of.options.renderDistance.extreme=Extrem
 
 options.renderDistance.tooltip.1=Siichtwéit
-options.renderDistance.tooltip.2=  2 Mini - 32m (am schnellsten)
+options.renderDistance.tooltip.2=  2 Winzeg - 32m (am schnellsten)
 options.renderDistance.tooltip.3=  4 Geréng - 64m (schnell)
 options.renderDistance.tooltip.4=  8 Normal - 128m
 options.renderDistance.tooltip.5=  16 Wéit - 256m (lues)
