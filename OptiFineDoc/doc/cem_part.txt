@@ -1,0 +1,48 @@
+######################################################################
+# Json Part Model
+# Reference configuration for OptiFine's feature Custom Entity Models
+######################################################################
+# This file contains the definition of one model part and can be
+# referenced as "model" from the entity model.
+# The file extension ".jpm" is recommended, but not required.
+# It should be located in the "assets/minecraft/optifine/cem" folder of your resource pack.
+# Note: This is not a valid JSON format and it should only be used as a reference  
+######################################################################
+{
+  # Part model definition 
+  "texture": <texture.png>,                                             - Texture used by the part model
+  "textureSize": [<width>, <height>],                                   - Texture size in pixels
+  "invertAxis": <axis_to_invert>,                                       - Axis to invert, for example "xyz" inverts all axes
+  "translate": [<x>, <y>, <z>],                                         - Translate (pixels)
+  "rotate": [<angle_x>, <angle_y>, <angle_z>],                          - Rotate (degrees)
+  "mirrorTexture": <axis_to_mirror>,                                    - Texture axis to mirror, for example "uv" mirrors both U and V axis
+  "boxes"                                                               - List of part model boxes
+  [
+    {
+      "textureOffset": [<u>, <v>],                                      - Texture offset (pixels)
+      "coordinates": [<x>, <y>, <z>, <width>, <height>, <depth>],       - Box position and dimensions
+      "sizeAdd": <size_add>                                             - Size increment (added to all dimensions) can be used for asymmetric scaling
+    },
+    ...
+  ],
+  "sprites"                                                             - List of 3D sprite models (depth 1)
+  [
+    {
+      "textureOffset": [<u>, <v>],                                      - Texture offset (pixels)
+      "coordinates": [<x>, <y>, <z>, <width>, <height>, <depth>],       - Box position and dimensions
+      "sizeAdd": <size_add>                                             - Size increment (added to all dimensions) can be used for asymmetric scaling
+    },
+    ...
+  ],
+  "submodel":                                                           - Sub-model (attached to the parent, moving and rotating with it)
+  {
+    # Part model definition                                             - Sub-model definition                          
+  },
+  "submodels":                                                          - List of sub-models (attached to the parent, moving and rotating with it)
+  [
+    {
+      # Part model definition                                           - Sub-model definition                          
+    },
+    ...
+  ]
+}
