@@ -2,7 +2,7 @@
 # Json Entity Model
 # Reference configuration for OptiFine's feature Custom Entity Models
 ######################################################################
-# For each entity or tile entity model that you wish to override
+# For each entity model or tile entity model that you wish to override
 # use this template and create a "<entity_name>.jem" file in the 
 # "assets/minecraft/optifine/cem" folder of your resource pack. 
 # The entity model contains a list of entity part models.
