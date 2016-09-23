@@ -6,6 +6,15 @@
 # referenced as "model" from the entity model.
 # The file extension ".jpm" is recommended, but not required.
 # It should be located in the "assets/minecraft/optifine/cem" folder of your resource pack.
+#
+# Texture UV can be specified in box format with "textureOffset" or 
+# individually with "uvDown", "uvUp", "uvNorth", "uvSouth", "uvWest" and "uvEast".
+# Either the box format or the individual face UV should be used, they can not be mixed.
+#
+# Required elements:
+# - "textureOffset" or individual face UV
+# - "coordinates" 
+#
 # Note: This is not a valid JSON format and it should only be used as a reference  
 ######################################################################
 {
@@ -19,7 +28,13 @@
   "boxes"                                                               - List of part model boxes
   [
     {
-      "textureOffset": [<u>, <v>],                                      - Texture offset (pixels)
+      "textureOffset": [<u>, <v>],                                      - Texture offset for box format, see "model_box.png"
+      "uvDown": [<u1>, <v1>, <u2>, <v2>],                               - UV for face down
+      "uvUp": [<u1>, <v1>, <u2>, <v2>],                                 - UV for face up
+      "uvNorth": [<u1>, <v1>, <u2>, <v2>],                              - UV for face north, alias "uvFront"
+      "uvSouth": [<u1>, <v1>, <u2>, <v2>],                              - UV for face south, alias "uvBack"
+      "uvWest": [<u1>, <v1>, <u2>, <v2>],                               - UV for face west, alias "uvLeft"
+      "uvEast": [<u1>, <v1>, <u2>, <v2>],                               - UV for face east, alias "uvRight"
       "coordinates": [<x>, <y>, <z>, <width>, <height>, <depth>],       - Box position and dimensions
       "sizeAdd": <size_add>                                             - Size increment (added to all dimensions) can be used for asymmetric scaling
     },
