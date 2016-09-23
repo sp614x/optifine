@@ -71,19 +71,19 @@
 # Note: This is not a valid JSON format and it should only be used as a reference  
 ######################################################################
 {
-  "texture": <texture.png>                                                  - Texture used by the entity model            
-  "textureSize": [<width>, <height>],                                       - Texture size in pixels
-  "shadowSize": <shadow_size>,                                              - Model shadow size (0.0 - 1.0)
-  models                                                                    - List of models
+  "texture": <texture.png>                                              - Texture used by the entity model            
+  "textureSize": [<width>, <height>],                                   - Texture size in pixels
+  "shadowSize": <shadow_size>,                                          - Model shadow size (0.0 - 1.0)
+  models                                                                - List of models
   [
     {
-      "baseId": <parent_id>,                                                - Model parent ID, all parent properties are inherited
-      "model": <model.jpm>,                                                 - Part model file, from which to load the part model definition
-      "id": <id>,                                                           - Model ID, can be used to reference the model as parent
-      "part": <part>,                                                       - Entity part to which the part model is atached 
-      "attach": <true|false>,                                               - True: attach to the entity part, False: replace it
-      "scale": <scale>,                                                     - Render scale, default is 1.0
-      # Part Model definition, see "jpm.txt" for details                    - Part model definition (inline)
+      "baseId": <parent_id>,                                            - Model parent ID, all parent properties are inherited
+      "model": <model.jpm>,                                             - Part model file, from which to load the part model definition
+      "id": <id>,                                                       - Model ID, can be used to reference the model as parent
+      "part": <part>,                                                   - Entity part to which the part model is atached 
+      "attach": <true|false>,                                           - True: attach to the entity part, False: replace it
+      "scale": <scale>,                                                 - Render scale, default is 1.0
+      # Part Model definition, see "cem_part.txt" for details           - Part model definition (inline)
       ...
     },
     ...
