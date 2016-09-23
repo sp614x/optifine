@@ -2,7 +2,7 @@
 # Json Part Model
 # Reference configuration for OptiFine's feature Custom Entity Models
 ######################################################################
-# This file contains the definition of one model part and can be
+# This file contains the definition of one model part and it can be
 # referenced as "model" from the entity model.
 # The file extension ".jpm" is recommended, but not required.
 # It should be located in the "assets/minecraft/optifine/cem" folder of your resource pack.
@@ -10,6 +10,7 @@
 # Texture UV can be specified in box format with "textureOffset" or 
 # individually with "uvDown", "uvUp", "uvNorth", "uvSouth", "uvWest" and "uvEast".
 # Either the box format or the individual face UV should be used, they can not be mixed.
+# The box format UV mapping is shown in "model_box.png".
 #
 # Required elements:
 # - "textureOffset" or individual face UV
