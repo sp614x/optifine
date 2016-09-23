@@ -306,6 +306,13 @@ of.options.CUSTOM_ITEMS.tooltip.3=  OFF - default item textures, faster
 of.options.CUSTOM_ITEMS.tooltip.4=The custom item textures are supplied by the current
 of.options.CUSTOM_ITEMS.tooltip.5=resource pack
 
+of.options.CUSTOM_ENTITY_MODELS=Custom Entity Models
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Custom Entity Models
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  ON - custom entity models (default), slow
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  OFF - default entity models, faster
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=The custom entity models are supplied by the current
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resource pack
+
 # Details
 
 of.options.CLOUDS=Clouds
