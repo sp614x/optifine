@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2016-06-18
+#   CrafterKina 2014-01-04 ---- 2016-07-07
 
 # General
 of.general.custom=カスタム
@@ -14,23 +14,29 @@ of.general.smart=スマート
 of.key.zoom=ズーム
 
 # Message
-of.message.aa.shaders1=輪郭のギザギザ軽減処理はシェーダーと共存できません。
+of.message.aa.shaders1=輪郭のギザギザ軽減はシェーダーと共存できません。
 of.message.aa.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
 
-of.message.af.shaders1=奥行きのチラツキ抑制処理はシェーダーと共存できません。
+of.message.af.shaders1=奥行きのチラツキ抑制はシェーダーと共存できません。
 of.message.af.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
 
-of.message.fr.shaders1=描画を速くする処理はシェーダーと共存できません。
+of.message.fr.shaders1=描画の最適化はシェーダーと共存できません。
 of.message.fr.shaders1=このオプションを有効にするには、シェーダを無効にしてください。
 
-of.message.shaders.aa1=シェーダーは輪郭のギザギザ軽減処理と共存できません。
+of.message.an.shaders1=3Dアナグリフはシェーダーと共存できません。
+of.message.an.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
+
+of.message.shaders.aa1=シェーダーは輪郭のギザギザ軽減と共存できません。
 of.message.shaders.aa2=クオリティの詳細設定 -> 輪郭のギザギザ軽減 をオフにし、ゲームを再起動してください。
 
-of.message.shaders.af1=シェーダーは奥行きのチラツキ抑制処理と共存できません。
+of.message.shaders.af1=シェーダーは奥行きのチラツキ抑制と共存できません。
 of.message.shaders.af2=クオリティの詳細設定 -> 奥行きのチラツキ抑制 をオフにし、ゲームを再起動してください。
 
-of.message.shaders.fr1=シェーダーは描画を速くする処理と共存できません。
-of.message.shaders.fr2=クオリティの詳細設定 -> 描画を速く をオフにし、ゲームを再起動してください。
+of.message.shaders.fr1=シェーダーは描画の最適化と共存できません。
+of.message.shaders.fr2=パフォーマンスの詳細設定 -> 描画の最適化 をオフにし、ゲームを再起動してください。
+
+of.message.shaders.an1=シェーダーは3Dアナグリフと共存できません。
+of.message.shaders.an2=その他の設定 -> 3Dアナグリフ をオフにし、ゲームを再起動してください。
 
 of.message.newVersion=新しい§eOptiFine§fが公開されました: §e%s§f
 of.message.java64Bit=パフォーマンスを高めるために§e64-bit Java§fが利用できます。
@@ -424,17 +430,17 @@ of.options.SMOOTH_WORLD.tooltip.3=  オン - 安定化する。
 of.options.SMOOTH_WORLD.tooltip.4=内部サーバーロードを安定化。
 of.options.SMOOTH_WORLD.tooltip.5=シングルプレイの時のみ効果があります。
 
-of.options.FAST_RENDER=速い描画処理
-of.options.FAST_RENDER.tooltip.1=速い描画処理
+of.options.FAST_RENDER=描画の最適化
+of.options.FAST_RENDER.tooltip.1=描画の最適化
 of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画 (通常)
 of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画 (低負荷)
 of.options.FAST_RENDER.tooltip.4=GPUのロード回数を減らした方式によって
 of.options.FAST_RENDER.tooltip.5=実質的なFPSを向上します。
 
-of.options.FAST_MATH=速い計算処理
-of.options.FAST_MATH.tooltip.1=速い計算処理
+of.options.FAST_MATH=計算の最適化
+of.options.FAST_MATH.tooltip.1=計算の最適化
 of.options.FAST_MATH.tooltip.2= オフ - 通常の処理 (通常)
-of.options.FAST_MATH.tooltip.3= オン - 速い処理
+of.options.FAST_MATH.tooltip.3= オン - 最適化された計算方式
 of.options.FAST_MATH.tooltip.4=CPUのキャッシュをうまく使った
 of.options.FAST_MATH.tooltip.5=FPSを向上させる計算処理を使用します。
 

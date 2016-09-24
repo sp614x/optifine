@@ -1,0 +1,64 @@
+######################################################################
+# Json Part Model
+# Reference configuration for OptiFine's feature Custom Entity Models
+######################################################################
+# This file contains the definition of one model part and it can be
+# referenced as "model" from the entity model.
+# The file extension ".jpm" is recommended, but not required.
+# It should be located in the "assets/minecraft/optifine/cem" folder of your resource pack.
+#
+# Texture UV can be specified in box format with "textureOffset" or 
+# individually with "uvDown", "uvUp", "uvNorth", "uvSouth", "uvWest" and "uvEast".
+# Either the box format or the individual face UV should be used, they can not be mixed.
+# The box format UV mapping is shown in "model_box.png".
+#
+# Required elements:
+# - "textureOffset" or individual face UV
+# - "coordinates" 
+#
+# Note: This is not a valid JSON format and it should only be used as a reference  
+######################################################################
+{
+  # Part model definition 
+  "texture": <texture.png>,                                             - Texture used by the part model
+  "textureSize": [<width>, <height>],                                   - Texture size in pixels
+  "invertAxis": <axis_to_invert>,                                       - Axis to invert, for example "xyz" inverts all axes
+  "translate": [<x>, <y>, <z>],                                         - Translate (pixels)
+  "rotate": [<angle_x>, <angle_y>, <angle_z>],                          - Rotate (degrees)
+  "mirrorTexture": <axis_to_mirror>,                                    - Texture axis to mirror, for example "uv" mirrors both U and V axis
+  "boxes"                                                               - List of part model boxes
+  [
+    {
+      "textureOffset": [<u>, <v>],                                      - Texture offset for box format, see "model_box.png"
+      "uvDown": [<u1>, <v1>, <u2>, <v2>],                               - UV for face down
+      "uvUp": [<u1>, <v1>, <u2>, <v2>],                                 - UV for face up
+      "uvNorth": [<u1>, <v1>, <u2>, <v2>],                              - UV for face north, alias "uvFront"
+      "uvSouth": [<u1>, <v1>, <u2>, <v2>],                              - UV for face south, alias "uvBack"
+      "uvWest": [<u1>, <v1>, <u2>, <v2>],                               - UV for face west, alias "uvLeft"
+      "uvEast": [<u1>, <v1>, <u2>, <v2>],                               - UV for face east, alias "uvRight"
+      "coordinates": [<x>, <y>, <z>, <width>, <height>, <depth>],       - Box position and dimensions
+      "sizeAdd": <size_add>                                             - Size increment (added to all dimensions) can be used for asymmetric scaling
+    },
+    ...
+  ],
+  "sprites"                                                             - List of 3D sprite models (depth 1)
+  [
+    {
+      "textureOffset": [<u>, <v>],                                      - Texture offset (pixels)
+      "coordinates": [<x>, <y>, <z>, <width>, <height>, <depth>],       - Box position and dimensions
+      "sizeAdd": <size_add>                                             - Size increment (added to all dimensions) can be used for asymmetric scaling
+    },
+    ...
+  ],
+  "submodel":                                                           - Sub-model (attached to the parent, moving and rotating with it)
+  {
+    # Part model definition                                             - Sub-model definition                          
+  },
+  "submodels":                                                          - List of sub-models (attached to the parent, moving and rotating with it)
+  [
+    {
+      # Part model definition                                           - Sub-model definition                          
+    },
+    ...
+  ]
+}

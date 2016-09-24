@@ -19,14 +19,20 @@ of.message.af.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
 of.message.fr.shaders1=Rychlý Render není kompatibilní se stíny.
 of.message.fr.shaders2=Prosím vypni Stíny pro použití téhle možnosti
 
+of.message.an.shaders1=3D zobrazení není kompatibilní se Stíny.
+of.message.an.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
+ 
 of.message.shaders.aa1=Stíny nejsou kompatibilní s Antialiasingem
-of.message.shaders.aa2=Jdi do nastavení Kvality -> Antialiasing na vypnuto.
+of.message.shaders.aa2=Jdi do nastavení Kvality -> Antialiasing na VYPNUTO.
 
 of.message.shaders.af1=Stíny nejsou kompatibilní s Anizotropním Filtrováním.
-of.message.shaders.af2=Jdi do nastavení Kvality -> Anizotropní Filtrování na vypnuto.
+of.message.shaders.af2=Jdi do nastavení Kvality -> Anizotropní Filtrování na VYPNUTO.
 
 of.message.shaders.fr1=Stíny nejsou komoatibilní s Rychlým Renderem.
-of.message.shaders.fr2=Jdi do nastavení Výkonu -> Rychlý Render na vypnuto.
+of.message.shaders.fr2=Jdi do nastavení Výkonu -> Rychlý Render na VYPNUTO.
+
+of.message.shaders.an1=Stíny nejsou kompatibilní se 3D zobrazením.
+of.message.shaders.an2=Jdi do nastavení Ostatního -> 3D zobrazení na VYPNUTO.
 
 of.message.newVersion=Nová verze §eOptiFinu§f je k dispozici: §e%s§f
 of.message.java64Bit=Můžeš si nainstalovat  §e64-bitovou Javu§f pro zvýšení výkonu
@@ -243,14 +249,14 @@ of.options.CUSTOM_FONTS.tooltip.1= Vlastní Písmo
 of.options.CUSTOM_FONTS.tooltip.2=  ZAPNUTO - používá vlastní písmo (výchozí), pomalejší
 of.options.CUSTOM_FONTS.tooltip.3=  VYPNUTO - používá výchozí písmo, rychlejší
 of.options.CUSTOM_FONTS.tooltip.4=Vlastní písmo záleží na vybraném
-of.options.CUSTOM_FONTS.tooltip.5=balíčku textur.
+of.options.CUSTOM_FONTS.tooltip.5=balíčku zdrojů.
 
 of.options.CUSTOM_COLORS=Vlastní Barvy
 of.options.CUSTOM_COLORS.tooltip.1= Vlastní Barvy
 of.options.CUSTOM_COLORS.tooltip.2=  ZAPNUTO - používá vlastní barvy (výchozí), pomalejší
 of.options.CUSTOM_COLORS.tooltip.3=  VYPNUTO - používá výchozí barvy, rychlejší
 of.options.CUSTOM_COLORS.tooltip.4=Vlastní barvy záleží na vybraném
-of.options.CUSTOM_COLORS.tooltip.5=balíčku textur.
+of.options.CUSTOM_COLORS.tooltip.5=balíčku zdrojů.
 
 of.options.SWAMP_COLORS=Barvy v Bažinách
 of.options.SWAMP_COLORS.tooltip.1= Barvy v Bažinách
@@ -274,7 +280,7 @@ of.options.CONNECTED_TEXTURES.tooltip.4=  Pěkná - pěkně spojené textury
 of.options.CONNECTED_TEXTURES.tooltip.5=Spojené textury spojují textury skla,
 of.options.CONNECTED_TEXTURES.tooltip.6=pískovce a knihoven když jsou
 of.options.CONNECTED_TEXTURES.tooltip.7=vedle sebe. Spojené textury záleží
-of.options.CONNECTED_TEXTURES.tooltip.8=na vybraném balíčku textur.
+of.options.CONNECTED_TEXTURES.tooltip.8=na vybraném balíčku zdrojů.
 
 of.options.NATURAL_TEXTURES=Naturální Textury
 of.options.NATURAL_TEXTURES.tooltip.1=Naturální Textury
@@ -284,21 +290,21 @@ of.options.NATURAL_TEXTURES.tooltip.4=Naturální textury odstraňují vzor
 of.options.NATURAL_TEXTURES.tooltip.5=vytvořený opakováním bloků stejných typů.
 of.options.NATURAL_TEXTURES.tooltip.6=Používá otočené a převrácené základy
 of.options.NATURAL_TEXTURES.tooltip.7=textury bloků. Nastavení pro naturální textury
-of.options.NATURAL_TEXTURES.tooltip.8=je ovlivňováno vybraným balíčkem textur.
+of.options.NATURAL_TEXTURES.tooltip.8=je ovlivňováno vybraným balíčkem zdrojů.
 
 of.options.CUSTOM_SKY=Vlastní Obloha
 of.options.CUSTOM_SKY.tooltip.1=Vlastní Obloha
 of.options.CUSTOM_SKY.tooltip.2=  ZAPNUTO - používá vlastní textury oblohy (výchozí), pomalejší
 of.options.CUSTOM_SKY.tooltip.3=  VYPNUTO - výchozí obloha, rychlejší
 of.options.CUSTOM_SKY.tooltip.4=Vlastní textura oblohy je ovlivňována vybraným
-of.options.CUSTOM_SKY.tooltip.5=balíčkem textur.
+of.options.CUSTOM_SKY.tooltip.5=balíčkem zdrojů.
 
 of.options.CUSTOM_ITEMS=Vlastní Itemy
 of.options.CUSTOM_ITEMS.tooltip.1=Vlastní Itemy
 of.options.CUSTOM_ITEMS.tooltip.2=  ZAPNUTO - vlastní textury itemů (výchozí), pomalejší
 of.options.CUSTOM_ITEMS.tooltip.3=  VYPNUTO - výchozí textury itemů, rychlejší
 of.options.CUSTOM_ITEMS.tooltip.4=Vlastní itemy záleží na vybraném
-of.options.CUSTOM_ITEMS.tooltip.5=balíčku textur.
+of.options.CUSTOM_ITEMS.tooltip.5=balíčku zdrojů.
 
 # Detaily
 

@@ -272,7 +272,7 @@ const float drynessHalflife = 200.0f;           drynessHalfLife = 200 (ticks)
 const float eyeBrightnessHalflife = 10.0f;      eyeBrightnessHalflife = 10 (ticks)
 const float centerDepthHalflife = 1.0f;         centerDepthSmoothHalflife = 1 (ticks)
 const float sunPathRotation = 0f;               sunPathRotation = 0f
-const float ambientOcclusionLevel = 0.8f;       ambientOcclusionLevel = 0.8f
+const float ambientOcclusionLevel = 1.0f;       ambientOcclusionLevel = 1.0f                               0.0f = AO disabled, 1.0f = vanilla AO
 const int superSamplingLevel = 1;               superSamplingLevel = 1
 const int noiseTextureResolution = 256;         noiseTextureResolution = 256
 /* GAUX4FORMAT:RGBA32F */                       buffersFormat[7] = GL_RGBA32F
