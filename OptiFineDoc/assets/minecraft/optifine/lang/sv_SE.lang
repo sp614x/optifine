@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-06-12
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-10-02
 
 # General
 of.general.ambiguous=tvetydig
@@ -251,7 +251,7 @@ of.options.CUSTOM_FONTS=Anpassade typsnitt
 of.options.CUSTOM_FONTS.tooltip.1=Anpassade typsnitt
 of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpassade typsnitt (standard), långsammare
 of.options.CUSTOM_FONTS.tooltip.3=  AV - använd standardtypsnittet, snabbare
-of.options.CUSTOM_FONTS.tooltip.4=Det anpassade typsnitten tillhandahålls av det aktuella
+of.options.CUSTOM_FONTS.tooltip.4=De anpassade typsnitten tillhandahålls av det aktuella
 of.options.CUSTOM_FONTS.tooltip.5=resurspaketet
 
 of.options.CUSTOM_COLORS=Anpassade färger
@@ -309,6 +309,13 @@ of.options.CUSTOM_ITEMS.tooltip.2=  PÅ - anpassade föremålstexturer (standard
 of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardtexturer för föremål, snabbare
 of.options.CUSTOM_ITEMS.tooltip.4=Det anpassade föremålstexturerna tillhandahålls av det
 of.options.CUSTOM_ITEMS.tooltip.5=aktuella texturpaketet
+
+of.options.CUSTOM_ENTITY_MODELS=Anpassade entitetsmodeller
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Anpassade entitetsmodeller
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  PÅ - anpassade entitetsmodeller (standard), långsamt
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  AV - standardentitetsmodeller, snabbare
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=De anpassade entitetsmodellerna tillhandahålls av det
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktuella resurspaketet
 
 # Details
 
