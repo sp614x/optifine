@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-7-17
-#   TheHADILP 2016-5-20 ---- 2016-6-28
+#   TheHADILP 2016-5-20 ---- 2016-9-23
 
 # General
 of.general.ambiguous=Unklar
@@ -317,6 +317,13 @@ of.options.CUSTOM_ITEMS.tooltip.2=  An - Ressourcenpaket-G.texturen (Standard), 
 of.options.CUSTOM_ITEMS.tooltip.3=  Aus - Standard-Gegenstandstexturen, schneller
 of.options.CUSTOM_ITEMS.tooltip.4=Die Gegenstandstexturen werden aus den aktivierten
 of.options.CUSTOM_ITEMS.tooltip.5=Ressourcenpaketen geladen.
+
+of.options.CUSTOM_ENTITY_MODELS=Lebewesen und Dinge
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Lebewesen und Dinge
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  An - Res.Paket Wesen und Dinge (Standard), langsam
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Aus - Standard Wesen und Dinge, schneller
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Die benutzerdefinierten Wesen und Dinge werden aus den
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktivierten Ressourcenpaketen geladen.
 
 # Details
 
