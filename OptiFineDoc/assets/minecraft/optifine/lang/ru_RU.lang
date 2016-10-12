@@ -310,11 +310,11 @@ of.options.CUSTOM_ITEMS.tooltip.3=  Выкл - стандартные текст
 of.options.CUSTOM_ITEMS.tooltip.4=Пользовательские текстуры предметов предоставляются текущим пакетом
 of.options.CUSTOM_ITEMS.tooltip.5=ресурсов.
 
-of.options.CUSTOM_ENTITY_MODELS=Пользовательские сущности
-of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Пользовательские модели сущностей
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Вкл - пользовательские модели сущностей (по умолчанию), медленно
-of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Выкл - стандартные модели сущностей, быстрее
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Пользовательские модели сущностей предоставляются текущим пакетом
+of.options.CUSTOM_ENTITY_MODELS=Пользовательские существа
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Пользовательские модели существ
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Вкл - пользовательские модели существ (по умолчанию), медленно
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Выкл - стандартные модели существ, быстрее
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Пользовательские модели существ предоставляются текущим пакетом
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=ресурсов.
 
 # Details
@@ -391,9 +391,9 @@ of.options.DROPPED_ITEMS.tooltip.2=  По умолчанию - согласно 
 of.options.DROPPED_ITEMS.tooltip.3=  Быстро - двухмерные выкинутые предметы, быстрее
 of.options.DROPPED_ITEMS.tooltip.4=  Детально - трёхмерные выкинутые предметы, медленее
 
-options.entityShadows.tooltip.1=Тени сущностей
-options.entityShadows.tooltip.2=  Вкл - показывать тени сущностей
-options.entityShadows.tooltip.3=  Выкл - не показывать тени сущностей
+options.entityShadows.tooltip.1=Тени существ
+options.entityShadows.tooltip.2=  Вкл - показывать тени существ
+options.entityShadows.tooltip.3=  Выкл - не показывать тени существ
 
 of.options.VIGNETTE=Виньетирование
 of.options.VIGNETTE.tooltip.1=Визуальный эффект, слегка затемняющий края экрана
