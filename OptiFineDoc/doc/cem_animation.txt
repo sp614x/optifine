@@ -40,6 +40,7 @@
 #   tx, ty, tz - translation x, y, z
 #   rx, ry, rz - rotation x, y, z
 #   ox, oy, oz - offset x, y, z (absolute, not scaling with model, can be used for translation animations)
+#   sx, sy, sz - scale x, y, z
 # 
 # Expressions
 #
