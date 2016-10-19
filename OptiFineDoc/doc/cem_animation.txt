@@ -24,7 +24,7 @@
 #  "this" - current custom model
 #  "part" - the original part model to which the custom model is attached
 #  "<part>" - original model by part name  
-#  "<id>" - custom model by ID  
+#  "<id>" - custom model by ID
 #  "<part>:<sub_id>:<sub_sub_id>:..." - (hierarchical) start with original model by part name, then find children by ID
 #  "<id>:<sub_id>:<sub_sub_id>:..." - (hierarchical) start with model by ID, then find children by ID
 #
@@ -40,6 +40,7 @@
 #   tx, ty, tz - translation x, y, z
 #   rx, ry, rz - rotation x, y, z
 #   ox, oy, oz - offset x, y, z (absolute, not scaling with model, can be used for translation animations)
+#   sx, sy, sz - scale x, y, z
 # 
 # Expressions
 #
