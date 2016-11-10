@@ -63,7 +63,7 @@
 #   scale - render scale, default is 0.0625
 #
 # Operators
-#   +, -, *, /
+#   +, -, *, /, %
 #
 # Functions
 #   sin(x)
@@ -82,6 +82,7 @@
 #   frac(x)
 #   round(x)
 #   sqrt(x)
+#   fmod(x,y) - similar to Math.floorMod()
 #
 #  Example:
 #    ...
