@@ -383,6 +383,14 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Käeshoitavate esemete näpunäited
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  SEES - kuva näpunäiteid käeshoitavatel esemetel (vaikimisi)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  VÄLJAS - ära kuva näpunäiteid käeshoitavatel esemetel
 
+of.options.ADVANCED_TOOLTIPS=Täpsemad näpunäited
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Täpsemad näpunäited
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  ON - kuva täpsemad näpunäited 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  OFF - peida täpsemad näpunäited (vaikimisi)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Täpsemad näpunäited kuvavad laiendatud infot
+of.options.ADVANCED_TOOLTIPS.tooltip.5=esemete kohta (ID, vastupidavus) ja varjutajate
+of.options.ADVANCED_TOOLTIPS.tooltip.6=valikute kohta (ID, allikas, vaikeväärtus)
+
 of.options.DROPPED_ITEMS=Visatud esemed
 of.options.DROPPED_ITEMS.tooltip.1=Maha visatud esemed
 of.options.DROPPED_ITEMS.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
