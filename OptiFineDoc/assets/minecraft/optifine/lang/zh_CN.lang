@@ -1,7 +1,7 @@
 # Contributors of Chinese localization #
 #   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-9-24
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
-#   hukk From MCBBS 2013-7-13 ---- 2016-1-19
+#   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
 #   Language File Begins Here...
 
@@ -339,8 +339,8 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - 超过世界限定高度
 of.options.TREES=树
 of.options.TREES.tooltip.1=树
 of.options.TREES.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.TREES.tooltip.3=  流畅 - 低品质，较快
-of.options.TREES.tooltip.4=  智能 - 较高品质，较低速度
+of.options.TREES.tooltip.3=  流畅 - 低品质，最快
+of.options.TREES.tooltip.4=  智能 - 较高品质，较快
 of.options.TREES.tooltip.5=  高品质 - 高品质，较慢
 of.options.TREES.tooltip.6=低品质的树叶不透明，
 of.options.TREES.tooltip.7=高品质的树叶透明镂空。
@@ -421,8 +421,8 @@ of.options.DYNAMIC_LIGHTS.tooltip.2=  关 - 无动态光源（默认）
 of.options.DYNAMIC_LIGHTS.tooltip.3=  流畅 - 较快的动态光源（每500ms更新一次）
 of.options.DYNAMIC_LIGHTS.tooltip.4=  高品质 - 高品质的动态光源（实时更新）
 of.options.DYNAMIC_LIGHTS.tooltip.5=允许发光的物品（火把、萤石等）
-of.options.DYNAMIC_LIGHTS.tooltip.6=当被手持、被其他玩家装备
-of.options.DYNAMIC_LIGHTS.tooltip.7=或掉在地上时，照亮周围的一切
+of.options.DYNAMIC_LIGHTS.tooltip.6=当被玩家左右手持握、装备或
+of.options.DYNAMIC_LIGHTS.tooltip.7=成为掉落物时照亮周围的一切
 
 # Performance
 
