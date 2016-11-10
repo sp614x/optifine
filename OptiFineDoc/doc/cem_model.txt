@@ -84,6 +84,14 @@
       "attach": <true|false>,                                           - True: attach to the entity part, False: replace it
       "scale": <scale>,                                                 - Render scale, default is 1.0
       # Part Model definition, see "cem_part.txt" for details           - Part model definition (inline)
+      "animations":
+      [
+        {
+          "variable1": "expression1",                                   - See "cem_animation.txt" for details
+          "variable2": "expression2,
+          ...
+        }
+      ]
       ...
     },
     ...

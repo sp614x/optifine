@@ -1,0 +1,98 @@
+######################################################################
+# Custom Entity Model Animations
+# Reference configuration for OptiFine's feature Custom Entity Models
+######################################################################
+# Each model variable which is to be animated is assigned an expression. 
+# The expression is evaluated every time the model is rendered and its value is assigned to the variable.
+# The variables and expressions are defined in the "animation" section of the json entity model (JEM).
+#  
+#  "animations":
+#  [
+#    {
+#      "variable1": "expression1",    
+#      "variable2": "expression2,
+#      ...
+#    }
+#  ]
+# 
+# 
+# Variables
+# Model variables are specified in the format 
+#   "<model>.<variable_name>"
+#
+# The model can be:
+#  "this" - current custom model
+#  "part" - the original part model to which the custom model is attached
+#  "<part>" - original model by part name  
+#  "<id>" - custom model by ID
+#  "<part>:<sub_id>:<sub_sub_id>:..." - (hierarchical) start with original model by part name, then find children by ID
+#  "<id>:<sub_id>:<sub_sub_id>:..." - (hierarchical) start with model by ID, then find children by ID
+#
+# The first model found by part name or ID is used if there are duplicates.
+# The model search by ID is deep, also when used in a hierarchical specification. 
+#
+# The hierarchical specification allows model groups (json part models) to be reused for different parts. 
+# For example one hand model ("shoulder:upper_arm:elbow:forearm:palm:finger[1.5]" can be used for both left and right hand.
+# The animation can use "left_hand:finger1" for the left thumb and "right_hand:finger1" for the right thumb. 
+# The intermediate parents in the hierarchical specification can be skipped. 
+#
+# Variable names
+#   tx, ty, tz - translation x, y, z
+#   rx, ry, rz - rotation x, y, z
+#   ox, oy, oz - offset x, y, z (absolute, not scaling with model, can be used for translation animations)
+#   sx, sy, sz - scale x, y, z
+# 
+# Expressions
+#
+# Expressions are general mathematical expressions with brackets, constants, variables, operators and functions.
+#
+# Constants
+#   floating point number
+#   pi - 3.1415926
+#
+# Variables
+#   <model>.<var> - model variable, see the model variable specification
+#   time - current world time in ticks
+#
+# Render variables (living entity)
+#   limb_swing - limb animation counter
+#   limb_speed - limb movement speed
+#   age - age in ticks
+#   head_yaw - head yaw
+#   head_pitch - head pitch
+#   scale - render scale, default is 0.0625
+#
+# Operators
+#   +, -, *, /, %
+#
+# Functions
+#   sin(x)
+#   cos(x)
+#   tan(x)
+#   atan(x)
+#   atan2(y,x)
+#   torad(deg)
+#   todeg(rad)
+#   min(x,y)
+#   max(x,y)
+#   clamp(x,xmin,xmax)
+#   abs(x)
+#   floor(x)
+#   ceil(x)
+#   frac(x)
+#   round(x)
+#   sqrt(x)
+#   fmod(x,y) - similar to Math.floorMod()
+#
+#  Example:
+#    ...
+#    "animations":
+#    [
+#      {
+#        "this.rx": "clamp(-0.5 * part.rx, 0, 90)",
+#        "this.tx": "3 * sin(limb_swing / 4) - 2",
+#        "this:Hoof.rx": "leg4:Hoof.rx / 2"
+#        ...
+#      }
+#    ]
+#    

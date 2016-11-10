@@ -12,6 +12,15 @@
 # Either the box format or the individual face UV should be used, they can not be mixed.
 # The box format UV mapping is shown in "model_box.png".
 #
+# Textures can be specified as:
+#   "texture" - (no '/' in name), look in current folder
+#   "./folder/texture" - relative to current folder
+#   "~/folder/texture" - relative to folder "assets/minecraft/optifine/"
+#   "folder/texture" - relative to folder "assets/minecraft/"
+#   "mod:folder/texture - resolves as "assets/mod/folder/texture.png"
+# 
+# The texture suffix ".png" is optional.
+#
 # Required elements:
 # - "textureOffset" or individual face UV
 # - "coordinates" 

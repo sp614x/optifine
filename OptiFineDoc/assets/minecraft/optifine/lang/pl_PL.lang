@@ -304,7 +304,14 @@ of.options.CUSTOM_ITEMS.tooltip.1=Własne przedmioty
 of.options.CUSTOM_ITEMS.tooltip.2=  Wł. - własne tekstury przedmiotów (domyślne), niższa wydajność
 of.options.CUSTOM_ITEMS.tooltip.3=  Wył. - domyślne tesktury przedmiotów, wyższa wydajność
 of.options.CUSTOM_ITEMS.tooltip.4=Własne tekstury przedmiotów są pobierane
-of.options.CUSTOM_ITEMS.tooltip.5=z aktualnej paczki tekstur
+of.options.CUSTOM_ITEMS.tooltip.5=z aktualnej paczki tekstur.
+
+of.options.CUSTOM_ENTITY_MODELS=Własne modele mobów
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Własne modele mobów i innych podmiotów
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Wł. - opcja włączona (domyślne), wolniej
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Wył. - opcja wyłączona, szybciej
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Własne modele są pobierane z
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktualnej paczki tekstur.
 
 # Details
 

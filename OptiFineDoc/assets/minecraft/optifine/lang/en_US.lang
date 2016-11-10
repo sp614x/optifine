@@ -381,6 +381,14 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Held item tooltips
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  ON - show tooltips for held items (default)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  OFF - do not show tooltips for held items
 
+of.options.ADVANCED_TOOLTIPS=Advanced Tooltips
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Advanced tooltips
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  ON - show advanced tooltips 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  OFF - do not show advanced tooltips (default)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Advanced tooltips show extended information for
+of.options.ADVANCED_TOOLTIPS.tooltip.5=items (id, durability) and for shader options
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, source, default value)
+
 of.options.DROPPED_ITEMS=Dropped Items
 of.options.DROPPED_ITEMS.tooltip.1=Dropped Items
 of.options.DROPPED_ITEMS.tooltip.2=  Default - as set by setting Graphics

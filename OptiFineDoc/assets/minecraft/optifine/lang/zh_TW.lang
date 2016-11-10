@@ -1,5 +1,5 @@
 # Contributors of Traditional Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-06-29
+#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-09-24
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi 2016-03-03
 ##-------------- zh_TW ---------------
@@ -313,6 +313,13 @@ of.options.CUSTOM_ITEMS.tooltip.3=  開啟 - 默認物品材質,較快
 of.options.CUSTOM_ITEMS.tooltip.4=自定義物品材質一般由
 of.options.CUSTOM_ITEMS.tooltip.5=當前的資源包提供
 
+of.options.CUSTOM_ENTITY_MODELS=自定義實體模型
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=自定義實體模型
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  關閉 - 自定義實體模型(預設),較慢
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  開啟 - 默認實體模型,較快
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定義實體模型材質一般由
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=當前的資源包提供
+
 # Details
 
 of.options.CLOUDS=雲塊
@@ -332,9 +339,9 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - 超過世界限定高度
 of.options.TREES=樹
 of.options.TREES.tooltip.1=樹
 of.options.TREES.tooltip.2=  預設 - 以圖像畫質設定為標準
-of.options.TREES.tooltip.3=  性能優先 - 低品質, 較快
-of.options.TREES.tooltip.4=  智能 - 高品質, 快
-of.options.TREES.tooltip.4=  畫質優先 - 較高品質, 較慢
+of.options.TREES.tooltip.3=  性能優先 - 低品質, 最快
+of.options.TREES.tooltip.4=  智能 - 較高品質, 較快
+of.options.TREES.tooltip.4=  畫質優先 - 高品質, 較慢
 of.options.TREES.tooltip.5=性能優先的樹葉不透明.
 of.options.TREES.tooltip.6=畫質優先的樹葉透明.
 
@@ -414,8 +421,8 @@ of.options.DYNAMIC_LIGHTS.tooltip.2=  關閉 - 無動態光源(預設)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  性能優先 - 較快的動態光源(每500ms更新一次)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  畫質優先 - 高品質的動態光源(即時更新)
 of.options.DYNAMIC_LIGHTS.tooltip.5=允許發光的物品(火把,螢石等)
-of.options.DYNAMIC_LIGHTS.tooltip.6=當被手持,被其他玩家裝備
-of.options.DYNAMIC_LIGHTS.tooltip.7=或掉在地上時，照亮周圍的一切
+of.options.DYNAMIC_LIGHTS.tooltip.6=當被玩家左右手持握、裝備或
+of.options.DYNAMIC_LIGHTS.tooltip.7=成爲掉落物時照亮周圍的一切
 
 # Performance
 
