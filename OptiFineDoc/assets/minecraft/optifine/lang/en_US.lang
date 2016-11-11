@@ -570,5 +570,3 @@ of.options.AUTOSAVE_TICKS=Autosave
 of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
 of.options.AUTOSAVE_TICKS.tooltip.2=Default autosave interval (2s) is NOT RECOMMENDED.
 of.options.AUTOSAVE_TICKS.tooltip.3=Autosave causes the famous Lag Spike of Death.
-
-options.anaglyph.tooltip.1=3D mode used with red-cyan 3D glasses.
