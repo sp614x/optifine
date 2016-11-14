@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-9-24
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-11-11
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -387,6 +387,14 @@ of.options.HELD_ITEM_TOOLTIPS=持有物信息显示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持有物信息显示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  开 - 显示持有物信息（默认）
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  关 - 隐藏持有物信息
+
+of.options.ADVANCED_TOOLTIPS=高级信息提示
+of.options.ADVANCED_TOOLTIPS.tooltip.1=高级信息提示
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  开 - 显示高级信息提示
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  关 - 隐藏高级信息提示（默认）
+of.options.ADVANCED_TOOLTIPS.tooltip.4=高级信息提示显示物品
+of.options.ADVANCED_TOOLTIPS.tooltip.5=（ID、耐久度）和光影设置
+of.options.ADVANCED_TOOLTIPS.tooltip.6=（ID、源、默认值）的拓展信息
 
 of.options.DROPPED_ITEMS=掉落物品
 of.options.DROPPED_ITEMS.tooltip.1=掉落物品
