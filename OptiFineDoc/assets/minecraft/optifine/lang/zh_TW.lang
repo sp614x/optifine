@@ -577,5 +577,3 @@ of.options.AUTOSAVE_TICKS=自動保存
 of.options.AUTOSAVE_TICKS.tooltip.1=自動保存間隔
 of.options.AUTOSAVE_TICKS.tooltip.2=默認自動保存間隔(2秒) 不推薦.
 of.options.AUTOSAVE_TICKS.tooltip.3=自動保存會導致卡頓.
-
-options.anaglyph.tooltip.1=3D模式請使用3D紅藍眼鏡.
