@@ -577,5 +577,3 @@ of.options.AUTOSAVE_TICKS=自动保存
 of.options.AUTOSAVE_TICKS.tooltip.1=自动保存间隔
 of.options.AUTOSAVE_TICKS.tooltip.2=不推荐使用默认自动保存间隔（2秒）。
 of.options.AUTOSAVE_TICKS.tooltip.3=自动保存导致了著名的“死亡卡顿”。
-
-options.anaglyph.tooltip.1=3D模式请使用3D红蓝眼镜。
