@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-10-12
-#   TheHADILP 2016-5-20 ---- 2016-9-23
+#   TheHADILP 2016-5-20 ---- 2016-11-11
 
 # General
 of.general.ambiguous=Unklar
@@ -108,7 +108,7 @@ options.gamma.tooltip.4=  Hell - Maximale Helligkeit für dunkle Objekte
 options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von ganz
 options.gamma.tooltip.6=schwarzen Objekten.
 
-options.anaglyph.tooltip.1=3D-Modus
+options.anaglyph.tooltip.1=3D-Effekt
 options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
 options.anaglyph.tooltip.3=Verwenden unterschiedlicher Farben für jedes Auge.
 options.anaglyph.tooltip.4=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
@@ -395,6 +395,14 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Gegenstandsbeschreibung
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  An - Zeige Gegenstandsbeschreibung (Standard)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Aus - Zeige keine Gegenstandsbeschreibung
 of.options.HELD_ITEM_TOOLTIPS.tooltip.4=Wird über der Schnellzugriffsleiste angezeigt.
+
+of.options.ADVANCED_TOOLTIPS=Erweiterte Schnellinfo
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Erweiterte Schnellinfo
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  An - Zeige erweiterte Schnellinfo
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  Aus - Keine erweiterte Schnellinfo (Standard)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Zeigt ausführliche Informationen über Gegenstände
+of.options.ADVANCED_TOOLTIPS.tooltip.5=(ID, Haltbarkeit) und Shader Einstellungen (ID, Quelle,
+of.options.ADVANCED_TOOLTIPS.tooltip.6=Standardwert) an.
 
 of.options.DROPPED_ITEMS=Gegenstände
 of.options.DROPPED_ITEMS.tooltip.1=Liegende Gegenstände

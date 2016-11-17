@@ -381,6 +381,14 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Popisek k Drženému Itemu
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  ZAPNUTO - zobrazovat popisky (výchozí)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  VYPNUTO - nezobrazovat popisky
 
+of.options.ADVANCED_TOOLTIPS=Pokročilé Popisky
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Pokročilé Popisky
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  ZAPNUTO - zobrazit pokročilé popisky 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  VYPNUTO - nezobrazovat pokročilé popisky (výchozí)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Pokročilé popisky zobrazí pokročilé informace pro
+of.options.ADVANCED_TOOLTIPS.tooltip.5=itemy (id, durabilita) a pro možnosti stínů
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, zdroj, výchozí hodnota)
+
 of.options.DROPPED_ITEMS=Vyhozené Itemy
 of.options.DROPPED_ITEMS.tooltip.1=Vyhozené Itemy
 of.options.DROPPED_ITEMS.tooltip.2=  Výchozí - podle nastavení Grafiky

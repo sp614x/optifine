@@ -107,6 +107,7 @@ options.anaglyph.tooltip.2=Вмикає стереоскопічний 3D ефе
 options.anaglyph.tooltip.3=для кожного ока.
 options.anaglyph.tooltip.4=Потребує червоно-сині окуляри для перегляду.
 
+of.options.ALTERNATE_BLOCKS=Альтернативні блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативні блоки
 of.options.ALTERNATE_BLOCKS.tooltip.2=Використовує альтернативні моделі для деяких блоків.
 of.options.ALTERNATE_BLOCKS.tooltip.3=Базується на обраному ресурспаці.
@@ -306,6 +307,13 @@ of.options.CUSTOM_ITEMS.tooltip.3=  Вимк - базові речі, швидш
 of.options.CUSTOM_ITEMS.tooltip.4=Власна текстура неба може бути змінена
 of.options.CUSTOM_ITEMS.tooltip.5=ресурспаком
 
+of.options.CUSTOM_ENTITY_MODELS=Власні моделі істот
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Власні моделі істот
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Увімк - власні моделі для істот (базово), повільно
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Вимк - стандартні моделі істот, швидше
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Моделі істот можуть бути змінені
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=ресурспаком
+
 # Details
 
 of.options.CLOUDS=Хмари
@@ -373,6 +381,14 @@ of.options.HELD_ITEM_TOOLTIPS=Спливаючі підказки
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Спливаючі підказки
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Увімк - показувати спливаючі підказки (базово)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Вимк - не показувати підказок
+
+of.options.ADVANCED_TOOLTIPS=Розширені підказки
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Розширені спливаючі підказки
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  Увімк - показувати розширені підказки 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  Вимк - не показувати розширені підказки (базово)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Розширені підказки показують більше інформації про
+of.options.ADVANCED_TOOLTIPS.tooltip.5=речі (id, міцність) і для налаштування шейдерів
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, джерело, стандартне значення)
 
 of.options.DROPPED_ITEMS=Викинуті речі
 of.options.DROPPED_ITEMS.tooltip.1=Викинуті речі
