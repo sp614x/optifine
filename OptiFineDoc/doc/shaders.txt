@@ -9,7 +9,7 @@ Color Attachments
 =================
 The data is passed from shader to shader using color attachments. 
 There are at least 4 for all machines. For machines that can support it, there are 7. 
-In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, and gaux3 uniforms. 
+In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms. 
 Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
