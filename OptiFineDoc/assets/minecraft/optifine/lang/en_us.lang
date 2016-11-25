@@ -35,7 +35,7 @@ of.message.shaders.an1=Shaders are not compatible with 3D Anaglyph.
 of.message.shaders.an2=Please set Other -> 3D Anaglyph to OFF.
 
 of.message.newVersion=A new §eOptiFine§f version is available: §e%s§f
-of.message.java64Bit=You can install §e64-bit Java§f to increase performance
+of.message.java64Bit=You can install §e64-bit Java§f to increase performance.
 of.message.openglError=§eOpenGL Error§f: %s (%s)
 
 of.message.shaders.loading=Loading shaders: %s
@@ -88,7 +88,7 @@ options.viewBobbing.tooltip.1=More realistic movement.
 options.viewBobbing.tooltip.2=When using mipmaps set it to OFF for best results.
 
 options.guiScale.tooltip.1=GUI Scale
-options.guiScale.tooltip.2=Smaller GUI might be faster
+options.guiScale.tooltip.2=Smaller GUI might be faster.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Uses an alternative rendering model which is usually
@@ -99,7 +99,7 @@ options.gamma.tooltip.2=  Moody - standard brightness
 options.gamma.tooltip.3=  1-99%% - variable
 options.gamma.tooltip.4=  Bright - maximum brightness for darker objects
 options.gamma.tooltip.5=This option does not change the brightness of 
-options.gamma.tooltip.6=fully black objects
+options.gamma.tooltip.6=fully black objects.
 
 options.anaglyph.tooltip.1=3D Anaglyph
 options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colors
@@ -186,7 +186,7 @@ of.options.mipmap.nearest=Nearest
 of.options.mipmap.trilinear=Trilinear
 
 options.mipmapLevels.tooltip.1=Visual effect which makes distant objects look better
-options.mipmapLevels.tooltip.2=by smoothing the texture details
+options.mipmapLevels.tooltip.2=by smoothing the texture details.
 options.mipmapLevels.tooltip.3=  OFF - no smoothing
 options.mipmapLevels.tooltip.4=  1 - minimum smoothing
 options.mipmapLevels.tooltip.5=  4 - maximum smoothing
@@ -194,7 +194,7 @@ options.mipmapLevels.tooltip.6=This option usually does not affect the performan
 
 of.options.MIPMAP_TYPE=Mipmap Type
 of.options.MIPMAP_TYPE.tooltip.1=Visual effect which makes distant objects look better
-of.options.MIPMAP_TYPE.tooltip.2=by smoothing the texture details
+of.options.MIPMAP_TYPE.tooltip.2=by smoothing the texture details.
 of.options.MIPMAP_TYPE.tooltip.3=  Nearest - rough smoothing (fastest)
 of.options.MIPMAP_TYPE.tooltip.4=  Linear - normal smoothing
 of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - fine smoothing
@@ -242,21 +242,21 @@ of.options.BETTER_SNOW.tooltip.1=Better Snow
 of.options.BETTER_SNOW.tooltip.2=  OFF - default snow, faster
 of.options.BETTER_SNOW.tooltip.3=  ON - better snow, slower
 of.options.BETTER_SNOW.tooltip.4=Shows snow under transparent blocks (fence, tall grass)
-of.options.BETTER_SNOW.tooltip.5=when bordering with snow blocks
+of.options.BETTER_SNOW.tooltip.5=when bordering with snow blocks.
 
 of.options.CUSTOM_FONTS=Custom Fonts
 of.options.CUSTOM_FONTS.tooltip.1=Custom Fonts
 of.options.CUSTOM_FONTS.tooltip.2=  ON - uses custom fonts (default), slower
 of.options.CUSTOM_FONTS.tooltip.3=  OFF - uses default font, faster
 of.options.CUSTOM_FONTS.tooltip.4=The custom fonts are supplied by the current
-of.options.CUSTOM_FONTS.tooltip.5=resource pack
+of.options.CUSTOM_FONTS.tooltip.5=resource pack.
 
 of.options.CUSTOM_COLORS=Custom Colors
 of.options.CUSTOM_COLORS.tooltip.1=Custom Colors
 of.options.CUSTOM_COLORS.tooltip.2=  ON - uses custom colors (default), slower
 of.options.CUSTOM_COLORS.tooltip.3=  OFF - uses default colors, faster
 of.options.CUSTOM_COLORS.tooltip.4=The custom colors are supplied by the current
-of.options.CUSTOM_COLORS.tooltip.5=resource pack
+of.options.CUSTOM_COLORS.tooltip.5=resource pack.
 
 of.options.SWAMP_COLORS=Swamp Colors
 of.options.SWAMP_COLORS.tooltip.1=Swamp Colors
@@ -290,28 +290,28 @@ of.options.NATURAL_TEXTURES.tooltip.4=Natural textures remove the gridlike patte
 of.options.NATURAL_TEXTURES.tooltip.5=created by repeating blocks of the same type.
 of.options.NATURAL_TEXTURES.tooltip.6=It uses rotated and flipped variants of the base
 of.options.NATURAL_TEXTURES.tooltip.7=block texture. The configuration for the natural
-of.options.NATURAL_TEXTURES.tooltip.8=textures is supplied by the current resource pack
+of.options.NATURAL_TEXTURES.tooltip.8=textures is supplied by the current resource pack.
 
 of.options.CUSTOM_SKY=Custom Sky
 of.options.CUSTOM_SKY.tooltip.1=Custom Sky
 of.options.CUSTOM_SKY.tooltip.2=  ON - custom sky textures (default), slow
 of.options.CUSTOM_SKY.tooltip.3=  OFF - default sky, faster
 of.options.CUSTOM_SKY.tooltip.4=The custom sky textures are supplied by the current
-of.options.CUSTOM_SKY.tooltip.5=resource pack
+of.options.CUSTOM_SKY.tooltip.5=resource pack.
 
 of.options.CUSTOM_ITEMS=Custom Items
 of.options.CUSTOM_ITEMS.tooltip.1=Custom Items
 of.options.CUSTOM_ITEMS.tooltip.2=  ON - custom item textures (default), slow
 of.options.CUSTOM_ITEMS.tooltip.3=  OFF - default item textures, faster
 of.options.CUSTOM_ITEMS.tooltip.4=The custom item textures are supplied by the current
-of.options.CUSTOM_ITEMS.tooltip.5=resource pack
+of.options.CUSTOM_ITEMS.tooltip.5=resource pack.
 
 of.options.CUSTOM_ENTITY_MODELS=Custom Entity Models
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Custom Entity Models
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  ON - custom entity models (default), slow
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  OFF - default entity models, faster
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=The custom entity models are supplied by the current
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resource pack
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resource pack.
 
 # Details
 
@@ -387,7 +387,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.2=  ON - show advanced tooltips
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  OFF - do not show advanced tooltips (default)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Advanced tooltips show extended information for
 of.options.ADVANCED_TOOLTIPS.tooltip.5=items (id, durability) and for shader options
-of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, source, default value)
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, source, default value).
 
 of.options.DROPPED_ITEMS=Dropped Items
 of.options.DROPPED_ITEMS.tooltip.1=Dropped Items
@@ -400,14 +400,14 @@ options.entityShadows.tooltip.2=  ON - show entity shadows
 options.entityShadows.tooltip.3=  OFF - do not show entity shadows
 
 of.options.VIGNETTE=Vignette
-of.options.VIGNETTE.tooltip.1=Visual effect which slightly darkens the screen corners
+of.options.VIGNETTE.tooltip.1=Visual effect which slightly darkens the screen corners.
 of.options.VIGNETTE.tooltip.2=  Default - as set by the setting Graphics (default)
 of.options.VIGNETTE.tooltip.3=  Fast - vignette disabled (faster)
 of.options.VIGNETTE.tooltip.4=  Fancy - vignette enabled (slower)
 of.options.VIGNETTE.tooltip.5=The vignette may have a significant effect on the FPS,
 of.options.VIGNETTE.tooltip.6=especially when playing fullscreen.
 of.options.VIGNETTE.tooltip.7=The vignette effect is very subtle and can safely
-of.options.VIGNETTE.tooltip.8=be disabled
+of.options.VIGNETTE.tooltip.8=be disabled.
 
 of.options.DYNAMIC_FOV=Dynamic FOV
 of.options.DYNAMIC_FOV.tooltip.1=Dynamic FOV
@@ -423,16 +423,16 @@ of.options.DYNAMIC_LIGHTS.tooltip.3=  Fast - fast dynamic lights (updated every 
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Fancy - fancy dynamic lights (updated in real-time)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Enables light emitting items (torch, glowstone, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=to illuminate everything around them when held in hand,
-of.options.DYNAMIC_LIGHTS.tooltip.7=equipped by other player or dropped on the ground
+of.options.DYNAMIC_LIGHTS.tooltip.7=equipped by other player or dropped on the ground.
 
 # Performance
 
 of.options.SMOOTH_FPS=Smooth FPS
-of.options.SMOOTH_FPS.tooltip.1=Stabilizes FPS by flushing the graphic driver buffers
+of.options.SMOOTH_FPS.tooltip.1=Stabilizes FPS by flushing the graphic driver buffers.
 of.options.SMOOTH_FPS.tooltip.2=  OFF - no stabilization, FPS may fluctuate
 of.options.SMOOTH_FPS.tooltip.3=  ON - FPS stabilization
 of.options.SMOOTH_FPS.tooltip.4=This option is graphics driver dependant and its effect
-of.options.SMOOTH_FPS.tooltip.5=is not always visible
+of.options.SMOOTH_FPS.tooltip.5=is not always visible.
 
 of.options.SMOOTH_WORLD=Smooth World
 of.options.SMOOTH_WORLD.tooltip.1=Removes lag spikes caused by the internal server.
@@ -520,7 +520,7 @@ of.options.PROFILER.tooltip.1=Debug Profiler
 of.options.PROFILER.tooltip.2=  ON - debug profiler is active, slower
 of.options.PROFILER.tooltip.3=  OFF - debug profiler is not active, faster
 of.options.PROFILER.tooltip.4=The debug profiler collects and shows debug information
-of.options.PROFILER.tooltip.5=when the debug screen is open (F3)
+of.options.PROFILER.tooltip.5=when the debug screen is open (F3).
 
 of.options.WEATHER=Weather
 of.options.WEATHER.tooltip.1=Weather
@@ -554,7 +554,7 @@ of.options.FULLSCREEN_MODE.tooltip.4=The selected resolution is used in fullscre
 of.options.FULLSCREEN_MODE.tooltip.5=Lower resolutions should generally be faster.
 
 of.options.SHOW_FPS=Show FPS
-of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information
+of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information.
 of.options.SHOW_FPS.tooltip.2=  C: - chunk renderers
 of.options.SHOW_FPS.tooltip.3=  E: - rendered entities + block entities
 of.options.SHOW_FPS.tooltip.4=  U: - chunk updates
@@ -575,5 +575,7 @@ of.options.SCREENSHOT_SIZE=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.2=  Default - default screenshot size
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - custom screenshot size
-of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshot may need more memory
+of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshot may need more memory.
+of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with option Fast Render.
+of.options.SCREENSHOT_SIZE.tooltip.6=Requires GPU framebuffer support.
 
