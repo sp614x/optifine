@@ -570,3 +570,10 @@ of.options.AUTOSAVE_TICKS=Autosave
 of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
 of.options.AUTOSAVE_TICKS.tooltip.2=Default autosave interval (2s) is NOT RECOMMENDED.
 of.options.AUTOSAVE_TICKS.tooltip.3=Autosave causes the famous Lag Spike of Death.
+
+of.options.SCREENSHOT_SIZE=Screenshot Size
+of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
+of.options.SCREENSHOT_SIZE.tooltip.2=  Default - default screenshot size
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - custom screenshot size
+of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshot may need more memory
+
