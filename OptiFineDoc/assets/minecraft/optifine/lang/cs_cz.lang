@@ -438,7 +438,7 @@ of.options.SMOOTH_WORLD=Vyhlazený Svět
 of.options.SMOOTH_WORLD.tooltip.1=Odstraní lagy způsobené interním serverem.
 of.options.SMOOTH_WORLD.tooltip.2=  VYPNUTO - žádná stabilizace, FPS mohou kolísat
 of.options.SMOOTH_WORLD.tooltip.3=  ZAPNUTO - stabilizace FPS
-of.options.SMOOTH_WORLD.tooltip.4=Stabilizuje FPS rozdělením nsčítání světa.
+of.options.SMOOTH_WORLD.tooltip.4=Stabilizuje FPS rozdělením načítání světa.
 of.options.SMOOTH_WORLD.tooltip.5=Funguje jen na lokálních světech (hra pro jednoho hráče).
 
 of.options.FAST_RENDER=Rychlý Render
@@ -571,4 +571,8 @@ of.options.AUTOSAVE_TICKS.tooltip.1=Interval auto-ukládání
 of.options.AUTOSAVE_TICKS.tooltip.2=Výchozí interval auto-ukládání (2s) se NEDOPORUčUJE
 of.options.AUTOSAVE_TICKS.tooltip.3=Auto-ukládání způsobuje slavné sekací Smrti (Lag Spikes of Death).
 
-options.anaglyph.tooltip.1=3D mód používá červeno-modré 3D brýle.
+of.options.SCREENSHOT_SIZE=Velikost Screenshotu
+of.options.SCREENSHOT_SIZE.tooltip.1=Velikost Snímku Obrazovky
+of.options.SCREENSHOT_SIZE.tooltip.2=  Výchozí - výchozí velikost screenshotu
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastním velikost screenshotu
+of.options.SCREENSHOT_SIZE.tooltip.4=Focení větších screenshotů může vyžadovat více paměti.
