@@ -598,4 +598,4 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - Benutzerdefinierte Screenshot Auf
 of.options.SCREENSHOT_SIZE.tooltip.4=Das Aufnehmen größerer Screenshots kann mehr
 of.options.SCREENSHOT_SIZE.tooltip.5=Speicher benötigen.
 of.options.SCREENSHOT_SIZE.tooltip.6=Nicht kompatibel mit der Option Schnelles Rendern.
-of.options.SCREENSHOT_SIZE.tooltip.7=Erfordert GPU Bildpuffer Unterstützung.
+of.options.SCREENSHOT_SIZE.tooltip.7=Erfordert Grafiktreiberpuffer Unterstützung.
