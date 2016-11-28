@@ -229,7 +229,7 @@ of.options.AF_LEVEL.tooltip.6=啟用它可能會大幅降低FPS.
 of.options.CLEAR_WATER=清澈水體
 of.options.CLEAR_WATER.tooltip.1=清澈水體
 of.options.CLEAR_WATER.tooltip.2=  關閉 - 清澈、透明水體
-of.options.CLEAR_WATER.tooltip.3=  開啟 - 默認水體
+of.options.CLEAR_WATER.tooltip.3=  開啟 - 預設水體
 
 of.options.RANDOM_MOBS=隨機生物
 of.options.RANDOM_MOBS.tooltip.1=隨機生物
@@ -240,13 +240,13 @@ of.options.RANDOM_MOBS.tooltip.5=這需要資源包內有多個生物、怪物�
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
-of.options.BETTER_GRASS.tooltip.2=  關閉 - 默認草地材質,較快
+of.options.BETTER_GRASS.tooltip.2=  關閉 - 預設草地材質,較快
 of.options.BETTER_GRASS.tooltip.3=  性能優先 - 草方塊側面全部使用草地材質,較慢
 of.options.BETTER_GRASS.tooltip.4=  畫質優先 - 草方塊側面材質動態化,最慢
 
 of.options.BETTER_SNOW=更好的雪地
 of.options.BETTER_SNOW.tooltip.1=更好的雪地
-of.options.BETTER_SNOW.tooltip.2=  關閉 - 默認的雪地,較快
+of.options.BETTER_SNOW.tooltip.2=  關閉 - 預設的雪地,較快
 of.options.BETTER_SNOW.tooltip.3=  開啟 - 更好的雪地,較慢
 of.options.BETTER_SNOW.tooltip.4=在"透明方塊"(如柵欄,高草)與雪
 of.options.BETTER_SNOW.tooltip.5=接壤時在其下顯示雪.
@@ -254,14 +254,14 @@ of.options.BETTER_SNOW.tooltip.5=接壤時在其下顯示雪.
 of.options.CUSTOM_FONTS=自定義字體
 of.options.CUSTOM_FONTS.tooltip.1=自定義字體
 of.options.CUSTOM_FONTS.tooltip.2=  開啟 - 使用自定義字體(預設),較慢
-of.options.CUSTOM_FONTS.tooltip.3=  關閉 - 使用默認字體,較快
+of.options.CUSTOM_FONTS.tooltip.3=  關閉 - 使用預設字體,較快
 of.options.CUSTOM_FONTS.tooltip.4=自定義字體一般由
 of.options.CUSTOM_FONTS.tooltip.5=當前的資源包提供.
 
 of.options.CUSTOM_COLORS=自定義色彩
 of.options.CUSTOM_COLORS.tooltip.1=自定義色彩
 of.options.CUSTOM_COLORS.tooltip.2=  開啟 - 使用自定義色彩(預設),較慢
-of.options.CUSTOM_COLORS.tooltip.3=  關閉 - 使用默認色彩,較快
+of.options.CUSTOM_COLORS.tooltip.3=  關閉 - 使用預設色彩,較快
 of.options.CUSTOM_COLORS.tooltip.4=自定義色彩一般由
 of.options.CUSTOM_COLORS.tooltip.5=當前的資源包提供.
 
@@ -393,8 +393,8 @@ of.options.ADVANCED_TOOLTIPS.tooltip.1=高級資訊提示
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  開啟 - 顯示高級資訊提示
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  關閉 - 隱藏高級資訊提示(預設)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=高級資訊提示顯示物品
-of.options.ADVANCED_TOOLTIPS.tooltip.5=（ID、耐久度）和光影設定
-of.options.ADVANCED_TOOLTIPS.tooltip.6=（ID、源、預設值）的拓展資訊.
+of.options.ADVANCED_TOOLTIPS.tooltip.5=(ID、耐久度)和光影設定
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(ID、源、預設值)的拓展資訊.
 
 of.options.DROPPED_ITEMS=掉落物品
 of.options.DROPPED_ITEMS.tooltip.1=掉落物品
@@ -513,7 +513,7 @@ of.options.FIREWORK_PARTICLES=煙花粒子
 # Other
 
 of.options.LAGOMETER=快速調試信息
-of.options.LAGOMETER.tooltip.1=顯示調試信息在調試界面 (F3).
+of.options.LAGOMETER.tooltip.1=在調試界面顯示調試信息 (F3).
 of.options.LAGOMETER.tooltip.2=* 橙 - 內存垃圾回收
 of.options.LAGOMETER.tooltip.3=* 青 - 勾
 of.options.LAGOMETER.tooltip.4=* 藍 - 預定的可執行文件
@@ -580,8 +580,8 @@ of.options.AUTOSAVE_TICKS.tooltip.3=自動保存會導致卡頓.
 
 of.options.SCREENSHOT_SIZE=截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.1=截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.2=默認 - 默認的截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.3= 2x-4x - 自定義截圖尺寸
+of.options.SCREENSHOT_SIZE.tooltip.2=預設 - 預設認的截圖尺寸
+of.options.SCREENSHOT_SIZE.tooltip.3=2x-4x - 自定義截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體.
 of.options.SCREENSHOT_SIZE.tooltip.5=與快速渲染選項不相容.
 of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡幀緩衝區支持.
