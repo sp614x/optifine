@@ -573,3 +573,9 @@ of.options.AUTOSAVE_TICKS.tooltip.2=Базовий інтервал збереж
 of.options.AUTOSAVE_TICKS.tooltip.3=Автозбереження спричиняє "фріз смерті".
 
 options.anaglyph.tooltip.1=3D режим використовується з червоно-синіми окулярами.
+
+of.options.SCREENSHOT_SIZE=Розмір знімку екрану
+of.options.SCREENSHOT_SIZE.tooltip.1=Розмір скріншоту
+of.options.SCREENSHOT_SIZE.tooltip.2=  Базовий - стандартний розмір скріншоту
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - власний розмір скріншоту
+of.options.SCREENSHOT_SIZE.tooltip.4=Зйомка більшого скріншоту потребує більше пам'яті
