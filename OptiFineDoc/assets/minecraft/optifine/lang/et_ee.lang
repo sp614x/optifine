@@ -575,4 +575,8 @@ of.options.AUTOSAVE_TICKS.tooltip.3=SOOVITATAV. Automaatne salvestus põhjustab 
 of.options.AUTOSAVE_TICKS.tooltip.4="surmava latentsusokka".
 # Added extra row to tooltip
 
-options.anaglyph.tooltip.1=3D-režiimi kasutatakse punasiniste 3D-prillidega.
+of.options.SCREENSHOT_SIZE=Kuvatõmmise suurus
+of.options.SCREENSHOT_SIZE.tooltip.1=Kuvatõmmise suurus
+of.options.SCREENSHOT_SIZE.tooltip.2=  Vaikimisi - vaikimisi kuvatõmmise suurus
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - kohandatud kuvatõmmise suurus
+of.options.SCREENSHOT_SIZE.tooltip.4=Suurema kuvatõmmise loomine võib vajada rohkem mälu
