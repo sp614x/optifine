@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-11-12
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-11-25
 
 # General
 of.general.ambiguous=tvetydig
@@ -578,4 +578,10 @@ of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning
 of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2s) REKOMMENDERAS INTE.
 of.options.AUTOSAVE_TICKS.tooltip.3=Autosparning är ökänd för att orsaka lag spikes.
 
-options.anaglyph.tooltip.1=3D-effekten används med röd-turkosa 3D-glasögon.
+of.options.SCREENSHOT_SIZE=Skärmdumpsstorlek
+of.options.SCREENSHOT_SIZE.tooltip.1=Skärmdumpsstorlek
+of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek för skärmdumpar
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek för skärmdumpar
+of.options.SCREENSHOT_SIZE.tooltip.4=Större skärmdumpar kan kräva mer minne
+of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibel med alternativet "Snabb rendering".
+of.options.SCREENSHOT_SIZE.tooltip.6=Kräver att grafikprocessorn har stöd för framebuffer.
