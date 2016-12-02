@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-10-12
-#   TheHADILP 2016-5-20 ---- 2016-11-25
+#   TheHADILP 2016-5-20 ---- 2016-12-02
 
 # General
 of.general.ambiguous=Unklar
@@ -597,5 +597,5 @@ of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - Standard Screenshot Auflösung
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - Benutzerdefinierte Screenshot Auflösung
 of.options.SCREENSHOT_SIZE.tooltip.4=Das Aufnehmen größerer Screenshots kann mehr
 of.options.SCREENSHOT_SIZE.tooltip.5=Speicher benötigen.
-of.options.SCREENSHOT_SIZE.tooltip.6=Nicht kompatibel mit der Option Schnelles Rendern.
+of.options.SCREENSHOT_SIZE.tooltip.6=Nicht kompatibel mit schnellem Rendern und Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.7=Erfordert Grafiktreiberpuffer Unterstützung.
