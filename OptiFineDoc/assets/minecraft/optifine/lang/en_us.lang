@@ -576,5 +576,5 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.2=  Default - default screenshot size
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - custom screenshot size
 of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshots may need more memory.
-of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with option Fast Render.
+of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with Fast Render and Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.6=Requires GPU framebuffer support.
