@@ -576,3 +576,5 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Velikost Snímku Obrazovky
 of.options.SCREENSHOT_SIZE.tooltip.2=  Výchozí - výchozí velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastním velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.4=Focení větších screenshotů může vyžadovat více paměti.
+of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatinilní s Rychlým Renderem a Antialiasingem.
+of.options.SCREENSHOT_SIZE.tooltip.6=Vyžaduje podporu GPU framebufferu.
