@@ -577,5 +577,5 @@ of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.2=  デフォルト - 通常の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x～4x - 任意の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.4=より大きなスクリーンショットの撮影には、より多くのメモリが必要です。
-of.options.SCREENSHOT_SIZE.tooltip.5=描画の最適化設定とは競合します。
+of.options.SCREENSHOT_SIZE.tooltip.5=描画の最適化、アンチエイリアスとは競合します。
 of.options.SCREENSHOT_SIZE.tooltip.6=GPUがフレームバッファをサポートしている必要があります。
