@@ -583,5 +583,5 @@ of.options.SCREENSHOT_SIZE.tooltip.1=截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設認的截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自定義截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體.
-of.options.SCREENSHOT_SIZE.tooltip.5=與快速渲染選項不相容.
+of.options.SCREENSHOT_SIZE.tooltip.5=與快速渲染及抗鋸齒不相容.
 of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡幀緩衝區支持.
