@@ -63,7 +63,7 @@
 # witch               head, body, arms, left_leg, right_leg, nose, mole, hat
 # wither              body1 ... body3, head1 ... head3
 # wither_skull        head
-# wolf                head, body, leg1 ... leg4
+# wolf                head, body, leg1 ... leg4, tail, mane
 # zombie              head, headwear, body, left_arm, right_arm, left_leg, right_leg
 #
 # Only the elements "models" and "part" are required. 
