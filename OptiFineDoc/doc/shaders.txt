@@ -41,7 +41,7 @@ Id  Name                         Render                                When not 
 14  gbuffers_beaconbeam          <not used>                            gbuffers_textured
 15  gbuffers_item                <not used>                            gbuffers_textured_lit
 16  gbuffers_entities            entities                              gbuffers_textured_lit
-17  gbuffers_armor_glint         armor glint                           gbuffers_textured
+17  gbuffers_armor_glint         glint on armor, handheld items        gbuffers_textured
 18  gbuffers_spidereyes          eyes of spider, enderman and dragon   gbuffers_textured
 19  gbuffers_hand                hand in first person                  gbuffers_textured_lit
 20  gbuffers_weather             rain, snow                            gbuffers_textured_lit
