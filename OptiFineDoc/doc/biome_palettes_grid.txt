@@ -1,0 +1,125 @@
+=============================================================
+Description of OptiFine's Custom Biome Palettes (Grid format)
+Based on McPatcher's Custom Biome Palettes
+=============================================================
+
+Custom Biome Palettes (Grid format)
+===================================
+
+The vanilla colormap format has a few drawbacks. 
+First some biomes like desert are represented by only a single pixel in the colormap, which means their color cannot vary by height. 
+Further, multiple biomes share their temperature and humidity values, making it impossible to give them different color schemes. 
+Even when the base values are different, biomes sometimes overlap at higher altitudes.
+
+MCPatcher offers an alternative, first proposed by Misa. Like the vanilla maps, it is -- generally, see Tips below -- a 256x256 colormap, 
+but the x coordinate represents the biome ID number and the y coordinate the height. (See the Minecraft Wiki for a list of biome IDs.) 
+This allows complete separation between biomes and gives you full control from bedrock to max build height.
+
+Layout
+======
+
+Each column in the colormap represents a single biome. Please note that the image is "flipped" vertically: 
+The bottom of the world (y=0) is at the top of the image and the max build height (y=255) is at the bottom. 
+Sea level is y=64. Generally, you will make each column some sort of gradient.
+
+Template (images/biome/grid/template.png)
+
+Properties file format (colormap.properties)
+
+(Optional) Format indicator
+===========================
+
+This property simply distinguishes grid-formatted colormaps from vanilla ones. 
+If not specified, your grid colormap will be interpreted in vanilla temperature+humidity format, leading to strange results.
+
+  # Grid format
+  format=grid
+
+The format property can be omitted if you set it globally in the "assets/minecraft/mcpatcher/color.properties" file:
+
+  # Grid format
+  palette.format=grid
+
+This makes all your custom colormaps use the grid format, so be sure that this is what you want.
+
+(Optional) List of blocks and metadata values
+=============================================
+
+  # Blocks
+  blocks=<list>
+
+See Biome Palettes (biome_palettes.txt).
+
+(Optional) Colormap image
+=========================
+
+  # Image
+  source=<image>
+
+See Biome Palettes.
+
+(Optional) Default color
+========================
+
+  # Color
+  color=<rgb value>
+
+See Biome Palettes.
+
+(Optional) y variance
+======================
+
+If set, this property adds random noise to the y coordinate before sampling from the colormap, giving flat areas a more varied appearance. 
+A value of 2 causes the game to pick a value between y - 2 and y + 2, for example.
+
+  # Y variance
+  yVariance=<value>
+
+The default value is 0 (no variation), but this can be overridden by the player in the MCPatcher Options tab.
+
+This property can also be set globally in "assets/minecraft/mcpatcher/color.properties":
+
+  # Y variance
+  palette.yVariance=<value>
+
+(Optional) y offset
+===================
+  
+  # Y offset
+  yOffset=<value>
+
+This subtracts a fixed value from the block's y coordinate before sampling from the colormap. 
+For example a value of 64 will use the pixel at 0 for blocks between layers 0 and 64. A block at 65 will use pixel 1, 66 pixel 2, etc.
+
+The default value is 0 (no offset).
+
+Tips
+====
+
+Forward compatibility: Unused columns in the map represent unassigned biome IDs that may be used by either by future Minecraft versions or by mods. 
+Of course you can create color schemes for particular mod biomes if you know the IDs that they use. But even if you don't, 
+it is best to at least pick a neutral-looking gradient for unused columns so that new biomes will have a reasonable default appearance.
+
+Backward compatibility: The vanilla "grass.png" and "foliage.png" maps in "assets/minecraft/textures/colormap" are always in the vanilla format, 
+regardless of any properties file setting. This preserves compatibility for non-MCPatcher users. 
+To use the grid format with grass or leaves, you must create a custom colormap in "assets/minecraft/mcpatcher/colormap/blocks" 
+and apply it to the appropriate block(s). For MCPatcher users, the custom colormap overrides the vanilla one; 
+for non-MCPatcher users, only the vanilla one will be used.
+
+Resolution: While colormaps in this format are generally 256x256, there is no strict requirement as with the vanilla format:
+
+Minecraft 1.7 introduced rare variants of many biomes. For example "Birch Forest M" (ID 155) is the rare version of "Birch Forest" (ID 27). 
+Conveniently, the rare is always common + 128. This fact can be exploited if you want all rare biomes to use the same color schemes 
+as the corresponding non-rare ones. Simply make your colormap 128 pixels wide instead of 256, and MCPatcher will "wrap" it 
+in the x direction when assigning columns to biomes.
+Similarly, a 1-pixel wide colormap gives you the same height-based color gradient across all biomes.
+In the y direction, if you provide more than 256 pixels, MCPatcher will happily use them if the server's build height is higher than the default. 
+Similarly, if the colormap is shorter than 256 pixels, it will simply "top out" at that height giving all blocks above that the same color.
+In particular, a height of 64 pixels allows for variation underground and a fixed color above sea level.
+A height of 192 pixels combined with a setting of yOffset=64 gives you just the opposite: variation above ground and a fixed color below.
+A height of 1 pixel allows for variation across biomes but not by height.
+
+References
+==========
+https://bitbucket.org/prupe/mcpatcher/wiki/Biome_Palettes_(Grid)
+http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/resource-pack-discussion/1255785-b?comment=124

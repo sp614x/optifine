@@ -1,0 +1,65 @@
+===============================================
+Description of OptiFine's Custom Lightmaps
+Based on McPatcher's Custom Lightmaps
+===============================================
+
+Custom Lightmaps
+================
+
+MCPatcher allows you to customize the lighting in the game.
+
+How lighting works in vanilla
+=============================
+
+Every block has two light values from 0 to 15 assigned to it, one for sky brightness and one for torch brightness. 
+A block in direct sunlight has a sky value of 15. A block in the shade directly adjacent to it has a value of 14 and so on. 
+Blocks deep underground far from any block that can see the sky have sky brightness 0. Similarly for torches. 
+A torch block has light value 14 (15 for glowstone) and the light value drops by 1 each block away from it.
+
+To generate the lighting you actually see in game, Minecraft uses a 16x16 lightmap. 
+Its axes correspond to the 16 light levels of each type. If a block has torch brightness x and sky brightness y, 
+then the point (x,y) is used for its lightmap coordinates. The lightmap is not in any of the game's files but is generated each frame. 
+Two variables affect the lightmap, the time of day and the torch flicker. Minecraft implements dusk/dawn transitions and torch flicker 
+by making the entire lightmap darker or lighter rather than by adjusting the sky/torch brightness values.
+
+Custom lighting
+===============
+
+To create custom lighting, you will need a lightmap palette for each world:
+
+    Nether: assets/minecraft/mcpatcher/lightmap/world-1.png
+    Overworld: assets/minecraft/mcpatcher/lightmap/world0.png
+    The End: assets/minecraft/mcpatcher/lightmap/world1.png
+
+Each palette can be any width, but must be 32 or 64 pixels tall. If it's 64, the bottom half is used for nightvision, discussed later. 
+Of the 32 rows of pixels, the top 16 represent sunlight and the bottom 16 represent torchlight. 
+Two columns, 16 pixels from the top half and 16 pixels from the bottom half, are chosen to form the axes of the final 16x16 lightmap 
+used for rendering.
+
+Template by Misa (images/lightmap_template.png)
+
+Blue=night, orange=dusk/dawn, cyan=day, yellow=lightning. 
+
+In the top half, the left-hand side represents night and the right-hand side represents day, with the dusk/dawn transitions in between. 
+The very far right of the palette represents lightning flashes. Again, there is no specified width for the palette, 
+but more width means more room for detail in the transitions.
+
+Torches work similarly, but in this case the x coordinate is simply a random value simulating torch flicker. 
+The variation along the x dimension will determine how noticable torch flicker is. 
+To have completely steady torchlight with no flicker, make all pixels along each row the same color.
+
+Lightmaps work the same in all three worlds (Overworld, Nether, The End), but since there is no night or day in Nether and The End, 
+the "time of day" value is constant. For these worlds you can simply give rows 0-15 the same color all the way across.
+
+Nightvision effect
+==================
+
+In the vanilla game, the nightvision effect is computed by scaling the RGB values by 1.0 / max(R,G,B). 
+For example, (0.2, 0.3, 0.6) would brighten to (0.333, 0.5, 1.0) after dividing by 0.6. 
+You can override this behavior with a custom lightmap by making the height 64 pixels instead of 32. 
+Provide four palettes instead of two: normal sun, normal torch, nightvision sun, nightvision torch. 
+Lightmap generation works exactly the same way but using rows 32-47 and 48-63 instead.
+
+References
+==========
+https://bitbucket.org/prupe/mcpatcher/wiki/Lightmaps

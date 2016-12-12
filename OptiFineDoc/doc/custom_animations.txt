@@ -1,0 +1,78 @@
+===================================================
+Description of OptiFine's Custom Animations feature
+Based on McPatcher's Custom Animations
+===================================================
+
+Animated textures
+=================
+
+In Minecraft 1.5, Mojang added the ability to animate any block or item texture (originally a feature provided by MCPatcher). 
+However, there is yet no way to animate other textures like mob skins or GUIs. MCPatcher fills the gap enabling 
+any rectangular area of any non-block or item texture to be animated. This includes even textures specific to other MCPatcher features 
+such as random mob skins or skyboxes.
+
+For block and item textures, including CTM and CIT replacements, continue using Mojang's mcmeta method instead.
+
+To build an animation, first choose a texture and determine the x and y coordinates and width and height of the area you want to animate. 
+Create your animation as a vertical strip of frames. The width of the animation should be the same as the width of the area you want to animate. 
+The height should be a multiple of the animation area height.
+
+Properties file format
+
+Create a properties file with any name you like. Put it in the assets/minecraft/mcpatcher/anim folder of your texture pack, 
+or any subfolder within. Add these properties to the file
+
+  # Custom animation
+  from=<path to animation>
+  to=<path to texture to animate>
+  x=<x coordinate of area to animate>
+  y=<y coordinate of area to animate>
+  w=<width of area to animate>
+  h=<height of area to animate>
+
+See About Properties Files for how to specify paths to texture files (properties_files.txt).
+
+This creates a simple animation that plays each frame in order from top to bottom once for one tick (1/20th second) each and then loops.
+
+Multiple, non-overlapping parts of the same texture can be animated by using the same to value with different from, x, y, w, h values. 
+They can even have independent timing and frame order information.
+
+For maximum compatibility, it is best to make x, y, w, and h multiples of 16.
+
+Frame order and timing
+======================
+
+Each custom animation may also specify its animation speed and frame order. In the properties file, add a series of entries
+
+  # Frame timing
+  tile.X=Y
+  duration.X=Z
+
+X starts at 0 and represents the order you want frames to display in. Y is the tile number in the animation .png file, 
+the first tile being 0, the second 1, etc. Z is the duration you want that frame displayed, in game ticks (1 tick = 1/20 second). 
+If omitted, duration is assumed to be 1 for that frame.
+
+For example, suppose your animation file is 16x48 (3 frames). To make it run on a 5-frame cycle with a pause in the middle, 
+the properties file might look like this:
+
+  # Animate 5 frames
+  tile.0=0
+  tile.1=1
+  tile.2=2
+  duration.2=5
+  tile.3=1
+  tile.4=0
+
+The animation happens in this order:
+
+  Frame 0: Display animation tile 0 for 1 tick (no duration property).
+  Frame 1: Display animation tile 1 for 1 tick (no duration property).
+  Frame 2: Display animation tile 2 for 5 ticks (duration=5).
+  Frame 3: Display animation tile 1 for 1 tick (no duration property).
+  Frame 4: Display animation tile 0 for 1 tick (no duration property).
+  Go back to frame 0.
+  Total: 5 frames over 9 ticks.
+
+References
+==========
+https://bitbucket.org/prupe/mcpatcher/wiki/Custom_Animations

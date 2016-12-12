@@ -1,0 +1,258 @@
+===============================================
+Description of OptiFine's Custom Biome Palettes
+Based on McPatcher's Custom Biome Palettes
+===============================================
+
+Custom Biome Palettes
+=====================
+
+In vanilla Minecraft, the grass and leaf textures vary in color depending on the climate of the surrounding biome. 
+This is controlled by two files,
+
+  assets/minecraft/textures/colormap/grass.png
+  assets/minecraft/textures/colormap/foliage.png
+
+Each file is a 256x256 colormap applied to the base grass or leaf texture (which is usually grey).
+
+MCPatcher greatly expands this functionality to other blocks and to ambient sky and fog colors. 
+Artists can use this to great effect to give each biome its own feel.
+
+This page is divided into two sections. The first describes the colormap formats themselves, 
+and the second shows how to apply them to various elements of the game world.
+
+Vanilla colormap format
+=======================
+
+The format used by vanilla Minecraft is a 256x256 colormap with the axes representing temperature and humidity. 
+Each biome has fixed base temperature and humidity values corresponding to a single pixel in the colormap. 
+As the y coordinate increases, the position in the colormap slowly moves toward the lower right. 
+A forum post by khanador illustrates how this works: 
+http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/resource-pack-discussion/1256322-new-biome?comment=124
+
+The vanilla format is used for all custom colormaps as well, unless you override this behavior.
+
+MCPatcher "grid" format
+=======================
+
+An alternative format that offers finer control over each biome. It is detailed on its own page:
+https://bitbucket.org/prupe/mcpatcher/wiki/Biome_Palettes_(Grid)
+
+Other formats
+=============
+
+Additionally, MCPatcher offers a simple "fixed" colormap format. This format does not require an image; 
+it is simply a single color applied to all blocks regardless of location. 
+Its primary purpose is to override certain hardcoded block colors like reeds (sugar cane).
+
+Properties file format (colormap.properties)
+
+A custom colormap can consist of either a ".png" file, a properties file, or both depending on what you're trying to do. 
+All of the properties are optional and in fact the entire properties file can be omitted if you do not need to change any of them.
+
+(Optional) Colormap format
+==========================
+
+  # Colormap format
+  format=<vanilla | grid | fixed>
+
+If omitted, the default format is vanilla. If you'd rather use grid format by default, 
+you can set it globally in the "assets/minecraft/mcpatcher/color.properties" file:
+
+  # Grid format
+  palette.format=grid
+
+Note that this setting does not affect the vanilla "grass.png" and "foliage.png" files in "assets/minecraft/textures/colormap". 
+Those are always interpreted in the vanilla format in order to preserve compatibility for non-MCPatcher users. 
+See "Grass and foliage" below for how to use the grid format with these textures.
+
+(Optional) List of blocks and metadata values
+=============================================
+
+  # List of blocks and metadatas (properties)
+  blocks=<list>
+
+For colormaps applied to terrain (as opposed to fog, sky, and underwater), this is a list of blocks 
+and optional metadata values to apply the map to. If this property is not specified, the block name is taken from the filename 
+(e.g., "cobblestone.properties" -> "blocks=minecraft:cobblestone").
+
+See About Properties Files (properties_files.txt) for the syntax. Examples:
+
+  # Equivalent to the vanilla grass.png
+  blocks=grass tallgrass:1,2 reeds
+  
+  # Same, without reeds
+  blocks=grass tallgrass:1,2
+  
+  # Equivalent to the vanilla foliage.png
+  blocks=leaves:0,4,8,12 vine
+  
+  # Pine/spruce leaves
+  blocks=leaves:1,5,9,13
+  
+  # Birch leaves
+  blocks=leaves:2,6,10,14
+  
+  # Jungle leaves
+  blocks=leaves:3,7,11,15
+  
+  # Acacia leaves
+  blocks=leaves2:0,4,8,12
+  
+  # Old oak leaves
+  blocks=leaves2:1,5,9,13
+  
+  # Water
+  blocks=water flowing_water
+
+(Optional) Colormap image
+=========================
+
+  # Colormap image
+  source=<image>
+
+For vanilla and grid colormaps only. The path to the image containing the colormap. 
+If this property is omitted, it defaults to a png with the same name and directory as the properties file itself, 
+e.g., "stone.properties" -> "source=stone.png".
+
+(Optional) Default color
+========================
+
+  # Default color
+  color=<rgb value>
+
+For "format=fixed", this is simply the fixed color to be applied to all matching blocks. 
+If no value is given, the default is white "ffffff".
+
+For "format=vanilla" or "format=grid", this color is used for held or dropped blocks. 
+If no value is given, the default color is instead taken from a fixed location depending on the format:
+
+  # Format
+  format=vanilla: x=127,y=127 (Center of bitmap)
+  format=grid: x=1,y=64 (Plains biome at sea level)
+
+Applying a custom colormap
+==========================
+
+Custom colormaps can be applied to any block or set of blocks, or only certain metadata values of a block type. 
+They can also be applied to ambient fog, sky, and underwater colors.
+
+Block-based colormaps can be applied in one of two ways: 
+- as a list in "assets/minecraft/mcpatcher/color.properties" 
+- as separate files under "assets/minecraft/mcpatcher/colormap/blocks".
+
+For the first method, use the syntax
+  
+  # Custom colormap 
+  palette.block.<colormap image>=<list of blocks+metadata>
+
+For example, this assigns the four basic types of leaves their own colormaps:
+
+  # Custom colormap 
+  palette.block.~/colormap/oak.png=leaves:0,4,8,12
+  palette.block.~/colormap/pine.png=leaves:1,5,9,13
+  palette.block.~/colormap/birch.png=leaves:2,6,10,14
+  palette.block.~/colormap/jungle.png=leaves:3,7,11,15
+
+Two limitations of this method: 
+- the source and blocks properties can be set; the rest are defaults. 
+- if the player is using multiple resource packs, only the first color.properties file will be read by the game.
+
+An alternative way is by using separate files under "assets/minecraft/mcpatcher/colormap/blocks". 
+Subfolders are allowed and are useful to make organization easier. The above example could also be done this way:
+
+In "assets/minecraft/mcpatcher/colormap/blocks/oak.properties":
+
+  # Oak colormap
+  blocks=leaves:0,4,8,12
+
+In "assets/minecraft/mcpatcher/colormap/blocks/pine.properties":
+
+  # Pine colormap
+  blocks=leaves:1,5,9,13
+
+In "assets/minecraft/mcpatcher/colormap/blocks/birch.properties":
+
+  # Birch colormap
+  blocks=leaves:2,6,10,14
+
+In "assets/minecraft/mcpatcher/colormap/blocks/jungle.properties":
+
+  # Jungle colormap
+  blocks=leaves:3,7,11,15
+
+This is assuming you have "oak.png", "pine.png", "birch.png" and "jungle.png" in the same folder.
+
+Single block
+============
+
+The simplest case, a custom colormap applied to a single block type with no metadata values, does not need a properties file. 
+For example, "assets/minecraft/mcpatcher/colormap/blocks/sand.png" applies to sand blocks without the need to specify "blocks=sand".
+
+Multiple blocks
+===============
+
+To apply the same colormap to all stone and ore blocks, use a properties file
+
+In "assets/minecraft/mcpatcher/colormap/blocks/stone_and_ore.properties":
+
+  # Stone and ore colormaps
+  blocks=stone gold_ore iron_ore coal_ore lapis_ore diamond_ore redstone_ore lit_redstone_ore monster_egg:0 emerald_ore
+
+Add "format=grid" if using the new format. The source property is unnecessary if the colormap is also named "stone_and_ore.png".
+
+In "color.properties" this can also be written as:
+
+  # Stone and ore colormaps
+  palette.block.~/colormap/custom/stone.png=stone gold_ore iron_ore coal_ore lapis_ore diamond_ore redstone_ore lit_redstone_ore monster_egg:0 emerald_ore
+
+Add "palette.format=grid" to use grid format for all your custom colormaps (except the vanilla "grass.png" and "foliage.png").
+
+Grass and foliage
+=================
+
+Custom colormaps will override the vanilla grass.png and foliage.png. 
+This means you can leave your vanilla maps in place for compatibility and create custom ones for MCPatcher users:
+
+In "assets/minecraft/mcpatcher/colormap/blocks/grass.properties":
+
+  # Grass colormap
+  format=grid
+  # NOTE: "blocks=grass" not needed since it is in the filename
+  yVariance=2
+
+In "assets/minecraft/mcpatcher/colormap/blocks/oak.properties":
+
+  # Oak colormap
+  format=grid
+  blocks=leaves:0,4,8,12
+
+Fixing reeds (sugar cane) in 1.7
+
+Starting in 1.7, Minecraft applies the "grass.png" color to reeds, much to the annoyance of many artists. 
+A "fixed" colormap of "ffffff" (white) effectively reverts to the 1.6 behavior. 
+A 256x256 all-white colormap would of course accomplish the same thing, but this method is more efficient. 
+The simplest way to do this is to create a properties file containing just one line:
+
+In "assets/minecraft/mcpatcher/colormap/blocks/reeds.properties":
+
+  # Reeds colormap
+  format=fixed
+
+This works because the blocks property defaults to the filename (reeds) and the color property defaults to "ffffff" for fixed colormaps.
+
+Ambient fog, sky, and underwater colors
+=======================================
+
+These specifically named colormaps override the default fixed ambient colors:
+
+    Overworld fog: "assets/minecraft/mcpatcher/colormap/fog0.png"
+    Overworld sky: "assets/minecraft/mcpatcher/colormap/sky0.png"
+    Underwater: "assets/minecraft/mcpatcher/colormap/underwater.png"
+
+Each one can have a corresponding properties file to specify the format or other settings. 
+These colormaps behave just as terrain-based ones except that they do not care about the blocks property.
+
+References
+==========
+https://bitbucket.org/prupe/mcpatcher/wiki/Biome_Palettes
+http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/resource-pack-discussion/1256322-new-biome?comment=124
