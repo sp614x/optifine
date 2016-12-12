@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-11-25
+#   Regnander (_Spitz) 2016-01-18 ---- 2016-12-12
 
 # General
 of.general.ambiguous=tvetydig
@@ -38,7 +38,7 @@ of.message.shaders.an1=Shaders är inte kompatibla med 3D-effekt.
 of.message.shaders.an2=Ändra "Övrigt -> 3D-effekt" till AV.
 
 of.message.newVersion=En ny version av §eOptiFine§f finns tillgänglig: §e%s§f
-of.message.java64Bit=Du kan installera §e64-bitarsversionen av Java§f för att förbättra prestandan
+of.message.java64Bit=Du kan installera §e64-bitarsversionen av Java§f för att förbättra prestandan.
 of.message.openglError=§eOpenGL-fel§f: %s (%s)
 
 of.message.shaders.loading=Läser in shaders: %s
@@ -91,18 +91,18 @@ options.viewBobbing.tooltip.1=Mer verklighetstrogna rörelser.
 options.viewBobbing.tooltip.2=Inaktivera detta om mipmaps används för bästa resultat.
 
 options.guiScale.tooltip.1=GUI-skala
-options.guiScale.tooltip.2=Mindre GUI kan vara snabbare
+options.guiScale.tooltip.2=Mindre GUI kan vara snabbare.
 
 options.vbo.tooltip.1=VBO (Vertex Buffer Objects)
 options.vbo.tooltip.2=Använder en alternativ renderingsmodell som vanligtvis
 options.vbo.tooltip.3=är snabbare (5-10%%) än standardrenderingen.
 
-options.gamma.tooltip.1=Ändrar ljusstyrkan för mörkare objekt
+options.gamma.tooltip.1=Ändrar ljusstyrkan för mörkare objekt.
 options.gamma.tooltip.2=  Mörkt - standardljusstyrka
 options.gamma.tooltip.3=  1-99%% - variabel
 options.gamma.tooltip.4=  Ljust - maximal ljusstyrka för mörkare objekt
 options.gamma.tooltip.5=Detta alternativ ändrar inte ljusstyrkan för helt svarta 
-options.gamma.tooltip.6=objekt
+options.gamma.tooltip.6=objekt.
 
 options.anaglyph.tooltip.1=3D-effekt
 options.anaglyph.tooltip.2=Aktiverar en stereoskopisk 3D-effekt med hjälp av olika
@@ -245,14 +245,14 @@ of.options.BETTER_SNOW.tooltip.1=Bättre snö
 of.options.BETTER_SNOW.tooltip.2=  AV - standardsnö, snabbare
 of.options.BETTER_SNOW.tooltip.3=  PÅ - bättre snö, långsammare
 of.options.BETTER_SNOW.tooltip.4=Visar snö under genomskinliga block (staket, högt gräs)
-of.options.BETTER_SNOW.tooltip.5=som angränsar med snöblock
+of.options.BETTER_SNOW.tooltip.5=som angränsar till snöblock.
 
 of.options.CUSTOM_FONTS=Anpassade typsnitt
 of.options.CUSTOM_FONTS.tooltip.1=Anpassade typsnitt
 of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpassade typsnitt (standard), långsammare
 of.options.CUSTOM_FONTS.tooltip.3=  AV - använd standardtypsnittet, snabbare
 of.options.CUSTOM_FONTS.tooltip.4=De anpassade typsnitten tillhandahålls av det aktuella
-of.options.CUSTOM_FONTS.tooltip.5=resurspaketet
+of.options.CUSTOM_FONTS.tooltip.5=resurspaketet.
 
 of.options.CUSTOM_COLORS=Anpassade färger
 of.options.CUSTOM_COLORS.tooltip.1=Anpassade färger
@@ -294,28 +294,28 @@ of.options.NATURAL_TEXTURES.tooltip.4=Naturliga texturer tar bort rutnätsliknan
 of.options.NATURAL_TEXTURES.tooltip.5=skapas från upprepade block av samma typ.
 of.options.NATURAL_TEXTURES.tooltip.6=Den använder roterade och speglade varianter av den
 of.options.NATURAL_TEXTURES.tooltip.7=ursprungliga blocktexturen. Konfigurationen för naturliga
-of.options.NATURAL_TEXTURES.tooltip.8=texturer tillhandahålls av det aktuella resurspaketet
+of.options.NATURAL_TEXTURES.tooltip.8=texturer tillhandahålls av det aktuella resurspaketet.
 
 of.options.CUSTOM_SKY=Anpassad himmel
 of.options.CUSTOM_SKY.tooltip.1=Anpassad himmel
 of.options.CUSTOM_SKY.tooltip.2=  PÅ - anpassade himmeltexturer (standard), långsamt
 of.options.CUSTOM_SKY.tooltip.3=  AV - standardhimmel, snabbare
 of.options.CUSTOM_SKY.tooltip.4=Texturerna för den anpassade himlen tillhandahålls av
-of.options.CUSTOM_SKY.tooltip.5=det aktuella resurspaketet
+of.options.CUSTOM_SKY.tooltip.5=det aktuella resurspaketet.
 
 of.options.CUSTOM_ITEMS=Anpassade föremål
 of.options.CUSTOM_ITEMS.tooltip.1=Anpassade föremål
 of.options.CUSTOM_ITEMS.tooltip.2=  PÅ - anpassade föremålstexturer (standard), långsamt
 of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardtexturer för föremål, snabbare
 of.options.CUSTOM_ITEMS.tooltip.4=Det anpassade föremålstexturerna tillhandahålls av det
-of.options.CUSTOM_ITEMS.tooltip.5=aktuella texturpaketet
+of.options.CUSTOM_ITEMS.tooltip.5=aktuella texturpaketet.
 
 of.options.CUSTOM_ENTITY_MODELS=Anpassade entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Anpassade entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  PÅ - anpassade entitetsmodeller (standard), långsamt
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  AV - standardentitetsmodeller, snabbare
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=De anpassade entitetsmodellerna tillhandahålls av det
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktuella resurspaketet
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktuella resurspaketet.
 
 # Details
 
@@ -391,7 +391,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - visa avancerade verktygstips
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - visa inte avancerade verktygstips (standard)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade verktygstips visar utvidgad information om
 of.options.ADVANCED_TOOLTIPS.tooltip.5=föremål (id, hållbarhet) och shaderalternativ
-of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, källa, standardvärden)
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, källa, standardvärden).
 
 of.options.DROPPED_ITEMS=Släppta föremål
 of.options.DROPPED_ITEMS.tooltip.1=Släppta föremål
@@ -427,13 +427,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabbt dynamiskt ljus (uppdateras
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snyggt dynamiskt ljus (uppdateras i realtid)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, glödsten, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de antingen hålls av dig eller
-of.options.DYNAMIC_LIGHTS.tooltip.7=andra spelare eller släpps ned på marken
+of.options.DYNAMIC_LIGHTS.tooltip.7=andra spelare eller släpps ned på marken.
 
 # Performance
 
 of.options.SMOOTH_FPS=Jämn bildfrekvens
 of.options.SMOOTH_FPS.tooltip.1=Stabiliserar bildfrekvensen genom att rensa
-of.options.SMOOTH_FPS.tooltip.2=grafikdrivrutinernas buffrar
+of.options.SMOOTH_FPS.tooltip.2=grafikdrivrutinernas buffrar.
 of.options.SMOOTH_FPS.tooltip.3=  AV - ingen stabilisering, bildfrekvensen kan variera
 of.options.SMOOTH_FPS.tooltip.4=  PÅ - bildfrekvensen stabiliseras
 of.options.SMOOTH_FPS.tooltip.5=Beror på grafikdrivrutinerna och märks inte alltid.
@@ -527,7 +527,7 @@ of.options.PROFILER.tooltip.1=Felsökningsprofilerare
 of.options.PROFILER.tooltip.2=  PÅ - felsökningsprofilerare är igång, långsammare
 of.options.PROFILER.tooltip.3=  AV - felsökningsprofilerare är inte igång, snabbare
 of.options.PROFILER.tooltip.4=Felsökningsprofileraren samlar in och visar
-of.options.PROFILER.tooltip.5=felsökningsinfo när felsökningsskärmen är öppen (F3)
+of.options.PROFILER.tooltip.5=felsökningsinfo när felsökningsskärmen är öppen (F3).
 
 of.options.WEATHER=Väder
 of.options.WEATHER.tooltip.1=Väder
@@ -561,12 +561,12 @@ of.options.FULLSCREEN_MODE.tooltip.4=Den valda upplösningen används i fullskä
 of.options.FULLSCREEN_MODE.tooltip.5=Lägre upplösningar bör vanligtvis vara snabbare.
 
 of.options.SHOW_FPS=Visa bildfrekvens
-of.options.SHOW_FPS.tooltip.1=Visar kort information om bildfrekvens och rendering
+of.options.SHOW_FPS.tooltip.1=Visar kort information om bildfrekvens och rendering.
 of.options.SHOW_FPS.tooltip.2=  C: - antal chunkrenderingar
 of.options.SHOW_FPS.tooltip.3=  E: - antal renderade entiteter + blockentiteter
 of.options.SHOW_FPS.tooltip.4=  U: - antal chunkuppdateringar
 of.options.SHOW_FPS.tooltip.5=Informationen visas endast när felsökningsskärmen (F3)
-of.options.SHOW_FPS.tooltip.6=inte syns.
+of.options.SHOW_FPS.tooltip.6=inte är öppen.
 
 of.options.save.default=Standard (2s)
 of.options.save.20s=20s
@@ -574,7 +574,7 @@ of.options.save.3min=3min
 of.options.save.30min=30min
 
 of.options.AUTOSAVE_TICKS=Autosparning
-of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning
+of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning.
 of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2s) REKOMMENDERAS INTE.
 of.options.AUTOSAVE_TICKS.tooltip.3=Autosparning är ökänd för att orsaka lag spikes.
 
@@ -582,6 +582,6 @@ of.options.SCREENSHOT_SIZE=Skärmdumpsstorlek
 of.options.SCREENSHOT_SIZE.tooltip.1=Skärmdumpsstorlek
 of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek för skärmdumpar
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek för skärmdumpar
-of.options.SCREENSHOT_SIZE.tooltip.4=Större skärmdumpar kan kräva mer minne
-of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibel med alternativet "Snabb rendering".
+of.options.SCREENSHOT_SIZE.tooltip.4=Större skärmdumpar kan kräva mer minne.
+of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibel med Snabb rendering och Kantutjämning.
 of.options.SCREENSHOT_SIZE.tooltip.6=Kräver att grafikprocessorn har stöd för framebuffer.
