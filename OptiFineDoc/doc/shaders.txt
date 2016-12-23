@@ -209,6 +209,22 @@ attribute <type> mc_Entity;                     useEntityAttrib = true
 attribute <type> mc_midTexCoord;                useMidTexCoordAttrib = true             
 attribute <type> at_tangent;                    useTangentAttrib = true
 
+Block ID mapping
+================
+The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
+Format "block.<id>=<block1> <block2> ..."
+The key is the substitute block ID, the value are the blocks which are to be replaced.
+See "properties_files.txt" for the block matching rules.
+
+  # Short format
+  block.31=red_flower yellow_flower
+  # Long format
+  block.31=minecraft:red_flower ic2:nether_flower
+  # Properties
+  block.31=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip
+  # Block ID, Metadata (backwards compatibility)
+  block.31=38:6 38:7
+
 Fragment Shader Configuration
 =============================
 Source                                          Effect                                                    Comment
@@ -279,6 +295,7 @@ const int noiseTextureResolution = 256;         noiseTextureResolution = 256
 /* GAUX4FORMAT:RGB32F */                        buffersFormat[7] = GL_RGB32F
 /* GAUX4FORMAT:RGB16 */                         buffersFormat[7] = GL_RGB16
 const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Buffer Index" and "Texture Formats"
+const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" programs 
 const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" and "final"
 /* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
 
