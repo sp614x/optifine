@@ -86,6 +86,7 @@ uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
 uniform int worldTime;                          <ticks>
 uniform int moonPhase;                          0-7
+uniform int frameCounter;                       Frame index (0 to 720719, then resets to 0)
 uniform float frameTime;                        last frame time, seconds
 uniform float frameTimeCounter;                 run time, seconds (resets to 0 after 3600s)
 uniform float sunAngle;                         0.0-1.0
