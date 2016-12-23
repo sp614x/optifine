@@ -86,7 +86,8 @@ uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
 uniform int worldTime;                          <ticks>
 uniform int moonPhase;                          0-7
-uniform float frameTimeCounter;                 real time, seconds
+uniform float frameTime;                        last frame time, seconds
+uniform float frameTimeCounter;                 run time, seconds (resets to 0 after 3600s)
 uniform float sunAngle;                         0.0-1.0
 uniform float shadowAngle;                      0.0-1.0
 uniform float rainStrength;                     0.0-1.0
