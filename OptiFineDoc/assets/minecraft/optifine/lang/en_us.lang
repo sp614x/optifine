@@ -90,8 +90,8 @@ options.viewBobbing.tooltip.2=When using mipmaps set it to OFF for best results.
 options.guiScale.tooltip.1=GUI Scale
 options.guiScale.tooltip.2=  Auto - maximal size
 options.guiScale.tooltip.3=  Small, Normal, Large - 1x to 3x
-options.guiScale.tooltip.4=  4x to 10x - avaialble on 4k displays
-options.guiScale.tooltip.5=Odd values (1x, 3x, 5x ...) are not compatible with unicode.
+options.guiScale.tooltip.4=  4x to 10x - available on 4K displays
+options.guiScale.tooltip.5=Odd values (1x, 3x, 5x ...) are not compatible with Unicode.
 options.guiScale.tooltip.6=A smaller GUI may be faster.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
