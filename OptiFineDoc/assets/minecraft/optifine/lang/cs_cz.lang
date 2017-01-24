@@ -91,7 +91,7 @@ options.guiScale.tooltip.1=Velikost GUI
 options.guiScale.tooltip.2=  Automatická - maximální velikost
 options.guiScale.tooltip.3=  Malá, Normální, Velká - 1x až 3x
 options.guiScale.tooltip.4=  4x do 10x - dostupné na 4K obrazovkách
-options.guiScale.tooltip.5=Liché hodnoty (1x, 3x, 5x ...) nejsou kompatibilní s písmem unicode.
+options.guiScale.tooltip.5=Liché hodnoty (1x, 3x, 5x ...) nejsou kompatibilní s písmem Unicode.
 options.guiScale.tooltip.6=Menší GUI mohou být rychlejší.
 
 options.vbo.tooltip.1=Vertexově Vyrovnávající objekty
