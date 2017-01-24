@@ -90,7 +90,11 @@ options.viewBobbing.tooltip.3=saavutamiseks.
 # Added extra row to tooltip
 
 options.guiScale.tooltip.1=Kasutajaliidese suurus
-options.guiScale.tooltip.2=Väiksem kasutajaliides võib olla kiirem.
+options.guiScale.tooltip.2=  automaatne - maksimaalsuurus
+options.guiScale.tooltip.3=  väike, keskmine, suur - 1x kuni 3x
+options.guiScale.tooltip.4=  4x kuni 10x - saadaval 4K ekraanidel
+options.guiScale.tooltip.5=Paaritud arvud (1x, 3x, 5x, ...) ei ühildu Unicode'ga.
+options.guiScale.tooltip.6=Väiksem kasutajaliides võib olla kiirem.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Kasutab alternatiivset renderdusmudelit, mis on tavaliselt
