@@ -84,9 +84,12 @@ uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
 uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
-uniform int worldTime;                          <ticks>
+uniform int worldTime;                          <ticks> = worldTicks % 24000
+uniform int worldDay;                           <days> = worldTicks / 24000
 uniform int moonPhase;                          0-7
-uniform float frameTimeCounter;                 real time, seconds
+uniform int frameCounter;                       Frame index (0 to 720719, then resets to 0)
+uniform float frameTime;                        last frame time, seconds
+uniform float frameTimeCounter;                 run time, seconds (resets to 0 after 3600s)
 uniform float sunAngle;                         0.0-1.0
 uniform float shadowAngle;                      0.0-1.0
 uniform float rainStrength;                     0.0-1.0
