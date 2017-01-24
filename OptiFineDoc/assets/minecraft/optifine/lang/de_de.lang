@@ -98,7 +98,7 @@ options.guiScale.tooltip.1=GUI-Größe
 options.guiScale.tooltip.2=  Auto - Maximale Größe
 options.guiScale.tooltip.3=  Klein, Normal, Groß - 1x-3x
 options.guiScale.tooltip.4=  4x-10x - Verfügbar auf 4K Monitoren
-options.guiScale.tooltip.5=Ungerade Werte (1x, 3x, 5x ...) sind nicht mit Unicode kompatibel.
+options.guiScale.tooltip.5=Ungerade Werte (1x, 3x ...) sind nicht mit Unicode kompatibel.
 options.guiScale.tooltip.6=Ein kleineres GUI ist eventuell schneller.
 
 options.vbo.tooltip.1=Vertexbufferobjekte
