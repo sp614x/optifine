@@ -1,5 +1,5 @@
 # Contributors of Traditional Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-11-26
+#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-01-25
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi 2016-03-03
 ##-------------- zh_TW ---------------
@@ -94,7 +94,11 @@ options.viewBobbing.tooltip.1=更真實的運動.
 options.viewBobbing.tooltip.2=當使用多精度材質時，關閉它以取得更佳效果.
 
 options.guiScale.tooltip.1=介面大小
-options.guiScale.tooltip.2=較小的介面會更快.
+options.guiScale.tooltip.2=  自動 - 最大大小
+options.guiScale.tooltip.3=  小, 中, 大 - 1x到3x
+options.guiScale.tooltip.4=  4x到10x - 在4K分辯率下可用
+options.guiScale.tooltip.5=奇數值的放大倍數(1x, 3x, 5x等)與Unicode不相容.
+options.guiScale.tooltip.6=較小的介面或許會更快.
 
 options.vbo.tooltip.1=啟用緩衝區頂點對象
 options.vbo.tooltip.2=使用一種替選的渲染模式通常
