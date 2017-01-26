@@ -396,6 +396,11 @@ C. Driver
   #define GL_RENDERER_MESA
   #define GL_RENDERER_OTHER
   
+D. OpenGL extensions
+ Macros for the supported OpenGL extensions are named like the extension with a prefix "EXT_".
+ For example the macro "EXT_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
+ The extension macros are only added to the shaders which are checking for them.  
+  
 References
 ==========
  http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
