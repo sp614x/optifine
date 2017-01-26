@@ -359,8 +359,45 @@ Texture Formats
  RGB10_A2
  R11F_G11F_B10F
 
- References
- ==========
+Standard Macros
+===============
+The standard macros are automatically included after the "#version" declaration in every shader file
+ 
+A. Maximum supported GL version
+ #define GL_VERSION <value>
+ The value is integer, for example: 210, 320, 450
+ 
+B. Maximum supported GLSL version
+ #define GLSL_VERSION <value>
+ The value is integer, for example: 120, 150, 450
+  
+C. Operating system 
+ One of the following:
+  #define OS_WINDOWS
+  #define OS_MAC
+  #define OS_LINUX
+  #define OS_OTHER
+ 
+B. GPU
+ One of the following:
+  #define GL_VENDOR_ATI
+  #define GL_VENDOR_INTEL
+  #define GL_VENDOR_NVIDIA
+  #define GL_VENDOR_XORG
+  #define GL_VENDOR_OTHER
+
+C. Driver
+ One of the following:
+  #define GL_RENDERER_RADEON 
+  #define GL_RENDERER_GEFORCE
+  #define GL_RENDERER_QUADRO
+  #define GL_RENDERER_INTEL
+  #define GL_RENDERER_GALLIUM
+  #define GL_RENDERER_MESA
+  #define GL_RENDERER_OTHER
+  
+References
+==========
  http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
  http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix
  http://www.minecraftforum.net/forums/search?by-author=karyonix&display-type=posts
