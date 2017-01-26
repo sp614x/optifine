@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2016-12-03
+#   CrafterKina 2014-01-04 ---- 2017-01-27
 
 # General
 of.general.ambiguous=不明確
@@ -40,7 +40,7 @@ of.message.shaders.an2=その他の設定 → 3Dアナグリフ をオフにし�
 
 of.message.newVersion=新しい§eOptiFine§fが公開されました：§e%s§f
 of.message.java64Bit=パフォーマンスを高めるために§e64-bit Java§fが利用できます。
-of.message.openglError=§eOpenGLエラー§f：%s （%s）
+of.message.openglError=§eOpenGLエラー§f：%s（%s）
 
 of.message.shaders.loading=シェーダーをロード中：%s
 
@@ -61,11 +61,11 @@ of.options.renderDistance.far=遠い
 of.options.renderDistance.extreme=最遠
 
 options.renderDistance.tooltip.1=描画距離
-options.renderDistance.tooltip.2=  2 最短 - 32m （より低負荷）
-options.renderDistance.tooltip.3=  4 短い - 64m （低負荷）
+options.renderDistance.tooltip.2=  2 最短 - 32m（より低負荷）
+options.renderDistance.tooltip.3=  4 短い - 64m（低負荷）
 options.renderDistance.tooltip.4=  8 普通 - 128m
-options.renderDistance.tooltip.5=  16 遠い - 256m （高負荷）
-options.renderDistance.tooltip.6=  32 最遠 - 512m （超高負荷！）
+options.renderDistance.tooltip.5=  16 遠い - 256m（高負荷）
+options.renderDistance.tooltip.6=  32 最遠 - 512m（超高負荷！）
 options.renderDistance.tooltip.7=最遠設定は非常に高いグラフィックス性能を要求します！
 options.renderDistance.tooltip.8=遠いを超える描画距離はシングルのワールドでのみ効果があります。
 
@@ -77,22 +77,26 @@ options.ao.tooltip.4=  最大 - 複雑なスムースライティング （最�
 options.framerateLimit.tooltip.1=最大のフレームレート
 options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレートに合わせる （60， 30， 20）
 options.framerateLimit.tooltip.3=  5～255 - フレームレートを設定した値までに制限する
-options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない （最低負荷）
+options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない（最低負荷）
 options.framerateLimit.tooltip.5=たとえ制限に達していなくとも、
 options.framerateLimit.tooltip.6=フレームレートを抑制します。
 of.options.framerateLimit.vsync=垂直同期
 
-of.options.AO_LEVEL=スムースライティング
-of.options.AO_LEVEL.tooltip.1=スムースライティングの程度を調整する
+of.options.AO_LEVEL=スムースライティングの程度
+of.options.AO_LEVEL.tooltip.1=スムースライティングの程度
 of.options.AO_LEVEL.tooltip.2=  オフ - 影なし
 of.options.AO_LEVEL.tooltip.3=  50%% - 明るい影
 of.options.AO_LEVEL.tooltip.4=  100%% - 暗い影
 
-options.viewBobbing.tooltip.1=画面の揺れ
+options.viewBobbing.tooltip.1=より現実的な動き
 options.viewBobbing.tooltip.2=ミップマップをオフにした時に最もよい結果が出ます。
 
 options.guiScale.tooltip.1=GUIの大きさ
-options.guiScale.tooltip.2=GUIは小さいほうが処理が速くなるかもしれません。
+options.guiScale.tooltip.2=  自動 - 最大サイズ
+options.guiScale.tooltip.3=  小さい，普通，大きい - 一倍から三倍
+options.guiScale.tooltip.4=  4x から 10x - 4k画面で有効
+options.guiScale.tooltip.5=奇数倍 (1x, 3x, 5x ...) はUnicodeと互換がありません。
+options.guiScale.tooltip.6=GUIは小さいほうが処理が速くなるかもしれません。
 
 options.vbo.tooltip.1=頂点バッファオブジェクト
 options.vbo.tooltip.2=描画方式を新しいものに変更し、
@@ -199,15 +203,15 @@ options.mipmapLevels.tooltip.6=この設定は大抵の場合パフォーマン�
 of.options.MIPMAP_TYPE=ミップマップの種類
 of.options.MIPMAP_TYPE.tooltip.1=遠くの物体における視覚効果を
 of.options.MIPMAP_TYPE.tooltip.2=テクスチャのスムージングによって改善します。
-of.options.MIPMAP_TYPE.tooltip.3=  ニアレストネイバー補間 - おおまかなスムージング （低負荷）
+of.options.MIPMAP_TYPE.tooltip.3=  ニアレストネイバー補間 - おおまかなスムージング（低負荷）
 of.options.MIPMAP_TYPE.tooltip.4=  線形補間 - 通常のスムージング
 of.options.MIPMAP_TYPE.tooltip.5=  バイリニア補間 - 繊細なスムージング
-of.options.MIPMAP_TYPE.tooltip.6=  トライリニア補間 - 最高級のスムージング （高負荷）
+of.options.MIPMAP_TYPE.tooltip.6=  トライリニア補間 - 最高級のスムージング（高負荷）
 
 of.options.AA_LEVEL=アンチエイリアス
 of.options.AA_LEVEL.tooltip.1=アンチエイリアス
-of.options.AA_LEVEL.tooltip.2= オフ - （通常） 輪郭のギザギザ軽減を行わない （低負荷）
-of.options.AA_LEVEL.tooltip.3= 2～16 - 輪郭のギザギザ軽減を行う （高負荷）
+of.options.AA_LEVEL.tooltip.2= オフ - （通常） 輪郭のギザギザ軽減を行わない（低負荷）
+of.options.AA_LEVEL.tooltip.3= 2～16 - 輪郭のギザギザ軽減を行う（高負荷）
 of.options.AA_LEVEL.tooltip.4=輪郭のギザギザやシャープな色の変化に 
 of.options.AA_LEVEL.tooltip.5=アンチエイリアスを行います。
 of.options.AA_LEVEL.tooltip.6=有効化すると実質的なFPSは下がります。
@@ -216,8 +220,8 @@ of.options.AA_LEVEL.tooltip.8=再起動後に有効化されます！
 
 of.options.AF_LEVEL=異方性フィルタリング
 of.options.AF_LEVEL.tooltip.1=異方性フィルタリング
-of.options.AF_LEVEL.tooltip.2= オフ - 通常のテクスチャ描画 （低負荷）
-of.options.AF_LEVEL.tooltip.3= 2～16 - 滑らかなテクスチャ描画 （高負荷）
+of.options.AF_LEVEL.tooltip.2= オフ - 通常のテクスチャ描画（低負荷）
+of.options.AF_LEVEL.tooltip.3= 2～16 - 滑らかなテクスチャ描画（高負荷）
 of.options.AF_LEVEL.tooltip.4=ミップマップされたテクスチャにおいて、
 of.options.AF_LEVEL.tooltip.5=ちらつきを抑えます。
 of.options.AF_LEVEL.tooltip.6=有効化すると実質的にFPSは下がります。
@@ -249,14 +253,14 @@ of.options.BETTER_SNOW.tooltip.5=透過性のあるブロック（フェンス�
 
 of.options.CUSTOM_FONTS=カスタムフォント
 of.options.CUSTOM_FONTS.tooltip.1=カスタムフォント
-of.options.CUSTOM_FONTS.tooltip.2=  オン - カスタムフォントを使う （通常） 高負荷
+of.options.CUSTOM_FONTS.tooltip.2=  オン - カスタムフォントを使う（通常） 高負荷
 of.options.CUSTOM_FONTS.tooltip.3=  オフ - デフォルトのフォントを使う 低負荷
 of.options.CUSTOM_FONTS.tooltip.4=カスタムフォントは現在使用中の
 of.options.CUSTOM_FONTS.tooltip.5=リソースパックに依存します。
 
 of.options.CUSTOM_COLORS=カスタムカラー
 of.options.CUSTOM_COLORS.tooltip.1=カスタムカラー
-of.options.CUSTOM_COLORS.tooltip.2=  オン - カスタムカラーを使う （通常） 高負荷
+of.options.CUSTOM_COLORS.tooltip.2=  オン - カスタムカラーを使う（通常） 高負荷
 of.options.CUSTOM_COLORS.tooltip.3=  オフ - デフォルトの色を使う 低負荷
 of.options.CUSTOM_COLORS.tooltip.4=カスタムカラーは現在使用中の
 of.options.CUSTOM_COLORS.tooltip.5=リソースパックに依存します。
@@ -269,15 +273,15 @@ of.options.SWAMP_COLORS.tooltip.4=湿地帯色は草，葉，蔦，水に影響�
 
 of.options.SMOOTH_BIOMES=バイオームを滑らかに表示
 of.options.SMOOTH_BIOMES.tooltip.1=バイオームを滑らかに表示
-of.options.SMOOTH_BIOMES.tooltip.2=  オン - バイオームの境界を滑らかにする （通常） 高負荷
+of.options.SMOOTH_BIOMES.tooltip.2=  オン - バイオームの境界を滑らかにする（通常） 高負荷
 of.options.SMOOTH_BIOMES.tooltip.3=  オフ - バイオームの境界を滑らかにしない 低負荷
 of.options.SMOOTH_BIOMES.tooltip.4=周囲の色の平均をとって
 of.options.SMOOTH_BIOMES.tooltip.5=バイオーム間の境界を滑らかにします。
 of.options.SMOOTH_BIOMES.tooltip.6=草，葉，蔦，水に影響を与えます。
 
-of.options.CONNECTED_TEXTURES=テクスチャの継ぎ目をなくす
-of.options.CONNECTED_TEXTURES.tooltip.1=テクスチャの継ぎ目をなくす
-of.options.CONNECTED_TEXTURES.tooltip.2=  オフ - テクスチャの継ぎ目をなくさない （通常）
+of.options.CONNECTED_TEXTURES=継ぎ目ないテクスチャ
+of.options.CONNECTED_TEXTURES.tooltip.1=継ぎ目ないテクスチャ
+of.options.CONNECTED_TEXTURES.tooltip.2=  オフ - テクスチャの継ぎ目をなくさない（通常）
 of.options.CONNECTED_TEXTURES.tooltip.3=  処理優先 - 処理優先でテクスチャの継ぎ目をなくす
 of.options.CONNECTED_TEXTURES.tooltip.4=  描画優先 - 描画優先でテクスチャの継ぎ目をなくす
 of.options.CONNECTED_TEXTURES.tooltip.5=草、砂岩、本棚で隣り合ったものを
@@ -287,7 +291,7 @@ of.options.CONNECTED_TEXTURES.tooltip.8=リソースパックに依存します�
 
 of.options.NATURAL_TEXTURES=自然なテクスチャ
 of.options.NATURAL_TEXTURES.tooltip.1=自然なテクスチャ
-of.options.NATURAL_TEXTURES.tooltip.2=  オフ - 自然なテクスチャを使用しない （通常）
+of.options.NATURAL_TEXTURES.tooltip.2=  オフ - 自然なテクスチャを使用しない（通常）
 of.options.NATURAL_TEXTURES.tooltip.3=  オン - 自然なテクスチャを使用する
 of.options.NATURAL_TEXTURES.tooltip.4=ブロックのテクスチャが同じ形を繰り返し、
 of.options.NATURAL_TEXTURES.tooltip.5=格子状の模様が形成される現象を除去します。
@@ -297,21 +301,21 @@ of.options.NATURAL_TEXTURES.tooltip.8=現在使用中のリソースパックに
 
 of.options.CUSTOM_SKY=カスタムスカイ
 of.options.CUSTOM_SKY.tooltip.1=カスタムスカイ
-of.options.CUSTOM_SKY.tooltip.2=  オン - カスタムスカイを使用する （通常） 高負荷
+of.options.CUSTOM_SKY.tooltip.2=  オン - カスタムスカイを使用する（通常） 高負荷
 of.options.CUSTOM_SKY.tooltip.3=  オフ - 通常の空 低負荷
 of.options.CUSTOM_SKY.tooltip.4=カスタムスカイ用のテクスチャは現在使用中の
 of.options.CUSTOM_SKY.tooltip.5=リソースパックに依存します。
 
 of.options.CUSTOM_ITEMS=カスタムアイテム
 of.options.CUSTOM_ITEMS.tooltip.1=カスタムアイテム
-of.options.CUSTOM_ITEMS.tooltip.2=  オン - カスタムアイテムを使用する （通常） 高負荷
+of.options.CUSTOM_ITEMS.tooltip.2=  オン - カスタムアイテムを使用する（通常） 高負荷
 of.options.CUSTOM_ITEMS.tooltip.3=  オフ - 通常のアイテムテクスチャを使用する 低負荷
 of.options.CUSTOM_ITEMS.tooltip.4=カスタムアイテム用のテクスチャは現在使用中の
 of.options.CUSTOM_ITEMS.tooltip.5=リソースパックに依存します。
 
 of.options.CUSTOM_ENTITY_MODELS=カスタムエンティティモデル
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=カスタムエンティティモデル
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  オン - カスタムエンティティモデルを使用する （通常）， 高負荷
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  オン - カスタムエンティティモデルを使用する（通常）， 高負荷
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  オフ - 通常のエンティティモデル， 低負荷
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=カスタムエンティティモデルは現在使用中の
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=リソースパックに依存します。
@@ -358,34 +362,34 @@ of.options.SKY.tooltip.4=オフにしても太陽や月はそのままです。
 
 of.options.STARS=星
 of.options.STARS.tooltip.1=星
-of.options.STARS.tooltip.2=  オン - 星を描画する （通常）
-of.options.STARS.tooltip.3=  オフ  - 星を描画しない （低負荷）
+of.options.STARS.tooltip.2=  オン - 星を描画する（通常）
+of.options.STARS.tooltip.3=  オフ  - 星を描画しない（低負荷）
 of.options.SUN_MOON=太陽と月
 of.options.SUN_MOON.tooltip.1=太陽と月
-of.options.SUN_MOON.tooltip.2=  オン - 太陽と月を描画する （通常）
-of.options.SUN_MOON.tooltip.3=  オフ  - 太陽と月を描画しない （低負荷）
+of.options.SUN_MOON.tooltip.2=  オン - 太陽と月を描画する（通常）
+of.options.SUN_MOON.tooltip.3=  オフ  - 太陽と月を描画しない（低負荷）
 of.options.SHOW_CAPES=Optifineマントの表示
 of.options.SHOW_CAPES.tooltip.1=Optifineマントの表示
-of.options.SHOW_CAPES.tooltip.2=  オン - Optifineマントを表示する （通常）
+of.options.SHOW_CAPES.tooltip.2=  オン - Optifineマントを表示する（通常）
 of.options.SHOW_CAPES.tooltip.3=  オフ - Optifineマントを表示しない
 
 of.options.TRANSLUCENT_BLOCKS=半透明のブロック
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明のブロック
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  描画優先 - 完全なカラーブレンド （通常）
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  処理優先 - 速さ重視のカラーブレンド （低負荷）
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  描画優先 - 完全なカラーブレンド（通常）
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  処理優先 - 速さ重視のカラーブレンド（低負荷）
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=違う色を持った半透明ブロック（色付きガラス，水，氷）
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=が空気を挟んで隣接した際の
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=カラーブレンドの設定です。
 
 of.options.HELD_ITEM_TOOLTIPS=持ち替え時アイテム名表示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持ち替え時アイテム名表示
-of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  オン - 持ち替え時にアイテム名を表示する （通常）
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  オン - 持ち替え時にアイテム名を表示する（通常）
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  オフ - 持ち替え時にアイテム名を表示しない
 
 of.options.ADVANCED_TOOLTIPS=高度なツールチップ
 of.options.ADVANCED_TOOLTIPS.tooltip.1=高度なツールチップ
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  オン - 高度なツールチップを表示
-of.options.ADVANCED_TOOLTIPS.tooltip.3=  オフ - 高度なツールチップを非表示 （通常）
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  オフ - 高度なツールチップを非表示（通常）
 of.options.ADVANCED_TOOLTIPS.tooltip.4=高度なツールチップはアイテム（ID，耐久値）と
 of.options.ADVANCED_TOOLTIPS.tooltip.5=シェーダーのオプション（ID，source，default value）において
 of.options.ADVANCED_TOOLTIPS.tooltip.6=拡張された情報を表示します。
@@ -402,9 +406,9 @@ options.entityShadows.tooltip.3=  オフ - Entityの影を表示しない
 
 of.options.VIGNETTE=視界端の影
 of.options.VIGNETTE.tooltip.1=スクリーンの角を少し暗くさせる視覚効果
-of.options.VIGNETTE.tooltip.2=  デフォルト - グラフィックスの設定に合わせる （通常）
-of.options.VIGNETTE.tooltip.3=  処理優先 - 視界端の影を表示しない （低負荷）
-of.options.VIGNETTE.tooltip.4=  描画優先 - 視界端の影を表示する （高負荷）
+of.options.VIGNETTE.tooltip.2=  デフォルト - グラフィックスの設定に合わせる（通常）
+of.options.VIGNETTE.tooltip.3=  処理優先 - 視界端の影を表示しない（低負荷）
+of.options.VIGNETTE.tooltip.4=  描画優先 - 視界端の影を表示する（高負荷）
 of.options.VIGNETTE.tooltip.5=視界端の影はFPSにとって重要な視覚効果です。
 of.options.VIGNETTE.tooltip.6=例外としてフルスクリーンで遊ぶ際には、
 of.options.VIGNETTE.tooltip.7=視界端の影は非常に微かであるため、
@@ -412,14 +416,14 @@ of.options.VIGNETTE.tooltip.8=無効にしても無害です。
 
 of.options.DYNAMIC_FOV=臨場感ある視野角
 of.options.DYNAMIC_FOV.tooltip.1=臨場感ある視野角
-of.options.DYNAMIC_FOV.tooltip.2=  オン - 臨場感ある視野角を有効化 （通常）
+of.options.DYNAMIC_FOV.tooltip.2=  オン - 臨場感ある視野角を有効化（通常）
 of.options.DYNAMIC_FOV.tooltip.3=  オフ - 臨場感ある視野角を無効化
 of.options.DYNAMIC_FOV.tooltip.4=飛翔時や、ダッシュ時、弓の引き絞り時に、
 of.options.DYNAMIC_FOV.tooltip.5=視野角（FOV）を変えます。
 
 of.options.DYNAMIC_LIGHTS=臨場感ある光源
 of.options.DYNAMIC_LIGHTS.tooltip.1=臨場感ある光源
-of.options.DYNAMIC_LIGHTS.tooltip.2=  オフ - 持っている光源を光らせない （通常）
+of.options.DYNAMIC_LIGHTS.tooltip.2=  オフ - 持っている光源を光らせない（通常）
 of.options.DYNAMIC_LIGHTS.tooltip.3=  処理優先 - 500ミリ秒ごとに位置を更新する
 of.options.DYNAMIC_LIGHTS.tooltip.4=  描画優先 - リアルタイムに位置を更新する
 of.options.DYNAMIC_LIGHTS.tooltip.5=光源となるアイテム（松明、グローストーンなど）について、
@@ -444,21 +448,21 @@ of.options.SMOOTH_WORLD.tooltip.5=シングルプレイの時のみ効果があ�
 
 of.options.FAST_RENDER=描画の最適化
 of.options.FAST_RENDER.tooltip.1=描画の最適化
-of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画 （通常）
-of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画 （低負荷）
+of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画（通常）
+of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画（低負荷）
 of.options.FAST_RENDER.tooltip.4=GPUのロード回数を減らした方式によって
 of.options.FAST_RENDER.tooltip.5=実質的なFPSを向上します。
 
 of.options.FAST_MATH=計算の最適化
 of.options.FAST_MATH.tooltip.1=計算の最適化
-of.options.FAST_MATH.tooltip.2= オフ - 通常の処理 （通常）
+of.options.FAST_MATH.tooltip.2= オフ - 通常の処理（通常）
 of.options.FAST_MATH.tooltip.3= オン - 最適化された計算方式
 of.options.FAST_MATH.tooltip.4=CPUのキャッシュをうまく使った
 of.options.FAST_MATH.tooltip.5=FPSを向上させる計算処理を使用します。
 
 of.options.CHUNK_UPDATES=チャンク読込方法
 of.options.CHUNK_UPDATES.tooltip.1=チャンク読込方法
-of.options.CHUNK_UPDATES.tooltip.2= 1 - 高負荷なチャンク読み込み 高いFPS （通常）
+of.options.CHUNK_UPDATES.tooltip.2= 1 - 高負荷なチャンク読み込み 高いFPS（通常）
 of.options.CHUNK_UPDATES.tooltip.3= 3 - 低負荷めなチャンク読み込み 低めのFPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - 低負荷なチャンク読み込み 低いFPS
 of.options.CHUNK_UPDATES.tooltip.5=1フレームごとに行われるチャンク読み込み回数を指定します。
@@ -494,20 +498,20 @@ of.options.ANIMATED_REDSTONE=レッドストーン
 of.options.ANIMATED_EXPLOSION=爆発
 of.options.ANIMATED_FLAME=松明やかまど
 of.options.ANIMATED_SMOKE=煙
-of.options.VOID_PARTICLES=岩盤付近の粒子
-of.options.WATER_PARTICLES=水中の粒子
+of.options.VOID_PARTICLES=奈落のパーティクル
+of.options.WATER_PARTICLES=水中のパーティクル
 of.options.RAIN_SPLASH=雨の水しぶき
-of.options.PORTAL_PARTICLES=ネザーゲートの粒子
-of.options.POTION_PARTICLES=ポーションの粒子
+of.options.PORTAL_PARTICLES=ポータルのパーティクル
+of.options.POTION_PARTICLES=ポーションのパーティクル
 of.options.DRIPPING_WATER_LAVA=水/溶岩の滴り
-of.options.ANIMATED_TERRAIN=Terrainアニメを有効にする
-of.options.ANIMATED_TEXTURES=Texturesアニメを有効にする
-of.options.FIREWORK_PARTICLES=花火の粒子
+of.options.ANIMATED_TERRAIN=地形アニメーション
+of.options.ANIMATED_TEXTURES=テクスチャアニメーション
+of.options.FIREWORK_PARTICLES=花火のパーティクル
 
 # Other
 
-of.options.LAGOMETER=デバッグの棒グラフを表示
-of.options.LAGOMETER.tooltip.1=F3デバッグに棒グラフを表示する。
+of.options.LAGOMETER=ラグメーター
+of.options.LAGOMETER.tooltip.1=デバッグ画面（F3）にラグメーターを表示する。
 of.options.LAGOMETER.tooltip.2=* 橙 - ガベージコレクション
 of.options.LAGOMETER.tooltip.3=* 藍 - Tick処理
 of.options.LAGOMETER.tooltip.4=* 青 - スケジューリングされた処理
@@ -516,10 +520,10 @@ of.options.LAGOMETER.tooltip.6=* 赤 - チャンクアップデート
 of.options.LAGOMETER.tooltip.7=* 黄 - 描画確認
 of.options.LAGOMETER.tooltip.8=* 緑 - 地形描画
 
-of.options.PROFILER=デバッグの円グラフを表示
-of.options.PROFILER.tooltip.1=デバッグの円グラフの表示
-of.options.PROFILER.tooltip.2=  オン - 円グラフは有効 高負荷
-of.options.PROFILER.tooltip.3=  オフ - 円グラフは無効 低負荷
+of.options.PROFILER=デバッグプロファイラ
+of.options.PROFILER.tooltip.1=デバッグプロファイラ
+of.options.PROFILER.tooltip.2=  オン - デバッグプロファイラは有効 高負荷
+of.options.PROFILER.tooltip.3=  オフ - デバッグプロファイラは無効 低負荷
 of.options.PROFILER.tooltip.4=デバッグ画面（F3）が開かれている時に
 of.options.PROFILER.tooltip.5=デバッグ情報を収集し円グラフ上に表示します。
 
