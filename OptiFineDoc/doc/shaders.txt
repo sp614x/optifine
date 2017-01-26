@@ -399,7 +399,7 @@ C. Driver
 D. OpenGL extensions
  Macros for the supported OpenGL extensions are named like the extension with a prefix "EXT_".
  For example the macro "EXT_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
- The extension macros are only added to the shaders which are checking for them.  
+ Only the macros which are being referenced are added to the shader file. 
   
 References
 ==========
