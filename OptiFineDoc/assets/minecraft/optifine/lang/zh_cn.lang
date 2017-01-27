@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-11-26
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2016-1-25
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -95,7 +95,11 @@ options.viewBobbing.tooltip.1=更真实的运动。
 options.viewBobbing.tooltip.2=当使用多级纹理贴图时，关闭它以获得最佳效果。
 
 options.guiScale.tooltip.1=界面尺寸
-options.guiScale.tooltip.2=更小的界面或许更快。
+options.guiScale.tooltip.2=  自动 - 最大尺寸
+options.guiScale.tooltip.3=  小，中，大 - 1x到3x
+options.guiScale.tooltip.4=  4x到10x - 在4K分辨率下可用
+options.guiScale.tooltip.5=奇数值（1x，3x，5x之类）与Unicode不兼容。
+options.guiScale.tooltip.6=一个较小的界面或许会更快。
 
 options.vbo.tooltip.1=启用缓冲区顶点对象
 options.vbo.tooltip.2=使用一种替选的渲染模式，通常
