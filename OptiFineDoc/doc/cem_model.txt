@@ -54,8 +54,8 @@
 # sheep                head, body, leg1 ... leg4
 # sheep_wool           head, body, leg1 ... leg4
 # shulker              head, base, lid
-# shulker_bullet       bullet
 # shulker_box          base, lid
+# shulker_bullet       bullet
 # sign                 board, stick
 # silverfish           body1 ... body7, wing1 ... wing3
 # skeleton             head, headwear, body, left_arm, right_arm, left_leg, right_leg
