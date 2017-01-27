@@ -364,43 +364,43 @@ Standard Macros
 The standard macros are automatically included after the "#version" declaration in every shader file
  
 A. Maximum supported GL version
- #define GL_VERSION <value>
+ #define MC_GL_VERSION <value>
  The value is integer, for example: 210, 320, 450
- 
+
 B. Maximum supported GLSL version
- #define GLSL_VERSION <value>
+ #define MC_GLSL_VERSION <value>
  The value is integer, for example: 120, 150, 450
-  
+
 C. Operating system 
  One of the following:
-  #define OS_WINDOWS
-  #define OS_MAC
-  #define OS_LINUX
-  #define OS_OTHER
- 
+  #define MC_OS_WINDOWS
+  #define MC_OS_MAC
+  #define MC_OS_LINUX
+  #define MC_OS_OTHER
+
 B. GPU
  One of the following:
-  #define GL_VENDOR_ATI
-  #define GL_VENDOR_INTEL
-  #define GL_VENDOR_NVIDIA
-  #define GL_VENDOR_XORG
-  #define GL_VENDOR_OTHER
+  #define MC_GL_VENDOR_ATI
+  #define MC_GL_VENDOR_INTEL
+  #define MC_GL_VENDOR_NVIDIA
+  #define MC_GL_VENDOR_XORG
+  #define MC_GL_VENDOR_OTHER
 
 C. Driver
  One of the following:
-  #define GL_RENDERER_RADEON 
-  #define GL_RENDERER_GEFORCE
-  #define GL_RENDERER_QUADRO
-  #define GL_RENDERER_INTEL
-  #define GL_RENDERER_GALLIUM
-  #define GL_RENDERER_MESA
-  #define GL_RENDERER_OTHER
-  
+  #define MC_GL_RENDERER_RADEON 
+  #define MC_GL_RENDERER_GEFORCE
+  #define MC_GL_RENDERER_QUADRO
+  #define MC_GL_RENDERER_INTEL
+  #define MC_GL_RENDERER_GALLIUM
+  #define MC_GL_RENDERER_MESA
+  #define MC_GL_RENDERER_OTHER
+
 D. OpenGL extensions
- Macros for the supported OpenGL extensions are named like the extension with a prefix "EXT_".
- For example the macro "EXT_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
- Only the macros which are being referenced are added to the shader file. 
-  
+ Macros for the supported OpenGL extensions are named like the corresponding extension with a prefix "MC_".
+ For example the macro "MC_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
+ Only the macros which are referenced and supported are added to the shader file. 
+
 References
 ==========
  http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
