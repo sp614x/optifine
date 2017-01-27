@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-10-12
-#   TheHADILP 2016-5-20 ---- 2017-01-24
+#   TheHADILP 2016-5-20 ---- 2017-01-27
 
 # General
 of.general.ambiguous=Unklar
@@ -47,6 +47,8 @@ of.message.openglError=§eOpenGL-Fehler§f: %s (%s)
 of.message.shaders.loading=Lade Shader-Effekte: %s
 
 of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
+
+of.message.loadingVisibleChunks=Lade sichtbare Chunks
  
 # Video settings
 
