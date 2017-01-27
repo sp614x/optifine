@@ -70,12 +70,12 @@ options.renderDistance.tooltip.7=最遠設定は非常に高いグラフィッ�
 options.renderDistance.tooltip.8=遠いを超える描画距離はシングルのワールドでのみ効果があります。
 
 options.ao.tooltip.1=スムースライティング
-options.ao.tooltip.2=  オフ - スムースライティングを使用しない （低負荷）
-options.ao.tooltip.3=  最小 - 単純なスムースライティング （高負荷）
-options.ao.tooltip.4=  最大 - 複雑なスムースライティング （最高負荷）
+options.ao.tooltip.2=  オフ - スムースライティングを使用しない（低負荷）
+options.ao.tooltip.3=  最小 - 単純なスムースライティング（高負荷）
+options.ao.tooltip.4=  最大 - 複雑なスムースライティング（最高負荷）
 
 options.framerateLimit.tooltip.1=最大のフレームレート
-options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレートに合わせる （60， 30， 20）
+options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレートに合わせる（60， 30， 20）
 options.framerateLimit.tooltip.3=  5～255 - フレームレートを設定した値までに制限する
 options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない（最低負荷）
 options.framerateLimit.tooltip.5=たとえ制限に達していなくとも、
@@ -478,7 +478,7 @@ of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=素早くチャンク読み込むよ�
 of.options.LAZY_CHUNK_LOADING=チャンク読み込みの遅延
 of.options.LAZY_CHUNK_LOADING.tooltip.1=チャンク読み込みの遅延
 of.options.LAZY_CHUNK_LOADING.tooltip.2= オフ - 通常のサーバーチャンク読み込み
-of.options.LAZY_CHUNK_LOADING.tooltip.3= オン - 遅延サーバーチャンク読み込み （滑らか）
+of.options.LAZY_CHUNK_LOADING.tooltip.3= オン - 遅延サーバーチャンク読み込み（滑らか）
 of.options.LAZY_CHUNK_LOADING.tooltip.4=チャンク読み込み処理を数Tickに分散させることで
 of.options.LAZY_CHUNK_LOADING.tooltip.5=総合的にサーバーのチャンク読み込み処理を滑らかにします。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=ワールドの一部に欠けが発生するようならOFFにしてください。
@@ -566,7 +566,7 @@ of.options.SHOW_FPS.tooltip.4=  U: - チャンクアップデート
 of.options.SHOW_FPS.tooltip.5=コンパクトなFPS情報は
 of.options.SHOW_FPS.tooltip.6=デバッグ画面が非表示の時のみ表示されます。 
 
-of.options.save.default=デフォルト （2秒）
+of.options.save.default=デフォルト（2秒）
 of.options.save.20s=20秒
 of.options.save.3min=3分
 of.options.save.30min=30分
