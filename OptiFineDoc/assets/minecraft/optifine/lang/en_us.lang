@@ -42,6 +42,8 @@ of.message.shaders.loading=Loading shaders: %s
 
 of.message.other.reset=Reset all video settings to their default values?
  
+of.message.loadingVisibleChunks=Loading visible chunks
+ 
 # Video settings
 
 options.graphics.tooltip.1=Visual quality
