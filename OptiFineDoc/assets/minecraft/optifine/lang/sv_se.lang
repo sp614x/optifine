@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2016-12-12
+#   Regnander (_Spitz) 2016-01-18 ---- 2017-01-25
 
 # General
 of.general.ambiguous=tvetydig
@@ -29,7 +29,7 @@ of.message.shaders.aa1=Shaders är inte kompatibla med Kantutjämning.
 of.message.shaders.aa2=Ändra "Kvalitet -> Kantutjämning" till AV och starta om spelet.
 
 of.message.shaders.af1=Shaders är inte kompatibla med Anisotropisk filtrering.
-of.message.shaders.af2=Ändra "Kvalitet -> Anisotropisk filtrering" till AV. 
+of.message.shaders.af2=Ändra "Kvalitet -> Anisotropisk filtrering" till AV.
 
 of.message.shaders.fr1=Shaders är inte kompatibla med Snabb rendering.
 of.message.shaders.fr2=Ändra "Prestanda -> Snabb rendering" till AV.
@@ -91,9 +91,13 @@ options.viewBobbing.tooltip.1=Mer verklighetstrogna rörelser.
 options.viewBobbing.tooltip.2=Inaktivera detta om mipmaps används för bästa resultat.
 
 options.guiScale.tooltip.1=GUI-skala
-options.guiScale.tooltip.2=Mindre GUI kan vara snabbare.
+options.guiScale.tooltip.2=  Automatisk - maximal storlek
+options.guiScale.tooltip.3=  Liten, Normal, Stor - 1x till 3x
+options.guiScale.tooltip.4=  4x till 10x - tillgänglig på 4K-skärmar
+options.guiScale.tooltip.5=Udda värden (1x, 3x, 5x...) är inte kompatibla med Unicode.
+options.guiScale.tooltip.6=Ett mindre GUI kan vara snabbare.
 
-options.vbo.tooltip.1=VBO (Vertex Buffer Objects)
+options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Använder en alternativ renderingsmodell som vanligtvis
 options.vbo.tooltip.3=är snabbare (5-10%%) än standardrenderingen.
 
@@ -555,7 +559,7 @@ options.fullscreen.tooltip.5=fönsterläge beroende på grafikkortet.
 
 of.options.FULLSCREEN_MODE=Fullskärmsläge
 of.options.FULLSCREEN_MODE.tooltip.1=Fullskärmsläge
-of.options.FULLSCREEN_MODE.tooltip.2=  Default - använd datorns upplösning, långsammare
+of.options.FULLSCREEN_MODE.tooltip.2=  Standard - använd datorns upplösning, långsammare
 of.options.FULLSCREEN_MODE.tooltip.3=  BxH - använd anpassad upplösning, kan vara snabbare
 of.options.FULLSCREEN_MODE.tooltip.4=Den valda upplösningen används i fullskärmsläge (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Lägre upplösningar bör vanligtvis vara snabbare.
