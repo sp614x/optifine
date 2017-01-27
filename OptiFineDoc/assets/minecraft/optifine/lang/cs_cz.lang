@@ -13,16 +13,16 @@ of.key.zoom=Přiblížení
 of.message.aa.shaders1=Antialiasing není kompatibilní se Stíny.
 of.message.aa.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
 
-of.message.af.shaders1=Anizotropní Filtrování není kompatibilní se Stíny
+of.message.af.shaders1=Anizotropní Filtrování není kompatibilní se Stíny.
 of.message.af.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
 
-of.message.fr.shaders1=Rychlý Render není kompatibilní se stíny.
+of.message.fr.shaders1=Rychlý Render není kompatibilní se Stíny.
 of.message.fr.shaders2=Prosím vypni Stíny pro použití téhle možnosti
 
 of.message.an.shaders1=3D zobrazení není kompatibilní se Stíny.
 of.message.an.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
  
-of.message.shaders.aa1=Stíny nejsou kompatibilní s Antialiasingem
+of.message.shaders.aa1=Stíny nejsou kompatibilní s Antialiasingem.
 of.message.shaders.aa2=Jdi do nastavení Kvality -> Antialiasing na VYPNUTO.
 
 of.message.shaders.af1=Stíny nejsou kompatibilní s Anizotropním Filtrováním.
@@ -41,6 +41,8 @@ of.message.openglError=§eChyba OpenGL§f: %s (%s)
 of.message.shaders.loading=Načítám stíny: %s
 
 of.message.other.reset=Vyresetovat všechno nastavení videa (grafiky) na výchozí hodnoty?
+
+of.message.loadingVisibleChunks=Načítám vididetlné chunky
  
 # Nastavení Grafiky
 
@@ -106,8 +108,8 @@ options.gamma.tooltip.5=Tato možnost nezmění jas
 options.gamma.tooltip.6=úplně tmavých objektů.
 
 options.anaglyph.tooltip.1=3D Zobrazení
-options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá každé barvy
-options.anaglyph.tooltip.3=pro každé oko.
+options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá dané barvy
+options.anaglyph.tooltip.3=pro dané oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-modré brýle pro lepší vidění.
 
 of.options.ALTERNATE_BLOCKS=Alternativní Bloky
@@ -132,7 +134,7 @@ of.options.FOG_START.tooltip.4=Tato možnost většinou neovlivňuje výkon.
 of.options.CHUNK_LOADING=Načítaní Chunků
 of.options.CHUNK_LOADING.tooltip.1= Načítaní Chunků
 of.options.CHUNK_LOADING.tooltip.2=  Výchozí - nestabilní FPS při načítání chunků
-of.options.CHUNK_LOADING.tooltip.3=  Pllynulé - stabilní FPS
+of.options.CHUNK_LOADING.tooltip.3=  Plynulé - stabilní FPS
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Jádra - stabilní FPS, 3x rychlejší načítání světa
 of.options.CHUNK_LOADING.tooltip.5=Plynulé a Multi-Jádra - odstraní sekání a 
 of.options.CHUNK_LOADING.tooltip.6=zmrazování způsobené načítáním chunků.
@@ -197,7 +199,7 @@ options.mipmapLevels.tooltip.5=  4 - maximální vyhlazování
 options.mipmapLevels.tooltip.6=Tato možnost většinou neovlivňuje výkon.
 
 of.options.MIPMAP_TYPE=Typ Mipmapy
-of.options.MIPMAP_TYPE.tooltip.1= Vizuální efekty mohou udělat vzdálenější objekty pěknější
+of.options.MIPMAP_TYPE.tooltip.1=Vizuální efekty mohou udělat vzdálenější objekty pěknější
 of.options.MIPMAP_TYPE.tooltip.2=vyhlazováním a detailními texturami.
 of.options.MIPMAP_TYPE.tooltip.3=  Nejbližší - hrubé vyhlazování (nejrychlejší)
 of.options.MIPMAP_TYPE.tooltip.4=  Lineární - normální vyhlazování
@@ -221,7 +223,7 @@ of.options.AF_LEVEL.tooltip.2= VYPNUTO - (výchozí) standartní detaily textur 
 of.options.AF_LEVEL.tooltip.3= 2-16 - lepší detaily v mipmapovaných texturách (pomalé)
 of.options.AF_LEVEL.tooltip.4= Antizotropní Filtrování zachová všechny detaily v
 of.options.AF_LEVEL.tooltip.5=mipmapovaných texturách.
-of.options.AF_LEVEL.tooltip.6=Pokud je zapnuto, výrazně sníží FPS..
+of.options.AF_LEVEL.tooltip.6=Pokud je zapnuto, výrazně sníží FPS.
 
 of.options.CLEAR_WATER=Čistá Voda
 of.options.CLEAR_WATER.tooltip.1= Čistá Voda
@@ -374,11 +376,11 @@ of.options.SHOW_CAPES.tooltip.3=  VYPNUTO - nezobrazovat kápě hráčů
 
 of.options.TRANSLUCENT_BLOCKS=Průsvitné Bloky
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Průsvitné Bloky
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pěkná - pěkné mixování bloků (výchozí)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rychlá - rychlé mixování bloků (rychlejší)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Ovládání mixování bloků zajišťuje blokům
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pěkná - správné míchání barev (výchozí)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rychlá - rychlé míchání barev (rychlejší)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Ovládá míchání barev průhledných bloků
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=s rozdílnou barvou (barevné sklo, voda, led)
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=odstranit vzduch mezi nimi.
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=když jsou položeny za sebou s mezerou mezi nimi.
 
 of.options.HELD_ITEM_TOOLTIPS=Popisek k Drženému Itemu
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Popisek k Drženému Itemu
