@@ -49,6 +49,8 @@ of.message.shaders.loading=载入光影：%s
 
 of.message.other.reset=确认重置所有视频设置为默认值吗？
 
+of.message.loadingVisibleChunks=正在加载可见区块
+
 # Video settings
 
 options.graphics.tooltip.1=图像品质
