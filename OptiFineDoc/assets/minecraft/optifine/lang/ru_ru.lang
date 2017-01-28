@@ -45,6 +45,8 @@ of.message.openglError=§eОшибка OpenGL§f: %s (%s)
 of.message.shaders.loading=Загрузка шейдеров: %s
 
 of.message.other.reset=Сбросить все настройки графики к первоначальным значениям?
+
+of.message.loadingVisibleChunks=Загрузка видимых чанков
  
 # Video settings
 
@@ -82,7 +84,7 @@ options.framerateLimit.tooltip.5=Уменьшает частоту кадров,
 options.framerateLimit.tooltip.6=
 of.options.framerateLimit.vsync=VSync
 
-of.options.AO_LEVEL=Уровень мягкого освещения
+of.options.AO_LEVEL=Мягкое освещение
 of.options.AO_LEVEL.tooltip.1=Уровень мягкого освещения
 of.options.AO_LEVEL.tooltip.2=  Выкл - без теней
 of.options.AO_LEVEL.tooltip.3=  50%% - светлые тени
@@ -92,7 +94,11 @@ options.viewBobbing.tooltip.1=Более реалистичное движени
 options.viewBobbing.tooltip.2=При использовании рекомендуется выключить MIP-текстурирование.
 
 options.guiScale.tooltip.1=Размер интерфейса
-options.guiScale.tooltip.2=Чем меньше интерфейс, тем он быстрее.
+options.guiScale.tooltip.2=  Авто - максимальный размер
+options.guiScale.tooltip.3=  Мелкий, обычный, крупный - от 1x до 3x
+options.guiScale.tooltip.4=  с 4x до 10x - доступно на мониторах с разрешением 4K
+options.guiScale.tooltip.5=Нечётные значения (1x, 3x, 5x ...) не совместимы с шрифтом Unicode.
+options.guiScale.tooltip.6=Чем меньше интерфейс, тем он быстрее.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Использует альтернативную модель рендеринга, которая быстрее,
@@ -150,7 +156,7 @@ of.options.shaders.packDefault=(встроенный)
 of.options.shaders.ANTIALIASING=Антиалиасинг
 of.options.shaders.NORMAL_MAP=Нормальная карта
 of.options.shaders.SPECULAR_MAP=Карта отражений
-of.options.shaders.RENDER_RES_MUL=Качество рендеринга
+of.options.shaders.RENDER_RES_MUL=Качество рендера
 of.options.shaders.SHADOW_RES_MUL=Качество теней
 of.options.shaders.HAND_DEPTH_MUL=Глубина руки
 of.options.shaders.CLOUD_SHADOW=Тени облаков
@@ -268,7 +274,7 @@ of.options.SWAMP_COLORS.tooltip.2=  Вкл - болотные цвета (по �
 of.options.SWAMP_COLORS.tooltip.3=  Выкл - без использования болотных цветов, быстрее
 of.options.SWAMP_COLORS.tooltip.4=Влияет на цвет травы, листьев, лиан и воды в биоме болота.
 
-of.options.SMOOTH_BIOMES=Сглаженные границы биомов
+of.options.SMOOTH_BIOMES=Сглаженные биомы
 of.options.SMOOTH_BIOMES.tooltip.1=Сглаженные границы биомов
 of.options.SMOOTH_BIOMES.tooltip.2=  Вкл - сглаженные цвета границ биомов (по умолчанию), медленнее
 of.options.SMOOTH_BIOMES.tooltip.3=  Выкл - несглаженные цвета границы биомов, быстрее
@@ -276,14 +282,14 @@ of.options.SMOOTH_BIOMES.tooltip.4=Сглаживание границ биом�
 of.options.SMOOTH_BIOMES.tooltip.5=значений цветов всех окружающих блоков.
 of.options.SMOOTH_BIOMES.tooltip.6=Влияет на цвет травы, листьев, лиан и воды.
 
-of.options.CONNECTED_TEXTURES=Соединённые текстуры
-of.options.CONNECTED_TEXTURES.tooltip.1=Соединённые текстуры
+of.options.CONNECTED_TEXTURES=Соединение текстур
+of.options.CONNECTED_TEXTURES.tooltip.1=Соединение текстур
 of.options.CONNECTED_TEXTURES.tooltip.2=  Выкл - несоединённые текстуры (по умолчанию)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Быстро - быстрое соединение текстур
 of.options.CONNECTED_TEXTURES.tooltip.4=  Детально - детальное соединение текстур
 of.options.CONNECTED_TEXTURES.tooltip.5=Данный параметр соединяет текстуры (стекло, песчаник, книжные полки)
 of.options.CONNECTED_TEXTURES.tooltip.6=друг с другом.
-of.options.CONNECTED_TEXTURES.tooltip.7=Соединённые текстуры предоставляются текущим пакетом ресурсов.
+of.options.CONNECTED_TEXTURES.tooltip.7=Информация о соединениях текстур предоставляются текущим пакетом ресурсов.
 of.options.CONNECTED_TEXTURES.tooltip.8= 
 
 of.options.NATURAL_TEXTURES=Естественные текстуры
@@ -380,7 +386,7 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.4=Данный параметр управ
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=цвета (цветное стекло, вода, лёд), размещённых друг за другом с воздухом
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=между ними.
 
-of.options.HELD_ITEM_TOOLTIPS=Всплывающая подсказка
+of.options.HELD_ITEM_TOOLTIPS=Подсказка о предмете
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Всплывающая подсказка об удерживаемом предмете.
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Вкл - показывать всплывающую подсказку о предмете (по умолчанию)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Выкл - не показывать всплывающую подсказку о предмете
@@ -413,14 +419,14 @@ of.options.VIGNETTE.tooltip.6=особенно при игре в полноэк
 of.options.VIGNETTE.tooltip.7=Рекомендуется отключить виньетирование, так как его практически незаметно.
 of.options.VIGNETTE.tooltip.8=
 
-of.options.DYNAMIC_FOV=Динамическое поле зрения
-of.options.DYNAMIC_FOV.tooltip.1=Динамическое поле зрения
+of.options.DYNAMIC_FOV=Динамика поля зрения
+of.options.DYNAMIC_FOV.tooltip.1=Динамика поля зрения
 of.options.DYNAMIC_FOV.tooltip.2=  Вкл - подвижное поле зрения (по умолчанию)
 of.options.DYNAMIC_FOV.tooltip.3=  Выкл - фиксированное поле зрения
 of.options.DYNAMIC_FOV.tooltip.4=Изменяет поле зрения в полёте, во время бега или стрельбы из лука.
 of.options.DYNAMIC_FOV.tooltip.5=
 
-of.options.DYNAMIC_LIGHTS=Динамическое освещение
+of.options.DYNAMIC_LIGHTS=Динамич. освещение
 of.options.DYNAMIC_LIGHTS.tooltip.1=Динамическое освещение
 of.options.DYNAMIC_LIGHTS.tooltip.2=  Выкл - динамическое освещение отключено (по умолчанию)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  Быстро - освещение обновляется каждые 500 мс., медленнее
@@ -459,7 +465,7 @@ of.options.FAST_MATH.tooltip.3= Вкл - быстрое вычисление
 of.options.FAST_MATH.tooltip.4=Использует оптимизированные функции синуса и косинуса, из-за чего 
 of.options.FAST_MATH.tooltip.5=появляется возможность лучше использовать кэш процессора и повысить FPS.
 
-of.options.CHUNK_UPDATES=Частота обновления чанков
+of.options.CHUNK_UPDATES=Обновление чанков
 of.options.CHUNK_UPDATES.tooltip.1=Частота обновления чанков
 of.options.CHUNK_UPDATES.tooltip.2= 1 - медленная загрузка мира, высокая частота кадров (по умолчанию)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - быстрая загрузка мира, низкая частота кадров
@@ -474,7 +480,7 @@ of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Вкл - пока игрок сто�
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Когда игрок стоит на месте, чанки обновляются чаще,
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=для того чтобы мир загрузился быстрее.
 
-of.options.LAZY_CHUNK_LOADING=Медленная загрузка чанков
+of.options.LAZY_CHUNK_LOADING=Медленные чанки
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Медленная загрузка чанков
 of.options.LAZY_CHUNK_LOADING.tooltip.2= Выкл - стандартная загрузка чанков сервера
 of.options.LAZY_CHUNK_LOADING.tooltip.3= Вкл - медленная загрузка чанков сервера (плавнее)
@@ -503,8 +509,8 @@ of.options.RAIN_SPLASH=Брызги дождя
 of.options.PORTAL_PARTICLES=Частицы портала
 of.options.POTION_PARTICLES=Частицы зелья
 of.options.DRIPPING_WATER_LAVA=Капающая вода/лава
-of.options.ANIMATED_TERRAIN=Анимированная местность
-of.options.ANIMATED_TEXTURES=Анимированные текстуры
+of.options.ANIMATED_TERRAIN=Анимация местности
+of.options.ANIMATED_TEXTURES=Анимация текстур
 of.options.FIREWORK_PARTICLES=Частицы фейерверка
 
 # Other
