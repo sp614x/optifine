@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2017-01-27
+#   CrafterKina 2014-01-04 ---- 2017-01-28
 
 # General
 of.general.ambiguous=不明確
@@ -45,6 +45,8 @@ of.message.openglError=§eOpenGLエラー§f：%s（%s）
 of.message.shaders.loading=シェーダーをロード中：%s
 
 of.message.other.reset=全ての設定を元の状態に戻してもよろしいですか？
+
+of.message.loadingVisibleChunks=可視チャンクを読み込み中
  
 # Video settings
 
