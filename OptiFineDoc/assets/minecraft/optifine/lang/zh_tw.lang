@@ -47,7 +47,9 @@ of.message.openglError=§eOpenGL錯誤§f: %s (%s)
 of.message.shaders.loading=載入光影: %s
 
 of.message.other.reset=確認重置所有描繪設定為預設值嗎?
- 
+
+of.message.loadingVisibleChunks=正在加載可見區塊
+
 # Video settings
 
 options.graphics.tooltip.1=圖像畫質
