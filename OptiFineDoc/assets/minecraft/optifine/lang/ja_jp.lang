@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2017-01-27
+#   CrafterKina 2014-01-04 ---- 2017-01-28
 
 # General
 of.general.ambiguous=不明確
@@ -45,6 +45,8 @@ of.message.openglError=§eOpenGLエラー§f：%s（%s）
 of.message.shaders.loading=シェーダーをロード中：%s
 
 of.message.other.reset=全ての設定を元の状態に戻してもよろしいですか？
+
+of.message.loadingVisibleChunks=可視チャンクを読み込み中
  
 # Video settings
 
@@ -155,8 +157,8 @@ of.options.shaders.ANTIALIASING=アンチエイリアス処理
 of.options.shaders.NORMAL_MAP=法線マッピング
 of.options.shaders.SPECULAR_MAP=鏡面反射マッピング
 of.options.shaders.RENDER_RES_MUL=描画の品質
-of.options.shaders.SHADOW_RES_MUL=影の品質
-of.options.shaders.HAND_DEPTH_MUL=手部深度
+of.options.shaders.SHADOW_RES_MUL=陰影の品質
+of.options.shaders.HAND_DEPTH_MUL=手部被写界深度
 of.options.shaders.CLOUD_SHADOW=雲の影
 of.options.shaders.OLD_HAND_LIGHT=古い手持ち光源
 of.options.shaders.OLD_LIGHTING=古いライティング
