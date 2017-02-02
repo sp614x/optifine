@@ -42,6 +42,8 @@ of.message.shaders.loading=Loading shaders: %s
 
 of.message.other.reset=Reset all video settings to their default values?
  
+of.message.loadingVisibleChunks=Loading visible chunks
+ 
 # Video settings
 
 options.graphics.tooltip.1=Visual quality
@@ -88,7 +90,11 @@ options.viewBobbing.tooltip.1=More realistic movement.
 options.viewBobbing.tooltip.2=When using mipmaps set it to OFF for best results.
 
 options.guiScale.tooltip.1=GUI Scale
-options.guiScale.tooltip.2=Smaller GUI might be faster.
+options.guiScale.tooltip.2=  Auto - maximal size
+options.guiScale.tooltip.3=  Small, Normal, Large - 1x to 3x
+options.guiScale.tooltip.4=  4x to 10x - available on 4K displays
+options.guiScale.tooltip.5=Odd values (1x, 3x, 5x ...) are not compatible with Unicode.
+options.guiScale.tooltip.6=A smaller GUI may be faster.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Uses an alternative rendering model which is usually

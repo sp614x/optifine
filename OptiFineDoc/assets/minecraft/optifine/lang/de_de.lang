@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2016-10-12
-#   TheHADILP 2016-5-20 ---- 2016-12-02
+#   TheHADILP 2016-5-20 ---- 2017-01-27
 
 # General
 of.general.ambiguous=Unklar
@@ -47,6 +47,8 @@ of.message.openglError=§eOpenGL-Fehler§f: %s (%s)
 of.message.shaders.loading=Lade Shader-Effekte: %s
 
 of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
+
+of.message.loadingVisibleChunks=Lade sichtbare Chunks
  
 # Video settings
 
@@ -95,7 +97,11 @@ options.viewBobbing.tooltip.2=Wenn Mipmaps verwendet werden, deaktiviere diese
 options.viewBobbing.tooltip.3=Einstellung für bessere Leitung.
 
 options.guiScale.tooltip.1=GUI-Größe
-options.guiScale.tooltip.2=Ein kleineres GUI ist eventuell schneller.
+options.guiScale.tooltip.2=  Auto - Maximale Größe
+options.guiScale.tooltip.3=  Klein, Normal, Groß - 1x-3x
+options.guiScale.tooltip.4=  4x-10x - Verfügbar auf 4K Monitoren
+options.guiScale.tooltip.5=Ungerade Werte (1x, 3x ...) sind nicht mit Unicode kompatibel.
+options.guiScale.tooltip.6=Ein kleineres GUI ist eventuell schneller.
 
 options.vbo.tooltip.1=Vertexbufferobjekte
 options.vbo.tooltip.2=Benutzt ein alternatives Rendermodell, das normalerweise

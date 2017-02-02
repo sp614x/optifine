@@ -84,9 +84,12 @@ uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
 uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
-uniform int worldTime;                          <ticks>
+uniform int worldTime;                          <ticks> = worldTicks % 24000
+uniform int worldDay;                           <days> = worldTicks / 24000
 uniform int moonPhase;                          0-7
-uniform float frameTimeCounter;                 real time, seconds
+uniform int frameCounter;                       Frame index (0 to 720719, then resets to 0)
+uniform float frameTime;                        last frame time, seconds
+uniform float frameTimeCounter;                 run time, seconds (resets to 0 after 3600s)
 uniform float sunAngle;                         0.0-1.0
 uniform float shadowAngle;                      0.0-1.0
 uniform float rainStrength;                     0.0-1.0
@@ -209,6 +212,22 @@ attribute <type> mc_Entity;                     useEntityAttrib = true
 attribute <type> mc_midTexCoord;                useMidTexCoordAttrib = true             
 attribute <type> at_tangent;                    useTangentAttrib = true
 
+Block ID mapping
+================
+The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
+Format "block.<id>=<block1> <block2> ..."
+The key is the substitute block ID, the value are the blocks which are to be replaced.
+See "properties_files.txt" for the block matching rules.
+
+  # Short format
+  block.31=red_flower yellow_flower
+  # Long format
+  block.31=minecraft:red_flower ic2:nether_flower
+  # Properties
+  block.31=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip
+  # Block ID, Metadata (backwards compatibility)
+  block.31=38:6 38:7
+
 Fragment Shader Configuration
 =============================
 Source                                          Effect                                                    Comment
@@ -279,6 +298,7 @@ const int noiseTextureResolution = 256;         noiseTextureResolution = 256
 /* GAUX4FORMAT:RGB32F */                        buffersFormat[7] = GL_RGB32F
 /* GAUX4FORMAT:RGB16 */                         buffersFormat[7] = GL_RGB16
 const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Buffer Index" and "Texture Formats"
+const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" programs 
 const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" and "final"
 /* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
 
@@ -339,8 +359,50 @@ Texture Formats
  RGB10_A2
  R11F_G11F_B10F
 
- References
- ==========
+Standard Macros
+===============
+The standard macros are automatically included after the "#version" declaration in every shader file
+ 
+A. Maximum supported GL version
+ #define MC_GL_VERSION <value>
+ The value is integer, for example: 210, 320, 450
+
+B. Maximum supported GLSL version
+ #define MC_GLSL_VERSION <value>
+ The value is integer, for example: 120, 150, 450
+
+C. Operating system 
+ One of the following:
+  #define MC_OS_WINDOWS
+  #define MC_OS_MAC
+  #define MC_OS_LINUX
+  #define MC_OS_OTHER
+
+B. GPU
+ One of the following:
+  #define MC_GL_VENDOR_ATI
+  #define MC_GL_VENDOR_INTEL
+  #define MC_GL_VENDOR_NVIDIA
+  #define MC_GL_VENDOR_XORG
+  #define MC_GL_VENDOR_OTHER
+
+C. Driver
+ One of the following:
+  #define MC_GL_RENDERER_RADEON 
+  #define MC_GL_RENDERER_GEFORCE
+  #define MC_GL_RENDERER_QUADRO
+  #define MC_GL_RENDERER_INTEL
+  #define MC_GL_RENDERER_GALLIUM
+  #define MC_GL_RENDERER_MESA
+  #define MC_GL_RENDERER_OTHER
+
+D. OpenGL extensions
+ Macros for the supported OpenGL extensions are named like the corresponding extension with a prefix "MC_".
+ For example the macro "MC_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
+ Only the macros which are referenced and supported are added to the shader file. 
+
+References
+==========
  http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
  http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix
  http://www.minecraftforum.net/forums/search?by-author=karyonix&display-type=posts
