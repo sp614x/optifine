@@ -391,11 +391,11 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Infotext för föremål
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  PÅ - visa infotext för hållna föremål (standard)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  AV - visa inte infotext för hållna föremål
 
-of.options.ADVANCED_TOOLTIPS=Avancerade verktygstips
-of.options.ADVANCED_TOOLTIPS.tooltip.1=Avancerade verktygstips
-of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - visa avancerade verktygstips
-of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - visa inte avancerade verktygstips (standard)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade verktygstips visar utvidgad information om
+of.options.ADVANCED_TOOLTIPS=Avancerade inforutor
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Avancerade inforutor
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - visa avancerade inforutor
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - visa inte avancerade inforutor (standard)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade inforutor visar utvidgad information om
 of.options.ADVANCED_TOOLTIPS.tooltip.5=föremål (id, hållbarhet) och shaderalternativ
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, källa, standardvärden).
 
