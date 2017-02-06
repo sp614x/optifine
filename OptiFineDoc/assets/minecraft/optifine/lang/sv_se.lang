@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2017-01-25
+#   Regnander (_Spitz) 2016-01-18 ---- 2017-02-06
 
 # General
 of.general.ambiguous=tvetydig
@@ -44,6 +44,8 @@ of.message.openglError=§eOpenGL-fel§f: %s (%s)
 of.message.shaders.loading=Läser in shaders: %s
 
 of.message.other.reset=Återställ alla grafikinställningar till dess standardvärden?
+
+of.message.loadingVisibleChunks=Läser in synliga chunkar
  
 # Video settings
 
