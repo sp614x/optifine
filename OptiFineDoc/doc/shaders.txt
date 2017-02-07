@@ -408,6 +408,21 @@ Texture Formats
  RGB10_A2
  R11F_G11F_B10F
 
+Depth buffers
+=============
+Name        Usage
+==============================================================================
+depthtex0   everything
+depthtex1   no translucent objects (water, stained glass) 
+depthtex2   no translucent objects (water, stained glass), no handheld objects
+
+Shadow buffers
+==============
+Name        Usage
+==============================================================================
+shadowtex0  everything
+shadowtex1  no translucent objects (water, stained glass) 
+
 Standard Macros
 ===============
 The standard macros are automatically included after the "#version" declaration in every shader file
