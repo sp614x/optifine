@@ -143,6 +143,10 @@ uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
 uniform sampler2D depthtex0;                    6
+uniform sampler2D gaux1;                        7  <only as a custom texture>
+uniform sampler2D gaux2;                        8  <only as a custom texture>
+uniform sampler2D gaux3;                        9  <only as a custom texture>
+uniform sampler2D gaux4;                        10 <only as a custom texture>
 uniform sampler2D depthtex1;                    12
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
@@ -164,6 +168,10 @@ uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
 uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
+uniform sampler2D gaux1;                        7  <only as a custom texture>
+uniform sampler2D gaux2;                        8  <only as a custom texture>
+uniform sampler2D gaux3;                        9  <only as a custom texture>
+uniform sampler2D gaux4;                        10 <only as a custom texture>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
@@ -215,6 +223,10 @@ Id Name           Legacy name
 4  shadowtex0     shadow, watershadow 
 5  shadowtex1     shadow (when watershadow used)
 6  depthtex0
+7  gaux1          <only as a custom texture>
+8  gaux2          <only as a custom texture>
+9  gaux3          <only as a custom texture>
+10 gaux4          <only as a custom texture>
 12 depthtex1
 13 shadowcolor0   shadowcolor 
 14 shadowcolor1
@@ -230,6 +242,10 @@ Id Name           Legacy name
 3  specular
 4  shadowtex0     shadow, watershadow        
 5  shadowtex1     shadow (when watershadow used)
+7  gaux1          <only as a custom texture>
+8  gaux2          <only as a custom texture>
+9  gaux3          <only as a custom texture>
+10 gaux4          <only as a custom texture>
 13 shadowcolor0   shadowcolor
 14 shadowcolor1   
 15 noisetex
