@@ -41,6 +41,8 @@ of.message.openglError=§eOpenGL'i viga§f: %s (%s)
 of.message.shaders.loading=Varjutajate laadimine: %s
 
 of.message.other.reset=Lähtestad kõik graafikaseaded vaikimisi väärtustele?
+
+of.message.loadingVisibleChunks=Laadin nähtavaid kamakaid
  
 # Video settings
 
