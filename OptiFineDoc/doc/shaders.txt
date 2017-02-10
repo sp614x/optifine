@@ -143,7 +143,35 @@ uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
 uniform sampler2D depthtex0;                    6
+uniform sampler2D gaux1;                        7  <only as a custom texture>
+uniform sampler2D gaux2;                        8  <only as a custom texture>
+uniform sampler2D gaux3;                        9  <only as a custom texture>
+uniform sampler2D gaux4;                        10 <only as a custom texture>
 uniform sampler2D depthtex1;                    12
+uniform sampler2D shadowcolor;                  13
+uniform sampler2D shadowcolor0;                 13
+uniform sampler2D shadowcolor1;                 14
+uniform sampler2D noisetex;                     15
+
+Shadow Uniforms
+==================
+Programs: shadow, shadow_solid, shadow_cutout 
+==================
+Source                                          Value                                                    
+=====================================================================================================================================================================
+uniform sampler2D tex;                          0
+uniform sampler2D texture;                      0
+uniform sampler2D lightmap;                     1
+uniform sampler2D normals;                      2         
+uniform sampler2D specular;                     3
+uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
+uniform sampler2D watershadow;                  4
+uniform sampler2D shadowtex0;                   4
+uniform sampler2D shadowtex1;                   5
+uniform sampler2D gaux1;                        7  <only as a custom texture>
+uniform sampler2D gaux2;                        8  <only as a custom texture>
+uniform sampler2D gaux3;                        9  <only as a custom texture>
+uniform sampler2D gaux4;                        10 <only as a custom texture>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
@@ -184,25 +212,64 @@ uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
 uniform sampler2D noisetex;                     15
 
-Shadow Uniforms
+GBuffers Textures
+=================
+Id Name           Legacy name
+======================================
+0  texture
+1  lightmap
+2  normals
+3  specular
+4  shadowtex0     shadow, watershadow 
+5  shadowtex1     shadow (when watershadow used)
+6  depthtex0
+7  gaux1          <only as a custom texture>
+8  gaux2          <only as a custom texture>
+9  gaux3          <only as a custom texture>
+10 gaux4          <only as a custom texture>
+12 depthtex1
+13 shadowcolor0   shadowcolor 
+14 shadowcolor1
+15 noisetex
+
+Shadow Textures
 ==================
-Programs: shadow, shadow_solid, shadow_cutout 
+Id Name           Legacy name
+======================================
+0  texture        tex
+1  lightmap
+2  normals
+3  specular
+4  shadowtex0     shadow, watershadow        
+5  shadowtex1     shadow (when watershadow used)
+7  gaux1          <only as a custom texture>
+8  gaux2          <only as a custom texture>
+9  gaux3          <only as a custom texture>
+10 gaux4          <only as a custom texture>
+13 shadowcolor0   shadowcolor
+14 shadowcolor1   
+15 noisetex
+
+Composite Textures
 ==================
-Source                                          Value                                                    
-=====================================================================================================================================================================
-uniform sampler2D tex;                          0
-uniform sampler2D texture;                      0
-uniform sampler2D lightmap;                     1
-uniform sampler2D normals;                      2         
-uniform sampler2D specular;                     3
-uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
-uniform sampler2D watershadow;                  4
-uniform sampler2D shadowtex0;                   4
-uniform sampler2D shadowtex1;                   5
-uniform sampler2D shadowcolor;                  13
-uniform sampler2D shadowcolor0;                 13
-uniform sampler2D shadowcolor1;                 14
-uniform sampler2D noisetex;                     15
+Id Name           Legacy name
+======================================
+0  colortex0      gcolor 
+1  colortex1      gdepth 
+2  colortex2      gnormal 
+3  colortex3      composite
+4  shadowtex0     shadow, watershadow 
+5  shadowtex1     shadow (when watershadow used)
+6  depthtex0      gdepthtex
+7  colortex4      gaux1
+8  colortex5      gaux2
+9  colortex6      gaux3
+10 colortex7      gaux4
+11 depthtex1
+12 depthtex2
+13 shadowcolor0   shadowcolor
+14 shadowcolor1
+15 noisetex
 
 Vertex Shader Configuration
 ===========================
@@ -239,8 +306,6 @@ uniform <type> shadowtex1;                      shadowDepthBuffers = 2
 uniform <type> shadowcolor;                     shadowColorBuffers = 1
 uniform <type> shadowcolor0;                    shadowColorBuffers = 1
 uniform <type> shadowcolor1;                    shadowColorBuffers = 2
-uniform <type> shadowcolor2;                    shadowColorBuffers = 3
-uniform <type> shadowcolor3;                    shadowColorBuffers = 4
 uniform <type> depthtex0;                       depthBuffers = 1
 uniform <type> depthtex1;                       depthBuffers = 2
 uniform <type> depthtex2;                       depthBuffers = 3
@@ -302,11 +367,11 @@ const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false    
 const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" and "final"
 /* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
 
-Buffer Index 
-============
+Draw Buffer Index 
+==================
 Prefix                  Index
 ==================================
-colortex<N>             N
+colortex<0-7>           0-7
 gcolor                  0
 gdepth                  1
 gnormal                 2
@@ -358,6 +423,21 @@ Texture Formats
  RGB5_A1
  RGB10_A2
  R11F_G11F_B10F
+
+Depth buffers
+=============
+Name        Usage
+==============================================================================
+depthtex0   everything
+depthtex1   no translucent objects (water, stained glass) 
+depthtex2   no translucent objects (water, stained glass), no handheld objects
+
+Shadow buffers
+==============
+Name        Usage
+==============================================================================
+shadowtex0  everything
+shadowtex1  no translucent objects (water, stained glass) 
 
 Standard Macros
 ===============
