@@ -442,23 +442,28 @@ shadowtex1  no translucent objects (water, stained glass)
 Standard Macros
 ===============
 The standard macros are automatically included after the "#version" declaration in every shader file
- 
-A. Maximum supported GL version
+
+A. Minecraft version
+ #define MC_VERSION <value>
+ The value is in format 122 (major 1, minor 2, release 2)
+ For example: 1.9.4 -> 10904, 1.11.2 -> 11102, etc.
+
+B. Maximum supported GL version
  #define MC_GL_VERSION <value>
  The value is integer, for example: 210, 320, 450
 
-B. Maximum supported GLSL version
+C. Maximum supported GLSL version
  #define MC_GLSL_VERSION <value>
  The value is integer, for example: 120, 150, 450
 
-C. Operating system 
+D. Operating system 
  One of the following:
   #define MC_OS_WINDOWS
   #define MC_OS_MAC
   #define MC_OS_LINUX
   #define MC_OS_OTHER
 
-B. GPU
+E. GPU
  One of the following:
   #define MC_GL_VENDOR_ATI
   #define MC_GL_VENDOR_INTEL
@@ -466,7 +471,7 @@ B. GPU
   #define MC_GL_VENDOR_XORG
   #define MC_GL_VENDOR_OTHER
 
-C. Driver
+F. Driver
  One of the following:
   #define MC_GL_RENDERER_RADEON 
   #define MC_GL_RENDERER_GEFORCE
@@ -476,7 +481,7 @@ C. Driver
   #define MC_GL_RENDERER_MESA
   #define MC_GL_RENDERER_OTHER
 
-D. OpenGL extensions
+G. OpenGL extensions
  Macros for the supported OpenGL extensions are named like the corresponding extension with a prefix "MC_".
  For example the macro "MC_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
  Only the macros which are referenced and supported are added to the shader file. 
