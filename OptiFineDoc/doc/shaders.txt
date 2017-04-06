@@ -121,6 +121,9 @@ uniform ivec2 eyeBrightnessSmooth;              eyeBrightness smoothed with eyeB
 uniform ivec2 terrainTextureSize;               not used
 uniform int terrainIconSize;                    not used
 uniform int isEyeInWater;                       camera is underwater
+uniform float nightVision;                      night vision (0.0-1.0)
+uniform float blindness;                        blindness (0.0-1.0)
+uniform float screenBrightness;                 screen brightness (0.0-1.0)
 uniform int hideGUI;                            GUI is hidden
 uniform float centerDepthSmooth;                centerDepth smoothed with centerDepthSmoothHalflife
 uniform ivec2 atlasSize;                        texture atlas size
@@ -297,7 +300,7 @@ See "properties_files.txt" for the block matching rules.
 
 Fragment Shader Configuration
 =============================
-Source                                          Effect                                                    Comment
+Source                                          Effect                                                     Comment
 =====================================================================================================================================================================
 uniform <type> shadow;                          shadowDepthBuffers = 1
 uniform <type> watershadow;                     shadowDepthBuffers = 2
@@ -325,6 +328,7 @@ const int shadowMapResolution = 1024;           shadowMapWidth = shadowMapHeight
 /* SHADOWFOV:90.0 */                            shadowMapFov = 90
 /* SHADOWHPL:160.0 */                           shadowMapDistance = 160.0
 const float shadowDistance = 160.0f;            shadowMapDistance = 160.0
+const float shadowDistanceRenderMul = -1f;      shadowDistanceRenderMul = -1                               When > 0 enable shadow optimization (shadowRenderDistance = shadowDistance * shadowDistanceRenderMul)
 const float shadowIntervalSize = 2.0f;          shadowIntervalSize = 2.0
 const bool generateShadowMipmap = true;         shadowMipmap = true
 const bool generateShadowColorMipmap = true;    shadowColorMipmap = true
