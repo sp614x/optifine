@@ -42,7 +42,9 @@ of.message.openglError=§eOpenGL Error§f: %s (%s)
 of.message.shaders.loading=Завантажуємо шейдери: %s
 
 of.message.other.reset=Встановити всі налаштування на їхні початкові значення?
- 
+
+of.message.loadingVisibleChunks=Завантажувати видимі чанки
+
 # Video settings
 
 options.graphics.tooltip.1=Візуальна якість
@@ -90,6 +92,11 @@ options.viewBobbing.tooltip.2=При використанні міпмапів �
 
 options.guiScale.tooltip.1=Розмір GUI
 options.guiScale.tooltip.2=Найменше GUI буде швидше
+options.guiScale.tooltip.2=  Авто - максимальний розмір
+options.guiScale.tooltip.3=  Малий, Нормальний, Великий - 1x до 3x
+options.guiScale.tooltip.4=  4x до 10x - доступні на 4K дисплеях
+options.guiScale.tooltip.5=Непарні значення (1x, 3x, 5x ...) не підтримуються юнікодом.
+options.guiScale.tooltip.6=Менший GUI швидший.
 
 options.vbo.tooltip.1=Об'єкти буфера вершин
 options.vbo.tooltip.2=Використовує альтернативну технологію рендерингу, що зазвичай
