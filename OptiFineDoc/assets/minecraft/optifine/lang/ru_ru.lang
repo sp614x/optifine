@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#   Jerozgen 2016-03-01 ---- 2017-01-28
+#   Jerozgen 2016-03-01 ---- 2017-03-11
 #   Dibro 2016-03-20
 
 # General
@@ -241,9 +241,9 @@ of.options.RANDOM_MOBS.tooltip.3=  Вкл - случайные мобы вклю
 of.options.RANDOM_MOBS.tooltip.4=Используются случайные текстуры для мобов.
 of.options.RANDOM_MOBS.tooltip.5=Требуется пакет ресурсов, в котором такие текстуры есть.
 
-of.options.BETTER_GRASS=Улучшенная трава
-of.options.BETTER_GRASS.tooltip.1=Улучшенная трава
-of.options.BETTER_GRASS.tooltip.2=  Выкл - трава по умолчанию, быстрее
+of.options.BETTER_GRASS=Улучшенный дёрн
+of.options.BETTER_GRASS.tooltip.1=Улучшенный дёрн
+of.options.BETTER_GRASS.tooltip.2=  Выкл - дёрн по умолчанию, быстрее
 of.options.BETTER_GRASS.tooltip.3=  Быстро - полностью заполненные текстуры сторон дёрна, медленнее
 of.options.BETTER_GRASS.tooltip.4=  Детально - динамично заполненные текстуры сторон дёрна, ещё медленнее
 
@@ -252,7 +252,7 @@ of.options.BETTER_SNOW.tooltip.1=Улучшенный снег
 of.options.BETTER_SNOW.tooltip.2=  Выкл - стандартный снег, быстрее
 of.options.BETTER_SNOW.tooltip.3=  Вкл - улучшенный снег, медленнее
 of.options.BETTER_SNOW.tooltip.4=Показывает снег под прилегающими к нему прозрачными блоками
-of.options.BETTER_SNOW.tooltip.5=(забор, высокая трава).
+of.options.BETTER_SNOW.tooltip.5=(забор, трава).
 
 of.options.CUSTOM_FONTS=Пользовательские шрифты
 of.options.CUSTOM_FONTS.tooltip.1=Пользовательские шрифты
@@ -416,7 +416,7 @@ of.options.VIGNETTE.tooltip.3=  Быстро - виньетирование от
 of.options.VIGNETTE.tooltip.4=  Детально - виньетирование включено, медленнее
 of.options.VIGNETTE.tooltip.5=Виньетирование может оказывать значительное влияние на частоту кадров,
 of.options.VIGNETTE.tooltip.6=особенно при игре в полноэкранном режиме.
-of.options.VIGNETTE.tooltip.7=Рекомендуется отключить виньетирование, так как его практически незаметно.
+of.options.VIGNETTE.tooltip.7=
 of.options.VIGNETTE.tooltip.8=
 
 of.options.DYNAMIC_FOV=Динамика поля зрения
