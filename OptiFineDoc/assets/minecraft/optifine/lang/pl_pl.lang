@@ -1,3 +1,6 @@
+# Contributors of Polish localization #
+#  Kamil7430 2016-03-14 -- 2017-03-12 #
+
 # General
 of.general.ambiguous=dwuznaczny
 of.general.custom=Inny
@@ -42,6 +45,8 @@ of.message.shaders.loading=Wczytuję shadery: %s
 
 of.message.other.reset=Czy chcesz przywrócić wszystkie ustawienia graficzne do ich domyślnych wartości?
  
+of.message.loadingVisibleChunks=Wczytywanie widzialnych chunków
+
 # Video settings
 
 options.graphics.tooltip.1=Jakość grafiki
