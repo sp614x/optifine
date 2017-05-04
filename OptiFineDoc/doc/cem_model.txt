@@ -8,63 +8,74 @@
 # The entity model contains a list of entity part models.
 # The part models can be specified inline or loaded from external ".jpm" files.
 #
-# Entity name         Part name
-# =================== ======================================================
-# armor_stand         right, left, waist, base
-# banner              slate, stand, top
-# bat                 head, body, right_wing, left_wing, outer_right_wing, outer_left_wing
-# blaze               head, stick1 ... stick12
-# boat                bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water
-# book                cover_right, cover_left, pages_right, pages_left, flipping_page_right, flipping_page_left, book_spine
-# cave_spider         head, neck, body, leg1 ... leg8
-# chest               lid, base, knob
-# chest_large         lid, base, knob
-# chicken             head, body, right_leg, left_leg, right_wing, left_wing, bill, chin
-# cow                 head, body, leg1 ... leg4
-# creeper             head, armor, body, leg1 ... leg4
-# dragon              head, spine, jaw, body, rear_leg, front_leg, rear_leg_tip, front_leg_tip, rear_foot, front_foot, wing, wing_tip
-# ender_chest         lid, base, knob
-# end_crystal         cube, glass, base
-# end_crystal_no_base cube, glass
-# enderman            head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# endermite           body1 ... body4
-# ghast               body, tentacle1 ... tentacle9
-# guardian            body, eye, spine1 ... spine12, tail1 ... tail3
-# head_dragon         head, jaw
-# head_humanoid       head, head2
-# head_skeleton       head
-# horse               head, upper_mouth, lower_mouth, horse_left_ear, horse_right_ear, mule_left_ear, mule_right_ear, neck, 
-#                     horse_face_ropes, mane, body, tail_base, tail_middle, tail_tip, back_left_leg, back_left_shin, back_left_hoof, 
-#                     back_right_leg, back_right_shin, back_right_hoof, front_left_leg, front_left_shin, front_left_hoof, front_right_leg, 
-#                     front_right_shin, front_right_hoof, mule_left_chest, mule_right_chest, horse_saddle_bottom, horse_saddle_front, 
-#                     horse_saddle_back, horse_left_saddle_rope, horse_left_saddle_metal, horse_right_saddle_rope, horse_right_saddle_metal, 
-#                     horse_left_face_metal, horse_right_face_metal, horse_left_rein, horse_right_rein
-# iron_golem          head, body, left_arm, right_arm, left_leg, right_leg
-# lead_knot           knot
-# magma_cube          core, segment1 ... segment8
-# minecart            minecart
-# ocelot              back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
-# pig                 head, body, leg1 ... leg4
-# zombie_pigman       head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# polar_bear          head, body, leg1 ... leg4
-# rabbit              left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
-# sheep               head, body, leg1 ... leg4
-# sheep_wool          head, body, leg1 ... leg4
-# shulker             head, base, lid
-# shulker_bullet      bullet
-# sign                board, stick
-# silverfish          body1 ... body7, wing1 ... wing3
-# skeleton            head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# slime               body, left_eye, right_eye, mouth
-# snow_golem          body, body_bottom, head, left_hand, right_hand
-# spider              head, neck, body, leg1, ... leg8
-# squid               body, tentacle1 ... tentacle8
-# villager            head, body, arms, left_leg, right_leg, nose
-# witch               head, body, arms, left_leg, right_leg, nose, mole, hat
-# wither              body1 ... body3, head1 ... head3
-# wither_skull        head
-# wolf                head, body, leg1 ... leg4
-# zombie              head, headwear, body, left_arm, right_arm, left_leg, right_leg
+# Entity name          Part name
+# ==================== ======================================================
+# armor_stand          right, left, waist, base
+# banner               slate, stand, top
+# bat                  head, body, right_wing, left_wing, outer_right_wing, outer_left_wing
+# blaze                head, stick1 ... stick12
+# boat                 bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water
+# book                 cover_right, cover_left, pages_right, pages_left, flipping_page_right, flipping_page_left, book_spine
+# cave_spider          head, neck, body, leg1 ... leg8
+# chest                lid, base, knob
+# chest_large          lid, base, knob
+# chicken              head, body, right_leg, left_leg, right_wing, left_wing, bill, chin
+# cow                  head, body, leg1 ... leg4
+# creeper              head, armor, body, leg1 ... leg4
+# dragon               head, spine, jaw, body, rear_leg, front_leg, rear_leg_tip, front_leg_tip, rear_foot, front_foot, wing, wing_tip
+# donkey               <same as horse>
+# ender_chest          lid, base, knob
+# end_crystal          cube, glass, base
+# end_crystal_no_base  cube, glass
+# enderman             head, headwear, body, left_arm, right_arm, left_leg, right_leg
+# endermite            body1 ... body4
+# evocation_fangs      base, upper_jaw, lower_jaw
+# evocation_illager    head, body, arms, left_leg, right_leg, nose, left_arm, right_arm
+# ghast                body, tentacle1 ... tentacle9
+# guardian             body, eye, spine1 ... spine12, tail1 ... tail3
+# head_dragon          head, jaw
+# head_humanoid        head, head2
+# head_skeleton        head
+# horse                head, upper_mouth, lower_mouth, horse_left_ear, horse_right_ear, mule_left_ear, mule_right_ear, neck, 
+#                      horse_face_ropes, mane, body, tail_base, tail_middle, tail_tip, back_left_leg, back_left_shin, back_left_hoof, 
+#                      back_right_leg, back_right_shin, back_right_hoof, front_left_leg, front_left_shin, front_left_hoof, front_right_leg, 
+#                      front_right_shin, front_right_hoof, mule_left_chest, mule_right_chest, horse_saddle_bottom, horse_saddle_front, 
+#                      horse_saddle_back, horse_left_saddle_rope, horse_left_saddle_metal, horse_right_saddle_rope, horse_right_saddle_metal, 
+#                      horse_left_face_metal, horse_right_face_metal, horse_left_rein, horse_right_rein
+# iron_golem           head, body, left_arm, right_arm, left_leg, right_leg
+# lead_knot            knot
+# magma_cube           core, segment1 ... segment8
+# minecart             bottom, back, front, right, left, dirt
+# mule                 <same as horse>
+# ocelot               back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
+# pig                  head, body, leg1 ... leg4
+# polar_bear           head, body, leg1 ... leg4
+# rabbit               left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
+# sheep                head, body, leg1 ... leg4
+# sheep_wool           head, body, leg1 ... leg4
+# shulker              head, base, lid
+# shulker_box          base, lid
+# shulker_bullet       bullet
+# sign                 board, stick
+# silverfish           body1 ... body7, wing1 ... wing3
+# skeleton             head, headwear, body, left_arm, right_arm, left_leg, right_leg
+# skeleton_horse       <same as horse>
+# slime                body, left_eye, right_eye, mouth
+# snow_golem           body, body_bottom, head, left_hand, right_hand
+# spawner_minecart     bottom, back, front, right, left, dirt
+# spider               head, neck, body, leg1, ... leg8
+# squid                body, tentacle1 ... tentacle8
+# tnt_minecart         bottom, back, front, right, left, dirt
+# vex                  head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_wing, right_wing
+# villager             head, body, arms, left_leg, right_leg, nose
+# vindication_illager  head, body, arms, left_leg, right_leg, nose, left_arm, right_arm
+# witch                head, body, arms, left_leg, right_leg, nose, mole, hat
+# wither               body1 ... body3, head1 ... head3
+# wither_skull         head
+# wolf                 head, body, leg1 ... leg4, tail, mane
+# zombie               head, headwear, body, left_arm, right_arm, left_leg, right_leg
+# zombie_horse         <same as horse>
+# zombie_pigman        head, headwear, body, left_arm, right_arm, left_leg, right_leg
 #
 # Only the elements "models" and "part" are required. 
 #

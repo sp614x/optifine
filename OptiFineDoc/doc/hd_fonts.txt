@@ -1,0 +1,51 @@
+===============================================
+Description of OptiFine's HD Fonts feature
+Based on McPatcher's HD Fonts
+===============================================
+
+HD Fonts
+========
+
+As of 1.6, Minecraft allows fonts to be higher resolution than the default, but customization is still limited.
+
+MCPatcher first looks for fonts in the "assets/minecraft/mcpatcher/font" folder. 
+This allows you to have a custom font that works in vanilla and a higher resolution font that requires MCPatcher to display properly.
+
+    Default font: assets/minecraft/mcpatcher/font/ascii.png
+    Enchanting table font: assets/minecraft/mcpatcher/font/ascii_sga.png
+
+Note: Unicode fonts are not supported.
+
+To allow for more control over the widths of individual characters, MCPatcher offers a way to specify them manually. 
+Create a properties file called:
+
+    assets/minecraft/mcpatcher/font/ascii.properties
+    assets/minecraft/mcpatcher/font/ascii_sga.properties
+
+corresponding to the font you wish to customize.
+
+Properties file format
+======================
+
+Each line in this file specifies the width of a character:
+
+  # Custom width
+  width.<ascii value 0-255>=<width 0-8>
+
+For example, to specify the widths of capital A, B, and C, you might use
+
+  # ABC
+  width.65=5.9
+  width.66=5
+  width.67=5.25
+
+Values can be floating point numbers (Vanilla only supports integer widths) and range from 0-8 regardless of the resolution of the font. 
+You do not need to specify widths for all characters, only the ones where you want to override the default width.
+
+The space character is special. Its default width is 1/2 of the average of the widths of A-Z, a-z, and 0-9, 
+which makes the spacing between words match the overall width of the font. However you can override this the same way, 
+by setting width.32 to a custom value.
+
+Reference
+=========
+https://bitbucket.org/prupe/mcpatcher/wiki/HD_Fonts

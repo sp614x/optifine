@@ -10,7 +10,7 @@ Color Attachments
 The data is passed from shader to shader using color attachments. 
 There are at least 4 for all machines. For machines that can support it, there are 8. 
 In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
-(colortex0 till 7 can be used instead of gcolor, gdepth etc.)
+(colortex0 to colortex7 can be used instead of gcolor, gdepth etc.)
 Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
@@ -42,7 +42,7 @@ Id  Name                         Render                                When not 
 14  gbuffers_beaconbeam          <not used>                            gbuffers_textured
 15  gbuffers_item                <not used>                            gbuffers_textured_lit
 16  gbuffers_entities            entities                              gbuffers_textured_lit
-17  gbuffers_armor_glint         armor glint                           gbuffers_textured
+17  gbuffers_armor_glint         glint on armor, handheld items        gbuffers_textured
 18  gbuffers_spidereyes          eyes of spider, enderman and dragon   gbuffers_textured
 19  gbuffers_hand                hand in first person                  gbuffers_textured_lit
 20  gbuffers_weather             rain, snow                            gbuffers_textured_lit
@@ -85,9 +85,12 @@ uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
 uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
-uniform int worldTime;                          <ticks>
+uniform int worldTime;                          <ticks> = worldTicks % 24000
+uniform int worldDay;                           <days> = worldTicks / 24000
 uniform int moonPhase;                          0-7
-uniform float frameTimeCounter;                 real time, seconds
+uniform int frameCounter;                       Frame index (0 to 720719, then resets to 0)
+uniform float frameTime;                        last frame time, seconds
+uniform float frameTimeCounter;                 run time, seconds (resets to 0 after 3600s)
 uniform float sunAngle;                         0.0-1.0
 uniform float shadowAngle;                      0.0-1.0
 uniform float rainStrength;                     0.0-1.0
@@ -119,6 +122,9 @@ uniform ivec2 eyeBrightnessSmooth;              eyeBrightness smoothed with eyeB
 uniform ivec2 terrainTextureSize;               not used
 uniform int terrainIconSize;                    not used
 uniform int isEyeInWater;                       camera is underwater
+uniform float nightVision;                      night vision (0.0-1.0)
+uniform float blindness;                        blindness (0.0-1.0)
+uniform float screenBrightness;                 screen brightness (0.0-1.0)
 uniform int hideGUI;                            GUI is hidden
 uniform float centerDepthSmooth;                centerDepth smoothed with centerDepthSmoothHalflife
 uniform ivec2 atlasSize;                        texture atlas size
@@ -141,7 +147,35 @@ uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
 uniform sampler2D depthtex0;                    6
+uniform sampler2D gaux1;                        7  <only as a custom texture>
+uniform sampler2D gaux2;                        8  <only as a custom texture>
+uniform sampler2D gaux3;                        9  <only as a custom texture>
+uniform sampler2D gaux4;                        10 <only as a custom texture>
 uniform sampler2D depthtex1;                    12
+uniform sampler2D shadowcolor;                  13
+uniform sampler2D shadowcolor0;                 13
+uniform sampler2D shadowcolor1;                 14
+uniform sampler2D noisetex;                     15
+
+Shadow Uniforms
+==================
+Programs: shadow, shadow_solid, shadow_cutout 
+==================
+Source                                          Value                                                    
+=====================================================================================================================================================================
+uniform sampler2D tex;                          0
+uniform sampler2D texture;                      0
+uniform sampler2D lightmap;                     1
+uniform sampler2D normals;                      2         
+uniform sampler2D specular;                     3
+uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
+uniform sampler2D watershadow;                  4
+uniform sampler2D shadowtex0;                   4
+uniform sampler2D shadowtex1;                   5
+uniform sampler2D gaux1;                        7  <only as a custom texture>
+uniform sampler2D gaux2;                        8  <only as a custom texture>
+uniform sampler2D gaux3;                        9  <only as a custom texture>
+uniform sampler2D gaux4;                        10 <only as a custom texture>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
@@ -182,25 +216,64 @@ uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
 uniform sampler2D noisetex;                     15
 
-Shadow Uniforms
+GBuffers Textures
+=================
+Id Name           Legacy name
+======================================
+0  texture
+1  lightmap
+2  normals
+3  specular
+4  shadowtex0     shadow, watershadow 
+5  shadowtex1     shadow (when watershadow used)
+6  depthtex0
+7  gaux1          <only as a custom texture>
+8  gaux2          <only as a custom texture>
+9  gaux3          <only as a custom texture>
+10 gaux4          <only as a custom texture>
+12 depthtex1
+13 shadowcolor0   shadowcolor 
+14 shadowcolor1
+15 noisetex
+
+Shadow Textures
 ==================
-Programs: shadow, shadow_solid, shadow_cutout 
+Id Name           Legacy name
+======================================
+0  texture        tex
+1  lightmap
+2  normals
+3  specular
+4  shadowtex0     shadow, watershadow        
+5  shadowtex1     shadow (when watershadow used)
+7  gaux1          <only as a custom texture>
+8  gaux2          <only as a custom texture>
+9  gaux3          <only as a custom texture>
+10 gaux4          <only as a custom texture>
+13 shadowcolor0   shadowcolor
+14 shadowcolor1   
+15 noisetex
+
+Composite Textures
 ==================
-Source                                          Value                                                    
-=====================================================================================================================================================================
-uniform sampler2D tex;                          0
-uniform sampler2D texture;                      0
-uniform sampler2D lightmap;                     1
-uniform sampler2D normals;                      2         
-uniform sampler2D specular;                     3
-uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
-uniform sampler2D watershadow;                  4
-uniform sampler2D shadowtex0;                   4
-uniform sampler2D shadowtex1;                   5
-uniform sampler2D shadowcolor;                  13
-uniform sampler2D shadowcolor0;                 13
-uniform sampler2D shadowcolor1;                 14
-uniform sampler2D noisetex;                     15
+Id Name           Legacy name
+======================================
+0  colortex0      gcolor 
+1  colortex1      gdepth 
+2  colortex2      gnormal 
+3  colortex3      composite
+4  shadowtex0     shadow, watershadow 
+5  shadowtex1     shadow (when watershadow used)
+6  depthtex0      gdepthtex
+7  colortex4      gaux1
+8  colortex5      gaux2
+9  colortex6      gaux3
+10 colortex7      gaux4
+11 depthtex1
+12 depthtex2
+13 shadowcolor0   shadowcolor
+14 shadowcolor1
+15 noisetex
 
 Vertex Shader Configuration
 ===========================
@@ -210,9 +283,25 @@ attribute <type> mc_Entity;                     useEntityAttrib = true
 attribute <type> mc_midTexCoord;                useMidTexCoordAttrib = true             
 attribute <type> at_tangent;                    useTangentAttrib = true
 
+Block ID mapping
+================
+The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
+Format "block.<id>=<block1> <block2> ..."
+The key is the substitute block ID, the value are the blocks which are to be replaced.
+See "properties_files.txt" for the block matching rules.
+
+  # Short format
+  block.31=red_flower yellow_flower
+  # Long format
+  block.31=minecraft:red_flower ic2:nether_flower
+  # Properties
+  block.31=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip
+  # Block ID, Metadata (backwards compatibility)
+  block.31=38:6 38:7
+
 Fragment Shader Configuration
 =============================
-Source                                          Effect                                                    Comment
+Source                                          Effect                                                     Comment
 =====================================================================================================================================================================
 uniform <type> shadow;                          shadowDepthBuffers = 1
 uniform <type> watershadow;                     shadowDepthBuffers = 2
@@ -221,8 +310,6 @@ uniform <type> shadowtex1;                      shadowDepthBuffers = 2
 uniform <type> shadowcolor;                     shadowColorBuffers = 1
 uniform <type> shadowcolor0;                    shadowColorBuffers = 1
 uniform <type> shadowcolor1;                    shadowColorBuffers = 2
-uniform <type> shadowcolor2;                    shadowColorBuffers = 3
-uniform <type> shadowcolor3;                    shadowColorBuffers = 4
 uniform <type> depthtex0;                       depthBuffers = 1
 uniform <type> depthtex1;                       depthBuffers = 2
 uniform <type> depthtex2;                       depthBuffers = 3
@@ -242,6 +329,7 @@ const int shadowMapResolution = 1024;           shadowMapWidth = shadowMapHeight
 /* SHADOWFOV:90.0 */                            shadowMapFov = 90
 /* SHADOWHPL:160.0 */                           shadowMapDistance = 160.0
 const float shadowDistance = 160.0f;            shadowMapDistance = 160.0
+const float shadowDistanceRenderMul = -1f;      shadowDistanceRenderMul = -1                               When > 0 enable shadow optimization (shadowRenderDistance = shadowDistance * shadowDistanceRenderMul)
 const float shadowIntervalSize = 2.0f;          shadowIntervalSize = 2.0
 const bool generateShadowMipmap = true;         shadowMipmap = true
 const bool generateShadowColorMipmap = true;    shadowColorMipmap = true
@@ -280,14 +368,15 @@ const int noiseTextureResolution = 256;         noiseTextureResolution = 256
 /* GAUX4FORMAT:RGB32F */                        buffersFormat[7] = GL_RGB32F
 /* GAUX4FORMAT:RGB16 */                         buffersFormat[7] = GL_RGB16
 const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Buffer Index" and "Texture Formats"
+const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" programs 
 const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" and "final"
 /* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
 
-Buffer Index 
-============
+Draw Buffer Index 
+==================
 Prefix                  Index
 ==================================
-colortex<N>             N
+colortex<0-7>           0-7
 gcolor                  0
 gdepth                  1
 gnormal                 2
@@ -340,8 +429,70 @@ Texture Formats
  RGB10_A2
  R11F_G11F_B10F
 
- References
- ==========
+Depth buffers
+=============
+Name        Usage
+==============================================================================
+depthtex0   everything
+depthtex1   no translucent objects (water, stained glass) 
+depthtex2   no translucent objects (water, stained glass), no handheld objects
+
+Shadow buffers
+==============
+Name        Usage
+==============================================================================
+shadowtex0  everything
+shadowtex1  no translucent objects (water, stained glass) 
+
+Standard Macros
+===============
+The standard macros are automatically included after the "#version" declaration in every shader file
+
+A. Minecraft version
+ #define MC_VERSION <value>
+ The value is in format 122 (major 1, minor 2, release 2)
+ For example: 1.9.4 -> 10904, 1.11.2 -> 11102, etc.
+
+B. Maximum supported GL version
+ #define MC_GL_VERSION <value>
+ The value is integer, for example: 210, 320, 450
+
+C. Maximum supported GLSL version
+ #define MC_GLSL_VERSION <value>
+ The value is integer, for example: 120, 150, 450
+
+D. Operating system 
+ One of the following:
+  #define MC_OS_WINDOWS
+  #define MC_OS_MAC
+  #define MC_OS_LINUX
+  #define MC_OS_OTHER
+
+E. GPU
+ One of the following:
+  #define MC_GL_VENDOR_ATI
+  #define MC_GL_VENDOR_INTEL
+  #define MC_GL_VENDOR_NVIDIA
+  #define MC_GL_VENDOR_XORG
+  #define MC_GL_VENDOR_OTHER
+
+F. Driver
+ One of the following:
+  #define MC_GL_RENDERER_RADEON 
+  #define MC_GL_RENDERER_GEFORCE
+  #define MC_GL_RENDERER_QUADRO
+  #define MC_GL_RENDERER_INTEL
+  #define MC_GL_RENDERER_GALLIUM
+  #define MC_GL_RENDERER_MESA
+  #define MC_GL_RENDERER_OTHER
+
+G. OpenGL extensions
+ Macros for the supported OpenGL extensions are named like the corresponding extension with a prefix "MC_".
+ For example the macro "MC_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
+ Only the macros which are referenced and supported are added to the shader file. 
+
+References
+==========
  http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
  http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix
  http://www.minecraftforum.net/forums/search?by-author=karyonix&display-type=posts

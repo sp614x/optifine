@@ -1,0 +1,197 @@
+=============================================================
+Description of OptiFine's configuration properties files
+Based on McPatcher's configuration files
+=============================================================
+
+Overview
+========
+
+Many MCPatcher features use properties files to control how textures within your texture pack are used. 
+Properties files are simple text files similar to the Windows ".ini" format. Each line is a property, specified as name=value.
+
+  # Sample comment
+  property1=value
+  property2=some_other_value
+  
+  # Blank lines are allowed
+  property3=yet_another_value
+
+All property names are case-sensitive "renderpass" is not the same as "renderPass". The order of properties within the file 
+does not matter. Many properties have default values and can be omitted, and in some cases the entire properties file is optional. 
+See the sections for each properties file for details.
+
+Certain types of objects are used within properties files by different MCPatcher features. 
+Rather than describe these common types separately in each feature section, they are summarized here instead.
+
+Textures
+========
+
+Often, MCPatcher requires you to specify a path to an image file or some other resource within your texture pack. 
+This is simply the path to the texture within the zip file. The folder structure within a texture pack can get deeply nested, 
+so MCPatcher has some shortcuts to make things easier. Whenever MCPatcher calls for you to provide a texture file, 
+any of these options can be used to specify the path.
+
+The most straightforward method is simply a path relative to assets/minecraft:
+
+  # Full path
+  texture=textures/entity/creeper/creeper.png
+
+This refers to "assets/minecraft/textures/entity/creeper/creeper.png" within the zip file or folder of your texture pack. 
+Always use forward slashes "/" to separate folder names. Regardless of your OS, do not use backslashes "\" 
+or the game will not properly recognize the path.
+
+An optional "namespace" prefix can be added. This example refers to exactly the same "creeper.png" file as above:
+
+  # Full path with namespace
+  texture=minecraft:textures/entity/creeper/creeper.png
+
+For textures used by other mods, the namespace will often be something other than "minecraft":
+  
+  # Full path with mod namespace
+  texture=herobrine:textures/entity/him.png
+
+This refers to "assets/herobrine/textures/entity/him.png", not to "assets/minecraft/textures/entity/him.png".
+
+Many textures specific to MCPatcher are in the "assets/minecraft/mcpatcher" folder. 
+Since it is used so frequently, it can be represented by the tilde "~" character. The following refer to the same file:
+
+  # Relative to "assets/minecraft/mcpatcher"
+  texture=~/dial/clock0.png
+  texture=minecraft:mcpatcher/dial/clock0.png
+
+Textures can also be specified relative to the path of the properties file that refers to them. 
+For example, within "~/dial/clock.properties" (remember "~" = "assets/minecraft/mcpatcher")
+
+  # Relative path: Bare filename with no slashes
+  texture=clock0.png
+  # Relative path: Using "./" to denote the current directory
+  texture=./clock0.png
+  # Absolute path: Using "~"
+  texture=~/dial/clock0.png
+  # Absolute path: Without namespace
+  texture=mcpatcher/dial/clock0.png
+  # Absolute path: With namespace
+  texture=minecraft:mcpatcher/dial/clock0.png
+
+all refer to the same path, "assets/minecraft/mcpatcher/dial/clock0.png". If the properties file were in another location, 
+say ~/misc, then relative paths would be based on that folder instead, but absolute paths would still refer to the dial directory.
+
+In general, try to organize your textures with the properties files that go with them. 
+Your paths will be shorter and easier to maintain when you move things around.
+
+Blocks
+======
+
+Since 1.7, Minecraft is no longer refering to blocks by ID. The familiar 0-255 values are being phased out in favor of unique names. 
+The block IDs continue to exist within the game internally, but are no longer guaranteed to be fixed. 
+For example the stone block used to be ID 1 but is now called "minecraft:stone". As with textures, the "minecraft:" prefix is optional, 
+so just "stone" will also work. Mods will probably use a namespace other than "minecraft" so the prefix will be required there.
+
+See the Dinnerbone's list of Block and Item IDs with names: http://media.dinnerbone.com/uploads/2013-09/files/28_00-44-23_YfmAkomVI.txt
+
+MCPatcher features that call for a list of blocks (most notably Connected Textures, but also Custom Colors) understand both block IDs and names. 
+However, block ID support is only for backward compatibility and the use of names is strongly encouraged. 
+Future blocks may not even have fixed block IDs, so the name will be the only way to refer to them. 
+Block names will also work in Minecraft 1.6, MCPatcher internally maps them to pre-1.7 numbers when needed.
+
+Blocks can be further specified with metadata values by appending an additional colon ":" plus the desired values 0-15 after the name. 
+For example, oak, spruce, birch, and jungle leaves all use the block name "minecraft:leaves" but with different metadata values. 
+To specify only jungle leaves, use:
+
+  # Block metadatas
+  blocks=minecraft:leaves:3,7,11,15
+
+Again, the "minecraft:" prefix is optional, so this can also be written as:
+
+  # Short block metadatas
+  blocks=leaves:3,7,11,15
+
+Since 1.8, Minecraft is using properties instead of metadata. The metadata is still used internally and it still works, 
+but it may stop working in a future update.  
+
+  # 1.8 full format
+  blocks=minecraft:block_name:property1=value1,value2:property2=value:...
+  # 1.8 example
+  blocks=minecraft:reeds:age=0-3
+
+Metadata and properties can be specified together so that the resource pack is compatible with older versions: 
+   
+  # Compatible across all versions, format
+  blocks=minecraft:block_name:metadata:property1=value1,value2:property2=value:...
+  # Compatible across all versions, example
+  blocks=minecraft:reeds:0-3:age=0-3  
+
+Items
+=====
+
+Items are also named rather than numbered in Minecraft 1.7. As with blocks, ID numbers are acceptable for older items, 
+but future items and items added by mods will likely require names.
+
+See Dinnerbone's list of Block and Item IDs with names: http://dinnerbone.com/media/uploads/2013-09/files/28_00-44-23_YfmAkomVI.txt 
+
+Again, the "minecraft:" prefix is optional.
+
+Biomes
+======
+
+For features that call for a list of biomes, use the names on the Minecraft wiki. Separate multiple biomes with commas like this:
+
+  # Biomes
+  biomes=Ocean, Deep Ocean, River, Beach
+
+Blending methods
+================
+
+When two or more textures are combined, MCPatcher offers several options for specifying the blending operation.
+
+Valid blending methods are described below. "This" or "current" texture refers to the texture currently being applied. "Previous" refers to whatever has been rendered so far, which could be a single texture or the result of an earlier blending operation.
+- replace: Replace the previous layer entirely with the current bitmap. No blending and only simple on/off transparency.
+- alpha: Blend the two textures using this texture's alpha value. This is the most common type of blending.
+- overlay: RGB value > 0.5 brightens the previous image, < 0.5 darkens. color is a synonym for this method.
+- add: Add this texture's RGB values multiplied by alpha to the previous layer.
+- subtract: Subtract this texture's RGB values from the previous layer.
+- multiply: Multiply the previous RGB values by this texture's RGB values
+- dodge: Add this texture's RGB values to the previous layer.
+- burn: New RGB = (1 - current RGB) * previous RGB
+- screen: New RGB = 1 - (1 - current RGB) * (1 - previous RGB)
+
+See Blend modes on Wikipedia for some illustrations: https://en.wikipedia.org/wiki/Blend_modes
+
+Number lists
+============
+
+Occasionally you will need to specify a list of numbers. MCPatcher understands ranges and individual values:
+
+  # Single entry.
+  list=1
+  # Multiple values listed separately.
+  list=1 2 3
+  # Same values using ranges.
+  list=1-3
+  # Multiple ranges.
+  list=1-3 6 8 10-15
+  # Open-ended ranges
+  damage=100-
+
+RGB colors
+==========
+
+Color values are specified in hexadecimal RGB format:
+
+  # White
+  color=ffffff
+  # Black
+  color=000000
+  # Red
+  color=ff0000
+  # Green
+  color=00ff00
+  # Blue
+  color=0000ff
+
+References
+==========
+https://bitbucket.org/prupe/mcpatcher/wiki/About_Properties_Files
+http://dinnerbone.com/media/uploads/2013-09/files/28_00-44-23_YfmAkomVI.txt
+http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1226351-1?comment=11315
+http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1226351-1?comment=11128

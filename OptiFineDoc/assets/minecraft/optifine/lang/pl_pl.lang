@@ -381,6 +381,14 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Nazwy trzymanych przedmiotów nad interf
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Wł. - pokazuj nazwy przedmiotów (domyślne)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Wył. - nie pokazuj nazw przedmiotów
 
+of.options.ADVANCED_TOOLTIPS=Dokładne dane przedmiotów
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Dokładne dane przedmiotów, bloków oraz narzędzi
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  Wł. - pokazuj dokładne dane
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  Wył. - nie pokazuj dokładnych danych (domyślne)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Ta opcja pokazuje więcej informacji o dowolnym
+of.options.ADVANCED_TOOLTIPS.tooltip.5=przedmiocie (id, wytrzymałość), a także dane o nim
+of.options.ADVANCED_TOOLTIPS.tooltip.6=dla shaderów (id, źródło, domyślna wartość).
+
 of.options.DROPPED_ITEMS=Upuszczone przedmioty
 of.options.DROPPED_ITEMS.tooltip.1=Upuszczone przedmioty
 of.options.DROPPED_ITEMS.tooltip.2=  Domyślne - przystosowane do ustawienia graficznego
@@ -563,4 +571,10 @@ of.options.AUTOSAVE_TICKS.tooltip.1=Częstotliwość autozapisu
 of.options.AUTOSAVE_TICKS.tooltip.2=Domyślna częstotliwość (2s) jest NIEZALECANA.
 of.options.AUTOSAVE_TICKS.tooltip.3=Autozapisy często powodują ścięcia gry.
 
-options.anaglyph.tooltip.1=Tryb 3D wymaga czerwono-niebieskich okularów 3D.
+of.options.SCREENSHOT_SIZE=Rozmiar zrzutów ekranu
+of.options.SCREENSHOT_SIZE.tooltip.1=Rozmiar zrzutów ekranu
+of.options.SCREENSHOT_SIZE.tooltip.2=  Domyślne - domyślny rozmiar
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - własny rozmiar
+of.options.SCREENSHOT_SIZE.tooltip.4=Zapisywanie większych zrzutów może wymagać więcej pamięci,
+of.options.SCREENSHOT_SIZE.tooltip.5=opcja nie jest kompatybilna z szybkim renderowaniem ani
+of.options.SCREENSHOT_SIZE.tooltip.6=antyaliasingiem. Wymaga wsparcia bufora ramki GPU.

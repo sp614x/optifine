@@ -13,16 +13,16 @@ of.key.zoom=Přiblížení
 of.message.aa.shaders1=Antialiasing není kompatibilní se Stíny.
 of.message.aa.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
 
-of.message.af.shaders1=Anizotropní Filtrování není kompatibilní se Stíny
+of.message.af.shaders1=Anizotropní Filtrování není kompatibilní se Stíny.
 of.message.af.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
 
-of.message.fr.shaders1=Rychlý Render není kompatibilní se stíny.
+of.message.fr.shaders1=Rychlý Render není kompatibilní se Stíny.
 of.message.fr.shaders2=Prosím vypni Stíny pro použití téhle možnosti
 
 of.message.an.shaders1=3D zobrazení není kompatibilní se Stíny.
 of.message.an.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
  
-of.message.shaders.aa1=Stíny nejsou kompatibilní s Antialiasingem
+of.message.shaders.aa1=Stíny nejsou kompatibilní s Antialiasingem.
 of.message.shaders.aa2=Jdi do nastavení Kvality -> Antialiasing na VYPNUTO.
 
 of.message.shaders.af1=Stíny nejsou kompatibilní s Anizotropním Filtrováním.
@@ -35,12 +35,14 @@ of.message.shaders.an1=Stíny nejsou kompatibilní se 3D zobrazením.
 of.message.shaders.an2=Jdi do nastavení Ostatního -> 3D zobrazení na VYPNUTO.
 
 of.message.newVersion=Nová verze §eOptiFinu§f je k dispozici: §e%s§f
-of.message.java64Bit=Můžeš si nainstalovat  §e64-bitovou Javu§f pro zvýšení výkonu
+of.message.java64Bit=Můžeš si nainstalovat  §e64-bitovou Javu§f pro zvýšení výkonu.
 of.message.openglError=§eChyba OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Načítám stíny: %s
 
 of.message.other.reset=Vyresetovat všechno nastavení videa (grafiky) na výchozí hodnoty?
+
+of.message.loadingVisibleChunks=Načítám vididetlné chunky
  
 # Nastavení Grafiky
 
@@ -88,13 +90,17 @@ options.viewBobbing.tooltip.1=Více realistický pohyb
 options.viewBobbing.tooltip.2=Pokud používáš mipmaping, nastav na VYPNUTO pro nejlepší výsledky.
 
 options.guiScale.tooltip.1=Velikost GUI
-options.guiScale.tooltip.2=Menší GUI mohou být rychlejší.
+options.guiScale.tooltip.2=  Automatická - maximální velikost
+options.guiScale.tooltip.3=  Malá, Normální, Velká - 1x až 3x
+options.guiScale.tooltip.4=  4x do 10x - dostupné na 4K obrazovkách
+options.guiScale.tooltip.5=Liché hodnoty (1x, 3x, 5x ...) nejsou kompatibilní s písmem Unicode.
+options.guiScale.tooltip.6=Menší GUI mohou být rychlejší.
 
 options.vbo.tooltip.1=Vertexově Vyrovnávající objekty
 options.vbo.tooltip.2=Používá alternativní model renderování, který je
 options.vbo.tooltip.3=rychlejší (5-10%%) oproti výchozímu renderování.
 
-options.gamma.tooltip.1=Zvýší jas tmavých objektů
+options.gamma.tooltip.1=Zvýší jas tmavých objektů.
 options.gamma.tooltip.2=  Tmavý - standardní jas
 options.gamma.tooltip.3=  1-99%% - nastavitelné
 options.gamma.tooltip.4=  Jasný - maximální jas tmavých objektů
@@ -102,8 +108,8 @@ options.gamma.tooltip.5=Tato možnost nezmění jas
 options.gamma.tooltip.6=úplně tmavých objektů.
 
 options.anaglyph.tooltip.1=3D Zobrazení
-options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá každé barvy
-options.anaglyph.tooltip.3=pro každé oko.
+options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá dané barvy
+options.anaglyph.tooltip.3=pro dané oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-modré brýle pro lepší vidění.
 
 of.options.ALTERNATE_BLOCKS=Alternativní Bloky
@@ -128,7 +134,7 @@ of.options.FOG_START.tooltip.4=Tato možnost většinou neovlivňuje výkon.
 of.options.CHUNK_LOADING=Načítaní Chunků
 of.options.CHUNK_LOADING.tooltip.1= Načítaní Chunků
 of.options.CHUNK_LOADING.tooltip.2=  Výchozí - nestabilní FPS při načítání chunků
-of.options.CHUNK_LOADING.tooltip.3=  Pllynulé - stabilní FPS
+of.options.CHUNK_LOADING.tooltip.3=  Plynulé - stabilní FPS
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Jádra - stabilní FPS, 3x rychlejší načítání světa
 of.options.CHUNK_LOADING.tooltip.5=Plynulé a Multi-Jádra - odstraní sekání a 
 of.options.CHUNK_LOADING.tooltip.6=zmrazování způsobené načítáním chunků.
@@ -193,7 +199,7 @@ options.mipmapLevels.tooltip.5=  4 - maximální vyhlazování
 options.mipmapLevels.tooltip.6=Tato možnost většinou neovlivňuje výkon.
 
 of.options.MIPMAP_TYPE=Typ Mipmapy
-of.options.MIPMAP_TYPE.tooltip.1= Vizuální efekty mohou udělat vzdálenější objekty pěknější
+of.options.MIPMAP_TYPE.tooltip.1=Vizuální efekty mohou udělat vzdálenější objekty pěknější
 of.options.MIPMAP_TYPE.tooltip.2=vyhlazováním a detailními texturami.
 of.options.MIPMAP_TYPE.tooltip.3=  Nejbližší - hrubé vyhlazování (nejrychlejší)
 of.options.MIPMAP_TYPE.tooltip.4=  Lineární - normální vyhlazování
@@ -217,7 +223,7 @@ of.options.AF_LEVEL.tooltip.2= VYPNUTO - (výchozí) standartní detaily textur 
 of.options.AF_LEVEL.tooltip.3= 2-16 - lepší detaily v mipmapovaných texturách (pomalé)
 of.options.AF_LEVEL.tooltip.4= Antizotropní Filtrování zachová všechny detaily v
 of.options.AF_LEVEL.tooltip.5=mipmapovaných texturách.
-of.options.AF_LEVEL.tooltip.6=Pokud je zapnuto, výrazně sníží FPS..
+of.options.AF_LEVEL.tooltip.6=Pokud je zapnuto, výrazně sníží FPS.
 
 of.options.CLEAR_WATER=Čistá Voda
 of.options.CLEAR_WATER.tooltip.1= Čistá Voda
@@ -370,11 +376,11 @@ of.options.SHOW_CAPES.tooltip.3=  VYPNUTO - nezobrazovat kápě hráčů
 
 of.options.TRANSLUCENT_BLOCKS=Průsvitné Bloky
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Průsvitné Bloky
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pěkná - pěkné mixování bloků (výchozí)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rychlá - rychlé mixování bloků (rychlejší)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Ovládání mixování bloků zajišťuje blokům
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pěkná - správné míchání barev (výchozí)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rychlá - rychlé míchání barev (rychlejší)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Ovládá míchání barev průhledných bloků
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=s rozdílnou barvou (barevné sklo, voda, led)
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=odstranit vzduch mezi nimi.
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=když jsou položeny za sebou s mezerou mezi nimi.
 
 of.options.HELD_ITEM_TOOLTIPS=Popisek k Drženému Itemu
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Popisek k Drženému Itemu
@@ -387,7 +393,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.2=  ZAPNUTO - zobrazit pokročilé popisky
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  VYPNUTO - nezobrazovat pokročilé popisky (výchozí)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Pokročilé popisky zobrazí pokročilé informace pro
 of.options.ADVANCED_TOOLTIPS.tooltip.5=itemy (id, durabilita) a pro možnosti stínů
-of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, zdroj, výchozí hodnota)
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, zdroj, výchozí hodnota).
 
 of.options.DROPPED_ITEMS=Vyhozené Itemy
 of.options.DROPPED_ITEMS.tooltip.1=Vyhozené Itemy
@@ -423,12 +429,12 @@ of.options.DYNAMIC_LIGHTS.tooltip.3=  Rychlá - rychlá dynamická světla (aktu
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Pěkná - pěkná dynamická světla (aktualizováno vždy)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Pokud je zapnuto a v ruce, na zemi nebo v ruce
 of.options.DYNAMIC_LIGHTS.tooltip.6=jiného hráče je držen svítící item (louč, světlit, atd.)
-of.options.DYNAMIC_LIGHTS.tooltip.7=tak se osvětlí vše kolem
+of.options.DYNAMIC_LIGHTS.tooltip.7=tak se osvětlí vše kolem.
 
 # Výkon
 
 of.options.SMOOTH_FPS=Vyhlazené FPS
-of.options.SMOOTH_FPS.tooltip.1=Stabilizuje FPS velikým nátlakem na grafický adaptér
+of.options.SMOOTH_FPS.tooltip.1=Stabilizuje FPS velikým nátlakem na grafický adaptér.
 of.options.SMOOTH_FPS.tooltip.2=  VYPNUTO - žádná stabilizace, FPS mohou kolísat
 of.options.SMOOTH_FPS.tooltip.3=  ZAPNUTO - stabilizace FPS
 of.options.SMOOTH_FPS.tooltip.4=Tato možnost záleží na grafickém adaptéru a jeho efekt
@@ -438,7 +444,7 @@ of.options.SMOOTH_WORLD=Vyhlazený Svět
 of.options.SMOOTH_WORLD.tooltip.1=Odstraní lagy způsobené interním serverem.
 of.options.SMOOTH_WORLD.tooltip.2=  VYPNUTO - žádná stabilizace, FPS mohou kolísat
 of.options.SMOOTH_WORLD.tooltip.3=  ZAPNUTO - stabilizace FPS
-of.options.SMOOTH_WORLD.tooltip.4=Stabilizuje FPS rozdělením nsčítání světa.
+of.options.SMOOTH_WORLD.tooltip.4=Stabilizuje FPS rozdělením načítání světa.
 of.options.SMOOTH_WORLD.tooltip.5=Funguje jen na lokálních světech (hra pro jednoho hráče).
 
 of.options.FAST_RENDER=Rychlý Render
@@ -520,7 +526,7 @@ of.options.PROFILER.tooltip.1=Ladící Profil
 of.options.PROFILER.tooltip.2=  ZAPNUTO - ladící profil je aktivní, pomalejší
 of.options.PROFILER.tooltip.3=  VYPNUTO - ladící profil je neaktivní, rychlejší
 of.options.PROFILER.tooltip.4=Ladící profil sbírá a zobrazuje informace když
-of.options.PROFILER.tooltip.5=je otevřena ladící obrazovka (F3)
+of.options.PROFILER.tooltip.5=je otevřena ladící obrazovka (F3).
 
 of.options.WEATHER=Počasí
 of.options.WEATHER.tooltip.1=Počasí
@@ -554,7 +560,7 @@ of.options.FULLSCREEN_MODE.tooltip.4=Vybrané rozlišení je používáno ve ful
 of.options.FULLSCREEN_MODE.tooltip.5=Nižší rozlišení mohou být rychlejší.
 
 of.options.SHOW_FPS=Zobrazit FPS
-of.options.SHOW_FPS.tooltip.1=Kompaktně zobrazí informace o FPS a renderu
+of.options.SHOW_FPS.tooltip.1=Kompaktně zobrazí informace o FPS a renderu.
 of.options.SHOW_FPS.tooltip.2=  C: - načítání chunků
 of.options.SHOW_FPS.tooltip.3=  E: - načtené entity + blokové entity
 of.options.SHOW_FPS.tooltip.4=  U: - přednačtené chunky
@@ -571,4 +577,10 @@ of.options.AUTOSAVE_TICKS.tooltip.1=Interval auto-ukládání
 of.options.AUTOSAVE_TICKS.tooltip.2=Výchozí interval auto-ukládání (2s) se NEDOPORUčUJE
 of.options.AUTOSAVE_TICKS.tooltip.3=Auto-ukládání způsobuje slavné sekací Smrti (Lag Spikes of Death).
 
-options.anaglyph.tooltip.1=3D mód používá červeno-modré 3D brýle.
+of.options.SCREENSHOT_SIZE=Velikost Screenshotu
+of.options.SCREENSHOT_SIZE.tooltip.1=Velikost Snímku Obrazovky
+of.options.SCREENSHOT_SIZE.tooltip.2=  Výchozí - výchozí velikost screenshotu
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastním velikost screenshotu
+of.options.SCREENSHOT_SIZE.tooltip.4=Focení větších screenshotů může vyžadovat více paměti.
+of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatinilní s Rychlým Renderem a Antialiasingem.
+of.options.SCREENSHOT_SIZE.tooltip.6=Vyžaduje podporu GPU framebufferu.
