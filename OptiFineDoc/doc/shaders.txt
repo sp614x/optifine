@@ -8,8 +8,9 @@ The final shader renders directly to the screen.
 Color Attachments
 =================
 The data is passed from shader to shader using color attachments. 
-There are at least 4 for all machines. For machines that can support it, there are 7. 
-In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms. 
+There are at least 4 for all machines. For machines that can support it, there are 8. 
+In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
+(colortex0 to colortex7 can be used instead of gcolor, gdepth etc.)
 Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
@@ -121,6 +122,9 @@ uniform ivec2 eyeBrightnessSmooth;              eyeBrightness smoothed with eyeB
 uniform ivec2 terrainTextureSize;               not used
 uniform int terrainIconSize;                    not used
 uniform int isEyeInWater;                       camera is underwater
+uniform float nightVision;                      night vision (0.0-1.0)
+uniform float blindness;                        blindness (0.0-1.0)
+uniform float screenBrightness;                 screen brightness (0.0-1.0)
 uniform int hideGUI;                            GUI is hidden
 uniform float centerDepthSmooth;                centerDepth smoothed with centerDepthSmoothHalflife
 uniform ivec2 atlasSize;                        texture atlas size
@@ -297,7 +301,7 @@ See "properties_files.txt" for the block matching rules.
 
 Fragment Shader Configuration
 =============================
-Source                                          Effect                                                    Comment
+Source                                          Effect                                                     Comment
 =====================================================================================================================================================================
 uniform <type> shadow;                          shadowDepthBuffers = 1
 uniform <type> watershadow;                     shadowDepthBuffers = 2
@@ -325,6 +329,7 @@ const int shadowMapResolution = 1024;           shadowMapWidth = shadowMapHeight
 /* SHADOWFOV:90.0 */                            shadowMapFov = 90
 /* SHADOWHPL:160.0 */                           shadowMapDistance = 160.0
 const float shadowDistance = 160.0f;            shadowMapDistance = 160.0
+const float shadowDistanceRenderMul = -1f;      shadowDistanceRenderMul = -1                               When > 0 enable shadow optimization (shadowRenderDistance = shadowDistance * shadowDistanceRenderMul)
 const float shadowIntervalSize = 2.0f;          shadowIntervalSize = 2.0
 const bool generateShadowMipmap = true;         shadowMipmap = true
 const bool generateShadowColorMipmap = true;    shadowColorMipmap = true
