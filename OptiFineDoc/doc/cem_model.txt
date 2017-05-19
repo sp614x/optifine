@@ -74,6 +74,7 @@
 # vindication_illager  head, body, arms, left_leg, right_leg, nose, left_arm, right_arm
 # witch                head, body, arms, left_leg, right_leg, nose, mole, hat
 # wither               body1 ... body3, head1 ... head3
+# wither_skeleton      head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # wither_skull         head
 # wolf                 head, body, leg1 ... leg4, tail, mane
 # zombie               head, headwear, body, left_arm, right_arm, left_leg, right_leg
