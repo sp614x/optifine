@@ -23,7 +23,7 @@ of.message.an.shaders1=3D zobrazení není kompatibilní se Stíny.
 of.message.an.shaders2=Prosím vypni Stíny pro použití téhle možnosti.
  
 of.message.shaders.aa1=Stíny nejsou kompatibilní s Antialiasingem.
-of.message.shaders.aa2=Jdi do nastavení Kvality -> Antialiasing na VYPNUTO.
+of.message.shaders.aa2=Jdi do nastavení Kvality -> Antialiasing na VYPNUTO a restartuj hru.
 
 of.message.shaders.af1=Stíny nejsou kompatibilní s Anizotropním Filtrováním.
 of.message.shaders.af2=Jdi do nastavení Kvality -> Anizotropní Filtrování na VYPNUTO.
@@ -46,7 +46,7 @@ of.message.loadingVisibleChunks=Načítám vididetlné chunky
  
 # Nastavení Grafiky
 
-options.graphics.tooltip.1=Vizuální kvality
+options.graphics.tooltip.1=Vizuální kvalita
 options.graphics.tooltip.2=  Rychlá  - nižší kvalita, rychlejší
 options.graphics.tooltip.3=  Pěkná - vyšší kvalita, pomalejší
 options.graphics.tooltip.4=Mění vzhled mraků, listí, vody,
@@ -68,16 +68,16 @@ options.renderDistance.tooltip.7=Extrémní Viditelná vzdálenost je velmi výk
 options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální světy.
 
 options.ao.tooltip.1=Vyhlazené osvětlení.
-options.ao.tooltip.2=  VYPNUTO - žádné vyhlazené osvětlení (rychlé)
-options.ao.tooltip.3=  Minimální - jednoduché vyhlazené osvětlení (pomalejší)
+options.ao.tooltip.2=  VYPNUTO - žádné vyhlazené osvětlení (rychlejší)
+options.ao.tooltip.3=  Minimální - jednoduše vyhlazené osvětlení (pomalejší)
 options.ao.tooltip.4=  Maximální - kompletně vyhlazené osvětlení (nejpomalejší)
 
 options.framerateLimit.tooltip.1=Maximální FPS
 options.framerateLimit.tooltip.2=  VSync - limitované pro max počet FPS pro monitor (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - nastavitelné
 options.framerateLimit.tooltip.4=  Neomezené - bez limitu (nejrychlejší)
-options.framerateLimit.tooltip.5=FPS nepřekročí
-options.framerateLimit.tooltip.6=stanovenou hondotu.
+options.framerateLimit.tooltip.5=FPS limit sníží FPS, i když
+options.framerateLimit.tooltip.6=stanovená hodnota není překročena.
 of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Úroveň Vyhlazeného Osvětlení
@@ -87,7 +87,7 @@ of.options.AO_LEVEL.tooltip.3=  50%% - světlé stíny
 of.options.AO_LEVEL.tooltip.4=  100%% - tmavé stíny
 
 options.viewBobbing.tooltip.1=Více realistický pohyb
-options.viewBobbing.tooltip.2=Pokud používáš mipmaping, nastav na VYPNUTO pro nejlepší výsledky.
+options.viewBobbing.tooltip.2=Pokud používáš mipmapy, nastav na VYPNUTO pro nejlepší výsledky.
 
 options.guiScale.tooltip.1=Velikost GUI
 options.guiScale.tooltip.2=  Automatická - maximální velikost
@@ -96,7 +96,7 @@ options.guiScale.tooltip.4=  4x do 10x - dostupné na 4K obrazovkách
 options.guiScale.tooltip.5=Liché hodnoty (1x, 3x, 5x ...) nejsou kompatibilní s písmem Unicode.
 options.guiScale.tooltip.6=Menší GUI mohou být rychlejší.
 
-options.vbo.tooltip.1=Vertexově Vyrovnávající objekty
+options.vbo.tooltip.1=VBO
 options.vbo.tooltip.2=Používá alternativní model renderování, který je
 options.vbo.tooltip.3=rychlejší (5-10%%) oproti výchozímu renderování.
 
@@ -105,16 +105,16 @@ options.gamma.tooltip.2=  Tmavý - standardní jas
 options.gamma.tooltip.3=  1-99%% - nastavitelné
 options.gamma.tooltip.4=  Jasný - maximální jas tmavých objektů
 options.gamma.tooltip.5=Tato možnost nezmění jas
-options.gamma.tooltip.6=úplně tmavých objektů.
+options.gamma.tooltip.6=dokonale černých objektů.
 
 options.anaglyph.tooltip.1=3D Zobrazení
-options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá dané barvy
-options.anaglyph.tooltip.3=pro dané oko.
-options.anaglyph.tooltip.4=Vyžaduje červeno-modré brýle pro lepší vidění.
+options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá rozdílné barvy
+options.anaglyph.tooltip.3=pro každé oko.
+options.anaglyph.tooltip.4=Vyžaduje červeno-modré brýle pro správné vidění.
 
-of.options.ALTERNATE_BLOCKS=Alternativní Bloky
+of.options.ALTERNATE_BLOCKS=Různé Bloky
 options.blockAlternatives.tooltip.1=Alternativní Bloky
-options.blockAlternatives.tooltip.2=Používá alternativní model bloku pro některé modely.
+options.blockAlternatives.tooltip.2=Používá rozdílné modely bloku pro některé modely.
 options.blockAlternatives.tooltip.3=Záleží na vybraném balíčku zdrojů.
 
 of.options.FOG_FANCY=Mlha
@@ -135,13 +135,13 @@ of.options.CHUNK_LOADING=Načítaní Chunků
 of.options.CHUNK_LOADING.tooltip.1= Načítaní Chunků
 of.options.CHUNK_LOADING.tooltip.2=  Výchozí - nestabilní FPS při načítání chunků
 of.options.CHUNK_LOADING.tooltip.3=  Plynulé - stabilní FPS
-of.options.CHUNK_LOADING.tooltip.4=  Multi-Jádra - stabilní FPS, 3x rychlejší načítání světa
+of.options.CHUNK_LOADING.tooltip.4=  Více jader - stabilní FPS, 3x rychlejší načítání světa
 of.options.CHUNK_LOADING.tooltip.5=Plynulé a Multi-Jádra - odstraní sekání a 
 of.options.CHUNK_LOADING.tooltip.6=zmrazování způsobené načítáním chunků.
 of.options.CHUNK_LOADING.tooltip.7=Multi-Jádro může 3x zrychlit načítání světa a
 of.options.CHUNK_LOADING.tooltip.8=zvýšit FPS používáním druhého jádra.
 of.options.chunkLoading.smooth=Plynulé
-of.options.chunkLoading.multiCore=Multi-Jádro
+of.options.chunkLoading.multiCore=Více jader
 
 of.options.shaders=Stíny...
 of.options.shadersTitle=Stíny
@@ -153,10 +153,10 @@ of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.NORMAL_MAP=Normální Mapa
 of.options.shaders.SPECULAR_MAP=Zrcadlová Mapa
 of.options.shaders.RENDER_RES_MUL=Kvalita Renderu
-of.options.shaders.SHADOW_RES_MUL=Kvalita Osvětlení
+of.options.shaders.SHADOW_RES_MUL=Kvalita Stínů
 of.options.shaders.HAND_DEPTH_MUL=Ruční Hloubka
 of.options.shaders.CLOUD_SHADOW=Stíny mraků
-of.options.shaders.OLD_HAND_LIGHT=Staré Přední Osvětlení
+of.options.shaders.OLD_HAND_LIGHT=Staré Ruční Osvětlení
 of.options.shaders.OLD_LIGHTING=Staré Osvětlení
 of.options.shaders.SHADER_PACK=Balíček Stínů
 
@@ -178,7 +178,7 @@ of.options.animations=Animace...
 of.options.animationsTitle=Nastavení Animací
 
 of.options.other=Ostatní...
-of.options.otherTitle=Další Nastavení
+of.options.otherTitle=Zbytek Nastavení
 
 of.options.other.reset=Vyresetovat Nastavení Videa/Grafiky ...
 
@@ -191,8 +191,8 @@ of.options.mipmap.linear=Lineární
 of.options.mipmap.nearest=Nejbližší
 of.options.mipmap.trilinear=Trilineární
 
-options.mipmapLevels.tooltip.1=Vizuální efekty mohou udělat vzdálenější objekty pěknější
-options.mipmapLevels.tooltip.2=vyhlazováním a detailními texturami.
+options.mipmapLevels.tooltip.1=Vizuální efekt, který dělá vzdálené objekty lepší
+options.mipmapLevels.tooltip.2=vyhlazováním texturových detailů.
 options.mipmapLevels.tooltip.3=  VYPNUTO - žádné vyhlazování
 options.mipmapLevels.tooltip.4=  1 - minimální vyhlazování
 options.mipmapLevels.tooltip.5=  4 - maximální vyhlazování
@@ -210,10 +210,10 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilineární - nejlepší vyhlazování (nej
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
 of.options.AA_LEVEL.tooltip.2= VYPNUTO - (výchozí) žádný Antialiasing (rychlé)
-of.options.AA_LEVEL.tooltip.3= 2-16 - vyhlazované hrany a lajny (pomalé)
+of.options.AA_LEVEL.tooltip.3= 2-16 - vyhlazené hrany a linie (pomalé)
 of.options.AA_LEVEL.tooltip.4=Antialiasing vyhlazuje rozviklané hrany a 
 of.options.AA_LEVEL.tooltip.5=přechody ostrých barev.
-of.options.AA_LEVEL.tooltip.6=Pokud je zapnuto, výrazně zmenší FPS.
+of.options.AA_LEVEL.tooltip.6=Pokud je zapnuto, může výrazně zmenší FPS.
 of.options.AA_LEVEL.tooltip.7=Ne všechny úrovně jsou podporované všemi grafickými kartami.
 of.options.AA_LEVEL.tooltip.8=Efektivní po RESTARTU!
 
@@ -221,7 +221,7 @@ of.options.AF_LEVEL=Antizotropní Filtrování
 of.options.AF_LEVEL.tooltip.1= Antizotropní Filtrování
 of.options.AF_LEVEL.tooltip.2= VYPNUTO - (výchozí) standartní detaily textur (rychlé)
 of.options.AF_LEVEL.tooltip.3= 2-16 - lepší detaily v mipmapovaných texturách (pomalé)
-of.options.AF_LEVEL.tooltip.4= Antizotropní Filtrování zachová všechny detaily v
+of.options.AF_LEVEL.tooltip.4= Antizotropní Filtrování obnoví všechny detaily v
 of.options.AF_LEVEL.tooltip.5=mipmapovaných texturách.
 of.options.AF_LEVEL.tooltip.6=Pokud je zapnuto, výrazně sníží FPS.
 
