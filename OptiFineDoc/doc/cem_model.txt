@@ -45,6 +45,7 @@
 # husk                 head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # iron_golem           head, body, left_arm, right_arm, left_leg, right_leg
 # lead_knot            knot
+# llama                head, body, leg1 ... leg4
 # magma_cube           core, segment1 ... segment8
 # minecart             bottom, back, front, right, left, dirt
 # mooshroom            head, body, leg1 ... leg4
