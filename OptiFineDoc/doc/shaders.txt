@@ -121,7 +121,7 @@ uniform ivec2 eyeBrightness;                    x = block brightness, y = sky br
 uniform ivec2 eyeBrightnessSmooth;              eyeBrightness smoothed with eyeBrightnessHalflife
 uniform ivec2 terrainTextureSize;               not used
 uniform int terrainIconSize;                    not used
-uniform int isEyeInWater;                       camera is underwater
+uniform int isEyeInWater;                       1 = camera is in water, 2 = camera is in lava
 uniform float nightVision;                      night vision (0.0-1.0)
 uniform float blindness;                        blindness (0.0-1.0)
 uniform float screenBrightness;                 screen brightness (0.0-1.0)
