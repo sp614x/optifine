@@ -288,16 +288,17 @@ Block ID mapping
 The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
 Format "block.<id>=<block1> <block2> ..."
 The key is the substitute block ID, the value are the blocks which are to be replaced.
+Only one line per block ID is allowed.
 See "properties_files.txt" for the block matching rules.
 
   # Short format
-  block.31=red_flower yellow_flower
+  block.31=red_flower yellow_flower reeds
   # Long format
-  block.31=minecraft:red_flower ic2:nether_flower
+  block.31=minecraft:red_flower ic2:nether_flower botania:reeds
   # Properties
-  block.31=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip
+  block.31=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip botania:reeds:type=green
   # Block ID, Metadata (backwards compatibility)
-  block.31=38:6 38:7
+  block.31=38:6 38:7 83
 
 Fragment Shader Configuration
 =============================
