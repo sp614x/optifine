@@ -1,0 +1,589 @@
+#Tradus in romana de nicuch
+
+# General
+of.general.ambiguous=ambiguu
+of.general.custom=Personalizat
+of.general.from=Din
+of.general.id=Id
+of.general.restart=restart
+of.general.smart=Destept
+
+# Keys
+of.key.zoom=Zoom
+
+# Message
+of.message.aa.shaders1=Anti-aliasing nu este compatibil cu Shader.
+of.message.aa.shaders2=Dezactiveaza Shader pentru a activa aceasta optiune.
+
+of.message.af.shaders1=Filtrul Anisotropic nu este compatibil cu Shader.
+of.message.af.shaders2=Dezactiveaza Shader pentru a activa aceasta optiune.
+
+of.message.fr.shaders1=Redarea Rapida nu este compatibila cu Shader.
+of.message.fr.shaders2=Dezactiveaza Shader pentru a activa aceasta optiune.
+
+of.message.an.shaders1=Viziunea 3D nu este compatibila cu Shader.
+of.message.an.shaders2=Dezactiveaza Shader pentru a activa aceasta optiune.
+
+of.message.shaders.aa1=Shaderul nu este compatibil cu Anti-aliasing. 
+of.message.shaders.aa2=Seteaza Calitate -> Anti-aliasing pe DEZACTIVAT si restarteaza jocul.
+
+of.message.shaders.af1=Shaderul nu este compatibil cu Filtrul Anisotropic.
+of.message.shaders.af2=Seteaza Calitate -> Filtrul Anisotropic pe DEZACTIVAT. 
+
+of.message.shaders.fr1=Shaderul nu este compatibil cu Redarea Rapida.
+of.message.shaders.fr2=Seteaza Performanta -> Redare Rapida pe DEZACTIVAT.
+
+of.message.shaders.an1=Shaderul nu este compatibil cu Viziunea 3D.
+of.message.shaders.an2=Seteaza Altele -> Viziune 3D pe DEZACTIVAT.
+
+of.message.newVersion=O versiune noua de §eOptiFine§f este valabila: §e%s§f
+of.message.java64Bit=Poti instala versiunea de §e64-bit Java§f pentru a creste performanta.
+of.message.openglError=§eEroare OpenGL§f: %s (%s)
+
+of.message.shaders.loading=Shaderul se incarca: %s
+
+of.message.other.reset=Resetezi toate setarile video in valorile implicite?
+ 
+of.message.loadingVisibleChunks=Incarca chunk-urile vizibile
+ 
+# Video settings
+
+options.graphics.tooltip.1=Calitate vizuala
+options.graphics.tooltip.2=  Rapid  - calitate mica, rapid
+options.graphics.tooltip.3=  Atractiv - calitate mare, lent
+options.graphics.tooltip.4=Schimba aspectul norilor, frunzelor, apei,
+options.graphics.tooltip.5=umbrelor si fetele ierbii.
+
+of.options.renderDistance.tiny=Mic
+of.options.renderDistance.short=Scurt
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Departe
+of.options.renderDistance.extreme=Extrem
+
+options.renderDistance.tooltip.1=Distanta vizibila
+options.renderDistance.tooltip.2=  2 Mic - 32m (rapid)
+options.renderDistance.tooltip.3=  4 Scurt - 64m (rapid)
+options.renderDistance.tooltip.4=  8 Normal - 128m
+options.renderDistance.tooltip.5=  16 Departe - 256m (lent)
+options.renderDistance.tooltip.6=  32 Extrem - 512m (foarte lent!)
+options.renderDistance.tooltip.7=Vederea la distanta Extrem este foarte solicitant pentru resurse!
+options.renderDistance.tooltip.8=Valorile peste 16 Departe are efect doar intr-o lume locala.
+
+options.ao.tooltip.1=Lumina neteda
+options.ao.tooltip.2=  DEZACTIVAT - fara lumina neteda (rapid)
+options.ao.tooltip.3=  Minim - lumina neteda simpla (lent)
+options.ao.tooltip.4=  Maxim - lumina neteda complexa (foarte lent)
+
+options.framerateLimit.tooltip.1=Rata de cadre maxima
+options.framerateLimit.tooltip.2=  VSync - limiteaza rata de cadre a monitorului (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - variabile
+options.framerateLimit.tooltip.4=  Nelimitat - fara limita (foarte rapid)
+options.framerateLimit.tooltip.5=Limita de cadre scade chiar daca
+options.framerateLimit.tooltip.6=valoarea limitei nu este atinsa.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Nivel de lumina neteda
+of.options.AO_LEVEL.tooltip.1=Nivel de lumina neteda
+of.options.AO_LEVEL.tooltip.2=  DEZACTIVAT - fara umbre
+of.options.AO_LEVEL.tooltip.3=  50%% - umbre deschise
+of.options.AO_LEVEL.tooltip.4=  100%% - umbre inchise
+
+options.viewBobbing.tooltip.1=Miscare mai realista.
+options.viewBobbing.tooltip.2=Cand utilizati mip-maps, setati-l pe DEZACTIVAT pentru rezultate optime.
+
+options.guiScale.tooltip.1=Dimensiune GUI
+options.guiScale.tooltip.2=  Automat - marime maxima
+options.guiScale.tooltip.3=  Mic, Normal, Larg - 1x la 3x
+options.guiScale.tooltip.4=  4x la 10x - valabil pe ecranele 4K
+options.guiScale.tooltip.5=Valorile impare (1x, 3x, 5x ...) nu sunt compatibile cu Unicode.
+options.guiScale.tooltip.6=Un GUI mic poate fi mai rapid.
+
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Foloseste un model de render alternativ care de obicei
+options.vbo.tooltip.3=este mai rapid (5-10%%) fata de renderul implicit.
+
+options.gamma.tooltip.1=Schimba luminozitatea obiectelor negre.
+options.gamma.tooltip.2=  Intunecos - luminozitate standard
+options.gamma.tooltip.3=  1-99%% - variabile
+options.gamma.tooltip.4=  Luminos - luminozitate maxima pentru obiecte negre.
+options.gamma.tooltip.5=Aceasta optiune nu schimba luminozitatea
+options.gamma.tooltip.6=obiectelor total negre.
+
+options.anaglyph.tooltip.1=Viziune 3D
+options.anaglyph.tooltip.2=Activeaza un efect stereoscopic 3D folosind culori diferite
+options.anaglyph.tooltip.3=pentru fiecare ochi.
+options.anaglyph.tooltip.4=Necesita ochelari cu lentile rosu-cyan pentru vizualizarea adecvata.
+
+of.options.ALTERNATE_BLOCKS=Blocuri Succesive
+of.options.ALTERNATE_BLOCKS.tooltip.1=Blocuri Succesive
+of.options.ALTERNATE_BLOCKS.tooltip.2=Foloseste modele succesive (alternate) pentru unele blocuri.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Depinde de pachetul de resurse selectat.
+
+of.options.FOG_FANCY=Ceata
+of.options.FOG_FANCY.tooltip.1=Tip de ceata
+of.options.FOG_FANCY.tooltip.2=  Rapid - ceata rara
+of.options.FOG_FANCY.tooltip.3=  Atractiv - ceata deasa, arata mai bine
+of.options.FOG_FANCY.tooltip.4=  DEZACTIVAT - fara ceata, rapid
+of.options.FOG_FANCY.tooltip.5=Ceata eleganta este valabila doar pentru
+of.options.FOG_FANCY.tooltip.6=placa grafica care suporta.
+
+of.options.FOG_START=Pornire ceata
+of.options.FOG_START.tooltip.1=Pornire ceata
+of.options.FOG_START.tooltip.2=  0.2 - ceata incepe aproape fata de jucator
+of.options.FOG_START.tooltip.3=  0.8 - ceata incepe departe fata de jucator
+of.options.FOG_START.tooltip.4=Aceasta optiune nu afecteaza de obicei performanta.
+
+of.options.CHUNK_LOADING=Incarcare Chunk-uri
+of.options.CHUNK_LOADING.tooltip.1=Incarcare Chunk-uri
+of.options.CHUNK_LOADING.tooltip.2=  Implicit - FPS instabil cand chunk-urile sunt incarcate
+of.options.CHUNK_LOADING.tooltip.3=  Neted - FPS stabil
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - FPS stabil, de 3 ori mai rapida incarcarea chunk-urilor
+of.options.CHUNK_LOADING.tooltip.5=Neted si Multi-Core elimina impiedicarea si
+of.options.CHUNK_LOADING.tooltip.6=inghetarea cauzata de incarcarea chunk-urilor.
+of.options.CHUNK_LOADING.tooltip.7=Multi-Core poate accelera incarcarea lumii de 3 ori
+of.options.CHUNK_LOADING.tooltip.8=crescand FPS utilizand un al 2-lea necleu al CPU-ului.
+of.options.chunkLoading.smooth=Neted
+of.options.chunkLoading.multiCore=Multi-Core
+
+of.options.shaders=Shadere...
+of.options.shadersTitle=Shadere
+
+of.options.shaders.packNone=DEZACTIVAT
+of.options.shaders.packDefault=(internal)
+
+of.options.shaders.ANTIALIASING=Anti-aliasing
+of.options.shaders.NORMAL_MAP=Normal Map
+of.options.shaders.SPECULAR_MAP=Specular Map
+of.options.shaders.RENDER_RES_MUL=Calitate Render
+of.options.shaders.SHADOW_RES_MUL=Calitate Umbre
+of.options.shaders.HAND_DEPTH_MUL=Adancime Mana
+of.options.shaders.CLOUD_SHADOW=Umbre Nori
+of.options.shaders.OLD_HAND_LIGHT=Lumina Mana Veche
+of.options.shaders.OLD_LIGHTING=Lumina Veche
+of.options.shaders.SHADER_PACK=Pachet Shader
+
+of.options.shaders.shadersFolder=Dosar Shadere
+of.options.shaders.shaderOptions=Optiuni Shader...
+
+of.options.shaderOptionsTitle=Optiuni Shader
+
+of.options.quality=Calitate...
+of.options.qualityTitle=Setari Calitate
+
+of.options.details=Detalii...
+of.options.detailsTitle=Setari Detalii
+
+of.options.performance=Performanta...
+of.options.performanceTitle=Setari Performanta
+
+of.options.animations=Animatii...
+of.options.animationsTitle=Setari animatii
+
+of.options.other=Altele...
+of.options.otherTitle=Alte Setari
+
+of.options.other.reset=Reseteaza Setarile Video...
+
+of.shaders.profile=Profil
+
+# Quality
+
+of.options.mipmap.bilinear=Biliniar
+of.options.mipmap.linear=Liniar
+of.options.mipmap.nearest=Apropiat
+of.options.mipmap.trilinear=Triliniar
+
+options.mipmapLevels.tooltip.1=Efect vizual care face obiectele la distanta sa arate bine
+options.mipmapLevels.tooltip.2=prin netezirea detaliilor texturii.
+options.mipmapLevels.tooltip.3=  DEZACTIVAT - fara netezire
+options.mipmapLevels.tooltip.4=  1 - netezire minima
+options.mipmapLevels.tooltip.5=  4 - netezire maxima
+options.mipmapLevels.tooltip.6=Aceasta optiune de obicei nu afecteaza performanta.
+
+of.options.MIPMAP_TYPE=Tip Mip-maping
+of.options.MIPMAP_TYPE.tooltip.1=Efect vizual care face obiectele la distanta sa arate bine
+of.options.MIPMAP_TYPE.tooltip.2=prin netezirea detaliilor texturii.
+of.options.MIPMAP_TYPE.tooltip.3=  Apropiat - netezire aspra (foarte rapid)
+of.options.MIPMAP_TYPE.tooltip.4=  Liniar - netezire normala
+of.options.MIPMAP_TYPE.tooltip.5=  Biliniar - netezire fina
+of.options.MIPMAP_TYPE.tooltip.6=  Triliniar - netezire foarte fina (foarte lent)
+
+
+of.options.AA_LEVEL=Anti-aliasing
+of.options.AA_LEVEL.tooltip.1=Anti-aliasing
+of.options.AA_LEVEL.tooltip.2= DEZACTIVAT - (implicit) fara antialiasing (rapid)
+of.options.AA_LEVEL.tooltip.3= 2-16 - linii si margini fara crestare (slower)
+of.options.AA_LEVEL.tooltip.4=Anti-aliasing-ul netezeste liniile crestate si
+of.options.AA_LEVEL.tooltip.5=ascute tranzitiile culori.
+of.options.AA_LEVEL.tooltip.6=Cand este activat va scadea substantial si FPS-ul.
+of.options.AA_LEVEL.tooltip.7=Nu toate nivelele sunt suportate de toate placile video.
+of.options.AA_LEVEL.tooltip.8=Functioneaza dupa un RESTART!
+
+of.options.AF_LEVEL=Filtru Anisotropic
+of.options.AF_LEVEL.tooltip.1=Filtru Anisotropic
+of.options.AF_LEVEL.tooltip.2= DEZACTIVAT - (implicit) detali textura standard (rapid)
+of.options.AF_LEVEL.tooltip.3= 2-16 - detalii fine in texturile mip-map (lent)
+of.options.AF_LEVEL.tooltip.4=Filtru Anisotropic restaureaza detaliile in
+of.options.AF_LEVEL.tooltip.5=texturile mip-map.
+of.options.AF_LEVEL.tooltip.6=Cand este activat va scadea substantial si FPS-ul.
+
+of.options.CLEAR_WATER=Apa Curata
+of.options.CLEAR_WATER.tooltip.1=Apa Curata
+of.options.CLEAR_WATER.tooltip.2=  ACTIVAT - curat, apa transparenta
+of.options.CLEAR_WATER.tooltip.3=  DEZACTIVAT - apa implicita
+
+of.options.RANDOM_MOBS=Entitati Aleatoare
+of.options.RANDOM_MOBS.tooltip.1=Entitati Aleatoare
+of.options.RANDOM_MOBS.tooltip.2=  DEZACTIVAT - fara entitati aleatoare, rapid
+of.options.RANDOM_MOBS.tooltip.3=  ON - entitati aleatoare, lent
+of.options.RANDOM_MOBS.tooltip.4=Entitatile aleatoare foloseste texturi aleatoare pentru creaturile jocului.
+of.options.RANDOM_MOBS.tooltip.5=Este necesar de un pachet de resurse ce foloseste multiple texturi pentru entitati.
+
+of.options.BETTER_GRASS=Gazon Imbunatatit
+of.options.BETTER_GRASS.tooltip.1=Gazon Imbunatatit
+of.options.BETTER_GRASS.tooltip.2=  DEZACTIVAT - textura fetelor gazonului implicita, rapid
+of.options.BETTER_GRASS.tooltip.3=  Rapid - textura fetelor gazonului plina, lent
+of.options.BETTER_GRASS.tooltip.4=  Atractiv - textura fetelor gazonului dinamica, foarte lent
+
+of.options.BETTER_SNOW=Zapada Imbunatatita
+of.options.BETTER_SNOW.tooltip.1=Zapada Imbunatatita
+of.options.BETTER_SNOW.tooltip.2=  DEZACTIVAT - zapada implicita, rapid
+of.options.BETTER_SNOW.tooltip.3=  ACTIVAT - zapada imbunatatita, lent
+of.options.BETTER_SNOW.tooltip.4=Zapada sub blocurile transparente (gard, iarba)
+of.options.BETTER_SNOW.tooltip.5=cand sunt invecinate cu blocuri de zapada.
+
+of.options.CUSTOM_FONTS=Fonturi Personalizate
+of.options.CUSTOM_FONTS.tooltip.1=Fonturi Personalizate
+of.options.CUSTOM_FONTS.tooltip.2=  ACTIVAT - foloseste fonturi personalizate (implicit), lent
+of.options.CUSTOM_FONTS.tooltip.3=  DEZACTIVAT - foloseste fontul implicit, rapid
+of.options.CUSTOM_FONTS.tooltip.4=Fonturile personalizate sunt furnizate de
+of.options.CUSTOM_FONTS.tooltip.5=pachetul de resurse.
+
+of.options.CUSTOM_COLORS=Culori Personalizate
+of.options.CUSTOM_COLORS.tooltip.1=Culori Personalizate
+of.options.CUSTOM_COLORS.tooltip.2=  ACTIVAT - foloseste culori personalizate (implicit), lent
+of.options.CUSTOM_COLORS.tooltip.3=  DEZACTIVAT - foloseste culori implicite, rapid
+of.options.CUSTOM_COLORS.tooltip.4=Culorile personalizate sunt furnizate de
+of.options.CUSTOM_COLORS.tooltip.5=pachetul de resurse.
+
+of.options.SWAMP_COLORS=Culorile Mlastinei
+of.options.SWAMP_COLORS.tooltip.1=Culorile Mlastinei
+of.options.SWAMP_COLORS.tooltip.2=  ACTIVAT - foloseste culori mlastinei (implicit), lent
+of.options.SWAMP_COLORS.tooltip.3=  DEZACTIVAT - nu foloseste culori mlastinei, rapid
+of.options.SWAMP_COLORS.tooltip.4=Culorile mlastinei afecteaza gazonul, frunzele, lianele si apa.
+
+of.options.SMOOTH_BIOMES=Biomuri Netede
+of.options.SMOOTH_BIOMES.tooltip.1=Biomuri Netede
+of.options.SMOOTH_BIOMES.tooltip.2=  ACTIVAT - netezeste bordurile biomurilor (implicit), lent
+of.options.SMOOTH_BIOMES.tooltip.3=  DEZACTIVAT - fara netezire a bordurilor biomurilor, rapid
+of.options.SMOOTH_BIOMES.tooltip.4=Netezirea bordurilor biomurilor este facuta de
+of.options.SMOOTH_BIOMES.tooltip.5=media culorii blocurilor incojuratoare aflate in fiecare biom.
+of.options.SMOOTH_BIOMES.tooltip.6=Afecteaza gazonul, frunzele, lianele si apa.
+
+of.options.CONNECTED_TEXTURES=Texturi Conectate
+of.options.CONNECTED_TEXTURES.tooltip.1=CTexturi Conectate
+of.options.CONNECTED_TEXTURES.tooltip.2=  DEZACTIVAT - fara texturi conectate (implicit)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Rapid - conecteaza texturile rapid
+of.options.CONNECTED_TEXTURES.tooltip.4=  Atractiv - conecteaza texturile elegant
+of.options.CONNECTED_TEXTURES.tooltip.5=Texturile conectate ataseaza texturile sticlei,
+of.options.CONNECTED_TEXTURES.tooltip.6=gresiei si a rafturilor cu carti cand sunt puse
+of.options.CONNECTED_TEXTURES.tooltip.7=una langa alta. Texturile conectate sunt furnizate
+of.options.CONNECTED_TEXTURES.tooltip.8=de pachetul de resurse curent.
+
+of.options.NATURAL_TEXTURES=Texturi Naturale
+of.options.NATURAL_TEXTURES.tooltip.1=Texturi Naturale
+of.options.NATURAL_TEXTURES.tooltip.2=  DEZACTIVAT - fara texturi naturale (implicit)
+of.options.NATURAL_TEXTURES.tooltip.3=  ACTIVAT - foloseste texturi naturale
+of.options.NATURAL_TEXTURES.tooltip.4=Texturile naturale elimina modelul de grid
+of.options.NATURAL_TEXTURES.tooltip.5=creat de blocurilor repetate de acelasi tip.
+of.options.NATURAL_TEXTURES.tooltip.6=Foloseste variante rotite si in oglinda a texturii
+of.options.NATURAL_TEXTURES.tooltip.7=blocului. Configuratia pentru texturile naturale
+of.options.NATURAL_TEXTURES.tooltip.8=sunt furnizate de pachetul de resurse curent.
+
+of.options.CUSTOM_SKY=Cer Personalizat
+of.options.CUSTOM_SKY.tooltip.1=Cer Personalizat
+of.options.CUSTOM_SKY.tooltip.2=  ACTIVAT - texturi al cerului personalizate (implicit), lent
+of.options.CUSTOM_SKY.tooltip.3=  DEZACTIVAT - cer implicit, rapid
+of.options.CUSTOM_SKY.tooltip.4=Cerul personalizat este furnizat de
+of.options.CUSTOM_SKY.tooltip.5=pachetul de resurse curent.
+
+of.options.CUSTOM_ITEMS=Obiecte Personalizate
+of.options.CUSTOM_ITEMS.tooltip.1=Obiecte Personalizate
+of.options.CUSTOM_ITEMS.tooltip.2=  ACTIVAT - texturi ale obiectelor personalizate (implicit), lent
+of.options.CUSTOM_ITEMS.tooltip.3=  DEZACTIVAT - texturi ale obiectelor implicite, rapid
+of.options.CUSTOM_ITEMS.tooltip.4=Obiectele personalizate sunt furnizate de
+of.options.CUSTOM_ITEMS.tooltip.5=pachetul de resurse curent.
+
+of.options.CUSTOM_ENTITY_MODELS=Modele Entitati Personalizate
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Modele Entitati Personalizate
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  ACTIVAT - modele entitati personalizate (implicit), lent
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  DEZACTIVAT - modele entitati implicite, rapid
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Modelele entitatilor personalizate sunt furnizate de
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=pachetul de resurse curent.
+
+# Details
+
+
+of.options.CLOUDS=Nori
+of.options.CLOUDS.tooltip.1=Nori
+of.options.CLOUDS.tooltip.2=  Implicit - setat prin setarea graficii.
+of.options.CLOUDS.tooltip.3=  Rapid - calitate mica, rapid
+of.options.CLOUDS.tooltip.4=  Atractiv - calitate mare, lent
+of.options.CLOUDS.tooltip.5=  DEZACTIVAT - fara nori, foarte rapid
+of.options.CLOUDS.tooltip.6=Norii rapizi sunt redati 2D.
+of.options.CLOUDS.tooltip.7=Norii atractivi sunt redati 3D.
+
+of.options.CLOUD_HEIGHT=Inaltime Nori
+of.options.CLOUD_HEIGHT.tooltip.1=Inaltime Nori
+of.options.CLOUD_HEIGHT.tooltip.2=  DEZACTIVAT - inaltime implicita
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - deasupra inaltimitii limita a lumii.
+
+of.options.TREES=Copaci
+of.options.TREES.tooltip.1=Copaci
+of.options.TREES.tooltip.2=  Implicit - setat prin setarea graficii.
+of.options.TREES.tooltip.3=  Rapid - calitate mica, rapid
+of.options.TREES.tooltip.4=  Destept - calitate mare, rapid
+of.options.TREES.tooltip.5=  Atractiv - calitate mare, lent
+of.options.TREES.tooltip.6=Copacii rapizi au frunzele opace.
+of.options.TREES.tooltip.7=Copacii atractivi si destepti au frunze transparente.
+
+of.options.RAIN=Ploaie si Zapada
+of.options.RAIN.tooltip.1=Ploaie si Zapada
+of.options.RAIN.tooltip.2=  Implicit - setat prin setarea graficii.
+of.options.RAIN.tooltip.3=  Rapid  - ploaie/zapada usoara, rapid
+of.options.RAIN.tooltip.4=  Atractiv - ploaie/zapada grea, lent
+of.options.RAIN.tooltip.5=  DEZACTIVAT - fara ploaie/zapada, foarte rapid
+of.options.RAIN.tooltip.6=Cand ploaia este DEZACTIVATA stopii si sunetele ploii
+of.options.RAIN.tooltip.7=raman inca active.
+
+of.options.SKY=Cer
+of.options.SKY.tooltip.1=Cer
+of.options.SKY.tooltip.2=  ACTIVAT - cerul este vizibil, lent
+of.options.SKY.tooltip.3=  DEZACTIVAT - cerul nu este vizibil, rapid
+of.options.SKY.tooltip.4=Cand cerul este DEZACTIVAT luna si soarele raman inca vizibile.
+
+of.options.STARS=Stele
+of.options.STARS.tooltip.1=Stele
+of.options.STARS.tooltip.2=  ACTIVAT - stelele sunt vizibile, lent
+of.options.STARS.tooltip.3=  DEZACTIVAT  - stelele nu sunt vizibile, rapid
+
+of.options.SUN_MOON=Soarele si Luna
+of.options.SUN_MOON.tooltip.1=Soarele si Luna
+of.options.SUN_MOON.tooltip.2=  ACTIVAT - soarele si luna sunt vizibile (implicit)
+of.options.SUN_MOON.tooltip.3=  DEZACTIVAT  - soarele si luna nu sunt vizibile (lent)
+
+of.options.SHOW_CAPES=Arata Cape
+of.options.SHOW_CAPES.tooltip.1=Arata Cape
+of.options.SHOW_CAPES.tooltip.2=  ACTIVAT - arata capele jucatorilor (implicit)
+of.options.SHOW_CAPES.tooltip.3=  DEZACTIVAT - nu arata capele jucatorilor
+
+of.options.TRANSLUCENT_BLOCKS=Blocuri Transparente
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocuri Transparente
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Atractiv - amestecare corectă a culorii (implicit)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rapid - amestecarea rapida a culorii (rapid)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Controleaza amestecarea culorii blocurilor trasparente
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=cu diferite culori (sticla colorata, apa, gheata)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=cand sunt puse una in spatele celelalte cu aer intre ele.
+
+of.options.HELD_ITEM_TOOLTIPS=Informatii Obiect Detinut
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Informatii Obiect Detinut
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  ACTIVAT - arata informatii despre obiectul detinut (implicit)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  DEZACTIVAT - nu arata informatii despre obiectul detinut
+
+of.options.ADVANCED_TOOLTIPS=Informatii Avansate
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Informatii Avansate
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  ACTIVAT - arata informatii avansate
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  DEZACTIVAT - nu arata informatii avansate (implicit)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Extinde informatiile despre
+of.options.ADVANCED_TOOLTIPS.tooltip.5=obiecte (id, durabilitate) si optiunile shaderului
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, sursa, valori implicite).
+
+of.options.DROPPED_ITEMS=Obiecte Aruncate
+of.options.DROPPED_ITEMS.tooltip.1=Obiecte Aruncate
+of.options.DROPPED_ITEMS.tooltip.2=  Implicit - setat prin setarea graficii.
+of.options.DROPPED_ITEMS.tooltip.3=  Rapid - obiecte aruncate 2D, rapid
+of.options.DROPPED_ITEMS.tooltip.4=  Fancy - obiecte aruncate 3D, lent
+
+options.entityShadows.tooltip.1=Umbre Entitati
+options.entityShadows.tooltip.2=  ACTIVAT - arata umbrele entitatilor
+options.entityShadows.tooltip.3=  DEZACTIVAT - nu arata umbrele entitatilor
+
+of.options.VIGNETTE=Vignette
+of.options.VIGNETTE.tooltip.1=Efect vizual ce face colutile ecranului putin inchise.
+of.options.VIGNETTE.tooltip.2=  Implicit - setat prin setarea graficii (implicit)
+of.options.VIGNETTE.tooltip.3=  Rapid - vignette dezactivat (rapid)
+of.options.VIGNETTE.tooltip.4=  Atractiv - vignette activat (lent)
+of.options.VIGNETTE.tooltip.5=Vignette poate avea un efect semnificativ FPS-ului,
+of.options.VIGNETTE.tooltip.6=in special jucat in ecran complet.
+of.options.VIGNETTE.tooltip.7=Efectul vignette este foarte subtil si poate fi
+of.options.VIGNETTE.tooltip.8=dezactivat fara probleme.
+
+of.options.DYNAMIC_FOV=Camp De Vizualizare
+of.options.DYNAMIC_FOV.tooltip.1=Camp De Vizualizare
+of.options.DYNAMIC_FOV.tooltip.2=  ACTIVAT - activeaza campul de vizualizare (impilcit)
+of.options.DYNAMIC_FOV.tooltip.3=  DEZACTIVAT - dezactiveaza campul de vizualizare
+of.options.DYNAMIC_FOV.tooltip.4=Schimba campul de vizualizare in timpul zborului, alergatului
+of.options.DYNAMIC_FOV.tooltip.5=sau trasului cu arcul.
+
+of.options.DYNAMIC_LIGHTS=Lumini Dinamice
+of.options.DYNAMIC_LIGHTS.tooltip.1=Lumini Dinamice
+of.options.DYNAMIC_LIGHTS.tooltip.2=  DEZACTIVAT - fara lumini dinamice (implicit)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Rapid - lumini dinamice rapide (actualizate fiecare 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Atractiv - lumini dinamice atractive (actualizate in timp real)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Activeaza obiectele luminoase (torte, piatra luminoasa, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=sa emita lumina in jurul lor cand sunt tinute in mana,
+of.options.DYNAMIC_LIGHTS.tooltip.7=echipate de alti jucatori sau aruncate pe pamant.
+
+# Performance
+
+of.options.SMOOTH_FPS=FPS-uri Constante
+of.options.SMOOTH_FPS.tooltip.1=Stabilizeaza FPS-ul prin curatarea bufferelor placii grafice.
+of.options.SMOOTH_FPS.tooltip.2=  DEZACTIVAT - fara stabilizare, FPS-ul poate fluctua
+of.options.SMOOTH_FPS.tooltip.3=  ACTIVAT - FPS-ul stabilizat
+of.options.SMOOTH_FPS.tooltip.4=Aceasta optiune este dependenta de placa grafica
+of.options.SMOOTH_FPS.tooltip.5=si nu are mereu un efect vizibil.
+
+of.options.SMOOTH_WORLD=Lume Constanta
+of.options.SMOOTH_WORLD.tooltip.1=Elimina lagul cauzat de serverul internal.
+of.options.SMOOTH_WORLD.tooltip.2=  DEZACTIVAT - fara stabilizare, FPS-ul poate fluctua
+of.options.SMOOTH_WORLD.tooltip.3=  ACTIVAT - FPS-ul stabilizat
+of.options.SMOOTH_WORLD.tooltip.4=Stabilizeaza FPS-ul prin distribuirea incarcarii serverului internal.
+of.options.SMOOTH_WORLD.tooltip.5=Are efect doar in lumine locale (single player).
+
+of.options.FAST_RENDER=Render Rapid
+of.options.FAST_RENDER.tooltip.1=Render Rapid
+of.options.FAST_RENDER.tooltip.2= DEZACTIVAT - render standard (implicit)
+of.options.FAST_RENDER.tooltip.3= ACTIVAT - render optimizat (rapid)
+of.options.FAST_RENDER.tooltip.4=Foloseste un algoritm optimizat pentru render care scade
+of.options.FAST_RENDER.tooltip.5=incarcarea GPU-ului si substatinal creste FPS-ul.
+
+of.options.FAST_MATH=Matematica Rapida
+of.options.FAST_MATH.tooltip.1=Matematica Rapida
+of.options.FAST_MATH.tooltip.2= DEZACTIVAT - matematica standard (implicit)
+of.options.FAST_MATH.tooltip.3= ACTIVAT - matematica rapida
+of.options.FAST_MATH.tooltip.4=Foloseste functii sin() si cos() optimizate care
+of.options.FAST_MATH.tooltip.5=utilizeaza cache-ul CPU-ului mai bine si creste FPS-ul.
+
+of.options.CHUNK_UPDATES=Actualizare Chunk-uri
+of.options.CHUNK_UPDATES.tooltip.1=Actualizare Chunk-uri
+of.options.CHUNK_UPDATES.tooltip.2= 1 - incarcarea lumii lenta, FPS mare (implicit)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - incarcarea lumii rapida, FPS mic
+of.options.CHUNK_UPDATES.tooltip.4= 5 - incarcarea lumii foarte rapida, FPS foarte mic
+of.options.CHUNK_UPDATES.tooltip.5=Numarul de actualizari ale chunk-urilor per frame rendate,
+of.options.CHUNK_UPDATES.tooltip.6=valorile mari pot destabiliza rata de frameuri.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Actualizari Dinamice
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Actualizari dinamice ale chunk-urilor
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= DEZACTIVAT - (implicit) actualizari standard ale chunk-urilor per frame
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ACTIVAT - mai multe actualizari cand jucatorul sta nemiscat
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Actualizarile dinamice forteaza mai multe chunk-uri sa fie actualizate
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=cat timp jucatorul sta nemiscat pentru o mai buna incarcare a lumii.
+
+of.options.LAZY_CHUNK_LOADING=Chunk-uri Lenese
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Incarcare Lenesa a Chunk-urilor
+of.options.LAZY_CHUNK_LOADING.tooltip.2= DEZACTIVAT - incarcarea implicita a chunk-urlor serverului
+of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - incarcarea lenesa a chunk-urlor serverului (lin)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Usureaza incarcarea chunk-urilor serverului
+of.options.LAZY_CHUNK_LOADING.tooltip.5=distribuind chunk-urile peste cateva tick-uri.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Dezactiva-l daca parti ale lumii nu sunt incarcate corect.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Efectiv doar pentru lumile locale si pentru CPU-urile cu un singur nucleu.
+
+# Animations
+
+of.options.animation.allOn=Toate ACTIVATE
+of.options.animation.allOff=Toate DEZACTIVATE
+of.options.animation.dynamic=Dinamic
+
+of.options.ANIMATED_WATER=Animatie Apa
+of.options.ANIMATED_LAVA=Animatie Lava
+of.options.ANIMATED_FIRE=Animatie Foc
+of.options.ANIMATED_PORTAL=Animatie Portal
+of.options.ANIMATED_REDSTONE=Animatie Redstone
+of.options.ANIMATED_EXPLOSION=Animatie Explozie
+of.options.ANIMATED_FLAME=Animatie Flacara
+of.options.ANIMATED_SMOKE=Animatie Fum
+of.options.VOID_PARTICLES=Particule de Void
+of.options.WATER_PARTICLES=Particule de Apa
+of.options.RAIN_SPLASH=Stopi de Ploaie
+of.options.PORTAL_PARTICLES=Particule de Portal
+of.options.POTION_PARTICLES=Particule de Potiuni
+of.options.DRIPPING_WATER_LAVA=Picaturi de Apa/Lava
+of.options.ANIMATED_TERRAIN=Teren Animat
+of.options.ANIMATED_TEXTURES=Texturi Animate
+of.options.FIREWORK_PARTICLES=Particule de Artificii
+
+# Other
+
+of.options.LAGOMETER=Lagometru
+of.options.LAGOMETER.tooltip.1=Arata lagometrul in ecranul de debug (F3).
+of.options.LAGOMETER.tooltip.2=* Portocaliu - Colectie de memorie gunoi
+of.options.LAGOMETER.tooltip.3=* Cyan - Tick
+of.options.LAGOMETER.tooltip.4=* Albastru - Programe executabile
+of.options.LAGOMETER.tooltip.5=* Purpuriu - Incarcare chunk-uri
+of.options.LAGOMETER.tooltip.6=* Rosu - Actualizare chunk-uri
+of.options.LAGOMETER.tooltip.7=* Galben - Verificarea vizibilitatii
+of.options.LAGOMETER.tooltip.8=* Verde - Teren rendat
+
+of.options.PROFILER=Debug Profiler
+of.options.PROFILER.tooltip.1=Debug Profiler
+of.options.PROFILER.tooltip.2=  ACTIVAT - debug profiler este activ, lent
+of.options.PROFILER.tooltip.3=  DEZACTIVAT - debug profiler nu este activ, rapid
+of.options.PROFILER.tooltip.4=Debug profiler colecteaza si arata informatii pentru
+of.options.PROFILER.tooltip.5=debug cat timp ecranul de debug este deschis (F3).
+
+of.options.WEATHER=Stare Atmosferica
+of.options.WEATHER.tooltip.1=Stare Atmosferica
+of.options.WEATHER.tooltip.2=  ACTIVAT - starea atmosferica este activa, lent
+of.options.WEATHER.tooltip.3=  DEZACTIVAT - starea atmosferica nu este activa, rapid
+of.options.WEATHER.tooltip.4=Starea atmosferica controleaza ploaia si furtunile.
+of.options.WEATHER.tooltip.5=Controlul starii atmosferice este posibila doar pentru lumile locale.
+
+of.options.time.dayOnly=Doar Zi
+of.options.time.nightOnly=Doar Noapte
+
+of.options.TIME=Timp
+of.options.TIME.tooltip.1=Timp
+of.options.TIME.tooltip.2= Implicit - ciclu normal de zi/noapte
+of.options.TIME.tooltip.3= Doar Zi - doar zi
+of.options.TIME.tooltip.4= Doar Noapte - doar noapte
+of.options.TIME.tooltip.5=Setarea timpului are efect doar in modul CREATIV
+of.options.TIME.tooltip.6=si pentru lumile locale.
+
+options.fullscreen.tooltip.1=Ecran complet
+options.fullscreen.tooltip.2=  ACTIVAT - foloseste modul ecran complet
+options.fullscreen.tooltip.3=  DEZACTIVAT - foloseste modul fereastra
+options.fullscreen.tooltip.4=Fullscreen mode may be faster or slower than Modul ecran complet poate fi mai rapid sau mai incet
+options.fullscreen.tooltip.5=window mode, depending on the graphics card. decat modul fereastra, in functie de placa grafica.
+
+of.options.FULLSCREEN_MODE=Modul Ecran Complet
+of.options.FULLSCREEN_MODE.tooltip.1=Modul ecran complet
+of.options.FULLSCREEN_MODE.tooltip.2=  Implicit - foloseste rezolutia desktop-ului, lent
+of.options.FULLSCREEN_MODE.tooltip.3=  WxH - foloseste rezolutia personalizata, poate fi mai rapid
+of.options.FULLSCREEN_MODE.tooltip.4=Rezolutia selectata este folosita in modul ecran complet (F11).
+of.options.FULLSCREEN_MODE.tooltip.5=Rezolutiile mici ar trebuii in general sa fie mai rapide.
+
+of.options.SHOW_FPS=Arata FPS
+of.options.SHOW_FPS.tooltip.1=Arata FPS-ul compact si informatii despre render.
+of.options.SHOW_FPS.tooltip.2=  C: - chunk-uri rendate
+of.options.SHOW_FPS.tooltip.3=  E: - entitati rendate + entitati blocuri
+of.options.SHOW_FPS.tooltip.4=  U: - actualizari chunk-uri
+of.options.SHOW_FPS.tooltip.5=Informatiile FPS-ului compat sunt vizibile doar cand
+of.options.SHOW_FPS.tooltip.6=ecranul de debug nu este vizibil.
+
+of.options.save.default=Implicit (2s)
+of.options.save.20s=20s
+of.options.save.3min=3min
+of.options.save.30min=30min
+
+of.options.AUTOSAVE_TICKS=Auto-Salvare
+of.options.AUTOSAVE_TICKS.tooltip.1=Interval auto-salvare
+of.options.AUTOSAVE_TICKS.tooltip.2=Intervalul implicit de auto-salvare (2s) NU ESTE RECOMANDAT.
+of.options.AUTOSAVE_TICKS.tooltip.3=Auto-savarea cauzeaza faimosul Lag Spike al Mortii.
+
+of.options.SCREENSHOT_SIZE=Marime Screenshot
+of.options.SCREENSHOT_SIZE.tooltip.1=Marime Screenshot
+of.options.SCREENSHOT_SIZE.tooltip.2=  Implicit - marima implicita de screenshot
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - marime personalizata de screenshot
+of.options.SCREENSHOT_SIZE.tooltip.4=Se poate ca, capturand screenshot-uri mai mari sa fie nevoe de mai multa memorie.
+of.options.SCREENSHOT_SIZE.tooltip.5=Nu este compatibil cu Render Rapid si Anti-aliasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=Necesita suport GPU framebuffer.
