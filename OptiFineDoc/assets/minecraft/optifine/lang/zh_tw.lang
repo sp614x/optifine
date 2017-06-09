@@ -1,7 +1,7 @@
 # Contributors of Traditional Chinese localization #
 #   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-01-25
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
-#   NatsuArashi 2016-03-03 ---- 2017-06-07
+#   NatsuArashi 2016-03-03 ---- 2017-06-07## Don't copy any mistake from zh_cn. PLS!
 ##-------------- zh_TW ---------------
 
 # General
@@ -10,7 +10,7 @@ of.general.custom=自定義
 of.general.from=來自
 of.general.id=Id
 of.general.restart=重新啟動
-of.general.smart=智能
+of.general.smart=智慧
 
 # Keys
 of.key.zoom=縮放
@@ -79,7 +79,7 @@ options.ao.tooltip.3= 最小值 - 簡單柔和化照明 (較慢)
 options.ao.tooltip.4= 最大值 - 複雜柔和化照明 (最慢)
 
 options.framerateLimit.tooltip.1=最大FPS
-options.framerateLimit.tooltip.2= 垂直同步 - 受限於顯示器FPS(60, 30, 20)
+options.framerateLimit.tooltip.2= 垂直同步 - 受限於顯示器FPS(60，30，20)
 options.framerateLimit.tooltip.3= 5-255 - 可變
 options.framerateLimit.tooltip.4= 無限制 - 無限制(最快)
 options.framerateLimit.tooltip.5=即使未達FPS上限值
@@ -97,9 +97,9 @@ options.viewBobbing.tooltip.2=當使用多精度材質時，將它關閉以取�
 
 options.guiScale.tooltip.1=介面大小
 options.guiScale.tooltip.2= 自動 - 最大尺寸
-options.guiScale.tooltip.3= 小, 中, 大 - 1x到3x
+options.guiScale.tooltip.3= 小，中，大 - 1x到3x
 options.guiScale.tooltip.4= 4x到10x - 僅適用於4K解析度
-options.guiScale.tooltip.5=奇數值的放大倍數(1x, 3x, 5x等)與Unicode不相容。
+options.guiScale.tooltip.5=奇數值的放大倍數(1x，3x，5x等)與Unicode不相容。
 options.guiScale.tooltip.6=較小的介面或許會更快。
 
 options.vbo.tooltip.1=啟用緩衝區頂點物件(VBO)
@@ -346,7 +346,7 @@ of.options.TREES=樹
 of.options.TREES.tooltip.1=樹
 of.options.TREES.tooltip.2= 預設 - 以圖像畫質設定為標準
 of.options.TREES.tooltip.3= 性能優先 - 低品質，最快
-of.options.TREES.tooltip.4= 智能 - 較高品質，較快
+of.options.TREES.tooltip.4= 智慧 - 較高品質，較快
 of.options.TREES.tooltip.4= 畫質優先 - 高品質，較慢
 of.options.TREES.tooltip.5=性能優先的樹葉不透明。
 of.options.TREES.tooltip.6=畫質優先的樹葉透明。
@@ -400,7 +400,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.2= 開啟 - 顯示高級資訊提示
 of.options.ADVANCED_TOOLTIPS.tooltip.3= 關閉 - 隱藏高級資訊提示(預設)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=高級資訊提示顯示物品
 of.options.ADVANCED_TOOLTIPS.tooltip.5=(ID、耐久度)和光影設定資料
-of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, source, default value)。
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id，source，default value)。
 
 of.options.DROPPED_ITEMS=掉落物品
 of.options.DROPPED_ITEMS.tooltip.1=掉落物品
@@ -485,12 +485,12 @@ of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=更多區塊以加速世界載入。
 
 of.options.LAZY_CHUNK_LOADING=平緩區塊更新
 of.options.LAZY_CHUNK_LOADING.tooltip.1=平緩區塊更新
-of.options.LAZY_CHUNK_LOADING.tooltip.2= 關閉 - 默認的服務器區塊載入
-of.options.LAZY_CHUNK_LOADING.tooltip.3= 開啟 - 平緩服務器區塊載入(更柔和)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=將區塊分佈在多個"遊戲刻"進行載入
-of.options.LAZY_CHUNK_LOADING.tooltip.5=從而柔和化服務器整體區塊載入.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正確的載入,請把它設置為關閉.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=僅適用於本地世界和單核CPU的電腦.
+of.options.LAZY_CHUNK_LOADING.tooltip.2= 關閉 - 預設的伺服器區塊載入
+of.options.LAZY_CHUNK_LOADING.tooltip.3= 開啟 - 平緩伺服器區塊載入(更柔和)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=藉由將區塊分佈在多個ticks中讀取
+of.options.LAZY_CHUNK_LOADING.tooltip.5=來柔和化伺服器整體區塊載入。
+of.options.LAZY_CHUNK_LOADING.tooltip.6=如果世界無法正確的載入，請把它關閉。
+of.options.LAZY_CHUNK_LOADING.tooltip.7=僅適用於本地世界和單核CPU的電腦。
 
 # Animations
 
@@ -514,65 +514,65 @@ of.options.POTION_PARTICLES=藥水粒子
 of.options.DRIPPING_WATER_LAVA=流動水/岩漿
 of.options.ANIMATED_TERRAIN=地形動畫
 of.options.ANIMATED_TEXTURES=材質動畫
-of.options.FIREWORK_PARTICLES=煙花粒子
+of.options.FIREWORK_PARTICLES=煙火粒子
 
 # Other
 
-of.options.LAGOMETER=快速調試信息
-of.options.LAGOMETER.tooltip.1=在調試界面顯示調試信息 (F3).
-of.options.LAGOMETER.tooltip.2=* 橙 - 內存垃圾回收
-of.options.LAGOMETER.tooltip.3=* 青 - 勾
-of.options.LAGOMETER.tooltip.4=* 藍 - 預定的可執行文件
-of.options.LAGOMETER.tooltip.5=* 紫 - 區塊載入
-of.options.LAGOMETER.tooltip.6=* 紅 - 區塊更新
-of.options.LAGOMETER.tooltip.7=* 黃 - 能見度檢查
-of.options.LAGOMETER.tooltip.8=* 綠 - 渲染地形
+of.options.LAGOMETER=Lagometer
+of.options.LAGOMETER.tooltip.1=Shows the lagometer on the debug screen (F3).
+of.options.LAGOMETER.tooltip.2=* 橙 - Memory garbage collection
+of.options.LAGOMETER.tooltip.3=* 青 - Tick
+of.options.LAGOMETER.tooltip.4=* 藍 - Scheduled executables
+of.options.LAGOMETER.tooltip.5=* 紫 - Chunk upload
+of.options.LAGOMETER.tooltip.6=* 紅 - Chunk updates
+of.options.LAGOMETER.tooltip.7=* 黃 - Visibility check
+of.options.LAGOMETER.tooltip.8=* 綠 - Render terrain
 
-of.options.PROFILER=調試分析器
-of.options.PROFILER.tooltip.1=調試分析器
-of.options.PROFILER.tooltip.2=  開啟 - 調試分析器啟用, 較慢
-of.options.PROFILER.tooltip.3=  關閉 - 調試分析器禁用, 較快
-of.options.PROFILER.tooltip.4=在調試界面開啟狀態(F3)時
-of.options.PROFILER.tooltip.5=調試分析器收集並且顯示調試信息.
+of.options.PROFILER=偵錯分析器
+of.options.PROFILER.tooltip.1=偵錯分析器
+of.options.PROFILER.tooltip.2= 開啟 - 偵錯分析器啟用，較慢
+of.options.PROFILER.tooltip.3= 關閉 - 偵錯分析器禁用，較快
+of.options.PROFILER.tooltip.4=偵錯分析器在偵錯界面開啟(F3)時
+of.options.PROFILER.tooltip.5=收集並且顯示偵錯信息。
 
 of.options.WEATHER=天氣
 of.options.WEATHER.tooltip.1=天氣
-of.options.WEATHER.tooltip.2=  開啟 - 開啟天氣, 較慢
-of.options.WEATHER.tooltip.3=  關閉 - 關閉天氣, 較快
-of.options.WEATHER.tooltip.4=天氣選項影響雨,雪和雷電.
-of.options.WEATHER.tooltip.5=天氣選項僅在本地遊戲中生效.
+of.options.WEATHER.tooltip.2= 開啟 - 開啟天氣，較慢
+of.options.WEATHER.tooltip.3= 關閉 - 關閉天氣，較快
+of.options.WEATHER.tooltip.4=天氣選項影響雨，雪和雷電。
+of.options.WEATHER.tooltip.5=天氣選項僅在本地遊戲中生效。
 
-of.options.time.dayOnly=白天
-of.options.time.nightOnly=夜晚
+of.options.time.dayOnly=只有白天
+of.options.time.nightOnly=只有夜晚
 
 of.options.TIME=時間
 of.options.TIME.tooltip.1=時間
 of.options.TIME.tooltip.2= 預設 - 正常的日夜交替
-of.options.TIME.tooltip.3= 白天 - 只有白天
-of.options.TIME.tooltip.4= 夜晚 - 只有夜晚
+of.options.TIME.tooltip.3= 只有白天 - 只有白天
+of.options.TIME.tooltip.4= 只有夜晚 - 只有夜晚
 of.options.TIME.tooltip.5=時間設置只在創造模式下
-of.options.TIME.tooltip.6=且為本地遊戲時有效.
+of.options.TIME.tooltip.6=且為本地遊戲時有效。
 
 options.fullscreen.tooltip.1=全螢幕
-options.fullscreen.tooltip.2=  開啟 - 使用全螢幕模式
-options.fullscreen.tooltip.3=  關閉 - 使用視窗模式
-options.fullscreen.tooltip.4=全螢幕模式可能比視窗模式更快
-options.fullscreen.tooltip.5=或者更慢,這取決於顯卡.
+options.fullscreen.tooltip.2= 開啟 - 使用全螢幕模式
+options.fullscreen.tooltip.3= 關閉 - 使用視窗模式
+options.fullscreen.tooltip.4=全螢幕模式可能比視窗模式
+options.fullscreen.tooltip.5=更快或更慢，取決於顯卡。
 
 of.options.FULLSCREEN_MODE=全螢幕模式
 of.options.FULLSCREEN_MODE.tooltip.1=全螢幕模式
-of.options.FULLSCREEN_MODE.tooltip.2=  預設 - 使用桌面分辨率, 較慢
-of.options.FULLSCREEN_MODE.tooltip.3=  自定義 - 使用自定義螢幕分辨率, 可能會較快
-of.options.FULLSCREEN_MODE.tooltip.4=這個選項只有在全螢幕模式下生效(F11).
-of.options.FULLSCREEN_MODE.tooltip.5=較低的分辨率通常會更快.
+of.options.FULLSCREEN_MODE.tooltip.2= 預設 - 使用桌面解析度，較慢
+of.options.FULLSCREEN_MODE.tooltip.3= 自定義 - 使用自定義螢幕解析度，可能會較快
+of.options.FULLSCREEN_MODE.tooltip.4=此選項只在全螢幕模式下有效(F11)。
+of.options.FULLSCREEN_MODE.tooltip.5=較低的解析度通常會較快。
 
 of.options.SHOW_FPS=顯示FPS
-of.options.SHOW_FPS.tooltip.1=顯示迷你的FPS和渲染信息
-of.options.SHOW_FPS.tooltip.2=  C: - 區塊渲染器
-of.options.SHOW_FPS.tooltip.3=  E: - 一般實體 + 方塊實體
-of.options.SHOW_FPS.tooltip.4=  U: - 區塊更新
-of.options.SHOW_FPS.tooltip.5=只有調試螢幕隱藏時
-of.options.SHOW_FPS.tooltip.6=迷你FPS信息才會顯示.
+of.options.SHOW_FPS.tooltip.1=顯示精簡的FPS和渲染信息
+of.options.SHOW_FPS.tooltip.2= C: - 區塊渲染器
+of.options.SHOW_FPS.tooltip.3= E: - 一般實體 + 方塊實體
+of.options.SHOW_FPS.tooltip.4= U: - 區塊更新
+of.options.SHOW_FPS.tooltip.5=只有偵錯畫面隱藏時
+of.options.SHOW_FPS.tooltip.6=才會顯示精簡FPS信息。
 
 of.options.save.default=預設(2秒)
 of.options.save.20s=20秒
@@ -581,13 +581,13 @@ of.options.save.30min=30分鐘
 
 of.options.AUTOSAVE_TICKS=自動保存
 of.options.AUTOSAVE_TICKS.tooltip.1=自動保存間隔
-of.options.AUTOSAVE_TICKS.tooltip.2=默認自動保存間隔(2秒) 不推薦.
-of.options.AUTOSAVE_TICKS.tooltip.3=自動保存會導致卡頓.
+of.options.AUTOSAVE_TICKS.tooltip.2=不推薦使用預設自動保存間隔(2秒)。
+of.options.AUTOSAVE_TICKS.tooltip.3=自動保存會導致卡頓。
 
 of.options.SCREENSHOT_SIZE=截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.1=截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設認的截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自定義截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體.
-of.options.SCREENSHOT_SIZE.tooltip.5=與快速渲染及抗鋸齒不相容.
-of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡幀緩衝區支持.
+of.options.SCREENSHOT_SIZE.tooltip.2= 預設 - 預設的截圖尺寸
+of.options.SCREENSHOT_SIZE.tooltip.3= 2x-4x - 自定義截圖尺寸
+of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體。
+of.options.SCREENSHOT_SIZE.tooltip.5=與快速渲染及抗鋸齒不相容。
+of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡幀緩衝區支持。
