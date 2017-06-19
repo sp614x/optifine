@@ -409,26 +409,32 @@ Texture Formats
  RG16_SNORM
  RGB16_SNORM
  RGBA16_SNORM
-5. 32-bit float     
+5. 16-bit float
+ R16F
+ RG16F
+ RGB16F
+ RGBA16F
+6. 32-bit float     
  R32F
  RG32F
  RGB32F
  RGBA32F
-6. 32-bit integer
+7. 32-bit integer
  R32I
  RG32I
  RGB32I
  RGBA32I
-7. 32-bit unsigned integer 
+8. 32-bit unsigned integer 
  R32UI
  RG32UI
  RGB32UI
  RGBA32UI
-8. Mixed
+9. Mixed
  R3_G3_B2
  RGB5_A1
  RGB10_A2
  R11F_G11F_B10F
+ RGB9_E5
 
 Depth buffers
 =============
