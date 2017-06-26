@@ -88,7 +88,7 @@
 # Note: This is not a valid JSON format and it should only be used as a reference  
 ######################################################################
 {
-  "texture": <texture.png>                                              - Texture used by the entity model            
+  "texture": <texture.png>                                              - Texture used by the entity model
   "textureSize": [<width>, <height>],                                   - Texture size in pixels
   "shadowSize": <shadow_size>,                                          - Model shadow size (0.0 - 1.0)
   models                                                                - List of models
