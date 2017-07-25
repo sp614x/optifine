@@ -39,7 +39,7 @@ Id  Name                         Render                                When not 
 11  gbuffers_damagedblock        damaged_blocks                        gbuffers_terrain
 12  gbuffers_water               translucent                           gbuffers_terrain
 13  gbuffers_block               block_entities                        gbuffers_terrain
-14  gbuffers_beaconbeam          <not used>                            gbuffers_textured
+14  gbuffers_beaconbeam          beacon beam                           gbuffers_textured
 15  gbuffers_item                <not used>                            gbuffers_textured_lit
 16  gbuffers_entities            entities                              gbuffers_textured_lit
 17  gbuffers_armor_glint         glint on armor, handheld items        gbuffers_textured
