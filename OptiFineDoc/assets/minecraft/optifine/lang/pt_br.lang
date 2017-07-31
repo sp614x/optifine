@@ -1,0 +1,583 @@
+# General
+of.general.ambiguous=ambíguo
+of.general.custom=Personalizado
+of.general.from=De
+of.general.id=Id
+of.general.restart=reiniciar
+of.general.smart=Inteligente
+
+# Keys
+of.key.zoom=Zoom
+
+# Message
+of.message.aa.shaders1=Antialiasing não é compatível com shaders.
+of.message.aa.shaders2=Por favor desative os shaders para usar esta opção.
+
+of.message.af.shaders1=A Filtragem Ansiltrópica não é compatível com shaders.
+of.message.af.shaders2=Por favor desative o shaders para ativar essa opção.
+
+of.message.fr.shaders1=A Renderização Rápida não é compatível com shaders.
+of.message.fr.shaders2=Por favor desative o shaders para ativar essa opção.
+
+of.message.an.shaders1=3D Anaaglífico não é compatível com shaders.
+of.message.an.shaders2=Por favor desative o shaders para ativar essa opção.
+
+of.message.shaders.aa1=Os Shaders não são compatíveis com Antialiasing. 
+of.message.shaders.aa2=Vá em Qualidade, desative o Antialiasing e reinicie o jogo.
+
+of.message.shaders.af1=Os Shaders não são compatíveis com a Filtragem Ansiltrópica.
+of.message.shaders.af2=Vá em Qualidade e desative a Filtragem Ansiltrópica. 
+
+of.message.shaders.fr1=Shaders não são compatíveis com a Renderização Rápida.
+of.message.shaders.fr2=Vá em qualidade e desative a Renderização Rápida.
+
+of.message.shaders.an1=Shaders não são compatíveis com o 3D Anaglífico.
+of.message.shaders.an2=Vá em Outros, e desative o 3D Anaglífico.
+
+of.message.newVersion=Uma nova versão do  §eOptiFine§f está disponível: a §e%s§f
+of.message.java64Bit=Você pode instalar o §eJava de 64-bit§f para aumentar a desempenho.
+of.message.openglError=§eErro do OpenGL§f: %s (%s)
+
+of.message.shaders.loading=Carregando shaders: %s
+
+of.message.other.reset=Reiniciar todas as configurações de vídeo para seus valores padrões?
+ 
+of.message.loadingVisibleChunks=Carregando chunks visíveis
+ 
+# Video settings
+
+options.graphics.tooltip.1=Qualidade visual
+options.graphics.tooltip.2=  Rápida  - menor qualidade e rápido
+options.graphics.tooltip.3=  Bonita - maior qualidade e lento
+options.graphics.tooltip.4=Muda a aparência de nuvens, folhas, água,
+options.graphics.tooltip.5=sombras e os lados do bloco de grama.
+
+of.options.renderDistance.tiny=Mixuruca
+of.options.renderDistance.short=Pequeno
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Longe
+of.options.renderDistance.extreme=Longíssimo
+
+options.renderDistance.tooltip.1=Distância visível
+options.renderDistance.tooltip.2=  2 Mixuruca - 32m (rapidão)
+options.renderDistance.tooltip.3=  4 Pequeno - 64m (rápido)
+options.renderDistance.tooltip.4=  8 Normal - 128m
+options.renderDistance.tooltip.5=  16 Longe - 256m (lento)
+options.renderDistance.tooltip.6=  32 Longíssimo - 512m (lentão!)
+options.renderDistance.tooltip.7=A distância Longíssimo demanda muitos recursos!
+options.renderDistance.tooltip.8=Valores acima de 16 Longe só funcionam em singleplayer.
+
+options.ao.tooltip.1=Iluminação Suave
+options.ao.tooltip.2=  Desligado - sem iluminação suave (rápido)
+options.ao.tooltip.3=  Mínima - iluminação simples (lento)
+options.ao.tooltip.4=  Máximo - iluminação complexa (lentão)
+
+options.framerateLimit.tooltip.1=FPS máximo
+options.framerateLimit.tooltip.2=  VSync - Limita aos fps do monitor (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - variável
+options.framerateLimit.tooltip.4=  Ilimitado - ilimitado (rápido)
+options.framerateLimit.tooltip.5=Os FPS caem se o valor máximo definido
+options.framerateLimit.tooltip.6=aqui não for atingido.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Nível da iluminação suave
+of.options.AO_LEVEL.tooltip.1=Nível da iluminação suave
+of.options.AO_LEVEL.tooltip.2=  Desl. - Sem sombras
+of.options.AO_LEVEL.tooltip.3=  50%% - sombras claras
+of.options.AO_LEVEL.tooltip.4=  100%% - sombras escuras 
+
+options.viewBobbing.tooltip.1=Movimentos mais realísticos.
+options.viewBobbing.tooltip.2=Quando usar mipmaps desligue para ficar melhor.
+
+options.guiScale.tooltip.1=Escala da Interface
+options.guiScale.tooltip.2=  Automática - o maior possível
+options.guiScale.tooltip.3=  Pequeno, Normal, Grande - 1x para 3x
+options.guiScale.tooltip.4=  4x para 10x - disponível em monitores 4K
+options.guiScale.tooltip.5=Valores estranhos (1x, 3x, 5x ...) Não são compatíveis com unicode.
+options.guiScale.tooltip.6=Uma interface pequena aumenta o desempenho.
+
+options.vbo.tooltip.1=Armazenamento de objetos Vertex
+options.vbo.tooltip.2=Usa um modelo de renderização que é
+options.vbo.tooltip.3=mais rápido (5-10%%) que o modelo normal.
+
+options.gamma.tooltip.1=Muda o brilho de objetos escuros.
+options.gamma.tooltip.2=  Escuro - brilho normal
+options.gamma.tooltip.3=  1-99%% - variável
+options.gamma.tooltip.4=  Claro - maior brilho para objetos escuros
+options.gamma.tooltip.5=Essa opção não clareia 
+options.gamma.tooltip.6=objetos totalmente pretos.
+
+options.anaglyph.tooltip.1=3D Anaglífico
+options.anaglyph.tooltip.2=Ativa um Efeito 3D Esteroscópico usando cores diferentes
+options.anaglyph.tooltip.3=para cada olho.
+options.anaglyph.tooltip.4=Precisa de um óculos vermelho-ciano para ver melhor.
+
+of.options.ALTERNATE_BLOCKS=Blocos alternados
+of.options.ALTERNATE_BLOCKS.tooltip.1=Blocos alternados
+of.options.ALTERNATE_BLOCKS.tooltip.2=Usa modelos alternados para alguns blocos.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Depende da textura ou resourcepack que você usa.
+
+of.options.FOG_FANCY=Névoa
+of.options.FOG_FANCY.tooltip.1=Tipo de névoa
+of.options.FOG_FANCY.tooltip.2=  Rápida - névoa que não pesa os FPS.
+of.options.FOG_FANCY.tooltip.3=  Bonita - névoa bonita, mas pesa nos FPS.
+of.options.FOG_FANCY.tooltip.4=  Desligada - sem névoa
+of.options.FOG_FANCY.tooltip.5=A névoa bonita só é disponível se sua placa
+of.options.FOG_FANCY.tooltip.6=de vídeo permite.
+
+of.options.FOG_START=Início da névoa
+of.options.FOG_START.tooltip.1=Início da névoa
+of.options.FOG_START.tooltip.2=  0.2 - a névoa começa perto de você
+of.options.FOG_START.tooltip.3=  0.8 - a névoa começa longe de você
+of.options.FOG_START.tooltip.4=Essa opção normalmente não muda a desempenho.
+
+of.options.CHUNK_LOADING=Carregamento de chunks
+of.options.CHUNK_LOADING.tooltip.1=Carregamento de chunks
+of.options.CHUNK_LOADING.tooltip.2=  Padrão - FPS instável quando os chunks carregam
+of.options.CHUNK_LOADING.tooltip.3=  Suave - FPS estável
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - FPS estável e carregamento 3x+ rápido
+of.options.CHUNK_LOADING.tooltip.5=A Suave e a Multi-Core tiram as truncagens (lag)
+of.options.CHUNK_LOADING.tooltip.6=causado pelo carregamento de chunks.
+of.options.CHUNK_LOADING.tooltip.7=A Multi-Core pode aumentar em 3 vezes o carregamento
+of.options.CHUNK_LOADING.tooltip.8=e o FPS em algum valor usando um outro processador.
+of.options.chunkLoading.smooth=Suave
+of.options.chunkLoading.multiCore=Multi-Core
+
+of.options.shaders=Shaders...
+of.options.shadersTitle=Shaders
+
+of.options.shaders.packNone=Desl.
+of.options.shaders.packDefault=(interno do optifine)
+
+of.options.shaders.ANTIALIASING=Antialiasing
+of.options.shaders.NORMAL_MAP=Mapa Normal
+of.options.shaders.SPECULAR_MAP=Map Especular
+of.options.shaders.RENDER_RES_MUL=Qualidade de renderização
+of.options.shaders.SHADOW_RES_MUL=Qualidade da sombra
+of.options.shaders.HAND_DEPTH_MUL=Profundidade da mão
+of.options.shaders.CLOUD_SHADOW=Sombra das nuvens
+of.options.shaders.OLD_HAND_LIGHT=Iluminação da mão (antigo)
+of.options.shaders.OLD_LIGHTING=Antiga iluminação
+of.options.shaders.SHADER_PACK=Shader Pack
+
+of.options.shaders.shadersFolder=Pasta dos Shaders
+of.options.shaders.shaderOptions=Opções do Shader...
+
+of.options.shaderOptionsTitle=Opções do Shader
+
+of.options.quality=Qualidade...
+of.options.qualityTitle=Confiigurações de Qualidade
+
+of.options.details=Detalhes...
+of.options.detailsTitle=Configurações de Detalhe
+
+of.options.performance=Desempenho...
+of.options.performanceTitle=Configurações de Desempenho
+
+of.options.animations=Animações...
+of.options.animationsTitle=Configurações de Animação
+
+of.options.other=Outras...
+of.options.otherTitle=Outras configurações
+
+of.options.other.reset=Reiniciar configurações de vídeo...
+
+of.shaders.profile=Perfil
+
+# Quality
+
+of.options.mipmap.bilinear=Bilinear
+of.options.mipmap.linear=Linear
+of.options.mipmap.nearest=Aproximado
+of.options.mipmap.trilinear=Trilinear
+
+options.mipmapLevels.tooltip.1=Efeito visual que faz objetos longíquos parecerem
+options.mipmapLevels.tooltip.2=melhores suavizando os detalhes das texturas
+options.mipmapLevels.tooltip.3=  Desl. - Nenhuma suavização
+options.mipmapLevels.tooltip.4=  1 - Mínima suavização
+options.mipmapLevels.tooltip.5=  4 - Máxima suavização
+options.mipmapLevels.tooltip.6=Essa opção não afeta o desempenho.
+
+of.options.MIPMAP_TYPE=Tipo de mipmap
+of.options.MIPMAP_TYPE.tooltip.1=Efeito visual que faz objetos longíquos parecerem
+of.options.MIPMAP_TYPE.tooltip.2=melhores suavizando os detalhes das texturas
+of.options.MIPMAP_TYPE.tooltip.3=  Nearest - suavização ruim (rápida)
+of.options.MIPMAP_TYPE.tooltip.4=  Linear - suavização normal
+of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - suavização fina
+of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - suavização mais fina (lento)
+
+
+of.options.AA_LEVEL=Antialiasing
+of.options.AA_LEVEL.tooltip.1=Antialiasing
+of.options.AA_LEVEL.tooltip.2= Desl. - (padrão) sem antialiasing (rápido)
+of.options.AA_LEVEL.tooltip.3= 2-16 - linhas e bordas antializadas (lento)
+of.options.AA_LEVEL.tooltip.4=O Antialising suaviza linhas irregulares e 
+of.options.AA_LEVEL.tooltip.5=afia transição de cores.
+of.options.AA_LEVEL.tooltip.6=Quando ativada pode diminuir o FPS.
+of.options.AA_LEVEL.tooltip.7=Nem todos os vídeos são suportados por todas as placas de vídeo.
+of.options.AA_LEVEL.tooltip.8=REINICIE se mudar!
+
+of.options.AF_LEVEL=Filtragem Ansiltrópica
+of.options.AF_LEVEL.tooltip.1=Filtragem Ansiltrópica
+of.options.AF_LEVEL.tooltip.2= Desl. - (padrão) detalhes da textura padrões (rápido)
+of.options.AF_LEVEL.tooltip.3= 2-16 - melhores detalhes em texturas mipmapeadas (lento)
+of.options.AF_LEVEL.tooltip.4=A filtragem ansiltrópica restaura detalhes em
+of.options.AF_LEVEL.tooltip.5=texturas mipmapeadas.
+of.options.AF_LEVEL.tooltip.6=Quando ativada pode diminuir o FPS.
+
+of.options.CLEAR_WATER=Água limpa
+of.options.CLEAR_WATER.tooltip.1=Água Limpa
+of.options.CLEAR_WATER.tooltip.2=  Ligado - água limpa e transparente
+of.options.CLEAR_WATER.tooltip.3=  Desliigado - água normal
+
+of.options.RANDOM_MOBS=Mobs Aleatórios
+of.options.RANDOM_MOBS.tooltip.1=Mobs Aleatórios
+of.options.RANDOM_MOBS.tooltip.2=  Desligado - sem mobs aleatórios, rápido
+of.options.RANDOM_MOBS.tooltip.3=  Ligado - mobs aleatórios, lento
+of.options.RANDOM_MOBS.tooltip.4=Essa opção usa texturas aleatórias para os mobs do jogo.
+of.options.RANDOM_MOBS.tooltip.5=Precisa de uma textura com múltiplas texturas de mobs.
+
+of.options.BETTER_GRASS=Grama Melhorada
+of.options.BETTER_GRASS.tooltip.1=Grama Melhorada
+of.options.BETTER_GRASS.tooltip.2=  Desl. - textura normal da grama, rápido
+of.options.BETTER_GRASS.tooltip.3=  Rápido - textura melhorada da grama, lento
+of.options.BETTER_GRASS.tooltip.4=  Bonito - textura dinâmica da grama, mais lento
+
+of.options.BETTER_SNOW=Neve Melhorada
+of.options.BETTER_SNOW.tooltip.1=Neve Melhorada
+of.options.BETTER_SNOW.tooltip.2=  Desl. - neve normal, rápido
+of.options.BETTER_SNOW.tooltip.3=  Ligado - neve melhorada, lento
+of.options.BETTER_SNOW.tooltip.4=Mostra a neve embaixo de blocos transp. (cerca, grama alta)
+of.options.BETTER_SNOW.tooltip.5=quando tem um bloco de neve do lado dos mesmos.
+
+of.options.CUSTOM_FONTS=Fontes personalizadas
+of.options.CUSTOM_FONTS.tooltip.1=Fontes personalizadas
+of.options.CUSTOM_FONTS.tooltip.2=  Lig. - Usa fontes personalizadas (padrão), lento
+of.options.CUSTOM_FONTS.tooltip.3=  Desl. - Usa a fonte normal, rápido
+of.options.CUSTOM_FONTS.tooltip.4=As fontes personalizadas são fornecidas pelo
+of.options.CUSTOM_FONTS.tooltip.5=resource pack ou textura atual.
+
+of.options.CUSTOM_COLORS=Cores Personalizadas
+of.options.CUSTOM_COLORS.tooltip.1=Cores Personalizadas
+of.options.CUSTOM_COLORS.tooltip.2=  Lig. - usar cores personalizadas(padrão), lento
+of.options.CUSTOM_COLORS.tooltip.3=  Desl. - usar cores normais, rápido
+of.options.CUSTOM_COLORS.tooltip.4=As fontes personalizadas são fornecidas pelo
+of.options.CUSTOM_COLORS.tooltip.5=resource pack ou textura atual.
+
+of.options.SWAMP_COLORS=Cores do bioma pântano
+of.options.SWAMP_COLORS.tooltip.1=Cores do bioma pântano
+of.options.SWAMP_COLORS.tooltip.2=  Ligado - As cores dos pântanos serão usadas(padrão), lento
+of.options.SWAMP_COLORS.tooltip.3=  Desligado - do not use swamp colors, faster
+of.options.SWAMP_COLORS.tooltip.4=As cores afetam grama, folhas, vinhas e água.
+
+of.options.SMOOTH_BIOMES=Biomas Suavizados
+of.options.SMOOTH_BIOMES.tooltip.1=Biomas Suavizados
+of.options.SMOOTH_BIOMES.tooltip.2=  Ligado - suavização das bordas dos biomas (padrão), lento
+of.options.SMOOTH_BIOMES.tooltip.3=  Desligado - suavização das bordas dos biomas desligada, rápido
+of.options.SMOOTH_BIOMES.tooltip.4=A suavização das bordas dos biomas é feito fazendo amostras
+of.options.SMOOTH_BIOMES.tooltip.5=e mádias das cores dos blocos em volta.
+of.options.SMOOTH_BIOMES.tooltip.6=Afeta grama, folhas, vinhas e água.
+
+of.options.CONNECTED_TEXTURES=Texturas conectadas
+of.options.CONNECTED_TEXTURES.tooltip.1=Texturas conectadas
+of.options.CONNECTED_TEXTURES.tooltip.2=  Desl. - nenhuma textura conectada(padrão)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Rápidas -texturas conectadas rápidas
+of.options.CONNECTED_TEXTURES.tooltip.4=  Bonitas - texturas conectadas bonitas
+of.options.CONNECTED_TEXTURES.tooltip.5=As texturas conectadas juntam texturas de vidro,
+of.options.CONNECTED_TEXTURES.tooltip.6=arenito e estantes quando um é colocado do lado
+of.options.CONNECTED_TEXTURES.tooltip.7=do outro. As texturas conectadas são fornecidas
+of.options.CONNECTED_TEXTURES.tooltip.8=pelo resourcepack ou textura atual.
+
+of.options.NATURAL_TEXTURES=Texturas Naturais
+of.options.NATURAL_TEXTURES.tooltip.1=Texturas Naturais
+of.options.NATURAL_TEXTURES.tooltip.2=  Desl. - texturas naturais desativadas (padrão)
+of.options.NATURAL_TEXTURES.tooltip.3=  Lig. - Texturas naturais ativadas
+of.options.NATURAL_TEXTURES.tooltip.4=As texturas naturais tiram o padrão em forma de grade
+of.options.NATURAL_TEXTURES.tooltip.5=criado por blocod repetidos do mesmo tipo.
+of.options.NATURAL_TEXTURES.tooltip.6=Isso usa variantes giradas e invertidas da base
+of.options.NATURAL_TEXTURES.tooltip.7=da textura do bloco.A configuração é fornecida
+of.options.NATURAL_TEXTURES.tooltip.8=pelo resource pack ou textura atual.
+
+of.options.CUSTOM_SKY=Céu Personalizado
+of.options.CUSTOM_SKY.tooltip.1=Céu Personalizado
+of.options.CUSTOM_SKY.tooltip.2=  Ligado - textura do céu personalizada(padrão), lento
+of.options.CUSTOM_SKY.tooltip.3=  Desl. - céu normal, rápido
+of.options.CUSTOM_SKY.tooltip.4=As texturas do céu personalizado são fornecidas pelo
+of.options.CUSTOM_SKY.tooltip.5=resource pack ou textura atual.
+
+of.options.CUSTOM_ITEMS=Itens Personalizados
+of.options.CUSTOM_ITEMS.tooltip.1=Itens Personalizados
+of.options.CUSTOM_ITEMS.tooltip.2=  Ligado - texturas dos itens personalizadas (padrão), lento
+of.options.CUSTOM_ITEMS.tooltip.3=  Deslig. - texturas normais dos itens, rápido
+of.options.CUSTOM_ITEMS.tooltip.4=Αs texturas personalizadas 
+of.options.CUSTOM_ITEMS.tooltip.5=resource pack.
+
+of.options.CUSTOM_ENTITY_MODELS=Modelos Customizados de entidades
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Modelos Customizados de entidades
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Ligado - modelos customizados de entidades (padrão), lento
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Desl. - modelos padrões de entidades, rápido
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Os modelos customizados de entidades são fornecidos
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=pelo resource pack ou textura atual.
+
+# Details
+
+of.options.CLOUDS=Nuvens
+of.options.CLOUDS.tooltip.1=Nuvens
+of.options.CLOUDS.tooltip.2=  Padrão - como o configurado
+of.options.CLOUDS.tooltip.3=  Rápidas - menor qualidade, rápido
+of.options.CLOUDS.tooltip.4=  Bonitas - maior qualidade, lento
+of.options.CLOUDS.tooltip.5=  OFF - sem nuvens, mais rápido
+of.options.CLOUDS.tooltip.6=Nuvens Rápidas são em 2D.
+of.options.CLOUDS.tooltip.7=Nuvens Bonitas são em 3D.
+
+of.options.CLOUD_HEIGHT=Altitude da nuvem
+of.options.CLOUD_HEIGHT.tooltip.1=Altitude da nuvem
+of.options.CLOUD_HEIGHT.tooltip.2=  Desl. - padrão
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - acima do limite de altura do mundo
+
+of.options.TREES=Árvores
+of.options.TREES.tooltip.1=Árvores
+of.options.TREES.tooltip.2=  Padrão - como o configurado
+of.options.TREES.tooltip.3=  Rápidas - pior qualidade, mais rápido
+of.options.TREES.tooltip.4=  Inteligentes - maior qualidade, rápido
+of.options.TREES.tooltip.5=  Bonitas - maior qualidade, lento
+of.options.TREES.tooltip.6=Árvores rápidas tem folhas opacas.
+of.options.TREES.tooltip.7=Árvores inteligentes e bonitas tem folhas com transparência.
+
+of.options.RAIN=Chuva e Neve
+of.options.RAIN.tooltip.1=Chuva e Neve
+of.options.RAIN.tooltip.2=  Padrão - como o configurado
+of.options.RAIN.tooltip.3=  Rápidas  - chuva/neve claras, rápido
+of.options.RAIN.tooltip.4=  Bonitas - chuva/neve escuras, lento
+of.options.RAIN.tooltip.5=  Desl. - no rain/snow, mais rápido
+of.options.RAIN.tooltip.6=Mesmo que esteja desligada, os barulhos
+of.options.RAIN.tooltip.7=de chuva ainda estão ligados.
+
+of.options.SKY=Céu
+of.options.SKY.tooltip.1=Céu
+of.options.SKY.tooltip.2=  Ligado - céu visível, lento
+of.options.SKY.tooltip.3=  Desl. - céu não visível, rápido
+of.options.SKY.tooltip.4=Quando o céu está desligado a Lua e o Sol ainda estão visíveis.
+
+of.options.STARS=Estrelas
+of.options.STARS.tooltip.1=Estrelas
+of.options.STARS.tooltip.2=  Ligadas - estrelas aparecem, lento
+of.options.STARS.tooltip.3=  Desl.  - estrelas não aparecem, faster
+
+of.options.SUN_MOON=Sol e Lua
+of.options.SUN_MOON.tooltip.1=Sol e Lua
+of.options.SUN_MOON.tooltip.2=  Lig - sun and moon are visible (padrão)
+of.options.SUN_MOON.tooltip.3=  OFF  - sun and moon are not visible (mais rápido)
+
+of.options.SHOW_CAPES=Mostrar Capas
+of.options.SHOW_CAPES.tooltip.1=Mostrar Capas
+of.options.SHOW_CAPES.tooltip.2=  Lig - mostrar capas de jogadores (padrão)
+of.options.SHOW_CAPES.tooltip.3=  Desl. - não mostrar capas de jogadores
+
+of.options.TRANSLUCENT_BLOCKS=Blocos translúcidos
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocos translúcidos
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Bonitos - mistura correta das cores (padrão)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rápidos - fast color blending (faster)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Controla a mistura de cores dos blocos translúcidos
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=com cores diferentes (vidro colorido, água, gelo)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=quando colocados atrás de outros com ar entre eles.
+
+of.options.HELD_ITEM_TOOLTIPS=Dicas sobre itens
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Dicas sobre itens
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Ligado - mostrar dicas (padrão)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Desl. - não mostrar dicas
+
+of.options.ADVANCED_TOOLTIPS=Dicas avançadas
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Dicas avançadas
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  Ligado - dicas avançadas 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  Desl. - dicas simples (padrão)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Dicas avançadasmostram mais informações sobre
+of.options.ADVANCED_TOOLTIPS.tooltip.5=itens (id, durabilidade) e para opções de sombras
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, fonte, valor padrão).
+
+of.options.DROPPED_ITEMS=Itens Caídos
+of.options.DROPPED_ITEMS.tooltip.1=Itens Caídos
+of.options.DROPPED_ITEMS.tooltip.2=  Padrão - como o configurado
+of.options.DROPPED_ITEMS.tooltip.3=  Rápido - Itens Caídos em 2D, rápido
+of.options.DROPPED_ITEMS.tooltip.4=  Bonito - Itens Caídos em 3D, lento
+
+options.entityShadows.tooltip.1=Sombras de Entidades
+options.entityShadows.tooltip.2=  Ligado - mostrar sombras de entidades
+options.entityShadows.tooltip.3=  Desl. - não mostrar sombras de entidades
+of.options.VIGNETTE=Vinheta
+of.options.VIGNETTE.tooltip.1=Efeito visual que escurece as bordas da tela do jogo
+of.options.VIGNETTE.tooltip.2=  Padrão - como o configurado (padrão)
+of.options.VIGNETTE.tooltip.3=  rápido - vinheta desativada (rápido)
+of.options.VIGNETTE.tooltip.4=  bonito - vinheta ativada (lento)
+of.options.VIGNETTE.tooltip.5=A vinheta pode ter um efeito significante nos FPS,
+of.options.VIGNETTE.tooltip.6=especialmente quando estiver jogando em tela cheia.
+of.options.VIGNETTE.tooltip.7=O efeito da vinheta é muito sútil, e pode ser
+of.options.VIGNETTE.tooltip.8=facilmente desativado.
+
+of.options.DYNAMIC_FOV=FOV dinâmico
+of.options.DYNAMIC_FOV.tooltip.1=FOV dinâmico
+of.options.DYNAMIC_FOV.tooltip.2=  Ligado - ativa o FOV dinâmico (padrão)
+of.options.DYNAMIC_FOV.tooltip.3=  Desl. - desativa o FOV dinâmico
+of.options.DYNAMIC_FOV.tooltip.4=Muda o campo de visão (FOV) enquanto estiver. 
+of.options.DYNAMIC_FOV.tooltip.5=voando, correndo ou puxando a corda de um arco.
+
+of.options.DYNAMIC_LIGHTS=Luzes dinâmicas
+of.options.DYNAMIC_LIGHTS.tooltip.1=Luzes dinâmicas
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Desl. - luzes não dinâmicas (padrão)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Rápido - luzes dinâmicas rápidas (atualizadas a cada 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Bonito - luzes dinâmicas bonitas (atualizadas em tempo real)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Ativa a iluminação de objetos que emitem luz
+of.options.DYNAMIC_LIGHTS.tooltip.6=(como tochas, pedras luminosas, etc.) quando
+of.options.DYNAMIC_LIGHTS.tooltip.7=estão sendo segurados ou caídos no chão.
+
+# Performance
+
+of.options.SMOOTH_FPS=Suavização de FPS
+of.options.SMOOTH_FPS.tooltip.1=Estabiliza os FPS liberando os buffers da placa de vídeo.
+of.options.SMOOTH_FPS.tooltip.2=  Desl. - sem estabilização de FPS, o FPS pode ficar instável
+of.options.SMOOTH_FPS.tooltip.3=  Ligado - estabilização de FPS ligada
+of.options.SMOOTH_FPS.tooltip.4=Essa opção depende da placa de vídeo e seu efeito
+of.options.SMOOTH_FPS.tooltip.5=não é sempre visível.
+
+of.options.SMOOTH_WORLD=Mundo Suavizado
+of.options.SMOOTH_WORLD.tooltip.1=Remove o Lag causado pelo servidor interno.
+of.options.SMOOTH_WORLD.tooltip.2=  Desl. - sem estabilização, o FPS pode ficar instável
+of.options.SMOOTH_WORLD.tooltip.3=  Ligado - estabilização de FPS ligada
+of.options.SMOOTH_WORLD.tooltip.4=Estabiliza o FPS distribuindo o carregamento interno do servidor.
+of.options.SMOOTH_WORLD.tooltip.5=Só funciona em mundos locais (um jogador).
+
+of.options.FAST_RENDER=Renderização Rápida
+of.options.FAST_RENDER.tooltip.1=Renderização Rápida
+of.options.FAST_RENDER.tooltip.2= Desl. - renderização normal (padrão)
+of.options.FAST_RENDER.tooltip.3= Ligado - renderização melhorada (rápido)
+of.options.FAST_RENDER.tooltip.4=Usa um algorítimo otimizado de renderização que diminui
+of.options.FAST_RENDER.tooltip.5=o uso da GPU e aumenta o FPS.
+
+of.options.FAST_MATH=Cálculos rápidos
+of.options.FAST_MATH.tooltip.1=Cálculos rápidos
+of.options.FAST_MATH.tooltip.2= Desl. - cálculos normais (padrão)
+of.options.FAST_MATH.tooltip.3= Ligado - cálculos mais rápidos
+of.options.FAST_MATH.tooltip.4=Usa funções melhoradas de seno() e cosseno() 
+of.options.FAST_MATH.tooltip.5=que ultilizam de melhor o cache da CPU e aumenta o FPS.
+
+of.options.CHUNK_UPDATES=Atualização de Chunks
+of.options.CHUNK_UPDATES.tooltip.1=Atualização de Chunks
+of.options.CHUNK_UPDATES.tooltip.2= 1 - carrega o mundo devagar, FPS maior (padrão)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - carrega o mundo rápido, FPS menor
+of.options.CHUNK_UPDATES.tooltip.4= 5 - carrega o mundo mais rápido, FPS muito menor
+of.options.CHUNK_UPDATES.tooltip.5=Número de atualizações de chunks por frame renderizada,
+of.options.CHUNK_UPDATES.tooltip.6=valores grandes podem desestabilizar o FPS.
+of.options.CHUNK_UPDATES_DYNAMIC=Atualizações dinâmicas
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Atualizações dinâmicas dos chunks
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - (padrão) atualização de chunks normal por frames
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ON - mais atualizações só quando o player joga
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Atualizações dinâmicas forçam mais atualizações enquanto
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=o player joga para carregar o mundo mais rapidamente.
+
+of.options.LAZY_CHUNK_LOADING=Carregamento Preguiçoso
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Carregamento Preguiçoso
+of.options.LAZY_CHUNK_LOADING.tooltip.2= OFF - carregamento normal do servidor
+of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - carregamento preguiçoso (mais suave)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Suaviza o carregamento de chunks interno
+of.options.LAZY_CHUNK_LOADING.tooltip.5=distribuindo os chunks em vários ticks.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Desligue se algumas partes do mundo não carregarem direito.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Só funciona para um jogador e quando não tiver multi-core.
+
+# Animations
+
+of.options.animation.allOn=Ligue tudo
+of.options.animation.allOff=Desligue tudo
+of.options.animation.dynamic=Dinâmico
+
+of.options.ANIMATED_WATER=Água Animada
+of.options.ANIMATED_LAVA=Lava Animada
+of.options.ANIMATED_FIRE=Fogo Animada
+of.options.ANIMATED_PORTAL=Portal Animado
+of.options.ANIMATED_REDSTONE=Redstone Animado
+of.options.ANIMATED_EXPLOSION=Explosão Animada
+of.options.ANIMATED_FLAME=Chama Animada
+of.options.ANIMATED_SMOKE=Fumaça Animada
+of.options.VOID_PARTICLES=Partículas do Vácuo
+of.options.WATER_PARTICLES=Partículas da água
+of.options.RAIN_SPLASH=Respingos da chuva
+of.options.PORTAL_PARTICLES=Partículas do portal
+of.options.POTION_PARTICLES=Partículas de poções
+of.options.DRIPPING_WATER_LAVA=Água/Lava Pingando
+of.options.ANIMATED_TERRAIN=Terreno Animado
+of.options.ANIMATED_TEXTURES=Texturas Animadas
+of.options.FIREWORK_PARTICLES=Partículas dos Fogos Artf.
+# Other
+
+of.options.LAGOMETER=Lagômetro
+of.options.LAGOMETER.tooltip.1=Mostra o lagômetro na janela de debug (F3).
+of.options.LAGOMETER.tooltip.2=* Laranja - Lixo da memória
+of.options.LAGOMETER.tooltip.3=* Ciano - Ticks
+of.options.LAGOMETER.tooltip.4=* Azul - Executáveis programados
+of.options.LAGOMETER.tooltip.5=* Roxo - Upload de Chunks
+of.options.LAGOMETER.tooltip.6=* Vermelho - Atualização de Chunks
+of.options.LAGOMETER.tooltip.7=* Amarelo - Teste de visibilidade
+of.options.LAGOMETER.tooltip.8=* Verde - Renderização do Terreno
+
+of.options.PROFILER=Profiler de Debug
+of.options.PROFILER.tooltip.1=Profiler de Debug
+of.options.PROFILER.tooltip.2=  Ligado - profiler de debug ativado, lento
+of.options.PROFILER.tooltip.3=  Desl. - profiler de debug desativado, rápido
+of.options.PROFILER.tooltip.4=O profiler de debug coleta e mostra informações de debug
+of.options.PROFILER.tooltip.5=quando o modo de debug é ativado (F3).
+
+of.options.WEATHER=Clima
+of.options.WEATHER.tooltip.1=Clima
+of.options.WEATHER.tooltip.2=  Ligado - clima ligado, lento
+of.options.WEATHER.tooltip.3=  Desl. - clima desligado, rápido
+of.options.WEATHER.tooltip.4=O clima controla a chuva, neve e trovoadas.
+of.options.WEATHER.tooltip.5=Só afeta mundos em um jogador.
+
+of.options.time.dayOnly=Somente dia
+of.options.time.nightOnly=Somente noite
+
+of.options.TIME=Tempo
+of.options.TIME.tooltip.1=Tempo
+of.options.TIME.tooltip.2= Padrão - ciclos de dia/noite normais
+of.options.TIME.tooltip.3= Somente dia - somente dia
+of.options.TIME.tooltip.4= Somente noite - somente noite
+of.options.TIME.tooltip.5=Só afeta mundos no criativo e em
+of.options.TIME.tooltip.6=um jogador.
+
+options.fullscreen.tooltip.1=Tela cheia
+options.fullscreen.tooltip.2=  Ligado - usar tela cheia
+options.fullscreen.tooltip.3=  Desl. - usar uma janela
+options.fullscreen.tooltip.4=O modo de tela cheia pode ser mais lento ou
+options.fullscreen.tooltip.5=igual que o de janela dependendo da placa de vídeo.
+
+of.options.FULLSCREEN_MODE=Resolução da tela cheia
+of.options.FULLSCREEN_MODE.tooltip.1=Resolução da tela cheia
+of.options.FULLSCREEN_MODE.tooltip.2=  Normal - use a resolução do seu monitor, lento
+of.options.FULLSCREEN_MODE.tooltip.3=  NúmeroxOutro - use uma customizada, pode ser mais rápido
+of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida será usada no modo de tela cheia(F11).
+of.options.FULLSCREEN_MODE.tooltip.5=Pequenas resoluções normalmente são rápidas.
+
+of.options.SHOW_FPS=Mostrar FPS
+of.options.SHOW_FPS.tooltip.1=Mostrar FPS e informações da renderização bem pequenos no canto.
+of.options.SHOW_FPS.tooltip.2=  C: - renderização de chunks
+of.options.SHOW_FPS.tooltip.3=  E: - entidades em geral
+of.options.SHOW_FPS.tooltip.4=  U: - atualização de chunks
+of.options.SHOW_FPS.tooltip.5=A informação de FPS só é visível quando a
+of.options.SHOW_FPS.tooltip.6=tela de debug não é.
+
+of.options.save.default=Padrão (2s)
+of.options.save.20s=20s
+of.options.save.3min=3min
+of.options.save.30min=30min
+
+of.options.AUTOSAVE_TICKS=Autosalvar
+of.options.AUTOSAVE_TICKS.tooltip.1=Autosalvar interno
+of.options.AUTOSAVE_TICKS.tooltip.2=Intervalo padrão para autosalvar (2segundos) NÃO É RECOMENDADO.
+of.options.AUTOSAVE_TICKS.tooltip.3=O Autosalvar pode causar o Lag da Morte (Lag que crasha o minecraft).
+
+of.options.SCREENSHOT_SIZE=Tamanho da Screenshot
+of.options.SCREENSHOT_SIZE.tooltip.1=Tamanho da Screenshot
+of.options.SCREENSHOT_SIZE.tooltip.2=  Padrão - tamanho padrão da screenshot
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tamanho personalizado
+of.options.SCREENSHOT_SIZE.tooltip.4=Tamanhos maiores precisam de mais memória.
+of.options.SCREENSHOT_SIZE.tooltip.5=Não é compatível com Renderização Rápida e Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=Precisa do suporte de framebuffer de GPU.
