@@ -1,19 +1,19 @@
 # Contributors of Russian localization #
-#   Jerozgen 2016-03-01 ---- 2017-03-11
+#   Jerozgen 2016-03-01 ---- 2017-08-11
 #   Dibro 2016-03-20
 
-# General
+# Общее
 of.general.ambiguous=неопределённый
-of.general.custom=Пользовательский
+of.general.custom=По выбору
 of.general.from=Файл
 of.general.id=ID
-of.general.restart=после перезапуска
+of.general.restart=⟲
 of.general.smart=Умно
 
-# Keys
+# Управление
 of.key.zoom=Приблизить
 
-# Message
+# Сообщения
 of.message.aa.shaders1=Антиалиасинг не совместим с шейдерами.
 of.message.aa.shaders2=Пожалуйста, отключите шейдеры, чтобы включить этот параметр.
 
@@ -27,16 +27,16 @@ of.message.an.shaders1=3D анаглиф не совместим с шейдер
 of.message.an.shaders2=Отключите шейдеры, чтобы включить этот параметр.
 
 of.message.shaders.aa1=Шейдеры не совместимы с антиалиасингом.
-of.message.shaders.aa2=Переключите Качество -> Антиалиасинг на "Выкл" и перезапустите игру.
+of.message.shaders.aa2=Переключите Качество -> Антиалиасинг на «Выкл» и перезапустите игру.
 
 of.message.shaders.af1=Шейдеры не совместимы с анизотропной фильтрацией.
-of.message.shaders.af2=Переключите Качество -> Анизотропная фильтрация на "Выкл".
+of.message.shaders.af2=Переключите Качество -> Анизотропная фильтрация на «Выкл».
 
 of.message.shaders.fr1=Шейдеры не совместимы с быстрым рендером.
-of.message.shaders.fr2=Переключите Производительность -> Быстрый рендер на "Выкл".
+of.message.shaders.fr2=Переключите Производительность -> Быстрый рендер на «Выкл».
 
 of.message.shaders.an1=Шейдеры не совместимы с 3D анаглифом.
-of.message.shaders.an2=Переключите Прочее -> 3D анаглиф на "Выкл".
+of.message.shaders.an2=Переключите Прочее -> 3D анаглиф на «Выкл».
 
 of.message.newVersion=Доступна новая версия §eOptiFine§f: §e%s§f
 of.message.java64Bit=Установите §e64-битную Java§f, чтобы повысить производительность.
@@ -48,19 +48,13 @@ of.message.other.reset=Сбросить все настройки графики
 
 of.message.loadingVisibleChunks=Загрузка видимых чанков
  
-# Video settings
+# Настройки графики
 
 options.graphics.tooltip.1=Качество графики
-options.graphics.tooltip.2=  Быстро  - низкое качество, быстрее
+options.graphics.tooltip.2=  Быстро - низкое качество, быстрее
 options.graphics.tooltip.3=  Детально - высокое качество, медленнее
-options.graphics.tooltip.4=Изменяет облик граней дёрна, листьев, воды, теней и облаков. 
+options.graphics.tooltip.4=Изменяет облик дёрна, листьев, воды, теней и облаков. 
 options.graphics.tooltip.5=
-
-of.options.renderDistance.tiny=Очень маленькая
-of.options.renderDistance.short=Малая
-of.options.renderDistance.normal=Нормальная
-of.options.renderDistance.far=Дальняя
-of.options.renderDistance.extreme=Предельная
 
 options.renderDistance.tooltip.1=Дальность прорисовки
 options.renderDistance.tooltip.2=  2 Очень маленькая - 32м (ещё быстрее)
@@ -68,21 +62,27 @@ options.renderDistance.tooltip.3=  4 Малая - 64м (быстрее)
 options.renderDistance.tooltip.4=  8 Нормальная - 128м
 options.renderDistance.tooltip.5=  16 Дальняя - 256м (медленнее)
 options.renderDistance.tooltip.6=  32 Предельная - 512м (ещё медленнее!)
-options.renderDistance.tooltip.7=Предельная прорисовка очень требовательна к ресурсам компьютера!
-options.renderDistance.tooltip.8=Значения более 16 эффективны только в локальных мирах.
+options.renderDistance.tooltip.7=Предельная прорисовка требует мощный компьютер!
+options.renderDistance.tooltip.8=
+
+of.options.renderDistance.tiny=Очень маленькая
+of.options.renderDistance.short=Малая
+of.options.renderDistance.normal=Нормальная
+of.options.renderDistance.far=Дальняя
+of.options.renderDistance.extreme=Предельная
 
 options.ao.tooltip.1=Мягкое освещение
 options.ao.tooltip.2=  Выкл - без мягкого освещения, быстрее
 options.ao.tooltip.3=  Минимум - простое мягкое освещение, медленнее
-options.ao.tooltip.4=  Максимум - комплексное мягкое освещение, ещё медленнее
+options.ao.tooltip.4=  Максимум - сложное мягкое освещение, ещё медленнее
 
 options.framerateLimit.tooltip.1=Частота кадров
-options.framerateLimit.tooltip.2=  VSync - синхронизация с частотой верт. развертки монитора (60, 30, 20)
+options.framerateLimit.tooltip.2=  V-Sync - частота обновления монитора
 options.framerateLimit.tooltip.3=  5-255 - пользовательские значения
 options.framerateLimit.tooltip.4=  Максимум - без ограничений, быстрее
-options.framerateLimit.tooltip.5=Уменьшает частоту кадров, даже если ограничение не достигнуто.
+options.framerateLimit.tooltip.5=Уменьшает частоту кадров до указанной.
 options.framerateLimit.tooltip.6=
-of.options.framerateLimit.vsync=VSync
+of.options.framerateLimit.vsync=V-Sync
 
 of.options.AO_LEVEL=Мягкое освещение
 of.options.AO_LEVEL.tooltip.1=Уровень мягкого освещения
@@ -91,49 +91,42 @@ of.options.AO_LEVEL.tooltip.3=  50%% - светлые тени
 of.options.AO_LEVEL.tooltip.4=  100%% - тёмные тени
 
 options.viewBobbing.tooltip.1=Более реалистичное движение.
-options.viewBobbing.tooltip.2=При использовании рекомендуется выключить MIP-текстурирование.
+options.viewBobbing.tooltip.2=При использовании рекомендуется выключить
+options.viewBobbing.tooltip.3=MIP-текстурирование.
 
 options.guiScale.tooltip.1=Размер интерфейса
 options.guiScale.tooltip.2=  Авто - максимальный размер
-options.guiScale.tooltip.3=  Мелкий, обычный, крупный - от 1x до 3x
-options.guiScale.tooltip.4=  с 4x до 10x - доступно на мониторах с разрешением 4K
-options.guiScale.tooltip.5=Нечётные значения (1x, 3x, 5x ...) не совместимы с шрифтом Unicode.
+options.guiScale.tooltip.3=  Мелкий, обычный, крупный - 1x, 2x и 3x соответственно
+options.guiScale.tooltip.4=  с 4x до 10x - на мониторах с разрешением 4K
+options.guiScale.tooltip.5=Нечётные значения не совместимы со шрифтом Unicode.
 options.guiScale.tooltip.6=Чем меньше интерфейс, тем он быстрее.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
-options.vbo.tooltip.2=Использует альтернативную модель рендеринга, которая быстрее,
-options.vbo.tooltip.3=чем стандартная. (5-10%%)
+options.vbo.tooltip.2=Использует альтернативную модель рендеринга,
+options.vbo.tooltip.3=которая обычно быстрее стандартной. (5-10%%)
 
-options.gamma.tooltip.1=Изменяет яркость тёмных объектов.
+options.gamma.tooltip.1=Яркость тёмных объектов
 options.gamma.tooltip.2=  Тускло - стандартная яркость
 options.gamma.tooltip.3=  1-99%% - пользовательские значения
-options.gamma.tooltip.4=  Ярко - максимальная яркость тёмных объектов
-options.gamma.tooltip.5=Данный параметр не изменяет яркость полностью чёрных объектов.
+options.gamma.tooltip.4=  Ярко - максимальная яркость
+options.gamma.tooltip.5=Не изменяет яркость полностью чёрных объектов.
 options.gamma.tooltip.6=
 
-options.anaglyph.tooltip.1=3D Анаглиф
-options.anaglyph.tooltip.2=Включает стереоскопический 3D-эффект, используя различные цвета
-options.anaglyph.tooltip.3=для каждого глаза.
-options.anaglyph.tooltip.4=Требуются красно-голубые очки для просмотра.
+of.options.DYNAMIC_LIGHTS=Динам. освещение
+of.options.DYNAMIC_LIGHTS.tooltip.1=Динамическое освещение
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Выкл - динамическое освещение отключено (по умолчанию)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Быстро - обновляется каждые 500 мс., медленнее
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Детально - обновляется в реальном времени, ещё медленнее
+of.options.DYNAMIC_LIGHTS.tooltip.5=Экипированные и выброшенные предметы, излучающие
+of.options.DYNAMIC_LIGHTS.tooltip.6=свет (факел, светокамень и т. д.), освещают территорию 
+of.options.DYNAMIC_LIGHTS.tooltip.7=вокруг.
 
-of.options.ALTERNATE_BLOCKS=Альтернативные блоки
-of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативные модели блоков
-of.options.ALTERNATE_BLOCKS.tooltip.2=Используются альтернативные модели для некоторых блоков.
-of.options.ALTERNATE_BLOCKS.tooltip.3=Зависит от выбранного пакета ресурсов.
-
-of.options.FOG_FANCY=Туман
-of.options.FOG_FANCY.tooltip.1=Тип тумана
-of.options.FOG_FANCY.tooltip.2=  Быстро - быстрый туман
-of.options.FOG_FANCY.tooltip.3=  Детально - густой туман, выглядит лучше
-of.options.FOG_FANCY.tooltip.4=  Выкл - без тумана, быстрее
-of.options.FOG_FANCY.tooltip.5=Густой туман будет работать, только если ваша видеокарта поддерживает его. 
-of.options.FOG_FANCY.tooltip.6=
-
-of.options.FOG_START=Удалённость тумана
-of.options.FOG_START.tooltip.1=Удалённость тумана
-of.options.FOG_START.tooltip.2=  0.2 - туман начинается рядом с игроком
-of.options.FOG_START.tooltip.3=  0.8 - туман начинается вдали от игрока
-of.options.FOG_START.tooltip.4=Этот параметр, обычно, не влияет на производительность.
+of.options.DYNAMIC_FOV=Динамика поля зрения
+of.options.DYNAMIC_FOV.tooltip.1=Динамика поля зрения
+of.options.DYNAMIC_FOV.tooltip.2=  Вкл - подвижное поле зрения (по умолчанию)
+of.options.DYNAMIC_FOV.tooltip.3=  Выкл - фиксированное поле зрения
+of.options.DYNAMIC_FOV.tooltip.4=Изменяет поле зрения в полёте, во время бега и
+of.options.DYNAMIC_FOV.tooltip.5=стрельбы из лука.
 
 of.options.CHUNK_LOADING=Загрузка чанков
 of.options.CHUNK_LOADING.tooltip.1=Загрузка чанков
@@ -172,8 +165,8 @@ of.options.shaderOptionsTitle=Настройки шейдера
 of.options.quality=Качество...
 of.options.qualityTitle=Настройки качества
 
-of.options.details=Детали...
-of.options.detailsTitle=Настройки деталей
+of.options.details=Элементы игры...
+of.options.detailsTitle=Настройки элементов игры
 
 of.options.performance=Производительность...
 of.options.performanceTitle=Настройки производительности
@@ -186,48 +179,49 @@ of.options.otherTitle=Прочие настройки
 
 of.options.other.reset=Сбросить настройки графики...
 
-of.shaders.profile=Профиль
+of.shaders.profile=Настройки
 
-# Quality
+# Качество
+
+options.mipmapLevels.tooltip.1=Уровни детализации
+options.mipmapLevels.tooltip.2=  Выкл - без сглаживания
+options.mipmapLevels.tooltip.3=  1 - минимальное сглаживание
+options.mipmapLevels.tooltip.4=  4 - максимальное сглаживание
+options.mipmapLevels.tooltip.5=Заставляет удалённые объекты выглядеть лучше
+options.mipmapLevels.tooltip.6=посредством сглаживания деталей текстуры.
+options.mipmapLevels.tooltip.7=Обычно не влияет на производительность.
+
+of.options.MIPMAP_TYPE=MIP-текстурир.
+of.options.MIPMAP_TYPE.tooltip.1=MIP-текстурирование
+of.options.MIPMAP_TYPE.tooltip.2=  Ближнее - грубое сглаживание, быстрее
+of.options.MIPMAP_TYPE.tooltip.3=  Линейное - нормальное сглаживание
+of.options.MIPMAP_TYPE.tooltip.4=  Билинейное - хорошее сглаживание
+of.options.MIPMAP_TYPE.tooltip.5=  Трилинейное - лучшее сглаживание, медленнее
+of.options.MIPMAP_TYPE.tooltip.6=Заставляет удалённые объекты выглядеть лучше
+of.options.MIPMAP_TYPE.tooltip.7=посредством сглаживания деталей текстуры.
 
 of.options.mipmap.bilinear=Билинейное
 of.options.mipmap.linear=Линейное
 of.options.mipmap.nearest=Ближнее
 of.options.mipmap.trilinear=Трилинейное
 
-options.mipmapLevels.tooltip.1=Заставляет удалённых объектов выглядеть лучше посредством сглаживания
-options.mipmapLevels.tooltip.2=деталей текстуры.
-options.mipmapLevels.tooltip.3=  Выкл - без сглаживания
-options.mipmapLevels.tooltip.4=  1 - минимальное сглаживание
-options.mipmapLevels.tooltip.5=  4 - максимальное сглаживание
-options.mipmapLevels.tooltip.6=Этот параметр, обычно, не влияет на производительность.
-
-of.options.MIPMAP_TYPE=MIP-текстурирование
-of.options.MIPMAP_TYPE.tooltip.1=Заставляет удалённых объектов выглядеть лучше посредством сглаживания
-of.options.MIPMAP_TYPE.tooltip.2=деталей текстуры.
-of.options.MIPMAP_TYPE.tooltip.3=  Ближнее - грубое сглаживание, быстрее
-of.options.MIPMAP_TYPE.tooltip.4=  Линейное - нормальное сглаживание
-of.options.MIPMAP_TYPE.tooltip.5=  Билинейное - хорошее сглаживание
-of.options.MIPMAP_TYPE.tooltip.6=  Трилинейное - лучшее сглаживание, медленнее
-
+of.options.AF_LEVEL=Анизотроп. фильтрация
+of.options.AF_LEVEL.tooltip.1=Анизотропная фильтрация
+of.options.AF_LEVEL.tooltip.2= Выкл - стандартная детализация (по умолчанию), быстрее 
+of.options.AF_LEVEL.tooltip.3= 2-16 - улучшенная детализация, медленнее
+of.options.AF_LEVEL.tooltip.4=Улучшает качество деталей в MIP-текстурах.
+of.options.AF_LEVEL.tooltip.5=Может существенно понизить производительность.
+of.options.AF_LEVEL.tooltip.6=
 
 of.options.AA_LEVEL=Антиалиасинг
 of.options.AA_LEVEL.tooltip.1=Антиалиасинг
-of.options.AA_LEVEL.tooltip.2= Выкл - без сглаживания (по умолчанию), быстрее
+of.options.AA_LEVEL.tooltip.2= Выкл - сглаживание отключено (по умолчанию), быстрее
 of.options.AA_LEVEL.tooltip.3= 2-16 - сглаживание линий и краёв, медленнее
-of.options.AA_LEVEL.tooltip.4=Сглаживает неровные линии и резкие цветовые переходы.
+of.options.AA_LEVEL.tooltip.4=Сглаживает неровные линии и цветовые переходы.
 of.options.AA_LEVEL.tooltip.5=Может существенно понизить производительность.
 of.options.AA_LEVEL.tooltip.6=Не все видеокарты поддерживают все уровни антиалиасинга.
 of.options.AA_LEVEL.tooltip.7=
-of.options.AA_LEVEL.tooltip.8=Изменения эффективны только после ПЕРЕЗАПУСКА!
-
-of.options.AF_LEVEL=Анизотропная фильтрация
-of.options.AF_LEVEL.tooltip.1=Анизотропная фильтрация
-of.options.AF_LEVEL.tooltip.2= Выкл - стандартная детализация MIP-текстур (по умолчанию), быстрее 
-of.options.AF_LEVEL.tooltip.3= 2-16 - улучшенная детализация MIP-текстур, медленнее
-of.options.AF_LEVEL.tooltip.4=Восстанавливает детали в MIP-текстурах.
-of.options.AF_LEVEL.tooltip.5=Может существенно понизить производительность.
-of.options.AF_LEVEL.tooltip.6= 
+of.options.AA_LEVEL.tooltip.8=⟲ Изменения эффективны только после ПЕРЕЗАПУСКА!
 
 of.options.CLEAR_WATER=Очищенная вода
 of.options.CLEAR_WATER.tooltip.1=Очищенная вода
@@ -236,103 +230,104 @@ of.options.CLEAR_WATER.tooltip.3=  Выкл - стандартная вода
 
 of.options.RANDOM_MOBS=Случайные мобы
 of.options.RANDOM_MOBS.tooltip.1=Случайные текстуры мобов
-of.options.RANDOM_MOBS.tooltip.2=  Выкл - случайных мобы отключены, быстрее
+of.options.RANDOM_MOBS.tooltip.2=  Выкл - случайные мобы отключены, быстрее
 of.options.RANDOM_MOBS.tooltip.3=  Вкл - случайные мобы включены, медленнее
 of.options.RANDOM_MOBS.tooltip.4=Используются случайные текстуры для мобов.
-of.options.RANDOM_MOBS.tooltip.5=Требуется пакет ресурсов, в котором такие текстуры есть.
+of.options.RANDOM_MOBS.tooltip.5=Требуется пакет ресурсов, в котором они есть.
 
 of.options.BETTER_GRASS=Улучшенный дёрн
 of.options.BETTER_GRASS.tooltip.1=Улучшенный дёрн
-of.options.BETTER_GRASS.tooltip.2=  Выкл - дёрн по умолчанию, быстрее
-of.options.BETTER_GRASS.tooltip.3=  Быстро - полностью заполненные текстуры сторон дёрна, медленнее
-of.options.BETTER_GRASS.tooltip.4=  Детально - динамично заполненные текстуры сторон дёрна, ещё медленнее
+of.options.BETTER_GRASS.tooltip.2=  Выкл - стандартный дёрн, быстрее
+of.options.BETTER_GRASS.tooltip.3=  Быстро - полное изменение текстур, медленнее
+of.options.BETTER_GRASS.tooltip.4=  Детально - динамичное изменение текстур, ещё медленнее
+of.options.BETTER_GRASS.tooltip.5=Изменяет текстуры сторон дёрна на верхнюю.
 
 of.options.BETTER_SNOW=Улучшенный снег
 of.options.BETTER_SNOW.tooltip.1=Улучшенный снег
 of.options.BETTER_SNOW.tooltip.2=  Выкл - стандартный снег, быстрее
 of.options.BETTER_SNOW.tooltip.3=  Вкл - улучшенный снег, медленнее
-of.options.BETTER_SNOW.tooltip.4=Показывает снег под прилегающими к нему прозрачными блоками
-of.options.BETTER_SNOW.tooltip.5=(забор, трава).
+of.options.BETTER_SNOW.tooltip.4=Показывает снег под прилегающими к нему прозрачными
+of.options.BETTER_SNOW.tooltip.5=блоками (забор, трава).
 
-of.options.CUSTOM_FONTS=Пользовательские шрифты
-of.options.CUSTOM_FONTS.tooltip.1=Пользовательские шрифты
-of.options.CUSTOM_FONTS.tooltip.2=  Вкл - пользовательские шрифты (по умолчанию), медленнее
-of.options.CUSTOM_FONTS.tooltip.3=  Выкл - шрифт по умолчанию, быстрее
-of.options.CUSTOM_FONTS.tooltip.4=Шрифты предоставляются текущим пакетом ресурсов.
+of.options.CUSTOM_FONTS=Шрифт
+of.options.CUSTOM_FONTS.tooltip.1=Пользовательский шрифт
+of.options.CUSTOM_FONTS.tooltip.2=  Вкл - пользовательский шрифт (по умолчанию)
+of.options.CUSTOM_FONTS.tooltip.3=  Выкл - стандартный шрифт, быстрее
+of.options.CUSTOM_FONTS.tooltip.4=Предоставляется пакетами ресурсов.
 of.options.CUSTOM_FONTS.tooltip.5= 
 
-of.options.CUSTOM_COLORS=Пользовательские цвета
+of.options.CUSTOM_COLORS=Цвета
 of.options.CUSTOM_COLORS.tooltip.1=Пользовательские цвета
-of.options.CUSTOM_COLORS.tooltip.2=  Вкл - пользовательские цвета (по умолчанию), медленнее
-of.options.CUSTOM_COLORS.tooltip.3=  Выкл - цвета по умолчанию, быстрее
-of.options.CUSTOM_COLORS.tooltip.4=Цвета предоставляются текущим пакетом ресурсов.
+of.options.CUSTOM_COLORS.tooltip.2=  Вкл - пользовательские цвета (по умолчанию)
+of.options.CUSTOM_COLORS.tooltip.3=  Выкл - стандартные цвета, быстрее
+of.options.CUSTOM_COLORS.tooltip.4=Предоставляются пакетами ресурсов.
 of.options.CUSTOM_COLORS.tooltip.5= 
 
 of.options.SWAMP_COLORS=Болотные цвета
 of.options.SWAMP_COLORS.tooltip.1=Болотные цвета
 of.options.SWAMP_COLORS.tooltip.2=  Вкл - болотные цвета (по умолчанию), медленнее
-of.options.SWAMP_COLORS.tooltip.3=  Выкл - без использования болотных цветов, быстрее
-of.options.SWAMP_COLORS.tooltip.4=Влияет на цвет травы, листьев, лиан и воды в биоме болота.
+of.options.SWAMP_COLORS.tooltip.3=  Выкл - болотные цвета не отображаются, быстрее
+of.options.SWAMP_COLORS.tooltip.4=Влияет на цвет травы, листьев, лиан и воды в болоте.
 
 of.options.SMOOTH_BIOMES=Сглаженные биомы
-of.options.SMOOTH_BIOMES.tooltip.1=Сглаженные границы биомов
-of.options.SMOOTH_BIOMES.tooltip.2=  Вкл - сглаженные цвета границ биомов (по умолчанию), медленнее
-of.options.SMOOTH_BIOMES.tooltip.3=  Выкл - несглаженные цвета границы биомов, быстрее
-of.options.SMOOTH_BIOMES.tooltip.4=Сглаживание границ биомов осуществляется путём выбора и усреднения
-of.options.SMOOTH_BIOMES.tooltip.5=значений цветов всех окружающих блоков.
+of.options.SMOOTH_BIOMES.tooltip.1=Сглаживание цветов границ биомов
+of.options.SMOOTH_BIOMES.tooltip.2=  Вкл - сглаженные цвета (по умолчанию), медленнее
+of.options.SMOOTH_BIOMES.tooltip.3=  Выкл - несглаженные цвета, быстрее
+of.options.SMOOTH_BIOMES.tooltip.4=Осуществляется путём выбора и усреднения значений
+of.options.SMOOTH_BIOMES.tooltip.5=цветов всех окружающих блоков.
 of.options.SMOOTH_BIOMES.tooltip.6=Влияет на цвет травы, листьев, лиан и воды.
 
-of.options.CONNECTED_TEXTURES=Соединение текстур
+of.options.CONNECTED_TEXTURES=Соедин. текстур
 of.options.CONNECTED_TEXTURES.tooltip.1=Соединение текстур
 of.options.CONNECTED_TEXTURES.tooltip.2=  Выкл - несоединённые текстуры (по умолчанию)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Быстро - быстрое соединение текстур
 of.options.CONNECTED_TEXTURES.tooltip.4=  Детально - детальное соединение текстур
-of.options.CONNECTED_TEXTURES.tooltip.5=Данный параметр соединяет текстуры (стекло, песчаник, книжные полки)
+of.options.CONNECTED_TEXTURES.tooltip.5=Cоединяет текстуры (стекло, песчаник, книжные полки)
 of.options.CONNECTED_TEXTURES.tooltip.6=друг с другом.
-of.options.CONNECTED_TEXTURES.tooltip.7=Информация о соединениях текстур предоставляются текущим пакетом ресурсов.
+of.options.CONNECTED_TEXTURES.tooltip.7=Предоставляется пакетами ресурсов.
 of.options.CONNECTED_TEXTURES.tooltip.8= 
 
-of.options.NATURAL_TEXTURES=Естественные текстуры
+of.options.NATURAL_TEXTURES=Естествен. текстуры
 of.options.NATURAL_TEXTURES.tooltip.1=Естественные текстуры
 of.options.NATURAL_TEXTURES.tooltip.2=  Выкл - без естественных текстур (по умолчанию)
 of.options.NATURAL_TEXTURES.tooltip.3=  Вкл - использование естественных текстур
-of.options.NATURAL_TEXTURES.tooltip.4=Данный параметр убирает повторяющиеся текстуры блоков, и вместо
-of.options.NATURAL_TEXTURES.tooltip.5=них использует повёрнутые и отражённые варианты текстур.
-of.options.NATURAL_TEXTURES.tooltip.6=Конфигурация предоставляется текущим пакетом ресурсов.
+of.options.NATURAL_TEXTURES.tooltip.4=Убирает повторяющиеся текстуры блоков, и вместо
+of.options.NATURAL_TEXTURES.tooltip.5=них использует повёрнутые и отражённые варианты.
+of.options.NATURAL_TEXTURES.tooltip.6=Предоставляется пакетами ресурсов.
 of.options.NATURAL_TEXTURES.tooltip.7=
 of.options.NATURAL_TEXTURES.tooltip.8=
 
-of.options.CUSTOM_SKY=Пользовательское небо
+of.options.CUSTOM_SKY=Текстуры неба
 of.options.CUSTOM_SKY.tooltip.1=Пользовательские текстуры неба
-of.options.CUSTOM_SKY.tooltip.2=  Вкл - небо с пользовательскими текстурами (по умолчанию), медленнее
-of.options.CUSTOM_SKY.tooltip.3=  Выкл - стандартное небо, быстрее
-of.options.CUSTOM_SKY.tooltip.4=Текстуры неба предоставляются текущим пакетом ресурсов.
+of.options.CUSTOM_SKY.tooltip.2=  Вкл - небо с пользоват. текстурами (по умолчанию)
+of.options.CUSTOM_SKY.tooltip.3=  Выкл - стандартные текстуры неба, быстрее
+of.options.CUSTOM_SKY.tooltip.4=Предоставляются пакетами ресурсов.
 of.options.CUSTOM_SKY.tooltip.5=
 
-of.options.CUSTOM_ITEMS=Пользовательские предметы
+of.options.CUSTOM_ITEMS=Текстуры предметов
 of.options.CUSTOM_ITEMS.tooltip.1=Пользовательские текстуры предметов
-of.options.CUSTOM_ITEMS.tooltip.2=  Вкл - предметы с пользовательскими текстурами (по умолчанию), медленнее
+of.options.CUSTOM_ITEMS.tooltip.2=  Вкл - предметы с пользоват. текстурами (по умолчанию)
 of.options.CUSTOM_ITEMS.tooltip.3=  Выкл - стандартные текстуры предметов, быстрее
-of.options.CUSTOM_ITEMS.tooltip.4=Текстуры предметов предоставляются текущим пакетом ресурсов.
+of.options.CUSTOM_ITEMS.tooltip.4=Предоставляются пакетами ресурсов.
 of.options.CUSTOM_ITEMS.tooltip.5=
 
-of.options.CUSTOM_ENTITY_MODELS=Пользовательские сущности
+of.options.CUSTOM_ENTITY_MODELS=Модели сущностей
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Пользовательские модели сущностей
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Вкл - сущности с пользовательскими моделями (по умолчанию), медленнее
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Вкл - сущности с пользоват. моделями (по умолчанию)
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Выкл - стандартные модели сущностей, быстрее
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Модели сущностей предоставляются текущим пакетом ресурсов.
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Предоставляются пакетами ресурсов.
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=
 
-# Details
+# Элементы игры
 
 of.options.CLOUDS=Облака
 of.options.CLOUDS.tooltip.1=Отображение облаков
 of.options.CLOUDS.tooltip.2=  По умолчанию - согласно настройкам графики
-of.options.CLOUDS.tooltip.3=  Быстро - низкое качество, быстрее
-of.options.CLOUDS.tooltip.4=  Детально - высокое качество, медленнее
+of.options.CLOUDS.tooltip.3=  Быстро - двухмерные облака, быстрее
+of.options.CLOUDS.tooltip.4=  Детально - трёхмерные облака, медленнее
 of.options.CLOUDS.tooltip.5=  Выкл - облака отключены, ещё быстрее
-of.options.CLOUDS.tooltip.6=Быстрые облака рендерятся в двухмерном виде.
-of.options.CLOUDS.tooltip.7=Детальные облака рендерятся в трёхмерном виде.
+of.options.CLOUDS.tooltip.6=
+of.options.CLOUDS.tooltip.7=
 
 of.options.CLOUD_HEIGHT=Высота облаков
 of.options.CLOUD_HEIGHT.tooltip.1=Высота облаков
@@ -343,7 +338,7 @@ of.options.TREES=Листья
 of.options.TREES.tooltip.1=Отображение листьев
 of.options.TREES.tooltip.2=  По умолчанию - согласно настройкам графики
 of.options.TREES.tooltip.3=  Быстро - непрозрачные листья, быстрее
-of.options.TREES.tooltip.4=  Умно - прозрачные листья, между которыми нет текстур, быстро
+of.options.TREES.tooltip.4=  Умно - прозрачные листья, между которыми нет текстур
 of.options.TREES.tooltip.5=  Детально - прозрачные листья, медленнее
 of.options.TREES.tooltip.6=
 of.options.TREES.tooltip.7=
@@ -351,145 +346,144 @@ of.options.TREES.tooltip.7=
 of.options.RAIN=Дождь и снег
 of.options.RAIN.tooltip.1=Отображение дождя и снега
 of.options.RAIN.tooltip.2=  По умолчанию - согласно настройкам графики
-of.options.RAIN.tooltip.3=  Быстро  - лёгкий дождь/снег, быстрее
+of.options.RAIN.tooltip.3=  Быстро - лёгкий дождь/снег, быстрее
 of.options.RAIN.tooltip.4=  Детально - сильный дождь/снег, медленнее
 of.options.RAIN.tooltip.5=  Выкл - без дождя/снега, ещё быстрее
-of.options.RAIN.tooltip.6=Данный параметр не влияет на брызги и звуки дождя.
+of.options.RAIN.tooltip.6=Не влияет на брызги и звуки дождя.
 of.options.RAIN.tooltip.7=
 
 of.options.SKY=Небо
 of.options.SKY.tooltip.1=Отображение неба
 of.options.SKY.tooltip.2=  Вкл - небо видно, медленнее
-of.options.SKY.tooltip.3=  Выкл  - небо не видно, быстрее
-of.options.SKY.tooltip.4=Данный параметр не влияет на солнце и луну.
+of.options.SKY.tooltip.3=  Выкл - небо не видно, быстрее
+of.options.SKY.tooltip.4=Не влияет на солнце и луну.
 
 of.options.STARS=Звёзды
 of.options.STARS.tooltip.1=Отображение звёзд
 of.options.STARS.tooltip.2=  Вкл - звёзды видны, медленнее
-of.options.STARS.tooltip.3=  Выкл  - звёзды не видны, быстрее
+of.options.STARS.tooltip.3=  Выкл - звёзды не видны, быстрее
 
 of.options.SUN_MOON=Солнце и луна
 of.options.SUN_MOON.tooltip.1=Отображение солнца и луны
 of.options.SUN_MOON.tooltip.2=  Вкл - солнце и луна видны (по умолчанию)
-of.options.SUN_MOON.tooltip.3=  Выкл  - солнце и луна не видны, быстрее
+of.options.SUN_MOON.tooltip.3=  Выкл - солнце и луна не видны, быстрее
 
 of.options.SHOW_CAPES=Плащи
 of.options.SHOW_CAPES.tooltip.1=Отображение плащей
 of.options.SHOW_CAPES.tooltip.2=  Вкл - плащи игроков видны (по умолчанию)
 of.options.SHOW_CAPES.tooltip.3=  Выкл - плащи игроков не видны
 
-of.options.TRANSLUCENT_BLOCKS=Прозрачные блоки
-of.options.TRANSLUCENT_BLOCKS.tooltip.1=Прозрачные блоки
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Детально - правильное смешивание цветов (по умолчанию)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Быстро - быстрое смешивание цветов, быстрее
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Данный параметр управляет смешиванием цветов прозрачных блоков разного
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=цвета (цветное стекло, вода, лёд), размещённых друг за другом с воздухом
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=между ними.
+of.options.FOG_FANCY=Туман
+of.options.FOG_FANCY.tooltip.1=Тип тумана
+of.options.FOG_FANCY.tooltip.2=  Быстро - быстрый туман
+of.options.FOG_FANCY.tooltip.3=  Детально - густой туман
+of.options.FOG_FANCY.tooltip.4=  Выкл - туман отключён, быстрее
+of.options.FOG_FANCY.tooltip.5=Густой туман должен поддерживаться видеокартой. 
+of.options.FOG_FANCY.tooltip.6=
+
+of.options.FOG_START=Удалённость тумана
+of.options.FOG_START.tooltip.1=Удалённость тумана
+of.options.FOG_START.tooltip.2=  0.2 - начало тумана рядом с игроком
+of.options.FOG_START.tooltip.3=  0.8 - начало тумана вдали от игрока
+of.options.FOG_START.tooltip.4=Обычно не влияет на производительность.
+
+of.options.TRANSLUCENT_BLOCKS=Прозрачность
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Прозрачность блоков
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Детально - правильное смешивание (по умолчанию)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Быстро - быстрое смешивание, быстрее
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Управляет смешиванием цветов прозрачных блоков
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=разного цвета (стекло, вода, лёд), размещённых друг
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=за другом с воздухом между ними.
 
 of.options.HELD_ITEM_TOOLTIPS=Подсказка о предмете
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Всплывающая подсказка об удерживаемом предмете.
-of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Вкл - показывать всплывающую подсказку о предмете (по умолчанию)
-of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Выкл - не показывать всплывающую подсказку о предмете
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Вкл - показывать всплывающую подсказку (по умолчанию)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Выкл - не показывать всплывающую подсказку
 
-of.options.ADVANCED_TOOLTIPS=Расширенные подсказки
-of.options.ADVANCED_TOOLTIPS.tooltip.1=Расширенные подсказки
-of.options.ADVANCED_TOOLTIPS.tooltip.2=  Вкл - расширенные подсказки включены
-of.options.ADVANCED_TOOLTIPS.tooltip.3=  Выкл - расширенные подсказки отключены (по умолчанию)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=Показывает дополнительную информацию о предметах (ID, прочность)
-of.options.ADVANCED_TOOLTIPS.tooltip.5=и о параметрах шейдеров (ID, файл, значение по умолчанию).
-of.options.ADVANCED_TOOLTIPS.tooltip.6=
-
-of.options.DROPPED_ITEMS=Выкинутые предметы
+of.options.DROPPED_ITEMS=Предметы
 of.options.DROPPED_ITEMS.tooltip.1=Отображение выкинутых предметов
 of.options.DROPPED_ITEMS.tooltip.2=  По умолчанию - согласно настройкам графики
-of.options.DROPPED_ITEMS.tooltip.3=  Быстро - двухмерные выкинутые предметы, быстрее
-of.options.DROPPED_ITEMS.tooltip.4=  Детально - трёхмерные выкинутые предметы, медленнее
+of.options.DROPPED_ITEMS.tooltip.3=  Быстро - двухмерные предметы, быстрее
+of.options.DROPPED_ITEMS.tooltip.4=  Детально - трёхмерные предметы, медленнее
 
 options.entityShadows.tooltip.1=Тени сущностей
 options.entityShadows.tooltip.2=  Вкл - показывать тени сущностей
 options.entityShadows.tooltip.3=  Выкл - не показывать тени сущностей
 
-of.options.VIGNETTE=Виньетирование
-of.options.VIGNETTE.tooltip.1=Визуальный эффект, слегка затемняющий края экрана.
+of.options.VIGNETTE=Виньетка
+of.options.VIGNETTE.tooltip.1=Виньетирование
 of.options.VIGNETTE.tooltip.2=  По умолчанию - согласно настройкам графики
 of.options.VIGNETTE.tooltip.3=  Быстро - виньетирование отключено, быстрее
 of.options.VIGNETTE.tooltip.4=  Детально - виньетирование включено, медленнее
-of.options.VIGNETTE.tooltip.5=Виньетирование может оказывать значительное влияние на частоту кадров,
-of.options.VIGNETTE.tooltip.6=особенно при игре в полноэкранном режиме.
-of.options.VIGNETTE.tooltip.7=
+of.options.VIGNETTE.tooltip.5=Слегка затемняет края экрана.
+of.options.VIGNETTE.tooltip.6=Может оказывать значительное влияние на частоту
+of.options.VIGNETTE.tooltip.7=кадров, особенно при игре в полноэкранном режиме.
 of.options.VIGNETTE.tooltip.8=
 
-of.options.DYNAMIC_FOV=Динамика поля зрения
-of.options.DYNAMIC_FOV.tooltip.1=Динамика поля зрения
-of.options.DYNAMIC_FOV.tooltip.2=  Вкл - подвижное поле зрения (по умолчанию)
-of.options.DYNAMIC_FOV.tooltip.3=  Выкл - фиксированное поле зрения
-of.options.DYNAMIC_FOV.tooltip.4=Изменяет поле зрения в полёте, во время бега или стрельбы из лука.
-of.options.DYNAMIC_FOV.tooltip.5=
+of.options.ALTERNATE_BLOCKS=Альтернативные блоки
+of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативные модели блоков
+of.options.ALTERNATE_BLOCKS.tooltip.2=Использует альтернативные модели блоков.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Зависит от выбранного пакета ресурсов.
 
-of.options.DYNAMIC_LIGHTS=Динамич. освещение
-of.options.DYNAMIC_LIGHTS.tooltip.1=Динамическое освещение
-of.options.DYNAMIC_LIGHTS.tooltip.2=  Выкл - динамическое освещение отключено (по умолчанию)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Быстро - освещение обновляется каждые 500 мс., медленнее
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Детально - освещение обновляется в реальном времени, ещё медленнее
-of.options.DYNAMIC_LIGHTS.tooltip.5=Экипированные и выброшенные предметы, излучающие свет (факел, светокамень
-of.options.DYNAMIC_LIGHTS.tooltip.6=и т.д.), освещают территорию вокруг.
-of.options.DYNAMIC_LIGHTS.tooltip.7=
-
-# Performance
+# Производительность
 
 of.options.SMOOTH_FPS=Стабилизизация FPS
-of.options.SMOOTH_FPS.tooltip.1=Стабилизирует FPS посредством очистки буфера видеокарты.
-of.options.SMOOTH_FPS.tooltip.2=  Выкл - без стабилизации, частота кадров может колебаться
+of.options.SMOOTH_FPS.tooltip.1=Стабилизизация частоты кадров
+of.options.SMOOTH_FPS.tooltip.2=  Выкл - стабилизация отключена, FPS может колебаться
 of.options.SMOOTH_FPS.tooltip.3=  Вкл - стабилизация частоты кадров
-of.options.SMOOTH_FPS.tooltip.4=Данный параметр зависит от видеодрайвера, и эффект стабилизации
-of.options.SMOOTH_FPS.tooltip.5=не всегда виден.
+of.options.SMOOTH_FPS.tooltip.4=Стабилизирует частоту кадров посредством очистки
+of.options.SMOOTH_FPS.tooltip.5=буфера видеокарты. Зависит от видеодрайвера; 
+of.options.SMOOTH_FPS.tooltip.6=эффект стабилизации не всегда виден.
 
 of.options.SMOOTH_WORLD=Стабилизация мира
-of.options.SMOOTH_WORLD.tooltip.1=Убирает задержки, созданные внутренним сервером.
-of.options.SMOOTH_WORLD.tooltip.2=  Выкл - без стабилизации, частота кадров может колебаться
+of.options.SMOOTH_WORLD.tooltip.1=Стабилизация мира
+of.options.SMOOTH_WORLD.tooltip.2=  Выкл - стабилизация отключена, FPS может колебаться
 of.options.SMOOTH_WORLD.tooltip.3=  Вкл - стабилизация частоты кадров
-of.options.SMOOTH_WORLD.tooltip.4=Распределяет нагрузку на внутренний сервер.
-of.options.SMOOTH_WORLD.tooltip.5=Эффективно только для локальных миров (одиночная игра).
+of.options.SMOOTH_WORLD.tooltip.4=Убирает задержки, созданные внутренним сервером.
+of.options.SMOOTH_WORLD.tooltip.5=Распределяет нагрузку на внутренний сервер.
+of.options.SMOOTH_WORLD.tooltip.6=Эффективно только для локальных миров.
 
 of.options.FAST_RENDER=Быстрый рендер
-of.options.FAST_RENDER.tooltip.1=Быстрый рендер
+of.options.FAST_RENDER.tooltip.1=Быстрый рендеринг
 of.options.FAST_RENDER.tooltip.2= Выкл - стандартный рендеринг (по умолчанию)
 of.options.FAST_RENDER.tooltip.3= Вкл - оптимизированный рендеринг, быстрее
-of.options.FAST_RENDER.tooltip.4=Использует оптимизированный алгоритм рендеринга, который уменьшает
-of.options.FAST_RENDER.tooltip.5=нагрузку на GPU и может существенно повысить FPS.
+of.options.FAST_RENDER.tooltip.4=Использует оптимизированный алгоритм рендеринга,
+of.options.FAST_RENDER.tooltip.5=который уменьшает нагрузку на ГП и может существенно
+of.options.FAST_RENDER.tooltip.6=повысить частоту кадров.
 
 of.options.FAST_MATH=Быстрое вычисление
 of.options.FAST_MATH.tooltip.1=Быстрое вычисление
 of.options.FAST_MATH.tooltip.2= Выкл - стандартное вычисление (по умолчанию)
 of.options.FAST_MATH.tooltip.3= Вкл - быстрое вычисление
-of.options.FAST_MATH.tooltip.4=Использует оптимизированные функции синуса и косинуса, из-за чего 
-of.options.FAST_MATH.tooltip.5=появляется возможность лучше использовать кэш процессора и повысить FPS.
+of.options.FAST_MATH.tooltip.4=Использует оптимизированные функции sin() и cos(),
+of.options.FAST_MATH.tooltip.5=из-за чего появляется возможность лучше использовать
+of.options.FAST_MATH.tooltip.6=кэш процессора и повысить частоту кадров.
 
 of.options.CHUNK_UPDATES=Обновление чанков
 of.options.CHUNK_UPDATES.tooltip.1=Частота обновления чанков
-of.options.CHUNK_UPDATES.tooltip.2= 1 - медленная загрузка мира, высокая частота кадров (по умолчанию)
-of.options.CHUNK_UPDATES.tooltip.3= 3 - быстрая загрузка мира, низкая частота кадров
-of.options.CHUNK_UPDATES.tooltip.4= 5 - быстрейшая загрузка мира, очень низкая частота кадров
+of.options.CHUNK_UPDATES.tooltip.2= 1 - стандартная загрузка мира, высокая частота кадров
+of.options.CHUNK_UPDATES.tooltip.3= 3 - быстрая загрузка мира, пониженная частота кадров
+of.options.CHUNK_UPDATES.tooltip.4= 5 - быстрейшая загрузка мира, низкая частота кадров
 of.options.CHUNK_UPDATES.tooltip.5=Количество обновлений чанков за один кадр.
 of.options.CHUNK_UPDATES.tooltip.6=Высокие значения могут дестабилизировать частоту кадров.
 
-of.options.CHUNK_UPDATES_DYNAMIC=Динамическое обновление
+of.options.CHUNK_UPDATES_DYNAMIC=Динамич. обновление
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Динамическое обновление чанков
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Выкл - стандартное обновление чанков за кадр (по умолчанию)
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Вкл - пока игрок стоит на месте, чанки обновляются чаще
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Когда игрок стоит на месте, чанки обновляются чаще,
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=для того чтобы мир загрузился быстрее.
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Выкл - стандартное обновление чанков (по умолчанию)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Вкл - динамическое обновление чанков
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Когда игрок стоит на месте, чанки обновляются чаще
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=для того, чтобы мир загрузился быстрее.
 
 of.options.LAZY_CHUNK_LOADING=Медленные чанки
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Медленная загрузка чанков
 of.options.LAZY_CHUNK_LOADING.tooltip.2= Выкл - стандартная загрузка чанков сервера
 of.options.LAZY_CHUNK_LOADING.tooltip.3= Вкл - медленная загрузка чанков сервера (плавнее)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Стабилизирует загрузку чанков внутреннего сервера, распределяя её
-of.options.LAZY_CHUNK_LOADING.tooltip.5=на несколько тиков.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=Выключите, если некоторые части мира загружаются некорректно.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Данный параметр эффективен для локальных миров и одноядерных ЦП.
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Стабилизирует загрузку чанков внутреннего сервера,
+of.options.LAZY_CHUNK_LOADING.tooltip.5=распределяя её на несколько тактов.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Выключите, если части мира загружаются некорректно.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Эффективно для локальных миров и одноядерных ЦП.
 
-# Animations
+# Анимация
 
 of.options.animation.allOn=Включить всё
 of.options.animation.allOff=Выключить всё
@@ -513,78 +507,91 @@ of.options.ANIMATED_TERRAIN=Анимация местности
 of.options.ANIMATED_TEXTURES=Анимация текстур
 of.options.FIREWORK_PARTICLES=Частицы фейерверка
 
-# Other
+# Прочее
 
 of.options.LAGOMETER=Лагометр
 of.options.LAGOMETER.tooltip.1=Показывает лагометр на экране откладки (F3).
-of.options.LAGOMETER.tooltip.2=* Оранжевый - Сборщик мусора памяти
-of.options.LAGOMETER.tooltip.3=* Голубой - Тик
-of.options.LAGOMETER.tooltip.4=* Синий - Запланированные исполняемые файлы
-of.options.LAGOMETER.tooltip.5=* Фиолетовый - Загрузка чанков
-of.options.LAGOMETER.tooltip.6=* Красный - Обновление чанков
-of.options.LAGOMETER.tooltip.7=* Желтый - Проверка видимости
-of.options.LAGOMETER.tooltip.8=* Зеленый - Рендеринг местности
+of.options.LAGOMETER.tooltip.2=* §4Красный§r - Обновление чанков
+of.options.LAGOMETER.tooltip.3=* §6Оранжевый§r - Сборщик мусора памяти
+of.options.LAGOMETER.tooltip.4=* §eЖёлтый§r - Проверка видимости
+of.options.LAGOMETER.tooltip.5=* §aЗелёный§r - Рендеринг местности
+of.options.LAGOMETER.tooltip.6=* §bГолубой§r - Такт
+of.options.LAGOMETER.tooltip.7=* §9Синий§r - Запланированные исполняемые файлы
+of.options.LAGOMETER.tooltip.8=* §5Фиолетовый§r - Загрузка чанков
 
-of.options.PROFILER=Профиль откладки
-of.options.PROFILER.tooltip.1=Профиль откладки
-of.options.PROFILER.tooltip.2=  Вкл - профиль откладки активен, медленнее
-of.options.PROFILER.tooltip.3=  Выкл - профиль откладки неактивен, быстрее
-of.options.PROFILER.tooltip.4=Показывает дополнительную информацию, когда экран отладки открыт (F3).
-of.options.PROFILER.tooltip.5=
+of.options.PROFILER=Профайлер
+of.options.PROFILER.tooltip.1=Отладочный профайлер
+of.options.PROFILER.tooltip.2=  Вкл - профайлер активен, медленнее
+of.options.PROFILER.tooltip.3=  Выкл - профайлер неактивен, быстрее
+of.options.PROFILER.tooltip.4=Собирает и показывает дополнительную информацию на
+of.options.PROFILER.tooltip.5=экране откладки (F3).
+
+of.options.SHOW_FPS=Отображение FPS
+of.options.SHOW_FPS.tooltip.1=Отображение компактной информации о рендере
+of.options.SHOW_FPS.tooltip.2=  C: - отображаемые чанки
+of.options.SHOW_FPS.tooltip.3=  E: - отображаемые сущности + блоки-сущности
+of.options.SHOW_FPS.tooltip.4=  U: - обновление чанка
+of.options.SHOW_FPS.tooltip.5=Отображает компактную информацию о рендере, когда
+of.options.SHOW_FPS.tooltip.6=отключен экран отладки.
+
+of.options.ADVANCED_TOOLTIPS=Расширен. подсказки
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Расширенные подсказки
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  Вкл - доп. информация включена
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  Выкл - доп. информация отключена (по умолчанию)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Показывает дополнительную информацию о предметах
+of.options.ADVANCED_TOOLTIPS.tooltip.5=и о параметрах шейдеров (ID, файл и т. д.).
+of.options.ADVANCED_TOOLTIPS.tooltip.6=
 
 of.options.WEATHER=Погода
 of.options.WEATHER.tooltip.1=Погода
 of.options.WEATHER.tooltip.2=  Вкл - погода активна, медленнее
 of.options.WEATHER.tooltip.3=  Выкл - погода неактивна, быстрее
-of.options.WEATHER.tooltip.4=Этот параметр контролирует дождь, снег и грозу.
-of.options.WEATHER.tooltip.5=Контролирование погодой возможно только в локальных мирах.
-
-of.options.time.dayOnly=Всегда день
-of.options.time.nightOnly=Всегда ночь
+of.options.WEATHER.tooltip.4=Контролирует дождь, снег и грозу.
+of.options.WEATHER.tooltip.5=Действует только в локальных мирах.
 
 of.options.TIME=Время суток
 of.options.TIME.tooltip.1=Время суток
 of.options.TIME.tooltip.2= По умолчанию - нормальный цикл дня и ночи
 of.options.TIME.tooltip.3= Всегда день - только дневное время
 of.options.TIME.tooltip.4= Всегда ночь - только ночное время
-of.options.TIME.tooltip.5=Настройка времени действует только в ТВОРЧЕСКОМ режиме и только
-of.options.TIME.tooltip.6=для локальных миров.
+of.options.TIME.tooltip.5=Действует только в ТВОРЧЕСКОМ режиме игры и только
+of.options.TIME.tooltip.6=в локальных мирах.
+
+of.options.time.dayOnly=Всегда день
+of.options.time.nightOnly=Всегда ночь
 
 options.fullscreen.tooltip.1=Полноэкранный режим
 options.fullscreen.tooltip.2=  Вкл - использовать полноэкранный режим
 options.fullscreen.tooltip.3=  Выкл - использовать оконный режим
-options.fullscreen.tooltip.4=Полноэкранный режим может быть как производительнее чем оконный,
-options.fullscreen.tooltip.5=так и нет, это зависит от видеокарты.
+options.fullscreen.tooltip.4=Полноэкранный режим может быть как производительнее
+options.fullscreen.tooltip.5=оконного, так и нет — всё зависит от видеокарты.
 
-of.options.FULLSCREEN_MODE=Разрешение экрана
+of.options.FULLSCREEN_MODE=Разрешение
 of.options.FULLSCREEN_MODE.tooltip.1=Разрешение экрана в полноэкранном режиме
 of.options.FULLSCREEN_MODE.tooltip.2=  По умолчанию - разрешение рабочего стола, медленнее
 of.options.FULLSCREEN_MODE.tooltip.3=  ШxВ - выбранное разрешение, возможно быстрее
-of.options.FULLSCREEN_MODE.tooltip.4=Выбранное разрешение будет использовано в полноэкранном режиме (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Меньшие значения способствуют быстродействию.
+of.options.FULLSCREEN_MODE.tooltip.4=Выбранное разрешение используется в полноэкранном
+of.options.FULLSCREEN_MODE.tooltip.5=режиме (F11). Чем меньше значение, тем быстрее.
 
-of.options.SHOW_FPS=Отображение FPS
-of.options.SHOW_FPS.tooltip.1=Компактно показывает FPS и информацию о рендере.
-of.options.SHOW_FPS.tooltip.2=  C: - рендеринг чанков
-of.options.SHOW_FPS.tooltip.3=  E: - рендеринг сущностей + блоки с доп. данными
-of.options.SHOW_FPS.tooltip.4=  U: - обновление чанков
-of.options.SHOW_FPS.tooltip.5=Компактная информация о FPS показывается, только тогда, когда экран откладки
-of.options.SHOW_FPS.tooltip.6=отключен.
+options.anaglyph.tooltip.1=Анаглиф
+options.anaglyph.tooltip.2=Стереоизображение, использующее различные цвета
+options.anaglyph.tooltip.3=для каждого глаза.
+options.anaglyph.tooltip.4=Для просмотра потребуются анаглифические очки.
 
-of.options.save.default=По умолчанию (2 с.)
+of.options.AUTOSAVE_TICKS=Автосохранение
+of.options.AUTOSAVE_TICKS.tooltip.1=Интервал автосохранений
+of.options.AUTOSAVE_TICKS.tooltip.2=Значение по умолчанию (2 секунды) НЕ РЕКОМЕНДУЕТСЯ.
+of.options.AUTOSAVE_TICKS.tooltip.3=Может создавать кратковременные зависания.
+
+of.options.save.default=2 секунды
 of.options.save.20s=20 секунд
 of.options.save.3min=3 минуты
 of.options.save.30min=30 минут
 
-of.options.AUTOSAVE_TICKS=Автосохранение
-of.options.AUTOSAVE_TICKS.tooltip.1=Интервал автосохранений
-of.options.AUTOSAVE_TICKS.tooltip.2=Интервал автосохранений по умолчанию (2 с.) НЕ РЕКОМЕНДУЕТСЯ.
-of.options.AUTOSAVE_TICKS.tooltip.3=Автосохранение может создавать кратковременные зависания.
-
-of.options.SCREENSHOT_SIZE=Разрешение скриншота
+of.options.SCREENSHOT_SIZE=Скриншот
 of.options.SCREENSHOT_SIZE.tooltip.1=Разрешение скриншота
 of.options.SCREENSHOT_SIZE.tooltip.2=  По умолчанию - стандартное разрешение скриншота
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - множитель разрешения
-of.options.SCREENSHOT_SIZE.tooltip.4=Создание скриншота большего разрешения требует больше памяти.
-of.options.SCREENSHOT_SIZE.tooltip.5=Требуется поддержка кадрового буфера графического процессора.
-of.options.SCREENSHOT_SIZE.tooltip.6=Не совместимо с параметром "Быстрый рендер" и "Антиалиасинг".
+of.options.SCREENSHOT_SIZE.tooltip.4=Чем больше значение, тем больше потребуется памяти.
+of.options.SCREENSHOT_SIZE.tooltip.5=Необходима поддержка кадрового буфера ГП.
+of.options.SCREENSHOT_SIZE.tooltip.6=Не совместимо с «Быстрым рендером» и «Антиалиасингом».
