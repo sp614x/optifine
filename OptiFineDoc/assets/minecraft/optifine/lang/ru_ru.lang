@@ -1,9 +1,9 @@
 # Contributors of Russian localization #
-#   Jerozgen 2016-03-01 ---- 2017-08-11
+#   Jerozgen 2016-03-01 ---- 2017-08-17
 #   Dibro 2016-03-20
 
 # Общее
-of.general.ambiguous=неопределённый
+of.general.ambiguous=Неопределено
 of.general.custom=По выбору
 of.general.from=Файл
 of.general.id=ID
