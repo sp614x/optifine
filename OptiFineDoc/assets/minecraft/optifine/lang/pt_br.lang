@@ -2,7 +2,7 @@
 of.general.ambiguous=ambíguo
 of.general.custom=Personalizado
 of.general.from=De
-of.general.id=Id
+of.general.id=ID
 of.general.restart=reiniciar
 of.general.smart=Inteligente
 
@@ -10,35 +10,35 @@ of.general.smart=Inteligente
 of.key.zoom=Zoom
 
 # Message
-of.message.aa.shaders1=Antialiasing não é compatível com shaders.
-of.message.aa.shaders2=Por favor desative os shaders para usar esta opção.
+of.message.aa.shaders1=Antialiasing não é compatível com Shaders.
+of.message.aa.shaders2=Por favor, desative o Shaders para usar esta opção.
 
-of.message.af.shaders1=A Filtragem Ansiltrópica não é compatível com shaders.
-of.message.af.shaders2=Por favor desative o shaders para ativar essa opção.
+of.message.af.shaders1=A Filtragem Ansiltrópica não é compatível com Shaders.
+of.message.af.shaders2=Por favor, desative o Shaders para ativar essa opção.
 
-of.message.fr.shaders1=A Renderização Rápida não é compatível com shaders.
-of.message.fr.shaders2=Por favor desative o shaders para ativar essa opção.
+of.message.fr.shaders1=A Renderização Rápida não é compatível com Shaders.
+of.message.fr.shaders2=Por favor, desative o Shaders para ativar essa opção.
 
 of.message.an.shaders1=3D Anaaglífico não é compatível com shaders.
-of.message.an.shaders2=Por favor desative o shaders para ativar essa opção.
+of.message.an.shaders2=Por favor desative, o Shaders para ativar essa opção.
 
 of.message.shaders.aa1=Os Shaders não são compatíveis com Antialiasing. 
 of.message.shaders.aa2=Vá em Qualidade, desative o Antialiasing e reinicie o jogo.
 
 of.message.shaders.af1=Os Shaders não são compatíveis com a Filtragem Ansiltrópica.
-of.message.shaders.af2=Vá em Qualidade e desative a Filtragem Ansiltrópica. 
+of.message.shaders.af2=Vá em Qualidade e desative a Filtragem Ansiltrópica.
 
 of.message.shaders.fr1=Shaders não são compatíveis com a Renderização Rápida.
-of.message.shaders.fr2=Vá em qualidade e desative a Renderização Rápida.
+of.message.shaders.fr2=Vá em Qualidade e desative a Renderização Rápida.
 
 of.message.shaders.an1=Shaders não são compatíveis com o 3D Anaglífico.
-of.message.shaders.an2=Vá em Outros, e desative o 3D Anaglífico.
+of.message.shaders.an2=Vá em Outros e desative o 3D Anaglífico.
 
 of.message.newVersion=Uma nova versão do  §eOptiFine§f está disponível: a §e%s§f
-of.message.java64Bit=Você pode instalar o §eJava de 64-bit§f para aumentar a desempenho.
+of.message.java64Bit=Você pode instalar o §eJava de 64-bit§f para aumentar o desempenho.
 of.message.openglError=§eErro do OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Carregando shaders: %s
+of.message.shaders.loading=Carregando Shaders: %s
 
 of.message.other.reset=Reiniciar todas as configurações de vídeo para seus valores padrões?
  
@@ -50,34 +50,34 @@ options.graphics.tooltip.1=Qualidade visual
 options.graphics.tooltip.2=  Rápida  - menor qualidade e rápido
 options.graphics.tooltip.3=  Bonita - maior qualidade e lento
 options.graphics.tooltip.4=Muda a aparência de nuvens, folhas, água,
-options.graphics.tooltip.5=sombras e os lados do bloco de grama.
+options.graphics.tooltip.5=sombras e grama.
 
-of.options.renderDistance.tiny=Mixuruca
+of.options.renderDistance.tiny=Minúsculo
 of.options.renderDistance.short=Pequeno
 of.options.renderDistance.normal=Normal
 of.options.renderDistance.far=Longe
 of.options.renderDistance.extreme=Longíssimo
 
 options.renderDistance.tooltip.1=Distância visível
-options.renderDistance.tooltip.2=  2 Mixuruca - 32m (rapidão)
-options.renderDistance.tooltip.3=  4 Pequeno - 64m (rápido)
+options.renderDistance.tooltip.2=  2 Minúscula - 32m (ultra-rápido)
+options.renderDistance.tooltip.3=  4 Pequena - 64m (rápido)
 options.renderDistance.tooltip.4=  8 Normal - 128m
 options.renderDistance.tooltip.5=  16 Longe - 256m (lento)
-options.renderDistance.tooltip.6=  32 Longíssimo - 512m (lentão!)
-options.renderDistance.tooltip.7=A distância Longíssimo demanda muitos recursos!
-options.renderDistance.tooltip.8=Valores acima de 16 Longe só funcionam em singleplayer.
+options.renderDistance.tooltip.6=  32 Longíssima - 512m (ultra-lento)
+options.renderDistance.tooltip.7=A distância Longíssima exige muitos recursos!
+options.renderDistance.tooltip.8=Valores acima de 16 Longe só funcionam no modo singleplayer.
 
 options.ao.tooltip.1=Iluminação Suave
 options.ao.tooltip.2=  Desligado - sem iluminação suave (rápido)
 options.ao.tooltip.3=  Mínima - iluminação simples (lento)
-options.ao.tooltip.4=  Máximo - iluminação complexa (lentão)
+options.ao.tooltip.4=  Máximo - iluminação complexa (ultra-lento)
 
 options.framerateLimit.tooltip.1=FPS máximo
-options.framerateLimit.tooltip.2=  VSync - Limita aos fps do monitor (60, 30, 20)
+options.framerateLimit.tooltip.2=  VSync - Limita a taxa de FPS do monitor (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - variável
 options.framerateLimit.tooltip.4=  Ilimitado - ilimitado (rápido)
-options.framerateLimit.tooltip.5=Os FPS caem se o valor máximo definido
-options.framerateLimit.tooltip.6=aqui não for atingido.
+options.framerateLimit.tooltip.5=A taxa de FPS cai se o valor máximo definido
+options.framerateLimit.tooltip.6= não for atingido.
 of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Nível da iluminação suave
@@ -86,57 +86,57 @@ of.options.AO_LEVEL.tooltip.2=  Desl. - Sem sombras
 of.options.AO_LEVEL.tooltip.3=  50%% - sombras claras
 of.options.AO_LEVEL.tooltip.4=  100%% - sombras escuras 
 
-options.viewBobbing.tooltip.1=Movimentos mais realísticos.
-options.viewBobbing.tooltip.2=Quando usar mipmaps desligue para ficar melhor.
+options.viewBobbing.tooltip.1=Movimentos mais realistas.
+options.viewBobbing.tooltip.2=Quando usar mipmaps, desative a opção para melhores resultados.
 
 options.guiScale.tooltip.1=Escala da Interface
-options.guiScale.tooltip.2=  Automática - o maior possível
+options.guiScale.tooltip.2=  Automática - maior possível
 options.guiScale.tooltip.3=  Pequeno, Normal, Grande - 1x para 3x
 options.guiScale.tooltip.4=  4x para 10x - disponível em monitores 4K
-options.guiScale.tooltip.5=Valores estranhos (1x, 3x, 5x ...) Não são compatíveis com unicode.
-options.guiScale.tooltip.6=Uma interface pequena aumenta o desempenho.
+options.guiScale.tooltip.5=Alguns valores (1x, 3x, 5x ...) não são compatíveis com Unicode.
+options.guiScale.tooltip.6=Uma interface pequena pode aumentar o desempenho.
 
 options.vbo.tooltip.1=Armazenamento de objetos Vertex
 options.vbo.tooltip.2=Usa um modelo de renderização que é
-options.vbo.tooltip.3=mais rápido (5-10%%) que o modelo normal.
+options.vbo.tooltip.3=mais rápido (5-10%%) do que o modelo normal.
 
-options.gamma.tooltip.1=Muda o brilho de objetos escuros.
+options.gamma.tooltip.1=Altera o brilho de objetos escuros.
 options.gamma.tooltip.2=  Escuro - brilho normal
 options.gamma.tooltip.3=  1-99%% - variável
 options.gamma.tooltip.4=  Claro - maior brilho para objetos escuros
 options.gamma.tooltip.5=Essa opção não clareia 
-options.gamma.tooltip.6=objetos totalmente pretos.
+options.gamma.tooltip.6=objetos totalmente negros.
 
 options.anaglyph.tooltip.1=3D Anaglífico
 options.anaglyph.tooltip.2=Ativa um Efeito 3D Esteroscópico usando cores diferentes
 options.anaglyph.tooltip.3=para cada olho.
-options.anaglyph.tooltip.4=Precisa de um óculos vermelho-ciano para ver melhor.
+options.anaglyph.tooltip.4=Recomenda-se o uso de óculos vermelho-ciano para melhores resultados.
 
 of.options.ALTERNATE_BLOCKS=Blocos alternados
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocos alternados
 of.options.ALTERNATE_BLOCKS.tooltip.2=Usa modelos alternados para alguns blocos.
-of.options.ALTERNATE_BLOCKS.tooltip.3=Depende da textura ou resourcepack que você usa.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Depende da textura em uso.
 
 of.options.FOG_FANCY=Névoa
 of.options.FOG_FANCY.tooltip.1=Tipo de névoa
-of.options.FOG_FANCY.tooltip.2=  Rápida - névoa que não pesa os FPS.
-of.options.FOG_FANCY.tooltip.3=  Bonita - névoa bonita, mas pesa nos FPS.
+of.options.FOG_FANCY.tooltip.2=  Rápida - névoa que não reduz a taxa de FPS.
+of.options.FOG_FANCY.tooltip.3=  Bonita - névoa suave, reduz a taxa de FPS.
 of.options.FOG_FANCY.tooltip.4=  Desligada - sem névoa
-of.options.FOG_FANCY.tooltip.5=A névoa bonita só é disponível se sua placa
-of.options.FOG_FANCY.tooltip.6=de vídeo permite.
+of.options.FOG_FANCY.tooltip.5=A névoa suave só é disponível se sua placa
+of.options.FOG_FANCY.tooltip.6=de vídeo permitir.
 
 of.options.FOG_START=Início da névoa
 of.options.FOG_START.tooltip.1=Início da névoa
 of.options.FOG_START.tooltip.2=  0.2 - a névoa começa perto de você
 of.options.FOG_START.tooltip.3=  0.8 - a névoa começa longe de você
-of.options.FOG_START.tooltip.4=Essa opção normalmente não muda a desempenho.
+of.options.FOG_START.tooltip.4=Normalmente, essa opção não afeta a desempenho.
 
 of.options.CHUNK_LOADING=Carregamento de chunks
 of.options.CHUNK_LOADING.tooltip.1=Carregamento de chunks
 of.options.CHUNK_LOADING.tooltip.2=  Padrão - FPS instável quando os chunks carregam
 of.options.CHUNK_LOADING.tooltip.3=  Suave - FPS estável
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - FPS estável e carregamento 3x+ rápido
-of.options.CHUNK_LOADING.tooltip.5=A Suave e a Multi-Core tiram as truncagens (lag)
+of.options.CHUNK_LOADING.tooltip.5=A Suave e a Multi-Core reduzem o lag
 of.options.CHUNK_LOADING.tooltip.6=causado pelo carregamento de chunks.
 of.options.CHUNK_LOADING.tooltip.7=A Multi-Core pode aumentar em 3 vezes o carregamento
 of.options.CHUNK_LOADING.tooltip.8=e o FPS em algum valor usando um outro processador.
@@ -160,16 +160,16 @@ of.options.shaders.OLD_HAND_LIGHT=Iluminação da mão (antigo)
 of.options.shaders.OLD_LIGHTING=Antiga iluminação
 of.options.shaders.SHADER_PACK=Shader Pack
 
-of.options.shaders.shadersFolder=Pasta dos Shaders
-of.options.shaders.shaderOptions=Opções do Shader...
+of.options.shaders.shadersFolder=Pasta do Shaders
+of.options.shaders.shaderOptions=Opções do Shaders...
 
-of.options.shaderOptionsTitle=Opções do Shader
+of.options.shaderOptionsTitle=Opções do Shaders
 
 of.options.quality=Qualidade...
-of.options.qualityTitle=Confiigurações de Qualidade
+of.options.qualityTitle=Configurações de Qualidade
 
 of.options.details=Detalhes...
-of.options.detailsTitle=Configurações de Detalhe
+of.options.detailsTitle=Configurações de Detalhes
 
 of.options.performance=Desempenho...
 of.options.performanceTitle=Configurações de Desempenho
@@ -180,7 +180,7 @@ of.options.animationsTitle=Configurações de Animação
 of.options.other=Outras...
 of.options.otherTitle=Outras configurações
 
-of.options.other.reset=Reiniciar configurações de vídeo...
+of.options.other.reset=Restaurar configurações de vídeo...
 
 of.shaders.profile=Perfil
 
@@ -196,7 +196,7 @@ options.mipmapLevels.tooltip.2=melhores suavizando os detalhes das texturas
 options.mipmapLevels.tooltip.3=  Desl. - Nenhuma suavização
 options.mipmapLevels.tooltip.4=  1 - Mínima suavização
 options.mipmapLevels.tooltip.5=  4 - Máxima suavização
-options.mipmapLevels.tooltip.6=Essa opção não afeta o desempenho.
+options.mipmapLevels.tooltip.6=Esta opção não afeta o desempenho.
 
 of.options.MIPMAP_TYPE=Tipo de mipmap
 of.options.MIPMAP_TYPE.tooltip.1=Efeito visual que faz objetos longíquos parecerem
