@@ -328,6 +328,7 @@ uniform <type> centerDepthSmooth;               centerDepthSmooth = true
 /* SHADOWRES:1024 */                            shadowMapWidth = shadowMapHeight = 1024
 const int shadowMapResolution = 1024;           shadowMapWidth = shadowMapHeight = 1024
 /* SHADOWFOV:90.0 */                            shadowMapFov = 90
+const float shadowMapFov = 90.0;                shadowMapFov = 90
 /* SHADOWHPL:160.0 */                           shadowMapDistance = 160.0
 const float shadowDistance = 160.0f;            shadowMapDistance = 160.0
 const float shadowDistanceRenderMul = -1f;      shadowDistanceRenderMul = -1                               When > 0 enable shadow optimization (shadowRenderDistance = shadowDistance * shadowDistanceRenderMul)
