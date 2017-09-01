@@ -415,7 +415,7 @@ of.options.VIGNETTE.tooltip.3=  rápido - vinheta desativada (rápido)
 of.options.VIGNETTE.tooltip.4=  bonito - vinheta ativada (lento)
 of.options.VIGNETTE.tooltip.5=A vinheta pode ter um efeito significante na taxa de FPS,
 of.options.VIGNETTE.tooltip.6=especialmente quando em tela cheia.
-of.options.VIGNETTE.tooltip.7=O efeito da vinheta é muito sútil e pode ser
+of.options.VIGNETTE.tooltip.7=O efeito da vinheta é muito sutil e pode ser
 of.options.VIGNETTE.tooltip.8=facilmente desativado.
 
 of.options.DYNAMIC_FOV=FOV dinâmico
