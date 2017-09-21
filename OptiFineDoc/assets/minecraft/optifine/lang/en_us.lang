@@ -319,6 +319,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  OFF - default entity models, faster
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=The custom entity models are supplied by the current
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resource pack.
 
+of.options.CUSTOM_GUIS=Custom GUIs
+of.options.CUSTOM_GUIS.tooltip.1=Custom GUIs
+of.options.CUSTOM_GUIS.tooltip.2=  ON - custom GUIs (default), slower
+of.options.CUSTOM_GUIS.tooltip.3=  OFF - default GUIs, faster
+of.options.CUSTOM_GUIS.tooltip.4=The custom GUIs are supplied by the current resource pack.
+
 # Details
 
 of.options.CLOUDS=Clouds
