@@ -321,6 +321,7 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.5=
 of.options.CUSTOM_GUIS=Интерфейс
 of.options.CUSTOM_GUIS.tooltip.1=Пользовательский интерфейс
 of.options.CUSTOM_GUIS.tooltip.2=  Вкл - пользовательский интерфейс (по умолчанию)
+of.options.CUSTOM_GUIS.tooltip.3=  Выкл - стандартный интерфейс, быстрее
 of.options.CUSTOM_GUIS.tooltip.4=Предоставляется пакетами ресурсов.
 
 # Элементы игры
