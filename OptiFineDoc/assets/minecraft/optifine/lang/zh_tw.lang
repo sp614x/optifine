@@ -1,5 +1,5 @@
 # Contributors of Traditional Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2016-01-25
+#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2017-09-24
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi 2016-03-03 ---- 2017-06-07
 ##-------------- zh_TW ---------------
@@ -325,6 +325,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.2= 開啟 - 自定義實體模型(預設
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3= 關閉 - 原版實體模型，較快
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定義實體模型材質一般由
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=當前的資源包提供。
+
+of.options.CUSTOM_GUIS=自定義GUI
+of.options.CUSTOM_GUIS.tooltip.1=自定義GUI
+of.options.CUSTOM_GUIS.tooltip.2=  開啟 - 自定義GUI(預設)，較慢
+of.options.CUSTOM_GUIS.tooltip.3=  關閉 - 原版GUI，較快
+of.options.CUSTOM_GUIS.tooltip.4=自定義GUI由當前的資源包提供。
 
 # Details
 
