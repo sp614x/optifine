@@ -46,6 +46,14 @@ The space character is special. Its default width is 1/2 of the average of the w
 which makes the spacing between words match the overall width of the font. However you can override this the same way, 
 by setting width.32 to a custom value.
 
+Alpha Blending
+==============
+
+When enabled the font will use alpha blending
+
+  # Alpha blending
+  blend=<true|false>
+
 Reference
 =========
 https://bitbucket.org/prupe/mcpatcher/wiki/HD_Fonts

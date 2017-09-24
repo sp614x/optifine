@@ -39,7 +39,7 @@ Id  Name                         Render                                When not 
 11  gbuffers_damagedblock        damaged_blocks                        gbuffers_terrain
 12  gbuffers_water               translucent                           gbuffers_terrain
 13  gbuffers_block               block_entities                        gbuffers_terrain
-14  gbuffers_beaconbeam          <not used>                            gbuffers_textured
+14  gbuffers_beaconbeam          beacon beam                           gbuffers_textured
 15  gbuffers_item                <not used>                            gbuffers_textured_lit
 16  gbuffers_entities            entities                              gbuffers_textured_lit
 17  gbuffers_armor_glint         glint on armor, handheld items        gbuffers_textured
@@ -121,7 +121,7 @@ uniform ivec2 eyeBrightness;                    x = block brightness, y = sky br
 uniform ivec2 eyeBrightnessSmooth;              eyeBrightness smoothed with eyeBrightnessHalflife
 uniform ivec2 terrainTextureSize;               not used
 uniform int terrainIconSize;                    not used
-uniform int isEyeInWater;                       camera is underwater
+uniform int isEyeInWater;                       1 = camera is in water, 2 = camera is in lava
 uniform float nightVision;                      night vision (0.0-1.0)
 uniform float blindness;                        blindness (0.0-1.0)
 uniform float screenBrightness;                 screen brightness (0.0-1.0)
@@ -288,16 +288,17 @@ Block ID mapping
 The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
 Format "block.<id>=<block1> <block2> ..."
 The key is the substitute block ID, the value are the blocks which are to be replaced.
+Only one line per block ID is allowed.
 See "properties_files.txt" for the block matching rules.
 
   # Short format
-  block.31=red_flower yellow_flower
+  block.31=red_flower yellow_flower reeds
   # Long format
-  block.31=minecraft:red_flower ic2:nether_flower
+  block.32=minecraft:red_flower ic2:nether_flower botania:reeds
   # Properties
-  block.31=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip
+  block.33=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip botania:reeds:type=green
   # Block ID, Metadata (backwards compatibility)
-  block.31=38:6 38:7
+  block.34=38:6 38:7 83
 
 Fragment Shader Configuration
 =============================
@@ -327,6 +328,7 @@ uniform <type> centerDepthSmooth;               centerDepthSmooth = true
 /* SHADOWRES:1024 */                            shadowMapWidth = shadowMapHeight = 1024
 const int shadowMapResolution = 1024;           shadowMapWidth = shadowMapHeight = 1024
 /* SHADOWFOV:90.0 */                            shadowMapFov = 90
+const float shadowMapFov = 90.0;                shadowMapFov = 90
 /* SHADOWHPL:160.0 */                           shadowMapDistance = 160.0
 const float shadowDistance = 160.0f;            shadowMapDistance = 160.0
 const float shadowDistanceRenderMul = -1f;      shadowDistanceRenderMul = -1                               When > 0 enable shadow optimization (shadowRenderDistance = shadowDistance * shadowDistanceRenderMul)
@@ -408,26 +410,32 @@ Texture Formats
  RG16_SNORM
  RGB16_SNORM
  RGBA16_SNORM
-5. 32-bit float     
+5. 16-bit float
+ R16F
+ RG16F
+ RGB16F
+ RGBA16F
+6. 32-bit float     
  R32F
  RG32F
  RGB32F
  RGBA32F
-6. 32-bit integer
+7. 32-bit integer
  R32I
  RG32I
  RGB32I
  RGBA32I
-7. 32-bit unsigned integer 
+8. 32-bit unsigned integer 
  R32UI
  RG32UI
  RGB32UI
  RGBA32UI
-8. Mixed
+9. Mixed
  R3_G3_B2
  RGB5_A1
  RGB10_A2
  R11F_G11F_B10F
+ RGB9_E5
 
 Depth buffers
 =============
@@ -489,7 +497,17 @@ F. Driver
 G. OpenGL extensions
  Macros for the supported OpenGL extensions are named like the corresponding extension with a prefix "MC_".
  For example the macro "MC_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
- Only the macros which are referenced and supported are added to the shader file. 
+ Only the macros which are referenced and supported are added to the shader file.
+ 
+H. Options
+ #define MC_FXAA_LEVEL <value>       // When FXAA is enabled, values: 2, 4
+ #define MC_NORMAL_MAP               // When the normal map is enabled
+ #define MC_SPECULAR_MAP             // When the specular map is enabled
+ #define MC_RENDER_QUALITY <value>   // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
+ #define MC_SHADOW_QUALITY <value>   // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
+ #define MC_HAND_DEPTH <value>       // Values: 0.0625, 0.125, 0.25
+ #define MC_OLD_HAND_LIGHT           // When Old Hand Light is enabled
+ #define MC_OLD_LIGHTING             // When Old Lighting is enabled
 
 References
 ==========
