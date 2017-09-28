@@ -326,7 +326,7 @@ of.options.CUSTOM_GUIS=カスタムGUI
 of.options.CUSTOM_GUIS.tooltip.1=カスタムGUI
 of.options.CUSTOM_GUIS.tooltip.2=  オン - カスタムGUI（初期値），高負荷
 of.options.CUSTOM_GUIS.tooltip.3=  オフ - 通常のGUI，低負荷
-of.options.CUSTOM_GUIS.tooltip.4=カスタムエンティティモデルは現在使用中のリソースパックに依存します。
+of.options.CUSTOM_GUIS.tooltip.4=カスタムGUIは現在使用中のリソースパックに依存します。
 
 # Details
 
