@@ -316,10 +316,16 @@ of.options.CUSTOM_ITEMS.tooltip.5=
 
 of.options.CUSTOM_ENTITY_MODELS=Kohandatud olemimudelid
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Kohandatud olemimudelid
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  ON - kohandatud olemimudelid (vaikimisi), aeglane
-of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  OFF - vaikimisi olemimudelid, kiirem
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  SEES - kohandatud olemimudelid (vaikimisi), aeglane
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  VÄLJAS - vaikimisi olemimudelid, kiirem
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Kohandatud olemimudeleid pakub kasutatav ressursipakk.
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=
+
+of.options.CUSTOM_GUIS=Kohandatud liidesed
+of.options.CUSTOM_GUIS.tooltip.1=Kohandatud kasutajaliidesed
+of.options.CUSTOM_GUIS.tooltip.2=  SEES - kohandatud kasutajaliidesed (vaikimisi), aeglasem
+of.options.CUSTOM_GUIS.tooltip.3=  VÄLJAS - vaikimisi kasutajaliidesed, kiirem
+of.options.CUSTOM_GUIS.tooltip.4=Kohandatud kasutajaliideseid pakub kasutatav ressursipakk.
 
 # Details
 
