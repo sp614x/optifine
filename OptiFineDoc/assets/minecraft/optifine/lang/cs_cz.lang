@@ -319,6 +319,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  VYPNUTO - výchozí modely entit, ry
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Vlastní modely entit záleží na vybraném
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=balíčku zdrojů.
 
+of.options.CUSTOM_GUIS=Vlastní GUI
+of.options.CUSTOM_GUIS.tooltip.1=Vlastní uživatelské rozhraní
+of.options.CUSTOM_GUIS.tooltip.2=  ON - vlastní GUI (výchozí), pomalejší
+of.options.CUSTOM_GUIS.tooltip.3=  OFF - výchozí GUI, rychlejší
+of.options.CUSTOM_GUIS.tooltip.4=Vlastní GUI záleží na vybraném resource packu.
+
 # Detaily
 
 of.options.CLOUDS=Mraky
