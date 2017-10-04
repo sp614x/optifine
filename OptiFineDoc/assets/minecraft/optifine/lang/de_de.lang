@@ -593,7 +593,7 @@ of.options.SHOW_FPS.tooltip.2=  C: - Chunkrenderer
 of.options.SHOW_FPS.tooltip.3=  E: - Objektrenderer + Blockrenderer
 of.options.SHOW_FPS.tooltip.4=  U: - Chunk-Aktualisierungen
 of.options.SHOW_FPS.tooltip.5=Die Bildrate-Informationen werden nur gezeigt, wenn der
-of.options.SHOW_FPS.tooltip.6=Debugbildschirm (F3) sichtbar ist.
+of.options.SHOW_FPS.tooltip.6=Debugbildschirm (F3) nicht sichtbar ist.
 
 of.options.save.default=Standard (2s)
 of.options.save.20s=20s
