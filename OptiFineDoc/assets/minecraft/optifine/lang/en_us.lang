@@ -131,18 +131,6 @@ of.options.FOG_START.tooltip.2=  0.2 - the fog starts near the player
 of.options.FOG_START.tooltip.3=  0.8 - the fog starts far from the player
 of.options.FOG_START.tooltip.4=This option usually does not affect the performance.
 
-of.options.CHUNK_LOADING=Chunk Loading
-of.options.CHUNK_LOADING.tooltip.1=Chunk Loading
-of.options.CHUNK_LOADING.tooltip.2=  Default - unstable FPS when loading chunks
-of.options.CHUNK_LOADING.tooltip.3=  Smooth - stable FPS
-of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - stable FPS, 3x faster world loading
-of.options.CHUNK_LOADING.tooltip.5=Smooth and Multi-Core remove the stuttering and 
-of.options.CHUNK_LOADING.tooltip.6=freezes caused by chunk loading.
-of.options.CHUNK_LOADING.tooltip.7=Multi-Core can speed up 3x the world loading and
-of.options.CHUNK_LOADING.tooltip.8=increase FPS by using a second CPU core.
-of.options.chunkLoading.smooth=Smooth
-of.options.chunkLoading.multiCore=Multi-Core
-
 of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
 
