@@ -509,7 +509,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3=  An - Träges Server-Chunkladen (flüss
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Server-Chunkladen wird flüssiger, indem die Chunks über
 of.options.LAZY_CHUNK_LOADING.tooltip.5=ein paar Ticks hinweg geladen werden. Deaktiviere dies,
 of.options.LAZY_CHUNK_LOADING.tooltip.6=wenn Teile der Welt nicht korrekt geladen werden.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Nur für Einzelspielermodus und Ein-Kern-CPUs effektiv.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Nur im Einzelspielermodus effektiv.
 
 # Animations
 
@@ -593,7 +593,7 @@ of.options.SHOW_FPS.tooltip.2=  C: - Chunkrenderer
 of.options.SHOW_FPS.tooltip.3=  E: - Objektrenderer + Blockrenderer
 of.options.SHOW_FPS.tooltip.4=  U: - Chunk-Aktualisierungen
 of.options.SHOW_FPS.tooltip.5=Die Bildrate-Informationen werden nur gezeigt, wenn der
-of.options.SHOW_FPS.tooltip.6=Debugbildschirm (F3) sichtbar ist.
+of.options.SHOW_FPS.tooltip.6=Debugbildschirm (F3) nicht sichtbar ist.
 
 of.options.save.default=Standard (2s)
 of.options.save.20s=20s
