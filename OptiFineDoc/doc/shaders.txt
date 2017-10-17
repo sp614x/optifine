@@ -2,6 +2,7 @@ Overview
 ========
 The Shaders Mod makes use of a deferred rendering pipeline. 
 The gbuffer shaders come first in the pipeline. They render data to textures that will be sent to the composite shaders. 
+Optional deferred shaders can be added between terrain and water rendering.
 The composite shaders then render to textures that will be sent to the final shader. 
 The final shader renders directly to the screen.
 
@@ -58,6 +59,14 @@ Id  Name                         Render                                When not 
 30  shadow                       everything in shadow pass             <none>  
 31  shadow_solid                 <not used>                            shadow
 32  shadow_cutout                <not used>                            shadow
+33  deferred                     <deferred>                            <none>
+34  deferred1                    <deferred>                            <none>
+35  deferred2                    <deferred>                            <none>
+36  deferred3                    <deferred>                            <none>
+37  deferred4                    <deferred>                            <none>
+38  deferred5                    <deferred>                            <none>
+39  deferred6                    <deferred>                            <none>
+40  deferred7                    <deferred>                            <none>
 
 Bugs:
  - Programs gbuffers_terrain_solid, cutout and cutout_mip are not used
@@ -172,19 +181,19 @@ uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
 uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
-uniform sampler2D gaux1;                        7  <only as a custom texture>
-uniform sampler2D gaux2;                        8  <only as a custom texture>
-uniform sampler2D gaux3;                        9  <only as a custom texture>
-uniform sampler2D gaux4;                        10 <only as a custom texture>
+uniform sampler2D gaux1;                        7  <only as a custom texture or when deferred programs are available>
+uniform sampler2D gaux2;                        8  <only as a custom texture or when deferred programs are available>
+uniform sampler2D gaux3;                        9  <only as a custom texture or when deferred programs are available>
+uniform sampler2D gaux4;                        10 <only as a custom texture or when deferred programs are available>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
 uniform sampler2D noisetex;                     15
 
-Composite Uniforms
-==================
-Programs: composite, composite1, composite2, composite3, composite4, composite5, composite6, composite7, final 
-==================
+Composite and Deferred Uniforms
+===============================
+Programs: composite, composite1, composite2, composite3, composite4, composite5, composite6, composite7, final, deferred, deferred1, deferred2, deferred3, deferred4, deferred5, deferred6, deferred7
+===============================
 Source                                          Value                                                    
 =====================================================================================================================================================================
 uniform sampler2D gcolor;                       0
@@ -227,10 +236,10 @@ Id Name           Legacy name
 4  shadowtex0     shadow, watershadow 
 5  shadowtex1     shadow (when watershadow used)
 6  depthtex0
-7  gaux1          <only as a custom texture>
-8  gaux2          <only as a custom texture>
-9  gaux3          <only as a custom texture>
-10 gaux4          <only as a custom texture>
+7  gaux1          <only as a custom texture or when deferred programs are available>
+8  gaux2          <only as a custom texture or when deferred programs are available>
+9  gaux3          <only as a custom texture or when deferred programs are available>
+10 gaux4          <only as a custom texture or when deferred programs are available>
 12 depthtex1
 13 shadowcolor0   shadowcolor 
 14 shadowcolor1
@@ -254,8 +263,8 @@ Id Name           Legacy name
 14 shadowcolor1   
 15 noisetex
 
-Composite Textures
-==================
+Composite and Deferred Textures
+===============================
 Id Name           Legacy name
 ======================================
 0  colortex0      gcolor 
@@ -370,8 +379,8 @@ const int noiseTextureResolution = 256;         noiseTextureResolution = 256
 /* GAUX4FORMAT:RGB32F */                        buffersFormat[7] = GL_RGB32F
 /* GAUX4FORMAT:RGB16 */                         buffersFormat[7] = GL_RGB16
 const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Buffer Index" and "Texture Formats"
-const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" programs 
-const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" and "final"
+const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" and "deferred" programs 
+const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" , "deferred" and "final"
 /* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
 
 Draw Buffer Index 
