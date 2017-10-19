@@ -43,9 +43,9 @@ Id  Name                         Render                                When not 
 14  gbuffers_beaconbeam          beacon beam                           gbuffers_textured
 15  gbuffers_item                <not used>                            gbuffers_textured_lit
 16  gbuffers_entities            entities                              gbuffers_textured_lit
-17  gbuffers_armor_glint         glint on armor, handheld items        gbuffers_textured
+17  gbuffers_armor_glint         glint on armor and handheld items     gbuffers_textured
 18  gbuffers_spidereyes          eyes of spider, enderman and dragon   gbuffers_textured
-19  gbuffers_hand                hand in first person                  gbuffers_textured_lit
+19  gbuffers_hand                hand and opaque handheld objects      gbuffers_textured_lit
 20  gbuffers_weather             rain, snow                            gbuffers_textured_lit
 21  composite                    <composite>                           <none>
 22  composite1                   <composite>                           <none>
@@ -67,6 +67,7 @@ Id  Name                         Render                                When not 
 38  deferred5                    <deferred>                            <none>
 39  deferred6                    <deferred>                            <none>
 40  deferred7                    <deferred>                            <none>
+41  gbuffers_hand_water          translucent handheld objects          gbuffers_hand
 
 Bugs:
  - Programs gbuffers_terrain_solid, cutout and cutout_mip are not used
@@ -143,7 +144,7 @@ uniform int blockEntityId;                      block entity ID (block ID for th
 
 GBuffers Uniforms
 ================= 
-Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout_mip, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, weather)
+Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout_mip, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, hand_water, weather)
 ==================
 Source                                          Value                                                    
 =====================================================================================================================================================================
