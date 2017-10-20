@@ -296,6 +296,7 @@ attribute <type> at_tangent;                    useTangentAttrib = true
 Block ID mapping
 ================
 The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
+Forge mods may add custom block mapping as "assets/<modid>/shaders/block.properties" in the mod JAR file.
 Format "block.<id>=<block1> <block2> ..."
 The key is the substitute block ID, the value are the blocks which are to be replaced.
 Only one line per block ID is allowed.
