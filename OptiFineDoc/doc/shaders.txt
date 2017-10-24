@@ -10,12 +10,14 @@ Color Attachments
 =================
 The data is passed from shader to shader using color attachments. 
 There are at least 4 for all machines. For machines that can support it, there are 8. 
-In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
+In the deferred, composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
 (colortex0 to colortex7 can be used instead of gcolor, gdepth etc.)
 Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
 The rest have their color cleared to black with 0 alpha.
+Deferred and composite programs use ping-pong buffers to pipe the output of one program as input to the next one. 
+This allows them to read and write from and to the same buffer alias.
 
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
@@ -157,10 +159,10 @@ uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
 uniform sampler2D depthtex0;                    6
-uniform sampler2D gaux1;                        7  <only as a custom texture>
-uniform sampler2D gaux2;                        8  <only as a custom texture>
-uniform sampler2D gaux3;                        9  <only as a custom texture>
-uniform sampler2D gaux4;                        10 <only as a custom texture>
+uniform sampler2D gaux1;                        7  <custom texture or output from deferred programs>
+uniform sampler2D gaux2;                        8  <custom texture or output from deferred programs>
+uniform sampler2D gaux3;                        9  <custom texture or output from deferred programs>
+uniform sampler2D gaux4;                        10 <custom texture or output from deferred programs>
 uniform sampler2D depthtex1;                    12
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
@@ -182,10 +184,10 @@ uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
 uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
-uniform sampler2D gaux1;                        7  <only as a custom texture or when deferred programs are available>
-uniform sampler2D gaux2;                        8  <only as a custom texture or when deferred programs are available>
-uniform sampler2D gaux3;                        9  <only as a custom texture or when deferred programs are available>
-uniform sampler2D gaux4;                        10 <only as a custom texture or when deferred programs are available>
+uniform sampler2D gaux1;                        7  <custom texture>
+uniform sampler2D gaux2;                        8  <custom texture>
+uniform sampler2D gaux3;                        9  <custom texture>
+uniform sampler2D gaux4;                        10 <custom texture>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
@@ -237,10 +239,10 @@ Id Name           Legacy name
 4  shadowtex0     shadow, watershadow 
 5  shadowtex1     shadow (when watershadow used)
 6  depthtex0
-7  gaux1          <only as a custom texture or when deferred programs are available>
-8  gaux2          <only as a custom texture or when deferred programs are available>
-9  gaux3          <only as a custom texture or when deferred programs are available>
-10 gaux4          <only as a custom texture or when deferred programs are available>
+7  gaux1          <custom texture or output from deferred programs>
+8  gaux2          <custom texture or output from deferred programs>
+9  gaux3          <custom texture or output from deferred programs>
+10 gaux4          <custom texture or output from deferred programs>
 12 depthtex1
 13 shadowcolor0   shadowcolor 
 14 shadowcolor1
@@ -256,10 +258,10 @@ Id Name           Legacy name
 3  specular
 4  shadowtex0     shadow, watershadow        
 5  shadowtex1     shadow (when watershadow used)
-7  gaux1          <only as a custom texture>
-8  gaux2          <only as a custom texture>
-9  gaux3          <only as a custom texture>
-10 gaux4          <only as a custom texture>
+7  gaux1          <custom texture>
+8  gaux2          <custom texture>
+9  gaux3          <custom texture>
+10 gaux4          <custom texture>
 13 shadowcolor0   shadowcolor
 14 shadowcolor1   
 15 noisetex
@@ -525,3 +527,4 @@ References
  http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
  http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix
  http://www.minecraftforum.net/forums/search?by-author=karyonix&display-type=posts
+ http://www.seas.upenn.edu/~cis565/fbo.htm#feedback
