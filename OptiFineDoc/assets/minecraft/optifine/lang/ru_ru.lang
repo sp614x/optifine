@@ -540,7 +540,7 @@ of.options.SHOW_FPS.tooltip.2=  C: - отображаемые чанки
 of.options.SHOW_FPS.tooltip.3=  E: - отображаемые сущности + блоки-сущности
 of.options.SHOW_FPS.tooltip.4=  U: - обновление чанка
 of.options.SHOW_FPS.tooltip.5=Отображает компактную информацию о рендере, когда
-of.options.SHOW_FPS.tooltip.6=отключен экран отладки.
+of.options.SHOW_FPS.tooltip.6=отключён экран отладки.
 
 of.options.ADVANCED_TOOLTIPS=Расширен. подсказки
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Расширенные подсказки
