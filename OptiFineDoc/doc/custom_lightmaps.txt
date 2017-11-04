@@ -31,6 +31,13 @@ To create custom lighting, you will need a lightmap palette for each world:
     Overworld: assets/minecraft/mcpatcher/lightmap/world0.png
     The End: assets/minecraft/mcpatcher/lightmap/world1.png
 
+For the overworld you may also specify optional rain and thunder palettes:
+
+    Overworld rain: assets/minecraft/mcpatcher/lightmap/world0_rain.png
+    Overworld thunder: assets/minecraft/mcpatcher/lightmap/world0_thunder.png
+    
+The rain and thunder palettes are only active when the main world palette is defined.
+
 Each palette can be any width, but must be 32 or 64 pixels tall. If it's 64, the bottom half is used for nightvision, discussed later. 
 Of the 32 rows of pixels, the top 16 represent sunlight and the bottom 16 represent torchlight. 
 Two columns, 16 pixels from the top half and 16 pixels from the bottom half, are chosen to form the axes of the final 16x16 lightmap 
