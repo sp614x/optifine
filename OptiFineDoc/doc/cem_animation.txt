@@ -49,6 +49,8 @@
 # Constants
 #   floating point number
 #   pi - 3.1415926
+#   true
+#   false
 #
 # Variables
 #   <model>.<var> - model variable, see the model variable specification
@@ -64,25 +66,33 @@
 #
 # Operators
 #   +, -, *, /, %
+#   !, &&, || 
+#   >, >=, <, <=, ==, !=
 #
 # Functions
 #   sin(x)
 #   cos(x)
 #   tan(x)
 #   atan(x)
-#   atan2(y,x)
+#   atan2(y, x)
 #   torad(deg)
 #   todeg(rad)
-#   min(x,y)
-#   max(x,y)
-#   clamp(x,xmin,xmax)
+#   min(x, y)
+#   max(x, y)
+#   clamp(x, min, max)                             Limits a value to be between min and max values
 #   abs(x)
 #   floor(x)
 #   ceil(x)
 #   frac(x)
 #   round(x)
 #   sqrt(x)
-#   fmod(x,y) - similar to Math.floorMod()
+#   fmod(x, y)                                     Similar to Math.floorMod()
+#   if(cond, val, [cond2, val2, ...], val_else)    Select a value based one or more conditions
+#
+# Boolean functions                 
+#   between(x, min, max)                           Check if a value is between min and max values
+#   equals(x, y, epsilon)                          Compare two float values with error margin
+#   in(x, val1, val2, ...)                         Check if a value equals one of several values
 #
 #  Example:
 #    ...
@@ -91,7 +101,7 @@
 #      {
 #        "this.rx": "clamp(-0.5 * part.rx, 0, 90)",
 #        "this.tx": "3 * sin(limb_swing / 4) - 2",
-#        "this:Hoof.rx": "leg4:Hoof.rx / 2"
+#        "this:Hoof.rx": "if(leg4:Hoof.rx > 90, leg4:Hoof.rx - 90, 0)"
 #        ...
 #      }
 #    ]
