@@ -56,13 +56,41 @@
 #   <model>.<var> - model variable, see the model variable specification
 #   time - current world time in ticks
 #
-# Render variables (living entity)
+# Render parameters
 #   limb_swing - limb animation counter
 #   limb_speed - limb movement speed
 #   age - age in ticks
 #   head_yaw - head yaw
 #   head_pitch - head pitch
 #   scale - render scale, default is 0.0625
+#
+# Entity parameters (float)
+#   health
+#   hurt_time
+#   idle_time
+#   max_health
+#   move_forward
+#   move_strafing
+#   pos_x, pos_y, pos_z
+#   revenge_time
+#   swing_progress
+#
+# Entity parameters (boolean)
+#   is_alive
+#   is_burning
+#   is_child
+#   is_glowing
+#   is_hurt
+#   is_in_air
+#   is_in_lava
+#   is_in_water
+#   is_invisible
+#   is_on_ground
+#   is_ridden
+#   is_riding
+#   is_sneaking
+#   is_sprinting
+#   is_wet
 #
 # Operators
 #   +, -, *, /, %
