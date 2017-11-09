@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2017-09-29
+#   Regnander (_Spitz) 2016-01-18 ---- 2017-11-09
 
 # General
 of.general.ambiguous=tvetydig
@@ -60,14 +60,16 @@ of.options.renderDistance.short=Kort
 of.options.renderDistance.normal=Normalt
 of.options.renderDistance.far=Långt
 of.options.renderDistance.extreme=Extremt
+of.options.renderDistance.insane=Galet
+of.options.renderDistance.ludicrous=Löjligt
 
 options.renderDistance.tooltip.1=Synligt avstånd
 options.renderDistance.tooltip.2=   2 Litet - 32m (snabbast)
-options.renderDistance.tooltip.3=   4 Kort - 64m (snabbare)
-options.renderDistance.tooltip.4=   8 Normalt - 128m
-options.renderDistance.tooltip.5=  16 Långt - 256m (långsammare)
-options.renderDistance.tooltip.6=  32 Extremt - 512m (långsammast!)
-options.renderDistance.tooltip.7=Avståndet Extremt är mycket resurskrävande!
+options.renderDistance.tooltip.3=   8 Normalt - 128m (normalt)
+options.renderDistance.tooltip.4=  16 Långt - 256m (långsammare)
+options.renderDistance.tooltip.5=  32 Extremt - 512m (långsammast!) mycket resurskrävande
+options.renderDistance.tooltip.6=  48 Galet - 768m, behöver 2GB allokerat RAM
+options.renderDistance.tooltip.7=  64 Löjligt - 1024m, behöver 3GB allokerat RAM
 options.renderDistance.tooltip.8=Värden över 16 fungerar endast i lokala världar.
 
 options.ao.tooltip.1=Ljusutjämning
@@ -463,7 +465,7 @@ of.options.FAST_RENDER=Snabb rendering
 of.options.FAST_RENDER.tooltip.1=Snabb rendering
 of.options.FAST_RENDER.tooltip.2=  AV - standardrendering (standard)
 of.options.FAST_RENDER.tooltip.3=  PÅ - optimerad rendering (snabbare)
-of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som höjer
+of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som sänker
 of.options.FAST_RENDER.tooltip.5=grafikprocessorns läsninghastighet och kan höja
 of.options.FAST_RENDER.tooltip.6=bildfrekvensen avsevärt.
 
@@ -471,7 +473,7 @@ of.options.FAST_MATH=Snabb matematik
 of.options.FAST_MATH.tooltip.1=Snabb matematik
 of.options.FAST_MATH.tooltip.2=  AV - standardmatematik (standard)
 of.options.FAST_MATH.tooltip.3=  PÅ - snabbare matematik
-of.options.FAST_MATH.tooltip.4=Använder optimerade sin()- och cos()-funktioner för att
+of.options.FAST_MATH.tooltip.4=Använder optimerade sin()- och cos()-funktioner som kan
 of.options.FAST_MATH.tooltip.5=utnyttja processorcachen mer och höja bildfrekvensen.
 
 of.options.CHUNK_UPDATES=Chunkuppdateringar
@@ -494,10 +496,9 @@ of.options.LAZY_CHUNK_LOADING.tooltip.1=Slö chunkinläsning
 of.options.LAZY_CHUNK_LOADING.tooltip.2=  AV - standardinläsning på servrar
 of.options.LAZY_CHUNK_LOADING.tooltip.3=  PÅ - slö chunkinläsning på servrar (stabilare)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Jämnar ut den integrerade chunkläsningen för servern
-of.options.LAZY_CHUNK_LOADING.tooltip.5=genom att fördela chunkar över flera tickningar.
+of.options.LAZY_CHUNK_LOADING.tooltip.5=genom att fördela chunkarna över flera tickningar.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Inaktivera om delar av världen inte läser in på rätt sätt.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara i lokala världar och enkärniga
-of.options.LAZY_CHUNK_LOADING.tooltip.8=processorer.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara i lokala världar (enspelarläge).
 
 # Animations
 
