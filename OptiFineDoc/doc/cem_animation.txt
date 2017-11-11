@@ -49,12 +49,14 @@
 # Constants
 #   floating point number
 #   pi - 3.1415926
+#   true
+#   false
 #
 # Variables
 #   <model>.<var> - model variable, see the model variable specification
 #   time - current world time in ticks
 #
-# Render variables (living entity)
+# Render parameters
 #   limb_swing - limb animation counter
 #   limb_speed - limb movement speed
 #   age - age in ticks
@@ -62,27 +64,63 @@
 #   head_pitch - head pitch
 #   scale - render scale, default is 0.0625
 #
+# Entity parameters (float)
+#   health
+#   hurt_time
+#   idle_time
+#   max_health
+#   move_forward
+#   move_strafing
+#   pos_x, pos_y, pos_z
+#   revenge_time
+#   swing_progress
+#
+# Entity parameters (boolean)
+#   is_alive
+#   is_burning
+#   is_child
+#   is_glowing
+#   is_hurt
+#   is_in_air
+#   is_in_lava
+#   is_in_water
+#   is_invisible
+#   is_on_ground
+#   is_ridden
+#   is_riding
+#   is_sneaking
+#   is_sprinting
+#   is_wet
+#
 # Operators
 #   +, -, *, /, %
+#   !, &&, || 
+#   >, >=, <, <=, ==, !=
 #
 # Functions
 #   sin(x)
 #   cos(x)
 #   tan(x)
 #   atan(x)
-#   atan2(y,x)
+#   atan2(y, x)
 #   torad(deg)
 #   todeg(rad)
-#   min(x,y)
-#   max(x,y)
-#   clamp(x,xmin,xmax)
+#   min(x, y)
+#   max(x, y)
+#   clamp(x, min, max)                             Limits a value to be between min and max values
 #   abs(x)
 #   floor(x)
 #   ceil(x)
 #   frac(x)
 #   round(x)
 #   sqrt(x)
-#   fmod(x,y) - similar to Math.floorMod()
+#   fmod(x, y)                                     Similar to Math.floorMod()
+#   if(cond, val, [cond2, val2, ...], val_else)    Select a value based one or more conditions
+#
+# Boolean functions                 
+#   between(x, min, max)                           Check if a value is between min and max values
+#   equals(x, y, epsilon)                          Compare two float values with error margin
+#   in(x, val1, val2, ...)                         Check if a value equals one of several values
 #
 #  Example:
 #    ...
@@ -91,7 +129,7 @@
 #      {
 #        "this.rx": "clamp(-0.5 * part.rx, 0, 90)",
 #        "this.tx": "3 * sin(limb_swing / 4) - 2",
-#        "this:Hoof.rx": "leg4:Hoof.rx / 2"
+#        "this:Hoof.rx": "if(leg4:Hoof.rx > 90, leg4:Hoof.rx - 90, 0)"
 #        ...
 #      }
 #    ]

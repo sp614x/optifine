@@ -57,14 +57,16 @@ of.options.renderDistance.short=Short
 of.options.renderDistance.normal=Normal
 of.options.renderDistance.far=Far
 of.options.renderDistance.extreme=Extreme
+of.options.renderDistance.insane=Insane
+of.options.renderDistance.ludicrous=Ludicrous
 
 options.renderDistance.tooltip.1=Visible distance
 options.renderDistance.tooltip.2=  2 Tiny - 32m (fastest)
-options.renderDistance.tooltip.3=  4 Short - 64m (faster)
-options.renderDistance.tooltip.4=  8 Normal - 128m
-options.renderDistance.tooltip.5=  16 Far - 256m (slower)
-options.renderDistance.tooltip.6=  32 Extreme - 512m (slowest!)
-options.renderDistance.tooltip.7=The Extreme view distance is very resource demanding!
+options.renderDistance.tooltip.3=  8 Normal - 128m (normal)
+options.renderDistance.tooltip.4=  16 Far - 256m (slower)
+options.renderDistance.tooltip.5=  32 Extreme - 512m (slowest!) very resource demanding
+options.renderDistance.tooltip.6=  48 Insane - 768m, needs 2GB RAM allocated
+options.renderDistance.tooltip.7=  64 Ludicrous - 1024m, needs 3GB RAM allocated
 options.renderDistance.tooltip.8=Values over 16 Far are only effective in local worlds.
 
 options.ao.tooltip.1=Smooth lighting
@@ -319,6 +321,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  OFF - default entity models, faster
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=The custom entity models are supplied by the current
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resource pack.
 
+of.options.CUSTOM_GUIS=Custom GUIs
+of.options.CUSTOM_GUIS.tooltip.1=Custom GUIs
+of.options.CUSTOM_GUIS.tooltip.2=  ON - custom GUIs (default), slower
+of.options.CUSTOM_GUIS.tooltip.3=  OFF - default GUIs, faster
+of.options.CUSTOM_GUIS.tooltip.4=The custom GUIs are supplied by the current resource pack.
+
 # Details
 
 of.options.CLOUDS=Clouds
@@ -483,7 +491,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - lazy server chunk loading (smoothe
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Smooths the integrated server chunk loading by
 of.options.LAZY_CHUNK_LOADING.tooltip.5=distributing the chunks over several ticks.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Turn it OFF if parts of the world do not load correctly.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds and single-core CPU.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-player).
 
 # Animations
 

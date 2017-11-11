@@ -1,3 +1,7 @@
+# Contributors of Polish localization #
+#  Kamil7430 2016-03-14 -- 2017-03-12 #
+#  Puuska 2017.07.15 -- ?????         #
+
 # General
 of.general.ambiguous=dwuznaczny
 of.general.custom=Inny
@@ -42,6 +46,8 @@ of.message.shaders.loading=Wczytuję shadery: %s
 
 of.message.other.reset=Czy chcesz przywrócić wszystkie ustawienia graficzne do ich domyślnych wartości?
  
+of.message.loadingVisibleChunks=Wczytywanie widzialnych chunków
+
 # Video settings
 
 options.graphics.tooltip.1=Jakość grafiki
@@ -88,7 +94,7 @@ options.viewBobbing.tooltip.1=Bardziej realistyczne poruszanie się.
 options.viewBobbing.tooltip.2=Gdy uzywasz mipmap, wyłącz tę opcję, aby podwyższyć wydajność.
 
 options.guiScale.tooltip.1=Wielkość Interfejsu
-options.guiScale.tooltip.2=Mniejszy interfejs może podyższyć wydajność
+options.guiScale.tooltip.2=Mniejszy interfejs może podwyższyć wydajność
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Używa alternatywnej metody renderowania, która jest
@@ -409,10 +415,10 @@ of.options.VIGNETTE.tooltip.6=szczególnie przy grze na pełnym ekranie.
 of.options.VIGNETTE.tooltip.7=Efekt winiety jest subtelny i może być
 of.options.VIGNETTE.tooltip.8=bezproblemowo wyłączony.
 
-of.options.DYNAMIC_FOV=Dynamiczne FOV
+of.options.DYNAMIC_FOV=Dynamiczny FOV
 of.options.DYNAMIC_FOV.tooltip.1=Dynamiczne FOV
-of.options.DYNAMIC_FOV.tooltip.2=  Wł. - włącza dynamiczne FOV (domyślne)
-of.options.DYNAMIC_FOV.tooltip.3=  Wył. - wyłącza dynamiczne FOV
+of.options.DYNAMIC_FOV.tooltip.2=  Wł. - włącza dynamiczny FOV (domyślne)
+of.options.DYNAMIC_FOV.tooltip.3=  Wył. - wyłącza dynamiczny FOV
 of.options.DYNAMIC_FOV.tooltip.4=Zmienia pole widzenia (FOV), gdy latasz 
 of.options.DYNAMIC_FOV.tooltip.5=sprintujesz lub naciągasz łuk.
 
@@ -508,7 +514,7 @@ of.options.FIREWORK_PARTICLES=Cząsteczki fajerwerków
 of.options.LAGOMETER=Lagomierz
 of.options.LAGOMETER.tooltip.1=Pokazuje lagomierz na ekranie debugowania (F3).
 of.options.LAGOMETER.tooltip.2=* Pomarańczowy - Zajęta pamięć
-of.options.LAGOMETER.tooltip.3=* Cyan - Ticki
+of.options.LAGOMETER.tooltip.3=* Błękitny - Ticki
 of.options.LAGOMETER.tooltip.4=* Niebieski - Zaplanowane działania
 of.options.LAGOMETER.tooltip.5=* Fioletowy - Przesyłanie chunków
 of.options.LAGOMETER.tooltip.6=* Czerwony - Aktualizacje chunków
@@ -529,8 +535,8 @@ of.options.WEATHER.tooltip.3=  Wył. - pogoda jest nieaktywna, wyższa wydajnoś
 of.options.WEATHER.tooltip.4=Pogoda kontroluje słońce, deszcz i burzę.
 of.options.WEATHER.tooltip.5=Kontrola pogody jest aktywna tylko w trybie jednoosobowym.
 
-of.options.time.dayOnly=Jedynie dzień
-of.options.time.nightOnly=Jedynie noc
+of.options.time.dayOnly=Tylko dzień
+of.options.time.nightOnly=Tylko noc
 
 of.options.TIME=Czas
 of.options.TIME.tooltip.1=Ustawienia cyklu dnia i nocy

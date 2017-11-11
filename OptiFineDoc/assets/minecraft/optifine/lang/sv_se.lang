@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2017-01-25
+#   Regnander (_Spitz) 2016-01-18 ---- 2017-09-29
 
 # General
 of.general.ambiguous=tvetydig
@@ -44,6 +44,8 @@ of.message.openglError=§eOpenGL-fel§f: %s (%s)
 of.message.shaders.loading=Läser in shaders: %s
 
 of.message.other.reset=Återställ alla grafikinställningar till dess standardvärden?
+
+of.message.loadingVisibleChunks=Läser in synliga chunkar
  
 # Video settings
 
@@ -314,12 +316,19 @@ of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardtexturer för föremål, snabba
 of.options.CUSTOM_ITEMS.tooltip.4=Det anpassade föremålstexturerna tillhandahålls av det
 of.options.CUSTOM_ITEMS.tooltip.5=aktuella texturpaketet.
 
-of.options.CUSTOM_ENTITY_MODELS=Anpassade entitetsmodeller
+of.options.CUSTOM_ENTITY_MODELS=Anp. entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Anpassade entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  PÅ - anpassade entitetsmodeller (standard), långsamt
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  AV - standardentitetsmodeller, snabbare
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=De anpassade entitetsmodellerna tillhandahålls av det
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktuella resurspaketet.
+
+of.options.CUSTOM_GUIS=Anpassade gränssnitt
+of.options.CUSTOM_GUIS.tooltip.1=Anpassade gränssnitt
+of.options.CUSTOM_GUIS.tooltip.2=  PÅ - anpassade gränssnitt (standard), långsammare
+of.options.CUSTOM_GUIS.tooltip.3=  AV - standardgränssnitt, snabbare
+of.options.CUSTOM_GUIS.tooltip.4=De anpassade gränssnitten tillhandahålls av det
+of.options.CUSTOM_GUIS.tooltip.5=aktuella resurspaketet.
 
 # Details
 
@@ -389,11 +398,11 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Infotext för föremål
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  PÅ - visa infotext för hållna föremål (standard)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  AV - visa inte infotext för hållna föremål
 
-of.options.ADVANCED_TOOLTIPS=Avancerade verktygstips
-of.options.ADVANCED_TOOLTIPS.tooltip.1=Avancerade verktygstips
-of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - visa avancerade verktygstips
-of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - visa inte avancerade verktygstips (standard)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade verktygstips visar utvidgad information om
+of.options.ADVANCED_TOOLTIPS=Avancerade inforutor
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Avancerade inforutor
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - visa avancerade inforutor
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - visa inte avancerade inforutor (standard)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade inforutor visar utvidgad information om
 of.options.ADVANCED_TOOLTIPS.tooltip.5=föremål (id, hållbarhet) och shaderalternativ
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, källa, standardvärden).
 
