@@ -67,11 +67,11 @@ of.options.renderDistance.extreme=极限
 
 options.renderDistance.tooltip.1=能见度
 options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
-options.renderDistance.tooltip.3=  4 近 - 64m（较快）
-options.renderDistance.tooltip.4=  8 中等 - 128m
-options.renderDistance.tooltip.5=  16 远 - 256m（较慢）
-options.renderDistance.tooltip.6=  32 极限 - 512m（最慢！）
-options.renderDistance.tooltip.7=极限能见度非常消耗资源！
+options.renderDistance.tooltip.3=  8 中等 - 128m（正常）
+options.renderDistance.tooltip.4=  16 远 - 256m（较慢）
+options.renderDistance.tooltip.5=  32 极远 - 512m（最慢！）非常消耗资源！
+options.renderDistance.tooltip.6=  48 你没疯吧 - 768m，需要2G的内存分配
+options.renderDistance.tooltip.7=  64 别开玩笑 - 1024m，需要3G的内存分配
 options.renderDistance.tooltip.8=超过 16 的能见度值只在本地世界有效。
 
 options.ao.tooltip.1=平滑光照
@@ -496,7 +496,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= 开 - 缓慢的服务器区块载入（
 of.options.LAZY_CHUNK_LOADING.tooltip.4=将区块分布在多个“游戏刻”进行加载
 of.options.LAZY_CHUNK_LOADING.tooltip.5=从而平滑服务器整体区块加载。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正确地载入，请把它设置为关。
-of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于本地世界和单核CPU的电脑。
+of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于单玩家的本地世界。
 
 # Animations
 
