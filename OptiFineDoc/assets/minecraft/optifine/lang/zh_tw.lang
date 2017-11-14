@@ -66,11 +66,11 @@ of.options.renderDistance.extreme=最遠
 
 options.renderDistance.tooltip.1=視野
 options.renderDistance.tooltip.2= 2 最近 - 32m (最快)
-options.renderDistance.tooltip.3= 4 近 - 64m (較快)
-options.renderDistance.tooltip.4= 8 中等 - 128m
-options.renderDistance.tooltip.5= 16 遠 - 256m (較慢)
-options.renderDistance.tooltip.6= 32 最遠 - 512m (最慢!)
-options.renderDistance.tooltip.7=最遠的視野設定非常消耗資源!
+options.renderDistance.tooltip.3= 8 中等 - 128m (正常)
+options.renderDistance.tooltip.4= 16 遠 - 256m (較慢)
+options.renderDistance.tooltip.5= 32 最遠 - 512m (最慢!) 非常消耗資源!
+options.renderDistance.tooltip.6= 48 保持冷靜 - 768m, 需要記憶體分配2G的空間
+options.renderDistance.tooltip.7= 64 別開玩笑 - 1024m, 需要記憶體分配3G的空間
 options.renderDistance.tooltip.8= 16 以上的視野值只在本地世界有效。
 
 options.ao.tooltip.1=柔和化照明效果
@@ -496,7 +496,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= 開啟 - 平緩伺服器區塊載入(�
 of.options.LAZY_CHUNK_LOADING.tooltip.4=藉由將區塊分佈在多個ticks中讀取
 of.options.LAZY_CHUNK_LOADING.tooltip.5=來柔和化伺服器整體區塊載入。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=如果世界無法正確的載入，請把它關閉。
-of.options.LAZY_CHUNK_LOADING.tooltip.7=僅適用於本地世界和單核CPU的電腦。
+of.options.LAZY_CHUNK_LOADING.tooltip.7=僅適用於單玩家的本地世界。
 
 # Animations
 
