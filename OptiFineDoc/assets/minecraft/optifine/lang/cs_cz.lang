@@ -300,6 +300,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=Používá otočené a převrácené zákl
 of.options.NATURAL_TEXTURES.tooltip.7=textury bloků. Nastavení pro naturální textury
 of.options.NATURAL_TEXTURES.tooltip.8=je ovlivňováno vybraným balíčkem zdrojů.
 
+of.options.EMISSIVE_TEXTURES=Emisivní Textury
+of.options.EMISSIVE_TEXTURES.tooltip.1=Emisivní Textury
+of.options.EMISSIVE_TEXTURES.tooltip.2=  VYPNUTO - žádné emisivní textury (výchozí)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  ZAPNUTO - použít emisivní textury
+of.options.EMISSIVE_TEXTURES.tooltip.4=Emisivní textury jsou renderovány jako překrytí 
+of.options.EMISSIVE_TEXTURES.tooltip.5=(s maximální září) textur. Mohou být použity na simulování 
+of.options.EMISSIVE_TEXTURES.tooltip.6=ploch, které mají zářit na textuře bez překrytí.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Emisivní textury záleží na vybraném 
+of.options.EMISSIVE_TEXTURES.tooltip.8=balíčku zdrojů.
+
 of.options.CUSTOM_SKY=Vlastní Obloha
 of.options.CUSTOM_SKY.tooltip.1=Vlastní Obloha
 of.options.CUSTOM_SKY.tooltip.2=  ZAPNUTO - používá vlastní textury oblohy (výchozí), pomalejší
