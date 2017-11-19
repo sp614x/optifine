@@ -305,6 +305,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=方块的基础材质来创建材质变体
 of.options.NATURAL_TEXTURES.tooltip.7=天然纹理的配置和材质一般由
 of.options.NATURAL_TEXTURES.tooltip.8=当前的资源包提供。
 
+of.options.EMISSIVE_TEXTURES=光亮纹理
+of.options.EMISSIVE_TEXTURES.tooltip.1=光亮纹理
+of.options.EMISSIVE_TEXTURES.tooltip.2=  关 - 关闭光亮纹理（默认）
+of.options.EMISSIVE_TEXTURES.tooltip.3=  开 - 使用光亮纹理
+of.options.EMISSIVE_TEXTURES.tooltip.4=光亮纹理被渲染为拥有
+of.options.EMISSIVE_TEXTURES.tooltip.5=全亮度的覆盖层。可用于
+of.options.EMISSIVE_TEXTURES.tooltip.6=模仿原材质的发光部分。
+of.options.EMISSIVE_TEXTURES.tooltip.7=光亮纹理一般由
+of.options.EMISSIVE_TEXTURES.tooltip.8=当前的资源包提供。
+
 of.options.CUSTOM_SKY=自定义天空
 of.options.CUSTOM_SKY.tooltip.1=自定义天空
 of.options.CUSTOM_SKY.tooltip.2=  开 - 自定义天空材质（默认），较慢
