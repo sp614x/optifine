@@ -242,7 +242,7 @@ of.options.RANDOM_MOBS.tooltip.1=隨機生物
 of.options.RANDOM_MOBS.tooltip.2=  關閉 - 關閉隨機生物，較快
 of.options.RANDOM_MOBS.tooltip.3=  開啟 - 隨機生物，較慢
 of.options.RANDOM_MOBS.tooltip.4=遊戲中的生物、怪物材質使用隨機的貼圖。
-of.options.RANDOM_MOBS.tooltip.5=這需要資源包內有多個生物、怪物貼圖。
+of.options.RANDOM_MOBS.tooltip.5=需要資源包內有多個生物、怪物貼圖。
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
@@ -340,7 +340,7 @@ of.options.CUSTOM_GUIS=自定義GUI
 of.options.CUSTOM_GUIS.tooltip.1=自定義GUI
 of.options.CUSTOM_GUIS.tooltip.2=  開啟 - 自定義GUI(預設)，較慢
 of.options.CUSTOM_GUIS.tooltip.3=  關閉 - 原版GUI，較快
-of.options.CUSTOM_GUIS.tooltip.4=自定義GUI由當前的資源包提供。
+of.options.CUSTOM_GUIS.tooltip.4=自定義GUI一般由當前的資源包提供。
 
 # Details
 
