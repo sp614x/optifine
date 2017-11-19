@@ -304,10 +304,10 @@ of.options.EMISSIVE_TEXTURES=Emissive Textures
 of.options.EMISSIVE_TEXTURES.tooltip.1=Emissive Textures
 of.options.EMISSIVE_TEXTURES.tooltip.2=  OFF - no emissive textures (default)
 of.options.EMISSIVE_TEXTURES.tooltip.3=  ON - use emissive textures
-of.options.EMISSIVE_TEXTURES.tooltip.4=The emissive textures are rendered as overlways
-of.options.EMISSIVE_TEXTURES.tooltip.5=with full brightness. They can be used to simulate 
+of.options.EMISSIVE_TEXTURES.tooltip.4=The emissive textures are rendered as overlays
+of.options.EMISSIVE_TEXTURES.tooltip.5=with full brightness. They can be used to simulate
 of.options.EMISSIVE_TEXTURES.tooltip.6=light emitting parts of the base texture.
-of.options.EMISSIVE_TEXTURES.tooltip.7=The emissive textures are supplied by the current 
+of.options.EMISSIVE_TEXTURES.tooltip.7=The emissive textures are supplied by the current
 of.options.EMISSIVE_TEXTURES.tooltip.8=resource pack.
 
 of.options.CUSTOM_SKY=Custom Sky
