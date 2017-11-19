@@ -2,6 +2,7 @@ Overview
 ========
 The Shaders Mod makes use of a deferred rendering pipeline. 
 The gbuffer shaders come first in the pipeline. They render data to textures that will be sent to the composite shaders. 
+Optional deferred shaders can be added between terrain and water rendering.
 The composite shaders then render to textures that will be sent to the final shader. 
 The final shader renders directly to the screen.
 
@@ -9,12 +10,15 @@ Color Attachments
 =================
 The data is passed from shader to shader using color attachments. 
 There are at least 4 for all machines. For machines that can support it, there are 8. 
-In the composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
+In the deferred, composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
 (colortex0 to colortex7 can be used instead of gcolor, gdepth etc.)
 Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
 The rest have their color cleared to black with 0 alpha.
+Deferred and composite programs use ping-pong buffers to pipe the output of one program as input to the next one.
+When needed one last deferred or composite program may be added automatically to even out the flipped ping-pong buffers. 
+This allows them to read and write from and to the same buffer alias.
 
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
@@ -42,9 +46,9 @@ Id  Name                         Render                                When not 
 14  gbuffers_beaconbeam          beacon beam                           gbuffers_textured
 15  gbuffers_item                <not used>                            gbuffers_textured_lit
 16  gbuffers_entities            entities                              gbuffers_textured_lit
-17  gbuffers_armor_glint         glint on armor, handheld items        gbuffers_textured
+17  gbuffers_armor_glint         glint on armor and handheld items     gbuffers_textured
 18  gbuffers_spidereyes          eyes of spider, enderman and dragon   gbuffers_textured
-19  gbuffers_hand                hand in first person                  gbuffers_textured_lit
+19  gbuffers_hand                hand and opaque handheld objects      gbuffers_textured_lit
 20  gbuffers_weather             rain, snow                            gbuffers_textured_lit
 21  composite                    <composite>                           <none>
 22  composite1                   <composite>                           <none>
@@ -58,6 +62,17 @@ Id  Name                         Render                                When not 
 30  shadow                       everything in shadow pass             <none>  
 31  shadow_solid                 <not used>                            shadow
 32  shadow_cutout                <not used>                            shadow
+33  deferred                     <deferred>                            <none>
+34  deferred1                    <deferred>                            <none>
+35  deferred2                    <deferred>                            <none>
+36  deferred3                    <deferred>                            <none>
+37  deferred4                    <deferred>                            <none>
+38  deferred5                    <deferred>                            <none>
+39  deferred6                    <deferred>                            <none>
+40  deferred7                    <deferred>                            <none>
+41  gbuffers_hand_water          translucent handheld objects          gbuffers_hand
+42  deferred_last                <internal> restore ping-pong buffers  <none>
+43  composite_last               <internal> restore ping-pong buffers  <none>
 
 Bugs:
  - Programs gbuffers_terrain_solid, cutout and cutout_mip are not used
@@ -134,7 +149,7 @@ uniform int blockEntityId;                      block entity ID (block ID for th
 
 GBuffers Uniforms
 ================= 
-Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout_mip, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, weather)
+Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout_mip, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, hand_water, weather)
 ==================
 Source                                          Value                                                    
 =====================================================================================================================================================================
@@ -147,10 +162,10 @@ uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
 uniform sampler2D depthtex0;                    6
-uniform sampler2D gaux1;                        7  <only as a custom texture>
-uniform sampler2D gaux2;                        8  <only as a custom texture>
-uniform sampler2D gaux3;                        9  <only as a custom texture>
-uniform sampler2D gaux4;                        10 <only as a custom texture>
+uniform sampler2D gaux1;                        7  <custom texture or output from deferred programs>
+uniform sampler2D gaux2;                        8  <custom texture or output from deferred programs>
+uniform sampler2D gaux3;                        9  <custom texture or output from deferred programs>
+uniform sampler2D gaux4;                        10 <custom texture or output from deferred programs>
 uniform sampler2D depthtex1;                    12
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
@@ -172,19 +187,19 @@ uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
 uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
 uniform sampler2D shadowtex1;                   5
-uniform sampler2D gaux1;                        7  <only as a custom texture>
-uniform sampler2D gaux2;                        8  <only as a custom texture>
-uniform sampler2D gaux3;                        9  <only as a custom texture>
-uniform sampler2D gaux4;                        10 <only as a custom texture>
+uniform sampler2D gaux1;                        7  <custom texture>
+uniform sampler2D gaux2;                        8  <custom texture>
+uniform sampler2D gaux3;                        9  <custom texture>
+uniform sampler2D gaux4;                        10 <custom texture>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
 uniform sampler2D noisetex;                     15
 
-Composite Uniforms
-==================
-Programs: composite, composite1, composite2, composite3, composite4, composite5, composite6, composite7, final 
-==================
+Composite and Deferred Uniforms
+===============================
+Programs: composite, composite1, composite2, composite3, composite4, composite5, composite6, composite7, final, deferred, deferred1, deferred2, deferred3, deferred4, deferred5, deferred6, deferred7
+===============================
 Source                                          Value                                                    
 =====================================================================================================================================================================
 uniform sampler2D gcolor;                       0
@@ -227,10 +242,10 @@ Id Name           Legacy name
 4  shadowtex0     shadow, watershadow 
 5  shadowtex1     shadow (when watershadow used)
 6  depthtex0
-7  gaux1          <only as a custom texture>
-8  gaux2          <only as a custom texture>
-9  gaux3          <only as a custom texture>
-10 gaux4          <only as a custom texture>
+7  gaux1          <custom texture or output from deferred programs>
+8  gaux2          <custom texture or output from deferred programs>
+9  gaux3          <custom texture or output from deferred programs>
+10 gaux4          <custom texture or output from deferred programs>
 12 depthtex1
 13 shadowcolor0   shadowcolor 
 14 shadowcolor1
@@ -246,16 +261,16 @@ Id Name           Legacy name
 3  specular
 4  shadowtex0     shadow, watershadow        
 5  shadowtex1     shadow (when watershadow used)
-7  gaux1          <only as a custom texture>
-8  gaux2          <only as a custom texture>
-9  gaux3          <only as a custom texture>
-10 gaux4          <only as a custom texture>
+7  gaux1          <custom texture>
+8  gaux2          <custom texture>
+9  gaux3          <custom texture>
+10 gaux4          <custom texture>
 13 shadowcolor0   shadowcolor
 14 shadowcolor1   
 15 noisetex
 
-Composite Textures
-==================
+Composite and Deferred Textures
+===============================
 Id Name           Legacy name
 ======================================
 0  colortex0      gcolor 
@@ -286,6 +301,7 @@ attribute <type> at_tangent;                    useTangentAttrib = true
 Block ID mapping
 ================
 The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
+Forge mods may add custom block mapping as "assets/<modid>/shaders/block.properties" in the mod JAR file.
 Format "block.<id>=<block1> <block2> ..."
 The key is the substitute block ID, the value are the blocks which are to be replaced.
 Only one line per block ID is allowed.
@@ -370,8 +386,8 @@ const int noiseTextureResolution = 256;         noiseTextureResolution = 256
 /* GAUX4FORMAT:RGB32F */                        buffersFormat[7] = GL_RGB32F
 /* GAUX4FORMAT:RGB16 */                         buffersFormat[7] = GL_RGB16
 const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Buffer Index" and "Texture Formats"
-const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" programs 
-const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" and "final"
+const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" and "deferred" programs 
+const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" , "deferred" and "final"
 /* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
 
 Draw Buffer Index 
@@ -514,3 +530,4 @@ References
  http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29
  http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix
  http://www.minecraftforum.net/forums/search?by-author=karyonix&display-type=posts
+ http://www.seas.upenn.edu/~cis565/fbo.htm#feedback

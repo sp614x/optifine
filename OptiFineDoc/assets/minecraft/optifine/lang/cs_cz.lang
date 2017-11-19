@@ -57,14 +57,16 @@ of.options.renderDistance.short=Malý
 of.options.renderDistance.normal=Normální
 of.options.renderDistance.far=Velký
 of.options.renderDistance.extreme=Extrémní
-
+of.options.renderDistance.insane=Šílený
+of.options.renderDistance.ludicrous=Neuvěřitelný
+ 
 options.renderDistance.tooltip.1=Dohled
 options.renderDistance.tooltip.2=  2 Maličký - 32m (nejrychlejší)
-options.renderDistance.tooltip.3=  4 Malý - 64m (rychlejší)
-options.renderDistance.tooltip.4=  8 Normální - 128m
-options.renderDistance.tooltip.5=  16 Velký - 256m (pomalejší)
-options.renderDistance.tooltip.6=  32 Extrémní - 512m (nejpomalejší!)
-options.renderDistance.tooltip.7=Extrémní Viditelná vzdálenost je velmi výkonově náročná!
+options.renderDistance.tooltip.3=  8 Normální - 128m (normální)
+options.renderDistance.tooltip.4=  16 Velký - 256m (pomalejší)
+options.renderDistance.tooltip.5=  32 Extrémní - 512m (nejpomalejší!) velmi výkonově náročné
+options.renderDistance.tooltip.6=  48 Šílený - 768m, potřebuje 2 GB přidělené RAM
+options.renderDistance.tooltip.7=  64 Neuvěřitelný - 1024m,  potřebuje 3 GB přidělené RAM
 options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální světy.
 
 options.ao.tooltip.1=Vyhlazené osvětlení.
@@ -319,6 +321,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  VYPNUTO - výchozí modely entit, ry
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Vlastní modely entit záleží na vybraném
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=balíčku zdrojů.
 
+of.options.CUSTOM_GUIS=Vlastní GUI
+of.options.CUSTOM_GUIS.tooltip.1=Vlastní uživatelské rozhraní
+of.options.CUSTOM_GUIS.tooltip.2=  ON - vlastní GUI (výchozí), pomalejší
+of.options.CUSTOM_GUIS.tooltip.3=  OFF - výchozí GUI, rychlejší
+of.options.CUSTOM_GUIS.tooltip.4=Vlastní GUI záleží na vybraném resource packu.
+
 # Detaily
 
 of.options.CLOUDS=Mraky
@@ -483,7 +491,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= ZAPNUTO - pomalé načítání serverov
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Udělá plynulejší načítání chunků na integrovaném serveru
 of.options.LAZY_CHUNK_LOADING.tooltip.5=jejich rozdělováním na několik tiků.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Vypni to, pokud se některé části světa nenačtou správně.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektivní pouze pro lokální světy a 1-jádrové CPU.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektivní pouze pro lokální světy (single-player).
 
 # Animace
 

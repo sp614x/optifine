@@ -94,7 +94,7 @@ options.viewBobbing.tooltip.1=Bardziej realistyczne poruszanie się.
 options.viewBobbing.tooltip.2=Gdy uzywasz mipmap, wyłącz tę opcję, aby podwyższyć wydajność.
 
 options.guiScale.tooltip.1=Wielkość Interfejsu
-options.guiScale.tooltip.2=Mniejszy interfejs może podyższyć wydajność
+options.guiScale.tooltip.2=Mniejszy interfejs może podwyższyć wydajność
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Używa alternatywnej metody renderowania, która jest
