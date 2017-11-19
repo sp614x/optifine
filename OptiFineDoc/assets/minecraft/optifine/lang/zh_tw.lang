@@ -1,5 +1,5 @@
 # Contributors of Traditional Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2017-09-24
+#   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2017-11-19
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi 2016-03-03 ---- 2017-06-07
 ##-------------- zh_TW ---------------
@@ -297,13 +297,23 @@ of.options.CONNECTED_TEXTURES.tooltip.8=當前的資源包提供。
 
 of.options.NATURAL_TEXTURES=自然材質
 of.options.NATURAL_TEXTURES.tooltip.1=自然材質
-of.options.NATURAL_TEXTURES.tooltip.2= 開啟 - 關閉自然材質(預設)
-of.options.NATURAL_TEXTURES.tooltip.3= 關閉 - 使用自然材質
+of.options.NATURAL_TEXTURES.tooltip.2= 關閉 - 關閉自然材質(預設)
+of.options.NATURAL_TEXTURES.tooltip.3= 開啟 - 使用自然材質
 of.options.NATURAL_TEXTURES.tooltip.4=自然材質移除由同一類型的
 of.options.NATURAL_TEXTURES.tooltip.5=方塊重複產生的柵格狀圖案。
 of.options.NATURAL_TEXTURES.tooltip.6=它通過旋轉和翻轉方塊的基礎材質
 of.options.NATURAL_TEXTURES.tooltip.7=來產生材質變體。自然材質的配置和
 of.options.NATURAL_TEXTURES.tooltip.8=材質一般由當前的資源包提供。
+
+of.options.EMISSIVE_TEXTURES=光亮材質
+of.options.EMISSIVE_TEXTURES.tooltip.1=光亮材質
+of.options.EMISSIVE_TEXTURES.tooltip.2= 關閉 - 關閉光亮材質(預設)
+of.options.EMISSIVE_TEXTURES.tooltip.3= 開啟 - 使用光亮材質
+of.options.EMISSIVE_TEXTURES.tooltip.4=光亮材質被渲染為全亮度
+of.options.EMISSIVE_TEXTURES.tooltip.5=的覆蓋層。它們可以用來
+of.options.EMISSIVE_TEXTURES.tooltip.6=模擬基本材質的發光部分。
+of.options.EMISSIVE_TEXTURES.tooltip.7=光亮材質一般由
+of.options.EMISSIVE_TEXTURES.tooltip.8=當前的資源包提供。
 
 of.options.CUSTOM_SKY=自定義天空
 of.options.CUSTOM_SKY.tooltip.1=自定義天空
