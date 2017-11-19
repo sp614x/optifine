@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-9-24
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-11-19
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -311,7 +311,7 @@ of.options.EMISSIVE_TEXTURES.tooltip.2=  关 - 关闭光亮纹理（默认）
 of.options.EMISSIVE_TEXTURES.tooltip.3=  开 - 使用光亮纹理
 of.options.EMISSIVE_TEXTURES.tooltip.4=光亮纹理被渲染为拥有
 of.options.EMISSIVE_TEXTURES.tooltip.5=全亮度的覆盖层。可用于
-of.options.EMISSIVE_TEXTURES.tooltip.6=模仿原材质的发光部分。
+of.options.EMISSIVE_TEXTURES.tooltip.6=模拟原材质的发光部分。
 of.options.EMISSIVE_TEXTURES.tooltip.7=光亮纹理一般由
 of.options.EMISSIVE_TEXTURES.tooltip.8=当前的资源包提供。
 
