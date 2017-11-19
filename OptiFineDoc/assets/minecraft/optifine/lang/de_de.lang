@@ -309,7 +309,7 @@ of.options.EMISSIVE_TEXTURES.tooltip.2=  Aus - Keine lichtemittierenden Texturen
 of.options.EMISSIVE_TEXTURES.tooltip.3=  An - Lichtemittierende Texturen
 of.options.EMISSIVE_TEXTURES.tooltip.4=Die lichtemittierenden Texturen werden als Overlays mit
 of.options.EMISSIVE_TEXTURES.tooltip.5=voller Helligkeit gerendert. Dadurch können leuchtende
-of.options.EMISSIVE_TEXTURES.tooltip.6=Teile der Grund-Textur simuliert werden.
+of.options.EMISSIVE_TEXTURES.tooltip.6=Bereiche der Grund-Textur simuliert werden.
 of.options.EMISSIVE_TEXTURES.tooltip.7=Die lichtemittierendenTexturen werden aus den
 of.options.EMISSIVE_TEXTURES.tooltip.8=aktivierten Ressourcenpaketen geladen.
 
