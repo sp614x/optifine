@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 27-Oct-2017
+#	Jerozgen  01-Mar-2016 — 19-Nov-2017
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -295,9 +295,19 @@ of.options.NATURAL_TEXTURES.tooltip.2=  Выкл - без естественны
 of.options.NATURAL_TEXTURES.tooltip.3=  Вкл - использование естественных текстур
 of.options.NATURAL_TEXTURES.tooltip.4=Убирает повторяющиеся текстуры блоков и вместо
 of.options.NATURAL_TEXTURES.tooltip.5=них использует повёрнутые и отражённые варианты.
-of.options.NATURAL_TEXTURES.tooltip.6=Предоставляется пакетами ресурсов.
+of.options.NATURAL_TEXTURES.tooltip.6=Предоставляются пакетами ресурсов.
 of.options.NATURAL_TEXTURES.tooltip.7=
 of.options.NATURAL_TEXTURES.tooltip.8=
+
+of.options.EMISSIVE_TEXTURES=Светящиеся текстуры
+of.options.EMISSIVE_TEXTURES.tooltip.1=Светящиеся текстуры
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Выкл - без светящихся текстур (по умолчанию)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Вкл - использование светящихся текстур
+of.options.EMISSIVE_TEXTURES.tooltip.4=Светящиеся текстуры отображаются с полной яркостью.
+of.options.EMISSIVE_TEXTURES.tooltip.5=Их можно использовать для имитации светоизлучения 
+of.options.EMISSIVE_TEXTURES.tooltip.6=частей основной текстуры.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Предоставляются пакетами ресурсов.
+of.options.EMISSIVE_TEXTURES.tooltip.8=
 
 of.options.CUSTOM_SKY=Текстуры неба
 of.options.CUSTOM_SKY.tooltip.1=Пользовательские текстуры неба
