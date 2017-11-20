@@ -299,6 +299,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=Це використовує переве
 of.options.NATURAL_TEXTURES.tooltip.7=блока. Налаштування натуральних текстур
 of.options.NATURAL_TEXTURES.tooltip.8=надходить з обраного пакету текстур.
 
+of.options.EMISSIVE_TEXTURES=Випромінюючі текстури
+of.options.EMISSIVE_TEXTURES.tooltip.1=Випромінюючі текстури
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Увімк - використання випромінюючих текстур
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Вимк - без випромінюючих текстур
+of.options.EMISSIVE_TEXTURES.tooltip.4=Випрюмінюючі текстури завжди відображаються з повною яскравістю.
+of.options.EMISSIVE_TEXTURES.tooltip.5=Їх можно використовувати для імітації випромінювання світла
+of.options.EMISSIVE_TEXTURES.tooltip.6=частинами основної текстури.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Додається обраним ресурспаком.
+of.options.EMISSIVE_TEXTURES.tooltip.8=
+
 of.options.CUSTOM_SKY=Власне небо
 of.options.CUSTOM_SKY.tooltip.1=Власне небо
 of.options.CUSTOM_SKY.tooltip.2=  Увімк - власні текстури неба (базово), повільніше
