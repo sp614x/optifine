@@ -81,7 +81,6 @@
 #   is_child
 #   is_glowing
 #   is_hurt
-#   is_in_air
 #   is_in_lava
 #   is_in_water
 #   is_invisible
@@ -105,8 +104,8 @@
 #   atan2(y, x)
 #   torad(deg)
 #   todeg(rad)
-#   min(x, y)
-#   max(x, y)
+#   min(x, y ,...)
+#   max(x, y, ...)
 #   clamp(x, min, max)                             Limits a value to be between min and max values
 #   abs(x)
 #   floor(x)
