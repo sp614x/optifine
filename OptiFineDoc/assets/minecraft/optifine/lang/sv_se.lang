@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2017-11-09
+#   Regnander (_Spitz) 2016-01-18 ---- 2017-11-24
 
 # General
 of.general.ambiguous=tvetydig
@@ -214,7 +214,7 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilinjärt - finast utjämning (långsammast
 
 of.options.AA_LEVEL=Kantutjämning
 of.options.AA_LEVEL.tooltip.1=Kantutjämning
-of.options.AA_LEVEL.tooltip.2=  AV - (standard) ingen kantutjämning (snabbare)
+of.options.AA_LEVEL.tooltip.2=  AV - ingen kantutjämning (standard, snabbare)
 of.options.AA_LEVEL.tooltip.3=  2-16 - kantutjämnade linjer och kanter (långsammare)
 of.options.AA_LEVEL.tooltip.4=Kantutjämningen jämnar ur ojämna linjer och skarpa
 of.options.AA_LEVEL.tooltip.5=färgövergångar.
@@ -224,9 +224,9 @@ of.options.AA_LEVEL.tooltip.8=Kräver OMSTART!
 
 of.options.AF_LEVEL=Anisotropisk filtrering
 of.options.AF_LEVEL.tooltip.1=Anisotropisk filtrering
-of.options.AF_LEVEL.tooltip.2=  AV - (standard) standarddetaljer för texturer (snabbare)
+of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer för texturer (standard, snabbare)
 of.options.AF_LEVEL.tooltip.3=  2-16 - finare detaljer i mipmaptexturer (långsammare)
-of.options.AF_LEVEL.tooltip.4=Anisotropiska filtreringen återställer detaljer i
+of.options.AF_LEVEL.tooltip.4=Den anisotropiska filtreringen återställer detaljer i
 of.options.AF_LEVEL.tooltip.5=mipmaptexturer.
 of.options.AF_LEVEL.tooltip.6=Bildfrekvensen kan sjunka avsevärt när detta aktiveras.
 
@@ -291,7 +291,7 @@ of.options.CONNECTED_TEXTURES.tooltip.3=  Snabbt - snabba anslutande texturer
 of.options.CONNECTED_TEXTURES.tooltip.4=  Snyggt - snygga anslutande texturer
 of.options.CONNECTED_TEXTURES.tooltip.5=Anslutande texturer sammanfogar texturerna för glas,
 of.options.CONNECTED_TEXTURES.tooltip.6=sandsten och bokhyllor när de placeras intill varandra.
-of.options.CONNECTED_TEXTURES.tooltip.7=De anslutna texturerna tillhandahålls av det aktuella
+of.options.CONNECTED_TEXTURES.tooltip.7=De anslutande texturerna tillhandahålls av det aktuella
 of.options.CONNECTED_TEXTURES.tooltip.8=resurspaketet.
 
 of.options.NATURAL_TEXTURES=Naturliga texturer
@@ -303,6 +303,16 @@ of.options.NATURAL_TEXTURES.tooltip.5=skapas från upprepade block av samma typ.
 of.options.NATURAL_TEXTURES.tooltip.6=Den använder roterade och speglade varianter av den
 of.options.NATURAL_TEXTURES.tooltip.7=ursprungliga blocktexturen. Konfigurationen för naturliga
 of.options.NATURAL_TEXTURES.tooltip.8=texturer tillhandahålls av det aktuella resurspaketet.
+
+of.options.EMISSIVE_TEXTURES=Upplysta texturer
+of.options.EMISSIVE_TEXTURES.tooltip.1=Upplysta texturer
+of.options.EMISSIVE_TEXTURES.tooltip.2=  AV - inga upplysta texturer (standard)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  PÅ - använd upplysta texturer
+of.options.EMISSIVE_TEXTURES.tooltip.4=De upplysta texturerna renderas som ett överlägg med
+of.options.EMISSIVE_TEXTURES.tooltip.5=full ljusstyrka. De kan användas för att simulera
+of.options.EMISSIVE_TEXTURES.tooltip.6=belysta delar av grundtexturen.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Upplysta texturer tillhandahålls av det aktuella
+of.options.EMISSIVE_TEXTURES.tooltip.8=resurspaketet.
 
 of.options.CUSTOM_SKY=Anpassad himmel
 of.options.CUSTOM_SKY.tooltip.1=Anpassad himmel
@@ -404,7 +414,7 @@ of.options.ADVANCED_TOOLTIPS=Avancerade inforutor
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Avancerade inforutor
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - visa avancerade inforutor
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - visa inte avancerade inforutor (standard)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade inforutor visar utvidgad information om
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade inforutor visar ytterligare information om
 of.options.ADVANCED_TOOLTIPS.tooltip.5=föremål (id, hållbarhet) och shaderalternativ
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, källa, standardvärden).
 
