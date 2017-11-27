@@ -152,14 +152,83 @@ of.options.shaders.packNone=OFF
 of.options.shaders.packDefault=(internal)
 
 of.options.shaders.ANTIALIASING=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.2=  OFF - (default) no antialiasing (faster)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiased lines and edges (slower)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA is a post-procesing effect which smooths
+of.options.shaders.ANTIALIASING.tooltip.5=jagged lines and sharp color transitions.
+of.options.shaders.ANTIALIASING.tooltip.6=It is faster than traditional antialiasing
+of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders and Fast Render.  
+
 of.options.shaders.NORMAL_MAP=Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.2=  ON - (default) enable normal maps 
+of.options.shaders.NORMAL_MAP.tooltip.3=  OFF - disable normal maps
+of.options.shaders.NORMAL_MAP.tooltip.4=Normal maps can be used by the shader pack
+of.options.shaders.NORMAL_MAP.tooltip.5=to simulate 3D geometry on flat model surfaces.
+of.options.shaders.NORMAL_MAP.tooltip.6=The normal map textures are supplied by the
+of.options.shaders.NORMAL_MAP.tooltip.7=current resource pack.
+
 of.options.shaders.SPECULAR_MAP=Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.2=  ON - (default) enable specular maps
+of.options.shaders.SPECULAR_MAP.tooltip.3=  OFF - disable specular maps
+of.options.shaders.SPECULAR_MAP.tooltip.4=Specular maps can be used by the shader pack
+of.options.shaders.SPECULAR_MAP.tooltip.5=to simulate special reflection effects.
+of.options.shaders.SPECULAR_MAP.tooltip.6=The specular map textures are supplied by the
+of.options.shaders.SPECULAR_MAP.tooltip.7=current resource pack.
+
 of.options.shaders.RENDER_RES_MUL=Render Quality
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Render Quality
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - low (fastest)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (default)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - high (slowest)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Render quality controls the size of the texture 
+of.options.shaders.RENDER_RES_MUL.tooltip.6=that the shader pack is rendering to.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Lower values can be useful with 4K displays.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Higher values work as an antialiasing filter.
+
 of.options.shaders.SHADOW_RES_MUL=Shadow Quality
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Shadow Quality
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - low (fastest)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (default)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - high (slowest)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Shadow quality controls the size of the shadow map
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=texture used by the shader pack.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = unexact, coarser shadows.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Higher values = detailed, finer shadows.
+
 of.options.shaders.HAND_DEPTH_MUL=Hand Depth
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Hand Depth
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - hand near to the camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (default)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - hand far from the camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hand depth controls how far the handheld objects are
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=from the camera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For shader packs using depth blur this shoud change
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=the blurring of handheld objects.
+
 of.options.shaders.CLOUD_SHADOW=Cloud Shadow
+
 of.options.shaders.OLD_HAND_LIGHT=Old Hand Light
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Old Hand Light
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Default - controlled by the shader pack
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ON - use old handlight
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  OFF - use new handlight
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Old hand light allows shader packs which only  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognize light emitting items in the main hand 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=to also work with items in the off-hand.
+
 of.options.shaders.OLD_LIGHTING=Old Lighting
+of.options.shaders.OLD_LIGHTING.tooltip.1=Old Lighting
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Default - controlled by the shader pack
+of.options.shaders.OLD_LIGHTING.tooltip.3=  ON - use old lighting
+of.options.shaders.OLD_LIGHTING.tooltip.4=  OFF - do not use old lighting
+of.options.shaders.OLD_LIGHTING.tooltip.5=Old lighting controls the fixed lighting applied 
+of.options.shaders.OLD_LIGHTING.tooltip.6=by vanilla to the block sides. 
+of.options.shaders.OLD_LIGHTING.tooltip.7=Shader packs which use shadows usually provide 
+of.options.shaders.OLD_LIGHTING.tooltip.8=much better lighting depending on the sun position.
+
 of.options.shaders.SHADER_PACK=Shader Pack
 
 of.options.shaders.shadersFolder=Shaders Folder
