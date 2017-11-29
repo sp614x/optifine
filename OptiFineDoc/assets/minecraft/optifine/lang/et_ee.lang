@@ -302,6 +302,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=pööratud ja peegeldatud variante põhipl
 of.options.NATURAL_TEXTURES.tooltip.7=Naturaalsete tekstuuride konfiguratsiooni pakub
 of.options.NATURAL_TEXTURES.tooltip.8=kasutatav ressursipakk.
 
+of.options.EMISSIVE_TEXTURES=Kiirgavad tekstuurid
+of.options.EMISSIVE_TEXTURES.tooltip.1=Kiirgavad tekstuurid
+of.options.EMISSIVE_TEXTURES.tooltip.2=  OFF - kiirgavad tekstuurid puuduvad (vaikimisi)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  ON - kasuta kiirgavaid tekstuure
+of.options.EMISSIVE_TEXTURES.tooltip.4=Kiirgavad tekstuurid renderdatakse täisheledusega
+of.options.EMISSIVE_TEXTURES.tooltip.5=kuvatud ülekatetena. Neid saab kasutada, et simuleerida 
+of.options.EMISSIVE_TEXTURES.tooltip.6=baastekstuuri valgust eritavaid osi.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Kiirgavaid teksuure pakub kasutatav ressursipakk.
+of.options.EMISSIVE_TEXTURES.tooltip.8=
+
 of.options.CUSTOM_SKY=Kohandatud taevas
 of.options.CUSTOM_SKY.tooltip.1=Kohandatud taevas
 of.options.CUSTOM_SKY.tooltip.2=  SEES - kohandatud taevatekstuurid (vaikimisi), aeglane
