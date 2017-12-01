@@ -155,7 +155,7 @@ of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.2=  OFF - (default) no antialiasing (faster)
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiased lines and edges (slower)
-of.options.shaders.ANTIALIASING.tooltip.4=FXAA is a post-procesing effect which smooths
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA is a post-processing effect which smooths
 of.options.shaders.ANTIALIASING.tooltip.5=jagged lines and sharp color transitions.
 of.options.shaders.ANTIALIASING.tooltip.6=It is faster than traditional antialiasing
 of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders and Fast Render.  
@@ -205,7 +205,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (default)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - hand far from the camera
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hand depth controls how far the handheld objects are
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=from the camera.
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For shader packs using depth blur this shoud change
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For shader packs using depth blur this should change
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=the blurring of handheld objects.
 
 of.options.shaders.CLOUD_SHADOW=Cloud Shadow
