@@ -66,8 +66,8 @@ of.options.renderDistance.ludicrous=滑稽
 
 options.renderDistance.tooltip.1=描画距離
 options.renderDistance.tooltip.2=  2 最短 - 32m（最低負荷）
-+options.renderDistance.tooltip.3=  8 普通 - 128m（普通）
-+options.renderDistance.tooltip.4=  16 遠い - 256m（高負荷）
+options.renderDistance.tooltip.3=  8 普通 - 128m（普通）
+options.renderDistance.tooltip.4=  16 遠い - 256m（高負荷）
 options.renderDistance.tooltip.5=  32 過激 - 512m（超高負荷！） 大量のリソースを要求します
 options.renderDistance.tooltip.6=  48 狂気 - 768m， 2GBのメモリー割り当てが必要です
 options.renderDistance.tooltip.7=  64 滑稽 - 1024m， 3GBのメモリー割り当てが必要です
