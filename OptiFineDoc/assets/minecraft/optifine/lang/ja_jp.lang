@@ -372,14 +372,14 @@ of.options.NATURAL_TEXTURES.tooltip.6=基となるブロックのテクスチャ
 of.options.NATURAL_TEXTURES.tooltip.7=するのに用いられます。自然なテクスチャの設定は
 of.options.NATURAL_TEXTURES.tooltip.8=現在使用中のリソースパックに依存します。
 
-of.options.EMISSIVE_TEXTURES=発光テクスチャ
-of.options.EMISSIVE_TEXTURES.tooltip.1=発光テクスチャ
+of.options.EMISSIVE_TEXTURES=発光効果テクスチャ
+of.options.EMISSIVE_TEXTURES.tooltip.1=発光効果テクスチャ
 of.options.EMISSIVE_TEXTURES.tooltip.2=  オフ - 発光効果テクスチャを用いない（初期値）
-of.options.EMISSIVE_TEXTURES.tooltip.3=  オン - 発光テクスチャを用いる
-of.options.EMISSIVE_TEXTURES.tooltip.4=発光テクスチャは最大の明るさを持ったオーバーレイとして
+of.options.EMISSIVE_TEXTURES.tooltip.3=  オン - 発光効果テクスチャを用いる
+of.options.EMISSIVE_TEXTURES.tooltip.4=発光効果テクスチャは最大の明るさを持ったオーバーレイとして
 of.options.EMISSIVE_TEXTURES.tooltip.5=描画されます。また、基となるテクスチャの
 of.options.EMISSIVE_TEXTURES.tooltip.6=発光部分のシミュレーションにも用いられます。
-of.options.EMISSIVE_TEXTURES.tooltip.7=発光テクスチャは現在使用中の
+of.options.EMISSIVE_TEXTURES.tooltip.7=発光効果テクスチャは現在使用中の
 of.options.EMISSIVE_TEXTURES.tooltip.8=リソースパックに依存します。
 
 of.options.CUSTOM_SKY=カスタムスカイ
