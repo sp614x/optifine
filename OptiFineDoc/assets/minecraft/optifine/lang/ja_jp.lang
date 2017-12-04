@@ -313,7 +313,7 @@ of.options.RANDOM_MOBS.tooltip.5=複数のMobテクスチャを含むリソー�
 
 of.options.BETTER_GRASS=より良い芝生
 of.options.BETTER_GRASS.tooltip.1=より良い芝生
-of.options.BETTER_GRASS.tooltip.2=  オフ - 通常の側面のテクスチャを使用する 低負荷
+of.options.BETTER_GRASS.tooltip.2=  オフ - 通常の側面のテクスチャを用いる 低負荷
 of.options.BETTER_GRASS.tooltip.3=  処理優先 - 側面も草で覆う 高負荷
 of.options.BETTER_GRASS.tooltip.4=  描画優先 - 草ブロックと繋がるように側面を草で覆う 最高負荷
 
@@ -384,21 +384,21 @@ of.options.EMISSIVE_TEXTURES.tooltip.8=リソースパックに依存します�
 
 of.options.CUSTOM_SKY=カスタムスカイ
 of.options.CUSTOM_SKY.tooltip.1=カスタムスカイ
-of.options.CUSTOM_SKY.tooltip.2=  オン - カスタムスカイを使用する（初期値） 高負荷
+of.options.CUSTOM_SKY.tooltip.2=  オン - カスタムスカイを用いる（初期値） 高負荷
 of.options.CUSTOM_SKY.tooltip.3=  オフ - 通常の空 低負荷
 of.options.CUSTOM_SKY.tooltip.4=カスタムスカイ用のテクスチャは現在使用中の
 of.options.CUSTOM_SKY.tooltip.5=リソースパックに依存します。
 
 of.options.CUSTOM_ITEMS=カスタムアイテム
 of.options.CUSTOM_ITEMS.tooltip.1=カスタムアイテム
-of.options.CUSTOM_ITEMS.tooltip.2=  オン - カスタムアイテムを使用する（初期値） 高負荷
-of.options.CUSTOM_ITEMS.tooltip.3=  オフ - 通常のアイテムテクスチャを使用する 低負荷
+of.options.CUSTOM_ITEMS.tooltip.2=  オン - カスタムアイテムを用いる（初期値） 高負荷
+of.options.CUSTOM_ITEMS.tooltip.3=  オフ - 通常のアイテムテクスチャを用いる 低負荷
 of.options.CUSTOM_ITEMS.tooltip.4=カスタムアイテム用のテクスチャは現在使用中の
 of.options.CUSTOM_ITEMS.tooltip.5=リソースパックに依存します。
 
 of.options.CUSTOM_ENTITY_MODELS=カスタムエンティティモデル
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=カスタムエンティティモデル
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  オン - カスタムエンティティモデルを使用する（初期値）， 高負荷
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  オン - カスタムエンティティモデルを用いる（初期値）， 高負荷
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  オフ - 通常のエンティティモデル， 低負荷
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=カスタムエンティティモデルは現在使用中の
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=リソースパックに依存します。
