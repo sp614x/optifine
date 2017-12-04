@@ -99,6 +99,8 @@
 # Functions
 #   sin(x)
 #   cos(x)
+#   asin(x)
+#   acos(x)
 #   tan(x)
 #   atan(x)
 #   atan2(y, x)
