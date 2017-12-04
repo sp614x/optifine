@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-11-19
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-11-29
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -157,14 +157,83 @@ of.options.shaders.packNone=关闭
 of.options.shaders.packDefault=（内置）
 
 of.options.shaders.ANTIALIASING=抗锯齿
+of.options.shaders.ANTIALIASING.tooltip.1=抗锯齿
+of.options.shaders.ANTIALIASING.tooltip.2=  关 - （默认）不启用抗锯齿（较快）
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 线边抗锯齿处理（较慢）
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA是一种平滑锯齿线和
+of.options.shaders.ANTIALIASING.tooltip.5=鲜明色彩过渡的后处理特效。
+of.options.shaders.ANTIALIASING.tooltip.6=这比传统的抗锯齿处理更快捷，
+of.options.shaders.ANTIALIASING.tooltip.7=并且它与光影和快速渲染兼容。 
+
 of.options.shaders.NORMAL_MAP=法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.1=法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.2=  开 - （默认）启用法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.3=  关 - 禁用法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.4=光影包可以使用法线贴图在
+of.options.shaders.NORMAL_MAP.tooltip.5=平面模型表面内模拟三维几何结构。
+of.options.shaders.NORMAL_MAP.tooltip.6=法线贴图材质一般由
+of.options.shaders.NORMAL_MAP.tooltip.7=当前的资源包提供。
+
 of.options.shaders.SPECULAR_MAP=高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.1=高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.2=  开 - （默认）启用高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.3=  关 - 禁用高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.4=光影包可以使用高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.5=模拟特殊的反射效果。
+of.options.shaders.SPECULAR_MAP.tooltip.6=高光贴图材质一般由
+of.options.shaders.SPECULAR_MAP.tooltip.7=当前的资源包提供。
+
 of.options.shaders.RENDER_RES_MUL=渲染精细度
+of.options.shaders.RENDER_RES_MUL.tooltip.1=渲染精细度
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - 低（最快）
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 标准（默认）
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高（最慢）
+of.options.shaders.RENDER_RES_MUL.tooltip.5=渲染精细度控制光影包
+of.options.shaders.RENDER_RES_MUL.tooltip.6=当前渲染的材质大小。
+of.options.shaders.RENDER_RES_MUL.tooltip.7=较低的值可能对4K显示有益。
+of.options.shaders.RENDER_RES_MUL.tooltip.8=较高的值作为抗混叠滤波器工作。
+
 of.options.shaders.SHADOW_RES_MUL=阴影精细度
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=阴影精细度
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低（最快）
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 标准（默认）
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高（最慢）
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=阴影精细度控制光影包
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=使用的阴影映射贴图大小。
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=较低的值 = 不精确的、粗糙的阴影。
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=较高的值 = 细致的、更佳的阴影。
+
 of.options.shaders.HAND_DEPTH_MUL=手部景深
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手部景深
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - 手与镜头相距较近
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - （默认）
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - 手与镜头相距较远
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部景深控制手持的物品
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=和镜头相距多远。
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=对于使用模糊景深的光影包，
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=此选项应会改变手持物品的模糊程度。
+
 of.options.shaders.CLOUD_SHADOW=云朵阴影
+
 of.options.shaders.OLD_HAND_LIGHT=经典手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=经典手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  默认 - 光影包控制
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  开 - 使用经典手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  关 - 使用新式手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=经典手持光源允许只能辨别
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=主手持有发光物品的光影包
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=同样在另一只手上工作。
+
 of.options.shaders.OLD_LIGHTING=经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.1=经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.2=  默认 - 光影包控制
+of.options.shaders.OLD_LIGHTING.tooltip.3=  开 - 使用经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.4=  关 - 不使用经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.5=经典光效控制原版使用的
+of.options.shaders.OLD_LIGHTING.tooltip.6=方块各面固定照明。
+of.options.shaders.OLD_LIGHTING.tooltip.7=使用阴影的光影包通常会提供
+of.options.shaders.OLD_LIGHTING.tooltip.8=更好的、取决于太阳位置的照明。
+
 of.options.shaders.SHADER_PACK=光影包文件夹
 
 of.options.shaders.shadersFolder=光影包文件夹
