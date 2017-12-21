@@ -306,12 +306,12 @@ of.options.CLEAR_WATER.tooltip.1=清澈水体
 of.options.CLEAR_WATER.tooltip.2=  开 - 清澈、透明水体
 of.options.CLEAR_WATER.tooltip.3=  关 - 默认水体
 
-of.options.RANDOM_MOBS=随机生物
-of.options.RANDOM_MOBS.tooltip.1=随机生物材质
-of.options.RANDOM_MOBS.tooltip.2=  关 - 关闭随机生物材质，较快
-of.options.RANDOM_MOBS.tooltip.3=  开 - 随机生物材质，较慢
-of.options.RANDOM_MOBS.tooltip.4=游戏中的生物材质使用随机的贴图。
-of.options.RANDOM_MOBS.tooltip.5=需要资源包内有多个生物贴图。
+of.options.RANDOM_ENTITIES=随机生物
+of.options.RANDOM_ENTITIES.tooltip.1=随机生物材质
+of.options.RANDOM_ENTITIES.tooltip.2=  关 - 关闭随机生物材质，较快
+of.options.RANDOM_ENTITIES.tooltip.3=  开 - 随机生物材质，较慢
+of.options.RANDOM_ENTITIES.tooltip.4=游戏中的生物材质使用随机的贴图。
+of.options.RANDOM_ENTITIES.tooltip.5=需要资源包内有多个生物贴图。
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地

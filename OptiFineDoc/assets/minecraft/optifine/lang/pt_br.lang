@@ -234,12 +234,12 @@ of.options.CLEAR_WATER.tooltip.1=Água límpida
 of.options.CLEAR_WATER.tooltip.2=  Ligado - água clara e transparente
 of.options.CLEAR_WATER.tooltip.3=  Desligado - água normal
 
-of.options.RANDOM_MOBS=Mobs Aleatórios
-of.options.RANDOM_MOBS.tooltip.1=Mobs Aleatórios
-of.options.RANDOM_MOBS.tooltip.2=  Desligado - sem mobs aleatórios, rápido
-of.options.RANDOM_MOBS.tooltip.3=  Ligado - mobs aleatórios, lento
-of.options.RANDOM_MOBS.tooltip.4=Esta opção muda as texturas aleatórias dos mobs do jogo.
-of.options.RANDOM_MOBS.tooltip.5=É necessário uma textura com múltiplas texturas de mobs.
+of.options.RANDOM_ENTITIES=Mobs Aleatórios
+of.options.RANDOM_ENTITIES.tooltip.1=Mobs Aleatórios
+of.options.RANDOM_ENTITIES.tooltip.2=  Desligado - sem mobs aleatórios, rápido
+of.options.RANDOM_ENTITIES.tooltip.3=  Ligado - mobs aleatórios, lento
+of.options.RANDOM_ENTITIES.tooltip.4=Esta opção muda as texturas aleatórias dos mobs do jogo.
+of.options.RANDOM_ENTITIES.tooltip.5=É necessário uma textura com múltiplas texturas de mobs.
 
 of.options.BETTER_GRASS=Grama Suavizada
 of.options.BETTER_GRASS.tooltip.1=Grama Suavizada

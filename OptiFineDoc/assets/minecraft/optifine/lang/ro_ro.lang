@@ -232,12 +232,12 @@ of.options.CLEAR_WATER.tooltip.1=Apa Curata
 of.options.CLEAR_WATER.tooltip.2=  ACTIVAT - curat, apa transparenta
 of.options.CLEAR_WATER.tooltip.3=  DEZACTIVAT - apa implicita
 
-of.options.RANDOM_MOBS=Entitati Aleatoare
-of.options.RANDOM_MOBS.tooltip.1=Entitati Aleatoare
-of.options.RANDOM_MOBS.tooltip.2=  DEZACTIVAT - fara entitati aleatoare, rapid
-of.options.RANDOM_MOBS.tooltip.3=  ON - entitati aleatoare, lent
-of.options.RANDOM_MOBS.tooltip.4=Entitatile aleatoare foloseste texturi aleatoare pentru creaturile jocului.
-of.options.RANDOM_MOBS.tooltip.5=Este necesar de un pachet de resurse ce foloseste multiple texturi pentru entitati.
+of.options.RANDOM_ENTITIES=Entitati Aleatoare
+of.options.RANDOM_ENTITIES.tooltip.1=Entitati Aleatoare
+of.options.RANDOM_ENTITIES.tooltip.2=  DEZACTIVAT - fara entitati aleatoare, rapid
+of.options.RANDOM_ENTITIES.tooltip.3=  ON - entitati aleatoare, lent
+of.options.RANDOM_ENTITIES.tooltip.4=Entitatile aleatoare foloseste texturi aleatoare pentru creaturile jocului.
+of.options.RANDOM_ENTITIES.tooltip.5=Este necesar de un pachet de resurse ce foloseste multiple texturi pentru entitati.
 
 of.options.BETTER_GRASS=Gazon Imbunatatit
 of.options.BETTER_GRASS.tooltip.1=Gazon Imbunatatit

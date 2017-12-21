@@ -230,12 +230,12 @@ of.options.CLEAR_WATER.tooltip.1=Czysta woda
 of.options.CLEAR_WATER.tooltip.2=  Wł. - czysta, przezroczysta woda
 of.options.CLEAR_WATER.tooltip.3=  Wył. - domyślna woda
 
-of.options.RANDOM_MOBS=Losowe moby
-of.options.RANDOM_MOBS.tooltip.1=Losowe tekstury mobów
-of.options.RANDOM_MOBS.tooltip.2=  Wył. - brak losowych tekstur mobów, wyższa wydajność
-of.options.RANDOM_MOBS.tooltip.3=  Wł. - włączone losowe tekstury mobów, niższa wydajność
-of.options.RANDOM_MOBS.tooltip.4=Ta opcja używa losowych tekstur dla mobów w grze.
-of.options.RANDOM_MOBS.tooltip.5=Wymaga paczki tesktur z wieloma teksturami dla jednego moba.
+of.options.RANDOM_ENTITIES=Losowe moby
+of.options.RANDOM_ENTITIES.tooltip.1=Losowe tekstury mobów
+of.options.RANDOM_ENTITIES.tooltip.2=  Wył. - brak losowych tekstur mobów, wyższa wydajność
+of.options.RANDOM_ENTITIES.tooltip.3=  Wł. - włączone losowe tekstury mobów, niższa wydajność
+of.options.RANDOM_ENTITIES.tooltip.4=Ta opcja używa losowych tekstur dla mobów w grze.
+of.options.RANDOM_ENTITIES.tooltip.5=Wymaga paczki tesktur z wieloma teksturami dla jednego moba.
 
 of.options.BETTER_GRASS=Ładniejsza trawa
 of.options.BETTER_GRASS.tooltip.1=Ładniejsza trawa

@@ -303,12 +303,12 @@ of.options.CLEAR_WATER.tooltip.1=Selge vesi
 of.options.CLEAR_WATER.tooltip.2=  SEES - selge, läbipaistev vesi
 of.options.CLEAR_WATER.tooltip.3=  VÄLJAS - vaikimisi vesi
 
-of.options.RANDOM_MOBS=Juhuslikud elukad
-of.options.RANDOM_MOBS.tooltip.1=Juhuslikud elukad
-of.options.RANDOM_MOBS.tooltip.2=  VÄLJAS - juhuslikud elukad puuduvad, kiirem
-of.options.RANDOM_MOBS.tooltip.3=  SEES - juhuslikud elukad, aeglasem
-of.options.RANDOM_MOBS.tooltip.4=Juhuslikud elukad kasutab suvalisi tekstuure mängu olemitel.
-of.options.RANDOM_MOBS.tooltip.5=Vajab ressursipakki, millel on mitu elukatekstuuri.
+of.options.RANDOM_ENTITIES=Juhuslikud elukad
+of.options.RANDOM_ENTITIES.tooltip.1=Juhuslikud elukad
+of.options.RANDOM_ENTITIES.tooltip.2=  VÄLJAS - juhuslikud elukad puuduvad, kiirem
+of.options.RANDOM_ENTITIES.tooltip.3=  SEES - juhuslikud elukad, aeglasem
+of.options.RANDOM_ENTITIES.tooltip.4=Juhuslikud elukad kasutab suvalisi tekstuure mängu olemitel.
+of.options.RANDOM_ENTITIES.tooltip.5=Vajab ressursipakki, millel on mitu elukatekstuuri.
 
 of.options.BETTER_GRASS=Parem muru
 of.options.BETTER_GRASS.tooltip.1=Parem muru

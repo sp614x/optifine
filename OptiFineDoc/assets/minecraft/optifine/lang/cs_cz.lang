@@ -232,12 +232,12 @@ of.options.CLEAR_WATER.tooltip.1= Čistá Voda
 of.options.CLEAR_WATER.tooltip.2=  ZAPNUTO - čistá, průhledná voda
 of.options.CLEAR_WATER.tooltip.3=  VYPNUTO - výchozí voda
 
-of.options.RANDOM_MOBS=Náhodní Mobové
-of.options.RANDOM_MOBS.tooltip.1= Náhodní Mobové
-of.options.RANDOM_MOBS.tooltip.2=  VYPNUTO - žádní náhodní mobové, rychlejší
-of.options.RANDOM_MOBS.tooltip.3=  ZAPNUTO - náhodní mobové, pomalejší
-of.options.RANDOM_MOBS.tooltip.4=Funkce náhodní mobové používá náhodně textury pro moby ve hře.
-of.options.RANDOM_MOBS.tooltip.5=Vyžaduje balíček textur, který má více textur mobů.
+of.options.RANDOM_ENTITIES=Náhodní Mobové
+of.options.RANDOM_ENTITIES.tooltip.1= Náhodní Mobové
+of.options.RANDOM_ENTITIES.tooltip.2=  VYPNUTO - žádní náhodní mobové, rychlejší
+of.options.RANDOM_ENTITIES.tooltip.3=  ZAPNUTO - náhodní mobové, pomalejší
+of.options.RANDOM_ENTITIES.tooltip.4=Funkce náhodní mobové používá náhodně textury pro moby ve hře.
+of.options.RANDOM_ENTITIES.tooltip.5=Vyžaduje balíček textur, který má více textur mobů.
 
 of.options.BETTER_GRASS=Lepší Trávník
 of.options.BETTER_GRASS.tooltip.1=Lepší Trávník

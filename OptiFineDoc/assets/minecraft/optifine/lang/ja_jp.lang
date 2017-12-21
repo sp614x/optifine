@@ -304,12 +304,12 @@ of.options.CLEAR_WATER.tooltip.1=水の透過
 of.options.CLEAR_WATER.tooltip.2=  オン - すっきりとした透明な水
 of.options.CLEAR_WATER.tooltip.3=  オフ - 普通の水
 
-of.options.RANDOM_MOBS=Random Mobs
-of.options.RANDOM_MOBS.tooltip.1=Random Mobs
-of.options.RANDOM_MOBS.tooltip.2=  オフ - Mobにランダムなテクスチャを適応しない 低負荷
-of.options.RANDOM_MOBS.tooltip.3=  オン - Mobにランダムなテクスチャを適応する 高負荷
-of.options.RANDOM_MOBS.tooltip.4=Random mobsはランダムなテクスチャを生物に適用します。
-of.options.RANDOM_MOBS.tooltip.5=複数のMobテクスチャを含むリソースパックが必要です。
+of.options.RANDOM_ENTITIES=Random Mobs
+of.options.RANDOM_ENTITIES.tooltip.1=Random Mobs
+of.options.RANDOM_ENTITIES.tooltip.2=  オフ - Mobにランダムなテクスチャを適応しない 低負荷
+of.options.RANDOM_ENTITIES.tooltip.3=  オン - Mobにランダムなテクスチャを適応する 高負荷
+of.options.RANDOM_ENTITIES.tooltip.4=Random mobsはランダムなテクスチャを生物に適用します。
+of.options.RANDOM_ENTITIES.tooltip.5=複数のMobテクスチャを含むリソースパックが必要です。
 
 of.options.BETTER_GRASS=より良い芝生
 of.options.BETTER_GRASS.tooltip.1=より良い芝生

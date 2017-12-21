@@ -242,13 +242,13 @@ of.options.CLEAR_WATER.tooltip.1=Klares Wasser
 of.options.CLEAR_WATER.tooltip.2=  An - Klares, transparentes Wasser
 of.options.CLEAR_WATER.tooltip.3=  Aus - Normales Wasser
 
-of.options.RANDOM_MOBS=Kreaturvarianten
-of.options.RANDOM_MOBS.tooltip.1=Kreaturvarianten
-of.options.RANDOM_MOBS.tooltip.2=  Aus - Keine Kreaturvarianten, schneller
-of.options.RANDOM_MOBS.tooltip.3=  An - Keine Kreaturvarianten, langsamer
-of.options.RANDOM_MOBS.tooltip.4=Die gleichen Kreaturen können unterschiedliche Texturen
-of.options.RANDOM_MOBS.tooltip.5=haben. Dies benötigt ein Ressourcenpaket mit entspre-
-of.options.RANDOM_MOBS.tooltip.6=chenden Texturen.
+of.options.RANDOM_ENTITIES=Kreaturvarianten
+of.options.RANDOM_ENTITIES.tooltip.1=Kreaturvarianten
+of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Kreaturvarianten, schneller
+of.options.RANDOM_ENTITIES.tooltip.3=  An - Keine Kreaturvarianten, langsamer
+of.options.RANDOM_ENTITIES.tooltip.4=Die gleichen Kreaturen können unterschiedliche Texturen
+of.options.RANDOM_ENTITIES.tooltip.5=haben. Dies benötigt ein Ressourcenpaket mit entspre-
+of.options.RANDOM_ENTITIES.tooltip.6=chenden Texturen.
 
 of.options.BETTER_GRASS=Besseres Gras
 of.options.BETTER_GRASS.tooltip.1=Besseres Gras

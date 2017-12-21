@@ -237,12 +237,12 @@ of.options.CLEAR_WATER.tooltip.1=清澈水體
 of.options.CLEAR_WATER.tooltip.2= 開啟 - 清澈，透明水體
 of.options.CLEAR_WATER.tooltip.3= 關閉 - 預設水體
 
-of.options.RANDOM_MOBS=隨機生物
-of.options.RANDOM_MOBS.tooltip.1=隨機生物
-of.options.RANDOM_MOBS.tooltip.2=  關閉 - 關閉隨機生物，較快
-of.options.RANDOM_MOBS.tooltip.3=  開啟 - 隨機生物，較慢
-of.options.RANDOM_MOBS.tooltip.4=遊戲中的生物、怪物材質使用隨機的貼圖。
-of.options.RANDOM_MOBS.tooltip.5=需要資源包內有多個生物、怪物貼圖。
+of.options.RANDOM_ENTITIES=隨機生物
+of.options.RANDOM_ENTITIES.tooltip.1=隨機生物
+of.options.RANDOM_ENTITIES.tooltip.2=  關閉 - 關閉隨機生物，較快
+of.options.RANDOM_ENTITIES.tooltip.3=  開啟 - 隨機生物，較慢
+of.options.RANDOM_ENTITIES.tooltip.4=遊戲中的生物、怪物材質使用隨機的貼圖。
+of.options.RANDOM_ENTITIES.tooltip.5=需要資源包內有多個生物、怪物貼圖。
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地

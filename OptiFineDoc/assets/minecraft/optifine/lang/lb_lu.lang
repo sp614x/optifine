@@ -228,13 +228,13 @@ of.options.CLEAR_WATER.tooltip.1=Kloert Waasser
 of.options.CLEAR_WATER.tooltip.2=  Un - kloer, transparent Waasser
 of.options.CLEAR_WATER.tooltip.3=  Aus - normaalt Waasser
 
-of.options.RANDOM_MOBS=Zoufälleg Mobs
-of.options.RANDOM_MOBS.tooltip.1=Zoufälleg Mobs
-of.options.RANDOM_MOBS.tooltip.2=  Aus - keng zoufälleg Mobs, méi schnell
-of.options.RANDOM_MOBS.tooltip.3=  Un - zoufälleg Mobs, méi lues
-of.options.RANDOM_MOBS.tooltip.4=Zoufälleg Mobs benotzt zoufälleg Texture fir Kreaturen
-of.options.RANDOM_MOBS.tooltip.5=am Spill.
-of.options.RANDOM_MOBS.tooltip.6=Et braucht een ee Ressourcepak mat e puer Mobtexturen.
+of.options.RANDOM_ENTITIES=Zoufälleg Mobs
+of.options.RANDOM_ENTITIES.tooltip.1=Zoufälleg Mobs
+of.options.RANDOM_ENTITIES.tooltip.2=  Aus - keng zoufälleg Mobs, méi schnell
+of.options.RANDOM_ENTITIES.tooltip.3=  Un - zoufälleg Mobs, méi lues
+of.options.RANDOM_ENTITIES.tooltip.4=Zoufälleg Mobs benotzt zoufälleg Texture fir Kreaturen
+of.options.RANDOM_ENTITIES.tooltip.5=am Spill.
+of.options.RANDOM_ENTITIES.tooltip.6=Et braucht een ee Ressourcepak mat e puer Mobtexturen.
 
 of.options.BETTER_GRASS=Bessert Grass
 of.options.BETTER_GRASS.tooltip.1=Bessert Grass

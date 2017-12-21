@@ -299,12 +299,12 @@ of.options.CLEAR_WATER.tooltip.1=Очищенная вода
 of.options.CLEAR_WATER.tooltip.2=  Вкл - чистая, прозрачная вода
 of.options.CLEAR_WATER.tooltip.3=  Выкл - стандартная вода
 
-of.options.RANDOM_MOBS=Случайные мобы
-of.options.RANDOM_MOBS.tooltip.1=Случайные текстуры мобов
-of.options.RANDOM_MOBS.tooltip.2=  Выкл - случайные мобы отключены, быстрее
-of.options.RANDOM_MOBS.tooltip.3=  Вкл - случайные мобы включены, медленнее
-of.options.RANDOM_MOBS.tooltip.4=Используются случайные текстуры для мобов.
-of.options.RANDOM_MOBS.tooltip.5=Требуется пакет ресурсов, в котором они есть.
+of.options.RANDOM_ENTITIES=Случайные мобы
+of.options.RANDOM_ENTITIES.tooltip.1=Случайные текстуры мобов
+of.options.RANDOM_ENTITIES.tooltip.2=  Выкл - случайные мобы отключены, быстрее
+of.options.RANDOM_ENTITIES.tooltip.3=  Вкл - случайные мобы включены, медленнее
+of.options.RANDOM_ENTITIES.tooltip.4=Используются случайные текстуры для мобов.
+of.options.RANDOM_ENTITIES.tooltip.5=Требуется пакет ресурсов, в котором они есть.
 
 of.options.BETTER_GRASS=Улучшенный дёрн
 of.options.BETTER_GRASS.tooltip.1=Улучшенный дёрн

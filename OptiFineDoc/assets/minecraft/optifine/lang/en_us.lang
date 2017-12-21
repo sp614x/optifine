@@ -301,12 +301,12 @@ of.options.CLEAR_WATER.tooltip.1=Clear Water
 of.options.CLEAR_WATER.tooltip.2=  ON - clear, transparent water
 of.options.CLEAR_WATER.tooltip.3=  OFF - default water
 
-of.options.RANDOM_MOBS=Random Mobs
-of.options.RANDOM_MOBS.tooltip.1=Random Mobs
-of.options.RANDOM_MOBS.tooltip.2=  OFF - no random mobs, faster
-of.options.RANDOM_MOBS.tooltip.3=  ON - random mobs, slower
-of.options.RANDOM_MOBS.tooltip.4=Random mobs uses random textures for the game creatures.
-of.options.RANDOM_MOBS.tooltip.5=It needs a resource pack which has multiple mob textures.
+of.options.RANDOM_ENTITIES=Random Entities
+of.options.RANDOM_ENTITIES.tooltip.1=Random Entities
+of.options.RANDOM_ENTITIES.tooltip.2=  OFF - no random entities, faster
+of.options.RANDOM_ENTITIES.tooltip.3=  ON - random entities, slower
+of.options.RANDOM_ENTITIES.tooltip.4=Random entites uses random textures for the game entites.
+of.options.RANDOM_ENTITIES.tooltip.5=It needs a resource pack which has multiple entity textures.
 
 of.options.BETTER_GRASS=Better Grass
 of.options.BETTER_GRASS.tooltip.1=Better Grass
