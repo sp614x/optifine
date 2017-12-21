@@ -302,12 +302,12 @@ of.options.CLEAR_WATER.tooltip.1=Чиста вода
 of.options.CLEAR_WATER.tooltip.2=  Увімк - чиста, прозора вода
 of.options.CLEAR_WATER.tooltip.3=  Вимк - стандартна вода
 
-of.options.RANDOM_ENTITIES=Випадкові текстури мобів
-of.options.RANDOM_ENTITIES.tooltip.1=Випадкові текстури мобів
-of.options.RANDOM_ENTITIES.tooltip.2=  Вимк - одна текстура для моба, швидше
+of.options.RANDOM_ENTITIES=Випадкові текстури істот
+of.options.RANDOM_ENTITIES.tooltip.1=Випадкові текстури для істот
+of.options.RANDOM_ENTITIES.tooltip.2=  Вимк - лише одна текстура, швидше
 of.options.RANDOM_ENTITIES.tooltip.3=  Увімк - випадкові текстури, повільніше
-of.options.RANDOM_ENTITIES.tooltip.4=Випадкові текстури мобів використовує різні текстури для моба.
-of.options.RANDOM_ENTITIES.tooltip.5=Це потребує ресурспак з різними текстурами для одного моба.
+of.options.RANDOM_ENTITIES.tooltip.4=Ця функція дозволяє використовувати різні текстури для однієї істоти.
+of.options.RANDOM_ENTITIES.tooltip.5=Задається ресурспаком з різними текстурами для однієї істоти (моба).
 
 of.options.BETTER_GRASS=Краща трава
 of.options.BETTER_GRASS.tooltip.1=Краща трава
