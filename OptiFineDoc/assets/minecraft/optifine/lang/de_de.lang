@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2017-11-19
+#   TheHADILP 2016-5-20 ---- 2017-12-21
 
 # General
 of.general.ambiguous=Unklar
@@ -161,18 +161,88 @@ of.options.shaders.packNone=Aus
 of.options.shaders.packDefault=(Interner Shader-Effekt)
 
 of.options.shaders.ANTIALIASING=Antialiasing
-of.options.shaders.NORMAL_MAP=Normale Karte
-of.options.shaders.SPECULAR_MAP=Spiegelnde Karte
-of.options.shaders.RENDER_RES_MUL=Renderqualität
-of.options.shaders.SHADOW_RES_MUL=Schattenqualität
-of.options.shaders.HAND_DEPTH_MUL=Handtiefe
-of.options.shaders.CLOUD_SHADOW=Wolkenschatten
-of.options.shaders.OLD_HAND_LIGHT=Alte Handbel.
-of.options.shaders.OLD_LIGHTING=Alte Beleuchtung
-of.options.shaders.SHADER_PACK=Shaderpaket
+of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.2=  Aus - (Standard) kein Antialiasing (schneller)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - Geglättete Linien und Ränder (langsamer)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA ist ein Nachbearbeitungs-Effekt, der zackige
+of.options.shaders.ANTIALIASING.tooltip.5=Linien und harte Farbübergänge glättet.
+of.options.shaders.ANTIALIASING.tooltip.6=Dies ist schneller als herkömmliches Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.7=und kompatibel mit Shadern und schnellem Rendern.
 
-of.options.shaders.shadersFolder=Shader-Effekt-Ordner
-of.options.shaders.shaderOptions=Shadereinstellung ...
+of.options.shaders.NORMAL_MAP=Normale Karten
+of.options.shaders.NORMAL_MAP.tooltip.1=Normale Karten
+of.options.shaders.NORMAL_MAP.tooltip.2=  An - (Standard) Normale Karten aktiviert
+of.options.shaders.NORMAL_MAP.tooltip.3=  Aus - Normale Karten deaktiviert
+of.options.shaders.NORMAL_MAP.tooltip.4=Normale Karten können von Shader-Paketen verwendet
+of.options.shaders.NORMAL_MAP.tooltip.5=werden, um 3D-Geometrie auf flachen Oberflächen zu
+of.options.shaders.NORMAL_MAP.tooltip.6=simulieren.
+of.options.shaders.NORMAL_MAP.tooltip.7=Die normalen Karten werden vom aktivierten
+of.options.shaders.NORMAL_MAP.tooltip.8=Ressourcenpaket zur Verfügung gestellt.
+
+of.options.shaders.SPECULAR_MAP=Spiegelnde Karten
+of.options.shaders.SPECULAR_MAP.tooltip.1=Spiegelnde Karten
+of.options.shaders.SPECULAR_MAP.tooltip.2=  An - (Standard) Spiegelnde Karten aktiviert
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Aus - Spiegelnde Karten deaktiviert
+of.options.shaders.SPECULAR_MAP.tooltip.4=Spiegelnde Karten können von Shader-Paketen verwendet
+of.options.shaders.SPECULAR_MAP.tooltip.5=werden, um spezielle Reflexionseffekte zu erzeugen.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Die spiegelnden Karten werden vom aktivierten
+of.options.shaders.SPECULAR_MAP.tooltip.7=Ressourcenpaket zur Verfügung gestellt.
+
+of.options.shaders.RENDER_RES_MUL=Renderqualität
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Renderqualität
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - Niedrig (am schnellsten)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - Standard
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - Hoch (am langsamsten)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Die Renderqualität regelt die Auflösung der Textur,
+of.options.shaders.RENDER_RES_MUL.tooltip.6=auf welcher die Shader gerendert werden.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Niedrigere Werte können bei 4K-Monitoren nützlich sein.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Höhere Werte arbeiten wie ein Antialiasing-Filter.
+
+of.options.shaders.SHADOW_RES_MUL=Schattenqualität
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Schattenqualität
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - Niedrig (am schnellsten)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - Standard
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - Hoch (am langsamsten)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Die Schattenqualität regelt die Auflösung der Schatten-
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=Karten Textur des benutzten Shader-Pakets.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Niedrigere Werte = Ungenaue, grobe Schatten.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Höhere Werte = Detaillierte, feine Schatten.
+
+of.options.shaders.HAND_DEPTH_MUL=Handtiefe
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Handtiefe
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - Hand in Kamera-Nähe
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (Standard)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - Hand weiter von der Kamera entfernt
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Die Handtiefe steuert, wie weit Gegenstände von
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=der Kamera entfernt sind.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Für Shader-Pakete mit Tiefenunschärfe regelt dies
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=die Unschärfe der tragbaren Gegenstände.
+
+of.options.shaders.CLOUD_SHADOW=Wolkenschatten
+
+of.options.shaders.OLD_HAND_LIGHT=Alte Handbel.
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Alte Handbeleuchtung
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Standard - gesteuert vom Shader-Paket
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  An - Alte Handbeleuchtung aktiviert
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Aus - Alte Handbeleuchtung deaktiviert
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Die alte Handbeleuchtung sorgt dafür, dass leuchtende
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=Gegenstände bei alten Shader-Paketen sowohl in der
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=Haupt-, als auch der Nebenhand erkannt werden.
+
+of.options.shaders.OLD_LIGHTING=Alte Bel.
+of.options.shaders.OLD_LIGHTING.tooltip.1=Alte Beleuchtung
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Standard - gesteuert vom Shader-Paket
+of.options.shaders.OLD_LIGHTING.tooltip.3=  An - Alte Beleuchtung aktiviert
+of.options.shaders.OLD_LIGHTING.tooltip.4=  Aus - Alte Beleuchtung deaktiviert
+of.options.shaders.OLD_LIGHTING.tooltip.5=Die alte Beleuchtung steuert die starre "Vanilla"
+of.options.shaders.OLD_LIGHTING.tooltip.6=Beleuchtung der Block-Seiten.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Shader-Pakete mit Schatten variierend nach Sonnenstand
+of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Beleuchtung zur Verfügung.
+
+of.options.shaders.SHADER_PACK=Shader-Paket
+
+of.options.shaders.shadersFolder=Shader-Paket-Ordner
+of.options.shaders.shaderOptions=Shadereinstellungen ...
 
 of.options.shaderOptionsTitle=Shader-Effekte
 
