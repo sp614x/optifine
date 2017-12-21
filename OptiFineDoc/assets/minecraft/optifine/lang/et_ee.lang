@@ -154,14 +154,83 @@ of.options.shaders.packNone=VÄLJAS
 of.options.shaders.packDefault=(sisemised)
 
 of.options.shaders.ANTIALIASING=Anti-aliasing
+of.options.shaders.ANTIALIASING.tooltip.1=Anti-aliasing
+of.options.shaders.ANTIALIASING.tooltip.2=  VÄLJAS - (vaikimisi) anti-aliasing puudub (kiirem)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - anti-alias'etud jooned ja ääred (aeglasem)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA on järeltöötluse efekt, mis silub
+of.options.shaders.ANTIALIASING.tooltip.5=sakilised jooned ja teravad värviüleminekud.
+of.options.shaders.ANTIALIASING.tooltip.6=See on traditsioonilisest anti-aliasing'ust kiirem
+of.options.shaders.ANTIALIASING.tooltip.7=ning ühildub nii varjutajate kui ka kiire renderdusega.
+
 of.options.shaders.NORMAL_MAP=Tavaline kaart
+of.options.shaders.NORMAL_MAP.tooltip.1=Tavaline kaart
+of.options.shaders.NORMAL_MAP.tooltip.2=  SEES - (vaikimisi) luba tavalised kaardid
+of.options.shaders.NORMAL_MAP.tooltip.3=  VÄLJAS - keela tavalised kaardid
+of.options.shaders.NORMAL_MAP.tooltip.4=Tavalisi kaarte saab varjutajatepakk kasutada,
+of.options.shaders.NORMAL_MAP.tooltip.5=simuleerimaks 3D geomeetriat siledatel mudelipindadel.
+of.options.shaders.NORMAL_MAP.tooltip.6=Tavalise kaardi tekstuure pakub kasutatav ressursipakk.
+of.options.shaders.NORMAL_MAP.tooltip.7=
+
 of.options.shaders.SPECULAR_MAP=Peegelduv kaart
+of.options.shaders.SPECULAR_MAP.tooltip.1=Peegelduv kaart
+of.options.shaders.SPECULAR_MAP.tooltip.2=  SEES - (vaikimisi) luba peegelduvad kaardid
+of.options.shaders.SPECULAR_MAP.tooltip.3=  VÄLJAS - keela peegelduvad kaardid
+of.options.shaders.SPECULAR_MAP.tooltip.4=Peegelduvaid kaarte saab varjutajatepakk kasutada,
+of.options.shaders.SPECULAR_MAP.tooltip.5=simuleerimaks erilisi peegeldusefekte.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Peegelduva kaardi tekstuure pakub kasutatav ressursipakk.
+of.options.shaders.SPECULAR_MAP.tooltip.7=
+
 of.options.shaders.RENDER_RES_MUL=Renderduskvaliteet
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Renderduskvaliteet
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - madal (kiireim)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (vaikimisi)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - kõrge (aeglaseim)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Renderduskvaliteet juhib varjutajatepaki renderdavate
+of.options.shaders.RENDER_RES_MUL.tooltip.6=tekstuuride suurust.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Madalamad väärtused on kasulikud 4K ekraanidel.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Kõrgemad väärtused töötavad anti-aliasing filtrina.
+
 of.options.shaders.SHADOW_RES_MUL=Varjukvaliteet
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Varjukvaliteet
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - madal (kiireim)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (vaikimisi)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - kõrge (aeglaseim)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Varjukvaliteet juhib varjutajatepaki varjukaardi
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=tekstuuri suurust.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Madalamad väärtused = ebatäpsed, karedad varjud.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Kõrgemad väärtused = detailsed, peenemad varjud.
+
 of.options.shaders.HAND_DEPTH_MUL=Käesügavus
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Käesügavus
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - käsi kaamera lähedal
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (vaikimisi)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - käsi kaamerast kaugel
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Käesügavus juhib, kui kaugel kaamerast on
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=käeshoitavad esemed.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Varjutajapakkidel, mis kasutavad sügavusudu, peaks
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=see muutma käes hoitavate objektide hägusust.
+
 of.options.shaders.CLOUD_SHADOW=Pilvevari
+
 of.options.shaders.OLD_HAND_LIGHT=Vana käevalgustus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Vana käevalgustus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Vaikimisi - juhitud varjutajapaki poolt
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  SEES - kasuta vana käevalgustust
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  VÄLJAS - kasuta uut käevalgustust
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Vana käevalgustus lubab varjutajapakkidel,  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=mis tuvastavad valgust eritavaid esemeid ainult
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=peamisel käel töötada ka teisasel käel.
+
 of.options.shaders.OLD_LIGHTING=Vana valgustus
+of.options.shaders.OLD_LIGHTING.tooltip.1=Vana valgustus
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Vaikimisi - juhitud varjutajapaki poolt
+of.options.shaders.OLD_LIGHTING.tooltip.3=  SEES - kasuta vana valgustust
+of.options.shaders.OLD_LIGHTING.tooltip.4=  VÄLJAS - kasuta uut valgustust
+of.options.shaders.OLD_LIGHTING.tooltip.5=Vana valgustus juhib fikseeritud valguse rakendamist 
+of.options.shaders.OLD_LIGHTING.tooltip.6=plokikülgedele tavamängu poolt.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Varjutajapakid, mis kasutavad varjusid pakuvad tavaliselt
+of.options.shaders.OLD_LIGHTING.tooltip.8=palju paremat valgustust, sõltuvalt päikse asukohast.
+
 of.options.shaders.SHADER_PACK=Varjutajapakk
 
 of.options.shaders.shadersFolder=Varjutajate kaust
