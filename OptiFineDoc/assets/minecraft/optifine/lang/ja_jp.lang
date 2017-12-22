@@ -306,8 +306,8 @@ of.options.CLEAR_WATER.tooltip.3=  オフ - 普通の水
 
 of.options.RANDOM_ENTITIES=ランダムエンティティ
 of.options.RANDOM_ENTITIES.tooltip.1=ランダムエンティティ
-of.options.RANDOM_ENTITIES.tooltip.2=  オフ - エンティティにランダムなテクスチャを適応しない 低負荷
-of.options.RANDOM_ENTITIES.tooltip.3=  オン - エンティティにランダムなテクスチャを適応する 高負荷
+of.options.RANDOM_ENTITIES.tooltip.2=  オフ - ランダムなテクスチャをエンティティに用いない 低負荷
+of.options.RANDOM_ENTITIES.tooltip.3=  オン - ランダムなテクスチャをエンティティに用いる 高負荷
 of.options.RANDOM_ENTITIES.tooltip.4=ランダムエンティティはランダムなテクスチャをエンティティに適用します。
 of.options.RANDOM_ENTITIES.tooltip.5=複数のエンティティテクスチャを含むリソースパックが必要です。
 
