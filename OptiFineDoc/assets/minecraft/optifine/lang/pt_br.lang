@@ -1,6 +1,6 @@
 # Contributors/translators of Brazilian Portuguese localization
-# Inky1003 08-30-2017
-# DaDodger 12-17-2017
+# Inky1003 12-21-2017
+# DaDodger 12-21-2017
 
 # General
 of.general.ambiguous=ambíguo
@@ -69,7 +69,7 @@ options.renderDistance.tooltip.4=  8 Normal - 128m
 options.renderDistance.tooltip.5=  16 Longa - 256m (lento)
 options.renderDistance.tooltip.6=  32 Máxima - 512m (muito lento)
 options.renderDistance.tooltip.7=A distância Máxima demanda mais recursos!
-options.renderDistance.tooltip.8=Valores acima de 16 Longa funcionam apenas no Singleplayer.
+options.renderDistance.tooltip.8=Valores acima de 16 Longa funcionam apenas em mundos locais.
 
 options.ao.tooltip.1=Iluminação Suave
 options.ao.tooltip.2=  Desligada - sem iluminação suave (rápido)
@@ -97,7 +97,7 @@ options.guiScale.tooltip.1=Escala da Interface
 options.guiScale.tooltip.2=  Automática - maior possível
 options.guiScale.tooltip.3=  Pequeno, Normal, Grande - 1x para 3x
 options.guiScale.tooltip.4=  4x para 10x - disponível em monitores 4K
-options.guiScale.tooltip.5=Valores únicos (1x, 3x, 5x ...) não são compatíveis com unicode.
+options.guiScale.tooltip.5=Valores únicos (1x, 3x, 5x ...) não são compatíveis com Unicode.
 options.guiScale.tooltip.6=Uma interface menor pode ampliar o desempenho.
 
 options.vbo.tooltip.1=Armazenamento de objetos Vertex
@@ -234,12 +234,12 @@ of.options.CLEAR_WATER.tooltip.1=Água límpida
 of.options.CLEAR_WATER.tooltip.2=  Ligado - água clara e transparente
 of.options.CLEAR_WATER.tooltip.3=  Desligado - água normal
 
-of.options.RANDOM_ENTITIES=Mobs Aleatórios
-of.options.RANDOM_ENTITIES.tooltip.1=Mobs Aleatórios
-of.options.RANDOM_ENTITIES.tooltip.2=  Desligado - sem mobs aleatórios, rápido
-of.options.RANDOM_ENTITIES.tooltip.3=  Ligado - mobs aleatórios, lento
-of.options.RANDOM_ENTITIES.tooltip.4=Esta opção muda as texturas aleatórias dos mobs do jogo.
-of.options.RANDOM_ENTITIES.tooltip.5=É necessário uma textura com múltiplas texturas de mobs.
+of.options.RANDOM_ENTITIES=Entidades Aleatórias
+of.options.RANDOM_ENTITIES.tooltip.1=Entidades Aleatórias
+of.options.RANDOM_ENTITIES.tooltip.2=  Desl. - sem entidades aleatórias, rápido
+of.options.RANDOM_ENTITIES.tooltip.3=  Lig. - com entidades aleatórias, lento
+of.options.RANDOM_ENTITIES.tooltip.4=Esta opção altera texturas aleatórias de entidades do jogo.
+of.options.RANDOM_ENTITIES.tooltip.5=Requer um pacote de textura com múltiplas texturas de entidades.
 
 of.options.BETTER_GRASS=Grama Suavizada
 of.options.BETTER_GRASS.tooltip.1=Grama Suavizada
@@ -486,7 +486,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.2= Desl. - carregamento normal do servidor
 of.options.LAZY_CHUNK_LOADING.tooltip.3= Lig. - carregamento reduzido (mais suave)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Suaviza o carregamento de chunks interno
 of.options.LAZY_CHUNK_LOADING.tooltip.5=distribuindo os chunks em vários ticks.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=Desative-o se algumas partes do mundo não carregarem corretamente.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Desative-o se partes do mundo não carregarem corretamente.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Funciona apenas no modo Singleplayer com CPUs de núcleo único
 
 # Animations
@@ -537,7 +537,7 @@ of.options.WEATHER.tooltip.1=Clima
 of.options.WEATHER.tooltip.2=  Lig. - clima ligado, lento
 of.options.WEATHER.tooltip.3=  Desl. - clima desligado, rápido
 of.options.WEATHER.tooltip.4=O clima controla a chuva, neve e trovões.
-of.options.WEATHER.tooltip.5=Disponível apenas em mundos locais (Singleplayer).
+of.options.WEATHER.tooltip.5=Disponível apenas em mundos locais (Um jogador).
 
 of.options.time.dayOnly=Somente dia
 of.options.time.nightOnly=Somente noite
@@ -547,7 +547,7 @@ of.options.TIME.tooltip.1=Tempo
 of.options.TIME.tooltip.2= Padrão - ciclos de dia/noite normais
 of.options.TIME.tooltip.3= Somente dia - somente dia
 of.options.TIME.tooltip.4= Somente noite - somente noite
-of.options.TIME.tooltip.5=Disponível apenas em mundos locais (Singleplayer).
+of.options.TIME.tooltip.5=Disponível apenas em mundos locais (Um jogador).
 
 options.fullscreen.tooltip.1=Tela cheia
 options.fullscreen.tooltip.2=  Lig. - usar tela cheia
@@ -567,7 +567,7 @@ of.options.SHOW_FPS.tooltip.1=Exibir FPS e informações de renderização no ca
 of.options.SHOW_FPS.tooltip.2=  C: - renderização de chunks
 of.options.SHOW_FPS.tooltip.3=  E: - entidades e blocos renderizados
 of.options.SHOW_FPS.tooltip.4=  U: - atualização de chunks
-of.options.SHOW_FPS.tooltip.5=O display de FPS só é visível quando a
+of.options.SHOW_FPS.tooltip.5=O HUD de FPS só é visível quando a
 of.options.SHOW_FPS.tooltip.6=tela de depuração não está ativada.
 
 of.options.save.default=Padrão (2s)
@@ -575,9 +575,9 @@ of.options.save.20s=20s
 of.options.save.3min=3min
 of.options.save.30min=30min
 
-of.options.AUTOSAVE_TICKS=Autosalve
-of.options.AUTOSAVE_TICKS.tooltip.1=Autosalve interno
-of.options.AUTOSAVE_TICKS.tooltip.2=Intervalo padrão para autosalve (2 seg.) NÃO É RECOMENDADO.
+of.options.AUTOSAVE_TICKS=Autosave
+of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interno
+of.options.AUTOSAVE_TICKS.tooltip.2=Intervalo padrão para autosave (2 seg.) NÃO É RECOMENDADO.
 of.options.AUTOSAVE_TICKS.tooltip.3=O Autosave pode causar o Lag Spike of Death.
 
 of.options.SCREENSHOT_SIZE=Tamanho da Screenshot
