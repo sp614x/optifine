@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-9-24
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-11-29
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -67,11 +67,11 @@ of.options.renderDistance.extreme=极限
 
 options.renderDistance.tooltip.1=能见度
 options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
-options.renderDistance.tooltip.3=  4 近 - 64m（较快）
-options.renderDistance.tooltip.4=  8 中等 - 128m
-options.renderDistance.tooltip.5=  16 远 - 256m（较慢）
-options.renderDistance.tooltip.6=  32 极限 - 512m（最慢！）
-options.renderDistance.tooltip.7=极限能见度非常消耗资源！
+options.renderDistance.tooltip.3=  8 中等 - 128m（正常）
+options.renderDistance.tooltip.4=  16 远 - 256m（较慢）
+options.renderDistance.tooltip.5=  32 极远 - 512m（最慢！）非常消耗资源！
+options.renderDistance.tooltip.6=  48 你没疯吧 - 768m，需要2G的内存分配
+options.renderDistance.tooltip.7=  64 别开玩笑 - 1024m，需要3G的内存分配
 options.renderDistance.tooltip.8=超过 16 的能见度值只在本地世界有效。
 
 options.ao.tooltip.1=平滑光照
@@ -157,14 +157,83 @@ of.options.shaders.packNone=关闭
 of.options.shaders.packDefault=（内置）
 
 of.options.shaders.ANTIALIASING=抗锯齿
+of.options.shaders.ANTIALIASING.tooltip.1=抗锯齿
+of.options.shaders.ANTIALIASING.tooltip.2=  关 - （默认）不启用抗锯齿（较快）
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 线边抗锯齿处理（较慢）
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA是一种平滑锯齿线和
+of.options.shaders.ANTIALIASING.tooltip.5=鲜明色彩过渡的后处理特效。
+of.options.shaders.ANTIALIASING.tooltip.6=这比传统的抗锯齿处理更快捷，
+of.options.shaders.ANTIALIASING.tooltip.7=并且它与光影和快速渲染兼容。 
+
 of.options.shaders.NORMAL_MAP=法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.1=法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.2=  开 - （默认）启用法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.3=  关 - 禁用法线贴图
+of.options.shaders.NORMAL_MAP.tooltip.4=光影包可以使用法线贴图在
+of.options.shaders.NORMAL_MAP.tooltip.5=平面模型表面内模拟三维几何结构。
+of.options.shaders.NORMAL_MAP.tooltip.6=法线贴图材质一般由
+of.options.shaders.NORMAL_MAP.tooltip.7=当前的资源包提供。
+
 of.options.shaders.SPECULAR_MAP=高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.1=高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.2=  开 - （默认）启用高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.3=  关 - 禁用高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.4=光影包可以使用高光贴图
+of.options.shaders.SPECULAR_MAP.tooltip.5=模拟特殊的反射效果。
+of.options.shaders.SPECULAR_MAP.tooltip.6=高光贴图材质一般由
+of.options.shaders.SPECULAR_MAP.tooltip.7=当前的资源包提供。
+
 of.options.shaders.RENDER_RES_MUL=渲染精细度
+of.options.shaders.RENDER_RES_MUL.tooltip.1=渲染精细度
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - 低（最快）
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 标准（默认）
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高（最慢）
+of.options.shaders.RENDER_RES_MUL.tooltip.5=渲染精细度控制光影包
+of.options.shaders.RENDER_RES_MUL.tooltip.6=当前渲染的材质大小。
+of.options.shaders.RENDER_RES_MUL.tooltip.7=较低的值可能对4K显示有益。
+of.options.shaders.RENDER_RES_MUL.tooltip.8=较高的值作为抗混叠滤波器工作。
+
 of.options.shaders.SHADOW_RES_MUL=阴影精细度
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=阴影精细度
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低（最快）
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 标准（默认）
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高（最慢）
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=阴影精细度控制光影包
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=使用的阴影映射贴图大小。
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=较低的值 = 不精确的、粗糙的阴影。
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=较高的值 = 细致的、更佳的阴影。
+
 of.options.shaders.HAND_DEPTH_MUL=手部景深
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手部景深
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - 手与镜头相距较近
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - （默认）
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - 手与镜头相距较远
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部景深控制手持的物品
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=和镜头相距多远。
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=对于使用模糊景深的光影包，
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=此选项应会改变手持物品的模糊程度。
+
 of.options.shaders.CLOUD_SHADOW=云朵阴影
+
 of.options.shaders.OLD_HAND_LIGHT=经典手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=经典手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  默认 - 光影包控制
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  开 - 使用经典手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  关 - 使用新式手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=经典手持光源允许只能辨别
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=主手持有发光物品的光影包
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=同样在另一只手上工作。
+
 of.options.shaders.OLD_LIGHTING=经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.1=经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.2=  默认 - 光影包控制
+of.options.shaders.OLD_LIGHTING.tooltip.3=  开 - 使用经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.4=  关 - 不使用经典光效
+of.options.shaders.OLD_LIGHTING.tooltip.5=经典光效控制原版使用的
+of.options.shaders.OLD_LIGHTING.tooltip.6=方块各面固定照明。
+of.options.shaders.OLD_LIGHTING.tooltip.7=使用阴影的光影包通常会提供
+of.options.shaders.OLD_LIGHTING.tooltip.8=更好的、取决于太阳位置的照明。
+
 of.options.shaders.SHADER_PACK=光影包文件夹
 
 of.options.shaders.shadersFolder=光影包文件夹
@@ -237,12 +306,12 @@ of.options.CLEAR_WATER.tooltip.1=清澈水体
 of.options.CLEAR_WATER.tooltip.2=  开 - 清澈、透明水体
 of.options.CLEAR_WATER.tooltip.3=  关 - 默认水体
 
-of.options.RANDOM_MOBS=随机生物
-of.options.RANDOM_MOBS.tooltip.1=随机生物材质
-of.options.RANDOM_MOBS.tooltip.2=  关 - 关闭随机生物材质，较快
-of.options.RANDOM_MOBS.tooltip.3=  开 - 随机生物材质，较慢
-of.options.RANDOM_MOBS.tooltip.4=游戏中的生物材质使用随机的贴图。
-of.options.RANDOM_MOBS.tooltip.5=它需要资源包内有多个生物贴图。
+of.options.RANDOM_ENTITIES=随机生物
+of.options.RANDOM_ENTITIES.tooltip.1=随机生物材质
+of.options.RANDOM_ENTITIES.tooltip.2=  关 - 关闭随机生物材质，较快
+of.options.RANDOM_ENTITIES.tooltip.3=  开 - 随机生物材质，较慢
+of.options.RANDOM_ENTITIES.tooltip.4=游戏中的生物材质使用随机的贴图。
+of.options.RANDOM_ENTITIES.tooltip.5=需要资源包内有多个生物贴图。
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
@@ -305,32 +374,42 @@ of.options.NATURAL_TEXTURES.tooltip.6=方块的基础材质来创建材质变体
 of.options.NATURAL_TEXTURES.tooltip.7=天然纹理的配置和材质一般由
 of.options.NATURAL_TEXTURES.tooltip.8=当前的资源包提供。
 
+of.options.EMISSIVE_TEXTURES=光亮纹理
+of.options.EMISSIVE_TEXTURES.tooltip.1=光亮纹理
+of.options.EMISSIVE_TEXTURES.tooltip.2=  关 - 关闭光亮纹理（默认）
+of.options.EMISSIVE_TEXTURES.tooltip.3=  开 - 使用光亮纹理
+of.options.EMISSIVE_TEXTURES.tooltip.4=光亮纹理被渲染为拥有
+of.options.EMISSIVE_TEXTURES.tooltip.5=全亮度的覆盖层。可用于
+of.options.EMISSIVE_TEXTURES.tooltip.6=模拟原材质的发光部分。
+of.options.EMISSIVE_TEXTURES.tooltip.7=光亮纹理一般由
+of.options.EMISSIVE_TEXTURES.tooltip.8=当前的资源包提供。
+
 of.options.CUSTOM_SKY=自定义天空
 of.options.CUSTOM_SKY.tooltip.1=自定义天空
 of.options.CUSTOM_SKY.tooltip.2=  开 - 自定义天空材质（默认），较慢
 of.options.CUSTOM_SKY.tooltip.3=  关闭 - 默认天空材质，较快
-of.options.CUSTOM_SKY.tooltip.4=自定义天空的材质一般
-of.options.CUSTOM_SKY.tooltip.5=由当前的资源包提供。
+of.options.CUSTOM_SKY.tooltip.4=自定义天空的材质一般由
+of.options.CUSTOM_SKY.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_ITEMS=自定义物品
 of.options.CUSTOM_ITEMS.tooltip.1=自定义物品
 of.options.CUSTOM_ITEMS.tooltip.2=  开 - 自定义物品材质（默认），较慢
 of.options.CUSTOM_ITEMS.tooltip.3=  关 - 默认物品材质，较快
-of.options.CUSTOM_ITEMS.tooltip.4=自定义物品的材质一般
-of.options.CUSTOM_ITEMS.tooltip.5=由当前的资源包提供。
+of.options.CUSTOM_ITEMS.tooltip.4=自定义物品的材质一般由
+of.options.CUSTOM_ITEMS.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_ENTITY_MODELS=自定义实体模型
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=自定义实体模型
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  开 - 自定义实体模型（默认），较慢
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  关 - 默的实体模型，较快
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定义实体模型的材质一般
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=由当前的资源包提供。
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定义实体模型的材质一般由
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_GUIS=自定义GUI
 of.options.CUSTOM_GUIS.tooltip.1=自定义GUI
 of.options.CUSTOM_GUIS.tooltip.2=  开 - 自定义的图形用户界面（默认），较慢
 of.options.CUSTOM_GUIS.tooltip.3=  关 - 默认的图形用户界面，较快
-of.options.CUSTOM_GUIS.tooltip.4=自定义图形用户界面由当前的资源包提供。
+of.options.CUSTOM_GUIS.tooltip.4=自定义图形用户界面一般由当前的资源包提供。
 
 # Details
 
@@ -496,7 +575,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= 开 - 缓慢的服务器区块载入（
 of.options.LAZY_CHUNK_LOADING.tooltip.4=将区块分布在多个“游戏刻”进行加载
 of.options.LAZY_CHUNK_LOADING.tooltip.5=从而平滑服务器整体区块加载。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正确地载入，请把它设置为关。
-of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于本地世界和单核CPU的电脑。
+of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于单玩家的本地世界。
 
 # Animations
 

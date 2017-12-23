@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 27-Oct-2017
+#	Jerozgen  01-Mar-2016 — 29-Nov-2017
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -149,14 +149,83 @@ of.options.shaders.packNone=Нет
 of.options.shaders.packDefault=(встроенный)
 
 of.options.shaders.ANTIALIASING=Антиалиасинг
-of.options.shaders.NORMAL_MAP=Нормальная карта
+of.options.shaders.ANTIALIASING.tooltip.1=Антиалиасинг
+of.options.shaders.ANTIALIASING.tooltip.2=  Выкл - сглаживание отключено (по умолчанию)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - сглаживание линий и краёв, медленнее
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA — это эффект постобработки, сглаживающий
+of.options.shaders.ANTIALIASING.tooltip.5=неровные линии и резкие цветовые переходы. Данный
+of.options.shaders.ANTIALIASING.tooltip.6=метод быстрее, чем традиционное сглаживание, и
+of.options.shaders.ANTIALIASING.tooltip.7=он совместим с шейдерами и быстрым рендером.
+
+of.options.shaders.NORMAL_MAP=Карта нормалей
+of.options.shaders.NORMAL_MAP.tooltip.1=Карта нормалей
+of.options.shaders.NORMAL_MAP.tooltip.2=  Вкл - карта нормалей включена (по умолчанию)
+of.options.shaders.NORMAL_MAP.tooltip.3=  Выкл - карта нормалей отключена
+of.options.shaders.NORMAL_MAP.tooltip.4=Карта нормалей может использоваться шейдерами для
+of.options.shaders.NORMAL_MAP.tooltip.5=моделирования трёхмерной геометрии на плоских
+of.options.shaders.NORMAL_MAP.tooltip.6=поверхностях моделей.
+of.options.shaders.NORMAL_MAP.tooltip.7=Предоставляется пакетами ресурсов.
+
 of.options.shaders.SPECULAR_MAP=Карта отражений
+of.options.shaders.SPECULAR_MAP.tooltip.1=Карта отражений
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Вкл - карта отражений включена (по умолчанию)
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Выкл - карта отражений отключена
+of.options.shaders.SPECULAR_MAP.tooltip.4=Карта отражений может использоваться шейдерами для
+of.options.shaders.SPECULAR_MAP.tooltip.5=создания особого эффекта отражения.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Предоставляется пакетами ресурсов.
+of.options.shaders.SPECULAR_MAP.tooltip.7=
+
 of.options.shaders.RENDER_RES_MUL=Качество рендера
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Качество рендеринга
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - низкое качество
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - стандартное качество (по умолчанию)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - высокое качество
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Управляет размером текстур, которые визуализируют
+of.options.shaders.RENDER_RES_MUL.tooltip.6=шейдеры.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Низкие значения могут быть полезны для дисплеев 4K.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Высокие значения работают как фильтр сглаживания.
+
 of.options.shaders.SHADOW_RES_MUL=Качество теней
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Качество теней
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - нечёткие, грубые тени
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - стандартное качество (по умолчанию)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - детализированные, качественные тени 
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Управляет размером текстуры карты теней, которая
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=используется шейдерами.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=
+
 of.options.shaders.HAND_DEPTH_MUL=Глубина руки
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Глубина руки
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - рука около камеры
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (по умолчанию)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - рука далеко от камеры
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Управляет удалённостью от камеры объектов, которые
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=находятся в руке.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=У шейдеров, использующих глубину резкости, должна
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=измениться резкость объектов, находящихся в руке.
+
 of.options.shaders.CLOUD_SHADOW=Тени облаков
-of.options.shaders.OLD_HAND_LIGHT=Старое освещение руки
-of.options.shaders.OLD_LIGHTING=Старое освещение
+
+of.options.shaders.OLD_HAND_LIGHT=СО руки
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Старое освещение руки
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  По умолчанию - управление от шейдера
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Вкл - старое освещение руки
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Выкл - новое освещение руки
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Позволяет шейдерам, которые распознают предметы,
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=излучающие свет, только в основной руке, также
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=работать с предметами во второй руке.
+
+of.options.shaders.OLD_LIGHTING=Ст. освещ.
+of.options.shaders.OLD_LIGHTING.tooltip.1=Старое освещение
+of.options.shaders.OLD_LIGHTING.tooltip.2=  По умолчанию - управление от шейдера
+of.options.shaders.OLD_LIGHTING.tooltip.3=  Вкл - использовать старое освещение
+of.options.shaders.OLD_LIGHTING.tooltip.4=  Выкл - не использовать старое освещение
+of.options.shaders.OLD_LIGHTING.tooltip.5=Управляет постоянным освещением, применяемым
+of.options.shaders.OLD_LIGHTING.tooltip.6=игрой к сторонам блоков.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Шейдеры со встроенными тенями обычно гораздо лучше
+of.options.shaders.OLD_LIGHTING.tooltip.8=показывают освещение, зависящее от положения солнца.
+
 of.options.shaders.SHADER_PACK=Пакет шейдеров
 
 of.options.shaders.shadersFolder=Папка с шейдерами
@@ -230,12 +299,12 @@ of.options.CLEAR_WATER.tooltip.1=Очищенная вода
 of.options.CLEAR_WATER.tooltip.2=  Вкл - чистая, прозрачная вода
 of.options.CLEAR_WATER.tooltip.3=  Выкл - стандартная вода
 
-of.options.RANDOM_MOBS=Случайные мобы
-of.options.RANDOM_MOBS.tooltip.1=Случайные текстуры мобов
-of.options.RANDOM_MOBS.tooltip.2=  Выкл - случайные мобы отключены, быстрее
-of.options.RANDOM_MOBS.tooltip.3=  Вкл - случайные мобы включены, медленнее
-of.options.RANDOM_MOBS.tooltip.4=Используются случайные текстуры для мобов.
-of.options.RANDOM_MOBS.tooltip.5=Требуется пакет ресурсов, в котором они есть.
+of.options.RANDOM_ENTITIES=Случайные мобы
+of.options.RANDOM_ENTITIES.tooltip.1=Случайные текстуры мобов
+of.options.RANDOM_ENTITIES.tooltip.2=  Выкл - случайные мобы отключены, быстрее
+of.options.RANDOM_ENTITIES.tooltip.3=  Вкл - случайные мобы включены, медленнее
+of.options.RANDOM_ENTITIES.tooltip.4=Используются случайные текстуры для мобов.
+of.options.RANDOM_ENTITIES.tooltip.5=Требуется пакет ресурсов, в котором они есть.
 
 of.options.BETTER_GRASS=Улучшенный дёрн
 of.options.BETTER_GRASS.tooltip.1=Улучшенный дёрн
@@ -295,9 +364,19 @@ of.options.NATURAL_TEXTURES.tooltip.2=  Выкл - без естественны
 of.options.NATURAL_TEXTURES.tooltip.3=  Вкл - использование естественных текстур
 of.options.NATURAL_TEXTURES.tooltip.4=Убирает повторяющиеся текстуры блоков и вместо
 of.options.NATURAL_TEXTURES.tooltip.5=них использует повёрнутые и отражённые варианты.
-of.options.NATURAL_TEXTURES.tooltip.6=Предоставляется пакетами ресурсов.
+of.options.NATURAL_TEXTURES.tooltip.6=Предоставляются пакетами ресурсов.
 of.options.NATURAL_TEXTURES.tooltip.7=
 of.options.NATURAL_TEXTURES.tooltip.8=
+
+of.options.EMISSIVE_TEXTURES=Светящиеся текстуры
+of.options.EMISSIVE_TEXTURES.tooltip.1=Светящиеся текстуры
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Выкл - без светящихся текстур (по умолчанию)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Вкл - использование светящихся текстур
+of.options.EMISSIVE_TEXTURES.tooltip.4=Светящиеся текстуры отображаются с полной яркостью.
+of.options.EMISSIVE_TEXTURES.tooltip.5=Их можно использовать для имитации светоизлучения
+of.options.EMISSIVE_TEXTURES.tooltip.6=частей основной текстуры.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Предоставляются пакетами ресурсов.
+of.options.EMISSIVE_TEXTURES.tooltip.8=
 
 of.options.CUSTOM_SKY=Текстуры неба
 of.options.CUSTOM_SKY.tooltip.1=Пользовательские текстуры неба

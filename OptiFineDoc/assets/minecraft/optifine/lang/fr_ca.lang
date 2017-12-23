@@ -231,12 +231,12 @@ of.options.CLEAR_WATER.tooltip.1=Eau Claire
 of.options.CLEAR_WATER.tooltip.2=  ON - claire, eau transparente  
 of.options.CLEAR_WATER.tooltip.3=  OFF - eau par défaut
 
-of.options.RANDOM_MOBS=Mobs Aléatoires 
-of.options.RANDOM_MOBS.tooltip.1=Mobs Aléatoires 
-of.options.RANDOM_MOBS.tooltip.2=  OFF - aucun mob aléatoire (rapide) 
-of.options.RANDOM_MOBS.tooltip.3=  ON - avec mob aléatoire (lent) 
-of.options.RANDOM_MOBS.tooltip.4=Les Mobs utilisent des textures aléatoires 
-of.options.RANDOM_MOBS.tooltip.5=A besoin d'un pack de ressources avec plusieurs textures de mob
+of.options.RANDOM_ENTITIES=Mobs Aléatoires 
+of.options.RANDOM_ENTITIES.tooltip.1=Mobs Aléatoires 
+of.options.RANDOM_ENTITIES.tooltip.2=  OFF - aucun mob aléatoire (rapide) 
+of.options.RANDOM_ENTITIES.tooltip.3=  ON - avec mob aléatoire (lent) 
+of.options.RANDOM_ENTITIES.tooltip.4=Les Mobs utilisent des textures aléatoires 
+of.options.RANDOM_ENTITIES.tooltip.5=A besoin d'un pack de ressources avec plusieurs textures de mob
 
 of.options.BETTER_GRASS=Meilleur Gazon 
 of.options.BETTER_GRASS.tooltip.1=Meilleur Gazon 

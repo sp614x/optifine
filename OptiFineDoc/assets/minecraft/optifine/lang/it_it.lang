@@ -219,14 +219,14 @@ of.options.CLEAR_WATER.tooltip.1=Acqua cristallina
 of.options.CLEAR_WATER.tooltip.2=  Sì - acqua limpida e trasparente
 of.options.CLEAR_WATER.tooltip.3=  No - acqua default
 
-of.options.RANDOM_MOBS=Creautre casuali
-of.options.RANDOM_MOBS.tooltip.1=Randomizza texture delle creature
-of.options.RANDOM_MOBS.tooltip.2=  No - non casuale, più veloce
-of.options.RANDOM_MOBS.tooltip.3=  Sì - con randomizzazione, più lento
-of.options.RANDOM_MOBS.tooltip.4=
-of.options.RANDOM_MOBS.tooltip.5=Questa opzione permette alle creature di cambiare texture.
-of.options.RANDOM_MOBS.tooltip.6=Richiede un pacchetto di risorse che abbia molteplici texture
-of.options.RANDOM_MOBS.tooltip.7=per la stessa creatura.
+of.options.RANDOM_ENTITIES=Creautre casuali
+of.options.RANDOM_ENTITIES.tooltip.1=Randomizza texture delle creature
+of.options.RANDOM_ENTITIES.tooltip.2=  No - non casuale, più veloce
+of.options.RANDOM_ENTITIES.tooltip.3=  Sì - con randomizzazione, più lento
+of.options.RANDOM_ENTITIES.tooltip.4=
+of.options.RANDOM_ENTITIES.tooltip.5=Questa opzione permette alle creature di cambiare texture.
+of.options.RANDOM_ENTITIES.tooltip.6=Richiede un pacchetto di risorse che abbia molteplici texture
+of.options.RANDOM_ENTITIES.tooltip.7=per la stessa creatura.
 
 of.options.BETTER_GRASS=Prato migliorato
 of.options.BETTER_GRASS.tooltip.1=Texture dei lati del blocco di terra migliorati aggiungendo prato

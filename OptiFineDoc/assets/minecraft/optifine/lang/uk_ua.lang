@@ -17,11 +17,11 @@ of.message.aa.shaders2=Будь ласка, відключіть шейдери 
 of.message.af.shaders1=Анізотропна фільтрація не сумісна з шейдерами.
 of.message.af.shaders2=Будь ласка, відключіть шейдери щоб увімкнути цю функцію.
 
-of.message.an.shaders1=3D ефект не сумісний з шейдерами.
-of.message.an.shaders2=Вимкніть шейдери щоб увімкнути цю функцію.
-
 of.message.fr.shaders1=Швидкий рендер не сумісний з шейдерами.
 of.message.fr.shaders2=Будь ласка, вимкнуть шейдери щоб увімкнути цю функцію.
+
+of.message.an.shaders1=3D ефект не сумісний з шейдерами.
+of.message.an.shaders2=Вимкніть шейдери щоб увімкнути цю функцію.
 
 of.message.shaders.aa1=Шейдери не сумісні зі згладжуванням. 
 of.message.shaders.aa2=Будь ласка, встановіть Якість -> Згладжування на Вимк і перезапустіть гру.
@@ -57,16 +57,18 @@ of.options.renderDistance.tiny=Маленька
 of.options.renderDistance.short=Коротка
 of.options.renderDistance.normal=Нормальна
 of.options.renderDistance.far=Далека
-of.options.renderDistance.extreme=Надзвичайна
+of.options.renderDistance.extreme=Екстримальна
+of.options.renderDistance.insane=Шалена
+of.options.renderDistance.ludicrous=Безглузда
 
 options.renderDistance.tooltip.1=Видима відстань
-options.renderDistance.tooltip.2=  2 Маленька - 32м (Найшвидше)
-options.renderDistance.tooltip.3=  4 Коротка - 64м (Швидша)
-options.renderDistance.tooltip.4=  8 Нормальна - 128м
-options.renderDistance.tooltip.5=  16 Далека - 256м (повільніше)
-options.renderDistance.tooltip.6=  32 Надзвичайна - 512м (найповільніше!)
-options.renderDistance.tooltip.7=Для Надзвичайної видимої відстані потрібна велика кількість ресурсів комп'ютера!
-options.renderDistance.tooltip.8=Значення більша за 16 Далеко ефективні лиш для одиночних світів.
+options.renderDistance.tooltip.2=  2 Маленька - 32м (найшвидше)
+options.renderDistance.tooltip.3=  8 Нормальна - 128м (нормальна)
+options.renderDistance.tooltip.4=  16 Далека - 256м (повільніше)
+options.renderDistance.tooltip.5=  32 Надзвичайна - 512м (найповільніше!) потребує багато ресурсів
+options.renderDistance.tooltip.6=  48 Шалена - 768m, потребує 2GB оперативної пам'яті
+options.renderDistance.tooltip.7=  64 Безглузда - 1024m, потребує 3GB оперативної пам'яті
+options.renderDistance.tooltip.8=  Значення більше 16 ефективні лише для локальних світів.
 
 options.ao.tooltip.1=М'яке освітлення
 options.ao.tooltip.2=  Вимк - без м'якого освітлення (Швидка)
@@ -151,14 +153,83 @@ of.options.shaders.packNone=Вимк
 of.options.shaders.packDefault=(внутрішній)
 
 of.options.shaders.ANTIALIASING=Згладжування
-of.options.shaders.NORMAL_MAP=Нормальна карта
-of.options.shaders.SPECULAR_MAP=Дзеркальна карта
+of.options.shaders.ANTIALIASING.tooltip.1=Згладжування
+of.options.shaders.ANTIALIASING.tooltip.2=  Вимк - (базово) без згладжування (швидше)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - згладжені лінії та краї (повільніше)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA це пост-ефект який згладжує
+of.options.shaders.ANTIALIASING.tooltip.5=гострі краї та різкі зміни кольорів.
+of.options.shaders.ANTIALIASING.tooltip.6=Це швидше ніж традиційне згладжування
+of.options.shaders.ANTIALIASING.tooltip.7=і працює з Швидким Рендером.  
+
+of.options.shaders.NORMAL_MAP=Нормальна мапа
+of.options.shaders.NORMAL_MAP.tooltip.1=Нормальна мапа
+of.options.shaders.NORMAL_MAP.tooltip.2=  Увімк - (базово) дозволити нормальні мапи 
+of.options.shaders.NORMAL_MAP.tooltip.3=  Вимк - вимкнути нормальні мапи
+of.options.shaders.NORMAL_MAP.tooltip.4=Шейдер використовує нормальні мапи
+of.options.shaders.NORMAL_MAP.tooltip.5=щоб симулювати 3D геометрію на плоских моделях.
+of.options.shaders.NORMAL_MAP.tooltip.6=Нормальна мапа встановлюється
+of.options.shaders.NORMAL_MAP.tooltip.7=обраним шейдером.
+
+of.options.shaders.SPECULAR_MAP=Дзеркальна мапа
+of.options.shaders.SPECULAR_MAP.tooltip.1=Джеркальна мапа
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Увімк - (базово) увімкнути дзеркальні мапи
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Вимк - вимкнути дзеркальні мапи
+of.options.shaders.SPECULAR_MAP.tooltip.4=Шейдер використовує дзеркальні мапи
+of.options.shaders.SPECULAR_MAP.tooltip.5=щоб симулювати віддзеркалення.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Дзеркальна мапа встановлюється
+of.options.shaders.SPECULAR_MAP.tooltip.7=обраним шейдером.
+
 of.options.shaders.RENDER_RES_MUL=Якість рендеру
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Якість рендеру
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - низька (швидка)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - стандартна (базова)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - висока (повільна)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Якість рендеру контролює розмір текстури
+of.options.shaders.RENDER_RES_MUL.tooltip.6=які шейдер використовує.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Низька якість буде корисна для 4K дисплеїв.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Висока якість працює як згладжування.
+
 of.options.shaders.SHADOW_RES_MUL=Якість тіней
-of.options.shaders.HAND_DEPTH_MUL=Ручна глибина
-of.options.shaders.CLOUD_SHADOW=Тінь від хмар
-of.options.shaders.OLD_HAND_LIGHT=Старе освітлення руки
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Якість тіней
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - низька (швидка)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - стандартна (базова)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - висока (повільна)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Якість тіней контролює розмір текстури
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=тіней яку використовує шейдер.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Низька якість = неточні, грубі тіні.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Висока якість = точні, красиві тіні.
+
+of.options.shaders.HAND_DEPTH_MUL=Глибина руки
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Глибина руки
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - рука коло камери
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (базово)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - рука далеко від камери
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Глибина руки контролює наскільки далеко
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=знаходяться предмети в руці від камери.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Для шейдерів з глибоким розмиттям це змінить
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=розмиття предметів в руці.
+
+of.options.shaders.CLOUD_SHADOW=Тіні від хмар
+
+of.options.shaders.OLD_HAND_LIGHT=Старе освітл. руки
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Старе освітлення руки
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Базово - залежить від шейдера
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Увімк - використовувати старе
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Вимк - використовувати нове
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Це дозволяє шейдерам які працюють лише з  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=оствіленням в основній руці працювати з 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=речима в другій.
+
 of.options.shaders.OLD_LIGHTING=Старе освітлення
+of.options.shaders.OLD_LIGHTING.tooltip.1=Старе освітлення
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Базово - залежить від шейдера
+of.options.shaders.OLD_LIGHTING.tooltip.3=  Увімк - використовувати старе
+of.options.shaders.OLD_LIGHTING.tooltip.4=  Вимк - не використовувати старе
+of.options.shaders.OLD_LIGHTING.tooltip.5=Старе освітлення контролює фіксовану базову
+of.options.shaders.OLD_LIGHTING.tooltip.6=освітленність сторони блока.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Шейдери зазвичай надають краще освітлення в 
+of.options.shaders.OLD_LIGHTING.tooltip.8=залежності від позиції сонця.
+
 of.options.shaders.SHADER_PACK=Шейдерпак
 
 of.options.shaders.shadersFolder=Папка з шейдерами
@@ -231,12 +302,12 @@ of.options.CLEAR_WATER.tooltip.1=Чиста вода
 of.options.CLEAR_WATER.tooltip.2=  Увімк - чиста, прозора вода
 of.options.CLEAR_WATER.tooltip.3=  Вимк - стандартна вода
 
-of.options.RANDOM_MOBS=Випадкові текстури мобів
-of.options.RANDOM_MOBS.tooltip.1=Випадкові текстури мобів
-of.options.RANDOM_MOBS.tooltip.2=  Вимк - одна текстура для моба, швидше
-of.options.RANDOM_MOBS.tooltip.3=  Увімк - випадкові текстури, повільніше
-of.options.RANDOM_MOBS.tooltip.4=Випадкові текстури мобів використовує різні текстури для моба.
-of.options.RANDOM_MOBS.tooltip.5=Це потребує ресурспак з різними текстурами для одного моба.
+of.options.RANDOM_ENTITIES=Випадкові текстури істот
+of.options.RANDOM_ENTITIES.tooltip.1=Випадкові текстури для істот
+of.options.RANDOM_ENTITIES.tooltip.2=  Вимк - лише одна текстура, швидше
+of.options.RANDOM_ENTITIES.tooltip.3=  Увімк - випадкові текстури, повільніше
+of.options.RANDOM_ENTITIES.tooltip.4=Ця функція дозволяє використовувати різні текстури для однієї істоти.
+of.options.RANDOM_ENTITIES.tooltip.5=Задається ресурспаком з різними текстурами для однієї істоти (моба).
 
 of.options.BETTER_GRASS=Краща трава
 of.options.BETTER_GRASS.tooltip.1=Краща трава
@@ -298,6 +369,16 @@ of.options.NATURAL_TEXTURES.tooltip.5=створений повторенням 
 of.options.NATURAL_TEXTURES.tooltip.6=Це використовує перевернуті і повернуті текстури
 of.options.NATURAL_TEXTURES.tooltip.7=блока. Налаштування натуральних текстур
 of.options.NATURAL_TEXTURES.tooltip.8=надходить з обраного пакету текстур.
+
+of.options.EMISSIVE_TEXTURES=Випромінюючі текстури
+of.options.EMISSIVE_TEXTURES.tooltip.1=Випромінюючі текстури
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Увімк - використання випромінюючих текстур
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Вимк - без випромінюючих текстур
+of.options.EMISSIVE_TEXTURES.tooltip.4=Випрюмінюючі текстури завжди відображаються з повною яскравістю.
+of.options.EMISSIVE_TEXTURES.tooltip.5=Їх можно використовувати для імітації випромінювання світла
+of.options.EMISSIVE_TEXTURES.tooltip.6=частинами основної текстури.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Додається обраним ресурспаком.
+of.options.EMISSIVE_TEXTURES.tooltip.8=
 
 of.options.CUSTOM_SKY=Власне небо
 of.options.CUSTOM_SKY.tooltip.1=Власне небо

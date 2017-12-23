@@ -16,7 +16,8 @@ Despite the naming, all of these color attachments are the same and can be used 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
 The rest have their color cleared to black with 0 alpha.
-Deferred and composite programs use ping-pong buffers to pipe the output of one program as input to the next one. 
+Deferred and composite programs use ping-pong buffers to pipe the output of one program as input to the next one.
+When needed one last deferred or composite program may be added automatically to even out the flipped ping-pong buffers. 
 This allows them to read and write from and to the same buffer alias.
 
 When writing to the color attachments in the composite shader, blending is disabled. 
@@ -70,6 +71,8 @@ Id  Name                         Render                                When not 
 39  deferred6                    <deferred>                            <none>
 40  deferred7                    <deferred>                            <none>
 41  gbuffers_hand_water          translucent handheld objects          gbuffers_hand
+42  deferred_last                <internal> restore ping-pong buffers  <none>
+43  composite_last               <internal> restore ping-pong buffers  <none>
 
 Bugs:
  - Programs gbuffers_terrain_solid, cutout and cutout_mip are not used

@@ -81,7 +81,6 @@
 #   is_child
 #   is_glowing
 #   is_hurt
-#   is_in_air
 #   is_in_lava
 #   is_in_water
 #   is_invisible
@@ -100,19 +99,26 @@
 # Functions
 #   sin(x)
 #   cos(x)
+#   asin(x)
+#   acos(x)
 #   tan(x)
 #   atan(x)
 #   atan2(y, x)
 #   torad(deg)
 #   todeg(rad)
-#   min(x, y)
-#   max(x, y)
+#   min(x, y ,...)
+#   max(x, y, ...)
 #   clamp(x, min, max)                             Limits a value to be between min and max values
 #   abs(x)
 #   floor(x)
 #   ceil(x)
+#   exp(x)
 #   frac(x)
+#   log(x)
+#   pow(x)
+#   random(x)
 #   round(x)
+#   signum(x)
 #   sqrt(x)
 #   fmod(x, y)                                     Similar to Math.floorMod()
 #   if(cond, val, [cond2, val2, ...], val_else)    Select a value based one or more conditions

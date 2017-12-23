@@ -235,12 +235,12 @@ of.options.CLEAR_WATER.tooltip.1=맑은 물
 of.options.CLEAR_WATER.tooltip.2=  켜짐 - 맑고 투명한 물
 of.options.CLEAR_WATER.tooltip.3=  꺼짐 - 기본 물
 
-of.options.RANDOM_MOBS=무작위 몹
-of.options.RANDOM_MOBS.tooltip.1=무작위 몹
-of.options.RANDOM_MOBS.tooltip.2=  꺼짐 - 무작위 몹 없음, 빠름
-of.options.RANDOM_MOBS.tooltip.3=  켜짐 - 무작위 몹, 느림
-of.options.RANDOM_MOBS.tooltip.4=무작위 몹은 게임의 생명체에 무작위 텍스처를 사용합니다.
-of.options.RANDOM_MOBS.tooltip.5=다수의 몹 텍스처가 있는 리소스 팩이 필요합니다.
+of.options.RANDOM_ENTITIES=무작위 몹
+of.options.RANDOM_ENTITIES.tooltip.1=무작위 몹
+of.options.RANDOM_ENTITIES.tooltip.2=  꺼짐 - 무작위 몹 없음, 빠름
+of.options.RANDOM_ENTITIES.tooltip.3=  켜짐 - 무작위 몹, 느림
+of.options.RANDOM_ENTITIES.tooltip.4=무작위 몹은 게임의 생명체에 무작위 텍스처를 사용합니다.
+of.options.RANDOM_ENTITIES.tooltip.5=다수의 몹 텍스처가 있는 리소스 팩이 필요합니다.
 
 of.options.BETTER_GRASS=잔디 개선
 of.options.BETTER_GRASS.tooltip.1=잔디 개선

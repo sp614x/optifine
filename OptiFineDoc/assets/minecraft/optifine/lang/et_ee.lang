@@ -57,14 +57,16 @@ of.options.renderDistance.short=lühike
 of.options.renderDistance.normal=tavaline
 of.options.renderDistance.far=kauge
 of.options.renderDistance.extreme=ekstreemne
+of.options.renderDistance.insane=hullumeelne
+of.options.renderDistance.ludicrous=naeruväärne
 
 options.renderDistance.tooltip.1=Nähtav kaugus
 options.renderDistance.tooltip.2=  2 pisike - 32m (kiireim)
-options.renderDistance.tooltip.3=  4 lühike - 64m (kiirem)
-options.renderDistance.tooltip.4=  8 tavaline - 128m
-options.renderDistance.tooltip.5=  16 kauge - 256m (aeglasem)
-options.renderDistance.tooltip.6=  32 ekstreemne - 512m (aeglaseim!)
-options.renderDistance.tooltip.7=Ekstreemne nähtavuskaugus on väga ressursinõudlik!
+options.renderDistance.tooltip.3=  8 tavaline - 128m (tavaline
+options.renderDistance.tooltip.4=  16 kauge - 256m (aeglasem)
+options.renderDistance.tooltip.5=  32 ekstreemne - 512m (aeglaseim!) väga ressursinõudlik
+options.renderDistance.tooltip.6=  48 hullumeelne - 768m, vajab 2 GB RAMi allutamist
+options.renderDistance.tooltip.7=  64 naeruväärne - 1024m, vajab 3 GB RAMi allutamist
 options.renderDistance.tooltip.8=Väärtused üle "16 kauge" toimivad ainult kohalikes maailmades.
 
 options.ao.tooltip.1=Sujuv valgustus
@@ -152,14 +154,83 @@ of.options.shaders.packNone=VÄLJAS
 of.options.shaders.packDefault=(sisemised)
 
 of.options.shaders.ANTIALIASING=Anti-aliasing
+of.options.shaders.ANTIALIASING.tooltip.1=Anti-aliasing
+of.options.shaders.ANTIALIASING.tooltip.2=  VÄLJAS - (vaikimisi) anti-aliasing puudub (kiirem)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - anti-alias'etud jooned ja ääred (aeglasem)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA on järeltöötluse efekt, mis silub
+of.options.shaders.ANTIALIASING.tooltip.5=sakilised jooned ja teravad värviüleminekud.
+of.options.shaders.ANTIALIASING.tooltip.6=See on traditsioonilisest anti-aliasing'ust kiirem
+of.options.shaders.ANTIALIASING.tooltip.7=ning ühildub nii varjutajate kui ka kiire renderdusega.
+
 of.options.shaders.NORMAL_MAP=Tavaline kaart
+of.options.shaders.NORMAL_MAP.tooltip.1=Tavaline kaart
+of.options.shaders.NORMAL_MAP.tooltip.2=  SEES - (vaikimisi) luba tavalised kaardid
+of.options.shaders.NORMAL_MAP.tooltip.3=  VÄLJAS - keela tavalised kaardid
+of.options.shaders.NORMAL_MAP.tooltip.4=Tavalisi kaarte saab varjutajatepakk kasutada,
+of.options.shaders.NORMAL_MAP.tooltip.5=simuleerimaks 3D geomeetriat siledatel mudelipindadel.
+of.options.shaders.NORMAL_MAP.tooltip.6=Tavalise kaardi tekstuure pakub kasutatav ressursipakk.
+of.options.shaders.NORMAL_MAP.tooltip.7=
+
 of.options.shaders.SPECULAR_MAP=Peegelduv kaart
+of.options.shaders.SPECULAR_MAP.tooltip.1=Peegelduv kaart
+of.options.shaders.SPECULAR_MAP.tooltip.2=  SEES - (vaikimisi) luba peegelduvad kaardid
+of.options.shaders.SPECULAR_MAP.tooltip.3=  VÄLJAS - keela peegelduvad kaardid
+of.options.shaders.SPECULAR_MAP.tooltip.4=Peegelduvaid kaarte saab varjutajatepakk kasutada,
+of.options.shaders.SPECULAR_MAP.tooltip.5=simuleerimaks erilisi peegeldusefekte.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Peegelduva kaardi tekstuure pakub kasutatav ressursipakk.
+of.options.shaders.SPECULAR_MAP.tooltip.7=
+
 of.options.shaders.RENDER_RES_MUL=Renderduskvaliteet
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Renderduskvaliteet
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - madal (kiireim)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (vaikimisi)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - kõrge (aeglaseim)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Renderduskvaliteet juhib varjutajatepaki renderdavate
+of.options.shaders.RENDER_RES_MUL.tooltip.6=tekstuuride suurust.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Madalamad väärtused on kasulikud 4K ekraanidel.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Kõrgemad väärtused töötavad anti-aliasing filtrina.
+
 of.options.shaders.SHADOW_RES_MUL=Varjukvaliteet
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Varjukvaliteet
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - madal (kiireim)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (vaikimisi)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - kõrge (aeglaseim)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Varjukvaliteet juhib varjutajatepaki varjukaardi
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=tekstuuri suurust.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Madalamad väärtused = ebatäpsed, karedad varjud.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Kõrgemad väärtused = detailsed, peenemad varjud.
+
 of.options.shaders.HAND_DEPTH_MUL=Käesügavus
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Käesügavus
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - käsi kaamera lähedal
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (vaikimisi)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - käsi kaamerast kaugel
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Käesügavus juhib, kui kaugel kaamerast on
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=käeshoitavad esemed.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Varjutajapakkidel, mis kasutavad sügavusudu, peaks
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=see muutma käes hoitavate objektide hägusust.
+
 of.options.shaders.CLOUD_SHADOW=Pilvevari
+
 of.options.shaders.OLD_HAND_LIGHT=Vana käevalgustus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Vana käevalgustus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Vaikimisi - juhitud varjutajapaki poolt
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  SEES - kasuta vana käevalgustust
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  VÄLJAS - kasuta uut käevalgustust
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Vana käevalgustus lubab varjutajapakkidel,  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=mis tuvastavad valgust eritavaid esemeid ainult
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=peamisel käel töötada ka teisasel käel.
+
 of.options.shaders.OLD_LIGHTING=Vana valgustus
+of.options.shaders.OLD_LIGHTING.tooltip.1=Vana valgustus
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Vaikimisi - juhitud varjutajapaki poolt
+of.options.shaders.OLD_LIGHTING.tooltip.3=  SEES - kasuta vana valgustust
+of.options.shaders.OLD_LIGHTING.tooltip.4=  VÄLJAS - kasuta uut valgustust
+of.options.shaders.OLD_LIGHTING.tooltip.5=Vana valgustus juhib fikseeritud valguse rakendamist 
+of.options.shaders.OLD_LIGHTING.tooltip.6=plokikülgedele tavamängu poolt.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Varjutajapakid, mis kasutavad varjusid pakuvad tavaliselt
+of.options.shaders.OLD_LIGHTING.tooltip.8=palju paremat valgustust, sõltuvalt päikse asukohast.
+
 of.options.shaders.SHADER_PACK=Varjutajapakk
 
 of.options.shaders.shadersFolder=Varjutajate kaust
@@ -232,12 +303,12 @@ of.options.CLEAR_WATER.tooltip.1=Selge vesi
 of.options.CLEAR_WATER.tooltip.2=  SEES - selge, läbipaistev vesi
 of.options.CLEAR_WATER.tooltip.3=  VÄLJAS - vaikimisi vesi
 
-of.options.RANDOM_MOBS=Juhuslikud elukad
-of.options.RANDOM_MOBS.tooltip.1=Juhuslikud elukad
-of.options.RANDOM_MOBS.tooltip.2=  VÄLJAS - juhuslikud elukad puuduvad, kiirem
-of.options.RANDOM_MOBS.tooltip.3=  SEES - juhuslikud elukad, aeglasem
-of.options.RANDOM_MOBS.tooltip.4=Juhuslikud elukad kasutab suvalisi tekstuure mängu olemitel.
-of.options.RANDOM_MOBS.tooltip.5=Vajab ressursipakki, millel on mitu elukatekstuuri.
+of.options.RANDOM_ENTITIES=Juhuslikud elukad
+of.options.RANDOM_ENTITIES.tooltip.1=Juhuslikud elukad
+of.options.RANDOM_ENTITIES.tooltip.2=  VÄLJAS - juhuslikud elukad puuduvad, kiirem
+of.options.RANDOM_ENTITIES.tooltip.3=  SEES - juhuslikud elukad, aeglasem
+of.options.RANDOM_ENTITIES.tooltip.4=Juhuslikud elukad kasutab suvalisi tekstuure mängu olemitel.
+of.options.RANDOM_ENTITIES.tooltip.5=Vajab ressursipakki, millel on mitu elukatekstuuri.
 
 of.options.BETTER_GRASS=Parem muru
 of.options.BETTER_GRASS.tooltip.1=Parem muru
@@ -299,6 +370,16 @@ of.options.NATURAL_TEXTURES.tooltip.5=mille loovad sama tüüpi korduvad plokid.
 of.options.NATURAL_TEXTURES.tooltip.6=pööratud ja peegeldatud variante põhiploki tekstuurist.
 of.options.NATURAL_TEXTURES.tooltip.7=Naturaalsete tekstuuride konfiguratsiooni pakub
 of.options.NATURAL_TEXTURES.tooltip.8=kasutatav ressursipakk.
+
+of.options.EMISSIVE_TEXTURES=Kiirgavad tekstuurid
+of.options.EMISSIVE_TEXTURES.tooltip.1=Kiirgavad tekstuurid
+of.options.EMISSIVE_TEXTURES.tooltip.2=  OFF - kiirgavad tekstuurid puuduvad (vaikimisi)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  ON - kasuta kiirgavaid tekstuure
+of.options.EMISSIVE_TEXTURES.tooltip.4=Kiirgavad tekstuurid renderdatakse täisheledusega
+of.options.EMISSIVE_TEXTURES.tooltip.5=kuvatud ülekatetena. Neid saab kasutada, et simuleerida 
+of.options.EMISSIVE_TEXTURES.tooltip.6=baastekstuuri valgust eritavaid osi.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Kiirgavaid teksuure pakub kasutatav ressursipakk.
+of.options.EMISSIVE_TEXTURES.tooltip.8=
 
 of.options.CUSTOM_SKY=Kohandatud taevas
 of.options.CUSTOM_SKY.tooltip.1=Kohandatud taevas
@@ -490,8 +571,8 @@ of.options.LAZY_CHUNK_LOADING.tooltip.2= VÄLJAS - vaikimisi serveri kamakalaadi
 of.options.LAZY_CHUNK_LOADING.tooltip.3= SEES - laisk serveri kamakalaadimine (sujuvam)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Silub integreeritud serveri kamakalaadimist, jaotades
 of.options.LAZY_CHUNK_LOADING.tooltip.5=kamakaid mitmete tick'ide vahel.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=Lülita VÄLJA, kui osa maailmast ei laadi korralikult. Töötab
-of.options.LAZY_CHUNK_LOADING.tooltip.7=ainult kohalikes maailmades ühetuumalise protsessoriga.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Lülita VÄLJA, kui osa maailmast ei laadi korralikult.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (üksikmäng).
 
 # Animations
 

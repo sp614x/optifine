@@ -224,12 +224,12 @@ of.options.CLEAR_WATER.tooltip.1=Tiszta Víz
 of.options.CLEAR_WATER.tooltip.2=  BE - tiszta, átlátszó víz
 of.options.CLEAR_WATER.tooltip.3=  KI - alapértelmezett víz
 
-of.options.RANDOM_MOBS=Véletlenszerű Mobok
-of.options.RANDOM_MOBS.tooltip.1=Véletlenszerű Mobok
-of.options.RANDOM_MOBS.tooltip.2=  KI - nincsenek véletlenszerű mobok, gyorsabb
-of.options.RANDOM_MOBS.tooltip.3=  BE - véletlenszerű mobok, lassabb
-of.options.RANDOM_MOBS.tooltip.4=A véletlenszerű mobok véletlenszerű textúrákat használ a játék lényeinek.
-of.options.RANDOM_MOBS.tooltip.5=Olyan erőforráscsomagot igényel, amiben vannak dupla mob textúrák .
+of.options.RANDOM_ENTITIES=Véletlenszerű Mobok
+of.options.RANDOM_ENTITIES.tooltip.1=Véletlenszerű Mobok
+of.options.RANDOM_ENTITIES.tooltip.2=  KI - nincsenek véletlenszerű mobok, gyorsabb
+of.options.RANDOM_ENTITIES.tooltip.3=  BE - véletlenszerű mobok, lassabb
+of.options.RANDOM_ENTITIES.tooltip.4=A véletlenszerű mobok véletlenszerű textúrákat használ a játék lényeinek.
+of.options.RANDOM_ENTITIES.tooltip.5=Olyan erőforráscsomagot igényel, amiben vannak dupla mob textúrák .
 
 of.options.BETTER_GRASS=Jobb Fű
 of.options.BETTER_GRASS.tooltip.1=Jobb Fű

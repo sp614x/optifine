@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2017-09-29
+#   Regnander (_Spitz) 2016-01-18 ---- 2017-12-21
 
 # General
 of.general.ambiguous=tvetydig
@@ -20,7 +20,7 @@ of.message.af.shaders1=Anisotropisk filtrering är inte kompatibel med Shaders.
 of.message.af.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
 
 of.message.fr.shaders1=Snabb rendering är inte kompatibel med Shaders.
-of.message.fr.shaders1=Inaktivera Shaders för att aktivera detta alternativ.
+of.message.fr.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
 
 of.message.an.shaders1=3D-effekt är inte kompatibel med Shaders.
 of.message.an.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
@@ -60,14 +60,16 @@ of.options.renderDistance.short=Kort
 of.options.renderDistance.normal=Normalt
 of.options.renderDistance.far=Långt
 of.options.renderDistance.extreme=Extremt
+of.options.renderDistance.insane=Galet
+of.options.renderDistance.ludicrous=Löjligt
 
 options.renderDistance.tooltip.1=Synligt avstånd
 options.renderDistance.tooltip.2=   2 Litet - 32m (snabbast)
-options.renderDistance.tooltip.3=   4 Kort - 64m (snabbare)
-options.renderDistance.tooltip.4=   8 Normalt - 128m
-options.renderDistance.tooltip.5=  16 Långt - 256m (långsammare)
-options.renderDistance.tooltip.6=  32 Extremt - 512m (långsammast!)
-options.renderDistance.tooltip.7=Avståndet Extremt är mycket resurskrävande!
+options.renderDistance.tooltip.3=   8 Normalt - 128m (normalt)
+options.renderDistance.tooltip.4=  16 Långt - 256m (långsammare)
+options.renderDistance.tooltip.5=  32 Extremt - 512m (långsammast!) mycket resurskrävande
+options.renderDistance.tooltip.6=  48 Galet - 768m, behöver 2GB allokerat RAM
+options.renderDistance.tooltip.7=  64 Löjligt - 1024m, behöver 3GB allokerat RAM
 options.renderDistance.tooltip.8=Värden över 16 fungerar endast i lokala världar.
 
 options.ao.tooltip.1=Ljusutjämning
@@ -153,14 +155,83 @@ of.options.shaders.packNone=AV
 of.options.shaders.packDefault=(intern)
 
 of.options.shaders.ANTIALIASING=Kantutjämning
-of.options.shaders.NORMAL_MAP=Normap map
+of.options.shaders.ANTIALIASING.tooltip.1=Kantutjämning
+of.options.shaders.ANTIALIASING.tooltip.2=  AV - (standard) ingen kantutjämning (snabbare)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - utjämnade linjer och kanter (långsammare)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA är en efterbehandlingseffekt som jämnar ut
+of.options.shaders.ANTIALIASING.tooltip.5=taggiga linjer och skarpa färgskiftningar.
+of.options.shaders.ANTIALIASING.tooltip.6=Den är snabbare än den traditionella kantutjämningen
+of.options.shaders.ANTIALIASING.tooltip.7=samt är kompatibel med shaders och Snabb rendering.
+
+of.options.shaders.NORMAL_MAP=Normal map
+of.options.shaders.NORMAL_MAP.tooltip.1=Normal map
+of.options.shaders.NORMAL_MAP.tooltip.2=  PÅ - (standard) aktivera normal maps 
+of.options.shaders.NORMAL_MAP.tooltip.3=  AV - inaktivera normal maps
+of.options.shaders.NORMAL_MAP.tooltip.4=Shaderpaketet kan använda normal maps för att simulera
+of.options.shaders.NORMAL_MAP.tooltip.5=3D-geometri på platta modellytor.
+of.options.shaders.NORMAL_MAP.tooltip.6=Texturer för normal maps tillhandahålls av det aktuella
+of.options.shaders.NORMAL_MAP.tooltip.7=resurspaketet.
+
 of.options.shaders.SPECULAR_MAP=Specular map
+of.options.shaders.SPECULAR_MAP.tooltip.1=Specular map
+of.options.shaders.SPECULAR_MAP.tooltip.2=  PÅ - (standard) aktivera specular maps
+of.options.shaders.SPECULAR_MAP.tooltip.3=  AV - inaktivera specular maps
+of.options.shaders.SPECULAR_MAP.tooltip.4=Shaderpaketet kan använda specular maps för att
+of.options.shaders.SPECULAR_MAP.tooltip.5=simulera speciella reflektionseffekter.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Texturer för specular maps tillhandahålls av det
+of.options.shaders.SPECULAR_MAP.tooltip.7=aktuella resurspaketet.
+
 of.options.shaders.RENDER_RES_MUL=Renderingskvalitet
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Renderingskvalitet
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - låg (snabbast)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (standard)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - hög (långsammast)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Renderingskvalitet kontrollerar storleken på texturen
+of.options.shaders.RENDER_RES_MUL.tooltip.6=som shaderpaketet renderar till.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Lägre värden kan vara användbara på 4K-skärmar.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Högre värden fungerar som ett kantutjämnande filter.
+
 of.options.shaders.SHADOW_RES_MUL=Skuggkvalitet
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Skuggkvalitet
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - låg (snabbast)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (standard)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - hög (långsammast)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Skuggkvalitet kontrollerar storleken på texturen för
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=shadow map som används i shaderpaketet.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lägre kvalitet = enkla grova skuggor.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Högre kvalitet = detaljerade fina skuggor.
+
 of.options.shaders.HAND_DEPTH_MUL=Handdjup
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Handdjup
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - handen är nära kameran
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (standard)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - handen är långt bort från kameran
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Handdjup kontrollerar hur långt bort handhållna
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=föremål är från kameran.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=För shaderpaket som använder skärpedjup bör detta
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhålla föremål blir.
+
 of.options.shaders.CLOUD_SHADOW=Molnskugga
-of.options.shaders.OLD_HAND_LIGHT=Gammalt handljus
+
+of.options.shaders.OLD_HAND_LIGHT=G. handljus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Gammalt handljus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Standard - kontrolleras av shaderpaketet
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  PÅ - använd gammalt handljus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  AV - använd nytt handljus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Gammalt handljus låter shaderpaket som endast känner
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=igen ljusavgivande föremål i den primära handen också
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=fungera med föremål i den sekundära handen.
+
 of.options.shaders.OLD_LIGHTING=Gammalt ljus
+of.options.shaders.OLD_LIGHTING.tooltip.1=Gammalt ljus
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Standard - kontrolleras av shaderpaketet
+of.options.shaders.OLD_LIGHTING.tooltip.3=  PÅ - använd gammalt ljus
+of.options.shaders.OLD_LIGHTING.tooltip.4=  AV - använd inte gammalt ljus
+of.options.shaders.OLD_LIGHTING.tooltip.5=Gammalt ljus kontrollerar det fasta ljuset som tillämpas
+of.options.shaders.OLD_LIGHTING.tooltip.6=på blocksidor som standard.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Shaderpaket som använder skuggor ger vanligtvis
+of.options.shaders.OLD_LIGHTING.tooltip.8=mycket bättre ljus som är beroende av solens position.
+
 of.options.shaders.SHADER_PACK=Shaderpaket
 
 of.options.shaders.shadersFolder=Shadermapp
@@ -212,7 +283,7 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilinjärt - finast utjämning (långsammast
 
 of.options.AA_LEVEL=Kantutjämning
 of.options.AA_LEVEL.tooltip.1=Kantutjämning
-of.options.AA_LEVEL.tooltip.2=  AV - (standard) ingen kantutjämning (snabbare)
+of.options.AA_LEVEL.tooltip.2=  AV - ingen kantutjämning (standard, snabbare)
 of.options.AA_LEVEL.tooltip.3=  2-16 - kantutjämnade linjer och kanter (långsammare)
 of.options.AA_LEVEL.tooltip.4=Kantutjämningen jämnar ur ojämna linjer och skarpa
 of.options.AA_LEVEL.tooltip.5=färgövergångar.
@@ -222,9 +293,9 @@ of.options.AA_LEVEL.tooltip.8=Kräver OMSTART!
 
 of.options.AF_LEVEL=Anisotropisk filtrering
 of.options.AF_LEVEL.tooltip.1=Anisotropisk filtrering
-of.options.AF_LEVEL.tooltip.2=  AV - (standard) standarddetaljer för texturer (snabbare)
+of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer för texturer (standard, snabbare)
 of.options.AF_LEVEL.tooltip.3=  2-16 - finare detaljer i mipmaptexturer (långsammare)
-of.options.AF_LEVEL.tooltip.4=Anisotropiska filtreringen återställer detaljer i
+of.options.AF_LEVEL.tooltip.4=Den anisotropiska filtreringen återställer detaljer i
 of.options.AF_LEVEL.tooltip.5=mipmaptexturer.
 of.options.AF_LEVEL.tooltip.6=Bildfrekvensen kan sjunka avsevärt när detta aktiveras.
 
@@ -233,12 +304,12 @@ of.options.CLEAR_WATER.tooltip.1=Kristallklart vatten
 of.options.CLEAR_WATER.tooltip.2=  PÅ - kristallklart, genomskinligt vatten
 of.options.CLEAR_WATER.tooltip.3=  AV - standardvatten
 
-of.options.RANDOM_MOBS=Slumpade monster
-of.options.RANDOM_MOBS.tooltip.1=Slumpade monster
-of.options.RANDOM_MOBS.tooltip.2=  AV - inga slumpade monster, snabbare
-of.options.RANDOM_MOBS.tooltip.3=  PÅ - slumpade monster, långsammare
-of.options.RANDOM_MOBS.tooltip.4=Använder slumpade texturer för spelets varelser.
-of.options.RANDOM_MOBS.tooltip.5=Kräver ett resurspaket med flera monstertexturer.
+of.options.RANDOM_ENTITIES=Slumpartade entiteter
+of.options.RANDOM_ENTITIES.tooltip.1=Slumpartade entiteter
+of.options.RANDOM_ENTITIES.tooltip.2=  AV - inga slumpartade entiteter, snabbare
+of.options.RANDOM_ENTITIES.tooltip.3=  PÅ - slumpartade entiteter, långsammare
+of.options.RANDOM_ENTITIES.tooltip.4=Använder slumpartade texturer för spelets entiteter.
+of.options.RANDOM_ENTITIES.tooltip.5=Kräver ett resurspaket med flera entitettexturer.
 
 of.options.BETTER_GRASS=Bättre gräs
 of.options.BETTER_GRASS.tooltip.1=Bättre gräs
@@ -289,7 +360,7 @@ of.options.CONNECTED_TEXTURES.tooltip.3=  Snabbt - snabba anslutande texturer
 of.options.CONNECTED_TEXTURES.tooltip.4=  Snyggt - snygga anslutande texturer
 of.options.CONNECTED_TEXTURES.tooltip.5=Anslutande texturer sammanfogar texturerna för glas,
 of.options.CONNECTED_TEXTURES.tooltip.6=sandsten och bokhyllor när de placeras intill varandra.
-of.options.CONNECTED_TEXTURES.tooltip.7=De anslutna texturerna tillhandahålls av det aktuella
+of.options.CONNECTED_TEXTURES.tooltip.7=De anslutande texturerna tillhandahålls av det aktuella
 of.options.CONNECTED_TEXTURES.tooltip.8=resurspaketet.
 
 of.options.NATURAL_TEXTURES=Naturliga texturer
@@ -302,6 +373,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=Den använder roterade och speglade varian
 of.options.NATURAL_TEXTURES.tooltip.7=ursprungliga blocktexturen. Konfigurationen för naturliga
 of.options.NATURAL_TEXTURES.tooltip.8=texturer tillhandahålls av det aktuella resurspaketet.
 
+of.options.EMISSIVE_TEXTURES=Upplysta texturer
+of.options.EMISSIVE_TEXTURES.tooltip.1=Upplysta texturer
+of.options.EMISSIVE_TEXTURES.tooltip.2=  AV - inga upplysta texturer (standard)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  PÅ - använd upplysta texturer
+of.options.EMISSIVE_TEXTURES.tooltip.4=De upplysta texturerna renderas som ett överlägg med
+of.options.EMISSIVE_TEXTURES.tooltip.5=full ljusstyrka. De kan användas för att simulera
+of.options.EMISSIVE_TEXTURES.tooltip.6=belysta delar av grundtexturen.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Upplysta texturer tillhandahålls av det aktuella
+of.options.EMISSIVE_TEXTURES.tooltip.8=resurspaketet.
+
 of.options.CUSTOM_SKY=Anpassad himmel
 of.options.CUSTOM_SKY.tooltip.1=Anpassad himmel
 of.options.CUSTOM_SKY.tooltip.2=  PÅ - anpassade himmeltexturer (standard), långsamt
@@ -313,7 +394,7 @@ of.options.CUSTOM_ITEMS=Anpassade föremål
 of.options.CUSTOM_ITEMS.tooltip.1=Anpassade föremål
 of.options.CUSTOM_ITEMS.tooltip.2=  PÅ - anpassade föremålstexturer (standard), långsamt
 of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardtexturer för föremål, snabbare
-of.options.CUSTOM_ITEMS.tooltip.4=Det anpassade föremålstexturerna tillhandahålls av det
+of.options.CUSTOM_ITEMS.tooltip.4=De anpassade föremålstexturerna tillhandahålls av det
 of.options.CUSTOM_ITEMS.tooltip.5=aktuella texturpaketet.
 
 of.options.CUSTOM_ENTITY_MODELS=Anp. entitetsmodeller
@@ -402,7 +483,7 @@ of.options.ADVANCED_TOOLTIPS=Avancerade inforutor
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Avancerade inforutor
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - visa avancerade inforutor
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - visa inte avancerade inforutor (standard)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade inforutor visar utvidgad information om
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Avancerade inforutor visar ytterligare information om
 of.options.ADVANCED_TOOLTIPS.tooltip.5=föremål (id, hållbarhet) och shaderalternativ
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, källa, standardvärden).
 
@@ -436,7 +517,7 @@ of.options.DYNAMIC_FOV.tooltip.5=med en pilbåge.
 of.options.DYNAMIC_LIGHTS=Dynamiskt ljus
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiskt ljus
 of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inget dynamiskt ljus (standard)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabbt dynamiskt ljus (uppdateras varje 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabbt dynamiskt ljus (uppdateras var 500ms)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snyggt dynamiskt ljus (uppdateras i realtid)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, glödsten, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de antingen hålls av dig eller
@@ -463,7 +544,7 @@ of.options.FAST_RENDER=Snabb rendering
 of.options.FAST_RENDER.tooltip.1=Snabb rendering
 of.options.FAST_RENDER.tooltip.2=  AV - standardrendering (standard)
 of.options.FAST_RENDER.tooltip.3=  PÅ - optimerad rendering (snabbare)
-of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som höjer
+of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som sänker
 of.options.FAST_RENDER.tooltip.5=grafikprocessorns läsninghastighet och kan höja
 of.options.FAST_RENDER.tooltip.6=bildfrekvensen avsevärt.
 
@@ -471,7 +552,7 @@ of.options.FAST_MATH=Snabb matematik
 of.options.FAST_MATH.tooltip.1=Snabb matematik
 of.options.FAST_MATH.tooltip.2=  AV - standardmatematik (standard)
 of.options.FAST_MATH.tooltip.3=  PÅ - snabbare matematik
-of.options.FAST_MATH.tooltip.4=Använder optimerade sin()- och cos()-funktioner för att
+of.options.FAST_MATH.tooltip.4=Använder optimerade sin()- och cos()-funktioner som kan
 of.options.FAST_MATH.tooltip.5=utnyttja processorcachen mer och höja bildfrekvensen.
 
 of.options.CHUNK_UPDATES=Chunkuppdateringar
@@ -494,10 +575,9 @@ of.options.LAZY_CHUNK_LOADING.tooltip.1=Slö chunkinläsning
 of.options.LAZY_CHUNK_LOADING.tooltip.2=  AV - standardinläsning på servrar
 of.options.LAZY_CHUNK_LOADING.tooltip.3=  PÅ - slö chunkinläsning på servrar (stabilare)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Jämnar ut den integrerade chunkläsningen för servern
-of.options.LAZY_CHUNK_LOADING.tooltip.5=genom att fördela chunkar över flera tickningar.
+of.options.LAZY_CHUNK_LOADING.tooltip.5=genom att fördela chunkarna över flera tickningar.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Inaktivera om delar av världen inte läser in på rätt sätt.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara i lokala världar och enkärniga
-of.options.LAZY_CHUNK_LOADING.tooltip.8=processorer.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara i lokala världar (enspelarläge).
 
 # Animations
 

@@ -221,14 +221,14 @@ of.options.CLEAR_WATER.tooltip.1=Aguas cristalinas
 of.options.CLEAR_WATER.tooltip.2=  SÍ - agua limpia y transparente
 of.options.CLEAR_WATER.tooltip.3=  NO - agua predeterminada del juego
 
-of.options.RANDOM_MOBS=Criaturas aleatorias
-of.options.RANDOM_MOBS.tooltip.1=Aleatorizar las texturas de las criaturas
-of.options.RANDOM_MOBS.tooltip.2=  NO - sin aleatorizar, más rápido
-of.options.RANDOM_MOBS.tooltip.3=  SÍ - con aleatorización, más lento
-of.options.RANDOM_MOBS.tooltip.4=
-of.options.RANDOM_MOBS.tooltip.5=Esta opción permite que las criaturas cambien de textura.
-of.options.RANDOM_MOBS.tooltip.6=Requiere un paquete de recursos que tenga varias texturas
-of.options.RANDOM_MOBS.tooltip.7=para una misma criatura.
+of.options.RANDOM_ENTITIES=Criaturas aleatorias
+of.options.RANDOM_ENTITIES.tooltip.1=Aleatorizar las texturas de las criaturas
+of.options.RANDOM_ENTITIES.tooltip.2=  NO - sin aleatorizar, más rápido
+of.options.RANDOM_ENTITIES.tooltip.3=  SÍ - con aleatorización, más lento
+of.options.RANDOM_ENTITIES.tooltip.4=
+of.options.RANDOM_ENTITIES.tooltip.5=Esta opción permite que las criaturas cambien de textura.
+of.options.RANDOM_ENTITIES.tooltip.6=Requiere un paquete de recursos que tenga varias texturas
+of.options.RANDOM_ENTITIES.tooltip.7=para una misma criatura.
 
 of.options.BETTER_GRASS=Césped mejorado
 of.options.BETTER_GRASS.tooltip.1=Textura de los lados del bloque de césped mejorada
