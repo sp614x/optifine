@@ -117,7 +117,7 @@ options.anaglyph.tooltip.4=Requer óculos vermelho-ciano para melhores resultado
 of.options.ALTERNATE_BLOCKS=Blocos alternados
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocos alternados
 of.options.ALTERNATE_BLOCKS.tooltip.2=Utiliza modelos alternados para alguns blocos.
-of.options.ALTERNATE_BLOCKS.tooltip.3=Depende do resource pack escolhido pelo jogador.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Depende do pacote de recursos escolhido pelo jogador.
 
 of.options.FOG_FANCY=Névoa
 of.options.FOG_FANCY.tooltip.1=Tipo de névoa
@@ -156,7 +156,7 @@ of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.2=  OFF - (padrão) sem antialiasing (rápido)
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - (lento)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA é um efeito de pós-processamento que
-of.options.shaders.ANTIALIASING.tooltip.5=suaviza as linhas e a transições de cores.
+of.options.shaders.ANTIALIASING.tooltip.5=suaviza as linhas e transições de cores.
 of.options.shaders.ANTIALIASING.tooltip.6=Mais rápido do que o Antialiasing comum
 of.options.shaders.ANTIALIASING.tooltip.7=e compatível com Shaders e Rend. Rápida.
 
@@ -167,7 +167,7 @@ of.options.shaders.NORMAL_MAP.tooltip.3=  OFF - desativar normal maps
 of.options.shaders.NORMAL_MAP.tooltip.4=Normal maps podem ser usados pelo pacote Shader
 of.options.shaders.NORMAL_MAP.tooltip.5=para simular um efeito 3D na geometria de objetos planos
 of.options.shaders.NORMAL_MAP.tooltip.6=Texturas de normal maps são incluídos no
-of.options.shaders.NORMAL_MAP.tooltip.7=resource pack atual.
+of.options.shaders.NORMAL_MAP.tooltip.7=pacote de recursos atual.
 
 of.options.shaders.SPECULAR_MAP=Specular Map
 of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
@@ -176,7 +176,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.3=  OFF - desativar specular maps
 of.options.shaders.SPECULAR_MAP.tooltip.4=Specular maps podem ser usados pelo pacote Shader
 of.options.shaders.SPECULAR_MAP.tooltip.5=para simular efeitos especiais reflexivos.
 of.options.shaders.SPECULAR_MAP.tooltip.6=Texturas de specular maps são incluídas no 
-of.options.shaders.SPECULAR_MAP.tooltip.7=resource pack atual.
+of.options.shaders.SPECULAR_MAP.tooltip.7=pacote de recursos atual.
 
 of.options.shaders.RENDER_RES_MUL=Qualidade de Renderização
 of.options.shaders.RENDER_RES_MUL.tooltip.1=Qualidade de Renderização
@@ -306,7 +306,7 @@ of.options.RANDOM_ENTITIES.tooltip.1=Entidades Aleatórias
 of.options.RANDOM_ENTITIES.tooltip.2=  OFF - sem entidades aleatórias, rápido
 of.options.RANDOM_ENTITIES.tooltip.3=  ON - com entidades aleatórias, lento
 of.options.RANDOM_ENTITIES.tooltip.4=Entidades aleatórias utilizam texturas randômicas.
-of.options.RANDOM_ENTITIES.tooltip.5=Requer um resource pack com múltiplas texturas de entidades.
+of.options.RANDOM_ENTITIES.tooltip.5=Requer um pacote de recursos com múltiplas texturas de entidades.
 
 of.options.BETTER_GRASS=Better Grass
 of.options.BETTER_GRASS.tooltip.1=Better Grass
@@ -326,14 +326,14 @@ of.options.CUSTOM_FONTS.tooltip.1=Fontes personalizadas
 of.options.CUSTOM_FONTS.tooltip.2=  ON - Com fontes personalizadas (padrão), lento
 of.options.CUSTOM_FONTS.tooltip.3=  OFF - Com fontes comuns, rápido
 of.options.CUSTOM_FONTS.tooltip.4=As fontes personalizadas, se houver, são fornecidas pelo
-of.options.CUSTOM_FONTS.tooltip.5=resource pack atual.
+of.options.CUSTOM_FONTS.tooltip.5=pacote de recursos atual.
 
 of.options.CUSTOM_COLORS=Cores personalizadas
 of.options.CUSTOM_COLORS.tooltip.1=Cores personalizadas
 of.options.CUSTOM_COLORS.tooltip.2=  ON - usar cores personalizadas (padrão), lento
 of.options.CUSTOM_COLORS.tooltip.3=  OFF - usar cores normais, rápido
 of.options.CUSTOM_COLORS.tooltip.4=As cores personalizadas, se houver, são fornecidas pelo
-of.options.CUSTOM_COLORS.tooltip.5=resource pack atual.
+of.options.CUSTOM_COLORS.tooltip.5=pacote de recursos atual.
 
 of.options.SWAMP_COLORS=Cores do bioma Pântano
 of.options.SWAMP_COLORS.tooltip.1=Cores do bioma Pântano
@@ -357,7 +357,7 @@ of.options.CONNECTED_TEXTURES.tooltip.4=  Bonitas - texturas conectadas suaves
 of.options.CONNECTED_TEXTURES.tooltip.5=As texturas conectadas unem texturas de vidro,
 of.options.CONNECTED_TEXTURES.tooltip.6=arenito e estantes quando colocadas lado a
 of.options.CONNECTED_TEXTURES.tooltip.7=lado. As texturas conectadas são fornecidas
-of.options.CONNECTED_TEXTURES.tooltip.8=pelo resource pack atual.
+of.options.CONNECTED_TEXTURES.tooltip.8=pelo pacote de recursos atual.
 
 of.options.NATURAL_TEXTURES=Texturas naturais
 of.options.NATURAL_TEXTURES.tooltip.1=Texturas naturais
@@ -367,7 +367,7 @@ of.options.NATURAL_TEXTURES.tooltip.4=As texturas naturais reduzem a aparência 
 of.options.NATURAL_TEXTURES.tooltip.5=dos blocos de mesmo tipo.
 of.options.NATURAL_TEXTURES.tooltip.6=Usa variantes da base da textura
 of.options.NATURAL_TEXTURES.tooltip.7=do bloco. A configuração é fornecida
-of.options.NATURAL_TEXTURES.tooltip.8=pelo resource pack atual.
+of.options.NATURAL_TEXTURES.tooltip.8=pelo pacote de recursos atual.
 
 of.options.EMISSIVE_TEXTURES=Texturas emissivas
 of.options.EMISSIVE_TEXTURES.tooltip.1=Texturas emissivas
@@ -377,28 +377,28 @@ of.options.EMISSIVE_TEXTURES.tooltip.4=Texturas emissivas são renderizadas como
 of.options.EMISSIVE_TEXTURES.tooltip.5=com brilho total. Podem ser usadas para simular
 of.options.EMISSIVE_TEXTURES.tooltip.6=emissões de luz da textura base.
 of.options.EMISSIVE_TEXTURES.tooltip.7=As texturas emissivas são fornecidas pelo
-of.options.EMISSIVE_TEXTURES.tooltip.8=resource pack atual.
+of.options.EMISSIVE_TEXTURES.tooltip.8=pacote de recursos atual.
 
 of.options.CUSTOM_SKY=Céu personalizado
 of.options.CUSTOM_SKY.tooltip.1=Céu personalizado
 of.options.CUSTOM_SKY.tooltip.2=  ON - textura do céu personalizada (padrão), lento
 of.options.CUSTOM_SKY.tooltip.3=  OFF - céu normal, rápido
 of.options.CUSTOM_SKY.tooltip.4=As texturas do céu personalizado são fornecidas pelo
-of.options.CUSTOM_SKY.tooltip.5=resource pack atual.
+of.options.CUSTOM_SKY.tooltip.5=pacote de recursos atual.
 
 of.options.CUSTOM_ITEMS=Itens personalizados
 of.options.CUSTOM_ITEMS.tooltip.1=Itens personalizados
 of.options.CUSTOM_ITEMS.tooltip.2=  ON - texturas de itens personalizadas (padrão), lento
 of.options.CUSTOM_ITEMS.tooltip.3=  OFF - texturas normais de itens, rápido
 of.options.CUSTOM_ITEMS.tooltip.4=Αs texturas personalizadas de itens são fornecidas pelo
-of.options.CUSTOM_ITEMS.tooltip.5=resource pack atual.
+of.options.CUSTOM_ITEMS.tooltip.5=pacote de recursos atual.
 
 of.options.CUSTOM_ENTITY_MODELS=Modelos Personalizados de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Modelos Personalizados de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  ON - modelos personalizados de entidades (padrão), lento
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  OFF - modelos padrões de entidades, rápido
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Os modelos personalizados de entidades são fornecidos
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=pelo resource pack atual.
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=pelo pacote de recursos atual.
 
 of.options.CUSTOM_GUIS=Interfaces personalizadas
 of.options.CUSTOM_GUIS.tooltip.1=Interfaces personalizadas
@@ -520,14 +520,14 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=equipados ou caídos no solo.
 
 # Performance
 
-of.options.SMOOTH_FPS=Suavização de FPS
+of.options.SMOOTH_FPS=Smooth FPS
 of.options.SMOOTH_FPS.tooltip.1=Estabiliza a taxa de FPS ao nivelar buffers da placa de vídeo.
 of.options.SMOOTH_FPS.tooltip.2=  OFF - sem estabilização de FPS, a taxa pode flutuar
 of.options.SMOOTH_FPS.tooltip.3=  ON - estabilização de FPS ligada
 of.options.SMOOTH_FPS.tooltip.4=Esta opção depende da placa de vídeo e seu efeito
 of.options.SMOOTH_FPS.tooltip.5=não é sempre visível.
 
-of.options.SMOOTH_WORLD=Mundo Suavizado
+of.options.SMOOTH_WORLD=Smooth World
 of.options.SMOOTH_WORLD.tooltip.1=Reduz a latência causada pelo servidor interno.
 of.options.SMOOTH_WORLD.tooltip.2=  OFF - sem estabilização, a taxa de FPS pode flutuar
 of.options.SMOOTH_WORLD.tooltip.3=  ON - estabilização da taxa de FPS ligada
@@ -545,10 +545,10 @@ of.options.FAST_MATH=Fast Math
 of.options.FAST_MATH.tooltip.1=Fast Math
 of.options.FAST_MATH.tooltip.2= OFF - cálculos normais (padrão)
 of.options.FAST_MATH.tooltip.3= ON - cálculos mais rápidos
-of.options.FAST_MATH.tooltip.4=Utiliza funções especiais seno() e cosseno()
+of.options.FAST_MATH.tooltip.4=Utiliza funções seno() e cosseno() especiais
 of.options.FAST_MATH.tooltip.5=que otimizam o cache da CPU e aumentam a taxa de FPS.
 
-of.options.CHUNK_UPDATES=Atualização de chunks
+of.options.CHUNK_UPDATES=Chunk updates
 of.options.CHUNK_UPDATES.tooltip.1=Atualização de chunks
 of.options.CHUNK_UPDATES.tooltip.2= 1 - carregamento lento do mundo, FPS maior (padrão)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - carregamento rápido do mundo, FPS menor
@@ -578,22 +578,22 @@ of.options.animation.allOn=Ligar tudo
 of.options.animation.allOff=Desligar tudo
 of.options.animation.dynamic=Dinâmico
 
-of.options.ANIMATED_WATER=Água Animada
-of.options.ANIMATED_LAVA=Lava Animada
-of.options.ANIMATED_FIRE=Fogo Animada
-of.options.ANIMATED_PORTAL=Portal Animado
-of.options.ANIMATED_REDSTONE=Redstone Animado
-of.options.ANIMATED_EXPLOSION=Explosão Animada
-of.options.ANIMATED_FLAME=Chama Animada
-of.options.ANIMATED_SMOKE=Fumaça Animada
+of.options.ANIMATED_WATER=Água animada
+of.options.ANIMATED_LAVA=Lava animada
+of.options.ANIMATED_FIRE=Fogo animada
+of.options.ANIMATED_PORTAL=Portal animado
+of.options.ANIMATED_REDSTONE=Redstone animado
+of.options.ANIMATED_EXPLOSION=Explosão animada
+of.options.ANIMATED_FLAME=Chama animada
+of.options.ANIMATED_SMOKE=Fumaça animada
 of.options.VOID_PARTICLES=Partículas do Vazio
 of.options.WATER_PARTICLES=Partículas da água
 of.options.RAIN_SPLASH=Respingos da chuva
 of.options.PORTAL_PARTICLES=Partículas de portal
 of.options.POTION_PARTICLES=Partículas de poções
 of.options.DRIPPING_WATER_LAVA=Água/Lava pingando
-of.options.ANIMATED_TERRAIN=Terreno Animado
-of.options.ANIMATED_TEXTURES=Texturas Animadas
+of.options.ANIMATED_TERRAIN=Terreno animado
+of.options.ANIMATED_TEXTURES=Texturas animadas
 of.options.FIREWORK_PARTICLES=Partículas de fogos de artifício.
 
 # Other
