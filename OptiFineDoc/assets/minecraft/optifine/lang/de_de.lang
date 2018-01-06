@@ -17,35 +17,35 @@ of.general.smart=Fein
 of.key.zoom=Zoom
 
 # Message
-of.message.aa.shaders1=Antialiasing ist nicht mit Shader-Effekten kompatibel.
-of.message.aa.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.aa.shaders1=Antialiasing ist nicht mit Shadern kompatibel.
+of.message.aa.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.af.shaders1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
-of.message.af.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.af.shaders1=Anistropische Filterung ist nicht mit Shadern kompatibel.
+of.message.af.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
-of.message.fr.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shadern kompatibel.
+of.message.fr.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.an.shaders1=3D-Effekt ist nicht mit Shader-Effekten kompatibel.
-of.message.an.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.an.shaders1=3D-Effekt ist nicht mit Shadern kompatibel.
+of.message.an.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.shaders.aa1=Antialiasing ist nicht mit Shader-Effekten kompatibel. 
+of.message.shaders.aa1=Antialiasing ist nicht mit Shadern kompatibel. 
 of.message.shaders.aa2=Bitte deaktiviere Qualität -> Antialiasing und starte das Spiel neu.
 
-of.message.shaders.af1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
+of.message.shaders.af1=Anistropische Filterung ist nicht mit Shadern kompatibel.
 of.message.shaders.af2=Bitte deaktiviere Qualität -> Anistropische Filterung.
 
-of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
+of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shadern kompatibel.
 of.message.shaders.fr2=Bitte deaktiviere Leistung -> Schnelles Rendern.
 
-of.message.shaders.an1=Shader-Effekte sind nicht mit dem 3D-Effekt kompatibel.
+of.message.shaders.an1=Shader sind nicht mit dem 3D-Effekt kompatibel.
 of.message.shaders.an2=Bitte deaktiviere Sonstiges -> 3D-Effekt.
 
 of.message.newVersion=Eine neue Version von §eOptiFine§f ist verfügbar: §e%s§f
 of.message.java64Bit=Du kannst die §e64-bit-Version von Java§f installieren, um die Leistung zu verbessern
 of.message.openglError=§eOpenGL-Fehler§f: %s (%s)
 
-of.message.shaders.loading=Lade Shader-Effekte: %s
+of.message.shaders.loading=Lade Shader: %s
 
 of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
 
@@ -89,13 +89,13 @@ options.framerateLimit.tooltip.5=Die Bildrate grenzt die FPS ein, sogar wenn
 options.framerateLimit.tooltip.6=die Begrenzung nicht erreicht ist.
 of.options.framerateLimit.vsync=V-Sync
 
-of.options.AO_LEVEL=Schattenhelligkeit
-of.options.AO_LEVEL.tooltip.1=Schattenhelligkeit
-of.options.AO_LEVEL.tooltip.2=  Aus - Keine Schatten
+of.options.AO_LEVEL=Weiche Beleuchtungs-level
+of.options.AO_LEVEL.tooltip.1=Weiche Beleuchtungs-level
+of.options.AO_LEVEL.tooltip.2=  AUS - Keine Schatten
 of.options.AO_LEVEL.tooltip.3=  50%% - Helle Schatten
 of.options.AO_LEVEL.tooltip.4=  100%% - Dunkle Schatten
 
-options.viewBobbing.tooltip.1=Gehbewegung
+options.viewBobbing.tooltip.1=realistischere Gehbewegung
 options.viewBobbing.tooltip.2=Wenn Mipmaps verwendet werden, deaktiviere diese
 options.viewBobbing.tooltip.3=Einstellung für bessere Leitung.
 
@@ -115,13 +115,13 @@ options.gamma.tooltip.1=Ändert die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  Düster - Standardhelligkeit
 options.gamma.tooltip.3=  1-99%% - veränderlich
 options.gamma.tooltip.4=  Hell - Maximale Helligkeit für dunkle Objekte
-options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von ganz
+options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von komplett
 options.gamma.tooltip.6=schwarzen Objekten.
 
 options.anaglyph.tooltip.1=3D-Effekt
 options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
 options.anaglyph.tooltip.3=Verwenden unterschiedlicher Farben für jedes Auge.
-options.anaglyph.tooltip.4=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
+options.anaglyph.tooltip.4=Kann nur mit einer 3D-Brille benutzt werden.
 
 of.options.ALTERNATE_BLOCKS=Blockvarianten
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvarianten
@@ -155,11 +155,11 @@ of.options.CHUNK_LOADING.tooltip.8=die FPS erhöhen, indem es einen zweiten CPU-
 of.options.chunkLoading.smooth=Weich
 of.options.chunkLoading.multiCore=Multi-Core
 
-of.options.shaders=Shader-Effekte ...
-of.options.shadersTitle=Shader-Effekte
+of.options.shaders=Shader...
+of.options.shadersTitle=Shader
 
-of.options.shaders.packNone=Aus
-of.options.shaders.packDefault=(Interner Shader-Effekt)
+of.options.shaders.packNone=AUS
+of.options.shaders.packDefault=(Interner Shader)
 
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
@@ -170,23 +170,23 @@ of.options.shaders.ANTIALIASING.tooltip.5=Linien und harte Farbübergänge glät
 of.options.shaders.ANTIALIASING.tooltip.6=Dies ist schneller als herkömmliches Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.7=und kompatibel mit Shadern und schnellem Rendern.
 
-of.options.shaders.NORMAL_MAP=Normale Karten
-of.options.shaders.NORMAL_MAP.tooltip.1=Normale Karten
-of.options.shaders.NORMAL_MAP.tooltip.2=  An - (Standard) Normale Karten aktiviert
-of.options.shaders.NORMAL_MAP.tooltip.3=  Aus - Normale Karten deaktiviert
-of.options.shaders.NORMAL_MAP.tooltip.4=Normale Karten können von Shader-Paketen verwendet
+of.options.shaders.NORMAL_MAP=Normalkarten
+of.options.shaders.NORMAL_MAP.tooltip.1=Normalkarten
+of.options.shaders.NORMAL_MAP.tooltip.2=  An - (Standard) Normalkarten aktiviert
+of.options.shaders.NORMAL_MAP.tooltip.3=  Aus - Normalkarten deaktiviert
+of.options.shaders.NORMAL_MAP.tooltip.4=Normalkarten können von Shader-Paketen verwendet
 of.options.shaders.NORMAL_MAP.tooltip.5=werden, um 3D-Geometrie auf flachen Oberflächen zu
 of.options.shaders.NORMAL_MAP.tooltip.6=simulieren.
-of.options.shaders.NORMAL_MAP.tooltip.7=Die normalen Karten werden vom aktivierten
+of.options.shaders.NORMAL_MAP.tooltip.7=Die Normalkarten werden vom aktivierten
 of.options.shaders.NORMAL_MAP.tooltip.8=Ressourcenpaket zur Verfügung gestellt.
 
-of.options.shaders.SPECULAR_MAP=Spiegelnde Karten
-of.options.shaders.SPECULAR_MAP.tooltip.1=Spiegelnde Karten
-of.options.shaders.SPECULAR_MAP.tooltip.2=  An - (Standard) Spiegelnde Karten aktiviert
-of.options.shaders.SPECULAR_MAP.tooltip.3=  Aus - Spiegelnde Karten deaktiviert
-of.options.shaders.SPECULAR_MAP.tooltip.4=Spiegelnde Karten können von Shader-Paketen verwendet
+of.options.shaders.SPECULAR_MAP=Reflektionsungskarten
+of.options.shaders.SPECULAR_MAP.tooltip.1=Reflektionsungskarten
+of.options.shaders.SPECULAR_MAP.tooltip.2=  An - (Standard) Reflektionsungskarten aktiviert
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Aus - Reflektionsungskarten deaktiviert
+of.options.shaders.SPECULAR_MAP.tooltip.4=Reflektionsungskarten können von Shader-Paketen verwendet
 of.options.shaders.SPECULAR_MAP.tooltip.5=werden, um spezielle Reflexionseffekte zu erzeugen.
-of.options.shaders.SPECULAR_MAP.tooltip.6=Die spiegelnden Karten werden vom aktivierten
+of.options.shaders.SPECULAR_MAP.tooltip.6=Die Reflektionsungskarten werden vom aktivierten
 of.options.shaders.SPECULAR_MAP.tooltip.7=Ressourcenpaket zur Verfügung gestellt.
 
 of.options.shaders.RENDER_RES_MUL=Renderqualität
@@ -245,7 +245,7 @@ of.options.shaders.SHADER_PACK=Shader-Paket
 of.options.shaders.shadersFolder=Shader-Paket-Ordner
 of.options.shaders.shaderOptions=Shadereinstellungen ...
 
-of.options.shaderOptionsTitle=Shader-Effekte
+of.options.shaderOptionsTitle=Shader
 
 of.options.quality=Qualität ...
 of.options.qualityTitle=Qualitätseinstellungen
