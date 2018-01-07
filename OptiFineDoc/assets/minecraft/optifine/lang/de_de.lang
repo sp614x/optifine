@@ -3,6 +3,7 @@
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
 #   TheHADILP 2016-5-20 ---- 2017-12-21
+#   Nerdyyy 2018-1-6
 
 # General
 of.general.ambiguous=Unklar
@@ -58,7 +59,7 @@ options.graphics.tooltip.3=  Schön   - Höhere Qualität, langsamer
 options.graphics.tooltip.4=Verändert das Aussehen von Wolken, Blättern, Wasser,
 options.graphics.tooltip.5=Schatten und Grasblöcken.
 
-of.options.renderDistance.tiny=Mini
+of.options.renderDistance.tiny=Winzig
 of.options.renderDistance.short=Klein
 of.options.renderDistance.normal=Normal
 of.options.renderDistance.far=Weit
@@ -67,7 +68,7 @@ of.options.renderDistance.insane=Wahnsinnig
 of.options.renderDistance.ludicrous=Absurd
 
 options.renderDistance.tooltip.1=Sichtweite
-options.renderDistance.tooltip.2=  2 Mini - 32m (am schnellsten)
+options.renderDistance.tooltip.2=  2 Winzig - 32m (am schnellsten)
 options.renderDistance.tooltip.3=  8 Normal - 128m
 options.renderDistance.tooltip.4=  16 Weit - 256m (langsam)
 options.renderDistance.tooltip.5=  32 Extrem - 512m (am langsamsten!) ressourcenlastig
@@ -76,7 +77,7 @@ options.renderDistance.tooltip.7=  64 Absurd - 1024m, braucht 3GB RAM zugeteilt
 options.renderDistance.tooltip.8=Werte über 16 funktionieren nur im Einzelspielermodus.
 
 options.ao.tooltip.1=Weiche Beleuchtung
-options.ao.tooltip.2=  Aus - Keine weiche Beleuchtung (schnell)
+options.ao.tooltip.2=  Aus - Normale Beleuchtung (schnell)
 options.ao.tooltip.3=  Minimum - Einfache weiche Beleuchtung (langsam)
 options.ao.tooltip.4=  Maximum - Komplexe weiche Beleuchtung (am langsamsten)
 
