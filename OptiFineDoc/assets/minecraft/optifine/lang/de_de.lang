@@ -77,7 +77,7 @@ options.renderDistance.tooltip.7=  64 Absurd - 1024m, braucht 3GB RAM zugeteilt
 options.renderDistance.tooltip.8=Werte über 16 funktionieren nur im Einzelspielermodus.
 
 options.ao.tooltip.1=Weiche Beleuchtung
-options.ao.tooltip.2=  Aus - normale Beleuchtung (schnell)
+options.ao.tooltip.2=  Aus - Normale Beleuchtung (schnell)
 options.ao.tooltip.3=  Minimum - Einfache weiche Beleuchtung (langsam)
 options.ao.tooltip.4=  Maximum - Komplexe weiche Beleuchtung (am langsamsten)
 
