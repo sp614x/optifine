@@ -3,6 +3,7 @@
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
 #   TheHADILP 2016-5-20 ---- 2017-12-21
+#   Nerdyyy 2018-1-6
 
 # General
 of.general.ambiguous=Unklar
@@ -16,35 +17,35 @@ of.general.smart=Fein
 of.key.zoom=Zoom
 
 # Message
-of.message.aa.shaders1=Antialiasing ist nicht mit Shader-Effekten kompatibel.
-of.message.aa.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.aa.shaders1=Antialiasing ist nicht mit Shadern kompatibel.
+of.message.aa.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.af.shaders1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
-of.message.af.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.af.shaders1=Anistropische Filterung ist nicht mit Shadern kompatibel.
+of.message.af.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
-of.message.fr.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shadern kompatibel.
+of.message.fr.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.an.shaders1=3D-Effekt ist nicht mit Shader-Effekten kompatibel.
-of.message.an.shaders2=Bitte deaktiviere Shader-Effekte, um diese Einstellung zu aktivieren.
+of.message.an.shaders1=3D-Effekt ist nicht mit Shadern kompatibel.
+of.message.an.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.shaders.aa1=Antialiasing ist nicht mit Shader-Effekten kompatibel. 
+of.message.shaders.aa1=Antialiasing ist nicht mit Shadern kompatibel. 
 of.message.shaders.aa2=Bitte deaktiviere Qualität -> Antialiasing und starte das Spiel neu.
 
-of.message.shaders.af1=Anistropische Filterung ist nicht mit Shader-Effekten kompatibel.
+of.message.shaders.af1=Anistropische Filterung ist nicht mit Shadern kompatibel.
 of.message.shaders.af2=Bitte deaktiviere Qualität -> Anistropische Filterung.
 
-of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shader-Effekten kompatibel.
+of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shadern kompatibel.
 of.message.shaders.fr2=Bitte deaktiviere Leistung -> Schnelles Rendern.
 
-of.message.shaders.an1=Shader-Effekte sind nicht mit dem 3D-Effekt kompatibel.
+of.message.shaders.an1=Shader sind nicht mit dem 3D-Effekt kompatibel.
 of.message.shaders.an2=Bitte deaktiviere Sonstiges -> 3D-Effekt.
 
 of.message.newVersion=Eine neue Version von §eOptiFine§f ist verfügbar: §e%s§f
 of.message.java64Bit=Du kannst die §e64-bit-Version von Java§f installieren, um die Leistung zu verbessern
 of.message.openglError=§eOpenGL-Fehler§f: %s (%s)
 
-of.message.shaders.loading=Lade Shader-Effekte: %s
+of.message.shaders.loading=Lade Shader: %s
 
 of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
 
@@ -58,7 +59,7 @@ options.graphics.tooltip.3=  Schön   - Höhere Qualität, langsamer
 options.graphics.tooltip.4=Verändert das Aussehen von Wolken, Blättern, Wasser,
 options.graphics.tooltip.5=Schatten und Grasblöcken.
 
-of.options.renderDistance.tiny=Mini
+of.options.renderDistance.tiny=Winzig
 of.options.renderDistance.short=Klein
 of.options.renderDistance.normal=Normal
 of.options.renderDistance.far=Weit
@@ -67,7 +68,7 @@ of.options.renderDistance.insane=Wahnsinnig
 of.options.renderDistance.ludicrous=Absurd
 
 options.renderDistance.tooltip.1=Sichtweite
-options.renderDistance.tooltip.2=  2 Mini - 32m (am schnellsten)
+options.renderDistance.tooltip.2=  2 Winzig - 32m (am schnellsten)
 options.renderDistance.tooltip.3=  8 Normal - 128m
 options.renderDistance.tooltip.4=  16 Weit - 256m (langsam)
 options.renderDistance.tooltip.5=  32 Extrem - 512m (am langsamsten!) ressourcenlastig
@@ -76,7 +77,7 @@ options.renderDistance.tooltip.7=  64 Absurd - 1024m, braucht 3GB RAM zugeteilt
 options.renderDistance.tooltip.8=Werte über 16 funktionieren nur im Einzelspielermodus.
 
 options.ao.tooltip.1=Weiche Beleuchtung
-options.ao.tooltip.2=  Aus - Keine weiche Beleuchtung (schnell)
+options.ao.tooltip.2=  Aus - Normale Beleuchtung (schnell)
 options.ao.tooltip.3=  Minimum - Einfache weiche Beleuchtung (langsam)
 options.ao.tooltip.4=  Maximum - Komplexe weiche Beleuchtung (am langsamsten)
 
@@ -114,13 +115,13 @@ options.gamma.tooltip.1=Ändert die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  Düster - Standardhelligkeit
 options.gamma.tooltip.3=  1-99%% - veränderlich
 options.gamma.tooltip.4=  Hell - Maximale Helligkeit für dunkle Objekte
-options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von ganz
+options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von komplett
 options.gamma.tooltip.6=schwarzen Objekten.
 
 options.anaglyph.tooltip.1=3D-Effekt
 options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
 options.anaglyph.tooltip.3=Verwenden unterschiedlicher Farben für jedes Auge.
-options.anaglyph.tooltip.4=Kann nur mit einer Rot-Cyan-Brille benutzt werden.
+options.anaglyph.tooltip.4=Kann nur mit einer 3D-Brille benutzt werden.
 
 of.options.ALTERNATE_BLOCKS=Blockvarianten
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvarianten
@@ -154,11 +155,11 @@ of.options.CHUNK_LOADING.tooltip.8=die FPS erhöhen, indem es einen zweiten CPU-
 of.options.chunkLoading.smooth=Weich
 of.options.chunkLoading.multiCore=Multi-Core
 
-of.options.shaders=Shader-Effekte ...
-of.options.shadersTitle=Shader-Effekte
+of.options.shaders=Shader...
+of.options.shadersTitle=Shader
 
 of.options.shaders.packNone=Aus
-of.options.shaders.packDefault=(Interner Shader-Effekt)
+of.options.shaders.packDefault=(Interner Shader)
 
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
@@ -169,23 +170,23 @@ of.options.shaders.ANTIALIASING.tooltip.5=Linien und harte Farbübergänge glät
 of.options.shaders.ANTIALIASING.tooltip.6=Dies ist schneller als herkömmliches Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.7=und kompatibel mit Shadern und schnellem Rendern.
 
-of.options.shaders.NORMAL_MAP=Normale Karten
-of.options.shaders.NORMAL_MAP.tooltip.1=Normale Karten
-of.options.shaders.NORMAL_MAP.tooltip.2=  An - (Standard) Normale Karten aktiviert
-of.options.shaders.NORMAL_MAP.tooltip.3=  Aus - Normale Karten deaktiviert
-of.options.shaders.NORMAL_MAP.tooltip.4=Normale Karten können von Shader-Paketen verwendet
+of.options.shaders.NORMAL_MAP=Normalkarten
+of.options.shaders.NORMAL_MAP.tooltip.1=Normalkarten
+of.options.shaders.NORMAL_MAP.tooltip.2=  An - (Standard) Normalkarten aktiviert
+of.options.shaders.NORMAL_MAP.tooltip.3=  Aus - Normalkarten deaktiviert
+of.options.shaders.NORMAL_MAP.tooltip.4=Normalkarten können von Shader-Paketen verwendet
 of.options.shaders.NORMAL_MAP.tooltip.5=werden, um 3D-Geometrie auf flachen Oberflächen zu
 of.options.shaders.NORMAL_MAP.tooltip.6=simulieren.
-of.options.shaders.NORMAL_MAP.tooltip.7=Die normalen Karten werden vom aktivierten
+of.options.shaders.NORMAL_MAP.tooltip.7=Die Normalkarten werden vom aktivierten
 of.options.shaders.NORMAL_MAP.tooltip.8=Ressourcenpaket zur Verfügung gestellt.
 
-of.options.shaders.SPECULAR_MAP=Spiegelnde Karten
-of.options.shaders.SPECULAR_MAP.tooltip.1=Spiegelnde Karten
-of.options.shaders.SPECULAR_MAP.tooltip.2=  An - (Standard) Spiegelnde Karten aktiviert
-of.options.shaders.SPECULAR_MAP.tooltip.3=  Aus - Spiegelnde Karten deaktiviert
-of.options.shaders.SPECULAR_MAP.tooltip.4=Spiegelnde Karten können von Shader-Paketen verwendet
+of.options.shaders.SPECULAR_MAP=Reflexionskarten
+of.options.shaders.SPECULAR_MAP.tooltip.1=Reflexionskarten
+of.options.shaders.SPECULAR_MAP.tooltip.2=  An - (Standard) Reflexionskarten aktiviert
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Aus - Reflexionskarten deaktiviert
+of.options.shaders.SPECULAR_MAP.tooltip.4=Reflexionskarten können von Shader-Paketen verwendet
 of.options.shaders.SPECULAR_MAP.tooltip.5=werden, um spezielle Reflexionseffekte zu erzeugen.
-of.options.shaders.SPECULAR_MAP.tooltip.6=Die spiegelnden Karten werden vom aktivierten
+of.options.shaders.SPECULAR_MAP.tooltip.6=Die Reflexionskarten werden vom aktivierten
 of.options.shaders.SPECULAR_MAP.tooltip.7=Ressourcenpaket zur Verfügung gestellt.
 
 of.options.shaders.RENDER_RES_MUL=Renderqualität
@@ -221,30 +222,30 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.8=die Unschärfe der tragbaren Gegenst
 of.options.shaders.CLOUD_SHADOW=Wolkenschatten
 
 of.options.shaders.OLD_HAND_LIGHT=Alte Handbel.
-of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Alte Handbeleuchtung
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Alte Handbelichtung
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Standard - gesteuert vom Shader-Paket
-of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  An - Alte Handbeleuchtung aktiviert
-of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Aus - Alte Handbeleuchtung deaktiviert
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Die alte Handbeleuchtung sorgt dafür, dass leuchtende
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  An - Alte Handbelichtung aktiviert
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Aus - Alte Handbelichtung deaktiviert
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Die alte Handbelichtung sorgt dafür, dass leuchtende
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=Gegenstände bei alten Shader-Paketen sowohl in der
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=Haupt-, als auch der Nebenhand erkannt werden.
 
 of.options.shaders.OLD_LIGHTING=Alte Bel.
-of.options.shaders.OLD_LIGHTING.tooltip.1=Alte Beleuchtung
+of.options.shaders.OLD_LIGHTING.tooltip.1=Alte Belichtung
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Standard - gesteuert vom Shader-Paket
-of.options.shaders.OLD_LIGHTING.tooltip.3=  An - Alte Beleuchtung aktiviert
-of.options.shaders.OLD_LIGHTING.tooltip.4=  Aus - Alte Beleuchtung deaktiviert
-of.options.shaders.OLD_LIGHTING.tooltip.5=Die alte Beleuchtung steuert die starre "Vanilla"
-of.options.shaders.OLD_LIGHTING.tooltip.6=Beleuchtung der Block-Seiten.
+of.options.shaders.OLD_LIGHTING.tooltip.3=  An - Alte Belichtung aktiviert
+of.options.shaders.OLD_LIGHTING.tooltip.4=  Aus - Alte Belichtung deaktiviert
+of.options.shaders.OLD_LIGHTING.tooltip.5=Die alte Belichtung steuert die starre "Vanilla"
+of.options.shaders.OLD_LIGHTING.tooltip.6=Belichtung der Block-Seiten.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Shader-Pakete mit Schatten variierend nach Sonnenstand
-of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Beleuchtung zur Verfügung.
+of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Belichtung zur Verfügung.
 
-of.options.shaders.SHADER_PACK=Shader-Paket
+of.options.shaders.SHADER_PACK=Shader
 
-of.options.shaders.shadersFolder=Shader-Paket-Ordner
+of.options.shaders.shadersFolder=Shader-Ordner
 of.options.shaders.shaderOptions=Shadereinstellungen ...
 
-of.options.shaderOptionsTitle=Shader-Effekte
+of.options.shaderOptionsTitle=Shader
 
 of.options.quality=Qualität ...
 of.options.qualityTitle=Qualitätseinstellungen
@@ -312,11 +313,11 @@ of.options.CLEAR_WATER.tooltip.1=Klares Wasser
 of.options.CLEAR_WATER.tooltip.2=  An - Klares, transparentes Wasser
 of.options.CLEAR_WATER.tooltip.3=  Aus - Normales Wasser
 
-of.options.RANDOM_ENTITIES=Kreaturvarianten
-of.options.RANDOM_ENTITIES.tooltip.1=Kreaturvarianten
-of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Kreaturvarianten, schneller
-of.options.RANDOM_ENTITIES.tooltip.3=  An - Keine Kreaturvarianten, langsamer
-of.options.RANDOM_ENTITIES.tooltip.4=Die gleichen Kreaturen können unterschiedliche Texturen
+of.options.RANDOM_ENTITIES=Entitätsvarianten
+of.options.RANDOM_ENTITIES.tooltip.1=Entitätsvarianten
+of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Entitätsvarianten, schneller
+of.options.RANDOM_ENTITIES.tooltip.3=  An - Keine Entitätsvarianten, langsamer
+of.options.RANDOM_ENTITIES.tooltip.4=Die gleichen Entitäten können unterschiedliche Texturen
 of.options.RANDOM_ENTITIES.tooltip.5=haben. Dies benötigt ein Ressourcenpaket mit entspre-
 of.options.RANDOM_ENTITIES.tooltip.6=chenden Texturen.
 
@@ -380,7 +381,7 @@ of.options.EMISSIVE_TEXTURES.tooltip.3=  An - Lichtemittierende Texturen
 of.options.EMISSIVE_TEXTURES.tooltip.4=Die lichtemittierenden Texturen werden als Overlays mit
 of.options.EMISSIVE_TEXTURES.tooltip.5=voller Helligkeit gerendert. Dadurch können leuchtende
 of.options.EMISSIVE_TEXTURES.tooltip.6=Bereiche der Grund-Textur simuliert werden.
-of.options.EMISSIVE_TEXTURES.tooltip.7=Die lichtemittierendenTexturen werden aus den
+of.options.EMISSIVE_TEXTURES.tooltip.7=Die lichtemittierenden Texturen werden aus den
 of.options.EMISSIVE_TEXTURES.tooltip.8=aktivierten Ressourcenpaketen geladen.
 
 of.options.NATURAL_TEXTURES=Natürliche Texturen
@@ -465,7 +466,7 @@ of.options.SKY.tooltip.5=sichtbar.
 of.options.STARS=Sterne
 of.options.STARS.tooltip.1=Sterne
 of.options.STARS.tooltip.2=  An - Sterne sind sichtbar, langsamer
-of.options.STARS.tooltip.3=  Aus - Sterne ist nicht sichtbar, schneller
+of.options.STARS.tooltip.3=  Aus - Sterne sind nicht sichtbar, schneller
 
 of.options.SUN_MOON=Sonne & Mond
 of.options.SUN_MOON.tooltip.1=Sonne & Mond
@@ -476,11 +477,13 @@ of.options.SHOW_CAPES=Umhänge
 of.options.SHOW_CAPES.tooltip.1=Umhänge
 of.options.SHOW_CAPES.tooltip.2=  An - Umhänge werden dargestellt (Standard)
 of.options.SHOW_CAPES.tooltip.3=  Aus - Umhänge werden nicht dargestellt
+of.options.SHOW_CAPES.tooltip.4=Diese Einstellung beeinflusst normalerweise nicht die
+of.options.SHOW_CAPES.tooltip.5=Leistung.
 
 of.options.TRANSLUCENT_BLOCKS=Blocktransparenz
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocktransparenz
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Schön - Korrekte Farbmischung (Standard)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Schnell - Schnelle Farbmischung (schnell)
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Schön - Korrekte Farbmischung (Standard), langsamer
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Schnell - Schnelle Farbmischung, schneller
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=Kontrolliert die Farbmischung von transparenten Blöcken
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=mit verschiedenen Farben (Gefärbtes Glas, Wasser, Eis),
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=wenn sie hintereinander mit Luft dazwischen platziert
@@ -524,8 +527,8 @@ of.options.DYNAMIC_FOV=Dynamisches Sichtfeld
 of.options.DYNAMIC_FOV.tooltip.1=Dynamisches Sichtfeld
 of.options.DYNAMIC_FOV.tooltip.2=  An - Dynamisches Sichtfeld aktivieren (Standard)
 of.options.DYNAMIC_FOV.tooltip.3=  Aus - Dynamisches Sichtfeld ausschalten
-of.options.DYNAMIC_FOV.tooltip.4=Ändert das Sichtfeld beim Fliegen, Sprinten oder beim
-of.options.DYNAMIC_FOV.tooltip.5=Spannen eines Bogens.
+of.options.DYNAMIC_FOV.tooltip.4=Ändert das Sichtfeld beim Fliegen, Sprinten, Spannen
+of.options.DYNAMIC_FOV.tooltip.5=eines Bogens oder wenn man einen Schnelligkeits-Effekt hat.
 
 of.options.DYNAMIC_LIGHTS=Dyn. Beleuchtung
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamische Beleuchtung
