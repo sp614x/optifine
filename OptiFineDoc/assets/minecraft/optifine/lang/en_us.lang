@@ -229,6 +229,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=by vanilla to the block sides.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Shader packs which use shadows usually provide 
 of.options.shaders.OLD_LIGHTING.tooltip.8=much better lighting depending on the sun position.
 
+of.options.shaders.DOWNLOAD=Download Shaders
+of.options.shaders.DOWNLOAD.tooltip.1=Download Shaders
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Opens the shader packs page in a browser.
+of.options.shaders.DOWNLOAD.tooltip.4=Put the downloaded shader packs in the "Shaders Folder"
+of.options.shaders.DOWNLOAD.tooltip.5=and they will appear in the list of installed shaders.
+
 of.options.shaders.SHADER_PACK=Shader Pack
 
 of.options.shaders.shadersFolder=Shaders Folder
