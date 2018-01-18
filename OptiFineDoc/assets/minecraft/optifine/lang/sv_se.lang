@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2017-12-21
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-01-17
 
 # General
 of.general.ambiguous=tvetydig
@@ -205,8 +205,8 @@ of.options.shaders.HAND_DEPTH_MUL=Handdjup
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Handdjup
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - handen är nära kameran
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (standard)
-of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - handen är långt bort från kameran
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Handdjup kontrollerar hur långt bort handhållna
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - handen är långt borta från kameran
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Handdjup kontrollerar hur långt borta handhållna
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=föremål är från kameran.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=För shaderpaket som använder skärpedjup bör detta
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhålla föremål blir.
@@ -231,6 +231,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.5=Gammalt ljus kontrollerar det fasta lj
 of.options.shaders.OLD_LIGHTING.tooltip.6=på blocksidor som standard.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Shaderpaket som använder skuggor ger vanligtvis
 of.options.shaders.OLD_LIGHTING.tooltip.8=mycket bättre ljus som är beroende av solens position.
+
+of.options.shaders.DOWNLOAD=Ladda ned shaders
+of.options.shaders.DOWNLOAD.tooltip.1=Ladda ned shaders
+of.options.shaders.DOWNLOAD.tooltip.2=
+of.options.shaders.DOWNLOAD.tooltip.3=Öppnar webbsidan för shaderpaket i en webbläsare.
+of.options.shaders.DOWNLOAD.tooltip.4=Lägg nedladdade shaderpaket i "shadermappen" så
+of.options.shaders.DOWNLOAD.tooltip.5=kommer de visas i listan över installerade shaders.
 
 of.options.shaders.SHADER_PACK=Shaderpaket
 
