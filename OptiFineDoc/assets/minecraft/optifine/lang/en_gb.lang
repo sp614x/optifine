@@ -1,6 +1,10 @@
+# author = sp614x, Diego R. V.
+
 # Video Settings
 
 options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colours
+
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = inexact, coarser shadows
 
 # Quality
 
@@ -30,7 +34,16 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.5=with different colour (stained glass, wa
 
 # Performance
 
+of.options.SMOOTH_FPS.tooltip.1=Stabilises FPS by flushing the graphic driver buffers.
+of.options.SMOOTH_FPS.tooltip.2=  OFF - no stabilisation, FPS may fluctuate
+of.options.SMOOTH_FPS.tooltip.3=  ON - FPS stabilisation
+
+of.options.FAST_RENDER.tooltip.3= ON - optimised rendering (faster)
+of.options.FAST_RENDER.tooltip.4=Uses optimised rendering algorithm which decreases
+
 of.options.FAST_MATH=Fast Maths
 of.options.FAST_MATH.tooltip.1=Fast Maths
 of.options.FAST_MATH.tooltip.2= OFF - standard maths (default)
 of.options.FAST_MATH.tooltip.3= ON - faster maths
+
+of.options.CHUNK_UPDATES.tooltip.6=higher values may destabilise the framerate.
