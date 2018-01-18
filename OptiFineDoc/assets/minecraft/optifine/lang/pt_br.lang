@@ -102,7 +102,7 @@ options.guiScale.tooltip.6=Uma interface menor pode ampliar o desempenho.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Utiliza um modelo de renderização
-options.vbo.tooltip.3=mais rápido (5-10%%) do que o modelo comum.
+options.vbo.tooltip.3=mais rápido (5-10%) do que o modelo comum.
 
 options.gamma.tooltip.1=Suaviza o brilho de objetos escuros.
 options.gamma.tooltip.2=  Escuro - brilho normal
@@ -166,7 +166,7 @@ of.options.shaders.NORMAL_MAP=Normal Map
 of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
 of.options.shaders.NORMAL_MAP.tooltip.2=  ON - (padrão) ativar normal maps 
 of.options.shaders.NORMAL_MAP.tooltip.3=  OFF - desativar normal maps
-of.options.shaders.NORMAL_MAP.tooltip.4=Normal maps podem ser usados pelo pacote Shader
+of.options.shaders.NORMAL_MAP.tooltip.4=Normal maps podem ser usados pelo pacote Shaders
 of.options.shaders.NORMAL_MAP.tooltip.5=para simular um efeito geométrico 3D em objetos planos
 of.options.shaders.NORMAL_MAP.tooltip.6=Texturas de normal maps são incluídos no
 of.options.shaders.NORMAL_MAP.tooltip.7=pacote de recursos atual.
@@ -214,7 +214,7 @@ of.options.shaders.CLOUD_SHADOW=Sombra de Nuvens
 
 of.options.shaders.OLD_HAND_LIGHT=Old Hand Light
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Old Hand Light
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Padrão - definido pelo pacote Shader
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Padrão - definido pelo pacote Shaders
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ON - Old handlight
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  OFF - New handlight
 of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Old hand light permite que pacotes Shaders reconheçam
@@ -223,7 +223,7 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.7=também manejar itens com a mão sec
 
 of.options.shaders.OLD_LIGHTING=Old Lighting
 of.options.shaders.OLD_LIGHTING.tooltip.1=Old Lighting
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Padrão - definido pelo pacote Shader
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Padrão - definido pelo pacote Shaders
 of.options.shaders.OLD_LIGHTING.tooltip.3=  ON - Old lighting
 of.options.shaders.OLD_LIGHTING.tooltip.4=  OFF - Sem old lighting
 of.options.shaders.OLD_LIGHTING.tooltip.5=Old lighting define a iluminação fixa aplicada 
@@ -231,7 +231,14 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=aos modelos Vanilla.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Pacotes Shaders com sombras fornecem melhor
 of.options.shaders.OLD_LIGHTING.tooltip.8=iluminação, dependendo da posição do Sol.
 
-of.options.shaders.SHADER_PACK=Pacote Shader
+of.options.shaders.DOWNLOAD=Baixar Shaders
+of.options.shaders.DOWNLOAD.tooltip.1=Baixar Shaders
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Abrir a página de pacotes Shaders no seu navegador.
+of.options.shaders.DOWNLOAD.tooltip.4=Mova os pacotes Shaders baixados para a "Pasta do Shaders"
+of.options.shaders.DOWNLOAD.tooltip.5=e eles serão exibidos na lista de Shaders instalados.
+
+of.options.shaders.SHADER_PACK=Pacote Shaders
 
 of.options.shaders.shadersFolder=Pasta do Shaders
 of.options.shaders.shaderOptions=Opções do Shaders...
@@ -588,11 +595,11 @@ of.options.ANIMATED_EXPLOSION=Explosão animada
 of.options.ANIMATED_FLAME=Chama animada
 of.options.ANIMATED_SMOKE=Fumaça animada
 of.options.VOID_PARTICLES=Partículas do Vazio
-of.options.WATER_PARTICLES=Partículas da água
+of.options.WATER_PARTICLES=Partículas de água
 of.options.RAIN_SPLASH=Respingos de chuva
 of.options.PORTAL_PARTICLES=Partículas de portal
 of.options.POTION_PARTICLES=Partículas de poções
-of.options.DRIPPING_WATER_LAVA=Água/Lava pingando
+of.options.DRIPPING_WATER_LAVA=Gotas de água/Lava
 of.options.ANIMATED_TERRAIN=Terreno animado
 of.options.ANIMATED_TEXTURES=Texturas animadas
 of.options.FIREWORK_PARTICLES=Part. de fogos de artifício.
@@ -648,11 +655,11 @@ of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida será usada no modo
 of.options.FULLSCREEN_MODE.tooltip.5=Resoluções menores normalmente são rápidas.
 
 of.options.SHOW_FPS=Exibir FPS
-of.options.SHOW_FPS.tooltip.1=Exibir taxa compacta de FPS e informações de renderização.
+of.options.SHOW_FPS.tooltip.1=Exibir taxa concisa de FPS e informações de renderização.
 of.options.SHOW_FPS.tooltip.2=  C: - chunk renderers
 of.options.SHOW_FPS.tooltip.3=  E: - rendered entities + block entities
 of.options.SHOW_FPS.tooltip.4=  U: - atualização de chunks
-of.options.SHOW_FPS.tooltip.5=A taxa compacta de FPS só é visível quando a
+of.options.SHOW_FPS.tooltip.5=A taxa concisa de FPS só é visível quando a
 of.options.SHOW_FPS.tooltip.6=tela de depuração não está ativada.
 
 of.options.save.default=Padrão (2s)
