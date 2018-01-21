@@ -229,6 +229,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=Minecraft dává na strany bloků.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Balíčky stínů, které stíny používají často mají
 of.options.shaders.OLD_LIGHTING.tooltip.8=mnohem lepší osvětlení závisející na pozici slunce.
 
+of.options.shaders.DOWNLOAD=Stáhnout stíny
+of.options.shaders.DOWNLOAD.tooltip.1=Stáhnout stíny (shadery)
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Otevře stránku balíčků stínů v internetovém prohlížeči.
+of.options.shaders.DOWNLOAD.tooltip.4=Dej stáhnuté balíčky do "složký stínů"
+of.options.shaders.DOWNLOAD.tooltip.5=a ony se pak objeví v seznmu instalovaných stínů.
+
 of.options.shaders.SHADER_PACK=Balíček stínů (shader pack)
 
 of.options.shaders.shadersFolder=Složka stínů
