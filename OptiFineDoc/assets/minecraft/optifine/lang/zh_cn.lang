@@ -234,6 +234,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=方块各面固定照明。
 of.options.shaders.OLD_LIGHTING.tooltip.7=使用阴影的光影包通常会提供
 of.options.shaders.OLD_LIGHTING.tooltip.8=更好的、取决于太阳位置的照明。
 
+of.options.shaders.DOWNLOAD=光影下载
+of.options.shaders.DOWNLOAD.tooltip.1=下载光影
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=在浏览器中打开光影包页面。
+of.options.shaders.DOWNLOAD.tooltip.4=将已下载完成的光影置于光影文件夹中，
+of.options.shaders.DOWNLOAD.tooltip.5=它们将出现在已安装的光影列表里。
+
 of.options.shaders.SHADER_PACK=光影包文件夹
 
 of.options.shaders.shadersFolder=光影包文件夹
