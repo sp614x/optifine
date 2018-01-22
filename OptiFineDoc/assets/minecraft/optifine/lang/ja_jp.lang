@@ -233,9 +233,16 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=適用した明かりの描画を制�
 of.options.shaders.OLD_LIGHTING.tooltip.7=影を扱うシェーダーパックは多くの場合
 of.options.shaders.OLD_LIGHTING.tooltip.8=太陽の位置に基づくはるかに良い影を提供します。
 
+of.options.shaders.DOWNLOAD=シェーダーのダウンロード
+of.options.shaders.DOWNLOAD.tooltip.1=シェーダーのダウンロード
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=シェーダーのダウンロードページをブラウザで開きます。
+of.options.shaders.DOWNLOAD.tooltip.4=ダウンロードしたシェーダーパックは「シェーダーフォルダー」に入れると
+of.options.shaders.DOWNLOAD.tooltip.5=導入されたシェーダーの一覧に表示されます。
+
 of.options.shaders.SHADER_PACK=シェーダーパック
 
-of.options.shaders.shadersFolder=シェーダーのフォルダー
+of.options.shaders.shadersFolder=シェーダーフォルダー
 of.options.shaders.shaderOptions=シェーダーのオプション設定...
 
 of.options.shaderOptionsTitle=シェーダーのオプション設定
