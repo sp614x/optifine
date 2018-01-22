@@ -230,6 +230,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=освітленність сторо�
 of.options.shaders.OLD_LIGHTING.tooltip.7=Шейдери зазвичай надають краще освітлення в 
 of.options.shaders.OLD_LIGHTING.tooltip.8=залежності від позиції сонця.
 
+of.options.shaders.DOWNLOAD=Завантажити Шейдери
+of.options.shaders.DOWNLOAD.tooltip.1=Завантажити шейдери
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Відкриває сторінку зі списком шейдерпаків.
+of.options.shaders.DOWNLOAD.tooltip.4=Перенесіть шейдери у папку shaderpacks і вони
+of.options.shaders.DOWNLOAD.tooltip.5=з'являться у списку встановлених шейдерів.
+
 of.options.shaders.SHADER_PACK=Шейдерпак
 
 of.options.shaders.shadersFolder=Папка з шейдерами
