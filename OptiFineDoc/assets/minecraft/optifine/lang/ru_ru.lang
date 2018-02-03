@@ -226,6 +226,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=игрой к сторонам бло�
 of.options.shaders.OLD_LIGHTING.tooltip.7=Шейдеры со встроенными тенями обычно гораздо лучше
 of.options.shaders.OLD_LIGHTING.tooltip.8=показывают освещение, зависящее от положения солнца.
 
+of.options.shaders.DOWNLOAD=Загрузить шейдеры
+of.options.shaders.DOWNLOAD.tooltip.1=Загрузить шейдеры
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Открывает страницу со списком шейдеров в браузере.
+of.options.shaders.DOWNLOAD.tooltip.4=Поместите загруженные шейдеры в «Папку с шейдерами»,
+of.options.shaders.DOWNLOAD.tooltip.5=после этого они станут доступны для использования.
+
 of.options.shaders.SHADER_PACK=Пакет шейдеров
 
 of.options.shaders.shadersFolder=Папка с шейдерами
