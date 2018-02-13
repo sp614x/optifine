@@ -316,9 +316,9 @@ See "properties_files.txt" for the block matching rules.
   # Block ID, Metadata (backwards compatibility)
   block.34=38:6 38:7 83
 
-Block render layer
-==================
-The custom block render layer is defined in "shaders/block.properties" included in the shader pack.
+Block render layers
+===================
+The custom block render layers are defined in "shaders/block.properties" included in the shader pack.
 
   layer.solid=<blocks>
   layer.cutout=<blocks>
