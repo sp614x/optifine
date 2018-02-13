@@ -316,6 +316,27 @@ See "properties_files.txt" for the block matching rules.
   # Block ID, Metadata (backwards compatibility)
   block.34=38:6 38:7 83
 
+Block render layer
+==================
+The custom block render layer is defined in "shaders/block.properties" included in the shader pack.
+
+  layer.solid=<blocks>
+  layer.cutout=<blocks>
+  layer.cutout_mipped=<blocks>
+  layer.translucent=<blocks>
+
+Layers
+  solid - no alpha, no blending (solid textures)
+  cutout - alpha, no blending (cutout textures)
+  cutout_mipped - alpha, no blending, mipmaps (cutout with mipmaps)
+  translucent - alpha, blending, mipmaps (water, stained glass)
+ 
+Blocks which are solid opaque cubes (stone, dirt, ores, etc) can't be rendered on a custom layer
+as this would affect face culling, ambient occlusion, light propagation and so on.
+
+For exaple:
+  layer.translucent=glass_pane fence wooden_door
+
 Fragment Shader Configuration
 =============================
 Source                                          Effect                                                     Comment
