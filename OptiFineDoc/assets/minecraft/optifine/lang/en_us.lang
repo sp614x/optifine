@@ -579,6 +579,13 @@ of.options.LAZY_CHUNK_LOADING.tooltip.5=distributing the chunks over several tic
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Turn it OFF if parts of the world do not load correctly.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-player).
 
+of.options.RENDER_REGIONS=Render Regions
+of.options.RENDER_REGIONS.tooltip.1=Render Regions
+of.options.RENDER_REGIONS.tooltip.2= OFF - (default) do not use render regions
+of.options.RENDER_REGIONS.tooltip.3= ON - use render regions
+of.options.RENDER_REGIONS.tooltip.4=Render regions allow faster terrain rendering at higher
+of.options.RENDER_REGIONS.tooltip.5=render distances. More effective when VBOs are enabled.
+
 # Animations
 
 of.options.animation.allOn=All ON
