@@ -42,7 +42,7 @@ of.message.openglError=§eErro do OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Carregando Shaders: %s
 
-of.message.other.reset=Redefinir configurações de vídeo para os valores padrões?
+of.message.other.reset=Redefinir configurações de vídeo para valores padrões?
  
 of.message.loadingVisibleChunks=Carregando chunks visíveis
  
@@ -87,8 +87,8 @@ of.options.framerateLimit.vsync=VSync
 of.options.AO_LEVEL=Nível de iluminação suave
 of.options.AO_LEVEL.tooltip.1=Nível de iluminação suave
 of.options.AO_LEVEL.tooltip.2=  OFF - Sem sombras
-of.options.AO_LEVEL.tooltip.3=  50%% - sombras claras
-of.options.AO_LEVEL.tooltip.4=  100%% - sombras escuras
+of.options.AO_LEVEL.tooltip.3=  50% - sombras claras
+of.options.AO_LEVEL.tooltip.4=  100% - sombras escuras
 
 options.viewBobbing.tooltip.1=Movimentos na visão
 options.viewBobbing.tooltip.2=Ao usar mipmaps, desative esta opção para melhores resultados.
@@ -129,7 +129,7 @@ of.options.FOG_FANCY.tooltip.4=  OFF - sem névoa.
 of.options.FOG_FANCY.tooltip.5=A Névoa Suave estará disponível apenas se sua placa
 of.options.FOG_FANCY.tooltip.6=de vídeo permitir.
 
-of.options.FOG_START=Início da névoa
+of.options.FOG_START=Início da Névoa
 of.options.FOG_START.tooltip.1=Início da névoa
 of.options.FOG_START.tooltip.2=  0.2 - a névoa começa perto de você
 of.options.FOG_START.tooltip.3=  0.8 - a névoa começa longe de você
@@ -175,18 +175,18 @@ of.options.shaders.SPECULAR_MAP=Specular Map
 of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
 of.options.shaders.SPECULAR_MAP.tooltip.2=  ON - (padrão) ativar specular maps
 of.options.shaders.SPECULAR_MAP.tooltip.3=  OFF - desativar specular maps
-of.options.shaders.SPECULAR_MAP.tooltip.4=Specular maps podem ser usados pelo pacote Shader
+of.options.shaders.SPECULAR_MAP.tooltip.4=Specular maps podem ser usados pelo pacote Shaders
 of.options.shaders.SPECULAR_MAP.tooltip.5=para simular efeitos especiais reflexivos.
 of.options.shaders.SPECULAR_MAP.tooltip.6=Texturas de specular maps são incluídas no 
 of.options.shaders.SPECULAR_MAP.tooltip.7=pacote de recursos atual.
 
-of.options.shaders.RENDER_RES_MUL=Qualidade de Renderização
+of.options.shaders.RENDER_RES_MUL=Qualidade de Render.
 of.options.shaders.RENDER_RES_MUL.tooltip.1=Qualidade de Renderização
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - baixa (rápida)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - padrão
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - alta (lenta)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=A qualidade de renderização controla o tamanho da textura 
-of.options.shaders.RENDER_RES_MUL.tooltip.6=que o pacote Shader renderiza.
+of.options.shaders.RENDER_RES_MUL.tooltip.6=que o pacote Shaders renderiza.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Valores menores funcionam melhor em monitores 4K.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Valores maiores funcionam com um filtro de antialiasing.
 
@@ -196,40 +196,40 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - baixa (rápida)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - padrão
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - alta (lenta)
 of.options.shaders.SHADOW_RES_MUL.tooltip.5=A qualidade de sombras controla o tamanho das texturas de sombras
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=utilizadas pelo pacote Shader atual.
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=utilizadas pelo pacote Shaders atual.
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Valores baixos = sombras distorcidas.
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Valores altos = sombras detalhadas.
 
 of.options.shaders.HAND_DEPTH_MUL=Hand Depth
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Hand Depth
-of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - mão próxima à câmera
-of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (padrão)
-of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - mão distante da câmera
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hand depth controla a distância de objetos segurados
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=em relação à câmera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - hand near to the camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (default)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - hand far from the camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hand depth controls how far the handheld objects are
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=from the camera.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For shader packs using depth blur this should change
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=the blurring of handheld objects.
 
-of.options.shaders.CLOUD_SHADOW=Sombra de Nuvens
+of.options.shaders.CLOUD_SHADOW=Sombra das Nuvens
 
 of.options.shaders.OLD_HAND_LIGHT=Old Hand Light
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Old Hand Light
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Padrão - definido pelo pacote Shaders
-of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ON - Old handlight
-of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  OFF - New handlight
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Old hand light permite que pacotes Shaders reconheçam
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=a emissão de luzes pela mão principal para
-of.options.shaders.OLD_HAND_LIGHT.tooltip.7=também manejar itens com a mão secundária.
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Default - controlled by the shader pack
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ON - use old handlight
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  OFF - use new handlight
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Old hand light allows shader packs which only  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognize light emitting items in the main hand 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=to also work with items in the off-hand.
 
 of.options.shaders.OLD_LIGHTING=Old Lighting
 of.options.shaders.OLD_LIGHTING.tooltip.1=Old Lighting
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Padrão - definido pelo pacote Shaders
-of.options.shaders.OLD_LIGHTING.tooltip.3=  ON - Old lighting
-of.options.shaders.OLD_LIGHTING.tooltip.4=  OFF - Sem old lighting
-of.options.shaders.OLD_LIGHTING.tooltip.5=Old lighting define a iluminação fixa aplicada 
-of.options.shaders.OLD_LIGHTING.tooltip.6=aos modelos Vanilla.
-of.options.shaders.OLD_LIGHTING.tooltip.7=Pacotes Shaders com sombras fornecem melhor
-of.options.shaders.OLD_LIGHTING.tooltip.8=iluminação, dependendo da posição do Sol.
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Default - controlled by the shader pack
+of.options.shaders.OLD_LIGHTING.tooltip.3=  ON - use old lighting
+of.options.shaders.OLD_LIGHTING.tooltip.4=  OFF - do not use old lighting
+of.options.shaders.OLD_LIGHTING.tooltip.5=Old lighting controls the fixed lighting applied 
+of.options.shaders.OLD_LIGHTING.tooltip.6=by vanilla to the block sides. 
+of.options.shaders.OLD_LIGHTING.tooltip.7=Shader packs which use shadows usually provide 
+of.options.shaders.OLD_LIGHTING.tooltip.8=much better lighting depending on the sun position.
 
 of.options.shaders.DOWNLOAD=Baixar Shaders
 of.options.shaders.DOWNLOAD.tooltip.1=Baixar Shaders
@@ -290,7 +290,7 @@ of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
 of.options.AA_LEVEL.tooltip.2= OFF - (padrão) sem antialiasing (rápido)
 of.options.AA_LEVEL.tooltip.3= 2-16 - linhas e bordas suavizadas (lento)
-of.options.AA_LEVEL.tooltip.4=O Antialising suaviza linhas irregulares
+of.options.AA_LEVEL.tooltip.4=O Antialiasing suaviza linhas irregulares
 of.options.AA_LEVEL.tooltip.5=e transição de cores.
 of.options.AA_LEVEL.tooltip.6=Quando ativado, pode reduzir a taxa de FPS.
 of.options.AA_LEVEL.tooltip.7=Nem todos os níveis acima são suportados por todas as placas de vídeo.
@@ -305,7 +305,7 @@ of.options.AF_LEVEL.tooltip.5=em texturas de mipmap.
 of.options.AF_LEVEL.tooltip.6=Quando ativada, pode reduzir significativamente a taxa de FPS.
 
 of.options.CLEAR_WATER=Água Límpida
-of.options.CLEAR_WATER.tooltip.1=Água límpida
+of.options.CLEAR_WATER.tooltip.1=Água Límpida
 of.options.CLEAR_WATER.tooltip.2=  ON - água clara e transparente
 of.options.CLEAR_WATER.tooltip.3=  OFF - água normal
 
@@ -401,7 +401,7 @@ of.options.CUSTOM_ITEMS.tooltip.3=  OFF - texturas normais de itens, rápido
 of.options.CUSTOM_ITEMS.tooltip.4=Αs texturas personalizadas de itens são fornecidas pelo
 of.options.CUSTOM_ITEMS.tooltip.5=pacote de recursos atual.
 
-of.options.CUSTOM_ENTITY_MODELS=Modelos person. de entidades
+of.options.CUSTOM_ENTITY_MODELS=Modelos de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Modelos personalizados de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  ON - modelos personalizados de entidades (padrão), lento
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  OFF - modelos padrões de entidades, rápido
@@ -425,10 +425,10 @@ of.options.CLOUDS.tooltip.5=  OFF - sem nuvens, mais rápido
 of.options.CLOUDS.tooltip.6=Nuvens Rápidas - 2D.
 of.options.CLOUDS.tooltip.7=Nuvens Bonitas - 3D.
 
-of.options.CLOUD_HEIGHT=Altitude de Nuvens
-of.options.CLOUD_HEIGHT.tooltip.1=Altitude de nuvens
+of.options.CLOUD_HEIGHT=Altitude das Nuvens
+of.options.CLOUD_HEIGHT.tooltip.1=Altitude das Nuvens
 of.options.CLOUD_HEIGHT.tooltip.2=  OFF - padrão
-of.options.CLOUD_HEIGHT.tooltip.3=  100%% - acima do limite da altura do mundo
+of.options.CLOUD_HEIGHT.tooltip.3=  100% - acima do limite da altura do mundo
 
 of.options.TREES=Árvores
 of.options.TREES.tooltip.1=Árvores
@@ -445,13 +445,13 @@ of.options.RAIN.tooltip.2=  Padrão - como o configurado
 of.options.RAIN.tooltip.3=  Rápidas  - chuva/neve leve, rápido
 of.options.RAIN.tooltip.4=  Bonitas - chuva/neve pesada, lento
 of.options.RAIN.tooltip.5=  OFF - sem chuva/neve, mais rápido
-of.options.RAIN.tooltip.6=Mesmo com a opção desativada, os sons de
+of.options.RAIN.tooltip.6=Mesmo com a opção desabilitada, os sons de
 of.options.RAIN.tooltip.7=precipitação ainda podem estar ativados.
 
 of.options.SKY=Céu
 of.options.SKY.tooltip.1=Céu
-of.options.SKY.tooltip.2=  ON. - Céu visível, lento
-of.options.SKY.tooltip.3=  OFF - Céu não visível, rápido
+of.options.SKY.tooltip.2=  ON. - Céu ativado, lento
+of.options.SKY.tooltip.3=  OFF - Céu desativado, rápido
 of.options.SKY.tooltip.4=Quando o Céu está desativado, a Lua e o Sol ainda podem ser visíveis.
 
 of.options.STARS=Estrelas
@@ -470,7 +470,7 @@ of.options.SHOW_CAPES.tooltip.2=  ON - mostrar capas de jogadores (padrão)
 of.options.SHOW_CAPES.tooltip.3=  OFF - não mostrar capas de jogadores
 
 of.options.TRANSLUCENT_BLOCKS=Blocos Translúcidos
-of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocos translúcidos
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocos Translúcidos
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Bonitos - matiz suave das cores (padrão)
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rápidos - matiz rápida de cores (rápido)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=Controla a matiz de blocos translúcidos
@@ -510,12 +510,12 @@ of.options.VIGNETTE.tooltip.6=especialmente em tela cheia.
 of.options.VIGNETTE.tooltip.7=O efeito da vinheta é quase imperceptível e pode ser
 of.options.VIGNETTE.tooltip.8=desativado facilmente.
 
-of.options.DYNAMIC_FOV=FOV dinâmico
-of.options.DYNAMIC_FOV.tooltip.1=FOV dinâmico
+of.options.DYNAMIC_FOV=FOV Dinâmico
+of.options.DYNAMIC_FOV.tooltip.1=FOV Dinâmico
 of.options.DYNAMIC_FOV.tooltip.2=  ON - ativa o FOV dinâmico (padrão)
 of.options.DYNAMIC_FOV.tooltip.3=  OFF - desativa o FOV dinâmico
 of.options.DYNAMIC_FOV.tooltip.4=Altera o campo de visão (FOV) ao voar,
-of.options.DYNAMIC_FOV.tooltip.5=correr ou disparar com um arco.
+of.options.DYNAMIC_FOV.tooltip.5=correr ou retesar um arco.
 
 of.options.DYNAMIC_LIGHTS=Luzes Dinâmicas
 of.options.DYNAMIC_LIGHTS.tooltip.1=Luzes Dinâmicas
@@ -540,14 +540,14 @@ of.options.SMOOTH_WORLD.tooltip.1=Reduz a latência causada pelo servidor intern
 of.options.SMOOTH_WORLD.tooltip.2=  OFF - sem estabilização, a taxa de FPS pode flutuar
 of.options.SMOOTH_WORLD.tooltip.3=  ON - estabilização da taxa de FPS ligada
 of.options.SMOOTH_WORLD.tooltip.4=Estabiliza a taxa de FPS particionando o carregamento interno do servidor.
-of.options.SMOOTH_WORLD.tooltip.5=Funciona apenas no modo Singleplayer (Um jogador).
+of.options.SMOOTH_WORLD.tooltip.5=Funciona apenas em mundos locais (Um jogador).
 
-of.options.FAST_RENDER=Renderização Rápida
+of.options.FAST_RENDER=Render. Rápida
 of.options.FAST_RENDER.tooltip.1=Renderização Rápida
 of.options.FAST_RENDER.tooltip.2= OFF - renderização normal (padrão)
 of.options.FAST_RENDER.tooltip.3= ON - renderização refinada (rápido)
 of.options.FAST_RENDER.tooltip.4=Utiliza um algoritmo especial de renderização que reduz
-of.options.FAST_RENDER.tooltip.5=o uso da GPU e aumenta o FPS.
+of.options.FAST_RENDER.tooltip.5=o uso da GPU e aumenta a taxa de FPS.
 
 of.options.FAST_MATH=Fast Math
 of.options.FAST_MATH.tooltip.1=Fast Math
@@ -578,7 +578,14 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - carregamento reduzido (suave)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Facilita o carregamento de chunks do servidor,
 of.options.LAZY_CHUNK_LOADING.tooltip.5=distribuindo os chunks em vários ticks.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Desative-o se partes do mundo não carregarem corretamente.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Funciona apenas em mundos locais (Um jogador).
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Disponível apenas em mundos locais (Um jogador).
+
+of.options.RENDER_REGIONS=Render. de Regiões
+of.options.RENDER_REGIONS.tooltip.1=Renderização de Regiões
+of.options.RENDER_REGIONS.tooltip.2= OFF - (padrão) desativar renderização de regiões
+of.options.RENDER_REGIONS.tooltip.3= ON - ativar renderização de regiões
+of.options.RENDER_REGIONS.tooltip.4=Quando ativada, renderiza terrenos distantes mais rapidamente.
+of.options.RENDER_REGIONS.tooltip.5=Ative o VBO para melhores resultados.
 
 # Animations
 
@@ -594,12 +601,12 @@ of.options.ANIMATED_REDSTONE=Redstone animada
 of.options.ANIMATED_EXPLOSION=Explosão animada
 of.options.ANIMATED_FLAME=Chama animada
 of.options.ANIMATED_SMOKE=Fumaça animada
-of.options.VOID_PARTICLES=Partículas do Vazio
+of.options.VOID_PARTICLES=Partículas do Void
 of.options.WATER_PARTICLES=Partículas de água
 of.options.RAIN_SPLASH=Respingos de chuva
 of.options.PORTAL_PARTICLES=Partículas de portal
 of.options.POTION_PARTICLES=Partículas de poções
-of.options.DRIPPING_WATER_LAVA=Gotas de água/Lava
+of.options.DRIPPING_WATER_LAVA=Gotas de água/lava
 of.options.ANIMATED_TERRAIN=Terreno animado
 of.options.ANIMATED_TEXTURES=Texturas animadas
 of.options.FIREWORK_PARTICLES=Part. de fogos de artifício.
@@ -627,7 +634,7 @@ of.options.WEATHER=Clima
 of.options.WEATHER.tooltip.1=Clima
 of.options.WEATHER.tooltip.2=  ON - clima ligado, lento
 of.options.WEATHER.tooltip.3=  OFF - clima desligado, rápido
-of.options.WEATHER.tooltip.4=O clima controla as chuvas, tempestades e neve.
+of.options.WEATHER.tooltip.4=Esta opção controla as chuvas, tempestades e neve.
 of.options.WEATHER.tooltip.5=Disponível apenas em mundos locais (Um jogador).
 
 of.options.time.dayOnly=Somente dia
