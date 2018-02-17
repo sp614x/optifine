@@ -127,7 +127,7 @@ of.options.FOG_FANCY.tooltip.1=Typ av dimma
 of.options.FOG_FANCY.tooltip.2=  Snabbt - snabbare dimma
 of.options.FOG_FANCY.tooltip.3=  Snyggt - långsammare dimma, ser bättre ut
 of.options.FOG_FANCY.tooltip.4=  AV - ingen dimma, snabbast
-of.options.FOG_FANCY.tooltip.5=Snygg dimma finns bara tillgänglig om det stöds av 
+of.options.FOG_FANCY.tooltip.5=Snygg dimma finns bara tillgänglig om den stöds av 
 of.options.FOG_FANCY.tooltip.6=grafikkortet.
 
 of.options.FOG_START=Startgräns för dimma
@@ -290,7 +290,7 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilinjärt - finast utjämning (långsammast
 
 of.options.AA_LEVEL=Kantutjämning
 of.options.AA_LEVEL.tooltip.1=Kantutjämning
-of.options.AA_LEVEL.tooltip.2=  AV - ingen kantutjämning (standard, snabbare)
+of.options.AA_LEVEL.tooltip.2=  AV - ingen kantutjämning (standard), snabbare
 of.options.AA_LEVEL.tooltip.3=  2-16 - kantutjämnade linjer och kanter (långsammare)
 of.options.AA_LEVEL.tooltip.4=Kantutjämningen jämnar ur ojämna linjer och skarpa
 of.options.AA_LEVEL.tooltip.5=färgövergångar.
@@ -300,7 +300,7 @@ of.options.AA_LEVEL.tooltip.8=Kräver OMSTART!
 
 of.options.AF_LEVEL=Anisotropisk filtrering
 of.options.AF_LEVEL.tooltip.1=Anisotropisk filtrering
-of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer för texturer (standard, snabbare)
+of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer i texturer (standard), snabbare
 of.options.AF_LEVEL.tooltip.3=  2-16 - finare detaljer i mipmaptexturer (långsammare)
 of.options.AF_LEVEL.tooltip.4=Den anisotropiska filtreringen återställer detaljer i
 of.options.AF_LEVEL.tooltip.5=mipmaptexturer.
@@ -322,7 +322,9 @@ of.options.BETTER_GRASS=Bättre gräs
 of.options.BETTER_GRASS.tooltip.1=Bättre gräs
 of.options.BETTER_GRASS.tooltip.2=  AV - standardtextur för gräskanter, snabbast
 of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig textur för gräskanter, långsammare
+of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig gräskantstextur, långsammare
 of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk textur för gräskanter, långsammast
+of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk gräskantstextur, långsammast
 
 of.options.BETTER_SNOW=Bättre snö
 of.options.BETTER_SNOW.tooltip.1=Bättre snö
@@ -340,8 +342,8 @@ of.options.CUSTOM_FONTS.tooltip.5=resurspaketet.
 
 of.options.CUSTOM_COLORS=Anpassade färger
 of.options.CUSTOM_COLORS.tooltip.1=Anpassade färger
-of.options.CUSTOM_COLORS.tooltip.2=  PÅ - anpassade färger används (standard), långsammare
-of.options.CUSTOM_COLORS.tooltip.3=  AV - standardfärger används, snabbare
+of.options.CUSTOM_COLORS.tooltip.2=  PÅ - använd anpassade färger (standard), långsammare
+of.options.CUSTOM_COLORS.tooltip.3=  AV - använd standardfärgerna, snabbare
 of.options.CUSTOM_COLORS.tooltip.4=De anpassade färgerna tillhandahålls av det aktuella
 of.options.CUSTOM_COLORS.tooltip.5=resurspaketet
 
@@ -477,9 +479,9 @@ of.options.TRANSLUCENT_BLOCKS=Genomskinliga block
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Genomskinliga block
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Snyggt - korrekt färgblandning (standard)
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Snabbt - snabb färgblandning (snabbare)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Kontrollerar färgblandningen för genomskinliga block med
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=olika färger (färgat glas, vatten, is) när de placeras
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=bakom varandra med luft emellan.
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=Kontrollerar färgblandningen för genomskinliga block
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=med olika färger (färgat glas, vatten, is) när de
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=placeras bakom varandra med luft emellan.
 
 of.options.HELD_ITEM_TOOLTIPS=Infotext för föremål
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Infotext för föremål
@@ -501,8 +503,8 @@ of.options.DROPPED_ITEMS.tooltip.3=  Snabbt - renderas i 2D, snabbare
 of.options.DROPPED_ITEMS.tooltip.4=  Snyggt - renderas i 3D, långsammare
 
 options.entityShadows.tooltip.1=Entitetsskuggor
-options.entityShadows.tooltip.2=  PÅ - visa entitetsskuggor
-options.entityShadows.tooltip.3=  AV - visa inte entitetsskuggor
+options.entityShadows.tooltip.2=  PÅ - visa skuggor för entiteter
+options.entityShadows.tooltip.3=  AV - visa inte skuggor för entiteter
 
 of.options.VIGNETTE=Vinjett
 of.options.VIGNETTE.tooltip.1=Visuell effekt som mörklägger skärmens hörn en aning
