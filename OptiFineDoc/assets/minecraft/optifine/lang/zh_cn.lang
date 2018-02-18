@@ -409,7 +409,7 @@ of.options.CUSTOM_ENTITY_MODELS=自定义实体模型
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=自定义实体模型
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  开 - 自定义实体模型（默认），较慢
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  关 - 默认实体模型，较快
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定义的实体模型一般由
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定义实体模型一般由
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_GUIS=自定义GUI
@@ -449,7 +449,7 @@ of.options.RAIN.tooltip.2=  默认 - 以“图形品质”的设定为准
 of.options.RAIN.tooltip.3=  流畅  - 少量的雨/雪，较快
 of.options.RAIN.tooltip.4=  高品质 - 大量的雨/雪，较慢
 of.options.RAIN.tooltip.5=  关闭 - 没有雨/雪，最快
-of.options.RAIN.tooltip.6=雨声和雨粒效果
+of.options.RAIN.tooltip.6=雨声 和 雨滴飞溅
 of.options.RAIN.tooltip.7=不受此选项影响。
 
 of.options.SKY=天空
