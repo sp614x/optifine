@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 03-Feb-2018
+#	Jerozgen  01-Mar-2016 — 18-Feb-2018
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -80,7 +80,7 @@ options.ao.tooltip.4=  Максимум - сложное мягкое освещ
 
 options.framerateLimit.tooltip.1=Частота кадров
 options.framerateLimit.tooltip.2=  V-Sync - частота обновления монитора
-options.framerateLimit.tooltip.3=  5–255 - пользовательские значения
+options.framerateLimit.tooltip.3=  5–255 - свои значения
 options.framerateLimit.tooltip.4=  Максимум - без ограничений, быстрее
 options.framerateLimit.tooltip.5=Уменьшает частоту кадров до указанной.
 options.framerateLimit.tooltip.6=
@@ -109,7 +109,7 @@ options.vbo.tooltip.3=которая обычно быстрее стандар�
 
 options.gamma.tooltip.1=Яркость тёмных объектов
 options.gamma.tooltip.2=  Тускло - стандартная яркость
-options.gamma.tooltip.3=  1–99%% - пользовательские значения
+options.gamma.tooltip.3=  1–99%% - свои значения
 options.gamma.tooltip.4=  Ярко - максимальная яркость
 options.gamma.tooltip.5=Не изменяет яркость полностью чёрных объектов.
 options.gamma.tooltip.6=
@@ -576,6 +576,13 @@ of.options.LAZY_CHUNK_LOADING.tooltip.4=Стабилизирует загруз�
 of.options.LAZY_CHUNK_LOADING.tooltip.5=распределяя её на несколько тактов.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Выключите, если части мира загружаются некорректно.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Действует только в локальных мирах (одиночная игра).
+
+of.options.RENDER_REGIONS=Области рендеринга
+of.options.RENDER_REGIONS.tooltip.1=Области рендеринга
+of.options.RENDER_REGIONS.tooltip.2= Выкл - не использовать области рендеринга (по умолчанию)
+of.options.RENDER_REGIONS.tooltip.3= Вкл - использовать области рендеринга
+of.options.RENDER_REGIONS.tooltip.4=Позволяют ускорить рендеринг местности на высокой
+of.options.RENDER_REGIONS.tooltip.5=дальности прорисовки. Эффективнее с включённым VBO.
 
 # Анимация
 
