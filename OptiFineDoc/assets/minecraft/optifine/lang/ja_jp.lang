@@ -51,8 +51,8 @@ of.message.loadingVisibleChunks=可視チャンクを読み込み中
 # Video settings
 
 options.graphics.tooltip.1=グラフィックス
-options.graphics.tooltip.2=  処理優先  - 低品質、 低負荷
-options.graphics.tooltip.3=  描画優先 - 高品質 高負荷
+options.graphics.tooltip.2=  処理優先  - 低品質、低負荷
+options.graphics.tooltip.3=  描画優先 - 高品質、高負荷
 options.graphics.tooltip.4=葉の透過、アイテムやMobの影、ドロップアイテムの3D描写、
 options.graphics.tooltip.5=厚みのある雲、水の2パスレンダリング、といったグラフィック効果を変更します。
 
