@@ -21,7 +21,7 @@ of.message.af.shaders1=異方性フィルタリングはシェーダーと共存
 of.message.af.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
 
 of.message.fr.shaders1=描画の最適化はシェーダーと共存できません。
-of.message.fr.shaders1=このオプションを有効にするには、シェーダを無効にしてください。
+of.message.fr.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
 
 of.message.an.shaders1=3Dアナグリフはシェーダーと共存できません。
 of.message.an.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
@@ -40,7 +40,7 @@ of.message.shaders.an2=その他の設定 → 3Dアナグリフ をオフにし�
 
 of.message.newVersion=新しい§eOptiFine§fが公開されました：§e%s§f
 of.message.java64Bit=パフォーマンスを高めるために§e64-bit Java§fが利用できます。
-of.message.openglError=§eOpenGLエラー§f：%s (%s) 
+of.message.openglError=§eOpenGLエラー§f：%s (%s)
 
 of.message.shaders.loading=シェーダーをロード中：%s
 
@@ -52,7 +52,7 @@ of.message.loadingVisibleChunks=可視チャンクを読み込み中
 
 options.graphics.tooltip.1=グラフィックス
 options.graphics.tooltip.2=  処理優先  - 低品質、 低負荷
-options.graphics.tooltip.3=  描画優先 - 高品質、 高負荷
+options.graphics.tooltip.3=  描画優先 - 高品質 高負荷
 options.graphics.tooltip.4=葉の透過、アイテムやMobの影、ドロップアイテムの3D描写、
 options.graphics.tooltip.5=厚みのある雲、水の2パスレンダリング、といったグラフィック効果を変更します。
 
@@ -65,23 +65,23 @@ of.options.renderDistance.insane=狂気
 of.options.renderDistance.ludicrous=不条理
 
 options.renderDistance.tooltip.1=描画距離
-options.renderDistance.tooltip.2=  2 最短 - 32m (最低負荷) 
-options.renderDistance.tooltip.3=  8 普通 - 128m (普通) 
-options.renderDistance.tooltip.4=  16 遠い - 256m (高負荷) 
+options.renderDistance.tooltip.2=  2 最短 - 32m (最低負荷)
+options.renderDistance.tooltip.3=  8 普通 - 128m (普通)
+options.renderDistance.tooltip.4=  16 遠い - 256m (高負荷)
 options.renderDistance.tooltip.5=  32 過激 - 512m (超高負荷！) 大量のリソースを要求します
 options.renderDistance.tooltip.6=  48 狂気 - 768m、2GBのメモリー割り当てが必要です
 options.renderDistance.tooltip.7=  64 不条理 - 1024m、3GBのメモリー割り当てが必要です
 options.renderDistance.tooltip.8=遠いを超える描画距離はシングルのワールドでのみ効果があります。
 
 options.ao.tooltip.1=スムースライティング
-options.ao.tooltip.2=  オフ - スムースライティングを使用しない (低負荷) 
-options.ao.tooltip.3=  最小 - 単純なスムースライティング (高負荷) 
-options.ao.tooltip.4=  最大 - 複雑なスムースライティング (最高負荷) 
+options.ao.tooltip.2=  オフ - スムースライティングを使用しない (低負荷)
+options.ao.tooltip.3=  最小 - 単純なスムースライティング (高負荷)
+options.ao.tooltip.4=  最大 - 複雑なスムースライティング (最高負荷)
 
 options.framerateLimit.tooltip.1=最大フレームレート
-options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレートに合わせる (60、30、20) 
-options.framerateLimit.tooltip.3=  5～255 - フレームレートを設定した値までに制限する
-options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない (最低負荷) 
+options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレートに合わせる (60、30、20)
+options.framerateLimit.tooltip.3=  5〜255 - フレームレートを設定した値までに制限する
+options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない (最低負荷)
 options.framerateLimit.tooltip.5=たとえ制限に達していなくとも、
 options.framerateLimit.tooltip.6=フレームレートを抑制します。
 of.options.framerateLimit.vsync=垂直同期
@@ -104,11 +104,11 @@ options.guiScale.tooltip.6=GUIは小さいほうが処理が速くなるかも�
 
 options.vbo.tooltip.1=頂点バッファオブジェクト
 options.vbo.tooltip.2=描画方式を新しいものに変更し、
-options.vbo.tooltip.3=5～10%%処理を軽くできます。
+options.vbo.tooltip.3=5〜10%%処理を軽くできます。
 
 options.gamma.tooltip.1=暗い物体の明るさの変更
 options.gamma.tooltip.2=  暗い - 通常の明るさ
-options.gamma.tooltip.3=  1～99%% - 明るさを調整する
+options.gamma.tooltip.3=  1〜99%% - 明るさを調整する
 options.gamma.tooltip.4=  明るい - 最大の明るさ
 options.gamma.tooltip.5=完全に真っ暗な物体の明るさは、
 options.gamma.tooltip.6=変更できません。
@@ -116,10 +116,10 @@ options.gamma.tooltip.6=変更できません。
 options.anaglyph.tooltip.1=3Dアナグリフ
 options.anaglyph.tooltip.2=それぞれの目に別々の色を使うことで
 options.anaglyph.tooltip.3=立体視を可能にする機能を有効にします。
-options.anaglyph.tooltip.4=赤青3Dメガネが必要です。 
+options.anaglyph.tooltip.4=赤青3Dメガネが必要です。
 
 of.options.ALTERNATE_BLOCKS=代替ブロック
-of.options.ALTERNATE_BLOCKS.tooltip.1=代替ブロックの設定
+of.options.ALTERNATE_BLOCKS.tooltip.1=代替ブロック
 of.options.ALTERNATE_BLOCKS.tooltip.2=幾つかのブロックで代替モデルを使用します。
 of.options.ALTERNATE_BLOCKS.tooltip.3=選択されたリソースパックに依存します。
 
@@ -137,14 +137,14 @@ of.options.FOG_START.tooltip.2=  0.2 - プレイヤーと霧の距離を最も�
 of.options.FOG_START.tooltip.3=  0.8 - プレイヤーと霧の距離を最も遠くする
 of.options.FOG_START.tooltip.4=この設定は大抵の場合パフォーマンスに影響を与えません。
 
-of.options.CHUNK_LOADING=チャンク読込方法
-of.options.CHUNK_LOADING.tooltip.1=チャンクの読み込み方法
-of.options.CHUNK_LOADING.tooltip.2=  デフォルト - チャンクロード時、FPSは安定しない。
+of.options.CHUNK_LOADING=チャンク読み込み
+of.options.CHUNK_LOADING.tooltip.1=チャンク読み込み
+of.options.CHUNK_LOADING.tooltip.2=  デフォルト - チャンク読み込み時、FPSは安定しない。
 of.options.CHUNK_LOADING.tooltip.3=  滑らか - フレームレート低下を抑制。
-of.options.CHUNK_LOADING.tooltip.4=  マルチコア - フレームレートのさらなる安定化 ワールドのロード処理が三倍ほど速くなる。
-of.options.CHUNK_LOADING.tooltip.5=滑らかやマルチコアであれば、チャンクロードに起因する
+of.options.CHUNK_LOADING.tooltip.4=  マルチコア - フレームレートのさらなる安定化、ワールドの読み込み処理が三倍ほど速くなる。
+of.options.CHUNK_LOADING.tooltip.5=滑らかやマルチコアであれば、チャンク読み込みに起因する
 of.options.CHUNK_LOADING.tooltip.6=カクつきとフリーズを除けます。
-of.options.CHUNK_LOADING.tooltip.7=マルチコアでは二番目のCPUを用いることでワールドのロード処理が
+of.options.CHUNK_LOADING.tooltip.7=マルチコアでは二番目のCPUを用いることでワールドの読み込み処理が
 of.options.CHUNK_LOADING.tooltip.8=三倍ほど速くでき、FPSも改善できます。
 of.options.chunkLoading.smooth=滑らか
 of.options.chunkLoading.multiCore=マルチコア
@@ -153,12 +153,12 @@ of.options.shaders=シェーダーの詳細設定...
 of.options.shadersTitle=シェーダーの詳細設定
 
 of.options.shaders.packNone=なし
-of.options.shaders.packDefault= (内部シェーダー) 
+of.options.shaders.packDefault=(内部シェーダー)
 
 of.options.shaders.ANTIALIASING=アンチエイリアス
 of.options.shaders.ANTIALIASING.tooltip.1=アンチエイリアス
-of.options.shaders.ANTIALIASING.tooltip.2=  オフ -  (初期値) アンチエイリアスを行わない (低負荷) 
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x、4x - アンチエイリアスされた輪郭 (高負荷) 
+of.options.shaders.ANTIALIASING.tooltip.2=  オフ -  (初期値) アンチエイリアスを行わない (低負荷)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x、4x - アンチエイリアスされた輪郭 (高負荷)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAAは輪郭のギザギザやシャープな色の変化を
 of.options.shaders.ANTIALIASING.tooltip.5=滑らかにする後処理効果です。
 of.options.shaders.ANTIALIASING.tooltip.6=この機能は旧来のアンチエイリアス処理より低負荷で
@@ -184,9 +184,9 @@ of.options.shaders.SPECULAR_MAP.tooltip.7=リソースパックに依存しま�
 
 of.options.shaders.RENDER_RES_MUL=描画の品質
 of.options.shaders.RENDER_RES_MUL.tooltip.1=描画の品質
-of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - 低い (最低負荷) 
-of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 標準  (初期値) 
-of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高い (最高負荷) 
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - 低い (最低負荷)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 標準  (初期値)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高い (最高負荷)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=描画の品質設定ではシェーダーパックに渡す
 of.options.shaders.RENDER_RES_MUL.tooltip.6=テクスチャのサイズを制御します。
 of.options.shaders.RENDER_RES_MUL.tooltip.7=低い値は4Kディスプレイに有用でしょう。
@@ -194,18 +194,18 @@ of.options.shaders.RENDER_RES_MUL.tooltip.8=高い値はアンチエイリアス
 
 of.options.shaders.SHADOW_RES_MUL=陰影の品質
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=陰影の品質
-of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低い (最低負荷) 
-of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 標準  (初期値) 
-of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高い (最高負荷) 
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低い (最低負荷)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 標準  (初期値)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高い (最高負荷)
 of.options.shaders.SHADOW_RES_MUL.tooltip.5=陰影の品質設定ではシェーダーパックが用いる
 of.options.shaders.SHADOW_RES_MUL.tooltip.6=シャドウマップテクスチャのサイズを制御します。
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=低い値 = 厳格でない、荒い影。
-of.options.shaders.SHADOW_RES_MUL.tooltip.8=高い値 = 細密で、繊細な影.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=高い値 = 細密で、繊細な影。
 
 of.options.shaders.HAND_DEPTH_MUL=手部被写界深度
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手部被写界深度
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - カメラに近い手
-of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x -  (初期値) 
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x -  (初期値)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - カメラから遠い手
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部被写界深度設定では手に持ったものがカメラから
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=どれだけ遠いかを制御します。
@@ -283,32 +283,32 @@ options.mipmapLevels.tooltip.6=この設定は大抵の場合パフォーマン�
 of.options.MIPMAP_TYPE=ミップマップの種類
 of.options.MIPMAP_TYPE.tooltip.1=遠くの物体における視覚効果を
 of.options.MIPMAP_TYPE.tooltip.2=テクスチャのスムージングによって改善します。
-of.options.MIPMAP_TYPE.tooltip.3=  ニアレストネイバー補間 - おおまかなスムージング (低負荷) 
+of.options.MIPMAP_TYPE.tooltip.3=  ニアレストネイバー補間 - おおまかなスムージング (低負荷)
 of.options.MIPMAP_TYPE.tooltip.4=  線形補間 - 通常のスムージング
 of.options.MIPMAP_TYPE.tooltip.5=  バイリニア補間 - 繊細なスムージング
-of.options.MIPMAP_TYPE.tooltip.6=  トライリニア補間 - 最高級のスムージング (高負荷) 
+of.options.MIPMAP_TYPE.tooltip.6=  トライリニア補間 - 最高級のスムージング (高負荷)
 
 of.options.AA_LEVEL=アンチエイリアス
 of.options.AA_LEVEL.tooltip.1=アンチエイリアス
-of.options.AA_LEVEL.tooltip.2= オフ -  (初期値) アンチエイリアスを行わない (低負荷) 
-of.options.AA_LEVEL.tooltip.3= 2～16 - アンチエイリアスされた輪郭 (高負荷) 
+of.options.AA_LEVEL.tooltip.2= オフ -  (初期値) アンチエイリアスを行わない (低負荷)
+of.options.AA_LEVEL.tooltip.3= 2〜16 - アンチエイリアスされた輪郭 (高負荷)
 of.options.AA_LEVEL.tooltip.4=アンチエイリアスは輪郭のギザギザや
-of.options.AA_LEVEL.tooltip.5=シャープな色の変化を滑らかにします。
+of.options.AA_LEVEL.tooltip.5=急激な色の変化を滑らかにします。
 of.options.AA_LEVEL.tooltip.6=有効化すると実質的なFPSは下がります。
 of.options.AA_LEVEL.tooltip.7=すべてのレベルがすべてのグラフィックカードでサポートされているわけではありません。
 of.options.AA_LEVEL.tooltip.8=有効化は再起動後です！
 
 of.options.AF_LEVEL=異方性フィルタリング
 of.options.AF_LEVEL.tooltip.1=異方性フィルタリング
-of.options.AF_LEVEL.tooltip.2= オフ - 通常のテクスチャ描画 (低負荷) 
-of.options.AF_LEVEL.tooltip.3= 2～16 - 滑らかなテクスチャ描画 (高負荷) 
+of.options.AF_LEVEL.tooltip.2= オフ - 通常のテクスチャ描画 (低負荷)
+of.options.AF_LEVEL.tooltip.3= 2〜16 - 滑らかなテクスチャ描画 (高負荷)
 of.options.AF_LEVEL.tooltip.4=ミップマップされたテクスチャにおいて、
 of.options.AF_LEVEL.tooltip.5=ちらつきを抑えます。
 of.options.AF_LEVEL.tooltip.6=有効化すると実質的にFPSは下がります。
 
 of.options.CLEAR_WATER=水の透過
 of.options.CLEAR_WATER.tooltip.1=水の透過
-of.options.CLEAR_WATER.tooltip.2=  オン - すっきりとした透明な水
+of.options.CLEAR_WATER.tooltip.2=  オン - 澄んだ透明な水
 of.options.CLEAR_WATER.tooltip.3=  オフ - 普通の水
 
 of.options.RANDOM_ENTITIES=ランダムエンティティ
@@ -361,7 +361,7 @@ of.options.SMOOTH_BIOMES.tooltip.6=草、葉、蔦、水に影響を与えます
 
 of.options.CONNECTED_TEXTURES=継ぎ目ないテクスチャ
 of.options.CONNECTED_TEXTURES.tooltip.1=継ぎ目ないテクスチャ
-of.options.CONNECTED_TEXTURES.tooltip.2=  オフ - テクスチャの継ぎ目をなくさない (初期値) 
+of.options.CONNECTED_TEXTURES.tooltip.2=  オフ - テクスチャの継ぎ目をなくさない (初期値)
 of.options.CONNECTED_TEXTURES.tooltip.3=  処理優先 - 処理優先でテクスチャの継ぎ目をなくす
 of.options.CONNECTED_TEXTURES.tooltip.4=  描画優先 - 描画優先でテクスチャの継ぎ目をなくす
 of.options.CONNECTED_TEXTURES.tooltip.5=草、砂岩、本棚で隣り合ったものを
@@ -371,7 +371,7 @@ of.options.CONNECTED_TEXTURES.tooltip.8=リソースパックに依存します�
 
 of.options.NATURAL_TEXTURES=自然なテクスチャ
 of.options.NATURAL_TEXTURES.tooltip.1=自然なテクスチャ
-of.options.NATURAL_TEXTURES.tooltip.2=  オフ - 自然なテクスチャを用いない (初期値) 
+of.options.NATURAL_TEXTURES.tooltip.2=  オフ - 自然なテクスチャを用いない (初期値)
 of.options.NATURAL_TEXTURES.tooltip.3=  オン - 自然なテクスチャを用いる
 of.options.NATURAL_TEXTURES.tooltip.4=ブロックのテクスチャが同じ形を繰り返し、
 of.options.NATURAL_TEXTURES.tooltip.5=格子状の模様が形成される現象を除去します。
@@ -381,7 +381,7 @@ of.options.NATURAL_TEXTURES.tooltip.8=現在使用中のリソースパックに
 
 of.options.EMISSIVE_TEXTURES=発光効果テクスチャ
 of.options.EMISSIVE_TEXTURES.tooltip.1=発光効果テクスチャ
-of.options.EMISSIVE_TEXTURES.tooltip.2=  オフ - 発光効果テクスチャを用いない (初期値) 
+of.options.EMISSIVE_TEXTURES.tooltip.2=  オフ - 発光効果テクスチャを用いない (初期値)
 of.options.EMISSIVE_TEXTURES.tooltip.3=  オン - 発光効果テクスチャを用いる
 of.options.EMISSIVE_TEXTURES.tooltip.4=発光効果テクスチャは最大の明るさを持ったオーバーレイとして
 of.options.EMISSIVE_TEXTURES.tooltip.5=描画されます。また、基となるテクスチャの
@@ -428,7 +428,7 @@ of.options.CLOUDS.tooltip.6=処理優先の雲は平面的に描画されます�
 of.options.CLOUDS.tooltip.7=描画優先の雲は立体的に描画されます。
 
 of.options.CLOUD_HEIGHT=雲の高さ
-of.options.CLOUD_HEIGHT.tooltip.1=雲の高さの設定
+of.options.CLOUD_HEIGHT.tooltip.1=雲の高さ
 of.options.CLOUD_HEIGHT.tooltip.2=  オフ - 通常の高さ
 of.options.CLOUD_HEIGHT.tooltip.3=  100%% - ワールドの高さ上限
 
@@ -458,34 +458,36 @@ of.options.SKY.tooltip.4=オフにしても太陽や月はそのままです。
 
 of.options.STARS=星
 of.options.STARS.tooltip.1=星
-of.options.STARS.tooltip.2=  オン - 星を描画する (初期値) 
-of.options.STARS.tooltip.3=  オフ  - 星を描画しない (低負荷) 
+of.options.STARS.tooltip.2=  オン - 星を描画する (初期値)
+of.options.STARS.tooltip.3=  オフ  - 星を描画しない (低負荷)
+
 of.options.SUN_MOON=太陽と月
 of.options.SUN_MOON.tooltip.1=太陽と月
-of.options.SUN_MOON.tooltip.2=  オン - 太陽と月を描画する (初期値) 
-of.options.SUN_MOON.tooltip.3=  オフ  - 太陽と月を描画しない (低負荷) 
-of.options.SHOW_CAPES=Optifineマントの表示
-of.options.SHOW_CAPES.tooltip.1=Optifineマントの表示
-of.options.SHOW_CAPES.tooltip.2=  オン - Optifineマントを表示する (初期値) 
-of.options.SHOW_CAPES.tooltip.3=  オフ - Optifineマントを表示しない
+of.options.SUN_MOON.tooltip.2=  オン - 太陽と月を描画する (初期値)
+of.options.SUN_MOON.tooltip.3=  オフ  - 太陽と月を描画しない (低負荷)
+
+of.options.SHOW_CAPES=マントの表示
+of.options.SHOW_CAPES.tooltip.1=マントの表示
+of.options.SHOW_CAPES.tooltip.2=  オン - マントを表示する (初期値)
+of.options.SHOW_CAPES.tooltip.3=  オフ - マントを表示しない
 
 of.options.TRANSLUCENT_BLOCKS=半透明のブロック
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明のブロック
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  描画優先 - 完全なカラーブレンド (初期値) 
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  処理優先 - 速さ重視のカラーブレンド (低負荷) 
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=違う色を持った半透明ブロック (色付きガラス、水、氷) 
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  描画優先 - 完全なカラーブレンド (初期値)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  処理優先 - 速さ重視のカラーブレンド (低負荷)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=違う色を持った半透明ブロック (色付きガラス、水、氷)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=が空気を挟んで隣接した際の
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=カラーブレンドの設定です。
 
 of.options.HELD_ITEM_TOOLTIPS=持ち替え時アイテム名表示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持ち替え時アイテム名表示
-of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  オン - 持ち替え時にアイテム名を表示する (初期値) 
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  オン - 持ち替え時にアイテム名を表示する (初期値)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  オフ - 持ち替え時にアイテム名を表示しない
 
 of.options.ADVANCED_TOOLTIPS=高度なツールチップ
 of.options.ADVANCED_TOOLTIPS.tooltip.1=高度なツールチップ
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  オン - 高度なツールチップを表示
-of.options.ADVANCED_TOOLTIPS.tooltip.3=  オフ - 高度なツールチップを非表示 (初期値) 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  オフ - 高度なツールチップを非表示 (初期値)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=高度なツールチップはアイテム (ID、耐久値) と
 of.options.ADVANCED_TOOLTIPS.tooltip.5=シェーダーのオプション (ID、由来、初期値) において
 of.options.ADVANCED_TOOLTIPS.tooltip.6=拡張された情報を表示します。
@@ -502,9 +504,9 @@ options.entityShadows.tooltip.3=  オフ - エンティティの影を表示し�
 
 of.options.VIGNETTE=視界端の影
 of.options.VIGNETTE.tooltip.1=スクリーンの角を少し暗くさせる視覚効果
-of.options.VIGNETTE.tooltip.2=  デフォルト - グラフィックスの設定に合わせる (初期値) 
-of.options.VIGNETTE.tooltip.3=  処理優先 - 視界端の影を表示しない (低負荷) 
-of.options.VIGNETTE.tooltip.4=  描画優先 - 視界端の影を表示する (高負荷) 
+of.options.VIGNETTE.tooltip.2=  デフォルト - グラフィックスの設定に合わせる (初期値)
+of.options.VIGNETTE.tooltip.3=  処理優先 - 視界端の影を表示しない (低負荷)
+of.options.VIGNETTE.tooltip.4=  描画優先 - 視界端の影を表示する (高負荷)
 of.options.VIGNETTE.tooltip.5=視界端の影はFPSにとって重要な視覚効果です。
 of.options.VIGNETTE.tooltip.6=例外としてフルスクリーンで遊ぶ際には、
 of.options.VIGNETTE.tooltip.7=視界端の影は非常に微かであるため、
@@ -512,14 +514,14 @@ of.options.VIGNETTE.tooltip.8=無効にしても無害です。
 
 of.options.DYNAMIC_FOV=臨場感ある視野角
 of.options.DYNAMIC_FOV.tooltip.1=臨場感ある視野角
-of.options.DYNAMIC_FOV.tooltip.2=  オン - 臨場感ある視野角を有効化 (初期値) 
+of.options.DYNAMIC_FOV.tooltip.2=  オン - 臨場感ある視野角を有効化 (初期値)
 of.options.DYNAMIC_FOV.tooltip.3=  オフ - 臨場感ある視野角を無効化
 of.options.DYNAMIC_FOV.tooltip.4=飛翔時や、ダッシュ時、弓の引き絞り時に、
 of.options.DYNAMIC_FOV.tooltip.5=視野角 (FOV) を変えます。
 
 of.options.DYNAMIC_LIGHTS=臨場感ある光源
 of.options.DYNAMIC_LIGHTS.tooltip.1=臨場感ある光源
-of.options.DYNAMIC_LIGHTS.tooltip.2=  オフ - 持っている光源を光らせない (初期値) 
+of.options.DYNAMIC_LIGHTS.tooltip.2=  オフ - 持っている光源を光らせない (初期値)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  処理優先 - 500ミリ秒ごとに位置を更新する
 of.options.DYNAMIC_LIGHTS.tooltip.4=  描画優先 - リアルタイムに位置を更新する
 of.options.DYNAMIC_LIGHTS.tooltip.5=光源となるアイテム (松明、グローストーンなど) について、
@@ -551,14 +553,14 @@ of.options.FAST_RENDER.tooltip.5=実質的なFPSを向上します。
 
 of.options.FAST_MATH=計算の最適化
 of.options.FAST_MATH.tooltip.1=計算の最適化
-of.options.FAST_MATH.tooltip.2= オフ - 通常の処理 (初期値) 
+of.options.FAST_MATH.tooltip.2= オフ - 通常の処理 (初期値)
 of.options.FAST_MATH.tooltip.3= オン - 最適化された計算方式
 of.options.FAST_MATH.tooltip.4=CPUのキャッシュをうまく使った
 of.options.FAST_MATH.tooltip.5=FPSを向上させる計算処理を使用します。
 
 of.options.CHUNK_UPDATES=チャンク読込方法
 of.options.CHUNK_UPDATES.tooltip.1=チャンク読込方法
-of.options.CHUNK_UPDATES.tooltip.2= 1 - 高負荷なチャンク読み込み 高いFPS (初期値) 
+of.options.CHUNK_UPDATES.tooltip.2= 1 - 高負荷なチャンク読み込み 高いFPS (初期値)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - 低負荷めなチャンク読み込み 低めのFPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - 低負荷なチャンク読み込み 低いFPS
 of.options.CHUNK_UPDATES.tooltip.5=1フレームごとに行われるチャンク読み込み回数を指定します。
@@ -574,11 +576,18 @@ of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=素早くチャンク読み込むよ�
 of.options.LAZY_CHUNK_LOADING=チャンク読み込みの遅延
 of.options.LAZY_CHUNK_LOADING.tooltip.1=チャンク読み込みの遅延
 of.options.LAZY_CHUNK_LOADING.tooltip.2= オフ - 通常のサーバーチャンク読み込み
-of.options.LAZY_CHUNK_LOADING.tooltip.3= オン - 遅延サーバーチャンク読み込み (滑らか) 
+of.options.LAZY_CHUNK_LOADING.tooltip.3= オン - 遅延サーバーチャンク読み込み (滑らか)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=チャンク読み込み処理を数Tickに分散させることで
-of.options.LAZY_CHUNK_LOADING.tooltip.5=総合的にサーバーのチャンク読み込み処理を滑らかにします。
+of.options.LAZY_CHUNK_LOADING.tooltip.5=統合サーバーのチャンク読み込み処理を滑らかにします。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=ワールドの一部に欠けが発生するようならOFFにしてください。
 of.options.LAZY_CHUNK_LOADING.tooltip.7=ローカルワールド (シングルプレイヤー) の時のみ有効です。
+
+of.options.RENDER_REGIONS=領域描画
+of.options.RENDER_REGIONS.tooltip.1=領域描画
+of.options.RENDER_REGIONS.tooltip.2= オフ -  (初期値) 領域描画を用いない
+of.options.RENDER_REGIONS.tooltip.3= オン - 領域描画を用いる
+of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を
+of.options.RENDER_REGIONS.tooltip.5=可能にします。頂点バッファオブジェクトが有効な場合により効果的です。
 
 # Animations
 
@@ -660,9 +669,9 @@ of.options.SHOW_FPS.tooltip.2=  C: - チャンク描画
 of.options.SHOW_FPS.tooltip.3=  E: - エンティティ描画
 of.options.SHOW_FPS.tooltip.4=  U: - チャンクアップデート
 of.options.SHOW_FPS.tooltip.5=コンパクトなFPS情報は
-of.options.SHOW_FPS.tooltip.6=デバッグ画面が非表示の時のみ表示されます。 
+of.options.SHOW_FPS.tooltip.6=デバッグ画面が非表示の時のみ表示されます。
 
-of.options.save.default=デフォルト (2秒) 
+of.options.save.default=デフォルト (2秒)
 of.options.save.20s=20秒
 of.options.save.3min=3分
 of.options.save.30min=30分
@@ -675,7 +684,7 @@ of.options.AUTOSAVE_TICKS.tooltip.3=オートセーブはラグを引き起こ�
 of.options.SCREENSHOT_SIZE=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.2=  デフォルト - 通常の大きさ
-of.options.SCREENSHOT_SIZE.tooltip.3=  2x～4x - 任意の大きさ
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x〜4x - 任意の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.4=より大きなスクリーンショットの撮影には、より多くのメモリが必要です。
 of.options.SCREENSHOT_SIZE.tooltip.5=描画の最適化、アンチエイリアスとは競合します。
 of.options.SCREENSHOT_SIZE.tooltip.6=GPUがフレームバッファをサポートしている必要があります。
