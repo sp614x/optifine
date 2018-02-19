@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-2-19
+#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-11-29
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -75,7 +75,7 @@ options.renderDistance.tooltip.7=  64 别开玩笑 - 1024m，需要3G的内存�
 options.renderDistance.tooltip.8=超过 16 的能见度值只在本地世界有效。
 
 options.ao.tooltip.1=平滑光照
-options.ao.tooltip.2=  关闭 - 没有平滑光照（较快）
+options.ao.tooltip.2=  关闭 - 禁用平滑光照（较快）
 options.ao.tooltip.3=  最小 - 简单流畅的平滑光照（较慢）
 options.ao.tooltip.4=  最大 - 复杂柔和的平滑光照（最慢）
 
@@ -89,7 +89,7 @@ of.options.framerateLimit.vsync=垂直同步
 
 of.options.AO_LEVEL=平滑光照
 of.options.AO_LEVEL.tooltip.1=平滑光照
-of.options.AO_LEVEL.tooltip.2=  关闭 - 没有阴影
+of.options.AO_LEVEL.tooltip.2=  关闭 - 禁用阴影
 of.options.AO_LEVEL.tooltip.3=  50%% - 明亮的阴影
 of.options.AO_LEVEL.tooltip.4=  100%% - 阴暗的阴影
 
@@ -425,7 +425,7 @@ of.options.CLOUDS.tooltip.1=云
 of.options.CLOUDS.tooltip.2=  默认 - 以“图形品质”的设定为准
 of.options.CLOUDS.tooltip.3=  流畅 - 低品质，较快
 of.options.CLOUDS.tooltip.4=  高品质 - 高品质，较慢
-of.options.CLOUDS.tooltip.5=  关闭 - 没有云，最快
+of.options.CLOUDS.tooltip.5=  关闭 - 禁用云，最快
 of.options.CLOUDS.tooltip.6=低品质云使用2D渲染，
 of.options.CLOUDS.tooltip.7=高品质云使用3D渲染。
 
@@ -448,7 +448,7 @@ of.options.RAIN.tooltip.1=雨雪
 of.options.RAIN.tooltip.2=  默认 - 以“图形品质”的设定为准
 of.options.RAIN.tooltip.3=  流畅  - 少量的雨/雪，较快
 of.options.RAIN.tooltip.4=  高品质 - 大量的雨/雪，较慢
-of.options.RAIN.tooltip.5=  关闭 - 没有雨/雪，最快
+of.options.RAIN.tooltip.5=  关闭 - 禁用雨/雪，最快
 of.options.RAIN.tooltip.6=雨声 和 雨滴飞溅
 of.options.RAIN.tooltip.7=不受此选项影响。
 
