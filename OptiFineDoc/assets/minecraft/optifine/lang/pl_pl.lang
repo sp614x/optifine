@@ -69,7 +69,7 @@ options.renderDistance.tooltip.4=  8 Normalna - 128m
 options.renderDistance.tooltip.5=  16 Długa - 256m (niska wydajność)
 options.renderDistance.tooltip.6=  32 Ekstremalna - 512m (najniższa wydajność)
 options.renderDistance.tooltip.7=Odległość renderowania ekstremalna jest bardzo zasobożerna!
-options.renderDistance.tooltip.8=Wartości powyżej 16 Długa są zalecane tylko dla lokalnych światów.
+options.renderDistance.tooltip.8=Wartości powyżej 16 są zalecane tylko dla lokalnych światów.
 
 options.ao.tooltip.1=Gładkie oświetlenie
 options.ao.tooltip.2=  Wył. - brak wygładzania oświetlenia (wysoka wydajność)
@@ -147,7 +147,7 @@ of.options.shaders=Shadery...
 of.options.shadersTitle=Shadery
 
 of.options.shaders.packNone=Wyłączone
-of.options.shaders.packDefault=Wewnętrzne
+of.options.shaders.packDefault=Domyślne
 
 of.options.shaders.ANTIALIASING=Antyaliasing
 of.options.shaders.NORMAL_MAP=Normalna mapa
@@ -511,8 +511,8 @@ of.options.FIREWORK_PARTICLES=Cząsteczki fajerwerków
 
 # Other
 
-of.options.LAGOMETER=Lagomierz
-of.options.LAGOMETER.tooltip.1=Pokazuje lagomierz na ekranie debugowania (F3).
+of.options.LAGOMETER=Lagometr
+of.options.LAGOMETER.tooltip.1=Pokazuje lagometr na ekranie debugowania (F3).
 of.options.LAGOMETER.tooltip.2=* Pomarańczowy - Zajęta pamięć
 of.options.LAGOMETER.tooltip.3=* Błękitny - Ticki
 of.options.LAGOMETER.tooltip.4=* Niebieski - Zaplanowane działania
