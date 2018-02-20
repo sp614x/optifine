@@ -231,6 +231,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=plokikülgedele tavamängu poolt.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Varjutajapakid, mis kasutavad varjusid pakuvad tavaliselt
 of.options.shaders.OLD_LIGHTING.tooltip.8=palju paremat valgustust, sõltuvalt päikse asukohast.
 
+of.options.shaders.DOWNLOAD=Laadi varjutajaid alla
+of.options.shaders.DOWNLOAD.tooltip.1=Laadi varjutajaid alla
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Avab brauseris varjutajapakkide lehe.
+of.options.shaders.DOWNLOAD.tooltip.4=Aseta allalaaditud varjutajapakid kausta "Shaders"
+of.options.shaders.DOWNLOAD.tooltip.5=ning need kuvatakse installitud varjutajate nimekirjas.
+
 of.options.shaders.SHADER_PACK=Varjutajapakk
 
 of.options.shaders.shadersFolder=Varjutajate kaust
