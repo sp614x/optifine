@@ -192,8 +192,8 @@ of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 标准（默认）
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高（最慢）
 of.options.shaders.RENDER_RES_MUL.tooltip.5=渲染精细度控制
 of.options.shaders.RENDER_RES_MUL.tooltip.6=光影包当前渲染的材质大小。
-of.options.shaders.RENDER_RES_MUL.tooltip.7=较低的值可能对4K显示有益。
-of.options.shaders.RENDER_RES_MUL.tooltip.8=较高的值作为抗混叠滤波器工作。
+of.options.shaders.RENDER_RES_MUL.tooltip.7=较低的值或许利于4K显示。
+of.options.shaders.RENDER_RES_MUL.tooltip.8=较高的值作为抗锯齿过滤采样器工作。
 
 of.options.shaders.SHADOW_RES_MUL=阴影精细度
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=阴影精细度
