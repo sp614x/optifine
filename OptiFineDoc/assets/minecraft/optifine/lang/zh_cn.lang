@@ -211,7 +211,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - 手与镜头相距较近
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - （默认）
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - 手与镜头相距较远
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部景深控制
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=手持的物品与玩家视角相距的距离。
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=手持的物品与镜头相距的距离。
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=对于使用模糊景深的光影包，
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=此选项应当会改变手持物品的模糊程度。
 
