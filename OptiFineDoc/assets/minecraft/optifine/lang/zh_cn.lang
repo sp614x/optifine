@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From WAWCraft 2016-2-18 ---- 2017-11-29
+#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-2-20
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -18,34 +18,34 @@ of.key.zoom=缩放
 
 # Message
 of.message.aa.shaders1=抗锯齿与光影不兼容。
-of.message.aa.shaders2=请关闭光影来启用这个选项。
+of.message.aa.shaders2=请关闭光影以启用这个选项。
 
 of.message.af.shaders1=各向异性过滤与光影不兼容。
-of.message.af.shaders2=请关闭光影来启用这个选项。
+of.message.af.shaders2=请关闭光影以启用这个选项。
 
 of.message.fr.shaders1=快速渲染与光影不兼容。
-of.message.fr.shaders2=请关闭光影来启用这个选项。
+of.message.fr.shaders2=请关闭光影以启用这个选项。
 
 of.message.an.shaders1=3D立体与光影不兼容。
-of.message.an.shaders2=请关闭光影来启用这个选项。
+of.message.an.shaders2=请关闭光影以启用这个选项。
 
 of.message.shaders.aa1=光影与抗锯齿不兼容。
-of.message.shaders.aa2=请把 品质 -> 抗锯齿 选项设置为 关闭 并重启您的游戏。
+of.message.shaders.aa2=请将 品质 -> 抗锯齿 选项设置为 关闭 并重启您的游戏。
 
 of.message.shaders.af1=光影与各向异性过滤不兼容。
-of.message.shaders.af2=请把 品质 -> 各向异性过滤 选项设置为 关闭。
+of.message.shaders.af2=请将 品质 -> 各向异性过滤 选项设置为 关闭。
 
 of.message.shaders.fr1=光影与快速渲染不兼容。
-of.message.shaders.fr2=请把 性能 -> 快速渲染 选项设置为 关闭。
+of.message.shaders.fr2=请将 性能 -> 快速渲染 选项设置为 关闭。
 
 of.message.shaders.an1=光影与3D立体不兼容。
-of.message.shaders.an2=请把 其他 -> 3D立体 选项设置为 关闭。
+of.message.shaders.an2=请将 其他 -> 3D立体 选项设置为 关闭。
 
 of.message.newVersion=新的§eOptiFine§f版本现已可用：§e%s§f
 of.message.java64Bit=您可以安装§e64位Java§f来提升性能。
 of.message.openglError=§eOpenGL错误§f：%s（%s）
 
-of.message.shaders.loading=载入光影：%s
+of.message.shaders.loading=加载光影：%s
 
 of.message.other.reset=确定要重置所有视频设置为默认值吗？
 
@@ -63,7 +63,9 @@ of.options.renderDistance.tiny=最近
 of.options.renderDistance.short=近
 of.options.renderDistance.normal=中等
 of.options.renderDistance.far=远
-of.options.renderDistance.extreme=极限
+of.options.renderDistance.extreme=极远
+of.options.renderDistance.insane=你没疯吧
+of.options.renderDistance.ludicrous=别开玩笑
 
 options.renderDistance.tooltip.1=能见度
 options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
@@ -94,7 +96,7 @@ of.options.AO_LEVEL.tooltip.3=  50%% - 明亮的阴影
 of.options.AO_LEVEL.tooltip.4=  100%% - 阴暗的阴影
 
 options.viewBobbing.tooltip.1=更真实的运动。
-options.viewBobbing.tooltip.2=当使用多级纹理贴图时，关闭它以获得最佳效果。
+options.viewBobbing.tooltip.2=当使用多级纹理贴图时，关闭此选项以取得最佳效果。
 
 options.guiScale.tooltip.1=界面尺寸
 options.guiScale.tooltip.2=  自动 - 最大尺寸
