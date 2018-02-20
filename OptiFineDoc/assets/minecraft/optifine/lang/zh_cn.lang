@@ -160,8 +160,8 @@ of.options.shaders.packDefault=（内置）
 
 of.options.shaders.ANTIALIASING=抗锯齿
 of.options.shaders.ANTIALIASING.tooltip.1=抗锯齿
-of.options.shaders.ANTIALIASING.tooltip.2=  关闭 - （默认）不启用抗锯齿（较快）
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 线边抗锯齿处理（较慢）
+of.options.shaders.ANTIALIASING.tooltip.2=  关闭 - （默认）禁用抗锯齿（较快）
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 对线和边缘抗锯齿处理（较慢）
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一种平滑锯齿线和
 of.options.shaders.ANTIALIASING.tooltip.5=鲜明色彩过渡的后处理特效。
 of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，
@@ -294,8 +294,8 @@ of.options.MIPMAP_TYPE.tooltip.6=  三线性 - 最佳平滑（最慢）
 
 of.options.AA_LEVEL=抗锯齿
 of.options.AA_LEVEL.tooltip.1=抗锯齿
-of.options.AA_LEVEL.tooltip.2= 关闭 - （默认）无抗锯齿（较快）
-of.options.AA_LEVEL.tooltip.3= 2-16 - 对线和边缘使用抗锯齿（较慢）
+of.options.AA_LEVEL.tooltip.2= 关闭 - （默认）禁用抗锯齿（较快）
+of.options.AA_LEVEL.tooltip.3= 2-16 - 对线和边缘抗锯齿处理（较慢）
 of.options.AA_LEVEL.tooltip.4=抗锯齿对锯齿线和锐利的色彩过渡
 of.options.AA_LEVEL.tooltip.5=进行平滑处理。
 of.options.AA_LEVEL.tooltip.6=启用它可能会大幅降低FPS。
