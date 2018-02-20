@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2018-1-27
+#   TheHADILP 2016-5-20 ---- 2018-02-17
 #   Nerdyyy 2018-1-6
 
 # General
@@ -603,6 +603,14 @@ of.options.LAZY_CHUNK_LOADING.tooltip.4=Server-Chunkladen wird flüssiger, indem
 of.options.LAZY_CHUNK_LOADING.tooltip.5=ein paar Ticks hinweg geladen werden. Deaktiviere dies,
 of.options.LAZY_CHUNK_LOADING.tooltip.6=wenn Teile der Welt nicht korrekt geladen werden.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Nur im Einzelspielermodus effektiv.
+
+of.options.RENDER_REGIONS=Render-Regionen
+of.options.RENDER_REGIONS.tooltip.1=Render-Regionen
+of.options.RENDER_REGIONS.tooltip.2= Aus - (Standard) Render-Regionen deaktiviert
+of.options.RENDER_REGIONS.tooltip.3= An - Render-Regionen aktiviert
+of.options.RENDER_REGIONS.tooltip.4=Render-Regionen ermöglichen ein schnelleres Rendern
+of.options.RENDER_REGIONS.tooltip.5=des Geländes bei großen Render-Distanzen.
+of.options.RENDER_REGIONS.tooltip.6=Effektiver, wenn VBOs aktiviert sind.
 
 # Animations
 
