@@ -222,8 +222,8 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.7=itemy v druhé ruce.
 of.options.shaders.OLD_LIGHTING=Staré osvětlení
 of.options.shaders.OLD_LIGHTING.tooltip.1=Staré osvětlení
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Výchozí - ovládané balíčkem stínů
-of.options.shaders.OLD_LIGHTING.tooltip.3=  ON - použít staré osvětlení
-of.options.shaders.OLD_LIGHTING.tooltip.4=  OFF - nepoužívat staré osvětlení
+of.options.shaders.OLD_LIGHTING.tooltip.3=  ZAPNUTO - použít staré osvětlení
+of.options.shaders.OLD_LIGHTING.tooltip.4=  VYPNUTO - nepoužívat staré osvětlení
 of.options.shaders.OLD_LIGHTING.tooltip.5=Staré osvětlení ovládá světlo, které
 of.options.shaders.OLD_LIGHTING.tooltip.6=Minecraft dává na strany bloků.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Balíčky stínů, které stíny používají často mají
@@ -578,6 +578,13 @@ of.options.LAZY_CHUNK_LOADING.tooltip.4=Udělá plynulejší načítání chunk�
 of.options.LAZY_CHUNK_LOADING.tooltip.5=jejich rozdělováním na několik tiků.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Vypni to, pokud se některé části světa nenačtou správně.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektivní pouze pro lokální světy (single-player).
+
+of.options.RENDER_REGIONS=Render regiony
+of.options.RENDER_REGIONS.tooltip.1=Render regiony
+of.options.RENDER_REGIONS.tooltip.2= VYPNUTO - (výchozí) nepoužívat render regiony
+of.options.RENDER_REGIONS.tooltip.3= ZAPNUTO - použít render regiony
+of.options.RENDER_REGIONS.tooltip.4=Render regiony umožní rychlejší render terénu při vyšších
+of.options.RENDER_REGIONS.tooltip.5=viditelných vzdálenostech. Efektivnějsí při zapnutém VBO.
 
 # Animace
 
