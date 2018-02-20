@@ -240,6 +240,14 @@ of.options.shaders.OLD_LIGHTING.tooltip.6=Beleuchtung der Block-Seiten.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Shader-Pakete mit Schatten variierend nach Sonnenstand
 of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Beleuchtung zur Verfügung.
 
+of.options.shaders.DOWNLOAD=Shader von Website herunterladen
+of.options.shaders.DOWNLOAD.tooltip.1=Shader von Website herunterladen
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Öffnet die Shader-Pack Website im Browser.
+of.options.shaders.DOWNLOAD.tooltip.4=Lege das heruntergeladene Shader-Pack in den
+of.options.shaders.DOWNLOAD.tooltip.5=Shader-Ordner, damit es in der Liste der
+of.options.shaders.DOWNLOAD.tooltip.6=installierten Shader erscheint.
+
 of.options.shaders.SHADER_PACK=Shader
 
 of.options.shaders.shadersFolder=Shader-Ordner
