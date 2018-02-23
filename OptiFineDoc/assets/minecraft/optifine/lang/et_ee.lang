@@ -581,6 +581,13 @@ of.options.LAZY_CHUNK_LOADING.tooltip.5=kamakaid mitmete tick'ide vahel.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Lülita VÄLJA, kui osa maailmast ei laadi korralikult.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (üksikmäng).
 
+of.options.RENDER_REGIONS=Renderdusalad
+of.options.RENDER_REGIONS.tooltip.1=Renderdusalad
+of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - (vaikimisi) ära kasuta renderdusalasid
+of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid
+of.options.RENDER_REGIONS.tooltip.4=Renderdusalad lubavad kiiremat maastiku renderdamist kõrgematel
+of.options.RENDER_REGIONS.tooltip.5=nähtavuskaugustel. Efektiivsem, kui VBOd on lubatud.
+
 # Animations
 
 of.options.animation.allOn=Kõik SISSE
