@@ -38,7 +38,7 @@ The following preprocessor directives are currently recognized:
   #else
   #endif
 
-The current shaderpack can be reloaded by pressing "F3+R"
+The current shaderpack can be reloaded by pressing "F3+R" or using the command "/reloadShaders". 
 
 Shader Programs
 ===============
