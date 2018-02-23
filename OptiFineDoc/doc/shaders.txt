@@ -23,6 +23,21 @@ This allows them to read and write from and to the same buffer alias.
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
 
+The vertex and fragment configuration parsing is affected by the preprocessor conditional compilation directives.
+The following preprocessor directives are currently recognized:
+  #define <macro>
+  #undef <macro>
+  #ifdef <macro>
+  #ifndef <macro>
+  #if <int>
+  #if defined <macro>
+  #if !defined <macro>
+  #elif <int>
+  #elif defined <macro> 
+  #elif !defined <macro>
+  #else
+  #endif
+
 The current shaderpack can be reloaded by pressing "F3+R"
 
 Shader Programs
@@ -290,6 +305,21 @@ Id Name           Legacy name
 14 shadowcolor1
 15 noisetex
 
+Depth buffers usage
+===================
+Name        Usage
+==============================================================================
+depthtex0   everything
+depthtex1   no translucent objects (water, stained glass) 
+depthtex2   no translucent objects (water, stained glass), no handheld objects
+
+Shadow buffers usage
+====================
+Name        Usage
+==============================================================================
+shadowtex0  everything
+shadowtex1  no translucent objects (water, stained glass) 
+
 Vertex Shader Configuration
 ===========================
 Source                                          Effect                                                    Comment
@@ -297,45 +327,6 @@ Source                                          Effect                          
 attribute <type> mc_Entity;                     useEntityAttrib = true
 attribute <type> mc_midTexCoord;                useMidTexCoordAttrib = true             
 attribute <type> at_tangent;                    useTangentAttrib = true
-
-Block ID mapping
-================
-The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
-Forge mods may add custom block mapping as "assets/<modid>/shaders/block.properties" in the mod JAR file.
-Format "block.<id>=<block1> <block2> ..."
-The key is the substitute block ID, the value are the blocks which are to be replaced.
-Only one line per block ID is allowed.
-See "properties_files.txt" for the block matching rules.
-
-  # Short format
-  block.31=red_flower yellow_flower reeds
-  # Long format
-  block.32=minecraft:red_flower ic2:nether_flower botania:reeds
-  # Properties
-  block.33=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip botania:reeds:type=green
-  # Block ID, Metadata (backwards compatibility)
-  block.34=38:6 38:7 83
-
-Block render layers
-===================
-The custom block render layers are defined in "shaders/block.properties" included in the shader pack.
-
-  layer.solid=<blocks>
-  layer.cutout=<blocks>
-  layer.cutout_mipped=<blocks>
-  layer.translucent=<blocks>
-
-Layers
-  solid - no alpha, no blending (solid textures)
-  cutout - alpha, no blending (cutout textures)
-  cutout_mipped - alpha, no blending, mipmaps (cutout with mipmaps)
-  translucent - alpha, blending, mipmaps (water, stained glass)
- 
-Blocks which are solid opaque cubes (stone, dirt, ores, etc) can't be rendered on a custom layer
-as this would affect face culling, ambient occlusion, light propagation and so on.
-
-For exaple:
-  layer.translucent=glass_pane fence wooden_door
 
 Fragment Shader Configuration
 =============================
@@ -474,20 +465,44 @@ Texture Formats
  R11F_G11F_B10F
  RGB9_E5
 
-Depth buffers
-=============
-Name        Usage
-==============================================================================
-depthtex0   everything
-depthtex1   no translucent objects (water, stained glass) 
-depthtex2   no translucent objects (water, stained glass), no handheld objects
+Block ID mapping
+================
+The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
+Forge mods may add custom block mapping as "assets/<modid>/shaders/block.properties" in the mod JAR file.
+Format "block.<id>=<block1> <block2> ..."
+The key is the substitute block ID, the value are the blocks which are to be replaced.
+Only one line per block ID is allowed.
+See "properties_files.txt" for the block matching rules.
 
-Shadow buffers
-==============
-Name        Usage
-==============================================================================
-shadowtex0  everything
-shadowtex1  no translucent objects (water, stained glass) 
+  # Short format
+  block.31=red_flower yellow_flower reeds
+  # Long format
+  block.32=minecraft:red_flower ic2:nether_flower botania:reeds
+  # Properties
+  block.33=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip botania:reeds:type=green
+  # Block ID, Metadata (backwards compatibility)
+  block.34=38:6 38:7 83
+
+Block render layers
+===================
+The custom block render layers are defined in "shaders/block.properties" included in the shader pack.
+
+  layer.solid=<blocks>
+  layer.cutout=<blocks>
+  layer.cutout_mipped=<blocks>
+  layer.translucent=<blocks>
+
+Layers
+  solid - no alpha, no blending (solid textures)
+  cutout - alpha, no blending (cutout textures)
+  cutout_mipped - alpha, no blending, mipmaps (cutout with mipmaps)
+  translucent - alpha, blending, mipmaps (water, stained glass)
+ 
+Blocks which are solid opaque cubes (stone, dirt, ores, etc) can't be rendered on a custom layer
+as this would affect face culling, ambient occlusion, light propagation and so on.
+
+For exaple:
+  layer.translucent=glass_pane fence wooden_door
 
 Standard Macros
 ===============
