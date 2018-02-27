@@ -96,7 +96,7 @@ options.guiScale.tooltip.1=Розмір GUI
 options.guiScale.tooltip.2=  Авто - максимальний розмір
 options.guiScale.tooltip.3=  Малий, Нормальний, Великий - 1x до 3x
 options.guiScale.tooltip.4=  4x до 10x - доступні на 4K дисплеях
-options.guiScale.tooltip.5=Непарні значення (1x, 3x, 5x ...) не підтримуються юні кодом.
+options.guiScale.tooltip.5=Непарні значення (1x, 3x, 5x ...) не підтримуються юнікодом.
 options.guiScale.tooltip.6=Менший GUI швидший.
 
 options.vbo.tooltip.1=Об'єкти буфера вершин
@@ -118,7 +118,7 @@ options.anaglyph.tooltip.4=Потребує червоно-сині окуляр
 of.options.ALTERNATE_BLOCKS=Альтернативні блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативні блоки
 of.options.ALTERNATE_BLOCKS.tooltip.2=Використовує альтернативні моделі для деяких блоків.
-of.options.ALTERNATE_BLOCKS.tooltip.3=Базується на обраному ресурс паці.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Базується на обраному ресурспаці.
 
 of.options.FOG_FANCY=Туман
 of.options.FOG_FANCY.tooltip.1=Тип туману
@@ -142,7 +142,7 @@ of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - стабільне FPS, 3x ш�
 of.options.CHUNK_LOADING.tooltip.5=Згладжене і Multi-Core видаляють заїкання та
 of.options.CHUNK_LOADING.tooltip.6=фрізи спричинені завантаженням чанків.
 of.options.CHUNK_LOADING.tooltip.7=Multi-Core може збільшити до 3 разів швидкість завантаження світу
-of.options.CHUNK_LOADING.tooltip.8=збільшуючи FPS завдяки використанням другого ядра процесора.
+of.options.CHUNK_LOADING.tooltip.8=збільшуючи FPS завдяки використанню другого ядра процесора.
 of.options.chunkLoading.smooth=Згладжене
 of.options.chunkLoading.multiCore=Multi-Core
 
@@ -559,7 +559,7 @@ of.options.FAST_MATH.tooltip.5=утилізувати  кеш, і збільши
 of.options.CHUNK_UPDATES=Оновлення чанків
 of.options.CHUNK_UPDATES.tooltip.1=Оновлення чанків
 of.options.CHUNK_UPDATES.tooltip.2= 1 - Повільніше завантаження світу, більший FPS (базово)
-of.options.CHUNK_UPDATES.tooltip.3= 3 - Швидше оновлень чанків, нижчий FPS
+of.options.CHUNK_UPDATES.tooltip.3= 3 - Швидше оновлення чанків, нижчий FPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - Найшвидше оновлення чанків, найнижчий FPS
 of.options.CHUNK_UPDATES.tooltip.5=Кількість оновленн чанку за один кадр,
 of.options.CHUNK_UPDATES.tooltip.6=найбільші значення можуть зменшити FPS.
