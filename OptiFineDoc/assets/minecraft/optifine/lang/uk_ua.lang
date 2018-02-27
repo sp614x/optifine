@@ -580,6 +580,13 @@ of.options.LAZY_CHUNK_LOADING.tooltip.5=розподіляючи чанки на
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Вимкніть це якщо деякі частини світу не завантажуються правильно.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Ефективно тільки для локальних світів і одноядрених процессорів.
 
+of.options.RENDER_REGIONS=Рендер регіонів
+of.options.RENDER_REGIONS.tooltip.1=Рендер регіонів
+of.options.RENDER_REGIONS.tooltip.2= Вимк - (базово) не використовувати рендер регіонів
+of.options.RENDER_REGIONS.tooltip.3= Увімк - використовувати рендер регіонів
+of.options.RENDER_REGIONS.tooltip.4=Рендер регіонів пришвидшує рендер території при великих значеннях
+of.options.RENDER_REGIONS.tooltip.5=видимої відстані. Більш ефективний коли VBO увімкнено.
+
 # Animations
 
 of.options.animation.allOn=Всі Увімк
