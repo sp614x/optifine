@@ -36,6 +36,9 @@ of.message.shaders.fr2=Seteaza Performanta -> Redare Rapida pe OPRIT.
 of.message.shaders.an1=Shaderul nu este compatibil cu Viziunea 3D.
 of.message.shaders.an2=Seteaza Altele -> Viziune 3D pe OPRIT.
 
+of.message.shaders.nv1=Acest shader necesita o noua versiune a Optifine-ului, versiunea: %s
+of.message.shaders.nv2=Esti sigur(a) ca doresti sa continui?
+
 of.message.newVersion=O versiune noua de §eOptiFine§f este valabila: §e%s§f
 of.message.java64Bit=Poti instala versiunea de §e64-bit Java§f pentru a creste performanta.
 of.message.openglError=§eEroare OpenGL§f: %s (%s)
