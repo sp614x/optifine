@@ -100,8 +100,8 @@ Attributes
 ==========
 Source                                          Value                                                    Comment
 =====================================================================================================================================================================
-attribute vec4 mc_Entity;                       xyz = blockID, renderType, metadata                            
-attribute vec4 mc_midTexCoord;                  st = midTexU, midTexV                                    Sprite middle UV coordinates                
+attribute vec3 mc_Entity;                       xyz = blockID, renderType, metadata                            
+attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                                    Sprite middle UV coordinates                
 attribute vec4 at_tangent;                      xyz = tangent vector, w = handedness
 
 Uniforms
@@ -157,7 +157,7 @@ uniform float blindness;                        blindness (0.0-1.0)
 uniform float screenBrightness;                 screen brightness (0.0-1.0)
 uniform int hideGUI;                            GUI is hidden
 uniform float centerDepthSmooth;                centerDepth smoothed with centerDepthSmoothHalflife
-uniform ivec2 atlasSize;                        texture atlas size
+uniform ivec2 atlasSize;                        texture atlas size (only set when the atlas texture is bound)
 uniform vec4 entityColor;                       entity color multiplier (entity hurt, creeper flashing when exploding)
 uniform int entityId;                           entity ID
 uniform int blockEntityId;                      block entity ID (block ID for the tile entity) 
