@@ -626,12 +626,12 @@ of.options.LAGOMETER.tooltip.6=* Vermelho - Atualizações de chunks
 of.options.LAGOMETER.tooltip.7=* Amarelo - Verificação de visibilidade
 of.options.LAGOMETER.tooltip.8=* Verde - Render terrain
 
-of.options.PROFILER=Debug Profiler
-of.options.PROFILER.tooltip.1=Debug Profiler
-of.options.PROFILER.tooltip.2=  Sim - debug profiler ativado, lento
-of.options.PROFILER.tooltip.3=  Não - debug profiler desativado, rápido
-of.options.PROFILER.tooltip.4=O Debug Profiler coleta e exibe informações de depuração
-of.options.PROFILER.tooltip.5=quando o modo de depuração é ativado (F3).
+of.options.PROFILER=Análise de depuração
+of.options.PROFILER.tooltip.1=Análise de depuração
+of.options.PROFILER.tooltip.2=  Sim - Depuração ativada, lento
+of.options.PROFILER.tooltip.3=  Não - Depuração desativada, rápido
+of.options.PROFILER.tooltip.4=A análise de depuração coleta e exibe informações de depuração
+of.options.PROFILER.tooltip.5=quando o referido modo é ativado (F3).
 
 of.options.WEATHER=Clima
 of.options.WEATHER.tooltip.1=Clima
@@ -677,10 +677,10 @@ of.options.save.20s=20s
 of.options.save.3min=3min
 of.options.save.30min=30min
 
-of.options.AUTOSAVE_TICKS=Autosave
-of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo do Autosave
-of.options.AUTOSAVE_TICKS.tooltip.2=O intervalo padrão para o Autosave (2s) NÃO É RECOMENDADO.
-of.options.AUTOSAVE_TICKS.tooltip.3=O Autosave pode causar o Lag Spike of Death.
+of.options.AUTOSAVE_TICKS=Autossalvamento
+of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo do Autossalvamento
+of.options.AUTOSAVE_TICKS.tooltip.2=O intervalo padrão para o Autossalvamento (2s) NÃO É RECOMENDADO.
+of.options.AUTOSAVE_TICKS.tooltip.3=O Autossalvamento pode causar o Lag Spike of Death.
 
 of.options.SCREENSHOT_SIZE=Tam. da captura de tela
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamanho da captura de tela
