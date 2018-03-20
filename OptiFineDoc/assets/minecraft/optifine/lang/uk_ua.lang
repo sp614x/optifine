@@ -1,27 +1,27 @@
-#Translated by Cool_boy
-# General
-of.general.ambiguous=невизначений
+#Translated by Cool_boy and HIKC
+# Загальні
+of.general.ambiguous=Невизначений
 of.general.custom=Користувацький
 of.general.from=З
-of.general.id=Id
-of.general.restart=перезапуск
+of.general.id=ID
+of.general.restart=Перезапуск
 of.general.smart=Розумно
 
-# Keys
+# Керування
 of.key.zoom=Приблизити
 
-# Message
+# Повідомлення
 of.message.aa.shaders1=Згладжування не сумісне з шейдерами.
-of.message.aa.shaders2=Будь ласка, відключіть шейдери щоб увімкнути цю функцію.
+of.message.aa.shaders2=Будь ласка, вимкніть шейдери щоб увімкнути цю функцію.
 
 of.message.af.shaders1=Анізотропна фільтрація не сумісна з шейдерами.
-of.message.af.shaders2=Будь ласка, відключіть шейдери щоб увімкнути цю функцію.
+of.message.af.shaders2=Будь ласка, вимкніть шейдери щоб увімкнути цю функцію.
 
 of.message.fr.shaders1=Швидкий рендер не сумісний з шейдерами.
-of.message.fr.shaders2=Будь ласка, вимкнуть шейдери щоб увімкнути цю функцію.
+of.message.fr.shaders2=Будь ласка, вимкніть шейдери щоб увімкнути цю функцію.
 
 of.message.an.shaders1=3D ефект не сумісний з шейдерами.
-of.message.an.shaders2=Вимкніть шейдери щоб увімкнути цю функцію.
+of.message.an.shaders2=Будь, ласка, вимкніть шейдери щоб увімкнути цю функцію.
 
 of.message.shaders.aa1=Шейдери не сумісні зі згладжуванням. 
 of.message.shaders.aa2=Будь ласка, встановіть Якість -> Згладжування на Вимк і перезапустіть гру.
@@ -29,7 +29,7 @@ of.message.shaders.aa2=Будь ласка, встановіть Якість ->
 of.message.shaders.af1=Шейдери не сумісні з анізотропною фільтрацією.
 of.message.shaders.af2=Будь ласка, встановіть Якість -> Анізотропна фільтрація на Вимк і перезапустіть гру.
 
-of.message.shaders.fr1=Шейдери не сумісні з швидким рендером.
+of.message.shaders.fr1=Шейдери не сумісні зі швидким рендером.
 of.message.shaders.fr2=Будь ласка, встановіть Продуктивність -> Швидкий рендер на Вимк і перезапустіть гру.
 
 of.message.shaders.an1=Шейдери не сумісні з 3D анагліфом.
@@ -45,11 +45,11 @@ of.message.other.reset=Встановити всі налаштування на
 
 of.message.loadingVisibleChunks=Завантажування видимих чанків
 
-# Video settings
+# Налаштування графіки
 
-options.graphics.tooltip.1=Візуальна якість
-options.graphics.tooltip.2=  Швидка  - нижча якість, швидше
-options.graphics.tooltip.3=  Красива - вижча якість, повільніше
+options.graphics.tooltip.1=Якість графіки
+options.graphics.tooltip.2=  Швидка  - низька якість, швидше
+options.graphics.tooltip.3=  Красива - висока якість, повільніше
 options.graphics.tooltip.4=Змінює зовнішній вигляд хмар, листя води
 options.graphics.tooltip.5=тіней і сторін трави.
 
@@ -57,9 +57,9 @@ of.options.renderDistance.tiny=Маленька
 of.options.renderDistance.short=Коротка
 of.options.renderDistance.normal=Нормальна
 of.options.renderDistance.far=Далека
-of.options.renderDistance.extreme=Екстримальна
+of.options.renderDistance.extreme=Екстремальна
 of.options.renderDistance.insane=Шалена
-of.options.renderDistance.ludicrous=Безглузда
+of.options.renderDistance.ludicrous=Безглузда!
 
 options.renderDistance.tooltip.1=Видима відстань
 options.renderDistance.tooltip.2=  2 Маленька - 32м (найшвидше)
@@ -68,7 +68,7 @@ options.renderDistance.tooltip.4=  16 Далека - 256м (повільніше
 options.renderDistance.tooltip.5=  32 Надзвичайна - 512м (найповільніше!) потребує багато ресурсів
 options.renderDistance.tooltip.6=  48 Шалена - 768m, потребує 2GB оперативної пам'яті
 options.renderDistance.tooltip.7=  64 Безглузда - 1024m, потребує 3GB оперативної пам'яті
-options.renderDistance.tooltip.8=  Значення більше 16 ефективні лише для локальних світів.
+options.renderDistance.tooltip.8=  Значення більше ніж 16 ефективні лише для локальних світів.
 
 options.ao.tooltip.1=М'яке освітлення
 options.ao.tooltip.2=  Вимк - без м'якого освітлення (Швидка)
@@ -136,13 +136,13 @@ of.options.FOG_START.tooltip.4=Ця опція зазвичай не зменш�
 
 of.options.CHUNK_LOADING=Завантаження чанків
 of.options.CHUNK_LOADING.tooltip.1=Завантаження чанків
-of.options.CHUNK_LOADING.tooltip.2=  Базове - нестабільше FPS коли завантажується чанк
-of.options.CHUNK_LOADING.tooltip.3=  Згладжене - стабільше FPS
-of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - стабільше FPS, 3x швидше завантжаення світу
-of.options.CHUNK_LOADING.tooltip.5=Згладжене і Multi-Core видаляють заікання і
+of.options.CHUNK_LOADING.tooltip.2=  Базове - нестабільне FPS коли завантажується чанк
+of.options.CHUNK_LOADING.tooltip.3=  Згладжене - стабільне FPS
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - стабільне FPS, 3x швидше завантаження світу
+of.options.CHUNK_LOADING.tooltip.5=Згладжене і Multi-Core видаляють заїкання та
 of.options.CHUNK_LOADING.tooltip.6=фрізи спричинені завантаженням чанків.
 of.options.CHUNK_LOADING.tooltip.7=Multi-Core може збільшити до 3 разів швидкість завантаження світу
-of.options.CHUNK_LOADING.tooltip.8=збільшуючи FPS завдяки використання другого ядра процессора.
+of.options.CHUNK_LOADING.tooltip.8=збільшуючи FPS завдяки використанню другого ядра процесора.
 of.options.chunkLoading.smooth=Згладжене
 of.options.chunkLoading.multiCore=Multi-Core
 
@@ -159,7 +159,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - згладжені л�
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA це пост-ефект який згладжує
 of.options.shaders.ANTIALIASING.tooltip.5=гострі краї та різкі зміни кольорів.
 of.options.shaders.ANTIALIASING.tooltip.6=Це швидше ніж традиційне згладжування
-of.options.shaders.ANTIALIASING.tooltip.7=і працює з Швидким Рендером.  
+of.options.shaders.ANTIALIASING.tooltip.7=і працює із Швидким Рендером.  
 
 of.options.shaders.NORMAL_MAP=Нормальна мапа
 of.options.shaders.NORMAL_MAP.tooltip.1=Нормальна мапа
@@ -171,7 +171,7 @@ of.options.shaders.NORMAL_MAP.tooltip.6=Нормальна мапа встано
 of.options.shaders.NORMAL_MAP.tooltip.7=обраним шейдером.
 
 of.options.shaders.SPECULAR_MAP=Дзеркальна мапа
-of.options.shaders.SPECULAR_MAP.tooltip.1=Джеркальна мапа
+of.options.shaders.SPECULAR_MAP.tooltip.1=Дзеркальна мапа
 of.options.shaders.SPECULAR_MAP.tooltip.2=  Увімк - (базово) увімкнути дзеркальні мапи
 of.options.shaders.SPECULAR_MAP.tooltip.3=  Вимк - вимкнути дзеркальні мапи
 of.options.shaders.SPECULAR_MAP.tooltip.4=Шейдер використовує дзеркальні мапи
@@ -217,8 +217,8 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Базово - залежить в
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Увімк - використовувати старе
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Вимк - використовувати нове
 of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Це дозволяє шейдерам які працюють лише з  
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=оствіленням в основній руці працювати з 
-of.options.shaders.OLD_HAND_LIGHT.tooltip.7=речима в другій.
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=освітленням в основній руці працювати з 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=речами в другій.
 
 of.options.shaders.OLD_LIGHTING=Старе освітлення
 of.options.shaders.OLD_LIGHTING.tooltip.1=Старе освітлення
@@ -226,7 +226,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.2=  Базово - залежить ві
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Увімк - використовувати старе
 of.options.shaders.OLD_LIGHTING.tooltip.4=  Вимк - не використовувати старе
 of.options.shaders.OLD_LIGHTING.tooltip.5=Старе освітлення контролює фіксовану базову
-of.options.shaders.OLD_LIGHTING.tooltip.6=освітленність сторони блока.
+of.options.shaders.OLD_LIGHTING.tooltip.6=освітленість сторони блока.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Шейдери зазвичай надають краще освітлення в 
 of.options.shaders.OLD_LIGHTING.tooltip.8=залежності від позиції сонця.
 
@@ -234,7 +234,7 @@ of.options.shaders.DOWNLOAD=Завантажити Шейдери
 of.options.shaders.DOWNLOAD.tooltip.1=Завантажити шейдери
 of.options.shaders.DOWNLOAD.tooltip.2= 
 of.options.shaders.DOWNLOAD.tooltip.3=Відкриває сторінку зі списком шейдерпаків.
-of.options.shaders.DOWNLOAD.tooltip.4=Перенесіть шейдери у папку shaderpacks і вони
+of.options.shaders.DOWNLOAD.tooltip.4=Перенесіть шейдери у теку shaderpacks і вони
 of.options.shaders.DOWNLOAD.tooltip.5=з'являться у списку встановлених шейдерів.
 
 of.options.shaders.SHADER_PACK=Шейдерпак
@@ -263,7 +263,7 @@ of.options.other.reset=Скинути всі налаштування...
 
 of.shaders.profile=Профіль
 
-# Quality
+# Якість
 
 of.options.mipmap.bilinear=Білінійна
 of.options.mipmap.linear=Лінійна
@@ -274,7 +274,7 @@ options.mipmapLevels.tooltip.1=Візуальний ефект який змуш
 options.mipmapLevels.tooltip.2=розмиваючи деталі текстур
 options.mipmapLevels.tooltip.3=  Вимк - без згладжування
 options.mipmapLevels.tooltip.4=  1 - мінімальне згладжування
-options.mipmapLevels.tooltip.5=  4 - максивальне згладжування
+options.mipmapLevels.tooltip.5=  4 - максимальне згладжування
 options.mipmapLevels.tooltip.6=Ця опція зазвичай не впливає на продуктивність.
 
 of.options.MIPMAP_TYPE=Тип Міпмап
@@ -289,8 +289,8 @@ of.options.MIPMAP_TYPE.tooltip.6=  Трилінійне - найкраще зг�
 of.options.AA_LEVEL=Згладжування
 of.options.AA_LEVEL.tooltip.1=Згладжування
 of.options.AA_LEVEL.tooltip.2= Вимк - (базове) без згладжування (швидке)
-of.options.AA_LEVEL.tooltip.3= 2-16 - згладжує лінії і границі (повільніше)
-of.options.AA_LEVEL.tooltip.4=Згладжування розмиває зазубрені границі і 
+of.options.AA_LEVEL.tooltip.3= 2-16 - згладжує лінії та границі (повільніше)
+of.options.AA_LEVEL.tooltip.4=Згладжування розмиває зазубрені границі й 
 of.options.AA_LEVEL.tooltip.5=гострі зміни кольору.
 of.options.AA_LEVEL.tooltip.6=Коли увімкнуто, то по суті зменшує FPS.
 of.options.AA_LEVEL.tooltip.7=Не всі рівні підтримуються різними відеокартами.
@@ -299,8 +299,8 @@ of.options.AA_LEVEL.tooltip.8=Ефективне після ПЕРЕЗАПУСК
 of.options.AF_LEVEL=Анізотропна фільтрація
 of.options.AF_LEVEL.tooltip.1=Анізотропна фільтрація
 of.options.AF_LEVEL.tooltip.2= Вимк - (базово) стандартна деталь текстури (швидка)
-of.options.AF_LEVEL.tooltip.3= 2-16 - кращі деталі у Міпмап текстурах (повільніше)
-of.options.AF_LEVEL.tooltip.4=Анізотропна фільтрація відновлює деталі у
+of.options.AF_LEVEL.tooltip.3= 2-16 - кращі деталі в Міпмап текстурах (повільніше)
+of.options.AF_LEVEL.tooltip.4=Анізотропна фільтрація відновлює деталі в
 of.options.AF_LEVEL.tooltip.5=Міпмап текстурах.
 of.options.AF_LEVEL.tooltip.6=Коли ввімкнуто, зменшує FPS.
 
@@ -320,7 +320,7 @@ of.options.BETTER_GRASS=Краща трава
 of.options.BETTER_GRASS.tooltip.1=Краща трава
 of.options.BETTER_GRASS.tooltip.2=  Вимк - базова текстура блока трави, швидше
 of.options.BETTER_GRASS.tooltip.3=  Швидка - зелена бокова текстура блока трави, повільніше
-of.options.BETTER_GRASS.tooltip.4=  Красива - динаміча текстура сторони блока, повільніше
+of.options.BETTER_GRASS.tooltip.4=  Красива - динамічна текстура сторони блока, повільніше
 
 of.options.BETTER_SNOW=Кращий сніг
 of.options.BETTER_SNOW.tooltip.1=Кращий сніг
@@ -373,15 +373,15 @@ of.options.NATURAL_TEXTURES.tooltip.2=  Вимк - без натуральних
 of.options.NATURAL_TEXTURES.tooltip.3=  Увімк - використовує натуральні текстури
 of.options.NATURAL_TEXTURES.tooltip.4=Натуральні текстури видаляють сітку як шаблон
 of.options.NATURAL_TEXTURES.tooltip.5=створений повторенням блоків одного типу.
-of.options.NATURAL_TEXTURES.tooltip.6=Це використовує перевернуті і повернуті текстури
+of.options.NATURAL_TEXTURES.tooltip.6=Це використовує перевернуті та повернуті текстури
 of.options.NATURAL_TEXTURES.tooltip.7=блока. Налаштування натуральних текстур
-of.options.NATURAL_TEXTURES.tooltip.8=надходить з обраного пакету текстур.
+of.options.NATURAL_TEXTURES.tooltip.8=надходить з обраного пакета текстур.
 
-of.options.EMISSIVE_TEXTURES=Випромінюючі текстури
-of.options.EMISSIVE_TEXTURES.tooltip.1=Випромінюючі текстури
-of.options.EMISSIVE_TEXTURES.tooltip.2=  Увімк - використання випромінюючих текстур
-of.options.EMISSIVE_TEXTURES.tooltip.3=  Вимк - без випромінюючих текстур
-of.options.EMISSIVE_TEXTURES.tooltip.4=Випрюмінюючі текстури завжди відображаються з повною яскравістю.
+of.options.EMISSIVE_TEXTURES=Випромінювальні текстури
+of.options.EMISSIVE_TEXTURES.tooltip.1=Випромінювальні текстури
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Увімк - використання випромінювальних текстур
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Вимк - без випромінювальних текстур
+of.options.EMISSIVE_TEXTURES.tooltip.4=Випромінюючі текстури завжди відображаються з повною яскравістю.
 of.options.EMISSIVE_TEXTURES.tooltip.5=Їх можно використовувати для імітації випромінювання світла
 of.options.EMISSIVE_TEXTURES.tooltip.6=частинами основної текстури.
 of.options.EMISSIVE_TEXTURES.tooltip.7=Додається обраним ресурспаком.
@@ -483,7 +483,7 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Увімк - показувати сп
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Вимк - не показувати підказок
 
 of.options.ADVANCED_TOOLTIPS=Розширені підказки
-of.options.ADVANCED_TOOLTIPS.tooltip.1=Розширені спливаючі підказки
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Розширені підказки що спливають
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  Увімк - показувати розширені підказки 
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  Вимк - не показувати розширені підказки (базово)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Розширені підказки показують більше інформації про
@@ -503,7 +503,7 @@ options.entityShadows.tooltip.3=  Вимк - вимкнути тіні сутн�
 of.options.VIGNETTE=Віньєтка
 of.options.VIGNETTE.tooltip.1=Візуальний ефект який затемняє краї
 of.options.VIGNETTE.tooltip.2=  Базово - як в налаштуваннях графіки
-of.options.VIGNETTE.tooltip.3=  Швидка - віньтка вимкнена (швидша)
+of.options.VIGNETTE.tooltip.3=  Швидка - віньєтка вимкнена (швидша)
 of.options.VIGNETTE.tooltip.4=  Красива - віньєтка увімкнена (повільніше)
 of.options.VIGNETTE.tooltip.5=Віньєтка може зробити істотний вплив на FPS,
 of.options.VIGNETTE.tooltip.6=особливо при грі у повноекранному режимі.
@@ -536,25 +536,25 @@ of.options.SMOOTH_FPS.tooltip.4=Цей параметр залежить від 
 of.options.SMOOTH_FPS.tooltip.5=і його вплив не завжди помітний
 
 of.options.SMOOTH_WORLD=Згладжений світ
-of.options.SMOOTH_WORLD.tooltip.1=Прибирає фрізи при завантаження чатків.
+of.options.SMOOTH_WORLD.tooltip.1=Прибирає фрізи при завантаженні чатків.
 of.options.SMOOTH_WORLD.tooltip.2=  Вимк - нема стабілізації, FPS може коливатись
 of.options.SMOOTH_WORLD.tooltip.3=  Увімк - FPS стабілізується
 of.options.SMOOTH_WORLD.tooltip.4=Стабілізує FPS лише на одиночній грі.
 of.options.SMOOTH_WORLD.tooltip.5=
 
 of.options.FAST_RENDER=Швидкий рендер
-of.options.FAST_RENDER.tooltip.1=Швидки рендер
+of.options.FAST_RENDER.tooltip.1=Швидкий рендер
 of.options.FAST_RENDER.tooltip.2= Вимк - стандартний рендер (базово)
 of.options.FAST_RENDER.tooltip.3= Увімк - оптимізований рендер (швидший)
 of.options.FAST_RENDER.tooltip.4=Використовує оптимізований алгоритм рендерингу
-of.options.FAST_RENDER.tooltip.5=зменшує навантаження на процессор і збільшить FPS.
+of.options.FAST_RENDER.tooltip.5=зменшує навантаження на процесор і збільшить FPS.
 
 of.options.FAST_MATH=Швидка математика
 of.options.FAST_MATH.tooltip.1=Швидка математика
 of.options.FAST_MATH.tooltip.2= Вимк - стандартна математика(базово)
 of.options.FAST_MATH.tooltip.3= Увімк - швидша математика
 of.options.FAST_MATH.tooltip.4=Використовує оптимізовані функції sin() і cos(), що може краще
-of.options.FAST_MATH.tooltip.5=утилізовувати кеш, і збільшити FPS.
+of.options.FAST_MATH.tooltip.5=утилізувати  кеш, і збільшити FPS.
 
 of.options.CHUNK_UPDATES=Оновлення чанків
 of.options.CHUNK_UPDATES.tooltip.1=Оновлення чанків
@@ -578,7 +578,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= Увімк - ліниве завант�
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Згладжує завантаження чанків вбудований сервером
 of.options.LAZY_CHUNK_LOADING.tooltip.5=розподіляючи чанки на декілька тіків.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Вимкніть це якщо деякі частини світу не завантажуються правильно.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Ефективно тільки для локальних світів і одноядрених процессорів.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Ефективно тільки для локальних світів і одноядерних процесорів.
 
 of.options.RENDER_REGIONS=Рендер регіонів
 of.options.RENDER_REGIONS.tooltip.1=Рендер регіонів
@@ -605,7 +605,7 @@ of.options.VOID_PARTICLES=Частинки безодні
 of.options.WATER_PARTICLES=Частинки води
 of.options.RAIN_SPLASH=Краплі дощу
 of.options.PORTAL_PARTICLES=Чатинки порталу
-of.options.POTION_PARTICLES=Частинки зілль
+of.options.POTION_PARTICLES=Частинки зілля
 of.options.DRIPPING_WATER_LAVA=Капаюча лава/вода
 of.options.ANIMATED_TERRAIN=Анімація місцевості
 of.options.ANIMATED_TEXTURES=Анімація текстур
@@ -615,7 +615,7 @@ of.options.FIREWORK_PARTICLES=Частинки феєрверку
 
 of.options.LAGOMETER=Лагометр
 of.options.LAGOMETER.tooltip.1=Показує лагометр на екрані дебагу (F3).
-of.options.LAGOMETER.tooltip.2=* Оранджевий - зберігання мусору в пам'яті
+of.options.LAGOMETER.tooltip.2=* Оранжевий - зберігання мусору в пам'яті
 of.options.LAGOMETER.tooltip.3=* Блакитний - Тік
 of.options.LAGOMETER.tooltip.4=* Синій - Заплановані дії
 of.options.LAGOMETER.tooltip.5=* Фіолетовий - Завантаження чанків
@@ -658,7 +658,7 @@ of.options.FULLSCREEN_MODE=Роздільна здатність
 of.options.FULLSCREEN_MODE.tooltip.1=Роздільна здатність
 of.options.FULLSCREEN_MODE.tooltip.2=  Базово - використовувати роздільну здатність монітора, повільніше
 of.options.FULLSCREEN_MODE.tooltip.3=  WxH - використовувати власну роздільну якість, може бути швидше
-of.options.FULLSCREEN_MODE.tooltip.4=Обрана якість буде використовуватись в повноекраному режимі (F11).
+of.options.FULLSCREEN_MODE.tooltip.4=Обрана якість буде використовуватись в повноекранному режимі (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Найнижча якість завжди швидша.
 
 of.options.SHOW_FPS=Показувати FPS
@@ -683,6 +683,6 @@ of.options.SCREENSHOT_SIZE=Розмір знімку екрану
 of.options.SCREENSHOT_SIZE.tooltip.1=Розмір скріншоту
 of.options.SCREENSHOT_SIZE.tooltip.2=  Базовий - стандартний розмір скріншоту
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - власний розмір скріншоту
-of.options.SCREENSHOT_SIZE.tooltip.4=Зйомка більшого скріншоту потребує більше пам'яті
-of.options.SCREENSHOT_SIZE.tooltip.5=Не сумісне з швидким рендером і згладжуванням
+of.options.SCREENSHOT_SIZE.tooltip.4=Знімання більшого скріншоту потребує більше пам'яті
+of.options.SCREENSHOT_SIZE.tooltip.5=Не сумісне зі швидким рендером і згладжуванням
 of.options.SCREENSHOT_SIZE.tooltip.6=Потребує підтримку фреймбуфера GPU.
