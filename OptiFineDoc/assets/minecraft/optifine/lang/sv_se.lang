@@ -37,6 +37,9 @@ of.message.shaders.fr2=Ändra "Prestanda -> Snabb rendering" till AV.
 of.message.shaders.an1=Shaders är inte kompatibla med 3D-effekt.
 of.message.shaders.an2=Ändra "Övrigt -> 3D-effekt" till AV.
 
+of.message.shaders.nv1=Detta shaderpaket kräver en nyare version av OptiFine: %s
+of.message.shaders.nv2=Är du säker på att du vill fortsätta?
+
 of.message.newVersion=En ny version av §eOptiFine§f finns tillgänglig: §e%s§f
 of.message.java64Bit=Du kan installera §e64-bitarsversionen av Java§f för att förbättra prestandan.
 of.message.openglError=§eOpenGL-fel§f: %s (%s)
@@ -46,7 +49,7 @@ of.message.shaders.loading=Läser in shaders: %s
 of.message.other.reset=Återställ alla grafikinställningar till dess standardvärden?
 
 of.message.loadingVisibleChunks=Läser in synliga chunkar
- 
+
 # Video settings
 
 options.graphics.tooltip.1=Visuell kvalitet
