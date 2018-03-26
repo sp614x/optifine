@@ -181,7 +181,7 @@ uniform sampler2D gaux1;                        7  <custom texture or output fro
 uniform sampler2D gaux2;                        8  <custom texture or output from deferred programs>
 uniform sampler2D gaux3;                        9  <custom texture or output from deferred programs>
 uniform sampler2D gaux4;                        10 <custom texture or output from deferred programs>
-uniform sampler2D depthtex1;                    12
+uniform sampler2D depthtex1;                    11
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
