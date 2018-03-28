@@ -161,6 +161,7 @@ uniform ivec2 atlasSize;                        texture atlas size (only set whe
 uniform vec4 entityColor;                       entity color multiplier (entity hurt, creeper flashing when exploding)
 uniform int entityId;                           entity ID
 uniform int blockEntityId;                      block entity ID (block ID for the tile entity) 
+uniform ivec4 blendFunc;                        blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)
 
 GBuffers Uniforms
 ================= 
