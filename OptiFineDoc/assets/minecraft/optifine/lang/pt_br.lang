@@ -45,7 +45,7 @@ of.message.openglError=§eErro do OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Carregando Shaders: %s
 
-of.message.other.reset=Restaurar opções de vídeo para os padrões?
+of.message.other.reset=Restaurar configurações gráficas para os padrões?
 
 of.message.loadingVisibleChunks=Carregando chunks visíveis
 
@@ -263,7 +263,7 @@ of.options.animationsTitle=Configurações de animações
 of.options.other=Diversas
 of.options.otherTitle=Outras configurações
 
-of.options.other.reset=Restaurar opções de vídeo
+of.options.other.reset=Restaurar configurações gráficas
 
 of.shaders.profile=Perfil
 
