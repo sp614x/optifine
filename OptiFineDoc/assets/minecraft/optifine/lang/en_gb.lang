@@ -1,8 +1,10 @@
-# author = sp614x, Diego R. V.
+# Translator = sp614x, Diego R. V.
 
 # Video Settings
 
 options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colours
+
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognise light emitting items in the main hand 
 
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = inexact, coarser shadows
 
@@ -38,6 +40,10 @@ of.options.SMOOTH_FPS.tooltip.1=Stabilises FPS by flushing the graphic driver bu
 of.options.SMOOTH_FPS.tooltip.2=  OFF - no stabilisation, FPS may fluctuate
 of.options.SMOOTH_FPS.tooltip.3=  ON - FPS stabilisation
 
+of.options.SMOOTH_WORLD.tooltip.2=  OFF - no stabilisation, FPS may fluctuate
+of.options.SMOOTH_WORLD.tooltip.3=  ON - FPS stabilisation
+of.options.SMOOTH_WORLD.tooltip.4=Stabilises FPS by distributing the internal server load.
+
 of.options.FAST_RENDER.tooltip.3= ON - optimised rendering (faster)
 of.options.FAST_RENDER.tooltip.4=Uses optimised rendering algorithm which decreases
 
@@ -45,5 +51,7 @@ of.options.FAST_MATH=Fast Maths
 of.options.FAST_MATH.tooltip.1=Fast Maths
 of.options.FAST_MATH.tooltip.2= OFF - standard maths (default)
 of.options.FAST_MATH.tooltip.3= ON - faster maths
+of.options.FAST_MATH.tooltip.4=Uses optimised sin() and cos() functions which can
+of.options.FAST_MATH.tooltip.5=better utilise the CPU cache and increase the FPS.
 
 of.options.CHUNK_UPDATES.tooltip.6=higher values may destabilise the framerate.
