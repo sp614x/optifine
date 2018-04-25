@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2017-12-04
+#   CrafterKina 2014-01-04 ---- 2018-04-25
 
 # General
 of.general.ambiguous=不明確
@@ -38,11 +38,14 @@ of.message.shaders.fr2=演出の設定 → 描画の最適化 をオフにして
 of.message.shaders.an1=シェーダーは3Dアナグリフと共存できません。
 of.message.shaders.an2=その他の設定 → 3Dアナグリフ をオフにしてください。
 
-of.message.newVersion=新しい§eOptiFine§fが公開されました：§e%s§f
-of.message.java64Bit=パフォーマンスを高めるために§e64-bit Java§fが利用できます。
-of.message.openglError=§eOpenGLエラー§f：%s (%s)
+of.message.shaders.nv1=このシェーダーパックはより新しいOptiFine (%s) を要求します。
+of.message.shaders.nv2=続行しますか？
 
-of.message.shaders.loading=シェーダーをロード中：%s
+of.message.newVersion=新しい§eOptiFine§fが公開されました: §e%s§f
+of.message.java64Bit=パフォーマンスを高めるために§e64-bit Java§fが利用できます。
+of.message.openglError=§eOpenGLエラー§f: %s (%s)
+
+of.message.shaders.loading=シェーダーをロード中: %s
 
 of.message.other.reset=全ての設定を元の状態に戻してもよろしいですか？
 
@@ -93,7 +96,7 @@ of.options.AO_LEVEL.tooltip.3=  50%% - 明るい影
 of.options.AO_LEVEL.tooltip.4=  100%% - 暗い影
 
 options.viewBobbing.tooltip.1=画面の揺れ
-options.viewBobbing.tooltip.2=ミップマップをオフにした時に最もよい結果が出ます。
+options.viewBobbing.tooltip.2=ミップマップを使う場合には、最良の結果のためにオフにしてください
 
 options.guiScale.tooltip.1=GUIの大きさ
 options.guiScale.tooltip.2=  自動 - 最大サイズ
@@ -103,14 +106,14 @@ options.guiScale.tooltip.5=奇数倍 (1x、3x、5x ...) はUnicodeフォント�
 options.guiScale.tooltip.6=GUIは小さいほうが処理が速くなるかもしれません。
 
 options.vbo.tooltip.1=頂点バッファオブジェクト
-options.vbo.tooltip.2=描画方式を新しいものに変更し、
+options.vbo.tooltip.2=描画方式を置き換え、通常
 options.vbo.tooltip.3=5〜10%%処理を軽くできます。
 
 options.gamma.tooltip.1=暗い物体の明るさの変更
 options.gamma.tooltip.2=  暗い - 通常の明るさ
 options.gamma.tooltip.3=  1〜99%% - 明るさを調整する
 options.gamma.tooltip.4=  明るい - 最大の明るさ
-options.gamma.tooltip.5=完全に真っ暗な物体の明るさは、
+options.gamma.tooltip.5=完全に黒い物体の明るさは、
 options.gamma.tooltip.6=変更できません。
 
 options.anaglyph.tooltip.1=3Dアナグリフ
@@ -278,7 +281,7 @@ options.mipmapLevels.tooltip.2=テクスチャのスムージングによって�
 options.mipmapLevels.tooltip.3=  オフ - スムージングを行わない
 options.mipmapLevels.tooltip.4=  1 - 最小限のスムージング
 options.mipmapLevels.tooltip.5=  4 - 最大限のスムージング
-options.mipmapLevels.tooltip.6=この設定は大抵の場合パフォーマンスに影響を与えません。
+options.mipmapLevels.tooltip.6=この設定は概してパフォーマンスに影響を与えません。
 
 of.options.MIPMAP_TYPE=ミップマップの種類
 of.options.MIPMAP_TYPE.tooltip.1=遠くの物体における視覚効果を
@@ -294,17 +297,17 @@ of.options.AA_LEVEL.tooltip.2= オフ -  (初期値) アンチエイリアスを
 of.options.AA_LEVEL.tooltip.3= 2〜16 - アンチエイリアスされた輪郭 (高負荷)
 of.options.AA_LEVEL.tooltip.4=アンチエイリアスは輪郭のギザギザや
 of.options.AA_LEVEL.tooltip.5=急激な色の変化を滑らかにします。
-of.options.AA_LEVEL.tooltip.6=有効化すると実質的なFPSは下がります。
+of.options.AA_LEVEL.tooltip.6=有効化すると大幅にFPSが下がります。
 of.options.AA_LEVEL.tooltip.7=すべてのレベルがすべてのグラフィックカードでサポートされているわけではありません。
 of.options.AA_LEVEL.tooltip.8=有効化は再起動後です！
 
 of.options.AF_LEVEL=異方性フィルタリング
 of.options.AF_LEVEL.tooltip.1=異方性フィルタリング
-of.options.AF_LEVEL.tooltip.2= オフ - 通常のテクスチャ描画 (低負荷)
-of.options.AF_LEVEL.tooltip.3= 2〜16 - 滑らかなテクスチャ描画 (高負荷)
-of.options.AF_LEVEL.tooltip.4=ミップマップされたテクスチャにおいて、
-of.options.AF_LEVEL.tooltip.5=ちらつきを抑えます。
-of.options.AF_LEVEL.tooltip.6=有効化すると実質的にFPSは下がります。
+of.options.AF_LEVEL.tooltip.2= オフ -  (初期値) 標準的なテクスチャの細部 (低負荷)
+of.options.AF_LEVEL.tooltip.3= 2〜16 - ミップマップされたテクスチャでのより繊細な細部 (高負荷)
+of.options.AF_LEVEL.tooltip.4=異方性フィルタリングはミップマップされたテクスチャの
+of.options.AF_LEVEL.tooltip.5=細部を復元します。
+of.options.AF_LEVEL.tooltip.6=有効化すると大幅にFPSが下がります。
 
 of.options.CLEAR_WATER=水の透過
 of.options.CLEAR_WATER.tooltip.1=水の透過
@@ -351,8 +354,8 @@ of.options.SWAMP_COLORS.tooltip.2=  オン - 湿地帯色を使う 高負荷
 of.options.SWAMP_COLORS.tooltip.3=  オフ - 湿地帯色を使わない 低負荷
 of.options.SWAMP_COLORS.tooltip.4=湿地帯色は草、葉、蔦、水に影響を与えます。
 
-of.options.SMOOTH_BIOMES=バイオームを滑らかに表示
-of.options.SMOOTH_BIOMES.tooltip.1=バイオームを滑らかに表示
+of.options.SMOOTH_BIOMES=滑らかなバイオーム
+of.options.SMOOTH_BIOMES.tooltip.1=滑らかなバイオーム
 of.options.SMOOTH_BIOMES.tooltip.2=  オン - バイオームの境界を滑らかにする (初期値) 高負荷
 of.options.SMOOTH_BIOMES.tooltip.3=  オフ - バイオームの境界を滑らかにしない 低負荷
 of.options.SMOOTH_BIOMES.tooltip.4=周囲の色の平均をとって
@@ -549,14 +552,14 @@ of.options.FAST_RENDER.tooltip.1=描画の最適化
 of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画 (初期値) 
 of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画 (低負荷) 
 of.options.FAST_RENDER.tooltip.4=GPUのロード回数を減らした方式によって
-of.options.FAST_RENDER.tooltip.5=実質的なFPSを向上します。
+of.options.FAST_RENDER.tooltip.5=大幅にFPSを向上します。
 
 of.options.FAST_MATH=計算の最適化
 of.options.FAST_MATH.tooltip.1=計算の最適化
-of.options.FAST_MATH.tooltip.2= オフ - 通常の処理 (初期値)
-of.options.FAST_MATH.tooltip.3= オン - 最適化された計算方式
-of.options.FAST_MATH.tooltip.4=CPUのキャッシュをうまく使った
-of.options.FAST_MATH.tooltip.5=FPSを向上させる計算処理を使用します。
+of.options.FAST_MATH.tooltip.2= オフ - 通常の計算 (初期値)
+of.options.FAST_MATH.tooltip.3= オン - 最適化された計算
+of.options.FAST_MATH.tooltip.4=最適化した三角関数を用いて
+of.options.FAST_MATH.tooltip.5=CPUのキャッシュを活用しFPSを向上します。
 
 of.options.CHUNK_UPDATES=チャンク読込方法
 of.options.CHUNK_UPDATES.tooltip.1=チャンク読込方法
@@ -564,12 +567,12 @@ of.options.CHUNK_UPDATES.tooltip.2= 1 - 高負荷なチャンク読み込み 高
 of.options.CHUNK_UPDATES.tooltip.3= 3 - 低負荷めなチャンク読み込み 低めのFPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - 低負荷なチャンク読み込み 低いFPS
 of.options.CHUNK_UPDATES.tooltip.5=1フレームごとに行われるチャンク読み込み回数を指定します。
-of.options.CHUNK_UPDATES.tooltip.6=高い値はフレームレートの非安定化を招きます。
+of.options.CHUNK_UPDATES.tooltip.6=高い値はフレームレートの不安定化を招きます。
 
 of.options.CHUNK_UPDATES_DYNAMIC=動的な読み込み
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=動的な読み込み
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= オフ -  (初期値) 1フレームに通常の回数のチャンク読み込み処理
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= オン - 静止中により多くのアップデート処理を行う。
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= オン - 静止中により多くの読み込む処理を行う
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=プレイヤーが静止している時に
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=素早くチャンク読み込むようになります。
 
@@ -653,15 +656,15 @@ of.options.TIME.tooltip.6=シングルプレイの時のみ有効。
 options.fullscreen.tooltip.1=フルスクリーン
 options.fullscreen.tooltip.2=  オン - フルスクリーンモード
 options.fullscreen.tooltip.3=  オフ - ウィンドウモード
-options.fullscreen.tooltip.4=フルスクリーンではグラフィックカードによって
-options.fullscreen.tooltip.5=処理の速い遅いが変わります。
+options.fullscreen.tooltip.4=フルスクリーンでの処理の速さは
+options.fullscreen.tooltip.5=グラフィックボードに左右されます。
 
 of.options.FULLSCREEN_MODE=フルスクリーンの種類
 of.options.FULLSCREEN_MODE.tooltip.1=フルスクリーンの種類
 of.options.FULLSCREEN_MODE.tooltip.2=  デフォルト - デスクトップスクリーンの解像度 高負荷
 of.options.FULLSCREEN_MODE.tooltip.3=  幅x高 - カスタム解像度 おそらく低負荷
 of.options.FULLSCREEN_MODE.tooltip.4=フルスクリーンモードにて使用される解像度です。
-of.options.FULLSCREEN_MODE.tooltip.5=一般的に、低い解像度は速い処理に繋がります。
+of.options.FULLSCREEN_MODE.tooltip.5=低い解像度では一般的に、より速くなるでしょう。
 
 of.options.SHOW_FPS=FPSを表示
 of.options.SHOW_FPS.tooltip.1=コンパクトなFPSと描画情報を表示
