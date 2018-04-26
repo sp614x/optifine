@@ -13,6 +13,7 @@
 # armor_stand          right, left, waist, base
 # banner               slate, stand, top
 # bat                  head, body, right_wing, left_wing, outer_right_wing, outer_left_wing
+# bed                  head, foot, leg1 ... leg4
 # blaze                head, stick1 ... stick12
 # boat                 bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water
 # book                 cover_right, cover_left, pages_right, pages_left, flipping_page_right, flipping_page_left, book_spine
@@ -51,6 +52,7 @@
 # mooshroom            head, body, leg1 ... leg4
 # mule                 <same as horse>
 # ocelot               back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
+# parrot               head, body, tail, left_wing, right_wing, left_leg, right_leg
 # pig                  head, body, leg1 ... leg4
 # polar_bear           head, body, leg1 ... leg4
 # rabbit               left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
