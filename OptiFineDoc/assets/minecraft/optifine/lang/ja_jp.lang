@@ -106,7 +106,7 @@ options.guiScale.tooltip.5=奇数倍 (1x、3x、5x ...) はUnicodeフォント�
 options.guiScale.tooltip.6=GUIは小さいほうが処理が速くなるかもしれません。
 
 options.vbo.tooltip.1=頂点バッファオブジェクト
-options.vbo.tooltip.2=描画方式を置き換え、通常
+options.vbo.tooltip.2=描画方式を置き換え、通常より
 options.vbo.tooltip.3=5〜10%%処理を軽くできます。
 
 options.gamma.tooltip.1=暗い物体の明るさの変更
@@ -162,7 +162,7 @@ of.options.shaders.ANTIALIASING=アンチエイリアス
 of.options.shaders.ANTIALIASING.tooltip.1=アンチエイリアス
 of.options.shaders.ANTIALIASING.tooltip.2=  オフ -  (初期値) アンチエイリアスを行わない (低負荷)
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x、4x - アンチエイリアスされた輪郭 (高負荷)
-of.options.shaders.ANTIALIASING.tooltip.4=FXAAは輪郭のギザギザやシャープな色の変化を
+of.options.shaders.ANTIALIASING.tooltip.4=FXAAは輪郭のギザギザや急激な色の変化を
 of.options.shaders.ANTIALIASING.tooltip.5=滑らかにする後処理効果です。
 of.options.shaders.ANTIALIASING.tooltip.6=この機能は旧来のアンチエイリアス処理より低負荷で
 of.options.shaders.ANTIALIASING.tooltip.7=シェーダーや描画の最適化機能と共存できます。
@@ -205,14 +205,14 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.6=シャドウマップテクスチャ
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=低い値 = 厳格でない、荒い影。
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=高い値 = 細密で、繊細な影。
 
-of.options.shaders.HAND_DEPTH_MUL=手部被写界深度
-of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手部被写界深度
+of.options.shaders.HAND_DEPTH_MUL=手の遠近
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手の遠近
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - カメラに近い手
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x -  (初期値)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - カメラから遠い手
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部被写界深度設定では手に持ったものがカメラから
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手の遠近設定では手に持ったものがカメラから
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=どれだけ遠いかを制御します。
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=シェーダーパックによるブラーは
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=被写界深度効果を持つシェーダーパックによる
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=手に持ったもののブラーも変更します。
 
 of.options.shaders.CLOUD_SHADOW=雲の影
@@ -378,8 +378,8 @@ of.options.NATURAL_TEXTURES.tooltip.2=  オフ - 自然なテクスチャを用�
 of.options.NATURAL_TEXTURES.tooltip.3=  オン - 自然なテクスチャを用いる
 of.options.NATURAL_TEXTURES.tooltip.4=ブロックのテクスチャが同じ形を繰り返し、
 of.options.NATURAL_TEXTURES.tooltip.5=格子状の模様が形成される現象を除去します。
-of.options.NATURAL_TEXTURES.tooltip.6=基となるブロックのテクスチャを回転したり裏返したり
-of.options.NATURAL_TEXTURES.tooltip.7=するのに用いられます。自然なテクスチャの設定は
+of.options.NATURAL_TEXTURES.tooltip.6=これは基となるブロックのテクスチャを回転したり裏返したり
+of.options.NATURAL_TEXTURES.tooltip.7=することで実現されます。自然なテクスチャの設定は
 of.options.NATURAL_TEXTURES.tooltip.8=現在使用中のリソースパックに依存します。
 
 of.options.EMISSIVE_TEXTURES=発光効果テクスチャ
