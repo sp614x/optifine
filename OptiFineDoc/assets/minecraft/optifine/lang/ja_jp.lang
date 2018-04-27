@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2018-04-25
+#   CrafterKina 2014-01-04 ---- 2018-04-27
 
 # General
 of.general.ambiguous=不明確
@@ -96,7 +96,7 @@ of.options.AO_LEVEL.tooltip.3=  50%% - 明るい影
 of.options.AO_LEVEL.tooltip.4=  100%% - 暗い影
 
 options.viewBobbing.tooltip.1=画面の揺れ
-options.viewBobbing.tooltip.2=ミップマップを使う場合には、最良の結果のためにオフにしてください
+options.viewBobbing.tooltip.2=ミップマップを使う場合には、最良の結果のためにオフにしてください。
 
 options.guiScale.tooltip.1=GUIの大きさ
 options.guiScale.tooltip.2=  自動 - 最大サイズ
@@ -138,7 +138,7 @@ of.options.FOG_START=霧の距離
 of.options.FOG_START.tooltip.1=プレイヤーと霧の距離の設定
 of.options.FOG_START.tooltip.2=  0.2 - プレイヤーと霧の距離を最も近くする
 of.options.FOG_START.tooltip.3=  0.8 - プレイヤーと霧の距離を最も遠くする
-of.options.FOG_START.tooltip.4=この設定は大抵の場合パフォーマンスに影響を与えません。
+of.options.FOG_START.tooltip.4=この設定は概ねパフォーマンスに影響を与えません。
 
 of.options.CHUNK_LOADING=チャンク読み込み
 of.options.CHUNK_LOADING.tooltip.1=チャンク読み込み
@@ -281,7 +281,7 @@ options.mipmapLevels.tooltip.2=テクスチャのスムージングによって�
 options.mipmapLevels.tooltip.3=  オフ - スムージングを行わない
 options.mipmapLevels.tooltip.4=  1 - 最小限のスムージング
 options.mipmapLevels.tooltip.5=  4 - 最大限のスムージング
-options.mipmapLevels.tooltip.6=この設定は概してパフォーマンスに影響を与えません。
+options.mipmapLevels.tooltip.6=この設定は概ねパフォーマンスに影響を与えません。
 
 of.options.MIPMAP_TYPE=ミップマップの種類
 of.options.MIPMAP_TYPE.tooltip.1=遠くの物体における視覚効果を
@@ -689,5 +689,5 @@ of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.2=  デフォルト - 通常の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x〜4x - 任意の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.4=より大きなスクリーンショットの撮影には、より多くのメモリが必要です。
-of.options.SCREENSHOT_SIZE.tooltip.5=描画の最適化、アンチエイリアスとは競合します。
+of.options.SCREENSHOT_SIZE.tooltip.5=描画の最適化、アンチエイリアスとは共存できません。
 of.options.SCREENSHOT_SIZE.tooltip.6=GPUがフレームバッファをサポートしている必要があります。
