@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2018-02-17
+#   TheHADILP 2016-5-20 ---- 2018-03-31
 #   Nerdyyy 2018-1-6
 
 # General
@@ -40,6 +40,9 @@ of.message.shaders.fr2=Bitte deaktiviere Leistung -> Schnelles Rendern.
 
 of.message.shaders.an1=Shader sind nicht mit dem 3D-Effekt kompatibel.
 of.message.shaders.an2=Bitte deaktiviere Sonstiges -> 3D-Effekt.
+
+of.message.shaders.nv1=Dieses Shader-Paket erfordert eine neuere OptiFine Version: %s
+of.message.shaders.nv2=Willst du wirklich fortfahren?
 
 of.message.newVersion=Eine neue Version von §eOptiFine§f ist verfügbar: §e%s§f
 of.message.java64Bit=Du kannst die §e64-bit-Version von Java§f installieren, um die Leistung zu verbessern
@@ -243,8 +246,8 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Beleucht
 of.options.shaders.DOWNLOAD=Shader von Website herunterladen
 of.options.shaders.DOWNLOAD.tooltip.1=Shader von Website herunterladen
 of.options.shaders.DOWNLOAD.tooltip.2= 
-of.options.shaders.DOWNLOAD.tooltip.3=Öffnet die Shader-Pack Website im Browser.
-of.options.shaders.DOWNLOAD.tooltip.4=Lege das heruntergeladene Shader-Pack in den
+of.options.shaders.DOWNLOAD.tooltip.3=Öffnet die Shader-Paket Website im Browser.
+of.options.shaders.DOWNLOAD.tooltip.4=Lege das heruntergeladene Shader-Paket in den
 of.options.shaders.DOWNLOAD.tooltip.5=Shader-Ordner, damit es in der Liste der
 of.options.shaders.DOWNLOAD.tooltip.6=installierten Shader erscheint.
 

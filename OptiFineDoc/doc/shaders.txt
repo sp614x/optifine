@@ -6,6 +6,19 @@ Optional deferred shaders can be added between terrain and water rendering.
 The composite shaders then render to textures that will be sent to the final shader. 
 The final shader renders directly to the screen.
 
+Shader Files
+============
+All shader files are placed in the folder "shaders" of the shader pack.
+The shader source files use the name of the program in which they are to be used with extension depending on their type.
+
+Extension  Type                 
+==========================
+.vsh       Vertex shader     
+.gsh       Geometry shader   
+.fsh       Fragment shader   
+
+Geometry shaders need either OpenGL 3.2 with layout qualifiers or the extension GL_ARB_geometry_shader4 with configuration "maxVerticesOut".
+
 Color Attachments
 =================
 The data is passed from shader to shader using color attachments. 
@@ -328,6 +341,13 @@ Source                                          Effect                          
 attribute <type> mc_Entity;                     useEntityAttrib = true
 attribute <type> mc_midTexCoord;                useMidTexCoordAttrib = true             
 attribute <type> at_tangent;                    useTangentAttrib = true
+
+Geometry Shader Configuration
+===========================
+Source                                          Effect                                                    Comment
+=====================================================================================================================================================================
+#extension GL_ARB_geometry_shader4 : enable     Enable GL_ARB_geometry_shader4
+const int maxVerticesOut = 3;                   Set GEOMETRY_VERTICES_OUT_ARB for GL_ARB_geometry_shader4 
 
 Fragment Shader Configuration
 =============================
