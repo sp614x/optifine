@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-02-17
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-05-02
 
 # General
 of.general.ambiguous=tvetydig
@@ -97,10 +97,10 @@ of.options.AO_LEVEL.tooltip.4=  100%% - mörka skuggor
 options.viewBobbing.tooltip.1=Mer verklighetstrogna rörelser.
 options.viewBobbing.tooltip.2=Inaktivera detta om mipmaps används för bästa resultat.
 
-options.guiScale.tooltip.1=GUI-skala
+options.guiScale.tooltip.1=Gränssnittsskala
 options.guiScale.tooltip.2=  Automatisk - maximal storlek
 options.guiScale.tooltip.3=  Liten, Normal, Stor - 1x till 3x
-options.guiScale.tooltip.4=  4x till 10x - tillgänglig på 4K-skärmar
+options.guiScale.tooltip.4=  4x till 10x - tillgängliga på 4K-skärmar
 options.guiScale.tooltip.5=Udda värden (1x, 3x, 5x...) är inte kompatibla med Unicode.
 options.guiScale.tooltip.6=Ett mindre GUI kan vara snabbare.
 
@@ -141,7 +141,7 @@ of.options.FOG_START.tooltip.4=Detta alternativ påverkar vanligtvis inte presta
 
 of.options.CHUNK_LOADING=Chunkinläsning
 of.options.CHUNK_LOADING.tooltip.1=Chunkinläsning
-of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när chunks läses in
+of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när chunkar läses in
 of.options.CHUNK_LOADING.tooltip.3=  Jämn - stabil bildfrekvens
 of.options.CHUNK_LOADING.tooltip.4=  Flerkärnig - stabil bildfrekvens, 3x snabbare inläsning
 of.options.CHUNK_LOADING.tooltip.5=Jämn och Flerkärnig tar bort ryckningar och
@@ -270,10 +270,10 @@ of.shaders.profile=Profil
 
 # Quality
 
-of.options.mipmap.bilinear=Bilinjärt
-of.options.mipmap.linear=Linjärt
+of.options.mipmap.bilinear=Bilinjär
+of.options.mipmap.linear=Linjär
 of.options.mipmap.nearest=Närmast
-of.options.mipmap.trilinear=Trilinjärt
+of.options.mipmap.trilinear=Trilinjär
 
 options.mipmapLevels.tooltip.1=Visuell effekt som gör att objekt på avstånd ser bättre
 options.mipmapLevels.tooltip.2=ut genom att jämna ut texturdetaljerna.
@@ -683,20 +683,29 @@ of.options.SHOW_FPS.tooltip.4=  U: - antal chunkuppdateringar
 of.options.SHOW_FPS.tooltip.5=Informationen visas endast när felsökningsskärmen (F3)
 of.options.SHOW_FPS.tooltip.6=inte är öppen.
 
-of.options.save.default=Standard (2s)
-of.options.save.20s=20s
-of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.default=Standard (2 s)
+of.options.save.20s=20 s
+of.options.save.3min=3 min
+of.options.save.30min=30 min
 
-of.options.AUTOSAVE_TICKS=Autosparning
+of.options.AUTOSAVE_TICKS=Autospara
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning.
-of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2s) REKOMMENDERAS INTE.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosparning är ökänd för att orsaka lag spikes.
+of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) REKOMMENDERAS INTE.
+of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning är ökänd för att orsaka lag spikes.
 
-of.options.SCREENSHOT_SIZE=Skärmdumpsstorlek
-of.options.SCREENSHOT_SIZE.tooltip.1=Skärmdumpsstorlek
-of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek för skärmdumpar
-of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek för skärmdumpar
+of.options.SCREENSHOT_SIZE=Stl. på skärmdump
+of.options.SCREENSHOT_SIZE.tooltip.1=Storlek på skärmdump
+of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek på skärmdumpar
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek på skärmdumpar
 of.options.SCREENSHOT_SIZE.tooltip.4=Större skärmdumpar kan kräva mer minne.
-of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibel med Snabb rendering och Kantutjämning.
+of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibelt med Snabb rendering och Kantutjämning.
 of.options.SCREENSHOT_SIZE.tooltip.6=Kräver att grafikprocessorn har stöd för framebuffer.
+
+of.options.SHOW_GL_ERRORS=Visa OpenGL-fel
+of.options.SHOW_GL_ERRORS.tooltip.1=Visa OpenGL-fel
+of.options.SHOW_GL_ERRORS.tooltip.2=OpenGL-fel visas i chatten när detta aktiveras.
+of.options.SHOW_GL_ERRORS.tooltip.3=Inaktivera endast detta om det finns en känd konflikt och
+of.options.SHOW_GL_ERRORS.tooltip.4=felen inte kan åtgärdas.
+of.options.SHOW_GL_ERRORS.tooltip.5=När detta inaktiveras kommer felen fortfarande
+of.options.SHOW_GL_ERRORS.tooltip.6=registreras i felloggen och kan fortfarande orsaka att
+of.options.SHOW_GL_ERRORS.tooltip.7=bildfrekvensen sjunker avsevärt.
