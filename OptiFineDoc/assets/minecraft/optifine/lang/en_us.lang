@@ -47,6 +47,10 @@ of.message.other.reset=Reset all video settings to their default values?
 
 of.message.loadingVisibleChunks=Loading visible chunks
 
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine Cape...
+
 # Video settings
 
 options.graphics.tooltip.1=Visual quality
@@ -688,3 +692,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - custom screenshot size
 of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshots may need more memory.
 of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with Fast Render and Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.6=Requires GPU framebuffer support.
+
+of.options.SHOW_GL_ERRORS=Show GL Errors
+of.options.SHOW_GL_ERRORS.tooltip.1=Show OpenGL Errors
+of.options.SHOW_GL_ERRORS.tooltip.2=When enabled OpenGL errors are shown in the chat.
+of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict and
+of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
+of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
+of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
