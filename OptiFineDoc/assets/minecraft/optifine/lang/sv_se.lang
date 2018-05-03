@@ -50,6 +50,10 @@ of.message.other.reset=Återställ alla grafikinställningar till dess standardv
 
 of.message.loadingVisibleChunks=Läser in synliga chunkar
 
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine-mantel...
+
 # Video settings
 
 options.graphics.tooltip.1=Visuell kvalitet
