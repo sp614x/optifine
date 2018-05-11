@@ -91,8 +91,8 @@ options.framerateLimit.tooltip.5=即使未達 FPS 上限
 options.framerateLimit.tooltip.6=該限制仍會影響 FPS。
 of.options.framerateLimit.vsync=垂直同步
 
-of.options.AO_LEVEL=即使未達等級
-of.options.AO_LEVEL.tooltip.1=即使未達等級
+of.options.AO_LEVEL=柔和光源
+of.options.AO_LEVEL.tooltip.1=柔和光源
 of.options.AO_LEVEL.tooltip.2= 關閉 - 沒有陰影
 of.options.AO_LEVEL.tooltip.3= 50%% - 較亮的陰影
 of.options.AO_LEVEL.tooltip.4= 100%% - 較暗的陰影
