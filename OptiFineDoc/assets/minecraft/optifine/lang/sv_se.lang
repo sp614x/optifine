@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-05-02
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-05-11
 
 # General
 of.general.ambiguous=tvetydig
@@ -342,14 +342,14 @@ of.options.BETTER_SNOW.tooltip.5=som angränsar till snöblock.
 
 of.options.CUSTOM_FONTS=Anpassade typsnitt
 of.options.CUSTOM_FONTS.tooltip.1=Anpassade typsnitt
-of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpassade typsnitt (standard), långsammare
+of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpass. typsnitt (standard), långsammare
 of.options.CUSTOM_FONTS.tooltip.3=  AV - använd standardtypsnittet, snabbare
 of.options.CUSTOM_FONTS.tooltip.4=De anpassade typsnitten tillhandahålls av det aktuella
 of.options.CUSTOM_FONTS.tooltip.5=resurspaketet.
 
 of.options.CUSTOM_COLORS=Anpassade färger
 of.options.CUSTOM_COLORS.tooltip.1=Anpassade färger
-of.options.CUSTOM_COLORS.tooltip.2=  PÅ - använd anpassade färger (standard), långsammare
+of.options.CUSTOM_COLORS.tooltip.2=  PÅ - använd anpass. färger (standard), långsammare
 of.options.CUSTOM_COLORS.tooltip.3=  AV - använd standardfärgerna, snabbare
 of.options.CUSTOM_COLORS.tooltip.4=De anpassade färgerna tillhandahålls av det aktuella
 of.options.CUSTOM_COLORS.tooltip.5=resurspaketet
@@ -525,19 +525,19 @@ of.options.VIGNETTE.tooltip.8=utan någon fara.
 
 of.options.DYNAMIC_FOV=Dynamiskt synfält
 of.options.DYNAMIC_FOV.tooltip.1=Dynamiskt synfält
-of.options.DYNAMIC_FOV.tooltip.2=  PÅ - aktivera dynamiskt synfält  (standard)
+of.options.DYNAMIC_FOV.tooltip.2=  PÅ - aktivera dynamiskt synfält (standard)
 of.options.DYNAMIC_FOV.tooltip.3=  AV - inaktivera dynamiskt synfält
 of.options.DYNAMIC_FOV.tooltip.4=Ändrar synfältet när du flyger, springer eller siktar
 of.options.DYNAMIC_FOV.tooltip.5=med en pilbåge.
 
-of.options.DYNAMIC_LIGHTS=Dynamiskt ljus
-of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiskt ljus
-of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inget dynamiskt ljus (standard)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabbt dynamiskt ljus (uppdateras var 500ms)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snyggt dynamiskt ljus (uppdateras i realtid)
+of.options.DYNAMIC_LIGHTS=Dynamiska ljus
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiska ljus
+of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inga dynamiska ljus (standard)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabba dynamiska ljus (uppdat. efter 500 ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snygga dynamiska ljus (uppdateras i realtid)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, glödsten, etc.)
-of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de hålls av dig, andra
-of.options.DYNAMIC_LIGHTS.tooltip.7=spelare eller släpps ned på marken.
+of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de hålls av dig, andra spelare
+of.options.DYNAMIC_LIGHTS.tooltip.7=eller släpps ned på marken.
 
 # Performance
 
@@ -660,7 +660,7 @@ of.options.time.nightOnly=Endast natt
 
 of.options.TIME=Tid
 of.options.TIME.tooltip.1=Tid
-of.options.TIME.tooltip.2=  Standard - vanliga dag/natt-cykler
+of.options.TIME.tooltip.2=  Standard - vanliga dag-/nattcykler
 of.options.TIME.tooltip.3=  Endast dag - dag hela tiden
 of.options.TIME.tooltip.4=  Endast natt - natt hela tiden
 of.options.TIME.tooltip.5=Tidsinställningen fungerar endast i KREATIVT läge och
