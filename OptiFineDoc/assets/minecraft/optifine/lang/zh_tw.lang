@@ -1,11 +1,11 @@
 # Contributors of Traditional Chinese localization #
 #   Degh_Cilon_ From WAWCraft 2016-02-18 ---- 2017-11-19
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
-#   NatsuArashi (crowdinPR) 2016-03-03 ---- 2018-05-11
+#   NatsuArashi (crowdinPR) 2016-03-03 ---- 2018-05-12
 ##-------------- zh_TW ---------------
 
 # General
-of.general.ambiguous=不明確
+of.general.ambiguous=模糊
 of.general.custom=自定義
 of.general.from=來自
 of.general.id=Id
@@ -29,7 +29,7 @@ of.message.an.shaders1=3D立體與光影不相容。
 of.message.an.shaders2=請關閉光影來啟用這個選項。
 
 of.message.shaders.aa1=光影與抗鋸齒不相容。
-of.message.shaders.aa2=請把 品質 -> 抗鋸齒 選項設定為 關閉 並且重啟你的遊戲。
+of.message.shaders.aa2=請把 品質 -> 抗鋸齒 選項設定為 關閉 並重啟你的遊戲。
 
 of.message.shaders.af1=光影與各向異性過濾不相容。
 of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關閉。 
@@ -43,7 +43,7 @@ of.message.shaders.an2=請把 其他 -> 3D立體 選項設定為 關閉。
 of.message.shaders.nv1=這個光影需要較新的 OptiFine 版本： %s
 of.message.shaders.nv2=你確定要繼續嗎？
 
-of.message.newVersion=新的§eOptiFine§f版本可以使用了： §e%s§f
+of.message.newVersion=新的§eOptiFine§f版本已可使用： §e%s§f
 of.message.java64Bit=你可以安裝§e64位元Java§f來提升性能。
 of.message.openglError=§eOpenGL錯誤§f: %s (%s)
 
@@ -65,7 +65,7 @@ of.options.renderDistance.tiny=最近
 of.options.renderDistance.short=近
 of.options.renderDistance.normal=中等
 of.options.renderDistance.far=遠
-of.options.renderDistance.extreme=最遠
+of.options.renderDistance.extreme=超遠
 of.options.renderDistance.insane=病態
 of.options.renderDistance.ludicrous=荒唐
 
@@ -73,37 +73,37 @@ options.renderDistance.tooltip.1=視野距離
 options.renderDistance.tooltip.2= 2 最近 - 32m（最快）
 options.renderDistance.tooltip.3= 8 中等 - 128m（正常）
 options.renderDistance.tooltip.4= 16 遠 - 256m（較慢）
-options.renderDistance.tooltip.5= 32 最遠 - 512m（最慢！） 非常消耗資源!
+options.renderDistance.tooltip.5= 32 超遠 - 512m（最慢！）非常消耗資源！
 options.renderDistance.tooltip.6= 48 病態 - 768m，需要分配2G記憶體空間
 options.renderDistance.tooltip.7= 64 荒唐 - 1024m，需要分配3G的記憶體空間
 options.renderDistance.tooltip.8= 16 以上的視野值只在本機世界有效。
 
 options.ao.tooltip.1=柔和光源
-options.ao.tooltip.2= 關閉 - 無柔和光源（較快）
-options.ao.tooltip.3= 最小值 - 簡單柔和光源（較慢）
-options.ao.tooltip.4= 最大值 - 複雜柔和光源（最慢）
+options.ao.tooltip.2=  關閉 - 無柔和光源（較快）
+options.ao.tooltip.3=  最小 - 簡單柔和光源（較慢）
+options.ao.tooltip.4=  最大 - 複雜柔和光源（最慢）
 
 options.framerateLimit.tooltip.1=最大 FPS
-options.framerateLimit.tooltip.2= 垂直同步 - 受限於螢幕 FPS(60，30，20)
-options.framerateLimit.tooltip.3= 5-255 - 可變
-options.framerateLimit.tooltip.4= 無限制 - 無限制（最快）
+options.framerateLimit.tooltip.2=  垂直同步 - 受限於螢幕 FPS(60，30，20)
+options.framerateLimit.tooltip.3=  5-255 - 可變
+options.framerateLimit.tooltip.4=  無限制 - 無限制（最快）
 options.framerateLimit.tooltip.5=即使未達 FPS 上限
 options.framerateLimit.tooltip.6=該限制仍會影響 FPS。
 of.options.framerateLimit.vsync=垂直同步
 
 of.options.AO_LEVEL=柔和光源
 of.options.AO_LEVEL.tooltip.1=柔和光源
-of.options.AO_LEVEL.tooltip.2= 關閉 - 沒有陰影
-of.options.AO_LEVEL.tooltip.3= 50%% - 較亮的陰影
-of.options.AO_LEVEL.tooltip.4= 100%% - 較暗的陰影
+of.options.AO_LEVEL.tooltip.2=  關閉 - 沒有陰影
+of.options.AO_LEVEL.tooltip.3=  50%% - 較亮的陰影
+of.options.AO_LEVEL.tooltip.4=  100%% - 較暗的陰影
 
 options.viewBobbing.tooltip.1=更真實的移動。
 options.viewBobbing.tooltip.2=當使用多精度材質時，關閉它以取得更佳效果。
 
 options.guiScale.tooltip.1=介面大小
-options.guiScale.tooltip.2= 自動 - 最大尺寸
-options.guiScale.tooltip.3= 小，中，大 - 1x到3x
-options.guiScale.tooltip.4= 4x-10x - 僅適用於 4K 解析度
+options.guiScale.tooltip.2=  自動 - 最大尺寸
+options.guiScale.tooltip.3=  小，中，大 - 1x到3x
+options.guiScale.tooltip.4=  4x-10x - 僅適用於 4K 解析度
 options.guiScale.tooltip.5=奇數值的放大倍數（1x，3x，5x...等）與 Unicode 不相容。
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
 
@@ -112,9 +112,9 @@ options.vbo.tooltip.2=使用一種常見的替代渲染模型
 options.vbo.tooltip.3=比預設渲染快(5-10%%)。
 
 options.gamma.tooltip.1=增加較暗物體的亮度
-options.gamma.tooltip.2= 幽暗 - 標準亮度
-options.gamma.tooltip.3= 1-99%% - 可變亮度
-options.gamma.tooltip.4= 明亮 - 最大亮度
+options.gamma.tooltip.2=  幽暗 - 標準亮度
+options.gamma.tooltip.3=  1-99%% - 可變亮度
+options.gamma.tooltip.4=  明亮 - 最大亮度
 options.gamma.tooltip.5=此選項不會改變
 options.gamma.tooltip.6=全黑物體的亮度。
 
@@ -130,23 +130,23 @@ of.options.ALTERNATE_BLOCKS.tooltip.3=取決於選用的資源包。
 
 of.options.FOG_FANCY=迷霧
 of.options.FOG_FANCY.tooltip.1=迷霧類型
-of.options.FOG_FANCY.tooltip.2= 流暢 - 較流暢的迷霧
-of.options.FOG_FANCY.tooltip.3= 精緻 - 較慢的迷霧，視覺效果較佳
-of.options.FOG_FANCY.tooltip.4= 關閉 - 無迷霧，最快
+of.options.FOG_FANCY.tooltip.2=  流暢 - 較流暢的迷霧
+of.options.FOG_FANCY.tooltip.3=  精緻 - 較慢的迷霧，視覺效果較佳
+of.options.FOG_FANCY.tooltip.4=  關閉 - 無迷霧，最快
 of.options.FOG_FANCY.tooltip.5=精緻的迷霧只有當
 of.options.FOG_FANCY.tooltip.6=顯卡支援時才可使用。
 
 of.options.FOG_START=迷霧出現距離
 of.options.FOG_START.tooltip.1=迷霧出現距離
-of.options.FOG_START.tooltip.2= 0.2 - 迷霧出現於玩家周圍
-of.options.FOG_START.tooltip.3= 0.8 - 迷霧出現於離玩家較遠的地方
+of.options.FOG_START.tooltip.2=  0.2 - 迷霧出現於玩家周圍
+of.options.FOG_START.tooltip.3=  0.8 - 迷霧出現於離玩家較遠的地方
 of.options.FOG_START.tooltip.4=此選項通常不會影響性能。
 
 of.options.CHUNK_LOADING=區塊載入
 of.options.CHUNK_LOADING.tooltip.1=區塊載入
-of.options.CHUNK_LOADING.tooltip.2= 預設 - 當載入區塊時 FPS 不穩定
-of.options.CHUNK_LOADING.tooltip.3= 柔和化 - 穩定 FPS
-of.options.CHUNK_LOADING.tooltip.4= 多核心 - 穩定 FPS，3倍的世界載入速度
+of.options.CHUNK_LOADING.tooltip.2=  預設 - 當載入區塊時 FPS 不穩定
+of.options.CHUNK_LOADING.tooltip.3=  柔和化 - 穩定 FPS
+of.options.CHUNK_LOADING.tooltip.4=  多核心 - 穩定 FPS，3倍的世界載入速度
 of.options.CHUNK_LOADING.tooltip.5=柔和化和多核心可消除由區塊
 of.options.CHUNK_LOADING.tooltip.6=載入引起的延遲和卡頓。
 of.options.CHUNK_LOADING.tooltip.7=多核心可以令世界載入速度提升3倍
@@ -162,90 +162,90 @@ of.options.shaders.packDefault=（內建）
 
 of.options.shaders.ANTIALIASING=抗鋸齒
 of.options.shaders.ANTIALIASING.tooltip.1=抗鋸齒
-of.options.shaders.ANTIALIASING.tooltip.2=  OFF - (default) no antialiasing (faster)
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiased lines and edges (slower)
-of.options.shaders.ANTIALIASING.tooltip.4=FXAA is a post-processing effect which smooths
-of.options.shaders.ANTIALIASING.tooltip.5=jagged lines and sharp color transitions.
-of.options.shaders.ANTIALIASING.tooltip.6=It is faster than traditional antialiasing
-of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders and Fast Render.  
+of.options.shaders.ANTIALIASING.tooltip.2=  關閉 - （預設）停用抗鋸齒（較快）
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 對線和邊緣抗鋸齒處理（較慢）
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一種平滑鋸齒線和鮮明的色彩過渡的
+of.options.shaders.ANTIALIASING.tooltip.5=後處理特效。
+of.options.shaders.ANTIALIASING.tooltip.6=它不僅快於傳統的抗鋸齒處理，
+of.options.shaders.ANTIALIASING.tooltip.7=同時也與光影和快速渲染相容。 
 
 of.options.shaders.NORMAL_MAP=法線貼圖
 of.options.shaders.NORMAL_MAP.tooltip.1=法線貼圖
-of.options.shaders.NORMAL_MAP.tooltip.2=  ON - (default) enable normal maps 
-of.options.shaders.NORMAL_MAP.tooltip.3=  OFF - disable normal maps
-of.options.shaders.NORMAL_MAP.tooltip.4=Normal maps can be used by the shader pack
-of.options.shaders.NORMAL_MAP.tooltip.5=to simulate 3D geometry on flat model surfaces.
-of.options.shaders.NORMAL_MAP.tooltip.6=The normal map textures are supplied by the
-of.options.shaders.NORMAL_MAP.tooltip.7=current resource pack.
+of.options.shaders.NORMAL_MAP.tooltip.2=  開啟 - （預設）啟用法線貼圖
+of.options.shaders.NORMAL_MAP.tooltip.3=  關閉 - 停用法線貼圖
+of.options.shaders.NORMAL_MAP.tooltip.4=光影包可以使用法線貼圖以在
+of.options.shaders.NORMAL_MAP.tooltip.5=平面的模型表面模擬三維幾何結構。
+of.options.shaders.NORMAL_MAP.tooltip.6=法線貼圖材質一般由
+of.options.shaders.NORMAL_MAP.tooltip.7=當前的資源包提供。
 
 of.options.shaders.SPECULAR_MAP=高光貼圖
 of.options.shaders.SPECULAR_MAP.tooltip.1=高光貼圖
-of.options.shaders.SPECULAR_MAP.tooltip.2=  ON - (default) enable specular maps
-of.options.shaders.SPECULAR_MAP.tooltip.3=  OFF - disable specular maps
-of.options.shaders.SPECULAR_MAP.tooltip.4=Specular maps can be used by the shader pack
-of.options.shaders.SPECULAR_MAP.tooltip.5=to simulate special reflection effects.
-of.options.shaders.SPECULAR_MAP.tooltip.6=The specular map textures are supplied by the
-of.options.shaders.SPECULAR_MAP.tooltip.7=current resource pack.
+of.options.shaders.SPECULAR_MAP.tooltip.2=  開啟 - （預設）啟用高光貼圖
+of.options.shaders.SPECULAR_MAP.tooltip.3=  關閉 - 停用高光貼圖
+of.options.shaders.SPECULAR_MAP.tooltip.4=光影包可以使用高光貼圖
+of.options.shaders.SPECULAR_MAP.tooltip.5=來模擬特殊的反射效果。
+of.options.shaders.SPECULAR_MAP.tooltip.6=高光貼圖材質一般由
+of.options.shaders.SPECULAR_MAP.tooltip.7=當前的資源包提供。
 
 of.options.shaders.RENDER_RES_MUL=渲染品質
 of.options.shaders.RENDER_RES_MUL.tooltip.1=渲染品質
-of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - low (fastest)
-of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (default)
-of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - high (slowest)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=Render quality controls the size of the texture 
-of.options.shaders.RENDER_RES_MUL.tooltip.6=that the shader pack is rendering to.
-of.options.shaders.RENDER_RES_MUL.tooltip.7=Lower values can be useful with 4K displays.
-of.options.shaders.RENDER_RES_MUL.tooltip.8=Higher values work as an antialiasing filter.
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - 低（最快）
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 標準（預設）
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高（最慢）
+of.options.shaders.RENDER_RES_MUL.tooltip.5=渲染品質控制光影包所
+of.options.shaders.RENDER_RES_MUL.tooltip.6=渲染的材質尺寸。
+of.options.shaders.RENDER_RES_MUL.tooltip.7=較低的值較有利於 4K 顯示。
+of.options.shaders.RENDER_RES_MUL.tooltip.8=較高的值用於抗鋸齒過濾採樣。
 
 of.options.shaders.SHADOW_RES_MUL=陰影品質
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=陰影品質
-of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - low (fastest)
-of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (default)
-of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - high (slowest)
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=Shadow quality controls the size of the shadow map
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=texture used by the shader pack.
-of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = unexact, coarser shadows.
-of.options.shaders.SHADOW_RES_MUL.tooltip.8=Higher values = detailed, finer shadows.
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低（最快）
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 標準（預設）
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高（最慢）
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=陰影品質控制光影包使用的
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=陰影映射貼圖的大小。
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=較低的值 = 不精確的、粗糙的陰影。
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=較高的值 = 細緻的、更佳的陰影。
 
 of.options.shaders.HAND_DEPTH_MUL=手部深度
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手部深度
-of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - hand near to the camera
-of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (default)
-of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - hand far from the camera
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hand depth controls how far the handheld objects are
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=from the camera.
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For shader packs using depth blur this should change
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=the blurring of handheld objects.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - 手與鏡頭相距較近
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - （預設）
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - 手與鏡頭相距較遠
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部深度控制手持的物品與
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=鏡頭的距離。
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=此選項對於使用模糊景深的光影包
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=應該會改變手持物品的模糊程度。
 
 of.options.shaders.CLOUD_SHADOW=雲影
 
 of.options.shaders.OLD_HAND_LIGHT=經典手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=經典手持光源
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Default - controlled by the shader pack
-of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ON - use old handlight
-of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  OFF - use new handlight
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Old hand light allows shader packs which only  
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognize light emitting items in the main hand 
-of.options.shaders.OLD_HAND_LIGHT.tooltip.7=to also work with items in the off-hand.
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  預設 - 光影包控制
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  開啟 - 使用經典手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  關閉 - 使用新式手持光源
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=經典手持光源允許只能辨識主手
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=發光物品的光影包也能夠
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=作用於副手。
 
 of.options.shaders.OLD_LIGHTING=經典光源
 of.options.shaders.OLD_LIGHTING.tooltip.1=經典光源
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Default - controlled by the shader pack
-of.options.shaders.OLD_LIGHTING.tooltip.3=  ON - use old lighting
-of.options.shaders.OLD_LIGHTING.tooltip.4=  OFF - do not use old lighting
-of.options.shaders.OLD_LIGHTING.tooltip.5=Old lighting controls the fixed lighting applied 
-of.options.shaders.OLD_LIGHTING.tooltip.6=by vanilla to the block sides. 
-of.options.shaders.OLD_LIGHTING.tooltip.7=Shader packs which use shadows usually provide 
-of.options.shaders.OLD_LIGHTING.tooltip.8=much better lighting depending on the sun position.
+of.options.shaders.OLD_LIGHTING.tooltip.2=  預設 - 光影包控制
+of.options.shaders.OLD_LIGHTING.tooltip.3=  開啟 - 使用經典光源
+of.options.shaders.OLD_LIGHTING.tooltip.4=  關閉 - 不使用經典光源
+of.options.shaders.OLD_LIGHTING.tooltip.5=使用經典光源時則採用原版的固定照明。
+of.options.shaders.OLD_LIGHTING.tooltip.6=在這種情況下，方塊各面的照明會始終如一。
+of.options.shaders.OLD_LIGHTING.tooltip.7=使用陰影的光影包通常會提供
+of.options.shaders.OLD_LIGHTING.tooltip.8=更好的、取決於太陽位置的光源。
 
-of.options.shaders.DOWNLOAD=Download Shaders
-of.options.shaders.DOWNLOAD.tooltip.1=Download Shaders
+of.options.shaders.DOWNLOAD=光影下載
+of.options.shaders.DOWNLOAD.tooltip.1=下載光影
 of.options.shaders.DOWNLOAD.tooltip.2= 
-of.options.shaders.DOWNLOAD.tooltip.3=Opens the shader packs page in a browser.
-of.options.shaders.DOWNLOAD.tooltip.4=Put the downloaded shader packs in the "Shaders Folder"
-of.options.shaders.DOWNLOAD.tooltip.5=and they will appear in the list of installed shaders.
+of.options.shaders.DOWNLOAD.tooltip.3=在瀏覽器中打開光影包頁面。
+of.options.shaders.DOWNLOAD.tooltip.4=將已下載完成的光影置於「光影資料夾」中，
+of.options.shaders.DOWNLOAD.tooltip.5=它們將出現在已安裝的光影列表裡。
 
-of.options.shaders.SHADER_PACK=光影包文件夾
+of.options.shaders.SHADER_PACK=光影包資料夾
 
 of.options.shaders.shadersFolder=光影資料夾
 of.options.shaders.shaderOptions=光影設定...
@@ -269,7 +269,7 @@ of.options.otherTitle=其他設定
 
 of.options.other.reset=重設視頻設定...
 
-of.shaders.profile=配置文件
+of.shaders.profile=設定檔
 
 # Quality
 
@@ -288,18 +288,18 @@ options.mipmapLevels.tooltip.6=此選項通常不影響性能。
 of.options.MIPMAP_TYPE=多精度材質類型
 of.options.MIPMAP_TYPE.tooltip.1=使遠處的物體更好看的
 of.options.MIPMAP_TYPE.tooltip.2=視覺效果。
-of.options.MIPMAP_TYPE.tooltip.3= 最近 - 粗糙柔和化（最快）
-of.options.MIPMAP_TYPE.tooltip.4= 線性 - 正常柔和化
-of.options.MIPMAP_TYPE.tooltip.5= 雙線性 - 精細柔和化
-of.options.MIPMAP_TYPE.tooltip.6= 三線性 - 最佳柔和化（最慢）
+of.options.MIPMAP_TYPE.tooltip.3=  最近 - 粗糙柔和化（最快）
+of.options.MIPMAP_TYPE.tooltip.4=  線性 - 正常柔和化
+of.options.MIPMAP_TYPE.tooltip.5=  雙線性 - 精細柔和化
+of.options.MIPMAP_TYPE.tooltip.6=  三線性 - 最佳柔和化（最慢）
 
 
 of.options.AA_LEVEL=抗鋸齒
 of.options.AA_LEVEL.tooltip.1=抗鋸齒
 of.options.AA_LEVEL.tooltip.2= 關閉 - （預設）無抗鋸齒（較快）
-of.options.AA_LEVEL.tooltip.3= 2-16 - 對線與邊緣使用抗鋸齒（較慢）
-of.options.AA_LEVEL.tooltip.4=反鋸齒將平滑化鋸齒線
-of.options.AA_LEVEL.tooltip.5=和銳利的色彩過渡。
+of.options.AA_LEVEL.tooltip.3= 2-16 - 對線與邊緣進行抗鋸齒處理（較慢）
+of.options.AA_LEVEL.tooltip.4=抗鋸齒對鋸齒線和鮮明的色彩過渡
+of.options.AA_LEVEL.tooltip.5=進行平滑處理。
 of.options.AA_LEVEL.tooltip.6=啟用它可能會大幅降低 FPS。
 of.options.AA_LEVEL.tooltip.7=並非所有等級都顯卡都支援。
 of.options.AA_LEVEL.tooltip.8=重啟後生效！
@@ -314,15 +314,15 @@ of.options.AF_LEVEL.tooltip.6=啟用它可能會大幅降低 FPS。
 
 of.options.CLEAR_WATER=清澈水體
 of.options.CLEAR_WATER.tooltip.1=清澈水體
-of.options.CLEAR_WATER.tooltip.2= 開啟 - 清澈，透明水體
-of.options.CLEAR_WATER.tooltip.3= 關閉 - 預設水體
+of.options.CLEAR_WATER.tooltip.2=  開啟 - 清澈，透明水體
+of.options.CLEAR_WATER.tooltip.3=  關閉 - 預設水體
 
-of.options.RANDOM_ENTITIES=隨機生物
-of.options.RANDOM_ENTITIES.tooltip.1=隨機生物
-of.options.RANDOM_ENTITIES.tooltip.2=  關閉 - 關閉隨機生物，較快
-of.options.RANDOM_ENTITIES.tooltip.3=  開啟 - 隨機生物，較慢
-of.options.RANDOM_ENTITIES.tooltip.4=遊戲中的生物、怪物材質使用隨機的貼圖。
-of.options.RANDOM_ENTITIES.tooltip.5=需要資源包內有多個生物、怪物貼圖。
+of.options.RANDOM_ENTITIES=隨機實體材質
+of.options.RANDOM_ENTITIES.tooltip.1=隨機實體材質
+of.options.RANDOM_ENTITIES.tooltip.2=  關閉 - 關閉隨機實體材質，較快
+of.options.RANDOM_ENTITIES.tooltip.3=  開啟 - 隨機實體材質，較慢
+of.options.RANDOM_ENTITIES.tooltip.4=遊戲中的實體使用隨機的相應貼圖。
+of.options.RANDOM_ENTITIES.tooltip.5=需要資源包內有多個實體貼圖。
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
@@ -339,8 +339,8 @@ of.options.BETTER_SNOW.tooltip.5=接壤時在其下方顯示雪。
 
 of.options.CUSTOM_FONTS=自定義字體
 of.options.CUSTOM_FONTS.tooltip.1=自定義字體
-of.options.CUSTOM_FONTS.tooltip.2= 開啟 - 使用自定義字體（預設），較慢
-of.options.CUSTOM_FONTS.tooltip.3= 關閉 - 使用預設字體，較快
+of.options.CUSTOM_FONTS.tooltip.2=  開啟 - 使用自定義字體（預設），較慢
+of.options.CUSTOM_FONTS.tooltip.3=  關閉 - 使用預設字體，較快
 of.options.CUSTOM_FONTS.tooltip.4=自定義字體一般由
 of.options.CUSTOM_FONTS.tooltip.5=當前的資源包提供。
 
@@ -359,11 +359,11 @@ of.options.SWAMP_COLORS.tooltip.4=沼澤的顏色會影響草、樹葉、籐蔓�
 
 of.options.SMOOTH_BIOMES=柔和生態域
 of.options.SMOOTH_BIOMES.tooltip.1=柔和生態域
-of.options.SMOOTH_BIOMES.tooltip.2= 開啟 - 柔和化生態域的邊界（預設），較慢
-of.options.SMOOTH_BIOMES.tooltip.3= 關閉 - 不柔和化生態域的邊界，較快
+of.options.SMOOTH_BIOMES.tooltip.2=  開啟 - 柔和化生態域的邊界（預設），較慢
+of.options.SMOOTH_BIOMES.tooltip.3=  關閉 - 不柔和化生態域的邊界，較快
 of.options.SMOOTH_BIOMES.tooltip.4=柔和生態域的邊界平滑取樣於
 of.options.SMOOTH_BIOMES.tooltip.5=附近所有方塊顏色的平均值。
-of.options.SMOOTH_BIOMES.tooltip.6=草、樹葉、籐蔓和水將會受到影響。
+of.options.SMOOTH_BIOMES.tooltip.6=草、樹葉、籐蔓和水皆會受影響。
 
 of.options.CONNECTED_TEXTURES=連接材質
 of.options.CONNECTED_TEXTURES.tooltip.1=連接材質
@@ -379,11 +379,11 @@ of.options.NATURAL_TEXTURES=自然材質
 of.options.NATURAL_TEXTURES.tooltip.1=自然材質
 of.options.NATURAL_TEXTURES.tooltip.2= 關閉 - 關閉自然材質（預設）
 of.options.NATURAL_TEXTURES.tooltip.3= 開啟 - 使用自然材質
-of.options.NATURAL_TEXTURES.tooltip.4=自然材質移除由同一類型的
-of.options.NATURAL_TEXTURES.tooltip.5=方塊重複產生的柵格狀圖案。
+of.options.NATURAL_TEXTURES.tooltip.4=自然材質移除由同一類型的方塊
+of.options.NATURAL_TEXTURES.tooltip.5=重複放置所產生的柵格狀圖案。
 of.options.NATURAL_TEXTURES.tooltip.6=它通過旋轉和翻轉方塊的基礎材質
-of.options.NATURAL_TEXTURES.tooltip.7=來產生材質變體。自然材質的配置和
-of.options.NATURAL_TEXTURES.tooltip.8=材質一般由當前的資源包提供。
+of.options.NATURAL_TEXTURES.tooltip.7=來產生材質變體。自然材質的設定
+of.options.NATURAL_TEXTURES.tooltip.8=和材質一般由當前的資源包提供。
 
 of.options.EMISSIVE_TEXTURES=高光材質
 of.options.EMISSIVE_TEXTURES.tooltip.1=高光材質
@@ -397,23 +397,23 @@ of.options.EMISSIVE_TEXTURES.tooltip.8=資源包提供。
 
 of.options.CUSTOM_SKY=自定義天空
 of.options.CUSTOM_SKY.tooltip.1=自定義天空
-of.options.CUSTOM_SKY.tooltip.2= 開啟 - 自定義天空材質（預設），較慢
-of.options.CUSTOM_SKY.tooltip.3= 關閉 - 原版天空材質，較快
+of.options.CUSTOM_SKY.tooltip.2=  開啟 - 自定義天空材質（預設），較慢
+of.options.CUSTOM_SKY.tooltip.3=  關閉 - 預設天空材質，較快
 of.options.CUSTOM_SKY.tooltip.4=自定義天空材質一般由
 of.options.CUSTOM_SKY.tooltip.5=當前的資源包提供。
 
 of.options.CUSTOM_ITEMS=自定義物品
 of.options.CUSTOM_ITEMS.tooltip.1=自定義物品
-of.options.CUSTOM_ITEMS.tooltip.2= 開啟 - 自定義物品材質（預設），較慢
-of.options.CUSTOM_ITEMS.tooltip.3= 關閉 - 原版物品材質，較快
+of.options.CUSTOM_ITEMS.tooltip.2=  開啟 - 自定義物品材質（預設），較慢
+of.options.CUSTOM_ITEMS.tooltip.3=  關閉 - 原版物品材質，較快
 of.options.CUSTOM_ITEMS.tooltip.4=自定義物品材質一般由
 of.options.CUSTOM_ITEMS.tooltip.5=當前的資源包提供。
 
 of.options.CUSTOM_ENTITY_MODELS=自定義實體模型
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=自定義實體模型
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2= 開啟 - 自定義實體模型（預設），較慢
-of.options.CUSTOM_ENTITY_MODELS.tooltip.3= 關閉 - 原版實體模型，較快
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定義實體模型材質一般由
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  開啟 - 自定義實體模型（預設），較慢
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  關閉 - 原版實體模型，較快
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定義實體模型一般由
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=當前的資源包提供。
 
 of.options.CUSTOM_GUIS=自定義介面
@@ -424,14 +424,14 @@ of.options.CUSTOM_GUIS.tooltip.4=自定義介面一般由當前的資源包提�
 
 # Details
 
-of.options.CLOUDS=雲塊
-of.options.CLOUDS.tooltip.1=雲塊
-of.options.CLOUDS.tooltip.2=  預設 - 以圖像畫質的設定為準
+of.options.CLOUDS=雲
+of.options.CLOUDS.tooltip.1=雲
+of.options.CLOUDS.tooltip.2=  預設 - 以「畫面品質」的設定為準
 of.options.CLOUDS.tooltip.3=  流暢 - 低品質，較快
 of.options.CLOUDS.tooltip.4=  精緻 - 高品質，較慢
 of.options.CLOUDS.tooltip.5=  關閉 - 沒有雲，最快
-of.options.CLOUDS.tooltip.6=流暢的雲塊使用 2D 渲染。
-of.options.CLOUDS.tooltip.7=精緻的雲塊使用 3D 渲染。
+of.options.CLOUDS.tooltip.6=流暢的雲使用 2D 渲染。
+of.options.CLOUDS.tooltip.7=精緻的雲使用 3D 渲染。
 
 of.options.CLOUD_HEIGHT=雲層高度
 of.options.CLOUD_HEIGHT.tooltip.1=雲層高度
@@ -447,19 +447,19 @@ of.options.TREES.tooltip.5=  精緻 - 高品質，較慢
 of.options.TREES.tooltip.6=流暢的樹葉不透明。
 of.options.TREES.tooltip.7=精緻的樹葉透明。
 
-of.options.RAIN=雨 & 雪
-of.options.RAIN.tooltip.1=雨 & 雪
-of.options.RAIN.tooltip.2= 預設 - 以圖像畫質的設定為準
-of.options.RAIN.tooltip.3= 流暢  - 少量的雨／雪，較快
-of.options.RAIN.tooltip.4= 精緻 - 大量的雨／雪，較慢
-of.options.RAIN.tooltip.5= 關閉 - 沒有雨／雪，最快
+of.options.RAIN=雨和雪
+of.options.RAIN.tooltip.1=雨和雪
+of.options.RAIN.tooltip.2=  預設 - 以圖像畫質的設定為準
+of.options.RAIN.tooltip.3=  流暢  - 少量的雨／雪，較快
+of.options.RAIN.tooltip.4=  精緻 - 大量的雨／雪，較慢
+of.options.RAIN.tooltip.5=  關閉 - 沒有雨／雪，最快
 of.options.RAIN.tooltip.6=當雨雪選項為 關閉 時，
 of.options.RAIN.tooltip.7=雨聲仍然存在。
 
 of.options.SKY=天空
 of.options.SKY.tooltip.1=天空
-of.options.SKY.tooltip.2= 開啟 - 天空可見，較慢
-of.options.SKY.tooltip.3= 關閉 - 天空不可見，較快
+of.options.SKY.tooltip.2=  開啟 - 天空可見，較慢
+of.options.SKY.tooltip.3=  關閉 - 天空不可見，較快
 of.options.SKY.tooltip.4=當天空關閉時，月亮和太陽依然可見。
 
 of.options.STARS=星星
@@ -467,15 +467,15 @@ of.options.STARS.tooltip.1=星星
 of.options.STARS.tooltip.2= 開啟 - 星星可見，較慢
 of.options.STARS.tooltip.3= 關閉 - 星星不可見，較快
 
-of.options.SUN_MOON=太陽 & 月亮
-of.options.SUN_MOON.tooltip.1=太陽 & 月亮
+of.options.SUN_MOON=太陽和月亮
+of.options.SUN_MOON.tooltip.1=太陽和月亮
 of.options.SUN_MOON.tooltip.2= 開啟 - 太陽和月亮可見（預設）
 of.options.SUN_MOON.tooltip.3= 關閉 - 太陽和月亮不可見（較快）
 
 of.options.SHOW_CAPES=顯示披風
 of.options.SHOW_CAPES.tooltip.1=顯示披風
-of.options.SHOW_CAPES.tooltip.2= 開啟 - 顯示玩家披風（預設）
-of.options.SHOW_CAPES.tooltip.3= 關閉 - 不顯示玩家披風
+of.options.SHOW_CAPES.tooltip.2=  開啟 - 顯示玩家披風（預設）
+of.options.SHOW_CAPES.tooltip.3=  關閉 - 不顯示玩家披風
 
 of.options.TRANSLUCENT_BLOCKS=半透明方塊
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明方塊
@@ -487,66 +487,66 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.6=時或與空氣相隔時的顏色混和�
 
 of.options.HELD_ITEM_TOOLTIPS=持有物資訊顯示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持有物資訊顯示
-of.options.HELD_ITEM_TOOLTIPS.tooltip.2= 開啟 - 顯示持有物資訊（預設）
-of.options.HELD_ITEM_TOOLTIPS.tooltip.3= 關閉 - 隱藏持有物資訊
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  開啟 - 顯示持有物資訊（預設）
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  關閉 - 隱藏持有物資訊
 
 of.options.ADVANCED_TOOLTIPS=高級資訊提示
 of.options.ADVANCED_TOOLTIPS.tooltip.1=高級資訊提示
-of.options.ADVANCED_TOOLTIPS.tooltip.2= 開啟 - 顯示高級資訊提示
-of.options.ADVANCED_TOOLTIPS.tooltip.3= 關閉 - 隱藏高級資訊提示（預設）
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  開啟 - 顯示高級資訊提示
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  關閉 - 隱藏高級資訊提示（預設）
 of.options.ADVANCED_TOOLTIPS.tooltip.4=高級資訊提示顯示物品
 of.options.ADVANCED_TOOLTIPS.tooltip.5=（ID、耐久度）和光影設定資料
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id，source，default value)。
 
 of.options.DROPPED_ITEMS=掉落物品
 of.options.DROPPED_ITEMS.tooltip.1=掉落物品
-of.options.DROPPED_ITEMS.tooltip.2= 預設 - 以圖像畫質的設定為準
-of.options.DROPPED_ITEMS.tooltip.3= 流暢 - 2D掉落物品，較快
-of.options.DROPPED_ITEMS.tooltip.4= 精緻 - 3D掉落物品，較慢
+of.options.DROPPED_ITEMS.tooltip.2=  預設 - 以圖像畫質的設定為準
+of.options.DROPPED_ITEMS.tooltip.3=  流暢 - 2D掉落物品，較快
+of.options.DROPPED_ITEMS.tooltip.4=  精緻 - 3D掉落物品，較慢
 
 options.entityShadows.tooltip.1=實體陰影
-options.entityShadows.tooltip.2= 開啟 - 顯示實體陰影
-options.entityShadows.tooltip.3= 關閉 - 隱藏實體陰影
+options.entityShadows.tooltip.2=  開啟 - 顯示實體陰影
+options.entityShadows.tooltip.3=  關閉 - 隱藏實體陰影
 
 of.options.VIGNETTE=暈影
 of.options.VIGNETTE.tooltip.1=螢幕四角輕微變暗的視覺效果
-of.options.VIGNETTE.tooltip.2= 預設 - 以圖像畫質的設定為準（預設）
-of.options.VIGNETTE.tooltip.3= 流暢 - 暈影關閉（較快）
-of.options.VIGNETTE.tooltip.4= 精緻 - 暈影開啟（較慢）
+of.options.VIGNETTE.tooltip.2=  預設 - 以圖像畫質的設定為準（預設）
+of.options.VIGNETTE.tooltip.3=  流暢 - 暈影關閉（較快）
+of.options.VIGNETTE.tooltip.4=  精緻 - 暈影開啟（較慢）
 of.options.VIGNETTE.tooltip.5=暈影可能對 FPS 有明顯影響，
 of.options.VIGNETTE.tooltip.6=尤其是全螢幕遊戲時
 of.options.VIGNETTE.tooltip.7=暈影的效果非常細微
-of.options.VIGNETTE.tooltip.8=且可以被安全地關閉。
+of.options.VIGNETTE.tooltip.8=並可以安全地關閉。
 
 of.options.DYNAMIC_FOV=動態視場
 of.options.DYNAMIC_FOV.tooltip.1=動態視場
-of.options.DYNAMIC_FOV.tooltip.2= 開啟 - 啟用動態視場（預設）
-of.options.DYNAMIC_FOV.tooltip.3= 關閉 - 禁用動態視場
-of.options.DYNAMIC_FOV.tooltip.4=當正在飛行、疾跑或
-of.options.DYNAMIC_FOV.tooltip.5=拉弓時改變視場。
+of.options.DYNAMIC_FOV.tooltip.2=  開啟 - 啟用動態視場（預設）
+of.options.DYNAMIC_FOV.tooltip.3=  關閉 - 停用動態視場
+of.options.DYNAMIC_FOV.tooltip.4=當飛行、疾跑或拉弓
+of.options.DYNAMIC_FOV.tooltip.5=時改變視場。
 
 of.options.DYNAMIC_LIGHTS=動態光源
 of.options.DYNAMIC_LIGHTS.tooltip.1=動態光源
-of.options.DYNAMIC_LIGHTS.tooltip.2= 關閉 - 無動態光源（預設）
-of.options.DYNAMIC_LIGHTS.tooltip.3= 流暢 - 較流暢的動態光源（每500ms更新一次）
-of.options.DYNAMIC_LIGHTS.tooltip.4= 精緻 - 高品質的動態光源（即時更新）
+of.options.DYNAMIC_LIGHTS.tooltip.2=  關閉 - 無動態光源（預設）
+of.options.DYNAMIC_LIGHTS.tooltip.3=  流暢 - 較流暢的動態光源（每500ms更新一次）
+of.options.DYNAMIC_LIGHTS.tooltip.4=  精緻 - 高品質的動態光源（即時更新）
 of.options.DYNAMIC_LIGHTS.tooltip.5=允許發光的物品（火把、螢石等）
 of.options.DYNAMIC_LIGHTS.tooltip.6=當被玩家左右手持握、裝備或
-of.options.DYNAMIC_LIGHTS.tooltip.7=成爲掉落物時照亮周圍的一切。
+of.options.DYNAMIC_LIGHTS.tooltip.7=成爲掉落物時照亮周圍。
 
 # Performance
 
 of.options.SMOOTH_FPS=柔和化 FPS
 of.options.SMOOTH_FPS.tooltip.1=通過清除顯示卡緩衝區來穩定 FPS
-of.options.SMOOTH_FPS.tooltip.2= 關閉 - 不穩定，FPS 可能波動
-of.options.SMOOTH_FPS.tooltip.3= 開啟 - FPS 穩定
+of.options.SMOOTH_FPS.tooltip.2=  關閉 - 不穩定，FPS 可能波動
+of.options.SMOOTH_FPS.tooltip.3=  開啟 - FPS 穩定
 of.options.SMOOTH_FPS.tooltip.4=此選項依賴於顯卡驅動
 of.options.SMOOTH_FPS.tooltip.5=不一定有明顯效果。
 
 of.options.SMOOTH_WORLD=柔和化世界
 of.options.SMOOTH_WORLD.tooltip.1=移除內部伺服器造成的數據延遲。
-of.options.SMOOTH_WORLD.tooltip.2= 關閉 - 不穩定，FPS 可能波動
-of.options.SMOOTH_WORLD.tooltip.3= 開啟 - FPS穩定
+of.options.SMOOTH_WORLD.tooltip.2=  關閉 - 不穩定，FPS 可能波動
+of.options.SMOOTH_WORLD.tooltip.3=  開啟 - FPS 穩定
 of.options.SMOOTH_WORLD.tooltip.4=分擔內部伺服器負載來穩定 FPS。
 of.options.SMOOTH_WORLD.tooltip.5=只在本地世界（單人遊戲）有效。
 
@@ -583,17 +583,17 @@ of.options.LAZY_CHUNK_LOADING=平緩區塊更新
 of.options.LAZY_CHUNK_LOADING.tooltip.1=平緩區塊更新
 of.options.LAZY_CHUNK_LOADING.tooltip.2= 關閉 - 預設的伺服器區塊載入
 of.options.LAZY_CHUNK_LOADING.tooltip.3= 開啟 - 平緩伺服器區塊載入（更柔和）
-of.options.LAZY_CHUNK_LOADING.tooltip.4=藉由將區塊分佈在多個ticks中讀取
+of.options.LAZY_CHUNK_LOADING.tooltip.4=藉由將區塊分佈在多個「遊戲刻」中讀取
 of.options.LAZY_CHUNK_LOADING.tooltip.5=來柔和化伺服器整體區塊載入。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=如果世界無法正確的載入，請把它關閉。
 of.options.LAZY_CHUNK_LOADING.tooltip.7=僅適用於單玩家的本地世界。
 
-of.options.RENDER_REGIONS=Render Regions
-of.options.RENDER_REGIONS.tooltip.1=Render Regions
-of.options.RENDER_REGIONS.tooltip.2= OFF - (default) do not use render regions
-of.options.RENDER_REGIONS.tooltip.3= ON - use render regions
-of.options.RENDER_REGIONS.tooltip.4=Render regions allow faster terrain rendering at higher
-of.options.RENDER_REGIONS.tooltip.5=render distances. More effective when VBOs are enabled.
+of.options.RENDER_REGIONS=區域渲染
+of.options.RENDER_REGIONS.tooltip.1=區域渲染
+of.options.RENDER_REGIONS.tooltip.2= 關閉 - （預設）不使用區域渲染
+of.options.RENDER_REGIONS.tooltip.3= 開啟 - 使用區域渲染
+of.options.RENDER_REGIONS.tooltip.4=區域渲染可使遠處的地形渲染得更快。
+of.options.RENDER_REGIONS.tooltip.5=當啟用頂點緩衝區對像（VBOs）時此選項將更有效。
 
 # Animations
 
@@ -621,8 +621,8 @@ of.options.FIREWORK_PARTICLES=煙火粒子
 
 # Other
 
-of.options.LAGOMETER=Lagometer
-of.options.LAGOMETER.tooltip.1=Shows the lagometer on the debug screen (F3).
+of.options.LAGOMETER=性能資訊
+of.options.LAGOMETER.tooltip.1=在除錯畫面(F3)中顯示性能資訊。
 of.options.LAGOMETER.tooltip.2=* 橙 - Memory garbage collection
 of.options.LAGOMETER.tooltip.3=* 青 - Tick
 of.options.LAGOMETER.tooltip.4=* 藍 - Scheduled executables
@@ -633,15 +633,15 @@ of.options.LAGOMETER.tooltip.8=* 綠 - Render terrain
 
 of.options.PROFILER=偵錯分析器
 of.options.PROFILER.tooltip.1=偵錯分析器
-of.options.PROFILER.tooltip.2= 開啟 - 偵錯分析器啟用，較慢
-of.options.PROFILER.tooltip.3= 關閉 - 偵錯分析器禁用，較快
+of.options.PROFILER.tooltip.2=  開啟 - 啟用偵錯分析器，較慢
+of.options.PROFILER.tooltip.3=  關閉 - 停用偵錯分析器，較快
 of.options.PROFILER.tooltip.4=偵錯分析器在偵錯界面(F3)開啟時
 of.options.PROFILER.tooltip.5=收集並且顯示偵錯資訊。
 
 of.options.WEATHER=天氣
 of.options.WEATHER.tooltip.1=天氣
-of.options.WEATHER.tooltip.2= 開啟 - 開啟天氣，較慢
-of.options.WEATHER.tooltip.3= 關閉 - 關閉天氣，較快
+of.options.WEATHER.tooltip.2=  開啟 - 開啟天氣，較慢
+of.options.WEATHER.tooltip.3=  關閉 - 關閉天氣，較快
 of.options.WEATHER.tooltip.4=天氣選項影響雨，雪和雷電。
 of.options.WEATHER.tooltip.5=天氣選項僅在本地遊戲中生效。
 
@@ -657,23 +657,23 @@ of.options.TIME.tooltip.5=時間設定只在創造模式下
 of.options.TIME.tooltip.6=且為本地遊戲時有效。
 
 options.fullscreen.tooltip.1=全螢幕
-options.fullscreen.tooltip.2= 開啟 - 使用全螢幕模式
-options.fullscreen.tooltip.3= 關閉 - 使用視窗模式
+options.fullscreen.tooltip.2=  開啟 - 使用全螢幕模式
+options.fullscreen.tooltip.3=  關閉 - 使用視窗模式
 options.fullscreen.tooltip.4=全螢幕模式可能比視窗模式
 options.fullscreen.tooltip.5=更快或更慢，取決於顯卡。
 
 of.options.FULLSCREEN_MODE=全螢幕模式
 of.options.FULLSCREEN_MODE.tooltip.1=全螢幕模式
-of.options.FULLSCREEN_MODE.tooltip.2= 預設 - 使用桌面解析度，較慢
-of.options.FULLSCREEN_MODE.tooltip.3= 自定義 - 使用自定義螢幕解析度，可能會較快
+of.options.FULLSCREEN_MODE.tooltip.2=  預設 - 使用桌面解析度，較慢
+of.options.FULLSCREEN_MODE.tooltip.3=  自定義 - 使用自定義螢幕解析度，可能會較快
 of.options.FULLSCREEN_MODE.tooltip.4=此選項只在全螢幕模式下有效(F11)。
 of.options.FULLSCREEN_MODE.tooltip.5=較低的解析度通常會較快。
 
 of.options.SHOW_FPS=顯示 FPS
 of.options.SHOW_FPS.tooltip.1=顯示精簡的 FPS 和渲染資訊
-of.options.SHOW_FPS.tooltip.2= C: - 區塊渲染器
-of.options.SHOW_FPS.tooltip.3= E: - 一般實體 + 方塊實體
-of.options.SHOW_FPS.tooltip.4= U: - 區塊更新
+of.options.SHOW_FPS.tooltip.2=  C：- 區塊渲染器
+of.options.SHOW_FPS.tooltip.3=  E：- 一般實體 + 方塊實體
+of.options.SHOW_FPS.tooltip.4=  U：- 區塊更新
 of.options.SHOW_FPS.tooltip.5=只有偵錯畫面隱藏時
 of.options.SHOW_FPS.tooltip.6=才會顯示精簡 FPS 資訊。
 
@@ -689,8 +689,8 @@ of.options.AUTOSAVE_TICKS.tooltip.3=自動保存會導致卡頓。
 
 of.options.SCREENSHOT_SIZE=截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.1=截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.2= 預設 - 預設的截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.3= 2x-4x - 自定義截圖尺寸
+of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設的截圖尺寸
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自定義截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體。
 of.options.SCREENSHOT_SIZE.tooltip.5=與快速渲染及抗鋸齒不相容。
 of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡幀緩衝區支持。
