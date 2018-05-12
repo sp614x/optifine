@@ -150,7 +150,7 @@ of.options.CHUNK_LOADING.tooltip.4= 多核心 - 穩定 FPS，3倍的世界載入
 of.options.CHUNK_LOADING.tooltip.5=柔和化和多核心可消除由區塊
 of.options.CHUNK_LOADING.tooltip.6=載入引起的延遲和卡頓。
 of.options.CHUNK_LOADING.tooltip.7=多核心可以令世界載入速度提升3倍
-of.options.CHUNK_LOADING.tooltip.8=並通過使用多個CPU核心來提升 FPS。
+of.options.CHUNK_LOADING.tooltip.8=並通過使用多個 CPU 核心來提升 FPS。
 of.options.chunkLoading.smooth=柔和
 of.options.chunkLoading.multiCore=多核心
 
@@ -248,7 +248,7 @@ of.options.shaders.DOWNLOAD.tooltip.5=and they will appear in the list of instal
 of.options.shaders.SHADER_PACK=光影包文件夾
 
 of.options.shaders.shadersFolder=光影資料夾
-of.options.shaders.shaderOptions=光影設定…
+of.options.shaders.shaderOptions=光影設定...
 
 of.options.shaderOptionsTitle=光影設定
 
