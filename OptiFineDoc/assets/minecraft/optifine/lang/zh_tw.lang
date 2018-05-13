@@ -74,8 +74,8 @@ options.renderDistance.tooltip.2= 2 最近 - 32m（最快）
 options.renderDistance.tooltip.3= 8 中等 - 128m（正常）
 options.renderDistance.tooltip.4= 16 遠 - 256m（較慢）
 options.renderDistance.tooltip.5= 32 超遠 - 512m（最慢！）非常消耗資源！
-options.renderDistance.tooltip.6= 48 病態 - 768m，需要分配2G記憶體空間
-options.renderDistance.tooltip.7= 64 荒唐 - 1024m，需要分配3G的記憶體空間
+options.renderDistance.tooltip.6= 48 病態 - 768m，需要分配 2G 的記憶體
+options.renderDistance.tooltip.7= 64 荒唐 - 1024m，需要分配 3G 的記憶體
 options.renderDistance.tooltip.8= 16 以上的視野值只在本機世界有效。
 
 options.ao.tooltip.1=柔和光源
@@ -107,7 +107,7 @@ options.guiScale.tooltip.4=  4x-10x - 僅適用於 4K 解析度
 options.guiScale.tooltip.5=奇數值的放大倍數（1x，3x，5x...等）與 Unicode 不相容。
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
 
-options.vbo.tooltip.1=啟用緩衝區頂點物件(VBO)
+options.vbo.tooltip.1=啟用緩衝區頂點物件(VBOs)
 options.vbo.tooltip.2=使用一種常見的替代渲染模型
 options.vbo.tooltip.3=比預設渲染快(5-10%%)。
 
@@ -118,7 +118,7 @@ options.gamma.tooltip.4=  明亮 - 最大亮度
 options.gamma.tooltip.5=此選項不會改變
 options.gamma.tooltip.6=全黑物體的亮度。
 
-options.anaglyph.tooltip.1=3D立體
+options.anaglyph.tooltip.1=3D 立體
 options.anaglyph.tooltip.2=給予兩眼不同的顏色以
 options.anaglyph.tooltip.3=達成 3D 立體的效果。
 options.anaglyph.tooltip.4=需要使用紅藍眼鏡進行觀看。
@@ -133,8 +133,8 @@ of.options.FOG_FANCY.tooltip.1=迷霧類型
 of.options.FOG_FANCY.tooltip.2=  流暢 - 較流暢的迷霧
 of.options.FOG_FANCY.tooltip.3=  精緻 - 較慢的迷霧，視覺效果較佳
 of.options.FOG_FANCY.tooltip.4=  關閉 - 無迷霧，最快
-of.options.FOG_FANCY.tooltip.5=精緻的迷霧只有當
-of.options.FOG_FANCY.tooltip.6=顯卡支援時才可使用。
+of.options.FOG_FANCY.tooltip.5=精緻的迷霧只有當顯卡
+of.options.FOG_FANCY.tooltip.6=支援時才可使用。
 
 of.options.FOG_START=迷霧出現距離
 of.options.FOG_START.tooltip.1=迷霧出現距離
@@ -278,16 +278,16 @@ of.options.mipmap.linear=線性
 of.options.mipmap.nearest=最近
 of.options.mipmap.trilinear=三線性
 
-options.mipmapLevels.tooltip.1=使遠處的物體更好看的
-options.mipmapLevels.tooltip.2=視覺效果。
+options.mipmapLevels.tooltip.1=將材質柔和化以使遠處的物體
+options.mipmapLevels.tooltip.2=更好看的視覺效果。
 options.mipmapLevels.tooltip.3=  關閉 - 無柔和化
 options.mipmapLevels.tooltip.4=  1 - 最小柔和化
 options.mipmapLevels.tooltip.5=  4 - 最大柔和化
 options.mipmapLevels.tooltip.6=此選項通常不影響性能。
 
 of.options.MIPMAP_TYPE=多精度材質類型
-of.options.MIPMAP_TYPE.tooltip.1=使遠處的物體更好看的
-of.options.MIPMAP_TYPE.tooltip.2=視覺效果。
+of.options.MIPMAP_TYPE.tooltip.1=將材質柔和化以使遠處的物體
+of.options.MIPMAP_TYPE.tooltip.2=更好看的視覺效果。
 of.options.MIPMAP_TYPE.tooltip.3=  最近 - 粗糙柔和化（最快）
 of.options.MIPMAP_TYPE.tooltip.4=  線性 - 正常柔和化
 of.options.MIPMAP_TYPE.tooltip.5=  雙線性 - 精細柔和化
@@ -367,12 +367,12 @@ of.options.SMOOTH_BIOMES.tooltip.6=草、樹葉、籐蔓和水皆會受影響。
 
 of.options.CONNECTED_TEXTURES=連接材質
 of.options.CONNECTED_TEXTURES.tooltip.1=連接材質
-of.options.CONNECTED_TEXTURES.tooltip.2=  關閉 - 關閉連續材質（預設）
-of.options.CONNECTED_TEXTURES.tooltip.3=  流暢 - 快速處理連續材質
-of.options.CONNECTED_TEXTURES.tooltip.4=  精緻 - 精細處理連續材質
-of.options.CONNECTED_TEXTURES.tooltip.5=連接材質為玻璃、沙石和書架增加了連續材質，
-of.options.CONNECTED_TEXTURES.tooltip.6=當它們互相放在一起時會將材質連接為一體。
-of.options.CONNECTED_TEXTURES.tooltip.7=連續材質一般由當前的
+of.options.CONNECTED_TEXTURES.tooltip.2=  關閉 - 關閉連接材質（預設）
+of.options.CONNECTED_TEXTURES.tooltip.3=  流暢 - 快速處理連接材質
+of.options.CONNECTED_TEXTURES.tooltip.4=  精緻 - 精細處理連接材質
+of.options.CONNECTED_TEXTURES.tooltip.5=連接材質為玻璃、沙石和書架增加了連接材質，
+of.options.CONNECTED_TEXTURES.tooltip.6=當它們互相放在一起時會將材質接為一體。
+of.options.CONNECTED_TEXTURES.tooltip.7=連接材質一般由當前的
 of.options.CONNECTED_TEXTURES.tooltip.8=資源包提供。
 
 of.options.NATURAL_TEXTURES=自然材質
