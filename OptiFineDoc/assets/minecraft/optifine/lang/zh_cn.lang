@@ -26,7 +26,7 @@ of.message.af.shaders2=请关闭光影以启用这个选项。
 of.message.fr.shaders1=快速渲染与光影不兼容。
 of.message.fr.shaders2=请关闭光影以启用这个选项。
 
-of.message.an.shaders1=红蓝3D模式与光影不兼容。
+of.message.an.shaders1=3D效果与光影不兼容。
 of.message.an.shaders2=请关闭光影以启用这个选项。
 
 of.message.shaders.aa1=光影与抗锯齿不兼容。
@@ -38,8 +38,8 @@ of.message.shaders.af2=请将 品质 -> 各向异性过滤 选项设置为 关�
 of.message.shaders.fr1=光影与快速渲染不兼容。
 of.message.shaders.fr2=请将 性能 -> 快速渲染 选项设置为 关闭。
 
-of.message.shaders.an1=光影与红蓝3D模式不兼容。
-of.message.shaders.an2=请将 其他 -> 红蓝3D模式 选项设置为 关闭。
+of.message.shaders.an1=光影与3D效果不兼容。
+of.message.shaders.an2=请将 其他 -> 3D效果 选项设置为 关闭。
 
 of.message.shaders.nv1=此光影需要更新的OptiFine版本：%s
 of.message.shaders.nv2=确认要继续吗？
@@ -119,7 +119,7 @@ options.gamma.tooltip.4=  明亮 - 最大亮度
 options.gamma.tooltip.5=此选项不会改变
 options.gamma.tooltip.6=完全黑色的物体的亮度。
 
-options.anaglyph.tooltip.1=红蓝3D模式
+options.anaglyph.tooltip.1=红蓝3D效果
 options.anaglyph.tooltip.2=通过为两只眼睛分配不同颜色
 options.anaglyph.tooltip.3=来实现3D立体效果。
 options.anaglyph.tooltip.4=需要使用红蓝眼镜正常观看。
