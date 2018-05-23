@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 30-Apr-2018
+#	Jerozgen  01-Mar-2016 — 23-May-2018
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -50,6 +50,10 @@ of.message.shaders.loading=Загрузка шейдеров: %s
 of.message.other.reset=Сбросить все настройки графики к первоначальным значениям?
 
 of.message.loadingVisibleChunks=Загрузка видимых чанков
+
+# Настройка внешнего вида
+
+of.options.skinCustomisation.ofCape=Плащ OptiFine...
 
 # Настройки графики
 
@@ -699,3 +703,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x–4x - множитель разреш
 of.options.SCREENSHOT_SIZE.tooltip.4=Чем больше значение, тем больше потребуется памяти.
 of.options.SCREENSHOT_SIZE.tooltip.5=Необходима поддержка кадрового буфера ГП.
 of.options.SCREENSHOT_SIZE.tooltip.6=Не совместимо с быстрым рендером и антиалиасингом.
+
+of.options.SHOW_GL_ERRORS=Показывать ошибки GL
+of.options.SHOW_GL_ERRORS.tooltip.1=Отображение ошибок OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.2=Отправляет информацию об ошибках OpenGL в чат.
+of.options.SHOW_GL_ERRORS.tooltip.3=Отключите, только если ошибка известна и её нельзя
+of.options.SHOW_GL_ERRORS.tooltip.4=исправить.
+of.options.SHOW_GL_ERRORS.tooltip.5=В отключённом состоянии ошибки по-прежнему будут
+of.options.SHOW_GL_ERRORS.tooltip.6=записываться в журнал и могут значительно понижать FPS.
