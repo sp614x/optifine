@@ -46,6 +46,10 @@ of.message.shaders.loading=Načítám stíny: %s
 of.message.other.reset=Vyresetovat všechno nastavení videa (grafiky) na výchozí hodnoty?
 
 of.message.loadingVisibleChunks=Načítám vididetlné chunky
+
+# Úprava skinu
+
+of.options.skinCustomisation.ofCape=OptiFine kápě...
  
 # Nastavení Grafiky
 
@@ -688,3 +692,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastním velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.4=Focení větších screenshotů může vyžadovat více RAM.
 of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatinilní s rychlým renderem a antialiasingem.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vyžaduje podporu GPU framebufferu.
+
+of.options.SHOW_GL_ERRORS=Zobrazit GL chyby
+of.options.SHOW_GL_ERRORS.tooltip.1=Zobrazit OpenGL chyby
+of.options.SHOW_GL_ERRORS.tooltip.2=Když zapnuto, OpenGL chyby se budou objevovat v chatu.
+of.options.SHOW_GL_ERRORS.tooltip.3=Vypni jen když je chyba známa a víš,
+of.options.SHOW_GL_ERRORS.tooltip.4=že se nedá opravit.
+of.options.SHOW_GL_ERRORS.tooltip.5=Když vypnuto, chyby jsou stále logovány v
+of.options.SHOW_GL_ERRORS.tooltip.6=error logu a mohou způsobit značný drop v FPS.
