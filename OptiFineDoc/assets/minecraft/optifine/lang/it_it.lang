@@ -48,7 +48,7 @@ options.graphics.tooltip.7=angoli (o bordi) della schermata di gioco.
 
 of.options.renderDistance.extreme=Estrema
 
-options.renderDistance.tooltip.1=Distanza dei chuncks renderizzati
+options.renderDistance.tooltip.1=Distanza Chunk renderizzati
 options.renderDistance.tooltip.2=  2 Minima - 32m (incredibilemente veloce)
 options.renderDistance.tooltip.3=  4 Corta - 64m (veloce)
 options.renderDistance.tooltip.4=  8 Normale - 128m
@@ -117,22 +117,22 @@ of.options.FOG_START.tooltip.2=  0.2 - la nebbia inizia vicina al giocatore
 of.options.FOG_START.tooltip.3=  0.8 - la nebbia inizia lontana dal giocatore
 of.options.FOG_START.tooltip.4=Normalmente questa opzione non affligge le prestazioni.
 
-of.options.CHUNK_LOADING=Caricamento dei chuncks
-of.options.CHUNK_LOADING.tooltip.1=Velocità del caricamento dei chuncks
-of.options.CHUNK_LOADING.tooltip.2=  Per default - FPS instabili al caricamento dei chuncks
+of.options.CHUNK_LOADING=Caricamento dei Chunk
+of.options.CHUNK_LOADING.tooltip.1=Velocità del caricamento dei Chunk
+of.options.CHUNK_LOADING.tooltip.2=  Per default - FPS instabili al caricamento dei Chunk
 of.options.CHUNK_LOADING.tooltip.3=  Morbidi - FPS stabili
 of.options.CHUNK_LOADING.tooltip.4=  Multinucleo - FPS stabili e una velocità tre volte superiore
 of.options.CHUNK_LOADING.tooltip.5=Le opzioni "Morbidi" e "Multinucleo" eliminano gli intoppi nella
-of.options.CHUNK_LOADING.tooltip.6=lentezza causata nel carimento dei chuncks.
+of.options.CHUNK_LOADING.tooltip.6=lentezza causata nel carimento dei Chunk.
 of.options.CHUNK_LOADING.tooltip.7=Il Multinucleo può accelerare il carico fino a tre volte e migliorare
 of.options.CHUNK_LOADING.tooltip.8=gli FPS e usare un secondo nucleo della CPU.
-of.options.chunkLoading.smooth=Morbido
-of.options.chunkLoading.multiCore=Multinucleo
+of.options.ChunkLoading.smooth=Morbido
+of.options.ChunkLoading.multiCore=Multinucleo
 
 of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
 
-of.options.shaders.packNone=(SENZA SHADERS)
+of.options.shaders.packNone=(NO SHADERS)
 of.options.shaders.packDefault=(SHADERS INTERNE)
 
 of.options.shaders.ANTIALIASING=Antialiasing
@@ -163,7 +163,7 @@ of.options.performanceTitle=Prestazioni
 of.options.animations=Animazioni...
 of.options.animationsTitle=Attivare e disattivare le animazioni
 
-of.options.other=Opzioni varie...
+of.options.other=Varie...
 of.options.otherTitle=Opzioni varie
 
 of.options.other.reset=Ripristinare tutte le impostazioni...
@@ -190,7 +190,7 @@ of.options.MIPMAP_TYPE=Tipo di mipmap
 of.options.MIPMAP_TYPE.tooltip.1=Effetto visivo che consente di visualizzare oggetti distanti
 of.options.MIPMAP_TYPE.tooltip.2=migliori lisciando i dettagli della sua texture
 of.options.MIPMAP_TYPE.tooltip.3= 
-of.options.MIPMAP_TYPE.tooltip.4=  Vicino - morbidezza brutta (più veloce)
+of.options.MIPMAP_TYPE.tooltip.4=  Vicino - morbidezza scarsa (più veloce)
 of.options.MIPMAP_TYPE.tooltip.5=  Lineare - morbidezza normale
 of.options.MIPMAP_TYPE.tooltip.6=  Bilineare - morbidezza sottile
 of.options.MIPMAP_TYPE.tooltip.7=  Trilineare - morbidezza molto sottile (più lenta)
@@ -203,14 +203,15 @@ of.options.AA_LEVEL.tooltip.3= 2-16 - livello di antialiasing morbido (più lent
 of.options.AA_LEVEL.tooltip.4= 
 of.options.AA_LEVEL.tooltip.5= Ammorbidisce i denti di sega e migliora la nitidezza.
 of.options.AA_LEVEL.tooltip.6= Gli FPS può diminuire considerevolmente quando attivato.
-of.options.AA_LEVEL.tooltip.7=Alcune schede grafiche non supportano tutti i livelli.
+of.options.AA_LEVEL.tooltip.7= Alcune schede grafiche non supportano tutti i livelli.
 of.options.AA_LEVEL.tooltip.8= La modifica verrà applicata per RIAVVIARE il gioco!
 
 of.options.AF_LEVEL=Anisotropico
 of.options.AF_LEVEL.tooltip.1=Anisotropico filtrato
-of.options.AF_LEVEL.tooltip.2= No - (Default anisotropico) dettaglio texture Normale (veloce)
+of.options.AF_LEVEL.tooltip.2= No - (Default) Dettaglio texture Normale (veloce)
 of.options.AF_LEVEL.tooltip.3= 2-16 - raffinare texture utilizzando mipmap (più lento)
 of.options.AF_LEVEL.tooltip.4= 
+of.options.AF_LEVEL.tooltip.5= 
 of.options.AF_LEVEL.tooltip.6=Questo filtro consente di recuperare i dettagli utilizzando mipmap
 of.options.AF_LEVEL.tooltip.7=Gli FPS possono diminuire considerevolmente quando attivati.
 
@@ -293,6 +294,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=Si usano varianti ruotate della texture
 of.options.NATURAL_TEXTURES.tooltip.7=base del blocco.
 of.options.NATURAL_TEXTURES.tooltip.8=Non tutti i pacchetti di risorse supportano questa azione.
 
+of.options.EMISSIVE_TEXTURES=Texture emissive
+of.options.EMISSIVE_TEXTURES.tooltip.1=Texture emissive
+of.options.EMISSIVE_TEXTURES.tooltip.2=  OFF - no texture emissive (default)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  ON - utilizza texture emissive
+of.options.EMISSIVE_TEXTURES.tooltip.4=Le texture emissive sono renderizzate come copertura
+of.options.EMISSIVE_TEXTURES.tooltip.5=con massima luminosità. Possono essere usate come
+of.options.EMISSIVE_TEXTURES.tooltip.6=parti di luce della texture base.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Le texture emissive sono supportate dal
+of.options.EMISSIVE_TEXTURES.tooltip.8=pacchetto di risorse attuale.
+
 of.options.CUSTOM_SKY=Cielo personalizzato
 of.options.CUSTOM_SKY.tooltip.1=Texture personalizzata
 of.options.CUSTOM_SKY.tooltip.2=  Sì - cielo personalizzato, più lento
@@ -313,6 +324,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Sì - variare modelli entità (defau
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  No - modelli uso di default, più veloce
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=Non tutti i pacchetti di risorse supportano questa azione.
+
+of.options.CUSTOM_GUIS=GUI personalizzate
+of.options.CUSTOM_GUIS.tooltip.1=GUI personalizzate
+of.options.CUSTOM_GUIS.tooltip.2=  ON - GUI personalizzate (default), più lento
+of.options.CUSTOM_GUIS.tooltip.3=  OFF - GUI di default, più veloce
+of.options.CUSTOM_GUIS.tooltip.4=Le GUI personalizzate sono supportate dall'attuale pacchetto di risorse.
 
 # Details
 
@@ -400,7 +417,7 @@ options.entityShadows.tooltip.2=  Sì - mostrare ombre alle enittà
 options.entityShadows.tooltip.3=  No - non mostrare ombre alle entità
 
 of.options.VIGNETTE=Bordi
-of.options.VIGNETTE.tooltip.1=(Effetto proiettile) scurisce gli angoli dello schermo
+of.options.VIGNETTE.tooltip.1=Scurisce gli angoli dello schermo
 of.options.VIGNETTE.tooltip.2=  Predefinito - dipende dalle impostazioni della qualità grafica
 of.options.VIGNETTE.tooltip.3=  Effetto vignetta off (più veloce) - Veloce
 of.options.VIGNETTE.tooltip.4=  Dettagliata - effetto vignetta (più lento)
@@ -413,12 +430,12 @@ of.options.DYNAMIC_FOV=Visione campo dinamico
 of.options.DYNAMIC_FOV.tooltip.1=Visione campo dinamico
 of.options.DYNAMIC_FOV.tooltip.2=  Sì - attivarlo (per default)
 of.options.DYNAMIC_FOV.tooltip.3=  No - disattivarlo
-of.options.DYNAMIC_FOV.tooltip.4=Cambiare la visione del campo dinamio (FOV), quando si corre, cammina e si usa
-of.options.DYNAMIC_FOV.tooltip.5=un arco.
+of.options.DYNAMIC_FOV.tooltip.4=Cambiare la visione del campo dinamio (FOV), quando si corre,
+of.options.DYNAMIC_FOV.tooltip.5=cammina e si usa un arco.
 
 of.options.DYNAMIC_LIGHTS=Iluminazione dinamica
-of.options.DYNAMIC_LIGHTS.tooltip.1=Iluminazione dinamica
-of.options.DYNAMIC_LIGHTS.tooltip.2=  No - senza illuminazione d. (per default)
+of.options.DYNAMIC_LIGHTS.tooltip.1=Iluminazione din.
+of.options.DYNAMIC_LIGHTS.tooltip.2=  No - no illuminazione d. (per default)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  Rapida - i. dinamica veloce (aggiornato ogni 500ms)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Dettagliata - i. dinamiche dettagliate (aggiornate in tempo reale)
 of.options.DYNAMIC_LIGHTS.tooltip.5= 
@@ -462,32 +479,39 @@ of.options.FAST_MATH.tooltip.5=Utilizzare le funzioni sin() e cos() di Java in f
 of.options.FAST_MATH.tooltip.6=ottimizzata per migliorare l'uso della cache e della CPU per migliorare
 of.options.FAST_MATH.tooltip.7=gli FPS.
 
-of.options.CHUNK_UPDATES=Aggiornamento dei chuncks
-of.options.CHUNK_UPDATES.tooltip.1=Aggiornamento dei chuncks
+of.options.CHUNK_UPDATES=Aggiornamento dei Chunk
+of.options.CHUNK_UPDATES.tooltip.1=Aggiornamento dei Chunk
 of.options.CHUNK_UPDATES.tooltip.2= 1 - caricamento lento, FPS (default)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - caricamento più veloce, meno FPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - caricamento super-veloce, pochissimi FPS
 of.options.CHUNK_UPDATES.tooltip.5= 
-of.options.CHUNK_UPDATES.tooltip.6=Numero di chunks rendering per frame.
+of.options.CHUNK_UPDATES.tooltip.6=Numero di Chunk rendering per frame.
 of.options.CHUNK_UPDATES.tooltip.7=Valori più alti possono destabilizzare l'FPS.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Aggiornamento dinamico
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Aggiornamento dei chuncks in modo dinamico
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Aggiornamento dei Chunk in modo dinamico
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= No - (default) fotogramma di carico normale
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Sì - più aggiornamenti mentre si è fermi
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=Questa opzione forza l'aggiornamento dei chuncks mentre
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=Questa opzione forza l'aggiornamento dei Chunk mentre
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.6=si sta fermi per caricare il mondo più velocemente.
 
-of.options.LAZY_CHUNK_LOADING=Caricamento dei chuncks casuale
-of.options.LAZY_CHUNK_LOADING.tooltip.1=Caricamento dei chuncks casuale
-of.options.LAZY_CHUNK_LOADING.tooltip.2= No - caricamente dei chuncks in sitle default
-of.options.LAZY_CHUNK_LOADING.tooltip.3= Sì - caricamento vago dei chuncks (stabilizza il caricamento)
+of.options.LAZY_CHUNK_LOADING=Caricamento Chunk casuale
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Caricamento dei Chunk casuale
+of.options.LAZY_CHUNK_LOADING.tooltip.2= No - caricamente dei Chunk in sitle default
+of.options.LAZY_CHUNK_LOADING.tooltip.3= Sì - caricamento vago dei Chunk (stabilizza il caricamento)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=
-of.options.LAZY_CHUNK_LOADING.tooltip.5=Ammorbidisce il caricamento interno dei chuncks distribuendola durante
+of.options.LAZY_CHUNK_LOADING.tooltip.5=Ammorbidisce il caricamento interno dei Chunk distribuendola durante
 of.options.LAZY_CHUNK_LOADING.tooltip.6=vari ticks. Disattivala se alcune parti del mondo non si sono
 of.options.LAZY_CHUNK_LOADING.tooltip.7=caricate correttamente.
 of.options.LAZY_CHUNK_LOADING.tooltip.8=Funziona solo su mondi locali con un core CPU.
+
+of.options.RENDER_REGIONS=Renderizza aree
+of.options.RENDER_REGIONS.tooltip.1=Renderizza aree
+of.options.RENDER_REGIONS.tooltip.2= OFF - (default) non usare renderizzazione aree
+of.options.RENDER_REGIONS.tooltip.3= ON - usa renderizzazione aree
+of.options.RENDER_REGIONS.tooltip.4=La renderizzazione aree permette un rendering migliore
+of.options.RENDER_REGIONS.tooltip.5=del terreno a grandi distanze. Meglio se il VBO è attivo.
 
 # Animations
 
@@ -499,7 +523,7 @@ of.options.ANIMATED_WATER=Acqua
 of.options.ANIMATED_LAVA=Lava
 of.options.ANIMATED_FIRE=Fuoco
 of.options.ANIMATED_PORTAL=Portali
-of.options.ANIMATED_REDSTONE=Pietra Rossa
+of.options.ANIMATED_REDSTONE=Redstone
 of.options.ANIMATED_EXPLOSION=Esplosioni
 of.options.ANIMATED_FLAME=Fuochi d'artificio
 of.options.ANIMATED_SMOKE=Fumo
@@ -508,10 +532,10 @@ of.options.WATER_PARTICLES=Particelle di acqua
 of.options.RAIN_SPLASH=Pioggia
 of.options.PORTAL_PARTICLES=Particelle dei portali
 of.options.POTION_PARTICLES=Particelle delle pozioni
-of.options.DRIPPING_WATER_LAVA=Gocce d'acqua/Bolle di lava
+of.options.DRIPPING_WATER_LAVA=Gocce d'acqua/lava
 of.options.ANIMATED_TERRAIN=Terreno animato
 of.options.ANIMATED_TEXTURES=Texture animate
-of.options.FIREWORK_PARTICLES=Particelle dei fuochi d'artificio
+of.options.FIREWORK_PARTICLES=Particelle Fuochi d'artificio
 
 # Other
 
@@ -520,8 +544,8 @@ of.options.LAGOMETER.tooltip.1=Mostra il contatore di lag premendo F3
 of.options.LAGOMETER.tooltip.2=* Arancione - Cestino nella memoria
 of.options.LAGOMETER.tooltip.3=* Ciano - Ticks
 of.options.LAGOMETER.tooltip.4=* Azzurro - Programmazione eseguibile
-of.options.LAGOMETER.tooltip.5=* Porpora - Caricamento dei chuncks
-of.options.LAGOMETER.tooltip.6=* Rosso - Aggiornamento dei chuncks
+of.options.LAGOMETER.tooltip.5=* Porpora - Caricamento dei Chunk
+of.options.LAGOMETER.tooltip.6=* Rosso - Aggiornamento dei Chunk
 of.options.LAGOMETER.tooltip.7=* Giallo - Controllare la visibilità
 of.options.LAGOMETER.tooltip.8=* Verde - Terreno renderizzato
 
@@ -565,9 +589,9 @@ of.options.FULLSCREEN_MODE.tooltip.5=Normalmente il più basso incrementa le pre
 
 of.options.SHOW_FPS=Mostra FPS
 of.options.SHOW_FPS.tooltip.1=Mostra FPS e i dati di rendering
-of.options.SHOW_FPS.tooltip.2=  C: - rendering dei chuncks
-of.options.SHOW_FPS.tooltip.3=  E: - enità rese + "block entities"
-of.options.SHOW_FPS.tooltip.4=  U: - aggiornamento dei chuncks
+of.options.SHOW_FPS.tooltip.2=  C: - rendering dei Chunk
+of.options.SHOW_FPS.tooltip.3=  E: - entità rese + "block entities"
+of.options.SHOW_FPS.tooltip.4=  U: - aggiornamento dei Chunk
 of.options.SHOW_FPS.tooltip.5=
 of.options.SHOW_FPS.tooltip.6=Questi dati ridotti vengono visualizzati solo quando non si
 of.options.SHOW_FPS.tooltip.7=usa F3.
@@ -584,18 +608,26 @@ of.options.AUTOSAVE_TICKS.tooltip.3=Un breve intervallo può influire negativame
 
 options.anaglyph.tooltip.1=Visione in 3D
 
-of.options.SCREENSHOT_SIZE=Cattura (Screenshot)
-of.options.SCREENSHOT_SIZE.tooltip.1= Dimensione Screenshot
-of.options.SCREENSHOT_SIZE.tooltip.2=  Predefinito - dimensioni normali
-of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - Formati personalizzati
-of.options.SCREENSHOT_SIZE.tooltip.4=Gli Screenshots occupano più spazio aumentando la dimensione.
-of.options.SCREENSHOT_SIZE.tooltip.5=Non è compatibile col Rendering veloce né col Antialiasing.
-of.options.SCREENSHOT_SIZE.tooltip.6=Richieda che la tua scheda grafica supporti Framebuffer
-
-of.options.ADVANCED_TOOLTIPS=Le descrizioni di oggetti
+of.options.ADVANCED_TOOLTIPS=Descrizioni di oggetti
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Le descrizioni degli oggetti nell'inventario
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  Sì - mostra le descrizioni
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  No - non mostrare descrizioni (per default)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Questa opzione consente di visualizzare informazioni più dettagliate
 of.options.ADVANCED_TOOLTIPS.tooltip.5=su oggetti (ID, durata) e le
 of.options.ADVANCED_TOOLTIPS.tooltip.6=Shaders (ID, origine, di default).
+
+of.options.SCREENSHOT_SIZE=Grandezza Screenshot
+of.options.SCREENSHOT_SIZE.tooltip.1=Grandezza screenshot
+of.options.SCREENSHOT_SIZE.tooltip.2=  Default - grandezza di default
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - grandezza personalizzata
+of.options.SCREENSHOT_SIZE.tooltip.4=Fare screenshot più grandi richiede più memoria.
+of.options.SCREENSHOT_SIZE.tooltip.5=Non compatibile con Render Veloce e Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=Richiede supporto framebuffer della GPU.
+
+of.options.SHOW_GL_ERRORS=Errori Open GL
+of.options.SHOW_GL_ERRORS.tooltip.1=Mostra Errori Open GL
+of.options.SHOW_GL_ERRORS.tooltip.2=Quando abilitata mostra errori in chat.
+of.options.SHOW_GL_ERRORS.tooltip.3=Disabilita solo se ci sono conflitti o per
+of.options.SHOW_GL_ERRORS.tooltip.4=errori che non possono essere risolti.
+of.options.SHOW_GL_ERRORS.tooltip.5=Quando disabilitato gli errori sono sempre salvati
+of.options.SHOW_GL_ERRORS.tooltip.6=nel log degli errori e possono causare drop di FPS.
