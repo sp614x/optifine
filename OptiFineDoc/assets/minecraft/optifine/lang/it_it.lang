@@ -19,6 +19,9 @@ of.message.af.shaders2=Disattivale per usare questa funzione.
 of.message.fr.shaders1=Il Rendering non è compatibile con le Shaders.
 of.message.fr.shaders2=Disattivale per usare questa funzione.
 
+of.message.an.shaders1=Il 3D anaglifico non è compatibile con le Shaders.
+of.message.an.shaders2=Disattivale per usare questa funzione.
+
 of.message.shaders.aa1=Le Shaders non sono compatibili con l'Antialiasing.
 of.message.shaders.aa2=Per disattivarlo, fai clic su Qualità -> Antialiasing.
 
@@ -28,6 +31,12 @@ of.message.shaders.af2=Per disattivarlo, fai clic su Qualità -> Anisotropico.
 of.message.shaders.fr1=Le Shaders non sono compatibili col Rendering Veloce.
 of.message.shaders.fr2=Per disattivarlo, fai clic su Prestazione -> Rendering Veloce.
 
+of.message.shaders.an1=Le Shaders non sono compatibili col 3D anaglifico.
+of.message.shaders.an2=Per favore vai su Varie... -> 3D Anaglifico -> OFF.
+
+of.message.shaders.nv1=Questo pacchetto Shaders richiede una versione più recente della Optifine: %s
+of.message.shaders.nv2=Sicuro di voler continuare?
+
 of.message.newVersion=C'è una nuova versione di §eOptiFine§f disponibile: §e%s§f
 of.message.java64Bit=Installa §eJava da 64-bits§f per migliorare il Rendering
 of.message.openglError=§eErrore di OpenGL§f: %s (%s)
@@ -35,27 +44,37 @@ of.message.openglError=§eErrore di OpenGL§f: %s (%s)
 of.message.shaders.loading=Caricando le Shaders: %s
 
 of.message.other.reset=Ristabilire tutte le impostazioni grafiche?
- 
+
+of.message.loadingVisibleChunks=Caricando chunk visibili
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=Mantello Optifine...
+
 # Impostazioni Video
 
 options.graphics.tooltip.1=Grafica
 options.graphics.tooltip.2=  Rapida  - qualità peggiore, prestazioni migliori
 options.graphics.tooltip.3=  Dettagliata - qualità migliore, prestazioni peggiori
-options.graphics.tooltip.4= 
-options.graphics.tooltip.5=I cambiamenti sono visti nelle nuvole, nelle foglie,
-options.graphics.tooltip.6=sotto la pioggia, negli oggetti buttati e negli
-options.graphics.tooltip.7=angoli (o bordi) della schermata di gioco.
+options.graphics.tooltip.4=Cambiamenti visibili nelle nuvole, foglie, acqua
+options.graphics.tooltip.5=ombre e lati dei blocchi d'erba.
 
+of.options.renderDistance.tiny=Minima
+of.options.renderDistance.short=Corta
+of.options.renderDistance.normal=Normale
+of.options.renderDistance.far=Lontana
 of.options.renderDistance.extreme=Estrema
+of.options.renderDistance.insane=Folle
+of.options.renderDistance.ludicrous=Ridicola
 
-options.renderDistance.tooltip.1=Distanza Chunk renderizzati
-options.renderDistance.tooltip.2=  2 Minima - 32m (incredibilemente veloce)
-options.renderDistance.tooltip.3=  4 Corta - 64m (veloce)
-options.renderDistance.tooltip.4=  8 Normale - 128m
-options.renderDistance.tooltip.5=  16 Lontana - 256m (lento)
-options.renderDistance.tooltip.6=  32 Estrema - 512m (estremamente lento!)
-options.renderDistance.tooltip.7=Il Rendering estremo ha bisogno di un buon computer!
-options.renderDistance.tooltip.8=I valori superiori a 16 non funzionano in multigiocatore.
+options.renderDistance.tooltip.1=Distanza visibile
+options.renderDistance.tooltip.2=  2 Minima - 32m (più veloce)
+options.renderDistance.tooltip.3=  8 Normale - 128m (normale)
+options.renderDistance.tooltip.4=  16 Lontana - 256m (lenta)
+options.renderDistance.tooltip.5=  32 Estrema - 512m (molto lenta!) richiede molte risorse
+options.renderDistance.tooltip.6=  48 Folle - 768m, richiede 2GB di RAM allocati
+options.renderDistance.tooltip.7=  64 Ridicola - 1024m, richiede 3GB di RAM allocati
+options.renderDistance.tooltip.8=Valori sopra 16 sono funzionanti solo in mondi locali.
 
 options.ao.tooltip.1=Luci soffuse
 options.ao.tooltip.2=  No - senza luci soffuse (veloce)
@@ -81,6 +100,10 @@ options.viewBobbing.tooltip.2=Disattivare l'utilizzo di mipmap per ottenere un m
 
 options.guiScale.tooltip.1=Scala dell'Interfaccia (GUI)
 options.guiScale.tooltip.2=Un'interfaccia più piccola può migliorare le prestazioni.
+options.guiScale.tooltip.3= Piccola, Normale, Grande - 1x verso 3x
+options.guiScale.tooltip.4= 4x verso 10x - disponibile su schermi 4K
+options.guiScale.tooltip.5=Valori dispari (1x, 3x, 5x ...) non compatibili con Unicode.
+options.guiScale.tooltip.6=Una GUI più piccola potrebbe migliorare le prestazioni.
 options.vbo.tooltip.1=Vertex Buffer Objects (abbreviato in VBO)
 options.vbo.tooltip.2=In alternativa è il rendering che di solito è più
 options.vbo.tooltip.3=veloce (5-10%%) alla forma default.
@@ -135,17 +158,6 @@ of.options.shadersTitle=Shaders
 of.options.shaders.packNone=(NO SHADERS)
 of.options.shaders.packDefault=(SHADERS INTERNE)
 
-of.options.shaders.ANTIALIASING=Antialiasing
-of.options.shaders.NORMAL_MAP=Mappatura Normale
-of.options.shaders.SPECULAR_MAP=Mappatura Speculare
-of.options.shaders.RENDER_RES_MUL=Rendering di qualità.
-of.options.shaders.SHADOW_RES_MUL=Ombre di qualità
-of.options.shaders.HAND_DEPTH_MUL=Profondità di campo
-of.options.shaders.CLOUD_SHADOW=Ombre delle nuvole
-of.options.shaders.OLD_HAND_LIGHT=LC nelle mani
-of.options.shaders.OLD_LIGHTING=Luce Classica (LC)
-of.options.shaders.SHADER_PACK=Pacchetto di Shaders
-
 of.options.shaders.shadersFolder=Cartella Shaders
 of.options.shaders.shaderOptions=Opzioni delle Shaders...
 
@@ -195,25 +207,104 @@ of.options.MIPMAP_TYPE.tooltip.5=  Lineare - morbidezza normale
 of.options.MIPMAP_TYPE.tooltip.6=  Bilineare - morbidezza sottile
 of.options.MIPMAP_TYPE.tooltip.7=  Trilineare - morbidezza molto sottile (più lenta)
 
+of.options.ANTIALIASING=Antialiasing
+of.options.ANTIALIASING.tooltip.1=Antialiasing attenua linee e i bordi dei blocchi
+of.options.ANTIALIASING.tooltip.2= No - (per default) senza antialiasing (più veloce)
+of.options.ANTIALIASING.tooltip.3= FXAA 2x, 4x - livello di antialiasing morbido (più lento)
+of.options.ANTIALIASING.tooltip.4= 
+of.options.ANTIALIASING.tooltip.5= Ammorbidisce i denti di sega e migliora la nitidezza.
+of.options.ANTIALIASING.tooltip.6= Gli FPS può diminuire considerevolmente quando attivato.
+of.options.ANTIALIASING.tooltip.7= Alcune schede grafiche non supportano tutti i livelli.
+of.options.ANTIALIASING.tooltip.8= La modifica verrà applicata per RIAVVIARE il gioco!
 
-of.options.AA_LEVEL=Antialiasing
-of.options.AA_LEVEL.tooltip.1=Antialiasing attenua linee e i bordi dei blocchi
-of.options.AA_LEVEL.tooltip.2= No - (per default) senza antialiasing (più veloce)
-of.options.AA_LEVEL.tooltip.3= 2-16 - livello di antialiasing morbido (più lento)
-of.options.AA_LEVEL.tooltip.4= 
-of.options.AA_LEVEL.tooltip.5= Ammorbidisce i denti di sega e migliora la nitidezza.
-of.options.AA_LEVEL.tooltip.6= Gli FPS può diminuire considerevolmente quando attivato.
-of.options.AA_LEVEL.tooltip.7= Alcune schede grafiche non supportano tutti i livelli.
-of.options.AA_LEVEL.tooltip.8= La modifica verrà applicata per RIAVVIARE il gioco!
+of.options.shaders.NORMAL_MAP=Mappatura normale
+of.options.shaders.NORMAL_MAP.tooltip.1=Mappatura normale
+of.options.shaders.NORMAL_MAP.tooltip.2=  Sì - (default) abilita mappatura normale
+of.options.shaders.NORMAL_MAP.tooltip.3=  No - disabilita mappatura normale
+of.options.shaders.NORMAL_MAP.tooltip.4= 
+of.options.shaders.NORMAL_MAP.tooltip.5= Le mappature normali possono essere usate dai pacchetti shader
+of.options.shaders.NORMAL_MAP.tooltip.6= per simulare geometria 3D su superfici piatte.
+of.options.shaders.NORMAL_MAP.tooltip.7= Le texture mappature normali sono supportate
+of.options.shaders.NORMAL_MAP.tooltip.8= da questo pacchetto di risorse.
+
+of.options.shaders.SPECULAR_MAP=Mappatura speculare
+of.options.shaders.SPECULAR_MAP.tooltip.1=Mappatura speculare
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Sì - (default) abilita mappature speculari
+of.options.shaders.SPECULAR_MAP.tooltip.3=  No - disabilita mappature speculari
+of.options.shaders.SPECULAR_MAP.tooltip.4= 
+of.options.shaders.SPECULAR_MAP.tooltip.5= Le mappature speculari possono essere usate dai pacchetti shader
+of.options.shaders.SPECULAR_MAP.tooltip.6= per simulare speciali effetti di riflessione.
+of.options.shaders.SPECULAR_MAP.tooltip.7= Le texture mappature speculari sono supportate
+of.options.shaders.SPECULAR_MAP.tooltip.8= da questo pacchetto di risorse.
+
+of.options.shaders.RENDER_RES_MUL=Qualità rendering
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Qualità rendering
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - bassa (più veloce)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - normale (default)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - alta (più lenta)
+of.options.shaders.RENDER_RES_MUL.tooltip.5= 
+of.options.shaders.RENDER_RES_MUL.tooltip.6= Qualità rendering controlla la grandezza delle texture
+of.options.shaders.RENDER_RES_MUL.tooltip.7= che il pacchetto shaders renderizza.
+of.options.shaders.RENDER_RES_MUL.tooltip.8= Valori più bassi sono buoni per schermi 4K.
+of.options.shaders.RENDER_RES_MUL.tooltip.9= Valori più alti funzionano come un filtro antialiasing.
+
+of.options.shaders.SHADOW_RES_MUL=Qualità ombre
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Qualità ombre
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - bassa (più veloce)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - normale (default)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - alta (più lenta)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5= 
+of.options.shaders.SHADOW_RES_MUL.tooltip.6= Qualità ombre controlla la grandezza della mappatura ombre
+of.options.shaders.SHADOW_RES_MUL.tooltip.7= utilizzata dal pacchetto di shaders.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8= Valori più bassi = inesatta, ombre grossolane.
+of.options.shaders.SHADOW_RES_MUL.tooltip.9= Valori più alti = dettagliata, ombre di qualità.
+
+of.options.shaders.HAND_DEPTH_MUL=Profondità campo
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Profondità campo
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - mano vicina alla telecamera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (default)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - mano lontana dalla telecamera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5= 
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6= Profondità campo controlla quanto lontano gli oggetti
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7= tenuti in mano sono dalla telecamera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8= Per i pacchetti di shader che usano un effetto blur questa
+of.options.shaders.HAND_DEPTH_MUL.tooltip.9= opzione dovrebbe cambiare l'effetto degli oggetti tenuti.
+
+of.options.shaders.OLD_HAND_LIGHT=Luce mano secondaria
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Luce mano secondaria
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Default - controllata dal pacchetto shader
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Sì - usa Luce mano secondaria
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  OFF - usa normale luce
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5= 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6= Luce mano secondaria permette ai pacchetti shader
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7= che riconoscono la luce di oggetti tenuti solo
+of.options.shaders.OLD_HAND_LIGHT.tooltip.8= nella mano primaria di funzionare anche con la mano secondaria.
+
+of.options.shaders.OLD_LIGHTING=Luce classica
+of.options.shaders.OLD_LIGHTING.tooltip.1=Luce classica
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Default - controllata dal pacchetto shader
+of.options.shaders.OLD_LIGHTING.tooltip.3=  Sì - usa luce classica
+of.options.shaders.OLD_LIGHTING.tooltip.4=  No - non usare luce classica
+of.options.shaders.OLD_LIGHTING.tooltip.5= 
+of.options.shaders.OLD_LIGHTING.tooltip.6= Luce classica controlla la luce applicata 
+of.options.shaders.OLD_LIGHTING.tooltip.7= al lato dei blocchi vanilla.
+of.options.shaders.OLD_LIGHTING.tooltip.8= I pacchetti shader che usano ombre di solito forniscono
+of.options.shaders.OLD_LIGHTING.tooltip.9= una migliore luce in base alla posizione del Sole.
+
+of.options.shaders.DOWNLOAD=Scarica shaders
+of.options.shaders.DOWNLOAD.tooltip.1=Scarica shaders
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Apre la pagina del pacchetto di shaders nel browser.
+of.options.shaders.DOWNLOAD.tooltip.4=Metti il pacchetto di shaders scaricato nella "Cartella Shaders"
+of.options.shaders.DOWNLOAD.tooltip.5=e appariranno nella lista di shaders installate.
 
 of.options.AF_LEVEL=Anisotropico
 of.options.AF_LEVEL.tooltip.1=Anisotropico filtrato
 of.options.AF_LEVEL.tooltip.2= No - (Default) Dettaglio texture Normale (veloce)
 of.options.AF_LEVEL.tooltip.3= 2-16 - raffinare texture utilizzando mipmap (più lento)
 of.options.AF_LEVEL.tooltip.4= 
-of.options.AF_LEVEL.tooltip.5= 
-of.options.AF_LEVEL.tooltip.6=Questo filtro consente di recuperare i dettagli utilizzando mipmap
-of.options.AF_LEVEL.tooltip.7=Gli FPS possono diminuire considerevolmente quando attivati.
+of.options.AF_LEVEL.tooltip.5=Questo filtro consente di recuperare i dettagli utilizzando mipmap
+of.options.AF_LEVEL.tooltip.6=Gli FPS possono diminuire considerevolmente quando attivati.
 
 of.options.CLEAR_WATER=Acqua cristallina
 of.options.CLEAR_WATER.tooltip.1=Acqua cristallina
@@ -241,7 +332,7 @@ of.options.BETTER_SNOW.tooltip.2=  No - neve default, più veloce
 of.options.BETTER_SNOW.tooltip.3=  Sì - neve dettagliata, più lento
 of.options.BETTER_SNOW.tooltip.4= 
 of.options.BETTER_SNOW.tooltip.5=Mostra la neve sotto i blocchi trasparenti
-of.options.BETTER_SNOW.tooltip.6=(Recinzioni, erbe) quando li si confina con la neve.
+of.options.BETTER_SNOW.tooltip.6=(Recinzioni, erba) quando li si confina con la neve.
 
 of.options.CUSTOM_FONTS=Font personalizzabili
 of.options.CUSTOM_FONTS.tooltip.1=Font personalizzabili
@@ -263,7 +354,7 @@ of.options.SWAMP_COLORS=Colore delle paludi
 of.options.SWAMP_COLORS.tooltip.1=Colore delle paludi
 of.options.SWAMP_COLORS.tooltip.2=  Sì - colore delle paludi (per default), più lento
 of.options.SWAMP_COLORS.tooltip.3=  No - senza colori nelle paludi, più veloce
-of.options.SWAMP_COLORS.tooltip.4=Colpisce: erba, acqua, foglie e viti.
+of.options.SWAMP_COLORS.tooltip.4=Comprende: erba, acqua, foglie e viti.
 
 of.options.SMOOTH_BIOMES=Morbidezza dei biomi
 of.options.SMOOTH_BIOMES.tooltip.1=Morbidezza dei confini dei biomi
@@ -272,7 +363,7 @@ of.options.SMOOTH_BIOMES.tooltip.3=  No - senza bordi lisci dei biomi, più velo
 of.options.SMOOTH_BIOMES.tooltip.4=
 of.options.SMOOTH_BIOMES.tooltip.5=Il livellamento viene eseguito
 of.options.SMOOTH_BIOMES.tooltip.6=dai blocchi di colore gradiente vicino ai confini
-of.options.SMOOTH_BIOMES.tooltip.7=Colpisce: erba, acqua, foglie e viti.
+of.options.SMOOTH_BIOMES.tooltip.7=Comprende: erba, acqua, foglie e viti.
 
 of.options.CONNECTED_TEXTURES=Blocchi uniti
 of.options.CONNECTED_TEXTURES.tooltip.1=Le texture uniscono blocchi determinati
@@ -441,7 +532,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.4=  Dettagliata - i. dinamiche dettagliate (ag
 of.options.DYNAMIC_LIGHTS.tooltip.5= 
 of.options.DYNAMIC_LIGHTS.tooltip.6=Questa opzione permette a certi oggetti che emettono luce di farlo anche non essendo piazzati
 of.options.DYNAMIC_LIGHTS.tooltip.7=Quando metti uno di questi oggetti in mano o quando li butti
-of.options.DYNAMIC_LIGHTS.tooltip.8=l'ambiente si accende (colpisce: torce, pietra luminosa ...).
+of.options.DYNAMIC_LIGHTS.tooltip.8=l'ambiente si accende (comprende: torce, pietra luminosa ...).
 
 # Performance
 
@@ -476,8 +567,8 @@ of.options.FAST_MATH.tooltip.2= No - standard (per default)
 of.options.FAST_MATH.tooltip.3= Sì - sistema veloce
 of.options.FAST_MATH.tooltip.4= 
 of.options.FAST_MATH.tooltip.5=Utilizzare le funzioni sin() e cos() di Java in forma
-of.options.FAST_MATH.tooltip.6=ottimizzata per migliorare l'uso della cache e della CPU per migliorare
-of.options.FAST_MATH.tooltip.7=gli FPS.
+of.options.FAST_MATH.tooltip.6=ottimizzata per migliorare l'uso della cache e della CPU
+of.options.FAST_MATH.tooltip.7=per migliorare gli FPS.
 
 of.options.CHUNK_UPDATES=Aggiornamento dei Chunk
 of.options.CHUNK_UPDATES.tooltip.1=Aggiornamento dei Chunk
