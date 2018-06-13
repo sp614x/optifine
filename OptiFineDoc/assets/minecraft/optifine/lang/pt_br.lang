@@ -575,7 +575,7 @@ of.options.CHUNK_UPDATES.tooltip.6=Valores altos podem desestabilizar a taxa de 
 
 of.options.CHUNK_UPDATES_DYNAMIC=Atualiz. dinâmicas
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Atualizações dinâmicas de chunks
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Não - (padrão) atualização de chunks por quadros
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Não - atualização de chunks por quadros (padrão)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Sim - atualizações constantes durante o jogo
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Atualizações dinâmicas demandam mais poder de
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=processamento para carregar o mundo rapidamente.
@@ -591,10 +591,20 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=-ente. Disponível apenas no modo um jog
 
 of.options.RENDER_REGIONS=Render. de regiões
 of.options.RENDER_REGIONS.tooltip.1=Renderização de regiões
-of.options.RENDER_REGIONS.tooltip.2= Não - (padrão) desativar renderização de regiões
+of.options.RENDER_REGIONS.tooltip.2= Não - desativar renderização de regiões (padrão)
 of.options.RENDER_REGIONS.tooltip.3= Sim - ativar renderização de regiões
 of.options.RENDER_REGIONS.tooltip.4=Ao ativar, renderiza terrenos distantes mais
 of.options.RENDER_REGIONS.tooltip.5=rapidamente. Ative o VBO para melhores resultados.
+
+of.options.SMART_ANIMATIONS=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.2= Não - desativar Smart Animations (padrão)
+of.options.SMART_ANIMATIONS.tooltip.3= Sim - ativar Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.4=Ao ativar, o jogo animará somente as texturas 
+of.options.SMART_ANIMATIONS.tooltip.5=atualmente visíveis na tela.
+of.options.SMART_ANIMATIONS.tooltip.6=Pode evitar travamentos e elevar a taxa de quadros.
+of.options.SMART_ANIMATIONS.tooltip.7=Recomendado para grandes pacotes de mods e pacotes 
+of.options.SMART_ANIMATIONS.tooltip.8=de recursos em alta definição.
 
 # Animations
 
