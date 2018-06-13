@@ -574,7 +574,7 @@ of.options.CHUNK_UPDATES.tooltip.6=kõrgemad väärtused võivad ks destabilisee
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dünaamilised uuendused
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dünaamilised kamakauuendused
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VÄLJAS - (vaikimisi) standardsed uuendused kaadri kohta
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VÄLJAS - standardsed uuendused kaadri kohta (vaikimisi)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= SEES - rohkem uuendusi, kuni mängija seisab paigal
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dünaamilised uuendused sunnivad rohkem kamakauuendusi,
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=kuni mängija seisab paigal, et laadida maailma kiiremini.
@@ -590,10 +590,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (ü
 
 of.options.RENDER_REGIONS=Renderdusalad
 of.options.RENDER_REGIONS.tooltip.1=Renderdusalad
-of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - (vaikimisi) ära kasuta renderdusalasid
+of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - ära kasuta renderdusalasid (vaikimisi)
 of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid
 of.options.RENDER_REGIONS.tooltip.4=Renderdusalad lubavad kiiremat maastiku renderdamist
 of.options.RENDER_REGIONS.tooltip.5=kõrgematel nähtavuskaugustel. Efektiivsem, kui VBOd on lubatud.
+
+of.options.SMART_ANIMATIONS=Targad animatsioonid
+of.options.SMART_ANIMATIONS.tooltip.1=Targad animatsioonid
+of.options.SMART_ANIMATIONS.tooltip.2= VÄLJAS - ära kasuta tarku animatsioone (default)
+of.options.SMART_ANIMATIONS.tooltip.3= SEES - kasuta tarku animatsioone
+of.options.SMART_ANIMATIONS.tooltip.4=Tarkade animatsioonide puhul animeerib mäng ainult
+of.options.SMART_ANIMATIONS.tooltip.5=neid tekstuure, mida on hetkel ekraanil näha.
+of.options.SMART_ANIMATIONS.tooltip.6=See vähendab "latentsusokkaid" ja suurendab ks.
+of.options.SMART_ANIMATIONS.tooltip.7=Eriti kasulik suurtel modi- ja ressursipakkidel.
 
 # Animations
 
