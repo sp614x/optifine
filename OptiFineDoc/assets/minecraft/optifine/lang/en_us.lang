@@ -572,7 +572,7 @@ of.options.CHUNK_UPDATES.tooltip.6=higher values may destabilize the framerate.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dynamic Updates
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamic chunk updates
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - (default) standard chunk updates per frame
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - standard chunk updates per frame (default)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ON - more updates while the player is standing still
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamic updates force more chunk updates while
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=the player is standing still to load the world faster.
@@ -588,10 +588,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-
 
 of.options.RENDER_REGIONS=Render Regions
 of.options.RENDER_REGIONS.tooltip.1=Render Regions
-of.options.RENDER_REGIONS.tooltip.2= OFF - (default) do not use render regions
+of.options.RENDER_REGIONS.tooltip.2= OFF - do not use render regions (default)
 of.options.RENDER_REGIONS.tooltip.3= ON - use render regions
 of.options.RENDER_REGIONS.tooltip.4=Render regions allow faster terrain rendering at higher
 of.options.RENDER_REGIONS.tooltip.5=render distances. More effective when VBOs are enabled.
+
+of.options.SMART_ANIMATIONS=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.2= OFF - do not use smart animations (default)
+of.options.SMART_ANIMATIONS.tooltip.3= ON - use smart animations
+of.options.SMART_ANIMATIONS.tooltip.4=With smart animations the game will only animate the 
+of.options.SMART_ANIMATIONS.tooltip.5=textures which are currently visible on the screen.
+of.options.SMART_ANIMATIONS.tooltip.6=This reduces the tick lag spikes and increases the FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Especially useful for big mod packs and HD resource packs.
 
 # Animations
 
