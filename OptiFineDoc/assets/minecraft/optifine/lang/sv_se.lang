@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-05-11
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-06-14
 
 # General
 of.general.ambiguous=tvetydig
@@ -106,7 +106,7 @@ options.guiScale.tooltip.2=  Automatisk - maximal storlek
 options.guiScale.tooltip.3=  Liten, Normal, Stor - 1x till 3x
 options.guiScale.tooltip.4=  4x till 10x - tillgängliga på 4K-skärmar
 options.guiScale.tooltip.5=Udda värden (1x, 3x, 5x...) är inte kompatibla med Unicode.
-options.guiScale.tooltip.6=Ett mindre GUI kan vara snabbare.
+options.guiScale.tooltip.6=Ett mindre gränssnitt kan vara snabbare.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Använder en alternativ renderingsmodell som vanligtvis
@@ -216,7 +216,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - handen är långt borta från
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Handdjup kontrollerar hur långt borta handhållna
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=föremål är från kameran.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=För shaderpaket som använder skärpedjup bör detta
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhålla föremål blir.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhållna föremål blir.
 
 of.options.shaders.CLOUD_SHADOW=Molnskugga
 
@@ -605,6 +605,16 @@ of.options.RENDER_REGIONS.tooltip.4=Renderingsområden gör att terräng rendera
 of.options.RENDER_REGIONS.tooltip.5=vid högre renderingsavstånd. Mer effektivt när VBO är
 of.options.RENDER_REGIONS.tooltip.6=aktiverat.
 
+of.options.SMART_ANIMATIONS=Smarta animeringar
+of.options.SMART_ANIMATIONS.tooltip.1=Smarta animeringar
+of.options.SMART_ANIMATIONS.tooltip.2= AV - använd inte smarta animeringar (standard)
+of.options.SMART_ANIMATIONS.tooltip.3= PÅ - använd smarta animeringar
+of.options.SMART_ANIMATIONS.tooltip.4=Med smarta animeringar kommer spelet endast animera
+of.options.SMART_ANIMATIONS.tooltip.5=texturer som för tillfället är synliga på skärmen.
+of.options.SMART_ANIMATIONS.tooltip.6=Detta reducerar prestandaproblem och höjer bild-
+of.options.SMART_ANIMATIONS.tooltip.7=frekvensen. Speciellt användbart för stora modpaket
+of.options.SMART_ANIMATIONS.tooltip.8=och resurspaket i HD.
+
 # Animations
 
 of.options.animation.allOn=Allt PÅ
@@ -695,7 +705,8 @@ of.options.save.30min=30 min
 of.options.AUTOSAVE_TICKS=Autospara
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning.
 of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) REKOMMENDERAS INTE.
-of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning är ökänd för att orsaka lag spikes.
+of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning är ökänt för att orsaka prestanda-
+of.options.AUTOSAVE_TICKS.tooltip.4=problem.
 
 of.options.SCREENSHOT_SIZE=Stl. på skärmdump
 of.options.SCREENSHOT_SIZE.tooltip.1=Storlek på skärmdump
