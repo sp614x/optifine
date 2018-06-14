@@ -579,7 +579,7 @@ of.options.CHUNK_UPDATES.tooltip.6=更高的值将会导致帧数不稳定。
 
 of.options.CHUNK_UPDATES_DYNAMIC=动态更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=动态区块更新
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= 关闭 - （默认）每帧标准区块更新
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= 关闭 - 标准的每帧区块更新（默认）
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= 开启 - 当玩家站立不动时更多的区块更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=当玩家站立不动时，强迫更多的
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=区块更新，使得世界加载更快。
@@ -595,10 +595,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于单人游戏的本地世界�
 
 of.options.RENDER_REGIONS=区域渲染
 of.options.RENDER_REGIONS.tooltip.1=区域渲染
-of.options.RENDER_REGIONS.tooltip.2= 关闭 - （默认）不使用区域渲染
+of.options.RENDER_REGIONS.tooltip.2= 关闭 - 不使用区域渲染（默认）
 of.options.RENDER_REGIONS.tooltip.3= 开启 - 使用区域渲染
 of.options.RENDER_REGIONS.tooltip.4=区域渲染可使远处的地形渲染得更快。
 of.options.RENDER_REGIONS.tooltip.5=当启用顶点缓冲区对象时此选项将更有效。
+
+of.options.SMART_ANIMATIONS=智能动画
+of.options.SMART_ANIMATIONS.tooltip.1=智能动画
+of.options.SMART_ANIMATIONS.tooltip.2= 关闭 - 不使用智能动画（默认）
+of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动画
+of.options.SMART_ANIMATIONS.tooltip.4=当使用智能动画时，游戏仅激活
+of.options.SMART_ANIMATIONS.tooltip.5=当前屏幕可见的材质。
+of.options.SMART_ANIMATIONS.tooltip.6=此选项可减少游戏刻突发延迟并提升 FPS。
+of.options.SMART_ANIMATIONS.tooltip.7=对于大型模组包和高清资源包格外有效。
 
 # Animations
 
