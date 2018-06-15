@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-06-14
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-06-15
 
 # General
 of.general.ambiguous=tvetydig
@@ -705,8 +705,7 @@ of.options.save.30min=30 min
 of.options.AUTOSAVE_TICKS=Autospara
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning.
 of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) REKOMMENDERAS INTE.
-of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning är ökänt för att orsaka prestanda-
-of.options.AUTOSAVE_TICKS.tooltip.4=problem.
+of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning orsakar ett ökänt prestandaproblem.
 
 of.options.SCREENSHOT_SIZE=Stl. på skärmdump
 of.options.SCREENSHOT_SIZE.tooltip.1=Storlek på skärmdump
