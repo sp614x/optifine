@@ -1,5 +1,6 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-2-20
+#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-6-16
+#   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -600,12 +601,12 @@ of.options.RENDER_REGIONS.tooltip.3= 开启 - 使用区域渲染
 of.options.RENDER_REGIONS.tooltip.4=区域渲染可使远处的地形渲染得更快。
 of.options.RENDER_REGIONS.tooltip.5=当启用顶点缓冲区对象时此选项将更有效。
 
-of.options.SMART_ANIMATIONS=智能动画
-of.options.SMART_ANIMATIONS.tooltip.1=智能动画
-of.options.SMART_ANIMATIONS.tooltip.2= 关闭 - 不使用智能动画（默认）
-of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动画
-of.options.SMART_ANIMATIONS.tooltip.4=当使用智能动画时，游戏仅激活
-of.options.SMART_ANIMATIONS.tooltip.5=当前屏幕可见的材质。
+of.options.SMART_ANIMATIONS=智能动态材质
+of.options.SMART_ANIMATIONS.tooltip.1=智能动态材质
+of.options.SMART_ANIMATIONS.tooltip.2= 关闭 - 不使用智能动态材质（默认）
+of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动态材质
+of.options.SMART_ANIMATIONS.tooltip.4=当使用智能动态材质时，游戏仅更新
+of.options.SMART_ANIMATIONS.tooltip.5=当前屏幕可见的动态材质。
 of.options.SMART_ANIMATIONS.tooltip.6=此选项可减少游戏刻突发延迟并提升 FPS。
 of.options.SMART_ANIMATIONS.tooltip.7=对于大型模组包和高清资源包格外有效。
 
