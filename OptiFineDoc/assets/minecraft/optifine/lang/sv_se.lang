@@ -290,9 +290,9 @@ of.options.MIPMAP_TYPE=Mipmaptyp
 of.options.MIPMAP_TYPE.tooltip.1=Visuell effekt som gör att objekt på avstånd ser bättre
 of.options.MIPMAP_TYPE.tooltip.2=ut genom att jämna ut texturdetaljerna.
 of.options.MIPMAP_TYPE.tooltip.3=  Närmast - grov utjämning (snabbast)
-of.options.MIPMAP_TYPE.tooltip.4=  Linjärt - normal utjämning
-of.options.MIPMAP_TYPE.tooltip.5=  Bilinjärt - fin utjämning
-of.options.MIPMAP_TYPE.tooltip.6=  Trilinjärt - finast utjämning (långsammast)
+of.options.MIPMAP_TYPE.tooltip.4=  Linjär - normal utjämning
+of.options.MIPMAP_TYPE.tooltip.5=  Bilinjär - fin utjämning
+of.options.MIPMAP_TYPE.tooltip.6=  Trilinjär - finast utjämning (långsammast)
 
 
 of.options.AA_LEVEL=Kantutjämning
