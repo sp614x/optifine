@@ -547,12 +547,13 @@ of.options.SMOOTH_FPS.tooltip.4=  PÅ - bildfrekvensen stabiliseras
 of.options.SMOOTH_FPS.tooltip.5=Beror på grafikdrivrutinerna och märks inte alltid.
 
 of.options.SMOOTH_WORLD=Jämn värld
-of.options.SMOOTH_WORLD.tooltip.1=Tar bort lag spikes som orsakas av den interna servern.
-of.options.SMOOTH_WORLD.tooltip.2=  AV - ingen stabilisering, bildfrekvensen kan variera
-of.options.SMOOTH_WORLD.tooltip.3=  PÅ - stabiliserar bildfrekvensen
-of.options.SMOOTH_WORLD.tooltip.4=Stabiliserar bildfrekvensen genom att fördela inläsningen
-of.options.SMOOTH_WORLD.tooltip.5=av den interna servern.
-of.options.SMOOTH_WORLD.tooltip.6=Fungerar endast på lokala världar (enspelarläge).
+of.options.SMOOTH_WORLD.tooltip.1=Tar bort prestandaproblem som orsakas av den interna
+of.options.SMOOTH_WORLD.tooltip.2=servern.
+of.options.SMOOTH_WORLD.tooltip.3=  AV - ingen stabilisering, bildfrekvensen kan variera
+of.options.SMOOTH_WORLD.tooltip.4=  PÅ - stabiliserar bildfrekvensen
+of.options.SMOOTH_WORLD.tooltip.5=Stabiliserar bildfrekvensen genom att fördela inläsningen
+of.options.SMOOTH_WORLD.tooltip.6=av den interna servern.
+of.options.SMOOTH_WORLD.tooltip.7=Fungerar endast på lokala världar (enspelarläge).
 
 of.options.FAST_RENDER=Snabb rendering
 of.options.FAST_RENDER.tooltip.1=Snabb rendering
