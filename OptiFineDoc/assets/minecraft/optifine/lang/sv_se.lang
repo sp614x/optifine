@@ -328,9 +328,7 @@ of.options.RANDOM_ENTITIES.tooltip.5=Kräver ett resurspaket med flera entitette
 of.options.BETTER_GRASS=Bättre gräs
 of.options.BETTER_GRASS.tooltip.1=Bättre gräs
 of.options.BETTER_GRASS.tooltip.2=  AV - standardtextur för gräskanter, snabbast
-of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig textur för gräskanter, långsammare
 of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig gräskantstextur, långsammare
-of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk textur för gräskanter, långsammast
 of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk gräskantstextur, långsammast
 
 of.options.BETTER_SNOW=Bättre snö
