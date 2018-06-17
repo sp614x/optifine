@@ -409,7 +409,7 @@ of.options.CUSTOM_ITEMS.tooltip.1=Anpassade föremål
 of.options.CUSTOM_ITEMS.tooltip.2=  PÅ - anpassade föremålstexturer (standard), långsamt
 of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardtexturer för föremål, snabbare
 of.options.CUSTOM_ITEMS.tooltip.4=De anpassade föremålstexturerna tillhandahålls av det
-of.options.CUSTOM_ITEMS.tooltip.5=aktuella texturpaketet.
+of.options.CUSTOM_ITEMS.tooltip.5=aktuella resurspaketet.
 
 of.options.CUSTOM_ENTITY_MODELS=Anp. entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Anpassade entitetsmodeller
