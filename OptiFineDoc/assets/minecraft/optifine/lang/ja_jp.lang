@@ -51,6 +51,10 @@ of.message.other.reset=全ての設定を元の状態に戻してもよろしい
 
 of.message.loadingVisibleChunks=可視チャンクを読み込み中
  
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFineマント...
+
 # Video settings
 
 options.graphics.tooltip.1=グラフィックス
@@ -571,7 +575,7 @@ of.options.CHUNK_UPDATES.tooltip.6=高い値はフレームレートの不安定
 
 of.options.CHUNK_UPDATES_DYNAMIC=動的な読み込み
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=動的な読み込み
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= オフ -  (初期値) 1フレームに通常の回数のチャンク読み込み処理
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= オフ - 1フレームに通常の回数のチャンク読み込み処理 (初期値)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= オン - 静止中により多くの読み込む処理を行う
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=プレイヤーが静止している時に
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=素早くチャンク読み込むようになります。
@@ -587,10 +591,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=ローカルワールド (シングル�
 
 of.options.RENDER_REGIONS=領域描画
 of.options.RENDER_REGIONS.tooltip.1=領域描画
-of.options.RENDER_REGIONS.tooltip.2= オフ -  (初期値) 領域描画を用いない
+of.options.RENDER_REGIONS.tooltip.2= オフ - 領域描画を用いない (初期値)
 of.options.RENDER_REGIONS.tooltip.3= オン - 領域描画を用いる
 of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を
 of.options.RENDER_REGIONS.tooltip.5=可能にします。頂点バッファオブジェクトが有効な場合により効果的です。
+
+of.options.SMART_ANIMATIONS=スマートアニメーション
+of.options.SMART_ANIMATIONS.tooltip.1=スマートアニメーション
+of.options.SMART_ANIMATIONS.tooltip.2= オフ - スマートアニメーションを用いない (初期値)
+of.options.SMART_ANIMATIONS.tooltip.3= オン - スマートアニメーションを用いる
+of.options.SMART_ANIMATIONS.tooltip.4=スマートアニメーションを使えばテクスチャのアニメーション処理は
+of.options.SMART_ANIMATIONS.tooltip.5=見える範囲でのみ行われるようになります。
+of.options.SMART_ANIMATIONS.tooltip.6=ラグを減らし、FPSを増やすことができます。
+of.options.SMART_ANIMATIONS.tooltip.7=特に、大きなModパックや高解像度のリソースパックに対して有用でしょう。
 
 # Animations
 
@@ -691,3 +704,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x〜4x - 任意の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.4=より大きなスクリーンショットの撮影には、より多くのメモリが必要です。
 of.options.SCREENSHOT_SIZE.tooltip.5=描画の最適化、アンチエイリアスとは共存できません。
 of.options.SCREENSHOT_SIZE.tooltip.6=GPUがフレームバッファをサポートしている必要があります。
+
+of.options.SHOW_GL_ERRORS=OpenGLエラーの表示
+of.options.SHOW_GL_ERRORS.tooltip.1=OpenGLエラーの表示
+of.options.SHOW_GL_ERRORS.tooltip.2=有効な場合、チャットにOpenGLのエラーが表示されます。
+of.options.SHOW_GL_ERRORS.tooltip.3=既知の競合や修正不可能なエラーである場合に限り
+of.options.SHOW_GL_ERRORS.tooltip.4=無効にしてください。
+of.options.SHOW_GL_ERRORS.tooltip.5=無効にしてもエラーはエラーログに記載されるままであり
+of.options.SHOW_GL_ERRORS.tooltip.6=大幅なFPSの下降の原因となり続けます。
