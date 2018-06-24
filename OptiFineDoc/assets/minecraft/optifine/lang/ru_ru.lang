@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 23-May-2018
+#	Jerozgen  01-Mar-2016 — 24-Jun-2018
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -593,8 +593,8 @@ of.options.RENDER_REGIONS.tooltip.5=дальности прорисовки. Э�
 
 of.options.SMART_ANIMATIONS=Умные анимации
 of.options.SMART_ANIMATIONS.tooltip.1=Умные анимации
-of.options.SMART_ANIMATIONS.tooltip.2= §oВыкл§r - не использовать умную анимацию
-of.options.SMART_ANIMATIONS.tooltip.3= Вкл - использовать умную анимацию
+of.options.SMART_ANIMATIONS.tooltip.2= §oВыкл§r - не использовать умные анимации
+of.options.SMART_ANIMATIONS.tooltip.3= Вкл - использовать умные анимации
 of.options.SMART_ANIMATIONS.tooltip.4=Анимирует только текстуры, которые видны на экране,
 of.options.SMART_ANIMATIONS.tooltip.5=что уменьшает число зависаний и увеличивает FPS.
 of.options.SMART_ANIMATIONS.tooltip.6=Особенно полезно для больших наборов модов и
