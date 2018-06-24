@@ -10,7 +10,7 @@ of.general.smart=tark
 of.key.zoom=Suum
 
 # Message
-of.message.aa.shaders1=Anti-aliasing ei ühildu varjutajatega.
+of.message.aa.shaders1=Sakisilumine ei ühildu varjutajatega.
 of.message.aa.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 
 of.message.af.shaders1=Anisotroopiline filtreerimine ei ühildu varjutajatega.
@@ -22,8 +22,8 @@ of.message.fr.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 of.message.an.shaders1=3D-anaglüüf ei ühildu varjutajatega.
 of.message.an.shaders2=Palun keela varjutajad selle valiku lubamiseks.
 
-of.message.shaders.aa1=Varjutajad ei ühildu anti-aliasing'uga.
-of.message.shaders.aa2=Palun lülita Kvaliteet -> Anti-aliasing VÄLJA ja taaskäivita mäng.
+of.message.shaders.aa1=Varjutajad ei ühildu sakisilumisega.
+of.message.shaders.aa2=Palun lülita Kvaliteet -> Sakisilumine VÄLJA ja taaskäivita mäng.
 
 of.message.shaders.af1=Varjutajad ei ühildu anisotroopilise filtreerimisega.
 of.message.shaders.af2=Palun lülita Kvaliteet -> Anisotroopiline filtr. VÄLJA.
@@ -46,7 +46,11 @@ of.message.shaders.loading=Varjutajate laadimine: %s
 of.message.other.reset=Lähtestad kõik graafikaseaded vaikimisi väärtustele?
 
 of.message.loadingVisibleChunks=Laadin nähtavaid kamakaid
- 
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine'i keep...
+
 # Video settings
 
 options.graphics.tooltip.1=Visuaalne kvaliteet
@@ -100,7 +104,7 @@ options.guiScale.tooltip.1=Kasutajaliidese suurus
 options.guiScale.tooltip.2=  automaatne - maksimaalsuurus
 options.guiScale.tooltip.3=  väike, keskmine, suur - 1x kuni 3x
 options.guiScale.tooltip.4=  4x kuni 10x - saadaval 4K ekraanidel
-options.guiScale.tooltip.5=Paaritud arvud (1x, 3x, 5x, ...) ei ühildu Unicode'ga.
+options.guiScale.tooltip.5=Paaritud arvud (1x, 3x, 5x, ...) ei ühildu Unicode'iga.
 options.guiScale.tooltip.6=Väiksem kasutajaliides võib olla kiirem.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
@@ -156,13 +160,13 @@ of.options.shadersTitle=Varjutajad
 of.options.shaders.packNone=VÄLJAS
 of.options.shaders.packDefault=(sisemised)
 
-of.options.shaders.ANTIALIASING=Anti-aliasing
-of.options.shaders.ANTIALIASING.tooltip.1=Anti-aliasing
-of.options.shaders.ANTIALIASING.tooltip.2=  VÄLJAS - (vaikimisi) anti-aliasing puudub (kiirem)
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - anti-alias'etud jooned ja ääred (aeglasem)
+of.options.shaders.ANTIALIASING=Sakisilumine
+of.options.shaders.ANTIALIASING.tooltip.1=Sakisilumine (anti-aliasing)
+of.options.shaders.ANTIALIASING.tooltip.2=  VÄLJAS - (vaikimisi) sakisilumine puudub (kiirem)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - silutud jooned ja ääred (aeglasem)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA on järeltöötluse efekt, mis silub
 of.options.shaders.ANTIALIASING.tooltip.5=sakilised jooned ja teravad värviüleminekud.
-of.options.shaders.ANTIALIASING.tooltip.6=See on traditsioonilisest anti-aliasing'ust kiirem
+of.options.shaders.ANTIALIASING.tooltip.6=See on traditsioonilisest sakisilumisest kiirem
 of.options.shaders.ANTIALIASING.tooltip.7=ning ühildub nii varjutajate kui ka kiire renderdusega.
 
 of.options.shaders.NORMAL_MAP=Tavaline kaart
@@ -191,7 +195,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - kõrge (aeglaseim)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=Renderduskvaliteet juhib varjutajatepaki renderdavate
 of.options.shaders.RENDER_RES_MUL.tooltip.6=tekstuuride suurust.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Madalamad väärtused on kasulikud 4K ekraanidel.
-of.options.shaders.RENDER_RES_MUL.tooltip.8=Kõrgemad väärtused töötavad anti-aliasing filtrina.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Kõrgemad väärtused töötavad sakisilumise filtrina.
 
 of.options.shaders.SHADOW_RES_MUL=Varjukvaliteet
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=Varjukvaliteet
@@ -290,11 +294,11 @@ of.options.MIPMAP_TYPE.tooltip.5=  Bilineaarne - peen silumine
 of.options.MIPMAP_TYPE.tooltip.6=  Trilineaarne - peeneim silumine (aeglaseim)
 
 
-of.options.AA_LEVEL=Anti-aliasing
-of.options.AA_LEVEL.tooltip.1=Anti-aliasing filter
-of.options.AA_LEVEL.tooltip.2= VÄLJAS - (vaikimisi) anti-aliasing puudub (kiirem)
-of.options.AA_LEVEL.tooltip.3= 2-16 - anti-aliasetud jooned ja servad (aeglasem)
-of.options.AA_LEVEL.tooltip.4=Anti-aliasing silub sakilisi jooni ja teravaid värviüleminekuid.
+of.options.AA_LEVEL=Sakisilumine
+of.options.AA_LEVEL.tooltip.1=Sakisilumise (anti-aliasing) filter
+of.options.AA_LEVEL.tooltip.2= VÄLJAS - (vaikimisi) sakisilumine puudub (kiirem)
+of.options.AA_LEVEL.tooltip.3= 2-16 - silutud jooned ja servad (aeglasem)
+of.options.AA_LEVEL.tooltip.4=Sakisilumine silub sakilisi jooni ja teravaid värviüleminekuid.
 of.options.AA_LEVEL.tooltip.5=Lubamisel võib see oluliselt alandada kaadrisagedust.
 of.options.AA_LEVEL.tooltip.6=Kõik tasemed pole toetatud kõikidel graafikakaartidel.
 of.options.AA_LEVEL.tooltip.7=
@@ -570,7 +574,7 @@ of.options.CHUNK_UPDATES.tooltip.6=kõrgemad väärtused võivad ks destabilisee
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dünaamilised uuendused
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dünaamilised kamakauuendused
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VÄLJAS - (vaikimisi) standardsed uuendused kaadri kohta
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VÄLJAS - standardsed uuendused kaadri kohta (vaikimisi)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= SEES - rohkem uuendusi, kuni mängija seisab paigal
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dünaamilised uuendused sunnivad rohkem kamakauuendusi,
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=kuni mängija seisab paigal, et laadida maailma kiiremini.
@@ -586,10 +590,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (ü
 
 of.options.RENDER_REGIONS=Renderdusalad
 of.options.RENDER_REGIONS.tooltip.1=Renderdusalad
-of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - (vaikimisi) ära kasuta renderdusalasid
+of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - ära kasuta renderdusalasid (vaikimisi)
 of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid
-of.options.RENDER_REGIONS.tooltip.4=Renderdusalad lubavad kiiremat maastiku renderdamist kõrgematel
-of.options.RENDER_REGIONS.tooltip.5=nähtavuskaugustel. Efektiivsem, kui VBOd on lubatud.
+of.options.RENDER_REGIONS.tooltip.4=Renderdusalad lubavad kiiremat maastiku renderdamist
+of.options.RENDER_REGIONS.tooltip.5=kõrgematel nähtavuskaugustel. Efektiivsem, kui VBOd on lubatud.
+
+of.options.SMART_ANIMATIONS=Targad animatsioonid
+of.options.SMART_ANIMATIONS.tooltip.1=Targad animatsioonid
+of.options.SMART_ANIMATIONS.tooltip.2= VÄLJAS - ära kasuta tarku animatsioone (default)
+of.options.SMART_ANIMATIONS.tooltip.3= SEES - kasuta tarku animatsioone
+of.options.SMART_ANIMATIONS.tooltip.4=Tarkade animatsioonide puhul animeerib mäng ainult
+of.options.SMART_ANIMATIONS.tooltip.5=neid tekstuure, mida on hetkel ekraanil näha.
+of.options.SMART_ANIMATIONS.tooltip.6=See vähendab "latentsusokkaid" ja suurendab ks.
+of.options.SMART_ANIMATIONS.tooltip.7=Eriti kasulik suurtel modi- ja ressursipakkidel.
 
 # Animations
 
@@ -690,5 +703,13 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.2=  Vaikimisi - vaikimisi kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - kohandatud kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.4=Suurema kuvatõmmise loomine võib vajada rohkem mälu.
-of.options.SCREENSHOT_SIZE.tooltip.5=Ei ühildu kiire renderduse ega anti-aliasing'uga.
-of.options.SCREENSHOT_SIZE.tooltip.6=Vajab graafikakaardi framebuffer'i tuge.
+of.options.SCREENSHOT_SIZE.tooltip.5=Ei ühildu kiire renderduse ega sakisilumisega.
+of.options.SCREENSHOT_SIZE.tooltip.6=Vajab graafikakaardil kaadripuhvri tuge.
+
+of.options.SHOW_GL_ERRORS=OpenGL vead
+of.options.SHOW_GL_ERRORS.tooltip.1=OpenGL vigade kuvamine
+of.options.SHOW_GL_ERRORS.tooltip.2=Lubamisel kuvatakse vestluses OpenGL vead.
+of.options.SHOW_GL_ERRORS.tooltip.3=Keela see vaid siis, kui on teadaolev konflikt
+of.options.SHOW_GL_ERRORS.tooltip.4=ning vigu ei saa parandada.
+of.options.SHOW_GL_ERRORS.tooltip.5=Keelamisel logitakse vead siiski vealogisse ning
+of.options.SHOW_GL_ERRORS.tooltip.6=nad võivad siiski põhjustada silmnähtava ks languse.

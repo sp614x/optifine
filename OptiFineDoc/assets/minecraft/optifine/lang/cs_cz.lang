@@ -46,6 +46,10 @@ of.message.shaders.loading=Načítám stíny: %s
 of.message.other.reset=Vyresetovat všechno nastavení videa (grafiky) na výchozí hodnoty?
 
 of.message.loadingVisibleChunks=Načítám vididetlné chunky
+
+# Úprava skinu
+
+of.options.skinCustomisation.ofCape=OptiFine kápě...
  
 # Nastavení Grafiky
 
@@ -165,7 +169,7 @@ of.options.shaders.ANTIALIASING.tooltip.7=a je kompatibilní se stíny a rychlý
 
 of.options.shaders.NORMAL_MAP=Normální mapa
 of.options.shaders.NORMAL_MAP.tooltip.1=Normální mapa
-of.options.shaders.NORMAL_MAP.tooltip.2=  ZAPNUTO - (výchozí) zapne normální mapy
+of.options.shaders.NORMAL_MAP.tooltip.2=  ZAPNUTO - zapne normální mapy (výchozí)
 of.options.shaders.NORMAL_MAP.tooltip.3=  VYPNUTO - vypne normální mapy
 of.options.shaders.NORMAL_MAP.tooltip.4=Normální mapy mohou být použity balíčekem stínů
 of.options.shaders.NORMAL_MAP.tooltip.5=na simulování 3D geometrie na rovných plochách.
@@ -174,7 +178,7 @@ of.options.shaders.NORMAL_MAP.tooltip.7=balíčku zdrojů.
 
 of.options.shaders.SPECULAR_MAP=Spekulární mapa
 of.options.shaders.SPECULAR_MAP.tooltip.1=Spekulární mapa
-of.options.shaders.SPECULAR_MAP.tooltip.2=  ZAPNUTO - (výchozí) zapne spekulární mapy
+of.options.shaders.SPECULAR_MAP.tooltip.2=  ZAPNUTO - zapne spekulární mapy (výchozí)
 of.options.shaders.SPECULAR_MAP.tooltip.3=  VYPNUTO - vypne spekulární mapy
 of.options.shaders.SPECULAR_MAP.tooltip.4=Spekulární mapy mohou být použity balíčkem stínů
 of.options.shaders.SPECULAR_MAP.tooltip.5=pro simulování efektů reflekce.
@@ -568,7 +572,7 @@ of.options.CHUNK_UPDATES.tooltip.6=Vyšší hodnoty mohou FPS snížit.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dynamické načítání
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamické načítání chunků
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VYPNUTO - (výchozí) standardní počet chunků na FPS
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= VYPNUTO - standardní počet chunků na FPS (výchozí)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ZAPNUTO - více chunků, když se hráč nehýbe
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamické načítání načte více chunků
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=když se hráč nehýbe, svět se načte rychleji.
@@ -584,10 +588,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektivní pouze pro lokální světy (s
 
 of.options.RENDER_REGIONS=Render regiony
 of.options.RENDER_REGIONS.tooltip.1=Render regiony
-of.options.RENDER_REGIONS.tooltip.2= VYPNUTO - (výchozí) nepoužívat render regiony
+of.options.RENDER_REGIONS.tooltip.2= VYPNUTO - nepoužívat render regiony (výchozí)
 of.options.RENDER_REGIONS.tooltip.3= ZAPNUTO - použít render regiony
 of.options.RENDER_REGIONS.tooltip.4=Render regiony umožní rychlejší render terénu při vyšších
 of.options.RENDER_REGIONS.tooltip.5=viditelných vzdálenostech. Efektivnějsí při zapnutém VBO.
+
+of.options.SMART_ANIMATIONS=Chytré animace
+of.options.SMART_ANIMATIONS.tooltip.1=Chytré animace
+of.options.SMART_ANIMATIONS.tooltip.2= VYPNUTO - nepoužívat chytré animace (výchozí)
+of.options.SMART_ANIMATIONS.tooltip.3= ZAPNUTO - používat chytré animace
+of.options.SMART_ANIMATIONS.tooltip.4=Se zapnutými chytrými animacemi bude hra
+of.options.SMART_ANIMATIONS.tooltip.5=animovat jen textury viditelné na obrazovce.
+of.options.SMART_ANIMATIONS.tooltip.6=To sníží záseky a zvýší FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Velmi užitečné pro velké mod packy a HD balíčky zdrojů.
 
 # Animace
 
@@ -688,3 +701,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastním velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.4=Focení větších screenshotů může vyžadovat více RAM.
 of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatinilní s rychlým renderem a antialiasingem.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vyžaduje podporu GPU framebufferu.
+
+of.options.SHOW_GL_ERRORS=Zobrazit GL chyby
+of.options.SHOW_GL_ERRORS.tooltip.1=Zobrazit OpenGL chyby
+of.options.SHOW_GL_ERRORS.tooltip.2=Když zapnuto, OpenGL chyby se budou objevovat v chatu.
+of.options.SHOW_GL_ERRORS.tooltip.3=Vypni jen když je chyba známa a víš,
+of.options.SHOW_GL_ERRORS.tooltip.4=že se nedá opravit.
+of.options.SHOW_GL_ERRORS.tooltip.5=Když vypnuto, chyby jsou stále logovány v
+of.options.SHOW_GL_ERRORS.tooltip.6=error logu a mohou způsobit značný drop v FPS.

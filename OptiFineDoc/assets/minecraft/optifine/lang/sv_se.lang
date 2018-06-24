@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-02-17
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-06-15
 
 # General
 of.general.ambiguous=tvetydig
@@ -50,6 +50,10 @@ of.message.other.reset=Återställ alla grafikinställningar till dess standardv
 
 of.message.loadingVisibleChunks=Läser in synliga chunkar
 
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine-mantel...
+
 # Video settings
 
 options.graphics.tooltip.1=Visuell kvalitet
@@ -70,7 +74,7 @@ options.renderDistance.tooltip.1=Synligt avstånd
 options.renderDistance.tooltip.2=   2 Litet - 32m (snabbast)
 options.renderDistance.tooltip.3=   8 Normalt - 128m (normalt)
 options.renderDistance.tooltip.4=  16 Långt - 256m (långsammare)
-options.renderDistance.tooltip.5=  32 Extremt - 512m (långsammast!) mycket resurskrävande
+options.renderDistance.tooltip.5=  32 Extremt - 512m (långsammast!) mkt resurskrävande
 options.renderDistance.tooltip.6=  48 Galet - 768m, behöver 2GB allokerat RAM
 options.renderDistance.tooltip.7=  64 Löjligt - 1024m, behöver 3GB allokerat RAM
 options.renderDistance.tooltip.8=Värden över 16 fungerar endast i lokala världar.
@@ -97,12 +101,12 @@ of.options.AO_LEVEL.tooltip.4=  100%% - mörka skuggor
 options.viewBobbing.tooltip.1=Mer verklighetstrogna rörelser.
 options.viewBobbing.tooltip.2=Inaktivera detta om mipmaps används för bästa resultat.
 
-options.guiScale.tooltip.1=GUI-skala
+options.guiScale.tooltip.1=Gränssnittsskala
 options.guiScale.tooltip.2=  Automatisk - maximal storlek
 options.guiScale.tooltip.3=  Liten, Normal, Stor - 1x till 3x
-options.guiScale.tooltip.4=  4x till 10x - tillgänglig på 4K-skärmar
+options.guiScale.tooltip.4=  4x till 10x - tillgängliga på 4K-skärmar
 options.guiScale.tooltip.5=Udda värden (1x, 3x, 5x...) är inte kompatibla med Unicode.
-options.guiScale.tooltip.6=Ett mindre GUI kan vara snabbare.
+options.guiScale.tooltip.6=Ett mindre gränssnitt kan vara snabbare.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Använder en alternativ renderingsmodell som vanligtvis
@@ -141,7 +145,7 @@ of.options.FOG_START.tooltip.4=Detta alternativ påverkar vanligtvis inte presta
 
 of.options.CHUNK_LOADING=Chunkinläsning
 of.options.CHUNK_LOADING.tooltip.1=Chunkinläsning
-of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när chunks läses in
+of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när chunkar läses in
 of.options.CHUNK_LOADING.tooltip.3=  Jämn - stabil bildfrekvens
 of.options.CHUNK_LOADING.tooltip.4=  Flerkärnig - stabil bildfrekvens, 3x snabbare inläsning
 of.options.CHUNK_LOADING.tooltip.5=Jämn och Flerkärnig tar bort ryckningar och
@@ -212,7 +216,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - handen är långt borta från
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Handdjup kontrollerar hur långt borta handhållna
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=föremål är från kameran.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=För shaderpaket som använder skärpedjup bör detta
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhålla föremål blir.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhållna föremål blir.
 
 of.options.shaders.CLOUD_SHADOW=Molnskugga
 
@@ -270,10 +274,10 @@ of.shaders.profile=Profil
 
 # Quality
 
-of.options.mipmap.bilinear=Bilinjärt
-of.options.mipmap.linear=Linjärt
+of.options.mipmap.bilinear=Bilinjär
+of.options.mipmap.linear=Linjär
 of.options.mipmap.nearest=Närmast
-of.options.mipmap.trilinear=Trilinjärt
+of.options.mipmap.trilinear=Trilinjär
 
 options.mipmapLevels.tooltip.1=Visuell effekt som gör att objekt på avstånd ser bättre
 options.mipmapLevels.tooltip.2=ut genom att jämna ut texturdetaljerna.
@@ -286,9 +290,9 @@ of.options.MIPMAP_TYPE=Mipmaptyp
 of.options.MIPMAP_TYPE.tooltip.1=Visuell effekt som gör att objekt på avstånd ser bättre
 of.options.MIPMAP_TYPE.tooltip.2=ut genom att jämna ut texturdetaljerna.
 of.options.MIPMAP_TYPE.tooltip.3=  Närmast - grov utjämning (snabbast)
-of.options.MIPMAP_TYPE.tooltip.4=  Linjärt - normal utjämning
-of.options.MIPMAP_TYPE.tooltip.5=  Bilinjärt - fin utjämning
-of.options.MIPMAP_TYPE.tooltip.6=  Trilinjärt - finast utjämning (långsammast)
+of.options.MIPMAP_TYPE.tooltip.4=  Linjär - normal utjämning
+of.options.MIPMAP_TYPE.tooltip.5=  Bilinjär - fin utjämning
+of.options.MIPMAP_TYPE.tooltip.6=  Trilinjär - finast utjämning (långsammast)
 
 
 of.options.AA_LEVEL=Kantutjämning
@@ -324,9 +328,7 @@ of.options.RANDOM_ENTITIES.tooltip.5=Kräver ett resurspaket med flera entitette
 of.options.BETTER_GRASS=Bättre gräs
 of.options.BETTER_GRASS.tooltip.1=Bättre gräs
 of.options.BETTER_GRASS.tooltip.2=  AV - standardtextur för gräskanter, snabbast
-of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig textur för gräskanter, långsammare
 of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig gräskantstextur, långsammare
-of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk textur för gräskanter, långsammast
 of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk gräskantstextur, långsammast
 
 of.options.BETTER_SNOW=Bättre snö
@@ -338,14 +340,14 @@ of.options.BETTER_SNOW.tooltip.5=som angränsar till snöblock.
 
 of.options.CUSTOM_FONTS=Anpassade typsnitt
 of.options.CUSTOM_FONTS.tooltip.1=Anpassade typsnitt
-of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpassade typsnitt (standard), långsammare
+of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpass. typsnitt (standard), långsammare
 of.options.CUSTOM_FONTS.tooltip.3=  AV - använd standardtypsnittet, snabbare
 of.options.CUSTOM_FONTS.tooltip.4=De anpassade typsnitten tillhandahålls av det aktuella
 of.options.CUSTOM_FONTS.tooltip.5=resurspaketet.
 
 of.options.CUSTOM_COLORS=Anpassade färger
 of.options.CUSTOM_COLORS.tooltip.1=Anpassade färger
-of.options.CUSTOM_COLORS.tooltip.2=  PÅ - använd anpassade färger (standard), långsammare
+of.options.CUSTOM_COLORS.tooltip.2=  PÅ - använd anpass. färger (standard), långsammare
 of.options.CUSTOM_COLORS.tooltip.3=  AV - använd standardfärgerna, snabbare
 of.options.CUSTOM_COLORS.tooltip.4=De anpassade färgerna tillhandahålls av det aktuella
 of.options.CUSTOM_COLORS.tooltip.5=resurspaketet
@@ -407,7 +409,7 @@ of.options.CUSTOM_ITEMS.tooltip.1=Anpassade föremål
 of.options.CUSTOM_ITEMS.tooltip.2=  PÅ - anpassade föremålstexturer (standard), långsamt
 of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardtexturer för föremål, snabbare
 of.options.CUSTOM_ITEMS.tooltip.4=De anpassade föremålstexturerna tillhandahålls av det
-of.options.CUSTOM_ITEMS.tooltip.5=aktuella texturpaketet.
+of.options.CUSTOM_ITEMS.tooltip.5=aktuella resurspaketet.
 
 of.options.CUSTOM_ENTITY_MODELS=Anp. entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Anpassade entitetsmodeller
@@ -521,19 +523,19 @@ of.options.VIGNETTE.tooltip.8=utan någon fara.
 
 of.options.DYNAMIC_FOV=Dynamiskt synfält
 of.options.DYNAMIC_FOV.tooltip.1=Dynamiskt synfält
-of.options.DYNAMIC_FOV.tooltip.2=  PÅ - aktivera dynamiskt synfält  (standard)
+of.options.DYNAMIC_FOV.tooltip.2=  PÅ - aktivera dynamiskt synfält (standard)
 of.options.DYNAMIC_FOV.tooltip.3=  AV - inaktivera dynamiskt synfält
 of.options.DYNAMIC_FOV.tooltip.4=Ändrar synfältet när du flyger, springer eller siktar
 of.options.DYNAMIC_FOV.tooltip.5=med en pilbåge.
 
-of.options.DYNAMIC_LIGHTS=Dynamiskt ljus
-of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiskt ljus
-of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inget dynamiskt ljus (standard)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabbt dynamiskt ljus (uppdateras var 500ms)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snyggt dynamiskt ljus (uppdateras i realtid)
+of.options.DYNAMIC_LIGHTS=Dynamiska ljus
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiska ljus
+of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inga dynamiska ljus (standard)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabba dynamiska ljus (uppdat. efter 500 ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snygga dynamiska ljus (uppdateras i realtid)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, glödsten, etc.)
-of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de hålls av dig, andra
-of.options.DYNAMIC_LIGHTS.tooltip.7=spelare eller släpps ned på marken.
+of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de hålls av dig, andra spelare
+of.options.DYNAMIC_LIGHTS.tooltip.7=eller släpps ned på marken.
 
 # Performance
 
@@ -545,12 +547,13 @@ of.options.SMOOTH_FPS.tooltip.4=  PÅ - bildfrekvensen stabiliseras
 of.options.SMOOTH_FPS.tooltip.5=Beror på grafikdrivrutinerna och märks inte alltid.
 
 of.options.SMOOTH_WORLD=Jämn värld
-of.options.SMOOTH_WORLD.tooltip.1=Tar bort lag spikes som orsakas av den interna servern.
-of.options.SMOOTH_WORLD.tooltip.2=  AV - ingen stabilisering, bildfrekvensen kan variera
-of.options.SMOOTH_WORLD.tooltip.3=  PÅ - stabiliserar bildfrekvensen
-of.options.SMOOTH_WORLD.tooltip.4=Stabiliserar bildfrekvensen genom att fördela inläsningen
-of.options.SMOOTH_WORLD.tooltip.5=av den interna servern.
-of.options.SMOOTH_WORLD.tooltip.6=Fungerar endast på lokala världar (enspelarläge).
+of.options.SMOOTH_WORLD.tooltip.1=Tar bort prestandaproblem som orsakas av den interna
+of.options.SMOOTH_WORLD.tooltip.2=servern.
+of.options.SMOOTH_WORLD.tooltip.3=  AV - ingen stabilisering, bildfrekvensen kan variera
+of.options.SMOOTH_WORLD.tooltip.4=  PÅ - stabiliserar bildfrekvensen
+of.options.SMOOTH_WORLD.tooltip.5=Stabiliserar bildfrekvensen genom att fördela inläsningen
+of.options.SMOOTH_WORLD.tooltip.6=av den interna servern.
+of.options.SMOOTH_WORLD.tooltip.7=Fungerar endast på lokala världar (enspelarläge).
 
 of.options.FAST_RENDER=Snabb rendering
 of.options.FAST_RENDER.tooltip.1=Snabb rendering
@@ -600,6 +603,16 @@ of.options.RENDER_REGIONS.tooltip.3=  PÅ - använd renderingsområden
 of.options.RENDER_REGIONS.tooltip.4=Renderingsområden gör att terräng renderas snabbare
 of.options.RENDER_REGIONS.tooltip.5=vid högre renderingsavstånd. Mer effektivt när VBO är
 of.options.RENDER_REGIONS.tooltip.6=aktiverat.
+
+of.options.SMART_ANIMATIONS=Smarta animeringar
+of.options.SMART_ANIMATIONS.tooltip.1=Smarta animeringar
+of.options.SMART_ANIMATIONS.tooltip.2= AV - använd inte smarta animeringar (standard)
+of.options.SMART_ANIMATIONS.tooltip.3= PÅ - använd smarta animeringar
+of.options.SMART_ANIMATIONS.tooltip.4=Med smarta animeringar kommer spelet endast animera
+of.options.SMART_ANIMATIONS.tooltip.5=texturer som för tillfället är synliga på skärmen.
+of.options.SMART_ANIMATIONS.tooltip.6=Detta reducerar prestandaproblem och höjer bild-
+of.options.SMART_ANIMATIONS.tooltip.7=frekvensen. Speciellt användbart för stora modpaket
+of.options.SMART_ANIMATIONS.tooltip.8=och resurspaket i HD.
 
 # Animations
 
@@ -656,7 +669,7 @@ of.options.time.nightOnly=Endast natt
 
 of.options.TIME=Tid
 of.options.TIME.tooltip.1=Tid
-of.options.TIME.tooltip.2=  Standard - vanliga dag/natt-cykler
+of.options.TIME.tooltip.2=  Standard - vanliga dag-/nattcykler
 of.options.TIME.tooltip.3=  Endast dag - dag hela tiden
 of.options.TIME.tooltip.4=  Endast natt - natt hela tiden
 of.options.TIME.tooltip.5=Tidsinställningen fungerar endast i KREATIVT läge och
@@ -683,20 +696,29 @@ of.options.SHOW_FPS.tooltip.4=  U: - antal chunkuppdateringar
 of.options.SHOW_FPS.tooltip.5=Informationen visas endast när felsökningsskärmen (F3)
 of.options.SHOW_FPS.tooltip.6=inte är öppen.
 
-of.options.save.default=Standard (2s)
-of.options.save.20s=20s
-of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.default=Standard (2 s)
+of.options.save.20s=20 s
+of.options.save.3min=3 min
+of.options.save.30min=30 min
 
-of.options.AUTOSAVE_TICKS=Autosparning
+of.options.AUTOSAVE_TICKS=Autospara
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning.
-of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2s) REKOMMENDERAS INTE.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosparning är ökänd för att orsaka lag spikes.
+of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) REKOMMENDERAS INTE.
+of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning orsakar ett ökänt prestandaproblem.
 
-of.options.SCREENSHOT_SIZE=Skärmdumpsstorlek
-of.options.SCREENSHOT_SIZE.tooltip.1=Skärmdumpsstorlek
-of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek för skärmdumpar
-of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek för skärmdumpar
+of.options.SCREENSHOT_SIZE=Stl. på skärmdump
+of.options.SCREENSHOT_SIZE.tooltip.1=Storlek på skärmdump
+of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek på skärmdumpar
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek på skärmdumpar
 of.options.SCREENSHOT_SIZE.tooltip.4=Större skärmdumpar kan kräva mer minne.
-of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibel med Snabb rendering och Kantutjämning.
+of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibelt med Snabb rendering och Kantutjämning.
 of.options.SCREENSHOT_SIZE.tooltip.6=Kräver att grafikprocessorn har stöd för framebuffer.
+
+of.options.SHOW_GL_ERRORS=Visa OpenGL-fel
+of.options.SHOW_GL_ERRORS.tooltip.1=Visa OpenGL-fel
+of.options.SHOW_GL_ERRORS.tooltip.2=OpenGL-fel visas i chatten när detta aktiveras.
+of.options.SHOW_GL_ERRORS.tooltip.3=Inaktivera endast detta om det finns en känd konflikt och
+of.options.SHOW_GL_ERRORS.tooltip.4=felen inte kan åtgärdas.
+of.options.SHOW_GL_ERRORS.tooltip.5=När detta inaktiveras kommer felen fortfarande
+of.options.SHOW_GL_ERRORS.tooltip.6=registreras i felloggen och kan fortfarande orsaka att
+of.options.SHOW_GL_ERRORS.tooltip.7=bildfrekvensen sjunker avsevärt.

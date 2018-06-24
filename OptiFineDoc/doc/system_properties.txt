@@ -1,0 +1,26 @@
+==================================
+System properties used by OptiFine
+==================================
+
+The system properties have to be added in the field "JVM Arguments" in the launcher profile.
+For example to enable extended logging add "-Dlog.detail=true" to the JVM arguments.
+
+# Enable extended logging 
+log.detail=<true|false>
+
+# Save the final texture map in the folder "debug"
+saveTextureMap=<true|false>
+
+# Save the final shader sources in the folder "shaderpacks/debug"
+shaders.debug.save=<true|false>
+
+# Automatically animate all mob models
+# Useful when testing custom entity models
+animate.model.living=<true|false>
+
+# Load the player models from the folder "playermodels"
+player.models.local=<true|false>
+
+# Automatically reload the player models every 5 sec.
+# Useful when testing a custom local player model 
+player.models.reload=<true|false>

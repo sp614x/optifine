@@ -47,6 +47,10 @@ of.message.other.reset=Reset all video settings to their default values?
 
 of.message.loadingVisibleChunks=Loading visible chunks
 
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine Cape...
+
 # Video settings
 
 options.graphics.tooltip.1=Visual quality
@@ -568,7 +572,7 @@ of.options.CHUNK_UPDATES.tooltip.6=higher values may destabilize the framerate.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dynamic Updates
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamic chunk updates
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - (default) standard chunk updates per frame
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - standard chunk updates per frame (default)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ON - more updates while the player is standing still
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamic updates force more chunk updates while
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=the player is standing still to load the world faster.
@@ -584,10 +588,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-
 
 of.options.RENDER_REGIONS=Render Regions
 of.options.RENDER_REGIONS.tooltip.1=Render Regions
-of.options.RENDER_REGIONS.tooltip.2= OFF - (default) do not use render regions
+of.options.RENDER_REGIONS.tooltip.2= OFF - do not use render regions (default)
 of.options.RENDER_REGIONS.tooltip.3= ON - use render regions
 of.options.RENDER_REGIONS.tooltip.4=Render regions allow faster terrain rendering at higher
 of.options.RENDER_REGIONS.tooltip.5=render distances. More effective when VBOs are enabled.
+
+of.options.SMART_ANIMATIONS=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.2= OFF - do not use smart animations (default)
+of.options.SMART_ANIMATIONS.tooltip.3= ON - use smart animations
+of.options.SMART_ANIMATIONS.tooltip.4=With smart animations the game will only animate the 
+of.options.SMART_ANIMATIONS.tooltip.5=textures which are currently visible on the screen.
+of.options.SMART_ANIMATIONS.tooltip.6=This reduces the tick lag spikes and increases the FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Especially useful for big mod packs and HD resource packs.
 
 # Animations
 
@@ -688,3 +701,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - custom screenshot size
 of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshots may need more memory.
 of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with Fast Render and Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.6=Requires GPU framebuffer support.
+
+of.options.SHOW_GL_ERRORS=Show GL Errors
+of.options.SHOW_GL_ERRORS.tooltip.1=Show OpenGL Errors
+of.options.SHOW_GL_ERRORS.tooltip.2=When enabled OpenGL errors are shown in the chat.
+of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict and
+of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
+of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
+of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 

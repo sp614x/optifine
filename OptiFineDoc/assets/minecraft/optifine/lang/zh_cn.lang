@@ -1,5 +1,6 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-2-20
+#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-6-16
+#   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
@@ -26,7 +27,7 @@ of.message.af.shaders2=请关闭光影以启用这个选项。
 of.message.fr.shaders1=快速渲染与光影不兼容。
 of.message.fr.shaders2=请关闭光影以启用这个选项。
 
-of.message.an.shaders1=3D立体与光影不兼容。
+of.message.an.shaders1=3D效果与光影不兼容。
 of.message.an.shaders2=请关闭光影以启用这个选项。
 
 of.message.shaders.aa1=光影与抗锯齿不兼容。
@@ -38,8 +39,8 @@ of.message.shaders.af2=请将 品质 -> 各向异性过滤 选项设置为 关�
 of.message.shaders.fr1=光影与快速渲染不兼容。
 of.message.shaders.fr2=请将 性能 -> 快速渲染 选项设置为 关闭。
 
-of.message.shaders.an1=光影与3D立体不兼容。
-of.message.shaders.an2=请将 其他 -> 3D立体 选项设置为 关闭。
+of.message.shaders.an1=光影与3D效果不兼容。
+of.message.shaders.an2=请将 其他 -> 3D效果 选项设置为 关闭。
 
 of.message.shaders.nv1=此光影需要更新的OptiFine版本：%s
 of.message.shaders.nv2=确认要继续吗？
@@ -54,6 +55,10 @@ of.message.other.reset=确定要重置所有视频设置为默认值吗？
 
 of.message.loadingVisibleChunks=正在加载可见区块
 
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine 披风...
+
 # Video settings
 
 options.graphics.tooltip.1=图像品质
@@ -67,16 +72,16 @@ of.options.renderDistance.short=近
 of.options.renderDistance.normal=中等
 of.options.renderDistance.far=远
 of.options.renderDistance.extreme=极远
-of.options.renderDistance.insane=你没疯吧
-of.options.renderDistance.ludicrous=别开玩笑
+of.options.renderDistance.insane=疯狂
+of.options.renderDistance.ludicrous=荒唐
 
 options.renderDistance.tooltip.1=能见度
 options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
 options.renderDistance.tooltip.3=  8 中等 - 128m（正常）
 options.renderDistance.tooltip.4=  16 远 - 256m（较慢）
 options.renderDistance.tooltip.5=  32 极远 - 512m（最慢！）非常消耗资源！
-options.renderDistance.tooltip.6=  48 你没疯吧 - 768m，需要2G的内存分配
-options.renderDistance.tooltip.7=  64 别开玩笑 - 1024m，需要3G的内存分配
+options.renderDistance.tooltip.6=  48 疯狂 - 768m，需要2G的内存分配
+options.renderDistance.tooltip.7=  64 荒唐 - 1024m，需要3G的内存分配
 options.renderDistance.tooltip.8=超过 16 的能见度值只在本地世界有效。
 
 options.ao.tooltip.1=平滑光照
@@ -85,27 +90,27 @@ options.ao.tooltip.3=  最小 - 简单流畅的平滑光照（较慢）
 options.ao.tooltip.4=  最大 - 复杂柔和的平滑光照（最慢）
 
 options.framerateLimit.tooltip.1=最大帧率
-options.framerateLimit.tooltip.2=  垂直同步 - 受限于显示器帧率（60，30，20）
+options.framerateLimit.tooltip.2=  垂直同步 - 限制为显示器帧率（60，30，20）
 options.framerateLimit.tooltip.3=  5-255 - 可变
 options.framerateLimit.tooltip.4=  无限制 - 无限制（最快）
-options.framerateLimit.tooltip.5=帧率上限将降低FPS，
-options.framerateLimit.tooltip.6=即使其未达上限值。
+options.framerateLimit.tooltip.5=帧率限制将降低 FPS，
+options.framerateLimit.tooltip.6=即使其未达到上限值。
 of.options.framerateLimit.vsync=垂直同步
 
-of.options.AO_LEVEL=平滑光照
-of.options.AO_LEVEL.tooltip.1=平滑光照
-of.options.AO_LEVEL.tooltip.2=  关闭 - 禁用阴影
-of.options.AO_LEVEL.tooltip.3=  50%% - 明亮的阴影
-of.options.AO_LEVEL.tooltip.4=  100%% - 阴暗的阴影
+of.options.AO_LEVEL=平滑光照级别
+of.options.AO_LEVEL.tooltip.1=平滑光照级别
+of.options.AO_LEVEL.tooltip.2=  关闭 - 不产生阴影
+of.options.AO_LEVEL.tooltip.3=  50%% - 较浅的阴影
+of.options.AO_LEVEL.tooltip.4=  100%% - 较深的阴影
 
 options.viewBobbing.tooltip.1=更真实的运动。
-options.viewBobbing.tooltip.2=当使用多级纹理贴图时，关闭此选项以取得最佳效果。
+options.viewBobbing.tooltip.2=当使用多级纹理贴图（mipmap）时，关闭此选项以取得最佳效果。
 
 options.guiScale.tooltip.1=界面尺寸
 options.guiScale.tooltip.2=  自动 - 最大尺寸
-options.guiScale.tooltip.3=  小，中，大 - 1x到3x
-options.guiScale.tooltip.4=  4x到10x - 在4K分辨率下可用
-options.guiScale.tooltip.5=奇数值（1x，3x，5x之类）与Unicode不兼容。
+options.guiScale.tooltip.3=  小，中，大 - 1x 到 3x
+options.guiScale.tooltip.4=  4x 到 10x - 在 4K 分辨率下可用
+options.guiScale.tooltip.5=奇数值（1x，3x，5x之类）与 Unicode 不兼容。
 options.guiScale.tooltip.6=较小的界面或许会更快。
 
 options.vbo.tooltip.1=顶点缓冲区对象
@@ -119,9 +124,9 @@ options.gamma.tooltip.4=  明亮 - 最大亮度
 options.gamma.tooltip.5=此选项不会改变
 options.gamma.tooltip.6=完全黑色的物体的亮度。
 
-options.anaglyph.tooltip.1=3D立体
-options.anaglyph.tooltip.2=通过为每只眼睛分色
-options.anaglyph.tooltip.3=以启用3D立体效果。
+options.anaglyph.tooltip.1=3D效果
+options.anaglyph.tooltip.2=通过为双眼分配不同颜色
+options.anaglyph.tooltip.3=以实现 3D 立体效果。
 options.anaglyph.tooltip.4=需要使用红蓝眼镜正常观看。
 
 of.options.ALTERNATE_BLOCKS=替选方块
@@ -145,13 +150,13 @@ of.options.FOG_START.tooltip.4=此选项通常不会影响性能。
 
 of.options.CHUNK_LOADING=区块加载
 of.options.CHUNK_LOADING.tooltip.1=区块加载
-of.options.CHUNK_LOADING.tooltip.2=  默认 - 当加载区块时FPS不稳定
-of.options.CHUNK_LOADING.tooltip.3=  平滑 - 稳定FPS
-of.options.CHUNK_LOADING.tooltip.4=  多核心 - 稳定FPS，3倍的世界加载速度
+of.options.CHUNK_LOADING.tooltip.2=  默认 - 当加载区块时 FPS 不稳定
+of.options.CHUNK_LOADING.tooltip.3=  平滑 - 稳定 FPS
+of.options.CHUNK_LOADING.tooltip.4=  多核心 - 稳定 FPS ，3倍的世界加载速度
 of.options.CHUNK_LOADING.tooltip.5=平滑和多核心可消除由区块
 of.options.CHUNK_LOADING.tooltip.6=加载引起的延迟和卡顿。
 of.options.CHUNK_LOADING.tooltip.7=多核心可以令世界加载速度提升3倍
-of.options.CHUNK_LOADING.tooltip.8=并通过使用多个CPU核心来提升FPS。
+of.options.CHUNK_LOADING.tooltip.8=并通过使用多个 CPU 核心来提升 FPS。
 of.options.chunkLoading.smooth=平滑
 of.options.chunkLoading.multiCore=多核心
 
@@ -165,8 +170,8 @@ of.options.shaders.ANTIALIASING=抗锯齿
 of.options.shaders.ANTIALIASING.tooltip.1=抗锯齿
 of.options.shaders.ANTIALIASING.tooltip.2=  关闭 - （默认）禁用抗锯齿（较快）
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 对线和边缘抗锯齿处理（较慢）
-of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一种平滑锯齿线和鲜明的色彩过渡的
-of.options.shaders.ANTIALIASING.tooltip.5=后处理特效。
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一种使锯齿状线条线和鲜明的色彩过渡
+of.options.shaders.ANTIALIASING.tooltip.5=更为平滑的后处理特效。
 of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，
 of.options.shaders.ANTIALIASING.tooltip.7=同时也与光影和快速渲染兼容。 
 
@@ -196,7 +201,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高（最慢）
 of.options.shaders.RENDER_RES_MUL.tooltip.5=渲染精细度控制
 of.options.shaders.RENDER_RES_MUL.tooltip.6=光影包当前渲染的材质大小。
 of.options.shaders.RENDER_RES_MUL.tooltip.7=较低的值或许利于4K显示。
-of.options.shaders.RENDER_RES_MUL.tooltip.8=较高的值作为抗锯齿过滤采样器工作。
+of.options.shaders.RENDER_RES_MUL.tooltip.8=较高的值将以抗锯齿滤镜的形式工作。
 
 of.options.shaders.SHADOW_RES_MUL=阴影精细度
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=阴影精细度
@@ -226,8 +231,8 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  默认 - 光影包控制
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  开启 - 使用经典手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  关闭 - 使用新式手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.5=经典手持光源允许只能辨别
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=主手持有发光物品的光影包
-of.options.shaders.OLD_HAND_LIGHT.tooltip.7=同样在另一只手上工作。
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=主手中发光物品的光影包
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=对于另一只手也能工作。
 
 of.options.shaders.OLD_LIGHTING=经典光效
 of.options.shaders.OLD_LIGHTING.tooltip.1=经典光效
@@ -276,7 +281,7 @@ of.shaders.profile=配置文件
 
 of.options.mipmap.bilinear=双线性
 of.options.mipmap.linear=线性
-of.options.mipmap.nearest=最近
+of.options.mipmap.nearest=邻近
 of.options.mipmap.trilinear=三线性
 
 options.mipmapLevels.tooltip.1=通过平滑材质细节，使远处的
@@ -286,32 +291,32 @@ options.mipmapLevels.tooltip.4=  1 - 最小平滑
 options.mipmapLevels.tooltip.5=  4 - 最大平滑
 options.mipmapLevels.tooltip.6=此选项通常不会影响性能。
 
-of.options.MIPMAP_TYPE=多级渐进纹理过滤类型
+of.options.MIPMAP_TYPE=多级纹理（mipmap）类型
 of.options.MIPMAP_TYPE.tooltip.1=通过平滑材质细节，使远处的
 of.options.MIPMAP_TYPE.tooltip.2=物体获得更好的视觉效果。
-of.options.MIPMAP_TYPE.tooltip.3=  最近 - 粗糙平滑（最快）
+of.options.MIPMAP_TYPE.tooltip.3=  邻近 - 粗略平滑（最快）
 of.options.MIPMAP_TYPE.tooltip.4=  线性 - 正常平滑
 of.options.MIPMAP_TYPE.tooltip.5=  双线性 - 精细平滑
-of.options.MIPMAP_TYPE.tooltip.6=  三线性 - 最佳平滑（最慢）
+of.options.MIPMAP_TYPE.tooltip.6=  三线性 - 极致平滑（最慢）
 
 
 of.options.AA_LEVEL=抗锯齿
 of.options.AA_LEVEL.tooltip.1=抗锯齿
 of.options.AA_LEVEL.tooltip.2= 关闭 - （默认）禁用抗锯齿（较快）
-of.options.AA_LEVEL.tooltip.3= 2-16 - 对线和边缘抗锯齿处理（较慢）
-of.options.AA_LEVEL.tooltip.4=抗锯齿对锯齿线和鲜明的色彩过渡
-of.options.AA_LEVEL.tooltip.5=进行平滑处理。
-of.options.AA_LEVEL.tooltip.6=启用它可能会大幅降低FPS。
+of.options.AA_LEVEL.tooltip.3= 2-16 - 对线条和边缘进行抗锯齿处理（较慢）
+of.options.AA_LEVEL.tooltip.4=抗锯齿对锯齿状的线条
+of.options.AA_LEVEL.tooltip.5=和鲜明的色彩过渡进行平滑处理。
+of.options.AA_LEVEL.tooltip.6=启用它可能会大幅降低 FPS。
 of.options.AA_LEVEL.tooltip.7=并非所有级别都被显卡支持。
 of.options.AA_LEVEL.tooltip.8=重启后生效！
 
 of.options.AF_LEVEL=各向异性过滤
 of.options.AF_LEVEL.tooltip.1=各向异性过滤
 of.options.AF_LEVEL.tooltip.2= 关闭 - （默认）标准材质细节（较快）
-of.options.AF_LEVEL.tooltip.3= 2-16 - 为多级纹理过滤后的材质提供精细细节（较慢）
+of.options.AF_LEVEL.tooltip.3= 2-16 - 还原多级纹理(mipmap)处理后的的细节（较慢）
 of.options.AF_LEVEL.tooltip.4=各向异性过滤还原了经多级
 of.options.AF_LEVEL.tooltip.5=纹理过滤后的材质细节。
-of.options.AF_LEVEL.tooltip.6=启用它可能会大幅降低FPS。
+of.options.AF_LEVEL.tooltip.6=启用它可能会大幅降低 FPS。
 
 of.options.CLEAR_WATER=清澈水体
 of.options.CLEAR_WATER.tooltip.1=清澈水体
@@ -376,24 +381,24 @@ of.options.CONNECTED_TEXTURES.tooltip.6=当这些同类方块放在一起时会�
 of.options.CONNECTED_TEXTURES.tooltip.7=连接材质一般由
 of.options.CONNECTED_TEXTURES.tooltip.8=当前的资源包提供。
 
-of.options.NATURAL_TEXTURES=天然纹理
-of.options.NATURAL_TEXTURES.tooltip.1=天然纹理
-of.options.NATURAL_TEXTURES.tooltip.2=  关闭 - 关闭天然纹理（默认）
-of.options.NATURAL_TEXTURES.tooltip.3=  开启 - 使用天然纹理
-of.options.NATURAL_TEXTURES.tooltip.4=天然纹理会移除由同一类型的方块重复放置
-of.options.NATURAL_TEXTURES.tooltip.5=而造成的栅格状图案。它通过旋转和翻转
+of.options.NATURAL_TEXTURES=自然纹理
+of.options.NATURAL_TEXTURES.tooltip.1=自然纹理
+of.options.NATURAL_TEXTURES.tooltip.2=  关闭 - 关闭自然纹理（默认）
+of.options.NATURAL_TEXTURES.tooltip.3=  开启 - 启用自然纹理
+of.options.NATURAL_TEXTURES.tooltip.4=自然纹理会移除由同一类型的方块重复铺设
+of.options.NATURAL_TEXTURES.tooltip.5=而造成的栅格状图案。此功能通过旋转和翻转
 of.options.NATURAL_TEXTURES.tooltip.6=方块的基础材质来创建材质变体。
-of.options.NATURAL_TEXTURES.tooltip.7=天然纹理的配置和材质一般由
+of.options.NATURAL_TEXTURES.tooltip.7=自然纹理的配置一般由
 of.options.NATURAL_TEXTURES.tooltip.8=当前的资源包提供。
 
-of.options.EMISSIVE_TEXTURES=光亮纹理
-of.options.EMISSIVE_TEXTURES.tooltip.1=光亮纹理
-of.options.EMISSIVE_TEXTURES.tooltip.2=  关闭 - 关闭光亮纹理（默认）
-of.options.EMISSIVE_TEXTURES.tooltip.3=  开启 - 使用光亮纹理
-of.options.EMISSIVE_TEXTURES.tooltip.4=光亮纹理被渲染为拥有
-of.options.EMISSIVE_TEXTURES.tooltip.5=最高亮度的覆盖层。可用于
-of.options.EMISSIVE_TEXTURES.tooltip.6=模拟原材质的发光部分。
-of.options.EMISSIVE_TEXTURES.tooltip.7=光亮纹理一般由
+of.options.EMISSIVE_TEXTURES=自发光纹理
+of.options.EMISSIVE_TEXTURES.tooltip.1=自发光纹理
+of.options.EMISSIVE_TEXTURES.tooltip.2=  关闭 - 关闭自发光纹理（默认）
+of.options.EMISSIVE_TEXTURES.tooltip.3=  开启 - 启用自发光纹理
+of.options.EMISSIVE_TEXTURES.tooltip.4=自发光纹理会作为覆盖层
+of.options.EMISSIVE_TEXTURES.tooltip.5=以最大亮度渲染。可用于
+of.options.EMISSIVE_TEXTURES.tooltip.6=模拟基础材质的发光部分。
+of.options.EMISSIVE_TEXTURES.tooltip.7=自发光纹理一般由
 of.options.EMISSIVE_TEXTURES.tooltip.8=当前的资源包提供。
 
 of.options.CUSTOM_SKY=自定义天空
@@ -431,8 +436,8 @@ of.options.CLOUDS.tooltip.2=  默认 - 以“图形品质”的设定为准
 of.options.CLOUDS.tooltip.3=  流畅 - 低品质，较快
 of.options.CLOUDS.tooltip.4=  高品质 - 高品质，较慢
 of.options.CLOUDS.tooltip.5=  关闭 - 禁用云，最快
-of.options.CLOUDS.tooltip.6=低品质云使用2D渲染，
-of.options.CLOUDS.tooltip.7=高品质云使用3D渲染。
+of.options.CLOUDS.tooltip.6=低品质云使用 2D 渲染，
+of.options.CLOUDS.tooltip.7=高品质云使用 3D 渲染。
 
 of.options.CLOUD_HEIGHT=云高度
 of.options.CLOUD_HEIGHT.tooltip.1=云高度
@@ -499,11 +504,11 @@ of.options.ADVANCED_TOOLTIPS.tooltip.4=物品（ID、耐久度）和光影设置
 of.options.ADVANCED_TOOLTIPS.tooltip.5=（ID、源、默认值）的额外信息
 of.options.ADVANCED_TOOLTIPS.tooltip.6=会在开启时显示。
 
-of.options.DROPPED_ITEMS=掉落物品
-of.options.DROPPED_ITEMS.tooltip.1=掉落物品
+of.options.DROPPED_ITEMS=掉落物
+of.options.DROPPED_ITEMS.tooltip.1=掉落物
 of.options.DROPPED_ITEMS.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.DROPPED_ITEMS.tooltip.3=  流畅 - 2D掉落物品，较快
-of.options.DROPPED_ITEMS.tooltip.4=  高品质 - 3D掉落物品，较慢
+of.options.DROPPED_ITEMS.tooltip.3=  流畅 - 2D 掉落物，较快
+of.options.DROPPED_ITEMS.tooltip.4=  高品质 - 3D 掉落物，较慢
 
 options.entityShadows.tooltip.1=实体阴影
 options.entityShadows.tooltip.2=  开启 - 显示实体阴影
@@ -529,25 +534,25 @@ of.options.DYNAMIC_FOV.tooltip.5=拉弓时改变视场。
 of.options.DYNAMIC_LIGHTS=动态光源
 of.options.DYNAMIC_LIGHTS.tooltip.1=动态光源
 of.options.DYNAMIC_LIGHTS.tooltip.2=  关闭 - 无动态光源（默认）
-of.options.DYNAMIC_LIGHTS.tooltip.3=  流畅 - 较快的动态光源（每500ms更新一次）
+of.options.DYNAMIC_LIGHTS.tooltip.3=  流畅 - 较快的动态光源（每 500ms 更新一次）
 of.options.DYNAMIC_LIGHTS.tooltip.4=  高品质 - 高品质的动态光源（实时更新）
-of.options.DYNAMIC_LIGHTS.tooltip.5=允许发光的物品（火把、萤石等）
-of.options.DYNAMIC_LIGHTS.tooltip.6=当被玩家左右手持握、装备或
+of.options.DYNAMIC_LIGHTS.tooltip.5=使得发光的物品（火把、萤石等）
+of.options.DYNAMIC_LIGHTS.tooltip.6=被玩家左右手持握、装备或
 of.options.DYNAMIC_LIGHTS.tooltip.7=成为掉落物时照亮周围。
 
 # Performance
 
-of.options.SMOOTH_FPS=平滑FPS
-of.options.SMOOTH_FPS.tooltip.1=通过清除显卡缓冲区来稳定FPS
-of.options.SMOOTH_FPS.tooltip.2=  关闭 - 不稳定，FPS可能波动
-of.options.SMOOTH_FPS.tooltip.3=  开启 - FPS稳定
+of.options.SMOOTH_FPS=平滑 FPS
+of.options.SMOOTH_FPS.tooltip.1=通过清除显卡缓冲区来稳定 FPS
+of.options.SMOOTH_FPS.tooltip.2=  关闭 - 不稳定，FPS 可能波动
+of.options.SMOOTH_FPS.tooltip.3=  开启 - FPS 稳定
 of.options.SMOOTH_FPS.tooltip.4=此选项依赖于显卡驱动，
 of.options.SMOOTH_FPS.tooltip.5=通常效果并不明显。
 
 of.options.SMOOTH_WORLD=平滑世界
 of.options.SMOOTH_WORLD.tooltip.1=移除内部服务造成的数据延时。
-of.options.SMOOTH_WORLD.tooltip.2=  关闭 - 不稳定，FPS可能波动
-of.options.SMOOTH_WORLD.tooltip.3=  开启 - FPS稳定
+of.options.SMOOTH_WORLD.tooltip.2=  关闭 - 不稳定，FPS 可能波动
+of.options.SMOOTH_WORLD.tooltip.3=  开启 - FPS 稳定
 of.options.SMOOTH_WORLD.tooltip.4=分担内部服务器负载来稳定FPS。
 of.options.SMOOTH_WORLD.tooltip.5=只在本地世界（单人游戏）有效。
 
@@ -555,27 +560,27 @@ of.options.FAST_RENDER=快速渲染
 of.options.FAST_RENDER.tooltip.1=快速渲染
 of.options.FAST_RENDER.tooltip.2= 关闭 - 标准渲染（默认）
 of.options.FAST_RENDER.tooltip.3= 开启 - 优化渲染（较快）
-of.options.FAST_RENDER.tooltip.4=采用优化渲染算法从而降低GPU的负载
-of.options.FAST_RENDER.tooltip.5=并且可能大幅提升FPS。
+of.options.FAST_RENDER.tooltip.4=采用优化渲染算法从而降低 GPU 的负载
+of.options.FAST_RENDER.tooltip.5=并且可能大幅提升 FPS。
 
 of.options.FAST_MATH=快速运算
 of.options.FAST_MATH.tooltip.1=快速运算
 of.options.FAST_MATH.tooltip.2= 关闭 - 标准的运算（默认）
 of.options.FAST_MATH.tooltip.3= 开启 - 更快的运算
-of.options.FAST_MATH.tooltip.4=采用优化的sin()和cos()函数可以
-of.options.FAST_MATH.tooltip.5=更好地利用CPU缓存并且提升FPS。
+of.options.FAST_MATH.tooltip.4=采用优化的 sin() 和 cos() 函数可以
+of.options.FAST_MATH.tooltip.5=更好地利用 CPU 缓存并且提升 FPS。
 
 of.options.CHUNK_UPDATES=区块更新
 of.options.CHUNK_UPDATES.tooltip.1=区块更新
-of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界载入速度较慢，FPS较高（默认）
-of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界载入速度较快，FPS较低
-of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界载入速度最快，FPS最低
+of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界载入速度较慢，FPS 较高（默认）
+of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界载入速度较快，FPS 较低
+of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界载入速度最快，FPS 最低
 of.options.CHUNK_UPDATES.tooltip.5=渲染每帧时更新的区块数，
 of.options.CHUNK_UPDATES.tooltip.6=更高的值将会导致帧数不稳定。
 
 of.options.CHUNK_UPDATES_DYNAMIC=动态更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=动态区块更新
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= 关闭 - （默认）每帧标准区块更新
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= 关闭 - 标准的每帧区块更新（默认）
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= 开启 - 当玩家站立不动时更多的区块更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=当玩家站立不动时，强迫更多的
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=区块更新，使得世界加载更快。
@@ -587,14 +592,23 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= 开启 - 缓慢的服务器区块载入
 of.options.LAZY_CHUNK_LOADING.tooltip.4=将区块分布在多个“游戏刻”进行加载
 of.options.LAZY_CHUNK_LOADING.tooltip.5=从而平滑服务器整体区块加载。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正确地载入，请把它设置为关。
-of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于单玩家的本地世界。
+of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于单人游戏的本地世界。
 
 of.options.RENDER_REGIONS=区域渲染
 of.options.RENDER_REGIONS.tooltip.1=区域渲染
-of.options.RENDER_REGIONS.tooltip.2= 关闭 - （默认）不使用区域渲染
+of.options.RENDER_REGIONS.tooltip.2= 关闭 - 不使用区域渲染（默认）
 of.options.RENDER_REGIONS.tooltip.3= 开启 - 使用区域渲染
 of.options.RENDER_REGIONS.tooltip.4=区域渲染可使远处的地形渲染得更快。
 of.options.RENDER_REGIONS.tooltip.5=当启用顶点缓冲区对象时此选项将更有效。
+
+of.options.SMART_ANIMATIONS=智能动态材质
+of.options.SMART_ANIMATIONS.tooltip.1=智能动态材质
+of.options.SMART_ANIMATIONS.tooltip.2= 关闭 - 不使用智能动态材质（默认）
+of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动态材质
+of.options.SMART_ANIMATIONS.tooltip.4=当使用智能动态材质时，游戏仅更新
+of.options.SMART_ANIMATIONS.tooltip.5=当前屏幕可见的动态材质。
+of.options.SMART_ANIMATIONS.tooltip.6=此选项可减少游戏刻突发延迟并提升 FPS。
+of.options.SMART_ANIMATIONS.tooltip.7=对于大型模组包和高清资源包格外有效。
 
 # Animations
 
@@ -608,16 +622,16 @@ of.options.ANIMATED_FIRE=火焰动画
 of.options.ANIMATED_PORTAL=传送门动画
 of.options.ANIMATED_REDSTONE=红石动画
 of.options.ANIMATED_EXPLOSION=爆炸动画
-of.options.ANIMATED_FLAME=燃烧动画
+of.options.ANIMATED_FLAME=火焰动画
 of.options.ANIMATED_SMOKE=烟雾动画
 of.options.VOID_PARTICLES=虚空粒子
 of.options.WATER_PARTICLES=水面粒子
 of.options.RAIN_SPLASH=雨滴飞溅
 of.options.PORTAL_PARTICLES=传送门粒子
 of.options.POTION_PARTICLES=药水粒子
-of.options.DRIPPING_WATER_LAVA=流动水/岩浆
+of.options.DRIPPING_WATER_LAVA=水滴/岩浆滴
 of.options.ANIMATED_TERRAIN=地形动画
-of.options.ANIMATED_TEXTURES=材质动画
+of.options.ANIMATED_TEXTURES=动态材质
 of.options.FIREWORK_PARTICLES=烟花粒子
 
 # Other
@@ -670,8 +684,8 @@ of.options.FULLSCREEN_MODE.tooltip.3=  自定义 - 使用自定义屏幕分辨�
 of.options.FULLSCREEN_MODE.tooltip.4=这个选项只有在全屏模式下生效（F11）。
 of.options.FULLSCREEN_MODE.tooltip.5=较低的分辨率通常会更快。
 
-of.options.SHOW_FPS=显示FPS
-of.options.SHOW_FPS.tooltip.1=显示迷你的FPS和渲染信息
+of.options.SHOW_FPS=显示 FPS
+of.options.SHOW_FPS.tooltip.1=显示迷你的 FPS 和渲染信息
 of.options.SHOW_FPS.tooltip.2=  C：- 区块渲染器
 of.options.SHOW_FPS.tooltip.3=  E：- 一般实体 + 方块实体
 of.options.SHOW_FPS.tooltip.4=  U：- 区块更新
@@ -695,3 +709,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自定义截图尺寸
 of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截图可能需要更多的内存。
 of.options.SCREENSHOT_SIZE.tooltip.5=与快速渲染和抗锯齿不兼容。
 of.options.SCREENSHOT_SIZE.tooltip.6=需要显卡帧缓冲区支持。
+
++of.options.SHOW_GL_ERRORS=显示 GL 错误
++of.options.SHOW_GL_ERRORS.tooltip.1=显示 OpenGL 错误
++of.options.SHOW_GL_ERRORS.tooltip.2=当启用此选项时，OpenGL 错误会在聊天框中显示出来。
++of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且
++of.options.SHOW_GL_ERRORS.tooltip.4=明确知道错误无法修复时禁用此选项。
++of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
++of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误可能仍会导致明显的 FPS 下降。

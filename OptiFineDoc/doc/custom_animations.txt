@@ -29,6 +29,10 @@ or any subfolder within. Add these properties to the file
   y=<y coordinate of area to animate>
   w=<width of area to animate>
   h=<height of area to animate>
+  # Optional
+  duration=<default frame duration in ticks>
+  interpolate=<true|false>
+  skip=<interpolation ticks to skip>
 
 See About Properties Files for how to specify paths to texture files (properties_files.txt).
 
@@ -50,7 +54,7 @@ Each custom animation may also specify its animation speed and frame order. In t
 
 X starts at 0 and represents the order you want frames to display in. Y is the tile number in the animation .png file, 
 the first tile being 0, the second 1, etc. Z is the duration you want that frame displayed, in game ticks (1 tick = 1/20 second). 
-If omitted, duration is assumed to be 1 for that frame.
+If omitted, duration is assumed to be the default frame duration or 1 if not configured.
 
 For example, suppose your animation file is 16x48 (3 frames). To make it run on a 5-frame cycle with a pause in the middle, 
 the properties file might look like this:
@@ -65,11 +69,11 @@ the properties file might look like this:
 
 The animation happens in this order:
 
-  Frame 0: Display animation tile 0 for 1 tick (no duration property).
-  Frame 1: Display animation tile 1 for 1 tick (no duration property).
+  Frame 0: Display animation tile 0 for 1 tick (default duration).
+  Frame 1: Display animation tile 1 for 1 tick (default duration).
   Frame 2: Display animation tile 2 for 5 ticks (duration=5).
-  Frame 3: Display animation tile 1 for 1 tick (no duration property).
-  Frame 4: Display animation tile 0 for 1 tick (no duration property).
+  Frame 3: Display animation tile 1 for 1 tick (default duration).
+  Frame 4: Display animation tile 0 for 1 tick (default duration).
   Go back to frame 0.
   Total: 5 frames over 9 ticks.
 
