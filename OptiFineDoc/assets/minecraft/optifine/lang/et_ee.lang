@@ -479,11 +479,12 @@ of.options.SHOW_CAPES.tooltip.3=  VÄLJAS - ära kuva mängijate keepe
 
 of.options.TRANSLUCENT_BLOCKS=Läbikumavad plokid
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Läbikumavad plokid
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Uhke - korrektne värvide üleminek (vaikimisi)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Kiire - kiire värvide üleminek (kiirem)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Juhib erinevate värvidega poolläbipaistvate plokkide
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=(toonitud klaas, vesi, jää) värvide üleminekut,
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=kui need on asetatud õhuvahega üksteise taha.
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Uhke - korrektne värvide üleminek (aeglasem)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Kiire - kiire värvide üleminek (kiirem)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Juhib erinevate värvidega poolläbipaistvate plokkide
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=(toonitud klaas, vesi, jää) värvide üleminekut,
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=kui need on asetatud õhuvahega üksteise taha.
 
 of.options.HELD_ITEM_TOOLTIPS=Esemete näpunäited
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Käeshoitavate esemete näpunäited
@@ -501,8 +502,8 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=valikute kohta (ID, allikas, vaikeväärt
 of.options.DROPPED_ITEMS=Visatud esemed
 of.options.DROPPED_ITEMS.tooltip.1=Maha visatud esemed
 of.options.DROPPED_ITEMS.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
-of.options.DROPPED_ITEMS.tooltip.3=  Kiire - visatud esemed 2Dna, kiirem
-of.options.DROPPED_ITEMS.tooltip.4=  Uhke - visatud esemed 3Dna, aeglasem
+of.options.DROPPED_ITEMS.tooltip.3=  Kiire - visatud esemed 2Dna (kiirem)
+of.options.DROPPED_ITEMS.tooltip.4=  Uhke - visatud esemed 3Dna (aeglasem)
 
 options.entityShadows.tooltip.1=Olemite varjud
 options.entityShadows.tooltip.2=  SEES - kuva olemite varje
