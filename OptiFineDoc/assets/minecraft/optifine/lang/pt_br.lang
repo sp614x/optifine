@@ -13,16 +13,16 @@ of.key.zoom=Zoom
 
 # Message
 of.message.aa.shaders1=O Antialiasing é incompatível com o Shaders.
-of.message.aa.shaders2=Desative-o para usar essa opção.
+of.message.aa.shaders2=Desative-o para usar esta opção.
 
 of.message.af.shaders1=A Filtragem Anisotrópica é incompatível com o Shaders.
-of.message.af.shaders2=Desative-a para ativar essa opção.
+of.message.af.shaders2=Desative-a para ativar esta opção.
 
 of.message.fr.shaders1=A Renderização Rápida é incompatível com o Shaders.
-of.message.fr.shaders2=Desative-a para ativar essa opção.
+of.message.fr.shaders2=Desative-a para ativar esta opção.
 
 of.message.an.shaders1=O 3D anaglífico é incompatível com o Shaders.
-of.message.an.shaders2=Desative-o para ativar essa opção.
+of.message.an.shaders2=Desative-o para ativar esta opção.
 
 of.message.shaders.aa1=O Shaders é incompatível com o Antialiasing.
 of.message.shaders.aa2=Qualidade -> Desative o Antialiasing e reinicie o jogo.
@@ -36,10 +36,10 @@ of.message.shaders.fr2=Qualidade -> Desative a Renderização Rápida.
 of.message.shaders.an1=O Shaders é incompatível com o 3D anaglífico.
 of.message.shaders.an2=Diversas -> Desative o 3D anaglífico.
 
-of.message.shaders.nv1=Este pacote Shaders requer uma versão mais recente do Optifine: %s
+of.message.shaders.nv1=Este pacote Shaders requer uma versão mais recente do OptiFine: %s
 of.message.shaders.nv2=Deseja mesmo continuar?
 
-of.message.newVersion=Uma nova versão do §eOptiFine§f está disponível: §e%s§f
+of.message.newVersion=Nova versão do §eOptiFine§f disponível: §e%s§f
 of.message.java64Bit=Instale o §eJava de 64-bits§f para melhorar o desempenho.
 of.message.openglError=§eErro do OpenGL§f: %s (%s)
 
@@ -81,7 +81,7 @@ options.renderDistance.tooltip.8=Valores acima de 16 funcionam apenas em mundos 
 options.ao.tooltip.1=Iluminação suave
 options.ao.tooltip.2=  Não - sem iluminação suave (rápida)
 options.ao.tooltip.3=  Mínima - iluminação suave simples (lenta)
-options.ao.tooltip.4=  Máxima - iluminação suave realista (mais lenta)
+options.ao.tooltip.4=  Máxima - iluminação suave realista (mais lenta!)
 
 options.framerateLimit.tooltip.1=Limite de quadros
 options.framerateLimit.tooltip.2=  VSync - taxa de quadros limitada (60, 30, 20)
@@ -104,7 +104,7 @@ options.guiScale.tooltip.1=Interface
 options.guiScale.tooltip.2=  Automática - tamanho máximo
 options.guiScale.tooltip.3=  Pequena, Normal, Grande - 1x para 3x
 options.guiScale.tooltip.4=  4x para 10x - disponível em monitores 4K
-options.guiScale.tooltip.5=Valores ímpares (1x, 3x, 5x...) não são compatíveis
+options.guiScale.tooltip.5=Valores ímpares (1x, 3x, 5x...) são incompatíveis
 options.guiScale.tooltip.6=com Unicode. Uma interface pequena pode melhorar
 options.guiScale.tooltip.7=o desempenho.
 
@@ -241,10 +241,9 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=a iluminação mais realista, dependen
 
 of.options.shaders.DOWNLOAD=Baixar Shaders
 of.options.shaders.DOWNLOAD.tooltip.1=Baixar Shaders
-of.options.shaders.DOWNLOAD.tooltip.2=
-of.options.shaders.DOWNLOAD.tooltip.3=Abra a página de pacotes Shaders no seu navegador.
-of.options.shaders.DOWNLOAD.tooltip.4=Mova os pacotes baixados para a "Pasta do Shaders"
-of.options.shaders.DOWNLOAD.tooltip.5=e eles serão exibidos na lista de Shaders instalados.
+of.options.shaders.DOWNLOAD.tooltip.2=Abra a página de pacotes Shaders no seu navegador.
+of.options.shaders.DOWNLOAD.tooltip.3=Mova os pacotes baixados para a "Pasta do Shaders"
+of.options.shaders.DOWNLOAD.tooltip.4=e eles serão exibidos na lista de Shaders instalados.
 
 of.options.shaders.SHADER_PACK=Pacote Shaders
 
@@ -327,7 +326,7 @@ of.options.RANDOM_ENTITIES.tooltip.6=texturas de entidades.
 
 of.options.BETTER_GRASS=Better Grass
 of.options.BETTER_GRASS.tooltip.1=Better Grass
-of.options.BETTER_GRASS.tooltip.2=  Não - textura comum da grama, rápida
+of.options.BETTER_GRASS.tooltip.2=  Não - textura normal da grama, rápida
 of.options.BETTER_GRASS.tooltip.3=  Rápido - textura integrada da grama, lenta
 of.options.BETTER_GRASS.tooltip.4=  Bonito - textura dinâmica da grama, mais lenta
 
@@ -648,7 +647,7 @@ of.options.PROFILER=Análise de depuração
 of.options.PROFILER.tooltip.1=Análise de depuração
 of.options.PROFILER.tooltip.2=  Sim - Depuração ativada, lenta
 of.options.PROFILER.tooltip.3=  Não - Depuração desativada, rápida
-of.options.PROFILER.tooltip.4=A análise de depuração coleta e exibe dados de
+of.options.PROFILER.tooltip.4=A análise de depuração coleta e mostra dados de
 of.options.PROFILER.tooltip.5=depuração quando o referido modo é ativado (F3).
 
 of.options.WEATHER=Clima
@@ -714,5 +713,5 @@ of.options.SHOW_GL_ERRORS.tooltip.1=Mostrar erros da OpenGL
 of.options.SHOW_GL_ERRORS.tooltip.2=Ao ativar, erros da OpenGL são exibidos no bate-papo.
 of.options.SHOW_GL_ERRORS.tooltip.3=Desativar apenas caso haja conflitos e se os erros
 of.options.SHOW_GL_ERRORS.tooltip.4=não puderem ser corrigidos.
-of.options.SHOW_GL_ERRORS.tooltip.5=Ao desativar, erros ainda são registrados no relatórios,
-of.options.SHOW_GL_ERRORS.tooltip.6=e podem reduzir a taxa de quadros.
+of.options.SHOW_GL_ERRORS.tooltip.5=Ao desativar, erros ainda são registrados, e
+of.options.SHOW_GL_ERRORS.tooltip.6=podem reduzir a taxa de quadros.
