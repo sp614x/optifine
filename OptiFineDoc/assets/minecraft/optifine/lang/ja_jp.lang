@@ -480,11 +480,12 @@ of.options.SHOW_CAPES.tooltip.3=  オフ - マントを表示しない
 
 of.options.TRANSLUCENT_BLOCKS=半透明のブロック
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明のブロック
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  描画優先 - 完全なカラーブレンド (初期値)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  処理優先 - 速さ重視のカラーブレンド (低負荷)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=違う色を持った半透明ブロック (色付きガラス、水、氷)
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=が空気を挟んで隣接した際の
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=カラーブレンドの設定です。
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  デフォルト - グラフィックスの設定に合わせる
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  描画優先 - 完全なカラーブレンド (初期値)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  処理優先 - 速さ重視のカラーブレンド (低負荷)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=違う色を持った半透明ブロック (色付きガラス、水、氷)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=が空気を挟んで隣接した際の
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=カラーブレンドの設定です。
 
 of.options.HELD_ITEM_TOOLTIPS=持ち替え時アイテム名表示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持ち替え時アイテム名表示
@@ -502,8 +503,8 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=拡張された情報を表示します�
 of.options.DROPPED_ITEMS=落ちているアイテムの表示
 of.options.DROPPED_ITEMS.tooltip.1=落ちているアイテムの表示
 of.options.DROPPED_ITEMS.tooltip.2=  デフォルト - グラフィックスの設定に合わせる
-of.options.DROPPED_ITEMS.tooltip.3=  処理優先 - 落ちているアイテムを2Dで表示する 低負荷
-of.options.DROPPED_ITEMS.tooltip.4=  描画優先 - 落ちているアイテムを3Dで表示する 高負荷
+of.options.DROPPED_ITEMS.tooltip.3=  処理優先 - 落ちているアイテムを2Dで表示する (低負荷)
+of.options.DROPPED_ITEMS.tooltip.4=  描画優先 - 落ちているアイテムを3Dで表示する (高負荷)
 
 options.entityShadows.tooltip.1=エンティティの影
 options.entityShadows.tooltip.2=  オン - エンティティの影を表示する
