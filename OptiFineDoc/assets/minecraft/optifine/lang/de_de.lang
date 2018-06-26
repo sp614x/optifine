@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2018-06-25
+#   TheHADILP 2016-5-20 ---- 2018-06-26
 #   Nerdyyy 2018-1-6
 
 # General
@@ -494,7 +494,7 @@ of.options.SHOW_CAPES.tooltip.5=Leistung.
 of.options.TRANSLUCENT_BLOCKS=Blocktransparenz
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocktransparenz
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - Wie Grafikmodus
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Schön - Korrekte Farbmischung (Standard, langsamer)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Schön - Korrekte Farbmischung (langsamer)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Schnell - Schnelle Farbmischung (schneller)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontrolliert die Farbmischung von transparenten Blöcken
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=mit verschiedenen Farben (Gefärbtes Glas, Wasser, Eis),
