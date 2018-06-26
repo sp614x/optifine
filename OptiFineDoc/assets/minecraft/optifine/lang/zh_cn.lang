@@ -485,11 +485,12 @@ of.options.SHOW_CAPES.tooltip.3=  关闭 - 不显示玩家披风
 
 of.options.TRANSLUCENT_BLOCKS=半透明方块
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明方块
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  高品质 - 准确的颜色混合（默认）
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  流畅 - 快速的颜色混合（较快）
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=控制不同颜色的半透明方块
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=（如染色玻璃、水、冰）间
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=有空气存在时，彼此颜色的混合。
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=   默认 - 以“图形品质”的设定为准
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  高品质 - 准确的颜色混合（默认）
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  流畅 - 快速的颜色混合（较快）
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=控制不同颜色的半透明方块
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=（如染色玻璃、水、冰）间
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=有空气存在时，彼此颜色的混合。
 
 of.options.HELD_ITEM_TOOLTIPS=持有物信息显示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持有物信息显示
@@ -710,10 +711,10 @@ of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截图可能需要更多的�
 of.options.SCREENSHOT_SIZE.tooltip.5=与快速渲染和抗锯齿不兼容。
 of.options.SCREENSHOT_SIZE.tooltip.6=需要显卡帧缓冲区支持。
 
-+of.options.SHOW_GL_ERRORS=显示 GL 错误
-+of.options.SHOW_GL_ERRORS.tooltip.1=显示 OpenGL 错误
-+of.options.SHOW_GL_ERRORS.tooltip.2=当启用此选项时，OpenGL 错误会在聊天框中显示出来。
-+of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且
-+of.options.SHOW_GL_ERRORS.tooltip.4=明确知道错误无法修复时禁用此选项。
-+of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
-+of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误可能仍会导致明显的 FPS 下降。
+of.options.SHOW_GL_ERRORS=显示 GL 错误
+of.options.SHOW_GL_ERRORS.tooltip.1=显示 OpenGL 错误
+of.options.SHOW_GL_ERRORS.tooltip.2=当启用此选项时，OpenGL 错误会在聊天框中显示出来。
+of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且
+of.options.SHOW_GL_ERRORS.tooltip.4=明确知道错误无法修复时禁用此选项。
+of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
+of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误可能仍会导致明显的 FPS 下降。
