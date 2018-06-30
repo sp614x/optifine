@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2018-03-31
+#   TheHADILP 2016-5-20 ---- 2018-06-25
 #   Nerdyyy 2018-1-6
 
 # General
@@ -57,8 +57,8 @@ of.message.loadingVisibleChunks=Lade sichtbare Chunks
 # Video settings
 
 options.graphics.tooltip.1=Grafikmodus
-options.graphics.tooltip.2=  Schnell - Schlechtere Qualität, schneller
-options.graphics.tooltip.3=  Schön   - Höhere Qualität, langsamer
+options.graphics.tooltip.2=  Schnell - Schlechtere Qualität (schneller)
+options.graphics.tooltip.3=  Schön   - Höhere Qualität (langsamer)
 options.graphics.tooltip.4=Verändert das Aussehen von Wolken, Blättern, Wasser,
 options.graphics.tooltip.5=Schatten und Grasblöcken.
 
@@ -326,8 +326,8 @@ of.options.CLEAR_WATER.tooltip.3=  Aus - Normales Wasser
 
 of.options.RANDOM_ENTITIES=Entitätsvarianten
 of.options.RANDOM_ENTITIES.tooltip.1=Entitätsvarianten
-of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Entitätsvarianten, schneller
-of.options.RANDOM_ENTITIES.tooltip.3=  An - Keine Entitätsvarianten, langsamer
+of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Entitätsvarianten (schneller)
+of.options.RANDOM_ENTITIES.tooltip.3=  An - Keine Entitätsvarianten (langsamer)
 of.options.RANDOM_ENTITIES.tooltip.4=Die gleichen Entitäten können unterschiedliche Texturen
 of.options.RANDOM_ENTITIES.tooltip.5=haben. Dies benötigt ein Ressourcenpaket mit entspre-
 of.options.RANDOM_ENTITIES.tooltip.6=chenden Texturen.
@@ -340,36 +340,36 @@ of.options.BETTER_GRASS.tooltip.4=  Schön - Dynamische Grasseitentextur, am lan
 
 of.options.BETTER_SNOW=Besserer Schnee
 of.options.BETTER_SNOW.tooltip.1=Besserer Schnee
-of.options.BETTER_SNOW.tooltip.2=  Aus - Normaler Schnee, schneller
-of.options.BETTER_SNOW.tooltip.3=  An - Besserer Schnee, langsamer
+of.options.BETTER_SNOW.tooltip.2=  Aus - Normaler Schnee (schneller)
+of.options.BETTER_SNOW.tooltip.3=  An - Besserer Schnee (langsamer)
 of.options.BETTER_SNOW.tooltip.4=Setzt Schnee unter transparente Blöcke (wie Zäune
 of.options.BETTER_SNOW.tooltip.5=oder hohes Gras), wenn sie an Schneeblöcke grenzen.
 
 of.options.CUSTOM_FONTS=Schriftartressourcen
 of.options.CUSTOM_FONTS.tooltip.1=Schriftartressourcen
-of.options.CUSTOM_FONTS.tooltip.2=  An - Ressourcenpaket-Schriftart (Standard), langsamer
-of.options.CUSTOM_FONTS.tooltip.3=  Aus - Standardschriftart, schneller
+of.options.CUSTOM_FONTS.tooltip.2=  An - Ressourcenpaket-Schriftart (Standard, langsamer)
+of.options.CUSTOM_FONTS.tooltip.3=  Aus - Standardschriftart (schneller)
 of.options.CUSTOM_FONTS.tooltip.4=Die Schriftart wird aus den aktivierten Ressourcenpaketen
 of.options.CUSTOM_FONTS.tooltip.5=geladen.
 
 of.options.CUSTOM_COLORS=Farbressourcen
 of.options.CUSTOM_COLORS.tooltip.1=Farbressourcen
-of.options.CUSTOM_COLORS.tooltip.2=  An - Ressourcenpaket-Farben (Standard), langsamer
-of.options.CUSTOM_COLORS.tooltip.3=  Aus - Standardfarben, schneller
+of.options.CUSTOM_COLORS.tooltip.2=  An - Ressourcenpaket-Farben (Standard, langsamer)
+of.options.CUSTOM_COLORS.tooltip.3=  Aus - Standardfarben (schneller)
 of.options.CUSTOM_COLORS.tooltip.4=Die Farben werden aus den aktivierten Ressourcenpaketen
 of.options.CUSTOM_COLORS.tooltip.5=geladen.
 
 of.options.SWAMP_COLORS=Sumpffarben
 of.options.SWAMP_COLORS.tooltip.1=Sumpffarben
-of.options.SWAMP_COLORS.tooltip.2=  An - Färbt den Sumpf dunkler (Standard), langsamer
-of.options.SWAMP_COLORS.tooltip.3=  Aus - Färbt den Sumpf in normalen Farben, schneller
+of.options.SWAMP_COLORS.tooltip.2=  An - Färbt den Sumpf dunkler (Standard, langsamer)
+of.options.SWAMP_COLORS.tooltip.3=  Aus - Färbt den Sumpf in normalen Farben (schneller)
 of.options.SWAMP_COLORS.tooltip.4=Die Sumpffarben betreffen Gras, Laub, Ranken und
 of.options.SWAMP_COLORS.tooltip.5=Wasser.
 
 of.options.SMOOTH_BIOMES=Biomübergänge
 of.options.SMOOTH_BIOMES.tooltip.1=Biomübergänge
-of.options.SMOOTH_BIOMES.tooltip.2=  An - Flüssige Biomübergänge (Standard), langsamer
-of.options.SMOOTH_BIOMES.tooltip.3=  Aus - Keine flüssigen Biomübergänge, schneller
+of.options.SMOOTH_BIOMES.tooltip.2=  An - Flüssige Biomübergänge (Standard, langsamer)
+of.options.SMOOTH_BIOMES.tooltip.3=  Aus - Keine flüssigen Biomübergänge (schneller)
 of.options.SMOOTH_BIOMES.tooltip.4=Die Farbübergänge werden durch Probennahme und
 of.options.SMOOTH_BIOMES.tooltip.5=Durchschnittsberechnung der Farben der umliegenden
 of.options.SMOOTH_BIOMES.tooltip.6=Blöcke berechnet. Betroffen sind Gras, Laub, Ranken und
@@ -407,29 +407,29 @@ of.options.NATURAL_TEXTURES.tooltip.8=werden aus den aktivierten Ressourcenpaket
 
 of.options.CUSTOM_SKY=Himmelstexturen
 of.options.CUSTOM_SKY.tooltip.1=Himmelstexturen
-of.options.CUSTOM_SKY.tooltip.2=  An - Ressourcenpaket-Himmel (Standard), langsam
-of.options.CUSTOM_SKY.tooltip.3=  Aus - Standardhimmel, schneller
+of.options.CUSTOM_SKY.tooltip.2=  An - Ressourcenpaket-Himmel (Standard, langsam)
+of.options.CUSTOM_SKY.tooltip.3=  Aus - Standardhimmel (schneller)
 of.options.CUSTOM_SKY.tooltip.4=Die Himmelstexturen werden aus den aktivierten
 of.options.CUSTOM_SKY.tooltip.5=Ressourcenpaketen geladen.
 
 of.options.CUSTOM_ITEMS=Gegenstandstexturen
 of.options.CUSTOM_ITEMS.tooltip.1=Gegenstandstexturen
-of.options.CUSTOM_ITEMS.tooltip.2=  An - Ressourcenpaket-G.texturen (Standard), langsam
-of.options.CUSTOM_ITEMS.tooltip.3=  Aus - Standard-Gegenstandstexturen, schneller
+of.options.CUSTOM_ITEMS.tooltip.2=  An - Ressourcenpaket-G.texturen (Standard, langsam)
+of.options.CUSTOM_ITEMS.tooltip.3=  Aus - Standard-Gegenstandstexturen (schneller)
 of.options.CUSTOM_ITEMS.tooltip.4=Die Gegenstandstexturen werden aus den aktivierten
 of.options.CUSTOM_ITEMS.tooltip.5=Ressourcenpaketen geladen.
 
 of.options.CUSTOM_ENTITY_MODELS=Wesens- & Objektmodelle
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Wesens- und Objektmodelle
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  An - Ressourcenpaketmodelle (Standard), langsam
-of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Aus - Standardmodelle, schneller
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  An - Ressourcenpaketmodelle (Standard, langsam)
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Aus - Standardmodelle (schneller)
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Die Wesens- und Objektmodelle werden aus den
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktivierten Ressourcenpaketen geladen.
 
 of.options.CUSTOM_GUIS=Ressourcenpaket-GUI
 of.options.CUSTOM_GUIS.tooltip.1=Ressourcenpaket-GUI
-of.options.CUSTOM_GUIS.tooltip.2=  An - Ressourcenpaket-GUI (Standard), langsam
-of.options.CUSTOM_GUIS.tooltip.3=  Aus - Standard GUI, schneller
+of.options.CUSTOM_GUIS.tooltip.2=  An - Ressourcenpaket-GUI (Standard, langsam)
+of.options.CUSTOM_GUIS.tooltip.3=  Aus - Standard GUI (schneller)
 of.options.CUSTOM_GUIS.tooltip.4=Das GUI wird aus den aktivierten Ressourcenpaketen
 of.options.CUSTOM_GUIS.tooltip.5=geladen.
 
@@ -438,9 +438,9 @@ of.options.CUSTOM_GUIS.tooltip.5=geladen.
 of.options.CLOUDS=Wolken
 of.options.CLOUDS.tooltip.1=Wolken
 of.options.CLOUDS.tooltip.2=  Standard - Wie Grafikmodus
-of.options.CLOUDS.tooltip.3=  Schnell - Schlechtere Qualität, schneller
-of.options.CLOUDS.tooltip.4=  Schön - Höhere Qualität, langsamer
-of.options.CLOUDS.tooltip.5=  Aus - Keine Wolken, am schnellsten
+of.options.CLOUDS.tooltip.3=  Schnell - Schlechtere Qualität (schneller)
+of.options.CLOUDS.tooltip.4=  Schön - Höhere Qualität (langsamer)
+of.options.CLOUDS.tooltip.5=  Aus - Keine Wolken (am schnellsten)
 of.options.CLOUDS.tooltip.6=Schnelle Wolken werden zweidimensional dargestellt.
 of.options.CLOUDS.tooltip.7=Schöne Wolken werden dreidimensional dargestellt.
 
@@ -452,32 +452,32 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - Über der maximalen Welthöhe
 of.options.TREES=Bäume
 of.options.TREES.tooltip.1=Bäume
 of.options.TREES.tooltip.2=  Standard - Wie Grafikmodus
-of.options.TREES.tooltip.3=  Schnell - Schlechtere Qualität, schneller
-of.options.TREES.tooltip.4=  Fein - Hohe Qualität, schnell
-of.options.TREES.tooltip.5=  Schön - Höchste Qualität, langsamer
+of.options.TREES.tooltip.3=  Schnell - Schlechtere Qualität (schneller)
+of.options.TREES.tooltip.4=  Fein - Hohe Qualität (schnell)
+of.options.TREES.tooltip.5=  Schön - Höchste Qualität (langsamer)
 of.options.TREES.tooltip.6=Schnelle Bäume haben solide Blätter.
 of.options.TREES.tooltip.7=Schöne Bäume haben teilweise transparente Blätter.
 
 of.options.RAIN=Regen & Schnee
 of.options.RAIN.tooltip.1=Regen & Schnee
 of.options.RAIN.tooltip.2=  Standard - Wie Grafikmodus
-of.options.RAIN.tooltip.3=  Schnell - Leichter Regen/Schnee, schneller
-of.options.RAIN.tooltip.4=  Schön - Starker Regen/Schnee, langsamer
-of.options.RAIN.tooltip.5=  Aus - Kein Regen/Schnee, am schnellsten
+of.options.RAIN.tooltip.3=  Schnell - Leichter Regen/Schnee (schneller)
+of.options.RAIN.tooltip.4=  Schön - Starker Regen/Schnee (langsamer)
+of.options.RAIN.tooltip.5=  Aus - Kein Regen/Schnee (am schnellsten)
 of.options.RAIN.tooltip.6=Wenn diese Einstellung deaktiviert ist, sind die Regen-
 of.options.RAIN.tooltip.7=geräusche und -partikel dennoch zu hören bzw. zu sehen.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
-of.options.SKY.tooltip.2=  An - Himmel ist sichtbar, langsamer
-of.options.SKY.tooltip.3=  Aus - Himmel ist nicht sichtbar, schneller
+of.options.SKY.tooltip.2=  An - Himmel ist sichtbar (langsamer)
+of.options.SKY.tooltip.3=  Aus - Himmel ist nicht sichtbar (schneller)
 of.options.SKY.tooltip.4=Wenn dies deaktiviert ist, sind Mond und Sonne dennoch
 of.options.SKY.tooltip.5=sichtbar.
 
 of.options.STARS=Sterne
 of.options.STARS.tooltip.1=Sterne
-of.options.STARS.tooltip.2=  An - Sterne sind sichtbar, langsamer
-of.options.STARS.tooltip.3=  Aus - Sterne sind nicht sichtbar, schneller
+of.options.STARS.tooltip.2=  An - Sterne sind sichtbar (langsamer)
+of.options.STARS.tooltip.3=  Aus - Sterne sind nicht sichtbar (schneller)
 
 of.options.SUN_MOON=Sonne & Mond
 of.options.SUN_MOON.tooltip.1=Sonne & Mond
@@ -493,12 +493,13 @@ of.options.SHOW_CAPES.tooltip.5=Leistung.
 
 of.options.TRANSLUCENT_BLOCKS=Blocktransparenz
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocktransparenz
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Schön - Korrekte Farbmischung (Standard), langsamer
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Schnell - Schnelle Farbmischung, schneller
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Kontrolliert die Farbmischung von transparenten Blöcken
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=mit verschiedenen Farben (Gefärbtes Glas, Wasser, Eis),
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=wenn sie hintereinander mit Luft dazwischen platziert
-of.options.TRANSLUCENT_BLOCKS.tooltip.7=werden.
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - Wie Grafikmodus
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Schön - Korrekte Farbmischung (Standard, langsamer)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Schnell - Schnelle Farbmischung (schneller)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontrolliert die Farbmischung von transparenten Blöcken
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=mit verschiedenen Farben (Gefärbtes Glas, Wasser, Eis),
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=wenn sie hintereinander mit Luft dazwischen platziert
+of.options.TRANSLUCENT_BLOCKS.tooltip.8=werden.
 
 of.options.HELD_ITEM_TOOLTIPS=Gegenstandsbeschr.
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Gegenstandsbeschreibung
@@ -517,8 +518,8 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=Standardwert) an.
 of.options.DROPPED_ITEMS=Gegenstände
 of.options.DROPPED_ITEMS.tooltip.1=Liegende Gegenstände
 of.options.DROPPED_ITEMS.tooltip.2=  Standard - Wie Grafikmodus
-of.options.DROPPED_ITEMS.tooltip.3=  Schnell - Zweidimensionale Animation, schneller
-of.options.DROPPED_ITEMS.tooltip.4=  Schön - Dreidimensionale Animation, langsamer
+of.options.DROPPED_ITEMS.tooltip.3=  Schnell - Zweidimensionale Animation (schneller)
+of.options.DROPPED_ITEMS.tooltip.4=  Schön - Dreidimensionale Animation (langsamer)
 
 options.entityShadows.tooltip.1=Objektschatten
 options.entityShadows.tooltip.2=  An - Zeige Objektschatten
