@@ -540,10 +540,10 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=caídos no chão.
 
 of.options.SMOOTH_FPS=Smooth FPS
 of.options.SMOOTH_FPS.tooltip.1=Estabiliza a taxa de quadros ao equilibrar buffers
-of.options.SMOOTH_FPS.tooltip.2=da placa de vídeo.
+of.options.SMOOTH_FPS.tooltip.2=do driver gráfico.
 of.options.SMOOTH_FPS.tooltip.3=  Não - taxa de quadros flutuante
 of.options.SMOOTH_FPS.tooltip.4=  Sim - taxa de quadros estável
-of.options.SMOOTH_FPS.tooltip.5=Esta opção depende do adaptador de vídeo e seu efeito
+of.options.SMOOTH_FPS.tooltip.5=Esta opção depende do driver gráfico e seu efeito
 of.options.SMOOTH_FPS.tooltip.6=nem sempre é perceptível.
 
 of.options.SMOOTH_WORLD=Smooth World
@@ -674,7 +674,7 @@ options.fullscreen.tooltip.1=Tela cheia
 options.fullscreen.tooltip.2=  Sim - jogar em tela cheia
 options.fullscreen.tooltip.3=  Não - jogar em janela
 options.fullscreen.tooltip.4=O modo tela cheia pode ser mais lento ou mais rápido do
-options.fullscreen.tooltip.5=que o de janela, dependendo do adaptador de vídeo.
+options.fullscreen.tooltip.5=que o de janela, dependendo da placa de vídeo.
 
 of.options.FULLSCREEN_MODE=Resolução
 of.options.FULLSCREEN_MODE.tooltip.1=Resolução da tela cheia
