@@ -477,11 +477,12 @@ of.options.SHOW_CAPES.tooltip.3=  VYPNUTO - nezobrazovat kápě hráčů
 
 of.options.TRANSLUCENT_BLOCKS=Průsvitné bloky
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Průsvitné bloky
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pěkná - správné míchání barev (výchozí)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rychlá - rychlé míchání barev (rychlejší)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Ovládá míchání barev průhledných bloků
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=s rozdílnou barvou (barevné sklo, voda, led)
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=když jsou položeny za sebou s mezerou mezi nimi.
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Výchozí - určuje nastavení Grafiky
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Pěkná - správné míchání barev (výchozí)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Rychlá - rychlé míchání barev (rychlejší)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Ovládá míchání barev průhledných bloků
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=s rozdílnou barvou (barevné sklo, voda, led)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=když jsou položeny za sebou s mezerou mezi nimi.
 
 of.options.HELD_ITEM_TOOLTIPS=Popisek k drženému itemu
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Popisek k drženému itemu
@@ -499,8 +500,8 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, zdroj, výchozí hodnota).
 of.options.DROPPED_ITEMS=Vyhozené itemy
 of.options.DROPPED_ITEMS.tooltip.1=Vyhozené itemy
 of.options.DROPPED_ITEMS.tooltip.2=  Výchozí - podle nastavení grafiky
-of.options.DROPPED_ITEMS.tooltip.3=  Rychlá - vyhozené itemy ve 2D, rychlejší
-of.options.DROPPED_ITEMS.tooltip.4=  Pěkná - vyhozené itemy ve 3D, pomalejší
+of.options.DROPPED_ITEMS.tooltip.3=  Rychlá - vyhozené itemy ve 2D (rychlejší)
+of.options.DROPPED_ITEMS.tooltip.4=  Pěkná - vyhozené itemy ve 3D (pomalejší)
 
 options.entityShadows.tooltip.1=Stíny entit
 options.entityShadows.tooltip.2=  ZAPNUTO - zobrazovat stíny entit
