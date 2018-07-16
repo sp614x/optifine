@@ -560,6 +560,7 @@ of.options.FAST_RENDER.tooltip.2= Não - (padrão) renderização normal
 of.options.FAST_RENDER.tooltip.3= Sim - renderização otimizada (rápida)
 of.options.FAST_RENDER.tooltip.4=Usa um algoritmo especial de renderização que reduz
 of.options.FAST_RENDER.tooltip.5=o uso da GPU e eleva a taxa de quadros.
+of.options.FAST_RENDER.tooltip.6=Esta opção pode entrar em conflito com alguns mods.
 
 of.options.FAST_MATH=Fast Math
 of.options.FAST_MATH.tooltip.1=Fast Math
@@ -567,6 +568,7 @@ of.options.FAST_MATH.tooltip.2= Não - (padrão) cálculos normais
 of.options.FAST_MATH.tooltip.3= Sim - cálculos otimizados
 of.options.FAST_MATH.tooltip.4=Usa funções seno() e cosseno() especiais que otimizam
 of.options.FAST_MATH.tooltip.5=o cache da CPU e elevam a taxa de quadros.
+of.options.FAST_MATH.tooltip.6=Esta opção pode afetar minimamente a geração de mundos.
 
 of.options.CHUNK_UPDATES=Atualiz. de chunks
 of.options.CHUNK_UPDATES.tooltip.1=Atualizações de chunks
