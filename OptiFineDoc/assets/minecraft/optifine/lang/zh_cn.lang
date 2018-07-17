@@ -563,13 +563,15 @@ of.options.FAST_RENDER.tooltip.2= 关闭 - 标准渲染（默认）
 of.options.FAST_RENDER.tooltip.3= 开启 - 优化渲染（较快）
 of.options.FAST_RENDER.tooltip.4=采用优化渲染算法从而降低 GPU 的负载
 of.options.FAST_RENDER.tooltip.5=并且可能大幅提升 FPS。
+of.options.FAST_RENDER.tooltip.6=此选项或与某些模组冲突。
 
 of.options.FAST_MATH=快速运算
 of.options.FAST_MATH.tooltip.1=快速运算
 of.options.FAST_MATH.tooltip.2= 关闭 - 标准的运算（默认）
 of.options.FAST_MATH.tooltip.3= 开启 - 更快的运算
 of.options.FAST_MATH.tooltip.4=采用优化的 sin() 和 cos() 函数可以
-of.options.FAST_MATH.tooltip.5=更好地利用 CPU 缓存并且提升 FPS。
+of.options.FAST_MATH.tooltip.5=更好地利用 CPU 缓存，并且提升 FPS。
+of.options.FAST_MATH.tooltip.6=此选项对世界生成有微小影响。
 
 of.options.CHUNK_UPDATES=区块更新
 of.options.CHUNK_UPDATES.tooltip.1=区块更新
