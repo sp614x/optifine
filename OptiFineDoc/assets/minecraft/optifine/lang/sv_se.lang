@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-07-17
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-07-18
 
 # General
 of.general.ambiguous=tvetydig
@@ -480,7 +480,7 @@ of.options.SHOW_CAPES.tooltip.1=Visa mantlar
 of.options.SHOW_CAPES.tooltip.2=  PÅ - visa spelarmantlar (standard)
 of.options.SHOW_CAPES.tooltip.3=  AV - visa inte spelarmantlar
 
-of.options.TRANSLUCENT_BLOCKS=Genomskinliga block
+of.options.TRANSLUCENT_BLOCKS=Genomskinl. block
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Genomskinliga block
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Snyggt - korrekt färgblandning (långsammare)
