@@ -684,9 +684,9 @@ of.options.FULLSCREEN_MODE.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt
 of.options.SHOW_FPS=Kaadrisageduse kuva
 of.options.SHOW_FPS.tooltip.1=Kuvab kompaktselt kaadrisageduse ja renderduse infot.
 of.options.SHOW_FPS.tooltip.2=  Fps - keskmine/minimaalne ks
-of.options.SHOW_FPS.tooltip.3=  C: - kamaka renderdajaid
-of.options.SHOW_FPS.tooltip.4=  E: - renderdatud olemeid + plokiolemeid
-of.options.SHOW_FPS.tooltip.5=  U: - kamakauuendusi
+of.options.SHOW_FPS.tooltip.3=  C: - kamaka renderdajad
+of.options.SHOW_FPS.tooltip.4=  E: - renderdatud olemid + plokiolemid
+of.options.SHOW_FPS.tooltip.5=  U: - kamakauuendused
 of.options.SHOW_FPS.tooltip.6=Kompaktset kaadrisageduse infot kuvatakse vaid siis,
 of.options.SHOW_FPS.tooltip.7=kui silumisvaade pole nähtav.
 
