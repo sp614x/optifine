@@ -681,11 +681,12 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lower resolutions should generally be faste
 
 of.options.SHOW_FPS=Show FPS
 of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information.
-of.options.SHOW_FPS.tooltip.2=  C: - chunk renderers
-of.options.SHOW_FPS.tooltip.3=  E: - rendered entities + block entities
-of.options.SHOW_FPS.tooltip.4=  U: - chunk updates
-of.options.SHOW_FPS.tooltip.5=The compact FPS information is only shown when the
-of.options.SHOW_FPS.tooltip.6=debug screen is not visible.
+of.options.SHOW_FPS.tooltip.2=  Fps - average/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - chunk renderers
+of.options.SHOW_FPS.tooltip.4=  E: - rendered entities + block entities
+of.options.SHOW_FPS.tooltip.5=  U: - chunk updates
+of.options.SHOW_FPS.tooltip.6=The compact FPS information is only shown when the
+of.options.SHOW_FPS.tooltip.7=debug screen is not visible.
 
 of.options.save.default=Default (2s)
 of.options.save.20s=20s
