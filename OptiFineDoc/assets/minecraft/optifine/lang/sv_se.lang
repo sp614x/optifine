@@ -693,11 +693,12 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lägre upplösningar bör vanligtvis vara s
 
 of.options.SHOW_FPS=Visa bildfrekvens
 of.options.SHOW_FPS.tooltip.1=Visar kort information om bildfrekvens och rendering.
-of.options.SHOW_FPS.tooltip.2=  C: - antal chunkrenderingar
-of.options.SHOW_FPS.tooltip.3=  E: - antal renderade entiteter + blockentiteter
-of.options.SHOW_FPS.tooltip.4=  U: - antal chunkuppdateringar
-of.options.SHOW_FPS.tooltip.5=Informationen visas endast när felsökningsskärmen (F3)
-of.options.SHOW_FPS.tooltip.6=inte är öppen.
+of.options.SHOW_FPS.tooltip.2=  fps - bildfrekvensens medelvärde/minimum
+of.options.SHOW_FPS.tooltip.3=    C: - antal chunkrenderingar
+of.options.SHOW_FPS.tooltip.4=    E: - antal renderade entiteter + blockentiteter
+of.options.SHOW_FPS.tooltip.5=    U: - antal chunkuppdateringar
+of.options.SHOW_FPS.tooltip.6=Informationen visas endast när felsökningsskärmen (F3)
+of.options.SHOW_FPS.tooltip.7=inte är öppen.
 
 of.options.save.default=Standard (2 s)
 of.options.save.20s=20 s
