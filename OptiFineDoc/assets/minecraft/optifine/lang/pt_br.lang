@@ -686,13 +686,14 @@ of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida é usada no modo te
 of.options.FULLSCREEN_MODE.tooltip.5=Resoluções baixas geralmente são mais rápidas.
 
 of.options.SHOW_FPS=Mostrar FPS
-of.options.SHOW_FPS.tooltip.1=Mostrar a taxa concisa de quadros e informações
+of.options.SHOW_FPS.tooltip.1=Exibe a taxa concisa de quadros e informações
 of.options.SHOW_FPS.tooltip.2=de renderização.
-of.options.SHOW_FPS.tooltip.3=  C: - renderizadores de chunks
-of.options.SHOW_FPS.tooltip.4=  E: - entidades renderizadas + blocos-entidades
-of.options.SHOW_FPS.tooltip.5=  U: - atualizações de chunks
-of.options.SHOW_FPS.tooltip.6=A taxa de quadros só é visível quando a tela
-of.options.SHOW_FPS.tooltip.7=de depuração não é exibida.
+of.options.SHOW_FPS.tooltip.3=  FPS - média/mínima
+of.options.SHOW_FPS.tooltip.4=  C: - renderizadores de chunks
+of.options.SHOW_FPS.tooltip.5=  E: - entidades renderizadas + blocos-entidades
+of.options.SHOW_FPS.tooltip.6=  U: - atualizações de chunks
+of.options.SHOW_FPS.tooltip.7=A taxa de quadros só é visível quando a tela
+of.options.SHOW_FPS.tooltip.8=de depuração não é exibida.
 
 of.options.save.default=2s
 of.options.save.20s=20s
