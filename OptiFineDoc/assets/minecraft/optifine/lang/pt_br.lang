@@ -146,13 +146,13 @@ of.options.FOG_START.tooltip.4=Normalmente, esta opção não afeta o desempenho
 of.options.CHUNK_LOADING=Carreg. de chunks
 of.options.CHUNK_LOADING.tooltip.1=Carregamento de chunks
 of.options.CHUNK_LOADING.tooltip.2=  Padrão - taxa de quadros instável
-of.options.CHUNK_LOADING.tooltip.3=  Smooth - taxa de quadros estável
+of.options.CHUNK_LOADING.tooltip.3=  Suave - taxa de quadros estável
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - carregamento 3x mais rápido
-of.options.CHUNK_LOADING.tooltip.5=O Smooth e Multi-Core reduzem a latência
+of.options.CHUNK_LOADING.tooltip.5=O Suave e Multi-Core reduzem a latência
 of.options.CHUNK_LOADING.tooltip.6=causada pelo carregamento de chunks.
 of.options.CHUNK_LOADING.tooltip.7=O Multi-Core pode estabilizar a taxa de 
 of.options.CHUNK_LOADING.tooltip.8=quadros utilizando outro processador.
-of.options.chunkLoading.smooth=Smooth
+of.options.chunkLoading.smooth=Suave
 of.options.chunkLoading.multiCore=Multi-Core
 
 of.options.shaders=Shaders...
@@ -358,8 +358,8 @@ of.options.SWAMP_COLORS.tooltip.2=  Sim - (padrão) ativar cores do pântano (le
 of.options.SWAMP_COLORS.tooltip.3=  Não - desativar cores do pântano (rápidas)
 of.options.SWAMP_COLORS.tooltip.4=As cores do pântano afetam a vegetação e água.
 
-of.options.SMOOTH_BIOMES=Smooth Biomes
-of.options.SMOOTH_BIOMES.tooltip.1=Smooth Biomes
+of.options.SMOOTH_BIOMES=Suavizar biomas
+of.options.SMOOTH_BIOMES.tooltip.1=Suavizar biomas
 of.options.SMOOTH_BIOMES.tooltip.2=  Sim - (padrão) integrar bordas de biomas (lentas)
 of.options.SMOOTH_BIOMES.tooltip.3=  Não - distinguir bordas de biomas (rápidas)
 of.options.SMOOTH_BIOMES.tooltip.4=A transição entre biomas é feita pela média de
@@ -538,7 +538,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=caídos no chão.
 
 # Performance
 
-of.options.SMOOTH_FPS=Smooth FPS
+of.options.SMOOTH_FPS=Suavizar Fps
 of.options.SMOOTH_FPS.tooltip.1=Estabiliza a taxa de quadros ao equilibrar buffers
 of.options.SMOOTH_FPS.tooltip.2=do driver gráfico.
 of.options.SMOOTH_FPS.tooltip.3=  Não - taxa de quadros flutuante
@@ -546,7 +546,7 @@ of.options.SMOOTH_FPS.tooltip.4=  Sim - taxa de quadros estável
 of.options.SMOOTH_FPS.tooltip.5=Esta opção depende do driver gráfico e seu efeito
 of.options.SMOOTH_FPS.tooltip.6=nem sempre é perceptível.
 
-of.options.SMOOTH_WORLD=Smooth World
+of.options.SMOOTH_WORLD=Suavizar o mundo
 of.options.SMOOTH_WORLD.tooltip.1=Reduz a latência causada pelo servidor interno.
 of.options.SMOOTH_WORLD.tooltip.2=  Não - taxa de quadros flutuante
 of.options.SMOOTH_WORLD.tooltip.3=  Sim - taxa de quadros estável
@@ -561,8 +561,8 @@ of.options.FAST_RENDER.tooltip.3= Sim - renderização otimizada (rápida)
 of.options.FAST_RENDER.tooltip.4=Usa um algoritmo especial de renderização que reduz
 of.options.FAST_RENDER.tooltip.5=o uso da GPU e eleva a taxa de quadros.
 
-of.options.FAST_MATH=Fast Math
-of.options.FAST_MATH.tooltip.1=Fast Math
+of.options.FAST_MATH=Cálculos rápidos
+of.options.FAST_MATH.tooltip.1=Cálculos rápidos
 of.options.FAST_MATH.tooltip.2= Não - (padrão) cálculos normais
 of.options.FAST_MATH.tooltip.3= Sim - cálculos otimizados
 of.options.FAST_MATH.tooltip.4=Usa funções seno() e cosseno() especiais que otimizam
