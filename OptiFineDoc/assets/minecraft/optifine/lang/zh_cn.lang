@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-6-16
+#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-7-20
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
@@ -689,7 +689,7 @@ of.options.FULLSCREEN_MODE.tooltip.5=较低的分辨率通常会更快。
 
 of.options.SHOW_FPS=显示 FPS
 of.options.SHOW_FPS.tooltip.1=显示迷你的 FPS 和渲染信息
-of.options.SHOW_FPS.tooltip.2=  FPS - 平均/最小
+of.options.SHOW_FPS.tooltip.2=  FPS - 平均/最低
 of.options.SHOW_FPS.tooltip.3=  C：- 区块渲染器
 of.options.SHOW_FPS.tooltip.4=  E：- 一般实体 + 方块实体
 of.options.SHOW_FPS.tooltip.5=  U：- 区块更新
