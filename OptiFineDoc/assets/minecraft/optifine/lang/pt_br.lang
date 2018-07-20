@@ -358,8 +358,8 @@ of.options.SWAMP_COLORS.tooltip.2=  Sim - (padrão) ativar cores do pântano (le
 of.options.SWAMP_COLORS.tooltip.3=  Não - desativar cores do pântano (rápidas)
 of.options.SWAMP_COLORS.tooltip.4=As cores do pântano afetam a vegetação e água.
 
-of.options.SMOOTH_BIOMES=Smooth Biomes
-of.options.SMOOTH_BIOMES.tooltip.1=Smooth Biomes
+of.options.SMOOTH_BIOMES=Integrar biomas
+of.options.SMOOTH_BIOMES.tooltip.1=Integrar bordas de biomas
 of.options.SMOOTH_BIOMES.tooltip.2=  Sim - (padrão) integrar bordas de biomas (lentas)
 of.options.SMOOTH_BIOMES.tooltip.3=  Não - distinguir bordas de biomas (rápidas)
 of.options.SMOOTH_BIOMES.tooltip.4=A transição entre biomas é feita pela média de
