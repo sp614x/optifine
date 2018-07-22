@@ -681,7 +681,7 @@ of.options.FULLSCREEN_MODE.tooltip.5=Nižší rozlišení by měli být většin
 
 of.options.SHOW_FPS=Zobrazit FPS
 of.options.SHOW_FPS.tooltip.1=Kompaktně zobrazí informace o FPS a renderu.
-of.options.SHOW_FPS.tooltip.2=  Fps - průměr/minimum
+of.options.SHOW_FPS.tooltip.2=  FPS - průměr/minimum
 of.options.SHOW_FPS.tooltip.3=  C: - načítání chunků
 of.options.SHOW_FPS.tooltip.4=  E: - načtené entity + blokové entity
 of.options.SHOW_FPS.tooltip.5=  U: - přednačtené chunky
