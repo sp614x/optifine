@@ -642,12 +642,12 @@ of.options.LAGOMETER.tooltip.6=* Червоний - Оновлення чанк�
 of.options.LAGOMETER.tooltip.7=* Жовтий - Перевірка видимості
 of.options.LAGOMETER.tooltip.8=* Зелений - Рендеринг місцевості
 
-of.options.PROFILER=Профіль дебагу
-of.options.PROFILER.tooltip.1=Профіль дебагу
-of.options.PROFILER.tooltip.2=  Увімк - профіль дебагу увімкнуто, повільніше
-of.options.PROFILER.tooltip.3=  Вимк - профіль дебагу вимкнуто, швидше
-of.options.PROFILER.tooltip.4=Профіль дебагу збирає інформацію і показує її на
-of.options.PROFILER.tooltip.5=екрані дебагу (F3)
+of.options.PROFILER=Профіль відладки
+of.options.PROFILER.tooltip.1=Профіль відладки
+of.options.PROFILER.tooltip.2=  Увімк - профіль відладки увімкнуто (повільніше)
+of.options.PROFILER.tooltip.3=  Вимк - профіль відладки вимкнуто (швидше)
+of.options.PROFILER.tooltip.4=Профіль відладки збирає інформацію і показує її на
+of.options.PROFILER.tooltip.5=екрані відладки (F3)
 
 of.options.WEATHER=Погода
 of.options.WEATHER.tooltip.1=Погода
@@ -681,12 +681,13 @@ of.options.FULLSCREEN_MODE.tooltip.4=Обрана якість буде вико
 of.options.FULLSCREEN_MODE.tooltip.5=Найнижча якість завжди швидша.
 
 of.options.SHOW_FPS=Показувати FPS
-of.options.SHOW_FPS.tooltip.1=Показує компактно FPS і інформацію рендеру
-of.options.SHOW_FPS.tooltip.2=  C: - чанків рендериться
-of.options.SHOW_FPS.tooltip.3=  E: - сутностей в рендері + блоковано сутностей
-of.options.SHOW_FPS.tooltip.4=  U: - чанків оновлюється
-of.options.SHOW_FPS.tooltip.5=Компактне FPS показується лиш коли
-of.options.SHOW_FPS.tooltip.6=екран дебагу вимкнено.
+of.options.SHOW_FPS.tooltip.1=Показує компактно FPS і інформацію про рендер
+of.options.SHOW_FPS.tooltip.2=  Fps - середній/мінімальний
+of.options.SHOW_FPS.tooltip.3=  C: - чанків відображається
+of.options.SHOW_FPS.tooltip.4=  E: - сутностей в рендері + блоковано сутностей
+of.options.SHOW_FPS.tooltip.5=  U: - чанків оновлюється
+of.options.SHOW_FPS.tooltip.6=Компактне FPS показується лиш коли
+of.options.SHOW_FPS.tooltip.7=екран відладки вимкнено.
 
 of.options.save.default=Базове (2с)
 of.options.save.20s=20с
