@@ -552,6 +552,7 @@ of.options.FAST_RENDER.tooltip.3= Вкл - оптимизированный ре
 of.options.FAST_RENDER.tooltip.4=Использует оптимизированный алгоритм рендеринга,
 of.options.FAST_RENDER.tooltip.5=который уменьшает нагрузку на ГП и может существенно
 of.options.FAST_RENDER.tooltip.6=повысить частоту кадров.
+of.options.FAST_RENDER.tooltip.7=Может конфликтовать с некоторыми модификациями.
 
 of.options.FAST_MATH=Быстрое вычисление
 of.options.FAST_MATH.tooltip.1=Быстрое вычисление
@@ -560,6 +561,7 @@ of.options.FAST_MATH.tooltip.3= Вкл - быстрое вычисление
 of.options.FAST_MATH.tooltip.4=Использует оптимизированные функции sin() и cos(),
 of.options.FAST_MATH.tooltip.5=из-за чего появляется возможность лучше использовать
 of.options.FAST_MATH.tooltip.6=кэш процессора и повысить частоту кадров.
+of.options.FAST_MATH.tooltip.7=Может слегка влиять на генерацию мира.
 
 of.options.CHUNK_UPDATES=Обновление чанков
 of.options.CHUNK_UPDATES.tooltip.1=Частота обновления чанков
