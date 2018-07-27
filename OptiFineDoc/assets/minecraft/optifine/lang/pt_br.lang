@@ -104,8 +104,8 @@ options.guiScale.tooltip.1=Interface
 options.guiScale.tooltip.2=  Automática - tamanho máximo
 options.guiScale.tooltip.3=  Pequena, normal, grande - 1x para 3x
 options.guiScale.tooltip.4=  4x para 10x - disponível em monitores 4K
-options.guiScale.tooltip.5=Valores ímpares (1x, 3x, 5x...) são incompatíveis com
-options.guiScale.tooltip.6=Unicode. Uma interface pequena pode melhorar
+options.guiScale.tooltip.5=Valores ímpares não são compatíveis com o Unicode.
+options.guiScale.tooltip.6=Uma interface menor pode melhorar
 options.guiScale.tooltip.7=o desempenho.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
@@ -276,7 +276,7 @@ of.shaders.profile=Perfil
 
 of.options.mipmap.bilinear=Bilinear
 of.options.mipmap.linear=Linear
-of.options.mipmap.nearest=Próximo
+of.options.mipmap.nearest=Básico
 of.options.mipmap.trilinear=Trilinear
 
 options.mipmapLevels.tooltip.1=Efeito visual que aperfeiçoa a aparência de objetos
@@ -289,7 +289,7 @@ options.mipmapLevels.tooltip.6=Esta opção não afeta o desempenho.
 of.options.MIPMAP_TYPE=Tipo de mipmap
 of.options.MIPMAP_TYPE.tooltip.1=Efeito visual que aperfeiçoa a aparência de objetos
 of.options.MIPMAP_TYPE.tooltip.2=distantes, suavizando os detalhes da textura.
-of.options.MIPMAP_TYPE.tooltip.3=  Próximo - suavização básica (rápida)
+of.options.MIPMAP_TYPE.tooltip.3=  Básico - suavização básica (rápida)
 of.options.MIPMAP_TYPE.tooltip.4=  Linear - suavização comum
 of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - suavização refinada
 of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - suavização detalhada (lenta)
