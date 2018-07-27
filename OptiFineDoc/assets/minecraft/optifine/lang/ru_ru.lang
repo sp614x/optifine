@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 23-Jul-2018
+#	Jerozgen  01-Mar-2016 — 27-Jul-2018
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -648,11 +648,12 @@ of.options.PROFILER.tooltip.5=экране отладки (F3).
 
 of.options.SHOW_FPS=Отображение FPS
 of.options.SHOW_FPS.tooltip.1=Отображение компактной информации о рендере
-of.options.SHOW_FPS.tooltip.2=  C: - отображаемые чанки
-of.options.SHOW_FPS.tooltip.3=  E: - отображаемые сущности + блоки-сущности
-of.options.SHOW_FPS.tooltip.4=  U: - обновление чанка
-of.options.SHOW_FPS.tooltip.5=Отображает компактную информацию о рендере, когда
-of.options.SHOW_FPS.tooltip.6=отключён экран отладки.
+of.options.SHOW_FPS.tooltip.2=  #/# fps - среднее/минимальное число FPS
+of.options.SHOW_FPS.tooltip.3=  C: - отображаемые чанки
+of.options.SHOW_FPS.tooltip.4=  E: - отображаемые сущности + блоки-сущности
+of.options.SHOW_FPS.tooltip.5=  U: - обновление чанка
+of.options.SHOW_FPS.tooltip.6=Отображает компактную информацию о рендере, когда
+of.options.SHOW_FPS.tooltip.7=отключён экран отладки.
 
 of.options.ADVANCED_TOOLTIPS=Расширен. подсказки
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Расширенные подсказки
