@@ -600,6 +600,7 @@ of.options.RENDER_REGIONS.tooltip.2= Não - (padrão) desativar renderização d
 of.options.RENDER_REGIONS.tooltip.3= Sim - ativar renderização de regiões
 of.options.RENDER_REGIONS.tooltip.4=Ao ativar, renderiza terrenos distantes mais
 of.options.RENDER_REGIONS.tooltip.5=rapidamente. Ative o VBO para melhores resultados.
+of.options.RENDER_REGIONS.tooltip.6=Não é recomendada para drivers gráficos incluídos.
 
 of.options.SMART_ANIMATIONS=Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
