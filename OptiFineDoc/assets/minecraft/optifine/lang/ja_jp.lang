@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2018-07-19
+#   CrafterKina 2014-01-04 ---- 2018-07-29
 
 # General
 of.general.ambiguous=不明確
@@ -598,6 +598,7 @@ of.options.RENDER_REGIONS.tooltip.2= オフ - 領域描画を用いない (初�
 of.options.RENDER_REGIONS.tooltip.3= オン - 領域描画を用いる
 of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を
 of.options.RENDER_REGIONS.tooltip.5=可能にします。頂点バッファオブジェクトが有効な場合により効果的です。
+of.options.RENDER_REGIONS.tooltip.6=オンボードグラフィックカードでは推奨されません。
 
 of.options.SMART_ANIMATIONS=スマートアニメーション
 of.options.SMART_ANIMATIONS.tooltip.1=スマートアニメーション
