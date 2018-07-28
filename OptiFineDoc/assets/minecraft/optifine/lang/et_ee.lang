@@ -597,6 +597,7 @@ of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - ära kasuta renderdusalasid (vaik
 of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid
 of.options.RENDER_REGIONS.tooltip.4=Renderdusalad lubavad kiiremat maastiku renderdamist
 of.options.RENDER_REGIONS.tooltip.5=kõrgematel nähtavuskaugustel. Efektiivsem, kui VBOd on lubatud.
+of.options.RENDER_REGIONS.tooltip.6=Pole soovitatav integreeritud graafikakaartide puhul.
 
 of.options.SMART_ANIMATIONS=Targad animatsioonid
 of.options.SMART_ANIMATIONS.tooltip.1=Targad animatsioonid
