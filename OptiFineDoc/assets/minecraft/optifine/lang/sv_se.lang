@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-06-25
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-07-18
 
 # General
 of.general.ambiguous=tvetydig
@@ -429,7 +429,7 @@ of.options.CUSTOM_GUIS.tooltip.5=aktuella resurspaketet.
 
 of.options.CLOUDS=Moln
 of.options.CLOUDS.tooltip.1=Moln
-of.options.CLOUDS.tooltip.2=  Standard - följer grafikinställningen
+of.options.CLOUDS.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.CLOUDS.tooltip.3=  Snabbt - lägre kvalitet, snabbare
 of.options.CLOUDS.tooltip.4=  Snyggt - högre kvalitet, långsammare
 of.options.CLOUDS.tooltip.5=  AV - inga moln, snabbast
@@ -443,7 +443,7 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - ovanför världens höjdgräns
 
 of.options.TREES=Träd
 of.options.TREES.tooltip.1=Träd
-of.options.TREES.tooltip.2=  Standard - följer grafikinställningen
+of.options.TREES.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.TREES.tooltip.3=  Snabbt - lägre kvalitet, snabbare
 of.options.TREES.tooltip.4=  Smart - högre kvalitet, snabbt
 of.options.TREES.tooltip.5=  Snyggt - högst kvalitet, långsammare
@@ -452,7 +452,7 @@ of.options.TREES.tooltip.7=Snygga och smarta träd har genomskinliga löv.
 
 of.options.RAIN=Regn och snö
 of.options.RAIN.tooltip.1=Regn och snö
-of.options.RAIN.tooltip.2=  Standard - följer grafikinställningen
+of.options.RAIN.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.RAIN.tooltip.3=  Snabbt - lätt regn/snö, snabbare
 of.options.RAIN.tooltip.4=  Snyggt - tungt regn/snö, långsammare
 of.options.RAIN.tooltip.5=  AV - inget regn/snö, snabbast
@@ -480,9 +480,9 @@ of.options.SHOW_CAPES.tooltip.1=Visa mantlar
 of.options.SHOW_CAPES.tooltip.2=  PÅ - visa spelarmantlar (standard)
 of.options.SHOW_CAPES.tooltip.3=  AV - visa inte spelarmantlar
 
-of.options.TRANSLUCENT_BLOCKS=Genomskinliga block
+of.options.TRANSLUCENT_BLOCKS=Genomskinl. block
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Genomskinliga block
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - följer grafikinställningen
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Snyggt - korrekt färgblandning (långsammare)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Snabbt - snabb färgblandning (snabbare)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontrollerar färgblandningen för genomskinliga block
@@ -504,7 +504,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, källa, standardvärden).
 
 of.options.DROPPED_ITEMS=Släppta föremål
 of.options.DROPPED_ITEMS.tooltip.1=Släppta föremål
-of.options.DROPPED_ITEMS.tooltip.2=  Standard - följer grafikinställningen
+of.options.DROPPED_ITEMS.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.DROPPED_ITEMS.tooltip.3=  Snabbt - renderas i 2D (snabbare)
 of.options.DROPPED_ITEMS.tooltip.4=  Snyggt - renderas i 3D (långsammare)
 
@@ -514,7 +514,7 @@ options.entityShadows.tooltip.3=  AV - visa inte skuggor för entiteter
 
 of.options.VIGNETTE=Vinjett
 of.options.VIGNETTE.tooltip.1=Visuell effekt som mörklägger skärmens hörn en aning
-of.options.VIGNETTE.tooltip.2=  Standard - följer grafikinställningen (standard)
+of.options.VIGNETTE.tooltip.2=  Standard - följer alternativet "Grafik" (standard)
 of.options.VIGNETTE.tooltip.3=  Snabbt - vinjetten är inaktiverad (snabbare)
 of.options.VIGNETTE.tooltip.4=  Snyggt - vinjetten är aktiverad (långsammare)
 of.options.VIGNETTE.tooltip.5=Vinjetten kan ha en betydande verkan på bildfrekvensen,
@@ -563,6 +563,7 @@ of.options.FAST_RENDER.tooltip.3=  PÅ - optimerad rendering (snabbare)
 of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som sänker
 of.options.FAST_RENDER.tooltip.5=grafikprocessorns läsninghastighet och kan höja
 of.options.FAST_RENDER.tooltip.6=bildfrekvensen avsevärt.
+of.options.FAST_RENDER.tooltip.7=Detta alternativ kan skapa en konflikt med andra moddar.
 
 of.options.FAST_MATH=Snabb matematik
 of.options.FAST_MATH.tooltip.1=Snabb matematik
@@ -571,6 +572,7 @@ of.options.FAST_MATH.tooltip.3=  PÅ - snabbare matematik
 of.options.FAST_MATH.tooltip.4=Använder optimerade sin()- och cos()-funktioner som
 of.options.FAST_MATH.tooltip.5=kan utnyttja processorcachen mer och höja bild-
 of.options.FAST_MATH.tooltip.6=frekvensen.
+of.options.FAST_MATH.tooltip.7=Detta alternativ kan påverka världsgenereringen minimalt.
 
 of.options.CHUNK_UPDATES=Chunkuppdateringar
 of.options.CHUNK_UPDATES.tooltip.1=Chunkuppdateringar
@@ -691,11 +693,12 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lägre upplösningar bör vanligtvis vara s
 
 of.options.SHOW_FPS=Visa bildfrekvens
 of.options.SHOW_FPS.tooltip.1=Visar kort information om bildfrekvens och rendering.
-of.options.SHOW_FPS.tooltip.2=  C: - antal chunkrenderingar
-of.options.SHOW_FPS.tooltip.3=  E: - antal renderade entiteter + blockentiteter
-of.options.SHOW_FPS.tooltip.4=  U: - antal chunkuppdateringar
-of.options.SHOW_FPS.tooltip.5=Informationen visas endast när felsökningsskärmen (F3)
-of.options.SHOW_FPS.tooltip.6=inte är öppen.
+of.options.SHOW_FPS.tooltip.2=  fps - bildfrekvensens medelvärde/minimum
+of.options.SHOW_FPS.tooltip.3=    C: - antal chunkrenderingar
+of.options.SHOW_FPS.tooltip.4=    E: - antal renderade entiteter + blockentiteter
+of.options.SHOW_FPS.tooltip.5=    U: - antal chunkuppdateringar
+of.options.SHOW_FPS.tooltip.6=Informationen visas endast när felsökningsskärmen (F3)
+of.options.SHOW_FPS.tooltip.7=inte är öppen.
 
 of.options.save.default=Standard (2 s)
 of.options.save.20s=20 s
