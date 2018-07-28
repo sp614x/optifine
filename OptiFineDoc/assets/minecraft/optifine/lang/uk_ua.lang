@@ -48,6 +48,10 @@ of.message.other.reset=Встановити всі налаштування на
 
 of.message.loadingVisibleChunks=Завантажування видимих чанків
 
+# Налаштування скіна
+
+of.options.skinCustomisation.ofCape=Плащ OptiFine...
+
 # Налаштування графіки
 
 options.graphics.tooltip.1=Якість графіки
@@ -216,7 +220,7 @@ of.options.shaders.CLOUD_SHADOW=Тіні від хмар
 
 of.options.shaders.OLD_HAND_LIGHT=Старе освітл. руки
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Старе освітлення руки
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Базово - залежить від шейдера
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Стандартне - залежить від шейдера
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Увімк - використовувати старе
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Вимк - використовувати нове
 of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Це дозволяє шейдерам які працюють лише з  
@@ -225,7 +229,7 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.7=речами в другій.
 
 of.options.shaders.OLD_LIGHTING=Старе освітлення
 of.options.shaders.OLD_LIGHTING.tooltip.1=Старе освітлення
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Базово - залежить від шейдера
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Стандартне - залежить від шейдера
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Увімк - використовувати старе
 of.options.shaders.OLD_LIGHTING.tooltip.4=  Вимк - не використовувати старе
 of.options.shaders.OLD_LIGHTING.tooltip.5=Старе освітлення контролює фіксовану базову
@@ -312,7 +316,7 @@ of.options.CLEAR_WATER.tooltip.1=Чиста вода
 of.options.CLEAR_WATER.tooltip.2=  Увімк - чиста, прозора вода
 of.options.CLEAR_WATER.tooltip.3=  Вимк - стандартна вода
 
-of.options.RANDOM_ENTITIES=Випадкові текстури істот
+of.options.RANDOM_ENTITIES=Випадкові істоти
 of.options.RANDOM_ENTITIES.tooltip.1=Випадкові текстури для істот
 of.options.RANDOM_ENTITIES.tooltip.2=  Вимк - лише одна текстура, швидше
 of.options.RANDOM_ENTITIES.tooltip.3=  Увімк - випадкові текстури, повільніше
@@ -380,7 +384,7 @@ of.options.NATURAL_TEXTURES.tooltip.6=Це використовує переве
 of.options.NATURAL_TEXTURES.tooltip.7=блока. Налаштування натуральних текстур
 of.options.NATURAL_TEXTURES.tooltip.8=надходить з обраного пакета текстур.
 
-of.options.EMISSIVE_TEXTURES=Випромінювальні текстури
+of.options.EMISSIVE_TEXTURES=Випромін. текстури
 of.options.EMISSIVE_TEXTURES.tooltip.1=Випромінювальні текстури
 of.options.EMISSIVE_TEXTURES.tooltip.2=  Увімк - використання випромінювальних текстур
 of.options.EMISSIVE_TEXTURES.tooltip.3=  Вимк - без випромінювальних текстур
@@ -397,7 +401,7 @@ of.options.CUSTOM_SKY.tooltip.3=  Вимк - базове небо, швидше
 of.options.CUSTOM_SKY.tooltip.4=Власна текстура неба може бути змінена
 of.options.CUSTOM_SKY.tooltip.5=ресурспаком
 
-of.options.CUSTOM_ITEMS=Власні текстури речей
+of.options.CUSTOM_ITEMS=Власні речі
 of.options.CUSTOM_ITEMS.tooltip.1=Власні текстури речей
 of.options.CUSTOM_ITEMS.tooltip.2=  Увімк - власні текстури речей (базово), повільніше
 of.options.CUSTOM_ITEMS.tooltip.3=  Вимк - базові речі, швидше
@@ -472,13 +476,14 @@ of.options.SHOW_CAPES.tooltip.1=Показувати плащі
 of.options.SHOW_CAPES.tooltip.2=  Увімк - показувати плащі (базово)
 of.options.SHOW_CAPES.tooltip.3=  Вимк - не показувати плащі (швидше)
 
-of.options.TRANSLUCENT_BLOCKS=Напівпрозорі блоки
+of.options.TRANSLUCENT_BLOCKS=Напівпроз. блоки
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Напівпрозорі блоки
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Красива - правильне змішування кольорів (базово)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Швидка - швидше змішування кольорів (швидше)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Контролює змішування кольорів напівпрозорих блоків
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=з різним кольором (скло, вода, лід)
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=коли між ними є повітря.
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Стандартне - як в налаштуваннях графіки
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Красива - правильне змішування кольорів (повільніше)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Швидка - швидше змішування кольорів (швидше)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Контролює змішування кольорів напівпрозорих блоків
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=з різним кольором (скло, вода, лід)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=коли між ними є повітря.
 
 of.options.HELD_ITEM_TOOLTIPS=Спливаючі підказки
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Спливаючі підказки
@@ -495,9 +500,9 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, джерело, стандартне
 
 of.options.DROPPED_ITEMS=Викинуті речі
 of.options.DROPPED_ITEMS.tooltip.1=Викинуті речі
-of.options.DROPPED_ITEMS.tooltip.2=  Базові - як у налаштуваннях відео
-of.options.DROPPED_ITEMS.tooltip.3=  Швидка - викинуті речі у 2D, швидше
-of.options.DROPPED_ITEMS.tooltip.4=  Красива - викинуті речі у 3D, повільніше
+of.options.DROPPED_ITEMS.tooltip.2=  Стандартні - як в налаштуваннях графіки
+of.options.DROPPED_ITEMS.tooltip.3=  Швидка - викинуті речі у 2D (швидше)
+of.options.DROPPED_ITEMS.tooltip.4=  Красива - викинуті речі у 3D (повільніше)
 
 options.entityShadows.tooltip.1=Тіні сутностей
 options.entityShadows.tooltip.2=  Увімк - показувати тіні сутностей
@@ -505,7 +510,7 @@ options.entityShadows.tooltip.3=  Вимк - вимкнути тіні сутн�
 
 of.options.VIGNETTE=Віньєтка
 of.options.VIGNETTE.tooltip.1=Візуальний ефект який затемняє краї
-of.options.VIGNETTE.tooltip.2=  Базово - як в налаштуваннях графіки
+of.options.VIGNETTE.tooltip.2=  Стандартне - як в налаштуваннях графіки
 of.options.VIGNETTE.tooltip.3=  Швидка - віньєтка вимкнена (швидша)
 of.options.VIGNETTE.tooltip.4=  Красива - віньєтка увімкнена (повільніше)
 of.options.VIGNETTE.tooltip.5=Віньєтка може зробити істотний вплив на FPS,
@@ -542,8 +547,8 @@ of.options.SMOOTH_WORLD=Згладжений світ
 of.options.SMOOTH_WORLD.tooltip.1=Прибирає фрізи при завантаженні чатків.
 of.options.SMOOTH_WORLD.tooltip.2=  Вимк - нема стабілізації, FPS може коливатись
 of.options.SMOOTH_WORLD.tooltip.3=  Увімк - FPS стабілізується
-of.options.SMOOTH_WORLD.tooltip.4=Стабілізує FPS лише на одиночній грі.
-of.options.SMOOTH_WORLD.tooltip.5=
+of.options.SMOOTH_WORLD.tooltip.4=Стабілізує FPS лише в одиночній грі.
+of.options.SMOOTH_WORLD.tooltip.5=Не пливає на FPS при грі на сервері.
 
 of.options.FAST_RENDER=Швидкий рендер
 of.options.FAST_RENDER.tooltip.1=Швидкий рендер
@@ -551,6 +556,7 @@ of.options.FAST_RENDER.tooltip.2= Вимк - стандартний рендер
 of.options.FAST_RENDER.tooltip.3= Увімк - оптимізований рендер (швидший)
 of.options.FAST_RENDER.tooltip.4=Використовує оптимізований алгоритм рендерингу
 of.options.FAST_RENDER.tooltip.5=зменшує навантаження на процесор і збільшить FPS.
+of.options.FAST_RENDER.tooltip.6=Ця опція може конфліктувати з деякими модами.
 
 of.options.FAST_MATH=Швидка математика
 of.options.FAST_MATH.tooltip.1=Швидка математика
@@ -558,6 +564,7 @@ of.options.FAST_MATH.tooltip.2= Вимк - стандартна математи
 of.options.FAST_MATH.tooltip.3= Увімк - швидша математика
 of.options.FAST_MATH.tooltip.4=Використовує оптимізовані функції sin() і cos(), що може краще
 of.options.FAST_MATH.tooltip.5=утилізувати  кеш, і збільшити FPS.
+of.options.FAST_MATH.tooltip.6=Ця опція може мати мінімальний вплив генерацію світу.
 
 of.options.CHUNK_UPDATES=Оновлення чанків
 of.options.CHUNK_UPDATES.tooltip.1=Оновлення чанків
@@ -569,12 +576,12 @@ of.options.CHUNK_UPDATES.tooltip.6=найбільші значення можу�
 
 of.options.CHUNK_UPDATES_DYNAMIC=Динамічні оновлення
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Динамічні оновлення чанків
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Вимк - (базово) стандартне оновлення чанків за кадр
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Вимк - стандартне оновлення чанків за кадр (базово)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Увімк - більше оновленнь коли гравець стоїть
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Динамічні оновлення змушують виконувати більше оновлень чанків
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=коли гравець стоїть, світ провантажується швидше.
 
-of.options.LAZY_CHUNK_LOADING=Ліниве завантаження чанків
+of.options.LAZY_CHUNK_LOADING=Ліниві чанки
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Ліниве завантаження чанків
 of.options.LAZY_CHUNK_LOADING.tooltip.2= Вимк - базове серверне завантаження чанків
 of.options.LAZY_CHUNK_LOADING.tooltip.3= Увімк - ліниве завантаження серверних чанків (плавніше)
@@ -585,10 +592,19 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Ефективно тільки для �
 
 of.options.RENDER_REGIONS=Рендер регіонів
 of.options.RENDER_REGIONS.tooltip.1=Рендер регіонів
-of.options.RENDER_REGIONS.tooltip.2= Вимк - (базово) не використовувати рендер регіонів
+of.options.RENDER_REGIONS.tooltip.2= Вимк - не використовувати рендер регіонів (базово)
 of.options.RENDER_REGIONS.tooltip.3= Увімк - використовувати рендер регіонів
 of.options.RENDER_REGIONS.tooltip.4=Рендер регіонів пришвидшує рендер території при великих значеннях
 of.options.RENDER_REGIONS.tooltip.5=видимої відстані. Більш ефективний коли VBO увімкнено.
+
+of.options.SMART_ANIMATIONS=Розумна анімація
+of.options.SMART_ANIMATIONS.tooltip.1=Розумна анімація
+of.options.SMART_ANIMATIONS.tooltip.2= Вимк - не використовувати розумну анімацію (базово)
+of.options.SMART_ANIMATIONS.tooltip.3= Увімк - використовувати розумну анімацію
+of.options.SMART_ANIMATIONS.tooltip.4=З розумною анімацією, гра буде анімувати лише
+of.options.SMART_ANIMATIONS.tooltip.5=текстури, які видимі на екрані.
+of.options.SMART_ANIMATIONS.tooltip.6=Це зменшує лаги і покращує FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Особливо корисно для великих модпаків та HD ресурспаків.
 
 # Animations
 
@@ -626,12 +642,12 @@ of.options.LAGOMETER.tooltip.6=* Червоний - Оновлення чанк�
 of.options.LAGOMETER.tooltip.7=* Жовтий - Перевірка видимості
 of.options.LAGOMETER.tooltip.8=* Зелений - Рендеринг місцевості
 
-of.options.PROFILER=Профіль дебагу
-of.options.PROFILER.tooltip.1=Профіль дебагу
-of.options.PROFILER.tooltip.2=  Увімк - профіль дебагу увімкнуто, повільніше
-of.options.PROFILER.tooltip.3=  Вимк - профіль дебагу вимкнуто, швидше
-of.options.PROFILER.tooltip.4=Профіль дебагу збирає інформацію і показує її на
-of.options.PROFILER.tooltip.5=екрані дебагу (F3)
+of.options.PROFILER=Профіль відладки
+of.options.PROFILER.tooltip.1=Профіль відладки
+of.options.PROFILER.tooltip.2=  Увімк - профіль відладки увімкнуто (повільніше)
+of.options.PROFILER.tooltip.3=  Вимк - профіль відладки вимкнуто (швидше)
+of.options.PROFILER.tooltip.4=Профіль відладки збирає інформацію і показує її на
+of.options.PROFILER.tooltip.5=екрані відладки (F3)
 
 of.options.WEATHER=Погода
 of.options.WEATHER.tooltip.1=Погода
@@ -645,7 +661,7 @@ of.options.time.nightOnly=Тільки ніч
 
 of.options.TIME=Час
 of.options.TIME.tooltip.1=Час
-of.options.TIME.tooltip.2= Базово - стандартний день
+of.options.TIME.tooltip.2= Стандартне - стандартний день
 of.options.TIME.tooltip.3= Тільки день - тільки день
 of.options.TIME.tooltip.4= Тільки ніч - тільки ніч
 of.options.TIME.tooltip.5=Встановлення часу працює лиш для гравців у
@@ -659,18 +675,19 @@ options.fullscreen.tooltip.5=покращити продуктивність.
 
 of.options.FULLSCREEN_MODE=Роздільна здатність
 of.options.FULLSCREEN_MODE.tooltip.1=Роздільна здатність
-of.options.FULLSCREEN_MODE.tooltip.2=  Базово - використовувати роздільну здатність монітора, повільніше
+of.options.FULLSCREEN_MODE.tooltip.2=  Стандартна - використовувати роздільну здатність монітора, повільніше
 of.options.FULLSCREEN_MODE.tooltip.3=  WxH - використовувати власну роздільну якість, може бути швидше
 of.options.FULLSCREEN_MODE.tooltip.4=Обрана якість буде використовуватись в повноекранному режимі (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Найнижча якість завжди швидша.
 
 of.options.SHOW_FPS=Показувати FPS
-of.options.SHOW_FPS.tooltip.1=Показує компактно FPS і інформацію рендеру
-of.options.SHOW_FPS.tooltip.2=  C: - чанків рендериться
-of.options.SHOW_FPS.tooltip.3=  E: - сутностей в рендері + блоковано сутностей
-of.options.SHOW_FPS.tooltip.4=  U: - чанків оновлюється
-of.options.SHOW_FPS.tooltip.5=Компактне FPS показується лиш коли
-of.options.SHOW_FPS.tooltip.6=екран дебагу вимкнено.
+of.options.SHOW_FPS.tooltip.1=Показує компактно FPS і інформацію про рендер
+of.options.SHOW_FPS.tooltip.2=  Fps - середній/мінімальний
+of.options.SHOW_FPS.tooltip.3=  C: - чанків відображається
+of.options.SHOW_FPS.tooltip.4=  E: - сутностей в рендері + блоковано сутностей
+of.options.SHOW_FPS.tooltip.5=  U: - чанків оновлюється
+of.options.SHOW_FPS.tooltip.6=Компактне FPS показується лиш коли
+of.options.SHOW_FPS.tooltip.7=екран відладки вимкнено.
 
 of.options.save.default=Базове (2с)
 of.options.save.20s=20с
@@ -679,13 +696,21 @@ of.options.save.30min=30хв
 
 of.options.AUTOSAVE_TICKS=Автозбереження
 of.options.AUTOSAVE_TICKS.tooltip.1=Інтервал автозбереження
-of.options.AUTOSAVE_TICKS.tooltip.2=Базовий інтервал збереження (2с) НЕ РЕКОМЕНДОВАНО.
+of.options.AUTOSAVE_TICKS.tooltip.2=Стандартний інтервал збереження (2с) НЕ РЕКОМЕНДОВАНО.
 of.options.AUTOSAVE_TICKS.tooltip.3=Автозбереження спричиняє "фріз смерті".
 
 of.options.SCREENSHOT_SIZE=Розмір знімку екрану
 of.options.SCREENSHOT_SIZE.tooltip.1=Розмір скріншоту
-of.options.SCREENSHOT_SIZE.tooltip.2=  Базовий - стандартний розмір скріншоту
+of.options.SCREENSHOT_SIZE.tooltip.2=  Стандартний - стандартний розмір скріншоту
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - власний розмір скріншоту
 of.options.SCREENSHOT_SIZE.tooltip.4=Знімання більшого скріншоту потребує більше пам'яті
 of.options.SCREENSHOT_SIZE.tooltip.5=Не сумісне зі швидким рендером і згладжуванням
 of.options.SCREENSHOT_SIZE.tooltip.6=Потребує підтримку фреймбуфера GPU.
+
+of.options.SHOW_GL_ERRORS=Показувати помилки OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.1=Показувати помилки OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.2=Коли увімкнено, помилки OpenGL будуть надсилатись у чат.
+of.options.SHOW_GL_ERRORS.tooltip.3=Вимикайте це лише якщо ви ТОЧНО впевнені що цю
+of.options.SHOW_GL_ERRORS.tooltip.4=помилку неможливо виправити.
+of.options.SHOW_GL_ERRORS.tooltip.5=Коли вимкнено, помилки продовжать зберігатись у журналах
+of.options.SHOW_GL_ERRORS.tooltip.6=і вони можуть викликати різке падіння FPS. 
