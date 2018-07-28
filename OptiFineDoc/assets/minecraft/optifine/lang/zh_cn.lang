@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-6-16
+#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-7-20
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
@@ -563,13 +563,15 @@ of.options.FAST_RENDER.tooltip.2= 关闭 - 标准渲染（默认）
 of.options.FAST_RENDER.tooltip.3= 开启 - 优化渲染（较快）
 of.options.FAST_RENDER.tooltip.4=采用优化渲染算法从而降低 GPU 的负载
 of.options.FAST_RENDER.tooltip.5=并且可能大幅提升 FPS。
+of.options.FAST_RENDER.tooltip.6=此选项或与某些模组冲突。
 
 of.options.FAST_MATH=快速运算
 of.options.FAST_MATH.tooltip.1=快速运算
 of.options.FAST_MATH.tooltip.2= 关闭 - 标准的运算（默认）
 of.options.FAST_MATH.tooltip.3= 开启 - 更快的运算
 of.options.FAST_MATH.tooltip.4=采用优化的 sin() 和 cos() 函数可以
-of.options.FAST_MATH.tooltip.5=更好地利用 CPU 缓存并且提升 FPS。
+of.options.FAST_MATH.tooltip.5=更好地利用 CPU 缓存，并且提升 FPS。
+of.options.FAST_MATH.tooltip.6=此选项对世界生成有微小影响。
 
 of.options.CHUNK_UPDATES=区块更新
 of.options.CHUNK_UPDATES.tooltip.1=区块更新
@@ -687,11 +689,12 @@ of.options.FULLSCREEN_MODE.tooltip.5=较低的分辨率通常会更快。
 
 of.options.SHOW_FPS=显示 FPS
 of.options.SHOW_FPS.tooltip.1=显示迷你的 FPS 和渲染信息
-of.options.SHOW_FPS.tooltip.2=  C：- 区块渲染器
-of.options.SHOW_FPS.tooltip.3=  E：- 一般实体 + 方块实体
-of.options.SHOW_FPS.tooltip.4=  U：- 区块更新
-of.options.SHOW_FPS.tooltip.5=只有调试屏幕隐藏时
-of.options.SHOW_FPS.tooltip.6=迷你FPS信息才会显示。
+of.options.SHOW_FPS.tooltip.2=  FPS - 平均/最低
+of.options.SHOW_FPS.tooltip.3=  C：- 区块渲染器
+of.options.SHOW_FPS.tooltip.4=  E：- 一般实体 + 方块实体
+of.options.SHOW_FPS.tooltip.5=  U：- 区块更新
+of.options.SHOW_FPS.tooltip.6=只有调试屏幕隐藏时
+of.options.SHOW_FPS.tooltip.7=迷你FPS信息才会显示。
 
 of.options.save.default=默认（2秒）
 of.options.save.20s=20秒
