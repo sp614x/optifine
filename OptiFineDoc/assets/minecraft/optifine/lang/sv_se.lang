@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-07-18
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-07-29
 
 # General
 of.general.ambiguous=tvetydig
@@ -606,6 +606,7 @@ of.options.RENDER_REGIONS.tooltip.3=  PÅ - använd renderingsområden
 of.options.RENDER_REGIONS.tooltip.4=Renderingsområden gör att terräng renderas snabbare
 of.options.RENDER_REGIONS.tooltip.5=vid högre renderingsavstånd. Mer effektivt när VBO är
 of.options.RENDER_REGIONS.tooltip.6=aktiverat.
+of.options.RENDER_REGIONS.tooltip.7=Rekommenderas inte för integrerade grafikkort.
 
 of.options.SMART_ANIMATIONS=Smarta animeringar
 of.options.SMART_ANIMATIONS.tooltip.1=Smarta animeringar
