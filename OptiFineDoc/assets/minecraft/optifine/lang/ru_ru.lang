@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 27-Jul-2018
+#	Jerozgen  01-Mar-2016 — 29-Jul-2018
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -593,6 +593,7 @@ of.options.RENDER_REGIONS.tooltip.2= §oВыкл§r - не использова�
 of.options.RENDER_REGIONS.tooltip.3= Вкл - использовать области рендеринга
 of.options.RENDER_REGIONS.tooltip.4=Позволяют ускорить рендеринг местности на высокой
 of.options.RENDER_REGIONS.tooltip.5=дальности прорисовки. Эффективнее с включённым VBO.
+of.options.RENDER_REGIONS.tooltip.6=Не рекомендуется использовать с встроенной видеокартой.
 
 of.options.SMART_ANIMATIONS=Умные анимации
 of.options.SMART_ANIMATIONS.tooltip.1=Умные анимации
