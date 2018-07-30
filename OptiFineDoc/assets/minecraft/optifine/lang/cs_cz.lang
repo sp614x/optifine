@@ -595,6 +595,7 @@ of.options.RENDER_REGIONS.tooltip.2= NE - nepoužívat render regiony (výchozí
 of.options.RENDER_REGIONS.tooltip.3= ANO - použít render regiony
 of.options.RENDER_REGIONS.tooltip.4=Render regiony umožní rychlejší render terénu při vyšších
 of.options.RENDER_REGIONS.tooltip.5=viditelných vzdálenostech. Efektivnějsí při zapnutém VBO.
+of.options.RENDER_REGIONS.tooltip.6=Není doporučeno pro integrované grafické karty.
 
 of.options.SMART_ANIMATIONS=Chytré animace
 of.options.SMART_ANIMATIONS.tooltip.1=Chytré animace
