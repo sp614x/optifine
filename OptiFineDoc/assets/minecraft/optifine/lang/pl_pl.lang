@@ -1,6 +1,7 @@
 # Contributors of Polish localization #
 #  Kamil7430 2016-03-14 -- 2017-03-12 #
-#  Puuska 2017.07.15 -- ?????         #
+#  Puuska 2017-07-15 -- 2018-01-31    #
+#  Kamil7430 2018-07-30 -- ?????      #
 
 # General
 of.general.ambiguous=dwuznaczny
@@ -38,6 +39,9 @@ of.message.shaders.fr2=Proszę, wyłącz opcję Wydajność -> Szybkie renderowa
 of.message.shaders.an1=Shadery nie są kompatybilne z anaglifowym 3D.
 of.message.shaders.an2=Proszę, wyłącz opcję Inne -> Anaglifowe 3D.
 
+of.message.shaders.nv1=Ten zestaw shaderów wymaga nowszej wersji OptiFine: %s
+of.message.shaders.nv2=Czy na pewno chcesz kontynuować?
+
 of.message.newVersion=Nowa wersja §eOptiFine§f jest dostępna: §e%s§f
 of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowego środowiska Java§f, aby podwyższyć wydajność.
 of.message.openglError=§eBłąd OpenGL§f: %s (%s)
@@ -47,6 +51,10 @@ of.message.shaders.loading=Wczytuję shadery: %s
 of.message.other.reset=Czy chcesz przywrócić wszystkie ustawienia graficzne do ich domyślnych wartości?
  
 of.message.loadingVisibleChunks=Wczytywanie widzialnych chunków
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=Peleryna OptiFine...
 
 # Video settings
 
@@ -61,14 +69,16 @@ of.options.renderDistance.short=Krótka
 of.options.renderDistance.normal=Normalna
 of.options.renderDistance.far=Długa
 of.options.renderDistance.extreme=Ekstremalna
+of.options.renderDistance.insane=Szalona
+of.options.renderDistance.ludicrous=Niedorzeczna
 
 options.renderDistance.tooltip.1=Odległość renderowania
-options.renderDistance.tooltip.2=  2 Najkrótsza - 32m (najwyższa wydajność)
-options.renderDistance.tooltip.3=  4 Krótka - 64m (wysoka wydajność)
-options.renderDistance.tooltip.4=  8 Normalna - 128m
-options.renderDistance.tooltip.5=  16 Długa - 256m (niska wydajność)
-options.renderDistance.tooltip.6=  32 Ekstremalna - 512m (najniższa wydajność)
-options.renderDistance.tooltip.7=Odległość renderowania ekstremalna jest bardzo zasobożerna!
+options.renderDistance.tooltip.2=  2 Najkrótsza - 32m
+options.renderDistance.tooltip.3=  8 Normalna - 128m
+options.renderDistance.tooltip.4=  16 Długa - 256m
+options.renderDistance.tooltip.5=  32 Ekstremalna - 512m
+options.renderDistance.tooltip.6=  48 Szalona - 768m, potrzeba min. 2GB RAMu
+options.renderDistance.tooltip.7=  64 Niedorzeczna - 1024m, potrzeba min. 3GB RAMu
 options.renderDistance.tooltip.8=Wartości powyżej 16 są zalecane tylko dla lokalnych światów.
 
 options.ao.tooltip.1=Gładkie oświetlenie
@@ -93,8 +103,12 @@ of.options.AO_LEVEL.tooltip.4=  100%% - ciemne cienie
 options.viewBobbing.tooltip.1=Bardziej realistyczne poruszanie się.
 options.viewBobbing.tooltip.2=Gdy uzywasz mipmap, wyłącz tę opcję, aby podwyższyć wydajność.
 
-options.guiScale.tooltip.1=Wielkość Interfejsu
-options.guiScale.tooltip.2=Mniejszy interfejs może podwyższyć wydajność
+options.guiScale.tooltip.1=Wielkość interfejsu
+options.guiScale.tooltip.2=  Auto - maksymalna dostępna wielkość
+options.guiScale.tooltip.3=  Mały, Normalny, Duży - od 1x do 3x
+options.guiScale.tooltip.4=  od 4x do 10x - dostępne na wyświetlaczach 4K
+options.guiScale.tooltip.5=Wartości nieparzyste (1x, 3x, 5x...) nie są kompatybilne
+options.guiScale.tooltip.6=z Unicode. Mniejszy interfejs może podwyższyć wydajność.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Używa alternatywnej metody renderowania, która jest
@@ -150,14 +164,90 @@ of.options.shaders.packNone=Wyłączone
 of.options.shaders.packDefault=Domyślne
 
 of.options.shaders.ANTIALIASING=Antyaliasing
+of.options.shaders.ANTIALIASING.tooltip.1=Antyaliasing
+of.options.shaders.ANTIALIASING.tooltip.2=  Wył. - (domyślnie) bez antyaliasingu (wyższa wydajność)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - wygładzone linie i krawędzie (niższa wydajność)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA to obróbka końcowa, która wygładza
+of.options.shaders.ANTIALIASING.tooltip.5=postrzępione linie i ostre przejścia kolorów.
+of.options.shaders.ANTIALIASING.tooltip.6=Jest wydajniejsze niż tradycyjny antyaliasing
+of.options.shaders.ANTIALIASING.tooltip.7=i kompatybilne z shaderami i szybkim renderowaniem.  
+
 of.options.shaders.NORMAL_MAP=Normalna mapa
+of.options.shaders.NORMAL_MAP.tooltip.1=Normalna mapa
+of.options.shaders.NORMAL_MAP.tooltip.2=  Wł. - (domyślnie) włączone normalne mapy
+of.options.shaders.NORMAL_MAP.tooltip.3=  Wył. - wyłączone normalne mapy
+of.options.shaders.NORMAL_MAP.tooltip.4=Normalne mapy mogą być używane przez paczkę shaderów,
+of.options.shaders.NORMAL_MAP.tooltip.5=aby symulować geometrię 3D na płaskich powierzchniach
+of.options.shaders.NORMAL_MAP.tooltip.6=modeli. Tekstury normalnych map są dostarczane
+of.options.shaders.NORMAL_MAP.tooltip.7=z obecnej paczki zasobów.
+
 of.options.shaders.SPECULAR_MAP=Lustrzana mapa
+of.options.shaders.SPECULAR_MAP.tooltip.1=Lustrzana mapa
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Wł.  (domyślnie) włączone lustrzane mapy
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Wył. - wyłączone lustrzane mapy
+of.options.shaders.SPECULAR_MAP.tooltip.4=Lustrzane mapy mogą być używane przez paczkę shaderów,
+of.options.shaders.SPECULAR_MAP.tooltip.5=aby symulować specjalne efekty refleksów.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Tekstury lustrzanych map są dostarczane
+of.options.shaders.SPECULAR_MAP.tooltip.7=z obecnej paczki zasobów.
+
 of.options.shaders.RENDER_RES_MUL=Jakość renderowania
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Jakość renderowania
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - niska (najwyższa wydajność)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standardowa (domyślnie)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - wysoka (najniższa wydajność)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Ta opcja kontroluje wielkość tekstury, 
+of.options.shaders.RENDER_RES_MUL.tooltip.6=którą paczka shaderów renderuje.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Niższe wartości mogą być przydatne przy wyświetlaczach 4K.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Wyższe wartości pracują jako filtr antyaliasingowy.
+
 of.options.shaders.SHADOW_RES_MUL=Jakość cieni
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Jakość cieni
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - niska (najwyższa wydajność)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standardowa (domyślnie)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - wysoka (najniższa wydajność)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Ta opcja kontroluje wielkość tekstury
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=mapy cieni używaną przez paczkę shaderów.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Niższe wartości = niedokładne, chropowate cienie.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Wyższe wartości = szczegółowe, ładne cienie.
+
 of.options.shaders.HAND_DEPTH_MUL=Głębokość ręki
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Głębokość ręki
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - ręka blisko kamery
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - domyślnie
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - ręka daleko kamery
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Ta opcja kontroluje jak trzymane obiekty są
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=oddalone od kamery. Dla paczek shaderów używających
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=głębokiego rozmycia ta opcja powinna zmienić
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=rozmycie trzymanych obiektów.
+
 of.options.shaders.CLOUD_SHADOW=Cienie chmur
-of.options.shaders.OLD_HAND_LIGHT=Stare oświetlanie ręki
+
+of.options.shaders.OLD_HAND_LIGHT=Stare światło ręczne
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Stara metoda oświetlania przez przedmioty trzymane w ręce
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Domyślne - kontrolowane przez paczkę shaderów
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Wł. - używaj starej metody oświetlania
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  wył. - używaj nowej metody oświetlania
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Ta opcja pozwala paczkom shaderów, które wykrywają jedynie  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=przedmioty emitujące światło w głównej ręce,
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=pracować także z przedmiotami w ręce podrzędnej.
+
 of.options.shaders.OLD_LIGHTING=Stare oświetlanie
+of.options.shaders.OLD_LIGHTING.tooltip.1=Stare oświetlanie
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Domyślne - kontrolowane przez paczkę shaderów
+of.options.shaders.OLD_LIGHTING.tooltip.3=  Wł. - używaj starego oświetlania
+of.options.shaders.OLD_LIGHTING.tooltip.4=  Wył. - nie używaj starego oświetlania
+of.options.shaders.OLD_LIGHTING.tooltip.5=Ta opcja kontroluje naprawione oświetlenie zastosowane 
+of.options.shaders.OLD_LIGHTING.tooltip.6=w vanilla na strony bloków. 
+of.options.shaders.OLD_LIGHTING.tooltip.7=Paczki shaderów używające cieni zazwyczaj dostarczają 
+of.options.shaders.OLD_LIGHTING.tooltip.8=wiele lepsze oświetlenie bazujące na położeniu słońca.
+
+of.options.shaders.DOWNLOAD=Pobierz shadery
+of.options.shaders.DOWNLOAD.tooltip.1=Pobieranie shaderów
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Ta opcja otwiera w przeglądarce stronę z paczkami shaderów.
+of.options.shaders.DOWNLOAD.tooltip.4=Umieść pobrane paczki w "Folderze na shadery",
+of.options.shaders.DOWNLOAD.tooltip.5=a one pojawią się na liście zainstalowanych shaderów.
+
 of.options.shaders.SHADER_PACK=Paczka shaderów
 
 of.options.shaders.shadersFolder=Folder na shadery
@@ -298,6 +388,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=Ta opcje używa obróconych tekstur blokó
 of.options.NATURAL_TEXTURES.tooltip.7=Konfiguracja naturalnych tekstur jest pobierana
 of.options.NATURAL_TEXTURES.tooltip.8=z aktualnej paczki tekstur.
 
+of.options.EMISSIVE_TEXTURES=Tekstury emisyjne
+of.options.EMISSIVE_TEXTURES.tooltip.1=Tekstury emisyjne
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Wył. - wyłącz tekstury emisyjne (domyślne)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Wł. - używaj tekstur emisyjnych
+of.options.EMISSIVE_TEXTURES.tooltip.4=Tekstury emisyjne są renderowane jako nakładki
+of.options.EMISSIVE_TEXTURES.tooltip.5=z pełną jasnością. Mogą być używane do symulowania
+of.options.EMISSIVE_TEXTURES.tooltip.6=cząstek emitujących światło tekstury bazowej.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Tekstury emisyjne są dostarczane
+of.options.EMISSIVE_TEXTURES.tooltip.8=z obecnej paczki zasobów.
+
 of.options.CUSTOM_SKY=Własne niebo
 of.options.CUSTOM_SKY.tooltip.1=Własne niebo
 of.options.CUSTOM_SKY.tooltip.2=  Wł. - tekstury własnego nieba włączone (domyślne), niższa wydajność
@@ -318,6 +418,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Wł. - opcja włączona (domyślne),
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Wył. - opcja wyłączona, szybciej
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Własne modele są pobierane z
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktualnej paczki tekstur.
+
+of.options.CUSTOM_GUIS=Własne GUI
+of.options.CUSTOM_GUIS.tooltip.1=Własne GUI
+of.options.CUSTOM_GUIS.tooltip.2=  Wł. - własne GUI (domyślne), niższa wydajność
+of.options.CUSTOM_GUIS.tooltip.3=  Wył. - domyślne GUI, wyższa wydajność
+of.options.CUSTOM_GUIS.tooltip.4=Własne GUI są dostarczane z obecnej paczki zasobów.
 
 # Details
 
@@ -376,11 +482,12 @@ of.options.SHOW_CAPES.tooltip.3=  Wył. - nie pokazuje peleryn graczy
 
 of.options.TRANSLUCENT_BLOCKS=Prześwitujące bloki
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Prześwitujące bloki
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Dokładna - poprawne mieszanie kolorów (domyślne)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Szybka - szybkie mieszanie kolorów (wyższa wydajność)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Kontroluje mieszanie kolorów bloków przezroczystych
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=w różnych kolorach (utawrdzone szkło, woda, lód)
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=gdy pod nimi są bloki inne niż powietrze.
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Domyślne - dostosowane do ustawienia graficznego
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Dokładna - poprawne mieszanie kolorów (domyślne)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Szybka - szybkie mieszanie kolorów (wyższa wydajność)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontroluje mieszanie kolorów bloków przezroczystych
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=w różnych kolorach (utawrdzone szkło, woda, lód)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=gdy pod nimi są bloki inne niż powietrze.
 
 of.options.HELD_ITEM_TOOLTIPS=Nazwy trzym. przedm.
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Nazwy trzymanych przedmiotów nad interfejsem
@@ -453,6 +560,7 @@ of.options.FAST_RENDER.tooltip.2= Wył. - standardowe rederowanie (domyślne)
 of.options.FAST_RENDER.tooltip.3= Wł. - zoptymalizowane renderowanie (wyższa wydajność)
 of.options.FAST_RENDER.tooltip.4=Używa zoptymalizowanego algorytmu renderowania, który zmniejsza
 of.options.FAST_RENDER.tooltip.5=obciązenie CPU, a tym samym zwiększa FPS.
+of.options.FAST_RENDER.tooltip.6=Ta opcja może wywoływać konflikty z niektórymi modami.
 
 of.options.FAST_MATH=Szybka matematyka
 of.options.FAST_MATH.tooltip.1=Szybka matematyka
@@ -460,6 +568,7 @@ of.options.FAST_MATH.tooltip.2= Wył. - standardowa matematyka (domyślne)
 of.options.FAST_MATH.tooltip.3= Wł. - przyspieszona matematyka
 of.options.FAST_MATH.tooltip.4=Używa zoptymalizowanych działań sin() i cos(), które
 of.options.FAST_MATH.tooltip.5=lepiej wykorzystują pamięć procesora i zwiększa FPS.
+of.options.FAST_MATH.tooltip.6=Ta opcja może mieć minimalny wpływ na generowanie świata.
 
 of.options.CHUNK_UPDATES=Aktualizacje chunków
 of.options.CHUNK_UPDATES.tooltip.1=Aktualizacje chunków
@@ -484,6 +593,23 @@ of.options.LAZY_CHUNK_LOADING.tooltip.4=Wygładza zintegrowane ładowanie serwer
 of.options.LAZY_CHUNK_LOADING.tooltip.5=rozdzielając chunki na kilka ticków.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Wyłącz to, jeżeli części świata nie ładują się prawidłowo.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektyne tylko na lokalnych światach i jednordzeniowych komputerach.
+
+of.options.RENDER_REGIONS=Renderowanie okolicy
+of.options.RENDER_REGIONS.tooltip.1=Renderowanie okolicy
+of.options.RENDER_REGIONS.tooltip.2= Wył. - nie używaj renderowania okolicy (domyślne)
+of.options.RENDER_REGIONS.tooltip.3= Wł. - używaj renderowania okolicy
+of.options.RENDER_REGIONS.tooltip.4=Ta opcja pozwala na szybsze renderowanie terenu na wyższych
+of.options.RENDER_REGIONS.tooltip.5=odległościach renderowania. Efektywniejsze, gdy włączone jest VBO.
+of.options.RENDER_REGIONS.tooltip.6=Nie jest rekomendowane dla zintegrowanych kart graficznych.
+
+of.options.SMART_ANIMATIONS=Inteligentne animacje
+of.options.SMART_ANIMATIONS.tooltip.1=Inteligentne animacje
+of.options.SMART_ANIMATIONS.tooltip.2= Wył. - nie używaj inteligentnych animacji (domyślne)
+of.options.SMART_ANIMATIONS.tooltip.3= Wł. - używaj inteligentnych animacji
+of.options.SMART_ANIMATIONS.tooltip.4=Ta opcja powoduje, że gra animuje tylko te tekstury, które są w tym
+of.options.SMART_ANIMATIONS.tooltip.5=momencie widzialne na ekranie. To redukuje nagłe napady lagów
+of.options.SMART_ANIMATIONS.tooltip.6=i zwiększa ilość FPS. Szczególnie użyteczne dla dużych paczek modów
+of.options.SMART_ANIMATIONS.tooltip.7=i zestawów zasobów w wysokiej rozdzielczości.
 
 # Animations
 
@@ -561,11 +687,12 @@ of.options.FULLSCREEN_MODE.tooltip.5=Niższe rozdzielczości mogą przyspieszyć
 
 of.options.SHOW_FPS=Pokazuj FPS
 of.options.SHOW_FPS.tooltip.1=Pokazuje kompaktową nakładkę FPS i informacje o renderowaniu
-of.options.SHOW_FPS.tooltip.2=  C: - renderzy chunków
-of.options.SHOW_FPS.tooltip.3=  E: - zrenderowane byty + bloki
-of.options.SHOW_FPS.tooltip.4=  U: - aktualizacje chunków
-of.options.SHOW_FPS.tooltip.5=Ta nakładka jest wyświetlana tylko wtedy,
-of.options.SHOW_FPS.tooltip.6=gdy ekran debugowania jest niewidoczny.
+of.options.SHOW_FPS.tooltip.2=  Fps - średnia/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - renderzy chunków
+of.options.SHOW_FPS.tooltip.4=  E: - zrenderowane byty + bloki
+of.options.SHOW_FPS.tooltip.5=  U: - aktualizacje chunków
+of.options.SHOW_FPS.tooltip.6=Ta nakładka jest wyświetlana tylko wtedy,
+of.options.SHOW_FPS.tooltip.7=gdy ekran debugowania jest niewidoczny.
 
 of.options.save.default=Domyślne (2s)
 of.options.save.20s=20s
@@ -584,3 +711,11 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - własny rozmiar
 of.options.SCREENSHOT_SIZE.tooltip.4=Zapisywanie większych zrzutów może wymagać więcej pamięci,
 of.options.SCREENSHOT_SIZE.tooltip.5=opcja nie jest kompatybilna z szybkim renderowaniem ani
 of.options.SCREENSHOT_SIZE.tooltip.6=antyaliasingiem. Wymaga wsparcia bufora ramki GPU.
+
+of.options.SHOW_GL_ERRORS=Pokazuj błędy GL
+of.options.SHOW_GL_ERRORS.tooltip.1=Pokazuj błędy OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.2=Kiedy aktywne, błędy OpenGL są pokazywane na czacie.
+of.options.SHOW_GL_ERRORS.tooltip.3=Wyłącz tą opcję tylko jeżeli jest znany konflikt
+of.options.SHOW_GL_ERRORS.tooltip.4=i błędy nie mogą zostać naprawione.
+of.options.SHOW_GL_ERRORS.tooltip.5=Kiedy nieaktywne, błędy są nadal zapisywane w rejestrze
+of.options.SHOW_GL_ERRORS.tooltip.6=błędów i nadal mogą powodować znaczące spadki FPS. 
