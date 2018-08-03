@@ -34,14 +34,14 @@ of.message.shaders.fr2=Please set Performance -> Fast Render to OFF.
 of.message.shaders.an1=Shaders are not compatible with 3D Anaglyph.
 of.message.shaders.an2=Please set Other -> 3D Anaglyph to OFF.
 
-of.message.shaders.nv1=This shader pack requires a newer OptiFine version: %s
+of.message.shaders.nv1=This Shader pack requires a newer OptiFine version: %s
 of.message.shaders.nv2=Are you sure you want to continue?
 
 of.message.newVersion=A new §eOptiFine§f version is available: §e%s§f
 of.message.java64Bit=You can install §e64-bit Java§f to increase performance.
 of.message.openglError=§eOpenGL Error§f: %s (%s)
 
-of.message.shaders.loading=Loading shaders: %s
+of.message.shaders.loading=Loading Shaders: %s
 
 of.message.other.reset=Reset all video settings to their default values?
 
@@ -165,13 +165,13 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiased lines and 
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA is a post-processing effect which smooths
 of.options.shaders.ANTIALIASING.tooltip.5=jagged lines and sharp color transitions.
 of.options.shaders.ANTIALIASING.tooltip.6=It is faster than traditional antialiasing
-of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders and Fast Render.  
+of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with Shaders and Fast Render.  
 
 of.options.shaders.NORMAL_MAP=Normal Map
 of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
 of.options.shaders.NORMAL_MAP.tooltip.2=  ON - (default) enable normal maps 
 of.options.shaders.NORMAL_MAP.tooltip.3=  OFF - disable normal maps
-of.options.shaders.NORMAL_MAP.tooltip.4=Normal maps can be used by the shader pack
+of.options.shaders.NORMAL_MAP.tooltip.4=Normal maps can be used by the Shader pack
 of.options.shaders.NORMAL_MAP.tooltip.5=to simulate 3D geometry on flat model surfaces.
 of.options.shaders.NORMAL_MAP.tooltip.6=The normal map textures are supplied by the
 of.options.shaders.NORMAL_MAP.tooltip.7=current resource pack.
@@ -180,7 +180,7 @@ of.options.shaders.SPECULAR_MAP=Specular Map
 of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
 of.options.shaders.SPECULAR_MAP.tooltip.2=  ON - (default) enable specular maps
 of.options.shaders.SPECULAR_MAP.tooltip.3=  OFF - disable specular maps
-of.options.shaders.SPECULAR_MAP.tooltip.4=Specular maps can be used by the shader pack
+of.options.shaders.SPECULAR_MAP.tooltip.4=Specular maps can be used by the Shader pack
 of.options.shaders.SPECULAR_MAP.tooltip.5=to simulate special reflection effects.
 of.options.shaders.SPECULAR_MAP.tooltip.6=The specular map textures are supplied by the
 of.options.shaders.SPECULAR_MAP.tooltip.7=current resource pack.
@@ -191,7 +191,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - low (fastest)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (default)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - high (slowest)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=Render quality controls the size of the texture 
-of.options.shaders.RENDER_RES_MUL.tooltip.6=that the shader pack is rendering to.
+of.options.shaders.RENDER_RES_MUL.tooltip.6=that the Shader pack is rendering to.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Lower values can be useful with 4K displays.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Higher values work as an antialiasing filter.
 
@@ -201,7 +201,7 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - low (fastest)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (default)
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - high (slowest)
 of.options.shaders.SHADOW_RES_MUL.tooltip.5=Shadow quality controls the size of the shadow map
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=texture used by the shader pack.
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=texture used by the Shader pack.
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = unexact, coarser shadows.
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Higher values = detailed, finer shadows.
 
@@ -212,23 +212,23 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (default)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - hand far from the camera
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hand depth controls how far the handheld objects are
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=from the camera.
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For shader packs using depth blur this should change
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For Shader packs using depth blur this should change
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=the blurring of handheld objects.
 
 of.options.shaders.CLOUD_SHADOW=Cloud Shadow
 
 of.options.shaders.OLD_HAND_LIGHT=Old Hand Light
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Old Hand Light
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Default - controlled by the shader pack
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Default - controlled by the Shader pack
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ON - use old handlight
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  OFF - use new handlight
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Old hand light allows shader packs which only  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Old hand light allows Shader packs which only  
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognize light emitting items in the main hand 
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=to also work with items in the off-hand.
 
 of.options.shaders.OLD_LIGHTING=Old Lighting
 of.options.shaders.OLD_LIGHTING.tooltip.1=Old Lighting
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Default - controlled by the shader pack
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Default - controlled by the Shader pack
 of.options.shaders.OLD_LIGHTING.tooltip.3=  ON - use old lighting
 of.options.shaders.OLD_LIGHTING.tooltip.4=  OFF - do not use old lighting
 of.options.shaders.OLD_LIGHTING.tooltip.5=Old lighting controls the fixed lighting applied 
@@ -239,9 +239,9 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=much better lighting depending on the 
 of.options.shaders.DOWNLOAD=Download Shaders
 of.options.shaders.DOWNLOAD.tooltip.1=Download Shaders
 of.options.shaders.DOWNLOAD.tooltip.2= 
-of.options.shaders.DOWNLOAD.tooltip.3=Opens the shader packs page in a browser.
-of.options.shaders.DOWNLOAD.tooltip.4=Put the downloaded shader packs in the "Shaders Folder"
-of.options.shaders.DOWNLOAD.tooltip.5=and they will appear in the list of installed shaders.
+of.options.shaders.DOWNLOAD.tooltip.3=Opens the Shader packs page in a browser.
+of.options.shaders.DOWNLOAD.tooltip.4=Put the downloaded Shader packs in the "Shaders Folder"
+of.options.shaders.DOWNLOAD.tooltip.5=and they will appear in the list of installed Shaders.
 
 of.options.shaders.SHADER_PACK=Shader Pack
 
@@ -290,7 +290,6 @@ of.options.MIPMAP_TYPE.tooltip.3=  Nearest - rough smoothing (fastest)
 of.options.MIPMAP_TYPE.tooltip.4=  Linear - normal smoothing
 of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - fine smoothing
 of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - finest smoothing (slowest)
-
 
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
@@ -494,7 +493,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.1=Advanced tooltips
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  ON - show advanced tooltips 
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  OFF - do not show advanced tooltips (default)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Advanced tooltips show extended information for
-of.options.ADVANCED_TOOLTIPS.tooltip.5=items (id, durability) and for shader options
+of.options.ADVANCED_TOOLTIPS.tooltip.5=items (id, durability) and for Shader options
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, source, default value).
 
 of.options.DROPPED_ITEMS=Dropped Items
@@ -682,7 +681,7 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lower resolutions should generally be faste
 
 of.options.SHOW_FPS=Show FPS
 of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information.
-of.options.SHOW_FPS.tooltip.2=  Fps - average/minimum
+of.options.SHOW_FPS.tooltip.2=  FPS - average/minimum
 of.options.SHOW_FPS.tooltip.3=  C: - chunk renderers
 of.options.SHOW_FPS.tooltip.4=  E: - rendered entities + block entities
 of.options.SHOW_FPS.tooltip.5=  U: - chunk updates
@@ -713,4 +712,4 @@ of.options.SHOW_GL_ERRORS.tooltip.2=When enabled OpenGL errors are shown in the 
 of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict and
 of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
 of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
-of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
+of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop.
