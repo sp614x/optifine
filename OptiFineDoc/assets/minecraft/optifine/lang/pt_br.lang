@@ -36,7 +36,7 @@ of.message.shaders.fr2=Qualidade -> Desative a renderização rápida.
 of.message.shaders.an1=O Shaders é incompatível com o 3D anaglífico.
 of.message.shaders.an2=Diversas -> Desative o 3D anaglífico.
 
-of.message.shaders.nv1=Este pacote Shaders requer uma versão mais recente do OptiFine: %s
+of.message.shaders.nv1=Este pacote Shader requer uma versão mais recente do OptiFine: %s
 of.message.shaders.nv2=Deseja mesmo continuar?
 
 of.message.newVersion=Nova versão do §eOptiFine§f disponível: §e%s§f
@@ -174,7 +174,7 @@ of.options.shaders.NORMAL_MAP=Mapa normal
 of.options.shaders.NORMAL_MAP.tooltip.1=Mapa normal
 of.options.shaders.NORMAL_MAP.tooltip.2=  Sim - (padrão) ativar mapas normais
 of.options.shaders.NORMAL_MAP.tooltip.3=  Não - desativar mapas normais
-of.options.shaders.NORMAL_MAP.tooltip.4=Mapas normais podem ser usados pelo pacote Shaders
+of.options.shaders.NORMAL_MAP.tooltip.4=Mapas normais podem ser usados pelo pacote Shader
 of.options.shaders.NORMAL_MAP.tooltip.5=para simular efeitos geométricos 3D em objetos planos
 of.options.shaders.NORMAL_MAP.tooltip.6=As texturas de mapas normais são incluídas no pacote
 of.options.shaders.NORMAL_MAP.tooltip.7=de recursos atual.
@@ -184,7 +184,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.1=Mapa especular
 of.options.shaders.SPECULAR_MAP.tooltip.2=  Sim - (padrão) ativar mapas especulares
 of.options.shaders.SPECULAR_MAP.tooltip.3=  Não - desativar mapas especulares
 of.options.shaders.SPECULAR_MAP.tooltip.4=Mapas especulares podem ser usados pelo pacote
-of.options.shaders.SPECULAR_MAP.tooltip.5=Shaders para simular efeitos reflexivos especiais.
+of.options.shaders.SPECULAR_MAP.tooltip.5=Shader para simular efeitos reflexivos especiais.
 of.options.shaders.SPECULAR_MAP.tooltip.6=As texturas de mapas especulares são incluídas no
 of.options.shaders.SPECULAR_MAP.tooltip.7=pacote de recursos atual.
 
@@ -194,7 +194,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - baixa (rápida)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - padrão
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - alta (lenta)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=A qualidade de renderização controla o tamanho da
-of.options.shaders.RENDER_RES_MUL.tooltip.6=textura renderizada pelo pacote Shaders.
+of.options.shaders.RENDER_RES_MUL.tooltip.6=textura renderizada pelo pacote Shader.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Valores menores funcionam melhor em monitores 4K.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Valores maiores funcionam com o Antialiasing.
 
@@ -204,7 +204,7 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - baixa (rápida)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - padrão
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - alta (lenta)
 of.options.shaders.SHADOW_RES_MUL.tooltip.5=A qualidade de sombras controla o tamanho das texturas
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=de sombras usadas pelo pacote Shaders atual.
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=de sombras usadas pelo pacote Shader atual.
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Valores baixos = sombras distorcidas.
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Valores altos = sombras suavizadas.
 
@@ -216,42 +216,42 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - mão distante da câmera
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=A profundidade da mão controla o quão longe
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=os itens segurados estão da câmera.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Pode alterar o efeito embaçado de profundidade
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=fornecido por pacotes Shaders, de itens segurados.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=fornecido por pacotes Shader, de itens segurados.
 
 of.options.shaders.CLOUD_SHADOW=Sombra das nuvens
 
 of.options.shaders.OLD_HAND_LIGHT=Ilum. pela mão
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Iluminação antiga pela mão
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Padrão - definida pelo pacote Shaders
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Padrão - definida pelo pacote Shader
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Sim - ativar iluminação antiga pela mão
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Não - desativar nova iluminação pela mão
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=A iluminação antiga pela mão permite que o pacote Shaders
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=A iluminação antiga pela mão permite que o pacote Shader
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=reconheça a emissão de luzes por itens na mão principal
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=para poder segurar itens com a mão secundária.
 
 of.options.shaders.OLD_LIGHTING=Ilum. antiga
 of.options.shaders.OLD_LIGHTING.tooltip.1=Iluminação antiga
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Padrão - definida pelo pacote Shaders
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Padrão - definida pelo pacote Shader
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Sim - ativar iluminação antiga
 of.options.shaders.OLD_LIGHTING.tooltip.4=  Não - desativar iluminação antiga
 of.options.shaders.OLD_LIGHTING.tooltip.5=A iluminação antiga controla luzes fixas
 of.options.shaders.OLD_LIGHTING.tooltip.6=padronizadas aplicadas aos blocos.
-of.options.shaders.OLD_LIGHTING.tooltip.7=Os pacotes Shaders com efeitos de sombras tornam
-of.options.shaders.OLD_LIGHTING.tooltip.8=a iluminação mais realista, dependendo da posição do Sol.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Os pacotes Shader com efeitos de sombras tornam a
+of.options.shaders.OLD_LIGHTING.tooltip.8=iluminação mais realista, dependendo da posição do Sol.
 
 of.options.shaders.DOWNLOAD=Baixar Shaders
 of.options.shaders.DOWNLOAD.tooltip.1=Baixar Shaders
 of.options.shaders.DOWNLOAD.tooltip.2=
-of.options.shaders.DOWNLOAD.tooltip.3=Abra a página de pacotes Shaders no seu navegador.
-of.options.shaders.DOWNLOAD.tooltip.4=Mova os pacotes baixados para a "Pasta do Shaders"
+of.options.shaders.DOWNLOAD.tooltip.3=Abra a página de pacotes Shader no seu navegador.
+of.options.shaders.DOWNLOAD.tooltip.4=Mova os pacotes baixados para a "Pasta de Shaders"
 of.options.shaders.DOWNLOAD.tooltip.5=e eles serão exibidos na lista de Shaders instalados.
 
-of.options.shaders.SHADER_PACK=Pacote Shaders
+of.options.shaders.SHADER_PACK=Pacote Shader
 
-of.options.shaders.shadersFolder=Pasta do Shaders
-of.options.shaders.shaderOptions=Opções do Shaders...
+of.options.shaders.shadersFolder=Pasta de Shaders
+of.options.shaders.shaderOptions=Opções do Shader...
 
-of.options.shaderOptionsTitle=Opções do Shaders
+of.options.shaderOptionsTitle=Opções do Shader
 
 of.options.quality=Qualidade
 of.options.qualityTitle=Configurações de qualidade
@@ -279,7 +279,7 @@ of.options.mipmap.linear=Linear
 of.options.mipmap.nearest=Básico
 of.options.mipmap.trilinear=Trilinear
 
-options.mipmapLevels.tooltip.1=Efeito visual que aperfeiçoa a aparência de objetos
+options.mipmapLevels.tooltip.1=Efeito visual que melhora a aparência de objetos
 options.mipmapLevels.tooltip.2=distantes, suavizando os detalhes da textura.
 options.mipmapLevels.tooltip.3=  Não - não suavizar
 options.mipmapLevels.tooltip.4=  1 - suavização mínima
@@ -287,7 +287,7 @@ options.mipmapLevels.tooltip.5=  4 - suavização máxima
 options.mipmapLevels.tooltip.6=Esta opção não afeta o desempenho.
 
 of.options.MIPMAP_TYPE=Tipo de mipmap
-of.options.MIPMAP_TYPE.tooltip.1=Efeito visual que aperfeiçoa a aparência de objetos
+of.options.MIPMAP_TYPE.tooltip.1=Efeito visual que melhora a aparência de objetos
 of.options.MIPMAP_TYPE.tooltip.2=distantes, suavizando os detalhes da textura.
 of.options.MIPMAP_TYPE.tooltip.3=  Básico - suavização básica (rápida)
 of.options.MIPMAP_TYPE.tooltip.4=  Linear - suavização comum
@@ -497,7 +497,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.1=Descrições avançadas de itens
 of.options.ADVANCED_TOOLTIPS.tooltip.2= Sim - mostrar descrições
 of.options.ADVANCED_TOOLTIPS.tooltip.3= Não - (padrão) ocultar descrições
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Descrições avançadas exibem mais informações sobre
-of.options.ADVANCED_TOOLTIPS.tooltip.5=itens (ID, duração) e para opções do Shaders
+of.options.ADVANCED_TOOLTIPS.tooltip.5=itens (ID, duração) e para opções do Shader
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(ID, fonte, valor padrão).
 
 of.options.DROPPED_ITEMS=Itens no chão
@@ -600,7 +600,6 @@ of.options.RENDER_REGIONS.tooltip.2= Não - (padrão) desativar renderização d
 of.options.RENDER_REGIONS.tooltip.3= Sim - ativar renderização de regiões
 of.options.RENDER_REGIONS.tooltip.4=Ao ativar, renderiza terrenos distantes mais
 of.options.RENDER_REGIONS.tooltip.5=rapidamente. Ative o VBO para melhores resultados.
-of.options.RENDER_REGIONS.tooltip.6=Não é recomendada para drivers gráficos incluídos.
 
 of.options.SMART_ANIMATIONS=Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
@@ -704,7 +703,7 @@ of.options.save.30min=30min
 of.options.AUTOSAVE_TICKS=Autossalvamento
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo do autossalvamento
 of.options.AUTOSAVE_TICKS.tooltip.2=O intervalo padrão (2s) não é recomendado.
-of.options.AUTOSAVE_TICKS.tooltip.3=O autossalvamento pode causar o Lag Spike of Death.
+of.options.AUTOSAVE_TICKS.tooltip.3=Esta opção pode causar travamentos.
 
 of.options.SCREENSHOT_SIZE=Captura de tela
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamanho da captura de tela
