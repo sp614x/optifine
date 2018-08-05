@@ -546,7 +546,7 @@ of.options.SMOOTH_WORLD.tooltip.1=Removes lag spikes caused by the internal serv
 of.options.SMOOTH_WORLD.tooltip.2=  OFF - no stabilization, FPS may fluctuate
 of.options.SMOOTH_WORLD.tooltip.3=  ON - FPS stabilization
 of.options.SMOOTH_WORLD.tooltip.4=Stabilizes FPS by distributing the internal server load.
-of.options.SMOOTH_WORLD.tooltip.5=Effective only for local worlds (single player).
+of.options.SMOOTH_WORLD.tooltip.5=Effective only for local worlds (Singleplayer).
 
 of.options.FAST_RENDER=Fast Render
 of.options.FAST_RENDER.tooltip.1=Fast Render
@@ -586,7 +586,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - lazy server chunk loading (smoothe
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Smooths the integrated server chunk loading by
 of.options.LAZY_CHUNK_LOADING.tooltip.5=distributing the chunks over several ticks.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Turn it OFF if parts of the world do not load correctly.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-player).
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (Singleplayer).
 
 of.options.RENDER_REGIONS=Render Regions
 of.options.RENDER_REGIONS.tooltip.1=Render Regions
