@@ -12,31 +12,31 @@ of.general.smart=Inteligente
 of.key.zoom=Zoom
 
 # Message
-of.message.aa.shaders1=O Antialiasing é incompatível com o Shaders.
+of.message.aa.shaders1=O Antialiasing é incompatível com o Shader.
 of.message.aa.shaders2=Desative-o para usar esta opção.
 
-of.message.af.shaders1=A filtragem anisotrópica é incompatível com o Shaders.
-of.message.af.shaders2=Desative-a para ativar esta opção.
+of.message.af.shaders1=A filtragem anisotrópica é incompatível com o Shader.
+of.message.af.shaders2=Desative-o para ativar esta opção.
 
-of.message.fr.shaders1=A renderização rápida é incompatível com o Shaders.
-of.message.fr.shaders2=Desative-a para ativar esta opção.
+of.message.fr.shaders1=A renderização rápida é incompatível com o Shader.
+of.message.fr.shaders2=Desative-o para ativar esta opção.
 
-of.message.an.shaders1=O 3D anaglífico é incompatível com o Shaders.
+of.message.an.shaders1=O 3D anaglífico é incompatível com o Shader.
 of.message.an.shaders2=Desative-o para ativar esta opção.
 
-of.message.shaders.aa1=O Shaders é incompatível com o Antialiasing.
+of.message.shaders.aa1=O Shader é incompatível com o Antialiasing.
 of.message.shaders.aa2=Qualidade -> Desative o Antialiasing e reinicie o jogo.
 
-of.message.shaders.af1=O Shaders é incompatível com a filtragem anisotrópica.
+of.message.shaders.af1=O Shader é incompatível com a filtragem anisotrópica.
 of.message.shaders.af2=Qualidade -> Desative a filtragem anisotrópica.
 
-of.message.shaders.fr1=O Shaders é incompatível com a renderização rápida.
+of.message.shaders.fr1=O Shader é incompatível com a renderização rápida.
 of.message.shaders.fr2=Qualidade -> Desative a renderização rápida.
 
-of.message.shaders.an1=O Shaders é incompatível com o 3D anaglífico.
+of.message.shaders.an1=O Shader é incompatível com o 3D anaglífico.
 of.message.shaders.an2=Diversas -> Desative o 3D anaglífico.
 
-of.message.shaders.nv1=Este pacote Shaders requer uma versão mais recente do OptiFine: %s
+of.message.shaders.nv1=Este pacote de Shaders requer uma versão mais recente do OptiFine: %s
 of.message.shaders.nv2=Deseja mesmo continuar?
 
 of.message.newVersion=Nova versão do §eOptiFine§f disponível: §e%s§f
@@ -56,8 +56,8 @@ of.options.skinCustomisation.ofCape=Capa do OptiFine...
 # Video settings
 
 options.graphics.tooltip.1=Qualidade visual
-options.graphics.tooltip.2=  Rápidos  - baixa qualidade (rápida)
-options.graphics.tooltip.3=  Bonita - alta qualidade (lenta)
+options.graphics.tooltip.2=  Performance - baixa qualidade (rápida).
+options.graphics.tooltip.3=  Bonita - alta qualidade (lenta).
 options.graphics.tooltip.4=Altera a aparência de nuvens, folhas, água,
 options.graphics.tooltip.5=sombras e grama.
 
