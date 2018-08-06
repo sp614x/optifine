@@ -16,10 +16,10 @@ of.message.aa.shaders1=O Antialiasing é incompatível com o Shaders.
 of.message.aa.shaders2=Desative-o para usar esta opção.
 
 of.message.af.shaders1=A filtragem anisotrópica é incompatível com o Shaders.
-of.message.af.shaders2=Desative-a para ativar esta opção.
+of.message.af.shaders2=Desative-o para ativar esta opção.
 
 of.message.fr.shaders1=A renderização rápida é incompatível com o Shaders.
-of.message.fr.shaders2=Desative-a para ativar esta opção.
+of.message.fr.shaders2=Desative-o para ativar esta opção.
 
 of.message.an.shaders1=O 3D anaglífico é incompatível com o Shaders.
 of.message.an.shaders2=Desative-o para ativar esta opção.
