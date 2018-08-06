@@ -1,6 +1,6 @@
 # Contributors of Norwegian Bokmål localization #
-#   Regnander (_Spitz) 2018-06-24 ---- 2018-06-24
-#   Google Translate 2018-06-24 ---- 2018-06-24
+#   Regnander (_Spitz) 2018-06-24 ---- 2018-08-06
+#   Google Translate 2018-06-24 ---- 2018-08-06
 
 # General
 of.general.ambiguous=tvetydig
@@ -430,7 +430,7 @@ of.options.CUSTOM_GUIS.tooltip.5=nåværende ressurspakken.
 
 of.options.CLOUDS=Sky
 of.options.CLOUDS.tooltip.1=Sky
-of.options.CLOUDS.tooltip.2=  Standard - følger videoinnstillingen
+of.options.CLOUDS.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.CLOUDS.tooltip.3=  Rask - lavere kvalitet, hurtigere
 of.options.CLOUDS.tooltip.4=  Stilig - høyere kvalitet, langsommere
 of.options.CLOUDS.tooltip.5=  AV - inga skyer, hurtigste
@@ -444,7 +444,7 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - over verdens høydegrens
 
 of.options.TREES=Trær
 of.options.TREES.tooltip.1=Trær
-of.options.TREES.tooltip.2=  Standard - følger videoinnstillingen
+of.options.TREES.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.TREES.tooltip.3=  Rask - lavere kvalitet, hurtigere
 of.options.TREES.tooltip.4=  Smart - høyere kvalitet, raskt
 of.options.TREES.tooltip.5=  Stilig - høyeste kvalitet, langsommere
@@ -453,7 +453,7 @@ of.options.TREES.tooltip.7=Stilige og smarte trær har gjennomsiktige blader.
 
 of.options.RAIN=Regn og snø
 of.options.RAIN.tooltip.1=Regn og snø
-of.options.RAIN.tooltip.2=  Standard - følger videoinnstillingen
+of.options.RAIN.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.RAIN.tooltip.3=  Rask - lett regn/snø, hurtigere
 of.options.RAIN.tooltip.4=  Stilig - tungt regn/snø, langsommere
 of.options.RAIN.tooltip.5=  AV - ingen regn/snø, hurtigste
@@ -484,7 +484,7 @@ of.options.SHOW_CAPES.tooltip.3=  AV - vis spillernes kapper
 
 of.options.TRANSLUCENT_BLOCKS=Transp. blokker
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Transparente blokker
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - følger videoinnstillingen
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Stilig - riktig fargeblanding (standard)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Rask - rask fargeblanding (hurtigere)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontrollerer fargeblandingen for gjennomsiktige blokker
@@ -504,9 +504,9 @@ of.options.ADVANCED_TOOLTIPS.tooltip.4=Avanserte verktøytips viser tilleggsinfo
 of.options.ADVANCED_TOOLTIPS.tooltip.5=gjenstander (id, holdbarhet) og shaderalternativer
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, kilde, standardverdier).
 
-of.options.DROPPED_ITEMS=Utgitte gjenstander
+of.options.DROPPED_ITEMS=Utgitte gjenst.
 of.options.DROPPED_ITEMS.tooltip.1=Utgitte gjenstander
-of.options.DROPPED_ITEMS.tooltip.2=  Standard - følger videoinnstillingen
+of.options.DROPPED_ITEMS.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.DROPPED_ITEMS.tooltip.3=  Rask - gjengis i 2D, hurtigere
 of.options.DROPPED_ITEMS.tooltip.4=  Stilig - gjengis i 3D, langsommere
 
@@ -516,7 +516,7 @@ options.entityShadows.tooltip.3=  AV - vis ikke skygger for enheter
 
 of.options.VIGNETTE=Vignett
 of.options.VIGNETTE.tooltip.1=Visuell effekt som mørkner skjermens hjørner litt
-of.options.VIGNETTE.tooltip.2=  Standard - følger videoinnstillingen (standard)
+of.options.VIGNETTE.tooltip.2=  Standard - følger alternativet "Grafikk" (standard)
 of.options.VIGNETTE.tooltip.3=  Rask - vignett er deaktivert (hurtigere)
 of.options.VIGNETTE.tooltip.4=  Stilig - vignett er aktivert (langsommere)
 of.options.VIGNETTE.tooltip.5=Vignetten kan ha en betydelig innvirkning på bilde-
@@ -573,6 +573,7 @@ of.options.FAST_MATH.tooltip.3=  PÅ - hurtigere matematik
 of.options.FAST_MATH.tooltip.4=Bruker optimaliserte sin()- og cos()-funksjoner som
 of.options.FAST_MATH.tooltip.5=som kan utnytte prosessorens cache mer og øke bilde-
 of.options.FAST_MATH.tooltip.6=frekvensen.
+of.options.FAST_MATH.tooltip.7=Dette alternativ kan påvirke verdensgenerasjon minimalt.
 
 of.options.CHUNK_UPDATES=Verdensbitoppdateringer
 of.options.CHUNK_UPDATES.tooltip.1=Verdensbitoppdateringer
@@ -607,6 +608,7 @@ of.options.RENDER_REGIONS.tooltip.3=  PÅ - bruk gjengivelseområder
 of.options.RENDER_REGIONS.tooltip.4=Gjengivelseområder gjør at terreng gjengis raskere
 of.options.RENDER_REGIONS.tooltip.5=ved høyere gjengivelsesavstand. Mer effektivt når VBO
 of.options.RENDER_REGIONS.tooltip.6=er aktivert.
+of.options.RENDER_REGIONS.tooltip.7=Ikke anbefalt for integrerte grafikkort.
 
 of.options.SMART_ANIMATIONS=Smarte animasjoner
 of.options.SMART_ANIMATIONS.tooltip.1=Smarte animasjoner
@@ -694,11 +696,12 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lavere oppløsninger bør vanligvis være r
 
 of.options.SHOW_FPS=Vis bildefrekvens
 of.options.SHOW_FPS.tooltip.1=Viser kort informasjon om bildefrekvens og gjengivelse.
-of.options.SHOW_FPS.tooltip.2=  C: - antall verdensbitgjengivelser
-of.options.SHOW_FPS.tooltip.3=  E: - antall gjengitte enheter + blokkenheter
-of.options.SHOW_FPS.tooltip.4=  U: - antall verdensbitoppdateringer
-of.options.SHOW_FPS.tooltip.5=Informasjonen vises bare når feilsøkingsskjermen (F3)
-of.options.SHOW_FPS.tooltip.6=ikke er åpen.
+of.options.SHOW_FPS.tooltip.2=  fps - bildefrekvensens gjennomsnitt/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - antall verdensbitgjengivelser
+of.options.SHOW_FPS.tooltip.4=  E: - antall gjengitte enheter + blokkenheter
+of.options.SHOW_FPS.tooltip.5=  U: - antall verdensbitoppdateringer
+of.options.SHOW_FPS.tooltip.6=Informasjonen vises bare når feilsøkingsskjermen (F3)
+of.options.SHOW_FPS.tooltip.7=ikke er åpen.
 
 of.options.save.default=Standard (2 s)
 of.options.save.20s=20 s
