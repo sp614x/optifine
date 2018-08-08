@@ -10,25 +10,25 @@ of.general.smart=Smart
 of.key.zoom=Yakınlaştır
 
 # Message
-of.message.aa.shaders1=Düzgünleştirme shader ile uyumlu değildir.
-of.message.aa.shaders2=Bu ayarı açmak için lütfen shader kapatın.
+of.message.aa.shaders1=Düzgünleştirme, shader ile uyumlu değildir.
+of.message.aa.shaders2=Bu ayarı açmak için lütfen shader'ı kapatın.
 
-of.message.af.shaders1=Anizotropik filtreleme shaderlerle uyumlu değildir.
-of.message.af.shaders2=Bu ayarı açmak için lütfen shader kapatın.
+of.message.af.shaders1=Anizotropik filtreleme, shader ile uyumlu değildir.
+of.message.af.shaders2=Bu ayarı açmak için lütfen shader'ı kapatın.
 
-of.message.fr.shaders1=Hızlı yükleme shader ile uyumlu değildir.
-of.message.fr.shaders2=Bu ayarı açmak için lütfen shader kapatın.
+of.message.fr.shaders1=Hızlı Yükleme, shader ile uyumlu değildir.
+of.message.fr.shaders2=Bu ayarı açmak için lütfen shader'ı kapatın.
 
-of.message.an.shaders1=3D shaderlerle uyumlu değildir.
-of.message.an.shaders2=Bu ayarı açmak için lütfen shader kapatın.
+of.message.an.shaders1=3D, shader ile uyumlu değildir.
+of.message.an.shaders2=Bu ayarı açmak için lütfen shader'ı kapatın.
 
-of.message.shaders.aa1=Shaderler Antialiasing ile uyumlu değildir.
+of.message.shaders.aa1=Shaderler Düzgünleştirme ile uyumlu değildir.
 of.message.shaders.aa2=Lütfen Kalite -> Düzgünleştirmeyi kapatarak oyunu yeniden başlatın.
 
-of.message.shaders.af1=Anizotropik filtreleme shaderler ile uyumlu değildir.
+of.message.shaders.af1=Shaderler Anizotropik filtreleme ile uyumlu değildir.
 of.message.shaders.af2=Lütfen Kalite -> Anizotropik filtreleme'yi kapatın.
 
-of.message.shaders.fr1=Shaderler hızlı yükleme ile uyumlu değildir.
+of.message.shaders.fr1=Shaderler Hızlı Yükleme ile uyumlu değildir.
 of.message.shaders.fr2=Lütfen Performans -> Hızlı Yüklemeyi kapatın.
 
 of.message.shaders.an1=3D shaderlerle uyumlu değildir.
@@ -43,7 +43,7 @@ of.message.openglError=§eOpenGL Hatası§f: %s (%s)
 
 of.message.shaders.loading=Shaderler yükleniyor: %s
 
-of.message.other.reset=Bütün görüntü ayarlarını reserlemek istediğine emin misin?
+of.message.other.reset=Bütün görüntü ayarlarını sıfırlamak istediğine emin misin?
 
 of.message.loadingVisibleChunks=Görünen chunkları yükler
 
@@ -56,8 +56,8 @@ of.options.skinCustomisation.ofCape=OptiFine Pelerini...
 options.graphics.tooltip.1=Görüntü kalitesi
 options.graphics.tooltip.2=  Hızlı  - düşük kalite, hızlı oyun deneyimi
 options.graphics.tooltip.3=  Efsane - yüksek kalite, yavaş oyun deneyimi
-options.graphics.tooltip.4=Ayarlar bulutlar, yapraklar, suya
-options.graphics.tooltip.5=gölgeler ve çim yüzerlerine etki edecektir.
+options.graphics.tooltip.4=Değişiklikler bulutlar, yapraklar, suyu,
+options.graphics.tooltip.5=gölgeleri ve çim görünüşüne etki edecektir.
 
 of.options.renderDistance.tiny=Düşük
 of.options.renderDistance.short=Kısa
@@ -68,25 +68,25 @@ of.options.renderDistance.insane=Efsane
 of.options.renderDistance.ludicrous=Olağanüstü
 
 options.renderDistance.tooltip.1=Görüş uzaklığı
-options.renderDistance.tooltip.2=  2 Düşük - 32m (fastest)
-options.renderDistance.tooltip.3=  8 Normal - 128m (normal)
-options.renderDistance.tooltip.4=  16 Uzak - 256m (slower)
-options.renderDistance.tooltip.5=  32 Yüksek - 512m (slowest!) very resource demanding
-options.renderDistance.tooltip.6=  48 Efsane - 768m, needs 2GB RAM allocated
-options.renderDistance.tooltip.7=  64 Olağanüstü - 1024m, needs 3GB RAM allocated
+options.renderDistance.tooltip.2=  2 Düşük - 32m (En hızlı)
+options.renderDistance.tooltip.3=  8 Normal - 128m (Normal)
+options.renderDistance.tooltip.4=  16 Uzak - 256m (Yavaş)
+options.renderDistance.tooltip.5=  32 Yüksek - 512m (Çok yavaş!) çok fazla kaynak ister
+options.renderDistance.tooltip.6=  48 Efsane - 768m, en az 2GB RAM ayrılmış olmalı
+options.renderDistance.tooltip.7=  64 Olağanüstü - 1024m, en az 3GB RAM ayrılmış olmalı
 options.renderDistance.tooltip.8=16 üstündeki değerler sadece tek oyunculuda geçerlidir.
 
 options.ao.tooltip.1=Gerçekçi aydınlatma
 options.ao.tooltip.2=  Kapalı - Gerçekçi aydınlatma kapalı (hızlı)
-options.ao.tooltip.3=  Düşük - orta seviye gerçekçi aydınlatma (normal)
+options.ao.tooltip.3=  Düşük - basit gerçekçi aydınlatma (normal)
 options.ao.tooltip.4=  Yüksek - tamamen gerçekçi aydınlatma (yavaş)
 
 options.framerateLimit.tooltip.1=Maksimum FPS
-options.framerateLimit.tooltip.2=  VSync - Ekranın alabilmesi gereken max fpse sabitler (60, 30, 20)
+options.framerateLimit.tooltip.2=  VSync - Monitörün desteklediği max fpse sabitler (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - diğer değerler
 options.framerateLimit.tooltip.4=  Sınırsız - sınır yok (en hızlı)
-options.framerateLimit.tooltip.5=FPS limiti eğer ulaşılamaz ise
-options.framerateLimit.tooltip.6=azaltılmalıdır.
+options.framerateLimit.tooltip.5=Limit değerine ulaşılmasa bile
+options.framerateLimit.tooltip.6=VSync FPS'i azaltır.
 of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Pürüzsüz aydınlatma seviyesi
@@ -101,6 +101,53 @@ options.viewBobbing.tooltip.2=Mipmaplar kullanılırken kapatılması en iyi son
 options.guiScale.tooltip.1=Menü boyutu
 options.guiScale.tooltip.2=  OTO - Otomatik belirler
 options.guiScale.tooltip.3=  Küçük, normal, büyük, - 1x ile 3x arası
-options.guiScale.tooltip.4=  4x ile 10x arası - yanlızca 4K varken mümkündür.
+options.guiScale.tooltip.4=  4x ile 10x arası - yalnızca 4K ekranlarda mümkündür.
 options.guiScale.tooltip.5=Tek sayılar (1x, 3x, 5x ...) Unicode ile uyumlu değildir.
 options.guiScale.tooltip.6=Küçük menüler oyunu hızlandırabilir.
+
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Alternatif bir renderlama modeli kullanır, genellikle 
+options.vbo.tooltip.3=normal renderlama'dan (5-10%) daha hızlıdır.
+
+options.gamma.tooltip.1=Karanlık objelerin parlaklığını değiştirir.
+options.gamma.tooltip.2=  Karamsar - standart parlaklık
+options.gamma.tooltip.3=  1-99%% - değişken
+options.gamma.tooltip.4=  Parlak - karanlık objeler için maksimum parlaklık
+options.gamma.tooltip.5=Bu ayar tamamen siyah objelerin 
+options.gamma.tooltip.6=parlaklığını değiştirmez.
+
+options.anaglyph.tooltip.1=3D Anaglif
+options.anaglyph.tooltip.2=Her bir göz için farklı renkler kullanarak
+options.anaglyph.tooltip.3=stereoskopik 3D efekti sağlar.
+options.anaglyph.tooltip.4=Doğru görüntüleme için kırmızı-camgöbeği renkli gözlükler gerektirir.
+
+of.options.ALTERNATE_BLOCKS=Alternatif Bloklar
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatif Bloklar
+of.options.ALTERNATE_BLOCKS.tooltip.2=Bazı bloklar için alternatif modeller kullanır.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Seçilen kaynak paketine bağlıdır.
+
+of.options.FOG_FANCY=Sis
+of.options.FOG_FANCY.tooltip.1=Sis tipi
+of.options.FOG_FANCY.tooltip.2=  Hızlı - Hızlı sis
+of.options.FOG_FANCY.tooltip.3=  Aşırı - Yavaş sis, görünüşü daha iyi
+of.options.FOG_FANCY.tooltip.4=  Kapalı - Sis kapalı, en hızlısı
+of.options.FOG_FANCY.tooltip.5=Aşırı sis seçeneği sadece grafik kartı tarafından desteklendiği zaman  
+of.options.FOG_FANCY.tooltip.6=kullanılabilir.
+
+of.options.FOG_START=Sis başlangıcı
+of.options.FOG_START.tooltip.1=Sis başlangıcı
+of.options.FOG_START.tooltip.2=  0.2 - Sis oyuncunun yakınından başlar
+of.options.FOG_START.tooltip.3=  0.8 - Sis oyuncudan uzakta başlar
+of.options.FOG_START.tooltip.4=Bu ayar genellikle performansa etki etmez.
+
+of.options.CHUNK_LOADING=Chunk Yükleme
+of.options.CHUNK_LOADING.tooltip.1=Chunk Yükleme
+of.options.CHUNK_LOADING.tooltip.2=  Standart - Chunklar yüklenirken dengesiz FPS
+of.options.CHUNK_LOADING.tooltip.3=  Pürüzsüz - dengeli FPS
+of.options.CHUNK_LOADING.tooltip.4=  Çok çekirdekli - dengeli FPS, 3 kat daha hızlı dünya yükleme
+of.options.CHUNK_LOADING.tooltip.5=Pürüzsüz ve Çok çekirdekli ayarları chunkların yüklenirken oluşturduğu duraksama ve donmaları  
+of.options.CHUNK_LOADING.tooltip.6=ortadan kaldırır.
+of.options.CHUNK_LOADING.tooltip.7=Çok çekirdekli ayarı dünyanın yüklemesini 3 kat hızlandırabilir ve
+of.options.CHUNK_LOADING.tooltip.8=2.bir çekirdek kullanarak FPS'i arttırabilir.
+of.options.chunkLoading.smooth=Pürüzsüz
+of.options.chunkLoading.multiCore=Çok çekirdekli
