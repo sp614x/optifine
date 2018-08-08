@@ -104,3 +104,50 @@ options.guiScale.tooltip.3=  Küçük, normal, büyük, - 1x ile 3x arası
 options.guiScale.tooltip.4=  4x ile 10x arası - yalnızca 4K ekranlarda mümkündür.
 options.guiScale.tooltip.5=Tek sayılar (1x, 3x, 5x ...) Unicode ile uyumlu değildir.
 options.guiScale.tooltip.6=Küçük menüler oyunu hızlandırabilir.
+
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Alternatif bir renderlama modeli kullanır, genellikle 
+options.vbo.tooltip.3=normal renderlama'dan (5-10%) daha hızlıdır.
+
+options.gamma.tooltip.1=Karanlık objelerin parlaklığını değiştirir.
+options.gamma.tooltip.2=  Karamsar - standart parlaklık
+options.gamma.tooltip.3=  1-99%% - değişken
+options.gamma.tooltip.4=  Parlak - karanlık objeler için maksimum parlaklık
+options.gamma.tooltip.5=Bu ayar tamamen siyah objelerin 
+options.gamma.tooltip.6=parlaklığını değiştirmez.
+
+options.anaglyph.tooltip.1=3D Anaglif
+options.anaglyph.tooltip.2=Her bir göz için farklı renkler kullanarak
+options.anaglyph.tooltip.3=stereoskopik 3D efekti sağlar.
+options.anaglyph.tooltip.4=Doğru görüntüleme için kırmızı-camgöbeği renkli gözlükler gerektirir.
+
+of.options.ALTERNATE_BLOCKS=Alternatif Bloklar
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatif Bloklar
+of.options.ALTERNATE_BLOCKS.tooltip.2=Bazı bloklar için alternatif modeller kullanır.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Seçilen kaynak paketine bağlıdır.
+
+of.options.FOG_FANCY=Sis
+of.options.FOG_FANCY.tooltip.1=Sis tipi
+of.options.FOG_FANCY.tooltip.2=  Hızlı - Hızlı sis
+of.options.FOG_FANCY.tooltip.3=  Aşırı - Yavaş sis, görünüşü daha iyi
+of.options.FOG_FANCY.tooltip.4=  Kapalı - Sis kapalı, en hızlısı
+of.options.FOG_FANCY.tooltip.5=Aşırı sis seçeneği sadece grafik kartı tarafından desteklendiği zaman  
+of.options.FOG_FANCY.tooltip.6=kullanılabilir.
+
+of.options.FOG_START=Sis başlangıcı
+of.options.FOG_START.tooltip.1=Sis başlangıcı
+of.options.FOG_START.tooltip.2=  0.2 - Sis oyuncunun yakınından başlar
+of.options.FOG_START.tooltip.3=  0.8 - Sis oyuncudan uzakta başlar
+of.options.FOG_START.tooltip.4=Bu ayar genellikle performansa etki etmez.
+
+of.options.CHUNK_LOADING=Chunk Yükleme
+of.options.CHUNK_LOADING.tooltip.1=Chunk Yükleme
+of.options.CHUNK_LOADING.tooltip.2=  Standart - Chunklar yüklenirken dengesiz FPS
+of.options.CHUNK_LOADING.tooltip.3=  Pürüzsüz - dengeli FPS
+of.options.CHUNK_LOADING.tooltip.4=  Çok çekirdekli - dengeli FPS, 3 kat daha hızlı dünya yükleme
+of.options.CHUNK_LOADING.tooltip.5=Pürüzsüz ve Çok çekirdekli ayarları chunkların yüklenirken oluşturduğu duraksama ve donmaları  
+of.options.CHUNK_LOADING.tooltip.6=ortadan kaldırır.
+of.options.CHUNK_LOADING.tooltip.7=Çok çekirdekli ayarı dünyanın yüklemesini 3 kat hızlandırabilir ve
+of.options.CHUNK_LOADING.tooltip.8=2.bir çekirdek kullanarak FPS'i arttırabilir.
+of.options.chunkLoading.smooth=Pürüzsüz
+of.options.chunkLoading.multiCore=Çok çekirdekli
