@@ -54,7 +54,7 @@ of.options.skinCustomisation.ofCape=OptiFine'i keep...
 # Video settings
 
 options.graphics.tooltip.1=Visuaalne kvaliteet
-options.graphics.tooltip.2=  Kiire  - madalam kvaliteet, kiirem
+options.graphics.tooltip.2=  Kiire - madalam kvaliteet, kiirem
 options.graphics.tooltip.3=  Uhke - kõrgem kvaliteet, aeglasem
 options.graphics.tooltip.4=Muudab pilvede, lehtede, vee, varjude ja muru külgede
 options.graphics.tooltip.5=välimust.
@@ -450,7 +450,7 @@ of.options.TREES.tooltip.7=Uhketel ja tarkadel puudel on läbipaistvad lehed.
 of.options.RAIN=Vihm ja lumi
 of.options.RAIN.tooltip.1=Vihm ja lumi
 of.options.RAIN.tooltip.2=  Vaikimisi - nagu määrab seade Graafika
-of.options.RAIN.tooltip.3=  Kiire  - kerge vihm/lumi, kiirem
+of.options.RAIN.tooltip.3=  Kiire - kerge vihm/lumi, kiirem
 of.options.RAIN.tooltip.4=  Uhke - tugev vihm/lumi, aeglasem
 of.options.RAIN.tooltip.5=  VÄLJAS - vihm/lumi puuduvad, kiireim
 of.options.RAIN.tooltip.6=Kui vihm on VÄLJAS, on vihma helid ja plärtsatused siiski
@@ -459,18 +459,18 @@ of.options.RAIN.tooltip.7=toimivad.
 of.options.SKY=Taevas
 of.options.SKY.tooltip.1=Taevas
 of.options.SKY.tooltip.2=  SEES - taevas on nähtav, aeglasem
-of.options.SKY.tooltip.3=  VÄLJAS  - taevas pole nähtav, kiirem
+of.options.SKY.tooltip.3=  VÄLJAS - taevas pole nähtav, kiirem
 of.options.SKY.tooltip.4=Kui taevas on VÄLJAS, on kuu ja päike siiski nähtavad.
 
 of.options.STARS=Tähed
 of.options.STARS.tooltip.1=Tähed
 of.options.STARS.tooltip.2=  SEES - tähed on nähtavad, aeglasem
-of.options.STARS.tooltip.3=  VÄLJAS  - tähed pole nähtavad, kiirem
+of.options.STARS.tooltip.3=  VÄLJAS - tähed pole nähtavad, kiirem
 
 of.options.SUN_MOON=Päike ja kuu
 of.options.SUN_MOON.tooltip.1=Päike ja kuu
 of.options.SUN_MOON.tooltip.2=  SEES - päike ja kuu on nähtavad (vaikimisi)
-of.options.SUN_MOON.tooltip.3=  VÄLJAS  - päike ja kuu pole nähtavad (kiirem)
+of.options.SUN_MOON.tooltip.3=  VÄLJAS - päike ja kuu pole nähtavad (kiirem)
 
 of.options.SHOW_CAPES=Keebid
 of.options.SHOW_CAPES.tooltip.1=Keebid
@@ -672,8 +672,8 @@ of.options.TIME.tooltip.6=režiimis.
 options.fullscreen.tooltip.1=Täisekraan
 options.fullscreen.tooltip.2=  SEES - kasuta täisekraanirežiimi
 options.fullscreen.tooltip.3=  VÄLJAS - kasuta aknarežiimi
-options.fullscreen.tooltip.4=Täisekraanirežiim võib olla kiirem või aeglasem
-options.fullscreen.tooltip.5=aknarežiimist, olenevalt graafikakaardist.
+options.fullscreen.tooltip.4=Täisekraanirežiim võib olenevalt graafikakaardist 
+options.fullscreen.tooltip.5=olla aknarežiimist kiirem või aeglasem.
 
 of.options.FULLSCREEN_MODE=Täisekraanirežiim
 of.options.FULLSCREEN_MODE.tooltip.1=Täisekraanirežiim
@@ -715,6 +715,6 @@ of.options.SHOW_GL_ERRORS=OpenGL vead
 of.options.SHOW_GL_ERRORS.tooltip.1=OpenGL vigade kuvamine
 of.options.SHOW_GL_ERRORS.tooltip.2=Lubamisel kuvatakse vestluses OpenGL vead.
 of.options.SHOW_GL_ERRORS.tooltip.3=Keela see vaid siis, kui on teadaolev konflikt
-of.options.SHOW_GL_ERRORS.tooltip.4=ning vigu ei saa parandada.
+of.options.SHOW_GL_ERRORS.tooltip.4=ning neid vigu ei saa parandada.
 of.options.SHOW_GL_ERRORS.tooltip.5=Keelamisel logitakse vead siiski vealogisse ning
 of.options.SHOW_GL_ERRORS.tooltip.6=nad võivad siiski põhjustada silmnähtava ks languse.
