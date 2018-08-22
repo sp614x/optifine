@@ -26,7 +26,7 @@ of.message.fr.shaders2=Proszę, wyłącz Shadery, aby używać tej opcji.
 of.message.an.shaders1=Anaglifowe 3D nie jest kompatybilne z Shaderami.
 of.message.an.shaders2=Proszę, wyłącz Shadery, aby używać tej opcji.
 
-of.message.shaders.aa1=Shadery nie są kompatybilne z antyaliasingiem. 
+of.message.shaders.aa1=Shadery nie są kompatybilne z antyaliasingiem.
 of.message.shaders.aa2=Proszę, wyłącz opcję Jakość -> Antyaliasing, a następnie zrestartuj grę.
 
 of.message.shaders.af1=Shadery nie są kompatybilne z filtrowaniem anizotropowym.
@@ -45,7 +45,7 @@ of.message.openglError=§eBłąd OpenGL§f: %s (%s)
 of.message.shaders.loading=Wczytuję shadery: %s
 
 of.message.other.reset=Czy chcesz przywrócić wszystkie ustawienia graficzne do ich domyślnych wartości?
- 
+
 of.message.loadingVisibleChunks=Wczytywanie widzialnych chunków
 
 # Video settings
@@ -419,7 +419,7 @@ of.options.DYNAMIC_FOV=Dynamiczny FOV
 of.options.DYNAMIC_FOV.tooltip.1=Dynamiczne FOV
 of.options.DYNAMIC_FOV.tooltip.2=  Wł. - włącza dynamiczny FOV (domyślne)
 of.options.DYNAMIC_FOV.tooltip.3=  Wył. - wyłącza dynamiczny FOV
-of.options.DYNAMIC_FOV.tooltip.4=Zmienia pole widzenia (FOV), gdy latasz 
+of.options.DYNAMIC_FOV.tooltip.4=Zmienia pole widzenia (FOV), gdy latasz
 of.options.DYNAMIC_FOV.tooltip.5=sprintujesz lub naciągasz łuk.
 
 of.options.DYNAMIC_LIGHTS=Dynamiczne światło

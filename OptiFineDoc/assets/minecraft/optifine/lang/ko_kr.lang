@@ -46,9 +46,9 @@ of.message.openglError=§eOpenGL 오류§f: %s (%s)
 of.message.shaders.loading=셰이더 불러오는 중: %s
 
 of.message.other.reset=모든 비디오 설정을 기본값으로 재설정하시겠습니까?
- 
+
 of.message.loadingVisibleChunks=보이는 청크 불러오는 중
- 
+
 # Video settings
 
 options.graphics.tooltip.1=시각 품질
@@ -208,7 +208,7 @@ of.options.MIPMAP_TYPE.tooltip.1=세부 텍스처를 부드럽게 해
 of.options.MIPMAP_TYPE.tooltip.2=멀리 있는 물체를 더 좋아 보이게 하는 시각 효과입니다.
 of.options.MIPMAP_TYPE.tooltip.3=  가장 가까움 - 거친 부드러움 효과 (가장 빠름)
 of.options.MIPMAP_TYPE.tooltip.4=  선형 - 보통 부드러움 효과
-of.options.MIPMAP_TYPE.tooltip.5=  쌍선형 - 좋은 부드러움 효과 
+of.options.MIPMAP_TYPE.tooltip.5=  쌍선형 - 좋은 부드러움 효과
 of.options.MIPMAP_TYPE.tooltip.6=  삼선형 - 가장 좋은 부드러움 효과 (가장 느림)
 
 

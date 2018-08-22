@@ -29,7 +29,7 @@ of.message.fr.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivie
 of.message.an.shaders1=3D-Effekt ist nicht mit Shadern kompatibel.
 of.message.an.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.shaders.aa1=Antialiasing ist nicht mit Shadern kompatibel. 
+of.message.shaders.aa1=Antialiasing ist nicht mit Shadern kompatibel.
 of.message.shaders.aa2=Bitte deaktiviere Qualität -> Antialiasing und starte das Spiel neu.
 
 of.message.shaders.af1=Anistropische Filterung ist nicht mit Shadern kompatibel.
@@ -53,7 +53,7 @@ of.message.shaders.loading=Lade Shader: %s
 of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
 
 of.message.loadingVisibleChunks=Lade sichtbare Chunks
- 
+
 # Video settings
 
 options.graphics.tooltip.1=Grafikmodus
@@ -245,7 +245,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Beleucht
 
 of.options.shaders.DOWNLOAD=Shader von Website herunterladen
 of.options.shaders.DOWNLOAD.tooltip.1=Shader von Website herunterladen
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Öffnet die Shader-Paket Website im Browser.
 of.options.shaders.DOWNLOAD.tooltip.4=Lege das heruntergeladene Shader-Paket in den
 of.options.shaders.DOWNLOAD.tooltip.5=Shader-Ordner, damit es in der Liste der

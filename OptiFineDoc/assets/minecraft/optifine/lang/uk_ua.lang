@@ -23,7 +23,7 @@ of.message.fr.shaders2=Будь ласка, вимкніть шейдери що
 of.message.an.shaders1=3D ефект не сумісний з шейдерами.
 of.message.an.shaders2=Будь, ласка, вимкніть шейдери щоб увімкнути цю функцію.
 
-of.message.shaders.aa1=Шейдери не сумісні зі згладжуванням. 
+of.message.shaders.aa1=Шейдери не сумісні зі згладжуванням.
 of.message.shaders.aa2=Будь ласка, встановіть Якість -> Згладжування на Вимк і перезапустіть гру.
 
 of.message.shaders.af1=Шейдери не сумісні з анізотропною фільтрацією.
@@ -34,7 +34,7 @@ of.message.shaders.fr2=Будь ласка, встановіть Продукт�
 
 of.message.shaders.an1=Шейдери не сумісні з 3D анагліфом.
 of.message.shaders.an2=Будь-ласка, встановіть Інші -> 3D ефект на Вимк.
- 
+
 of.message.shaders.nv1=Цей шейдерпак вимагає новішу версію OptiFine: %s
 of.message.shaders.nv2=Ви впевнені що бажаєте продовжити?
 
@@ -114,7 +114,7 @@ options.gamma.tooltip.1=Зменшує яскравість темніших о�
 options.gamma.tooltip.2=  Похмурий - Стандартна яскравість
 options.gamma.tooltip.3=  1-99%% - змінні
 options.gamma.tooltip.4=  Яскраво - максимальна яскравість темних об'єктів
-options.gamma.tooltip.5=Ця опція не змінює яскравість 
+options.gamma.tooltip.5=Ця опція не змінює яскравість
 options.gamma.tooltip.6=повністю чорних об'єктів
 
 options.anaglyph.tooltip.1=3D анагліф
@@ -132,7 +132,7 @@ of.options.FOG_FANCY.tooltip.1=Тип туману
 of.options.FOG_FANCY.tooltip.2=  Швидкий - Швидкий туман
 of.options.FOG_FANCY.tooltip.3=  Красивий - Повільніший туман, виглядає краще
 of.options.FOG_FANCY.tooltip.4=  Вимк - без туману, найшвидше
-of.options.FOG_FANCY.tooltip.5=Красивий туман буде доступний лиш тоді, коли 
+of.options.FOG_FANCY.tooltip.5=Красивий туман буде доступний лиш тоді, коли
 of.options.FOG_FANCY.tooltip.6=його підтримує відеокарта.
 
 of.options.FOG_START=Поява туману
@@ -166,11 +166,11 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - згладжені л�
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA це пост-ефект який згладжує
 of.options.shaders.ANTIALIASING.tooltip.5=гострі краї та різкі зміни кольорів.
 of.options.shaders.ANTIALIASING.tooltip.6=Це швидше ніж традиційне згладжування
-of.options.shaders.ANTIALIASING.tooltip.7=і працює із Швидким Рендером.  
+of.options.shaders.ANTIALIASING.tooltip.7=і працює із Швидким Рендером.
 
 of.options.shaders.NORMAL_MAP=Нормальна мапа
 of.options.shaders.NORMAL_MAP.tooltip.1=Нормальна мапа
-of.options.shaders.NORMAL_MAP.tooltip.2=  Увімк - (базово) дозволити нормальні мапи 
+of.options.shaders.NORMAL_MAP.tooltip.2=  Увімк - (базово) дозволити нормальні мапи
 of.options.shaders.NORMAL_MAP.tooltip.3=  Вимк - вимкнути нормальні мапи
 of.options.shaders.NORMAL_MAP.tooltip.4=Шейдер використовує нормальні мапи
 of.options.shaders.NORMAL_MAP.tooltip.5=щоб симулювати 3D геометрію на плоских моделях.
@@ -223,8 +223,8 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Старе освітлення ру
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Стандартне - залежить від шейдера
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Увімк - використовувати старе
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Вимк - використовувати нове
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Це дозволяє шейдерам які працюють лише з  
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=освітленням в основній руці працювати з 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Це дозволяє шейдерам які працюють лише з
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=освітленням в основній руці працювати з
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=речами в другій.
 
 of.options.shaders.OLD_LIGHTING=Старе освітлення
@@ -234,12 +234,12 @@ of.options.shaders.OLD_LIGHTING.tooltip.3=  Увімк - використову�
 of.options.shaders.OLD_LIGHTING.tooltip.4=  Вимк - не використовувати старе
 of.options.shaders.OLD_LIGHTING.tooltip.5=Старе освітлення контролює фіксовану базову
 of.options.shaders.OLD_LIGHTING.tooltip.6=освітленість сторони блока.
-of.options.shaders.OLD_LIGHTING.tooltip.7=Шейдери зазвичай надають краще освітлення в 
+of.options.shaders.OLD_LIGHTING.tooltip.7=Шейдери зазвичай надають краще освітлення в
 of.options.shaders.OLD_LIGHTING.tooltip.8=залежності від позиції сонця.
 
 of.options.shaders.DOWNLOAD=Завантажити Шейдери
 of.options.shaders.DOWNLOAD.tooltip.1=Завантажити шейдери
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Відкриває сторінку зі списком шейдерпаків.
 of.options.shaders.DOWNLOAD.tooltip.4=Перенесіть шейдери у теку shaderpacks і вони
 of.options.shaders.DOWNLOAD.tooltip.5=з'являться у списку встановлених шейдерів.
@@ -297,7 +297,7 @@ of.options.AA_LEVEL=Згладжування
 of.options.AA_LEVEL.tooltip.1=Згладжування
 of.options.AA_LEVEL.tooltip.2= Вимк - (базове) без згладжування (швидке)
 of.options.AA_LEVEL.tooltip.3= 2-16 - згладжує лінії та границі (повільніше)
-of.options.AA_LEVEL.tooltip.4=Згладжування розмиває зазубрені границі й 
+of.options.AA_LEVEL.tooltip.4=Згладжування розмиває зазубрені границі й
 of.options.AA_LEVEL.tooltip.5=гострі зміни кольору.
 of.options.AA_LEVEL.tooltip.6=Коли увімкнуто, то по суті зменшує FPS.
 of.options.AA_LEVEL.tooltip.7=Не всі рівні підтримуються різними відеокартами.
@@ -492,7 +492,7 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Вимк - не показувати �
 
 of.options.ADVANCED_TOOLTIPS=Розширені підказки
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Розширені підказки що спливають
-of.options.ADVANCED_TOOLTIPS.tooltip.2=  Увімк - показувати розширені підказки 
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  Увімк - показувати розширені підказки
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  Вимк - не показувати розширені підказки (базово)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Розширені підказки показують більше інформації про
 of.options.ADVANCED_TOOLTIPS.tooltip.5=речі (id, міцність) і для налаштування шейдерів
@@ -522,7 +522,7 @@ of.options.DYNAMIC_FOV=Динамічний FOV
 of.options.DYNAMIC_FOV.tooltip.1=Динамічний FOV
 of.options.DYNAMIC_FOV.tooltip.2=  Увімк - динамічний FOV увімкнуто(базово)
 of.options.DYNAMIC_FOV.tooltip.3=  Вимк - динамічний FOV вимкнуто
-of.options.DYNAMIC_FOV.tooltip.4=Змінює поле зору (FOV) коли літаємо, біжимо 
+of.options.DYNAMIC_FOV.tooltip.4=Змінює поле зору (FOV) коли літаємо, біжимо
 of.options.DYNAMIC_FOV.tooltip.5=чи натягуємо лук.
 
 of.options.DYNAMIC_LIGHTS=Динамічне освітлення
@@ -713,4 +713,4 @@ of.options.SHOW_GL_ERRORS.tooltip.2=Коли увімкнено, помилки 
 of.options.SHOW_GL_ERRORS.tooltip.3=Вимикайте це лише якщо ви ТОЧНО впевнені що цю
 of.options.SHOW_GL_ERRORS.tooltip.4=помилку неможливо виправити.
 of.options.SHOW_GL_ERRORS.tooltip.5=Коли вимкнено, помилки продовжать зберігатись у журналах
-of.options.SHOW_GL_ERRORS.tooltip.6=і вони можуть викликати різке падіння FPS. 
+of.options.SHOW_GL_ERRORS.tooltip.6=і вони можуть викликати різке падіння FPS.

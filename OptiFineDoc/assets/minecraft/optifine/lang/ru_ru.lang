@@ -60,7 +60,7 @@ of.options.skinCustomisation.ofCape=Плащ OptiFine...
 options.graphics.tooltip.1=Качество графики
 options.graphics.tooltip.2=  Быстро - низкое качество (быстрее)
 options.graphics.tooltip.3=  Детально - высокое качество (медленнее)
-options.graphics.tooltip.4=Изменяет облик дёрна, листьев, воды, теней и облаков. 
+options.graphics.tooltip.4=Изменяет облик дёрна, листьев, воды, теней и облаков.
 options.graphics.tooltip.5=
 
 options.renderDistance.tooltip.1=Дальность прорисовки
@@ -196,7 +196,7 @@ of.options.shaders.SHADOW_RES_MUL=Качество теней
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=Качество теней
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - нечёткие, грубые тени
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  §o1x§r - стандартное качество теней
-of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - детализированные, качественные тени 
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - детализированные, качественные тени
 of.options.shaders.SHADOW_RES_MUL.tooltip.5=Управляет размером текстуры карты теней, которая
 of.options.shaders.SHADOW_RES_MUL.tooltip.6=используется шейдерами.
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=
@@ -235,7 +235,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=показывают освещени�
 
 of.options.shaders.DOWNLOAD=Загрузить шейдеры
 of.options.shaders.DOWNLOAD.tooltip.1=Загрузить шейдеры
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Открывает страницу со списком шейдеров в браузере.
 of.options.shaders.DOWNLOAD.tooltip.4=Поместите загруженные шейдеры в «Папку с шейдерами»,
 of.options.shaders.DOWNLOAD.tooltip.5=после этого они станут доступны для использования.
@@ -292,7 +292,7 @@ of.options.mipmap.trilinear=Трилинейное
 
 of.options.AF_LEVEL=Анизотроп. фильтрация
 of.options.AF_LEVEL.tooltip.1=Анизотропная фильтрация
-of.options.AF_LEVEL.tooltip.2= §oВыкл§r - стандартная детализация (быстрее) 
+of.options.AF_LEVEL.tooltip.2= §oВыкл§r - стандартная детализация (быстрее)
 of.options.AF_LEVEL.tooltip.3= 2–16 - улучшенная детализация (медленнее)
 of.options.AF_LEVEL.tooltip.4=Улучшает качество деталей в MIP-текстурах.
 of.options.AF_LEVEL.tooltip.5=Может существенно понизить производительность.
@@ -339,14 +339,14 @@ of.options.CUSTOM_FONTS.tooltip.1=Пользовательский шрифт
 of.options.CUSTOM_FONTS.tooltip.2=  §oВкл§r - пользовательский шрифт
 of.options.CUSTOM_FONTS.tooltip.3=  Выкл - стандартный шрифт (быстрее)
 of.options.CUSTOM_FONTS.tooltip.4=Предоставляется пакетами ресурсов.
-of.options.CUSTOM_FONTS.tooltip.5= 
+of.options.CUSTOM_FONTS.tooltip.5=
 
 of.options.CUSTOM_COLORS=Цвета
 of.options.CUSTOM_COLORS.tooltip.1=Пользовательские цвета
 of.options.CUSTOM_COLORS.tooltip.2=  §oВкл§r - пользовательские цвета
 of.options.CUSTOM_COLORS.tooltip.3=  Выкл - стандартные цвета (быстрее)
 of.options.CUSTOM_COLORS.tooltip.4=Предоставляются пакетами ресурсов.
-of.options.CUSTOM_COLORS.tooltip.5= 
+of.options.CUSTOM_COLORS.tooltip.5=
 
 of.options.SWAMP_COLORS=Болотные цвета
 of.options.SWAMP_COLORS.tooltip.1=Болотные цвета
@@ -370,7 +370,7 @@ of.options.CONNECTED_TEXTURES.tooltip.4=  Детально - качествен�
 of.options.CONNECTED_TEXTURES.tooltip.5=Cоединяет текстуры (по умолчанию стекла, песчаника
 of.options.CONNECTED_TEXTURES.tooltip.6=и книжных полок) друг с другом.
 of.options.CONNECTED_TEXTURES.tooltip.7=Предоставляется пакетами ресурсов.
-of.options.CONNECTED_TEXTURES.tooltip.8= 
+of.options.CONNECTED_TEXTURES.tooltip.8=
 
 of.options.NATURAL_TEXTURES=Естествен. текстуры
 of.options.NATURAL_TEXTURES.tooltip.1=Естественные текстуры
@@ -479,7 +479,7 @@ of.options.FOG_FANCY.tooltip.1=Тип тумана
 of.options.FOG_FANCY.tooltip.2=  Быстро - быстрый туман
 of.options.FOG_FANCY.tooltip.3=  Детально - густой туман
 of.options.FOG_FANCY.tooltip.4=  Выкл - туман отключён (быстрее)
-of.options.FOG_FANCY.tooltip.5=Густой туман должен поддерживаться видеокартой. 
+of.options.FOG_FANCY.tooltip.5=Густой туман должен поддерживаться видеокартой.
 of.options.FOG_FANCY.tooltip.6=
 
 of.options.FOG_START=Удалённость тумана
@@ -534,7 +534,7 @@ of.options.SMOOTH_FPS.tooltip.1=Стабилизизация частоты ка
 of.options.SMOOTH_FPS.tooltip.2=  Выкл - частота кадров может колебаться
 of.options.SMOOTH_FPS.tooltip.3=  Вкл - частота кадров стабилизируется
 of.options.SMOOTH_FPS.tooltip.4=Стабилизирует частоту кадров посредством очистки
-of.options.SMOOTH_FPS.tooltip.5=буфера видеокарты. Зависит от видеодрайвера; 
+of.options.SMOOTH_FPS.tooltip.5=буфера видеокарты. Зависит от видеодрайвера;
 of.options.SMOOTH_FPS.tooltip.6=результат стабилизации не всегда виден.
 
 of.options.SMOOTH_WORLD=Стабилизация мира

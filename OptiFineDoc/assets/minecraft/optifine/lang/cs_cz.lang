@@ -21,7 +21,7 @@ of.message.fr.shaders2=Prosím vypni stíny pro použití téhle možnosti.
 
 of.message.an.shaders1=3D zobrazení není kompatibilní se stíny.
 of.message.an.shaders2=Prosím vypni stíny pro použití téhle možnosti.
- 
+
 of.message.shaders.aa1=Stíny nejsou kompatibilní s antialiasingem.
 of.message.shaders.aa2=Jdi do nastavení kvality -> antialiasing na NE a restartuj hru.
 
@@ -50,7 +50,7 @@ of.message.loadingVisibleChunks=Načítám vididetlné chunky
 # Úprava skinu
 
 of.options.skinCustomisation.ofCape=OptiFine kápě...
- 
+
 # Nastavení Grafiky
 
 options.graphics.tooltip.1=Vizuální kvalita
@@ -66,7 +66,7 @@ of.options.renderDistance.far=Velký
 of.options.renderDistance.extreme=Extrémní
 of.options.renderDistance.insane=Šílený
 of.options.renderDistance.ludicrous=Neuvěřitelný
- 
+
 options.renderDistance.tooltip.1=Dohled
 options.renderDistance.tooltip.2=  2 Maličký - 32m (nejrychlejší)
 options.renderDistance.tooltip.3=  8 Normální - 128m (normální)
@@ -238,7 +238,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=mnohem lepší osvětlení závisejíc
 
 of.options.shaders.DOWNLOAD=Stáhnout stíny
 of.options.shaders.DOWNLOAD.tooltip.1=Stáhnout stíny (shadery)
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Otevře stránku balíčků stínů v internetovém prohlížeči.
 of.options.shaders.DOWNLOAD.tooltip.4=Dej stáhnuté balíčky do "složký stínů"
 of.options.shaders.DOWNLOAD.tooltip.5=a ony se pak objeví v seznmu instalovaných stínů.
@@ -523,7 +523,7 @@ of.options.DYNAMIC_FOV.tooltip.2=  ANO - zapne dynamické FOV (výchozí)
 of.options.DYNAMIC_FOV.tooltip.3=  NE - vypne dynamické FOV
 of.options.DYNAMIC_FOV.tooltip.4=Mění pole pohledu (FOV) při létání, sprintování
 of.options.DYNAMIC_FOV.tooltip.5=nebo při natahování luku.
- 
+
 of.options.DYNAMIC_LIGHTS=Dynamické světla
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamické světla
 of.options.DYNAMIC_LIGHTS.tooltip.2=  NE - žádná dynamícká světla (výchozí)

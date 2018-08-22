@@ -116,7 +116,7 @@ options.gamma.tooltip.1=Ändrar ljusstyrkan för mörkare objekt.
 options.gamma.tooltip.2=  Mörkt - standardljusstyrka
 options.gamma.tooltip.3=  1-99%% - variabel
 options.gamma.tooltip.4=  Ljust - maximal ljusstyrka för mörkare objekt
-options.gamma.tooltip.5=Detta alternativ ändrar inte ljusstyrkan för helt svarta 
+options.gamma.tooltip.5=Detta alternativ ändrar inte ljusstyrkan för helt svarta
 options.gamma.tooltip.6=objekt.
 
 options.anaglyph.tooltip.1=3D-effekt
@@ -134,7 +134,7 @@ of.options.FOG_FANCY.tooltip.1=Typ av dimma
 of.options.FOG_FANCY.tooltip.2=  Snabbt - snabbare dimma
 of.options.FOG_FANCY.tooltip.3=  Snyggt - långsammare dimma, ser bättre ut
 of.options.FOG_FANCY.tooltip.4=  AV - ingen dimma, snabbast
-of.options.FOG_FANCY.tooltip.5=Snygg dimma finns bara tillgänglig om den stöds av 
+of.options.FOG_FANCY.tooltip.5=Snygg dimma finns bara tillgänglig om den stöds av
 of.options.FOG_FANCY.tooltip.6=grafikkortet.
 
 of.options.FOG_START=Startgräns för dimma
@@ -172,7 +172,7 @@ of.options.shaders.ANTIALIASING.tooltip.7=samt är kompatibel med shaders och Sn
 
 of.options.shaders.NORMAL_MAP=Normal map
 of.options.shaders.NORMAL_MAP.tooltip.1=Normal map
-of.options.shaders.NORMAL_MAP.tooltip.2=  PÅ - (standard) aktivera normal maps 
+of.options.shaders.NORMAL_MAP.tooltip.2=  PÅ - (standard) aktivera normal maps
 of.options.shaders.NORMAL_MAP.tooltip.3=  AV - inaktivera normal maps
 of.options.shaders.NORMAL_MAP.tooltip.4=Shaderpaketet kan använda normal maps för att simulera
 of.options.shaders.NORMAL_MAP.tooltip.5=3D-geometri på platta modellytor.

@@ -173,7 +173,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 对线和边缘抗锯�
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一种使锯齿状线条线和鲜明的色彩过渡
 of.options.shaders.ANTIALIASING.tooltip.5=更为平滑的后处理特效。
 of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，
-of.options.shaders.ANTIALIASING.tooltip.7=同时也与光影和快速渲染兼容。 
+of.options.shaders.ANTIALIASING.tooltip.7=同时也与光影和快速渲染兼容。
 
 of.options.shaders.NORMAL_MAP=法线贴图
 of.options.shaders.NORMAL_MAP.tooltip.1=法线贴图
@@ -246,7 +246,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=更好的、取决于太阳位置的�
 
 of.options.shaders.DOWNLOAD=光影下载
 of.options.shaders.DOWNLOAD.tooltip.1=下载光影
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=在浏览器中打开光影包页面。
 of.options.shaders.DOWNLOAD.tooltip.4=将已下载完成的光影置于光影文件夹中，
 of.options.shaders.DOWNLOAD.tooltip.5=它们将出现在已安装的光影列表里。
@@ -529,7 +529,7 @@ of.options.DYNAMIC_FOV=动态视场
 of.options.DYNAMIC_FOV.tooltip.1=动态视场
 of.options.DYNAMIC_FOV.tooltip.2=  开启 - 启用动态视场（默认）
 of.options.DYNAMIC_FOV.tooltip.3=  关闭 - 禁用动态视场
-of.options.DYNAMIC_FOV.tooltip.4=当飞行、疾跑或 
+of.options.DYNAMIC_FOV.tooltip.4=当飞行、疾跑或
 of.options.DYNAMIC_FOV.tooltip.5=拉弓时改变视场。
 
 of.options.DYNAMIC_LIGHTS=动态光源

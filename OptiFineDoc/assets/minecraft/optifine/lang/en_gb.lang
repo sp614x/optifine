@@ -4,7 +4,7 @@
 
 options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colours
 
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognise light emitting items in the main hand 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognise light emitting items in the main hand
 
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = inexact, coarser shadows
 

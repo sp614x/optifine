@@ -50,7 +50,7 @@ of.message.shaders.loading=シェーダーをロード中: %s
 of.message.other.reset=全ての設定を元の状態に戻してもよろしいですか？
 
 of.message.loadingVisibleChunks=可視チャンクを読み込み中
- 
+
 # Skin customization
 
 of.options.skinCustomisation.ofCape=OptiFineマント...
@@ -236,13 +236,13 @@ of.options.shaders.OLD_LIGHTING.tooltip.2=  デフォルト - シェーダーパ
 of.options.shaders.OLD_LIGHTING.tooltip.3=  オン - 古い照明効果を用いる
 of.options.shaders.OLD_LIGHTING.tooltip.4=  オフ - 古い照明効果を用いない
 of.options.shaders.OLD_LIGHTING.tooltip.5=古い照明効果設定ではバニラがブロックの側面に
-of.options.shaders.OLD_LIGHTING.tooltip.6=適用した明かりの描画を制御します。 
+of.options.shaders.OLD_LIGHTING.tooltip.6=適用した明かりの描画を制御します。
 of.options.shaders.OLD_LIGHTING.tooltip.7=影を扱うシェーダーパックは多くの場合
 of.options.shaders.OLD_LIGHTING.tooltip.8=太陽の位置に基づくはるかに良い影を提供します。
 
 of.options.shaders.DOWNLOAD=シェーダーのダウンロード
 of.options.shaders.DOWNLOAD.tooltip.1=シェーダーのダウンロード
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=シェーダーのダウンロードページをブラウザで開きます。
 of.options.shaders.DOWNLOAD.tooltip.4=ダウンロードしたシェーダーパックは「シェーダーフォルダー」に入れると
 of.options.shaders.DOWNLOAD.tooltip.5=導入されたシェーダーの一覧に表示されます。
@@ -554,8 +554,8 @@ of.options.SMOOTH_WORLD.tooltip.5=シングルプレイの時のみ効果があ�
 
 of.options.FAST_RENDER=描画の最適化
 of.options.FAST_RENDER.tooltip.1=描画の最適化
-of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画 (初期値) 
-of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画 (低負荷) 
+of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画 (初期値)
+of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画 (低負荷)
 of.options.FAST_RENDER.tooltip.4=GPUのロード回数を減らした方式によって
 of.options.FAST_RENDER.tooltip.5=大幅にFPSを向上します。
 of.options.FAST_RENDER.tooltip.6=この機能はModと競合する可能性があります。

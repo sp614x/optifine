@@ -22,11 +22,11 @@ of.message.fr.shaders2=Kérlek kapcsold ki a shadereket a beállítás bekapcsol
 of.message.an.shaders1=A Sztereoszkopikus 3D nem kompatibilis a shaderekkel.
 of.message.an.shaders2=Kérlek kapcsold ki a shadereket a beállítás bekapcsolásához.
 
-of.message.shaders.aa1=A shaderek nem kompatibilisek az Élsimítással. 
+of.message.shaders.aa1=A shaderek nem kompatibilisek az Élsimítással.
 of.message.shaders.aa2=Kérlek kapcsold Minőség -> Élsimítás-t ki és indísd újra a játékot.
 
 of.message.shaders.af1=A shaderek nem kompatibilisek az Anizotróp Szűréssel.
-of.message.shaders.af2=Kérlek kapcsold Minőség -> Anizotróp Szűrés-t ki. 
+of.message.shaders.af2=Kérlek kapcsold Minőség -> Anizotróp Szűrés-t ki.
 
 of.message.shaders.fr1=A shaderek nem kompatibilisek a Gyors Rendereléssel.
 of.message.shaders.fr2=Kérlek kapcsold Teljesítmény -> Gyors Renderelés-t ki.
@@ -41,7 +41,7 @@ of.message.openglError=§eOpenGL Error§f: %s (%s)
 of.message.shaders.loading=Shader betöltése: %s
 
 of.message.other.reset=Törli az összes videóbeállítást az alapértelmezett értékekre?
- 
+
 # Video settings
 
 options.graphics.tooltip.1=Vizuális minőség
@@ -98,7 +98,7 @@ options.gamma.tooltip.1=A sötétebb objektumok fényerejét változtatja
 options.gamma.tooltip.2=  Borongós - normál fényerő
 options.gamma.tooltip.3=  1-99%% - változó
 options.gamma.tooltip.4=  Fényes - maximum fényerő a sötétebb objektumoknak
-options.gamma.tooltip.5=Ez a beállítás nem változtatja a fényerejét a 
+options.gamma.tooltip.5=Ez a beállítás nem változtatja a fényerejét a
 options.gamma.tooltip.6=teljesen fekete objektumoknak.
 
 options.anaglyph.tooltip.1=Sztereoszkopikus 3D
@@ -116,7 +116,7 @@ of.options.FOG_FANCY.tooltip.1=Köd típusa
 of.options.FOG_FANCY.tooltip.2=  Gyors - gyorsabb köd
 of.options.FOG_FANCY.tooltip.3=  Szép - lassabb köd, jobban mutat
 of.options.FOG_FANCY.tooltip.4=  KI - nincs köd, leggyorsabb
-of.options.FOG_FANCY.tooltip.5=A szép köd csak akkor elérhető, ha támogatja a 
+of.options.FOG_FANCY.tooltip.5=A szép köd csak akkor elérhető, ha támogatja a
 of.options.FOG_FANCY.tooltip.6=videókártya.
 
 of.options.FOG_START=Köd Kezdete
@@ -398,7 +398,7 @@ of.options.DYNAMIC_FOV=Dinamikus FOV
 of.options.DYNAMIC_FOV.tooltip.1=Dinamikus FOV
 of.options.DYNAMIC_FOV.tooltip.2=  BE - bekapcsolja a dinamikus FOV-t (alapértelmezett)
 of.options.DYNAMIC_FOV.tooltip.3=  KI - kikapcsolja a dinamikus FOV-t
-of.options.DYNAMIC_FOV.tooltip.4=Megváltoztatja a látómezőt (FOV) repülés, futás 
+of.options.DYNAMIC_FOV.tooltip.4=Megváltoztatja a látómezőt (FOV) repülés, futás
 of.options.DYNAMIC_FOV.tooltip.5=vagy íjászkodás közben.
 
 of.options.DYNAMIC_LIGHTS=Dinamikus Fények
@@ -437,7 +437,7 @@ of.options.FAST_MATH=Gyors Matek
 of.options.FAST_MATH.tooltip.1=Gyors Matek
 of.options.FAST_MATH.tooltip.2= KI - alap matek (alapértelmezett)
 of.options.FAST_MATH.tooltip.3= BE - gyorsabb matek
-of.options.FAST_MATH.tooltip.4=Optimalizált sin() és cos() függvényeket használ, ami jobban 
+of.options.FAST_MATH.tooltip.4=Optimalizált sin() és cos() függvényeket használ, ami jobban
 of.options.FAST_MATH.tooltip.5=hasznosítja a CPU gyorsítótárat, és növelheti az FPS-t.
 
 of.options.CHUNK_UPDATES=Terület Frissítések

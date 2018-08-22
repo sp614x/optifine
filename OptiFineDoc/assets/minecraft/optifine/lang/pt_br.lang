@@ -150,7 +150,7 @@ of.options.CHUNK_LOADING.tooltip.3=  Smooth - taxa de quadros estável
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - carregamento 3x mais rápido
 of.options.CHUNK_LOADING.tooltip.5=O Smooth e Multi-Core reduzem a latência
 of.options.CHUNK_LOADING.tooltip.6=causada pelo carregamento de chunks.
-of.options.CHUNK_LOADING.tooltip.7=O Multi-Core pode estabilizar a taxa de 
+of.options.CHUNK_LOADING.tooltip.7=O Multi-Core pode estabilizar a taxa de
 of.options.CHUNK_LOADING.tooltip.8=quadros utilizando outro processador.
 of.options.chunkLoading.smooth=Smooth
 of.options.chunkLoading.multiCore=Multi-Core
@@ -414,7 +414,7 @@ of.options.CUSTOM_ENTITY_MODELS=Modelos de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Modelos personalizados de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Sim - (padrão) modelos personalizados de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Não - modelos comuns de entidades (rápidos)
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Os modelos personalizados de entidades são 
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Os modelos personalizados de entidades são
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=fornecidos pelo pacote de recursos atual.
 
 of.options.CUSTOM_GUIS=Interfaces personal.
@@ -605,10 +605,10 @@ of.options.SMART_ANIMATIONS=Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.2= Não - (padrão) desativar as Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.3= Sim - ativar as Smart Animations
-of.options.SMART_ANIMATIONS.tooltip.4=Ao ativar, o jogo animará somente as texturas 
+of.options.SMART_ANIMATIONS.tooltip.4=Ao ativar, o jogo animará somente as texturas
 of.options.SMART_ANIMATIONS.tooltip.5=atualmente visíveis na tela.
 of.options.SMART_ANIMATIONS.tooltip.6=Pode evitar travamentos e elevar a taxa de quadros.
-of.options.SMART_ANIMATIONS.tooltip.7=Recomendado para grandes pacotes de mods e pacotes 
+of.options.SMART_ANIMATIONS.tooltip.7=Recomendado para grandes pacotes de mods e pacotes
 of.options.SMART_ANIMATIONS.tooltip.8=de recursos em alta definição.
 
 # Animations

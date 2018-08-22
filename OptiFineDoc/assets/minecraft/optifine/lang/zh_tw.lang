@@ -32,7 +32,7 @@ of.message.shaders.aa1=光影與抗鋸齒不相容。
 of.message.shaders.aa2=請把 品質 -> 抗鋸齒 選項設定為 關閉 並重啟你的遊戲。
 
 of.message.shaders.af1=光影與各向異性過濾不相容。
-of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關閉。 
+of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關閉。
 
 of.message.shaders.fr1=光影與快速渲染不相容。
 of.message.shaders.fr2=請把 性能 -> 快速渲染 選項設定為 關閉。
@@ -171,7 +171,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 對線和邊緣抗鋸�
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一種平滑鋸齒線和鮮明的色彩過渡的
 of.options.shaders.ANTIALIASING.tooltip.5=後處理特效。
 of.options.shaders.ANTIALIASING.tooltip.6=它不僅快於傳統的抗鋸齒處理，
-of.options.shaders.ANTIALIASING.tooltip.7=同時也與光影和快速渲染相容。 
+of.options.shaders.ANTIALIASING.tooltip.7=同時也與光影和快速渲染相容。
 
 of.options.shaders.NORMAL_MAP=法線貼圖
 of.options.shaders.NORMAL_MAP.tooltip.1=法線貼圖
@@ -244,7 +244,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=更好的、取決於太陽位置的�
 
 of.options.shaders.DOWNLOAD=光影下載
 of.options.shaders.DOWNLOAD.tooltip.1=下載光影
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=在瀏覽器中打開光影包頁面。
 of.options.shaders.DOWNLOAD.tooltip.4=將已下載完成的光影置於「光影資料夾」中，
 of.options.shaders.DOWNLOAD.tooltip.5=它們將出現在已安裝的光影列表裡。
@@ -713,5 +713,5 @@ of.options.SHOW_GL_ERRORS.tooltip.1=Show OpenGL Errors
 of.options.SHOW_GL_ERRORS.tooltip.2=When enabled OpenGL errors are shown in the chat.
 of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict and
 of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
-of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
-of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
+of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the
+of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop.

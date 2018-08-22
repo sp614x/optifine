@@ -24,11 +24,11 @@ of.message.fr.shaders2=Dezactiveaza Shader pentru a activa aceasta optiune.
 of.message.an.shaders1=Viziunea 3D nu este compatibila cu Shader.
 of.message.an.shaders2=Dezactiveaza Shader pentru a activa aceasta optiune.
 
-of.message.shaders.aa1=Shaderul nu este compatibil cu Anti-aliasing. 
+of.message.shaders.aa1=Shaderul nu este compatibil cu Anti-aliasing.
 of.message.shaders.aa2=Seteaza Calitate -> Anti-aliasing pe OPRIT si restarteaza jocul.
 
 of.message.shaders.af1=Shaderul nu este compatibil cu Filtrul Anisotropic.
-of.message.shaders.af2=Seteaza Calitate -> Filtrul Anisotropic pe OPRIT. 
+of.message.shaders.af2=Seteaza Calitate -> Filtrul Anisotropic pe OPRIT.
 
 of.message.shaders.fr1=Shaderul nu este compatibil cu Redarea Rapida.
 of.message.shaders.fr2=Seteaza Performanta -> Redare Rapida pe OPRIT.
@@ -46,9 +46,9 @@ of.message.openglError=§eEroare OpenGL§f: %s (%s)
 of.message.shaders.loading=Shaderul se incarca: %s
 
 of.message.other.reset=Resetezi toate setarile video in valorile implicite?
- 
+
 of.message.loadingVisibleChunks=Incarca chunk-urile vizibile
- 
+
 # Video settings
 
 options.graphics.tooltip.1=Calitate vizuala
@@ -236,7 +236,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=o mai buna luminare depinzand de pozit
 
 of.options.shaders.DOWNLOAD=Descarca Shadere
 of.options.shaders.DOWNLOAD.tooltip.1=Descarca Shadere
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Deschide pagina cu shadere in browser.
 of.options.shaders.DOWNLOAD.tooltip.4=Pune shader-ul descarcat in dosarul "Dosar Shadere"
 of.options.shaders.DOWNLOAD.tooltip.5=si vor aparea in lista shadere-lor instalate.
