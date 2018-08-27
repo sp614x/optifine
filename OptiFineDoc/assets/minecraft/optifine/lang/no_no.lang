@@ -1,0 +1,731 @@
+# Contributors of Norwegian Bokmål localization #
+#   Regnander (_Spitz) 2018-06-24 ---- 2018-08-06
+#   Eiliv U. Henschien (Eiliv) 2018-08-10 ---- 2018-08-11
+
+# General
+of.general.ambiguous=tvetydig
+of.general.custom=Tilpasset
+of.general.from=Fra
+of.general.id=ID
+of.general.restart=start på nytt
+of.general.smart=Smart
+
+# Keys
+of.key.zoom=Zoom inn
+
+# Message
+of.message.aa.shaders1=Kantutjevning er ikke kompatibel med Shaders.
+of.message.aa.shaders2=Deaktiver Shaders for å aktivere dette alternativet.
+
+of.message.af.shaders1=Anisotropisk filtrering er ikke kompatibel med Shaders.
+of.message.af.shaders2=Deaktiver Shaders for å aktivere dette alternativet.
+
+of.message.fr.shaders1=Rask gjengivelse er ikke kompatibel med Shaders.
+of.message.fr.shaders2=Deaktiver Shaders for å aktivere dette alternativet.
+
+of.message.an.shaders1=3D-effekt er ikke kompatibel med Shaders.
+of.message.an.shaders2=Deaktiver Shaders for å aktivere dette alternativet.
+
+of.message.shaders.aa1=Shaders er ikke kompatibel med Kantutjevning.
+of.message.shaders.aa2=Endre "Kvalitet -> Kantutjevning" til AV og start spillet på nytt.
+
+of.message.shaders.af1=Shaders er ikke kompatibel med Anisotropisk filtrering.
+of.message.shaders.af2=Endre "Kvalitet -> Anisotropisk filtrering" til AV.
+
+of.message.shaders.fr1=Shaders er ikke kompatibel med Rask gjengivelse.
+of.message.shaders.fr2=Endre "Prestering -> Rask gjengivelse" til AV.
+
+of.message.shaders.an1=Shaders er ikke kompatibel med 3D-effekt.
+of.message.shaders.an2=Endre "Øvrig -> 3D-effekt" til AV.
+
+of.message.shaders.nv1=Denne shaderpakken krever en nyere versjon av OptiFine: %s
+of.message.shaders.nv2=Er du sikker på at du vil gjøre dette?
+
+of.message.newVersion=En ny versjon av §eOptiFine§f er tilgjengelig: §e%s§f
+of.message.java64Bit=Du kan installere §e64-bitersversjonen av Java§f for å forbedre ytelsen.
+of.message.openglError=§eOpenGL-feil§f: %s (%s)
+
+of.message.shaders.loading=Laster inn shaders: %s
+
+of.message.other.reset=Tilbakestill alle videoinnstillingene til standardverdiene?
+
+of.message.loadingVisibleChunks=Laster synlige verdensbiter
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine-kappe...
+
+# Video settings
+
+options.graphics.tooltip.1=Visuell kvalitet
+options.graphics.tooltip.2=  Rask - lavere kvalitet, hurtigere
+options.graphics.tooltip.3=  Stilig - høyere kvalitet, langsommere
+options.graphics.tooltip.4=Endrer utseendet på skyer, blader, vann, skygger og
+options.graphics.tooltip.5=gresskanter.
+
+of.options.renderDistance.tiny=Liten
+of.options.renderDistance.short=Kort
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Lang
+of.options.renderDistance.extreme=Ekstrem
+of.options.renderDistance.insane=Sinnssyk
+of.options.renderDistance.ludicrous=Latterlig
+
+options.renderDistance.tooltip.1=Synlig avstand
+options.renderDistance.tooltip.2=   2 Liten - 32m (raskeste)
+options.renderDistance.tooltip.3=   8 Normal - 128m (normal)
+options.renderDistance.tooltip.4=  16 Lang - 256m (langsommere)
+options.renderDistance.tooltip.5=  32 Ekstrem - 512m (langsomste!) veldig ressurskrevende
+options.renderDistance.tooltip.6=  48 Sinnssyk - 768m, trenger 2 GB tildelt RAM
+options.renderDistance.tooltip.7=  64 Latterlig - 1024m, trenger 3 GB tildelt RAM
+options.renderDistance.tooltip.8=Verdier over 16 er bare effektive i lokale verdener.
+
+options.ao.tooltip.1=Jevnt beslysningsnivå
+options.ao.tooltip.2=  AV - ingen jevn beslysning (hurtigste)
+options.ao.tooltip.3=  Minimum - enkelt jevn beslysning (langsommere)
+options.ao.tooltip.4=  Maksimum - avansert jevn beslysning (langsomste)
+
+options.framerateLimit.tooltip.1=Maksimal bildefrekvens
+options.framerateLimit.tooltip.2=  VSync - bruker skjermens bildefrekvens (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - variabel
+options.framerateLimit.tooltip.4=  Ubegrenset - ingen begrensning (hurtigste)
+options.framerateLimit.tooltip.5=Bildefrekvensgrensen reduserer bildefrekvensen selv
+options.framerateLimit.tooltip.6=om grenseverdien ikke er nådd.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Jevnt beslyningsnivå
+of.options.AO_LEVEL.tooltip.1=Jevnt beslyningsnivå
+of.options.AO_LEVEL.tooltip.2=  AV - ingen skygger
+of.options.AO_LEVEL.tooltip.3=  50%% - lyse skygger
+of.options.AO_LEVEL.tooltip.4=  100%% - mørke skygger
+
+options.viewBobbing.tooltip.1=Mer realistisk bevegelse.
+options.viewBobbing.tooltip.2=Deaktiver dette dersom mipmaps brukes til best resultat.
+
+options.guiScale.tooltip.1=Størrelse på brukergrensesnitt
+options.guiScale.tooltip.2=  Automatisk - maximal størrelse
+options.guiScale.tooltip.3=  Liten, Normal, Stor - 1x til 3x
+options.guiScale.tooltip.4=  4x til 10x - tilgjengelig på 4K-skjermer
+options.guiScale.tooltip.5=Oddverdier (1x, 3x, 5x...) er ikke kompatible med Unicode.
+options.guiScale.tooltip.6=Et mindre grensesnitt kan være raskere.
+
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Bruker en alternativ gjengivelsesmodell som vanligvis er
+options.vbo.tooltip.3=raskere (5-10%%) enn standardgengivelsen.
+
+options.gamma.tooltip.1=Endrer lysstyrken på mørkere gjenstander.
+options.gamma.tooltip.2=  Dunkelt - standardlysstyrke
+options.gamma.tooltip.3=  1-99%% - variabel
+options.gamma.tooltip.4=  Lyst - maksimal lysstyrke for mørkere gjenstander
+options.gamma.tooltip.5=Dette alternativet endrer ikke lysstyrken på helt svarte
+options.gamma.tooltip.6=objekter.
+
+options.anaglyph.tooltip.1=3D-anaglyf
+options.anaglyph.tooltip.2=Aktiverer en stereoskopisk 3D-effekt ved å bruke
+options.anaglyph.tooltip.3=forskjellige farger for hvert øye.
+options.anaglyph.tooltip.4=Krever rød-turkise briller for best resultat.
+
+of.options.ALTERNATE_BLOCKS=Alterner blokker
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternerende blokker
+of.options.ALTERNATE_BLOCKS.tooltip.2=Bruker alternative blokkmodeller for noen blokker.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Avhenger av den valgte ressurspakken.
+
+of.options.FOG_FANCY=Tåke
+of.options.FOG_FANCY.tooltip.1=Type tåke
+of.options.FOG_FANCY.tooltip.2=  Rask - raskere tåke
+of.options.FOG_FANCY.tooltip.3=  Stilig - langsommere tåke, ser bedre ut
+of.options.FOG_FANCY.tooltip.4=  AV - ingen tåke, hurtigste
+of.options.FOG_FANCY.tooltip.5=Stilig tåke er bare tilgjengelig hvis det støttes av grafikk-
+of.options.FOG_FANCY.tooltip.6=kortet.
+
+of.options.FOG_START=Startgrense for tåke
+of.options.FOG_START.tooltip.1=Startgrense for tåke
+of.options.FOG_START.tooltip.2=  0.2 - tåken begynner nær spilleren
+of.options.FOG_START.tooltip.3=  0.8 - tåken begynner langt unna spilleren
+of.options.FOG_START.tooltip.4=Dette alternativet påvirker vanligvis ikke ytelsen.
+
+of.options.CHUNK_LOADING=Verdensbitslastning
+of.options.CHUNK_LOADING.tooltip.1=Verdensbitslastning
+of.options.CHUNK_LOADING.tooltip.2=  Standard - ustabil bildefrekvens når verdensbiter lastes
+of.options.CHUNK_LOADING.tooltip.3=  Jevn - stabil bildefrekvens
+of.options.CHUNK_LOADING.tooltip.4=  Flerkjernet - stabil bildefrekvens, 3x hurtigere last
+of.options.CHUNK_LOADING.tooltip.5=Jevn og Flerkjernet fjerner stammingen og
+of.options.CHUNK_LOADING.tooltip.6=fryser forårsaket av verdensbitslasting.
+of.options.CHUNK_LOADING.tooltip.7=Flerkjernet kan øke hastigheten på verdensbelastning med 3x
+of.options.CHUNK_LOADING.tooltip.8=og øke bildefrekvensen ved å bruke en andre processorkjerne.
+of.options.chunkLoading.smooth=Jevn
+of.options.chunkLoading.multiCore=Flerkjernet
+
+of.options.shaders=Shaders...
+of.options.shadersTitle=Shaders
+
+of.options.shaders.packNone=AV
+of.options.shaders.packDefault=(intern)
+
+of.options.shaders.ANTIALIASING=Kantutjevning
+of.options.shaders.ANTIALIASING.tooltip.1=Kantutjevning
+of.options.shaders.ANTIALIASING.tooltip.2=  AV - (standard) ingen kantutjevning (hurtigere)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - glatte linjer og kanter (langsommere)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA er en etterbehandlingseffekt som glatter ut
+of.options.shaders.ANTIALIASING.tooltip.5=stiplede linjer og skarpe fargeendringer.
+of.options.shaders.ANTIALIASING.tooltip.6=Det er raskere enn tradisjonell kantutjevning og er
+of.options.shaders.ANTIALIASING.tooltip.7=kompatibel med shaders og Rask gjengivelse.
+
+of.options.shaders.NORMAL_MAP=Normal map
+of.options.shaders.NORMAL_MAP.tooltip.1=Normal map
+of.options.shaders.NORMAL_MAP.tooltip.2=  PÅ - (standard) aktiver normal maps 
+of.options.shaders.NORMAL_MAP.tooltip.3=  AV - deaktiver normal maps
+of.options.shaders.NORMAL_MAP.tooltip.4=Shader-pakken kan bruke normal maps for å
+of.options.shaders.NORMAL_MAP.tooltip.5=simulere 3D-geometri på flate modelloverflater.
+of.options.shaders.NORMAL_MAP.tooltip.6=Teksturer for normal maps leveres av den nåværende
+of.options.shaders.NORMAL_MAP.tooltip.7=ressurspakken.
+
+of.options.shaders.SPECULAR_MAP=Specular map
+of.options.shaders.SPECULAR_MAP.tooltip.1=Specular map
+of.options.shaders.SPECULAR_MAP.tooltip.2=  PÅ - (standard) aktiver specular maps
+of.options.shaders.SPECULAR_MAP.tooltip.3=  AV - deaktivere specular maps
+of.options.shaders.SPECULAR_MAP.tooltip.4=Shaderpakken kan bruke specular maps for å simulere
+of.options.shaders.SPECULAR_MAP.tooltip.5=spesielle refleksjonseffekter.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Teksturer for specular maps leveres av den nåværende
+of.options.shaders.SPECULAR_MAP.tooltip.7=ressurspakken.
+
+of.options.shaders.RENDER_RES_MUL=Gjengivelsekvalitet
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Gjengivelsekvalitet
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - lav (hurtigste)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (standard)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - høy (langsomste)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Gjengivelsekvalitet styrer størrelsen på tekstur som
+of.options.shaders.RENDER_RES_MUL.tooltip.6=shaderpakken gjengir.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Lavere verdier kan være nyttige på 4K-skjermer.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Høyere verdier fungerer som et kantutjevningsfilter.
+
+of.options.shaders.SHADOW_RES_MUL=Skyggekvalitet
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Skyggekvalitet
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - lav (hurtigste)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (standard)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - høy (langsomste)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Skyggekvalitet styrer størrelsen på tekstur for shadow
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=map som brukes i shaderpakken.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lavere kvalitet = enkle grove skygger.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Høyere kvalitet = detaljerte fine skygger.
+
+of.options.shaders.HAND_DEPTH_MUL=Hånddybde
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Hånddybde
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - hånden er nær kameraet
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (standard)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - hånden er langt borte fra kameraet
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hånddybde styrer hvor langt unna håndholdte
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=gjenstander kommer fra kameraet.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=For shaderpakker som bruker dybdeskarphet, bør dette
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=forandre hvordan uskarpe håndholdte gjenstander blir.
+
+of.options.shaders.CLOUD_SHADOW=Skyskygge
+
+of.options.shaders.OLD_HAND_LIGHT=G. håndlys
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Gammelt håndlys
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Standard - kontrollert av shaderpakken
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  PÅ - bruk gammelt håndlys
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  AV - bruk nye håndlys
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Gammelt håndlys tillater shaderpakker som bare
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=gjenkjenner lysemitterende gjenstander i hovedhånden
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=også arbeider med gjenstander i den andre hånden.
+
+of.options.shaders.OLD_LIGHTING=Gammelt lys
+of.options.shaders.OLD_LIGHTING.tooltip.1=Gammelt lys
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Standard - kontrollert av shaderpakken
+of.options.shaders.OLD_LIGHTING.tooltip.3=  PÅ - bruk gammelt lys
+of.options.shaders.OLD_LIGHTING.tooltip.4=  AV - bruk ikke gammelt lys
+of.options.shaders.OLD_LIGHTING.tooltip.5=Gammelt lys kontrollerer det faste lyset som brukes til å
+of.options.shaders.OLD_LIGHTING.tooltip.6=blokksider som standard.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Shaderpakker som bruker skygger produserer vanligvis
+of.options.shaders.OLD_LIGHTING.tooltip.8=mye bedre lys som avhenger av solens posisjon.
+
+of.options.shaders.DOWNLOAD=Last ned shaders
+of.options.shaders.DOWNLOAD.tooltip.1=Last ned shaders
+of.options.shaders.DOWNLOAD.tooltip.2=
+of.options.shaders.DOWNLOAD.tooltip.3=Åpner nettsiden for shaderpakker i en nettleser.
+of.options.shaders.DOWNLOAD.tooltip.4=Legg nedlastede shaderpakker i "shadermappen" og de
+of.options.shaders.DOWNLOAD.tooltip.5=vil vises på listen over installerte shaders.
+
+of.options.shaders.SHADER_PACK=Shaderpakker
+
+of.options.shaders.shadersFolder=Shadermappe
+of.options.shaders.shaderOptions=Shaderalternativer...
+
+of.options.shaderOptionsTitle=Shaderalternativer
+
+of.options.quality=Kvalitet...
+of.options.qualityTitle=Kvalitetsinnstillinger
+
+of.options.details=Detaljer...
+of.options.detailsTitle=Detaljinnstillinger
+
+of.options.performance=Ytelse...
+of.options.performanceTitle=Ytelseinnstillinger
+
+of.options.animations=Animeringar...
+of.options.animationsTitle=Animeringsinnstillinger
+
+of.options.other=Andre...
+of.options.otherTitle=Andre innstillinger
+
+of.options.other.reset=Tilbakestill videoinnstillinger...
+
+of.shaders.profile=Profil
+
+# Quality
+
+of.options.mipmap.bilinear=Bilineær
+of.options.mipmap.linear=Lineær
+of.options.mipmap.nearest=Nærmeste
+of.options.mipmap.trilinear=Trelineær
+
+options.mipmapLevels.tooltip.1=Visuell effekt som gjør at fjerne avstander ser bedre ut
+options.mipmapLevels.tooltip.2=ved å utjevne teksturdetaljer.
+options.mipmapLevels.tooltip.3=  AV - ingen utjevning
+options.mipmapLevels.tooltip.4=  1 - minimal utjevning
+options.mipmapLevels.tooltip.5=  4 - maksimal utjevning
+options.mipmapLevels.tooltip.6=Dette alternativet påvirker vanligvis ikke ytelsen.
+
+of.options.MIPMAP_TYPE=Mipmaptyp
+of.options.MIPMAP_TYPE.tooltip.1=Visuell effekt som gjøre at fjerne avstander ser bedre ut
+of.options.MIPMAP_TYPE.tooltip.2=ved å utjevne teksturdetaljer.
+of.options.MIPMAP_TYPE.tooltip.3=  Nærmeste - grov utjevning (hurtigste)
+of.options.MIPMAP_TYPE.tooltip.4=  Lineær - normal utjevning
+of.options.MIPMAP_TYPE.tooltip.5=  Bilineær - fin utjevning
+of.options.MIPMAP_TYPE.tooltip.6=  Trelineær - fineste utjevning (langsomste)
+
+
+of.options.AA_LEVEL=Kantutjevning
+of.options.AA_LEVEL.tooltip.1=Kantutjevning
+of.options.AA_LEVEL.tooltip.2=  AV - ingen kantutjevning (standard), hurtigere
+of.options.AA_LEVEL.tooltip.3=  2-16 - kantutjevnede linjer og kanter (langsommere)
+of.options.AA_LEVEL.tooltip.4=Kantutjevning glatter ut ujevne linjer og skarpe farge-
+of.options.AA_LEVEL.tooltip.5=overganger.
+of.options.AA_LEVEL.tooltip.6=Bildefrekvensen kan synke betydelig når dette er aktivert.
+of.options.AA_LEVEL.tooltip.7=Alle nivåer støttes ikke av alle grafikkortester.
+of.options.AA_LEVEL.tooltip.8=Krever OMSTART!
+
+of.options.AF_LEVEL=Anisotropisk filtrering
+of.options.AF_LEVEL.tooltip.1=Anisotropisk filtrering
+of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer i teksturer (standard), hurtigere
+of.options.AF_LEVEL.tooltip.3=  2-16 - finere detaljer i mipmapteksturer (langsommere)
+of.options.AF_LEVEL.tooltip.4=Den anisotropiske filtreringen tilbakestiller detaljer i
+of.options.AF_LEVEL.tooltip.5=mipmaptexturer.
+of.options.AF_LEVEL.tooltip.6=Bildefrekvensen kan synke betydelig når dette er aktivert.
+
+of.options.CLEAR_WATER=Krystallklart vann
+of.options.CLEAR_WATER.tooltip.1=Krystallklart vann
+of.options.CLEAR_WATER.tooltip.2=  PÅ - krystallklart, gjennomsiktig vann
+of.options.CLEAR_WATER.tooltip.3=  AV - standardvann
+
+of.options.RANDOM_ENTITIES=Tilfeldige enheter
+of.options.RANDOM_ENTITIES.tooltip.1=Tilfeldige enheter
+of.options.RANDOM_ENTITIES.tooltip.2=  AV - ingen tilfeldige enheter, hurtigere
+of.options.RANDOM_ENTITIES.tooltip.3=  PÅ - tilfeldige enheter, langsommere
+of.options.RANDOM_ENTITIES.tooltip.4=Bruker tilfeldige teksturer for enhetene i spillet.
+of.options.RANDOM_ENTITIES.tooltip.5=Krever en ressurspakke med flere enhetsteksturer.
+
+of.options.BETTER_GRASS=Bedre gress
+of.options.BETTER_GRASS.tooltip.1=Bedre gress
+of.options.BETTER_GRASS.tooltip.2=  AV - standardteksturer for gresskanter, hurtigste
+of.options.BETTER_GRASS.tooltip.3=  Rask - full tekstur for gresskanter
+of.options.BETTER_GRASS.tooltip.4=  Stilig - dynamisk tekstur for gresskanter, langsomste
+
+of.options.BETTER_SNOW=Bedre snø
+of.options.BETTER_SNOW.tooltip.1=Bedre snø
+of.options.BETTER_SNOW.tooltip.2=  AV - standardsnø, hurtigere
+of.options.BETTER_SNOW.tooltip.3=  PÅ - bedre snø, langsommere
+of.options.BETTER_SNOW.tooltip.4=Viser snø under gjennomsiktige blokker (gjerder, høyt
+of.options.BETTER_SNOW.tooltip.5=gress) ligger ved siden av snøblokker.
+
+of.options.CUSTOM_FONTS=Tilpasset skrift
+of.options.CUSTOM_FONTS.tooltip.1=Tilpasset skrift
+of.options.CUSTOM_FONTS.tooltip.2=  PÅ - bruk tilpasset skrift (standard), langsommere
+of.options.CUSTOM_FONTS.tooltip.3=  AV - bruk standardskriften, hurtigere
+of.options.CUSTOM_FONTS.tooltip.4=De tilpassede skrifter leveres av den nåværende
+of.options.CUSTOM_FONTS.tooltip.5=ressurspakken.
+
+of.options.CUSTOM_COLORS=Tilpasset farger
+of.options.CUSTOM_COLORS.tooltip.1=Tilpasset farger
+of.options.CUSTOM_COLORS.tooltip.2=  PÅ - bruk tilpasset farger (standard), langsommere
+of.options.CUSTOM_COLORS.tooltip.3=  AV - bruk standardfargene, hurtigere
+of.options.CUSTOM_COLORS.tooltip.4=De tilpassede fargene leveres av den nåværende
+of.options.CUSTOM_COLORS.tooltip.5=ressurspakken
+
+of.options.SWAMP_COLORS=Sumpfarger
+of.options.SWAMP_COLORS.tooltip.1=Sumpfarger
+of.options.SWAMP_COLORS.tooltip.2=  PÅ - bruk sumpfarger (standard), langsommere
+of.options.SWAMP_COLORS.tooltip.3=  AV - bruk ikke sumpfarger, hurtigere
+of.options.SWAMP_COLORS.tooltip.4=Sumpfargene påvirker gress, løv, lianer og vann.
+of.options.SWAMP_COLORS.tooltip.5=
+
+of.options.SMOOTH_BIOMES=Utjevning av biomer
+of.options.SMOOTH_BIOMES.tooltip.1=Utjevning av biomer
+of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biomkanter glattet ut (standard), langsommere
+of.options.SMOOTH_BIOMES.tooltip.3=  AV - biomkanter ikke glattet ut, hurtigere
+of.options.SMOOTH_BIOMES.tooltip.4=Utjevning av biomarginaler gjøres ved prøvetaking og
+of.options.SMOOTH_BIOMES.tooltip.5=gjennomsnittsfarge på alle omkringliggende blokker.
+of.options.SMOOTH_BIOMES.tooltip.6=Påvirker gress, løv, lianer og vann.
+
+of.options.CONNECTED_TEXTURES=Tilknyttede teksturer
+of.options.CONNECTED_TEXTURES.tooltip.1=Tilknyttede teksturer
+of.options.CONNECTED_TEXTURES.tooltip.2=  AV - ingen tilknyttede teksturer (standard)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Rask - raske tilknyttede teksturer
+of.options.CONNECTED_TEXTURES.tooltip.4=  Stilig - stilige tilknyttede teksturer
+of.options.CONNECTED_TEXTURES.tooltip.5=Tilknyttede texturer fusjonerer teksturene for glas,
+of.options.CONNECTED_TEXTURES.tooltip.6=sandstein og bokhyller når de er plassert ved siden av
+of.options.CONNECTED_TEXTURES.tooltip.7=hverandre. Tilknyttede teksturer leveres av den
+of.options.CONNECTED_TEXTURES.tooltip.8=nåværende ressurspakken.
+
+of.options.NATURAL_TEXTURES=Naturlige teksturer
+of.options.NATURAL_TEXTURES.tooltip.1=Naturlige teksturer
+of.options.NATURAL_TEXTURES.tooltip.2=  AV - ingen naturlige teksturer (standard)
+of.options.NATURAL_TEXTURES.tooltip.3=  PÅ - bruk naturlige teksturer
+of.options.NATURAL_TEXTURES.tooltip.4=Naturlige teksturer fjerner gitterlignende mønstre laget
+of.options.NATURAL_TEXTURES.tooltip.5=av gjentatte blokker av samme type. Den bruker roterte
+of.options.NATURAL_TEXTURES.tooltip.6=og reflekterte varianter av den opprinnelige blokk-
+of.options.NATURAL_TEXTURES.tooltip.7=teksturen. Konfigurasjonen for naturlige teksturer
+of.options.NATURAL_TEXTURES.tooltip.8=leveres av den nåværende ressurspakken.
+
+of.options.EMISSIVE_TEXTURES=Opplyste teksturer
+of.options.EMISSIVE_TEXTURES.tooltip.1=Opplyste teksturer
+of.options.EMISSIVE_TEXTURES.tooltip.2=  AV - ingen opplyste teksturer (standard)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  PÅ - bruk opplyste teksturer
+of.options.EMISSIVE_TEXTURES.tooltip.4=De opplyste teksturene blir gjengitt som et overlegg med
+of.options.EMISSIVE_TEXTURES.tooltip.5=fullstendig lysstyrke. De kan brukes til å simulere
+of.options.EMISSIVE_TEXTURES.tooltip.6=opplyste deler av de grunnleggende teksturer.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Opplyste teksturer leveres av den nåværende ressurs-
+of.options.EMISSIVE_TEXTURES.tooltip.8=pakken.
+
+of.options.CUSTOM_SKY=Tilpasset himmel
+of.options.CUSTOM_SKY.tooltip.1=Tilpasset himmel
+of.options.CUSTOM_SKY.tooltip.2=  PÅ - tilpasset himmeltexturer (standard), langsomt
+of.options.CUSTOM_SKY.tooltip.3=  AV - standardhimmel, hurtigere
+of.options.CUSTOM_SKY.tooltip.4=Teksturene for den tilpassede himmelen leveres av den
+of.options.CUSTOM_SKY.tooltip.5=nåværende ressurspakken.
+
+of.options.CUSTOM_ITEMS=Tilpassede gjenstander
+of.options.CUSTOM_ITEMS.tooltip.1=Tilpassede gjenstander
+of.options.CUSTOM_ITEMS.tooltip.2=  PÅ - tilp. gjenstandsteksturer (standard), langsomt
+of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardteksturer for gjenstander, hurtigere
+of.options.CUSTOM_ITEMS.tooltip.4=De tilpassede gjenstandsteksturene leveres av den
+of.options.CUSTOM_ITEMS.tooltip.5=nåværende ressurspakken.
+
+of.options.CUSTOM_ENTITY_MODELS=Tilpassede enhetsmodeller
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Tilpasset enhetsmodeller
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  PÅ - tilpasset enhetsmodeller (standard), langsomt
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  AV - standardenhetsmodeller, hurtigere
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=De tilpassede enhetsmodellene leveres av den nåværende
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=ressurspakken.
+
+of.options.CUSTOM_GUIS=Tilp. brukergrensesnitt
+of.options.CUSTOM_GUIS.tooltip.1=Tilpasset brukergrensesnitt
+of.options.CUSTOM_GUIS.tooltip.2=  PÅ - tilp. brukergrensesnitt (standard), langsommere
+of.options.CUSTOM_GUIS.tooltip.3=  AV - standardbrukergrensesnitt, hurtigere
+of.options.CUSTOM_GUIS.tooltip.4=De tilpassede brukergrensesnitten leveres av den
+of.options.CUSTOM_GUIS.tooltip.5=nåværende ressurspakken.
+
+# Details
+
+of.options.CLOUDS=Sky
+of.options.CLOUDS.tooltip.1=Sky
+of.options.CLOUDS.tooltip.2=  Standard - følger alternativet "Grafikk"
+of.options.CLOUDS.tooltip.3=  Rask - lavere kvalitet, hurtigere
+of.options.CLOUDS.tooltip.4=  Stilig - høyere kvalitet, langsommere
+of.options.CLOUDS.tooltip.5=  AV - ingen skyer, hurtigste
+of.options.CLOUDS.tooltip.6=Raske skyer gjengis i 2D.
+of.options.CLOUDS.tooltip.7=Stilige skyer gjengis i 3D.
+
+of.options.CLOUD_HEIGHT=Skyhøyde
+of.options.CLOUD_HEIGHT.tooltip.1=Skyhøyde
+of.options.CLOUD_HEIGHT.tooltip.2=  AV - standardhøyde
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - over verdens høydegrense
+
+of.options.TREES=Trær
+of.options.TREES.tooltip.1=Trær
+of.options.TREES.tooltip.2=  Standard - følger alternativet "Grafikk"
+of.options.TREES.tooltip.3=  Rask - lavere kvalitet, hurtigere
+of.options.TREES.tooltip.4=  Smart - høyere kvalitet, raskt
+of.options.TREES.tooltip.5=  Stilig - høyeste kvalitet, langsommere
+of.options.TREES.tooltip.6=Raske trær ugjennomsiktige blader.
+of.options.TREES.tooltip.7=Stilige og smarte trær har gjennomsiktige blader.
+
+of.options.RAIN=Regn og snø
+of.options.RAIN.tooltip.1=Regn og snø
+of.options.RAIN.tooltip.2=  Standard - følger alternativet "Grafikk"
+of.options.RAIN.tooltip.3=  Rask - lett regn/snø, hurtigere
+of.options.RAIN.tooltip.4=  Stilig - tungt regn/snø, langsommere
+of.options.RAIN.tooltip.5=  AV - ingen regn/snø, hurtigste
+of.options.RAIN.tooltip.6=Regnlyder og nedbør vil fortsatt bli hørt og vises hvis
+of.options.RAIN.tooltip.7=regn er slått av.
+
+of.options.SKY=Himmel
+of.options.SKY.tooltip.1=Himmel
+of.options.SKY.tooltip.2=  PÅ - himmelen er synlig, langsommere
+of.options.SKY.tooltip.3=  AV - himmelen er ikke synlig, hurtigere
+of.options.SKY.tooltip.4=Hvis himmelen er inaktivert, vil månen og solen fortsatt
+of.options.SKY.tooltip.5=være synlig.
+
+of.options.STARS=Stjerner
+of.options.STARS.tooltip.1=Stjerner
+of.options.STARS.tooltip.2=  PÅ - stjerner er synlige, langsommere
+of.options.STARS.tooltip.3=  AV - stjerner er ikke synlige, hurtigere
+
+of.options.SUN_MOON=Sol og måne
+of.options.SUN_MOON.tooltip.1=Sol og måne
+of.options.SUN_MOON.tooltip.2=  PÅ - solen og månen er synlige (standard)
+of.options.SUN_MOON.tooltip.3=  AV - solen og månen er ikke synlige (hurtigere)
+
+of.options.SHOW_CAPES=Vis kapper
+of.options.SHOW_CAPES.tooltip.1=Vis kapper
+of.options.SHOW_CAPES.tooltip.2=  PÅ - ikke vis spillerens kapper (standard)
+of.options.SHOW_CAPES.tooltip.3=  AV - vis spillernes kapper
+
+of.options.TRANSLUCENT_BLOCKS=Transp. blokker
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Gjennomsiktige blokker
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - følger alternativet "Grafikk"
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Stilig - riktig fargeblanding (standard)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Rask - rask fargeblanding (hurtigere)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontrollerer fargeblandingen for gjennomsiktige blokker
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=med forskjellige farger (farget glass, vann, is) når de
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=er plassert bak hverandre med luft mellom dem.
+
+of.options.HELD_ITEM_TOOLTIPS=Gjenstandsinfotekst
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Infotekst for gjenstander
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  PÅ - vis infotekst for holdte gjenstander (standard)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  AV - vis ikke infotekst for holdte gjenstander
+
+of.options.ADVANCED_TOOLTIPS=Avanserte verktøytips
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Avanserte verktøytips
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  PÅ - vis avanserte verktøytips
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  AV - ikke vis avanserte verktøytips (standard)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Avanserte verktøytips viser tilleggsinformasjon om
+of.options.ADVANCED_TOOLTIPS.tooltip.5=gjenstander (id, holdbarhet) og shaderalternativer
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, kilde, standardverdier).
+
+of.options.DROPPED_ITEMS=Utgitte gjenst.
+of.options.DROPPED_ITEMS.tooltip.1=Utgitte gjenstander
+of.options.DROPPED_ITEMS.tooltip.2=  Standard - følger alternativet "Grafikk"
+of.options.DROPPED_ITEMS.tooltip.3=  Rask - gjengis i 2D, hurtigere
+of.options.DROPPED_ITEMS.tooltip.4=  Stilig - gjengis i 3D, langsommere
+
+options.entityShadows.tooltip.1=Enhetskygger
+options.entityShadows.tooltip.2=  PÅ - vis skygger for enheter
+options.entityShadows.tooltip.3=  AV - vis ikke skygger for enheter
+
+of.options.VIGNETTE=Vignett
+of.options.VIGNETTE.tooltip.1=Visuell effekt som mørkner skjermens hjørner litt
+of.options.VIGNETTE.tooltip.2=  Standard - følger alternativet "Grafikk" (standard)
+of.options.VIGNETTE.tooltip.3=  Rask - vignett er deaktivert (hurtigere)
+of.options.VIGNETTE.tooltip.4=  Stilig - vignett er aktivert (langsommere)
+of.options.VIGNETTE.tooltip.5=Vignetten kan ha en betydelig innvirkning på bilde-
+of.options.VIGNETTE.tooltip.6=frekvensen, spesielt når fullskjerm er aktivert.
+of.options.VIGNETTE.tooltip.7=Vignetteffekten er veldig diskré og kan slås av uten
+of.options.VIGNETTE.tooltip.8=fare.
+
+of.options.DYNAMIC_FOV=Dynamisk synsfelt
+of.options.DYNAMIC_FOV.tooltip.1=Dynamisk synsfelt
+of.options.DYNAMIC_FOV.tooltip.2=  PÅ - aktivér dynamisk synsfelt (standard)
+of.options.DYNAMIC_FOV.tooltip.3=  AV - deaktivér dynamisk synsfelt
+of.options.DYNAMIC_FOV.tooltip.4=Endrer synsfeltet når du flyr, hopper eller sikter med
+of.options.DYNAMIC_FOV.tooltip.5=en bue.
+
+of.options.DYNAMIC_LIGHTS=Dynamiske lys
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiske lys
+of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - ingen dynamiske lys (standard)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Rask - raske dynamiske lys (oppdatert etter 500 ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Stilig - stilige dynamiske lys (oppdatert i sanntid)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Lar gjenstander som utsender lys (fakler, glødestein,
+of.options.DYNAMIC_LIGHTS.tooltip.6=etc.) lyse opp omgivelsene når de holdes av deg, andre
+of.options.DYNAMIC_LIGHTS.tooltip.7=spillere eller slippes til bakken.
+
+# Performance
+
+of.options.SMOOTH_FPS=Jevn bildefrekvens
+of.options.SMOOTH_FPS.tooltip.1=Stabiliserer bildefrekvensen ved å rydde grafikk-
+of.options.SMOOTH_FPS.tooltip.2=driverbufferne.
+of.options.SMOOTH_FPS.tooltip.3=  AV - ingen stabilisering, bildefrekvensen kan variere
+of.options.SMOOTH_FPS.tooltip.4=  PÅ - bildefrekvensen er stabilisert
+of.options.SMOOTH_FPS.tooltip.5=Avhenger av grafikkdrivere og er ikke alltid merkbar.
+
+of.options.SMOOTH_WORLD=Jevn verden
+of.options.SMOOTH_WORLD.tooltip.1=Fjerner ytelsesproblemer forårsaket av den interne
+of.options.SMOOTH_WORLD.tooltip.2=serveren.
+of.options.SMOOTH_WORLD.tooltip.3=  AV - ingen stabilisering, bildefrekvensen kan variere
+of.options.SMOOTH_WORLD.tooltip.4=  PÅ - bildefrekvensen er stabilisert
+of.options.SMOOTH_WORLD.tooltip.5=Stabiliserer bildefrekvensen ved å distribuere
+of.options.SMOOTH_WORLD.tooltip.6=inlastningen av den interne serveren.
+of.options.SMOOTH_WORLD.tooltip.7=Fungerer kun på lokale verdener (enkeltspiller).
+
+of.options.FAST_RENDER=Rask gjengivelse
+of.options.FAST_RENDER.tooltip.1=Rask gjengivelse
+of.options.FAST_RENDER.tooltip.2=  AV - standardgjengivelse (standard)
+of.options.FAST_RENDER.tooltip.3=  PÅ - optimalisert gjengivelse (hurtigere)
+of.options.FAST_RENDER.tooltip.4=Bruker en optimalisert gjengivelsesalgoritme som senker 
+of.options.FAST_RENDER.tooltip.5=grafikkprosessorens lesehastighet og kan øke bilde-
+of.options.FAST_RENDER.tooltip.6=frekvensen betydelig.
+
+of.options.FAST_MATH=Rask matematik
+of.options.FAST_MATH.tooltip.1=Rask matematik
+of.options.FAST_MATH.tooltip.2=  AV - standardmatematik (standard)
+of.options.FAST_MATH.tooltip.3=  PÅ - hurtigere matematik
+of.options.FAST_MATH.tooltip.4=Bruker optimaliserte sin()- og cos()-funksjoner som
+of.options.FAST_MATH.tooltip.5=som kan utnytte prosessorens cache mer og øke bilde-
+of.options.FAST_MATH.tooltip.6=frekvensen.
+of.options.FAST_MATH.tooltip.7=Dette alternativ kan påvirke verdensgenerasjon minimalt.
+
+of.options.CHUNK_UPDATES=Verdensbitoppdateringer
+of.options.CHUNK_UPDATES.tooltip.1=Verdensbitoppdateringer
+of.options.CHUNK_UPDATES.tooltip.2=  1 - langsommere inlastn., høyere bildefrekv. (standard)
+of.options.CHUNK_UPDATES.tooltip.3=  3 - hurtigere inlastning, lavere bildefrekvens
+of.options.CHUNK_UPDATES.tooltip.4=  5 - hurtigste inlastning, laveste bildefrekvens
+of.options.CHUNK_UPDATES.tooltip.5=Antall verdensbitoppdateringer per gjengitt ramme.
+of.options.CHUNK_UPDATES.tooltip.6=Høyere verdier kan gjøre bildefrekvensen ustabil.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Dynamiske oppdateringer
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamiske verdensbituppdateringar
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  AV - standardantall oppdat. per ramme (standard)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  PÅ - flere oppdateringer når spilleren står stille
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamiske oppdateringer tvinger flere verdensbit-
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=oppdateringer når spilleren står stille for å laste
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.6=verdenen raskere.
+
+of.options.LAZY_CHUNK_LOADING=Lat verdensbitslastning
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Lat verdensbitslastning
+of.options.LAZY_CHUNK_LOADING.tooltip.2=  AV - standardlastning på servere
+of.options.LAZY_CHUNK_LOADING.tooltip.3=  PÅ - lat verdensbitslastning på servere (mer stabilt)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Jevner ut den integrerte verdensbitinlastningen for
+of.options.LAZY_CHUNK_LOADING.tooltip.5=serveren ved å distribuere verdensbitene på tvers av
+of.options.LAZY_CHUNK_LOADING.tooltip.6=flere tickinger. Deaktiver hvis deler av verdenen ikke
+of.options.LAZY_CHUNK_LOADING.tooltip.7=lastes inn riktig. Fungerer kun på lokale verdener
+of.options.LAZY_CHUNK_LOADING.tooltip.8=(enkeltspiller).
+
+of.options.RENDER_REGIONS=Gjengivelseområder
+of.options.RENDER_REGIONS.tooltip.1=Gjengivelseområder
+of.options.RENDER_REGIONS.tooltip.2=  AV - bruk ikke gjengivelseområder (standard)
+of.options.RENDER_REGIONS.tooltip.3=  PÅ - bruk gjengivelseområder
+of.options.RENDER_REGIONS.tooltip.4=Gjengivelseområder gjør at terreng gjengis raskere
+of.options.RENDER_REGIONS.tooltip.5=ved høyere gjengivelsesavstand. Mer effektivt når VBO
+of.options.RENDER_REGIONS.tooltip.6=er aktivert.
+of.options.RENDER_REGIONS.tooltip.7=Ikke anbefalt for integrerte grafikkort.
+
+of.options.SMART_ANIMATIONS=Smarte animasjoner
+of.options.SMART_ANIMATIONS.tooltip.1=Smarte animasjoner
+of.options.SMART_ANIMATIONS.tooltip.2= AV - bruk ikke smarte animasjoner (standard)
+of.options.SMART_ANIMATIONS.tooltip.3= PÅ - bruk smarte animasjoner
+of.options.SMART_ANIMATIONS.tooltip.4=Med smarte animasjoner, vil spillet bare animere
+of.options.SMART_ANIMATIONS.tooltip.5=teksturer som for øyeblikket er synlige på skjermen.
+of.options.SMART_ANIMATIONS.tooltip.6=Dette reduserer ytelsesproblemer og øker bilde-
+of.options.SMART_ANIMATIONS.tooltip.7=frekvensen. Spesielt nyttig for store modpakker og
+of.options.SMART_ANIMATIONS.tooltip.8=ressurspakker i HD.
+
+# Animations
+
+of.options.animation.allOn=Alt PÅ
+of.options.animation.allOff=Alt AV
+of.options.animation.dynamic=Dynamisk
+
+of.options.ANIMATED_WATER=Animert vann
+of.options.ANIMATED_LAVA=Animert lava
+of.options.ANIMATED_FIRE=Animert ild
+of.options.ANIMATED_PORTAL=Animerte portaler
+of.options.ANIMATED_REDSTONE=Animert redstone
+of.options.ANIMATED_EXPLOSION=Animerte eksplosjoner
+of.options.ANIMATED_FLAME=Animerte flammer
+of.options.ANIMATED_SMOKE=Animert røyk
+of.options.VOID_PARTICLES=Underromspartikler
+of.options.WATER_PARTICLES=Vannpartikler
+of.options.RAIN_SPLASH=Regnskvett
+of.options.PORTAL_PARTICLES=Portalpartikler
+of.options.POTION_PARTICLES=Bryggpartikler
+of.options.DRIPPING_WATER_LAVA=Dryppende vann/lava
+of.options.ANIMATED_TERRAIN=Animert terreng
+of.options.ANIMATED_TEXTURES=Animerte teksturer
+of.options.FIREWORK_PARTICLES=Fyrverkeripartikler
+
+# Other
+
+of.options.LAGOMETER=Laggmåler
+of.options.LAGOMETER.tooltip.1=Vis laggmåleren på feilsøkingsskjermen (F3).
+of.options.LAGOMETER.tooltip.2=  * Oransje - Avfallsinnhenting av minne
+of.options.LAGOMETER.tooltip.3=  * Turkis - Antall tickninger
+of.options.LAGOMETER.tooltip.4=  * Blå - Planlagte kjøringer
+of.options.LAGOMETER.tooltip.5=  * Lilla - Verdensbitopplastinger
+of.options.LAGOMETER.tooltip.6=  * Rød - Verdensbitoppdateringer
+of.options.LAGOMETER.tooltip.7=  * Gul - Synlighetskontroller
+of.options.LAGOMETER.tooltip.8=  * Grønn - Terrenggjengivelse
+
+of.options.PROFILER=Feilsøkingsprofilering
+of.options.PROFILER.tooltip.1=Feilsøkingsprofilering
+of.options.PROFILER.tooltip.2=  PÅ - feilsøkingsprofileringen kjører, langsommere
+of.options.PROFILER.tooltip.3=  AV - feilsøkingsprofileringen kjører ikke, hurtigere
+of.options.PROFILER.tooltip.4=Feilsøkingsprofileringen samler inn og viser feilsøkings-
+of.options.PROFILER.tooltip.5=informasjon når feilsøkingsskjermen er åpen (F3).
+
+of.options.WEATHER=Vær
+of.options.WEATHER.tooltip.1=Vær
+of.options.WEATHER.tooltip.2=  PÅ - vær er aktivert, langsommere
+of.options.WEATHER.tooltip.3=  AV - vær er deaktivert, hurtigere
+of.options.WEATHER.tooltip.4=Denne innstillingen inkluderer regn, snø og torden.
+of.options.WEATHER.tooltip.5=Dette fungerer bare i lokale verdener.
+
+of.options.time.dayOnly=Kun dag
+of.options.time.nightOnly=Kun natt
+
+of.options.TIME=Tid
+of.options.TIME.tooltip.1=Tid
+of.options.TIME.tooltip.2=  Standard - vanlige natt-/dagsykluser
+of.options.TIME.tooltip.3=  Kun dag - dag hele tiden
+of.options.TIME.tooltip.4=  Kun natt - natt hele tiden
+of.options.TIME.tooltip.5=Tidsinnstillingen fungerer bare i KREATIV modus og i
+of.options.TIME.tooltip.6=lokale verdener.
+
+options.fullscreen.tooltip.1=Fullskjerm
+options.fullscreen.tooltip.2=  PÅ - bruk fullskjermsmodus
+options.fullscreen.tooltip.3=  AV - bruk vindusmodus
+options.fullscreen.tooltip.4=Fullskjermmodus kan være raskere eller langsommere enn
+options.fullscreen.tooltip.5=vindusmodus, avhengig av grafikkortet.
+
+of.options.FULLSCREEN_MODE=Fullskjermsmodus
+of.options.FULLSCREEN_MODE.tooltip.1=Fullskjermsmodus
+of.options.FULLSCREEN_MODE.tooltip.2=  Standard - bruk datamaskinens oppløsning, langsommere
+of.options.FULLSCREEN_MODE.tooltip.3=  BxH - bruk tilpasset oppløsning, kan være raskere
+of.options.FULLSCREEN_MODE.tooltip.4=Den valgte oppløsningen brukes i fullskjermmodus (F11).
+of.options.FULLSCREEN_MODE.tooltip.5=Lavere oppløsninger bør vanligvis være raskere.
+
+of.options.SHOW_FPS=Vis bildefrekvens
+of.options.SHOW_FPS.tooltip.1=Viser kort informasjon om bildefrekvens og gjengivelse.
+of.options.SHOW_FPS.tooltip.2=  fps - bildefrekvensens gjennomsnitt/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - antall verdensbitgjengivelser
+of.options.SHOW_FPS.tooltip.4=  E: - antall gjengitte enheter + blokkenheter
+of.options.SHOW_FPS.tooltip.5=  U: - antall verdensbitoppdateringer
+of.options.SHOW_FPS.tooltip.6=Informasjonen vises bare når feilsøkingsskjermen (F3)
+of.options.SHOW_FPS.tooltip.7=ikke er åpen.
+
+of.options.save.default=Standard (2 s)
+of.options.save.20s=20 s
+of.options.save.3min=3 min
+of.options.save.30min=30 min
+
+of.options.AUTOSAVE_TICKS=Autolagring
+of.options.AUTOSAVE_TICKS.tooltip.1=Intervall for automatisk lagring.
+of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) er IKKE ANBEFALT.
+of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk lagring forårsaker et ukjent ytelsesproblem.
+
+of.options.SCREENSHOT_SIZE=Skjermbildestr.
+of.options.SCREENSHOT_SIZE.tooltip.1=Skjermbildestørrelse
+of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstørrelse på skjermbilder
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tilpasset størrelse på skjermbilder
+of.options.SCREENSHOT_SIZE.tooltip.4=Større skjermbilder kan kreve mer minne.
+of.options.SCREENSHOT_SIZE.tooltip.5=Ikke kompatibel med Rask gjengivelse og Kantutjevning.
+of.options.SCREENSHOT_SIZE.tooltip.6=Krever grafikkprosessoren for å støtte framebuffer.
+
+of.options.SHOW_GL_ERRORS=Vis OpenGL-feil
+of.options.SHOW_GL_ERRORS.tooltip.1=Vis OpenGL-feil
+of.options.SHOW_GL_ERRORS.tooltip.2=OpenGL-feil vises i nettpraten når dette er aktivert.
+of.options.SHOW_GL_ERRORS.tooltip.3=Deaktiver bare dette hvis det er en kjent konflikt og
+of.options.SHOW_GL_ERRORS.tooltip.4=feilene kan ikke løses.
+of.options.SHOW_GL_ERRORS.tooltip.5=Når dette er deaktivert vil feilene fortsatt bli registrert
+of.options.SHOW_GL_ERRORS.tooltip.6=i feilloggen og kan fortsatt føre til at bildefrekvensen
+of.options.SHOW_GL_ERRORS.tooltip.7=synker betydelig.
