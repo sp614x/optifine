@@ -617,6 +617,7 @@ of.options.RENDER_REGIONS.tooltip.3= An - Render-Regionen aktiviert
 of.options.RENDER_REGIONS.tooltip.4=Render-Regionen ermöglichen ein schnelleres Rendern
 of.options.RENDER_REGIONS.tooltip.5=des Geländes bei großen Render-Distanzen.
 of.options.RENDER_REGIONS.tooltip.6=Effektiver, wenn VBOs aktiviert sind.
+of.options.RENDER_REGIONS.tooltip.6=Nicht für integrierte Grafikkarten empfohlen.
 
 # Animations
 
