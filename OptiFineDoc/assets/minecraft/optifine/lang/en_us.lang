@@ -238,7 +238,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=much better lighting depending on the 
 
 of.options.shaders.DOWNLOAD=Download Shaders
 of.options.shaders.DOWNLOAD.tooltip.1=Download Shaders
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Opens the shader packs page in a browser.
 of.options.shaders.DOWNLOAD.tooltip.4=Put the downloaded shader packs in the "Shaders Folder"
 of.options.shaders.DOWNLOAD.tooltip.5=and they will appear in the list of installed shaders.
@@ -290,7 +290,6 @@ of.options.MIPMAP_TYPE.tooltip.3=  Nearest - rough smoothing (fastest)
 of.options.MIPMAP_TYPE.tooltip.4=  Linear - normal smoothing
 of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - fine smoothing
 of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - finest smoothing (slowest)
-
 
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
@@ -494,7 +493,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.1=Advanced tooltips
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  ON - show advanced tooltips 
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  OFF - do not show advanced tooltips (default)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Advanced tooltips show extended information for
-of.options.ADVANCED_TOOLTIPS.tooltip.5=items (id, durability) and for shader options
+of.options.ADVANCED_TOOLTIPS.tooltip.5=items (id, durability) and for Shader options
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, source, default value).
 
 of.options.DROPPED_ITEMS=Dropped Items
@@ -547,7 +546,7 @@ of.options.SMOOTH_WORLD.tooltip.1=Removes lag spikes caused by the internal serv
 of.options.SMOOTH_WORLD.tooltip.2=  OFF - no stabilization, FPS may fluctuate
 of.options.SMOOTH_WORLD.tooltip.3=  ON - FPS stabilization
 of.options.SMOOTH_WORLD.tooltip.4=Stabilizes FPS by distributing the internal server load.
-of.options.SMOOTH_WORLD.tooltip.5=Effective only for local worlds (single player).
+of.options.SMOOTH_WORLD.tooltip.5=Effective only for local worlds (singleplayer).
 
 of.options.FAST_RENDER=Fast Render
 of.options.FAST_RENDER.tooltip.1=Fast Render
@@ -587,7 +586,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - lazy server chunk loading (smoothe
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Smooths the integrated server chunk loading by
 of.options.LAZY_CHUNK_LOADING.tooltip.5=distributing the chunks over several ticks.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Turn it OFF if parts of the world do not load correctly.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-player).
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (singleplayer).
 
 of.options.RENDER_REGIONS=Render Regions
 of.options.RENDER_REGIONS.tooltip.1=Render Regions
@@ -682,7 +681,7 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lower resolutions should generally be faste
 
 of.options.SHOW_FPS=Show FPS
 of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information.
-of.options.SHOW_FPS.tooltip.2=  Fps - average/minimum
+of.options.SHOW_FPS.tooltip.2=  FPS - average/minimum
 of.options.SHOW_FPS.tooltip.3=  C: - chunk renderers
 of.options.SHOW_FPS.tooltip.4=  E: - rendered entities + block entities
 of.options.SHOW_FPS.tooltip.5=  U: - chunk updates
@@ -713,4 +712,4 @@ of.options.SHOW_GL_ERRORS.tooltip.2=When enabled OpenGL errors are shown in the 
 of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict and
 of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
 of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
-of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
+of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop.
