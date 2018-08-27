@@ -1,7 +1,7 @@
 # General
 of.general.ambiguous=ambiguo
 of.general.custom=Personalizza
-of.general.from=De
+of.general.from=Da
 of.general.id=ID
 of.general.restart=Riavvia
 of.general.smart=Intelligente
@@ -13,10 +13,10 @@ of.key.zoom=Zoom
 of.message.aa.shaders1=L'Antialiasing non è compatibile con le Shaders.
 of.message.aa.shaders2=Disattivale per usare questa funzione.
 
-of.message.af.shaders1=L'Anisotropico non è compatibile con le Shaders
+of.message.af.shaders1=Il Filtro Anisotropico non è compatibile con le Shaders
 of.message.af.shaders2=Disattivale per usare questa funzione.
 
-of.message.fr.shaders1=Il Rendering non è compatibile con le Shaders.
+of.message.fr.shaders1=Il Rendering Veloce non è compatibile con le Shaders.
 of.message.fr.shaders2=Disattivale per usare questa funzione.
 
 of.message.an.shaders1=Il 3D anaglifico non è compatibile con le Shaders.
@@ -25,20 +25,20 @@ of.message.an.shaders2=Disattivale per usare questa funzione.
 of.message.shaders.aa1=Le Shaders non sono compatibili con l'Antialiasing.
 of.message.shaders.aa2=Per disattivarlo, fai clic su Qualità -> Antialiasing.
 
-of.message.shaders.af1=Le Shaders non sono compatibili con l'Anisotropico.
-of.message.shaders.af2=Per disattivarlo, fai clic su Qualità -> Anisotropico.
+of.message.shaders.af1=Le Shaders non sono compatibili con il Filtro Anisotropico.
+of.message.shaders.af2=Per disattivarlo, fai clic su Qualità -> Filtro Anisotropico.
 
-of.message.shaders.fr1=Le Shaders non sono compatibili col Rendering Veloce.
+of.message.shaders.fr1=Le Shaders non sono compatibili con il Rendering Veloce.
 of.message.shaders.fr2=Per disattivarlo, fai clic su Prestazione -> Rendering Veloce.
 
-of.message.shaders.an1=Le Shaders non sono compatibili col 3D anaglifico.
+of.message.shaders.an1=Le Shaders non sono compatibili col 3D Anaglifico.
 of.message.shaders.an2=Per favore vai su Varie... -> 3D Anaglifico -> No.
 
 of.message.shaders.nv1=Questo pacchetto Shaders richiede una versione più recente della Optifine: %s
 of.message.shaders.nv2=Sicuro di voler continuare?
 
-of.message.newVersion=C'è una nuova versione di §eOptiFine§f disponibile: §e%s§f
-of.message.java64Bit=Installa §eJava da 64-bits§f per migliorare il Rendering
+of.message.newVersion=C'è una nuova versione di §eOptiFine§f disponibile: §e%s§f.
+of.message.java64Bit=Installa §eJava a 64-bit§f per migliorare il Rendering.
 of.message.openglError=§eErrore di OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Caricando le Shaders: %s
@@ -159,9 +159,9 @@ of.options.shaders.packNone=(NO SHADERS)
 of.options.shaders.packDefault=(SHADERS INTERNE)
 
 of.options.shaders.shadersFolder=Cartella Shaders
-of.options.shaders.shaderOptions=Opzioni delle Shaders...
+of.options.shaders.shaderOptions=Opzioni Shaders...
 
-of.options.shaderOptionsTitle=Opzioni delle Shaders
+of.options.shaderOptionsTitle=Opzioni Shaders
 
 of.options.quality=Qualità...
 of.options.qualityTitle=Opzioni grafiche
@@ -173,12 +173,12 @@ of.options.performance=Prestazioni...
 of.options.performanceTitle=Prestazioni
 
 of.options.animations=Animazioni...
-of.options.animationsTitle=Attivare e disattivare le animazioni
+of.options.animationsTitle=Opzioni animazioni...
 
 of.options.other=Varie...
 of.options.otherTitle=Opzioni varie
 
-of.options.other.reset=Ripristinare tutte le impostazioni...
+of.options.other.reset=Ripristino impostazioni...
 
 of.shaders.profile=Profilo
 
@@ -298,7 +298,7 @@ of.options.shaders.DOWNLOAD.tooltip.3=Apre la pagina del pacchetto di shaders ne
 of.options.shaders.DOWNLOAD.tooltip.4=Metti il pacchetto di shaders scaricato nella "Cartella Shaders"
 of.options.shaders.DOWNLOAD.tooltip.5=e appariranno nella lista di shaders installate.
 
-of.options.AF_LEVEL=Anisotropico
+of.options.AF_LEVEL=Filtro Anisotropico
 of.options.AF_LEVEL.tooltip.1=Anisotropico filtrato
 of.options.AF_LEVEL.tooltip.2= No - (Default) Dettaglio texture Normale (veloce)
 of.options.AF_LEVEL.tooltip.3= 2-16 - raffinare texture utilizzando mipmap (più lento)
@@ -573,8 +573,8 @@ of.options.FAST_MATH.tooltip.7=per migliorare gli FPS.
 of.options.CHUNK_UPDATES=Aggiornamento dei Chunk
 of.options.CHUNK_UPDATES.tooltip.1=Aggiornamento dei Chunk
 of.options.CHUNK_UPDATES.tooltip.2= 1 - caricamento lento, FPS (default)
-of.options.CHUNK_UPDATES.tooltip.3= 3 - caricamento più veloce, meno FPS
-of.options.CHUNK_UPDATES.tooltip.4= 5 - caricamento super-veloce, pochissimi FPS
+of.options.CHUNK_UPDATES.tooltip.3= 3 - caricamento più veloce, FPS bassi
+of.options.CHUNK_UPDATES.tooltip.4= 5 - caricamento super-veloce, FPS molto bassi
 of.options.CHUNK_UPDATES.tooltip.5= 
 of.options.CHUNK_UPDATES.tooltip.6=Numero di Chunk rendering per frame.
 of.options.CHUNK_UPDATES.tooltip.7=Valori più alti possono destabilizzare gli FPS.
@@ -589,12 +589,12 @@ of.options.CHUNK_UPDATES_DYNAMIC.tooltip.6=si sta fermi per caricare il mondo pi
 
 of.options.LAZY_CHUNK_LOADING=Caricamento Chunk casuale
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Caricamento dei Chunk casuale
-of.options.LAZY_CHUNK_LOADING.tooltip.2= No - caricamente dei Chunk in sitle default
-of.options.LAZY_CHUNK_LOADING.tooltip.3= Sì - caricamento vago dei Chunk (stabilizza il caricamento)
+of.options.LAZY_CHUNK_LOADING.tooltip.2= No - caricamente dei Chunk in stile default
+of.options.LAZY_CHUNK_LOADING.tooltip.3= Sì - caricamento casuale Chunk (stabilizza il caricamento)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=
-of.options.LAZY_CHUNK_LOADING.tooltip.5=Ammorbidisce il caricamento interno dei Chunk distribuendola durante
-of.options.LAZY_CHUNK_LOADING.tooltip.6=vari ticks. Disattivala se alcune parti del mondo non si sono
-of.options.LAZY_CHUNK_LOADING.tooltip.7=caricate correttamente.
+of.options.LAZY_CHUNK_LOADING.tooltip.5=Ammorbidisce il caricamento interno dei Chunk distribuendolo durante
+of.options.LAZY_CHUNK_LOADING.tooltip.6=vari ticks. Disattiva se alcune parti del mondo
+of.options.LAZY_CHUNK_LOADING.tooltip.7=non si caricano correttamente.
 of.options.LAZY_CHUNK_LOADING.tooltip.8=Funziona solo su mondi locali con un core CPU.
 
 of.options.RENDER_REGIONS=Renderizza aree
@@ -603,6 +603,7 @@ of.options.RENDER_REGIONS.tooltip.2= Sì - (default) non usare renderizzazione a
 of.options.RENDER_REGIONS.tooltip.3= No - usa renderizzazione aree
 of.options.RENDER_REGIONS.tooltip.4=La renderizzazione aree permette un rendering migliore
 of.options.RENDER_REGIONS.tooltip.5=del terreno a grandi distanze. Meglio se il VBO è attivo.
+of.options.RENDER_REGIONS.tooltip.6=Non raccomandata per schede grafiche integrate.
 
 # Animations
 
