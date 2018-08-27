@@ -603,6 +603,7 @@ of.options.RENDER_REGIONS.tooltip.2= 关闭 - 不使用区域渲染（默认）
 of.options.RENDER_REGIONS.tooltip.3= 开启 - 使用区域渲染
 of.options.RENDER_REGIONS.tooltip.4=区域渲染可使远处的地形渲染得更快。
 of.options.RENDER_REGIONS.tooltip.5=当启用顶点缓冲区对象时此选项将更有效。
+of.options.RENDER_REGIONS.tooltip.6=不推荐集成显卡使用。
 
 of.options.SMART_ANIMATIONS=智能动态材质
 of.options.SMART_ANIMATIONS.tooltip.1=智能动态材质
