@@ -697,11 +697,12 @@ of.options.FULLSCREEN_MODE.tooltip.6=schneller sein.
 
 of.options.SHOW_FPS=Bildrate anzeigen
 of.options.SHOW_FPS.tooltip.1=Zeige kurze Bildrate- und Render-Informationen
-of.options.SHOW_FPS.tooltip.2=  C: - Chunkrenderer
-of.options.SHOW_FPS.tooltip.3=  E: - Objektrenderer + Blockrenderer
-of.options.SHOW_FPS.tooltip.4=  U: - Chunk-Aktualisierungen
-of.options.SHOW_FPS.tooltip.5=Die Bildrate-Informationen werden nur gezeigt, wenn der
-of.options.SHOW_FPS.tooltip.6=Debugbildschirm (F3) nicht sichtbar ist.
+of.options.SHOW_FPS.tooltip.2=  Fps - durchschnittlich/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - Chunkrenderer
+of.options.SHOW_FPS.tooltip.4=  E: - Objektrenderer + Blockrenderer
+of.options.SHOW_FPS.tooltip.5=  U: - Chunk-Aktualisierungen
+of.options.SHOW_FPS.tooltip.6=Die Bildrate-Informationen werden nur gezeigt, wenn der
+of.options.SHOW_FPS.tooltip.7=Debugbildschirm (F3) nicht sichtbar ist.
 
 of.options.save.default=Standard (2s)
 of.options.save.20s=20s
