@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2018-07-19
+#   CrafterKina 2014-01-04 ---- 2018-08-06
 
 # General
 of.general.ambiguous=不明確
@@ -596,8 +596,9 @@ of.options.RENDER_REGIONS=領域描画
 of.options.RENDER_REGIONS.tooltip.1=領域描画
 of.options.RENDER_REGIONS.tooltip.2= オフ - 領域描画を用いない (初期値)
 of.options.RENDER_REGIONS.tooltip.3= オン - 領域描画を用いる
-of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を
-of.options.RENDER_REGIONS.tooltip.5=可能にします。頂点バッファオブジェクトが有効な場合により効果的です。
+of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を可能にします。
+of.options.RENDER_REGIONS.tooltip.5=頂点バッファオブジェクトが有効な場合に、より効果的です。
+of.options.RENDER_REGIONS.tooltip.6=オンボードグラフィックカードでは推奨されません。
 
 of.options.SMART_ANIMATIONS=スマートアニメーション
 of.options.SMART_ANIMATIONS.tooltip.1=スマートアニメーション
@@ -684,7 +685,7 @@ of.options.FULLSCREEN_MODE.tooltip.5=低い解像度では一般的に、より�
 
 of.options.SHOW_FPS=FPSを表示
 of.options.SHOW_FPS.tooltip.1=コンパクトなFPSと描画情報を表示
-of.options.SHOW_FPS.tooltip.2=  Fps - 平均/最小
+of.options.SHOW_FPS.tooltip.2=  FPS - 平均/最小
 of.options.SHOW_FPS.tooltip.3=  C: - チャンク描画
 of.options.SHOW_FPS.tooltip.4=  E: - エンティティ描画
 of.options.SHOW_FPS.tooltip.5=  U: - チャンクアップデート
