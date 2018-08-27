@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-07-18
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-08-23
 
 # General
 of.general.ambiguous=tvetydig
@@ -48,7 +48,7 @@ of.message.shaders.loading=Läser in shaders: %s
 
 of.message.other.reset=Återställ alla grafikinställningar till dess standardvärden?
 
-of.message.loadingVisibleChunks=Läser in synliga chunkar
+of.message.loadingVisibleChunks=Läser in synliga datablock
 
 # Skin customization
 
@@ -143,14 +143,14 @@ of.options.FOG_START.tooltip.2=  0.2 - dimman börjar nära spelaren
 of.options.FOG_START.tooltip.3=  0.8 - dimman börjar långt bort från spelaren
 of.options.FOG_START.tooltip.4=Detta alternativ påverkar vanligtvis inte prestandan.
 
-of.options.CHUNK_LOADING=Chunkinläsning
-of.options.CHUNK_LOADING.tooltip.1=Chunkinläsning
-of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när chunkar läses in
+of.options.CHUNK_LOADING=Datablocksinläsn.: Flerkärnig
+of.options.CHUNK_LOADING.tooltip.1=Datablocksinläsning
+of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när datablock läser in
 of.options.CHUNK_LOADING.tooltip.3=  Jämn - stabil bildfrekvens
 of.options.CHUNK_LOADING.tooltip.4=  Flerkärnig - stabil bildfrekvens, 3x snabbare inläsning
-of.options.CHUNK_LOADING.tooltip.5=Jämn och Flerkärnig tar bort ryckningar och
-of.options.CHUNK_LOADING.tooltip.6=frysningar som orsakas av inlästa chunkar.
-of.options.CHUNK_LOADING.tooltip.7=Flerkärnig kan påskynda världens inläsning med 3x
+of.options.CHUNK_LOADING.tooltip.5=Jämn och Flerkärnig tar bort ryckningar och frysningar
+of.options.CHUNK_LOADING.tooltip.6=som orsakas av inlästa datablock.
+of.options.CHUNK_LOADING.tooltip.7=Flerkärnig kan påskynda världens inläsning trefaldigt
 of.options.CHUNK_LOADING.tooltip.8=och höja bildfrekvensen med en andra processorkärna.
 of.options.chunkLoading.smooth=Jämn
 of.options.chunkLoading.multiCore=Flerkärnig
@@ -574,30 +574,31 @@ of.options.FAST_MATH.tooltip.5=kan utnyttja processorcachen mer och höja bild-
 of.options.FAST_MATH.tooltip.6=frekvensen.
 of.options.FAST_MATH.tooltip.7=Detta alternativ kan påverka världsgenereringen minimalt.
 
-of.options.CHUNK_UPDATES=Chunkuppdateringar
-of.options.CHUNK_UPDATES.tooltip.1=Chunkuppdateringar
+of.options.CHUNK_UPDATES=Datablocksuppdateringar
+of.options.CHUNK_UPDATES.tooltip.1=Datablocksuppdateringar
 of.options.CHUNK_UPDATES.tooltip.2=  1 - långsammare inläsning, högre bildfrekv. (standard)
 of.options.CHUNK_UPDATES.tooltip.3=  3 - snabbare inläsning, lägre bildfrekvens
 of.options.CHUNK_UPDATES.tooltip.4=  5 - snabbast inläsning, lägst bildfrekvens
-of.options.CHUNK_UPDATES.tooltip.5=Antalet chunkuppdateringar per renderad bildruta.
+of.options.CHUNK_UPDATES.tooltip.5=Antalet datablocksuppdateringar per renderad bildruta.
 of.options.CHUNK_UPDATES.tooltip.6=Högre värden kan göra bildfrekvensen ostabil.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dynamiska uppdateringar
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamiska chunkuppdateringar
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamiska datablocksuppdateringar
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  AV - standardantal uppdater. per bildruta (standard)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  PÅ - fler uppdateringar när spelaren står stilla
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamiska uppdateringar tvingar fler chunk-
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamiska uppdateringar tvingar fler datablocks-
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=uppdateringar när spelaren står stilla för att läsa in
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.6=världen snabbare.
 
-of.options.LAZY_CHUNK_LOADING=Slö chunkinläsning
-of.options.LAZY_CHUNK_LOADING.tooltip.1=Slö chunkinläsning
+of.options.LAZY_CHUNK_LOADING=Slö datablocksinläsning
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Slö datablocksinläsning
 of.options.LAZY_CHUNK_LOADING.tooltip.2=  AV - standardinläsning på servrar
-of.options.LAZY_CHUNK_LOADING.tooltip.3=  PÅ - slö chunkinläsning på servrar (stabilare)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Jämnar ut den integrerade chunkläsningen för servern
-of.options.LAZY_CHUNK_LOADING.tooltip.5=genom att fördela chunkarna över flera tickningar.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=Inaktivera om delar av världen inte läser in på rätt sätt.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Fungerar bara i lokala världar (enspelarläge).
+of.options.LAZY_CHUNK_LOADING.tooltip.3=  PÅ - slö datablocksinläsning på servrar (stabilare)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Jämnar ut den integrerade datablocksläsningen för
+of.options.LAZY_CHUNK_LOADING.tooltip.5=servern genom att fördela datablock över flera
+of.options.LAZY_CHUNK_LOADING.tooltip.6=tickningar.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Inaktivera om delar av världen inte läser in på rätt sätt.
+of.options.LAZY_CHUNK_LOADING.tooltip.8=Fungerar bara i lokala världar (enspelarläge).
 
 of.options.RENDER_REGIONS=Renderingsområden
 of.options.RENDER_REGIONS.tooltip.1=Renderingsområden
@@ -606,6 +607,7 @@ of.options.RENDER_REGIONS.tooltip.3=  PÅ - använd renderingsområden
 of.options.RENDER_REGIONS.tooltip.4=Renderingsområden gör att terräng renderas snabbare
 of.options.RENDER_REGIONS.tooltip.5=vid högre renderingsavstånd. Mer effektivt när VBO är
 of.options.RENDER_REGIONS.tooltip.6=aktiverat.
+of.options.RENDER_REGIONS.tooltip.7=Rekommenderas inte för integrerade grafikkort.
 
 of.options.SMART_ANIMATIONS=Smarta animeringar
 of.options.SMART_ANIMATIONS.tooltip.1=Smarta animeringar
@@ -648,8 +650,8 @@ of.options.LAGOMETER.tooltip.1=Visar laggmätaren på felsökningsskärmen (F3).
 of.options.LAGOMETER.tooltip.2=  * Orange - Minnesskräpsamling
 of.options.LAGOMETER.tooltip.3=  * Turkos - Antal tickningar
 of.options.LAGOMETER.tooltip.4=  * Blå - Schemalagda körningar
-of.options.LAGOMETER.tooltip.5=  * Lila - Chunkuppladdningar
-of.options.LAGOMETER.tooltip.6=  * Röd - Chunkuppdateringar
+of.options.LAGOMETER.tooltip.5=  * Lila - Datablocksuppladdningar
+of.options.LAGOMETER.tooltip.6=  * Röd - Datablocksuppdateringar
 of.options.LAGOMETER.tooltip.7=  * Gul - Synlighetskontroller
 of.options.LAGOMETER.tooltip.8=  * Grön - Terrängrendering
 
@@ -694,9 +696,9 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lägre upplösningar bör vanligtvis vara s
 of.options.SHOW_FPS=Visa bildfrekvens
 of.options.SHOW_FPS.tooltip.1=Visar kort information om bildfrekvens och rendering.
 of.options.SHOW_FPS.tooltip.2=  fps - bildfrekvensens medelvärde/minimum
-of.options.SHOW_FPS.tooltip.3=    C: - antal chunkrenderingar
+of.options.SHOW_FPS.tooltip.3=    C: - antal datablocksrenderingar
 of.options.SHOW_FPS.tooltip.4=    E: - antal renderade entiteter + blockentiteter
-of.options.SHOW_FPS.tooltip.5=    U: - antal chunkuppdateringar
+of.options.SHOW_FPS.tooltip.5=    U: - antal datablocksuppdateringar
 of.options.SHOW_FPS.tooltip.6=Informationen visas endast när felsökningsskärmen (F3)
 of.options.SHOW_FPS.tooltip.7=inte är öppen.
 
