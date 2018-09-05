@@ -307,9 +307,9 @@ of.options.AF_LEVEL=Anizotropik filtreleme
 of.options.AF_LEVEL.tooltip.1=Anizotropik filtreleme
 of.options.AF_LEVEL.tooltip.2= KAPALI - (varsayılan) Standart Görüntü Detayı (en hızlı)
 of.options.AF_LEVEL.tooltip.3= 2-16 - daha iyi ve ayrıntılı görünümler (daha yavaş)
-of.options.AF_LEVEL.tooltip.4=The Anisotropic Filtering restores details in
-of.options.AF_LEVEL.tooltip.5=mipmapped textures.
-of.options.AF_LEVEL.tooltip.6=When enabled it may substantially decrease the FPS.
+of.options.AF_LEVEL.tooltip.4=Anizotropik filtreleme mipmap kullanan görüntüleri
+of.options.AF_LEVEL.tooltip.5=düzenler.
+of.options.AF_LEVEL.tooltip.6=Açıldığında FPS düşmesine sebep olabilir.
 
 of.options.CLEAR_WATER=Temiz Su
 of.options.CLEAR_WATER.tooltip.1=Temiz Su
