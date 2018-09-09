@@ -141,7 +141,7 @@ of.options.FOG_START.tooltip.3=  0.8 - sis oyununcunun daha uzağından başlar
 of.options.FOG_START.tooltip.4=Bu ayar performansı etkilemez.
 
 of.options.CHUNK_LOADING=arazi Yüklenmesi
-of.options.CHUNK_LOADING.tooltip.1=arazi Loading
+of.options.CHUNK_LOADING.tooltip.1=Azarı Yüklenmesi
 of.options.CHUNK_LOADING.tooltip.2=  Normal - Chunklar yüklenirken FPS değişkendir.
 of.options.CHUNK_LOADING.tooltip.3=  Düşük - sabit FPS
 of.options.CHUNK_LOADING.tooltip.4=  Çok-Çekirdekli - stabil fps, 3x hızlı dünya yükleme
@@ -150,7 +150,7 @@ of.options.CHUNK_LOADING.tooltip.6=yüklenmesinden dolayı oluşan kasmayı azal
 of.options.CHUNK_LOADING.tooltip.7=Çok-Çekirdek Fps ve Dünya yüklenmesini
 of.options.CHUNK_LOADING.tooltip.8=ikinci CPU yu kullanarak 3 kat arttırır
 of.options.chunkLoading.smooth=Düşük
-of.options.chunkLoading.multiCore=Çok-Çekirdek
+of.options.chunkLoading.multiCore=Çok-Çekirdekli
 
 of.options.shaders=Gölgeler...
 of.options.shadersTitle=Gölgeler
@@ -334,7 +334,7 @@ of.options.BETTER_SNOW.tooltip.1=Kaliteli Kar
 of.options.BETTER_SNOW.tooltip.2=  KAPALI - normal kar, hızlı
 of.options.BETTER_SNOW.tooltip.3=  AÇIK - daha iyi kar, yavaş
 of.options.BETTER_SNOW.tooltip.4=arkası görünen bloklarda (çit,çimen)
-of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplıysa kar gösterir
+of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplıysa alt bloğunu kar dokusu yapar
 
 of.options.CUSTOM_FONTS=Özel Yazı Tipi
 of.options.CUSTOM_FONTS.tooltip.1=Özel Yazı Tipleri
@@ -347,7 +347,7 @@ of.options.CUSTOM_COLORS=Özel Renkler
 of.options.CUSTOM_COLORS.tooltip.1=Özel Renkler
 of.options.CUSTOM_COLORS.tooltip.2=  AÇIK - özel renkler kullanır (varsayılan), daha yavaş
 of.options.CUSTOM_COLORS.tooltip.3=  KAPALI - normal renkleri kullanır, daha hızlı
-of.options.CUSTOM_COLORS.tooltip.4=Özel renkler sadece texture pack tarafından
+of.options.CUSTOM_COLORS.tooltip.4=Özel renkler sadece kaynak paketi tarafından
 of.options.CUSTOM_COLORS.tooltip.5=desteklenir.
 
 of.options.SWAMP_COLORS=Bataklık Renkleri
@@ -364,33 +364,33 @@ of.options.SMOOTH_BIOMES.tooltip.4=Bu ayar etrafındaki blokların renklerine ve
 of.options.SMOOTH_BIOMES.tooltip.5=bazı blokların görünümlerinde değişmeye sebep olur.
 of.options.SMOOTH_BIOMES.tooltip.6=Su yaprak, sarmaşık, çim gibi bloklarda etkilidir.
 
-of.options.CONNECTED_TEXTURES=Bağlantılı Görüntüler
-of.options.CONNECTED_TEXTURES.tooltip.1=Bağlantılı Görüntüler
+of.options.CONNECTED_TEXTURES=Birleşen Dokular
+of.options.CONNECTED_TEXTURES.tooltip.1=Birleşen Dokular
 of.options.CONNECTED_TEXTURES.tooltip.2=  KAPALI - Bağlantılı Görünüm Yok (varsayılan)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Fast - Hızlıca bağlanan görünüm, orta donma
 of.options.CONNECTED_TEXTURES.tooltip.4=  Fancy - kaliteli bağlantılı görünümler, yavaş.
 of.options.CONNECTED_TEXTURES.tooltip.5=Bağlantılı görünüş cam, kumtaşı, kitap rafı
 of.options.CONNECTED_TEXTURES.tooltip.6=gibi bloklar yan yana koyulduklarında görünümlerinin
 of.options.CONNECTED_TEXTURES.tooltip.7=bütün gibi gösterilmesidir.
-of.options.CONNECTED_TEXTURES.tooltip.8=resource packe göre değişebilir.
+of.options.CONNECTED_TEXTURES.tooltip.8=kaynak paketine göre değişebilir.
 
-of.options.NATURAL_TEXTURES=Doğal Görünümler
-of.options.NATURAL_TEXTURES.tooltip.1=Doğal Görünümler
-of.options.NATURAL_TEXTURES.tooltip.2=  KAPALI - Doğal görünüm yok (varsayılan)
-of.options.NATURAL_TEXTURES.tooltip.3=  AÇIK - doğal görünümler kullanır.
-of.options.NATURAL_TEXTURES.tooltip.4=Doğal görünümler ardarda tekrar eden blokların
+of.options.NATURAL_TEXTURES=Doğal Dokular
+of.options.NATURAL_TEXTURES.tooltip.1=Doğal Dokular
+of.options.NATURAL_TEXTURES.tooltip.2=  KAPALI - Doğal doku yok (varsayılan)
+of.options.NATURAL_TEXTURES.tooltip.3=  AÇIK - doğal dokuları kullanır.
+of.options.NATURAL_TEXTURES.tooltip.4=Doğal dokular art arda tekrar eden blokların
 of.options.NATURAL_TEXTURES.tooltip.5=görünümlerinde tekrarı engeller.
 of.options.NATURAL_TEXTURES.tooltip.6=Merkez görünümün döndürülmesi sonucu doğal görünüm
 of.options.NATURAL_TEXTURES.tooltip.7=elde edilir. Destekleyen texture paketlerine göre
 of.options.NATURAL_TEXTURES.tooltip.8=çalışma şekli değişebilir.
 
-of.options.EMISSIVE_TEXTURES=Yayıcı Görünümler
-of.options.EMISSIVE_TEXTURES.tooltip.1=Yayıcı Görünümler
-of.options.EMISSIVE_TEXTURES.tooltip.2=  KAPALI - yayıcı görünümler kapalı (varsayılan)
-of.options.EMISSIVE_TEXTURES.tooltip.3=  AÇIK - yayıcı görünümleri kullanır
+of.options.EMISSIVE_TEXTURES=Yayılan Dokular
+of.options.EMISSIVE_TEXTURES.tooltip.1=Yayılan Dokular
+of.options.EMISSIVE_TEXTURES.tooltip.2=  KAPALI - yayıcı dokular kapalı (varsayılan)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  AÇIK - yayıcı dokuları kullanır
 of.options.EMISSIVE_TEXTURES.tooltip.4=tam ışık alan yüzeylerdeki görünümü değiştirir.
 of.options.EMISSIVE_TEXTURES.tooltip.5=Ana görünümün ışık alan taraflarını simüle etmede
-of.options.EMISSIVE_TEXTURES.tooltip.6=kullanılabilinir. Yayıcı görünümler herhangi 
+of.options.EMISSIVE_TEXTURES.tooltip.6=kullanılabilinir. Yayıcı dokular herhangi 
 of.options.EMISSIVE_TEXTURES.tooltip.7=bir görünüm paketine
 of.options.EMISSIVE_TEXTURES.tooltip.8=uygulanabilinir.
 
@@ -398,7 +398,7 @@ of.options.CUSTOM_SKY=Özel Gökyüzü
 of.options.CUSTOM_SKY.tooltip.1=Özel Gökyüzü
 of.options.CUSTOM_SKY.tooltip.2=  AÇIK - Özel Gökyüzü Görünümü (varsayılan) yavaş oyun
 of.options.CUSTOM_SKY.tooltip.3=  KAPALI - normal gökyüzü, daha hızlı
-of.options.CUSTOM_SKY.tooltip.4=Farklı gökyüzü görünümleri texture pack
+of.options.CUSTOM_SKY.tooltip.4=Farklı gökyüzü görünümleri kaynak paketi
 of.options.CUSTOM_SKY.tooltip.5=değiştirilmesi ile etkiini gösterir.
 
 of.options.CUSTOM_ITEMS=Farklı Eşya Görünümü
@@ -419,7 +419,7 @@ of.options.CUSTOM_GUIS=Özel Menüler
 of.options.CUSTOM_GUIS.tooltip.1=Özel Menüler
 of.options.CUSTOM_GUIS.tooltip.2=  AÇIK - Özel Menüler (varsayılan) daha yavaş
 of.options.CUSTOM_GUIS.tooltip.3=  KAPALI - Merkez Menüler, daha hızlı
-of.options.CUSTOM_GUIS.tooltip.4=Kullanılan texture packe göre değişiklik gösterebilir.
+of.options.CUSTOM_GUIS.tooltip.4=Kullanılan doku paketine göre değişiklik gösterebilir.
 
 # Detaylar
 
@@ -486,7 +486,7 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.6=aralarında hava boşluğu var iken
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=renk karışımlarını ayarlar.
 
 of.options.HELD_ITEM_TOOLTIPS=Tutulan Eşya İpuçları
-of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Tutulan Eşya İpuçları
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Tutulan Eşyanın İpuçları
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  AÇIK - tutulan eşya için bilgiler verir (varsayılan)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  KAPALI - eşya için bilgiler vermez
 
@@ -617,7 +617,7 @@ of.options.ANIMATED_FIRE=Ateş Animasyonu
 of.options.ANIMATED_PORTAL=Portal Animasyonu
 of.options.ANIMATED_REDSTONE=Kızıltaş Animasyonu
 of.options.ANIMATED_EXPLOSION=Patlama Animasyonu
-of.options.ANIMATED_FLAME=Yanma Animasyonu
+of.options.ANIMATED_FLAME=Lav Dumanının Animasyonu
 of.options.ANIMATED_SMOKE=Duman Animasyonu
 of.options.VOID_PARTICLES=Boşluk Animasyonu
 of.options.WATER_PARTICLES=Su parçacıkları
@@ -626,20 +626,20 @@ of.options.PORTAL_PARTICLES=Portal Parçacıkları
 of.options.POTION_PARTICLES=İksir Parçacıkları
 of.options.DRIPPING_WATER_LAVA=Su/Lav Damlaları
 of.options.ANIMATED_TERRAIN=Yer Animasyonları
-of.options.ANIMATED_TEXTURES=Görüntüsel Animasyonlar
+of.options.ANIMATED_TEXTURES=Animasyonlu Dokular
 of.options.FIREWORK_PARTICLES=Havai-Fişek Parçacıkları
 
 # Başka
 
 of.options.LAGOMETER=LagÖlçer
 of.options.LAGOMETER.tooltip.1=F3 menüsünde FPS gösterir.
-of.options.LAGOMETER.tooltip.2=* Orange - Çöp Yer Miktarı
-of.options.LAGOMETER.tooltip.3=* Cyan - An
-of.options.LAGOMETER.tooltip.4=* Blue - Zamanlanmış Olaylar
-of.options.LAGOMETER.tooltip.5=* Purple - Arazi Yüklemesi
-of.options.LAGOMETER.tooltip.6=* Red - Arazi Güncellemesi
-of.options.LAGOMETER.tooltip.7=* Yellow - Görünümsel Kontrol
-of.options.LAGOMETER.tooltip.8=* Green - Yeryüzü Yüklemesi
+of.options.LAGOMETER.tooltip.2=* Turuncu - Çöp Yer Miktarı
+of.options.LAGOMETER.tooltip.3=* Camgöbeği - An
+of.options.LAGOMETER.tooltip.4=* Mavi - Zamanlanmış Olaylar
+of.options.LAGOMETER.tooltip.5=* Mor - Arazi Yüklemesi
+of.options.LAGOMETER.tooltip.6=* Kırmızı - Arazi Güncellemesi
+of.options.LAGOMETER.tooltip.7=* Sarı - Görünümsel Kontrol
+of.options.LAGOMETER.tooltip.8=* Yeşil - Yeryüzü Yüklemesi
 
 of.options.PROFILER=Hata Giderme Profili
 of.options.PROFILER.tooltip.1=Hata Giderme Profili
@@ -648,11 +648,11 @@ of.options.PROFILER.tooltip.3=  KAPALI - hata giderme profili deaktif, daha hız
 of.options.PROFILER.tooltip.4=Hata giderme profili bilgi toplar ve
 of.options.PROFILER.tooltip.5=bu bilgileri F3'e basınca gösterir.
 
-of.options.WEATHER=Hava
-of.options.WEATHER.tooltip.1=Haca
-of.options.WEATHER.tooltip.2=  AÇIK - hava aktiftir, daha yavaş
-of.options.WEATHER.tooltip.3=  KAPALI - hava aktif değildir, daha hızlı
-of.options.WEATHER.tooltip.4=Hava ayarı yağmuru karı ve fırtınaları kontrol eder.
+of.options.WEATHER=Hava Durumu
+of.options.WEATHER.tooltip.1=Hava Durumu
+of.options.WEATHER.tooltip.2=  AÇIK - hava durumu aktiftir, daha yavaş
+of.options.WEATHER.tooltip.3=  KAPALI - hava durumu aktif değildir, daha hızlı
+of.options.WEATHER.tooltip.4=Hava durumu ayarı yağmuru karı ve fırtınaları kontrol eder.
 of.options.WEATHER.tooltip.5=Yanlızca tek oyunculuda geçerlidir.
 
 of.options.time.dayOnly=Sadece Gündüz
