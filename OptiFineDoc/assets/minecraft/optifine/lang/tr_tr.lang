@@ -140,8 +140,8 @@ of.options.FOG_START.tooltip.2=  0.2 - Sis oyuncunun yakınından başlar
 of.options.FOG_START.tooltip.3=  0.8 - sis oyununcunun daha uzağından başlar
 of.options.FOG_START.tooltip.4=Bu ayar performansı etkilemez.
 
-of.options.CHUNK_LOADING=arazi Yüklenmesi
-of.options.CHUNK_LOADING.tooltip.1=Azarı Yüklenmesi
+of.options.CHUNK_LOADING=Arazi Yüklenmesi
+of.options.CHUNK_LOADING.tooltip.1=Arazi Yüklenmesi
 of.options.CHUNK_LOADING.tooltip.2=  Normal - Chunklar yüklenirken FPS değişkendir.
 of.options.CHUNK_LOADING.tooltip.3=  Düşük - sabit FPS
 of.options.CHUNK_LOADING.tooltip.4=  Çok-Çekirdekli - stabil fps, 3x hızlı dünya yükleme
