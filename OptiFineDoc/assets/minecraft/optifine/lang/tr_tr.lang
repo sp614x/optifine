@@ -181,7 +181,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.2=  AÇIK - (varsayılan) speküler hari
 of.options.shaders.SPECULAR_MAP.tooltip.3=  KAPALI - speküler haritayı kapat
 of.options.shaders.SPECULAR_MAP.tooltip.4=Speküler haritalar shader paketleri tarafından
 of.options.shaders.SPECULAR_MAP.tooltip.5=özel yansıma efektlerini konrol etmekte kullanılır.
-of.options.shaders.SPECULAR_MAP.tooltip.6=Speküler harita dokular mevcut doku paketini
+of.options.shaders.SPECULAR_MAP.tooltip.6=Speküler harita dokuları mevcut kaynak paketini
 of.options.shaders.SPECULAR_MAP.tooltip.7=kullanır
 
 of.options.shaders.RENDER_RES_MUL=Oluşturma Kalitesi
