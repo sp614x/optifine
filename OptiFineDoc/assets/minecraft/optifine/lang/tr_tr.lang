@@ -316,8 +316,8 @@ of.options.CLEAR_WATER.tooltip.1=Temiz Su
 of.options.CLEAR_WATER.tooltip.2=  AÇIK - temiz, altını gösteren su
 of.options.CLEAR_WATER.tooltip.3=  KAPALI - normal su
 
-of.options.RANDOM_ENTITIES=Rastgele Varlıklar
-of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Varlıklar
+of.options.RANDOM_ENTITIES=Rastgele Varlık Dokuları
+of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Varlıklar Dokuları
 of.options.RANDOM_ENTITIES.tooltip.2=  Kapalı - tek varlık görüntüsü, hızlı oyun.
 of.options.RANDOM_ENTITIES.tooltip.3=  AÇIK - rastgele varlık görüntüsü, yavaş oyun.
 of.options.RANDOM_ENTITIES.tooltip.4=Rastgele varlıklar varlıklar için rastgele görünümler kullanır.
@@ -333,8 +333,8 @@ of.options.BETTER_SNOW=Kaliteli Kar
 of.options.BETTER_SNOW.tooltip.1=Kaliteli Kar
 of.options.BETTER_SNOW.tooltip.2=  KAPALI - normal kar, hızlı
 of.options.BETTER_SNOW.tooltip.3=  AÇIK - daha iyi kar, yavaş
-of.options.BETTER_SNOW.tooltip.4=arkası görünen bloklarda (çit,çimen)
-of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplıysa alt bloğunu kar kaynağı yapar
+of.options.BETTER_SNOW.tooltip.4=aşağısı görünen bloklarda (çit,çimen vs.)
+of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplı olduğunda alt bloğunu kar yapar
 
 of.options.CUSTOM_FONTS=Özel Yazı Tipi
 of.options.CUSTOM_FONTS.tooltip.1=Özel Yazı Tipleri
@@ -347,8 +347,8 @@ of.options.CUSTOM_COLORS=Özel Renkler
 of.options.CUSTOM_COLORS.tooltip.1=Özel Renkler
 of.options.CUSTOM_COLORS.tooltip.2=  AÇIK - özel renkler kullanır (varsayılan), daha yavaş
 of.options.CUSTOM_COLORS.tooltip.3=  KAPALI - normal renkleri kullanır, daha hızlı
-of.options.CUSTOM_COLORS.tooltip.4=Özel renkler sadece kaynak paketi tarafından
-of.options.CUSTOM_COLORS.tooltip.5=desteklenir.
+of.options.CUSTOM_COLORS.tooltip.4=Özel renkler sadece kaynak paketine göre
+of.options.CUSTOM_COLORS.tooltip.5=değişebilir.
 
 of.options.SWAMP_COLORS=Bataklık Renkleri
 of.options.SWAMP_COLORS.tooltip.1=Bataklık renkleri
@@ -652,7 +652,7 @@ of.options.WEATHER=Hava Durumu
 of.options.WEATHER.tooltip.1=Hava Durumu
 of.options.WEATHER.tooltip.2=  AÇIK - hava durumu aktiftir, daha yavaş
 of.options.WEATHER.tooltip.3=  KAPALI - hava durumu aktif değildir, daha hızlı
-of.options.WEATHER.tooltip.4=Hava durumu ayarı yağmuru karı ve fırtınaları kontrol eder.
+of.options.WEATHER.tooltip.4=Hava durumu ayarı yağmuru kar ve fırtınaları kontrol eder.
 of.options.WEATHER.tooltip.5=Yanlızca tek oyunculuda geçerlidir.
 
 of.options.time.dayOnly=Sadece Gündüz
