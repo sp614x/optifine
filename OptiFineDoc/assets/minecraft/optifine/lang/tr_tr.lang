@@ -340,7 +340,7 @@ of.options.CUSTOM_FONTS=Özel Yazı Tipi
 of.options.CUSTOM_FONTS.tooltip.1=Özel Yazı Tipleri
 of.options.CUSTOM_FONTS.tooltip.2=  AÇIK - özelleştrilmiş yazı (varsayılan), yavaş oyun
 of.options.CUSTOM_FONTS.tooltip.3=  KAPALI - minecraft merkez yazı tipini kullanır, hızlı oyun
-of.options.CUSTOM_FONTS.tooltip.4=Özel Yazı Tipleri görüntü paketleri tarafından 
+of.options.CUSTOM_FONTS.tooltip.4=Özel Yazı Tipleri kaynak paketleri tarafından 
 of.options.CUSTOM_FONTS.tooltip.5=desteklenir.
 
 of.options.CUSTOM_COLORS=Özel Renkler
@@ -405,8 +405,8 @@ of.options.CUSTOM_ITEMS=Farklı Eşya Görünümü
 of.options.CUSTOM_ITEMS.tooltip.1=Farklı Eşya Görünümü
 of.options.CUSTOM_ITEMS.tooltip.2=  AÇIK - çeşitli eşya görünümler (varsayılan) yavaş
 of.options.CUSTOM_ITEMS.tooltip.3=  KAPALI - tek eşya görünümü, daha hızlı oyun
-of.options.CUSTOM_ITEMS.tooltip.4=Farklı eşya görünümleri farklı görünüm paketlerinde
-of.options.CUSTOM_ITEMS.tooltip.5=etkisini gösterecektir.
+of.options.CUSTOM_ITEMS.tooltip.4=Farklı eşya görünümleri farklı doku paketlerine
+of.options.CUSTOM_ITEMS.tooltip.5=göre değişebilir.
 
 of.options.CUSTOM_ENTITY_MODELS=Özel Varlık Modelleri
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Özel Varlık Modelleri
@@ -435,7 +435,7 @@ of.options.CLOUDS.tooltip.7=Kaliteli Bulutlar 3D olarak yapılır.
 of.options.CLOUD_HEIGHT=Bulut yüksekliği
 of.options.CLOUD_HEIGHT.tooltip.1=Bulut Yüksekliği
 of.options.CLOUD_HEIGHT.tooltip.2=  KAPALI - Normal Yükseklik
-of.options.CLOUD_HEIGHT.tooltip.3=  100%% - inşa sınırında
+of.options.CLOUD_HEIGHT.tooltip.3=  100% - inşa sınırında
 
 of.options.TREES=Ağaçlar
 of.options.TREES.tooltip.1=Ağaçlar
@@ -536,7 +536,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=tuttuğunda etrafına ışık vermesini sağ
 # Performans
 
 of.options.SMOOTH_FPS=Smooth FPS
-of.options.SMOOTH_FPS.tooltip.1=Stabilizes FPS by flushing the graphic driver buffers.
+of.options.SMOOTH_FPS.tooltip.1=Grafik sürücüsü arabelleklerini yıkayarak FPS'yi stabilize eder.
 of.options.SMOOTH_FPS.tooltip.2=  KAPALI - stabilizasyon kapalı, fps dengesizdir.
 of.options.SMOOTH_FPS.tooltip.3=  AÇIK - FPS'de denge vardır.
 of.options.SMOOTH_FPS.tooltip.4=grafik sürücülerine bağlı bir ayardır.
@@ -603,7 +603,7 @@ of.options.SMART_ANIMATIONS.tooltip.3= AÇIK - rahat animasyonları kullanır
 of.options.SMART_ANIMATIONS.tooltip.4=Rahat animasyonlar ile sadece bilgisayarınızda görünen
 of.options.SMART_ANIMATIONS.tooltip.5=animasyonlu blokların animasyonu aktif olacaktır.
 of.options.SMART_ANIMATIONS.tooltip.6=Bu ayar FPS i yükseltip anlık donmaları engeller.
-of.options.SMART_ANIMATIONS.tooltip.7=Büyük mod paketleri ve HD görüntü paketlerinde etkilidir.
+of.options.SMART_ANIMATIONS.tooltip.7=Büyük mod paketleri ve HD kaynak paketlerine göre değişebilir.
 
 # Animasyonlar
 
@@ -620,7 +620,7 @@ of.options.ANIMATED_EXPLOSION=Patlama Animasyonu
 of.options.ANIMATED_FLAME=Lav Dumanının Animasyonu
 of.options.ANIMATED_SMOKE=Duman Animasyonu
 of.options.VOID_PARTICLES=Boşluk Animasyonu
-of.options.WATER_PARTICLES=Su parçacıkları
+of.options.WATER_PARTICLES=Su Parçacıkları
 of.options.RAIN_SPLASH=Yağmur Parçacıkları
 of.options.PORTAL_PARTICLES=Portal Parçacıkları
 of.options.POTION_PARTICLES=İksir Parçacıkları
