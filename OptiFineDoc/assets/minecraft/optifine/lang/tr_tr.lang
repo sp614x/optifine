@@ -131,7 +131,7 @@ of.options.FOG_FANCY.tooltip.1=Sis çeşitleri
 of.options.FOG_FANCY.tooltip.2=  Hızlı - Hızlı oyun deneyimi
 of.options.FOG_FANCY.tooltip.3=  Kaliteli - yavaş sis, daha iyi görüntü.
 of.options.FOG_FANCY.tooltip.4=  Kapalı - sis yok, en hızlı.
-of.options.FOG_FANCY.tooltip.5=Kaliteli sis sadece ekran kartı 
+of.options.FOG_FANCY.tooltip.5=Kaliteli sis,sadece ekran kartı 
 of.options.FOG_FANCY.tooltip.6=destek verirse çalışır.
 
 of.options.FOG_START=Sis başlangıcı
@@ -317,7 +317,7 @@ of.options.CLEAR_WATER.tooltip.2=  AÇIK - temiz, altını gösteren su
 of.options.CLEAR_WATER.tooltip.3=  KAPALI - normal su
 
 of.options.RANDOM_ENTITIES=Rastgele Varlık Dokuları
-of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Varlıklar Dokuları
+of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Varlık Dokuları
 of.options.RANDOM_ENTITIES.tooltip.2=  Kapalı - tek varlık görüntüsü, hızlı oyun.
 of.options.RANDOM_ENTITIES.tooltip.3=  AÇIK - rastgele varlık görüntüsü, yavaş oyun.
 of.options.RANDOM_ENTITIES.tooltip.4=Rastgele varlıklar varlıklar için rastgele görünümler kullanır.
@@ -536,7 +536,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=tuttuğunda etrafına ışık vermesini sağ
 # Performans
 
 of.options.SMOOTH_FPS=Smooth FPS
-of.options.SMOOTH_FPS.tooltip.1=Grafik sürücüsü arabelleklerini yıkayarak FPS'yi stabilize eder.
+of.options.SMOOTH_FPS.tooltip.1=Grafik sürücüsü arabelleklerini temizleyerek FPS'yi stabilize eder.
 of.options.SMOOTH_FPS.tooltip.2=  KAPALI - stabilizasyon kapalı, fps dengesizdir.
 of.options.SMOOTH_FPS.tooltip.3=  AÇIK - FPS'de denge vardır.
 of.options.SMOOTH_FPS.tooltip.4=grafik sürücülerine bağlı bir ayardır.
