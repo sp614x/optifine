@@ -147,10 +147,10 @@ of.options.CHUNK_LOADING.tooltip.3=  Düşük - sabit FPS
 of.options.CHUNK_LOADING.tooltip.4=  Çok-Çekirdekli - stabil fps, 3x hızlı dünya yükleme
 of.options.CHUNK_LOADING.tooltip.5=Smooth ve Çok-çekirdek arazi yüklemeleri arazi 
 of.options.CHUNK_LOADING.tooltip.6=yüklenmesinden dolayı oluşan kasmayı azaltır.
-of.options.CHUNK_LOADING.tooltip.7=Çok-Çekirdek Fps ve Dünya yüklenmesini
+of.options.CHUNK_LOADING.tooltip.7=Çok Çekirdekli Fps ve Dünya yüklenmesini
 of.options.CHUNK_LOADING.tooltip.8=ikinci CPU yu kullanarak 3 kat arttırır
 of.options.chunkLoading.smooth=Düşük
-of.options.chunkLoading.multiCore=Çok-Çekirdekli
+of.options.chunkLoading.multiCore=Çok Çekirdekli
 
 of.options.shaders=Gölgeler...
 of.options.shadersTitle=Gölgeler
