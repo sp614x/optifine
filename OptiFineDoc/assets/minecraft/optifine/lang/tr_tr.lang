@@ -181,7 +181,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.2=  AÇIK - (varsayılan) speküler hari
 of.options.shaders.SPECULAR_MAP.tooltip.3=  KAPALI - speküler haritayı kapat
 of.options.shaders.SPECULAR_MAP.tooltip.4=Speküler haritalar shader paketleri tarafından
 of.options.shaders.SPECULAR_MAP.tooltip.5=özel yansıma efektlerini konrol etmekte kullanılır.
-of.options.shaders.SPECULAR_MAP.tooltip.6=Speküler harita dokuları mevcut kaynak paketini
+of.options.shaders.SPECULAR_MAP.tooltip.6=Speküler harita kaynakları mevcut kaynak paketini
 of.options.shaders.SPECULAR_MAP.tooltip.7=kullanır
 
 of.options.shaders.RENDER_RES_MUL=Oluşturma Kalitesi
@@ -190,8 +190,8 @@ of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - düşük (en hızlı)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standart (varsayılan)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - yüksek (en yavaş)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=Oluşturma kalitesi shaderlerin oluşturduğu
-of.options.shaders.RENDER_RES_MUL.tooltip.6= dokunun büyüklüğünü kontrol eder.
-of.options.shaders.RENDER_RES_MUL.tooltip.5=Render kalitesi dokunun büyüklüğünü kontrol eder 
+of.options.shaders.RENDER_RES_MUL.tooltip.6= kanağının büyüklüğünü kontrol eder.
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Render kalitesi kaynağının büyüklüğünü kontrol eder 
 of.options.shaders.RENDER_RES_MUL.tooltip.6=bu shader paketi de oluşturuluyor
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Düşük ayarlar 4K ekranlarda kullanışlı olabilir
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Yüksek ayarlar düzgünleştirme filtresi olarak görev yapar.
@@ -334,7 +334,7 @@ of.options.BETTER_SNOW.tooltip.1=Kaliteli Kar
 of.options.BETTER_SNOW.tooltip.2=  KAPALI - normal kar, hızlı
 of.options.BETTER_SNOW.tooltip.3=  AÇIK - daha iyi kar, yavaş
 of.options.BETTER_SNOW.tooltip.4=arkası görünen bloklarda (çit,çimen)
-of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplıysa alt bloğunu kar dokusu yapar
+of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplıysa alt bloğunu kar kaynağı yapar
 
 of.options.CUSTOM_FONTS=Özel Yazı Tipi
 of.options.CUSTOM_FONTS.tooltip.1=Özel Yazı Tipleri
@@ -364,8 +364,8 @@ of.options.SMOOTH_BIOMES.tooltip.4=Bu ayar etrafındaki blokların renklerine ve
 of.options.SMOOTH_BIOMES.tooltip.5=bazı blokların görünümlerinde değişmeye sebep olur.
 of.options.SMOOTH_BIOMES.tooltip.6=Su yaprak, sarmaşık, çim gibi bloklarda etkilidir.
 
-of.options.CONNECTED_TEXTURES=Birleşen Dokular
-of.options.CONNECTED_TEXTURES.tooltip.1=Birleşen Dokular
+of.options.CONNECTED_TEXTURES=Birleşen Kaynaklar
+of.options.CONNECTED_TEXTURES.tooltip.1=Birleşen Kaynaklar
 of.options.CONNECTED_TEXTURES.tooltip.2=  KAPALI - Bağlantılı Görünüm Yok (varsayılan)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Fast - Hızlıca bağlanan görünüm, orta donma
 of.options.CONNECTED_TEXTURES.tooltip.4=  Fancy - kaliteli bağlantılı görünümler, yavaş.
@@ -374,23 +374,23 @@ of.options.CONNECTED_TEXTURES.tooltip.6=gibi bloklar yan yana koyulduklarında g
 of.options.CONNECTED_TEXTURES.tooltip.7=bütün gibi gösterilmesidir.
 of.options.CONNECTED_TEXTURES.tooltip.8=kaynak paketine göre değişebilir.
 
-of.options.NATURAL_TEXTURES=Doğal Dokular
-of.options.NATURAL_TEXTURES.tooltip.1=Doğal Dokular
-of.options.NATURAL_TEXTURES.tooltip.2=  KAPALI - Doğal doku yok (varsayılan)
-of.options.NATURAL_TEXTURES.tooltip.3=  AÇIK - doğal dokuları kullanır.
-of.options.NATURAL_TEXTURES.tooltip.4=Doğal dokular art arda tekrar eden blokların
+of.options.NATURAL_TEXTURES=Doğal Kaynaklar
+of.options.NATURAL_TEXTURES.tooltip.1=Doğal Kaynaklar
+of.options.NATURAL_TEXTURES.tooltip.2=  KAPALI - Doğal kaynak yok (varsayılan)
+of.options.NATURAL_TEXTURES.tooltip.3=  AÇIK - doğal kaynakları kullanır.
+of.options.NATURAL_TEXTURES.tooltip.4=Doğal kaynaklar art arda tekrar eden blokların
 of.options.NATURAL_TEXTURES.tooltip.5=görünümlerinde tekrarı engeller.
 of.options.NATURAL_TEXTURES.tooltip.6=Merkez görünümün döndürülmesi sonucu doğal görünüm
 of.options.NATURAL_TEXTURES.tooltip.7=elde edilir. Destekleyen texture paketlerine göre
 of.options.NATURAL_TEXTURES.tooltip.8=çalışma şekli değişebilir.
 
-of.options.EMISSIVE_TEXTURES=Yayılan Dokular
-of.options.EMISSIVE_TEXTURES.tooltip.1=Yayılan Dokular
-of.options.EMISSIVE_TEXTURES.tooltip.2=  KAPALI - yayıcı dokular kapalı (varsayılan)
-of.options.EMISSIVE_TEXTURES.tooltip.3=  AÇIK - yayıcı dokuları kullanır
+of.options.EMISSIVE_TEXTURES=Yayılan Kaynaklar
+of.options.EMISSIVE_TEXTURES.tooltip.1=Yayılan Kaynaklar
+of.options.EMISSIVE_TEXTURES.tooltip.2=  KAPALI - yayıcı kaynaklar kapalı (varsayılan)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  AÇIK - yayıcı kaynakları kullanır
 of.options.EMISSIVE_TEXTURES.tooltip.4=tam ışık alan yüzeylerdeki görünümü değiştirir.
 of.options.EMISSIVE_TEXTURES.tooltip.5=Ana görünümün ışık alan taraflarını simüle etmede
-of.options.EMISSIVE_TEXTURES.tooltip.6=kullanılabilinir. Yayıcı dokular herhangi 
+of.options.EMISSIVE_TEXTURES.tooltip.6=kullanılabilinir. Yayıcı kaynaklar herhangi 
 of.options.EMISSIVE_TEXTURES.tooltip.7=bir görünüm paketine
 of.options.EMISSIVE_TEXTURES.tooltip.8=uygulanabilinir.
 
@@ -419,7 +419,7 @@ of.options.CUSTOM_GUIS=Özel Menüler
 of.options.CUSTOM_GUIS.tooltip.1=Özel Menüler
 of.options.CUSTOM_GUIS.tooltip.2=  AÇIK - Özel Menüler (varsayılan) daha yavaş
 of.options.CUSTOM_GUIS.tooltip.3=  KAPALI - Merkez Menüler, daha hızlı
-of.options.CUSTOM_GUIS.tooltip.4=Kullanılan doku paketine göre değişiklik gösterebilir.
+of.options.CUSTOM_GUIS.tooltip.4=Kullanılan kaynak paketine göre değişiklik gösterebilir.
 
 # Detaylar
 
@@ -626,7 +626,7 @@ of.options.PORTAL_PARTICLES=Portal Parçacıkları
 of.options.POTION_PARTICLES=İksir Parçacıkları
 of.options.DRIPPING_WATER_LAVA=Su/Lav Damlaları
 of.options.ANIMATED_TERRAIN=Yer Animasyonları
-of.options.ANIMATED_TEXTURES=Animasyonlu Dokular
+of.options.ANIMATED_TEXTURES=Animasyonlu Kaynaklar
 of.options.FIREWORK_PARTICLES=Havai Fişek Parçacıkları
 
 # Başka
