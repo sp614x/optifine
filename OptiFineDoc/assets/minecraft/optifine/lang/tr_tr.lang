@@ -608,8 +608,8 @@ of.options.SMART_ANIMATIONS.tooltip.7=Büyük mod paketleri ve HD kaynak paketle
 
 # Animasyonlar
 
-of.options.animation.allOn=Tamamı Açık
-of.options.animation.allOff=Tamamı Kapalı
+of.options.animation.allOn=Tamamını Aç
+of.options.animation.allOff=Tamamını Kapa
 of.options.animation.dynamic=Dinamik
 
 of.options.ANIMATED_WATER=Su Animasyonu
