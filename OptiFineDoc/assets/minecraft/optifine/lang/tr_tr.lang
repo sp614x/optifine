@@ -124,7 +124,7 @@ options.anaglyph.tooltip.4=Kırmızı-mavi 3D gözlük gerektirir.
 of.options.ALTERNATE_BLOCKS=Alternatif Bloklar
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatif Bloklar
 of.options.ALTERNATE_BLOCKS.tooltip.2=Bazı bloklar için alternatif blok türleri kullanır.
-of.options.ALTERNATE_BLOCKS.tooltip.3=Seçilen resource packe göre değişir.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Seçilen doku paketine göre değişir.
 
 of.options.FOG_FANCY=Sis
 of.options.FOG_FANCY.tooltip.1=Sis çeşitleri
@@ -384,14 +384,14 @@ of.options.NATURAL_TEXTURES.tooltip.6=Merkez görünümün döndürülmesi sonuc
 of.options.NATURAL_TEXTURES.tooltip.7=elde edilir. Destekleyen texture paketlerine göre
 of.options.NATURAL_TEXTURES.tooltip.8=çalışma şekli değişebilir.
 
-of.options.EMISSIVE_TEXTURES=Işıklı Kaynaklar
-of.options.EMISSIVE_TEXTURES.tooltip.1=Işıklı Kaynaklar
+of.options.EMISSIVE_TEXTURES=Işık Yayan Kaynaklar
+of.options.EMISSIVE_TEXTURES.tooltip.1=Işık Yayan Kaynaklar
 of.options.EMISSIVE_TEXTURES.tooltip.2=  KAPALI - Işıklı kaynaklar kapalı (varsayılan)
 of.options.EMISSIVE_TEXTURES.tooltip.3=  AÇIK - Işıklı kaynaklar açık
-of.options.EMISSIVE_TEXTURES.tooltip.4=Karanlık alandaki kaynakların ışıklanmasını sağlar.
-of.options.EMISSIVE_TEXTURES.tooltip.5=Ana görünümün ışık alan taraflarını simüle etmede
-of.options.EMISSIVE_TEXTURES.tooltip.6=kullanılabilinir. Yayıcı kaynaklar
-of.options.EMISSIVE_TEXTURES.tooltip.7=kaynak paketine göre değişebilir.
+of.options.EMISSIVE_TEXTURES.tooltip.4=Eğer kaynak paketinizde var ise
+of.options.EMISSIVE_TEXTURES.tooltip.5=karanlık alandaki kaynaklar ışık yayar.
+of.options.EMISSIVE_TEXTURES.tooltip.6=Ana görünümün ışık alan taraflarını simüle etmede
+of.options.EMISSIVE_TEXTURES.tooltip.7=kullanılabilinir.
 of.options.EMISSIVE_TEXTURES.tooltip.8=
 
 of.options.CUSTOM_SKY=Özel Gökyüzü
