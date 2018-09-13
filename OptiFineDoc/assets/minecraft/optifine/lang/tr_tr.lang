@@ -365,7 +365,7 @@ of.options.SMOOTH_BIOMES.tooltip.5=bazı blokların görünümlerinde değişmey
 of.options.SMOOTH_BIOMES.tooltip.6=Su yaprak, sarmaşık, çim gibi bloklarda etkilidir.
 
 of.options.CONNECTED_TEXTURES=Birleşen Kaynaklar
-of.options.CONNECTED_TEXTURES.tooltip.1=Birleşen Kaynaklar
+of.options.CONNECTED_TEXTURES.tooltip.1=Birleşen Kaynaklar(CTM)
 of.options.CONNECTED_TEXTURES.tooltip.2=  KAPALI - Bağlantılı Görünüm Yok (varsayılan)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Fast - Hızlıca bağlanan görünüm, orta donma
 of.options.CONNECTED_TEXTURES.tooltip.4=  Fancy - kaliteli bağlantılı görünümler, yavaş.
@@ -494,7 +494,6 @@ of.options.ADVANCED_TOOLTIPS=Ayrıntılı Bilgiler
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Ayrıntılı Bilgiler
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  AÇIK - ayrıntılı bilgileri gösterir 
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  KAPALI - ayrıntılı bilgileri gösterme (varsayılan)
-#1.13 sürümünde id zımbırtısı, farklı bloklara yer kalmaması nedeniyle Mojang tarafından kaldırıldı.
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Ayrıntılı Bilgiler, kalan ömürleri
 of.options.ADVANCED_TOOLTIPS.tooltip.5= ayrıca shaderlerin ise kaynak id ve
 of.options.ADVANCED_TOOLTIPS.tooltip.6=varsayılan verilerini gösterir.
