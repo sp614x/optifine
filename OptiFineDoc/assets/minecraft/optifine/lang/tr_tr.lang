@@ -334,7 +334,7 @@ of.options.BETTER_SNOW.tooltip.1=Kaliteli Kar
 of.options.BETTER_SNOW.tooltip.2=  KAPALI - normal kar, hızlı
 of.options.BETTER_SNOW.tooltip.3=  AÇIK - daha iyi kar, yavaş
 of.options.BETTER_SNOW.tooltip.4=aşağısı görünen bloklarda (çit,çimen vs.)
-of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplı olduğunda alt bloğunu kar yapar
+of.options.BETTER_SNOW.tooltip.5=etrafı karla kaplı olduğunda alt bloğunu kar yapar.
 
 of.options.CUSTOM_FONTS=Özel Yazı Tipi
 of.options.CUSTOM_FONTS.tooltip.1=Özel Yazı Tipleri
