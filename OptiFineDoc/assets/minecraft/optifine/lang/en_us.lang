@@ -324,9 +324,9 @@ of.options.RANDOM_ENTITIES.tooltip.5=It needs a resource pack which has multiple
 
 of.options.BETTER_GRASS=Better Grass
 of.options.BETTER_GRASS.tooltip.1=Better Grass
-of.options.BETTER_GRASS.tooltip.2=  OFF - default side grass texture, fastest
-of.options.BETTER_GRASS.tooltip.3=  Fast - full side grass texture, slower
-of.options.BETTER_GRASS.tooltip.4=  Fancy - dynamic side grass texture, slowest
+of.options.BETTER_GRASS.tooltip.2=  OFF - default side grass texture (fastest)
+of.options.BETTER_GRASS.tooltip.3=  Fast - full side grass texture (slower)
+of.options.BETTER_GRASS.tooltip.4=  Fancy - dynamic side grass texture (slowest)
 
 of.options.BETTER_SNOW=Better Snow
 of.options.BETTER_SNOW.tooltip.1=Better Snow
