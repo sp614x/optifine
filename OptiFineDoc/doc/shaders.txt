@@ -123,6 +123,7 @@ uniform int heldBlockLightValue;                held item light value (main hand
 uniform int heldItemId2;                        held item ID (off hand)
 uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
+uniform float fogDensity;                       0.0-1.0
 uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
 uniform int worldTime;                          <ticks> = worldTicks % 24000
@@ -487,6 +488,8 @@ Block ID mapping
 ================
 The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
 Forge mods may add custom block mapping as "assets/<modid>/shaders/block.properties" in the mod JAR file.
+The "block.properties" file can use conditional preprocessor directives (#ifdef, #if, etc.)
+For more details see section "Standard Macros" A to G. Option macros are not available.
 Format "block.<id>=<block1> <block2> ..."
 The key is the substitute block ID, the value are the blocks which are to be replaced.
 Only one line per block ID is allowed.
