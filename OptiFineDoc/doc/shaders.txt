@@ -504,6 +504,21 @@ See "properties_files.txt" for the block matching rules.
   # Block ID, Metadata (backwards compatibility)
   block.34=38:6 38:7 83
 
+Item ID mapping
+================
+The item ID mapping is defined in "shaders/item.properties" included in the shader pack.
+Forge mods may add custom item mapping as "assets/<modid>/shaders/item.properties" in the mod JAR file.
+The "item.properties" file can use conditional preprocessor directives (#ifdef, #if, etc.)
+For more details see section "Standard Macros" A to G. Option macros are not available.
+Format "item.<id>=<item1> <item2> ..."
+The key is the substitute item ID, the value are the items which are to be replaced.
+Only one line per item ID is allowed.
+
+  # Short format
+  item.5000=diamond_sword dirt
+  # Long format
+  item.5001=minecraft:diamond_sword botania:reeds
+
 Block render layers
 ===================
 The custom block render layers are defined in "shaders/block.properties" included in the shader pack.
