@@ -7,8 +7,8 @@ Animated textures
 =================
 
 In Minecraft 1.5, Mojang added the ability to animate any block or item texture (originally a feature provided by MCPatcher). 
-However, there is yet no way to animate other textures like mob skins or GUIs. MCPatcher fills the gap enabling 
-any rectangular area of any non-block or item texture to be animated. This includes even textures specific to other MCPatcher features 
+However, there is yet no way to animate other textures like mob skins or GUIs. OptiFine fills the gap enabling 
+any rectangular area of any non-block or item texture to be animated. This includes even textures specific to other OptiFine features 
 such as random mob skins or skyboxes.
 
 For block and item textures, including CTM and CIT replacements, continue using Mojang's mcmeta method instead.
@@ -19,7 +19,7 @@ The height should be a multiple of the animation area height.
 
 Properties file format
 
-Create a properties file with any name you like. Put it in the assets/minecraft/mcpatcher/anim folder of your texture pack, 
+Create a properties file with any name you like. Put it in the assets/minecraft/optifine/anim folder of your texture pack, 
 or any subfolder within. Add these properties to the file
 
   # Custom animation

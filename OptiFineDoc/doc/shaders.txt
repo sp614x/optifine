@@ -108,19 +108,19 @@ Todo:
  
 Attributes
 ==========
-Source                                          Value                                                    Comment
+Source                                          Value                                             Comment
 =====================================================================================================================================================================
-attribute vec3 mc_Entity;                       xyz = blockID, renderType, metadata                            
-attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                                    Sprite middle UV coordinates                
+attribute vec3 mc_Entity;                       xyz = blockId, renderType, metadata               "blockId" is used only for blocks specified in "block.properties"      
+attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                             Sprite middle UV coordinates                
 attribute vec4 at_tangent;                      xyz = tangent vector, w = handedness
 
 Uniforms
 ==========
 Source                                          Value                                                    
 =====================================================================================================================================================================
-uniform int heldItemId;                         held item ID (main hand)
+uniform int heldItemId;                         held item ID (main hand), used only for items defined in "item.properties"
 uniform int heldBlockLightValue;                held item light value (main hand)
-uniform int heldItemId2;                        held item ID (off hand)
+uniform int heldItemId2;                        held item ID (off hand), used only for items defined in "item.properties"
 uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
 uniform float fogDensity;                       0.0-1.0
@@ -501,8 +501,8 @@ See "properties_files.txt" for the block matching rules.
   block.32=minecraft:red_flower ic2:nether_flower botania:reeds
   # Properties
   block.33=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip botania:reeds:type=green
-  # Block ID, Metadata (backwards compatibility)
-  block.34=38:6 38:7 83
+
+See "properties.files" for more details.
 
 Block render layers
 ===================
