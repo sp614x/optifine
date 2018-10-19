@@ -361,7 +361,6 @@ uniform <type> shadowcolor1;                    shadowColorBuffers = 2
 uniform <type> depthtex0;                       depthBuffers = 1
 uniform <type> depthtex1;                       depthBuffers = 2
 uniform <type> depthtex2;                       depthBuffers = 3
-uniform <type> depthtex3;                       depthBuffers = 4
 uniform <type> gdepth;                          if (bufferFormat[1] == RGBA) bufferFormat[1] = RGBA32F;
 uniform <type> gaux1;                           colorBuffers = 5
 uniform <type> gaux2;                           colorBuffers = 6
