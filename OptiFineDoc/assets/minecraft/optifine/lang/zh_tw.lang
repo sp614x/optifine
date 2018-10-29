@@ -690,12 +690,12 @@ of.options.FULLSCREEN_MODE.tooltip.5=較低的解析度通常會較快。
 
 of.options.SHOW_FPS=顯示 FPS
 of.options.SHOW_FPS.tooltip.1=顯示精簡的 FPS 和繪製資訊
-of.options.SHOW_FPS.tooltip.2=  C： - 區塊繪製器
-of.options.SHOW_FPS.tooltip.3=  E： - 一般實體 + 方塊實體
-of.options.SHOW_FPS.tooltip.4=  U： - 區塊更新
-of.options.SHOW_FPS.tooltip.5=只有除錯畫面隱藏時
-of.options.SHOW_FPS.tooltip.6=才會顯示精簡 FPS 資訊。
-of.options.SHOW_FPS.tooltip.7=不顯示除錯畫面。
+of.options.SHOW_FPS.tooltip.2=  Fps - 平均值/最低值
+of.options.SHOW_FPS.tooltip.3=  C: - 區塊繪製器
+of.options.SHOW_FPS.tooltip.4=  E: - 一般實體 + 方塊實體
+of.options.SHOW_FPS.tooltip.5=  U: - 區塊更新
+of.options.SHOW_FPS.tooltip.6=當除錯畫面隱藏時才會
+of.options.SHOW_FPS.tooltip.7=顯示精簡的 FPS 資訊。
 
 of.options.save.default=預設（兩秒）
 of.options.save.20s=20 秒
