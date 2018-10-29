@@ -3,6 +3,7 @@
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi (crowdin MC_PR) 2016-03-03 ---- 2018-06-18
 #   pan93412 (crowdin pan93412) 2018-08-23 ---- 2018-08-23
+#   NatsuArashi (crowdin MC_PR) ---- 2018-10-29
 ##-------------- zh_TW ---------------
 
 # General
@@ -17,7 +18,7 @@ of.general.smart=智慧
 of.key.zoom=縮放
 
 # Message
-of.message.aa.shaders1=防鋸齒與光影不相容。
+of.message.aa.shaders1=反鋸齒與光影不相容。
 of.message.aa.shaders2=請關閉光影來啟用這個選項。
 
 of.message.af.shaders1=各向異性過濾與光影不相容。
@@ -29,8 +30,8 @@ of.message.fr.shaders2=請關閉光影來啟用這個選項。
 of.message.an.shaders1=3D 立體與光影不相容。
 of.message.an.shaders2=請關閉光影來啟用這個選項。
 
-of.message.shaders.aa1=光影與防鋸齒不相容。
-of.message.shaders.aa2=請把 品質 -> 防鋸齒 選項設定為 關閉 並重啟你的遊戲。
+of.message.shaders.aa1=光影與反鋸齒不相容。
+of.message.shaders.aa2=請把 品質 -> 反鋸齒 選項設定為 關閉 並重啟你的遊戲。
 
 of.message.shaders.af1=光影與各向異性過濾不相容。
 of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關閉。 
@@ -165,13 +166,13 @@ of.options.shadersTitle=光影
 of.options.shaders.packNone=關閉
 of.options.shaders.packDefault=（內建）
 
-of.options.shaders.ANTIALIASING=防鋸齒
-of.options.shaders.ANTIALIASING.tooltip.1=防鋸齒
-of.options.shaders.ANTIALIASING.tooltip.2=  關閉 - （預設）停用防鋸齒（較快）
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 對線和邊緣防鋸齒處理（較慢）
+of.options.shaders.ANTIALIASING=反鋸齒
+of.options.shaders.ANTIALIASING.tooltip.1=反鋸齒
+of.options.shaders.ANTIALIASING.tooltip.2=  關閉 - （預設）停用反鋸齒（較快）
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 對線和邊緣反鋸齒處理（較慢）
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一種平滑鋸齒線和鮮明的色彩過渡的
 of.options.shaders.ANTIALIASING.tooltip.5=後處理特效。
-of.options.shaders.ANTIALIASING.tooltip.6=它不僅快於傳統的防鋸齒處理，
+of.options.shaders.ANTIALIASING.tooltip.6=它不僅快於傳統的反鋸齒處理，
 of.options.shaders.ANTIALIASING.tooltip.7=同時也與光影和快速繪製相容。 
 
 of.options.shaders.NORMAL_MAP=法線貼圖
@@ -200,7 +201,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高（最慢）
 of.options.shaders.RENDER_RES_MUL.tooltip.5=繪製品質控制光影包所
 of.options.shaders.RENDER_RES_MUL.tooltip.6=繪製的材質尺寸。
 of.options.shaders.RENDER_RES_MUL.tooltip.7=較低的值較有利於 4K 顯示。
-of.options.shaders.RENDER_RES_MUL.tooltip.8=較高的值用於防鋸齒過濾採樣。
+of.options.shaders.RENDER_RES_MUL.tooltip.8=較高的值用於反鋸齒過濾採樣。
 
 of.options.shaders.SHADOW_RES_MUL=陰影品質
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=陰影品質
@@ -226,7 +227,7 @@ of.options.shaders.CLOUD_SHADOW=雲影
 
 of.options.shaders.OLD_HAND_LIGHT=經典手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=經典手持光源
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  預設 - 光影包控制
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  預設 - 由光影包控制
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  開啟 - 使用經典手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  關閉 - 使用新式手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.5=經典手持光源允許只能辨識主手
@@ -235,7 +236,7 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.7=作用於副手。
 
 of.options.shaders.OLD_LIGHTING=經典光源
 of.options.shaders.OLD_LIGHTING.tooltip.1=經典光源
-of.options.shaders.OLD_LIGHTING.tooltip.2=  預設 - 光影包控制
+of.options.shaders.OLD_LIGHTING.tooltip.2=  預設 - 由光影包控制
 of.options.shaders.OLD_LIGHTING.tooltip.3=  開啟 - 使用經典光源
 of.options.shaders.OLD_LIGHTING.tooltip.4=  關閉 - 不使用經典光源
 of.options.shaders.OLD_LIGHTING.tooltip.5=使用經典光源時則採用原版的固定照明。
@@ -299,11 +300,11 @@ of.options.MIPMAP_TYPE.tooltip.5=  雙線性 - 精細柔和化
 of.options.MIPMAP_TYPE.tooltip.6=  三線性 - 最佳柔和化（最慢）
 
 
-of.options.AA_LEVEL=防鋸齒
-of.options.AA_LEVEL.tooltip.1=防鋸齒
-of.options.AA_LEVEL.tooltip.2= 關閉 - （預設）無防鋸齒（較快）
-of.options.AA_LEVEL.tooltip.3= 2-16 - 對線與邊緣進行防鋸齒處理（較慢）
-of.options.AA_LEVEL.tooltip.4=防鋸齒對鋸齒線和鮮明的色彩過渡
+of.options.AA_LEVEL=反鋸齒
+of.options.AA_LEVEL.tooltip.1=反鋸齒
+of.options.AA_LEVEL.tooltip.2= 關閉 - （預設）無反鋸齒（較快）
+of.options.AA_LEVEL.tooltip.3= 2-16 - 對線與邊緣進行反鋸齒處理（較慢）
+of.options.AA_LEVEL.tooltip.4=反鋸齒對鋸齒線和鮮明的色彩過渡
 of.options.AA_LEVEL.tooltip.5=進行平滑處理。
 of.options.AA_LEVEL.tooltip.6=啟用它可能會大幅降低 FPS。
 of.options.AA_LEVEL.tooltip.7=並非所有等級都顯卡都支援。
@@ -484,11 +485,12 @@ of.options.SHOW_CAPES.tooltip.3=  關閉 - 不顯示玩家披風
 
 of.options.TRANSLUCENT_BLOCKS=半透明方塊
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明方塊
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  精緻 - 準確的混合顏色（預設）
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  流暢 - 快速的混合顏色（較快）
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=控制有色的半透明方塊
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=（彩色玻璃、水、冰）放在一起
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=時或與空氣相隔時的顏色混和。
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  預設 - 取決於圖像設定
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  精緻 - 準確的混合顏色（預設）
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  流暢 - 快速的混合顏色（較快）
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=控制不同顏色的半透明方塊
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=（染色玻璃、水、冰）隔著空氣
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=放在一起時的顏色混和。
 
 of.options.HELD_ITEM_TOOLTIPS=持有物資訊顯示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持有物資訊顯示
@@ -561,6 +563,7 @@ of.options.FAST_RENDER.tooltip.2= 關閉 - 標準繪製（預設）
 of.options.FAST_RENDER.tooltip.3= 開啟 - 最佳化繪製（較快）
 of.options.FAST_RENDER.tooltip.4=採用最佳化的繪製算法來降低 GPU 的負載
 of.options.FAST_RENDER.tooltip.5=並且可能大幅提升 FPS。
+of.options.FAST_RENDER.tooltip.6=這個選項可能會與部分模組衝突。
 
 of.options.FAST_MATH=快速運算
 of.options.FAST_MATH.tooltip.1=快速運算
@@ -568,6 +571,7 @@ of.options.FAST_MATH.tooltip.2= 關閉 - 標準的運算（預設）
 of.options.FAST_MATH.tooltip.3= 開啟 - 更快的運算
 of.options.FAST_MATH.tooltip.4=採用最佳化的 sin() 和 cos() 函數可以更
 of.options.FAST_MATH.tooltip.5=妥善地利用 CPU 快取並且提升 FPS。
+of.options.FAST_MATH.tooltip.6=這個選項會稍微影響世界生成。
 
 of.options.CHUNK_UPDATES=區塊更新
 of.options.CHUNK_UPDATES.tooltip.1=區塊更新
@@ -599,6 +603,7 @@ of.options.RENDER_REGIONS.tooltip.2= 關閉 - （預設）不使用區域繪製
 of.options.RENDER_REGIONS.tooltip.3= 開啟 - 使用區域繪製
 of.options.RENDER_REGIONS.tooltip.4=區域繪製可使遠處的地形繪製得更快。
 of.options.RENDER_REGIONS.tooltip.5=當啟用頂點緩衝區對像（VBOs）時此選項將更有效。
+of.options.RENDER_REGIONS.tooltip.6=不建議用於整合式顯示卡（內顯）。
 
 of.options.SMART_ANIMATIONS=智慧型動畫
 of.options.SMART_ANIMATIONS.tooltip.1=智慧型動畫
@@ -639,18 +644,18 @@ of.options.LAGOMETER=效能資訊
 of.options.LAGOMETER.tooltip.1=在除錯畫面 (F3) 中顯示效能資訊。
 of.options.LAGOMETER.tooltip.2=* 橙 - 記憶體垃圾回收
 of.options.LAGOMETER.tooltip.3=* 青 - Tick
-of.options.LAGOMETER.tooltip.4=* 藍 - 排定之執行檔
+of.options.LAGOMETER.tooltip.4=* 藍 - 排定的處理程序
 of.options.LAGOMETER.tooltip.5=* 紫 - 區塊上傳
 of.options.LAGOMETER.tooltip.6=* 紅 - 區塊更新
 of.options.LAGOMETER.tooltip.7=* 黃 - 可見度檢查
 of.options.LAGOMETER.tooltip.8=* 綠 - 繪製的地形
 
-of.options.PROFILER=偵錯分析器
-of.options.PROFILER.tooltip.1=偵錯分析器
-of.options.PROFILER.tooltip.2=  開啟 - 啟用偵錯分析器，較慢
-of.options.PROFILER.tooltip.3=  關閉 - 停用偵錯分析器，較快
-of.options.PROFILER.tooltip.4=偵錯分析器在偵錯介面 (F3) 開啟時
-of.options.PROFILER.tooltip.5=收集並且顯示偵錯資訊。
+of.options.PROFILER=除錯分析器
+of.options.PROFILER.tooltip.1=除錯分析器
+of.options.PROFILER.tooltip.2=  開啟 - 啟用除錯分析器，較慢
+of.options.PROFILER.tooltip.3=  關閉 - 停用除錯分析器，較快
+of.options.PROFILER.tooltip.4=除錯分析器在除錯介面 (F3) 開啟時
+of.options.PROFILER.tooltip.5=收集並且顯示除錯資訊。
 
 of.options.WEATHER=天氣
 of.options.WEATHER.tooltip.1=天氣
@@ -688,8 +693,9 @@ of.options.SHOW_FPS.tooltip.1=顯示精簡的 FPS 和繪製資訊
 of.options.SHOW_FPS.tooltip.2=  C： - 區塊繪製器
 of.options.SHOW_FPS.tooltip.3=  E： - 一般實體 + 方塊實體
 of.options.SHOW_FPS.tooltip.4=  U： - 區塊更新
-of.options.SHOW_FPS.tooltip.5=只有偵錯畫面隱藏時
+of.options.SHOW_FPS.tooltip.5=只有除錯畫面隱藏時
 of.options.SHOW_FPS.tooltip.6=才會顯示精簡 FPS 資訊。
+of.options.SHOW_FPS.tooltip.7=不顯示除錯畫面。
 
 of.options.save.default=預設（兩秒）
 of.options.save.20s=20 秒
@@ -706,13 +712,13 @@ of.options.SCREENSHOT_SIZE.tooltip.1=截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設的截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自訂截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體。
-of.options.SCREENSHOT_SIZE.tooltip.5=與快速繪製及防鋸齒不相容。
+of.options.SCREENSHOT_SIZE.tooltip.5=與快速繪製及反鋸齒不相容。
 of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡 FPS 緩衝區支持。
 
 of.options.SHOW_GL_ERRORS=顯示 GL 錯誤
 of.options.SHOW_GL_ERRORS.tooltip.1=顯示 OpenGL 錯誤
-of.options.SHOW_GL_ERRORS.tooltip.2=啟用時，OpenGL 的錯誤將會在聊天視窗中顯示。
-of.options.SHOW_GL_ERRORS.tooltip.3=如果有已知的衝突或無法修復的錯誤，
-of.options.SHOW_GL_ERRORS.tooltip.4=請僅停用它。
-of.options.SHOW_GL_ERRORS.tooltip.5=停用時，錯誤仍然會記錄在錯誤記錄上，且
-of.options.SHOW_GL_ERRORS.tooltip.6=可能導致明顯的 FPS 數下降。
+of.options.SHOW_GL_ERRORS.tooltip.2=啟用時，OpenGL 的錯誤會顯示在聊天視窗中。
+of.options.SHOW_GL_ERRORS.tooltip.3=只有在已知的衝突或錯誤
+of.options.SHOW_GL_ERRORS.tooltip.4=無法修復時才建議停用。
+of.options.SHOW_GL_ERRORS.tooltip.5=停用時，錯誤仍然會記在錯誤記錄中，
+of.options.SHOW_GL_ERRORS.tooltip.6=且依然可能導致 FPS 明顯下降。
