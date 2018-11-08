@@ -5,6 +5,7 @@ of.general.from=From
 of.general.id=Id
 of.general.restart=restart
 of.general.smart=Smart
+of.general.max=Maximum
 
 # Keys
 of.key.zoom=Zoom
@@ -280,7 +281,7 @@ options.mipmapLevels.tooltip.1=Visual effect which makes distant objects look be
 options.mipmapLevels.tooltip.2=by smoothing the texture details
 options.mipmapLevels.tooltip.3=  OFF - no smoothing
 options.mipmapLevels.tooltip.4=  1 - minimum smoothing
-options.mipmapLevels.tooltip.5=  4 - maximum smoothing
+options.mipmapLevels.tooltip.5=  Maximum - maximum smoothing
 options.mipmapLevels.tooltip.6=This option usually does not affect the performance.
 
 of.options.MIPMAP_TYPE=Mipmap Type
