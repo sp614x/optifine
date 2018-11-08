@@ -1,10 +1,13 @@
 # Contributors of Chinese localization #
-#   Degh_Cilon_ From InfinityStudio 2016-2-18 ---- 2018-7-20
+#   HeartyYF From InfinityStudio 2016-2-18 ---- 2018-10-15
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
 #   shengjing1 From MCBBS 2012-11-20 ---- 2013-4-20
-#   Language File Begins Here...
+
+#   一些约定：英文或数字前后以空格区分，除非与全角标点直接相连；中文间标点用全角，数字或英文间标点用半角+空格；
+#   凡是某个选项后的“较快”“较慢”“默认”一律以括号标记，不论原语言文件是括号还是逗号；若默认和较快较慢之类并列，将默认放于选项首，否则放于选项尾。
+#   这些约定不必须遵守，我只是认为这样能增强可读性。具体示例参见下文。
 
 # General
 of.general.ambiguous=模糊
@@ -62,8 +65,8 @@ of.options.skinCustomisation.ofCape=OptiFine 披风...
 # Video settings
 
 options.graphics.tooltip.1=图像品质
-options.graphics.tooltip.2=  流畅   - 低品质，较快
-options.graphics.tooltip.3=  高品质 - 高品质，较慢
+options.graphics.tooltip.2=  流畅   - 低品质（较快）
+options.graphics.tooltip.3=  高品质 - 高品质（较慢）
 options.graphics.tooltip.4=改变云、树叶、水、
 options.graphics.tooltip.5=阴影和草地的外观。
 
@@ -90,7 +93,7 @@ options.ao.tooltip.3=  最小 - 简单流畅的平滑光照（较慢）
 options.ao.tooltip.4=  最大 - 复杂柔和的平滑光照（最慢）
 
 options.framerateLimit.tooltip.1=最大帧率
-options.framerateLimit.tooltip.2=  垂直同步 - 限制为显示器帧率（60，30，20）
+options.framerateLimit.tooltip.2=  垂直同步 - 限制为显示器帧率（60, 30, 20）
 options.framerateLimit.tooltip.3=  5-255 - 可变
 options.framerateLimit.tooltip.4=  无限制 - 无限制（最快）
 options.framerateLimit.tooltip.5=帧率限制将降低 FPS，
@@ -110,7 +113,7 @@ options.guiScale.tooltip.1=界面尺寸
 options.guiScale.tooltip.2=  自动 - 最大尺寸
 options.guiScale.tooltip.3=  小，中，大 - 1x 到 3x
 options.guiScale.tooltip.4=  4x 到 10x - 在 4K 分辨率下可用
-options.guiScale.tooltip.5=奇数值（1x，3x，5x之类）与 Unicode 不兼容。
+options.guiScale.tooltip.5=奇数值（1x, 3x, 5x之类）与 Unicode 不兼容。
 options.guiScale.tooltip.6=较小的界面或许会更快。
 
 options.vbo.tooltip.1=顶点缓冲区对象
@@ -137,8 +140,8 @@ of.options.ALTERNATE_BLOCKS.tooltip.3=取决于所选的资源包。
 of.options.FOG_FANCY=迷雾
 of.options.FOG_FANCY.tooltip.1=迷雾类型
 of.options.FOG_FANCY.tooltip.2=  流畅 - 较流畅的迷雾
-of.options.FOG_FANCY.tooltip.3=  高品质 - 较慢的迷雾，质量更佳
-of.options.FOG_FANCY.tooltip.4=  关闭 - 无迷雾，最快
+of.options.FOG_FANCY.tooltip.3=  高品质 - 较慢的迷雾（质量更佳）
+of.options.FOG_FANCY.tooltip.4=  关闭 - 无迷雾（最快）
 of.options.FOG_FANCY.tooltip.5=高品质的迷雾只在
 of.options.FOG_FANCY.tooltip.6=显卡支持下可用。
 
@@ -325,48 +328,48 @@ of.options.CLEAR_WATER.tooltip.3=  关闭 - 默认水体
 
 of.options.RANDOM_ENTITIES=随机实体材质
 of.options.RANDOM_ENTITIES.tooltip.1=随机实体材质
-of.options.RANDOM_ENTITIES.tooltip.2=  关闭 - 关闭随机实体材质，较快
-of.options.RANDOM_ENTITIES.tooltip.3=  开启 - 随机实体材质，较慢
+of.options.RANDOM_ENTITIES.tooltip.2=  关闭 - 关闭随机实体材质（较快）
+of.options.RANDOM_ENTITIES.tooltip.3=  开启 - 随机实体材质（较慢）
 of.options.RANDOM_ENTITIES.tooltip.4=游戏中的实体使用随机的相应贴图。
 of.options.RANDOM_ENTITIES.tooltip.5=需要资源包内有多个实体贴图。
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
-of.options.BETTER_GRASS.tooltip.2=  关闭 - 默认草地材质，较快
-of.options.BETTER_GRASS.tooltip.3=  流畅 - 草方块侧面全部使用草地材质，较慢
-of.options.BETTER_GRASS.tooltip.4=  高品质 - 草方块侧面材质动态化，最慢
+of.options.BETTER_GRASS.tooltip.2=  关闭 - 默认草地材质（最快）
+of.options.BETTER_GRASS.tooltip.3=  流畅 - 草方块侧面全部使用草地材质（较慢）
+of.options.BETTER_GRASS.tooltip.4=  高品质 - 草方块侧面材质动态化（最慢）
 
 of.options.BETTER_SNOW=更好的雪地
 of.options.BETTER_SNOW.tooltip.1=更好的雪地
-of.options.BETTER_SNOW.tooltip.2=  关闭 - 默认的雪地，较快
-of.options.BETTER_SNOW.tooltip.3=  开启 - 更好的雪地，较慢
+of.options.BETTER_SNOW.tooltip.2=  关闭 - 默认的雪地（较快）
+of.options.BETTER_SNOW.tooltip.3=  开启 - 更好的雪地（较慢）
 of.options.BETTER_SNOW.tooltip.4=在与雪接壤的“透明方块”
 of.options.BETTER_SNOW.tooltip.5=（如栅栏、高草）下显示雪。
 
 of.options.CUSTOM_FONTS=自定义字体
 of.options.CUSTOM_FONTS.tooltip.1=自定义字体
-of.options.CUSTOM_FONTS.tooltip.2=  开启 - 使用自定义字体（默认），较慢
-of.options.CUSTOM_FONTS.tooltip.3=  关闭 - 使用默认字体，较快
+of.options.CUSTOM_FONTS.tooltip.2=  开启 - （默认）使用自定义字体（较慢）
+of.options.CUSTOM_FONTS.tooltip.3=  关闭 - 使用默认字体（较快）
 of.options.CUSTOM_FONTS.tooltip.4=自定义字体一般由
 of.options.CUSTOM_FONTS.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_COLORS=自定义色彩
 of.options.CUSTOM_COLORS.tooltip.1=自定义色彩
-of.options.CUSTOM_COLORS.tooltip.2=  开启 - 使用自定义色彩（默认），较慢
-of.options.CUSTOM_COLORS.tooltip.3=  关闭 - 使用默认色彩，较快
+of.options.CUSTOM_COLORS.tooltip.2=  开启 - （默认）使用自定义色彩（较慢）
+of.options.CUSTOM_COLORS.tooltip.3=  关闭 - 使用默认色彩（较快）
 of.options.CUSTOM_COLORS.tooltip.4=自定义色彩一般由
 of.options.CUSTOM_COLORS.tooltip.5=当前的资源包提供。
 
 of.options.SWAMP_COLORS=沼泽颜色
 of.options.SWAMP_COLORS.tooltip.1=沼泽颜色
-of.options.SWAMP_COLORS.tooltip.2=  开启 - 使用沼泽颜色（默认），较慢
-of.options.SWAMP_COLORS.tooltip.3=  关闭 - 不使用沼泽颜色，较快
+of.options.SWAMP_COLORS.tooltip.2=  开启 - （默认）使用沼泽颜色（较慢）
+of.options.SWAMP_COLORS.tooltip.3=  关闭 - 不使用沼泽颜色（较快）
 of.options.SWAMP_COLORS.tooltip.4=沼泽的颜色会影响草、树叶、藤蔓和水。
 
 of.options.SMOOTH_BIOMES=平滑生物群系
 of.options.SMOOTH_BIOMES.tooltip.1=平滑生物群系
-of.options.SMOOTH_BIOMES.tooltip.2=  开启 - 平滑生物群系的边界（默认），较慢
-of.options.SMOOTH_BIOMES.tooltip.3=  关闭 - 不平滑生物群系的边界，较快
+of.options.SMOOTH_BIOMES.tooltip.2=  开启 - （默认）平滑生物群系的边界（较慢）
+of.options.SMOOTH_BIOMES.tooltip.3=  关闭 - 不平滑生物群系的边界（较快）
 of.options.SMOOTH_BIOMES.tooltip.4=取样边界附近所有方块颜色的平均值
 of.options.SMOOTH_BIOMES.tooltip.5=以平滑生物群系的边界。
 of.options.SMOOTH_BIOMES.tooltip.6=草、树叶、藤蔓和水会被受到影响。
@@ -403,29 +406,29 @@ of.options.EMISSIVE_TEXTURES.tooltip.8=当前的资源包提供。
 
 of.options.CUSTOM_SKY=自定义天空
 of.options.CUSTOM_SKY.tooltip.1=自定义天空
-of.options.CUSTOM_SKY.tooltip.2=  开启 - 自定义天空材质（默认），较慢
-of.options.CUSTOM_SKY.tooltip.3=  关闭 - 默认天空材质，较快
+of.options.CUSTOM_SKY.tooltip.2=  开启 - （默认）自定义天空材质（较慢）
+of.options.CUSTOM_SKY.tooltip.3=  关闭 - 默认天空材质（较快）
 of.options.CUSTOM_SKY.tooltip.4=自定义天空的材质一般由
 of.options.CUSTOM_SKY.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_ITEMS=自定义物品
 of.options.CUSTOM_ITEMS.tooltip.1=自定义物品
-of.options.CUSTOM_ITEMS.tooltip.2=  开启 - 自定义物品材质（默认），较慢
-of.options.CUSTOM_ITEMS.tooltip.3=  关闭 - 默认物品材质，较快
+of.options.CUSTOM_ITEMS.tooltip.2=  开启 - （默认）自定义物品材质（较慢）
+of.options.CUSTOM_ITEMS.tooltip.3=  关闭 - 默认物品材质（较快）
 of.options.CUSTOM_ITEMS.tooltip.4=自定义物品的材质一般由
 of.options.CUSTOM_ITEMS.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_ENTITY_MODELS=自定义实体模型
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=自定义实体模型
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  开启 - 自定义实体模型（默认），较慢
-of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  关闭 - 默认实体模型，较快
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  开启 - （默认）自定义实体模型（较慢）
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  关闭 - 默认实体模型（较快）
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=自定义实体模型一般由
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_GUIS=自定义界面
 of.options.CUSTOM_GUIS.tooltip.1=自定义界面
-of.options.CUSTOM_GUIS.tooltip.2=  开启 - 自定义图形用户界面（默认），较慢
-of.options.CUSTOM_GUIS.tooltip.3=  关闭 - 默认图形用户界面，较快
+of.options.CUSTOM_GUIS.tooltip.2=  开启 - （默认）自定义图形用户界面（较慢）
+of.options.CUSTOM_GUIS.tooltip.3=  关闭 - 默认图形用户界面（较快）
 of.options.CUSTOM_GUIS.tooltip.4=自定义图形用户界面一般由当前的资源包提供。
 
 # Details
@@ -433,9 +436,9 @@ of.options.CUSTOM_GUIS.tooltip.4=自定义图形用户界面一般由当前的�
 of.options.CLOUDS=云
 of.options.CLOUDS.tooltip.1=云
 of.options.CLOUDS.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.CLOUDS.tooltip.3=  流畅 - 低品质，较快
-of.options.CLOUDS.tooltip.4=  高品质 - 高品质，较慢
-of.options.CLOUDS.tooltip.5=  关闭 - 禁用云，最快
+of.options.CLOUDS.tooltip.3=  流畅 - 低品质（较快）
+of.options.CLOUDS.tooltip.4=  高品质 - 高品质（较慢）
+of.options.CLOUDS.tooltip.5=  关闭 - 禁用云（最快）
 of.options.CLOUDS.tooltip.6=低品质云使用 2D 渲染，
 of.options.CLOUDS.tooltip.7=高品质云使用 3D 渲染。
 
@@ -447,31 +450,31 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - 超过世界的高度限制
 of.options.TREES=树
 of.options.TREES.tooltip.1=树
 of.options.TREES.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.TREES.tooltip.3=  流畅 - 低品质，最快
-of.options.TREES.tooltip.4=  智能 - 较高品质，较快
-of.options.TREES.tooltip.5=  高品质 - 高品质，较慢
+of.options.TREES.tooltip.3=  流畅 - 低品质（最快）
+of.options.TREES.tooltip.4=  智能 - 较高品质（较快）
+of.options.TREES.tooltip.5=  高品质 - 高品质（较慢）
 of.options.TREES.tooltip.6=低品质的树叶不透明，
 of.options.TREES.tooltip.7=高品质的树叶透明、镂空。
 
 of.options.RAIN=雨雪
 of.options.RAIN.tooltip.1=雨雪
 of.options.RAIN.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.RAIN.tooltip.3=  流畅  - 少量的雨/雪，较快
-of.options.RAIN.tooltip.4=  高品质 - 大量的雨/雪，较慢
-of.options.RAIN.tooltip.5=  关闭 - 禁用雨/雪，最快
+of.options.RAIN.tooltip.3=  流畅  - 少量的雨/雪（较快）
+of.options.RAIN.tooltip.4=  高品质 - 大量的雨/雪（较慢）
+of.options.RAIN.tooltip.5=  关闭 - 禁用雨/雪（最快）
 of.options.RAIN.tooltip.6=雨声 和 雨滴飞溅
 of.options.RAIN.tooltip.7=不受此选项影响。
 
 of.options.SKY=天空
 of.options.SKY.tooltip.1=天空
-of.options.SKY.tooltip.2=  开启 - 天空可见，较慢
-of.options.SKY.tooltip.3=  关闭  - 天空不可见，较快
+of.options.SKY.tooltip.2=  开启 - 天空可见（较慢）
+of.options.SKY.tooltip.3=  关闭  - 天空不可见（较快）
 of.options.SKY.tooltip.4=日月的可见与否有单独的选项。
 
 of.options.STARS=星星
 of.options.STARS.tooltip.1=星星
-of.options.STARS.tooltip.2=  开启 - 星星可见，较慢
-of.options.STARS.tooltip.3=  关闭  - 星星不可见，较快
+of.options.STARS.tooltip.2=  开启 - 星星可见（较慢）
+of.options.STARS.tooltip.3=  关闭  - 星星不可见（较快）
 
 of.options.SUN_MOON=日月
 of.options.SUN_MOON.tooltip.1=日月
@@ -508,8 +511,8 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=会在开启时显示。
 of.options.DROPPED_ITEMS=掉落物
 of.options.DROPPED_ITEMS.tooltip.1=掉落物
 of.options.DROPPED_ITEMS.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.DROPPED_ITEMS.tooltip.3=  流畅 - 2D 掉落物，较快
-of.options.DROPPED_ITEMS.tooltip.4=  高品质 - 3D 掉落物，较慢
+of.options.DROPPED_ITEMS.tooltip.3=  流畅 - 2D 掉落物（较快）
+of.options.DROPPED_ITEMS.tooltip.4=  高品质 - 3D 掉落物（较慢）
 
 options.entityShadows.tooltip.1=实体阴影
 options.entityShadows.tooltip.2=  开启 - 显示实体阴影
@@ -652,15 +655,15 @@ of.options.LAGOMETER.tooltip.8=* 绿 - 渲染地形
 
 of.options.PROFILER=调试分析器
 of.options.PROFILER.tooltip.1=调试分析器
-of.options.PROFILER.tooltip.2=  开启 - 调试分析器启用，较慢
-of.options.PROFILER.tooltip.3=  关闭 - 调试分析器禁用，较快
+of.options.PROFILER.tooltip.2=  开启 - 调试分析器启用（较慢）
+of.options.PROFILER.tooltip.3=  关闭 - 调试分析器禁用（较快）
 of.options.PROFILER.tooltip.4=在调试界面开启状态（F3）时
 of.options.PROFILER.tooltip.5=调试分析器收集并且显示调试信息。
 
 of.options.WEATHER=天气
 of.options.WEATHER.tooltip.1=天气
-of.options.WEATHER.tooltip.2=  开启 - 开启天气，较慢
-of.options.WEATHER.tooltip.3=  关闭 - 关闭天气，较快
+of.options.WEATHER.tooltip.2=  开启 - 开启天气（较慢）
+of.options.WEATHER.tooltip.3=  关闭 - 关闭天气（较快）
 of.options.WEATHER.tooltip.4=天气选项影响雨，雪和雷电。
 of.options.WEATHER.tooltip.5=天气选项仅在本地游戏中生效。
 
@@ -683,7 +686,7 @@ options.fullscreen.tooltip.5=更快或更慢，这取决于显卡。
 
 of.options.FULLSCREEN_MODE=全屏模式
 of.options.FULLSCREEN_MODE.tooltip.1=全屏模式
-of.options.FULLSCREEN_MODE.tooltip.2=  默认 - 使用桌面分辨率，较慢
+of.options.FULLSCREEN_MODE.tooltip.2=  默认 - 使用桌面分辨率（较慢）
 of.options.FULLSCREEN_MODE.tooltip.3=  自定义 - 使用自定义屏幕分辨率，可能会较快
 of.options.FULLSCREEN_MODE.tooltip.4=这个选项只有在全屏模式下生效（F11）。
 of.options.FULLSCREEN_MODE.tooltip.5=较低的分辨率通常会更快。
@@ -697,10 +700,10 @@ of.options.SHOW_FPS.tooltip.5=  U：- 区块更新
 of.options.SHOW_FPS.tooltip.6=只有调试屏幕隐藏时
 of.options.SHOW_FPS.tooltip.7=迷你FPS信息才会显示。
 
-of.options.save.default=默认（2秒）
-of.options.save.20s=20秒
-of.options.save.3min=3分钟
-of.options.save.30min=30分钟
+of.options.save.default=2 秒（默认）
+of.options.save.20s=20 秒
+of.options.save.3min=3 分钟
+of.options.save.30min=30 分钟
 
 of.options.AUTOSAVE_TICKS=自动保存
 of.options.AUTOSAVE_TICKS.tooltip.1=自动保存间隔
