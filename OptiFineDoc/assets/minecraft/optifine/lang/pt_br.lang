@@ -6,6 +6,7 @@ of.general.custom=Personalizado
 of.general.from=De
 of.general.id=ID
 of.general.restart=reiniciar
+of.general.max=Máxima
 of.general.smart=Inteligente
 
 # Keys
@@ -282,7 +283,7 @@ options.mipmapLevels.tooltip.1=Efeito visual que melhora a aparência de objetos
 options.mipmapLevels.tooltip.2=distantes, suavizando os detalhes da textura.
 options.mipmapLevels.tooltip.3=  Não - sem suavização
 options.mipmapLevels.tooltip.4=  1 - suavização mínima
-options.mipmapLevels.tooltip.5=  4 - suavização máxima
+options.mipmapLevels.tooltip.5=  Máxima - suavização máxima
 options.mipmapLevels.tooltip.6=Esta opção não afeta o desempenho.
 
 of.options.MIPMAP_TYPE=Tipo de mipmap
