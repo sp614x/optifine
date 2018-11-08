@@ -128,10 +128,13 @@ Again, the "minecraft:" prefix is optional.
 Biomes
 ======
 
-For features that call for a list of biomes, use the names on the Minecraft wiki. Separate multiple biomes with commas like this:
+For features that call for a list of biomes, use the names from the Minecraft wiki: https://minecraft.gamepedia.com/Biome#Biome_IDs
+Biomes added by mods can also be used.
 
-  # Biomes
-  biomes=Ocean, Deep Ocean, River, Beach
+  # Biomes short
+  biomes=ocean deep_ocean river beach
+  # Biomes full
+  biomes=minecraft:ocean biomesoplenty:highland
   
 Since 1.13 many biomes have been renamed.
 See: https://minecraft.gamepedia.com/1.13/Flattening  
