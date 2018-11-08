@@ -136,10 +136,10 @@ of.options.FOG_FANCY.tooltip.4=  Não - névoa desativada
 of.options.FOG_FANCY.tooltip.5=A névoa suave estará disponível apenas se a sua
 of.options.FOG_FANCY.tooltip.6=placa de vídeo permitir.
 
-of.options.FOG_START=Início da névoa
-of.options.FOG_START.tooltip.1=Início da névoa
-of.options.FOG_START.tooltip.2=  0.2 - a névoa começa perto de você
-of.options.FOG_START.tooltip.3=  0.8 - a névoa começa longe de você
+of.options.FOG_START=Início do nevoeiro
+of.options.FOG_START.tooltip.1=Início do nevoeiro
+of.options.FOG_START.tooltip.2=  0.2 - a névoa está perto de você
+of.options.FOG_START.tooltip.3=  0.8 - a névoa está longe de você
 of.options.FOG_START.tooltip.4=Normalmente, esta opção não afeta o desempenho.
 
 of.options.CHUNK_LOADING=Carreg. de chunks
@@ -252,19 +252,19 @@ of.options.shaders.shaderOptions=Opções do Shader...
 
 of.options.shaderOptionsTitle=Opções do Shader
 
-of.options.quality=Qualidade
+of.options.quality=Qualidade...
 of.options.qualityTitle=Configurações de qualidade
 
-of.options.details=Detalhes
+of.options.details=Detalhes...
 of.options.detailsTitle=Configurações de detalhes
 
-of.options.performance=Desempenho
+of.options.performance=Desempenho...
 of.options.performanceTitle=Configurações de desempenho
 
-of.options.animations=Animações
+of.options.animations=Animações...
 of.options.animationsTitle=Configurações de animações
 
-of.options.other=Diversas
+of.options.other=Diversas...
 of.options.otherTitle=Outras configurações
 
 of.options.other.reset=Restaurar configurações gráficas...
@@ -556,13 +556,13 @@ of.options.FAST_RENDER.tooltip.2= Não - (padrão) renderização normal
 of.options.FAST_RENDER.tooltip.3= Sim - renderização otimizada (rápida)
 of.options.FAST_RENDER.tooltip.4=Utiliza um algoritmo especial de renderização que
 of.options.FAST_RENDER.tooltip.5=reduz o uso da GPU e eleva a taxa de quadros.
-of.options.FAST_RENDER.tooltip.6=Esta opção pode entrar em conflito com mods.
+of.options.FAST_RENDER.tooltip.6=Esta opção pode entrar em conflito com outros mods.
 
-of.options.FAST_MATH=Fast Math
-of.options.FAST_MATH.tooltip.1=Fast Math
-of.options.FAST_MATH.tooltip.2= Não - (padrão) cálculos padrão
+of.options.FAST_MATH=Otimizar cálculos
+of.options.FAST_MATH.tooltip.1=Otimização de cálculos
+of.options.FAST_MATH.tooltip.2= Não - (padrão) cálculos comuns
 of.options.FAST_MATH.tooltip.3= Sim - cálculos otimizados
-of.options.FAST_MATH.tooltip.4=Utiliza funções seno() e cosseno() especiais que
+of.options.FAST_MATH.tooltip.4=Utiliza funções seno(x) e cosseno(x) especiais que
 of.options.FAST_MATH.tooltip.5=otimizam o cache da CPU e elevam a taxa de quadros.
 of.options.FAST_MATH.tooltip.6=Esta opção pode afetar minimamente a geração de mundos.
 
@@ -636,7 +636,7 @@ of.options.FIREWORK_PARTICLES=Fogos de artifício
 of.options.LAGOMETER=Lagômetro
 of.options.LAGOMETER.tooltip.1=Análise da latência na janela de depuração (F3).
 of.options.LAGOMETER.tooltip.2=* Laranja - Coletor de lixo de memória
-of.options.LAGOMETER.tooltip.3=* Ciano - Tick
+of.options.LAGOMETER.tooltip.3=* Ciano - Ticks
 of.options.LAGOMETER.tooltip.4=* Azul - Executáveis esperados
 of.options.LAGOMETER.tooltip.5=* Roxo - Envio de chunks
 of.options.LAGOMETER.tooltip.6=* Vermelho - Atualizações de chunks
