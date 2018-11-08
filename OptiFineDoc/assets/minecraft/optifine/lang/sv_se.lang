@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-08-23
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-11-08
 
 # General
 of.general.ambiguous=tvetydig
@@ -8,6 +8,7 @@ of.general.from=Från
 of.general.id=ID
 of.general.restart=starta om
 of.general.smart=Smart
+of.general.max=Maximal
 
 # Keys
 of.key.zoom=Zooma in
@@ -283,7 +284,7 @@ options.mipmapLevels.tooltip.1=Visuell effekt som gör att objekt på avstånd s
 options.mipmapLevels.tooltip.2=ut genom att jämna ut texturdetaljerna.
 options.mipmapLevels.tooltip.3=  AV - ingen utjämning
 options.mipmapLevels.tooltip.4=  1 - minimal utjämning
-options.mipmapLevels.tooltip.5=  4 - maximal utjämning
+options.mipmapLevels.tooltip.5=  Maximal - maximal utjämning
 options.mipmapLevels.tooltip.6=Detta alternativ påverkar vanligtvis inte prestandan.
 
 of.options.MIPMAP_TYPE=Mipmaptyp
