@@ -5,6 +5,7 @@ of.general.from=Kohast
 of.general.id=ID
 of.general.restart=taaskäivita
 of.general.smart=tark
+of.general.max=maksimaalne
 
 # Keys
 of.key.zoom=Suum
@@ -282,7 +283,7 @@ options.mipmapLevels.tooltip.1=Visuaalne efekt, mis muudab kauged objektid ilusa
 options.mipmapLevels.tooltip.2=siludes tekstuuridetaile.
 options.mipmapLevels.tooltip.3=  VÄLJAS - silumine puudub
 options.mipmapLevels.tooltip.4=  1 - minimaalne silumine
-options.mipmapLevels.tooltip.5=  4 - maksimaalne silumine
+options.mipmapLevels.tooltip.5=  Maksimaalne - maksimaalne silumine
 options.mipmapLevels.tooltip.6=See valik ei mõjuta tavaliselt jõudlust.
 
 of.options.MIPMAP_TYPE=Mipmappimistüüp
