@@ -5,6 +5,7 @@ of.general.from=Z
 of.general.id=Id
 of.general.restart=restart
 of.general.smart=Chytrá
+of.general.max=Maximální
 
 # Klávesy
 of.key.zoom=Přiblížení
@@ -277,10 +278,10 @@ of.options.mipmap.nearest=Nejbližší
 of.options.mipmap.trilinear=Trilineární
 
 options.mipmapLevels.tooltip.1=Vizuální efekt, který dělá vzdálené objekty lepší
-options.mipmapLevels.tooltip.2=vyhlazováním texturových detailů.
-options.mipmapLevels.tooltip.3=  NE - žádné vyhlazování
-options.mipmapLevels.tooltip.4=  1 - minimální vyhlazování
-options.mipmapLevels.tooltip.5=  4 - maximální vyhlazování
+options.mipmapLevels.tooltip.2=vyhlazením texturových detailů.
+options.mipmapLevels.tooltip.3=  NE - žádné vyhlazení
+options.mipmapLevels.tooltip.4=  1 - minimální vyhlazení
+options.mipmapLevels.tooltip.5=  Maximální - maximální vyhlazení
 options.mipmapLevels.tooltip.6=Tato možnost většinou neovlivňuje výkon.
 
 of.options.MIPMAP_TYPE=Typ Mipmapy
