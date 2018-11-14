@@ -16,6 +16,7 @@ of.general.from=来自
 of.general.id=Id
 of.general.restart=重启游戏
 of.general.smart=智能
+of.general.max=最大化
 
 # Keys
 of.key.zoom=缩放
@@ -291,7 +292,7 @@ options.mipmapLevels.tooltip.1=通过平滑材质细节，使远处的
 options.mipmapLevels.tooltip.2=物体获得更好的视觉效果。
 options.mipmapLevels.tooltip.3=  关闭 - 无平滑
 options.mipmapLevels.tooltip.4=  1 - 最小平滑
-options.mipmapLevels.tooltip.5=  4 - 最大平滑
+options.mipmapLevels.tooltip.5=  最大化 - 最大平滑
 options.mipmapLevels.tooltip.6=此选项通常不会影响性能。
 
 of.options.MIPMAP_TYPE=多级纹理（mipmap）类型
