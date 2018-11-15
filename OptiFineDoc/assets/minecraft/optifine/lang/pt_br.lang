@@ -515,7 +515,7 @@ of.options.VIGNETTE.tooltip.2=  Padrão - como o predefinido
 of.options.VIGNETTE.tooltip.3=  Rápidos - vinheta desativada (rápida)
 of.options.VIGNETTE.tooltip.4=  Bonitos - vinheta ativada (lenta)
 of.options.VIGNETTE.tooltip.5=A vinheta pode afetar significativamente a taxa de
-of.options.VIGNETTE.tooltip.6=quadros, especialmente em tela cheia.
+of.options.VIGNETTE.tooltip.6=quadros, principalmente em tela inteira.
 of.options.VIGNETTE.tooltip.7=O efeito da vinheta é quase imperceptível e pode
 of.options.VIGNETTE.tooltip.8=ser desativado facilmente.
 
@@ -670,16 +670,16 @@ of.options.TIME.tooltip.5=Disponível apenas no modo Criativo e modo
 of.options.TIME.tooltip.6=um jogador.
 
 options.fullscreen.tooltip.1=Tela cheia
-options.fullscreen.tooltip.2=  Sim - jogar em tela cheia
+options.fullscreen.tooltip.2=  Sim - jogar em tela inteira
 options.fullscreen.tooltip.3=  Não - jogar em janela
-options.fullscreen.tooltip.4=O modo de tela cheia pode ser mais lento ou mais rápido
+options.fullscreen.tooltip.4=O modo tela inteira pode ser mais lento ou mais rápido
 options.fullscreen.tooltip.5=do que o de janela, dependendo da placa de vídeo.
 
 of.options.FULLSCREEN_MODE=Resolução
-of.options.FULLSCREEN_MODE.tooltip.1=Resolução da tela cheia
+of.options.FULLSCREEN_MODE.tooltip.1=Resolução da tela inteira
 of.options.FULLSCREEN_MODE.tooltip.2=  Padrão - resolução do monitor (lenta)
 of.options.FULLSCREEN_MODE.tooltip.3=  WxH - resolução personalizada (eventual. rápida)
-of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida é usada no modo de tela cheia.
+of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida é usada no modo tela inteira.
 of.options.FULLSCREEN_MODE.tooltip.5=Resoluções baixas geralmente são mais rápidas.
 
 of.options.SHOW_FPS=Mostrar FPS
