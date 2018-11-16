@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2018-08-06
+#   CrafterKina 2014-01-04 ---- 2018-11-16
 
 # General
 of.general.ambiguous=不明確
@@ -9,6 +9,7 @@ of.general.from=由来
 of.general.id=ID
 of.general.restart=再起動
 of.general.smart=スマート
+of.general.max=最大限
 
 # Keys
 of.key.zoom=ズーム
@@ -284,7 +285,7 @@ options.mipmapLevels.tooltip.1=遠くの物体における視覚効果を
 options.mipmapLevels.tooltip.2=テクスチャのスムージングによって改善します。
 options.mipmapLevels.tooltip.3=  オフ - スムージングを行わない
 options.mipmapLevels.tooltip.4=  1 - 最小限のスムージング
-options.mipmapLevels.tooltip.5=  4 - 最大限のスムージング
+options.mipmapLevels.tooltip.5=  最大限 - 最大限のスムージング
 options.mipmapLevels.tooltip.6=この設定は概ねパフォーマンスに影響を与えません。
 
 of.options.MIPMAP_TYPE=ミップマップの種類
