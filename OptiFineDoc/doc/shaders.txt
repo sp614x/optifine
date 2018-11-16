@@ -29,9 +29,14 @@ Despite the naming, all of these color attachments are the same and can be used 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
 The rest have their color cleared to black with 0 alpha.
-Deferred and composite programs use ping-pong buffers to pipe the output of one program as input to the next one.
-When needed one last deferred or composite program may be added automatically to even out the flipped ping-pong buffers. 
-This allows them to read and write from and to the same buffer alias.
+
+Each color attachment uses 2 buffers (A and B) with logical names "main" and "alt", which can be used as ping-pong buffers.
+When the buffers are flipped the mapping between main/alt and A/B is reversed.
+Gbuffer programs always read from "main" (only gaux1-4) and write to "main" buffers (they shouldn't read and write to the same buffer at the same time).
+Deferred/composite programs always read from "main" and write to "alt" buffers. 
+After a deferred/composite program is rendered the buffers that it writes to are flipped so the next programs can see the current output as input.
+The property "flip.<program>.<buffer>=<true|false>" can be used to enable or disable the flip independant of the buffer write.
+The virtual programs "deferred_pre" and "composite_pre" can be used for buffer flipping before the deferred/composite pass.
 
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
@@ -83,20 +88,20 @@ gbuffers_spidereyes          eyes of spider, enderman and dragon   gbuffers_text
 gbuffers_hand                hand and opaque handheld objects      gbuffers_textured_lit
 gbuffers_weather             rain, snow                            gbuffers_textured_lit
 --- Deferred ---
+deferred_pre                 <virtual> flip ping-pong buffers      <none>
 deferred                     <deferred>                            <none>
 deferred1                    <deferred>                            <none>
 ...
 deferred15                   <deferred>                            <none>
-deferred_last                <internal> restore ping-pong buffers  <none>
 --- GBuffers translucent ---
 gbuffers_water               translucent                           gbuffers_terrain
 gbuffers_hand_water          translucent handheld objects          gbuffers_hand
 --- Composite ---
+composite_pre                <virtual> flip ping-pong buffers      <none>
 composite                    <composite>                           <none>
 composite1                   <composite>                           <none>
 ...
 composite15                  <composite>                           <none>
-composite_last               <internal> restore ping-pong buffers  <none>
 --- Final ---
 final                        <final>                               <none>
 
