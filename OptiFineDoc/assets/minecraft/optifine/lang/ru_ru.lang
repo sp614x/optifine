@@ -9,6 +9,7 @@ of.general.from=Файл
 of.general.id=ID
 of.general.restart=⟲
 of.general.smart=Умно
+of.general.max=Макс.
 
 # Управление
 of.key.zoom=Приблизить
@@ -271,7 +272,7 @@ of.shaders.profile=Настройки
 options.mipmapLevels.tooltip.1=Уровни детализации
 options.mipmapLevels.tooltip.2=  Выкл - без сглаживания
 options.mipmapLevels.tooltip.3=  1 - минимальное сглаживание
-options.mipmapLevels.tooltip.4=  4 - максимальное сглаживание
+options.mipmapLevels.tooltip.4=  Макс. - максимальное сглаживание
 options.mipmapLevels.tooltip.5=Заставляет удалённые объекты выглядеть лучше
 options.mipmapLevels.tooltip.6=посредством сглаживания деталей текстуры.
 options.mipmapLevels.tooltip.7=Обычно не влияет на производительность.
