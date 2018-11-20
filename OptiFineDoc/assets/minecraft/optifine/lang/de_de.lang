@@ -12,6 +12,7 @@ of.general.from=Von
 of.general.id=ID
 of.general.restart=Neustart
 of.general.smart=Fein
+of.general.max=Maximum
 
 # Keys
 of.key.zoom=Zoom
@@ -288,7 +289,7 @@ options.mipmapLevels.tooltip.1=Visueller Effekt, der weit entfernte Objekte bess
 options.mipmapLevels.tooltip.2=sehen lässt, indem Texturdetails verringert werden.
 options.mipmapLevels.tooltip.3=  Aus - Keine Verringerung von Details
 options.mipmapLevels.tooltip.4=  1 - Minimale Verringerung von Details
-options.mipmapLevels.tooltip.5=  4 - Maximale Verringerung von Details
+options.mipmapLevels.tooltip.5=  Maximum - Maximale Verringerung von Details
 options.mipmapLevels.tooltip.6=Diese Einstellung beeinflusst normalerweise nicht die
 options.mipmapLevels.tooltip.7=Leistung.
 
