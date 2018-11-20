@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2018-11-16
+#   CrafterKina 2014-01-04 ----
 
 # General
 of.general.ambiguous=不明確
@@ -693,15 +693,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - チャンクアップデート
 of.options.SHOW_FPS.tooltip.6=コンパクトなFPS情報は
 of.options.SHOW_FPS.tooltip.7=デバッグ画面が非表示の時のみ表示されます。
 
-of.options.save.default=デフォルト (2秒)
-of.options.save.20s=20秒
+of.options.save.45s=45秒
+of.options.save.90s=90秒
 of.options.save.3min=3分
-of.options.save.30min=30分
+of.options.save.6min=6分
+of.options.save.12min=12分
+of.options.save.24min=24分
 
 of.options.AUTOSAVE_TICKS=オートセーブ
 of.options.AUTOSAVE_TICKS.tooltip.1=セーブ間隔
-of.options.AUTOSAVE_TICKS.tooltip.2=2秒ごとのセーブは推奨されません。
-of.options.AUTOSAVE_TICKS.tooltip.3=オートセーブはラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.2= 45秒 - デフォルト
+of.options.AUTOSAVE_TICKS.tooltip.2=描画距離によってはオートセーブはラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.3=ゲームメニューを開いた際にもワールドはセーブされます。
 
 of.options.SCREENSHOT_SIZE=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
