@@ -690,15 +690,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - chunk updates
 of.options.SHOW_FPS.tooltip.6=The compact FPS information is only shown when the
 of.options.SHOW_FPS.tooltip.7=debug screen is not visible.
 
-of.options.save.default=Default (2s)
-of.options.save.20s=20s
+of.options.save.45s=45s
+of.options.save.90s=90s
 of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
 
 of.options.AUTOSAVE_TICKS=Autosave
 of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
-of.options.AUTOSAVE_TICKS.tooltip.2=Default autosave interval (2s) is NOT RECOMMENDED.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosave causes the famous Lag Spike of Death.
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - default
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may generate lag spikes depending on the render distance.
+of.options.AUTOSAVE_TICKS.tooltip.3=The world is also saved when the game menu is opened.
 
 of.options.SCREENSHOT_SIZE=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
