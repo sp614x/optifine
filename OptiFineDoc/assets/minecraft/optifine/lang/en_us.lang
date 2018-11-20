@@ -701,7 +701,7 @@ of.options.AUTOSAVE_TICKS=Autosave
 of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
 of.options.AUTOSAVE_TICKS.tooltip.2= 45s - default
 of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may generate lag spikes depending on the render distance.
-of.options.AUTOSAVE_TICKS.tooltip.3=The world is also saved when the game menu is opened.
+of.options.AUTOSAVE_TICKS.tooltip.4=The world is also saved when the game menu is opened.
 
 of.options.SCREENSHOT_SIZE=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
