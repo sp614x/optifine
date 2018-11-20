@@ -703,8 +703,8 @@ of.options.save.24min=24分
 of.options.AUTOSAVE_TICKS=オートセーブ
 of.options.AUTOSAVE_TICKS.tooltip.1=セーブ間隔
 of.options.AUTOSAVE_TICKS.tooltip.2= 45秒 - デフォルト
-of.options.AUTOSAVE_TICKS.tooltip.2=描画距離によってはオートセーブはラグを引き起こします。
-of.options.AUTOSAVE_TICKS.tooltip.3=ゲームメニューを開いた際にもワールドはセーブされます。
+of.options.AUTOSAVE_TICKS.tooltip.3=描画距離によってはオートセーブはラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.4=ゲームメニューを開いた際にもワールドはセーブされます。
 
 of.options.SCREENSHOT_SIZE=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
