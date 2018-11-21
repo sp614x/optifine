@@ -8,6 +8,10 @@
 # The entity model contains a list of entity part models.
 # The part models can be specified inline or loaded from external ".jpm" files.
 #
+# Special cases:
+# - the mushrooms on the back of the Mooshroom can be customized with the texture 
+#   "assets/minecraft/textures/entity/cow/red_mushroom.png"  
+#
 # Entity name          Part name
 # ==================== ======================================================
 # armor_stand          right, left, waist, base
