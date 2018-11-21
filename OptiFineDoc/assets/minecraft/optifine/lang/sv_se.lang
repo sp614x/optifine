@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-11-08
+#   Regnander (_Spitz) 2016-01-18 ---- 2018-11-21
 
 # General
 of.general.ambiguous=tvetydig
@@ -703,15 +703,19 @@ of.options.SHOW_FPS.tooltip.5=    U: - antal datablocksuppdateringar
 of.options.SHOW_FPS.tooltip.6=Informationen visas endast när felsökningsskärmen (F3)
 of.options.SHOW_FPS.tooltip.7=inte är öppen.
 
-of.options.save.default=Standard (2 s)
-of.options.save.20s=20 s
+of.options.save.45s=45 s
+of.options.save.90s=90 s
 of.options.save.3min=3 min
-of.options.save.30min=30 min
+of.options.save.6min=6 min
+of.options.save.12min=12 min
+of.options.save.24min=24 min
 
-of.options.AUTOSAVE_TICKS=Autospara
+of.options.AUTOSAVE_TICKS=Automatisk sparning
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervall för automatisk sparning.
-of.options.AUTOSAVE_TICKS.tooltip.2=Standardintervallet (2 s) REKOMMENDERAS INTE.
-of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning orsakar ett ökänt prestandaproblem.
+of.options.AUTOSAVE_TICKS.tooltip.2=  45 s - standard
+of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning kan orsaka prestandaproblem
+of.options.AUTOSAVE_TICKS.tooltip.4=beroende på det synliga avståndet.
+of.options.AUTOSAVE_TICKS.tooltip.5=Världen sparas även när spelmenyn är öppen.
 
 of.options.SCREENSHOT_SIZE=Stl. på skärmdump
 of.options.SCREENSHOT_SIZE.tooltip.1=Storlek på skärmdump
