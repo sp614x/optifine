@@ -692,17 +692,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - kamakauuendused
 of.options.SHOW_FPS.tooltip.6=Kompaktset kaadrisageduse infot kuvatakse vaid siis,
 of.options.SHOW_FPS.tooltip.7=kui silumisvaade pole nähtav.
 
-of.options.save.default=vaik. (2 s)
-of.options.save.20s=20 s
+of.options.save.45s=45 s
+of.options.save.90s=90 s
 of.options.save.3min=3 min
-of.options.save.30min=30 min
+of.options.save.6min=6 min
+of.options.save.12min=12 min
+of.options.save.24min=24 min
 
 of.options.AUTOSAVE_TICKS=Automaatne salvestus
 of.options.AUTOSAVE_TICKS.tooltip.1=Automaatse salvestuse intervall
-of.options.AUTOSAVE_TICKS.tooltip.2=Vaikimisi automaatse salvestuse intervall (2 s) POLE
-of.options.AUTOSAVE_TICKS.tooltip.3=SOOVITATAV. Automaatne salvestus põhjustab kurikuulsa
-of.options.AUTOSAVE_TICKS.tooltip.4="surmava latentsusokka".
-# Added extra row to tooltip
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - vaikimisi
+of.options.AUTOSAVE_TICKS.tooltip.3=Automaatne salvestus võib sõltuvalt nähtavuskaugusest põhjustada
+of.options.AUTOSAVE_TICKS.tooltip.4=latentsusokkaid. Maailm salvestub ka mängumenüü avamisel.
 
 of.options.SCREENSHOT_SIZE=Kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.1=Kuvatõmmise suurus
