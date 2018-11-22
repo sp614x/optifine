@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   HeartyYF From InfinityStudio 2016-2-18 ---- 2018-10-15
+#   HeartyYF From InfinityStudio 2016-2-18 ---- 2018-11-22
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
@@ -701,15 +701,18 @@ of.options.SHOW_FPS.tooltip.5=  U：- 区块更新
 of.options.SHOW_FPS.tooltip.6=只有调试屏幕隐藏时
 of.options.SHOW_FPS.tooltip.7=迷你FPS信息才会显示。
 
-of.options.save.default=2 秒（默认）
-of.options.save.20s=20 秒
+of.options.save.45s=45 秒
+of.options.save.90s=90 秒
 of.options.save.3min=3 分钟
-of.options.save.30min=30 分钟
+of.options.save.6min=6 分钟
+of.options.save.12min=12 分钟
+of.options.save.24min=24 分钟
 
 of.options.AUTOSAVE_TICKS=自动保存
 of.options.AUTOSAVE_TICKS.tooltip.1=自动保存间隔
-of.options.AUTOSAVE_TICKS.tooltip.2=不推荐使用默认自动保存间隔（2秒）。
-of.options.AUTOSAVE_TICKS.tooltip.3=自动保存导致了著名的“死亡卡顿”。
+of.options.AUTOSAVE_TICKS.tooltip.2= 45 秒 - 默认
+of.options.AUTOSAVE_TICKS.tooltip.3=自动保存或许会导致突发延迟，这取决于渲染距离。
+of.options.AUTOSAVE_TICKS.tooltip.4=当打开游戏菜单时，世界也会保存。
 
 of.options.SCREENSHOT_SIZE=截图尺寸
 of.options.SCREENSHOT_SIZE.tooltip.1=截图尺寸
