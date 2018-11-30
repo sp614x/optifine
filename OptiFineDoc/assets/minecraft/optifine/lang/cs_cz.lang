@@ -690,15 +690,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - přednačtené chunky
 of.options.SHOW_FPS.tooltip.6=Informace o FPS se zobrazí jen,
 of.options.SHOW_FPS.tooltip.7=když je ladící obrazovka (F3) zneviditelněná.
 
-of.options.save.default=Výchozí (2s)
-of.options.save.20s=20s
+of.options.save.45s=45s
+of.options.save.90s=90s
 of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
 
 of.options.AUTOSAVE_TICKS=Auto-ukládání
-of.options.AUTOSAVE_TICKS.tooltip.1=Interval auto-ukládání
-of.options.AUTOSAVE_TICKS.tooltip.2=Výchozí interval auto-ukládání (2s) se NEDOPORUčUJE
-of.options.AUTOSAVE_TICKS.tooltip.3=Auto-ukládání způsobuje slavné sekací smrti (Lag Spikes of Death).
+of.options.AUTOSAVE_TICKS.tooltip.1=Interval autosavu
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - výchozí
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosave může způsobovat trhnání záležijící na dohledu.
+of.options.AUTOSAVE_TICKS.tooltip.4=Svět se rovněž ukládá, když je menu pauzy otevřené.
 
 of.options.SCREENSHOT_SIZE=Velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.1=Velikost snímku obrazovky
