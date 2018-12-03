@@ -6,6 +6,7 @@ of.general.custom=Personalizado
 of.general.from=De
 of.general.id=ID
 of.general.restart=reiniciar
+of.general.max=Máxima
 of.general.smart=Inteligente
 
 # Keys
@@ -282,7 +283,7 @@ options.mipmapLevels.tooltip.1=Efeito visual que melhora a aparência de objetos
 options.mipmapLevels.tooltip.2=distantes, suavizando os detalhes da textura.
 options.mipmapLevels.tooltip.3=  Não - sem suavização
 options.mipmapLevels.tooltip.4=  1 - suavização mínima
-options.mipmapLevels.tooltip.5=  4 - suavização máxima
+options.mipmapLevels.tooltip.5=  Máxima - suavização máxima
 options.mipmapLevels.tooltip.6=Esta opção não afeta o desempenho.
 
 of.options.MIPMAP_TYPE=Tipo de mipmap
@@ -514,7 +515,7 @@ of.options.VIGNETTE.tooltip.2=  Padrão - como o predefinido
 of.options.VIGNETTE.tooltip.3=  Rápidos - vinheta desativada (rápida)
 of.options.VIGNETTE.tooltip.4=  Bonitos - vinheta ativada (lenta)
 of.options.VIGNETTE.tooltip.5=A vinheta pode afetar significativamente a taxa de
-of.options.VIGNETTE.tooltip.6=quadros, especialmente em tela cheia.
+of.options.VIGNETTE.tooltip.6=quadros, principalmente em tela inteira.
 of.options.VIGNETTE.tooltip.7=O efeito da vinheta é quase imperceptível e pode
 of.options.VIGNETTE.tooltip.8=ser desativado facilmente.
 
@@ -669,16 +670,16 @@ of.options.TIME.tooltip.5=Disponível apenas no modo Criativo e modo
 of.options.TIME.tooltip.6=um jogador.
 
 options.fullscreen.tooltip.1=Tela cheia
-options.fullscreen.tooltip.2=  Sim - jogar em tela cheia
+options.fullscreen.tooltip.2=  Sim - jogar em tela inteira
 options.fullscreen.tooltip.3=  Não - jogar em janela
-options.fullscreen.tooltip.4=O modo de tela cheia pode ser mais lento ou mais rápido
+options.fullscreen.tooltip.4=O modo tela inteira pode ser mais lento ou mais rápido
 options.fullscreen.tooltip.5=do que o de janela, dependendo da placa de vídeo.
 
 of.options.FULLSCREEN_MODE=Resolução
-of.options.FULLSCREEN_MODE.tooltip.1=Resolução da tela cheia
+of.options.FULLSCREEN_MODE.tooltip.1=Resolução da tela inteira
 of.options.FULLSCREEN_MODE.tooltip.2=  Padrão - resolução do monitor (lenta)
 of.options.FULLSCREEN_MODE.tooltip.3=  WxH - resolução personalizada (eventual. rápida)
-of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida é usada no modo de tela cheia.
+of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida é usada no modo tela inteira.
 of.options.FULLSCREEN_MODE.tooltip.5=Resoluções baixas geralmente são mais rápidas.
 
 of.options.SHOW_FPS=Mostrar FPS
@@ -690,15 +691,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - atualizações de chunks
 of.options.SHOW_FPS.tooltip.6=A taxa de quadros só é visível quando a tela
 of.options.SHOW_FPS.tooltip.7=de depuração não é exibida.
 
-of.options.save.default=2s
-of.options.save.20s=20s
-of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.45s=45s
+of.options.save.90s=90s
+of.options.save.3min=3min.
+of.options.save.6min=6min.
+of.options.save.12min=12min.
+of.options.save.24min=24min.
 
 of.options.AUTOSAVE_TICKS=Autossalvamento
-of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo de autossalvamento
-of.options.AUTOSAVE_TICKS.tooltip.2=O intervalo padrão (2s) NÃO É RECOMENDADO.
-of.options.AUTOSAVE_TICKS.tooltip.3=Corrige o conhecido Lag Spike of Death.
+of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo do autossalvamento
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - padrão
+of.options.AUTOSAVE_TICKS.tooltip.3=Pode haver travamentos, dependendo da renderização.
+of.options.AUTOSAVE_TICKS.tooltip.4=O mundo também é salvo ao abrir o menu do jogo.
 
 of.options.SCREENSHOT_SIZE=Captura de tela
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamanho da captura de tela
