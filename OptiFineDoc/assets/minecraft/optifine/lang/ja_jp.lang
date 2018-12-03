@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2018-08-06
+#   CrafterKina 2014-01-04 ----
 
 # General
 of.general.ambiguous=不明確
@@ -9,6 +9,7 @@ of.general.from=由来
 of.general.id=ID
 of.general.restart=再起動
 of.general.smart=スマート
+of.general.max=最大限
 
 # Keys
 of.key.zoom=ズーム
@@ -284,7 +285,7 @@ options.mipmapLevels.tooltip.1=遠くの物体における視覚効果を
 options.mipmapLevels.tooltip.2=テクスチャのスムージングによって改善します。
 options.mipmapLevels.tooltip.3=  オフ - スムージングを行わない
 options.mipmapLevels.tooltip.4=  1 - 最小限のスムージング
-options.mipmapLevels.tooltip.5=  4 - 最大限のスムージング
+options.mipmapLevels.tooltip.5=  最大限 - 最大限のスムージング
 options.mipmapLevels.tooltip.6=この設定は概ねパフォーマンスに影響を与えません。
 
 of.options.MIPMAP_TYPE=ミップマップの種類
@@ -692,15 +693,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - チャンクアップデート
 of.options.SHOW_FPS.tooltip.6=コンパクトなFPS情報は
 of.options.SHOW_FPS.tooltip.7=デバッグ画面が非表示の時のみ表示されます。
 
-of.options.save.default=デフォルト (2秒)
-of.options.save.20s=20秒
+of.options.save.45s=45秒
+of.options.save.90s=90秒
 of.options.save.3min=3分
-of.options.save.30min=30分
+of.options.save.6min=6分
+of.options.save.12min=12分
+of.options.save.24min=24分
 
 of.options.AUTOSAVE_TICKS=オートセーブ
 of.options.AUTOSAVE_TICKS.tooltip.1=セーブ間隔
-of.options.AUTOSAVE_TICKS.tooltip.2=2秒ごとのセーブは推奨されません。
-of.options.AUTOSAVE_TICKS.tooltip.3=オートセーブはラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.2= 45秒 - デフォルト
+of.options.AUTOSAVE_TICKS.tooltip.3=描画距離によってはオートセーブはラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.4=ゲームメニューを開いた際にもワールドはセーブされます。
 
 of.options.SCREENSHOT_SIZE=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
