@@ -703,13 +703,16 @@ options.anaglyph.tooltip.4=Для просмотра потребуются ан
 
 of.options.AUTOSAVE_TICKS=Автосохранение
 of.options.AUTOSAVE_TICKS.tooltip.1=Интервал автосохранений
-of.options.AUTOSAVE_TICKS.tooltip.2=Значение по умолчанию (2 секунды) НЕ РЕКОМЕНДУЕТСЯ.
+of.options.AUTOSAVE_TICKS.tooltip.2= §o45 секунд§r - значение по умолчанию
 of.options.AUTOSAVE_TICKS.tooltip.3=Может создавать кратковременные зависания.
+of.options.AUTOSAVE_TICKS.tooltip.4=Мир также сохраняется при открытии меню.
 
-of.options.save.default=2 секунды
-of.options.save.20s=20 секунд
+of.options.save.45s=45 секунд
+of.options.save.90s=90 секунд
 of.options.save.3min=3 минуты
-of.options.save.30min=30 минут
+of.options.save.6min=6 минут
+of.options.save.12min=12 минут
+of.options.save.24min=24 минуты
 
 of.options.SCREENSHOT_SIZE=Скриншот
 of.options.SCREENSHOT_SIZE.tooltip.1=Разрешение скриншота
