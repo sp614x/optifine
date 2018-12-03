@@ -6,7 +6,7 @@ Based on McPatcher's Custom Lightmaps
 Custom Lightmaps
 ================
 
-MCPatcher allows you to customize the lighting in the game.
+OptiFine allows you to customize the lighting in the game.
 
 How lighting works in vanilla
 =============================
@@ -27,14 +27,14 @@ Custom lighting
 
 To create custom lighting, you will need a lightmap palette for each world:
 
-    Nether: assets/minecraft/mcpatcher/lightmap/world-1.png
-    Overworld: assets/minecraft/mcpatcher/lightmap/world0.png
-    The End: assets/minecraft/mcpatcher/lightmap/world1.png
+    Nether: assets/minecraft/optifine/lightmap/world-1.png
+    Overworld: assets/minecraft/optifine/lightmap/world0.png
+    The End: assets/minecraft/optifine/lightmap/world1.png
 
 For the overworld you may also specify optional rain and thunder palettes:
 
-    Overworld rain: assets/minecraft/mcpatcher/lightmap/world0_rain.png
-    Overworld thunder: assets/minecraft/mcpatcher/lightmap/world0_thunder.png
+    Overworld rain: assets/minecraft/optifine/lightmap/world0_rain.png
+    Overworld thunder: assets/minecraft/optifine/lightmap/world0_thunder.png
     
 The rain and thunder palettes are only active when the main world palette is defined.
 
@@ -43,7 +43,7 @@ Of the 32 rows of pixels, the top 16 represent sunlight and the bottom 16 repres
 Two columns, 16 pixels from the top half and 16 pixels from the bottom half, are chosen to form the axes of the final 16x16 lightmap 
 used for rendering.
 
-Template by Misa (images/lightmap_template.png)
+Template: images/lightmap_template.png
 
 Blue=night, orange=dusk/dawn, cyan=day, yellow=lightning. 
 

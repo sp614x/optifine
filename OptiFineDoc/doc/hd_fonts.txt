@@ -8,19 +8,19 @@ HD Fonts
 
 As of 1.6, Minecraft allows fonts to be higher resolution than the default, but customization is still limited.
 
-MCPatcher first looks for fonts in the "assets/minecraft/mcpatcher/font" folder. 
-This allows you to have a custom font that works in vanilla and a higher resolution font that requires MCPatcher to display properly.
+OptiFine first looks for fonts in the "assets/minecraft/optifine/font" folder. 
+This allows you to have a custom font that works in vanilla and a higher resolution font that requires OptiFine to display properly.
 
-    Default font: assets/minecraft/mcpatcher/font/ascii.png
-    Enchanting table font: assets/minecraft/mcpatcher/font/ascii_sga.png
+    Default font: assets/minecraft/optifine/font/ascii.png
+    Enchanting table font: assets/minecraft/optifine/font/ascii_sga.png
 
 Note: Unicode fonts are not supported.
 
-To allow for more control over the widths of individual characters, MCPatcher offers a way to specify them manually. 
+To allow for more control over the widths of individual characters, OptiFine offers a way to specify them manually. 
 Create a properties file called:
 
-    assets/minecraft/mcpatcher/font/ascii.properties
-    assets/minecraft/mcpatcher/font/ascii_sga.properties
+    assets/minecraft/optifine/font/ascii.properties
+    assets/minecraft/optifine/font/ascii_sga.properties
 
 corresponding to the font you wish to customize.
 
@@ -42,9 +42,8 @@ For example, to specify the widths of capital A, B, and C, you might use
 Values can be floating point numbers (Vanilla only supports integer widths) and range from 0-8 regardless of the resolution of the font. 
 You do not need to specify widths for all characters, only the ones where you want to override the default width.
 
-The space character is special. Its default width is 1/2 of the average of the widths of A-Z, a-z, and 0-9, 
-which makes the spacing between words match the overall width of the font. However you can override this the same way, 
-by setting width.32 to a custom value.
+The space character default width is 4.0. 
+You can override this the same way, by setting "width.32" to a custom value.
 
 Alpha Blending
 ==============
@@ -53,6 +52,15 @@ When enabled the font will use alpha blending
 
   # Alpha blending
   blend=<true|false>
+
+Bold offset
+===========
+
+Bold characters are rendered twice with a small X offset which corresponds to the character stroke width. 
+The default offset is 1.0 for standard 8x fonts (texture 128x128) and 0.5 for higher resolutions.
+
+  # Bold offset
+  offsetBold=<value>
 
 Reference
 =========
