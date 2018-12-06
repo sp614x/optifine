@@ -2,11 +2,12 @@
 
 # General
 of.general.ambiguous=ambíguo
+of.general.compact=Compacto
 of.general.custom=Personalizado
 of.general.from=De
 of.general.id=ID
+of.general.max=Máximo
 of.general.restart=reiniciar
-of.general.max=Máxima
 of.general.smart=Inteligente
 
 # Keys
@@ -682,7 +683,7 @@ of.options.FULLSCREEN_MODE.tooltip.3=  WxH - resolução personalizada (eventual
 of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida é usada no modo tela inteira.
 of.options.FULLSCREEN_MODE.tooltip.5=Resoluções baixas geralmente são mais rápidas.
 
-of.options.SHOW_FPS=Mostrar FPS
+of.options.SHOW_FPS=Exibir FPS
 of.options.SHOW_FPS.tooltip.1=Exibe a taxa de quadros e informações de renderização.
 of.options.SHOW_FPS.tooltip.2=  FPS - média/mínima
 of.options.SHOW_FPS.tooltip.3=  C: - renderizadores de chunks
@@ -693,10 +694,10 @@ of.options.SHOW_FPS.tooltip.7=de depuração não é exibida.
 
 of.options.save.45s=45s
 of.options.save.90s=90s
-of.options.save.3min=3min.
-of.options.save.6min=6min.
-of.options.save.12min=12min.
-of.options.save.24min=24min.
+of.options.save.3min=3min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
 
 of.options.AUTOSAVE_TICKS=Autossalvamento
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo do autossalvamento
@@ -719,3 +720,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Desativar apenas caso haja conflitos e os er
 of.options.SHOW_GL_ERRORS.tooltip.4=não puderem ser corrigidos.
 of.options.SHOW_GL_ERRORS.tooltip.5=Ao desativar, erros ainda são registrados e
 of.options.SHOW_GL_ERRORS.tooltip.6=podem reduzir a taxa de quadros.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Fundo do bate-papo
+of.options.CHAT_BACKGROUND.tooltip.1=Exibição do fundo do bate-papo
+of.options.CHAT_BACKGROUND.tooltip.2=  Padrão - largura fixa
+of.options.CHAT_BACKGROUND.tooltip.3=  Compacto - flexível
+of.options.CHAT_BACKGROUND.tooltip.4=  Não - oculto
+
+of.options.CHAT_SHADOW=Sombra do bate-papo
+of.options.CHAT_SHADOW.tooltip.1=Exibição da sombra do bate-papo
+of.options.CHAT_SHADOW.tooltip.2=  Sim - ativar sombra
+of.options.CHAT_SHADOW.tooltip.3=  Não - desativar sombra
