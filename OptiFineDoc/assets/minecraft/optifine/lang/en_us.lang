@@ -1,11 +1,12 @@
 # General
 of.general.ambiguous=ambiguous
+of.general.compact=Compact
 of.general.custom=Custom
 of.general.from=From
 of.general.id=Id
+of.general.max=Maximum
 of.general.restart=restart
 of.general.smart=Smart
-of.general.max=Maximum
 
 # Keys
 of.key.zoom=Zoom
@@ -698,7 +699,7 @@ of.options.save.12min=12min
 of.options.save.24min=24min
 
 of.options.AUTOSAVE_TICKS=Autosave
-of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
+of.options.AUTOSAVE_TICKS.tooltip.1=Autosave Interval
 of.options.AUTOSAVE_TICKS.tooltip.2= 45s - default
 of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may generate lag spikes depending on the render distance.
 of.options.AUTOSAVE_TICKS.tooltip.4=The world is also saved when the game menu is opened.
@@ -718,3 +719,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict
 of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
 of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
 of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Chat Background
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Background
+of.options.CHAT_BACKGROUND.tooltip.2=  Default - fixed width
+of.options.CHAT_BACKGROUND.tooltip.3=  Compact - matches line width
+of.options.CHAT_BACKGROUND.tooltip.4=  OFF - hidden
+
+of.options.CHAT_SHADOW=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.1=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.2=  ON - use text shadow
+of.options.CHAT_SHADOW.tooltip.3=  OFF - no text shadow
