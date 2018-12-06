@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 29-Jul-2018
+#	Jerozgen  01-Mar-2016 — 03-Dec-2018
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -9,6 +9,7 @@ of.general.from=Файл
 of.general.id=ID
 of.general.restart=⟲
 of.general.smart=Умно
+of.general.max=Макс.
 
 # Управление
 of.key.zoom=Приблизить
@@ -271,7 +272,7 @@ of.shaders.profile=Настройки
 options.mipmapLevels.tooltip.1=Уровни детализации
 options.mipmapLevels.tooltip.2=  Выкл - без сглаживания
 options.mipmapLevels.tooltip.3=  1 - минимальное сглаживание
-options.mipmapLevels.tooltip.4=  4 - максимальное сглаживание
+options.mipmapLevels.tooltip.4=  Макс. - максимальное сглаживание
 options.mipmapLevels.tooltip.5=Заставляет удалённые объекты выглядеть лучше
 options.mipmapLevels.tooltip.6=посредством сглаживания деталей текстуры.
 options.mipmapLevels.tooltip.7=Обычно не влияет на производительность.
@@ -702,13 +703,16 @@ options.anaglyph.tooltip.4=Для просмотра потребуются ан
 
 of.options.AUTOSAVE_TICKS=Автосохранение
 of.options.AUTOSAVE_TICKS.tooltip.1=Интервал автосохранений
-of.options.AUTOSAVE_TICKS.tooltip.2=Значение по умолчанию (2 секунды) НЕ РЕКОМЕНДУЕТСЯ.
+of.options.AUTOSAVE_TICKS.tooltip.2= §o45 секунд§r - значение по умолчанию
 of.options.AUTOSAVE_TICKS.tooltip.3=Может создавать кратковременные зависания.
+of.options.AUTOSAVE_TICKS.tooltip.4=Мир также сохраняется при открытии меню.
 
-of.options.save.default=2 секунды
-of.options.save.20s=20 секунд
+of.options.save.45s=45 секунд
+of.options.save.90s=90 секунд
 of.options.save.3min=3 минуты
-of.options.save.30min=30 минут
+of.options.save.6min=6 минут
+of.options.save.12min=12 минут
+of.options.save.24min=24 минуты
 
 of.options.SCREENSHOT_SIZE=Скриншот
 of.options.SCREENSHOT_SIZE.tooltip.1=Разрешение скриншота
