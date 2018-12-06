@@ -4,12 +4,13 @@
 
 # General
 of.general.ambiguous=不明確
+of.general.compact=コンパクト
 of.general.custom=カスタム
 of.general.from=由来
 of.general.id=ID
+of.general.max=最大限
 of.general.restart=再起動
 of.general.smart=スマート
-of.general.max=最大限
 
 # Keys
 of.key.zoom=ズーム
@@ -721,3 +722,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=既知の競合や修正不可能なエラ�
 of.options.SHOW_GL_ERRORS.tooltip.4=無効にしてください。
 of.options.SHOW_GL_ERRORS.tooltip.5=無効にしてもエラーはエラーログに記載されるままであり
 of.options.SHOW_GL_ERRORS.tooltip.6=大幅なFPSの下降の原因となり続けます。
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=チャット欄
+of.options.CHAT_BACKGROUND.tooltip.1=チャット欄
+of.options.CHAT_BACKGROUND.tooltip.2=  デフォルト - 固定幅
+of.options.CHAT_BACKGROUND.tooltip.3=  コンパクト - 行の幅に合わせる
+of.options.CHAT_BACKGROUND.tooltip.4=  オフ - なし
+
+of.options.CHAT_SHADOW=チャットの影
+of.options.CHAT_SHADOW.tooltip.1=チャットの影
+of.options.CHAT_SHADOW.tooltip.2=  オン - テキストに影をつける
+of.options.CHAT_SHADOW.tooltip.3=  オフ - テキストに影をつけない
