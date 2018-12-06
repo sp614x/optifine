@@ -14,7 +14,7 @@
 #
 # Entity name          Part name
 # ==================== ======================================================
-# armor_stand          right, left, waist, base
+# armor_stand          head, headwear, body, left_arm, right_arm, left_leg, right_leg, right, left, waist, base 
 # banner               slate, stand, top
 # bat                  head, body, right_wing, left_wing, outer_right_wing, outer_left_wing
 # bed                  head, foot, leg1 ... leg4
