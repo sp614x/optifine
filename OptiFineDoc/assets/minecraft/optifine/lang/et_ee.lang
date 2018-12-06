@@ -1,11 +1,12 @@
 # General
 of.general.ambiguous=ebamäärane
+of.general.compact=kompaktne
 of.general.custom=Kohandatud
 of.general.from=Kohast
 of.general.id=ID
+of.general.max=maksimaalne
 of.general.restart=taaskäivita
 of.general.smart=tark
-of.general.max=maksimaalne
 
 # Keys
 of.key.zoom=Suum
@@ -720,3 +721,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Keela see vaid siis, kui on teadaolev konfli
 of.options.SHOW_GL_ERRORS.tooltip.4=ning neid vigu ei saa parandada.
 of.options.SHOW_GL_ERRORS.tooltip.5=Keelamisel logitakse vead siiski vealogisse ning
 of.options.SHOW_GL_ERRORS.tooltip.6=nad võivad siiski põhjustada silmnähtava ks languse.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Vestluse taust
+of.options.CHAT_BACKGROUND.tooltip.1=Vestluse taust
+of.options.CHAT_BACKGROUND.tooltip.2=  Vaikimisi - fikseeritud laius
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompaktne - vastab realaiusele
+of.options.CHAT_BACKGROUND.tooltip.4=  VÄLJAS - peidetud
+
+of.options.CHAT_SHADOW=Vestluse vari
+of.options.CHAT_SHADOW.tooltip.1=Vestluse teksti vari
+of.options.CHAT_SHADOW.tooltip.2=  SEES - kasuta tekstil varje
+of.options.CHAT_SHADOW.tooltip.3=  VÄLJAS - teksti varjud puuduvad
