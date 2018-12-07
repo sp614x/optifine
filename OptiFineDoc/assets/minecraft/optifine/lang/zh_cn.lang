@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   HeartyYF From InfinityStudio 2016-2-18 ---- 2018-11-22
+#   HeartyYF From InfinityStudio 2016-2-18 ---- 2018-12-7
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
@@ -11,12 +11,13 @@
 
 # General
 of.general.ambiguous=模糊
+of.general.compact=紧凑
 of.general.custom=自定义
 of.general.from=来自
 of.general.id=Id
+of.general.max=最大化
 of.general.restart=重启游戏
 of.general.smart=智能
-of.general.max=最大化
 
 # Keys
 of.key.zoom=缩放
@@ -729,3 +730,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且
 of.options.SHOW_GL_ERRORS.tooltip.4=明确知道错误无法修复时禁用此选项。
 of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
 of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误可能仍会导致明显的 FPS 下降。
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=聊天背景
+of.options.CHAT_BACKGROUND.tooltip.1=聊天背景
+of.options.CHAT_BACKGROUND.tooltip.2=  默认 - 固定字宽
+of.options.CHAT_BACKGROUND.tooltip.3=  紧凑 - 调整以适应行宽
+of.options.CHAT_BACKGROUND.tooltip.4=  关闭 - 隐藏
+
+of.options.CHAT_SHADOW=聊天阴影
+of.options.CHAT_SHADOW.tooltip.1=聊天阴影
+of.options.CHAT_SHADOW.tooltip.2=  开启 - 使用字体阴影
+of.options.CHAT_SHADOW.tooltip.3=  关闭 - 无字体阴影
