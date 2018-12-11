@@ -735,7 +735,8 @@ of.options.SHOW_GL_ERRORS.tooltip.2=OpenGL Fehler werden im Chat angezeigt.
 of.options.SHOW_GL_ERRORS.tooltip.3=Deaktiviere dies nur, wenn ein bekannter Fehler
 of.options.SHOW_GL_ERRORS.tooltip.4=vorliegt und dieser nicht behoben werden kann.
 of.options.SHOW_GL_ERRORS.tooltip.5=Auch nach Deaktivierung werden Fehler in der Log Datei
-of.options.SHOW_GL_ERRORS.tooltip.6=festgehalten und es kann zu erheblichen FPS Einbrüchen kommen.
+of.options.SHOW_GL_ERRORS.tooltip.6=festgehalten und es kann zu erheblichen FPS Einbrüchen
+of.options.SHOW_GL_ERRORS.tooltip.7=kommen.
 
 # Chat Settings
 
