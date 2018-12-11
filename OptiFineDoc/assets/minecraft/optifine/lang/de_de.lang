@@ -2,17 +2,18 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2018-11-20
+#   TheHADILP 2016-5-20 ---- 2018-12-11
 #   Nerdyyy 2018-1-6
 
 # General
 of.general.ambiguous=Unklar
+of.general.compact=Kompakt
 of.general.custom=Anderes
 of.general.from=Von
 of.general.id=ID
+of.general.max=Maximum
 of.general.restart=Neustart
 of.general.smart=Fein
-of.general.max=Maximum
 
 # Keys
 of.key.zoom=Zoom
@@ -727,3 +728,24 @@ of.options.SCREENSHOT_SIZE.tooltip.4=Das Aufnehmen größerer Screenshots kann m
 of.options.SCREENSHOT_SIZE.tooltip.5=Speicher benötigen.
 of.options.SCREENSHOT_SIZE.tooltip.6=Nicht kompatibel mit Schnellem Rendern und Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.7=Erfordert Grafiktreiberpuffer-Unterstützung.
+
+of.options.SHOW_GL_ERRORS=Zeige OpenGL Fehler
+of.options.SHOW_GL_ERRORS.tooltip.1=Zeige OpenGL Fehler
+of.options.SHOW_GL_ERRORS.tooltip.2=OpenGL Fehler werden im Chat angezeigt.
+of.options.SHOW_GL_ERRORS.tooltip.3=Deaktiviere dies nur, wenn ein bekannter Fehler
+of.options.SHOW_GL_ERRORS.tooltip.4=vorliegt und dieser nicht behoben werden kann.
+of.options.SHOW_GL_ERRORS.tooltip.5=Auch nach Deaktivierung werden Fehler in der Log Datei
+of.options.SHOW_GL_ERRORS.tooltip.6=festgehalten und es kann zu erheblichen FPS Einbrüchen kommen.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Chat Hintergrund
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Hintergrund
+of.options.CHAT_BACKGROUND.tooltip.2=  Standard - Feste Breite
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompakt - Entspricht Zeilenbreite
+of.options.CHAT_BACKGROUND.tooltip.4=  Aus - Versteckt
+
+of.options.CHAT_SHADOW=Chat Schatten
+of.options.CHAT_SHADOW.tooltip.1=Chat Schatten
+of.options.CHAT_SHADOW.tooltip.2=  An - Zeige Textschatten
+of.options.CHAT_SHADOW.tooltip.3=  Aus - Kein Textschatten
