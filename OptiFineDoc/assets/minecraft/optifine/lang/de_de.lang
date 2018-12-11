@@ -628,7 +628,8 @@ of.options.SMART_ANIMATIONS.tooltip.3= An - Benutze intelligente Animationen
 of.options.SMART_ANIMATIONS.tooltip.4=Es werden nur Texturen animiert, die gerade auf
 of.options.SMART_ANIMATIONS.tooltip.5=dem Bildschirm sichtbar sind.
 of.options.SMART_ANIMATIONS.tooltip.6=Dies reduziert Lag-Spitzen und erhöht die FPS.
-of.options.SMART_ANIMATIONS.tooltip.7=Besonders nützlich bei großen Mod-Packs und HD-Texturen.
+of.options.SMART_ANIMATIONS.tooltip.7=Besonders nützlich bei großen Mod-Packs und
+of.options.SMART_ANIMATIONS.tooltip.8=Ressourcenpaketen mit HD-Texturen.
 
 # Animations
 
