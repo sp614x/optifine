@@ -110,12 +110,19 @@ of.options.AO_LEVEL.tooltip.4=  100%% - sombras oscuras
 options.viewBobbing.tooltip.1=Un movimiento más realista.
 options.viewBobbing.tooltip.2=Desactívalo al usar mipmap para que sea mejor.
 
-options.guiScale.tooltip.1=Tamaño de la interfaz (GUI)
-options.guiScale.tooltip.2=La interfaz pequeña puede mejorar el rendimiento.
+options.guiScale.tooltip.1=Tamaño de interfaz (GUI)
+options.guiScale.tooltip.2=  Auto. - tamaño máximo
+options.guiScale.tooltip.3=  Pequeña, normal y grande - desde 1x hasta 3x
+options.guiScale.tooltip.4=  Desde 4x hasta 10x - disponible en pantallas 4K.
+options.guiScale.tooltip.5=
+options.guiScale.tooltip.6=Los valores impares (1x, 3x, 5x...) no son compatibles
+options.guiScale.tooltip.7=con la fuente unicode.
+options.guiScale.tooltip.8=Una interfaz pequeña puede mejorar el rendimiento.
 
 options.vbo.tooltip.1=Vertex Buffer Objects (abreviado como VBO)
-options.vbo.tooltip.2=Forma alternativa de renderizado que suele ser
-options.vbo.tooltip.3=más rápida (5-10%%) que la predeterminada.
+options.vbo.tooltip.2= 
+options.vbo.tooltip.3=Es un tipo de renderizado alternativo que suele ser
+options.vbo.tooltip.4=más rápido que el predeterminado (un 5-10%%).
 
 options.gamma.tooltip.1=Modificar el brillo
 options.gamma.tooltip.2=  Oscuro - brillo por defecto
@@ -177,20 +184,20 @@ of.options.shaders.ANTIALIASING.tooltip.6=Funciona mejor que el antialiasing com
 of.options.shaders.ANTIALIASING.tooltip.7=es compatible con Renderizado rápido y shaders.  
 
 of.options.shaders.NORMAL_MAP=Mapeado normal
-of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
-of.options.shaders.NORMAL_MAP.tooltip.2=  SI - (por defecto)
+of.options.shaders.NORMAL_MAP.tooltip.1=También llamado Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.2=  SÍ - (por defecto)
 of.options.shaders.NORMAL_MAP.tooltip.3=  NO
-of.options.shaders.NORMAL_MAP.tooltip.4=Esta opción puede ser usada por shaders para
-of.options.shaders.NORMAL_MAP.tooltip.5=simular geometría 3D en superficies planas.
+of.options.shaders.NORMAL_MAP.tooltip.4=Puede usarse por shaders para simular geometría 3D
+of.options.shaders.NORMAL_MAP.tooltip.5=en superficies planas.
 of.options.shaders.NORMAL_MAP.tooltip.6=  
 of.options.shaders.NORMAL_MAP.tooltip.7=No todas las shaders soportan esta opción.
 
 of.options.shaders.SPECULAR_MAP=Mapeado especular
-of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
-of.options.shaders.SPECULAR_MAP.tooltip.2=  SI - (por defecto) 
+of.options.shaders.SPECULAR_MAP.tooltip.1=También llamado Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.2=  SÍ - (por defecto) 
 of.options.shaders.SPECULAR_MAP.tooltip.3=  NO
-of.options.shaders.SPECULAR_MAP.tooltip.4=Esta opción puede ser usada por shaders para
-of.options.shaders.SPECULAR_MAP.tooltip.5=simular un efecto de reflejo especial.
+of.options.shaders.SPECULAR_MAP.tooltip.4=Esta opción puede ser usada por shaders para simular
+of.options.shaders.SPECULAR_MAP.tooltip.5=un efecto de reflejo especial.
 of.options.shaders.SPECULAR_MAP.tooltip.6=  
 of.options.shaders.SPECULAR_MAP.tooltip.7=No todas las shaders soportan esta opción.
 
@@ -200,8 +207,8 @@ of.options.shaders.RENDER_RES_MUL.tooltip.1=Calidad de renderizado del juego
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - bajo (más rápido, más borroso)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - normal (por defecto)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - alto (más lento, más calidad)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=Controla el tamaño de la resolución
-of.options.shaders.RENDER_RES_MUL.tooltip.6=interna que las shaders renderizan.
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Controla la resolución interna a la que se renderiza.
+of.options.shaders.RENDER_RES_MUL.tooltip.6= 
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Valor bajo = aumenta el rendimiento.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Valor alto = sirve como antialiasing.
 
@@ -210,8 +217,8 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.1=Calidad de sombras
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - bajo (más rápido)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - normal (por defecto)
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - alto (más lento)
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=Controla el mapeado de sombras
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=de las shaders.
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Controla el mapeado de sombras de las shaders.
+of.options.shaders.SHADOW_RES_MUL.tooltip.6= 
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Valor bajo = borrosas, líneas gruesas.
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Valor alto = detalladas, líneas definidas.
 
@@ -220,14 +227,14 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Profundidad de campo
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - mano cerca de la cámara
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (por defecto)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - mano lejos de la cámara
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Controla la distancia entre la mano/objeto que
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=tenga y la cámara de primera persona.
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Esto debería cambiar el desenfoque que ocurre
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=en la mano con las shaders que usan blur.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Controla la distancia entre la mano y la cámara.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6= 
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Puede cambiar el desenfoque producido en la mano
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=por las shaders que usan blur.
 
 of.options.shaders.CLOUD_SHADOW=Sombras de nubes
 
-of.options.shaders.OLD_HAND_LIGHT=LC - manos
+of.options.shaders.OLD_HAND_LIGHT=LC manos
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Luz clásica (LC) en la mano
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Por defecto - controlado por shaders
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  SÍ - usar el sistema clásico
@@ -242,7 +249,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.2=  Por defecto - controlado por shaders
 of.options.shaders.OLD_LIGHTING.tooltip.3=  SÍ - usar luz clásica
 of.options.shaders.OLD_LIGHTING.tooltip.4=  NO - no usar luz clásica
 of.options.shaders.OLD_LIGHTING.tooltip.5=La luz clásica controla la iluminación estática de
-of.options.shaders.OLD_LIGHTING.tooltip.6=Minecraft vanilla a los lados del bloque. 
+of.options.shaders.OLD_LIGHTING.tooltip.6=Minecraft normal a los lados del bloque. 
 of.options.shaders.OLD_LIGHTING.tooltip.7=Algunas shaders suelen proporcionar una iluminación
 of.options.shaders.OLD_LIGHTING.tooltip.8=mejorada que varía según la posición del sol.
 
@@ -434,8 +441,8 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  NO - usar modelos predeterminados, m
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=No todos los paquetes de recursos soportan esta opción.
 
-of.options.CUSTOM_GUIS=Interfaces personalizadas
-of.options.CUSTOM_GUIS.tooltip.1=Interfaces (GUI) personalizadas
+of.options.CUSTOM_GUIS=Interfaz personalizada
+of.options.CUSTOM_GUIS.tooltip.1=Interfaz del juego (GUI) personalizada
 of.options.CUSTOM_GUIS.tooltip.2=  SÍ - interfaz personalizada (por defecto), más lento
 of.options.CUSTOM_GUIS.tooltip.3=  NO - interfaz original, más rápido
 of.options.CUSTOM_GUIS.tooltip.4=
@@ -501,14 +508,14 @@ of.options.SHOW_CAPES.tooltip.1=Capas de jugadores
 of.options.SHOW_CAPES.tooltip.2=  SÍ - mostrar las capas de los jugadores (por defecto)
 of.options.SHOW_CAPES.tooltip.3=  NO - ocultar las capas de los jugadores
 
-of.options.TRANSLUCENT_BLOCKS=Bloq. translúcidos
+of.options.TRANSLUCENT_BLOCKS=Bl. translúcidos
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Bloques translúcidos
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Detallados - mezcla de colores perfecta (por defecto)
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rápidos - mezcla de colores cutre (más rápido)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4= 
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Esta opción afecta a los bloques translúcidos que tienen
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=color pero sólo cuando se colocan uno detrás del otro con
-of.options.TRANSLUCENT_BLOCKS.tooltip.7=un bloque vacío entre ambos.
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=color pero sólo cuando se colocan uno detrás del otro
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=con un bloque vacío entre ambos.
 of.options.TRANSLUCENT_BLOCKS.tooltip.8=Afecta a: cristal tintado, agua, hielo...
 
 of.options.HELD_ITEM_TOOLTIPS=Texto en barra inferior
@@ -540,8 +547,9 @@ of.options.DYNAMIC_FOV=Campo de visión dinámico
 of.options.DYNAMIC_FOV.tooltip.1=Campo de visión dinámico
 of.options.DYNAMIC_FOV.tooltip.2=  SÍ - activarlo (por defecto)
 of.options.DYNAMIC_FOV.tooltip.3=  NO - desactivarlo
-of.options.DYNAMIC_FOV.tooltip.4=Cambiar el campo de visión (FOV) al volar, correr
-of.options.DYNAMIC_FOV.tooltip.5=o apuntar con un arco.
+of.options.DYNAMIC_FOV.tooltip.4=
+of.options.DYNAMIC_FOV.tooltip.5=Cambiar el campo de visión (FOV) al volar, correr o
+of.options.DYNAMIC_FOV.tooltip.6=apuntar con un arco.
 
 of.options.DYNAMIC_LIGHTS=Ilum. dinámica
 of.options.DYNAMIC_LIGHTS.tooltip.1=Iluminación dinámica
@@ -616,6 +624,26 @@ of.options.LAZY_CHUNK_LOADING.tooltip.6=varios ticks. Desactívala si algunas pa
 of.options.LAZY_CHUNK_LOADING.tooltip.7=cargan correctamente.
 of.options.LAZY_CHUNK_LOADING.tooltip.8=Sólo funciona en mundos locales con CPUs de un núcleo.
 
+of.options.RENDER_REGIONS=Render. por regiones
+of.options.RENDER_REGIONS.tooltip.1=Renderizado por regiones
+of.options.RENDER_REGIONS.tooltip.2= NO - no usar renderizado por regiones (por defecto)
+of.options.RENDER_REGIONS.tooltip.3= SÍ - usar renderizado por regiones
+of.options.RENDER_REGIONS.tooltip.4=    
+of.options.RENDER_REGIONS.tooltip.5=Permite renderizar el terreno muy rápidamente
+of.options.RENDER_REGIONS.tooltip.6=cuando te encuentras a una gran altura.
+of.options.RENDER_REGIONS.tooltip.7=  
+of.options.RENDER_REGIONS.tooltip.8=Es más efectivo si se activa "Usar VBOs" o "VBO".
+
+of.options.SMART_ANIMATIONS=Animaciones inteligentes
+of.options.SMART_ANIMATIONS.tooltip.1=Animaciones inteligentes
+of.options.SMART_ANIMATIONS.tooltip.2= NO - no usar animaciones inteligentes (por defecto)
+of.options.SMART_ANIMATIONS.tooltip.3= SÍ - usar animaciones inteligentes
+of.options.SMART_ANIMATIONS.tooltip.4=  
+of.options.SMART_ANIMATIONS.tooltip.5=Al activarse, sólo se animan las texturas visibles.
+of.options.SMART_ANIMATIONS.tooltip.6=De esta forma se mejora mucho el rendimiento (más FPS).
+of.options.SMART_ANIMATIONS.tooltip.7=Es muy útil cuando se usan grandes paquetes de mods
+of.options.SMART_ANIMATIONS.tooltip.8=o paquetes de recursos de alta definición.
+
 # Animations
 
 of.options.animation.allOn=TODO SÍ
@@ -663,8 +691,9 @@ of.options.WEATHER=Tiempo atmosférico
 of.options.WEATHER.tooltip.1=  
 of.options.WEATHER.tooltip.2=  SÍ - tiempo atmosférico, más lento
 of.options.WEATHER.tooltip.3=  NO - tiempo atmosférico, más rápido
-of.options.WEATHER.tooltip.4=El clima controla la lluvia, la nieve y las tormentas.
-of.options.WEATHER.tooltip.5=Esta opción no funciona en multijugador.
+of.options.WEATHER.tooltip.4=  
+of.options.WEATHER.tooltip.5=Afecta a: lluvia, nieve y tormentas.
+of.options.WEATHER.tooltip.6=Esta opción no funciona en multijugador.
 
 of.options.time.dayOnly=Sólo día
 of.options.time.nightOnly=Sólo noche
@@ -706,8 +735,8 @@ of.options.save.30min=30min
 
 of.options.AUTOSAVE_TICKS=Autoguardado
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo del autoguardado
-of.options.AUTOSAVE_TICKS.tooltip.2=El intervalo original del juego (2s) NO SE RECOMIENDA.
-of.options.AUTOSAVE_TICKS.tooltip.3=Un intervalo corto puede causar mal rendimiento.
+of.options.AUTOSAVE_TICKS.tooltip.2=El original del juego (cada 2 seg.) NO SE RECOMIENDA.
+of.options.AUTOSAVE_TICKS.tooltip.3=Ponerlo cada poco tiempo puede causar mal rendimiento.
 
 options.anaglyph.tooltip.1=Visión en 3D
 
@@ -715,17 +744,19 @@ of.options.SCREENSHOT_SIZE=Capturas
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamaño de las capturas de pantalla
 of.options.SCREENSHOT_SIZE.tooltip.2=  Por defecto - tamaño normal
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tamaños personalizados
-of.options.SCREENSHOT_SIZE.tooltip.4=Las capturas ocuparán más espacio al aumentar el tamaño.
-of.options.SCREENSHOT_SIZE.tooltip.5=No es compatible con Renderizado rápido ni con Antialiasing.
-of.options.SCREENSHOT_SIZE.tooltip.6=Requiere que tu tarjeta gráfica soporte Framebuffer.
+of.options.SCREENSHOT_SIZE.tooltip.4=  
+of.options.SCREENSHOT_SIZE.tooltip.5=Las capturas ocuparán más espacio al aumentar el tamaño.
+of.options.SCREENSHOT_SIZE.tooltip.6=No es compatible con Renderizado rápido ni con Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.7=Requiere que tu tarjeta gráfica soporte Framebuffer.
 
 of.options.ADVANCED_TOOLTIPS=Descripciones de objetos
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Descripciones de objetos en el inventario
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  SÍ - mostrar descripciones 
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  NO - no mostras descripciones (por defecto)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=Esta opción permite ver información más detallada
-of.options.ADVANCED_TOOLTIPS.tooltip.5=sobre los objetos (ID, durabilidad) y sobre las
-of.options.ADVANCED_TOOLTIPS.tooltip.6=shaders (ID, fuente, valor predeterminado).
+of.options.ADVANCED_TOOLTIPS.tooltip.4=  
+of.options.ADVANCED_TOOLTIPS.tooltip.5=Esta opción permite ver información más detallada sobre
+of.options.ADVANCED_TOOLTIPS.tooltip.6=objetos (ID, durabilidad) y shaders (ID, fuente,
+of.options.ADVANCED_TOOLTIPS.tooltip.7=valor predeterminado).
 
 of.options.SHOW_GL_ERRORS=Mostrar errores de GL
 of.options.SHOW_GL_ERRORS.tooltip.1=Mostrar errores de OpenGL
@@ -733,5 +764,5 @@ of.options.SHOW_GL_ERRORS.tooltip.2=Al activarse, los errores se muestran en el 
 of.options.SHOW_GL_ERRORS.tooltip.3=Desactívalo si hay un problema irresoluble para
 of.options.SHOW_GL_ERRORS.tooltip.4=que los errores no te molesten.
 of.options.SHOW_GL_ERRORS.tooltip.5=    
-of.options.SHOW_GL_ERRORS.tooltip.6=Aunque se desactive, los errores continuarán apareciendo en
+of.options.SHOW_GL_ERRORS.tooltip.6=Aunque se desactive, los errores siguen apareciendo en
 of.options.SHOW_GL_ERRORS.tooltip.7=el registro (log) y pueden seguir causando FPS inestables.

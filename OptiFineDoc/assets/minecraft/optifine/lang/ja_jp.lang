@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 2018-06-26
+#   CrafterKina 2014-01-04 ----
 
 # General
 of.general.ambiguous=不明確
@@ -9,6 +9,7 @@ of.general.from=由来
 of.general.id=ID
 of.general.restart=再起動
 of.general.smart=スマート
+of.general.max=最大限
 
 # Keys
 of.key.zoom=ズーム
@@ -284,7 +285,7 @@ options.mipmapLevels.tooltip.1=遠くの物体における視覚効果を
 options.mipmapLevels.tooltip.2=テクスチャのスムージングによって改善します。
 options.mipmapLevels.tooltip.3=  オフ - スムージングを行わない
 options.mipmapLevels.tooltip.4=  1 - 最小限のスムージング
-options.mipmapLevels.tooltip.5=  4 - 最大限のスムージング
+options.mipmapLevels.tooltip.5=  最大限 - 最大限のスムージング
 options.mipmapLevels.tooltip.6=この設定は概ねパフォーマンスに影響を与えません。
 
 of.options.MIPMAP_TYPE=ミップマップの種類
@@ -558,6 +559,7 @@ of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画 (初期値)
 of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画 (低負荷) 
 of.options.FAST_RENDER.tooltip.4=GPUのロード回数を減らした方式によって
 of.options.FAST_RENDER.tooltip.5=大幅にFPSを向上します。
+of.options.FAST_RENDER.tooltip.6=この機能はModと競合する可能性があります。
 
 of.options.FAST_MATH=計算の最適化
 of.options.FAST_MATH.tooltip.1=計算の最適化
@@ -565,6 +567,7 @@ of.options.FAST_MATH.tooltip.2= オフ - 通常の計算 (初期値)
 of.options.FAST_MATH.tooltip.3= オン - 最適化された計算
 of.options.FAST_MATH.tooltip.4=最適化した三角関数を用いて
 of.options.FAST_MATH.tooltip.5=CPUのキャッシュを活用しFPSを向上します。
+of.options.FAST_MATH.tooltip.6=この機能は地形生成に僅かな影響を及ぼす可能性があります。
 
 of.options.CHUNK_UPDATES=チャンク読込方法
 of.options.CHUNK_UPDATES.tooltip.1=チャンク読込方法
@@ -594,8 +597,9 @@ of.options.RENDER_REGIONS=領域描画
 of.options.RENDER_REGIONS.tooltip.1=領域描画
 of.options.RENDER_REGIONS.tooltip.2= オフ - 領域描画を用いない (初期値)
 of.options.RENDER_REGIONS.tooltip.3= オン - 領域描画を用いる
-of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を
-of.options.RENDER_REGIONS.tooltip.5=可能にします。頂点バッファオブジェクトが有効な場合により効果的です。
+of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を可能にします。
+of.options.RENDER_REGIONS.tooltip.5=頂点バッファオブジェクトが有効な場合に、より効果的です。
+of.options.RENDER_REGIONS.tooltip.6=オンボードグラフィックカードでは推奨されません。
 
 of.options.SMART_ANIMATIONS=スマートアニメーション
 of.options.SMART_ANIMATIONS.tooltip.1=スマートアニメーション
@@ -682,21 +686,25 @@ of.options.FULLSCREEN_MODE.tooltip.5=低い解像度では一般的に、より�
 
 of.options.SHOW_FPS=FPSを表示
 of.options.SHOW_FPS.tooltip.1=コンパクトなFPSと描画情報を表示
-of.options.SHOW_FPS.tooltip.2=  C: - チャンク描画
-of.options.SHOW_FPS.tooltip.3=  E: - エンティティ描画
-of.options.SHOW_FPS.tooltip.4=  U: - チャンクアップデート
-of.options.SHOW_FPS.tooltip.5=コンパクトなFPS情報は
-of.options.SHOW_FPS.tooltip.6=デバッグ画面が非表示の時のみ表示されます。
+of.options.SHOW_FPS.tooltip.2=  FPS - 平均/最小
+of.options.SHOW_FPS.tooltip.3=  C: - チャンク描画
+of.options.SHOW_FPS.tooltip.4=  E: - エンティティ描画
+of.options.SHOW_FPS.tooltip.5=  U: - チャンクアップデート
+of.options.SHOW_FPS.tooltip.6=コンパクトなFPS情報は
+of.options.SHOW_FPS.tooltip.7=デバッグ画面が非表示の時のみ表示されます。
 
-of.options.save.default=デフォルト (2秒)
-of.options.save.20s=20秒
+of.options.save.45s=45秒
+of.options.save.90s=90秒
 of.options.save.3min=3分
-of.options.save.30min=30分
+of.options.save.6min=6分
+of.options.save.12min=12分
+of.options.save.24min=24分
 
 of.options.AUTOSAVE_TICKS=オートセーブ
 of.options.AUTOSAVE_TICKS.tooltip.1=セーブ間隔
-of.options.AUTOSAVE_TICKS.tooltip.2=2秒ごとのセーブは推奨されません。
-of.options.AUTOSAVE_TICKS.tooltip.3=オートセーブはラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.2= 45秒 - デフォルト
+of.options.AUTOSAVE_TICKS.tooltip.3=描画距離によってはオートセーブはラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.4=ゲームメニューを開いた際にもワールドはセーブされます。
 
 of.options.SCREENSHOT_SIZE=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ

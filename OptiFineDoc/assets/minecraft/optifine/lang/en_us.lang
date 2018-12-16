@@ -1,8 +1,10 @@
 # General
 of.general.ambiguous=ambiguous
+of.general.compact=Compact
 of.general.custom=Custom
 of.general.from=From
 of.general.id=Id
+of.general.max=Maximum
 of.general.restart=restart
 of.general.smart=Smart
 
@@ -280,7 +282,7 @@ options.mipmapLevels.tooltip.1=Visual effect which makes distant objects look be
 options.mipmapLevels.tooltip.2=by smoothing the texture details
 options.mipmapLevels.tooltip.3=  OFF - no smoothing
 options.mipmapLevels.tooltip.4=  1 - minimum smoothing
-options.mipmapLevels.tooltip.5=  4 - maximum smoothing
+options.mipmapLevels.tooltip.5=  Maximum - maximum smoothing
 options.mipmapLevels.tooltip.6=This option usually does not affect the performance.
 
 of.options.MIPMAP_TYPE=Mipmap Type
@@ -555,6 +557,7 @@ of.options.FAST_RENDER.tooltip.2= OFF - standard rendering (default)
 of.options.FAST_RENDER.tooltip.3= ON - optimized rendering (faster)
 of.options.FAST_RENDER.tooltip.4=Uses optimized rendering algorithm which decreases
 of.options.FAST_RENDER.tooltip.5=the GPU load and may substantially increase the FPS.
+of.options.FAST_RENDER.tooltip.6=This option can conflict with some mods.
 
 of.options.FAST_MATH=Fast Math
 of.options.FAST_MATH.tooltip.1=Fast Math
@@ -562,6 +565,7 @@ of.options.FAST_MATH.tooltip.2= OFF - standard math (default)
 of.options.FAST_MATH.tooltip.3= ON - faster math
 of.options.FAST_MATH.tooltip.4=Uses optimized sin() and cos() functions which can
 of.options.FAST_MATH.tooltip.5=better utilize the CPU cache and increase the FPS.
+of.options.FAST_MATH.tooltip.6=This option can minimally affect the world generation.
 
 of.options.CHUNK_UPDATES=Chunk Updates
 of.options.CHUNK_UPDATES.tooltip.1=Chunk updates
@@ -593,6 +597,7 @@ of.options.RENDER_REGIONS.tooltip.2= OFF - do not use render regions (default)
 of.options.RENDER_REGIONS.tooltip.3= ON - use render regions
 of.options.RENDER_REGIONS.tooltip.4=Render regions allow faster terrain rendering at higher
 of.options.RENDER_REGIONS.tooltip.5=render distances. More effective when VBOs are enabled.
+of.options.RENDER_REGIONS.tooltip.6=Not recommended for integrated graphics cards.
 
 of.options.SMART_ANIMATIONS=Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
@@ -679,21 +684,25 @@ of.options.FULLSCREEN_MODE.tooltip.5=Lower resolutions should generally be faste
 
 of.options.SHOW_FPS=Show FPS
 of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information.
-of.options.SHOW_FPS.tooltip.2=  C: - chunk renderers
-of.options.SHOW_FPS.tooltip.3=  E: - rendered entities + block entities
-of.options.SHOW_FPS.tooltip.4=  U: - chunk updates
-of.options.SHOW_FPS.tooltip.5=The compact FPS information is only shown when the
-of.options.SHOW_FPS.tooltip.6=debug screen is not visible.
+of.options.SHOW_FPS.tooltip.2=  Fps - average/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - chunk renderers
+of.options.SHOW_FPS.tooltip.4=  E: - rendered entities + block entities
+of.options.SHOW_FPS.tooltip.5=  U: - chunk updates
+of.options.SHOW_FPS.tooltip.6=The compact FPS information is only shown when the
+of.options.SHOW_FPS.tooltip.7=debug screen is not visible.
 
-of.options.save.default=Default (2s)
-of.options.save.20s=20s
+of.options.save.45s=45s
+of.options.save.90s=90s
 of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
 
 of.options.AUTOSAVE_TICKS=Autosave
-of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
-of.options.AUTOSAVE_TICKS.tooltip.2=Default autosave interval (2s) is NOT RECOMMENDED.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosave causes the famous Lag Spike of Death.
+of.options.AUTOSAVE_TICKS.tooltip.1=Autosave Interval
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - default
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may generate lag spikes depending on the render distance.
+of.options.AUTOSAVE_TICKS.tooltip.4=The world is also saved when the game menu is opened.
 
 of.options.SCREENSHOT_SIZE=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
@@ -710,3 +719,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict
 of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
 of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
 of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Chat Background
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Background
+of.options.CHAT_BACKGROUND.tooltip.2=  Default - fixed width
+of.options.CHAT_BACKGROUND.tooltip.3=  Compact - matches line width
+of.options.CHAT_BACKGROUND.tooltip.4=  OFF - hidden
+
+of.options.CHAT_SHADOW=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.1=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.2=  ON - use text shadow
+of.options.CHAT_SHADOW.tooltip.3=  OFF - no text shadow

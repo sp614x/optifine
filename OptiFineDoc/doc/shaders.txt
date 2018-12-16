@@ -29,9 +29,14 @@ Despite the naming, all of these color attachments are the same and can be used 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
 The rest have their color cleared to black with 0 alpha.
-Deferred and composite programs use ping-pong buffers to pipe the output of one program as input to the next one.
-When needed one last deferred or composite program may be added automatically to even out the flipped ping-pong buffers. 
-This allows them to read and write from and to the same buffer alias.
+
+Each color attachment uses 2 buffers (A and B) with logical names "main" and "alt", which can be used as ping-pong buffers.
+When the buffers are flipped the mapping between main/alt and A/B is reversed.
+Gbuffer programs always read from "main" (only gaux1-4) and write to "main" buffers (they shouldn't read and write to the same buffer at the same time).
+Deferred/composite programs always read from "main" and write to "alt" buffers. 
+After a deferred/composite program is rendered the buffers that it writes to are flipped so the next programs can see the current output as input.
+The property "flip.<program>.<buffer>=<true|false>" can be used to enable or disable the flip independant of the buffer write.
+The virtual programs "deferred_pre" and "composite_pre" can be used for buffer flipping before the deferred/composite pass.
 
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
@@ -83,20 +88,20 @@ gbuffers_spidereyes          eyes of spider, enderman and dragon   gbuffers_text
 gbuffers_hand                hand and opaque handheld objects      gbuffers_textured_lit
 gbuffers_weather             rain, snow                            gbuffers_textured_lit
 --- Deferred ---
+deferred_pre                 <virtual> flip ping-pong buffers      <none>
 deferred                     <deferred>                            <none>
 deferred1                    <deferred>                            <none>
 ...
 deferred15                   <deferred>                            <none>
-deferred_last                <internal> restore ping-pong buffers  <none>
 --- GBuffers translucent ---
 gbuffers_water               translucent                           gbuffers_terrain
 gbuffers_hand_water          translucent handheld objects          gbuffers_hand
 --- Composite ---
+composite_pre                <virtual> flip ping-pong buffers      <none>
 composite                    <composite>                           <none>
 composite1                   <composite>                           <none>
 ...
 composite15                  <composite>                           <none>
-composite_last               <internal> restore ping-pong buffers  <none>
 --- Final ---
 final                        <final>                               <none>
 
@@ -108,21 +113,22 @@ Todo:
  
 Attributes
 ==========
-Source                                          Value                                                    Comment
+Source                                          Value                                             Comment
 =====================================================================================================================================================================
-attribute vec3 mc_Entity;                       xyz = blockID, renderType, metadata                            
-attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                                    Sprite middle UV coordinates                
+attribute vec3 mc_Entity;                       xy = blockId, renderType                          "blockId" is used only for blocks specified in "block.properties"      
+attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                             Sprite middle UV coordinates                
 attribute vec4 at_tangent;                      xyz = tangent vector, w = handedness
 
 Uniforms
 ==========
 Source                                          Value                                                    
 =====================================================================================================================================================================
-uniform int heldItemId;                         held item ID (main hand)
+uniform int heldItemId;                         held item ID (main hand), used only for items defined in "item.properties"
 uniform int heldBlockLightValue;                held item light value (main hand)
-uniform int heldItemId2;                        held item ID (off hand)
+uniform int heldItemId2;                        held item ID (off hand), used only for items defined in "item.properties"
 uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
+uniform float fogDensity;                       0.0-1.0
 uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
 uniform int worldTime;                          <ticks> = worldTicks % 24000
@@ -170,7 +176,7 @@ uniform float centerDepthSmooth;                centerDepth smoothed with center
 uniform ivec2 atlasSize;                        texture atlas size (only set when the atlas texture is bound)
 uniform vec4 entityColor;                       entity color multiplier (entity hurt, creeper flashing when exploding)
 uniform int entityId;                           entity ID
-uniform int blockEntityId;                      block entity ID (block ID for the tile entity) 
+uniform int blockEntityId;                      block entity ID (block ID for the tile entity, only for blocks specified in "block.properties")
 uniform ivec4 blendFunc;                        blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)
 
 GBuffers Uniforms
@@ -360,7 +366,6 @@ uniform <type> shadowcolor1;                    shadowColorBuffers = 2
 uniform <type> depthtex0;                       depthBuffers = 1
 uniform <type> depthtex1;                       depthBuffers = 2
 uniform <type> depthtex2;                       depthBuffers = 3
-uniform <type> depthtex3;                       depthBuffers = 4
 uniform <type> gdepth;                          if (bufferFormat[1] == RGBA) bufferFormat[1] = RGBA32F;
 uniform <type> gaux1;                           colorBuffers = 5
 uniform <type> gaux2;                           colorBuffers = 6
@@ -487,8 +492,10 @@ Block ID mapping
 ================
 The block ID mapping is defined in "shaders/block.properties" included in the shader pack.
 Forge mods may add custom block mapping as "assets/<modid>/shaders/block.properties" in the mod JAR file.
+The "block.properties" file can use conditional preprocessor directives (#ifdef, #if, etc.)
+For more details see section "Standard Macros" A to G. Option macros are not available.
 Format "block.<id>=<block1> <block2> ..."
-The key is the substitute block ID, the value are the blocks which are to be replaced.
+The key is the substitute block ID, the values are the blocks which are to be replaced.
 Only one line per block ID is allowed.
 See "properties_files.txt" for the block matching rules.
 
@@ -498,8 +505,8 @@ See "properties_files.txt" for the block matching rules.
   block.32=minecraft:red_flower ic2:nether_flower botania:reeds
   # Properties
   block.33=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip botania:reeds:type=green
-  # Block ID, Metadata (backwards compatibility)
-  block.34=38:6 38:7 83
+
+See "properties.files" for more details.
 
 Block render layers
 ===================
@@ -521,6 +528,36 @@ as this would affect face culling, ambient occlusion, light propagation and so o
 
 For exaple:
   layer.translucent=glass_pane fence wooden_door
+
+Item ID mapping
+================
+The item ID mapping is defined in "shaders/item.properties" included in the shader pack.
+Forge mods may add custom item mapping as "assets/<modid>/shaders/item.properties" in the mod JAR file.
+The "item.properties" file can use conditional preprocessor directives (#ifdef, #if, etc.)
+For more details see section "Standard Macros" A to G. Option macros are not available.
+Format "item.<id>=<item1> <item2> ..."
+The key is the substitute item ID, the values are the items which are to be replaced.
+Only one line per item ID is allowed.
+
+  # Short format
+  item.5000=diamond_sword dirt
+  # Long format
+  item.5001=minecraft:diamond_sword botania:reeds
+
+Entity ID mapping
+=================
+The entity ID mapping is defined in "shaders/entity.properties" included in the shader pack.
+Forge mods may add custom entity mapping as "assets/<modid>/shaders/entity.properties" in the mod JAR file.
+The "entity.properties" file can use conditional preprocessor directives (#ifdef, #if, etc.)
+For more details see section "Standard Macros" A to G. Option macros are not available.
+Format "entity.<id>=<entity1> <entity2> ..."
+The key is the substitute entity ID, the values are the entities which are to be replaced.
+Only one line per entity ID is allowed.
+
+  # Short format
+  entity.2000=sheep cow
+  # Long format
+  entity.2001=minecraft:pig botania:pixie
 
 Standard Macros
 ===============
@@ -568,7 +605,7 @@ G. OpenGL extensions
  Macros for the supported OpenGL extensions are named like the corresponding extension with a prefix "MC_".
  For example the macro "MC_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.
  Only the macros which are referenced and supported are added to the shader file.
- 
+
 H. Options
  #define MC_FXAA_LEVEL <value>       // When FXAA is enabled, values: 2, 4
  #define MC_NORMAL_MAP               // When the normal map is enabled
