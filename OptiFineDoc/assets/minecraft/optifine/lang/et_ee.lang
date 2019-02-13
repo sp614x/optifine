@@ -589,7 +589,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.1=Laisk kamakate laadimine
 of.options.LAZY_CHUNK_LOADING.tooltip.2= VÄLJAS - vaikimisi serveri kamakalaadimine
 of.options.LAZY_CHUNK_LOADING.tooltip.3= SEES - laisk serveri kamakalaadimine (sujuvam)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Silub integreeritud serveri kamakalaadimist, jaotades
-of.options.LAZY_CHUNK_LOADING.tooltip.5=kamakaid mitmete tick'ide vahel.
+of.options.LAZY_CHUNK_LOADING.tooltip.5=kamakaid mitme tiki vahel.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Lülita VÄLJA, kui osa maailmast ei laadi korralikult.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (üksikmäng).
 
@@ -639,7 +639,7 @@ of.options.FIREWORK_PARTICLES=Ilutulestiku osakesed
 of.options.LAGOMETER=Latentsusmõõdik
 of.options.LAGOMETER.tooltip.1=Kuvab latentsusmõõdikut silumisvaatel (F3).
 of.options.LAGOMETER.tooltip.2=* Oranž - mälu prahikogumine
-of.options.LAGOMETER.tooltip.3=* Tsüaansinine - tick'id
+of.options.LAGOMETER.tooltip.3=* Tsüaansinine - tikid
 of.options.LAGOMETER.tooltip.4=* Sinine - ajastatud käivitatavad
 of.options.LAGOMETER.tooltip.5=* Lilla - kamaka üleslaadimine
 of.options.LAGOMETER.tooltip.6=* Punane - kamakauuendused
