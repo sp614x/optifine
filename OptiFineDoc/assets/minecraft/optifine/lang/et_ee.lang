@@ -36,7 +36,7 @@ of.message.shaders.fr2=Palun lülita Jõudlus -> Kiire renderdus VÄLJA.
 of.message.shaders.an1=Varjutajad ei ühildu 3D-anaglüüfiga.
 of.message.shaders.an2=Palun lülita Muu -> 3D-anaglüüf VÄLJA.
 
-of.message.shaders.nv1=See varjutajapakk vajab uuemat OptiFine versiooni: %s
+of.message.shaders.nv1=See varjutajapakk vajab uuemat OptiFine'i versiooni: %s
 of.message.shaders.nv2=Kas soovid kindlasti jätkata?
 
 of.message.newVersion=Uus §eOptiFine§f'i versioon on saadaval: §e%s§f
@@ -304,7 +304,7 @@ of.options.AA_LEVEL.tooltip.4=Sakisilumine silub sakilisi jooni ja teravaid vär
 of.options.AA_LEVEL.tooltip.5=Lubamisel võib see oluliselt alandada kaadrisagedust.
 of.options.AA_LEVEL.tooltip.6=Kõik tasemed pole toetatud kõikidel graafikakaartidel.
 of.options.AA_LEVEL.tooltip.7=
-of.options.AA_LEVEL.tooltip.8=Jõustub pärast TAASKÄIVITUST!
+of.options.AA_LEVEL.tooltip.8=Jõustub peale TAASKÄIVITUST!
 
 of.options.AF_LEVEL=Anisotroopiline filtr.
 of.options.AF_LEVEL.tooltip.1=Anisotroopiline filtreerimine
@@ -588,8 +588,8 @@ of.options.LAZY_CHUNK_LOADING=Laisk kamakalaadimine
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Laisk kamakate laadimine
 of.options.LAZY_CHUNK_LOADING.tooltip.2= VÄLJAS - vaikimisi serveri kamakalaadimine
 of.options.LAZY_CHUNK_LOADING.tooltip.3= SEES - laisk serveri kamakalaadimine (sujuvam)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Silub integreeritud serveri kamakalaadimist, jaotades
-of.options.LAZY_CHUNK_LOADING.tooltip.5=kamakad mitmele tiksule.
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Silub integreeritud serveri kamakalaadimist,
+of.options.LAZY_CHUNK_LOADING.tooltip.5=jaotades kamakad mitmele tiksule.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Lülita VÄLJA, kui osa maailmast ei laadi korralikult.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (üksikmäng).
 
@@ -603,7 +603,7 @@ of.options.RENDER_REGIONS.tooltip.6=Pole soovitatav integreeritud graafikakaarti
 
 of.options.SMART_ANIMATIONS=Targad animatsioonid
 of.options.SMART_ANIMATIONS.tooltip.1=Targad animatsioonid
-of.options.SMART_ANIMATIONS.tooltip.2= VÄLJAS - ära kasuta tarku animatsioone (default)
+of.options.SMART_ANIMATIONS.tooltip.2= VÄLJAS - ära kasuta tarku animatsioone (vaikimisi)
 of.options.SMART_ANIMATIONS.tooltip.3= SEES - kasuta tarku animatsioone
 of.options.SMART_ANIMATIONS.tooltip.4=Tarkade animatsioonide puhul animeerib mäng ainult
 of.options.SMART_ANIMATIONS.tooltip.5=neid tekstuure, mida on hetkel ekraanil näha.
@@ -622,7 +622,7 @@ of.options.ANIMATED_FIRE=Tuleanimatsioon
 of.options.ANIMATED_PORTAL=Portaalianimatsioon
 of.options.ANIMATED_REDSTONE=Redstone-animatsioon
 of.options.ANIMATED_EXPLOSION=Plahvatuse animatsioon
-of.options.ANIMATED_FLAME=Leegi animatsioon
+of.options.ANIMATED_FLAME=Leegianimatsioon
 of.options.ANIMATED_SMOKE=Suitsuanimatsioon
 of.options.VOID_PARTICLES=Tühjuse osakesed
 of.options.WATER_PARTICLES=Veeosakesed
@@ -668,8 +668,8 @@ of.options.TIME.tooltip.1=Aeg
 of.options.TIME.tooltip.2= Vaikimisi - tavaline ööpäevatsükkel
 of.options.TIME.tooltip.3= Ainult päev - ainult päev
 of.options.TIME.tooltip.4= Ainult öö - ainult öö
-of.options.TIME.tooltip.5=Aja seadistus töötab ainult kohalikes maailmades LOOMINGU-
-of.options.TIME.tooltip.6=režiimis.
+of.options.TIME.tooltip.5=Aja seadistus töötab ainult kohalikes maailmades
+of.options.TIME.tooltip.6=LOOMINGUrežiimis.
 
 options.fullscreen.tooltip.1=Täisekraan
 options.fullscreen.tooltip.2=  SEES - kasuta täisekraanirežiimi
@@ -714,13 +714,13 @@ of.options.SCREENSHOT_SIZE.tooltip.4=Suurema kuvatõmmise loomine võib vajada r
 of.options.SCREENSHOT_SIZE.tooltip.5=Ei ühildu kiire renderduse ega sakisilumisega.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vajab graafikakaardil kaadripuhvri tuge.
 
-of.options.SHOW_GL_ERRORS=OpenGL vead
-of.options.SHOW_GL_ERRORS.tooltip.1=OpenGL vigade kuvamine
-of.options.SHOW_GL_ERRORS.tooltip.2=Lubamisel kuvatakse vestluses OpenGL vead.
+of.options.SHOW_GL_ERRORS=OpenGL'i vead
+of.options.SHOW_GL_ERRORS.tooltip.1=OpenGL'i vigade kuvamine
+of.options.SHOW_GL_ERRORS.tooltip.2=Lubamisel kuvatakse vestluses OpenGL'i vead.
 of.options.SHOW_GL_ERRORS.tooltip.3=Keela see vaid siis, kui on teadaolev konflikt
 of.options.SHOW_GL_ERRORS.tooltip.4=ning neid vigu ei saa parandada.
 of.options.SHOW_GL_ERRORS.tooltip.5=Keelamisel logitakse vead siiski vealogisse ning
-of.options.SHOW_GL_ERRORS.tooltip.6=nad võivad siiski põhjustada silmnähtava ks languse.
+of.options.SHOW_GL_ERRORS.tooltip.6=need võivad siiski põhjustada silmnähtava ks languse.
 
 # Chat Settings
 
