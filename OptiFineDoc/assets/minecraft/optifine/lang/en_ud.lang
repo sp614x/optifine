@@ -57,6 +57,16 @@ of.message.loadingVisibleChunks=sʞunɥɔ ǝꞁqᴉsᴉʌ ƃuᴉpɐo˥
 
 of.options.skinCustomisation.ofCape=˙˙˙ǝdɐƆ ǝuᴉℲᴉʇdo
 
+of.options.capeOF.title=ǝdɐƆ ǝuᴉℲᴉʇdo
+of.options.capeOF.openEditor=ɹoʇᴉpƎ ǝdɐƆ uǝdo
+of.options.capeOF.reloadCape=ǝdɐƆ pɐolǝᴚ
+
+of.message.capeOF.openEditor=˙ɹǝsʍoɹq qǝʍ ɐ uᴉ uǝdo pꞁnoɥs ɹoʇᴉpǝ ǝdɐɔ ǝuᴉℲᴉʇdo ǝɥ⟘
+of.message.capeOF.reloadCape=˙spuoɔǝs ϛƖ uᴉ pǝpɐoꞁǝɹ ǝq ꞁꞁᴉʍ ǝdɐɔ ǝɥ⟘
+
+of.message.capeOF.error2=pǝꞁᴉɐɟ uoᴉʇɐɔᴉʇuǝɥʇnɐ ƃuɐɾoW.
+of.message.capeOF.error1=%s: ɹoɹɹƎ
+
 # Video settings
 
 options.graphics.tooltip.5=ʎʇᴉꞁɐnb ꞁɐnsᴉΛ
