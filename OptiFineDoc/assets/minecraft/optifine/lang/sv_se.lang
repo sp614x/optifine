@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-12-06
+#   Regnander (_Spitz) 2016-01-18 ---- 2019-02-16
 
 # General
 of.general.ambiguous=tvetydig
@@ -55,6 +55,16 @@ of.message.loadingVisibleChunks=Läser in synliga datablock
 # Skin customization
 
 of.options.skinCustomisation.ofCape=OptiFine-mantel...
+
+of.options.capeOF.title=OptiFine-mantel
+of.options.capeOF.openEditor=Öppna mantelredigerare
+of.options.capeOF.reloadCape=Uppdatera mantel
+
+of.message.capeOF.openEditor=OptiFines mantelredigerare bör öppnas i en webbläsare.
+of.message.capeOF.reloadCape=Manteln kommer att uppdateras om 15 sekunder.
+
+of.message.capeOF.error1=Mojang-autentisering misslyckades.
+of.message.capeOF.error2=Fel: %s
 
 # Video settings
 
