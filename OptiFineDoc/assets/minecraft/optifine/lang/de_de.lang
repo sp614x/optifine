@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2018-12-11
+#   TheHADILP 2016-5-20 ---- 2019-02-18
 #   Nerdyyy 2018-1-6
 
 # General
@@ -55,6 +55,20 @@ of.message.shaders.loading=Lade Shader: %s
 of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
 
 of.message.loadingVisibleChunks=Lade sichtbare Chunks
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine Umhang...
+
+of.options.capeOF.title=OptiFine Umhang
+of.options.capeOF.openEditor=Umhang-Editor öffnen
+of.options.capeOF.reloadCape=Umhang neu laden
+
+of.message.capeOF.openEditor=Der OptiFine Umhang-Editor sollte sich in einem Web-Browser öffnen.
+of.message.capeOF.reloadCape=Der Umhang wird in 15 Sekunden neu geladen.
+
+of.message.capeOF.error1=Mojang Authentifizierung fehlgeschlagen.
+of.message.capeOF.error2=Fehler: %s
  
 # Video settings
 
