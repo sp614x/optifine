@@ -52,6 +52,16 @@ of.message.loadingVisibleChunks=Načítám vididetlné chunky
 # Úprava skinu
 
 of.options.skinCustomisation.ofCape=OptiFine kápě...
+
+of.options.capeOF.title=OptiFine kápě
+of.options.capeOF.openEditor=Otevřít editor kápě
+of.options.capeOF.reloadCape=Obnovit kápi
+
+of.message.capeOF.openEditor=Editor OptiFine kápě by se nyní měl otevřít ve webovém prohližeči.
+of.message.capeOF.reloadCape=Kápě budu obnovena (znovu načtena) za 15 sekund.
+
+of.message.capeOF.error1=Chyba při oěření se servery Mojangu.
+of.message.capeOF.error2=Chyba: %s
  
 # Nastavení Grafiky
 
