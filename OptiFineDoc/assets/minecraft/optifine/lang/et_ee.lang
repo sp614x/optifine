@@ -53,6 +53,16 @@ of.message.loadingVisibleChunks=Laadin nähtavaid kamakaid
 
 of.options.skinCustomisation.ofCape=OptiFine'i keep...
 
+of.options.capeOF.title=OptiFine'i keep
+of.options.capeOF.openEditor=Ava keebimuutja
+of.options.capeOF.reloadCape=Laadi keep uuesti
+
+of.message.capeOF.openEditor=OptiFine'i keebimuutja peaks veebibrauseris avanema.
+of.message.capeOF.reloadCape=Keep laaditakse uuesti 15 sekundi pärast.
+
+of.message.capeOF.error1=Mojangiga autentimine ebaõnnestus.
+of.message.capeOF.error2=Viga: %s
+
 # Video settings
 
 options.graphics.tooltip.1=Visuaalne kvaliteet
