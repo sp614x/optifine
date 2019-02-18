@@ -57,6 +57,16 @@ of.message.loadingVisibleChunks=Загрузка видимых чанков
 
 of.options.skinCustomisation.ofCape=Плащ OptiFine...
 
+of.options.capeOF.title=Плащ OptiFine
+of.options.capeOF.openEditor=Открыть редактор плаща
+of.options.capeOF.reloadCape=Обновить плащ
+
+of.message.capeOF.openEditor=Редактор плаща OptiFine откроется в браузере.
+of.message.capeOF.reloadCape=Плащ будет обновлён через 15 секунд.
+
+of.message.capeOF.error1=Не удалось войти в учётную запись Mojang.
+of.message.capeOF.error2=Ошибка: %s
+
 # Настройки графики
 
 options.graphics.tooltip.1=Качество графики
