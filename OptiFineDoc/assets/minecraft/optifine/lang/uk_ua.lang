@@ -56,6 +56,17 @@ of.options.skinCustomisation.ofCape=Плащ OptiFine...
 
 # Налаштування графіки
 
+of.options.capeOF.title=Плащ
+of.options.capeOF.openEditor=Редактор плаща
+of.options.capeOF.reloadCape=Перезавантажити плащ
+
+of.message.capeOF.openEditor=Редактор плаща OptiFine відкриєтся у браузері.
+of.message.capeOF.reloadCape=Ваш плащ перезавантажиться за 15 секунд.
+
+of.message.capeOF.error1=Аутентифікація не вдалася.
+of.message.capeOF.error2=Помилка: %s
+
+
 options.graphics.tooltip.1=Якість графіки
 options.graphics.tooltip.2=  Швидка  - низька якість, швидше
 options.graphics.tooltip.3=  Красива - висока якість, повільніше
