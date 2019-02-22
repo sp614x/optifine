@@ -1,5 +1,3 @@
-# Translator = Diego Ramos (mine.ly/DaDodger)
-
 # General
 of.general.ambiguous=ambíguo
 of.general.compact=Compacto
@@ -54,6 +52,16 @@ of.message.loadingVisibleChunks=Carregando chunks visíveis
 # Skin customization
 
 of.options.skinCustomisation.ofCape=Capa do OptiFine...
+
+of.options.capeOF.title=Capa do OptiFine
+of.options.capeOF.openEditor=Abrir editor de capas
+of.options.capeOF.reloadCape=Recarregar capa
+
+of.message.capeOF.openEditor=O editor de capas do OptiFine será aberto num navegador.
+of.message.capeOF.reloadCape=Recarregando capa em 15 segundos.
+
+of.message.capeOF.error1=Falha de autenticação da Mojang.
+of.message.capeOF.error2=Erro: %s
 
 # Video settings
 
