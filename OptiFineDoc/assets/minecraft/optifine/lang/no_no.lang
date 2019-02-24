@@ -4,9 +4,11 @@
 
 # General
 of.general.ambiguous=tvetydig
+of.general.compact=Kompakt
 of.general.custom=Tilpasset
 of.general.from=Fra
 of.general.id=ID
+of.general.max=Maksimum
 of.general.restart=start på nytt
 of.general.smart=Smart
 
@@ -54,6 +56,17 @@ of.message.loadingVisibleChunks=Laster synlige verdensbiter
 # Skin customization
 
 of.options.skinCustomisation.ofCape=OptiFine-kappe...
+
+of.options.capeOF.title=OptiFine-kappe
+of.options.capeOF.openEditor=Åpne kapperedigering 
+of.options.capeOF.reloadCape=Last inn kappen på nytt
+
+of.message.capeOF.openEditor=OptiFine-kapperedigeringssiden vil bli åpnet i nettleseren.
+of.message.capeOF.reloadCape=Kappen lastes på nytt om 15 sekunder.
+
+of.message.capeOF.error1=Mojang-autentisering mislykket.
+of.message.capeOF.error2=Feil: %s
+
 
 # Video settings
 
