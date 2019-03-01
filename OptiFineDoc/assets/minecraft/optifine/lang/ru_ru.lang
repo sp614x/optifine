@@ -1,15 +1,16 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 03-Dec-2018
+#	Jerozgen  01-Mar-2016 — 18-Feb-2019
 #	Dibro     20-Mar-2016
 
 # Общее
 of.general.ambiguous=Неопределено
+of.general.compact=Компактный
 of.general.custom=По выбору
 of.general.from=Файл
 of.general.id=ID
+of.general.max=Макс.
 of.general.restart=⟲
 of.general.smart=Умно
-of.general.max=Макс.
 
 # Управление
 of.key.zoom=Приблизить
@@ -55,6 +56,16 @@ of.message.loadingVisibleChunks=Загрузка видимых чанков
 # Настройка внешнего вида
 
 of.options.skinCustomisation.ofCape=Плащ OptiFine...
+
+of.options.capeOF.title=Плащ OptiFine
+of.options.capeOF.openEditor=Открыть редактор плаща
+of.options.capeOF.reloadCape=Обновить плащ
+
+of.message.capeOF.openEditor=Редактор плаща OptiFine откроется в браузере.
+of.message.capeOF.reloadCape=Плащ будет обновлён через 15 секунд.
+
+of.message.capeOF.error1=Не удалось войти в учётную запись Mojang.
+of.message.capeOF.error2=Ошибка: %s
 
 # Настройки графики
 
@@ -729,3 +740,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Отключите, только если о
 of.options.SHOW_GL_ERRORS.tooltip.4=исправить.
 of.options.SHOW_GL_ERRORS.tooltip.5=В отключённом состоянии ошибки по-прежнему будут
 of.options.SHOW_GL_ERRORS.tooltip.6=записываться в журнал и могут значительно понижать FPS.
+
+# Настройки чата
+
+of.options.CHAT_BACKGROUND=Фон чата
+of.options.CHAT_BACKGROUND.tooltip.1=Фон чата
+of.options.CHAT_BACKGROUND.tooltip.2=  §oПо умолчанию§r - фиксированная ширина чата
+of.options.CHAT_BACKGROUND.tooltip.3=  Компактный - ширина чата равна длине строки
+of.options.CHAT_BACKGROUND.tooltip.4=  Выкл - фон скрыт
+
+of.options.CHAT_SHADOW=Тень текста чата
+of.options.CHAT_SHADOW.tooltip.1=Тень текста чата
+of.options.CHAT_SHADOW.tooltip.2=  §oВкл§r - тень видна
+of.options.CHAT_SHADOW.tooltip.3=  Выкл - тень скрыта
