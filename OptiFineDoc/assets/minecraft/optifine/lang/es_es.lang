@@ -1,8 +1,10 @@
 # General
 of.general.ambiguous=ambiguo
+of.general.compact=Compacto
 of.general.custom=Personalizado
 of.general.from=De
 of.general.id=ID
+of.general.max=Máximo
 of.general.restart=Reiniciar
 of.general.smart=Inteligentes
 
@@ -50,7 +52,7 @@ of.message.newVersion=Hay una nueva versión de §eOptiFine§f disponible: §e%s
 of.message.java64Bit=Instala §eJava de 64-bits§f para mejorar el rendimiento
 of.message.openglError=§eError de OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Cargando shaders: %s
+of.message.shaders.loading=Cargando shader: %s
 
 of.message.other.reset=¿Restablecer toda la configuración gráfica?
 
@@ -325,10 +327,11 @@ of.options.AA_LEVEL.tooltip.7=Algunas tarjetas gráficas no soportan todos los n
 of.options.AA_LEVEL.tooltip.8= ¡El cambio será aplicado al REINICIAR el juego!
 
 of.options.AF_LEVEL=Anisotrópico
-of.options.AF_LEVEL.tooltip.1=Filtrado anisotrópico
+of.options.AF_LEVEL.tooltip.1=Filtro anisotrópico
 of.options.AF_LEVEL.tooltip.2= NO - (por defecto) detalle normal de texturas (rápido)
 of.options.AF_LEVEL.tooltip.3= 2-16 - refinar texturas al usar mipmap (más lento)
 of.options.AF_LEVEL.tooltip.4= 
+of.options.AF_LEVEL.tooltip.5= 
 of.options.AF_LEVEL.tooltip.6=Este filtro recupera detalles al usar mipmap.
 of.options.AF_LEVEL.tooltip.7=Los FPS pueden disminuir considerablemente al activarse.
 
@@ -342,8 +345,8 @@ of.options.RANDOM_ENTITIES.tooltip.1=Si una entidad tiene más de una textura...
 of.options.RANDOM_ENTITIES.tooltip.2=  NO - una única textura, más rápido
 of.options.RANDOM_ENTITIES.tooltip.3=  SÍ - texturas aleatorias, más lento
 of.options.RANDOM_ENTITIES.tooltip.4=
-of.options.RANDOM_ENTITIES.tooltip.5=Requiere un paquete de recursos que tenga varias texturas
-of.options.RANDOM_ENTITIES.tooltip.6=para una misma entidad.
+of.options.RANDOM_ENTITIES.tooltip.5=Requiere un paquete de recursos que tenga varias
+of.options.RANDOM_ENTITIES.tooltip.6=texturas para una misma entidad.
 
 of.options.BETTER_GRASS=Césped mejorado
 of.options.BETTER_GRASS.tooltip.1=Textura de los lados del bloque de césped mejorada
@@ -369,9 +372,9 @@ of.options.CUSTOM_FONTS.tooltip.6=personalizadas.
 
 of.options.CUSTOM_COLORS=Colores personalizados
 of.options.CUSTOM_COLORS.tooltip.1=Colores personalizados
-of.options.CUSTOM_COLORS.tooltip.2=  SÍ - usar colores personalizados (por defecto), más lento
-of.options.CUSTOM_COLORS.tooltip.3=  NO - usar colores predeterminados, más rápido
-of.options.CUSTOM_COLORS.tooltip.4= 
+of.options.CUSTOM_COLORS.tooltip.2=  SÍ - colores personalizados (por defecto), más lento
+of.options.CUSTOM_COLORS.tooltip.3=  NO - colores predeterminados, más rápido
+of.options.CUSTOM_COLORS.tooltip.4=  
 of.options.CUSTOM_COLORS.tooltip.5=Algunos paquetes de recursos tienen colores
 of.options.CUSTOM_COLORS.tooltip.6=personalizados.
 
@@ -452,7 +455,7 @@ of.options.CUSTOM_GUIS.tooltip.5=No todos los paquetes de recursos soportan esta
 
 of.options.CLOUDS=Nubes
 of.options.CLOUDS.tooltip.1=Calidad de las nubes
-of.options.CLOUDS.tooltip.2=  Por defecto - depende del ajuste de la calidad gráfica
+of.options.CLOUDS.tooltip.2=  Por defecto - depende del ajuste de gráficos
 of.options.CLOUDS.tooltip.3=  Rápidas - peor calidad, mejor rendimiento
 of.options.CLOUDS.tooltip.4=  Detalladas - mayor calidad, peor rendimiento
 of.options.CLOUDS.tooltip.5=  NO - sin nubes, rendimiento superrápido
@@ -461,13 +464,13 @@ of.options.CLOUDS.tooltip.7=Las nubes rápidas se renderizan en 2D.
 of.options.CLOUDS.tooltip.8=Las nubes detalladas se renderizan en 3D.
 
 of.options.CLOUD_HEIGHT=Elevación de nubes
-of.options.CLOUD_HEIGHT.tooltip.1=Aumento en la altura de la capa de nubes
+of.options.CLOUD_HEIGHT.tooltip.1=Editar altura a la que se muestran las nubes
 of.options.CLOUD_HEIGHT.tooltip.2=  NO - altura por defecto
 of.options.CLOUD_HEIGHT.tooltip.3=  100%% - encima del límite del mundo
 
 of.options.TREES=Árboles
 of.options.TREES.tooltip.1=Calidad de hojas de árboles
-of.options.TREES.tooltip.2=  Por defecto - depende del ajuste de la calidad gráfica
+of.options.TREES.tooltip.2=  Por defecto - depende del ajuste de gráficos
 of.options.TREES.tooltip.3=  Rápidos - baja calidad, mejor rendimiento
 of.options.TREES.tooltip.4=  Inteligentes - más calidad, rendimiento medio
 of.options.TREES.tooltip.5=  Detallados - máxima calidad, peor rendimiento
@@ -477,7 +480,7 @@ of.options.TREES.tooltip.8="Detallados" e "Inteligentes" sí mantienen la transp
 
 of.options.RAIN=Lluvia/Nieve
 of.options.RAIN.tooltip.1=Lluvia y nieve
-of.options.RAIN.tooltip.2=  Por defecto - depende del ajuste de la calidad gráfica
+of.options.RAIN.tooltip.2=  Por defecto - depende del ajuste de gráficos
 of.options.RAIN.tooltip.3=  Rápidos - lluvia/nieve ligera, más rápido
 of.options.RAIN.tooltip.4=  Detallados - lluvia/nieve intensa, más lento
 of.options.RAIN.tooltip.5=  NO - sin lluvia/nieve, fastest
@@ -525,7 +528,7 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  NO - no mostrar nombres (como antiguam
 
 of.options.DROPPED_ITEMS=Objetos
 of.options.DROPPED_ITEMS.tooltip.1=Calidad de los objetos en el suelo sin recoger
-of.options.DROPPED_ITEMS.tooltip.2=  Por defecto - depende del ajuste de la calidad gráfica
+of.options.DROPPED_ITEMS.tooltip.2=  Por defecto - depende del ajuste de gráficos
 of.options.DROPPED_ITEMS.tooltip.3=  Rápidos - objetos en 2D, más rápido
 of.options.DROPPED_ITEMS.tooltip.4=  Detallados - objetos en 3D, más lento pero más bonito
 
@@ -535,7 +538,7 @@ options.entityShadows.tooltip.3=  NO - no mostrar sombras en las entidades
 
 of.options.VIGNETTE=Bordes
 of.options.VIGNETTE.tooltip.1=(Efecto viñeta) oscurece las esquinas de la pantalla
-of.options.VIGNETTE.tooltip.2=  Por defecto - depende del ajuste de la calidad gráfica
+of.options.VIGNETTE.tooltip.2=  Por defecto - depende del ajuste de gráficos
 of.options.VIGNETTE.tooltip.3=  Rápidos - efecto viñeta desactivado (más rápido)
 of.options.VIGNETTE.tooltip.4=  Detallados - efecto viñeta activado (más lento)
 of.options.VIGNETTE.tooltip.5= 
@@ -594,8 +597,8 @@ of.options.FAST_MATH.tooltip.2= NO - estandar (por defecto)
 of.options.FAST_MATH.tooltip.3= SÍ - sistema rápido
 of.options.FAST_MATH.tooltip.4= 
 of.options.FAST_MATH.tooltip.5=Usar las funciones sin() y cos() de Java de forma
-of.options.FAST_MATH.tooltip.6=optimizada para mejorar el uso de caché del CPU y mejorar
-of.options.FAST_MATH.tooltip.7=los FPS.
+of.options.FAST_MATH.tooltip.6=optimizada para mejorar el uso de caché del CPU y
+of.options.FAST_MATH.tooltip.7=aumentar los FPS.
 
 of.options.CHUNK_UPDATES=Actualizaciones de chunks
 of.options.CHUNK_UPDATES.tooltip.1=Actualizaciones de chunks
@@ -619,9 +622,9 @@ of.options.LAZY_CHUNK_LOADING.tooltip.1=Carga de chunks vaga
 of.options.LAZY_CHUNK_LOADING.tooltip.2= NO - carga de chunks predeterminada
 of.options.LAZY_CHUNK_LOADING.tooltip.3= SÍ - carga de chunks vaga (estabiliza la carga)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=
-of.options.LAZY_CHUNK_LOADING.tooltip.5=Suaviza la carga interna de chunks distribuyéndola durante
-of.options.LAZY_CHUNK_LOADING.tooltip.6=varios ticks. Desactívala si algunas partes del mundo no se
-of.options.LAZY_CHUNK_LOADING.tooltip.7=cargan correctamente.
+of.options.LAZY_CHUNK_LOADING.tooltip.5=Suaviza la carga interna de chunks distribuyéndola entre
+of.options.LAZY_CHUNK_LOADING.tooltip.6=varios ticks. Desactívalo si algunas partes del mundo no
+of.options.LAZY_CHUNK_LOADING.tooltip.7=se cargan correctamente.
 of.options.LAZY_CHUNK_LOADING.tooltip.8=Sólo funciona en mundos locales con CPUs de un núcleo.
 
 of.options.RENDER_REGIONS=Render. por regiones
@@ -671,7 +674,7 @@ of.options.FIREWORK_PARTICLES=Partículas de cohetes
 # Other
 
 of.options.LAGOMETER=Medidor de lag
-of.options.LAGOMETER.tooltip.1=Muestra el medidor de lag al usar F3.
+of.options.LAGOMETER.tooltip.1=Mostrar el medidor de lag al usar F3.
 of.options.LAGOMETER.tooltip.2=* Naranja - Basura en la memoria
 of.options.LAGOMETER.tooltip.3=* Cian - Ticks
 of.options.LAGOMETER.tooltip.4=* Azul - Ejecutables programados
@@ -713,7 +716,7 @@ options.fullscreen.tooltip.4=Al jugar en pantalla completa el juego puede funcio
 options.fullscreen.tooltip.5=mejor o peor, depende de la tarjeta gráfica.
 
 of.options.FULLSCREEN_MODE=Resolución
-of.options.FULLSCREEN_MODE.tooltip.1=Resolución de la pantalla completa
+of.options.FULLSCREEN_MODE.tooltip.1=Resolución de pantalla completa
 of.options.FULLSCREEN_MODE.tooltip.2=  Por defecto - resolución del monitor, más lento
 of.options.FULLSCREEN_MODE.tooltip.3=  Ancho x alto - otra resolución, puede ir más rápido
 of.options.FULLSCREEN_MODE.tooltip.4=La resolución cambiará en la pantalla completa (F11).
@@ -766,3 +769,16 @@ of.options.SHOW_GL_ERRORS.tooltip.4=que los errores no te molesten.
 of.options.SHOW_GL_ERRORS.tooltip.5=    
 of.options.SHOW_GL_ERRORS.tooltip.6=Aunque se desactive, los errores siguen apareciendo en
 of.options.SHOW_GL_ERRORS.tooltip.7=el registro (log) y pueden seguir causando FPS inestables.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Fondo de chat
+of.options.CHAT_BACKGROUND.tooltip.1=Fondo de chat
+of.options.CHAT_BACKGROUND.tooltip.2=  Por defecto - el fondo aparece con un tamaño estático
+of.options.CHAT_BACKGROUND.tooltip.3=  Compacto - el fondo aparece con un tamaño adaptado al texto
+of.options.CHAT_BACKGROUND.tooltip.4=  NO - sin fondo
+
+of.options.CHAT_SHADOW=Sombreado de chat
+of.options.CHAT_SHADOW.tooltip.1=Añadir sombra al texto del chat
+of.options.CHAT_SHADOW.tooltip.2=  SÍ - sombrearlo
+of.options.CHAT_SHADOW.tooltip.3=  NO - sin sombrearlo
