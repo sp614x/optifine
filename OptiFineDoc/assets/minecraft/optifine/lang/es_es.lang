@@ -62,6 +62,16 @@ of.message.loadingVisibleChunks=Cargando chunks visibles
 
 of.options.skinCustomisation.ofCape=Capa de OptiFine...
 
+of.options.capeOF.title=Capa de OptiFine
+of.options.capeOF.openEditor=Editor de capa de OptiFine
+of.options.capeOF.reloadCape=Recargar capa
+
+of.message.capeOF.openEditor=El editor de capa debe abrirse en un navegador.
+of.message.capeOF.reloadCape=La capa se recargará en 15 segundos.
+
+of.message.capeOF.error1=Error de autenticación con Mojang.
+of.message.capeOF.error2=Error: %s
+
 # Video settings
 
 options.graphics.tooltip.1=Gráficos
