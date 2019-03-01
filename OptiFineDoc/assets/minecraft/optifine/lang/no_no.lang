@@ -4,9 +4,11 @@
 
 # General
 of.general.ambiguous=tvetydig
+of.general.compact=Kompakt
 of.general.custom=Tilpasset
 of.general.from=Fra
 of.general.id=ID
+of.general.max=Maksimum
 of.general.restart=start på nytt
 of.general.smart=Smart
 
@@ -33,7 +35,7 @@ of.message.shaders.af1=Shaders er ikke kompatibel med Anisotropisk filtrering.
 of.message.shaders.af2=Endre "Kvalitet -> Anisotropisk filtrering" til AV.
 
 of.message.shaders.fr1=Shaders er ikke kompatibel med Rask gjengivelse.
-of.message.shaders.fr2=Endre "Prestering -> Rask gjengivelse" til AV.
+of.message.shaders.fr2=Endre "Ytelse -> Rask gjengivelse" til AV.
 
 of.message.shaders.an1=Shaders er ikke kompatibel med 3D-effekt.
 of.message.shaders.an2=Endre "Øvrig -> 3D-effekt" til AV.
@@ -54,6 +56,17 @@ of.message.loadingVisibleChunks=Laster synlige verdensbiter
 # Skin customization
 
 of.options.skinCustomisation.ofCape=OptiFine-kappe...
+
+of.options.capeOF.title=OptiFine-kappe
+of.options.capeOF.openEditor=Åpne kapperedigering 
+of.options.capeOF.reloadCape=Last inn kappen på nytt
+
+of.message.capeOF.openEditor=OptiFine-kapperedigeringssiden vil bli åpnet i nettleseren.
+of.message.capeOF.reloadCape=Kappen lastes på nytt om 15 sekunder.
+
+of.message.capeOF.error1=Mojang-autentisering mislykket.
+of.message.capeOF.error2=Feil: %s
+
 
 # Video settings
 
@@ -111,7 +124,7 @@ options.guiScale.tooltip.6=Et mindre grensesnitt kan være raskere.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Bruker en alternativ gjengivelsesmodell som vanligvis er
-options.vbo.tooltip.3=raskere (5-10%%) enn standardgengivelsen.
+options.vbo.tooltip.3=raskere (5-10%%) enn standardgjengivelsen.
 
 options.gamma.tooltip.1=Endrer lysstyrken på mørkere gjenstander.
 options.gamma.tooltip.2=  Dunkelt - standardlysstyrke
@@ -150,7 +163,7 @@ of.options.CHUNK_LOADING.tooltip.2=  Standard - ustabil bildefrekvens når verde
 of.options.CHUNK_LOADING.tooltip.3=  Jevn - stabil bildefrekvens
 of.options.CHUNK_LOADING.tooltip.4=  Flerkjernet - stabil bildefrekvens, 3x hurtigere last
 of.options.CHUNK_LOADING.tooltip.5=Jevn og Flerkjernet fjerner stammingen og
-of.options.CHUNK_LOADING.tooltip.6=fryser forårsaket av verdensbitslasting.
+of.options.CHUNK_LOADING.tooltip.6=frysingen forårsaket av verdensbitslasting.
 of.options.CHUNK_LOADING.tooltip.7=Flerkjernet kan øke hastigheten på verdensbelastning med 3x
 of.options.CHUNK_LOADING.tooltip.8=og øke bildefrekvensen ved å bruke en andre processorkjerne.
 of.options.chunkLoading.smooth=Jevn
@@ -288,7 +301,7 @@ options.mipmapLevels.tooltip.5=  4 - maksimal utjevning
 options.mipmapLevels.tooltip.6=Dette alternativet påvirker vanligvis ikke ytelsen.
 
 of.options.MIPMAP_TYPE=Mipmaptyp
-of.options.MIPMAP_TYPE.tooltip.1=Visuell effekt som gjøre at fjerne avstander ser bedre ut
+of.options.MIPMAP_TYPE.tooltip.1=Visuell effekt som gjøre at fjerne objekter ser bedre ut
 of.options.MIPMAP_TYPE.tooltip.2=ved å utjevne teksturdetaljer.
 of.options.MIPMAP_TYPE.tooltip.3=  Nærmeste - grov utjevning (hurtigste)
 of.options.MIPMAP_TYPE.tooltip.4=  Lineær - normal utjevning
@@ -311,7 +324,7 @@ of.options.AF_LEVEL.tooltip.1=Anisotropisk filtrering
 of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer i teksturer (standard), hurtigere
 of.options.AF_LEVEL.tooltip.3=  2-16 - finere detaljer i mipmapteksturer (langsommere)
 of.options.AF_LEVEL.tooltip.4=Den anisotropiske filtreringen tilbakestiller detaljer i
-of.options.AF_LEVEL.tooltip.5=mipmaptexturer.
+of.options.AF_LEVEL.tooltip.5=mipmapteksturer.
 of.options.AF_LEVEL.tooltip.6=Bildefrekvensen kan synke betydelig når dette er aktivert.
 
 of.options.CLEAR_WATER=Krystallklart vann
@@ -337,13 +350,13 @@ of.options.BETTER_SNOW.tooltip.1=Bedre snø
 of.options.BETTER_SNOW.tooltip.2=  AV - standardsnø, hurtigere
 of.options.BETTER_SNOW.tooltip.3=  PÅ - bedre snø, langsommere
 of.options.BETTER_SNOW.tooltip.4=Viser snø under gjennomsiktige blokker (gjerder, høyt
-of.options.BETTER_SNOW.tooltip.5=gress) ligger ved siden av snøblokker.
+of.options.BETTER_SNOW.tooltip.5=gress) når de ligger ved siden av snøblokker.
 
 of.options.CUSTOM_FONTS=Tilpasset skrift
 of.options.CUSTOM_FONTS.tooltip.1=Tilpasset skrift
 of.options.CUSTOM_FONTS.tooltip.2=  PÅ - bruk tilpasset skrift (standard), langsommere
 of.options.CUSTOM_FONTS.tooltip.3=  AV - bruk standardskriften, hurtigere
-of.options.CUSTOM_FONTS.tooltip.4=De tilpassede skrifter leveres av den nåværende
+of.options.CUSTOM_FONTS.tooltip.4=De tilpassede skriftene leveres av den nåværende
 of.options.CUSTOM_FONTS.tooltip.5=ressurspakken.
 
 of.options.CUSTOM_COLORS=Tilpasset farger
@@ -358,13 +371,12 @@ of.options.SWAMP_COLORS.tooltip.1=Sumpfarger
 of.options.SWAMP_COLORS.tooltip.2=  PÅ - bruk sumpfarger (standard), langsommere
 of.options.SWAMP_COLORS.tooltip.3=  AV - bruk ikke sumpfarger, hurtigere
 of.options.SWAMP_COLORS.tooltip.4=Sumpfargene påvirker gress, løv, lianer og vann.
-of.options.SWAMP_COLORS.tooltip.5=
 
 of.options.SMOOTH_BIOMES=Utjevning av biomer
 of.options.SMOOTH_BIOMES.tooltip.1=Utjevning av biomer
 of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biomkanter glattet ut (standard), langsommere
 of.options.SMOOTH_BIOMES.tooltip.3=  AV - biomkanter ikke glattet ut, hurtigere
-of.options.SMOOTH_BIOMES.tooltip.4=Utjevning av biomarginaler gjøres ved prøvetaking og
+of.options.SMOOTH_BIOMES.tooltip.4=Utjevning av biomkanter gjøres ved prøvetaking og
 of.options.SMOOTH_BIOMES.tooltip.5=gjennomsnittsfarge på alle omkringliggende blokker.
 of.options.SMOOTH_BIOMES.tooltip.6=Påvirker gress, løv, lianer og vann.
 
@@ -373,7 +385,7 @@ of.options.CONNECTED_TEXTURES.tooltip.1=Tilknyttede teksturer
 of.options.CONNECTED_TEXTURES.tooltip.2=  AV - ingen tilknyttede teksturer (standard)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Rask - raske tilknyttede teksturer
 of.options.CONNECTED_TEXTURES.tooltip.4=  Stilig - stilige tilknyttede teksturer
-of.options.CONNECTED_TEXTURES.tooltip.5=Tilknyttede texturer fusjonerer teksturene for glas,
+of.options.CONNECTED_TEXTURES.tooltip.5=Tilknyttede teksturer fusjonerer teksturene for glass,
 of.options.CONNECTED_TEXTURES.tooltip.6=sandstein og bokhyller når de er plassert ved siden av
 of.options.CONNECTED_TEXTURES.tooltip.7=hverandre. Tilknyttede teksturer leveres av den
 of.options.CONNECTED_TEXTURES.tooltip.8=nåværende ressurspakken.
@@ -423,7 +435,7 @@ of.options.CUSTOM_GUIS=Tilp. brukergrensesnitt
 of.options.CUSTOM_GUIS.tooltip.1=Tilpasset brukergrensesnitt
 of.options.CUSTOM_GUIS.tooltip.2=  PÅ - tilp. brukergrensesnitt (standard), langsommere
 of.options.CUSTOM_GUIS.tooltip.3=  AV - standardbrukergrensesnitt, hurtigere
-of.options.CUSTOM_GUIS.tooltip.4=De tilpassede brukergrensesnitten leveres av den
+of.options.CUSTOM_GUIS.tooltip.4=De tilpassede brukergrensesnittene leveres av den
 of.options.CUSTOM_GUIS.tooltip.5=nåværende ressurspakken.
 
 # Details
@@ -479,8 +491,8 @@ of.options.SUN_MOON.tooltip.3=  AV - solen og månen er ikke synlige (hurtigere)
 
 of.options.SHOW_CAPES=Vis kapper
 of.options.SHOW_CAPES.tooltip.1=Vis kapper
-of.options.SHOW_CAPES.tooltip.2=  PÅ - ikke vis spillerens kapper (standard)
-of.options.SHOW_CAPES.tooltip.3=  AV - vis spillernes kapper
+of.options.SHOW_CAPES.tooltip.2=  PÅ - vis spillernes kapper (standard)
+of.options.SHOW_CAPES.tooltip.3=  AV - ikke vis spillernes kapper
 
 of.options.TRANSLUCENT_BLOCKS=Transp. blokker
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Gjennomsiktige blokker
@@ -504,8 +516,8 @@ of.options.ADVANCED_TOOLTIPS.tooltip.4=Avanserte verktøytips viser tilleggsinfo
 of.options.ADVANCED_TOOLTIPS.tooltip.5=gjenstander (id, holdbarhet) og shaderalternativer
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, kilde, standardverdier).
 
-of.options.DROPPED_ITEMS=Utgitte gjenst.
-of.options.DROPPED_ITEMS.tooltip.1=Utgitte gjenstander
+of.options.DROPPED_ITEMS=Droppede gjenst.
+of.options.DROPPED_ITEMS.tooltip.1=Droppede gjenstander
 of.options.DROPPED_ITEMS.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.DROPPED_ITEMS.tooltip.3=  Rask - gjengis i 2D, hurtigere
 of.options.DROPPED_ITEMS.tooltip.4=  Stilig - gjengis i 3D, langsommere
@@ -563,17 +575,17 @@ of.options.FAST_RENDER.tooltip.1=Rask gjengivelse
 of.options.FAST_RENDER.tooltip.2=  AV - standardgjengivelse (standard)
 of.options.FAST_RENDER.tooltip.3=  PÅ - optimalisert gjengivelse (hurtigere)
 of.options.FAST_RENDER.tooltip.4=Bruker en optimalisert gjengivelsesalgoritme som senker 
-of.options.FAST_RENDER.tooltip.5=grafikkprosessorens lesehastighet og kan øke bilde-
+of.options.FAST_RENDER.tooltip.5=grafikkprosessorens belastning og kan øke bilde-
 of.options.FAST_RENDER.tooltip.6=frekvensen betydelig.
 
-of.options.FAST_MATH=Rask matematik
-of.options.FAST_MATH.tooltip.1=Rask matematik
-of.options.FAST_MATH.tooltip.2=  AV - standardmatematik (standard)
-of.options.FAST_MATH.tooltip.3=  PÅ - hurtigere matematik
+of.options.FAST_MATH=Rask matematikk
+of.options.FAST_MATH.tooltip.1=Rask matematikk
+of.options.FAST_MATH.tooltip.2=  AV - standardmatematikk (standard)
+of.options.FAST_MATH.tooltip.3=  PÅ - hurtigere matematikk
 of.options.FAST_MATH.tooltip.4=Bruker optimaliserte sin()- og cos()-funksjoner som
-of.options.FAST_MATH.tooltip.5=som kan utnytte prosessorens cache mer og øke bilde-
+of.options.FAST_MATH.tooltip.5=som bedre kan utnytte prosessorens hurtiglager og øke bilde-
 of.options.FAST_MATH.tooltip.6=frekvensen.
-of.options.FAST_MATH.tooltip.7=Dette alternativ kan påvirke verdensgenerasjon minimalt.
+of.options.FAST_MATH.tooltip.7=Dette alternativet kan påvirke verdensgenerasjon minimalt.
 
 of.options.CHUNK_UPDATES=Verdensbitoppdateringer
 of.options.CHUNK_UPDATES.tooltip.1=Verdensbitoppdateringer
@@ -584,7 +596,7 @@ of.options.CHUNK_UPDATES.tooltip.5=Antall verdensbitoppdateringer per gjengitt r
 of.options.CHUNK_UPDATES.tooltip.6=Høyere verdier kan gjøre bildefrekvensen ustabil.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dynamiske oppdateringer
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamiske verdensbituppdateringar
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamiske verdensbitoppdateringer
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  AV - standardantall oppdat. per ramme (standard)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  PÅ - flere oppdateringer når spilleren står stille
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamiske oppdateringer tvinger flere verdensbit-
@@ -729,3 +741,16 @@ of.options.SHOW_GL_ERRORS.tooltip.4=feilene kan ikke løses.
 of.options.SHOW_GL_ERRORS.tooltip.5=Når dette er deaktivert vil feilene fortsatt bli registrert
 of.options.SHOW_GL_ERRORS.tooltip.6=i feilloggen og kan fortsatt føre til at bildefrekvensen
 of.options.SHOW_GL_ERRORS.tooltip.7=synker betydelig.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Nettpratbakgrunn
+of.options.CHAT_BACKGROUND.tooltip.1=Nettpratbakgrunn
+of.options.CHAT_BACKGROUND.tooltip.2=  Standard - fast bredde
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompakt - følger linjebredden
+of.options.CHAT_BACKGROUND.tooltip.4=  AV - skjult
+
+of.options.CHAT_SHADOW=Nettpratskygge
+of.options.CHAT_SHADOW.tooltip.1=Nettpratskygge
+of.options.CHAT_SHADOW.tooltip.2=  PÅ - bruk tekstskygge
+of.options.CHAT_SHADOW.tooltip.3=  AV - ingen tekstskygge
