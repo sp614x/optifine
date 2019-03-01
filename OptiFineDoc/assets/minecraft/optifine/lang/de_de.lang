@@ -2,17 +2,18 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   TheHADILP 2016-5-20 ---- 2018-11-20
+#   TheHADILP 2016-5-20 ---- 2019-02-18
 #   Nerdyyy 2018-1-6
 
 # General
 of.general.ambiguous=Unklar
+of.general.compact=Kompakt
 of.general.custom=Anderes
 of.general.from=Von
 of.general.id=ID
-of.general.restart=Neustart
-of.general.smart=Fein
 of.general.max=Maximum
+of.general.restart=Neustart
+of.general.smart=Intelligent
 
 # Keys
 of.key.zoom=Zoom
@@ -54,6 +55,20 @@ of.message.shaders.loading=Lade Shader: %s
 of.message.other.reset=Alle Grafikeinstellungen auf die Standardwerte zurücksetzen?
 
 of.message.loadingVisibleChunks=Lade sichtbare Chunks
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine Umhang...
+
+of.options.capeOF.title=OptiFine Umhang
+of.options.capeOF.openEditor=Umhang-Editor öffnen
+of.options.capeOF.reloadCape=Umhang neu laden
+
+of.message.capeOF.openEditor=Der OptiFine Umhang-Editor sollte sich in einem Web-Browser öffnen.
+of.message.capeOF.reloadCape=Der Umhang wird in 15 Sekunden neu geladen.
+
+of.message.capeOF.error1=Mojang Authentifizierung fehlgeschlagen.
+of.message.capeOF.error2=Fehler: %s
  
 # Video settings
 
@@ -350,15 +365,15 @@ of.options.CUSTOM_FONTS=Schriftartressourcen
 of.options.CUSTOM_FONTS.tooltip.1=Schriftartressourcen
 of.options.CUSTOM_FONTS.tooltip.2=  An - Ressourcenpaket-Schriftart (Standard, langsamer)
 of.options.CUSTOM_FONTS.tooltip.3=  Aus - Standardschriftart (schneller)
-of.options.CUSTOM_FONTS.tooltip.4=Die Schriftart wird aus den aktivierten Ressourcenpaketen
-of.options.CUSTOM_FONTS.tooltip.5=geladen.
+of.options.CUSTOM_FONTS.tooltip.4=Die Schriftart wird aus den aktivierten
+of.options.CUSTOM_FONTS.tooltip.5=Ressourcenpaketen geladen.
 
 of.options.CUSTOM_COLORS=Farbressourcen
 of.options.CUSTOM_COLORS.tooltip.1=Farbressourcen
 of.options.CUSTOM_COLORS.tooltip.2=  An - Ressourcenpaket-Farben (Standard, langsamer)
 of.options.CUSTOM_COLORS.tooltip.3=  Aus - Standardfarben (schneller)
-of.options.CUSTOM_COLORS.tooltip.4=Die Farben werden aus den aktivierten Ressourcenpaketen
-of.options.CUSTOM_COLORS.tooltip.5=geladen.
+of.options.CUSTOM_COLORS.tooltip.4=Die Farben werden aus den aktivierten
+of.options.CUSTOM_COLORS.tooltip.5=Ressourcenpaketen geladen.
 
 of.options.SWAMP_COLORS=Sumpffarben
 of.options.SWAMP_COLORS.tooltip.1=Sumpffarben
@@ -386,6 +401,16 @@ of.options.CONNECTED_TEXTURES.tooltip.6=Sandstein und Bücherregalen, wenn sie n
 of.options.CONNECTED_TEXTURES.tooltip.7=platziert werden. Die verbundenen Texturen werden aus
 of.options.CONNECTED_TEXTURES.tooltip.8=den aktivierten Ressourcenpaketen geladen.
 
+of.options.NATURAL_TEXTURES=Natürliche Texturen
+of.options.NATURAL_TEXTURES.tooltip.1=Natürliche Texturen
+of.options.NATURAL_TEXTURES.tooltip.2=  Aus - Keine natürlichen Texturen (Standard)
+of.options.NATURAL_TEXTURES.tooltip.3=  An - Benutzt natürliche Texturen
+of.options.NATURAL_TEXTURES.tooltip.4=Natürliche Texturen entfernen die rasterartige
+of.options.NATURAL_TEXTURES.tooltip.5=Anordnung beim Platzieren gleicher Blöcke
+of.options.NATURAL_TEXTURES.tooltip.6=durch Variationen der Standard-Blocktextur.
+of.options.NATURAL_TEXTURES.tooltip.7=Die Einstellungen für die natürlichen Texturen
+of.options.NATURAL_TEXTURES.tooltip.8=werden aus den aktivierten Ressourcenpaketen geladen.
+
 of.options.EMISSIVE_TEXTURES=Leuchtende Texturen
 of.options.EMISSIVE_TEXTURES.tooltip.1=Leuchtende Texturen
 of.options.EMISSIVE_TEXTURES.tooltip.2=  Aus - Keine lichtemittierenden Texturen (Standard)
@@ -395,16 +420,6 @@ of.options.EMISSIVE_TEXTURES.tooltip.5=voller Helligkeit gerendert. Dadurch kön
 of.options.EMISSIVE_TEXTURES.tooltip.6=Bereiche der Grund-Textur simuliert werden.
 of.options.EMISSIVE_TEXTURES.tooltip.7=Die lichtemittierenden Texturen werden aus den
 of.options.EMISSIVE_TEXTURES.tooltip.8=aktivierten Ressourcenpaketen geladen.
-
-of.options.NATURAL_TEXTURES=Natürliche Texturen
-of.options.NATURAL_TEXTURES.tooltip.1=Natürliche Texturen
-of.options.NATURAL_TEXTURES.tooltip.2=  Aus - Keine natürlichen Texturen (Standard)
-of.options.NATURAL_TEXTURES.tooltip.3=  An - Benutzt natürliche Texturen
-of.options.NATURAL_TEXTURES.tooltip.4=Natürliche Texturen entfernen die rasterartige Anordnung,
-of.options.NATURAL_TEXTURES.tooltip.5=erzeugt durch Platzieren gleicher Blöcke. Dies benutzt
-of.options.NATURAL_TEXTURES.tooltip.6=gedrehte und umgekehrte Varianten der Standard-
-of.options.NATURAL_TEXTURES.tooltip.7=Blocktextur. Die Einstellungen für die natürlichen Texturen
-of.options.NATURAL_TEXTURES.tooltip.8=werden aus den aktivierten Ressourcenpaketen geladen.
 
 of.options.CUSTOM_SKY=Himmelstexturen
 of.options.CUSTOM_SKY.tooltip.1=Himmelstexturen
@@ -466,7 +481,7 @@ of.options.RAIN.tooltip.3=  Schnell - Leichter Regen/Schnee (schneller)
 of.options.RAIN.tooltip.4=  Schön - Starker Regen/Schnee (langsamer)
 of.options.RAIN.tooltip.5=  Aus - Kein Regen/Schnee (am schnellsten)
 of.options.RAIN.tooltip.6=Wenn diese Einstellung deaktiviert ist, sind die Regen-
-of.options.RAIN.tooltip.7=geräusche und -partikel dennoch zu hören bzw. zu sehen.
+of.options.RAIN.tooltip.7=geräusche und -partikel dennoch zu hören und zu sehen.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
@@ -620,6 +635,16 @@ of.options.RENDER_REGIONS.tooltip.5=des Geländes bei großen Render-Distanzen.
 of.options.RENDER_REGIONS.tooltip.6=Effektiver, wenn VBOs aktiviert sind.
 of.options.RENDER_REGIONS.tooltip.6=Nicht für integrierte Grafikkarten empfohlen.
 
+of.options.SMART_ANIMATIONS=Intelligente Animationen
+of.options.SMART_ANIMATIONS.tooltip.1=Intelligente Animationen
+of.options.SMART_ANIMATIONS.tooltip.2= Aus - Keine intelligenten Animationen (Standard)
+of.options.SMART_ANIMATIONS.tooltip.3= An - Benutze intelligente Animationen
+of.options.SMART_ANIMATIONS.tooltip.4=Es werden nur Texturen animiert, die gerade auf
+of.options.SMART_ANIMATIONS.tooltip.5=dem Bildschirm sichtbar sind.
+of.options.SMART_ANIMATIONS.tooltip.6=Dies reduziert Lag-Spitzen und erhöht die FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Besonders nützlich bei großen Mod-Packs und
+of.options.SMART_ANIMATIONS.tooltip.8=Ressourcenpaketen mit HD-Texturen.
+
 # Animations
 
 of.options.animation.allOn=Alle an
@@ -727,3 +752,25 @@ of.options.SCREENSHOT_SIZE.tooltip.4=Das Aufnehmen größerer Screenshots kann m
 of.options.SCREENSHOT_SIZE.tooltip.5=Speicher benötigen.
 of.options.SCREENSHOT_SIZE.tooltip.6=Nicht kompatibel mit Schnellem Rendern und Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.7=Erfordert Grafiktreiberpuffer-Unterstützung.
+
+of.options.SHOW_GL_ERRORS=Zeige OpenGL Fehler
+of.options.SHOW_GL_ERRORS.tooltip.1=Zeige OpenGL Fehler
+of.options.SHOW_GL_ERRORS.tooltip.2=OpenGL Fehler werden im Chat angezeigt.
+of.options.SHOW_GL_ERRORS.tooltip.3=Deaktiviere dies nur, wenn ein bekannter Fehler
+of.options.SHOW_GL_ERRORS.tooltip.4=vorliegt und dieser nicht behoben werden kann.
+of.options.SHOW_GL_ERRORS.tooltip.5=Auch nach Deaktivierung werden Fehler in der Log Datei
+of.options.SHOW_GL_ERRORS.tooltip.6=festgehalten und es kann zu erheblichen FPS Einbrüchen
+of.options.SHOW_GL_ERRORS.tooltip.7=kommen.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Chat Hintergrund
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Hintergrund
+of.options.CHAT_BACKGROUND.tooltip.2=  Standard - Feste Breite
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompakt - Entspricht Zeilenbreite
+of.options.CHAT_BACKGROUND.tooltip.4=  Aus - Versteckt
+
+of.options.CHAT_SHADOW=Chat Schatten
+of.options.CHAT_SHADOW.tooltip.1=Chat Schatten
+of.options.CHAT_SHADOW.tooltip.2=  An - Zeige Textschatten
+of.options.CHAT_SHADOW.tooltip.3=  Aus - Kein Textschatten
