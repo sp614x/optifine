@@ -53,6 +53,16 @@ of.message.loadingVisibleChunks=Loading visible chunks
 
 of.options.skinCustomisation.ofCape=OptiFine Cape...
 
+of.options.capeOF.title=OptiFine Cape
+of.options.capeOF.openEditor=Open Cape Editor
+of.options.capeOF.reloadCape=Reload Cape
+
+of.message.capeOF.openEditor=The OptiFine cape editor should open in a web browser.
+of.message.capeOF.reloadCape=The cape will be reloaded in 15 seconds.
+
+of.message.capeOF.error1=Mojang authentication failed.
+of.message.capeOF.error2=Error: %s
+
 # Video settings
 
 options.graphics.tooltip.1=Visual quality
