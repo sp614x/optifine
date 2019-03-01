@@ -1,9 +1,11 @@
 #Translated by Cool_boy and HIKC
 # Загальні
 of.general.ambiguous=Невизначений
+of.general.compact=Компактний
 of.general.custom=Користувацький
 of.general.from=З
 of.general.id=ID
+of.general.max=Максимум
 of.general.restart=Перезапуск
 of.general.smart=Розумно
 
@@ -53,6 +55,17 @@ of.message.loadingVisibleChunks=Завантажування видимих ча
 of.options.skinCustomisation.ofCape=Плащ OptiFine...
 
 # Налаштування графіки
+
+of.options.capeOF.title=Плащ
+of.options.capeOF.openEditor=Редактор плаща
+of.options.capeOF.reloadCape=Перезавантажити плащ
+
+of.message.capeOF.openEditor=Редактор плаща OptiFine відкриєтся у браузері.
+of.message.capeOF.reloadCape=Ваш плащ перезавантажиться за 15 секунд.
+
+of.message.capeOF.error1=Аутентифікація не вдалася.
+of.message.capeOF.error2=Помилка: %s
+
 
 options.graphics.tooltip.1=Якість графіки
 options.graphics.tooltip.2=  Швидка  - низька якість, швидше
@@ -281,7 +294,7 @@ options.mipmapLevels.tooltip.1=Візуальний ефект який змуш
 options.mipmapLevels.tooltip.2=розмиваючи деталі текстур
 options.mipmapLevels.tooltip.3=  Вимк - без згладжування
 options.mipmapLevels.tooltip.4=  1 - мінімальне згладжування
-options.mipmapLevels.tooltip.5=  4 - максимальне згладжування
+options.mipmapLevels.tooltip.5=  Максимум - максимальне згладжування
 options.mipmapLevels.tooltip.6=Ця опція зазвичай не впливає на продуктивність.
 
 of.options.MIPMAP_TYPE=Тип Міпмап
@@ -690,15 +703,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - чанків оновлюється
 of.options.SHOW_FPS.tooltip.6=Компактне FPS показується лиш коли
 of.options.SHOW_FPS.tooltip.7=екран відладки вимкнено.
 
-of.options.save.default=Базове (2с)
-of.options.save.20s=20с
+of.options.save.45s=45с
+of.options.save.90s=90с
 of.options.save.3min=3хв
-of.options.save.30min=30хв
+of.options.save.6min=6хв
+of.options.save.12min=12хв
+of.options.save.24min=24хв
 
 of.options.AUTOSAVE_TICKS=Автозбереження
 of.options.AUTOSAVE_TICKS.tooltip.1=Інтервал автозбереження
-of.options.AUTOSAVE_TICKS.tooltip.2=Стандартний інтервал збереження (2с) НЕ РЕКОМЕНДОВАНО.
-of.options.AUTOSAVE_TICKS.tooltip.3=Автозбереження спричиняє "фріз смерті".
+of.options.AUTOSAVE_TICKS.tooltip.2=Стандартний інтервал збереження - 45с.
+of.options.AUTOSAVE_TICKS.tooltip.3=Автозбереження може спричиняти завмирання гри.
+of.options.AUTOSAVE_TICKS.tooltip.4=Гра також зберігатиметься коли відкрито меню.
 
 of.options.SCREENSHOT_SIZE=Розмір знімку екрану
 of.options.SCREENSHOT_SIZE.tooltip.1=Розмір скріншоту
@@ -715,3 +731,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Вимикайте це лише якщо в
 of.options.SHOW_GL_ERRORS.tooltip.4=помилку неможливо виправити.
 of.options.SHOW_GL_ERRORS.tooltip.5=Коли вимкнено, помилки продовжать зберігатись у журналах
 of.options.SHOW_GL_ERRORS.tooltip.6=і вони можуть викликати різке падіння FPS. 
+
+# Налаштування чату
+
+of.options.CHAT_BACKGROUND=Фон чату
+of.options.CHAT_BACKGROUND.tooltip.1=Фон чату
+of.options.CHAT_BACKGROUND.tooltip.2=  Стандартний - зафіксована висота
+of.options.CHAT_BACKGROUND.tooltip.3=  Компактний - відповідає висоті рядків
+of.options.CHAT_BACKGROUND.tooltip.4=  Вимк. - прихований
+
+of.options.CHAT_SHADOW=Тінь чату
+of.options.CHAT_SHADOW.tooltip.1=Тінь чату
+of.options.CHAT_SHADOW.tooltip.2=  Увімк. - використовувати тінь чату
+of.options.CHAT_SHADOW.tooltip.3=  Вимк. - вимкнути тінь чату
