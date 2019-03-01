@@ -1,14 +1,15 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2018-11-21
+#   Regnander (_Spitz) 2016-01-18 ---- 2019-02-16
 
 # General
 of.general.ambiguous=tvetydig
+of.general.compact=Kompakt
 of.general.custom=Anpassad
 of.general.from=Från
 of.general.id=ID
+of.general.max=Maximal
 of.general.restart=starta om
 of.general.smart=Smart
-of.general.max=Maximal
 
 # Keys
 of.key.zoom=Zooma in
@@ -54,6 +55,16 @@ of.message.loadingVisibleChunks=Läser in synliga datablock
 # Skin customization
 
 of.options.skinCustomisation.ofCape=OptiFine-mantel...
+
+of.options.capeOF.title=OptiFine-mantel
+of.options.capeOF.openEditor=Öppna mantelredigerare
+of.options.capeOF.reloadCape=Uppdatera mantel
+
+of.message.capeOF.openEditor=OptiFines mantelredigerare bör öppnas i en webbläsare.
+of.message.capeOF.reloadCape=Manteln kommer att uppdateras om 15 sekunder.
+
+of.message.capeOF.error1=Mojang-autentisering misslyckades.
+of.message.capeOF.error2=Fel: %s
 
 # Video settings
 
@@ -733,3 +744,15 @@ of.options.SHOW_GL_ERRORS.tooltip.4=felen inte kan åtgärdas.
 of.options.SHOW_GL_ERRORS.tooltip.5=När detta inaktiveras kommer felen fortfarande
 of.options.SHOW_GL_ERRORS.tooltip.6=registreras i felloggen och kan fortfarande orsaka att
 of.options.SHOW_GL_ERRORS.tooltip.7=bildfrekvensen sjunker avsevärt.
+
+# Chat Settings
+of.options.CHAT_BACKGROUND=Chattbakgrund
+of.options.CHAT_BACKGROUND.tooltip.1=Chattbakgrund
+of.options.CHAT_BACKGROUND.tooltip.2=  Standard - fast bredd
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompakt - anpassas till radbredd
+of.options.CHAT_BACKGROUND.tooltip.4=  AV - dold
+
+of.options.CHAT_SHADOW=Chattskugga
+of.options.CHAT_SHADOW.tooltip.1=Chattskugga
+of.options.CHAT_SHADOW.tooltip.2=  PÅ - använd textskugga
+of.options.CHAT_SHADOW.tooltip.3=  AV - ingen textskugga
