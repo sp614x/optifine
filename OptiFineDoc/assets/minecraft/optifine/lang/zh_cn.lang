@@ -64,6 +64,15 @@ of.message.loadingVisibleChunks=正在加载可见区块
 
 of.options.skinCustomisation.ofCape=OptiFine 披风...
 
+of.options.capeOF.title=OptiFine 披风
+of.options.capeOF.openEditor=打开披风编辑器
+of.options.capeOF.reloadCape=重新加载披风
+
+ of.message.capeOF.openEditor=OptiFine 披风编辑器会在网页浏览器中打开。
+of.message.capeOF.reloadCape=披风将在 15 秒内重新加载。
+
+ of.message.capeOF.error1=Mojang 身份验证失败。
+of.message.capeOF.error2=错误：%s
 # Video settings
 
 options.graphics.tooltip.1=图像品质
