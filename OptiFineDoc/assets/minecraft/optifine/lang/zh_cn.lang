@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   HeartyYF From InfinityStudio 2016-2-18 ---- 2018-12-7
+#   HeartyYF From InfinityStudio 2016-2-18 ---- 2019-3-9
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
@@ -68,11 +68,12 @@ of.options.capeOF.title=OptiFine 披风
 of.options.capeOF.openEditor=打开披风编辑器
 of.options.capeOF.reloadCape=重新加载披风
 
- of.message.capeOF.openEditor=OptiFine 披风编辑器会在网页浏览器中打开。
+of.message.capeOF.openEditor=OptiFine 披风编辑器会在网页浏览器中打开。
 of.message.capeOF.reloadCape=披风将在 15 秒内重新加载。
 
- of.message.capeOF.error1=Mojang 身份验证失败。
+of.message.capeOF.error1=Mojang 身份验证失败。
 of.message.capeOF.error2=错误：%s
+
 # Video settings
 
 options.graphics.tooltip.1=图像品质
