@@ -65,13 +65,13 @@ Shader Programs
 
 | Name                         | Render                                | When not defined use |
 | ---------------------------- | ------------------------------------- | ------------------|
-| \<none\>                       | gui, menus                            | \<none\> |
+|                              | gui, menus                            |  |
 | **-- Shadow map ---**
-| shadow                       | everything in shadow pass             | \<none\>   |
+| shadow                       | everything in shadow pass             |    |
 | shadow_solid                 | \<not used\>                            | shadow |
 | shadow_cutout                | \<not used\>                            | shadow |
 | **--- GBuffers ---**
-| gbuffers_basic               | leash, block selection box            | \<none\> |
+| gbuffers_basic               | leash, block selection box            | |
 | gbuffers_textured            | particles                             | gbuffers_basic |
 | gbuffers_textured_lit        | lit_particles, world border           | gbuffers_textured |
 | gbuffers_skybasic            | sky, horizon, stars, void             | gbuffers_basic |
@@ -91,22 +91,22 @@ Shader Programs
 | gbuffers_hand                | hand and opaque handheld objects      | gbuffers_textured_lit |
 | gbuffers_weather             | rain, snow                            | gbuffers_textured_lit |
 | **--- Deferred ---**
-| deferred_pre                 | \<virtual\> flip ping-pong buffers      | \<none\> |
-| deferred                     | \<deferred\>                            | \<none\> |
-| deferred1                    | \<deferred\>                            | \<none\> |
+| deferred_pre                 | \<virtual\> flip ping-pong buffers      |  |
+| deferred                     | \<deferred\>                            |  |
+| deferred1                    | \<deferred\>                            |  |
 | ...                          | ...                                   | ... |
-| deferred15                   | \<deferred\>                            | \<none\> |
+| deferred15                   | \<deferred\>                            |  |
 | **--- GBuffers translucent ---**
 | gbuffers_water               | translucent                           | gbuffers_terrain |
 | gbuffers_hand_water          | translucent handheld objects          | gbuffers_hand |
 | **--- Composite ---**
-| composite_pre                | \<virtual\> flip ping-pong buffers      | \<none\> |
-| composite                    | \<composite\>                           | \<none\> |
-| composite1                   | \<composite\>                           | \<none\> |
+| composite_pre                | \<virtual\> flip ping-pong buffers      |  |
+| composite                    | \<composite\>                           |  |
+| composite1                   | \<composite\>                           |  |
 | ...                          | ...                                   | ... |
-| composite15                  | \<composite\>                           | \<none\> |
+| composite15                  | \<composite\>                           |  |
 | **--- Final ---**
-| final                        | \<final\>                               | \<none\> |
+| final                        | \<final\>                               |  |
 
 Remarks:
  - The programs shadow_solid, shadow_cutout, gbuffers_terrain_solid, gbuffers_terrain_cutout and gbuffers_terrain_cutout_mip are not used
@@ -344,9 +344,9 @@ Vertex Shader Configuration
 ===========================
 | Source                           | Effect                                                    Comment |
 | --- | --- |
-| attribute <type> mc_Entity;      | useEntityAttrib = true |
-| attribute <type> mc_midTexCoord; | useMidTexCoordAttrib = true |
-| attribute <type> at_tangent;     | useTangentAttrib = true |
+| attribute \<type> mc_Entity;      | useEntityAttrib = true |
+| attribute \<type> mc_midTexCoord; | useMidTexCoordAttrib = true |
+| attribute \<type> at_tangent;     | useTangentAttrib = true |
 
 Geometry Shader Configuration
 ===========================
@@ -359,26 +359,26 @@ Fragment Shader Configuration
 =============================
 | Source                                        | Effect                                 | Comment |
 | --- | --- | --- |
-| uniform <type> shadow;                        | shadowDepthBuffers = 1 |
-| uniform <type> watershadow;                   | shadowDepthBuffers = 2 |
-| uniform <type> shadowtex0;                    | shadowDepthBuffers = 1 |
-| uniform <type> shadowtex1;                    | shadowDepthBuffers = 2 |
-| uniform <type> shadowcolor;                   | shadowColorBuffers = 1 |
-| uniform <type> shadowcolor0;                  | shadowColorBuffers = 1 |
-| uniform <type> shadowcolor1;                  | shadowColorBuffers = 2 |
-| uniform <type> depthtex0;                     | depthBuffers = 1 |
-| uniform <type> depthtex1;                     | depthBuffers = 2 |
-| uniform <type> depthtex2;                     | depthBuffers = 3 |
-| uniform <type> gdepth;                        | if (bufferFormat[1] == RGBA) bufferFormat[1] = RGBA32F; |
-| uniform <type> gaux1;                         | colorBuffers = 5 |
-| uniform <type> gaux2;                         | colorBuffers = 6 |
-| uniform <type> gaux3;                         | colorBuffers = 7 |
-| uniform <type> gaux4;                         | colorBuffers = 8 |
-| uniform <type> colortex4;                     | colorBuffers = 5 |
-| uniform <type> colortex5;                     | colorBuffers = 6 |
-| uniform <type> colortex6;                     | colorBuffers = 7 |
-| uniform <type> colortex7;                     | colorBuffers = 8 |
-| uniform <type> centerDepthSmooth;             | centerDepthSmooth = true |
+| uniform \<type> shadow;                        | shadowDepthBuffers = 1 |
+| uniform \<type> watershadow;                   | shadowDepthBuffers = 2 |
+| uniform \<type> shadowtex0;                    | shadowDepthBuffers = 1 |
+| uniform \<type> shadowtex1;                    | shadowDepthBuffers = 2 |
+| uniform \<type> shadowcolor;                   | shadowColorBuffers = 1 |
+| uniform \<type> shadowcolor0;                  | shadowColorBuffers = 1 |
+| uniform \<type> shadowcolor1;                  | shadowColorBuffers = 2 |
+| uniform \<type> depthtex0;                     | depthBuffers = 1 |
+| uniform \<type> depthtex1;                     | depthBuffers = 2 |
+| uniform \<type> depthtex2;                     | depthBuffers = 3 |
+| uniform \<type> gdepth;                        | if (bufferFormat[1] == RGBA) bufferFormat[1] = RGBA32F; |
+| uniform \<type> gaux1;                         | colorBuffers = 5 |
+| uniform \<type> gaux2;                         | colorBuffers = 6 |
+| uniform \<type> gaux3;                         | colorBuffers = 7 |
+| uniform \<type> gaux4;                         | colorBuffers = 8 |
+| uniform \<type> colortex4;                     | colorBuffers = 5 |
+| uniform \<type> colortex5;                     | colorBuffers = 6 |
+| uniform \<type> colortex6;                     | colorBuffers = 7 |
+| uniform \<type> colortex7;                     | colorBuffers = 8 |
+| uniform \<type> centerDepthSmooth;             | centerDepthSmooth = true |
 | /* SHADOWRES:1024 */                          | shadowMapWidth = shadowMapHeight = 1024 |
 | const int shadowMapResolution = 1024;         | shadowMapWidth = shadowMapHeight = 1024 |
 | /* SHADOWFOV:90.0 */                          | shadowMapFov = 90 |
@@ -423,9 +423,9 @@ Fragment Shader Configuration
 | /* GAUX4FORMAT:RGBA32F */                     | buffersFormat[7] = GL_RGBA32F |
 | /* GAUX4FORMAT:RGB32F */                      | buffersFormat[7] = GL_RGB32F |
 | /* GAUX4FORMAT:RGB16 */                       | buffersFormat[7] = GL_RGB16 |
-| const int <bufferIndex>Format = <format>;     | bufferFormats[index] = <format> | See "Buffer Index" and "Texture Formats" |
-| const bool <bufferIndex>Clear = false;        | gbuffersClear[index] = false    | Skip glClear() for the given buffer, only for "composite" and "deferred" programs  |
-| const bool <bufferIndex>MipmapEnabled = true; | bufferMipmaps[index] = true     | Only for programs "composite" , "deferred" and "final" |
+| const int \<bufferIndex>Format = \<format>;     | bufferFormats[index] = \<format> | See "Buffer Index" and "Texture Formats" |
+| const bool \<bufferIndex>Clear = false;        | gbuffersClear[index] = false    | Skip glClear() for the given buffer, only for "composite" and "deferred" programs  |
+| const bool \<bufferIndex>MipmapEnabled = true; | bufferMipmaps[index] = true     | Only for programs "composite" , "deferred" and "final" |
 | /* DRAWBUFFERS:0246 */                        | drawBuffers = "0246"            | Draw buffers 0, 2, 4 and 6 |	
 
 Draw Buffer Index 
