@@ -496,7 +496,7 @@ Block ID mapping
 The block ID mapping is defined in `shaders/block.properties` included in the shader pack.  
 Forge mods may add custom block mapping as `assets/<modid>/shaders/block.properties` in the mod JAR file.  
 The `block.properties` file can use conditional preprocessor directives (#ifdef, #if, etc.)  
-For more details see section "Standard Macros" A to G. Option macros are not available.  
+For more details see section [Standard Macros](#standard-macros) A to G. Option macros are not available.  
 Format `block.<id>=<block1> <block2> ...`  
 The key is the substitute block ID, the values are the blocks which are to be replaced.  
 Only one line per block ID is allowed.  
@@ -538,7 +538,7 @@ Item ID mapping
 The item ID mapping is defined in `shaders/item.properties` included in the shader pack.  
 Forge mods may add custom item mapping as `assets/<modid>/shaders/item.properties` in the mod JAR file.  
 The `item.properties` file can use conditional preprocessor directives (#ifdef, #if, etc.)
-For more details see section "Standard Macros" A to G. Option macros are not available.  
+For more details see section [Standard Macros](#standard-macros) A to G. Option macros are not available.  
 Format `item.<id>=<item1> <item2> ...`  
 The key is the substitute item ID, the values are the items which are to be replaced.  
 Only one line per item ID is allowed.
@@ -553,7 +553,7 @@ Entity ID mapping
 The entity ID mapping is defined in `shaders/entity.properties` included in the shader pack.  
 Forge mods may add custom entity mapping as `assets/<modid>/shaders/entity.properties` in the mod JAR file.  
 The `entity.properties` file can use conditional preprocessor directives (#ifdef, #if, etc.)
-For more details see section "Standard Macros" A to G. Option macros are not available.  
+For more details see section [Standard Macros](#standard-macros) A to G. Option macros are not available.  
 Format `entity.<id>=<entity1> <entity2> ...`  
 The key is the substitute entity ID, the values are the entities which are to be replaced.  
 Only one line per entity ID is allowed.
