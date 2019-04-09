@@ -1,0 +1,642 @@
+Overview
+========
+The Shaders Mod makes use of a deferred rendering pipeline.  
+The gbuffer shaders come first in the pipeline. They render data to textures that will be sent to the composite shaders.  
+Optional deferred shaders can be added between terrain and water rendering.  
+The composite shaders then render to textures that will be sent to the final shader.  
+The final shader renders directly to the screen.
+
+Shader Files
+============
+All shader files are placed in the folder "shaders" of the shader pack.
+The shader source files use the name of the program in which they are to be used with extension depending on their type.
+
+| Extension | Type            |
+|-----------|-----------------|
+| .vsh      | Vertex Shader   |
+| .gsh      | Geometry Shader |
+| .fsh      | Fragment Shader |
+
+Geometry shaders need either OpenGL 3.2 with layout qualifiers or the extension GL_ARB_geometry_shader4 with configuration "maxVerticesOut".
+
+Color Attachments
+=================
+The data is passed from shader to shader using color attachments. 
+There are at least 4 for all machines. For machines that can support it, there are 8.  
+In the deferred, composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
+(colortex0 to colortex7 can be used instead of gcolor, gdepth etc.)  
+Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
+The first one, gcolor has its color cleared to the current fog color before rendering. 
+The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
+The rest have their color cleared to black with 0 alpha.
+
+Each color attachment uses 2 buffers (A and B) with logical names "main" and "alt", which can be used as ping-pong buffers.
+When the buffers are flipped the mapping between main/alt and A/B is reversed.  
+Gbuffer programs always read from "main" (only gaux1-4) and write to "main" buffers (they shouldn't read and write to the same buffer at the same time).  
+Deferred/composite programs always read from "main" and write to "alt" buffers.  
+After a deferred/composite program is rendered the buffers that it writes to are flipped so the next programs can see the current output as input.
+The property `flip.<program>.<buffer>=<true|false>` can be used to enable or disable the flip independant of the buffer write.  
+The virtual programs "deferred_pre" and "composite_pre" can be used for buffer flipping before the deferred/composite pass.
+
+When writing to the color attachments in the composite shader, blending is disabled. 
+Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
+
+The vertex and fragment configuration parsing is affected by the preprocessor conditional compilation directives.
+The following preprocessor directives are currently recognized:
+```c
+#define <macro>
+#undef <macro>
+#ifdef <macro>
+#ifndef <macro>
+#if <int>
+#if defined <macro>
+#if !defined <macro>
+#elif <int>
+#elif defined <macro> 
+#elif !defined <macro>
+#else
+#endif
+```
+
+The current shaderpack can be reloaded by pressing "F3+R" or using the command "/reloadShaders". 
+
+Shader Programs
+========
+
+| Name                         | Render                                | When not defined use |
+| ---------------------------- | ------------------------------------- | ------------------|
+| \<none\>                       | gui, menus                            | \<none\> |
+| **-- Shadow map ---**
+| shadow                       | everything in shadow pass             | \<none\>   |
+| shadow_solid                 | \<not used\>                            | shadow |
+| shadow_cutout                | \<not used\>                            | shadow |
+| **--- GBuffers ---**
+| gbuffers_basic               | leash, block selection box            | \<none\> |
+| gbuffers_textured            | particles                             | gbuffers_basic |
+| gbuffers_textured_lit        | lit_particles, world border           | gbuffers_textured |
+| gbuffers_skybasic            | sky, horizon, stars, void             | gbuffers_basic |
+| gbuffers_skytextured         | sun, moon                             | gbuffers_textured |
+| gbuffers_clouds              | clouds                                | gbuffers_textured |
+| gbuffers_terrain             | solid, cutout, cutout_mip             | gbuffers_textured_lit |
+| gbuffers_terrain_solid       | \<not used\>                            | gbuffers_terrain |
+| gbuffers_terrain_cutout_mip  | \<not used\>                            | gbuffers_terrain |
+| gbuffers_terrain_cutout      | \<not used\>                            | gbuffers_terrain |
+| gbuffers_damagedblock        | damaged_blocks                        | gbuffers_terrain |
+| gbuffers_block               | block_entities                        | gbuffers_terrain |
+| gbuffers_beaconbeam          | beacon beam                           | gbuffers_textured |
+| gbuffers_item                | \<not used\>                            | gbuffers_textured_lit |
+| gbuffers_entities            | entities                              | gbuffers_textured_lit |
+| gbuffers_armor_glint         | glint on armor and handheld items     | gbuffers_textured |
+| gbuffers_spidereyes          | eyes of spider, enderman and dragon   | gbuffers_textured |
+| gbuffers_hand                | hand and opaque handheld objects      | gbuffers_textured_lit |
+| gbuffers_weather             | rain, snow                            | gbuffers_textured_lit |
+| **--- Deferred ---**
+| deferred_pre                 | \<virtual\> flip ping-pong buffers      | \<none\> |
+| deferred                     | \<deferred\>                            | \<none\> |
+| deferred1                    | \<deferred\>                            | \<none\> |
+| ...                          | ...                                   | ... |
+| deferred15                   | \<deferred\>                            | \<none\> |
+| **--- GBuffers translucent ---**
+| gbuffers_water               | translucent                           | gbuffers_terrain |
+| gbuffers_hand_water          | translucent handheld objects          | gbuffers_hand |
+| **--- Composite ---**
+| composite_pre                | \<virtual\> flip ping-pong buffers      | \<none\> |
+| composite                    | \<composite\>                           | \<none\> |
+| composite1                   | \<composite\>                           | \<none\> |
+| ...                          | ...                                   | ... |
+| composite15                  | \<composite\>                           | \<none\> |
+| **--- Final ---**
+| final                        | \<final\>                               | \<none\> |
+
+Remarks:
+ - The programs shadow_solid, shadow_cutout, gbuffers_terrain_solid, gbuffers_terrain_cutout and gbuffers_terrain_cutout_mip are not used
+
+Todo:
+ - Separate programs for world border, entities (by id, by type), cape, elytra, wolf collar, etc. 
+ 
+Attributes
+==========
+| Source                        | Value                                | Comment |
+| --- | --- | --- |
+| attribute vec3 mc_Entity;     | xy = blockId, renderType             | "blockId" is used only for blocks specified in "block.properties"      |
+| attribute vec2 mc_midTexCoord;| st = midTexU, midTexV                | Sprite middle UV coordinates  |
+| attribute vec4 at_tangent;    | xyz = tangent vector, w = handedness | |
+
+Uniforms
+==========
+| Source                                  | Value |
+| --- | --- |
+| `uniform int heldItemId;`                 | held item ID (main hand), used only for items defined in "item.properties" |
+| `uniform int heldBlockLightValue;`        | held item light value (main hand) |
+| `uniform int heldItemId2;`                | held item ID (off hand), used only for items defined in "item.properties" |
+| `uniform int heldBlockLightValue2;`       | held item light value (off hand) |
+| `uniform int fogMode;`                    | GL_LINEAR, GL_EXP or GL_EXP2 |
+| `uniform float fogDensity;`               | 0.0-1.0 |
+| `uniform vec3 fogColor;`                  | r, g, b |
+| `uniform vec3 skyColor;`                  | r, g, b |
+| `uniform int worldTime;`                  | \<ticks> = worldTicks % 24000 |
+| `uniform int worldDay;`                   | \<days> = worldTicks / 24000 |
+| `uniform int moonPhase;`                  | 0-7 |
+| `uniform int frameCounter;`               | Frame index (0 to 720719, then resets to 0) |
+| `uniform float frameTime;`                | last frame time, seconds |
+| `uniform float frameTimeCounter;`         | run time, seconds (resets to 0 after 3600s) |
+| `uniform float sunAngle;`                 | 0.0-1.0 |
+| `uniform float shadowAngle;`              | 0.0-1.0 |
+| `uniform float rainStrength;`             | 0.0-1.0 |
+| `uniform float aspectRatio;`              | viewWidth / viewHeight |
+| `uniform float viewWidth;`                | viewWidth |
+| `uniform float viewHeight;`               | viewHeight |
+| `uniform float near;`                     | near viewing plane distance |
+| `uniform float far;`                      | far viewing plane distance |
+| `uniform vec3 sunPosition;`               | sun position in eye space |
+| `uniform vec3 moonPosition;`              | moon position in eye space |
+| `uniform vec3 shadowLightPosition;`       | shadow light (sun or moon) position in eye space |
+| `uniform vec3 upPosition;`                | direction up |
+| `uniform vec3 cameraPosition;`            | camera position in world space |
+| `uniform vec3 previousCameraPosition;`    | last frame cameraPosition |
+| `uniform mat4 gbufferModelView;`          | modelview matrix after setting up the camera transformations |
+| `uniform mat4 gbufferModelViewInverse;`   | inverse gbufferModelView |
+| `uniform mat4 gbufferPreviousModelView;`  | last frame gbufferModelView |
+| `uniform mat4 gbufferProjection;`         | projection matrix when the gbuffers were generated |
+| `uniform mat4 gbufferProjectionInverse;`  | inverse gbufferProjection |
+| `uniform mat4 gbufferPreviousProjection;` | last frame gbufferProjection |
+| `uniform mat4 shadowProjection;`          | projection matrix when the shadow map was generated |
+| `uniform mat4 shadowProjectionInverse;`   | inverse shadowProjection |
+| `uniform mat4 shadowModelView;`           | modelview matrix when the shadow map was generated |
+| `uniform mat4 shadowModelViewInverse;`    | inverse shadowModelView |
+| `uniform float wetness;`                  | rainStrength smoothed with wetnessHalfLife or drynessHalfLife |
+| `uniform float eyeAltitude;`              | view entity Y position |
+| `uniform ivec2 eyeBrightness;`            | x = block brightness, y = sky brightness, light 0-15 = brightness 0-240  |
+| `uniform ivec2 eyeBrightnessSmooth;`      | eyeBrightness smoothed with eyeBrightnessHalflife |
+| `uniform ivec2 terrainTextureSize;`       | not used |
+| `uniform int terrainIconSize;`            | not used |
+| `uniform int isEyeInWater;`               | 1 = camera is in water, 2 = camera is in lava |
+| `uniform float nightVision;`              | night vision (0.0-1.0) |
+| `uniform float blindness;`                | blindness (0.0-1.0) |
+| `uniform float screenBrightness;`         | screen brightness (0.0-1.0) |
+| `uniform int hideGUI;`                    | GUI is hidden |
+| `uniform float centerDepthSmooth;`        | centerDepth smoothed with centerDepthSmoothHalflife |
+| `uniform ivec2 atlasSize;`                | texture atlas size (only set when the atlas texture is bound) |
+| `uniform vec4 entityColor;`               | entity color multiplier (entity hurt, creeper flashing when exploding) |
+| `uniform int entityId;`                   | entity ID |
+| `uniform int blockEntityId;`              | block entity ID (block ID for the tile entity, only for blocks specified in "block.properties") |
+| `uniform ivec4 blendFunc;`                | blend function (srcRGB, dstRGB, srcAlpha, dstAlpha) |
+
+GBuffers Uniforms
+================= 
+Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout_mip, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, hand_water, weather)
+
+| Source                             |  Value |
+| --- | --- |
+| `uniform sampler2D texture;`       | 0 |
+| `uniform sampler2D lightmap;`      | 1 |
+| `uniform sampler2D normals;`       | 2 |
+| `uniform sampler2D specular;`      | 3 |
+| `uniform sampler2D shadow;`        | waterShadowEnabled ? 5 : 4 |
+| `uniform sampler2D watershadow;`   | 4 |
+| `uniform sampler2D shadowtex0;`    | 4 |
+| `uniform sampler2D shadowtex1;`    | 5 |
+| `uniform sampler2D depthtex0;`     | 6 |
+| `uniform sampler2D gaux1;`         | 7  \<custom texture or output from deferred programs> |
+| `uniform sampler2D gaux2;`         | 8  \<custom texture or output from deferred programs> |
+| `uniform sampler2D gaux3;`         | 9  \<custom texture or output from deferred programs> |
+| `uniform sampler2D gaux4;`         | 10 \<custom texture or output from deferred programs> |
+| `uniform sampler2D depthtex1;`     | 11 |
+| `uniform sampler2D shadowcolor;`   | 13 |
+| `uniform sampler2D shadowcolor0;`  | 13 |
+| `uniform sampler2D shadowcolor1;`  | 14 |
+| `uniform sampler2D noisetex;`      | 15 |
+
+Shadow Uniforms
+=================
+Programs: shadow, shadow_solid, shadow_cutout 
+
+| Source                          | Value |
+| --- | --- |
+| `uniform sampler2D tex;`          | 0 |
+| `uniform sampler2D texture;`      | 0 |
+| `uniform sampler2D lightmap;`     | 1 |
+| `uniform sampler2D normals;`      | 2 |
+| `uniform sampler2D specular;`     | 3 |
+| `uniform sampler2D shadow;`       | waterShadowEnabled ? 5 : 4 |
+| `uniform sampler2D watershadow;`  | 4 |
+| `uniform sampler2D shadowtex0;`   | 4 |
+| `uniform sampler2D shadowtex1;`   | 5 |
+| `uniform sampler2D gaux1;`        | 7  \<custom texture> |
+| `uniform sampler2D gaux2;`        | 8  \<custom texture> |
+| `uniform sampler2D gaux3;`        | 9  \<custom texture> |
+| `uniform sampler2D gaux4;`        | 10 \<custom texture> |
+| `uniform sampler2D shadowcolor;`  | 13 |
+| `uniform sampler2D shadowcolor0;` | 13 |
+| `uniform sampler2D shadowcolor1;` | 14 |
+| `uniform sampler2D noisetex;`     | 15 |
+
+Composite and Deferred Uniforms
+===============================
+Programs: composite, composite1, composite2, composite3, composite4, composite5, composite6, composite7, final, deferred, deferred1, deferred2, deferred3, deferred4, deferred5, deferred6, deferred7
+
+| Source                          | Value |
+| --- | --- |
+| `uniform sampler2D gcolor;`       | 0 |
+| `uniform sampler2D gdepth;`       | 1 |
+| `uniform sampler2D gnormal;`      | 2 |
+| `uniform sampler2D composite;`    | 3 |
+| `uniform sampler2D gaux1;`        | 7 |
+| `uniform sampler2D gaux2;`        | 8 |
+| `uniform sampler2D gaux3;`        | 9 |
+| `uniform sampler2D gaux4;`        | 10 |
+| `uniform sampler2D colortex0;`    | 0 |
+| `uniform sampler2D colortex1;`    | 1 |
+| `uniform sampler2D colortex2;`    | 2 |
+| `uniform sampler2D colortex3;`    | 3 |
+| `uniform sampler2D colortex4;`    | 7 |
+| `uniform sampler2D colortex5;`    | 8 |
+| `uniform sampler2D colortex6;`    | 9 |
+| `uniform sampler2D colortex7;`    | 10 |
+| `uniform sampler2D shadow;`       | waterShadowEnabled ? 5 : 4 |
+| `uniform sampler2D watershadow;`  | 4 |
+| `uniform sampler2D shadowtex0;`   | 4 |
+| `uniform sampler2D shadowtex1;`   | 5 |
+| `uniform sampler2D gdepthtex;`    | 6 |
+| `uniform sampler2D depthtex0;`    | 6 |
+| `uniform sampler2D depthtex1;`    | 11 |
+| `uniform sampler2D depthtex2;`    | 12 |
+| `uniform sampler2D shadowcolor;`  | 13 |
+| `uniform sampler2D shadowcolor0;` | 13 |
+| `uniform sampler2D shadowcolor1;` | 14 |
+| `uniform sampler2D noisetex;`     | 15 |
+
+GBuffers Textures
+=================
+| Id |  Name | Legacy name |
+| --- | --- | --- |
+| 0  |  texture |
+| 1  |  lightmap |
+| 2  |  normals |
+| 3  |  specular |
+| 4  |  shadowtex0     | shadow, watershadow  |
+| 5  |  shadowtex1     | shadow (when watershadow used) |
+| 6  |  depthtex0 |
+| 7  |  gaux1          | \<custom texture or output from deferred programs> |
+| 8  |  gaux2          | \<custom texture or output from deferred programs> |
+| 9  |  gaux3          | \<custom texture or output from deferred programs> |
+| 10 |  gaux4          | \<custom texture or output from deferred programs> |
+| 12 |  depthtex1 |
+| 13 |  shadowcolor0   | shadowcolor  |
+| 14 |  shadowcolor1 |
+| 15 |  noisetex |
+
+Shadow Textures
+==================
+| Id | Name | Legacy name |
+| --- | --- | --- |
+| 0  | texture        tex |
+| 1  | lightmap |
+| 2  | normals |
+| 3  | specular |
+| 4  | shadowtex0     | shadow, watershadow |
+| 5  | shadowtex1     | shadow (when watershadow used) |
+| 7  | gaux1          | \<custom texture> |
+| 8  | gaux2          | \<custom texture> |
+| 9  | gaux3          | \<custom texture> |
+| 10 | gaux4          | \<custom texture> |
+| 13 | shadowcolor0   | shadowcolor |
+| 14 | shadowcolor1    |
+| 15 | noisetex |
+
+Composite and Deferred Textures
+===============================
+| Id | Name | Legacy name |
+| --- | --- | --- |
+| 0  | colortex0      | gcolor  |
+| 1  | colortex1      | gdepth  |
+| 2  | colortex2      | gnormal  |
+| 3  | colortex3      | composite |
+| 4  | shadowtex0     | shadow, watershadow  |
+| 5  | shadowtex1     | shadow (when watershadow used) |
+| 6  | depthtex0      | gdepthtex |
+| 7  | colortex4      | gaux1 |
+| 8  | colortex5      | gaux2 |
+| 9  | colortex6      | gaux3 |
+| 10 | colortex7      | gaux4 |
+| 11 | depthtex1 |
+| 12 | depthtex2 |
+| 13 | shadowcolor0   | shadowcolor |
+| 14 | shadowcolor1 |
+| 15 | noisetex |
+
+Depth buffers usage
+===================
+| Name      | Usage |
+| --- | --- |
+| depthtex0 | everything |
+| depthtex1 | no translucent objects (water, stained glass)  |
+| depthtex2 | no translucent objects (water, stained glass), no handheld objects |
+
+Shadow buffers usage
+====================
+| Name       | Usage |
+| --- | --- |
+| shadowtex0 | everything |
+| shadowtex1 | no translucent objects (water, stained glass)  |
+
+Vertex Shader Configuration
+===========================
+| Source                           | Effect                                                    Comment |
+| --- | --- |
+| attribute <type> mc_Entity;      | useEntityAttrib = true |
+| attribute <type> mc_midTexCoord; | useMidTexCoordAttrib = true |
+| attribute <type> at_tangent;     | useTangentAttrib = true |
+
+Geometry Shader Configuration
+===========================
+| Source                                      | Effect                            | Comment |
+| --- | --- | --- |
+| #extension GL_ARB_geometry_shader4 : enable | Enable GL_ARB_geometry_shader4 |
+| const int maxVerticesOut = 3;               | Set GEOMETRY_VERTICES_OUT_ARB for GL_ARB_geometry_shader4  |
+
+Fragment Shader Configuration
+=============================
+| Source                                        | Effect                                 | Comment |
+| --- | --- | --- |
+| uniform <type> shadow;                        | shadowDepthBuffers = 1 |
+| uniform <type> watershadow;                   | shadowDepthBuffers = 2 |
+| uniform <type> shadowtex0;                    | shadowDepthBuffers = 1 |
+| uniform <type> shadowtex1;                    | shadowDepthBuffers = 2 |
+| uniform <type> shadowcolor;                   | shadowColorBuffers = 1 |
+| uniform <type> shadowcolor0;                  | shadowColorBuffers = 1 |
+| uniform <type> shadowcolor1;                  | shadowColorBuffers = 2 |
+| uniform <type> depthtex0;                     | depthBuffers = 1 |
+| uniform <type> depthtex1;                     | depthBuffers = 2 |
+| uniform <type> depthtex2;                     | depthBuffers = 3 |
+| uniform <type> gdepth;                        | if (bufferFormat[1] == RGBA) bufferFormat[1] = RGBA32F; |
+| uniform <type> gaux1;                         | colorBuffers = 5 |
+| uniform <type> gaux2;                         | colorBuffers = 6 |
+| uniform <type> gaux3;                         | colorBuffers = 7 |
+| uniform <type> gaux4;                         | colorBuffers = 8 |
+| uniform <type> colortex4;                     | colorBuffers = 5 |
+| uniform <type> colortex5;                     | colorBuffers = 6 |
+| uniform <type> colortex6;                     | colorBuffers = 7 |
+| uniform <type> colortex7;                     | colorBuffers = 8 |
+| uniform <type> centerDepthSmooth;             | centerDepthSmooth = true |
+| /* SHADOWRES:1024 */                          | shadowMapWidth = shadowMapHeight = 1024 |
+| const int shadowMapResolution = 1024;         | shadowMapWidth = shadowMapHeight = 1024 |
+| /* SHADOWFOV:90.0 */                          | shadowMapFov = 90 |
+| const float shadowMapFov = 90.0;              | shadowMapFov = 90 |
+| /* SHADOWHPL:160.0 */                         | shadowMapDistance = 160.0 |
+| const float shadowDistance = 160.0f;          | shadowMapDistance = 160.0 |
+| const float shadowDistanceRenderMul = -1f;    | shadowDistanceRenderMul = -1 | When > 0 enable shadow optimization (shadowRenderDistance = shadowDistance * shadowDistanceRenderMul) |
+| const float shadowIntervalSize = 2.0f;        | shadowIntervalSize = 2.0 |
+| const bool generateShadowMipmap = true;       | shadowMipmap = true |
+| const bool generateShadowColorMipmap = true;  | shadowColorMipmap = true |
+| const bool shadowHardwareFiltering = true;    | shadowHardwareFiltering = true |
+| const bool shadowHardwareFiltering0 = true;   | shadowHardwareFiltering[0] = true |
+| const bool shadowHardwareFiltering1 = true;   | shadowHardwareFiltering[1] = true |
+| const bool shadowtexMipmap = true;            | shadowMipmap[0] = true |
+| const bool shadowtex0Mipmap = true;           | shadowMipmap[0] = true |
+| const bool shadowtex1Mipmap = true;           | shadowMipmap[1] = true |
+| const bool shadowcolor0Mipmap = true;         | shadowColorMipmap[0] = true |
+| const bool shadowColor0Mipmap = true;         | shadowColorMipmap[0] = true |
+| const bool shadowcolor1Mipmap = true;         | shadowColorMipmap[1] = true |
+| const bool shadowColor1Mipmap = true;         | shadowColorMipmap[1] = true |
+| const bool shadowtexNearest = true;           | shadowFilterNearest[0] = true |
+| const bool shadowtex0Nearest = true;          | shadowFilterNearest[0] = true |
+| const bool shadow0MinMagNearest = true;       | shadowFilterNearest[0] = true |
+| const bool shadowtex1Nearest = true;          | shadowFilterNearest[1] = true |
+| const bool shadow1MinMagNearest = true;       | shadowFilterNearest[1] = true |
+| const bool shadowcolor0Nearest = true;        | shadowColorFilterNearest[0] = true |
+| const bool shadowColor0Nearest = true;        | shadowColorFilterNearest[0] = true |
+| const bool shadowColor0MinMagNearest = true;  | shadowColorFilterNearest[0] = true |
+| const bool shadowcolor1Nearest = true;        | shadowColorFilterNearest[1] = true |
+| const bool shadowColor1Nearest = true;        | shadowColorFilterNearest[1] = true |
+| const bool shadowColor1MinMagNearest = true;  | shadowColorFilterNearest[1] = true |
+| /* WETNESSHL:600.0 */                         | wetnessHalfLife = 600 (ticks) |
+| const float wetnessHalflife = 600.0f;         | wetnessHalfLife = 600 (ticks) |
+| /* DRYNESSHL:200.0 */                         | drynessHalfLife = 200 (ticks) |
+| const float drynessHalflife = 200.0f;         | drynessHalfLife = 200 (ticks) |
+| const float eyeBrightnessHalflife = 10.0f;    | eyeBrightnessHalflife = 10 (ticks) |
+| const float centerDepthHalflife = 1.0f;       | centerDepthSmoothHalflife = 1 (ticks) |
+| const float sunPathRotation = 0f;             | sunPathRotation = 0f |
+| const float ambientOcclusionLevel = 1.0f;     | ambientOcclusionLevel = 1.0f    | 0.0f = AO disabled, 1.0f = vanilla AO |
+| const int superSamplingLevel = 1;             | superSamplingLevel = 1 |
+| const int noiseTextureResolution = 256;       | noiseTextureResolution = 256 |
+| /* GAUX4FORMAT:RGBA32F */                     | buffersFormat[7] = GL_RGBA32F |
+| /* GAUX4FORMAT:RGB32F */                      | buffersFormat[7] = GL_RGB32F |
+| /* GAUX4FORMAT:RGB16 */                       | buffersFormat[7] = GL_RGB16 |
+| const int <bufferIndex>Format = <format>;     | bufferFormats[index] = <format> | See "Buffer Index" and "Texture Formats" |
+| const bool <bufferIndex>Clear = false;        | gbuffersClear[index] = false    | Skip glClear() for the given buffer, only for "composite" and "deferred" programs  |
+| const bool <bufferIndex>MipmapEnabled = true; | bufferMipmaps[index] = true     | Only for programs "composite" , "deferred" and "final" |
+| /* DRAWBUFFERS:0246 */                        | drawBuffers = "0246"            | Draw buffers 0, 2, 4 and 6 |	
+
+Draw Buffer Index 
+==================
+| Prefix        | Index |
+| --- | --- |
+| colortex\<0-7> | 0-7 |
+| gcolor        | 0 |
+| gdepth        | 1 |
+| gnormal       | 2 |
+| composite     | 3 |
+| gaux1         | 4 |
+| gaux2         | 5 |
+| gaux3         | 6 |
+| gaux4         | 7 |
+ 
+Texture Formats
+===============
+1. 8-bit normalized  
+ R8  
+ RG8  
+ RGB8  
+ RGBA8  
+2. 8-bit signed normalized  
+ R8_SNORM  
+ RG8_SNORM  
+ RGB8_SNORM  
+ RGBA8_SNORM  
+3. 16-bit normalized  
+ R16  
+ RG16  
+ RGB16  
+ RGBA16  
+4. 16-bit signed normalized  
+ R16_SNORM  
+ RG16_SNORM  
+ RGB16_SNORM  
+ RGBA16_SNORM  
+5. 16-bit float  
+ R16F  
+ RG16F  
+ RGB16F  
+ RGBA16F  
+6. 32-bit float  
+ R32F  
+ RG32F  
+ RGB32F  
+ RGBA32F  
+7. 32-bit integer  
+ R32I  
+ RG32I  
+ RGB32I  
+ RGBA32I  
+8. 32-bit unsigned integer  
+ R32UI  
+ RG32UI  
+ RGB32UI  
+ RGBA32UI  
+9. Mixed  
+ R3_G3_B2  
+ RGB5_A1  
+ RGB10_A2  
+ R11F_G11F_B10F  
+ RGB9_E5  
+
+Block ID mapping
+================
+The block ID mapping is defined in `shaders/block.properties` included in the shader pack.  
+Forge mods may add custom block mapping as `assets/<modid>/shaders/block.properties` in the mod JAR file.  
+The `block.properties` file can use conditional preprocessor directives (#ifdef, #if, etc.)  
+For more details see section "Standard Macros" A to G. Option macros are not available.  
+Format `block.<id>=<block1> <block2> ...`  
+The key is the substitute block ID, the values are the blocks which are to be replaced.  
+Only one line per block ID is allowed.  
+See `properties_files.txt` for the block matching rules.  
+
+  * Short format  
+  `block.31=red_flower nether_flower reeds`
+  * Long format  
+  `block.32=minecraft:red_flower ic2:nether_flower botania:reeds`
+  * Properties  
+  `block.33=minecraft:red_flower:type=white_tulip minecraft:red_flower:type=pink_tulip botania:reeds:type=green`
+
+See `properties_files.txt` for more details.
+
+Block render layers
+===================
+The custom block render layers are defined in `shaders/block.properties` included in the shader pack.
+```
+  layer.solid=<blocks>
+  layer.cutout=<blocks>
+  layer.cutout_mipped=<blocks>
+  layer.translucent=<blocks>
+```
+<dl>
+<dt>Layers</dt>  
+  <dd>solid - no alpha, no blending (solid textures)</dd>
+  <dd>cutout - alpha, no blending (cutout textures)</dd> 
+  <dd>cutout_mipped - alpha, no blending, mipmaps (cutout with mipmaps)</dd> 
+  <dd>translucent - alpha, blending, mipmaps (water, stained glass)</dd> 
+ 
+Blocks which are solid opaque cubes (stone, dirt, ores, etc) can't be rendered on a custom layer
+as this would affect face culling, ambient occlusion, light propagation and so on.
+
+For example:
+  `layer.translucent=glass_pane fence wooden_door`
+
+Item ID mapping
+================
+The item ID mapping is defined in `shaders/item.properties` included in the shader pack.  
+Forge mods may add custom item mapping as `assets/<modid>/shaders/item.properties` in the mod JAR file.  
+The `item.properties` file can use conditional preprocessor directives (#ifdef, #if, etc.)
+For more details see section "Standard Macros" A to G. Option macros are not available.  
+Format `item.<id>=<item1> <item2> ...`  
+The key is the substitute item ID, the values are the items which are to be replaced.  
+Only one line per item ID is allowed.
+
+  * Short format  
+  `item.5000=diamond_sword dirt`
+  * Long format  
+  `item.5001=minecraft:diamond_sword botania:reeds`
+
+Entity ID mapping
+=================
+The entity ID mapping is defined in `shaders/entity.properties` included in the shader pack.  
+Forge mods may add custom entity mapping as `assets/<modid>/shaders/entity.properties` in the mod JAR file.  
+The `entity.properties` file can use conditional preprocessor directives (#ifdef, #if, etc.)
+For more details see section "Standard Macros" A to G. Option macros are not available.  
+Format `entity.<id>=<entity1> <entity2> ...`  
+The key is the substitute entity ID, the values are the entities which are to be replaced.  
+Only one line per entity ID is allowed.
+
+  * Short format  
+  `entity.2000=sheep cow`
+  * Long format  
+  `entity.2001=minecraft:pig botania:pixie`
+
+Standard Macros
+===============
+The standard macros are automatically included after the `#version` declaration in every shader file
+
+* A. Minecraft version  
+```c
+#define MC_VERSION <value>
+``` 
+The value is in format 122 (major 1, minor 2, release 2)  
+For example: 1.9.4 -> 10904, 1.11.2 -> 11102, etc.
+
+* B. Maximum supported GL version  
+```c
+#define MC_GL_VERSION <value>
+```
+ The value is integer, for example: 210, 320, 450
+
+* C. Maximum supported GLSL version  
+```c
+#define MC_GLSL_VERSION <value>
+```
+ The value is integer, for example: 120, 150, 450  
+
+* D. Operating system   
+ One of the following:  
+ ```c
+ #define MC_OS_WINDOWS
+ #define MC_OS_MAC
+ #define MC_OS_LINUX
+ #define MC_OS_OTHER
+ ```
+
+* E. GPU  
+ One of the following:  
+ ```c
+ #define MC_GL_VENDOR_ATI
+ #define MC_GL_VENDOR_INTEL
+ #define MC_GL_VENDOR_NVIDIA
+ #define MC_GL_VENDOR_XORG
+ #define MC_GL_VENDOR_OTHER
+ ```
+
+* F. Driver  
+ One of the following:  
+ ```c
+ #define MC_GL_RENDERER_RADEON 
+ #define MC_GL_RENDERER_GEFORCE
+ #define MC_GL_RENDERER_QUADRO
+ #define MC_GL_RENDERER_INTEL
+ #define MC_GL_RENDERER_GALLIUM
+ #define MC_GL_RENDERER_MESA
+ #define MC_GL_RENDERER_OTHER
+ ```
+
+* G. OpenGL extensions  
+ Macros for the supported OpenGL extensions are named like the corresponding extension with a prefix "MC_".  
+ For example the macro "MC_GL_ARB_shader_texture_lod" is defined when the extension "GL_ARB_shader_texture_lod" is supported.    
+ Only the macros which are referenced and supported are added to the shader file.  
+
+* H. Options  
+```c
+#define MC_FXAA_LEVEL <value>       // When FXAA is enabled, values: 2, 4
+#define MC_NORMAL_MAP               // When the normal map is enabled
+#define MC_SPECULAR_MAP             // When the specular map is enabled
+#define MC_RENDER_QUALITY <value>   // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
+#define MC_SHADOW_QUALITY <value>   // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
+#define MC_HAND_DEPTH <value>       // Values: 0.0625, 0.125, 0.25
+#define MC_OLD_HAND_LIGHT           // When Old Hand Light is enabled
+#define MC_OLD_LIGHTING             // When Old Lighting is enabled
+```
+
+References
+==========
+ <http://daxnitro.wikia.com/wiki/Editing_Shaders_%28Shaders2%29>  
+ <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix>  
+ <http://www.minecraftforum.net/forums/search?by-author=karyonix&display-type=posts>  
+ <http://www.seas.upenn.edu/~cis565/fbo.htm#feedback>  
