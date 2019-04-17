@@ -10,7 +10,7 @@ of.general.smart=Chytré
 of.key.zoom=Zoom
 
 # Message
-of.message.aa.shaders1=Vyhladzovanie okrajov nie je kompatibilné s tieňovačmi (Shaders).
+of.message.aa.shaders1=Antialiasing nie je kompatibilný s tieňovačmi (Shaders).
 of.message.aa.shaders2=Vypni tieňovače pre odomknutie tejto možnosti.
 
 of.message.af.shaders1=Anizotropné filtrovanie nie je kompatibilné s tieňovačmi (Shaders).
@@ -22,8 +22,8 @@ of.message.fr.shaders2=Vypni tieňovače pre odomknutie tejto možnosti.
 of.message.an.shaders1=3D Anaglyf režim nie je kompatibilný s tieňovačmi (Shaders).
 of.message.an.shaders2=Vypni tieňovače pre odomknutie tejto možnosti.
 
-of.message.shaders.aa1=Tieňovače nie sú kompatibilné s vyhladzovaním okrajov.
-of.message.shaders.aa2=Nastav Kvalita -> Vyhladzovanie okrajov na VYP a reštartuj hru.
+of.message.shaders.aa1=Tieňovače nie sú kompatibilné s antialiasingom.
+of.message.shaders.aa2=Nastav Kvalita -> Antialiasing na VYP a reštartuj hru.
 
 of.message.shaders.af1=Tieňovače nie sú kompatibilné s anizotropným filtrovaním.
 of.message.shaders.af2=Nastav Kvalita -> Anizotropné filtrovanie na VYP a reštartuj hru.
@@ -158,8 +158,8 @@ of.options.shadersTitle=Tieňovače (Shaders)
 of.options.shaders.packNone=VYP
 of.options.shaders.packDefault=(interný)
 
-of.options.shaders.ANTIALIASING=Vyhladzovanie okrajov
-of.options.shaders.ANTIALIASING.tooltip.1=Vyhladzovanie okrajov
+of.options.shaders.ANTIALIASING=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.2=  VYP - (štandard) žiadne vyhladzovanie (rýchlejšie)
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - vyhladené línie a hrany (pomalšie)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA je efekt následného spracovania, ktorý vyhladzuje
@@ -292,13 +292,13 @@ of.options.MIPMAP_TYPE.tooltip.5=  Bilineárna - jemné vyhladzovanie
 of.options.MIPMAP_TYPE.tooltip.6=  Trilineárna - najjemnejšie vyhladzovanie (najpomalšie)
 
 
-of.options.AA_LEVEL=Vyhladzovanie okrajov
-of.options.AA_LEVEL.tooltip.1=Vyhladzovanie okrajov
+of.options.AA_LEVEL=Antialiasing
+of.options.AA_LEVEL.tooltip.1=Antialiasing (vyhladzovanie okrajov)
 of.options.AA_LEVEL.tooltip.2= VYP - (štandard) žiadne vyhladzovanie okrajov (rýchlejšie)
 of.options.AA_LEVEL.tooltip.3= 2-16 - vyhladené línie a hrany (pomalšie)
-of.options.AA_LEVEL.tooltip.4=Vyhladzovanie okrajov zjemňuje zúbkované línie
+of.options.AA_LEVEL.tooltip.4=Antialiasing vyhladzuje zúbkované okraje
 of.options.AA_LEVEL.tooltip.5=a ostré prechody farieb.
-of.options.AA_LEVEL.tooltip.6=Zapnuté môže podstatne znížiť FPS.
+of.options.AA_LEVEL.tooltip.6=Zapnutý môže podstatne znížiť FPS.
 of.options.AA_LEVEL.tooltip.7=Nie všetky úrovne sú podporované každou grafickou kartou.
 of.options.AA_LEVEL.tooltip.8=Nastavenie sa prejaví PO REŠTARTE!
 
@@ -690,7 +690,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Veľkosť snímok obrazovky (screnshot)
 of.options.SCREENSHOT_SIZE.tooltip.2=  Štandardná - štandardná veľkosť
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastná veľkosť
 of.options.SCREENSHOT_SIZE.tooltip.4=Fotenie väčších snímok môže vyžadovať viac pamäti.
-of.options.SCREENSHOT_SIZE.tooltip.5=Nekompatibilné s rýchlym vykresľovaním a vyhladzovaním okrajov.
+of.options.SCREENSHOT_SIZE.tooltip.5=Nekompatibilné s rýchlym vykresľovaním a antialiasingom.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vyžaduje podporu GPU framebufferu.
 
 of.options.SHOW_GL_ERRORS=Zobrazenie GL chýb
