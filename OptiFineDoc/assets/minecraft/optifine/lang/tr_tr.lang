@@ -1,8 +1,10 @@
 # General
 of.general.ambiguous=Görkemli
+of.general.compact=Sıkışık
 of.general.custom=Özel
 of.general.from=den
 of.general.id=Id
+of.general.max=Maksimum
 of.general.restart=Yeniden Başlat
 of.general.smart=Düzgün
 
@@ -51,6 +53,16 @@ of.message.loadingVisibleChunks=Görünen chunkları yükler
 
 of.options.skinCustomisation.ofCape=OptiFine Pelerini...
 
+of.options.capeOF.title=OptiFine Pelerin
+of.options.capeOF.openEditor=Pelerin Düzenleyiciyi Aç
+of.options.capeOF.reloadCape=Pelerini Yenile
+ 
+of.message.capeOF.openEditor=Optifine pelerin düzenleyici web sayfa üzerinde açılacak.
+of.message.capeOF.reloadCape=Pelerin 15 saniye içinde yenilenecek.
+ 
+of.message.capeOF.error1=Mojang Girişi Yapılamadı. Oyunu yeniden başlatmayı deneyin.
+of.message.capeOF.error2=Hata: %s
+
 # Video settings
 
 options.graphics.tooltip.1=Görüntü kalitesi
@@ -87,7 +99,7 @@ options.framerateLimit.tooltip.3=  5-255 - diğer değerler
 options.framerateLimit.tooltip.4=  Sınırsız - sınır yok (en hızlı)
 options.framerateLimit.tooltip.5=FPS limiti eğer ulaşılamaz ise
 options.framerateLimit.tooltip.6=azaltılmalıdır.
-of.options.framerateLimit.vsync=VSync
+of.options.framerateLimit.vsync=Veri Senkronizasyonu
 
 of.options.AO_LEVEL=Pürüzsüz aydınlatma seviyesi
 of.options.AO_LEVEL.tooltip.1=Pürüzsüz aydınlatma seviyesi
@@ -595,6 +607,7 @@ of.options.RENDER_REGIONS.tooltip.2= KAPALI - bölgesel yüklenme kullanmaz (var
 of.options.RENDER_REGIONS.tooltip.3= AÇIK - bölgesel yüklenmeyi kullanır
 of.options.RENDER_REGIONS.tooltip.4=Bölgesel yüklenme daha uzak noktalarda daha rahat yüklenmeyi
 of.options.RENDER_REGIONS.tooltip.5=sağlar. VBO aktifken daha hızlıdır
+of.options.RENDER_REGIONS.tooltip.6=Entegre grafik kartlarına önerilmez.
 
 of.options.SMART_ANIMATIONS=Rahat Animasyonlar
 of.options.SMART_ANIMATIONS.tooltip.1=Rahat Animasyonlar
@@ -692,11 +705,14 @@ of.options.save.default=Normal (2s)
 of.options.save.20s=20 saniye
 of.options.save.3min=3 dakika
 of.options.save.30min=30 dakika
+of.options.save.12min=12 dakika
+of.options.save.24min=24 dakika
 
 of.options.AUTOSAVE_TICKS=Oto Kayıt
 of.options.AUTOSAVE_TICKS.tooltip.1=Sürekli Oto Kayıt
 of.options.AUTOSAVE_TICKS.tooltip.2=Normal Oto kayıt (2 saniye) ÖNERİLMEZ!
 of.options.AUTOSAVE_TICKS.tooltip.3=Çok miktarda donma ve kasmaya sebep olabilir.
+of.options.AUTOSAVE_TICKS.tooltip.4=Ayrıca oyun menüye dönüldüğündede kaydolur.
 
 of.options.SCREENSHOT_SIZE=Ekran Alıntısı Boyutu
 of.options.SCREENSHOT_SIZE.tooltip.1=Ekran Alıntısı Boyutu
@@ -713,3 +729,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Bu ayarıeğer bilinen bir hata var ve
 of.options.SHOW_GL_ERRORS.tooltip.4=çözülemiyorsa devre dışı bırakın
 of.options.SHOW_GL_ERRORS.tooltip.5=Devre dışı bırakıldığında bile hata dosyasında bulunacak
 of.options.SHOW_GL_ERRORS.tooltip.6=ve bu durum FPS düşüşlerine sebep olabilir.
+
+# Chat Settings
+ 
+of.options.CHAT_BACKGROUND=Sohbet Arkaplanı
+of.options.CHAT_BACKGROUND.tooltip.1=Sohbet Arkaplanı
+of.options.CHAT_BACKGROUND.tooltip.2=  Varsayılan - Düzgün genişlik
+of.options.CHAT_BACKGROUND.tooltip.3=  Sıkışık - Metinle eş uzunlukta
+of.options.CHAT_BACKGROUND.tooltip.4=  Kapalı - Arkaplan yok
+ 
+of.options.CHAT_SHADOW=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.1=Sohbet gölgesi
+of.options.CHAT_SHADOW.tooltip.2=  Açık - Sohbet gölgesi kullan
+of.options.CHAT_SHADOW.tooltip.3=  Kapalı - Sohbet gölgesi kullanma
