@@ -9,8 +9,9 @@
 # The part models can be specified inline or loaded from external ".jpm" files.
 #
 # Special cases:
-# - the mushrooms on the back of the Mooshroom can be customized with the texture 
+# - the mushrooms on the back of the Mooshroom can be customized with the textures 
 #   "assets/minecraft/textures/entity/cow/red_mushroom.png"  
+#   "assets/minecraft/textures/entity/cow/brown_mushroom.png"  
 #
 # Entity name          Part name
 # ==================== ======================================================
