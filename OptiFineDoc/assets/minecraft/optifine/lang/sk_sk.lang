@@ -1,8 +1,10 @@
 # General
 of.general.ambiguous=neurčité
+of.general.compact=Kompaktné
 of.general.custom=Vlastné
 of.general.from=Od
 of.general.id=ID
+of.general.max=Maximálne
 of.general.restart=reštart
 of.general.smart=Chytré
 
@@ -51,6 +53,16 @@ of.message.loadingVisibleChunks=Načítavajú sa viditeľné chunky
 
 of.options.skinCustomisation.ofCape=OptiFine plášť...
 
+of.options.capeOF.title=OptiFine plášť
+of.options.capeOF.openEditor=Otvoriť editor plášťa
+of.options.capeOF.reloadCape=Znova načítať plášť
+
+of.message.capeOF.openEditor=Editor OptiFine plášťa sa otvorí vo webovom prehliadači.
+of.message.capeOF.reloadCape=Plášť bude načítaný do 15 sekúnd.
+
+of.message.capeOF.error1=Overenie Mojang zlyhalo.
+of.message.capeOF.error2=Chyba: %s
+
 # Video settings
 
 options.graphics.tooltip.1=Kvalita obrazu
@@ -67,7 +79,7 @@ of.options.renderDistance.extreme=Extrémna
 of.options.renderDistance.insane=Šialená
 of.options.renderDistance.ludicrous=Absurdná
 
-options.renderDistance.tooltip.1=Vzdialenosť vykresľovania
+options.renderDistance.tooltip.1=Dohľadnosť (vzdialenosť vykresľovania)
 options.renderDistance.tooltip.2=  2 Drobná - 32m (najrýchlejšia)
 options.renderDistance.tooltip.3=  8 Normálna - 128m (normálna)
 options.renderDistance.tooltip.4=  16 Ďaleká - 256m (pomalšia)
@@ -89,7 +101,7 @@ options.framerateLimit.tooltip.5=Limit rýchlosti snímok znižuje FPS aj keď
 options.framerateLimit.tooltip.6=hraničná hodnota nie je dosiahnutá.
 of.options.framerateLimit.vsync=VSync
 
-of.options.AO_LEVEL=Úroveň vyhladeného osvetlenia
+of.options.AO_LEVEL=Vyhladené osvetlenie
 of.options.AO_LEVEL.tooltip.1=Úroveň vyhladeného osvetlenia
 of.options.AO_LEVEL.tooltip.2=  VYP - žiadne tiene
 of.options.AO_LEVEL.tooltip.3=  50%% - svetlé tiene
@@ -240,12 +252,12 @@ of.options.shaders.DOWNLOAD=Stiahnuť tieňovače
 of.options.shaders.DOWNLOAD.tooltip.1=Stiahnuť tieňovače
 of.options.shaders.DOWNLOAD.tooltip.2= 
 of.options.shaders.DOWNLOAD.tooltip.3=Otvorí stránku s balíkmi tieňovačov v prehliadači.
-of.options.shaders.DOWNLOAD.tooltip.4=Stiahnuté balíky ulož do "Zložky tieňovačov"
+of.options.shaders.DOWNLOAD.tooltip.4=Stiahnuté balíky ulož do "Priečinka tieňovačov"
 of.options.shaders.DOWNLOAD.tooltip.5=a ony sa zobrazia v zozname nainštalovaných tieňovačov.
 
 of.options.shaders.SHADER_PACK=Balík tieňovačov
 
-of.options.shaders.shadersFolder=Zložka tieňovačov
+of.options.shaders.shadersFolder=Priečinok tieňovačov
 of.options.shaders.shaderOptions=Možnosti tieňovača...
 
 of.options.shaderOptionsTitle=Možnosti tieňovača
@@ -414,8 +426,8 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  VYP - štandardné modely entít, r�
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Vlastné modely entít závisia od
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=zvoleného zdrojového balíka.
 
-of.options.CUSTOM_GUIS=Vlastné grafické rozhrania (GUI)
-of.options.CUSTOM_GUIS.tooltip.1=Vlastné GUI
+of.options.CUSTOM_GUIS=Vlastné GUI
+of.options.CUSTOM_GUIS.tooltip.1=Vlastné grafické rozhrania (GUI)
 of.options.CUSTOM_GUIS.tooltip.2=  ZAP - (štandard) vlastné GUI, pomalšie
 of.options.CUSTOM_GUIS.tooltip.3=  VYP - štandardné GUI, rýchlejšie
 of.options.CUSTOM_GUIS.tooltip.4=Vlastné GUI závisia od zvoleného zdrojového balíka.
@@ -424,7 +436,7 @@ of.options.CUSTOM_GUIS.tooltip.4=Vlastné GUI závisia od zvoleného zdrojového
 
 of.options.CLOUDS=Oblaky
 of.options.CLOUDS.tooltip.1=Oblaky
-of.options.CLOUDS.tooltip.2=  Štandardné - podľa nastavenia kvality obrazu
+of.options.CLOUDS.tooltip.2=  Štandardné - podľa nastavenia Grafiky
 of.options.CLOUDS.tooltip.3=  Rýchle - nižšia kvalita, rýchlejšie
 of.options.CLOUDS.tooltip.4=  Pekné - vyššia kvalita, pomalšie
 of.options.CLOUDS.tooltip.5=  VYP - žiadne oblaky, najrýchlejšie
@@ -438,7 +450,7 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - nad výškovým limitom sveta
 
 of.options.TREES=Stromy
 of.options.TREES.tooltip.1=Stromy
-of.options.TREES.tooltip.2=  Štandardné - podľa nastavenia kvality obrazu
+of.options.TREES.tooltip.2=  Štandardné - podľa nastavenia Grafiky
 of.options.TREES.tooltip.3=  Rýchle - nižšia kvalita, rýchlejšie
 of.options.TREES.tooltip.4=  Chytré - vyššia kvalita, rýchle
 of.options.TREES.tooltip.5=  Pekné - najvyššia kvalita, pomalšie
@@ -447,7 +459,7 @@ of.options.TREES.tooltip.7=Chytré a pekné stromy majú priehľadné listy.
 
 of.options.RAIN=Dážď a sneh
 of.options.RAIN.tooltip.1=Dážď a sneh
-of.options.RAIN.tooltip.2=  Štandardné - podľa nastavenia kvality obrazu
+of.options.RAIN.tooltip.2=  Štandardné - podľa nastavenia Grafiky
 of.options.RAIN.tooltip.3=  Rýchle - slabý dážď/sneh, rýchlejšie
 of.options.RAIN.tooltip.4=  Pekné - silný dážď/sneh, pomalšie
 of.options.RAIN.tooltip.5=  VYP - žiadny dážď/sneh, najrýchlejšie
@@ -477,11 +489,12 @@ of.options.SHOW_CAPES.tooltip.3=  VYP - nezobrazovať plášte hráčov
 
 of.options.TRANSLUCENT_BLOCKS=Priesvitné kocky
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Priesvitné kocky
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Pekné - (štandard) správne miešanie farieb
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Rýchle - rýchle miešanie farieb (rýchlejšie)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Reguluje miešanie farieb priesvitných kociek
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=s rôznymi farbami (farebné sklo, voda, ľad)
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=keď sú položené za sebou s medzerou medzi nimi.
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Štandardné - podľa nastavenia Grafiky
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Pekné - správne miešanie farieb (pomalšie)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Rýchle - rýchle miešanie farieb (rýchlejšie)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Reguluje miešanie farieb priesvitných kociek
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=s rôznymi farbami (farebné sklo, voda, ľad)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=keď sú položené za sebou s medzerou medzi nimi.
 
 of.options.HELD_ITEM_TOOLTIPS=Popisy predmetov v ruke
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Popisy predmetov v ruke
@@ -498,7 +511,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=(ID, zdroj, štandardné hodnoty).
 
 of.options.DROPPED_ITEMS=Odhodené predmety
 of.options.DROPPED_ITEMS.tooltip.1=Odhodené predmety
-of.options.DROPPED_ITEMS.tooltip.2=  Štandardné - podľa nastavenia kvality obrazu
+of.options.DROPPED_ITEMS.tooltip.2=  Štandardné - podľa nastavenia Grafiky
 of.options.DROPPED_ITEMS.tooltip.3=  Rýchle - 2D odhodené predmety, rýchlejšie
 of.options.DROPPED_ITEMS.tooltip.4=  Pekné - 3D odhodené predmety, pomalšie
 
@@ -508,7 +521,7 @@ options.entityShadows.tooltip.3=  VYP - nezobrazovať tiene entít
 
 of.options.VIGNETTE=Vineta
 of.options.VIGNETTE.tooltip.1=Efekt, ktorý stmavuje okraje obrazovky
-of.options.VIGNETTE.tooltip.2=  Štandardná - podľa nastavenia kvality obrazu
+of.options.VIGNETTE.tooltip.2=  Štandardná - podľa nastavenia Grafiky
 of.options.VIGNETTE.tooltip.3=  Rýchla - vypnutá vineta (rýchlejšie)
 of.options.VIGNETTE.tooltip.4=  Pekná - zapnutá vineta (pomalšie)
 of.options.VIGNETTE.tooltip.5=Vineta môže mať vplyv na FPS, zvlášť
@@ -554,6 +567,7 @@ of.options.FAST_RENDER.tooltip.2= VYP - (štandard) štandardné vykresľovanie
 of.options.FAST_RENDER.tooltip.3= ZAP - optimalizované vykresľovanie (rýchlejšie)
 of.options.FAST_RENDER.tooltip.4=Používa optimalizovaný algoritmus vykresľovania, korý znižuje
 of.options.FAST_RENDER.tooltip.5=zaťaženie procesora a môže značne zvýšiť FPS.
+of.options.FAST_RENDER.tooltip.6=Táto možnosť nemusí správne fungovať s niektorými módmi.
 
 of.options.FAST_MATH=Rýchle výpočty
 of.options.FAST_MATH.tooltip.1=Rýchle výpočty
@@ -561,6 +575,7 @@ of.options.FAST_MATH.tooltip.2= VYP - (štandard) štandardná metóda výpočto
 of.options.FAST_MATH.tooltip.3= ZAP - rýchlejšie výpočty
 of.options.FAST_MATH.tooltip.4=Používa optimalizované funkcie sínus a kosínus, čo umožní
 of.options.FAST_MATH.tooltip.5=lepšie využiie medzipamäte procesora zvýšenie FPS.
+of.options.FAST_MATH.tooltip.6=Táto možnosť môže minimálne ovplyvniť generovanie sveta.
 
 of.options.CHUNK_UPDATES=Aktualizácie chunkov
 of.options.CHUNK_UPDATES.tooltip.1=Aktualizácie chunkov
@@ -592,6 +607,16 @@ of.options.RENDER_REGIONS.tooltip.2= VYP - (štandard) nepoužívať vykresľova
 of.options.RENDER_REGIONS.tooltip.3= ZAP - používať vykresľovacie regióny
 of.options.RENDER_REGIONS.tooltip.4=Vykresľovacie regióny umožňujú rýchlejšie vykresľovanie terénu pri
 of.options.RENDER_REGIONS.tooltip.5=vyššej vzdialenosti vykresľovania. Účinnejšie pri zapnutých VBO.
+of.options.RENDER_REGIONS.tooltip.6=Neodporúča sa pri integrovaných grafických kartách.
+
+of.options.SMART_ANIMATIONS=Chytré animácie
+of.options.SMART_ANIMATIONS.tooltip.1=Chytré animácie
+of.options.SMART_ANIMATIONS.tooltip.2= VYP - nepoužívať chytré animácie (štandard)
+of.options.SMART_ANIMATIONS.tooltip.3= ZAP - používať chytré animácie
+of.options.SMART_ANIMATIONS.tooltip.4=S chytrými animáciami bude hra animovať len tie 
+of.options.SMART_ANIMATIONS.tooltip.5=textúry, ktoré sú práve viditeľné na obrazovke.
+of.options.SMART_ANIMATIONS.tooltip.6=Znižuje to výkyvy zaťaženia a zvyšuje FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Obzvlášť užitočné pri veľkých modpackoch a HD zdrojových balíkoch.
 
 # Animations
 
@@ -669,24 +694,28 @@ of.options.FULLSCREEN_MODE.tooltip.5=Nižšie rozlíšenia by všeobecne mali by
 
 of.options.SHOW_FPS=Zobraziť FPS
 of.options.SHOW_FPS.tooltip.1=Zobrazí kompaktné informácie o FPS a vykresľovaní.
-of.options.SHOW_FPS.tooltip.2=  C: - vykresľovače chunkov
-of.options.SHOW_FPS.tooltip.3=  E: - vykreslené entity + blok-entity
-of.options.SHOW_FPS.tooltip.4=  U: - aktualizácie chunkov
-of.options.SHOW_FPS.tooltip.5=Kompaktné informácie o FPS sú zobrazené len pri
-of.options.SHOW_FPS.tooltip.6=vypnutej ladiacej obrazovke (F3).
+of.options.SHOW_FPS.tooltip.2=  Fps - priemerné/najnišžie
+of.options.SHOW_FPS.tooltip.3=  C: - vykresľovače chunkov
+of.options.SHOW_FPS.tooltip.4=  E: - vykreslené entity + blok-entity
+of.options.SHOW_FPS.tooltip.5=  U: - aktualizácie chunkov
+of.options.SHOW_FPS.tooltip.6=Kompaktné informácie o FPS sú zobrazené len pri
+of.options.SHOW_FPS.tooltip.7=vypnutej ladiacej obrazovke (F3).
 
-of.options.save.default=Štandardné (2s)
-of.options.save.20s=20s
+of.options.save.45s=45s
+of.options.save.90s=90s
 of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
 
 of.options.AUTOSAVE_TICKS=Automatické ukladanie
 of.options.AUTOSAVE_TICKS.tooltip.1=Interval automatického ukladania
-of.options.AUTOSAVE_TICKS.tooltip.2=Štandardný interval automatického ukladania (2s) SA NEODPORÚČA.
-of.options.AUTOSAVE_TICKS.tooltip.3=Automatické ukladanie spôsobuje známe "smrteľné oneskorenie" (Lag Spike of Death).
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - štandard
+of.options.AUTOSAVE_TICKS.tooltip.3=Štandardný interval automatického ukladania (2s) SA NEODPORÚČA.
+of.options.AUTOSAVE_TICKS.tooltip.4=Automatické ukladanie spôsobuje známy "lag smrti" (Lag Spike of Death).
 
-of.options.SCREENSHOT_SIZE=Veľkosť snímok obrazovky
-of.options.SCREENSHOT_SIZE.tooltip.1=Veľkosť snímok obrazovky (screnshot)
+of.options.SCREENSHOT_SIZE=Veľkosť snímok
+of.options.SCREENSHOT_SIZE.tooltip.1=Veľkosť snímok obrazovky (screenshot)
 of.options.SCREENSHOT_SIZE.tooltip.2=  Štandardná - štandardná veľkosť
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastná veľkosť
 of.options.SCREENSHOT_SIZE.tooltip.4=Fotenie väčších snímok môže vyžadovať viac pamäti.
@@ -700,3 +729,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Vypni len v prípade známeho problému, kde
 of.options.SHOW_GL_ERRORS.tooltip.4=chyby nie je možné opraviť.
 of.options.SHOW_GL_ERRORS.tooltip.5=AK je vypnuté, chyby sa stále zapisujú do denníka chýb
 of.options.SHOW_GL_ERRORS.tooltip.6=a stále môžu spôsobiť značné poklesy FPS. 
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Pozadie chatu
+of.options.CHAT_BACKGROUND.tooltip.1=Pozadie chatu
+of.options.CHAT_BACKGROUND.tooltip.2=  Štandardné - pevná šírka
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompaktné - podľa šírky riadka
+of.options.CHAT_BACKGROUND.tooltip.4=  VYP - skryté
+
+of.options.CHAT_SHADOW=Tieň chatu
+of.options.CHAT_SHADOW.tooltip.1=Tieň chatu
+of.options.CHAT_SHADOW.tooltip.2=  ZAP - používať tieň chatu
+of.options.CHAT_SHADOW.tooltip.3=  VYP - nepoužívať tieň chatu
