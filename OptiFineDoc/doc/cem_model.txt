@@ -76,9 +76,9 @@
 # stray                head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # tnt_minecart         bottom, back, front, right, left, dirt
 # vex                  head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_wing, right_wing
-# villager             head, body, arms, left_leg, right_leg, nose
+# villager             head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose
 # vindicator           head, body, arms, left_leg, right_leg, nose, left_arm, right_arm
-# witch                head, body, arms, left_leg, right_leg, nose, mole, hat
+# witch                head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose, mole
 # wither               body1 ... body3, head1 ... head3
 # wither_skeleton      head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # wither_skull         head
