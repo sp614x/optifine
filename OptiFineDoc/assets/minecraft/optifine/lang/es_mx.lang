@@ -77,6 +77,7 @@ options.viewBobbing.tooltip.2=Para mejores resultados, desactivar cundo utilice 
 options.guiScale.tooltip.1=Escala de interfaz.
 options.guiScale.tooltip.2=Entre más pequeño podría ser más rápido.
 
+options.vbo=VBO
 options.vbo.tooltip.1=Vertex Buffer Objects (OpenGL).
 options.vbo.tooltip.2=Utiliza un modelo alternativo de renderizado que incrementa
 options.vbo.tooltip.3=la velocidad de 5 a 10%% que el renderizado habitual.
