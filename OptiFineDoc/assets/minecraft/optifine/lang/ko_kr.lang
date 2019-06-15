@@ -101,6 +101,7 @@ options.guiScale.tooltip.4=  4x에서 10x까지 - 4K 디스플레이에서 사�
 options.guiScale.tooltip.5=홀수 값(1x, 3x, 5x ...)은 유니코드와 호환되지 않습니다.
 options.guiScale.tooltip.6=작은 GUI가 빠를 수 있습니다.
 
+options.vbo=VBO 사용
 options.vbo.tooltip.1=정점 버퍼 객체
 options.vbo.tooltip.2=기본 렌더링보다 보통 빠른 (5-10%%)
 options.vbo.tooltip.3=다른 렌더링 모델을 사용합니다.
