@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 18-Feb-2019
+#	Jerozgen  01-Mar-2016 — 16-Jun-2019
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -122,6 +122,7 @@ options.guiScale.tooltip.4=  с 4x до 10x - на мониторах с раз�
 options.guiScale.tooltip.5=Нечётные значения не совместимы со шрифтом Unicode.
 options.guiScale.tooltip.6=Чем меньше интерфейс, тем он быстрее.
 
+options.vbo=Использовать VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Использует альтернативную модель рендеринга,
 options.vbo.tooltip.3=которая обычно быстрее стандартной на 5–10%%.
