@@ -104,6 +104,8 @@ options.guiScale.tooltip.3= Piccola, Normale, Grande - 1x verso 3x
 options.guiScale.tooltip.4= 4x verso 10x - disponibile su schermi 4K
 options.guiScale.tooltip.5=Valori dispari (1x, 3x, 5x ...) non compatibili con Unicode.
 options.guiScale.tooltip.6=Una GUI più piccola potrebbe migliorare le prestazioni.
+
+options.vbo=VBO
 options.vbo.tooltip.1=Vertex Buffer Objects (abbreviato in VBO)
 options.vbo.tooltip.2=In alternativa è il rendering che di solito è più
 options.vbo.tooltip.3=veloce (5-10%%) alla forma default.
