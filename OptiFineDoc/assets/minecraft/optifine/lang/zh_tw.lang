@@ -113,6 +113,7 @@ options.guiScale.tooltip.4=  4x-10x - 僅適用於 4K 解析度
 options.guiScale.tooltip.5=奇數值的放大倍數（1x，3x，5x...等）與 Unicode 不相容。
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
 
+options.vbo=使用 VBOs
 options.vbo.tooltip.1=啟用緩衝區頂點物件(VBOs)
 options.vbo.tooltip.2=使用一種常見的替代繪製模型
 options.vbo.tooltip.3=比預設繪製快 (5-10%%)。
