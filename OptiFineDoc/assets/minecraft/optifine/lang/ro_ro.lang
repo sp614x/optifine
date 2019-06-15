@@ -103,6 +103,7 @@ options.guiScale.tooltip.4=  4x la 10x - valabil pe ecranele 4K
 options.guiScale.tooltip.5=Valorile impare (1x, 3x, 5x ...) nu sunt compatibile cu Unicode.
 options.guiScale.tooltip.6=Un GUI mic poate fi mai rapid.
 
+options.vbo=Folosește VBO-uri
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Foloseste un model de render alternativ care de obicei
 options.vbo.tooltip.3=este mai rapid (5-10%%) fata de renderul implicit.
