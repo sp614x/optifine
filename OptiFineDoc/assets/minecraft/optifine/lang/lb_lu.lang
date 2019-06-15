@@ -111,6 +111,7 @@ options.guiScale.tooltip.5=Ongerued Wäerter (1x, 3x, 5x ...) sinn net kompatibe
 options.guiScale.tooltip.6=mat der Unicode-Schrëft.
 options.guiScale.tooltip.7=Ee méi klengt GUI ka méi schnell sinn.
 
+options.vbo=VBOs benotzen
 options.vbo.tooltip.1=Vertexbufferobjeten
 options.vbo.tooltip.2=Benotz een alternative Rendermodel, deen normalerweis
 options.vbo.tooltip.3=méi schnell (5-10%%) wei d'Standard-Renderen ass.
