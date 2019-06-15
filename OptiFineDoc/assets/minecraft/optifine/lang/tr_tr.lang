@@ -117,6 +117,7 @@ options.guiScale.tooltip.4=  4x ile 10x arası - yanlızca 4K varken mümkündü
 options.guiScale.tooltip.5=Tek sayılar (1x, 3x, 5x ...) Unicode ile uyumlu değildir.
 options.guiScale.tooltip.6=Küçük menüler oyunu hızlandırabilir.
 
+options.vbo=VBO'ları Kullan
 options.vbo.tooltip.1=Vertex Buffer Varlıklar
 options.vbo.tooltip.2=Farklı bir render modeli kullanılır.
 options.vbo.tooltip.3=%5-%10 arası bir hızlanma söz konusudur.
