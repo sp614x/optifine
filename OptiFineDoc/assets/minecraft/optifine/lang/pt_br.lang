@@ -112,9 +112,9 @@ options.viewBobbing.tooltip.2=Desative-o para melhores resultados com mipmaps.
 
 options.guiScale.tooltip.1=Tamanho da interface
 options.guiScale.tooltip.2=  Auto. - tamanho máximo
-options.guiScale.tooltip.3=  Pequena, Normal, Grande - 1x a 3x
+options.guiScale.tooltip.3=  Pequena, normal, grande - 1 a 3
 options.guiScale.tooltip.4=  4x a 10x - disponível em monitores 4K
-options.guiScale.tooltip.5=Valores ímpares (1x, 3x...) são incompatíveis com Unicode.
+options.guiScale.tooltip.5=Valores ímpares (1, 3...) são incompatíveis com Unicode.
 options.guiScale.tooltip.6=Uma interface menor pode ser mais rápida.
 
 options.vbo=VBO
