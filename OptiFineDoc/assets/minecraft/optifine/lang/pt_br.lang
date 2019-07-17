@@ -375,8 +375,8 @@ of.options.SMOOTH_BIOMES.tooltip.4=A transição entre biomas é feita pela méd
 of.options.SMOOTH_BIOMES.tooltip.5=matizes dos blocos próximos.
 of.options.SMOOTH_BIOMES.tooltip.6=Esta opção afeta a vegetação e água.
 
-of.options.CONNECTED_TEXTURES=Texturas conectadas
-of.options.CONNECTED_TEXTURES.tooltip.1=Texturas conectadas
+of.options.CONNECTED_TEXTURES=Texturas lig.
+of.options.CONNECTED_TEXTURES.tooltip.1=Texturas ligadas
 of.options.CONNECTED_TEXTURES.tooltip.2=  Não - (padrão) desativar texturas conectadas
 of.options.CONNECTED_TEXTURES.tooltip.3=  Rápidos - texturas conectadas rápidas
 of.options.CONNECTED_TEXTURES.tooltip.4=  Detalhados - texturas conectadas uniformes
@@ -487,7 +487,7 @@ of.options.SHOW_CAPES.tooltip.1=Mostrar capas de jogadores
 of.options.SHOW_CAPES.tooltip.2=  Sim - (padrão) mostrar capas de jogadores
 of.options.SHOW_CAPES.tooltip.3=  Não - ocultar capas de jogadores
 
-of.options.TRANSLUCENT_BLOCKS=Blocos translúcidos
+of.options.TRANSLUCENT_BLOCKS=Blocos transl.
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocos translúcidos
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Padrão - predefinido
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Detalhados - transição correta de cores (lento)
