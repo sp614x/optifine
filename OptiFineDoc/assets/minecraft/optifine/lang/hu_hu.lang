@@ -90,6 +90,7 @@ options.viewBobbing.tooltip.2=Amikor MIP-leképzést használsz, kapcsold ki a l
 options.guiScale.tooltip.1=GUI Mérete
 options.guiScale.tooltip.2=Kisebb GUI gyorsabb lehet.
 
+options.vbo=VBO-k használata
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Egy alternatív renderelési mintát használ, ami általában
 options.vbo.tooltip.3=gyorsabb (5-10%%) az alapértelmezett renderelésnél.

@@ -122,6 +122,7 @@ options.guiScale.tooltip.4=  4x til 10x - tilgjengelig på 4K-skjermer
 options.guiScale.tooltip.5=Oddverdier (1x, 3x, 5x...) er ikke kompatible med Unicode.
 options.guiScale.tooltip.6=Et mindre grensesnitt kan være raskere.
 
+options.vbo=Bruk VBOs
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Bruker en alternativ gjengivelsesmodell som vanligvis er
 options.vbo.tooltip.3=raskere (5-10%%) enn standardgjengivelsen.

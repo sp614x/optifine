@@ -100,6 +100,7 @@ options.guiScale.tooltip.4=  4x à 10x - Disponible pour les écrans 4K
 options.guiScale.tooltip.5=Les valeurs impaires (1x, 3x, 5x ...) ne sont pas compatible avec l'Unicode.
 options.guiScale.tooltip.6=Une petite interface peut rendre le jeu plus rapide.
 
+options.vbo=Utiliser les VBO
 options.vbo.tooltip.1=Utiliser les VBO (objets en mémoire tampon)
 options.vbo.tooltip.2=Utilise un autre modèle de rendu qui est habituellement
 options.vbo.tooltip.3=plus rapide (5-10%%) que le rendu par défaut.

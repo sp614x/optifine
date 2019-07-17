@@ -117,6 +117,7 @@ options.guiScale.tooltip.4=  4x až 10x - dostupné pre 4K obrazovky
 options.guiScale.tooltip.5=Nepárne hodnoty (1x, 3x, 5x ...) nie sú kompatibilné s Unicode.
 options.guiScale.tooltip.6=Menšie GUI môže byť rýchlejšie.
 
+options.vbo=Používať VBO
 options.vbo.tooltip.1=Objekty medzipamňte vrcholov (VBO)
 options.vbo.tooltip.2=Používa alternatívnu metódu vykresľovania, ktorá je bežne
 options.vbo.tooltip.3=rýchlejšia (5-10%%) než štandardné vykresľovanie.

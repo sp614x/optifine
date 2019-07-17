@@ -117,6 +117,7 @@ options.guiScale.tooltip.4=  4x a 10x - disponível em monitores 4K
 options.guiScale.tooltip.5=Valores ímpares (1x, 3x...) são incompatíveis com Unicode.
 options.guiScale.tooltip.6=Uma interface menor pode ser mais rápida.
 
+options.vbo=VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Utilizam um modelo de renderização alternativo mais 
 options.vbo.tooltip.3=rápido (5-10%%) do que o padrão.

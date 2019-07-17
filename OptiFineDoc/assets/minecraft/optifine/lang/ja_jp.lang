@@ -111,6 +111,7 @@ options.guiScale.tooltip.4=  4x から 10x - 4k画面で有効
 options.guiScale.tooltip.5=奇数倍 (1x、3x、5x ...) はUnicodeフォントと互換がありません。
 options.guiScale.tooltip.6=GUIは小さいほうが処理が速くなるかもしれません。
 
+options.vbo=VBO の使用
 options.vbo.tooltip.1=頂点バッファオブジェクト
 options.vbo.tooltip.2=描画方式を置き換え、通常より
 options.vbo.tooltip.3=5〜10%%処理を軽くできます。

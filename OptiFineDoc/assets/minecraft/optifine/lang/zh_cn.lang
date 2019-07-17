@@ -128,6 +128,7 @@ options.guiScale.tooltip.4=  4x 到 10x - 在 4K 分辨率下可用
 options.guiScale.tooltip.5=奇数值（1x, 3x, 5x之类）与 Unicode 不兼容。
 options.guiScale.tooltip.6=较小的界面或许会更快。
 
+options.vbo=启用顶点缓冲器
 options.vbo.tooltip.1=顶点缓冲区对象
 options.vbo.tooltip.2=使用一种替选的渲染模式，通常
 options.vbo.tooltip.3=可以比默认渲染快（5-10%%）。

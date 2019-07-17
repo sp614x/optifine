@@ -131,6 +131,7 @@ options.guiScale.tooltip.6=Los valores impares (1x, 3x, 5x...) no son compatible
 options.guiScale.tooltip.7=con la fuente unicode.
 options.guiScale.tooltip.8=Una interfaz pequeña puede mejorar el rendimiento.
 
+options.vbo=Usar VBOs
 options.vbo.tooltip.1=Vertex Buffer Objects (abreviado como VBO)
 options.vbo.tooltip.2= 
 options.vbo.tooltip.3=Es un tipo de renderizado alternativo que suele ser

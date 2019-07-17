@@ -98,6 +98,7 @@ options.guiScale.tooltip.4=  4x à 10x - Disponible pour moniteur 4K
 options.guiScale.tooltip.5=Les valeurs impaires (1x, 3x, 5x ...) ne sont pas compatible avec l'Unicode.
 options.guiScale.tooltip.2=Un GUI petit serai plus rapide
 
+options.vbo=Utiliser les VBO
 options.vbo.tooltip.1=Objets de Mémoire Tampon 
 options.vbo.tooltip.2=Utilises des modèles de rendu qui sont habituellement 
 options.vbo.tooltip.3=plus rapides (5-10%%) que le rendu par défaut.

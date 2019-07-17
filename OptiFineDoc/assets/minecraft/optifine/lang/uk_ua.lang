@@ -119,6 +119,7 @@ options.guiScale.tooltip.4=  4x до 10x - доступні на 4K диспле
 options.guiScale.tooltip.5=Непарні значення (1x, 3x, 5x ...) не підтримуються юнікодом.
 options.guiScale.tooltip.6=Менший GUI швидший.
 
+options.vbo=Використовувати VBO
 options.vbo.tooltip.1=Об'єкти буфера вершин
 options.vbo.tooltip.2=Використовує альтернативну технологію рендерингу, що зазвичай
 options.vbo.tooltip.3=швидше (5-10%%) чим простий рендер.
