@@ -119,7 +119,7 @@ options.guiScale.tooltip.5=Les valeurs impaires (1x, 3x, 5x ...) ne sont pas
 options.guiScale.tooltip.6=compatibles avec l'Unicode.
 options.guiScale.tooltip.7=Une petite interface peut rendre le jeu plus rapide.
 
-options.=Utiliser les VBOs 
+options.vbo=Utiliser les VBOs 
 options.vbo.tooltip.1=Utiliser les VBOs (objets en mémoire tampon)
 options.vbo.tooltip.2=Utilise un autre modèle de rendu qui est habituellement
 options.vbo.tooltip.3=plus rapide (5-10 %%) que le rendu par défaut.
