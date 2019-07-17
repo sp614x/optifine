@@ -547,14 +547,14 @@ of.options.DYNAMIC_LIGHTS.tooltip.7=caídos no chão.
 
 # Performance
 
-of.options.SMOOTH_FPS=Smooth FPS
+of.options.SMOOTH_FPS=FPS estável
 of.options.SMOOTH_FPS.tooltip.1=Estabiliza a taxa ao equilibrar buffers da placa gráfica.
 of.options.SMOOTH_FPS.tooltip.2=  Não - taxa de quadros instável
 of.options.SMOOTH_FPS.tooltip.3=  Sim - taxa de quadros estável
 of.options.SMOOTH_FPS.tooltip.4=Esta opção depende da placa de vídeo e seu efeito não
 of.options.SMOOTH_FPS.tooltip.5=é sempre visível.
 
-of.options.SMOOTH_WORLD=Smooth World
+of.options.SMOOTH_WORLD=Mundo estável
 of.options.SMOOTH_WORLD.tooltip.1=Reduz a latência causada pelo servidor interno.
 of.options.SMOOTH_WORLD.tooltip.2=  Não - taxa de quadros flutuante
 of.options.SMOOTH_WORLD.tooltip.3=  Sim - taxa de quadros estável
@@ -609,8 +609,8 @@ of.options.RENDER_REGIONS.tooltip.4=Renderiza terrenos distantes mais rapidament
 of.options.RENDER_REGIONS.tooltip.5=Ative o VBO para melhores resultados.
 of.options.RENDER_REGIONS.tooltip.6=Não recomendado com placas de vídeo integradas.
 
-of.options.SMART_ANIMATIONS=Smart Animations
-of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
+of.options.SMART_ANIMATIONS=Animações intel.
+of.options.SMART_ANIMATIONS.tooltip.1=Animações inteligentes
 of.options.SMART_ANIMATIONS.tooltip.2= Não - (padrão) animações comuns
 of.options.SMART_ANIMATIONS.tooltip.3= Sim - animações inteligentes
 of.options.SMART_ANIMATIONS.tooltip.4=O jogo animará somente as texturas
