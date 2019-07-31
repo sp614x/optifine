@@ -178,6 +178,7 @@ uniform vec4 entityColor;                       entity color multiplier (entity 
 uniform int entityId;                           entity ID
 uniform int blockEntityId;                      block entity ID (block ID for the tile entity, only for blocks specified in "block.properties")
 uniform ivec4 blendFunc;                        blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)
+uniform int instanceId;                         instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies
 
 GBuffers Uniforms
 ================= 
@@ -344,6 +345,7 @@ Source                                          Effect                          
 attribute <type> mc_Entity;                     useEntityAttrib = true
 attribute <type> mc_midTexCoord;                useMidTexCoordAttrib = true             
 attribute <type> at_tangent;                    useTangentAttrib = true
+const int countInstances = 1;                   when "countInstances > 1" the geometry will be rendered several times, see uniform "instanceId"
 
 Geometry Shader Configuration
 ===========================
