@@ -42,7 +42,7 @@
 # ghast                body, tentacle1 ... tentacle9
 # guardian             body, eye, spine1 ... spine12, tail1 ... tail3
 # head_dragon          head, jaw
-# head_humanoid        head, head2
+# head_humanoid        head
 # head_skeleton        head
 # horse                body, neck, back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, saddle,
 #                      head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
