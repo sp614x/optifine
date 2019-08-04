@@ -134,6 +134,13 @@ options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colo
 options.anaglyph.tooltip.3=for each eye.
 options.anaglyph.tooltip.4=Requires red-cyan glasses for proper viewing.
 
+options.attackIndicator.tooltip.1=Configures the position of the attack indicator
+options.attackIndicator.tooltip.2=  Crosshair - under the crosshair
+options.attackIndicator.tooltip.3=  Hotbar - next to the hotbar
+options.attackIndicator.tooltip.4=  OFF - no attack indicator
+options.attackIndicator.tooltip.5=The attack indicator shows the attack power of the
+options.attackIndicator.tooltip.6=currently equipped item
+
 of.options.ALTERNATE_BLOCKS=Alternate Blocks
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternate Blocks
 of.options.ALTERNATE_BLOCKS.tooltip.2=Uses alternative block models for some blocks.
@@ -546,6 +553,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Enables light emitting items (torch, glowsto
 of.options.DYNAMIC_LIGHTS.tooltip.6=to illuminate everything around them when held in hand,
 of.options.DYNAMIC_LIGHTS.tooltip.7=equipped by other player or dropped on the ground.
 
+options.biomeBlendRadius.tooltip.1=Smooths the color transition between biomes
+options.biomeBlendRadius.tooltip.2=  OFF - no blending (fastest)
+options.biomeBlendRadius.tooltip.3=  5x5 - normal blending (default)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximal blending (slowest)
+options.biomeBlendRadius.tooltip.5=Higher values may generate significant lag spikes
+options.biomeBlendRadius.tooltip.6=add slow down the chunk loading speed.
+
 # Performance
 
 of.options.SMOOTH_FPS=Smooth FPS
@@ -686,12 +700,12 @@ options.fullscreen.tooltip.3=  OFF - use window mode
 options.fullscreen.tooltip.4=Fullscreen mode may be faster or slower than
 options.fullscreen.tooltip.5=window mode, depending on the graphics card.
 
-of.options.FULLSCREEN_MODE=Fullscreen Mode
-of.options.FULLSCREEN_MODE.tooltip.1=Fullscreen mode
-of.options.FULLSCREEN_MODE.tooltip.2=  Default - use desktop screen resolution, slower
-of.options.FULLSCREEN_MODE.tooltip.3=  WxH - use custom screen resolution, may be faster
-of.options.FULLSCREEN_MODE.tooltip.4=The selected resolution is used in fullscreen mode (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Lower resolutions should generally be faster.
+options.fullscreen.resolution=Fullscreen Mode
+options.fullscreen.resolution.tooltip.1=Fullscreen mode
+options.fullscreen.resolution.tooltip.2=  Default - use desktop screen resolution, slower
+options.fullscreen.resolution.tooltip.3=  WxH - use custom screen resolution, may be faster
+options.fullscreen.resolution.tooltip.4=The selected resolution is used in fullscreen mode (F11).
+options.fullscreen.resolution.tooltip.5=Lower resolutions should generally be faster.
 
 of.options.SHOW_FPS=Show FPS
 of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information.
