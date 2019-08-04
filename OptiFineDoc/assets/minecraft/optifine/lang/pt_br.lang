@@ -134,6 +134,13 @@ options.anaglyph.tooltip.2=Ativa um efeito estereoscópico em 3D usando cores
 options.anaglyph.tooltip.3=diferentes para cada olho.
 options.anaglyph.tooltip.4=Requer óculos vermelho-ciano para ver adequadamente.
 
+options.attackIndicator.tooltip.1=Configura a posição do indicador de ataque
+options.attackIndicator.tooltip.2=  Mira - abaixo da mira
+options.attackIndicator.tooltip.3=  Barra - próximo à mira
+options.attackIndicator.tooltip.4=  Não - sem indicador de ataque
+options.attackIndicator.tooltip.5=O indicador de ataque exibe o poder
+options.attackIndicator.tooltip.6=ofensivo do item segurado.
+
 of.options.ALTERNATE_BLOCKS=Blocos alternativos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocos alternativos
 of.options.ALTERNATE_BLOCKS.tooltip.2=Utiliza modelos alternativos para alguns blocos.
@@ -545,6 +552,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Ativa a emissão de luzes por objetos como t
 of.options.DYNAMIC_LIGHTS.tooltip.6=pedras luminosas, quando segurados ou
 of.options.DYNAMIC_LIGHTS.tooltip.7=caídos no chão.
 
+options.biomeBlendRadius.tooltip.1=Suaviza a transição de cores entre biomas
+options.biomeBlendRadius.tooltip.2=  Não - sem transição (rápido)
+options.biomeBlendRadius.tooltip.3=  5x5 - (padrão) transição normal
+options.biomeBlendRadius.tooltip.4=  15x15 - transição máxima (lento)
+options.biomeBlendRadius.tooltip.5=Valores altos podem gerar mais travamentos
+options.biomeBlendRadius.tooltip.6=e reduzir a velocidade do carregamento de chunks.
+
 # Performance
 
 of.options.SMOOTH_FPS=FPS estável
@@ -685,12 +699,12 @@ options.fullscreen.tooltip.3=  Não - jogar em janela
 options.fullscreen.tooltip.4=O modo tela inteira pode ser mais lento ou mais rápido
 options.fullscreen.tooltip.5=do que o de janela, dependendo da placa de vídeo.
 
-of.options.FULLSCREEN_MODE=Resolução
-of.options.FULLSCREEN_MODE.tooltip.1=Resolução da tela inteira
-of.options.FULLSCREEN_MODE.tooltip.2=  Padrão - resolução do monitor (lento)
-of.options.FULLSCREEN_MODE.tooltip.3=  WxH - resolução personalizada (rápido)
-of.options.FULLSCREEN_MODE.tooltip.4=A resolução escolhida é usada em tela inteira.
-of.options.FULLSCREEN_MODE.tooltip.5=Resoluções baixas geralmente são mais rápidas.
+options.fullscreen.resolution=Resolução
+options.fullscreen.resolution.tooltip.1=Resolução da tela inteira
+options.fullscreen.resolution.tooltip.2=  Padrão - resolução do monitor (lento)
+options.fullscreen.resolution.tooltip.3=  WxH - resolução personalizada (rápido)
+options.fullscreen.resolution.tooltip.4=A resolução escolhida é usada em tela inteira.
+options.fullscreen.resolution.tooltip.5=Resoluções baixas geralmente são mais rápidas.
 
 of.options.SHOW_FPS=Mostrar FPS
 of.options.SHOW_FPS.tooltip.1=Exibe a taxa de quadros e informações de renderização.
