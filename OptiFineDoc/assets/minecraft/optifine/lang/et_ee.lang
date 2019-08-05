@@ -140,8 +140,8 @@ options.attackIndicator.tooltip.1=Seadistab ründeindikaatori asukohta
 options.attackIndicator.tooltip.2=  Sihtimisristil - sihtimisristi all
 options.attackIndicator.tooltip.3=  Plokiribal - plokiriba kõrval
 options.attackIndicator.tooltip.4=  VÄLJAS - ründeindikaator puudub
-options.attackIndicator.tooltip.5=Ründeindikaator kuvab käesoleva eseme
-options.attackIndicator.tooltip.6=ründevõimsust
+options.attackIndicator.tooltip.5=Ründeindikaator kuvab käesoleva eseme ründevõimsust
+options.attackIndicator.tooltip.6=
 
 of.options.ALTERNATE_BLOCKS=Alternatiivsed plokid
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatiivsed plokid
