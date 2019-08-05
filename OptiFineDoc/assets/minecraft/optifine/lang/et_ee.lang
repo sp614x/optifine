@@ -705,7 +705,7 @@ options.fullscreen.tooltip.5=olla aknarežiimist kiirem või aeglasem.
 options.fullscreen.resolution=Täisekraanirežiim
 options.fullscreen.resolution.tooltip.1=Täisekraanirežiim
 options.fullscreen.resolution.tooltip.2=  Vaikimisi - kasuta töölaua ekraaniresolutsiooni, aeglasem
-options.fullscreen.resolution.tooltip.3=  L x K - kasuta kohandatud ekraaniresolutsiooni, võib olla kiirem
+options.fullscreen.resolution.tooltip.3=  Laius x kõrgus - kasuta kohandatud resolutsiooni, võib olla kiirem
 options.fullscreen.resolution.tooltip.4=Valitud resolutsiooni kasutatakse täisekraanirežiimis (F11).
 options.fullscreen.resolution.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt olema kiiremad.
 
