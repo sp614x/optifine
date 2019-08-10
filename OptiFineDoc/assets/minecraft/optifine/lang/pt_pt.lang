@@ -137,11 +137,11 @@ options.anaglyph.tooltip.4=Requere uns óculos 3D, daqueles azuis e vermelhos,
 options.anaglyph.tooltip.5=para uma visualização adequada.
 
 options.attackIndicator.tooltip.1=Configura a posição do indicador de ataque
-options.attackIndicator.tooltip.2=  Crosshair - under the crosshair
-options.attackIndicator.tooltip.3=  Hotbar - ao lado da barra
-options.attackIndicator.tooltip.4=  OFF - no attack indicator
-options.attackIndicator.tooltip.5=The attack indicator shows the attack power of the
-options.attackIndicator.tooltip.6=currently equipped item
+options.attackIndicator.tooltip.2=  Mira - debaixo da mira
+options.attackIndicator.tooltip.3=  Barra - ao lado da barra rápida
+options.attackIndicator.tooltip.4=  Não - sem indicador de ataque
+options.attackIndicator.tooltip.5=O indicador de ataque dispõe a força do ataque
+options.attackIndicator.tooltip.6=do item na mão do jogador.
 
 of.options.ALTERNATE_BLOCKS=Alternar blocos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternar blocos
@@ -564,12 +564,12 @@ of.options.DYNAMIC_LIGHTS.tooltip.6=lava, etc.) iluminem tudo ao seu redor quand
 of.options.DYNAMIC_LIGHTS.tooltip.7=são segurados pelo jogador, por outro jogador, ou
 of.options.DYNAMIC_LIGHTS.tooltip.8=mesmo quando atirados para o chão.
 
-options.biomeBlendRadius.tooltip.1=Smooths the color transition between biomes
-options.biomeBlendRadius.tooltip.2=  OFF - no blending (fastest)
-options.biomeBlendRadius.tooltip.3=  5x5 - normal blending (default)
-options.biomeBlendRadius.tooltip.4=  15x15 - maximal blending (slowest)
-options.biomeBlendRadius.tooltip.5=Higher values may generate significant lag spikes
-options.biomeBlendRadius.tooltip.6=add slow down the chunk loading speed.
+options.biomeBlendRadius.tooltip.1=Otimiza a transição de cores entre os biomas
+options.biomeBlendRadius.tooltip.2=  Não - sem transição (rápido)
+options.biomeBlendRadius.tooltip.3=  5x5 - transição normal (padrão)
+options.biomeBlendRadius.tooltip.4=  15x15 - transição máxima (lento)
+options.biomeBlendRadius.tooltip.5=Valores elevados podem causar "espinhos de lag"
+options.biomeBlendRadius.tooltip.6=significantes e atrasar o carregamento dos chunks.
 
 # Performance
 
