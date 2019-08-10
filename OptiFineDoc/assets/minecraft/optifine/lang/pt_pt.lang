@@ -118,6 +118,7 @@ options.guiScale.tooltip.4=  4x to 10x - disponível em monitores 4K
 options.guiScale.tooltip.5=Valores ímpares (1x, 3x, 5x ...) não são compatíveis com o
 options.guiScale.tooltip.6=Unicode. Uma interface pequena é normalmente mais rápida.
 
+options.vbo=VBOs
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Usa um modelo de carregamento alternativo que normalmente
 options.vbo.tooltip.3=é mais rápido (5-10%%) que o carregamento padrão.
@@ -134,6 +135,13 @@ options.anaglyph.tooltip.2=Ativa o efeito 3D estereoscópio com o uso de diferen
 options.anaglyph.tooltip.3=cores para cada olho.
 options.anaglyph.tooltip.4=Requere uns óculos 3D, daqueles azuis e vermelhos,
 options.anaglyph.tooltip.5=para uma visualização adequada.
+
+options.attackIndicator.tooltip.1=Configura a posição do indicador de ataque
+options.attackIndicator.tooltip.2=  Crosshair - under the crosshair
+options.attackIndicator.tooltip.3=  Hotbar - ao lado da barra
+options.attackIndicator.tooltip.4=  OFF - no attack indicator
+options.attackIndicator.tooltip.5=The attack indicator shows the attack power of the
+options.attackIndicator.tooltip.6=currently equipped item
 
 of.options.ALTERNATE_BLOCKS=Alternar blocos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternar blocos
@@ -439,7 +447,7 @@ of.options.CUSTOM_GUIS.tooltip.3=  Não - interface padrão, rápido
 of.options.CUSTOM_GUIS.tooltip.4=As interfaces personalizadas são suportadas pelo
 of.options.CUSTOM_GUIS.tooltip.5=pacote de recursos atual.
 
-# Details
+# Details - Detalhes
 
 of.options.CLOUDS=Nuvens
 of.options.CLOUDS.tooltip.1=Nuvens
@@ -556,15 +564,22 @@ of.options.DYNAMIC_LIGHTS.tooltip.6=lava, etc.) iluminem tudo ao seu redor quand
 of.options.DYNAMIC_LIGHTS.tooltip.7=são segurados pelo jogador, por outro jogador, ou
 of.options.DYNAMIC_LIGHTS.tooltip.8=mesmo quando atirados para o chão.
 
+options.biomeBlendRadius.tooltip.1=Smooths the color transition between biomes
+options.biomeBlendRadius.tooltip.2=  OFF - no blending (fastest)
+options.biomeBlendRadius.tooltip.3=  5x5 - normal blending (default)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximal blending (slowest)
+options.biomeBlendRadius.tooltip.5=Higher values may generate significant lag spikes
+options.biomeBlendRadius.tooltip.6=add slow down the chunk loading speed.
+
 # Performance
 
-of.options.SMOOTH_fps=Fps fluídos
-of.options.SMOOTH_fps.tooltip.1=Estabiliza os fps com uma descarga dos buffers
-of.options.SMOOTH_fps.tooltip.2=da placa gráfica.
-of.options.SMOOTH_fps.tooltip.3=  Não - sem estabilização dos fps, os fps podem flutuar
-of.options.SMOOTH_fps.tooltip.4=  Sim - estabilização dos fps
-of.options.SMOOTH_fps.tooltip.5=Esta opção é dependente da placa gráfica e os
-of.options.SMOOTH_fps.tooltip.6=seus efeitos nem sempre são visíveis.
+of.options.SMOOTH_FPS=Fps fluídos
+of.options.SMOOTH_FPS.tooltip.1=Estabiliza os fps com uma descarga dos buffers
+of.options.SMOOTH_FPS.tooltip.2=da placa gráfica.
+of.options.SMOOTH_FPS.tooltip.3=  Não - sem estabilização dos fps, os fps podem flutuar
+of.options.SMOOTH_FPS.tooltip.4=  Sim - estabilização dos fps
+of.options.SMOOTH_FPS.tooltip.5=Esta opção é dependente da placa gráfica e os
+of.options.SMOOTH_FPS.tooltip.6=seus efeitos nem sempre são visíveis.
 
 of.options.SMOOTH_WORLD=Mundo fluído
 of.options.SMOOTH_WORLD.tooltip.1=Remove os "espinhos de lag" causados pelo
@@ -700,26 +715,25 @@ of.options.TIME.tooltip.6=e em mundos locais.
 options.fullscreen.tooltip.1=Ecrã inteiro
 options.fullscreen.tooltip.2=  Sim - usar o modo de ecrã inteiro
 options.fullscreen.tooltip.3=  Não - usar o modo de janela
-options.fullscreen.tooltip.4=Dependendo da placa gráfica, o modo de ecrã inteiro
-options.fullscreen.tooltip.5=pode ser mais rápido ou mais lento que o modo de
-options.fullscreen.tooltip.6=janela.
+options.fullscreen.tooltip.4=Dependendo da placa gráfica, o ecrã inteiro pode
+options.fullscreen.tooltip.5=ser mais rápido ou mais lento que o modo em janela.
 
-of.options.FULLSCREEN_MODE=Modo de ecrã int.
-of.options.FULLSCREEN_MODE.tooltip.1=Modo de ecrã inteiro
-of.options.FULLSCREEN_MODE.tooltip.2=  Padrão - usa a resolução de ecrã do computador, lento
-of.options.FULLSCREEN_MODE.tooltip.3=  WxH - usa uma resolução de ecrã personalizada, 
-of.options.FULLSCREEN_MODE.tooltip.4=pode ser mais rápido
-of.options.FULLSCREEN_MODE.tooltip.5=A resolução selecionada é usada no modo de ecrã inteiro (F11).
-of.options.FULLSCREEN_MODE.tooltip.6=Resoluções baixas tendem a ser mais rápidas.
+options.fullscreen.resolution=Modo de ecrã int.
+options.fullscreen.resolution.tooltip.1=Modo de ecrã inteiro
+options.fullscreen.resolution.tooltip.2= Padrão - usa a resolução de ecrã do computador, lento
+options.fullscreen.resolution.tooltip.3=  WxH - usa uma resolução de ecrã personalizada, 
+options.fullscreen.resolution.tooltip.4=pode ser mais rápido
+options.fullscreen.resolution.tooltip.5=A resolução selecionada é usada no modo de ecrã inteiro (F11).
+options.fullscreen.resolution.tooltip.6=Resoluções baixas tendem a ser mais rápidas.
 
-of.options.SHOW_fps=Exibir os fps
-of.options.SHOW_fps.tooltip.1=Dispõe os fps e a informação de carregamento.
-of.options.SHOW_fps.tooltip.2=  fps - aproximados/mínimos
-of.options.SHOW_fps.tooltip.3=  C: - chunks carregados
-of.options.SHOW_fps.tooltip.4=  E: - entidades carregadas + entidades dos blocos
-of.options.SHOW_fps.tooltip.5=  U: - atualização dos chunks
-of.options.SHOW_fps.tooltip.6=A informação compacta só é mostrada quando o
-of.options.SHOW_fps.tooltip.7=ecrã de depuração não está visível.
+of.options.SHOW_FPS=Exibir os fps
+of.options.SHOW_FPS.tooltip.1=Dispõe os fps e a informação de carregamento.
+of.options.SHOW_FPS.tooltip.2=  fps - aproximados/mínimos
+of.options.SHOW_FPS.tooltip.3=  C: - chunks carregados
+of.options.SHOW_FPS.tooltip.4=  E: - entidades carregadas + entidades dos blocos
+of.options.SHOW_FPS.tooltip.5=  U: - atualização dos chunks
+of.options.SHOW_FPS.tooltip.6=A informação compacta só é mostrada quando o
+of.options.SHOW_FPS.tooltip.7=ecrã de depuração não está visível.
 
 of.options.save.45s=45s
 of.options.save.90s=90s
