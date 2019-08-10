@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   HeartyYF From InfinityStudio 2016-2-18 ---- 2019-3-9
+#   HeartyYF From InfinityStudio 2016-2-18 ---- 2019-8-10
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
@@ -581,10 +581,10 @@ of.options.SMOOTH_FPS.tooltip.4=此选项依赖于显卡驱动，
 of.options.SMOOTH_FPS.tooltip.5=通常效果并不明显。
 
 of.options.SMOOTH_WORLD=平滑世界
-of.options.SMOOTH_WORLD.tooltip.1=消除内部服务器造成的突发延迟。
+of.options.SMOOTH_WORLD.tooltip.1=消除内置服务器造成的突发延迟。
 of.options.SMOOTH_WORLD.tooltip.2=  关闭 - 不稳定，FPS 可能波动
 of.options.SMOOTH_WORLD.tooltip.3=  开启 - FPS 稳定
-of.options.SMOOTH_WORLD.tooltip.4=分担内部服务器负载来稳定FPS。
+of.options.SMOOTH_WORLD.tooltip.4=分担内置服务器负载来稳定FPS。
 of.options.SMOOTH_WORLD.tooltip.5=只在本地世界（单人游戏）有效。
 
 of.options.FAST_RENDER=快速渲染
