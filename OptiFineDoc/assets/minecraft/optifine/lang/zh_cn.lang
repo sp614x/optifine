@@ -24,16 +24,16 @@ of.key.zoom=缩放
 
 # Message
 of.message.aa.shaders1=抗锯齿与光影不兼容。
-of.message.aa.shaders2=请关闭光影以启用这个选项。
+of.message.aa.shaders2=请关闭光影以启用此选项。
 
 of.message.af.shaders1=各向异性过滤与光影不兼容。
-of.message.af.shaders2=请关闭光影以启用这个选项。
+of.message.af.shaders2=请关闭光影以启用此选项。
 
 of.message.fr.shaders1=快速渲染与光影不兼容。
-of.message.fr.shaders2=请关闭光影以启用这个选项。
+of.message.fr.shaders2=请关闭光影以启用此选项。
 
 of.message.an.shaders1=3D效果与光影不兼容。
-of.message.an.shaders2=请关闭光影以启用这个选项。
+of.message.an.shaders2=请关闭光影以启用此选项。
 
 of.message.shaders.aa1=光影与抗锯齿不兼容。
 of.message.shaders.aa2=请将 品质 -> 抗锯齿 选项设置为 关闭 并重启您的游戏。
@@ -144,6 +144,13 @@ options.anaglyph.tooltip.1=3D效果
 options.anaglyph.tooltip.2=通过为双眼分配不同颜色
 options.anaglyph.tooltip.3=以实现 3D 立体效果。
 options.anaglyph.tooltip.4=需要使用红蓝眼镜正常观看。
+
+options.attackIndicator.tooltip.1=配置攻击指示器的位置
+options.attackIndicator.tooltip.2=  十字准线 - 在十字准线下
+options.attackIndicator.tooltip.3=  快捷栏 - 快捷栏旁
+options.attackIndicator.tooltip.4=  关闭 - 无攻击指示器
+options.attackIndicator.tooltip.5=攻击指示器显示
+options.attackIndicator.tooltip.6=当前所持物品的攻击力
 
 of.options.ALTERNATE_BLOCKS=替选方块
 of.options.ALTERNATE_BLOCKS.tooltip.1=替选方块
@@ -557,6 +564,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=使得发光的物品（火把、萤石等�
 of.options.DYNAMIC_LIGHTS.tooltip.6=被玩家左右手持握、装备或
 of.options.DYNAMIC_LIGHTS.tooltip.7=成为掉落物时照亮周围。
 
+options.biomeBlendRadius.tooltip.1=平滑生物群系之间的颜色过渡
+options.biomeBlendRadius.tooltip.2=  关 - 无混色（最快）
+options.biomeBlendRadius.tooltip.3=  5x5 - 正常混色（默认）
+options.biomeBlendRadius.tooltip.4=  15x15 - 最大混色（最慢）
+options.biomeBlendRadius.tooltip.5=较大的值可能会产生显著的突发延迟
+options.biomeBlendRadius.tooltip.6=添加减慢块加载速度。
+
 # Performance
 
 of.options.SMOOTH_FPS=平滑 FPS
@@ -567,7 +581,7 @@ of.options.SMOOTH_FPS.tooltip.4=此选项依赖于显卡驱动，
 of.options.SMOOTH_FPS.tooltip.5=通常效果并不明显。
 
 of.options.SMOOTH_WORLD=平滑世界
-of.options.SMOOTH_WORLD.tooltip.1=移除内部服务造成的数据延时。
+of.options.SMOOTH_WORLD.tooltip.1=消除内部服务器造成的突发延迟。
 of.options.SMOOTH_WORLD.tooltip.2=  关闭 - 不稳定，FPS 可能波动
 of.options.SMOOTH_WORLD.tooltip.3=  开启 - FPS 稳定
 of.options.SMOOTH_WORLD.tooltip.4=分担内部服务器负载来稳定FPS。
@@ -697,12 +711,12 @@ options.fullscreen.tooltip.3=  关闭 - 使用窗口模式
 options.fullscreen.tooltip.4=全屏模式可能比窗口模式
 options.fullscreen.tooltip.5=更快或更慢，这取决于显卡。
 
-of.options.FULLSCREEN_MODE=全屏模式
-of.options.FULLSCREEN_MODE.tooltip.1=全屏模式
-of.options.FULLSCREEN_MODE.tooltip.2=  默认 - 使用桌面分辨率（较慢）
-of.options.FULLSCREEN_MODE.tooltip.3=  自定义 - 使用自定义屏幕分辨率，可能会较快
-of.options.FULLSCREEN_MODE.tooltip.4=这个选项只有在全屏模式下生效（F11）。
-of.options.FULLSCREEN_MODE.tooltip.5=较低的分辨率通常会更快。
+options.fullscreen.resolution=全屏模式
+options.fullscreen.resolution.tooltip.1=全屏模式
+options.fullscreen.resolution.tooltip.2=  默认 - 使用桌面分辨率（较慢）
+options.fullscreen.resolution.tooltip.3=  自定义 - 使用自定义屏幕分辨率，可能会较快
+options.fullscreen.resolution.tooltip.4=此选项只在全屏模式下生效（F11）。
+options.fullscreen.resolution.tooltip.5=较低的分辨率通常会更快。
 
 of.options.SHOW_FPS=显示 FPS
 of.options.SHOW_FPS.tooltip.1=显示迷你的 FPS 和渲染信息
