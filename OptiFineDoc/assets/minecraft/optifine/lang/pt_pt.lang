@@ -207,7 +207,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.5=pacotes de shaders para simularem efei
 of.options.shaders.SPECULAR_MAP.tooltip.6=de reflexo. As texturas dos mapas especulares são
 of.options.shaders.SPECULAR_MAP.tooltip.7=suportadas pelo pacote de recursos atual.
 
-of.options.shaders.RENDER_RES_MUL=Qual. de carreg.
+of.options.shaders.RENDER_RES_MUL=Qual. de carregamento
 of.options.shaders.RENDER_RES_MUL.tooltip.1=Qualidade de carregamento
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - baixa (rápido)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - padrão
@@ -718,7 +718,7 @@ options.fullscreen.tooltip.3=  Não - usar o modo de janela
 options.fullscreen.tooltip.4=Dependendo da placa gráfica, o ecrã inteiro pode
 options.fullscreen.tooltip.5=ser mais rápido ou mais lento que o modo em janela.
 
-options.fullscreen.resolution=Modo de ecrã int.
+options.fullscreen.resolution=Modo de ecrã inteiro
 options.fullscreen.resolution.tooltip.1=Modo de ecrã inteiro
 options.fullscreen.resolution.tooltip.2= Padrão - usa a resolução de ecrã do computador, lento
 options.fullscreen.resolution.tooltip.3=  WxH - usa uma resolução de ecrã personalizada, 
