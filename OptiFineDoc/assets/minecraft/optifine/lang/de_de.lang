@@ -23,7 +23,7 @@ of.key.zoom=Zoom
 of.message.aa.shaders1=Antialiasing ist nicht mit Shadern kompatibel.
 of.message.aa.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.af.shaders1=Anistropische Filterung ist nicht mit Shadern kompatibel.
+of.message.af.shaders1=Anisotropische Filterung ist nicht mit Shadern kompatibel.
 of.message.af.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
 of.message.fr.shaders1=Schnelles Rendern ist nicht mit Shadern kompatibel.
@@ -35,8 +35,8 @@ of.message.an.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivie
 of.message.shaders.aa1=Antialiasing ist nicht mit Shadern kompatibel. 
 of.message.shaders.aa2=Bitte deaktiviere Qualität -> Antialiasing und starte das Spiel neu.
 
-of.message.shaders.af1=Anistropische Filterung ist nicht mit Shadern kompatibel.
-of.message.shaders.af2=Bitte deaktiviere Qualität -> Anistropische Filterung.
+of.message.shaders.af1=Anisotropische Filterung ist nicht mit Shadern kompatibel.
+of.message.shaders.af2=Bitte deaktiviere Qualität -> Anisotropische Filterung.
 
 of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shadern kompatibel.
 of.message.shaders.fr2=Bitte deaktiviere Leistung -> Schnelles Rendern.
@@ -74,7 +74,7 @@ of.message.capeOF.error2=Fehler: %s
 # Video settings
 
 options.graphics.tooltip.1=Grafikmodus
-options.graphics.tooltip.2=  Schnell - Schlechtere Qualität (schneller)
+options.graphics.tooltip.2=  Schnell - Niedrigere Qualität (schneller)
 options.graphics.tooltip.3=  Schön   - Höhere Qualität (langsamer)
 options.graphics.tooltip.4=Verändert das Aussehen von Wolken, Blättern, Wasser,
 options.graphics.tooltip.5=Schatten und Grasblöcken.
@@ -136,12 +136,12 @@ options.gamma.tooltip.1=Ändert die Helligkeit dunkler Objekte
 options.gamma.tooltip.2=  Düster - Standardhelligkeit
 options.gamma.tooltip.3=  1-99%% - veränderlich
 options.gamma.tooltip.4=  Hell - Maximale Helligkeit für dunkle Objekte
-options.gamma.tooltip.5=Diese Einstellungen ändern nicht die Helligkeit von komplett
+options.gamma.tooltip.5=Diese Einstellungen ändert nicht die Helligkeit von komplett
 options.gamma.tooltip.6=schwarzen Objekten.
 
 options.anaglyph.tooltip.1=3D-Effekt
 options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
-options.anaglyph.tooltip.3=Verwenden unterschiedlicher Farben für jedes Auge.
+options.anaglyph.tooltip.3=Verwendung unterschiedlicher Farben für jedes Auge.
 options.anaglyph.tooltip.4=Kann nur mit einer 3D-Brille benutzt werden.
 
 of.options.ALTERNATE_BLOCKS=Blockvarianten
@@ -303,20 +303,20 @@ of.options.mipmap.nearest=Am nächsten
 of.options.mipmap.trilinear=Trilinear
 
 options.mipmapLevels.tooltip.1=Visueller Effekt, der weit entfernte Objekte besser aus-
-options.mipmapLevels.tooltip.2=sehen lässt, indem Texturdetails verringert werden.
-options.mipmapLevels.tooltip.3=  Aus - Keine Verringerung von Details
-options.mipmapLevels.tooltip.4=  1 - Minimale Verringerung von Details
-options.mipmapLevels.tooltip.5=  Maximum - Maximale Verringerung von Details
+options.mipmapLevels.tooltip.2=sehen lässt, indem Texturdetails geglättet werden.
+options.mipmapLevels.tooltip.3=  Aus - Keine Glättung von Details
+options.mipmapLevels.tooltip.4=  1 - Minimale Glättung von Details
+options.mipmapLevels.tooltip.5=  Maximum - Maximale Glättung von Details
 options.mipmapLevels.tooltip.6=Diese Einstellung beeinflusst normalerweise nicht die
 options.mipmapLevels.tooltip.7=Leistung.
 
 of.options.MIPMAP_TYPE=Mipmap-Typ
 of.options.MIPMAP_TYPE.tooltip.1=Visueller Effekt, der weit entfernte Objekte besser aus-
-of.options.MIPMAP_TYPE.tooltip.2=sehen lässt, indem Texturdetails verringert werden.
-of.options.MIPMAP_TYPE.tooltip.3=  Am nächsten - Grobe Verringerung (am schnellsten)
-of.options.MIPMAP_TYPE.tooltip.4=  Linear - Normale Verringerung
-of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - Feine Verringerung
-of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - Feinste Verringerung (am langsamsten)
+of.options.MIPMAP_TYPE.tooltip.2=sehen lässt, indem Texturdetails geglättet werden.
+of.options.MIPMAP_TYPE.tooltip.3=  Am nächsten - Grobe Glättung (am schnellsten)
+of.options.MIPMAP_TYPE.tooltip.4=  Linear - Normale Glättung
+of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - Feine Glättung
+of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - Feinste Glättung (am langsamsten)
 
 
 of.options.AA_LEVEL=Antialiasing
@@ -345,7 +345,7 @@ of.options.CLEAR_WATER.tooltip.3=  Aus - Normales Wasser
 of.options.RANDOM_ENTITIES=Entitätsvarianten
 of.options.RANDOM_ENTITIES.tooltip.1=Entitätsvarianten
 of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Entitätsvarianten (schneller)
-of.options.RANDOM_ENTITIES.tooltip.3=  An - Keine Entitätsvarianten (langsamer)
+of.options.RANDOM_ENTITIES.tooltip.3=  An - Entitätsvarianten (langsamer)
 of.options.RANDOM_ENTITIES.tooltip.4=Die gleichen Entitäten können unterschiedliche Texturen
 of.options.RANDOM_ENTITIES.tooltip.5=haben. Dies benötigt ein Ressourcenpaket mit entspre-
 of.options.RANDOM_ENTITIES.tooltip.6=chenden Texturen.
