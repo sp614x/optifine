@@ -134,6 +134,13 @@ options.anaglyph.tooltip.2=3D efektleri özel renkler olarak
 options.anaglyph.tooltip.3=her göze verir.
 options.anaglyph.tooltip.4=Kırmızı-mavi 3D gözlük gerektirir.
 
+options.attackIndicator.tooltip.1=Saldırı göstergecinin yerini değiştirir.
+options.attackIndicator.tooltip.2=  Crosshair - Crosshairin altında
+options.attackIndicator.tooltip.3=  Envanter - Envanterin yanında
+options.attackIndicator.tooltip.4=  Kapalı - Saldırı göstergeci yok
+options.attackIndicator.tooltip.5=Saldırı göstergeci ele alınan silahın
+options.attackIndicator.tooltip.6=saldırı gücünü gösterir.
+
 of.options.ALTERNATE_BLOCKS=Alternatif bloklar
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatif Bloklar
 of.options.ALTERNATE_BLOCKS.tooltip.2=Bazı bloklar için alternatif blok türleri kullanır.
@@ -546,6 +553,14 @@ of.options.DYNAMIC_LIGHTS.tooltip.4=  Kaliteli - Kaliteli Dinamik Işıklandırm
 of.options.DYNAMIC_LIGHTS.tooltip.5=Işık yayan varlıkların (meşale gibi) ele alındıklarında
 of.options.DYNAMIC_LIGHTS.tooltip.6=yere atıldıklarında yada başka bir oyuncu elinde
 of.options.DYNAMIC_LIGHTS.tooltip.7=tuttuğunda etrafına ışık vermesini sağlar.
+
+options.biomeBlendRadius.tooltip.1=Biyomlar arası renk geçişi
+options.biomeBlendRadius.tooltip.2=  Kapalı - renk geçişi yok (en hızlı)
+options.biomeBlendRadius.tooltip.3=  5x5 - normal geçiş (default)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximal blending (en yavaş)
+options.biomeBlendRadius.tooltip.5=Düşük derecede farkedilebilinir laga sebep olur.
+options.biomeBlendRadius.tooltip.6=Chunk yüklenme hızını düşürür.
+
 # Performans
 
 of.options.SMOOTH_FPS=Smooth FPS
@@ -686,12 +701,12 @@ options.fullscreen.tooltip.3=  KAPALI - Pencere Modu Kullanır
 options.fullscreen.tooltip.4=Fullscreen modu pencere modundan grafik
 options.fullscreen.tooltip.5=kartına göre daha hızlı veya yavaş olabilir.
 
-of.options.FULLSCREEN_MODE=Tam Ekran Modu 
-of.options.FULLSCREEN_MODE.tooltip.1=Tam Ekran Modu
-of.options.FULLSCREEN_MODE.tooltip.2=  Varsatyılan - ekran çözünürlüğünü kullanır, daha yavaş
-of.options.FULLSCREEN_MODE.tooltip.3=  Y x G - özel yükseklik ve genişlik, daha hızlı olabilir
-of.options.FULLSCREEN_MODE.tooltip.4=Seçilen çözünürlük tam ekranda kullanılabilinir (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Düşük çözünürlükler daha hızlı daha hızlı olabilir.
+options.fullscreen.resolution=Tam Ekran Modu 
+options.fullscreen.resolution.tooltip.1=Tam Ekran Modu
+options.fullscreen.resolution.tooltip.2=  Varsatyılan - ekran çözünürlüğünü kullanır, daha yavaş
+options.fullscreen.resolution.tooltip.3=  Y x G - özel yükseklik ve genişlik, daha hızlı olabilir
+options.fullscreen.resolution.tooltip.4=Seçilen çözünürlük tam ekranda kullanılabilinir (F11).
+options.fullscreen.resolution.tooltip.5=Düşük çözünürlükler daha hızlı daha hızlı olabilir.
 
 of.options.SHOW_FPS=FPS göster
 of.options.SHOW_FPS.tooltip.1=Küçük alanda FPS ve yükleme bilgisi gösterir.
