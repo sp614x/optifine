@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2019-02-16
+#   Regnander (_Spitz) 2016-01-18 ---- 2019-08-07
 
 # General
 of.general.ambiguous=tvetydig
@@ -136,6 +136,13 @@ options.anaglyph.tooltip.1=3D-effekt
 options.anaglyph.tooltip.2=Aktiverar en stereoskopisk 3D-effekt med hjälp av olika
 options.anaglyph.tooltip.3=färger för varje öga.
 options.anaglyph.tooltip.4=Kräver röd-turkosa glasögon för bästa resultat.
+
+options.attackIndicator.tooltip.1=Konfigurerar attackmätarens position
+options.attackIndicator.tooltip.2=  Hårkors - under hårkorset
+options.attackIndicator.tooltip.3=  Föremålsmeny - bredvid föremålsmenyn
+options.attackIndicator.tooltip.4=  AV - ingen attackmätare
+options.attackIndicator.tooltip.5=Attackmätaren visar attackstyrkan hos det hållna
+options.attackIndicator.tooltip.6=föremålet
 
 of.options.ALTERNATE_BLOCKS=Alternerade block
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternerade block
@@ -551,6 +558,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, gl
 of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de hålls av dig, andra spelare
 of.options.DYNAMIC_LIGHTS.tooltip.7=eller släpps ned på marken.
 
+options.biomeBlendRadius.tooltip.1=Jämnar ut färgövergången mellan biomer
+options.biomeBlendRadius.tooltip.2=  AV - ingen blandning (snabbare)
+options.biomeBlendRadius.tooltip.3=  5x5 - normal blandning (standard)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximal blandning (långsammast)
+options.biomeBlendRadius.tooltip.5=Högre värden kan orsaka stora prestandaproblem och
+options.biomeBlendRadius.tooltip.6=sakta ned inläsningshastigheten för datablock.
+
 # Performance
 
 of.options.SMOOTH_FPS=Jämn bildfrekvens
@@ -699,12 +713,12 @@ options.fullscreen.tooltip.3=  AV - använd fönsterläge
 options.fullscreen.tooltip.4=Fullskärmsläge kan vara snabbare eller långsammare än
 options.fullscreen.tooltip.5=fönsterläge beroende på grafikkortet.
 
-of.options.FULLSCREEN_MODE=Fullskärmsläge
-of.options.FULLSCREEN_MODE.tooltip.1=Fullskärmsläge
-of.options.FULLSCREEN_MODE.tooltip.2=  Standard - använd datorns upplösning, långsammare
-of.options.FULLSCREEN_MODE.tooltip.3=  BxH - använd anpassad upplösning, kan vara snabbare
-of.options.FULLSCREEN_MODE.tooltip.4=Den valda upplösningen används i fullskärmsläge (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Lägre upplösningar bör vanligtvis vara snabbare.
+options.fullscreen.resolution=Fullskärmsläge
+options.fullscreen.resolution.tooltip.1=Fullskärmsläge
+options.fullscreen.resolution.tooltip.2=  Standard - använd datorns upplösning, långsammare
+options.fullscreen.resolution.tooltip.3=  BxH - använd anpassad upplösning, kan vara snabbare
+options.fullscreen.resolution.tooltip.4=Den valda upplösningen används i fullskärmsläge (F11).
+options.fullscreen.resolution.tooltip.5=Lägre upplösningar bör vanligtvis vara snabbare.
 
 of.options.SHOW_FPS=Visa bildfrekvens
 of.options.SHOW_FPS.tooltip.1=Visar kort information om bildfrekvens och rendering.
