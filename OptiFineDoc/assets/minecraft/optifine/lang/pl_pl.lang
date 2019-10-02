@@ -1,7 +1,8 @@
 # Contributors of Polish localization #
 #  Kamil7430 2016-03-14 -- 2017-03-12 #
-#  Puuska 2017-07-15 -- 2018-01-31    #
+#  Puuska    2017-07-15 -- 2018-01-31 #
 #  Kamil7430 2018-07-30 -- ?????      #
+#  ravkr     2019-08-25 -- ?????      #
 
 # General
 of.general.ambiguous=dwuznaczny
@@ -27,7 +28,7 @@ of.message.fr.shaders2=Proszę, wyłącz Shadery, aby używać tej opcji.
 of.message.an.shaders1=Anaglifowe 3D nie jest kompatybilne z Shaderami.
 of.message.an.shaders2=Proszę, wyłącz Shadery, aby używać tej opcji.
 
-of.message.shaders.aa1=Shadery nie są kompatybilne z antyaliasingiem. 
+of.message.shaders.aa1=Shadery nie są kompatybilne z antyaliasingiem.
 of.message.shaders.aa2=Proszę, wyłącz opcję Jakość -> Antyaliasing, a następnie zrestartuj grę.
 
 of.message.shaders.af1=Shadery nie są kompatybilne z filtrowaniem anizotropowym.
@@ -49,7 +50,7 @@ of.message.openglError=§eBłąd OpenGL§f: %s (%s)
 of.message.shaders.loading=Wczytuję shadery: %s
 
 of.message.other.reset=Czy chcesz przywrócić wszystkie ustawienia graficzne do ich domyślnych wartości?
- 
+
 of.message.loadingVisibleChunks=Wczytywanie widzialnych chunków
 
 # Skin customization
@@ -59,7 +60,7 @@ of.options.skinCustomisation.ofCape=Peleryna OptiFine...
 # Video settings
 
 options.graphics.tooltip.1=Jakość grafiki
-options.graphics.tooltip.2=  Szybka  - niższa jakość, większa wydajność
+options.graphics.tooltip.2=  Szybka - niższa jakość, większa wydajność
 options.graphics.tooltip.3=  Dokładna - wyższa jakość, mniejsza wydajność
 options.graphics.tooltip.4=Zmienia wygląd chmur, liści, wody,
 options.graphics.tooltip.5=cieni oraz boków bloków trawy.
@@ -101,14 +102,14 @@ of.options.AO_LEVEL.tooltip.3=  50%% - jasne cienie
 of.options.AO_LEVEL.tooltip.4=  100%% - ciemne cienie
 
 options.viewBobbing.tooltip.1=Bardziej realistyczne poruszanie się.
-options.viewBobbing.tooltip.2=Gdy uzywasz mipmap, wyłącz tę opcję, aby podwyższyć wydajność.
+options.viewBobbing.tooltip.2=Jeśli używasz mipmap, wyłącz tę opcję, aby zwiększyć wydajność.
 
 options.guiScale.tooltip.1=Wielkość interfejsu
 options.guiScale.tooltip.2=  Auto - maksymalna dostępna wielkość
 options.guiScale.tooltip.3=  Mały, Normalny, Duży - od 1x do 3x
 options.guiScale.tooltip.4=  od 4x do 10x - dostępne na wyświetlaczach 4K
 options.guiScale.tooltip.5=Wartości nieparzyste (1x, 3x, 5x...) nie są kompatybilne
-options.guiScale.tooltip.6=z Unicode. Mniejszy interfejs może podwyższyć wydajność.
+options.guiScale.tooltip.6=z Unicode. Mniejszy interfejs może zwiększyć wydajność.
 
 options.vbo=Używaj VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
@@ -120,7 +121,7 @@ options.gamma.tooltip.2=  Nastrojowa - standardowa jasność
 options.gamma.tooltip.3=  1%%-99%% - możliwość dostosowania jasności
 options.gamma.tooltip.4=  Jaskrawa - maksymalna jasność ciemnych obiektów
 options.gamma.tooltip.5=Ta opcja nie podwyższa jasności obiektów, które
-options.gamma.tooltip.6=są w pełni czarne.
+options.gamma.tooltip.6=są całkowicie czarne.
 
 options.anaglyph.tooltip.1=Anaglify 3D
 options.anaglyph.tooltip.2=Włącza stereoskopowy efekt 3D używając różnych kolorów
@@ -130,20 +131,20 @@ options.anaglyph.tooltip.4=Wymaga czerwono-niebieskich okularów.
 of.options.ALTERNATE_BLOCKS=Alternatywne bloki
 of.options.blockAlternatives.tooltip.1=Alternatywne bloki
 of.options.blockAlternatives.tooltip.2=Używa alternatywnych modeli dla niektóych bloków.
-of.options.blockAlternatives.tooltip.3=Bazowane na wybranyej paczce tekstur.
+of.options.blockAlternatives.tooltip.3=Bazowane na wybranej paczce tekstur.
 
 of.options.FOG_FANCY=Mgła
 of.options.FOG_FANCY.tooltip.1=Typ mgły
 of.options.FOG_FANCY.tooltip.2=  Szybka - szybka mgła
 of.options.FOG_FANCY.tooltip.3=  Dokładna - ładniejsza mgła, zmniejsza wydajność
 of.options.FOG_FANCY.tooltip.4=  Wył. - brak mgły, najwyższa wydajność
-of.options.FOG_FANCY.tooltip.5=Dokładna mgła jest dostępna jedynie, jeżeli
+of.options.FOG_FANCY.tooltip.5=Dokładna mgła jest dostępna tylko, gdy
 of.options.FOG_FANCY.tooltip.6=obsługuje ją karta graficzna.
 
 of.options.FOG_START=Początkowa mgła
 of.options.FOG_START.tooltip.1=Początkowa mgła
-of.options.FOG_START.tooltip.2=  0.2 - mgła startuje w pobliżu gracza
-of.options.FOG_START.tooltip.3=  0.8 - mgła startuje z dala od gracza
+of.options.FOG_START.tooltip.2=  0.2 - mgła pojawia się w pobliżu gracza
+of.options.FOG_START.tooltip.3=  0.8 - mgła pojawia się z dala od gracza
 of.options.FOG_START.tooltip.4=Ta opcja zazwyczaj nie zmienia wydajności.
 
 of.options.CHUNK_LOADING=Ładowanie chunków
@@ -170,21 +171,21 @@ of.options.shaders.ANTIALIASING.tooltip.2=  Wył. - (domyślnie) bez antyaliasin
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - wygładzone linie i krawędzie (niższa wydajność)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA to obróbka końcowa, która wygładza
 of.options.shaders.ANTIALIASING.tooltip.5=postrzępione linie i ostre przejścia kolorów.
-of.options.shaders.ANTIALIASING.tooltip.6=Jest wydajniejsze niż tradycyjny antyaliasing
-of.options.shaders.ANTIALIASING.tooltip.7=i kompatybilne z shaderami i szybkim renderowaniem.  
+of.options.shaders.ANTIALIASING.tooltip.6=Jest wydajniejsza niż tradycyjny antyaliasing
+of.options.shaders.ANTIALIASING.tooltip.7=i kompatybilna z shaderami i szybkim renderowaniem.
 
-of.options.shaders.NORMAL_MAP=Normalna mapa
-of.options.shaders.NORMAL_MAP.tooltip.1=Normalna mapa
-of.options.shaders.NORMAL_MAP.tooltip.2=  Wł. - (domyślnie) włączone normalne mapy
-of.options.shaders.NORMAL_MAP.tooltip.3=  Wył. - wyłączone normalne mapy
-of.options.shaders.NORMAL_MAP.tooltip.4=Normalne mapy mogą być używane przez paczkę shaderów,
+of.options.shaders.NORMAL_MAP=Mapowanie normalnych
+of.options.shaders.NORMAL_MAP.tooltip.1=Mapowanie normalnych
+of.options.shaders.NORMAL_MAP.tooltip.2=  Wł. - (domyślnie) włączone mapy normalnych
+of.options.shaders.NORMAL_MAP.tooltip.3=  Wył. - wyłączone mapy normalnych
+of.options.shaders.NORMAL_MAP.tooltip.4=Mapy normalnych mogą być używane przez paczkę shaderów,
 of.options.shaders.NORMAL_MAP.tooltip.5=aby symulować geometrię 3D na płaskich powierzchniach
-of.options.shaders.NORMAL_MAP.tooltip.6=modeli. Tekstury normalnych map są dostarczane
+of.options.shaders.NORMAL_MAP.tooltip.6=modeli. Tekstury map normalnych są dostarczane
 of.options.shaders.NORMAL_MAP.tooltip.7=z obecnej paczki zasobów.
 
 of.options.shaders.SPECULAR_MAP=Lustrzana mapa
 of.options.shaders.SPECULAR_MAP.tooltip.1=Lustrzana mapa
-of.options.shaders.SPECULAR_MAP.tooltip.2=  Wł.  (domyślnie) włączone lustrzane mapy
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Wł. (domyślnie) włączone lustrzane mapy
 of.options.shaders.SPECULAR_MAP.tooltip.3=  Wył. - wyłączone lustrzane mapy
 of.options.shaders.SPECULAR_MAP.tooltip.4=Lustrzane mapy mogą być używane przez paczkę shaderów,
 of.options.shaders.SPECULAR_MAP.tooltip.5=aby symulować specjalne efekty refleksów.
@@ -196,7 +197,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.1=Jakość renderowania
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - niska (najwyższa wydajność)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standardowa (domyślnie)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - wysoka (najniższa wydajność)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=Ta opcja kontroluje wielkość tekstury, 
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Ta opcja kontroluje wielkość tekstury,
 of.options.shaders.RENDER_RES_MUL.tooltip.6=którą paczka shaderów renderuje.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Niższe wartości mogą być przydatne przy wyświetlaczach 4K.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Wyższe wartości pracują jako filtr antyaliasingowy.
@@ -228,7 +229,7 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Stara metoda oświetlania przez prze
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Domyślne - kontrolowane przez paczkę shaderów
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Wł. - używaj starej metody oświetlania
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Wył. - używaj nowej metody oświetlania
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Ta opcja pozwala paczkom shaderów, które wykrywają jedynie  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Ta opcja pozwala paczkom shaderów, które wykrywają jedynie
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=przedmioty emitujące światło w głównej ręce,
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=pracować także z przedmiotami w ręce podrzędnej.
 
@@ -237,14 +238,14 @@ of.options.shaders.OLD_LIGHTING.tooltip.1=Stare oświetlanie
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Domyślne - kontrolowane przez paczkę shaderów
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Wł. - używaj starego oświetlania
 of.options.shaders.OLD_LIGHTING.tooltip.4=  Wył. - nie używaj starego oświetlania
-of.options.shaders.OLD_LIGHTING.tooltip.5=Ta opcja kontroluje naprawione oświetlenie zastosowane 
-of.options.shaders.OLD_LIGHTING.tooltip.6=w vanilla na strony bloków. 
-of.options.shaders.OLD_LIGHTING.tooltip.7=Paczki shaderów używające cieni zazwyczaj dostarczają 
+of.options.shaders.OLD_LIGHTING.tooltip.5=Ta opcja kontroluje naprawione oświetlenie zastosowane
+of.options.shaders.OLD_LIGHTING.tooltip.6=w vanilla na strony bloków.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Paczki shaderów używające cieni zazwyczaj dostarczają
 of.options.shaders.OLD_LIGHTING.tooltip.8=wiele lepsze oświetlenie bazujące na położeniu słońca.
 
 of.options.shaders.DOWNLOAD=Pobierz shadery
 of.options.shaders.DOWNLOAD.tooltip.1=Pobieranie shaderów
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Ta opcja otwiera w przeglądarce stronę z paczkami shaderów.
 of.options.shaders.DOWNLOAD.tooltip.4=Umieść pobrane paczki w "Folderze na shadery",
 of.options.shaders.DOWNLOAD.tooltip.5=a one pojawią się na liście zainstalowanych shaderów.
@@ -444,7 +445,7 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% - powyżej limitu wysokości świata
 
 of.options.TREES=Drzewa
 of.options.TREES.tooltip.1=Drzewa
-of.options.TREES.tooltip.2=  Domyślne - dostosowane do ustawienia graficznego
+of.options.TREES.tooltip.2=  Domyślne - zgodnie z ustawieniami graficznymi
 of.options.TREES.tooltip.3=  Szybka - niższa jakość, wyższa wydajność
 of.options.TREES.tooltip.4=  Smart - wyższa jakość, niższa wydajność
 of.options.TREES.tooltip.5=  Dokładna - najwyższa jakość, najniższa wydajność
@@ -453,28 +454,28 @@ of.options.TREES.tooltip.7=Szybkie i smart drzewa mają przezroczyste liście.
 
 of.options.RAIN=Deszcz i śnieg
 of.options.RAIN.tooltip.1=Deszcz i śnieg
-of.options.RAIN.tooltip.2=  Domyślne - dostosowane do ustawienia graficznego
-of.options.RAIN.tooltip.3=  Szybka  - lekki deszcz/śnieg, wyższa wydajność
+of.options.RAIN.tooltip.2=  Domyślne - zgodnie z ustawieniami graficznymi
+of.options.RAIN.tooltip.3=  Szybka - lekki deszcz/śnieg, wyższa wydajność
 of.options.RAIN.tooltip.4=  Dokładna - ciężki deszcz/śnieg, niższa wydajność
 of.options.RAIN.tooltip.5=  Wył. - brak deszczu/śniegu, najwyższa wydajność
-of.options.RAIN.tooltip.6=Gdy deszcz jest wyłączony, dźwięki nadal
-of.options.RAIN.tooltip.7=są aktywne.
+of.options.RAIN.tooltip.6=Gdy deszcz jest wyłączony, rozpryski na ziemi
+of.options.RAIN.tooltip.7=oraz dźwięki nadal są aktywne.
 
 of.options.SKY=Niebo
 of.options.SKY.tooltip.1=Niebo
 of.options.SKY.tooltip.2=  Wł. - niebo jest widoczne, niższa wydajność
-of.options.SKY.tooltip.3=  Wył.  - niebo jest niewidoczne, wyższa wydajność
+of.options.SKY.tooltip.3=  Wył. - niebo jest niewidoczne, wyższa wydajność
 of.options.SKY.tooltip.4=Gdy niebo jest wyłączone, słońce i księżyc nadal są widoczne.
 
 of.options.STARS=Gwiazdy
 of.options.STARS.tooltip.1=Gwiazdy
 of.options.STARS.tooltip.2=  Wł. - gwiazdy są widoczne, niższa wydajność
-of.options.STARS.tooltip.3=  Wył.  - gwiazdy są niewidoczne, wyższa wydajność
+of.options.STARS.tooltip.3=  Wył. - gwiazdy są niewidoczne, wyższa wydajność
 
 of.options.SUN_MOON=Słońce i Księżyc
 of.options.SUN_MOON.tooltip.1=Słońce i Księżyc
 of.options.SUN_MOON.tooltip.2=  Wł. - słońce i księżyc są widoczne (domyślne)
-of.options.SUN_MOON.tooltip.3=  Wył.  - słońce i księżyc są niewidoczne (wyższa wydajność)
+of.options.SUN_MOON.tooltip.3=  Wył. - słońce i księżyc są niewidoczne (wyższa wydajność)
 
 of.options.SHOW_CAPES=Pokazuj peleryny
 of.options.SHOW_CAPES.tooltip.1=Pokazuj peleryny
@@ -483,11 +484,11 @@ of.options.SHOW_CAPES.tooltip.3=  Wył. - nie pokazuje peleryn graczy
 
 of.options.TRANSLUCENT_BLOCKS=Prześwitujące bloki
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Prześwitujące bloki
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Domyślne - dostosowane do ustawienia graficznego
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Domyślne - zgodnie z ustawieniami graficznymi
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Dokładna - poprawne mieszanie kolorów (domyślne)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Szybka - szybkie mieszanie kolorów (wyższa wydajność)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontroluje mieszanie kolorów bloków przezroczystych
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=w różnych kolorach (utawrdzone szkło, woda, lód)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=w różnych kolorach (barwione szkło, woda, lód)
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=gdy pod nimi są bloki inne niż powietrze.
 
 of.options.HELD_ITEM_TOOLTIPS=Nazwy trzym. przedm.
@@ -505,9 +506,9 @@ of.options.ADVANCED_TOOLTIPS.tooltip.6=dla shaderów (id, źródło, domyślna w
 
 of.options.DROPPED_ITEMS=Upuszczone przedmioty
 of.options.DROPPED_ITEMS.tooltip.1=Upuszczone przedmioty
-of.options.DROPPED_ITEMS.tooltip.2=  Domyślne - przystosowane do ustawienia graficznego
-of.options.DROPPED_ITEMS.tooltip.3=  Szybka - upuszczone przedmioty w 2D, wyższa wydajność
-of.options.DROPPED_ITEMS.tooltip.4=  Dokładna - upuszczone przedmioty w 3D, niższa wydajność
+of.options.DROPPED_ITEMS.tooltip.2=  Domyślne - zgodnie z ustawieniami graficznymi
+of.options.DROPPED_ITEMS.tooltip.3=  Szybkie - upuszczone przedmioty w 2D (wyższa wydajność)
+of.options.DROPPED_ITEMS.tooltip.4=  Dokładne - upuszczone przedmioty w 3D (niższa wydajność)
 
 options.entityShadows.tooltip.1=Cienie bytów
 options.entityShadows.tooltip.2=  Wł. - Włącza cienie pod bytami
@@ -515,9 +516,9 @@ options.entityShadows.tooltip.3=  Wył. - Wyłącza cienie pod bytami
 
 of.options.VIGNETTE=Winieta
 of.options.VIGNETTE.tooltip.1=Efekt wizualny, który delikatnie przyciemnia rogi ekranu
-of.options.VIGNETTE.tooltip.2=  Domyślne - dostosowane do ustawienia graficznego (domyślne)
-of.options.VIGNETTE.tooltip.3=  Szybka - winieta wyłączona (wyższa wydajność)
-of.options.VIGNETTE.tooltip.4=  Dokładna - winieta włączona (niższa wydajność)
+of.options.VIGNETTE.tooltip.2=  Domyślne - zgodnie z ustawieniami graficznymi (domyślne)
+of.options.VIGNETTE.tooltip.3=  Szybki - winieta wyłączona (wyższa wydajność)
+of.options.VIGNETTE.tooltip.4=  Dokładny - winieta włączona (niższa wydajność)
 of.options.VIGNETTE.tooltip.5=Winieta może w małym stopniu obniżyć FPS,
 of.options.VIGNETTE.tooltip.6=szczególnie przy grze na pełnym ekranie.
 of.options.VIGNETTE.tooltip.7=Efekt winiety jest subtelny i może być
@@ -527,17 +528,17 @@ of.options.DYNAMIC_FOV=Dynamiczny FOV
 of.options.DYNAMIC_FOV.tooltip.1=Dynamiczne FOV
 of.options.DYNAMIC_FOV.tooltip.2=  Wł. - włącza dynamiczny FOV (domyślne)
 of.options.DYNAMIC_FOV.tooltip.3=  Wył. - wyłącza dynamiczny FOV
-of.options.DYNAMIC_FOV.tooltip.4=Zmienia pole widzenia (FOV), gdy latasz 
+of.options.DYNAMIC_FOV.tooltip.4=Zmienia pole widzenia (FOV), gdy latasz
 of.options.DYNAMIC_FOV.tooltip.5=sprintujesz lub naciągasz łuk.
 
-of.options.DYNAMIC_LIGHTS=Dynamiczne światło
-of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiczne światło
+of.options.DYNAMIC_LIGHTS=Dynamiczne światła
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiczne światła
 of.options.DYNAMIC_LIGHTS.tooltip.2=  Wył. - funkcja dynamicznego światła wyłączona (domyślne)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Szybka - proste dynamiczne światła - aktualizowane co 500ms
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Dokładna - zaawansowane dynamiczne światło - aktualizowane na bieżąco
-of.options.DYNAMIC_LIGHTS.tooltip.5=Przedmioty świecące (pochodnia, jasnopył, itp.)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Szybkie - uproszczone dynamiczne światła - aktualizowane co 500ms
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Dokładne - dynamiczne światła w czasie rzeczywistym
+of.options.DYNAMIC_LIGHTS.tooltip.5=Przedmioty świecące (pochodnia, jasnogłaz itp.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=oświetlają teren, gdy są w Twojej dłoni,
-of.options.DYNAMIC_LIGHTS.tooltip.7=dłoni innego gracza lub gdy są upuszczone na podłoże.
+of.options.DYNAMIC_LIGHTS.tooltip.7=dłoni innego gracza lub gdy leżą na ziemi.
 
 # Performance
 
@@ -668,13 +669,13 @@ of.options.time.nightOnly=Tylko noc
 of.options.TIME=Czas
 of.options.TIME.tooltip.1=Ustawienia cyklu dnia i nocy
 of.options.TIME.tooltip.2= Domyślne - normalny cykl dnia i nocy
-of.options.TIME.tooltip.3= Jedynie dzień - czas zatryma się na dniu
+of.options.TIME.tooltip.3= Jedynie dzień - czas zatrzyma się na dniu
 of.options.TIME.tooltip.4= Jedynie noc - czas zatrzyma się na nocy
 of.options.TIME.tooltip.5=To ustawienie działa tylko w trybie kreatywnym
 of.options.TIME.tooltip.6=i tylko w lokalnych światach.
 
 options.fullscreen.tooltip.1=Pełny ekran
-options.fullscreen.tooltip.2=  Wł. - uzywa trybu pełny ekran
+options.fullscreen.tooltip.2=  Wł. - używa trybu pełnoekranowego
 options.fullscreen.tooltip.3=  Wył. - używa trybu okienkowego
 options.fullscreen.tooltip.4=Tryb pełnoekranowy może być szybszy lub wolniejszy
 options.fullscreen.tooltip.5=niż tryb okienkowy, w zależności od karty graficznej.
@@ -719,4 +720,4 @@ of.options.SHOW_GL_ERRORS.tooltip.2=Kiedy aktywne, błędy OpenGL są pokazywane
 of.options.SHOW_GL_ERRORS.tooltip.3=Wyłącz tą opcję tylko jeżeli jest znany konflikt
 of.options.SHOW_GL_ERRORS.tooltip.4=i błędy nie mogą zostać naprawione.
 of.options.SHOW_GL_ERRORS.tooltip.5=Kiedy nieaktywne, błędy są nadal zapisywane w rejestrze
-of.options.SHOW_GL_ERRORS.tooltip.6=błędów i nadal mogą powodować znaczące spadki FPS. 
+of.options.SHOW_GL_ERRORS.tooltip.6=błędów i nadal mogą powodować znaczne spadki FPS.
