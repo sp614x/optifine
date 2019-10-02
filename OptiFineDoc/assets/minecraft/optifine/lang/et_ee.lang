@@ -136,6 +136,13 @@ options.anaglyph.tooltip.2=Lubab stereoskoopilise 3D-efekti, kasutades erinevaid
 options.anaglyph.tooltip.3=värve eri silmadel.
 options.anaglyph.tooltip.4=Vajab punasiniseid prille korralikuks vaatamiseks.
 
+options.attackIndicator.tooltip.1=Seadistab ründeindikaatori asukohta
+options.attackIndicator.tooltip.2=  Sihtimisristil - sihtimisristi all
+options.attackIndicator.tooltip.3=  Plokiribal - plokiriba kõrval
+options.attackIndicator.tooltip.4=  VÄLJAS - ründeindikaator puudub
+options.attackIndicator.tooltip.5=Ründeindikaator kuvab käesoleva eseme ründevõimsust
+options.attackIndicator.tooltip.6=
+
 of.options.ALTERNATE_BLOCKS=Alternatiivsed plokid
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatiivsed plokid
 of.options.ALTERNATE_BLOCKS.tooltip.2=Kasutab alternatiivseid plokimudeleid teatud plokkidel.
@@ -548,6 +555,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Lubab valgust kiirgavatel esemetel (tõrvik,
 of.options.DYNAMIC_LIGHTS.tooltip.6=käes hoides või maha visates valgustada ümbritsevat ala.
 of.options.DYNAMIC_LIGHTS.tooltip.7=
 
+options.biomeBlendRadius.tooltip.1=Silub bioomidevahelise värvide ülemineku
+options.biomeBlendRadius.tooltip.2=  VÄLJAS - üleminek puudub (kiireim)
+options.biomeBlendRadius.tooltip.3=  5x5 - tavaline üleminek (vaikimisi)
+options.biomeBlendRadius.tooltip.4=  15x15 - maksimaalne üleminek (aeglaseim)
+options.biomeBlendRadius.tooltip.5=Kõrgemad väärtused võivad luua silmnähtavaid
+options.biomeBlendRadius.tooltip.6="latentsusokkaid" ning aeglustada kamakalaadimist.
+
 # Performance
 
 of.options.SMOOTH_FPS=Sujuv kaadrisagedus
@@ -688,16 +702,16 @@ options.fullscreen.tooltip.3=  VÄLJAS - kasuta aknarežiimi
 options.fullscreen.tooltip.4=Täisekraanirežiim võib olenevalt graafikakaardist 
 options.fullscreen.tooltip.5=olla aknarežiimist kiirem või aeglasem.
 
-of.options.FULLSCREEN_MODE=Täisekraanirežiim
-of.options.FULLSCREEN_MODE.tooltip.1=Täisekraanirežiim
-of.options.FULLSCREEN_MODE.tooltip.2=  Vaikimisi - kasuta töölaua ekraaniresolutsiooni, aeglasem
-of.options.FULLSCREEN_MODE.tooltip.3=  L x K - kasuta kohandatud ekraaniresolutsiooni, võib olla kiirem
-of.options.FULLSCREEN_MODE.tooltip.4=Valitud resolutsiooni kasutatakse täisekraanirežiimis (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt olema kiiremad.
+options.fullscreen.resolution=Täisekraanirežiim
+options.fullscreen.resolution.tooltip.1=Täisekraanirežiim
+options.fullscreen.resolution.tooltip.2=  Vaikimisi - kasuta töölaua ekraaniresolutsiooni, aeglasem
+options.fullscreen.resolution.tooltip.3=  Laius x kõrgus - kasuta kohandatud resolutsiooni, võib olla kiirem
+options.fullscreen.resolution.tooltip.4=Valitud resolutsiooni kasutatakse täisekraanirežiimis (F11).
+options.fullscreen.resolution.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt olema kiiremad.
 
 of.options.SHOW_FPS=Kaadrisageduse kuva
 of.options.SHOW_FPS.tooltip.1=Kuvab kompaktselt kaadrisageduse ja renderduse infot.
-of.options.SHOW_FPS.tooltip.2=  Fps - keskmine/minimaalne ks
+of.options.SHOW_FPS.tooltip.2=  Fps - keskmine/minimaalne kaadrisagedus
 of.options.SHOW_FPS.tooltip.3=  C: - kamaka renderdajad
 of.options.SHOW_FPS.tooltip.4=  E: - renderdatud olemid + plokiolemid
 of.options.SHOW_FPS.tooltip.5=  U: - kamakauuendused
