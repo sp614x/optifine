@@ -56,8 +56,10 @@ of.options.skinCustomisation.ofCape=Capa do OptiFine...
 of.options.capeOF.title=Capa do OptiFine
 of.options.capeOF.openEditor=Abrir editor de capa
 of.options.capeOF.reloadCape=Recarregar capa
+of.options.capeOF.copyEditorLink=Copiar link
 
 of.message.capeOF.openEditor=O editor de capas do OptiFine será aberto num navegador.
+of.message.capeOF.openEditorError=Falha ao abrir o link do editor num navegador.
 of.message.capeOF.reloadCape=A capa será recarregada em 15 segundos.
 
 of.message.capeOF.error1=A autenticação da Mojang falhou.
