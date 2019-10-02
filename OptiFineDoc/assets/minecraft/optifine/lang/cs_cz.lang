@@ -134,6 +134,13 @@ options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá rozdíln�
 options.anaglyph.tooltip.3=pro každé oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-modré brýle pro správné vidění.
 
+options.attackIndicator.tooltip.1=Nastavuje pozici ukazatele útoku
+options.attackIndicator.tooltip.2=  Křížek - pod středovým křížkem
+options.attackIndicator.tooltip.3=  Lišta - nalevo od spodní lišty
+options.attackIndicator.tooltip.4=  NE - žádný ukazatel útoku
+options.attackIndicator.tooltip.5=Ukazatel útoku zobrazuje sílu útoku
+options.attackIndicator.tooltip.6=aktuálně vybaveného itemu.
+
 of.options.ALTERNATE_BLOCKS=Různé bloky
 options.blockAlternatives.tooltip.1=Alternativní bloky
 options.blockAlternatives.tooltip.2=Používá rozdílné modely bloku pro některé modely.
@@ -168,8 +175,8 @@ of.options.chunkLoading.multiCore=Více jader
 of.options.shaders=Stíny...
 of.options.shadersTitle=Stíny (shadery)
 
-of.options.shaders.packNone=NE
-of.options.shaders.packDefault=(vložené)
+of.options.shaders.packNone=ŽÁDNÉ
+of.options.shaders.packDefault=(interní)
 
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
@@ -223,7 +230,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Hloubka ruky
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - ruka přímo u kamery
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (výchozí)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - ruka daleko od kamery
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hlubka ruky ovládá, jak jsou objekty v ruce a ruka
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hloubka ruky ovládá, jak jsou objekty v ruce a ruka
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=samotná daleko od kamery.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Pro balíčky stínu, které používají rozmazání
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=by tohle mohlo zabránit rozmazání ruky.
@@ -546,6 +553,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Pokud je ANO a v ruce, na zemi nebo v ruce
 of.options.DYNAMIC_LIGHTS.tooltip.6=jiného hráče je držen svítící item (louč, světlit, atd.)
 of.options.DYNAMIC_LIGHTS.tooltip.7=tak se osvětlí vše kolem.
 
+options.biomeBlendRadius.tooltip.1=Vyhlazuje přechody barev mezi biomy
+options.biomeBlendRadius.tooltip.2=  NE - žádné vyhlazení (nejrychlejší)
+options.biomeBlendRadius.tooltip.3=  5x5 - normální vyhlazení (výchozí)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximální vyhlazení (nejpomalejší)
+options.biomeBlendRadius.tooltip.5=Větší hodnoty mohou často generovat záseky
+options.biomeBlendRadius.tooltip.6=a taky zpomalit generování světa.
+
 # Výkon
 
 of.options.SMOOTH_FPS=Vyhlazené FPS
@@ -686,12 +700,12 @@ options.fullscreen.tooltip.3=  NE - použít mód v okně
 options.fullscreen.tooltip.4=Fullscreen mód může být rychlejší nebo pomalejší než
 options.fullscreen.tooltip.5=mód v okně, záleží na GPU.
 
-of.options.FULLSCREEN_MODE=Fullscreen mód
-of.options.FULLSCREEN_MODE.tooltip.1=Celoobrázkový mód
-of.options.FULLSCREEN_MODE.tooltip.2=  Výchozí - používá hlavní rozlišení, pomalejší
-of.options.FULLSCREEN_MODE.tooltip.3=  ŠxV - používá vlastní rozlišení, může být rychlejší
-of.options.FULLSCREEN_MODE.tooltip.4=Vybrané rozlišení je používáno ve fullscreenu (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Nižší rozlišení by měli být většinou rychlejší.
+of.options.fullscreen.resolution=Rozlišení fullscreenu
+of.options.fullscreen.resolution.tooltip.1=Rozlišení režimu celé obrazovky
+of.options.fullscreen.resolution.tooltip.2=  Výchozí - používá hlavní rozlišení, pomalejší
+of.options.fullscreen.resolution.tooltip.3=  ŠxV - používá vlastní rozlišení, může být rychlejší
+of.options.fullscreen.resolution.tooltip.4=Vybrané rozlišení je používáno ve fullscreenu (F11).
+of.options.fullscreen.resolution.tooltip.5=Nižší rozlišení by měli být většinou rychlejší.
 
 of.options.SHOW_FPS=Zobrazit FPS
 of.options.SHOW_FPS.tooltip.1=Kompaktně zobrazí informace o FPS a renderu.
