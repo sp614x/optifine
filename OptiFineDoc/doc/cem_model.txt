@@ -26,6 +26,7 @@
 # chest                lid, base, knob
 # chest_large          lid, base, knob
 # chicken              head, body, right_leg, left_leg, right_wing, left_wing, bill, chin
+# cod                  body, fin_back, head, nose, fin_right, fin_left, tail
 # cow                  head, body, leg1 ... leg4
 # creeper              head, armor, body, leg1 ... leg4
 # dragon               head, spine, jaw, body, rear_leg, front_leg, rear_leg_tip, front_leg_tip, rear_foot, front_foot, wing, wing_tip
@@ -56,9 +57,15 @@
 # mule                 <same as horse>
 # ocelot               back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
 # parrot               head, body, tail, left_wing, right_wing, left_leg, right_leg
+# puffer_fish_big      body, fin_right, fin_left, spikes_front_top, spikes_middle_top, spikes_back_top, spikes_front_right, spikes_front_left, 
+#                      spikes_front_bottom, spikes_middle_bottom, spikes_back_bottom, spikes_back_right, spikes_back_left
+# puffer_fish_medium   body, fin_right, fin_left, spikes_front_top, spikes_back_top, spikes_front_right, spikes_back_right, spikes_back_left, 
+#                      spikes_front_left, spikes_back_bottom, spikes_front_bottom
+# puffer_fish_small    body, eye_right, eye_left, tail, fin_right, fin_left
 # pig                  head, body, leg1 ... leg4
 # polar_bear           head, body, leg1 ... leg4
 # rabbit               left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
+# salmon               body_front, body_back, head, fin_back_1, fin_back_2, tail, fin_right, fin_left
 # sheep                head, body, leg1 ... leg4
 # sheep_wool           head, body, leg1 ... leg4
 # shulker              head, base, lid
@@ -75,6 +82,8 @@
 # squid                body, tentacle1 ... tentacle8
 # stray                head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # tnt_minecart         bottom, back, front, right, left, dirt
+# tropical_fish_a      body, tail, fin_right, fin_left, fin_top
+# tropical_fish_b      body, tail, fin_right, fin_left, fin_top, fin_bottom
 # vex                  head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_wing, right_wing
 # villager             head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose
 # vindicator           head, body, arms, left_leg, right_leg, nose, left_arm, right_arm
