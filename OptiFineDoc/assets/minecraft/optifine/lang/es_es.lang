@@ -82,22 +82,9 @@ options.graphics.tooltip.5=Los cambios se aprecian en las nubes, en las hojas,
 options.graphics.tooltip.6=en la lluvia, en los objetos tirados y en las
 options.graphics.tooltip.7=esquinas (o bordes) de la pantalla del juego.
 
-of.options.renderDistance.tiny=Mínimo
-of.options.renderDistance.short=Corto
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Lejano
-of.options.renderDistance.extreme=Extremo
-of.options.renderDistance.insane=Insano
-of.options.renderDistance.ludicrous=A lo bestia
-
-options.renderDistance.tooltip.1=  2 Mínimo - 32m (increíblemente rápido)
-options.renderDistance.tooltip.2=  4 Corto - 64m (rápido)
-options.renderDistance.tooltip.3=  8 Normal - 128m (recomendado)
-options.renderDistance.tooltip.4=  16 Lejano - 256m (puede ir lento)
-options.renderDistance.tooltip.5=  32 Extremo - 512m (¡puede ir horrible!)
-options.renderDistance.tooltip.6=  48 Insano - 768m, requiere usar 2GB de RAM
-options.renderDistance.tooltip.7=  64 A lo bestia - 1024m, requiere usar 3GB de RAM
-options.renderDistance.tooltip.8=A partir de 16 chunks será inútil en multijugador.
+options.renderDistance.tooltip.1=Visible distance
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Iluminación suave
 options.ao.tooltip.2=  NO - sin iluminación suave (rápido)
