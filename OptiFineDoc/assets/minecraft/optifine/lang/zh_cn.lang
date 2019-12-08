@@ -83,8 +83,11 @@ options.graphics.tooltip.4=改变云、树叶、水、
 options.graphics.tooltip.5=阴影和草地的外观。
 
 options.renderDistance.tooltip.1=能见度
-options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
-options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
+options.renderDistance.tooltip.2=  2-32 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  33-64 - resource demanding distances for local worlds
+options.renderDistance.tooltip.4=On servers the visible distance is further limited by the
+options.renderDistance.tooltip.5=server's view distance (default 10).
+options.renderDistance.tooltip.6=Smaller values are faster.
 
 options.ao.tooltip.1=平滑光照
 options.ao.tooltip.2=  关闭 - 禁用平滑光照（较快）

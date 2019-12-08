@@ -72,8 +72,11 @@ options.graphics.tooltip.4=Muudab pilvede, lehtede, vee, varjude ja muru külged
 options.graphics.tooltip.5=välimust.
 
 options.renderDistance.tooltip.1=Nähtav kaugus
-options.renderDistance.tooltip.2=  2-16 - tavaline nähtavuskaugus kõikidele maailmadele
-options.renderDistance.tooltip.3=  17-64 - ressursinõudlikud kaugused kohalikele maailmadele
+options.renderDistance.tooltip.2=  2-32 - tavaline nähtavuskaugus kõikidele maailmadele
+options.renderDistance.tooltip.3=  33-64 - ressursinõudlik kaugus kohalikele maailmadele
+options.renderDistance.tooltip.4=Serverites piiratakse nähtavat kaugust serveri
+options.renderDistance.tooltip.5=vaatluskaugusega (vaikimisi 10).
+options.renderDistance.tooltip.6=Väiksemad väärtused on kiiremad.
 
 options.ao.tooltip.1=Sujuv valgustus
 options.ao.tooltip.2=  VÄLJAS - sujuv valgustus puudub (kiirem)

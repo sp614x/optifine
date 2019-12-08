@@ -58,8 +58,11 @@ options.graphics.tooltip.4=구름, 잎, 물, 그림자, 풀의
 options.graphics.tooltip.5=외형을 변경합니다.
 
 options.renderDistance.tooltip.1=시야 거리
-options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
-options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
+options.renderDistance.tooltip.2=  2-32 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  33-64 - resource demanding distances for local worlds
+options.renderDistance.tooltip.4=On servers the visible distance is further limited by the
+options.renderDistance.tooltip.5=server's view distance (default 10).
+options.renderDistance.tooltip.6=Smaller values are faster.
 
 options.ao.tooltip.1=부드러운 조명 효과
 options.ao.tooltip.2=  꺼짐 - 부드러운 조명 효과 없음 (빠름)
