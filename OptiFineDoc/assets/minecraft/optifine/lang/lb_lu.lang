@@ -62,22 +62,9 @@ options.graphics.tooltip.3=  Schéin - héich Qualitéit, méi lues
 options.graphics.tooltip.4=Verännert d'Ausgesi vun de Wolleken, Blieder, Grasbléck,
 options.graphics.tooltip.5=Schieter a vum Waasser.
 
-of.options.renderDistance.tiny=Winzeg
-of.options.renderDistance.short=Geréng
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Wéit
-of.options.renderDistance.extreme=Extrem
-of.options.renderDistance.insane=Verréckt
-of.options.renderDistance.ludicrous=Wahnsinn
-
 options.renderDistance.tooltip.1=Siichtwéit
-options.renderDistance.tooltip.2=  2 Winzeg - 32m (am schnellsten)
-options.renderDistance.tooltip.3=  8 Normal - 128m (normal)
-options.renderDistance.tooltip.4=  16 Wéit - 256m (lues)
-options.renderDistance.tooltip.5=  32 Extrem - 512m (am luesten!) brauch vill Ressourcen
-options.renderDistance.tooltip.6=  48 Verréckt - 768m, brauch 2GB RAM zougedeelt
-options.renderDistance.tooltip.7=  64 Wahnsinn - 1024m, brauch 3GB RAM zougedeelt
-options.renderDistance.tooltip.8=Wäerter iwwer 16 funktionéieren nëmmen am Singleplayer.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Fléissend Beliichtung
 options.ao.tooltip.2=  Aus - keng fléissend Beliichtung (schnell)

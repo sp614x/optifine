@@ -71,22 +71,9 @@ options.graphics.tooltip.3=  Uhke - kõrgem kvaliteet, aeglasem
 options.graphics.tooltip.4=Muudab pilvede, lehtede, vee, varjude ja muru külgede
 options.graphics.tooltip.5=välimust.
 
-of.options.renderDistance.tiny=pisike
-of.options.renderDistance.short=lühike
-of.options.renderDistance.normal=tavaline
-of.options.renderDistance.far=kauge
-of.options.renderDistance.extreme=ekstreemne
-of.options.renderDistance.insane=hullumeelne
-of.options.renderDistance.ludicrous=naeruväärne
-
 options.renderDistance.tooltip.1=Nähtav kaugus
-options.renderDistance.tooltip.2=  2 pisike - 32m (kiireim)
-options.renderDistance.tooltip.3=  8 tavaline - 128m (tavaline
-options.renderDistance.tooltip.4=  16 kauge - 256m (aeglasem)
-options.renderDistance.tooltip.5=  32 ekstreemne - 512m (aeglaseim!) väga ressursinõudlik
-options.renderDistance.tooltip.6=  48 hullumeelne - 768m, vajab 2 GB RAMi allutamist
-options.renderDistance.tooltip.7=  64 naeruväärne - 1024m, vajab 3 GB RAMi allutamist
-options.renderDistance.tooltip.8=Väärtused üle "16 kauge" toimivad ainult kohalikes maailmades.
+options.renderDistance.tooltip.2=  2-16 - tavaline nähtavuskaugus kõikidele maailmadele
+options.renderDistance.tooltip.3=  17-64 - ressursinõudlikud kaugused kohalikele maailmadele
 
 options.ao.tooltip.1=Sujuv valgustus
 options.ao.tooltip.2=  VÄLJAS - sujuv valgustus puudub (kiirem)

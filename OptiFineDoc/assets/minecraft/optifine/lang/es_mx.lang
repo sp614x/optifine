@@ -41,16 +41,9 @@ options.graphics.tooltip.3=  Detallada - Mejor apariencia.
 options.graphics.tooltip.4=Cambia la apariencia de nubes, hojas, agua,
 options.graphics.tooltip.5=sombras y bloques con pasto.
 
-of.options.renderDistance.extreme=Extremo
-
 options.renderDistance.tooltip.1=Distancia de renderizado.
-options.renderDistance.tooltip.2=  2 Mínimo - 32 bloques. (más rápido)
-options.renderDistance.tooltip.3=  4 Corto - 64 bloques.
-options.renderDistance.tooltip.4=  8 Normal - 128 bloques.
-options.renderDistance.tooltip.5=  16 Lejano - 256 bloques.
-options.renderDistance.tooltip.6=  32 Extremo - 512 bloques. (más lento)
-options.renderDistance.tooltip.7=La distancia de renderizado extrema demanda más recursos.
-options.renderDistance.tooltip.8=Valores sobre de 16 solo son efectivos en mundos locales.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Iluminación suave.
 options.ao.tooltip.2=  NO - Sin suavizado de iluminación. (rápido)

@@ -71,22 +71,9 @@ options.graphics.tooltip.3=  Pekná - vyššia kvalita, pomalšia
 options.graphics.tooltip.4=Mení vzhľad oblakov, listov, vody,
 options.graphics.tooltip.5=tieňov a trávy.
 
-of.options.renderDistance.tiny=Drobná
-of.options.renderDistance.short=Krátka
-of.options.renderDistance.normal=Normálna
-of.options.renderDistance.far=Ďaleká
-of.options.renderDistance.extreme=Extrémna
-of.options.renderDistance.insane=Šialená
-of.options.renderDistance.ludicrous=Absurdná
-
 options.renderDistance.tooltip.1=Dohľadnosť (vzdialenosť vykresľovania)
-options.renderDistance.tooltip.2=  2 Drobná - 32m (najrýchlejšia)
-options.renderDistance.tooltip.3=  8 Normálna - 128m (normálna)
-options.renderDistance.tooltip.4=  16 Ďaleká - 256m (pomalšia)
-options.renderDistance.tooltip.5=  32 Extrémna - 512m (najpomalšia!) veľmi náročná na výkon
-options.renderDistance.tooltip.6=  48 Šialená - 768m, potrebuje 2GB alokovanej RAM
-options.renderDistance.tooltip.7=  64 Absurdná - 1024m, potrebuje 3GB alokovanej RAM
-options.renderDistance.tooltip.8=Hodnoty nad 16 sú funkčné len pre lokálne svety.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Vyhladené osvetlenie
 options.ao.tooltip.2=  VYP - žiadne vyhladené osvetlenie (rýchlejšie)

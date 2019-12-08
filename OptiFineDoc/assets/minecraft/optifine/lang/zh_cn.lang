@@ -82,22 +82,9 @@ options.graphics.tooltip.3=  高品质 - 高品质（较慢）
 options.graphics.tooltip.4=改变云、树叶、水、
 options.graphics.tooltip.5=阴影和草地的外观。
 
-of.options.renderDistance.tiny=最近
-of.options.renderDistance.short=近
-of.options.renderDistance.normal=中等
-of.options.renderDistance.far=远
-of.options.renderDistance.extreme=极远
-of.options.renderDistance.insane=疯狂
-of.options.renderDistance.ludicrous=荒唐
-
 options.renderDistance.tooltip.1=能见度
-options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
-options.renderDistance.tooltip.3=  8 中等 - 128m（正常）
-options.renderDistance.tooltip.4=  16 远 - 256m（较慢）
-options.renderDistance.tooltip.5=  32 极远 - 512m（最慢！）非常消耗资源！
-options.renderDistance.tooltip.6=  48 疯狂 - 768m，需要2G的内存分配
-options.renderDistance.tooltip.7=  64 荒唐 - 1024m，需要3G的内存分配
-options.renderDistance.tooltip.8=超过 16 的能见度值只在本地世界有效。
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=平滑光照
 options.ao.tooltip.2=  关闭 - 禁用平滑光照（较快）

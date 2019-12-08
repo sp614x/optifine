@@ -57,22 +57,9 @@ options.graphics.tooltip.3=  Atractiv - calitate mare, lent
 options.graphics.tooltip.4=Schimba aspectul norilor, frunzelor, apei,
 options.graphics.tooltip.5=umbrelor si fetele ierbii.
 
-of.options.renderDistance.tiny=Mic
-of.options.renderDistance.short=Scurt
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Departe
-of.options.renderDistance.extreme=Extrem
-of.options.renderDistance.insane=Nebun
-of.options.renderDistance.ludicrous=Ridicol
-
 options.renderDistance.tooltip.1=Distanta vizibila
-options.renderDistance.tooltip.2=  2 Mic - 32m (rapid)
-options.renderDistance.tooltip.3=  4 Scurt - 64m (rapid)
-options.renderDistance.tooltip.4=  8 Normal - 128m
-options.renderDistance.tooltip.5=  16 Departe - 256m (lent)
-options.renderDistance.tooltip.6=  32 Extrem - 512m (foarte lent!)
-options.renderDistance.tooltip.7=Vederea la distanta Extrem este foarte solicitant pentru resurse!
-options.renderDistance.tooltip.8=Valorile peste 16 Departe are efect doar intr-o lume locala.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Lumina neteda
 options.ao.tooltip.2=  OPRIT - fara lumina neteda (rapid)

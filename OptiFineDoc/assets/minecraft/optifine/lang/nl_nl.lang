@@ -71,22 +71,9 @@ options.graphics.tooltip.3=  Fraai - hogere kwaliteit, langzamer
 options.graphics.tooltip.4=Verandert hoe wolken, bladeren, water,
 options.graphics.tooltip.5=schaduwen and gras eruit ziet.
 
-of.options.renderDistance.tiny=Klein
-of.options.renderDistance.short=Kort
-of.options.renderDistance.normal=Normaal
-of.options.renderDistance.far=Ver
-of.options.renderDistance.extreme=Extreem
-of.options.renderDistance.insane=Krankzinnig
-of.options.renderDistance.ludicrous=Belachelijk
-
 options.renderDistance.tooltip.1=Zichtbare Afstand
-options.renderDistance.tooltip.2=  2 Klein - 32m (snelste)
-options.renderDistance.tooltip.3=  8 Normaal - 128m (normaal)
-options.renderDistance.tooltip.4=  16 Ver - 256m (langzamer)
-options.renderDistance.tooltip.5=  32 Extreem - 512m (langzaamste!) erg veeleisend
-options.renderDistance.tooltip.6=  48 Krankzinnig - 768m, 2GB toegewezen RAM benodigd
-options.renderDistance.tooltip.7=  64 Belachelijk - 1024m, 3GB toegewezen RAM benodigd
-options.renderDistance.tooltip.8=Waarden boven de 16 (Ver) zijn alleen effectief in locale werelden.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Zachte Verlichting
 options.ao.tooltip.2=  UIT - geen zachte verlichting (sneller)

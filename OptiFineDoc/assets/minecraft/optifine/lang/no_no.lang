@@ -76,22 +76,9 @@ options.graphics.tooltip.3=  Stilig - høyere kvalitet, langsommere
 options.graphics.tooltip.4=Endrer utseendet på skyer, blader, vann, skygger og
 options.graphics.tooltip.5=gresskanter.
 
-of.options.renderDistance.tiny=Liten
-of.options.renderDistance.short=Kort
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Lang
-of.options.renderDistance.extreme=Ekstrem
-of.options.renderDistance.insane=Sinnssyk
-of.options.renderDistance.ludicrous=Latterlig
-
 options.renderDistance.tooltip.1=Synlig avstand
-options.renderDistance.tooltip.2=   2 Liten - 32m (raskeste)
-options.renderDistance.tooltip.3=   8 Normal - 128m (normal)
-options.renderDistance.tooltip.4=  16 Lang - 256m (langsommere)
-options.renderDistance.tooltip.5=  32 Ekstrem - 512m (langsomste!) veldig ressurskrevende
-options.renderDistance.tooltip.6=  48 Sinnssyk - 768m, trenger 2 GB tildelt RAM
-options.renderDistance.tooltip.7=  64 Latterlig - 1024m, trenger 3 GB tildelt RAM
-options.renderDistance.tooltip.8=Verdier over 16 er bare effektive i lokale verdener.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Jevnt beslysningsnivå
 options.ao.tooltip.2=  AV - ingen jevn beslysning (hurtigste)

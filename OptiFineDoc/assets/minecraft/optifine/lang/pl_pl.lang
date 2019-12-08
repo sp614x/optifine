@@ -65,22 +65,9 @@ options.graphics.tooltip.3=  Dokładna - wyższa jakość, mniejsza wydajność
 options.graphics.tooltip.4=Zmienia wygląd chmur, liści, wody,
 options.graphics.tooltip.5=cieni oraz boków bloków trawy.
 
-of.options.renderDistance.tiny=Najkrótsza
-of.options.renderDistance.short=Krótka
-of.options.renderDistance.normal=Normalna
-of.options.renderDistance.far=Długa
-of.options.renderDistance.extreme=Ekstremalna
-of.options.renderDistance.insane=Szalona
-of.options.renderDistance.ludicrous=Niedorzeczna
-
 options.renderDistance.tooltip.1=Odległość renderowania
-options.renderDistance.tooltip.2=  2 Najkrótsza - 32m
-options.renderDistance.tooltip.3=  8 Normalna - 128m
-options.renderDistance.tooltip.4=  16 Długa - 256m
-options.renderDistance.tooltip.5=  32 Ekstremalna - 512m
-options.renderDistance.tooltip.6=  48 Szalona - 768m, potrzeba min. 2GB RAMu
-options.renderDistance.tooltip.7=  64 Niedorzeczna - 1024m, potrzeba min. 3GB RAMu
-options.renderDistance.tooltip.8=Wartości powyżej 16 są zalecane tylko dla lokalnych światów.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Gładkie oświetlenie
 options.ao.tooltip.2=  Wył. - brak wygładzania oświetlenia (wysoka wydajność)

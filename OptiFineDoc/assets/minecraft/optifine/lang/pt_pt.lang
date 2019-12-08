@@ -71,22 +71,9 @@ options.graphics.tooltip.3=  Elegante - maior qualidade, lento
 options.graphics.tooltip.4=Altera a aparência das nuvens, folhas, água,
 options.graphics.tooltip.5=sombras e ainda as laterais da relva.
 
-of.options.renderDistance.tiny=Minúscula
-of.options.renderDistance.short=Curta
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Longa
-of.options.renderDistance.extreme=Extrema
-of.options.renderDistance.insane=Insana
-of.options.renderDistance.ludicrous=Ridícula
-
 options.renderDistance.tooltip.1=Alcance visual
-options.renderDistance.tooltip.2=  2 Minúscula - 32m (rápida)
-options.renderDistance.tooltip.3=  8 Normal - 128m (normal)
-options.renderDistance.tooltip.4=  16 Longa - 256m (lenta)
-options.renderDistance.tooltip.5=  32 Extrema - 512m (muito lenta) exige muitos recursos
-options.renderDistance.tooltip.6=  48 Insana - 768m, precisas de 2GB de RAM
-options.renderDistance.tooltip.7=  64 Ridícula - 1024m, precisas de 3GB de RAM
-options.renderDistance.tooltip.8=Valores acima de 16 só serão eficazes em mundos locais.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Iluminação suave
 options.ao.tooltip.2=  Não - sem iluminação suave (rápida)

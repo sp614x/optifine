@@ -71,22 +71,9 @@ options.graphics.tooltip.3=  Détaillés - Haute qualité (lent)
 options.graphics.tooltip.4=Modifie l'apparence des nuages, des feuilles, de l'eau, des
 options.graphics.tooltip.5=ombres et du côté de l'herbe.
 
-of.options.renderDistance.tiny=Minimale
-of.options.renderDistance.short=Courte
-of.options.renderDistance.normal=Normale
-of.options.renderDistance.far=Lointaine
-of.options.renderDistance.extreme=Extrême
-of.options.renderDistance.insane=Insensée
-of.options.renderDistance.ludicrous=Inimaginable
-
 options.renderDistance.tooltip.1=Distance d'affichage
-options.renderDistance.tooltip.2=  2 Mini - 32m (très rapide)
-options.renderDistance.tooltip.3=  8 Normale - 128m (normal)
-options.renderDistance.tooltip.4=  16 Loin - 256m (lent)
-options.renderDistance.tooltip.5=  32 Extrême - 512m (très lent) - Très gourmand en ressources
-options.renderDistance.tooltip.6=  48 Insensée - 768m, nécessite 2 Go de RAM allouée
-options.renderDistance.tooltip.7=  64 Inimaginable - 1024m, nécessite 3 Go de RAM allouée
-options.renderDistance.tooltip.8=Les valeurs au-dessus de 16 n'ont effet qu'en solo.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Luminosité adoucie
 options.ao.tooltip.2=  Non - aucun adoucissement (rapide)

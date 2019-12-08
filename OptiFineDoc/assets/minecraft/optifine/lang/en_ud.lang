@@ -75,21 +75,8 @@ options.graphics.tooltip.3=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ɹǝɥƃᴉɥ - ʎɔuɐ�
 options.graphics.tooltip.2='ɹǝʇɐʍ 'sǝʌɐǝꞁ 'spnoꞁɔ ɟo ǝɔuɐɹɐǝddɐ ǝɥʇ sǝƃuɐɥƆ
 options.graphics.tooltip.1=˙sǝpᴉs ssɐɹƃ puɐ sʍopɐɥs
 
-of.options.renderDistance.tiny=ʎuᴉ⟘
-of.options.renderDistance.short=ʇɹoɥS
-of.options.renderDistance.normal=ꞁɐɯɹoN
-of.options.renderDistance.far=ɹɐℲ
-of.options.renderDistance.extreme=ǝɯǝɹʇxƎ
-of.options.renderDistance.insane=ǝuɐsuI
-of.options.renderDistance.ludicrous=snoɹɔᴉpn˥
-
-options.renderDistance.tooltip.8=ǝɔuɐʇsᴉp ǝꞁqᴉsᴉΛ
-options.renderDistance.tooltip.7=(ʇsǝʇsɐɟ) ɯᘔƐ - ʎuᴉ⟘ ᘔ  
-options.renderDistance.tooltip.6=(ꞁɐɯɹou) ɯ8ᘔ⥝ - ꞁɐɯɹoN 8  
-options.renderDistance.tooltip.5=(ɹǝʍoꞁs) ɯ9ϛᘔ - ɹɐℲ 9⥝  
-options.renderDistance.tooltip.4=ƃuᴉpuɐɯǝp ǝɔɹnosǝɹ ʎɹǝʌ (¡ʇsǝʍoꞁs) ɯᘔ⥝ϛ - ǝɯǝɹʇxƎ ᘔƐ  
-options.renderDistance.tooltip.3=pǝʇɐɔoꞁꞁɐ W∀ɹ qפᘔ spǝǝu 'ɯ89ㄥ - ǝuɐsuI 8߈  
-options.renderDistance.tooltip.2=pǝʇɐɔoꞁꞁɐ W∀ɹ qפƐ spǝǝu 'ɯ߈ᘔ0⥝ - snoɹɔᴉpn˥ ߈9  
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
 options.renderDistance.tooltip.1=˙spꞁɹoʍ ꞁɐɔoꞁ uᴉ ǝʌᴉʇɔǝɟɟǝ ʎꞁuo ǝɹɐ ɹɐℲ 9⥝ ɹǝʌo sǝnꞁɐΛ
 
 options.ao.tooltip.4=ƃuᴉʇɥƃᴉꞁ ɥʇooɯS

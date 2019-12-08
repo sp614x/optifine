@@ -74,22 +74,9 @@ options.graphics.tooltip.3=  Snyggt - högre kvalitet, långsammare
 options.graphics.tooltip.4=Ändrar utseendet för moln, löv, vatten, skuggor och
 options.graphics.tooltip.5=gräskanter.
 
-of.options.renderDistance.tiny=Litet
-of.options.renderDistance.short=Kort
-of.options.renderDistance.normal=Normalt
-of.options.renderDistance.far=Långt
-of.options.renderDistance.extreme=Extremt
-of.options.renderDistance.insane=Galet
-of.options.renderDistance.ludicrous=Löjligt
-
 options.renderDistance.tooltip.1=Synligt avstånd
-options.renderDistance.tooltip.2=   2 Litet - 32m (snabbast)
-options.renderDistance.tooltip.3=   8 Normalt - 128m (normalt)
-options.renderDistance.tooltip.4=  16 Långt - 256m (långsammare)
-options.renderDistance.tooltip.5=  32 Extremt - 512m (långsammast!) mkt resurskrävande
-options.renderDistance.tooltip.6=  48 Galet - 768m, behöver 2GB allokerat RAM
-options.renderDistance.tooltip.7=  64 Löjligt - 1024m, behöver 3GB allokerat RAM
-options.renderDistance.tooltip.8=Värden över 16 fungerar endast i lokala världar.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Ljusutjämning
 options.ao.tooltip.2=  AV - ingen ljusutjämning (snabbast)

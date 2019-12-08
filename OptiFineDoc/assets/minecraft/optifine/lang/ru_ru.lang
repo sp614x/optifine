@@ -76,21 +76,8 @@ options.graphics.tooltip.4=Изменяет облик дёрна, листье�
 options.graphics.tooltip.5=
 
 options.renderDistance.tooltip.1=Дальность прорисовки
-options.renderDistance.tooltip.2=  2 Минимальная - 32 м (ещё быстрее)
-options.renderDistance.tooltip.3=  4 Малая - 64 м (быстрее)
-options.renderDistance.tooltip.4=  8 Нормальная - 128 м
-options.renderDistance.tooltip.5=  16 Дальняя - 256 м (медленнее)
-options.renderDistance.tooltip.6=  32 Предельная - 512 м (ещё медленнее!)
-options.renderDistance.tooltip.7=  48 Безумная - 768 м, требуется 2 Гбайт ОЗУ
-options.renderDistance.tooltip.8=  64 Абсурдная! - 1024 м, требуется 3 Гбайт ОЗУ
-
-of.options.renderDistance.tiny=Минимальная
-of.options.renderDistance.short=Малая
-of.options.renderDistance.normal=Нормальная
-of.options.renderDistance.far=Дальняя
-of.options.renderDistance.extreme=Предельная
-of.options.renderDistance.insane=Безумная
-of.options.renderDistance.ludicrous=Абсурдная!
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Мягкое освещение
 options.ao.tooltip.2=  Выкл - без мягкого освещения (быстрее)

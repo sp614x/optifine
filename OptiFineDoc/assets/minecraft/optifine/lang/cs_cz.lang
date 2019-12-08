@@ -71,22 +71,9 @@ options.graphics.tooltip.3=  Pěkná - vyšší kvalita, pomalejší
 options.graphics.tooltip.4=Mění vzhled mraků, listí, vody,
 options.graphics.tooltip.5=stínů a stran trávníků.
 
-of.options.renderDistance.tiny=Maličký
-of.options.renderDistance.short=Malý
-of.options.renderDistance.normal=Normální
-of.options.renderDistance.far=Velký
-of.options.renderDistance.extreme=Extrémní
-of.options.renderDistance.insane=Šílený
-of.options.renderDistance.ludicrous=Neuvěřitelný
- 
 options.renderDistance.tooltip.1=Dohled
-options.renderDistance.tooltip.2=  2 Maličký - 32m (nejrychlejší)
-options.renderDistance.tooltip.3=  8 Normální - 128m (normální)
-options.renderDistance.tooltip.4=  16 Velký - 256m (pomalejší)
-options.renderDistance.tooltip.5=  32 Extrémní - 512m (nejpomalejší!) velmi výkonově náročné
-options.renderDistance.tooltip.6=  48 Šílený - 768m, potřebuje 2 GB přidělené RAM
-options.renderDistance.tooltip.7=  64 Neuvěřitelný - 1024m,  potřebuje 3 GB přidělené RAM
-options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální světy.
+options.renderDistance.tooltip.2=  2-16 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  17-64 - resource demanding distances for local worlds
 
 options.ao.tooltip.1=Vyhlazené stíny
 options.ao.tooltip.2=  NE - žádné vyhlazené osvětlení (rychlejší)
