@@ -66,7 +66,8 @@ of.options.capeOF.title=Capa de OptiFine
 of.options.capeOF.openEditor=Editor de capa de OptiFine
 of.options.capeOF.reloadCape=Recargar capa
 
-of.message.capeOF.openEditor=El editor de capa debe abrirse en un navegador.
+of.message.capeOF.openEditor=El editor de capa necesita abrirse en tu navegador.
+of.message.capeOF.openEditorError=Error al abrir el enlace.
 of.message.capeOF.reloadCape=La capa se recargará en 15 segundos.
 
 of.message.capeOF.error1=Error de autenticación con Mojang.
@@ -149,6 +150,14 @@ options.anaglyph.tooltip.1=Visión en 3D
 options.anaglyph.tooltip.2=Activar un efecto estereoscópico usando un color
 options.anaglyph.tooltip.3=diferente para cada ojo.
 options.anaglyph.tooltip.4=NOTA: Requiere gafas anaglíficas (rojas y azules).
+
+options.attackIndicator.tooltip.1=Modifica la ubicación del indicador de ataque
+options.attackIndicator.tooltip.2=  MIRA - debajo de mira central
+options.attackIndicator.tooltip.3=  BARRA - cerca de barra de objetos
+options.attackIndicator.tooltip.4=  NO - sin indicador de ataque
+options.attackIndicator.tooltip.5=    
+options.attackIndicator.tooltip.6=Se indica la fuerza de ataque del
+options.attackIndicator.tooltip.7=objeto que tengas en la mano principal.
 
 of.options.ALTERNATE_BLOCKS=Bloques alternos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Bloques con texturas alternas
@@ -521,6 +530,7 @@ of.options.SHOW_CAPES=Capas
 of.options.SHOW_CAPES.tooltip.1=Capas de jugadores
 of.options.SHOW_CAPES.tooltip.2=  SÍ - mostrar las capas de los jugadores (por defecto)
 of.options.SHOW_CAPES.tooltip.3=  NO - ocultar las capas de los jugadores
+of.options.capeOF.copyEditorLink=Copiar enlace
 
 of.options.TRANSLUCENT_BLOCKS=Bl. translúcidos
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Bloques translúcidos
@@ -574,6 +584,14 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=
 of.options.DYNAMIC_LIGHTS.tooltip.6=Permite a algunos objetos emitir luz sin estar colocados.
 of.options.DYNAMIC_LIGHTS.tooltip.7=Al equipar uno de esos objetos en la mano, o al tirarlos, se
 of.options.DYNAMIC_LIGHTS.tooltip.8=iluminará el entorno (afecta a: antorchas, piedra luminosa...).
+
+options.biomeBlendRadius.tooltip.1=El efecto suaviza los colores entre biomas
+options.biomeBlendRadius.tooltip.2=  NO - sin efecto de transición (más rápido)
+options.biomeBlendRadius.tooltip.3=  5x5 - transición normal (por defecto)
+options.biomeBlendRadius.tooltip.4=  15x15 - transición detallada (más lento)
+options.biomeBlendRadius.tooltip.5=   
+options.biomeBlendRadius.tooltip.6=Los valores altos pueden generar picos de lag
+options.biomeBlendRadius.tooltip.7=y reducir la velocidad de carga de los chunks.
 
 # Performance
 
