@@ -56,8 +56,10 @@ of.options.skinCustomisation.ofCape=Cape OptiFine...
 of.options.capeOF.title=Cape OptiFine
 of.options.capeOF.openEditor=Ouvrir l'éditeur de cape
 of.options.capeOF.reloadCape=Recharger la cape
+of.options.capeOF.copyEditorLink=Copier le lien
 
 of.message.capeOF.openEditor=L'éditeur de cape OptiFine devrait s'ouvrir dans un navigateur internet.
+of.message.capeOF.openEditorError=Erreur lors de l'ouverture du lien de l'éditeur dans un navigateur internet.
 of.message.capeOF.reloadCape=La cape sera rechargée dans 15 secondes.
 
 of.message.capeOF.error1=Échec de l'authentification Mojang.
@@ -80,9 +82,9 @@ of.options.renderDistance.insane=Insensée
 of.options.renderDistance.ludicrous=Inimaginable
 
 options.renderDistance.tooltip.1=Distance d'affichage
-options.renderDistance.tooltip.2=  2 Mini - 32m (très rapide)
+options.renderDistance.tooltip.2=  2 Minimale - 32m (très rapide)
 options.renderDistance.tooltip.3=  8 Normale - 128m (normal)
-options.renderDistance.tooltip.4=  16 Loin - 256m (lent)
+options.renderDistance.tooltip.4=  16 Lointaine - 256m (lent)
 options.renderDistance.tooltip.5=  32 Extrême - 512m (très lent) - Très gourmand en ressources
 options.renderDistance.tooltip.6=  48 Insensée - 768m, nécessite 2 Go de RAM allouée
 options.renderDistance.tooltip.7=  64 Inimaginable - 1024m, nécessite 3 Go de RAM allouée
@@ -140,8 +142,7 @@ options.attackIndicator.tooltip.1=Configure la position de l'indicateur d'attaqu
 options.attackIndicator.tooltip.2=  Viseur - sous le viseur
 options.attackIndicator.tooltip.3=  Barre - à côté de la barre
 options.attackIndicator.tooltip.4=  Non - pas d'indicateur d'attaque
-options.attackIndicator.tooltip.5=L'indicateur montre la force d'attaque de l'objet en
-options.attackIndicator.tooltip.6=main.
+options.attackIndicator.tooltip.5=L'indicateur montre la force d'attaque de l'objet en main.
 
 of.options.ALTERNATE_BLOCKS=Blocs alternatifs 
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocs alternatifs
@@ -440,7 +441,7 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Non - modèles d'entités par défau
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Les modèles d'entités personnalisées sont fournis par le
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=pack de ressources utilisé.
 
-of.options.CUSTOM_GUIS=Interfaces personnalisées 
+of.options.CUSTOM_GUIS=Interfaces perso. 
 of.options.CUSTOM_GUIS.tooltip.1=Interfaces personnalisées
 of.options.CUSTOM_GUIS.tooltip.2=  Oui - interfaces personnalisées (par défaut, lent)
 of.options.CUSTOM_GUIS.tooltip.3=  Non - interfaces par défaut (rapide)
@@ -477,9 +478,9 @@ of.options.RAIN=Pluie & neige
 of.options.RAIN.tooltip.1=Pluie & neige
 of.options.RAIN.tooltip.2=  Par défaut - comme dans les options graphiques
 of.options.RAIN.tooltip.3=  Rapide  - légère pluie/neige (rapide)
-of.options.RAIN.tooltip.4=  Détaillé - grosse pluie/neige (lent)
+of.options.RAIN.tooltip.4=  Détaillés - grosse pluie/neige (lent)
 of.options.RAIN.tooltip.5=  Non - sans pluie/neige (plus rapide)
-of.options.RAIN.tooltip.6=Même si la pluie & la neige sont désactivées, les
+of.options.RAIN.tooltip.6=Même si la pluie et la neige sont désactivées, les
 of.options.RAIN.tooltip.7=éclaboussures et le son sont toujours présents.
 
 of.options.SKY=Ciel 
@@ -506,7 +507,7 @@ of.options.SHOW_CAPES.tooltip.3=  Non - ne pas voir la cape des joueurs
 
 of.options.TRANSLUCENT_BLOCKS=Blocs translucides 
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocs translucides
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Par défaut - comme défini par l'option Graphismes
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Par défaut - comme défini par les graphismes
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Détaillés - mélange correct des couleurs (lent)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Rapides - mélange rapide des couleurs (rapide)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Contrôle le mélange des couleurs des blocs translucides
@@ -567,8 +568,8 @@ options.biomeBlendRadius.tooltip.1=Adoucit la transition de couleur entre les bi
 options.biomeBlendRadius.tooltip.2=  Non - pas de transition (rapide)
 options.biomeBlendRadius.tooltip.3=  5x5 - transition normale (par défaut)
 options.biomeBlendRadius.tooltip.4=  15x15 - transition maximale (lent)
-options.biomeBlendRadius.tooltip.5=Des valeurs hautes peuvent causer d'importants pics de lag
-options.biomeBlendRadius.tooltip.6=et ralentir la vitesse de chargement des tronçons.
+options.biomeBlendRadius.tooltip.5=Des valeurs hautes peuvent causer d'importants pics de
+options.biomeBlendRadius.tooltip.6=lag et ralentir la vitesse de chargement des tronçons.
 
 # Performance
 
@@ -591,8 +592,8 @@ of.options.FAST_RENDER.tooltip.1=Rendu rapide
 of.options.FAST_RENDER.tooltip.2=  Non - rendu standard (par défaut)
 of.options.FAST_RENDER.tooltip.3=  Oui - rendu optimisé (rapide)
 of.options.FAST_RENDER.tooltip.4=Utilise des algorithmes de rendu optimisé pour diminuer la
-of.options.FAST_RENDER.tooltip.5=charge du processeur graphique, ce qui peut augmenter les
-of.options.FAST_RENDER.tooltip.6=FPS.
+of.options.FAST_RENDER.tooltip.5=charge du processeur graphique, ce qui peut augmenter
+of.options.FAST_RENDER.tooltip.6=les FPS.
 of.options.FAST_RENDER.tooltip.7=Cette option peut entrer en conflit avec certains mods.
 
 of.options.FAST_MATH=Calculs rapides 
@@ -606,7 +607,7 @@ of.options.FAST_MATH.tooltip.7=Cette option peut avoir un léger impact sur la g
 of.options.FAST_MATH.tooltip.8=du monde.
 
 of.options.CHUNK_UPDATES=Mises à jour des tronçons 
-of.options.CHUNK_UPDATES.tooltip.1=Mise à jour des tronçons
+of.options.CHUNK_UPDATES.tooltip.1=Mises à jour des tronçons
 of.options.CHUNK_UPDATES.tooltip.2=  1 - chargement lent du monde, meilleur FPS (par défaut)
 of.options.CHUNK_UPDATES.tooltip.3=  3 - chargement rapide du monde, bas FPS
 of.options.CHUNK_UPDATES.tooltip.4=  5 - chargement très rapide du monde, très bas FPS
@@ -650,8 +651,8 @@ of.options.SMART_ANIMATIONS.tooltip.7=packs de mods et les packs de ressources H
 
 # Animations
 
-of.options.animation.allOn=Activer tous
-of.options.animation.allOff=Désactiver tous
+of.options.animation.allOn=Activer tout
+of.options.animation.allOff=Désact. tout
 of.options.animation.dynamic=Dynamique
 
 of.options.ANIMATED_WATER=Animation de l'eau 
@@ -753,7 +754,7 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - taille personnalisée
 of.options.SCREENSHOT_SIZE.tooltip.4=Prendre une capture d'écran plus grande peut
 of.options.SCREENSHOT_SIZE.tooltip.5=nécessiter plus de mémoire.
 of.options.SCREENSHOT_SIZE.tooltip.6=Incompatible avec le rendu rapide et l'anticrénelage.
-of.options.SCREENSHOT_SIZE.tooltip.7=Nécessite un processeur graphique avec un tampon de trame.
+of.options.SCREENSHOT_SIZE.tooltip.7=Requiert un processeur graphique avec un tampon de trame.
 
 of.options.SHOW_GL_ERRORS=Afficher les erreurs GL 
 of.options.SHOW_GL_ERRORS.tooltip.1=Afficher les erreurs OpenGL
