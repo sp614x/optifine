@@ -560,7 +560,7 @@ options.biomeBlendRadius.tooltip.2=  OFF - no blending (fastest)
 options.biomeBlendRadius.tooltip.3=  5x5 - normal blending (default)
 options.biomeBlendRadius.tooltip.4=  15x15 - maximal blending (slowest)
 options.biomeBlendRadius.tooltip.5=Higher values may generate significant lag spikes
-options.biomeBlendRadius.tooltip.6=add slow down the chunk loading speed.
+options.biomeBlendRadius.tooltip.6=and slow down the chunk loading speed.
 
 # Performance
 
