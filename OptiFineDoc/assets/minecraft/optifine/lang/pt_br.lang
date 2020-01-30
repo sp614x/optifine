@@ -12,40 +12,40 @@ of.general.smart=Inteligentes
 of.key.zoom=Zoom
 
 # Message
-of.message.aa.shaders1=O anti-aliasing não é compatível com o Shaders.
-of.message.aa.shaders2=Desative o Shaders para ativar essa opção.
+of.message.aa.shaders1=O anti-aliasing não é compatível com o Shader.
+of.message.aa.shaders2=Desative o Shader para ativar essa opção.
 
-of.message.af.shaders1=A filtragem anisotrópica não é compatível com o Shaders.
-of.message.af.shaders2=Desative o Shaders para ativar essa opção.
+of.message.af.shaders1=A filtragem anisotrópica não é compatível com o Shader.
+of.message.af.shaders2=Desative o Shader para ativar essa opção.
 
-of.message.fr.shaders1=A renderização rápida não é compatível com o Shaders.
-of.message.fr.shaders2=Desative o Shaders para ativar essa opção.
+of.message.fr.shaders1=A renderização rápida não é compatível com o Shader.
+of.message.fr.shaders2=Desative o Shader para ativar essa opção.
 
-of.message.an.shaders1=O 3D anaglífico não é compatível com o Shaders.
-of.message.an.shaders2=Desative o Shaders para ativar essa opção.
+of.message.an.shaders1=O 3D anaglífico não é compatível com o Shader.
+of.message.an.shaders2=Desative o Shader para ativar essa opção.
 
-of.message.shaders.aa1=O Shaders não é compatível com o anti-aliasing.
+of.message.shaders.aa1=O Shader não é compatível com o anti-aliasing.
 of.message.shaders.aa2=Desative o anti-aliasing em Qualidade e reinicie o jogo.
 
-of.message.shaders.af1=O Shaders não é compatível com a filtragem anisotrópica.
+of.message.shaders.af1=O Shader não é compatível com a filtragem anisotrópica.
 of.message.shaders.af2=Desative a filtragem anisotrópica em Qualidade e reinicie o jogo.
 
-of.message.shaders.fr1=O Shaders não é compatível com a renderização rápida.
+of.message.shaders.fr1=O Shader não é compatível com a renderização rápida.
 of.message.shaders.fr2=Desative a renderização rápida em Desempenho.
 
-of.message.shaders.an1=O Shaders não é compatível com o 3D anaglífico.
+of.message.shaders.an1=O Shader não é compatível com o 3D anaglífico.
 of.message.shaders.an2=Desative o 3D anaglífico em Diversas.
 
-of.message.shaders.nv1=Este pacote shader requer uma versão mais recente do OptiFine: %s
+of.message.shaders.nv1=Este pacote de shaders requer uma versão mais recente do OptiFine: %s
 of.message.shaders.nv2=Deseja mesmo continuar?
 
 of.message.newVersion=Nova versão do §eOptiFine§f disponível: §e%s§f
 of.message.java64Bit=Instale o §eJava de 64 bits§f para aumentar o desempenho.
 of.message.openglError=§eErro do OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Carregando shaders: %s
+of.message.shaders.loading=Carregando shader: %s
 
-of.message.other.reset=Restaurar todas as configurações gráficas para seus valores padrão?
+of.message.other.reset=Restaurar todas as configurações gráficas para seus valores padrões?
 
 of.message.loadingVisibleChunks=Carregando chunks visíveis
 
@@ -57,7 +57,7 @@ of.options.capeOF.title=Capa do OptiFine
 of.options.capeOF.openEditor=Abrir editor de capa
 of.options.capeOF.reloadCape=Recarregar capa
 
-of.message.capeOF.openEditor=O editor de capas do OptiFine será aberto num navegador.
+of.message.capeOF.openEditor=O editor de capas do OptiFine será aberto em um navegador.
 of.message.capeOF.reloadCape=A capa será recarregada em 15 segundos.
 
 of.message.capeOF.error1=A autenticação da Mojang falhou.
