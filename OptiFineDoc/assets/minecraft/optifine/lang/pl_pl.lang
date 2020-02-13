@@ -6,14 +6,16 @@
 
 # General
 of.general.ambiguous=dwuznaczny
+of.general.compact=Kompaktowe
 of.general.custom=Inny
 of.general.from=Od
 of.general.id=Id
+of.general.max=Maksimum
 of.general.restart=restart
 of.general.smart=Smart
 
 # Keys
-of.key.zoom=Zoom (przybliżenie)
+of.key.zoom=Przybliżenie
 
 # Message
 of.message.aa.shaders1=Antyaliasing nie jest kompatybilny z Shaderami.
@@ -44,7 +46,7 @@ of.message.shaders.nv1=Ten zestaw shaderów wymaga nowszej wersji OptiFine: %s
 of.message.shaders.nv2=Czy na pewno chcesz kontynuować?
 
 of.message.newVersion=Nowa wersja §eOptiFine§f jest dostępna: §e%s§f
-of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowego środowiska Java§f, aby podwyższyć wydajność.
+of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowego środowiska Java§f, aby zwiększyć wydajność.
 of.message.openglError=§eBłąd OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Wczytuję shadery: %s
@@ -56,6 +58,18 @@ of.message.loadingVisibleChunks=Wczytywanie widzialnych chunków
 # Skin customization
 
 of.options.skinCustomisation.ofCape=Peleryna OptiFine...
+
+of.options.capeOF.title=Peleryna OptiFine
+of.options.capeOF.openEditor=Otwórz edytor peleryny
+of.options.capeOF.reloadCape=Przeładuj pelerynę
+of.options.capeOF.copyEditorLink=Skopiuj link do schowka
+
+of.message.capeOF.openEditor=Edytor peleryny OptiFine powinien się otworzyć w przeglądarce.
+of.message.capeOF.openEditorError=Błąd podczas otwierania linku edytora w przeglądarce.
+of.message.capeOF.reloadCape=Peleryna zostanie przeładowana w ciągu 15 sekund.
+
+of.message.capeOF.error1=Niepowodzenie autoryzacji Mojang.
+of.message.capeOF.error2=Błąd: %s
 
 # Video settings
 
@@ -127,6 +141,13 @@ options.anaglyph.tooltip.1=Anaglify 3D
 options.anaglyph.tooltip.2=Włącza stereoskopowy efekt 3D używając różnych kolorów
 options.anaglyph.tooltip.3=dla każdego oka.
 options.anaglyph.tooltip.4=Wymaga czerwono-niebieskich okularów.
+
+options.attackIndicator.tooltip.1=Konfiguruje pozycję wskaźnika ataku
+options.attackIndicator.tooltip.2=  Celownik - pod celownikiem
+options.attackIndicator.tooltip.3=  Pasek narzędzi - obok paska narzędzi
+options.attackIndicator.tooltip.4=  Wył. - brak wskaźnika ataku
+options.attackIndicator.tooltip.5=Wskaźnik ataku pokazuje siłę ataku
+options.attackIndicator.tooltip.6=obecnie używanego przedmiotu.
 
 of.options.ALTERNATE_BLOCKS=Alternatywne bloki
 of.options.blockAlternatives.tooltip.1=Alternatywne bloki
@@ -540,6 +561,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Przedmioty świecące (pochodnia, jasnogłaz
 of.options.DYNAMIC_LIGHTS.tooltip.6=oświetlają teren, gdy są w Twojej dłoni,
 of.options.DYNAMIC_LIGHTS.tooltip.7=dłoni innego gracza lub gdy leżą na ziemi.
 
+options.biomeBlendRadius.tooltip.1=Wygładza przejścia kolorystyczne między biomami
+options.biomeBlendRadius.tooltip.2=  Wył. - brak wygładzenia (najszybsze)
+options.biomeBlendRadius.tooltip.3=  5x5 - normalne wygładzanie (domyślne)
+options.biomeBlendRadius.tooltip.4=  15x15 - maksymalne wygładzanie (najwolniejsze)
+options.biomeBlendRadius.tooltip.5=Wyższe wartości mogą powodować znaczące lagi
+options.biomeBlendRadius.tooltip.6=i zmniejszać szybkość wczytywania chunków.
+
 # Performance
 
 of.options.SMOOTH_FPS=Stabilne FPS
@@ -547,7 +575,7 @@ of.options.SMOOTH_FPS.tooltip.1=Stablilizuje FPS poprzez oczyszczanie buforów s
 of.options.SMOOTH_FPS.tooltip.2=  Wył. - brak stabilizacji, FPS mogą oscylować
 of.options.SMOOTH_FPS.tooltip.3=  Wł. - FPS jest stabilizowane
 of.options.SMOOTH_FPS.tooltip.4=Ta opcja jest zależna od karty graficznej, więc
-of.options.SMOOTH_FPS.tooltip.5=różnica nie zawsze może być zauważalna
+of.options.SMOOTH_FPS.tooltip.5=różnica nie zawsze może być zauważalna.
 
 of.options.SMOOTH_WORLD=Stabilny świat
 of.options.SMOOTH_WORLD.tooltip.1=Usuwa nagłe lagi spowodowane serwerem wewnętrznym.
@@ -696,15 +724,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - aktualizacje chunków
 of.options.SHOW_FPS.tooltip.6=Ta nakładka jest wyświetlana tylko wtedy,
 of.options.SHOW_FPS.tooltip.7=gdy ekran debugowania jest niewidoczny.
 
-of.options.save.default=Domyślne (2s)
-of.options.save.20s=20s
+of.options.save.45s=45s
+of.options.save.90s=90s
 of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
 
 of.options.AUTOSAVE_TICKS=Autozapis
 of.options.AUTOSAVE_TICKS.tooltip.1=Częstotliwość autozapisu
-of.options.AUTOSAVE_TICKS.tooltip.2=Domyślna częstotliwość (2s) jest NIEZALECANA.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autozapisy często powodują ścięcia gry.
+of.options.AUTOSAVE_TICKS.tooltip.2=Domyślna częstotliwość to 45 sekund. Autozapisy mogą
+of.options.AUTOSAVE_TICKS.tooltip.3=powodować lagi, w zależności od odległości renderowania.
+of.options.AUTOSAVE_TICKS.tooltip.4=Świat jest zapisywany także wtedy, gdy menu gry jest otwarte.
 
 of.options.SCREENSHOT_SIZE=Rozmiar zrzutów ekranu
 of.options.SCREENSHOT_SIZE.tooltip.1=Rozmiar zrzutów ekranu
@@ -721,3 +752,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Wyłącz tą opcję tylko jeżeli jest znany
 of.options.SHOW_GL_ERRORS.tooltip.4=i błędy nie mogą zostać naprawione.
 of.options.SHOW_GL_ERRORS.tooltip.5=Kiedy nieaktywne, błędy są nadal zapisywane w rejestrze
 of.options.SHOW_GL_ERRORS.tooltip.6=błędów i nadal mogą powodować znaczne spadki FPS.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Tło czatu
+of.options.CHAT_BACKGROUND.tooltip.1=Tło czatu
+of.options.CHAT_BACKGROUND.tooltip.2=  Domyślne - stała szerokość
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompaktowe - dostosowuje się do szerokości linii
+of.options.CHAT_BACKGROUND.tooltip.4=  Wył. - ukryte
+
+of.options.CHAT_SHADOW=Cień czatu
+of.options.CHAT_SHADOW.tooltip.1=Cień czatu
+of.options.CHAT_SHADOW.tooltip.2=  Wł. - używaj cienia czatu
+of.options.CHAT_SHADOW.tooltip.3=  Wył. - brak cienia czatu
