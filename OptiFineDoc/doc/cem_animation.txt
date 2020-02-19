@@ -39,7 +39,6 @@
 # Variable names
 #   tx, ty, tz - translation x, y, z
 #   rx, ry, rz - rotation x, y, z
-#   ox, oy, oz - offset x, y, z (absolute, not scaling with model, can be used for translation animations)
 #   sx, sy, sz - scale x, y, z
 # 
 # Expressions
@@ -62,7 +61,6 @@
 #   age - age in ticks
 #   head_yaw - head yaw
 #   head_pitch - head pitch
-#   scale - render scale, default is 0.0625
 #
 # Entity parameters (float)
 #   health

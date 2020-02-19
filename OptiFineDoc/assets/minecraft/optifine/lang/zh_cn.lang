@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   HeartyYF From InfinityStudio 2016-2-18 ---- 2019-8-10
+#   HeartyYF From InfinityStudio 2016-2-18 ---- 2019-10-6
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
 #   hukk From MCBBS 2013-7-13 ---- 2016-11-9
@@ -67,8 +67,10 @@ of.options.skinCustomisation.ofCape=OptiFine 披风...
 of.options.capeOF.title=OptiFine 披风
 of.options.capeOF.openEditor=打开披风编辑器
 of.options.capeOF.reloadCape=重新加载披风
+of.options.capeOF.copyEditorLink=复制链接至剪贴板
 
 of.message.capeOF.openEditor=OptiFine 披风编辑器会在网页浏览器中打开。
+of.message.capeOF.openEditorError=在网页浏览器中打开编辑器时出现错误。
 of.message.capeOF.reloadCape=披风将在 15 秒内重新加载。
 
 of.message.capeOF.error1=Mojang 身份验证失败。
@@ -754,7 +756,7 @@ of.options.SHOW_GL_ERRORS.tooltip.2=当启用此选项时，OpenGL 错误会在�
 of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且
 of.options.SHOW_GL_ERRORS.tooltip.4=明确知道错误无法修复时禁用此选项。
 of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
-of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误可能仍会导致明显的 FPS 下降。
+of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误仍可能会导致明显的 FPS 下降。
 
 # Chat Settings
 

@@ -56,8 +56,10 @@ of.options.skinCustomisation.ofCape=OptiFine'i keep...
 of.options.capeOF.title=OptiFine'i keep
 of.options.capeOF.openEditor=Ava keebimuutja
 of.options.capeOF.reloadCape=Laadi keep uuesti
+of.options.capeOF.copyEditorLink=Kopeeri link lõikelauale
 
 of.message.capeOF.openEditor=OptiFine'i keebimuutja peaks veebibrauseris avanema.
+of.message.capeOF.openEditorError=Keebimuutja lingi avamisel brauseris esines viga.
 of.message.capeOF.reloadCape=Keep laaditakse uuesti 15 sekundi pärast.
 
 of.message.capeOF.error1=Mojangiga autentimine ebaõnnestus.
@@ -81,7 +83,7 @@ of.options.renderDistance.ludicrous=naeruväärne
 
 options.renderDistance.tooltip.1=Nähtav kaugus
 options.renderDistance.tooltip.2=  2 pisike - 32m (kiireim)
-options.renderDistance.tooltip.3=  8 tavaline - 128m (tavaline
+options.renderDistance.tooltip.3=  8 tavaline - 128m (tavaline)
 options.renderDistance.tooltip.4=  16 kauge - 256m (aeglasem)
 options.renderDistance.tooltip.5=  32 ekstreemne - 512m (aeglaseim!) väga ressursinõudlik
 options.renderDistance.tooltip.6=  48 hullumeelne - 768m, vajab 2 GB RAMi allutamist

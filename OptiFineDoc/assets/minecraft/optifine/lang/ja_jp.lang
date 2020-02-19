@@ -17,16 +17,16 @@ of.key.zoom=ズーム
 
 # Message
 of.message.aa.shaders1=アンチエイリアスはシェーダーと共存できません。
-of.message.aa.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
+of.message.aa.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
 of.message.af.shaders1=異方性フィルタリングはシェーダーと共存できません。
-of.message.af.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
+of.message.af.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
 of.message.fr.shaders1=描画の最適化はシェーダーと共存できません。
-of.message.fr.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
+of.message.fr.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
 of.message.an.shaders1=3Dアナグリフはシェーダーと共存できません。
-of.message.an.shaders2=このオプションを有効にするには、シェーダを無効にしてください。
+of.message.an.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
 of.message.shaders.aa1=シェーダーはアンチエイリアスと共存できません。
 of.message.shaders.aa2=品質の設定 → アンチエイリアス をオフにし、ゲームを再起動してください。

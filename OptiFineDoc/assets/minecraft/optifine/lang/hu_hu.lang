@@ -1,161 +1,276 @@
+# Contributors
+# kesu1 - 2019/11/04
+
 # General
 of.general.ambiguous=zavaros
+of.general.compact=Kompakt
 of.general.custom=Egyéni
-of.general.from=-ból
+of.general.from=tól
 of.general.id=Id
+of.general.max=Maximum
 of.general.restart=újraindítás
 of.general.smart=Okos
 
 # Keys
-of.key.zoom=Zoom
+of.key.zoom=Zoom (közelítés)
 
 # Message
-of.message.aa.shaders1=Az Élsimítás nem kompatibilis a shaderekkel.
-of.message.aa.shaders2=Kérlek kapcsold ki a shadereket a beállítás bekapcsolásához.
+of.message.aa.shaders1=Az Élsimítás nem kompatibilis a Shaderekkel.
+of.message.aa.shaders2=Kapcsold ki a Shadereket a beállítás bekapcsolásához.
 
-of.message.af.shaders1=Az Anizotróp Szűrés nem kompatibilis a shaderekkel.
-of.message.af.shaders2=Kérlek kapcsold ki a shadereket a beállítás bekapcsolásához.
+of.message.af.shaders1=Az Anizotróp Szűrés nem kompatibilis a Shaderekkel.
+of.message.af.shaders2=Kapcsold ki a Shadereket a beállítás bekapcsolásához.
 
-of.message.fr.shaders1=A Gyors Renderelés nem kompatibilis a shaderekkel.
-of.message.fr.shaders2=Kérlek kapcsold ki a shadereket a beállítás bekapcsolásához.
+of.message.fr.shaders1=A Gyors Leképzés nem kompatibilis a Shaderekkel.
+of.message.fr.shaders2=Kapcsold ki a Shadereket a beállítás bekapcsolásához.
 
-of.message.an.shaders1=A Sztereoszkopikus 3D nem kompatibilis a shaderekkel.
-of.message.an.shaders2=Kérlek kapcsold ki a shadereket a beállítás bekapcsolásához.
+of.message.an.shaders1=A Sztereoszkopikus 3D nem kompatibilis a Shaderekkel.
+of.message.an.shaders2=Kapcsold ki a Shadereket a beállítás bekapcsolásához.
 
-of.message.shaders.aa1=A shaderek nem kompatibilisek az Élsimítással. 
-of.message.shaders.aa2=Kérlek kapcsold Minőség -> Élsimítás-t ki és indísd újra a játékot.
+of.message.shaders.aa1=A Shaderek nem kompatibilisek az Élsimítással.
+of.message.shaders.aa2=Kapcsold a Minőség -> Élsimítás-t ki és indísd újra a játékot.
 
-of.message.shaders.af1=A shaderek nem kompatibilisek az Anizotróp Szűréssel.
-of.message.shaders.af2=Kérlek kapcsold Minőség -> Anizotróp Szűrés-t ki. 
+of.message.shaders.af1=A Shaderek nem kompatibilisek az Anizotróp Szűréssel.
+of.message.shaders.af2=Kapcsold a Minőség -> Anizotróp Szűrés-t KI.
 
-of.message.shaders.fr1=A shaderek nem kompatibilisek a Gyors Rendereléssel.
-of.message.shaders.fr2=Kérlek kapcsold Teljesítmény -> Gyors Renderelés-t ki.
+of.message.shaders.fr1=A Shaderek nem kompatibilisek a Gyors Leképzéssel.
+of.message.shaders.fr2=Kapcsold a Teljesítmény -> Gyors Renderelés-t KI.
 
-of.message.shaders.an1=A shaderek nem kompatibilisek a sztereoszkopikus 3D-vel.
-of.message.shaders.an2=Kérlek kapcsold Egyéb -> Sztereoszkopikus 3D-t ki.
+of.message.shaders.an1=A Shaderek nem kompatibilisek a Sztereoszkopikus 3D-vel.
+of.message.shaders.an2=Kapcsold az Egyéb -> Sztereoszkopikus 3D-t KI.
+
+of.message.shaders.nv1=Ennek a shadernek egy újabb OptiFine verzióra van szüksége: %s
+of.message.shaders.nv2=Biztos benne, hogy folytatni akarja?
 
 of.message.newVersion=Egy új §eOptiFine§f verzió elérhető: §e%s§f
-of.message.java64Bit=Tudsz telepíteni §e64-bit Java§f -t a teljesítmény növeléséhez.
-of.message.openglError=§eOpenGL Error§f: %s (%s)
+of.message.java64Bit=Telepíthetsz §e64-bit Java§f t a teljesítmény növeléséhez.
+of.message.openglError=§eOpenGL Hiba§f: %s (%s)
 
-of.message.shaders.loading=Shader betöltése: %s
+of.message.shaders.loading=Shaderek betöltése: %s
 
-of.message.other.reset=Törli az összes videóbeállítást az alapértelmezett értékekre?
- 
+of.message.other.reset=Visszaállítod az összes Videóbeállítást az alapértelmezett értékére?
+
+of.message.loadingVisibleChunks=Látható területek betöltése
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine Köpeny...
+
+of.options.capeOF.title=OptiFine Köpeny
+of.options.capeOF.openEditor=Köpenyszerkesztő megnyitása
+of.options.capeOF.reloadCape=Köpeny újratöltése
+of.options.capeOF.copyEditorLink=Link másolása a vágólapra
+
+of.message.capeOF.openEditor=Az OptiFine köpenyszerkesztő megnyilik a böngészőben.
+of.message.capeOF.openEditorError=Hiba a szerkesztő hivatkozásának a böngészőben való megnyitása közben.
+of.message.capeOF.reloadCape=A köpeny újra lesz töltve 15 másodperc múlva.
+
+of.message.capeOF.error1=A Mojang hitelesités nem sikerült.
+of.message.capeOF.error2=Hiba: %s
+
 # Video settings
 
 options.graphics.tooltip.1=Vizuális minőség
 options.graphics.tooltip.2=  Gyors  - alacsonyabb minőség, gyorsabb
 options.graphics.tooltip.3=  Szép - magasabb minőség, lassabb
-options.graphics.tooltip.4=Megváltoztatja a megjelenését a felhőknek, leveleknek, víznek,
-options.graphics.tooltip.5=árnyékoknak és a fű oldalainak.
+options.graphics.tooltip.4=Megváltoztatja a kinézetét a felhőknek, leveleknek,
+options.graphics.tooltip.5=víznek és a fű oldalának.
 
 of.options.renderDistance.tiny=Apró
 of.options.renderDistance.short=Rövid
 of.options.renderDistance.normal=Normál
 of.options.renderDistance.far=Messzi
 of.options.renderDistance.extreme=Extrém
+of.options.renderDistance.insane=Őrületes
+of.options.renderDistance.ludicrous=Nevetséges
 
 options.renderDistance.tooltip.1=Látótávolság
 options.renderDistance.tooltip.2=  2 Apró - 32m (leggyorsabb)
-options.renderDistance.tooltip.3=  4 Rövid - 64m (gyorsabb)
-options.renderDistance.tooltip.4=  8 Normál - 128m
-options.renderDistance.tooltip.5=  16 Messzi - 256m (lassabb)
-options.renderDistance.tooltip.6=  32 Extrém - 512m (leglassab!)
-options.renderDistance.tooltip.7=Az Extrém látótávolság nagyon erőforrás igényes!
-options.renderDistance.tooltip.8=Értékek 16 Messzi fölött csak helyi világokban effektív.
+options.renderDistance.tooltip.3=  8 Normál - 128m (normál)
+options.renderDistance.tooltip.4=  16 Messzi - 256m (lassabb)
+options.renderDistance.tooltip.5=  32 Extrém - 512m (leglassabb!) nagyon erőforrásigényes
+options.renderDistance.tooltip.6=  48 Őrületes - 768m, szükséges 3GB RAM kiosztása
+options.renderDistance.tooltip.7=  64 Nevetséges - 1024m, szükséges 3GB RAM kiosztása 
+options.renderDistance.tooltip.8=Értékek a 16 "Messzi" fölött csak lokális világokban hatásosak.
 
 options.ao.tooltip.1=Simított megvilágítás
-options.ao.tooltip.2=  KI - Nincs simított megvilágítás (gyorsabb)
-options.ao.tooltip.3=  Minimum - Egyszerű simított megvilágítás (lassabb)
-options.ao.tooltip.4=  Maximum - Bonyolult simított megvilágítás (leglassab)
+options.ao.tooltip.2=  KI -  nincs megvilágítás (gyorsabb)
+options.ao.tooltip.3=  Minimum - egyszerű simított megvilágítás (lassabb)
+options.ao.tooltip.4=  Maximum - összetett simított megvilágítás (leglassabb)
 
-options.framerateLimit.tooltip.1=Maximum FPS
-options.framerateLimit.tooltip.2=  VSync - A monitor képkocka frissítéséhez szabott (60, 30, 20)
-options.framerateLimit.tooltip.3=  5-255 - változó
-options.framerateLimit.tooltip.4=  Korlátlan - nincs határ (leggyorsabb)
-options.framerateLimit.tooltip.5=Az FPS korlátozás csökkenti az FPS-t akkor is, ha
-options.framerateLimit.tooltip.6=a korlát érték nincs elérve.
+options.framerateLimit.tooltip.1=Max képkockák
+options.framerateLimit.tooltip.2=  VSync - monitor képfrissítéséhez szabott (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - változtatható
+options.framerateLimit.tooltip.4=  Korlátlan - nincs korlát (leggyorsabb)
+options.framerateLimit.tooltip.5=A képkockakorlát lekorlátozza az FPS-t akkor is,
+options.framerateLimit.tooltip.6= ha a korlátérték nincs is elérve.
 of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Simított Megvilágítás Szintje
 of.options.AO_LEVEL.tooltip.1=Simított megvilágítás szintje
 of.options.AO_LEVEL.tooltip.2=  KI - nincsenek árnyékok
-of.options.AO_LEVEL.tooltip.3=  50%% - halvány árnyékok
+of.options.AO_LEVEL.tooltip.3=  50%% - világos árnyékok
 of.options.AO_LEVEL.tooltip.4=  100%% - sötét árnyékok
 
-options.viewBobbing.tooltip.1=Valósághűbb mozgás.
-options.viewBobbing.tooltip.2=Amikor MIP-leképzést használsz, kapcsold ki a legjobb eredményekért.
+options.viewBobbing.tooltip.1=Élethűbb mozgás.
+options.viewBobbing.tooltip.2=A mipmapok használatával kapcsold ki a legjobb eredményekért.
 
 options.guiScale.tooltip.1=GUI Mérete
-options.guiScale.tooltip.2=Kisebb GUI gyorsabb lehet.
+options.guiScale.tooltip.2=  Auto - maximális méret
+options.guiScale.tooltip.3=  Kicsi, Normál, Nagy - 1x-től 3x-ig
+options.guiScale.tooltip.4=  4x-től 10x-ig - csak 4K kijelzőkön elérhető
+options.guiScale.tooltip.5=Furcsa értékek (1x, 3x, 5x ...) nem kompatibilisek az Unicode-al.
+options.guiScale.tooltip.6=Egy kisebb GUI gyorsabb lehet.
 
-options.vbo=VBO-k használata
+options.vbo=VBOk használata
 options.vbo.tooltip.1=Vertex Buffer Objects
-options.vbo.tooltip.2=Egy alternatív renderelési mintát használ, ami általában
-options.vbo.tooltip.3=gyorsabb (5-10%%) az alapértelmezett renderelésnél.
+options.vbo.tooltip.2=Egy alternatív leképzési módszert használ, ami általában
+options.vbo.tooltip.3=gyorsabb (5-10%%) az alapértelmezettől.
 
-options.gamma.tooltip.1=A sötétebb objektumok fényerejét változtatja
-options.gamma.tooltip.2=  Borongós - normál fényerő
-options.gamma.tooltip.3=  1-99%% - változó
-options.gamma.tooltip.4=  Fényes - maximum fényerő a sötétebb objektumoknak
-options.gamma.tooltip.5=Ez a beállítás nem változtatja a fényerejét a 
-options.gamma.tooltip.6=teljesen fekete objektumoknak.
+options.gamma.tooltip.1=Megváltoztatja a megvilágítását a sötétebb tárgyaknak.
+options.gamma.tooltip.2=  Borongós - alapértelmezett fényerő
+options.gamma.tooltip.3=  1-99%% - változtatható
+options.gamma.tooltip.4=  Bright - maximális megvilágítása a sötétebb tárgyaknak
+options.gamma.tooltip.5=Ez a beállítás nem változtatja meg a fényerejét 
+options.gamma.tooltip.6=a teljesen fekete tárgyaknak.
 
 options.anaglyph.tooltip.1=Sztereoszkopikus 3D
-options.anaglyph.tooltip.2=Bekapcsolja a sztereoszopikus 3D effektet különböző színek használatával
-options.anaglyph.tooltip.3=szemenként.
-options.anaglyph.tooltip.4=Vörös-cián szemüveget igényel a megfelelő látásért.
+options.anaglyph.tooltip.2=Bekapcsolja a Sztereoszkopikus 3D effektet szemenként
+options.anaglyph.tooltip.3=külön színek használatával.
+options.anaglyph.tooltip.4=Vörös-cián szemüveg szükséges az élményhez.
 
-of.options.ALTERNATE_BLOCKS=Váltakozó Blokkok
-of.options.ALTERNATE_BLOCKS.tooltip.1=Váltakozó Blokkok
-of.options.ALTERNATE_BLOCKS.tooltip.2=Alernatív blokk mintákat használ egyes blokkokhoz.
-of.options.ALTERNATE_BLOCKS.tooltip.3=A kiválasztott forráscsomagtól függ.
+options.attackIndicator.tooltip.1=Beállítja a támadásjelző pozícióját
+options.attackIndicator.tooltip.2=  Célkereszt - under the crosshair
+options.attackIndicator.tooltip.3=  Hotbar - a hotbar mellett
+options.attackIndicator.tooltip.4=  KI - nincs támadásjelző
+options.attackIndicator.tooltip.5=A támadásjelző a támadás erejét mutatja
+options.attackIndicator.tooltip.6=a jelenleg alkalmazott tárgynak.
+
+of.options.ALTERNATE_BLOCKS=Alternatív Blokkok
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatív Blokkok
+of.options.ALTERNATE_BLOCKS.tooltip.2=Alternatív blokk modelleket használ bizonyos blokkoknál.
+of.options.ALTERNATE_BLOCKS.tooltip.3=A kiválasztott forráscsomagoktól függ.
 
 of.options.FOG_FANCY=Köd
 of.options.FOG_FANCY.tooltip.1=Köd típusa
 of.options.FOG_FANCY.tooltip.2=  Gyors - gyorsabb köd
-of.options.FOG_FANCY.tooltip.3=  Szép - lassabb köd, jobban mutat
+of.options.FOG_FANCY.tooltip.3=  Szép - lassabb köd, jobban néz ki
 of.options.FOG_FANCY.tooltip.4=  KI - nincs köd, leggyorsabb
-of.options.FOG_FANCY.tooltip.5=A szép köd csak akkor elérhető, ha támogatja a 
-of.options.FOG_FANCY.tooltip.6=videókártya.
+of.options.FOG_FANCY.tooltip.5=A szép köd csak akkor elérhető, ha támogatott 
+of.options.FOG_FANCY.tooltip.6=a videókártya által.
 
-of.options.FOG_START=Köd Kezdete
+of.options.FOG_START=Köd kezdete
 of.options.FOG_START.tooltip.1=Köd kezdete
-of.options.FOG_START.tooltip.2=  0.2 - a köd a játékostól közel kezdődik
-of.options.FOG_START.tooltip.3=  0.8 - a köd a játékostól messze kezdődik
-of.options.FOG_START.tooltip.4=Ez a beállítás általában nem gyakorol hatást a teljesítményre.
+of.options.FOG_START.tooltip.2=  0.2 - a köd a játékostól közel képződik
+of.options.FOG_START.tooltip.3=  0.8 - a köd a játékostól távol képződik
+of.options.FOG_START.tooltip.4=Ez a beállítás általában nem befolyásolja a teljesítményt.
 
-of.options.CHUNK_LOADING=Terület Betöltése
-of.options.CHUNK_LOADING.tooltip.1=Terület Betöltése
-of.options.CHUNK_LOADING.tooltip.2=  Alapértelmezett - instabil FPS területek betöltésekor
-of.options.CHUNK_LOADING.tooltip.3=  Lágy - stabil FPS
-of.options.CHUNK_LOADING.tooltip.4=  Kétmagos - stabil FPS, 3x gyorsabb világbetöltés
-of.options.CHUNK_LOADING.tooltip.5=A Lágy és Kétmagos eltávolítja az akadozásokat, és
-of.options.CHUNK_LOADING.tooltip.6=a befagyásokat, amit a területbetöltés okoz.
-of.options.CHUNK_LOADING.tooltip.7=A Kétmagos fel tudja gyorsítani a világbetöltést a 3x-osára, és
-of.options.CHUNK_LOADING.tooltip.8=képes az FPS növelésére a 2. processzormag használatával.
-of.options.chunkLoading.smooth=Lágy
-of.options.chunkLoading.multiCore=Kétmagos
+of.options.CHUNK_LOADING=Területek Betöltése
+of.options.CHUNK_LOADING.tooltip.1=Területek Betöltése
+of.options.CHUNK_LOADING.tooltip.2=  Alapértelmezett - instabil FPS területek betöltése közben
+of.options.CHUNK_LOADING.tooltip.3=  Sima - stabil FPS
+of.options.CHUNK_LOADING.tooltip.4=  Többmagos - stabil FPS, 3x gyorsabb világbetöltés
+of.options.CHUNK_LOADING.tooltip.5=A Sima és Többmagos eltávolítja az akadozásokat és
+of.options.CHUNK_LOADING.tooltip.6=lefagyásokat, amit a területek betöltése okoz.
+of.options.CHUNK_LOADING.tooltip.7=A Többmagos fel tudja háromszorosára gyorsítani a világgenerálást és
+of.options.CHUNK_LOADING.tooltip.8=megnöveli az FPS-t a második mag használatával.
+of.options.chunkLoading.smooth=Sima
+of.options.chunkLoading.multiCore=Többmagos
 
 of.options.shaders=Shaderek...
-of.options.shadersTitle=Árnyékok és egyéb finomságok
+of.options.shadersTitle=Shaderek
 
 of.options.shaders.packNone=KI
 of.options.shaders.packDefault=(belső)
 
 of.options.shaders.ANTIALIASING=Élsimítás
-of.options.shaders.NORMAL_MAP=Normal Map
-of.options.shaders.SPECULAR_MAP=Specular Map
-of.options.shaders.RENDER_RES_MUL=Render Minőség
-of.options.shaders.SHADOW_RES_MUL=Árnyék Minőség
-of.options.shaders.HAND_DEPTH_MUL=Kézmélység
-of.options.shaders.CLOUD_SHADOW=Felhőárnyék
-of.options.shaders.OLD_HAND_LIGHT=Régi Kézmegvilágítás
-of.options.shaders.OLD_LIGHTING=Régi Megvilágítás
-of.options.shaders.SHADER_PACK=Shader Csomag
+of.options.shaders.ANTIALIASING.tooltip.1=Élsimítás
+of.options.shaders.ANTIALIASING.tooltip.2=  KI - (alapértelmezett) nincs élsimítás (gyorsabb)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - élsimított vonalak és élek (lassabb)
+of.options.shaders.ANTIALIASING.tooltip.4=Az FXAA egy utófeldolgozásos effekt ami kisimítja
+of.options.shaders.ANTIALIASING.tooltip.5=a cikcakkos vonalakat és éles színátmeneteket.
+of.options.shaders.ANTIALIASING.tooltip.6=Gyorsabb, mint a tradícionális élsimítás
+of.options.shaders.ANTIALIASING.tooltip.7=és kompatibilis a shaderekkel és Gyors Leképzéssel. 
 
-of.options.shaders.shadersFolder=Shaderek mappája
+of.options.shaders.NORMAL_MAP=Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.2=  BE - (alapértelmezett) bekapcsolja a normal mapokat 
+of.options.shaders.NORMAL_MAP.tooltip.3=  KI - kikapcsolja a normal mapokat
+of.options.shaders.NORMAL_MAP.tooltip.4=A normal mapokat a shaderek használják,
+of.options.shaders.NORMAL_MAP.tooltip.5=hogy 3D-s geometriát szimuláljon sima model felületeken.
+of.options.shaders.NORMAL_MAP.tooltip.6=A normal map textúrákat a jelenlegi
+of.options.shaders.NORMAL_MAP.tooltip.7=forráscsomag biztosítja.
+
+of.options.shaders.SPECULAR_MAP=Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.2=  BE - (alapértelmezett) bekapcsolja a specular mapokat
+of.options.shaders.SPECULAR_MAP.tooltip.3=  KI - kikapcsolja a specular mapokat
+of.options.shaders.SPECULAR_MAP.tooltip.4=A specular mapokat a shaderek használják,
+of.options.shaders.SPECULAR_MAP.tooltip.5=hogy a tükröződési effekteket szimulálják.
+of.options.shaders.SPECULAR_MAP.tooltip.6=A specular map textúrákat a jelenlegi
+of.options.shaders.SPECULAR_MAP.tooltip.7=forráscsomag biztosítja.
+
+of.options.shaders.RENDER_RES_MUL=Render Minőség
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Leképzés minősége
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - alacsony (fastest)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - normál (alapértelmezettt)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - magas (leglassabb)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=A Render minőség szabályozza a textúra méretét,
+of.options.shaders.RENDER_RES_MUL.tooltip.6=amibe a shadercsomag renderel.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Alacsonyabb értékek hasznosak lehetnek 4K kijelzővel.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Magasabb értékek élsimításként működnek. (supersampling)
+
+of.options.shaders.SHADOW_RES_MUL=Árnyékminőség
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Árnyékok minősége
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - alacsony (leggyorsabb)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - normál (alapértelmezett)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - magas (leglassabb)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Az árnyékminőség szabályozza a shadow map textúra méretét,
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=amit a shadercsomagok használnak.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Alacsonyabb értékek = pontatlan, durvább árnyékok.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Magasabb értékek = részletes, finomabb árnyékok.
+
+of.options.shaders.HAND_DEPTH_MUL=Kézmélység
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=A kéz mélysége
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - a kéz közel van a kamerához
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (alapértelmezett)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - a kéz messze van a kamerától
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=A kézmélység szabályozza, hogy a kézben fogott tárgyak milyen messze vannak
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=a kamerától.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Shadercsomagok, amik mélységi homályosítást használnak, megváltoztatja a
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=homyályosítását a kézben fogott tárgyaknak.
+
+of.options.shaders.CLOUD_SHADOW=Felhő Árnyékok
+
+of.options.shaders.OLD_HAND_LIGHT=Régi Kézmegvilágítás
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Régi Kézmegvilágítás
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Alapértelmezett - a shadercsomag szabályozza
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  BE - régi kézmegvilágítás használata
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  KI - új kézmegvilágítás használata
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=A régi kézmegvilágítás lehetővé tgeszi a shadercsomagoknak, amik csak
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=a főkézben lévő fénykibocsájtó tárgyakat ismeri fel,
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=hogy működjenek a másik kézben is.
+
+of.options.shaders.OLD_LIGHTING=Régi Megvilágítás
+of.options.shaders.OLD_LIGHTING.tooltip.1=Régi Megvilágítás
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Alapértelmezett - a shadercsomag szabályozza
+of.options.shaders.OLD_LIGHTING.tooltip.3=  BE - régi megvilágítás használata
+of.options.shaders.OLD_LIGHTING.tooltip.4=  KI - régi megvilágítás mellőzése
+of.options.shaders.OLD_LIGHTING.tooltip.5=A régi megvilágítás szabályozza a fix megvilágítást, amit
+of.options.shaders.OLD_LIGHTING.tooltip.6=az alapjáték alkalmaz a blokkok oldalain.
+of.options.shaders.OLD_LIGHTING.tooltip.7=A shadercsomagok amik használnak általában
+of.options.shaders.OLD_LIGHTING.tooltip.8=sokkal jobb fényeket alkalmaznak a nap állásától függően.
+
+of.options.shaders.DOWNLOAD=Shaderek Letöltése
+of.options.shaders.DOWNLOAD.tooltip.1=Shaderek Letöltése
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Megnyitja a shadercsomagok oldalát a böngészőben.
+of.options.shaders.DOWNLOAD.tooltip.4=Rakd a letöltött shadercsomagokat a "Shaderek Mappába"
+of.options.shaders.DOWNLOAD.tooltip.5=és megjelennek a listán, mint telepített shaderek.
+
+of.options.shaders.SHADER_PACK=Shadercsomag
+
+of.options.shaders.shadersFolder=Shader MAppa
 of.options.shaders.shaderOptions=Shader Beállítások...
 
 of.options.shaderOptionsTitle=Shader Beállítások
@@ -164,18 +279,18 @@ of.options.quality=Minőség...
 of.options.qualityTitle=Minőségi Beállítások
 
 of.options.details=Részletek...
-of.options.detailsTitle=Részletbeállítások
+of.options.detailsTitle=Részletbeli beállítások
 
 of.options.performance=Teljesítmény...
-of.options.performanceTitle=Teljesítmény Beállítások
+of.options.performanceTitle=Teljesítménybeli beállítások
 
 of.options.animations=Animációk...
-of.options.animationsTitle=Animáció Beállítások
+of.options.animationsTitle=Animációs Beállítások
 
 of.options.other=Egyéb...
 of.options.otherTitle=Egyéb Beállítások
 
-of.options.other.reset=Videóbeállítások Törlése...
+of.options.other.reset=Videóbeállítások vissza alapértelmezettbe...
 
 of.shaders.profile=Profil
 
@@ -186,15 +301,15 @@ of.options.mipmap.linear=Lineáris
 of.options.mipmap.nearest=Legközelebbi
 of.options.mipmap.trilinear=Trilineáris
 
-options.mipmapLevels.tooltip.1=Vizuális effekt, ami a távolabbi dolgokat szebbé teszi
+options.mipmapLevels.tooltip.1=Vizuális effekt, ami a távolabbi objektumokat szebbé teszi
 options.mipmapLevels.tooltip.2=a textúrák részletességének simításával.
 options.mipmapLevels.tooltip.3=  KI - nincs simítás
-options.mipmapLevels.tooltip.4=  1 - minimum simítás
-options.mipmapLevels.tooltip.5=  4 - maximum simítás
-options.mipmapLevels.tooltip.6=Ez a beállítás általában nem gyakorol hatást a teljesítményre.
+options.mipmapLevels.tooltip.4=  1 - minimális simítás
+options.mipmapLevels.tooltip.5=  Maximum - maximális simítás
+options.mipmapLevels.tooltip.6=Ez a beállítás általában nem befolyásolja a teljesítményt.
 
-of.options.MIPMAP_TYPE=MIP-leképzés típusa
-of.options.MIPMAP_TYPE.tooltip.1=Vizuális effekt, ami a távolabbi dolgokat szebbé teszi
+of.options.MIPMAP_TYPE=Mipmap Típus
+of.options.MIPMAP_TYPE.tooltip.1=Vizuális effekt, ami a távolabbi objektumokat szebbé teszi
 of.options.MIPMAP_TYPE.tooltip.2=a textúrák részletességének simításával.
 of.options.MIPMAP_TYPE.tooltip.3=  Legközelebbi - durva simítás (leggyorsabb)
 of.options.MIPMAP_TYPE.tooltip.4=  Lineáris - normál simítás
@@ -204,266 +319,324 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilineáris - legfinomabb simítás (leglass
 
 of.options.AA_LEVEL=Élsimítás
 of.options.AA_LEVEL.tooltip.1=Élsimítás
-of.options.AA_LEVEL.tooltip.2= KI - (alapértelmezett) nincs élsimítás (gyorsabb)
-of.options.AA_LEVEL.tooltip.3= 2-16 - élsimított vonalak és élek (lassabb)
-of.options.AA_LEVEL.tooltip.4=Az Élsimítás kisimítja az egyenletlen vonalakat, és
-of.options.AA_LEVEL.tooltip.5=az éles színátmeneteket.
-of.options.AA_LEVEL.tooltip.6=Bekapcsolás esetén lényegesen csökkentheti az FPS-t.
-of.options.AA_LEVEL.tooltip.7=Nem minden szint támogatott egyes videókártyákon.
-of.options.AA_LEVEL.tooltip.8=ÚJRAINDÍTÁS után effektív!
+of.options.AA_LEVEL.tooltip.2= KI - (default) nincs élsimítás (gyorsabb)
+of.options.AA_LEVEL.tooltip.3= 2-16 - antialiased lines and edges (lassabb)
+of.options.AA_LEVEL.tooltip.4=Az Élsimítás kisimítja a cikcakkos vonalakat, és
+of.options.AA_LEVEL.tooltip.5=éles színátmeneteket.
+of.options.AA_LEVEL.tooltip.6=Amikor be van kapcsolva, érezhetően csökkentheti az FPS-t.
+of.options.AA_LEVEL.tooltip.7=Nem minden szintet támogat minden videókártya.
+of.options.AA_LEVEL.tooltip.8=ÚJRAINDÍTÁS után lép érvénybe!
 
 of.options.AF_LEVEL=Aniszotróp Szűrés
-of.options.AF_LEVEL.tooltip.1=Anizotróp Szűrés
-of.options.AF_LEVEL.tooltip.2= KI - (alapértelmezett) alap textúra részletesség (gyorsabb)
-of.options.AF_LEVEL.tooltip.3= 2-16 - finomabb részletek a MIP-leképzett textúrákon (lassabb)
-of.options.AF_LEVEL.tooltip.4=Az Anizotróp Szűrés helyreállítja a részleteket a
-of.options.AF_LEVEL.tooltip.5=MIP-leképzett textúrákon.
-of.options.AF_LEVEL.tooltip.6=Bekapcsolás esetén lényegesen csökkentheti az FPS-t.
+of.options.AF_LEVEL.tooltip.1=Aniszotróp Szűrés
+of.options.AF_LEVEL.tooltip.2= KI - (alapértelmezett) normál textúrarészletesség (gyorsabb)
+of.options.AF_LEVEL.tooltip.3= 2-16 - finomabb részletek a mipmapolt textúrákon (lassabb)
+of.options.AF_LEVEL.tooltip.4=Az Aniszotróp Szűrés visszaállítja a részleteket a
+of.options.AF_LEVEL.tooltip.5=mipmapolt textúrákon.
+of.options.AF_LEVEL.tooltip.6=Amikor be van kapcsolva, érezhetően csökkentheti az FPS-t.
 
 of.options.CLEAR_WATER=Tiszta Víz
 of.options.CLEAR_WATER.tooltip.1=Tiszta Víz
 of.options.CLEAR_WATER.tooltip.2=  BE - tiszta, átlátszó víz
 of.options.CLEAR_WATER.tooltip.3=  KI - alapértelmezett víz
 
-of.options.RANDOM_ENTITIES=Véletlenszerű Mobok
-of.options.RANDOM_ENTITIES.tooltip.1=Véletlenszerű Mobok
-of.options.RANDOM_ENTITIES.tooltip.2=  KI - nincsenek véletlenszerű mobok, gyorsabb
-of.options.RANDOM_ENTITIES.tooltip.3=  BE - véletlenszerű mobok, lassabb
-of.options.RANDOM_ENTITIES.tooltip.4=A véletlenszerű mobok véletlenszerű textúrákat használ a játék lényeinek.
-of.options.RANDOM_ENTITIES.tooltip.5=Olyan erőforráscsomagot igényel, amiben vannak dupla mob textúrák .
+of.options.RANDOM_ENTITIES=Véletlenszerű Entitások
+of.options.RANDOM_ENTITIES.tooltip.1=Véletlenszerű Entitások
+of.options.RANDOM_ENTITIES.tooltip.2=  KI - nincsenek véletlenszerű entitások, gyorsabb
+of.options.RANDOM_ENTITIES.tooltip.3=  BE - véletlenszerű entitások, lassabb
+of.options.RANDOM_ENTITIES.tooltip.4=A véletlenszerű entitások random textúrákat használ a játék entitásainak.
+of.options.RANDOM_ENTITIES.tooltip.5=Egy forráscsomagra van szűkséáge, amiben több entitástextúra van.
 
 of.options.BETTER_GRASS=Jobb Fű
 of.options.BETTER_GRASS.tooltip.1=Jobb Fű
-of.options.BETTER_GRASS.tooltip.2=  KI - alapértelmezett fű oldaltextúra, leggyorsabb
-of.options.BETTER_GRASS.tooltip.3=  Gyors - teljes fű oldaltextúra, lassabb
-of.options.BETTER_GRASS.tooltip.4=  Szép - dinamikus fű oldaltextúra, leglassabb
+of.options.BETTER_GRASS.tooltip.2=  KI - alapértelmezett fű-oldaltextúra, leggyorsabb
+of.options.BETTER_GRASS.tooltip.3=  Gyors - teljes fű-oldaltextúra, lassabb
+of.options.BETTER_GRASS.tooltip.4=  Szép - dinamikus fű-oldaltextúra, slowest
 
 of.options.BETTER_SNOW=Jobb Hó
 of.options.BETTER_SNOW.tooltip.1=Jobb Hó
 of.options.BETTER_SNOW.tooltip.2=  KI - alapértelmezett hó, gyorsabb
 of.options.BETTER_SNOW.tooltip.3=  BE - jobb hó, lassabb
-of.options.BETTER_SNOW.tooltip.4=Mutatja a havat az átlátszó blokkok alatt (kerítés, magas fú),
-of.options.BETTER_SNOW.tooltip.5=amikor hóval van körülvéve.
+of.options.BETTER_SNOW.tooltip.4=A hó látszik átlátszó blokkok alatt is (kerítés, magas fű)
+of.options.BETTER_SNOW.tooltip.5=amikor hóblokkokkal szomszédos.
 
-of.options.CUSTOM_FONTS=Egyéni Betűtípus
-of.options.CUSTOM_FONTS.tooltip.1=Egyéni Betűtípus
-of.options.CUSTOM_FONTS.tooltip.2=  BE - egyéni betűtípust használ (alapértelmezett), lassabb
+of.options.CUSTOM_FONTS=Egyéni Betűtípusok
+of.options.CUSTOM_FONTS.tooltip.1=Egyéni Betűtípusok
+of.options.CUSTOM_FONTS.tooltip.2=  BE - egyéni betűtípusokat használ (alapértelmezett), lassabb
 of.options.CUSTOM_FONTS.tooltip.3=  KI - alapértelmezett betűtípust használ, gyorsabb
-of.options.CUSTOM_FONTS.tooltip.4=Az egyéni betűtípust a jelenlegi forráscsomag
+of.options.CUSTOM_FONTS.tooltip.4=AZ egyéni betűtípusokat a jelenlegi forráscsomag
 of.options.CUSTOM_FONTS.tooltip.5=biztosítja.
 
 of.options.CUSTOM_COLORS=Egyéni Színek
 of.options.CUSTOM_COLORS.tooltip.1=Egyéni Színek
-of.options.CUSTOM_COLORS.tooltip.2=  BE - egyéni színeket használ (default), lassabb
+of.options.CUSTOM_COLORS.tooltip.2=  BE - egyéni színeket használ (alapértelmezett), lassabb
 of.options.CUSTOM_COLORS.tooltip.3=  KI - alapértelmezett színeket használ, gyorsabb
 of.options.CUSTOM_COLORS.tooltip.4=Az egyéni színeket a jelenlegi forráscsomag
 of.options.CUSTOM_COLORS.tooltip.5=biztosítja.
 
 of.options.SWAMP_COLORS=Mocsár Színek
 of.options.SWAMP_COLORS.tooltip.1=Mocsár Színek
-of.options.SWAMP_COLORS.tooltip.2=  BE - mocsárszíneket használ (alapértelmezett), lassabb
-of.options.SWAMP_COLORS.tooltip.3=  KI - nem használ mocsárszíneket, gyorsabb
-of.options.SWAMP_COLORS.tooltip.4=A mocsár színek a füvet, leveleket, indákat és a vizet érintik.
+of.options.SWAMP_COLORS.tooltip.2=  BE - mocsár színek használata (alapértelmezett), lassabb
+of.options.SWAMP_COLORS.tooltip.3=  KI - mucsár színek mellőzése, gyorsabb
+of.options.SWAMP_COLORS.tooltip.4=A bocsár színek befolyásolják a füvet, leveleket, indákat és a vizet.
 
-of.options.SMOOTH_BIOMES=Simított Biomok
-of.options.SMOOTH_BIOMES.tooltip.1=Simított Biomok
-of.options.SMOOTH_BIOMES.tooltip.2=  BE - a biome szélek simítása (default), lassabb
-of.options.SMOOTH_BIOMES.tooltip.3=  KI - nincs simítás a biomok szélénél, gyorsabb
-of.options.SMOOTH_BIOMES.tooltip.4=A simítás a biomok szélénél mintavétellel, és
-of.options.SMOOTH_BIOMES.tooltip.5=a színek átlagosításával történik a környező blokkokon.
-of.options.SMOOTH_BIOMES.tooltip.6=Érintettek: fű, levelek, indák és a víz.
+of.options.SMOOTH_BIOMES=Sima Biomok
+of.options.SMOOTH_BIOMES.tooltip.1=Sima Biomok
+of.options.SMOOTH_BIOMES.tooltip.2=  BE - biom határainak simítása (alapértelmezett), lassabb
+of.options.SMOOTH_BIOMES.tooltip.3=  KI - biom határának simításának mellőzése, gyorsabb
+of.options.SMOOTH_BIOMES.tooltip.4=A biomok határának a simítása mintavételezéssel és a környező blokkok
+of.options.SMOOTH_BIOMES.tooltip.5=színének átlagolásával történik.
+of.options.SMOOTH_BIOMES.tooltip.6=A fű, levelek, indák és a víz érintettek.
 
-of.options.CONNECTED_TEXTURES=Csatlakozó Textúrák
-of.options.CONNECTED_TEXTURES.tooltip.1=Csatlakozó Textúrák
-of.options.CONNECTED_TEXTURES.tooltip.2=  KI - nincsenek csatlakozó textúrák (alapértelmezett)
-of.options.CONNECTED_TEXTURES.tooltip.3=  Gyors - gyors csatlakozó textúrák
-of.options.CONNECTED_TEXTURES.tooltip.4=  Szép - szép csatlakozó textúrák
-of.options.CONNECTED_TEXTURES.tooltip.5=A csatlakozó textúrák egybeköti az üveget,
-of.options.CONNECTED_TEXTURES.tooltip.6=homokkövet és a könyvespolcokat, ha egymás mellet
-of.options.CONNECTED_TEXTURES.tooltip.7=vannak. Acsatlakozó textúrákat a jelenlegi
+of.options.CONNECTED_TEXTURES=Kapcsolódó Textúrák
+of.options.CONNECTED_TEXTURES.tooltip.1=Kapcsolódó Textúrák
+of.options.CONNECTED_TEXTURES.tooltip.2=  KI - nincsenek kapcsolódó textúrák (alapértelmezett)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Gyors - gyors kapcsolódó textúrák
+of.options.CONNECTED_TEXTURES.tooltip.4=  Szép - szép kapcsolódó textúrák
+of.options.CONNECTED_TEXTURES.tooltip.5=A kapcsolódó textúrák összeköti az üvegek,
+of.options.CONNECTED_TEXTURES.tooltip.6=homokkő és könyvespolcok textúráját amikor egymás mellett
+of.options.CONNECTED_TEXTURES.tooltip.7=helyezkednek el. A kapcsolódó textúrákat a jelenlegi
 of.options.CONNECTED_TEXTURES.tooltip.8=forráscsomag biztosítja.
 
 of.options.NATURAL_TEXTURES=Természetes Textúrák
 of.options.NATURAL_TEXTURES.tooltip.1=Természetes Textúrák
-of.options.NATURAL_TEXTURES.tooltip.2=  KI - nincsenek természetes textúrák (alapértelmezett)
-of.options.NATURAL_TEXTURES.tooltip.3=  BE - természetes textúrákat használ
-of.options.NATURAL_TEXTURES.tooltip.4=A természetes textúrák eltüntetik a rácsszerű mintázatot,
-of.options.NATURAL_TEXTURES.tooltip.5=amit az azonos típusú irmétlődő blokkok okoznak.
-of.options.NATURAL_TEXTURES.tooltip.6=A blokkok alaptextúráinak forgatott változatát
-of.options.NATURAL_TEXTURES.tooltip.7=használja. A konfigurációját a természetes textúráknak
-of.options.NATURAL_TEXTURES.tooltip.8=a jelenlegi forráscsomag biztosítja.
+of.options.NATURAL_TEXTURES.tooltip.2=  KI - természetes textúrák mellőzése (alapértelmezett)
+of.options.NATURAL_TEXTURES.tooltip.3=  BE - természetes textúrák használata
+of.options.NATURAL_TEXTURES.tooltip.4=A természetes textúrák eltávolítja a rácsszerű mintákat
+of.options.NATURAL_TEXTURES.tooltip.5=amit az ismétlődő azonos típusú blokkok idéznek elő.
+of.options.NATURAL_TEXTURES.tooltip.6=Forgatott és fordított variációit használja az alap
+of.options.NATURAL_TEXTURES.tooltip.7=blokk textúrának. A konfigurációját a természetes
+of.options.NATURAL_TEXTURES.tooltip.8=textúráknak a jelenlegi forráscsomag biztosítja.
+
+of.options.EMISSIVE_TEXTURES=Emisszív Textúrák
+of.options.EMISSIVE_TEXTURES.tooltip.1=Emisszív Textúrák
+of.options.EMISSIVE_TEXTURES.tooltip.2=  KI - emisszív textúrák mellőzése (alapértelmezett)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  BE - emisszív textúrák alkalmazása
+of.options.EMISSIVE_TEXTURES.tooltip.4=Az emisszív textúrák felületként vannak leképezve
+of.options.EMISSIVE_TEXTURES.tooltip.5=full fényerővel. Arra használatosak, hogy szimulálják a
+of.options.EMISSIVE_TEXTURES.tooltip.6=fénykibocsájto részeit az alaptextúrának.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Az emisszív textúrákat a jelenlegi forráscsomag
+of.options.EMISSIVE_TEXTURES.tooltip.8=biztosítja.
 
 of.options.CUSTOM_SKY=Egyéni Ég
 of.options.CUSTOM_SKY.tooltip.1=Egyéni Ég
 of.options.CUSTOM_SKY.tooltip.2=  BE - egyéni ég textúrák (alapértelmezett), lassú
-of.options.CUSTOM_SKY.tooltip.3=  KI - alapértelmezett ég textúrák, gyorsabb
-of.options.CUSTOM_SKY.tooltip.4=Az egyéni ég textúrákat a jelenlegi
-of.options.CUSTOM_SKY.tooltip.5=erőforráscsomag biztosítja.
+of.options.CUSTOM_SKY.tooltip.3=  KI - alapértelmezett ég, gyorsabb
+of.options.CUSTOM_SKY.tooltip.4=Az egyéni ég textúrákat a jelenlegi forráscsomag
+of.options.CUSTOM_SKY.tooltip.5=biztosítja.
 
 of.options.CUSTOM_ITEMS=Egyéni Tárgyak
 of.options.CUSTOM_ITEMS.tooltip.1=Egyéni Tárgyak
-of.options.CUSTOM_ITEMS.tooltip.2=  BE - egyéni tárgy textúrák (alapértelmezett), lassú
-of.options.CUSTOM_ITEMS.tooltip.3=  KI - alapértelmezett tárgy textúrák, gyorsabb
-of.options.CUSTOM_ITEMS.tooltip.4=Az egyéni tárgy textúrákat a jelenlegi
-of.options.CUSTOM_ITEMS.tooltip.5=erőforráscsomag biztosítja.
+of.options.CUSTOM_ITEMS.tooltip.2=  BE - egyéni tárgytextúrák (alapértelmezett), lassú
+of.options.CUSTOM_ITEMS.tooltip.3=  KI - alapértelmezett tárgytextúrák, gyorsabb
+of.options.CUSTOM_ITEMS.tooltip.4=Az egyéni tárgytextúrákat a jelenlegi forráscsomag
+of.options.CUSTOM_ITEMS.tooltip.5=biztosítja.
+
+of.options.CUSTOM_ENTITY_MODELS=Egyéni Entitás Modellek
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Egyéni Entitás Modellek
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  BE - egyéni entitás modellek (alapértelmezett), lassú
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  KI - alapértelmezett entitás modellek, gyorsabb
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Az egyéni entitás modelleket a jelenlegi forráscsomag
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=biztosítja.
+
+of.options.CUSTOM_GUIS=Egyéni GUIk
+of.options.CUSTOM_GUIS.tooltip.1=Egyéni GUIk
+of.options.CUSTOM_GUIS.tooltip.2=  BE - egyéni GUIk (alapértelmezett), lassabb
+of.options.CUSTOM_GUIS.tooltip.3=  KI - alapértelmezett GUIk, gyorsabb
+of.options.CUSTOM_GUIS.tooltip.4=Az egyéni GUIk-at a jelenlegi forráscsomag biztosítja.
 
 # Details
 
 of.options.CLOUDS=Felhők
-of.options.CLOUDS.tooltip.1=Felhők
-of.options.CLOUDS.tooltip.2=  Alapértelmezett - ahogy az be van állítva a Grafikában
+of.options.CLOUDS.tooltip.1=Felfők
+of.options.CLOUDS.tooltip.2=  Alapértelmezett - ahogy a Grafika beállításban
 of.options.CLOUDS.tooltip.3=  Gyors - alacsonyabb minőség, gyorsabb
 of.options.CLOUDS.tooltip.4=  Szép - magasabb minőség, lassabb
 of.options.CLOUDS.tooltip.5=  KI - nincsenek felhők, leggyorsabb
-of.options.CLOUDS.tooltip.6=A gyors felhők 2D-sek.
-of.options.CLOUDS.tooltip.7=A szép felhők 3D-sek.
+of.options.CLOUDS.tooltip.6=A Gyors felhők 2D-ben vannak leképezve.
+of.options.CLOUDS.tooltip.7=A Szép felhők 3D-ben vannak leképezve.
 
-of.options.CLOUD_HEIGHT=Felhőmagasság
-of.options.CLOUD_HEIGHT.tooltip.1=Felhőmagasság
+of.options.CLOUD_HEIGHT=Felhő Magasság
+of.options.CLOUD_HEIGHT.tooltip.1=Felhő Magasság
 of.options.CLOUD_HEIGHT.tooltip.2=  KI - alapértelmezett magasság
-of.options.CLOUD_HEIGHT.tooltip.3=  100%% - a limitált világmagasság felett van
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - a világmagasság határ fölött
 
 of.options.TREES=Fák
 of.options.TREES.tooltip.1=Fák
-of.options.TREES.tooltip.2=  Alapértelmezett - ahogy az be van állítva a Grafikában
+of.options.TREES.tooltip.2=  Alapértelmezett - ahogy a Grafika beállításban
 of.options.TREES.tooltip.3=  Gyors - alacsonyabb minőség, gyorsabb
 of.options.TREES.tooltip.4=  Okos - magasabb minőség, gyors
 of.options.TREES.tooltip.5=  Szép - legmagasabb minőség, lassabb
-of.options.TREES.tooltip.6=A gyors fáknak átlátszatlan levelei vannak.
-of.options.TREES.tooltip.7=A szép és az okos fáknak átlátszó levelei vannak.
+of.options.TREES.tooltip.6=A gyors fáknak nem átlátszó levelei vannak.
+of.options.TREES.tooltip.7=A szép és okos fáknak átlátszó levelei vannak.
 
 of.options.RAIN=Eső & Hó
 of.options.RAIN.tooltip.1=Eső & Hó
-of.options.RAIN.tooltip.2=  Alapértelmezett - ahogy az be van állítva a Grafikában
-of.options.RAIN.tooltip.3=  Gyors  - ritka eső/hó, gyorsabb
-of.options.RAIN.tooltip.4=  Szép - sűrű eső/hó, lassabb
+of.options.RAIN.tooltip.2=  Alapértelmezett - ahogy a Grafika beállításban
+of.options.RAIN.tooltip.3=  Gyors  - könnyű eső/hó, gyorsabb
+of.options.RAIN.tooltip.4=  Szép - heves eső/hó, lassabb
 of.options.RAIN.tooltip.5=  KI - nincs eső/hó, leggyorsabb
-of.options.RAIN.tooltip.6=Amikor az eső ki van kapcsolva, atól még a fröccsenések
-of.options.RAIN.tooltip.7=és a hangok aktívak.
+of.options.RAIN.tooltip.6=Amikor az eső KI van kapcsolva, a placcsanás és eső hangok
+of.options.RAIN.tooltip.7=ugyanúgy aktívak.
 
 of.options.SKY=Ég
 of.options.SKY.tooltip.1=Ég
-of.options.SKY.tooltip.2=  BE - az ég látszik, lassabb
-of.options.SKY.tooltip.3=  KI  - az ég nem látszik, gyorsabb
-of.options.SKY.tooltip.4=Ha az ég ki van kapcsolva, attól még a nap és a hold látszik.
+of.options.SKY.tooltip.2=  BE - az ég látható, lassabb
+of.options.SKY.tooltip.3=  KI  - az ég nem látható, gyorsabb
+of.options.SKY.tooltip.4=Amikor az ég KI van kapcsolva, a hold és a nap ugyanúgy láthatóak.
 
 of.options.STARS=Csillagok
 of.options.STARS.tooltip.1=Csillagok
-of.options.STARS.tooltip.2=  BE - a csillagok látszódnak, lassabb
-of.options.STARS.tooltip.3=  KI  - a csillagok nem látszódnak, gyorsabb
+of.options.STARS.tooltip.2=  BE - a csillagok láthatóak, lassabb
+of.options.STARS.tooltip.3=  KI  - a csillagok nem láthatóak, gyorsabb
 
 of.options.SUN_MOON=Nap & Hold
 of.options.SUN_MOON.tooltip.1=Nap & Hold
-of.options.SUN_MOON.tooltip.2=  BE - a hold és a nap látszik (alapértelmezett)
-of.options.SUN_MOON.tooltip.3=  KI  - a hold és a nap nem látszik (gyorsabb)
+of.options.SUN_MOON.tooltip.2=  BE - a nap és a hold láthatóak (alapértelmezett)
+of.options.SUN_MOON.tooltip.3=  KI  - a nap és a hold nem láthatóak (gyorsabb)
 
-of.options.SHOW_CAPES=Köpeny Mutatása
-of.options.SHOW_CAPES.tooltip.1=Köpeny Mutatása
-of.options.SHOW_CAPES.tooltip.2=  BE - mutatja ajátékosok köpenyeit (alapértelmezett)
-of.options.SHOW_CAPES.tooltip.3=  KI - nem mutatja ajátékosok köpenyeit
+of.options.SHOW_CAPES=Köpenyek Mutatása
+of.options.SHOW_CAPES.tooltip.1=Köpenyek Mutatása
+of.options.SHOW_CAPES.tooltip.2=  BE - mutassa a játékosok köpenyeit (alapértelmezett)
+of.options.SHOW_CAPES.tooltip.3=  KI - ne mutassa a játékosok köpenyeit
 
 of.options.TRANSLUCENT_BLOCKS=Áttetsző Blokkok
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Áttetsző Blokkok
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Szép - korrekt színhajlítás (alapértelmezett)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Gyors - gyors színhajlítás (gyorsabb)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Irányitja a színhajlását az áttetsző blokkoknak
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=különböző színekkel (színezett üveg, víz, jég),
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=amikor egymás mögé helyezzük őket levegővel közöttük.
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Alapértelmezett - ahogy a Grafika beállításban
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Szép - korrekt színkeverés (lassabb)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Gyors - gyors színkeverés (gyorsabb)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Az áttetsző blokkok színkeverését irányítja
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=különböző színekkel (színezett üveg, víz, jég)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=amikor egymás mögé vannak helyezve levegővel közöttük.
 
-of.options.HELD_ITEM_TOOLTIPS=Fogott Tárgytippek
-of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Fogott Tárgytippek
-of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  BE - tippet mutat a tartott tárgynál (alapértelmezett)
-of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  KI - nem mutat tippet mutat a tartott tárgynál
+of.options.HELD_ITEM_TOOLTIPS=Tartott Tárgyak Leírása
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Tartott Tárgyak Leírása
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  BE - mutasson leírást a tartott tárgyaknak (alapértelmezett)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  KI - ne mutasson leírást a tartott tárgyaknak
+
+of.options.ADVANCED_TOOLTIPS=Haladó Leírások
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Haladó Leírások
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  BE - mutassa a haladó leírásokat
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  KI - ne mutassa a haladó leírásokat (alapértelmezett)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=A haladó leírások kibővített információit mutatja a
+of.options.ADVANCED_TOOLTIPS.tooltip.5=tárgyaknak (azonosító, tartósság) és shader beállításoknak
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(azonosító, forrás, alapértelmezett érték).
 
 of.options.DROPPED_ITEMS=Eldobott Tárgyak
 of.options.DROPPED_ITEMS.tooltip.1=Eldobott Tárgyak
-of.options.DROPPED_ITEMS.tooltip.2=  Alapértelmezett - ahogy az be van állítva a Grafikában
-of.options.DROPPED_ITEMS.tooltip.3=  Gyors - 2D-s eldobott tárgyak, gyorsabb
-of.options.DROPPED_ITEMS.tooltip.4=  Szép - 3D-s eldobott tárgyak, lassabb
+of.options.DROPPED_ITEMS.tooltip.2=  Alapértelmezett - ahogy a Grafika beállításban
+of.options.DROPPED_ITEMS.tooltip.3=  Gyors - 2Ds eldobott tárgyak (gyorsabb)
+of.options.DROPPED_ITEMS.tooltip.4=  Szép - 3Ds eldobott tárgyak (lassabb)
 
 options.entityShadows.tooltip.1=Entitás Árnyékok
 options.entityShadows.tooltip.2=  BE - entitás árnyékok mutatása
-options.entityShadows.tooltip.3=  KI - entitás árnyékok nem mutatása
+options.entityShadows.tooltip.3=  KI - nem mutatja az entitás árnyékokat
 
 of.options.VIGNETTE=Vignette
-of.options.VIGNETTE.tooltip.1=Vizuális effekt, ami kissé elsötétíti a képernyő sarkait
-of.options.VIGNETTE.tooltip.2=  Alapértelmezett - ahogy az be van állítva a Grafikában (alapértelmezett)
-of.options.VIGNETTE.tooltip.3=  Fast - vignette kikapcsolva (gyorsabb)
-of.options.VIGNETTE.tooltip.4=  Fancy - vignette bekapcsolva (lassabb)
-of.options.VIGNETTE.tooltip.5=A vignette-nek jelentős nyoma lehet az FPS-en,
-of.options.VIGNETTE.tooltip.6=főleg teljes képernyős módon játszva.
-of.options.VIGNETTE.tooltip.7=A vignette effekt teljesen apró, és nyugodtan
-of.options.VIGNETTE.tooltip.8=kikapcsolható
+of.options.VIGNETTE.tooltip.1=Vizuális effekt, ami enyhén besötétíti a képernyő sarkait
+of.options.VIGNETTE.tooltip.2=  Alapértelmezett - ahogy a Grafika beállításban (alapértelmezett)
+of.options.VIGNETTE.tooltip.3=  Gyors - vignette engedélyezve (gyorsabb)
+of.options.VIGNETTE.tooltip.4=  Szép - vignette letiltva (lassabb)
+of.options.VIGNETTE.tooltip.5=A vignette-nek jelentős hatása lehet az FPS-en,
+of.options.VIGNETTE.tooltip.6=főleg teljes képernyős módban játszva.
+of.options.VIGNETTE.tooltip.7=A vignette effekt elég észrevehetetlen, szóval nyugodtan
+of.options.VIGNETTE.tooltip.8=ki lehet kapcsolni.
 
 of.options.DYNAMIC_FOV=Dinamikus FOV
 of.options.DYNAMIC_FOV.tooltip.1=Dinamikus FOV
-of.options.DYNAMIC_FOV.tooltip.2=  BE - bekapcsolja a dinamikus FOV-t (alapértelmezett)
-of.options.DYNAMIC_FOV.tooltip.3=  KI - kikapcsolja a dinamikus FOV-t
-of.options.DYNAMIC_FOV.tooltip.4=Megváltoztatja a látómezőt (FOV) repülés, futás 
-of.options.DYNAMIC_FOV.tooltip.5=vagy íjászkodás közben.
+of.options.DYNAMIC_FOV.tooltip.2=  BE - dinamikus FOV engedélyezése (alapértelmezett)
+of.options.DYNAMIC_FOV.tooltip.3=  KI - dinamikus FOV letiltása
+of.options.DYNAMIC_FOV.tooltip.4=Megváltoztatja a látószöget (FOV) repülés, futás 
+of.options.DYNAMIC_FOV.tooltip.5=vagy ií felhúzása közben.
 
-of.options.DYNAMIC_LIGHTS=Dinamikus Fények
+of.options.DYNAMIC_LIGHTS=Dinamikus Fények 
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dinamikus Fények
-of.options.DYNAMIC_LIGHTS.tooltip.2=  KI - nincs dinamikus fény (alapértelmezett)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Gyors - gyors dinamikus fény (frissítve minden 500ms-ként)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Szép - szép dinamikus fény (valós időben frissítve)
-of.options.DYNAMIC_LIGHTS.tooltip.5=Engedélyezi a fénykibocsájtó tárgyaknak (fáklya, izzókő, stb.),
-of.options.DYNAMIC_LIGHTS.tooltip.6=hogy fényt bocsássanak ki, mikor kézben cipelik,
-of.options.DYNAMIC_LIGHTS.tooltip.7=másik karakter használja, vagy a füldre van dobva.
+of.options.DYNAMIC_LIGHTS.tooltip.2=  KI - no dynamic lights (default)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Gyors - gyors dinamikus fények (500ms-ként frissítve)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Szép - szép dinamikus fények (valós időben frissítve)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Engedélyezi a fénykibocsájtó tárgyaknak (fáklya, izzókő, stb.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=hogy kivilágítsanak mindent körülöttük amikor kézben fogják,
+of.options.DYNAMIC_LIGHTS.tooltip.7=más játékos használja vagy a földre vannak dobva.
+
+options.biomeBlendRadius.tooltip.1=Kisimítja a színátmenetet a biomok között
+options.biomeBlendRadius.tooltip.2=  KI - nincs átmenet (leggyorsabb)
+options.biomeBlendRadius.tooltip.3=  5x5 - normál átmenet (alapértelmezett)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximális simítás (leglassabb)
+options.biomeBlendRadius.tooltip.5=Magasabb értékek jelentős lag tüskéket képezhetnek
+options.biomeBlendRadius.tooltip.6=és lelassíthatják a területek töltésének idejét.
 
 # Performance
 
 of.options.SMOOTH_FPS=Sima FPS
-of.options.SMOOTH_FPS.tooltip.1=Stabilizálja az FPS-t a grafikus beghajtő buffereinek öblítésével.
-of.options.SMOOTH_FPS.tooltip.2=  KI - nincs stabilizálás, FPS inoghat
+of.options.SMOOTH_FPS.tooltip.1=Stabilizálja az FPS-t a grafikus illesztőprogram bufferjeinek öblítésével.
+of.options.SMOOTH_FPS.tooltip.2=  KI - nincs stabilizáció, az FPS ingadozhat
 of.options.SMOOTH_FPS.tooltip.3=  BE - FPS stabilizáció
-of.options.SMOOTH_FPS.tooltip.4=Ez a beállítás grafikus meghajtó függő, és a hatása
-of.options.SMOOTH_FPS.tooltip.5=nem mindíg látható.
+of.options.SMOOTH_FPS.tooltip.4=Ez a beállítás grafikus illesztőprogramfüggő, és a hatásai
+of.options.SMOOTH_FPS.tooltip.5=nem mindig láthatóak.
 
 of.options.SMOOTH_WORLD=Sima Világ
-of.options.SMOOTH_WORLD.tooltip.1=Eltávolítja a "lagtüskéket", amit a helyi szerver okoz.
-of.options.SMOOTH_WORLD.tooltip.2=  OFF - nincs stabilizáció, FPS inoghat
-of.options.SMOOTH_WORLD.tooltip.3=  ON - FPS stabilizáció
-of.options.SMOOTH_WORLD.tooltip.4=Stabilizálja az FPS-t, amit a helyi szerver okoz.
-of.options.SMOOTH_WORLD.tooltip.5=Csak helyi világokban effektív (egyjátékos mód).
+of.options.SMOOTH_WORLD.tooltip.1=Eltávolítja a lag tüskéket, amit a belső szerver okoz.
+of.options.SMOOTH_WORLD.tooltip.2=  KI - nincs stabilizáció, az FPS ingadozhat
+of.options.SMOOTH_WORLD.tooltip.3=  BE - FPS stabilizáció
+of.options.SMOOTH_WORLD.tooltip.4=Stabilizálja az FPS-t a belső szerver terheinek eloszlatásával.
+of.options.SMOOTH_WORLD.tooltip.5=Csak lokális világokon hatásos (egyjátékos mód).
 
-of.options.FAST_RENDER=Gyors Renderelés
-of.options.FAST_RENDER.tooltip.1=Gyors Renderelés
-of.options.FAST_RENDER.tooltip.2= KI - alap renderelés (alapértelmezett)
-of.options.FAST_RENDER.tooltip.3= BE - optimalizált renderelés (gyorsabb)
-of.options.FAST_RENDER.tooltip.4=Optimalizált renderelési algoritmust használ, ami csökkenti
-of.options.FAST_RENDER.tooltip.5=a GPU töltési időt, és lényegesen növelheti az FPS-t.
+of.options.FAST_RENDER=Gyors Leképzés
+of.options.FAST_RENDER.tooltip.1=Gyors Leképzés
+of.options.FAST_RENDER.tooltip.2= KI - alapértelmezett leképzés (alapértelmezett)
+of.options.FAST_RENDER.tooltip.3= BE - optimalizált leképzés (gyorsabb)
+of.options.FAST_RENDER.tooltip.4=Egy optimalizált leképzési algoritmust használ, ami csökkenti
+of.options.FAST_RENDER.tooltip.5=a GPU terheltségét és jelentősen növelheti az FPS-t.
+of.options.FAST_RENDER.tooltip.6=Ez a beállítás ütközhet pár moddal.
 
 of.options.FAST_MATH=Gyors Matek
 of.options.FAST_MATH.tooltip.1=Gyors Matek
-of.options.FAST_MATH.tooltip.2= KI - alap matek (alapértelmezett)
+of.options.FAST_MATH.tooltip.2= KI - alapértelmezett matek (alapértelmezett)
 of.options.FAST_MATH.tooltip.3= BE - gyorsabb matek
-of.options.FAST_MATH.tooltip.4=Optimalizált sin() és cos() függvényeket használ, ami jobban 
-of.options.FAST_MATH.tooltip.5=hasznosítja a CPU gyorsítótárat, és növelheti az FPS-t.
+of.options.FAST_MATH.tooltip.4=Optimalizált sin() és cos() függvényeket használ, ami
+of.options.FAST_MATH.tooltip.5=jobban kihasználhatja a CPU belső memóriáját és növelheti az FPS-t.
+of.options.FAST_MATH.tooltip.6=Ez a beállítás minimálisan változtathat a világgeneráláson.
 
-of.options.CHUNK_UPDATES=Terület Frissítések
-of.options.CHUNK_UPDATES.tooltip.1=Terület Frissítések
+of.options.CHUNK_UPDATES=TErület Frissítés
+of.options.CHUNK_UPDATES.tooltip.1=Terület Frissítés
 of.options.CHUNK_UPDATES.tooltip.2= 1 - lassabb világbetöltés, magasabb FPS (alapértelmezett)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - gyorsabb világbetöltés, alacsonyabb FPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - leggyorsabb világbetöltés, legalacsonyabb FPS
-of.options.CHUNK_UPDATES.tooltip.5=Terület frissítések száma lerenderelt képkockánként;
-of.options.CHUNK_UPDATES.tooltip.6=magasabb értékek instabilizálhatja az FPS-t.
+of.options.CHUNK_UPDATES.tooltip.5=Terület frissítések száma leképzett képkockánként,
+of.options.CHUNK_UPDATES.tooltip.6=magasabb értékek instabilizálhatják az FPS-t.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dinamikus Frissítések
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dinamikus terület frissítések
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= KI - (alapértelmezett) alap területfrissítések képkockánként
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= BE - több frissítés, amíg a játékos egy helyben áll
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=A Dinamikus Frissítések több területfrissítést eröltet, amíg
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=a játékos egy helyben áll, hogy a világ gyorsabban betöltsön.
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= KI - alapértelmezett területfrissítés képkockákként (alapértelmezett)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= BE - több frissítés, amiíg a játékos egy helyben áll
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=A dinamikus frissítések több területfrissítést eröltetnek, amíg
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=a játékos egy helyben áll, higy a világot gyorsabban töltse.
 
-of.options.LAZY_CHUNK_LOADING="Lusta Területek" Betöltése
-of.options.LAZY_CHUNK_LOADING.tooltip.1="Lusta Területek" betöltése
-of.options.LAZY_CHUNK_LOADING.tooltip.2= KI - alapértelmezett szerver terület betöltés
-of.options.LAZY_CHUNK_LOADING.tooltip.3= BE - "lusta" szerver terület betöltés (simább)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Simítja az inegrált szerver területbetöltését
-of.options.LAZY_CHUNK_LOADING.tooltip.5=a területek idönközötti "kattogásának" lekötésével.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=Kapcsold ki, ha a világ bizonyos részei nem töltenek be megfelelően.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Csak helyi világokban és egymagos CPU esetén effektív.
+of.options.LAZY_CHUNK_LOADING=Lusta Terület Töltés
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Lusta Terület Töltés
+of.options.LAZY_CHUNK_LOADING.tooltip.2= KI - alapértelmezett szerver területbetöltés
+of.options.LAZY_CHUNK_LOADING.tooltip.3= BE - lusta szerver területbetöltés (simább)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Kisimítja a a beépített szerver területtöltését
+of.options.LAZY_CHUNK_LOADING.tooltip.5=a területek számos tick közötti elosztásával.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Kapcsold KI ha a világ részei nem töltenek rendesen.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Csak lokális világokban hatásos (egyjátékos mód).
+
+of.options.RENDER_REGIONS=Régiók Leképzése
+of.options.RENDER_REGIONS.tooltip.1=Régiók Leképzése
+of.options.RENDER_REGIONS.tooltip.2= KI - ne használja a régiók leképzését (alapértelmezett)
+of.options.RENDER_REGIONS.tooltip.3= BE - régiók leképzésének használata
+of.options.RENDER_REGIONS.tooltip.4=A régiók leképzése gyorsabb domborzatbetöltést tesz lehetővé magasabb
+of.options.RENDER_REGIONS.tooltip.5=leképzési távolságoknál. Hatásosabb VBOkkal együtt.
+of.options.RENDER_REGIONS.tooltip.6=Nem ajánlott integrált videókártyákkal.
+
+of.options.SMART_ANIMATIONS=Okos Animációk
+of.options.SMART_ANIMATIONS.tooltip.1=Okos Animációk
+of.options.SMART_ANIMATIONS.tooltip.2= KI - ne használja az okos animációkat (alapértelmezett)
+of.options.SMART_ANIMATIONS.tooltip.3= BE - okos animációk használata
+of.options.SMART_ANIMATIONS.tooltip.4=Az okos animációkkal a játék csak azokat a textúrákat
+of.options.SMART_ANIMATIONS.tooltip.5=animálja, ami éppen látható a képernyőn.
+of.options.SMART_ANIMATIONS.tooltip.6=Ez csökkenti a tick lag tüskéket és növeli az FPS-t.
+of.options.SMART_ANIMATIONS.tooltip.7=Főleg hasznos nagy modpackeknél és HD forráscsomagoknál.
 
 # Animations
 
@@ -471,90 +644,121 @@ of.options.animation.allOn=Mind BE
 of.options.animation.allOff=Mind KI
 of.options.animation.dynamic=Dinamikus
 
-of.options.ANIMATED_WATER=Animált Víz
-of.options.ANIMATED_LAVA=Animált Láva
-of.options.ANIMATED_FIRE=Animált Tűz
-of.options.ANIMATED_PORTAL=Animált Portál
-of.options.ANIMATED_REDSTONE=Animált Vöröskő
-of.options.ANIMATED_EXPLOSION=Animált Robbanás
-of.options.ANIMATED_FLAME=Animált Lángok
+of.options.ANIMATED_WATER=Víz Animálva
+of.options.ANIMATED_LAVA=Láva Animálva
+of.options.ANIMATED_FIRE=Tűz Animálva
+of.options.ANIMATED_PORTAL=Portál Animálva
+of.options.ANIMATED_REDSTONE=Vöröskő ANimálva
+of.options.ANIMATED_EXPLOSION=Robbanás Animálva
+of.options.ANIMATED_FLAME=Láng Animálva
 of.options.ANIMATED_SMOKE=Animált Füst
 of.options.VOID_PARTICLES=Űr Részecskék
 of.options.WATER_PARTICLES=Víz Részecskék
-of.options.RAIN_SPLASH=Eső Felcsapódás
+of.options.RAIN_SPLASH=Eső Placcsanás
 of.options.PORTAL_PARTICLES=Portál Részecskék
 of.options.POTION_PARTICLES=Bájital Részecskék
-of.options.DRIPPING_WATER_LAVA=Kicsapó Víz/Láva
-of.options.ANIMATED_TERRAIN=Animált Terep
-of.options.ANIMATED_TEXTURES=Animált Textúrák
+of.options.DRIPPING_WATER_LAVA=Csöpögő Víz/Láva
+of.options.ANIMATED_TERRAIN=Terep Animálva
+of.options.ANIMATED_TEXTURES=Textúrák Animálva
 of.options.FIREWORK_PARTICLES=Tüzijáték Részecskék
 
 # Other
 
-of.options.LAGOMETER=Lagmérő
-of.options.LAGOMETER.tooltip.1=Mutatja a lagmérőt a hibakereső képernyőn (F3).
-of.options.LAGOMETER.tooltip.2=* Orange - Memóriaszemét gyűjtemény
-of.options.LAGOMETER.tooltip.3=* Cyan - "kegyegés"
-of.options.LAGOMETER.tooltip.4=* Blue - Ütemezett végrehajthatók
-of.options.LAGOMETER.tooltip.5=* Purple - Területfeltöltés
-of.options.LAGOMETER.tooltip.6=* Red - Terület frissítés
-of.options.LAGOMETER.tooltip.7=* Yellow - Láthatóságfigyelő
-of.options.LAGOMETER.tooltip.8=* Green - Terep renderelése
+of.options.LAGOMETER=Lagomérő
+of.options.LAGOMETER.tooltip.1=Megjeleníti a legmérőt a hibakereső képernyőn (F3).
+of.options.LAGOMETER.tooltip.2=* Narancs - Memóriaszemét gyűjtése
+of.options.LAGOMETER.tooltip.3=* Cián - Tick
+of.options.LAGOMETER.tooltip.4=* Kék - Időzített betöltendők
+of.options.LAGOMETER.tooltip.5=* Lila - Területfeltöltés
+of.options.LAGOMETER.tooltip.6=* Vörös - Területfrissítések
+of.options.LAGOMETER.tooltip.7=* Sárga - Láthatóságellenőrző
+of.options.LAGOMETER.tooltip.8=* Zöld - Terep leképzése
 
 of.options.PROFILER=Hibakereső Profil
 of.options.PROFILER.tooltip.1=Hibakereső Profil
 of.options.PROFILER.tooltip.2=  BE - hibakereső profil aktív, lassabb
 of.options.PROFILER.tooltip.3=  KI - hibakereső profil nem aktív, gyorsabb
-of.options.PROFILER.tooltip.4=A hibakereső profil hibakereső információkat gyűjt, és mutat,
-of.options.PROFILER.tooltip.5=amikor a hibakereső képernyő aktív (F3)
+of.options.PROFILER.tooltip.4=A hibakereső profil hibakereső információkat gyűjt és jelenít meg
+of.options.PROFILER.tooltip.5=amikor a hibakereső képernyő meg van nyitva (F3).
 
 of.options.WEATHER=Időjárás
 of.options.WEATHER.tooltip.1=Időjárás
 of.options.WEATHER.tooltip.2=  BE - az időjárás aktív, lassabb
 of.options.WEATHER.tooltip.3=  KI - az időjárás nem aktív, gyorsabb
-of.options.WEATHER.tooltip.4=Az időjárás irányítja az esőket, havazásokat, és a viharokat.
-of.options.WEATHER.tooltip.5=Az időjárás irányítása csak helyi világokban lehetséges.
+of.options.WEATHER.tooltip.4=Az időjárás írányítja az esőt, havazást és viharokat.
+of.options.WEATHER.tooltip.5=Az időjárás irányitása csak lokális világokban lehetséges.
 
 of.options.time.dayOnly=Csak Nappal
-of.options.time.nightOnly=Csak Éjszaka
+of.options.time.nightOnly=CSak Éjjel
 
 of.options.TIME=Idő
 of.options.TIME.tooltip.1=Idő
-of.options.TIME.tooltip.2= Alapértelmezett - normális éjjel-nappal körforgás
-of.options.TIME.tooltip.3= Csak Nappal - csak nappal
-of.options.TIME.tooltip.4= Csak Éjszaka - csak éjszaka
-of.options.TIME.tooltip.5=Az Idő beállítás csak KREATÍV módban,
-of.options.TIME.tooltip.6=és helyi világokban effektív.
+of.options.TIME.tooltip.2= Alapértelmezett - normál nappal/éjjel ciklus
+of.options.TIME.tooltip.3= Csak NAppal - csak nappal
+of.options.TIME.tooltip.4= CSak Éjjel - csak éjszaka
+of.options.TIME.tooltip.5=Az idő beállítás csak KREATÍV módban effektív,
+of.options.TIME.tooltip.6=és csak lokális világokban.
 
 options.fullscreen.tooltip.1=Teljes Képernyő
-options.fullscreen.tooltip.2=  BE - teljes képernyős mód használata
-options.fullscreen.tooltip.3=  KI - ablakos mód használata
-options.fullscreen.tooltip.4=A teljes képergyős mód gyorsabb, vagy lassabb lehet, mint
-options.fullscreen.tooltip.5=az ablakos mód a videókártyától függően.
+options.fullscreen.tooltip.2=  BE - Teljes Képernyő használata
+options.fullscreen.tooltip.3=  KI - ablakos mód alkalmazása
+options.fullscreen.tooltip.4=A teljes képernyő lassabb vagy gyorsabb lehet
+options.fullscreen.tooltip.5=az ablakos módtól videókártyától függően.
 
-of.options.FULLSCREEN_MODE=Teljes Képernyős Mód
-of.options.FULLSCREEN_MODE.tooltip.1=Teljes Képernyős mód
-of.options.FULLSCREEN_MODE.tooltip.2=  Alapértelmezett - asztal méretének használata, lassabb
-of.options.FULLSCREEN_MODE.tooltip.3=  WxH - egyéni felbontás használata, lehet gyorsabb
-of.options.FULLSCREEN_MODE.tooltip.4=A kiválasztott felbontás a teljes képernyős módban használatos (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Kisebb felbontások általában gyorsabbak.
+options.fullscreen.resolution=Teljes Képernyős Mód
+options.fullscreen.resolution.tooltip.1=Teljes Képernyős mód
+options.fullscreen.resolution.tooltip.2=  Alapértelmezett - asztal felbontásának használata, lassabb
+options.fullscreen.resolution.tooltip.3=  WxH - egyéni felbontás használata, gyorsabb lehet
+options.fullscreen.resolution.tooltip.4=A kiválasztott felbontás teljes képernyős módban használatos (F11).
+options.fullscreen.resolution.tooltip.5=Az alacsonyabb felbontások aáltalában gyorsabbak.
 
 of.options.SHOW_FPS=FPS Mutatása
-of.options.SHOW_FPS.tooltip.1=Mutatja a jelenlegi FPS számot, és renderelési információkat
-of.options.SHOW_FPS.tooltip.2=  C: - területek renderelése
-of.options.SHOW_FPS.tooltip.3=  E: - lerenderelt entitások + blokk entitások
-of.options.SHOW_FPS.tooltip.4=  U: - terület frissítések
-of.options.SHOW_FPS.tooltip.5=A jeéenlegi FPS információ csak akkor mutatkozik, ha a
-of.options.SHOW_FPS.tooltip.6=a hibakeresési képernyő nem látszik.
+of.options.SHOW_FPS.tooltip.1=Kompakt FPS és leképzési információkat mutat.
+of.options.SHOW_FPS.tooltip.2=  Fps - átlag/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - terület leképzők
+of.options.SHOW_FPS.tooltip.4=  E: - leképzett entitások + blokk entitások
+of.options.SHOW_FPS.tooltip.5=  U: - területfrissítések
+of.options.SHOW_FPS.tooltip.6=A kompakt FPS információ csak akkor látszik, ha a
+of.options.SHOW_FPS.tooltip.7=hibakereső képernyő nem látható.
 
-of.options.save.default=Alapértelmezett (2mp)
-of.options.save.20s=20mp
-of.options.save.3min=3p
-of.options.save.30min=30p
+of.options.save.45s=45mp
+of.options.save.90s=90mp
+of.options.save.3min=3perc
+of.options.save.6min=6perc
+of.options.save.12min=12perc
+of.options.save.24min=24perc
 
-of.options.AUTOSAVE_TICKS=Auto mentés
-of.options.AUTOSAVE_TICKS.tooltip.1=Az auto mentés intervalluma
-of.options.AUTOSAVE_TICKS.tooltip.2=Az alapértelmezett auto mentés intervallum (2mp) NEM JAVASOLT.
-of.options.AUTOSAVE_TICKS.tooltip.3=Az auto mentés okozza a híres "Halál lagtüskéjét" famous Lag Spike of Death.
+of.options.AUTOSAVE_TICKS=Automatikus mentés
+of.options.AUTOSAVE_TICKS.tooltip.1=Automatikus mentés intervalluma
+of.options.AUTOSAVE_TICKS.tooltip.2= 45mp - alapértelmezett
+of.options.AUTOSAVE_TICKS.tooltip.3=Az automatikus mentés lag tüskéket generálhat a leképzési távolságtól függően.
+of.options.AUTOSAVE_TICKS.tooltip.4=A világ akkor is mentődik, ha a menü megnyílik.
 
-options.anaglyph.tooltip.1=A 3D mód piros-cián szemüveggel használatos.
+of.options.SCREENSHOT_SIZE=Képernyőfotó Mérete
+of.options.SCREENSHOT_SIZE.tooltip.1=Képernyőfotó Mérete
+of.options.SCREENSHOT_SIZE.tooltip.2=  Alapértelmezett - alapértelmezett képernyőfotó méret
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - egyéni képernyőfotó méret
+of.options.SCREENSHOT_SIZE.tooltip.4=Nagyobb képernyőfotó készítéséhez több memóriára lehet szükség.
+of.options.SCREENSHOT_SIZE.tooltip.5=Nem kompatibilis a GYors Leképzéssel és az Élsimítással.
+of.options.SCREENSHOT_SIZE.tooltip.6=Szükséges GPU framebuffer támogatás.
+
+of.options.SHOW_GL_ERRORS=GL Hibák Mutatása
+of.options.SHOW_GL_ERRORS.tooltip.1=GL Hibák Mutatása
+of.options.SHOW_GL_ERRORS.tooltip.2=OpenGL hibák megjelennek a chatben amikor be van kapcsolva.
+of.options.SHOW_GL_ERRORS.tooltip.3=CSak akkor kapcsold ki, ha ismert konfliktus van, és
+of.options.SHOW_GL_ERRORS.tooltip.4=a hiba javíthatatlan.
+of.options.SHOW_GL_ERRORS.tooltip.5=Amikor ki van kapcsolva, ugyanúgy rögziítve lesznek
+of.options.SHOW_GL_ERRORS.tooltip.6=a hibaüzenetbe, és még mindig jelentős FPS zuhanást okozhat. 
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Chat Háttér
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Háttér
+of.options.CHAT_BACKGROUND.tooltip.2=  Alapértelmezett - rögzített szélesség
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompakt - vonal szélességével egyező
+of.options.CHAT_BACKGROUND.tooltip.4=  KI - rejtett
+
+of.options.CHAT_SHADOW=Chat Árnyék
+of.options.CHAT_SHADOW.tooltip.1=Chat Árnyék
+of.options.CHAT_SHADOW.tooltip.2=  BE - vannak betűárnyékok
+of.options.CHAT_SHADOW.tooltip.3=  KI - nincsenek betűárnyékok
