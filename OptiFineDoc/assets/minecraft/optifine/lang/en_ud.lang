@@ -3,7 +3,7 @@
 # Regnander for converting and proofreading the result
 
 # General
-of.general.ambiguous=snonƃᴉqɯɐ
+of.general.ambiguous=snonᵷᴉqɯɐ
 of.general.compact=ʇɔɐdɯoƆ
 of.general.custom=ɯoʇsnƆ
 of.general.from=ɯoɹℲ
@@ -16,42 +16,42 @@ of.general.smart=ʇɹɐɯS
 of.key.zoom=ɯooZ
 
 # Message
-of.message.aa.shaders2=˙sɹǝpɐɥS ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou sᴉ ƃuᴉsɐᴉꞁɐᴉʇu∀
+of.message.aa.shaders2=˙sɹǝpɐɥS ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou sᴉ ᵷuᴉsɐᴉꞁɐᴉʇuⱯ
 of.message.aa.shaders1=˙uoᴉʇdo sᴉɥʇ ǝꞁqɐuǝ oʇ sɹǝpɐɥS ǝꞁqɐsᴉp ǝsɐǝꞁԀ
 
-of.message.af.shaders2=˙sɹǝpɐɥS ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou sᴉ ƃuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉu∀
+of.message.af.shaders2=˙sɹǝpɐɥS ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou sᴉ ᵷuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉuⱯ
 of.message.af.shaders1=˙uoᴉʇdo sᴉɥʇ ǝꞁqɐuǝ oʇ sɹǝpɐɥS ǝꞁqɐsᴉp ǝsɐǝꞁԀ
 
 of.message.fr.shaders2=˙sɹǝpɐɥS ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou sᴉ ɹǝpuǝɹ ʇsɐℲ
 of.message.fr.shaders1=˙uoᴉʇdo sᴉɥʇ ǝꞁqɐuǝ oʇ sɹǝpɐɥS ǝꞁqɐsᴉp ǝsɐǝꞁԀ
 
-of.message.an.shaders2=˙sɹǝpɐɥS ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou sᴉ ɥdʎꞁƃɐu∀ pƐ
+of.message.an.shaders2=˙sɹǝpɐɥS ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou sᴉ ɥdʎꞁᵷɐuⱯ pƐ
 of.message.an.shaders1=˙uoᴉʇdo sᴉɥʇ ǝꞁqɐuǝ oʇ sɹǝpɐɥS ǝꞁqɐsᴉp ǝsɐǝꞁԀ
 
-of.message.shaders.aa2=˙ƃuᴉsɐᴉꞁɐᴉʇu∀ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
-of.message.shaders.aa1=˙ǝɯɐƃ ǝɥʇ ʇɹɐʇsǝɹ puɐ ℲℲO oʇ ƃuᴉsɐᴉꞁɐᴉʇu∀ <- ʎʇᴉꞁɐnQ ʇǝs ǝsɐǝꞁԀ
+of.message.shaders.aa2=˙ᵷuᴉsɐᴉꞁɐᴉʇuⱯ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
+of.message.shaders.aa1=˙ǝɯɐᵷ ǝɥʇ ʇɹɐʇsǝɹ puɐ ℲℲO oʇ ᵷuᴉsɐᴉꞁɐᴉʇuⱯ <- ʎʇᴉꞁɐnQ ʇǝs ǝsɐǝꞁԀ
 
-of.message.shaders.af2=˙ƃuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉu∀ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
-of.message.shaders.af1=˙ℲℲO oʇ ƃuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉu∀ <- ʎʇᴉꞁɐnQ ʇǝs ǝsɐǝꞁԀ
+of.message.shaders.af2=˙ᵷuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉuⱯ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
+of.message.shaders.af1=˙ℲℲO oʇ ᵷuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉuⱯ <- ʎʇᴉꞁɐnQ ʇǝs ǝsɐǝꞁԀ
 
 of.message.shaders.fr2=˙ɹǝpuǝɹ ʇsɐℲ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
 of.message.shaders.fr1=˙ℲℲO oʇ ɹǝpuǝɹ ʇsɐℲ <- ǝɔuɐɯɹoɟɹǝԀ ʇǝs ǝsɐǝꞁԀ
 
-of.message.shaders.an2=˙ɥdʎꞁƃɐu∀ pƐ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
-of.message.shaders.an1=˙ℲℲO oʇ ɥdʎꞁƃɐu∀ pƐ <- ɹǝɥʇo ʇǝs ǝsɐǝꞁԀ
+of.message.shaders.an2=˙ɥdʎꞁᵷɐuⱯ pƐ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
+of.message.shaders.an1=˙ℲℲO oʇ ɥdʎꞁᵷɐuⱯ pƐ <- ɹǝɥʇo ʇǝs ǝsɐǝꞁԀ
 
 of.message.shaders.nv2=s% :uoᴉsɹǝʌ ǝuᴉℲᴉʇdO ɹǝʍǝu ɐ sǝɹᴉnbǝɹ ʞɔɐd ɹǝpɐɥs sᴉɥ⟘
-of.message.shaders.nv1=¿ǝnuᴉʇuoɔ oʇ ʇuɐʍ noʎ ǝɹns noʎ ǝɹ∀
+of.message.shaders.nv1=¿ǝnuᴉʇuoɔ oʇ ʇuɐʍ noʎ ǝɹns noʎ ǝɹⱯ
 
-of.message.newVersion=§e%s§f :ǝꞁqɐꞁᴉɐʌɐ sᴉ uoᴉsɹǝʌ §eǝuᴉℲᴉʇdO§f ʍǝu ∀
+of.message.newVersion=§e%s§f :ǝꞁqɐꞁᴉɐʌɐ sᴉ uoᴉsɹǝʌ §eǝuᴉℲᴉʇdO§f ʍǝu Ɐ
 of.message.java64Bit=˙ǝɔuɐɯɹoɟɹǝd ǝsɐǝɹɔuᴉ oʇ §eɐʌɐſ ʇᴉq-߈9§f ꞁꞁɐʇsuᴉ uɐɔ no⅄
-of.message.openglError=(s%) s% :§eɹoɹɹƎ ˥פuǝdO§f
+of.message.openglError=(s%) s% :§eɹoɹɹƎ ꞀפuǝdO§f
 
-of.message.shaders.loading=s% :sɹǝpɐɥs ƃuᴉpɐo˥
+of.message.shaders.loading=s% :sɹǝpɐɥs ᵷuᴉpɐoꞀ
 
-of.message.other.reset=¿sǝnꞁɐʌ ʇꞁnɐɟǝp ɹᴉǝɥʇ oʇ sƃuᴉʇʇǝs oǝpᴉʌ ꞁꞁɐ ʇǝsǝᴚ
+of.message.other.reset=¿sǝnꞁɐʌ ʇꞁnɐɟǝp ɹᴉǝɥʇ oʇ sᵷuᴉʇʇǝs oǝpᴉʌ ꞁꞁɐ ʇǝsǝᴚ
 
-of.message.loadingVisibleChunks=sʞunɥɔ ǝꞁqᴉsᴉʌ ƃuᴉpɐo˥
+of.message.loadingVisibleChunks=sʞunɥɔ ǝꞁqᴉsᴉʌ ᵷuᴉpɐoꞀ
 
 # Skin customization
 
@@ -59,21 +59,23 @@ of.options.skinCustomisation.ofCape=˙˙˙ǝdɐƆ ǝuᴉℲᴉʇdO
 
 of.options.capeOF.title=ǝdɐƆ ǝuᴉℲᴉʇdO
 of.options.capeOF.openEditor=ɹoʇᴉpƎ ǝdɐƆ uǝdO
-of.options.capeOF.reloadCape=ǝdɐƆ pɐolǝᴚ
+of.options.capeOF.reloadCape=ǝdɐƆ pɐoꞁǝᴚ
+of.options.capeOF.copyEditorLink=pɹɐoqdᴉꞁƆ oʇ ʞuᴉꞀ ʎdoƆ
 
 of.message.capeOF.openEditor=˙ɹǝsʍoɹq qǝʍ ɐ uᴉ uǝdo pꞁnoɥs ɹoʇᴉpǝ ǝdɐɔ ǝuᴉℲᴉʇdO ǝɥ⟘
+of.message.capeOF.openEditorError=˙ɹǝsʍoɹq qǝʍ ɐ uᴉ ʞuᴉꞀ ɹoʇᴉpǝ ǝɥʇ ᵷuᴉuǝdo ɹoɹɹƎ
 of.message.capeOF.reloadCape=˙spuoɔǝs ϛ⥝ uᴉ pǝpɐoꞁǝɹ ǝq ꞁꞁᴉʍ ǝdɐɔ ǝɥ⟘
 
-of.message.capeOF.error2=pǝꞁᴉɐɟ uoᴉʇɐɔᴉʇuǝɥʇnɐ ƃuɐɾoW.
+of.message.capeOF.error2=pǝꞁᴉɐɟ uoᴉʇɐɔᴉʇuǝɥʇnɐ ᵷuɐɾoW.
 of.message.capeOF.error1=%s: ɹoɹɹƎ
 
 # Video settings
 
 options.graphics.tooltip.5=ʎʇᴉꞁɐnb ꞁɐnsᴉΛ
 options.graphics.tooltip.4=ɹǝʇsɐɟ 'ʎʇᴉꞁɐnb ɹǝʍoꞁ -  ʇsɐℲ  
-options.graphics.tooltip.3=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ɹǝɥƃᴉɥ - ʎɔuɐℲ  
-options.graphics.tooltip.2='ɹǝʇɐʍ 'sǝʌɐǝꞁ 'spnoꞁɔ ɟo ǝɔuɐɹɐǝddɐ ǝɥʇ sǝƃuɐɥƆ
-options.graphics.tooltip.1=˙sǝpᴉs ssɐɹƃ puɐ sʍopɐɥs
+options.graphics.tooltip.3=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ɹǝɥᵷᴉɥ - ʎɔuɐℲ  
+options.graphics.tooltip.2='ɹǝʇɐʍ 'sǝʌɐǝꞁ 'spnoꞁɔ ɟo ǝɔuɐɹɐǝddɐ ǝɥʇ sǝᵷuɐɥƆ
+options.graphics.tooltip.1=˙sǝpᴉs ssɐɹᵷ puɐ sʍopɐɥs
 
 of.options.renderDistance.tiny=ʎuᴉ⟘
 of.options.renderDistance.short=ʇɹoɥS
@@ -81,21 +83,21 @@ of.options.renderDistance.normal=ꞁɐɯɹoN
 of.options.renderDistance.far=ɹɐℲ
 of.options.renderDistance.extreme=ǝɯǝɹʇxƎ
 of.options.renderDistance.insane=ǝuɐsuI
-of.options.renderDistance.ludicrous=snoɹɔᴉpn˥
+of.options.renderDistance.ludicrous=snoɹɔᴉpnꞀ
 
 options.renderDistance.tooltip.8=ǝɔuɐʇsᴉp ǝꞁqᴉsᴉΛ
 options.renderDistance.tooltip.7=(ʇsǝʇsɐɟ) ɯᘔƐ - ʎuᴉ⟘ ᘔ  
 options.renderDistance.tooltip.6=(ꞁɐɯɹou) ɯ8ᘔ⥝ - ꞁɐɯɹoN 8  
 options.renderDistance.tooltip.5=(ɹǝʍoꞁs) ɯ9ϛᘔ - ɹɐℲ 9⥝  
-options.renderDistance.tooltip.4=ƃuᴉpuɐɯǝp ǝɔɹnosǝɹ ʎɹǝʌ (¡ʇsǝʍoꞁs) ɯᘔ⥝ϛ - ǝɯǝɹʇxƎ ᘔƐ  
-options.renderDistance.tooltip.3=pǝʇɐɔoꞁꞁɐ W∀ɹ qפᘔ spǝǝu 'ɯ89ㄥ - ǝuɐsuI 8߈  
-options.renderDistance.tooltip.2=pǝʇɐɔoꞁꞁɐ W∀ɹ qפƐ spǝǝu 'ɯ߈ᘔ0⥝ - snoɹɔᴉpn˥ ߈9  
+options.renderDistance.tooltip.4=ᵷuᴉpuɐɯǝp ǝɔɹnosǝɹ ʎɹǝʌ (¡ʇsǝʍoꞁs) ɯᘔ⥝ϛ - ǝɯǝɹʇxƎ ᘔƐ  
+options.renderDistance.tooltip.3=pǝʇɐɔoꞁꞁɐ WⱯɹ qפᘔ spǝǝu 'ɯ89ㄥ - ǝuɐsuI 8߈  
+options.renderDistance.tooltip.2=pǝʇɐɔoꞁꞁɐ WⱯɹ qפƐ spǝǝu 'ɯ߈ᘔ0⥝ - snoɹɔᴉpnꞀ ߈9  
 options.renderDistance.tooltip.1=˙spꞁɹoʍ ꞁɐɔoꞁ uᴉ ǝʌᴉʇɔǝɟɟǝ ʎꞁuo ǝɹɐ ɹɐℲ 9⥝ ɹǝʌo sǝnꞁɐΛ
 
-options.ao.tooltip.4=ƃuᴉʇɥƃᴉꞁ ɥʇooɯS
-options.ao.tooltip.3=(ɹǝʇsɐɟ) ƃuᴉʇɥƃᴉꞁ ɥʇooɯs ou - ℲℲO  
-options.ao.tooltip.2=(ɹǝʍoꞁs) ƃuᴉʇɥƃᴉꞁ ɥʇooɯs ǝꞁdɯᴉs - ɯnɯᴉuᴉW  
-options.ao.tooltip.1=(ʇsǝʍoꞁs) ƃuᴉʇɥƃᴉꞁ ɥʇooɯs xǝꞁdɯoɔ - ɯnɯᴉxɐW  
+options.ao.tooltip.4=ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯS
+options.ao.tooltip.3=(ɹǝʇsɐɟ) ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯs ou - ℲℲO  
+options.ao.tooltip.2=(ɹǝʍoꞁs) ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯs ǝꞁdɯᴉs - ɯnɯᴉuᴉW  
+options.ao.tooltip.1=(ʇsǝʍoꞁs) ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯs xǝꞁdɯoɔ - ɯnɯᴉxɐW  
 
 options.framerateLimit.tooltip.6=ǝʇɐɹǝɯɐɹɟ xɐW
 options.framerateLimit.tooltip.5=(0ᘔ '0Ɛ '09) ǝʇɐɹǝɯɐɹɟ ɹoʇᴉuoɯ oʇ ʇᴉɯᴉꞁ - ɔuʎSΛ  
@@ -105,67 +107,74 @@ options.framerateLimit.tooltip.2=ɟᴉ uǝʌǝ SԀℲ ǝɥʇ sǝsɐǝɹɔǝp ʇ�
 options.framerateLimit.tooltip.1=˙pǝɥɔɐǝɹ ʇou sᴉ ǝnꞁɐʌ ʇᴉɯᴉꞁ ǝɥʇ
 of.options.framerateLimit.vsync=ɔuʎSΛ
 
-of.options.AO_LEVEL=ꞁǝʌǝ˥ ƃuᴉʇɥƃᴉ˥ ɥʇooɯS
-of.options.AO_LEVEL.tooltip.4=ꞁǝʌǝꞁ ƃuᴉʇɥƃᴉꞁ ɥʇooɯS
+of.options.AO_LEVEL=ꞁǝʌǝꞀ ᵷuᴉʇɥᵷᴉꞀ ɥʇooɯS
+of.options.AO_LEVEL.tooltip.4=ꞁǝʌǝꞁ ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯS
 of.options.AO_LEVEL.tooltip.3=sʍopɐɥs ou - ℲℲO  
-of.options.AO_LEVEL.tooltip.2=sʍopɐɥs ʇɥƃᴉꞁ - %%0ϛ  
+of.options.AO_LEVEL.tooltip.2=sʍopɐɥs ʇɥᵷᴉꞁ - %%0ϛ  
 of.options.AO_LEVEL.tooltip.1=sʍopɐɥs ʞɹɐp - %%00⥝  
 
 options.viewBobbing.tooltip.2=˙ʇuǝɯǝʌoɯ ɔᴉʇsᴉꞁɐǝɹ ǝɹoW
-options.viewBobbing.tooltip.1=˙sʇꞁnsǝɹ ʇsǝq ɹoɟ ℲℲO oʇ ʇᴉ ʇǝs sdɐɯdᴉɯ ƃuᴉsn uǝɥM
+options.viewBobbing.tooltip.1=˙sʇꞁnsǝɹ ʇsǝq ɹoɟ ℲℲO oʇ ʇᴉ ʇǝs sdɐɯdᴉɯ ᵷuᴉsn uǝɥM
 
 options.guiScale.tooltip.6=ǝꞁɐɔS I∩פ
-options.guiScale.tooltip.5=ǝzᴉs ꞁɐɯᴉxɐɯ - oʇn∀  
-options.guiScale.tooltip.4=xƐ oʇ x⥝ - ǝƃɹɐ˥ 'ꞁɐɯɹoN 'ꞁꞁɐɯS  
+options.guiScale.tooltip.5=ǝzᴉs ꞁɐɯᴉxɐɯ - oʇnⱯ  
+options.guiScale.tooltip.4=xƐ oʇ x⥝ - ǝᵷɹɐꞀ 'ꞁɐɯɹoN 'ꞁꞁɐɯS  
 options.guiScale.tooltip.3=sʎɐꞁdsᴉp ʞ߈ uo ǝꞁqɐꞁᴉɐʌɐ - x0⥝ oʇ x߈  
 options.guiScale.tooltip.2=˙ǝpoɔᴉu∩ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ (˙˙˙ xϛ 'xƐ 'x⥝) sǝnꞁɐʌ ppO
-options.guiScale.tooltip.1=˙ɹǝʇsɐɟ ǝq ʎɐɯ I∩פ ɹǝꞁꞁɐɯs ∀
+options.guiScale.tooltip.1=˙ɹǝʇsɐɟ ǝq ʎɐɯ I∩פ ɹǝꞁꞁɐɯs Ɐ
 
 options.vbo.tooltip.3=sʇɔǝɾqo ɹǝɟɟnq xǝʇɹǝΛ
-options.vbo.tooltip.2=ʎꞁꞁɐnsn sᴉ ɥɔᴉɥʍ ꞁǝpoɯ ƃuᴉɹǝpuǝɹ ǝʌᴉʇɐuɹǝʇꞁɐ uɐ sǝs∩
-options.vbo.tooltip.1=˙ƃuᴉɹǝpuǝɹ ʇꞁnɐɟǝp ǝɥʇ uɐɥʇ (%%0⥝-ϛ) ɹǝʇsɐɟ
+options.vbo.tooltip.2=ʎꞁꞁɐnsn sᴉ ɥɔᴉɥʍ ꞁǝpoɯ ᵷuᴉɹǝpuǝɹ ǝʌᴉʇɐuɹǝʇꞁɐ uɐ sǝs∩
+options.vbo.tooltip.1=˙ᵷuᴉɹǝpuǝɹ ʇꞁnɐɟǝp ǝɥʇ uɐɥʇ (%%0⥝-ϛ) ɹǝʇsɐɟ
 options.vbo=sOᗺΛ ǝs∩
 
-options.gamma.tooltip.6=˙sʇɔǝɾqo ɹǝʞɹɐp ɟo ssǝuʇɥƃᴉɹq ǝɥʇ sǝƃuɐɥƆ
-options.gamma.tooltip.5=ssǝuʇɥƃᴉɹq pɹɐpuɐʇs - ʎpooW  
+options.gamma.tooltip.6=˙sʇɔǝɾqo ɹǝʞɹɐp ɟo ssǝuʇɥᵷᴉɹq ǝɥʇ sǝᵷuɐɥƆ
+options.gamma.tooltip.5=ssǝuʇɥᵷᴉɹq pɹɐpuɐʇs - ʎpooW  
 options.gamma.tooltip.4=ǝꞁqɐᴉɹɐʌ - %%66-⥝  
-options.gamma.tooltip.3=sʇɔǝɾqo ɹǝʞɹɐp ɹoɟ ssǝuʇɥƃᴉɹq ɯnɯᴉxɐɯ - ʇɥƃᴉɹq  
-options.gamma.tooltip.2= ɟo ssǝuʇɥƃᴉɹq ǝɥʇ ǝƃuɐɥɔ ʇou sǝop uoᴉʇdo sᴉɥ⟘
+options.gamma.tooltip.3=sʇɔǝɾqo ɹǝʞɹɐp ɹoɟ ssǝuʇɥᵷᴉɹq ɯnɯᴉxɐɯ - ʇɥᵷᴉɹq  
+options.gamma.tooltip.2= ɟo ssǝuʇɥᵷᴉɹq ǝɥʇ ǝᵷuɐɥɔ ʇou sǝop uoᴉʇdo sᴉɥ⟘
 options.gamma.tooltip.1=˙sʇɔǝɾqo ʞɔɐꞁq ʎꞁꞁnɟ
 
-options.anaglyph.tooltip.4=ɥdʎꞁƃɐu∀ pƐ
-options.anaglyph.tooltip.3=sɹnoꞁoɔ ʇuǝɹǝɟɟᴉp ƃuᴉsn ʇɔǝɟɟǝ pƐ ɔᴉdoɔsoǝɹǝʇs ɐ sǝꞁqɐuƎ
+options.anaglyph.tooltip.4=ɥdʎꞁᵷɐuⱯ pƐ
+options.anaglyph.tooltip.3=sɹnoꞁoɔ ʇuǝɹǝɟɟᴉp ᵷuᴉsn ʇɔǝɟɟǝ pƐ ɔᴉdoɔsoǝɹǝʇs ɐ sǝꞁqɐuƎ
 options.anaglyph.tooltip.2=˙ǝʎǝ ɥɔɐǝ ɹoɟ
-options.anaglyph.tooltip.1=˙ƃuᴉʍǝᴉʌ ɹǝdoɹd ɹoɟ sǝssɐꞁƃ uɐʎɔ-pǝɹ sǝɹᴉnbǝᴚ
+options.anaglyph.tooltip.1=˙ᵷuᴉʍǝᴉʌ ɹǝdoɹd ɹoɟ sǝssɐꞁᵷ uɐʎɔ-pǝɹ sǝɹᴉnbǝᴚ
 
-of.options.ALTERNATE_BLOCKS=sʞɔoꞁq ǝʇɐuɹǝʇꞁ∀
-of.options.ALTERNATE_BLOCKS.tooltip.3=sʞɔoꞁq ǝʇɐuɹǝʇꞁ∀
+options.attackIndicator.tooltip.6=ɹoʇɐɔᴉpuᴉ ʞɔɐʇʇɐ ǝɥʇ ɟo uoᴉʇᴉsod ǝɥʇ sǝɹnbᴉɟuoƆ
+options.attackIndicator.tooltip.5=ɹᴉɐɥssoɹɔ ǝɥʇ ɹǝpun - ɹᴉɐɥssoɹƆ  
+options.attackIndicator.tooltip.4=ɹɐqʇoɥ ǝɥʇ oʇ ʇxǝu - ɹɐqʇoH  
+options.attackIndicator.tooltip.3=ɹoʇɐɔᴉpuᴉ ʞɔɐʇʇɐ ou - ℲℲO  
+options.attackIndicator.tooltip.2=ǝɥʇ ɟo ɹǝʍod ʞɔɐʇʇɐ ǝɥʇ sʍoɥs ɹoʇɐɔᴉpuᴉ ʞɔɐʇʇɐ ǝɥ⟘
+options.attackIndicator.tooltip.1=ɯǝʇᴉ pǝddᴉnbǝ ʎꞁʇuǝɹɹnɔ
+
+of.options.ALTERNATE_BLOCKS=sʞɔoꞁq ǝʇɐuɹǝʇꞁⱯ
+of.options.ALTERNATE_BLOCKS.tooltip.3=sʞɔoꞁq ǝʇɐuɹǝʇꞁⱯ
 of.options.ALTERNATE_BLOCKS.tooltip.2=˙sʞɔoꞁq ǝɯos ɹoɟ sꞁǝpoɯ ʞɔoꞁq ǝʌᴉʇɐuɹǝʇꞁɐ sǝs∩
-of.options.ALTERNATE_BLOCKS.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ pǝʇɔǝꞁǝs ǝɥʇ uo spuǝdǝp
+of.options.ALTERNATE_BLOCKS.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ pǝʇɔǝꞁǝs ǝɥʇ uo spuǝdǝᗡ
 
-of.options.FOG_FANCY=ƃoℲ
-of.options.FOG_FANCY.tooltip.6=ǝdʎʇ ƃoℲ
-of.options.FOG_FANCY.tooltip.5=ƃoɟ ɹǝʇsɐɟ - ʇsɐℲ  
-of.options.FOG_FANCY.tooltip.4=ɹǝʇʇǝq sʞooꞁ 'ƃoɟ ɹǝʍoꞁs - ʎɔuɐℲ  
-of.options.FOG_FANCY.tooltip.3=ʇsǝʇsɐɟ 'ƃoɟ ou - ℲℲO  
-of.options.FOG_FANCY.tooltip.2= ǝɥʇ ʎq pǝʇɹoddns sᴉ ʇᴉ ɟᴉ ʎꞁuo ǝꞁqɐꞁᴉɐʌɐ sᴉ ƃoɟ ʎɔuɐɟ ǝɥ⟘
-of.options.FOG_FANCY.tooltip.1=˙pɹɐɔ ɔᴉɥdɐɹƃ
+of.options.FOG_FANCY=ᵷoℲ
+of.options.FOG_FANCY.tooltip.6=ǝdʎʇ ᵷoℲ
+of.options.FOG_FANCY.tooltip.5=ᵷoɟ ɹǝʇsɐɟ - ʇsɐℲ  
+of.options.FOG_FANCY.tooltip.4=ɹǝʇʇǝq sʞooꞁ 'ᵷoɟ ɹǝʍoꞁs - ʎɔuɐℲ  
+of.options.FOG_FANCY.tooltip.3=ʇsǝʇsɐɟ 'ᵷoɟ ou - ℲℲO  
+of.options.FOG_FANCY.tooltip.2= ǝɥʇ ʎq pǝʇɹoddns sᴉ ʇᴉ ɟᴉ ʎꞁuo ǝꞁqɐꞁᴉɐʌɐ sᴉ ᵷoɟ ʎɔuɐɟ ǝɥ⟘
+of.options.FOG_FANCY.tooltip.1=˙pɹɐɔ ɔᴉɥdɐɹᵷ
 
-of.options.FOG_START=ʇɹɐʇS ƃoℲ
-of.options.FOG_START.tooltip.4=ʇɹɐʇs ƃoℲ
-of.options.FOG_START.tooltip.3=ɹǝʎɐꞁd ǝɥʇ ɹɐǝu sʇɹɐʇs ƃoɟ ǝɥʇ - ᘔ˙0  
-of.options.FOG_START.tooltip.2=ɹǝʎɐꞁd ǝɥʇ ɯoɹɟ ɹɐɟ sʇɹɐʇs ƃoɟ ǝɥʇ - 8˙0  
+of.options.FOG_START=ʇɹɐʇS ᵷoℲ
+of.options.FOG_START.tooltip.4=ʇɹɐʇs ᵷoℲ
+of.options.FOG_START.tooltip.3=ɹǝʎɐꞁd ǝɥʇ ɹɐǝu sʇɹɐʇs ᵷoɟ ǝɥʇ - ᘔ˙0  
+of.options.FOG_START.tooltip.2=ɹǝʎɐꞁd ǝɥʇ ɯoɹɟ ɹɐɟ sʇɹɐʇs ᵷoɟ ǝɥʇ - 8˙0  
 of.options.FOG_START.tooltip.1=˙ǝɔuɐɯɹoɟɹǝd ǝɥʇ ʇɔǝɟɟɐ ʇou sǝop ʎꞁꞁɐnsn uoᴉʇdo sᴉɥ⟘
 
-of.options.CHUNK_LOADING=ƃuᴉpɐo˥ ʞunɥƆ
-of.options.CHUNK_LOADING.tooltip.8=ƃuᴉpɐo˥ ʞunɥƆ
-of.options.CHUNK_LOADING.tooltip.7=sʞunɥɔ ƃuᴉpɐoꞁ uǝɥʍ SԀℲ ǝꞁqɐʇsun - ʇꞁnɐɟǝp  
+of.options.CHUNK_LOADING=ᵷuᴉpɐoꞀ ʞunɥƆ
+of.options.CHUNK_LOADING.tooltip.8=ᵷuᴉpɐoꞀ ʞunɥƆ
+of.options.CHUNK_LOADING.tooltip.7=sʞunɥɔ ᵷuᴉpɐoꞁ uǝɥʍ SԀℲ ǝꞁqɐʇsun - ʇꞁnɐɟǝp  
 of.options.CHUNK_LOADING.tooltip.6=SԀℲ ǝꞁqɐʇs - ɥʇooɯS  
-of.options.CHUNK_LOADING.tooltip.5=ƃuᴉpɐoꞁ pꞁɹoʍ ɹǝʇsɐɟ xƐ 'SԀℲ ǝꞁqɐʇs - ǝɹoƆ-ᴉʇꞁnW  
-of.options.CHUNK_LOADING.tooltip.4= puɐ ƃuᴉɹǝʇʇnʇs ǝɥʇ ǝʌoɯǝɹ ǝɹoƆ-ᴉʇꞁnW puɐ ɥʇooɯS
-of.options.CHUNK_LOADING.tooltip.3=˙ƃuᴉpɐoꞁ ʞunɥɔ ʎq pǝsnɐɔ sǝzǝǝɹɟ
-of.options.CHUNK_LOADING.tooltip.2=puɐ ƃuᴉpɐoꞁ pꞁɹoʍ ǝɥʇ xƐ dn pǝǝds uɐɔ ǝɹoƆ-ᴉʇꞁnW
-of.options.CHUNK_LOADING.tooltip.1=˙ǝɹoɔ ∩ԀƆ puoɔǝs ɐ ƃuᴉsn ʎq SԀℲ ǝsɐǝɹɔuᴉ
+of.options.CHUNK_LOADING.tooltip.5=ᵷuᴉpɐoꞁ pꞁɹoʍ ɹǝʇsɐɟ xƐ 'SԀℲ ǝꞁqɐʇs - ǝɹoƆ-ᴉʇꞁnW  
+of.options.CHUNK_LOADING.tooltip.4= puɐ ᵷuᴉɹǝʇʇnʇs ǝɥʇ ǝʌoɯǝɹ ǝɹoƆ-ᴉʇꞁnW puɐ ɥʇooɯS
+of.options.CHUNK_LOADING.tooltip.3=˙ᵷuᴉpɐoꞁ ʞunɥɔ ʎq pǝsnɐɔ sǝzǝǝɹɟ
+of.options.CHUNK_LOADING.tooltip.2=puɐ ᵷuᴉpɐoꞁ pꞁɹoʍ ǝɥʇ xƐ dn pǝǝds uɐɔ ǝɹoƆ-ᴉʇꞁnW
+of.options.CHUNK_LOADING.tooltip.1=˙ǝɹoɔ ∩ԀƆ puoɔǝs ɐ ᵷuᴉsn ʎq SԀℲ ǝsɐǝɹɔuᴉ
 of.options.chunkLoading.smooth=ɥʇooɯS
 of.options.chunkLoading.multiCore=ǝɹoƆ-ᴉʇꞁnW
 
@@ -175,13 +184,13 @@ of.options.shadersTitle=sɹǝpɐɥS
 of.options.shaders.packNone=ℲℲO
 of.options.shaders.packDefault=(ꞁɐuɹǝʇuᴉ)
 
-of.options.shaders.ANTIALIASING=ƃuᴉsɐᴉꞁɐᴉʇu∀
-of.options.shaders.ANTIALIASING.tooltip.7=ƃuᴉsɐᴉꞁɐᴉʇu∀
-of.options.shaders.ANTIALIASING.tooltip.6=(ɹǝʇsɐɟ) ƃuᴉsɐᴉꞁɐᴉʇuɐ ou (ʇꞁnɐɟǝp) - ℲℲO  
-of.options.shaders.ANTIALIASING.tooltip.5=(ɹǝʍoꞁs) sǝƃpǝ puɐ sǝuᴉꞁ pǝsɐᴉꞁɐᴉʇuɐ - x߈ 'xᘔ ∀∀XℲ  
-of.options.shaders.ANTIALIASING.tooltip.4=sɥʇooɯs ɥɔᴉɥʍ ʇɔǝɟɟǝ ƃuᴉssǝɔoɹd-ʇsod ɐ sᴉ ∀∀XℲ
-of.options.shaders.ANTIALIASING.tooltip.3=˙suoᴉʇᴉsuɐɹʇ ɹoꞁoɔ dɹɐɥs puɐ sǝuᴉꞁ pǝƃƃɐɾ
-of.options.shaders.ANTIALIASING.tooltip.2=ƃuᴉsɐᴉꞁɐᴉʇuɐ ꞁɐuoᴉʇᴉpɐɹʇ uɐɥʇ ɹǝʇsɐɟ sᴉ ʇI
+of.options.shaders.ANTIALIASING=ᵷuᴉsɐᴉꞁɐᴉʇuⱯ
+of.options.shaders.ANTIALIASING.tooltip.7=ᵷuᴉsɐᴉꞁɐᴉʇuⱯ
+of.options.shaders.ANTIALIASING.tooltip.6=(ɹǝʇsɐɟ) ᵷuᴉsɐᴉꞁɐᴉʇuɐ ou (ʇꞁnɐɟǝp) - ℲℲO  
+of.options.shaders.ANTIALIASING.tooltip.5=(ɹǝʍoꞁs) sǝᵷpǝ puɐ sǝuᴉꞁ pǝsɐᴉꞁɐᴉʇuɐ - x߈ 'xᘔ ⱯⱯXℲ  
+of.options.shaders.ANTIALIASING.tooltip.4=sɥʇooɯs ɥɔᴉɥʍ ʇɔǝɟɟǝ ᵷuᴉssǝɔoɹd-ʇsod ɐ sᴉ ⱯⱯXℲ
+of.options.shaders.ANTIALIASING.tooltip.3=˙suoᴉʇᴉsuɐɹʇ ɹoꞁoɔ dɹɐɥs puɐ sǝuᴉꞁ pǝᵷᵷɐɾ
+of.options.shaders.ANTIALIASING.tooltip.2=ᵷuᴉsɐᴉꞁɐᴉʇuɐ ꞁɐuoᴉʇᴉpɐɹʇ uɐɥʇ ɹǝʇsɐɟ sᴉ ʇI
 of.options.shaders.ANTIALIASING.tooltip.1=  ˙ɹǝpuǝɹ ʇsɐℲ puɐ sɹǝpɐɥs ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ sᴉ puɐ
 
 of.options.shaders.NORMAL_MAP=dɐW ꞁɐɯɹoN
@@ -189,7 +198,7 @@ of.options.shaders.NORMAL_MAP.tooltip.7=dɐW ꞁɐɯɹoN
 of.options.shaders.NORMAL_MAP.tooltip.6= sdɐɯ ꞁɐɯɹou ǝꞁqɐuǝ (ʇꞁnɐɟǝp) - NO  
 of.options.shaders.NORMAL_MAP.tooltip.5=sdɐɯ ꞁɐɯɹou ǝꞁqɐsᴉp - ℲℲO  
 of.options.shaders.NORMAL_MAP.tooltip.4=ʞɔɐd ɹǝpɐɥs ǝɥʇ ʎq pǝsn ǝq uɐɔ sdɐɯ ꞁɐɯɹoN
-of.options.shaders.NORMAL_MAP.tooltip.3=˙sǝɔɐɟɹns ꞁǝpoɯ ʇɐꞁɟ uo ʎɹʇǝɯoǝƃ pƐ ǝʇɐꞁnɯᴉs oʇ
+of.options.shaders.NORMAL_MAP.tooltip.3=˙sǝɔɐɟɹns ꞁǝpoɯ ʇɐꞁɟ uo ʎɹʇǝɯoǝᵷ pƐ ǝʇɐꞁnɯᴉs oʇ
 of.options.shaders.NORMAL_MAP.tooltip.2=ǝɥʇ ʎq pǝᴉꞁddns ǝɹɐ sǝɹnʇxǝʇ dɐɯ ꞁɐɯɹou ǝɥ⟘
 of.options.shaders.NORMAL_MAP.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ ʇuǝɹɹnɔ
 
@@ -206,21 +215,21 @@ of.options.shaders.RENDER_RES_MUL=ʎʇᴉꞁɐnQ ɹǝpuǝᴚ
 of.options.shaders.RENDER_RES_MUL.tooltip.8=ʎʇᴉꞁɐnQ ɹǝpuǝᴚ
 of.options.shaders.RENDER_RES_MUL.tooltip.7=(ʇsǝʇsɐɟ) ʍoꞁ - xϛ˙0  
 of.options.shaders.RENDER_RES_MUL.tooltip.6=(ʇꞁnɐɟǝp) pɹɐpuɐʇs - x⥝  
-of.options.shaders.RENDER_RES_MUL.tooltip.5=(ʇsǝʍoꞁs) ɥƃᴉɥ - xᘔ  
+of.options.shaders.RENDER_RES_MUL.tooltip.5=(ʇsǝʍoꞁs) ɥᵷᴉɥ - xᘔ  
 of.options.shaders.RENDER_RES_MUL.tooltip.4= ǝɹnʇxǝʇ ǝɥʇ ɟo ǝzᴉs ǝɥʇ sꞁoɹʇuoɔ ʎʇᴉꞁɐnb ɹǝpuǝᴚ
-of.options.shaders.RENDER_RES_MUL.tooltip.3=˙oʇ ƃuᴉɹǝpuǝɹ sᴉ ʞɔɐd ɹǝpɐɥs ǝɥʇ ʇɐɥʇ
-of.options.shaders.RENDER_RES_MUL.tooltip.2=˙sʎɐꞁdsᴉp ʞ߈ ɥʇᴉʍ ꞁnɟǝsn ǝq uɐɔ sǝnꞁɐʌ ɹǝʍo˥
-of.options.shaders.RENDER_RES_MUL.tooltip.1=˙ɹǝʇꞁᴉɟ ƃuᴉsɐᴉꞁɐᴉʇuɐ uɐ sɐ ʞɹoʍ sǝnꞁɐʌ ɹǝɥƃᴉH
+of.options.shaders.RENDER_RES_MUL.tooltip.3=˙oʇ ᵷuᴉɹǝpuǝɹ sᴉ ʞɔɐd ɹǝpɐɥs ǝɥʇ ʇɐɥʇ
+of.options.shaders.RENDER_RES_MUL.tooltip.2=˙sʎɐꞁdsᴉp ʞ߈ ɥʇᴉʍ ꞁnɟǝsn ǝq uɐɔ sǝnꞁɐʌ ɹǝʍoꞀ
+of.options.shaders.RENDER_RES_MUL.tooltip.1=˙ɹǝʇꞁᴉɟ ᵷuᴉsɐᴉꞁɐᴉʇuɐ uɐ sɐ ʞɹoʍ sǝnꞁɐʌ ɹǝɥᵷᴉH
 
 of.options.shaders.SHADOW_RES_MUL=ʎʇᴉꞁɐnQ ʍopɐɥS
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=ʎʇᴉꞁɐnQ ʍopɐɥS
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=(ʇsǝʇsɐɟ) ʍoꞁ - xϛ˙0  
 of.options.shaders.SHADOW_RES_MUL.tooltip.6=(ʇꞁnɐɟǝp) pɹɐpuɐʇs - x⥝  
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=(ʇsǝʍoꞁs) ɥƃᴉɥ - xᘔ  
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=(ʇsǝʍoꞁs) ɥᵷᴉɥ - xᘔ  
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=dɐɯ ʍopɐɥs ǝɥʇ ɟo ǝzᴉs ǝɥʇ sꞁoɹʇuoɔ ʎʇᴉꞁɐnb ʍopɐɥS
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=˙ʞɔɐd ɹǝpɐɥs ǝɥʇ ʎq pǝsn ǝɹnʇxǝʇ
-of.options.shaders.SHADOW_RES_MUL.tooltip.2= sǝnꞁɐʌ ɹǝʍo˥
-of.options.shaders.SHADOW_RES_MUL.tooltip.1= sǝnꞁɐʌ ɹǝɥƃᴉH
+of.options.shaders.SHADOW_RES_MUL.tooltip.2= sǝnꞁɐʌ ɹǝʍoꞀ
+of.options.shaders.SHADOW_RES_MUL.tooltip.1= sǝnꞁɐʌ ɹǝɥᵷᴉH
 
 of.options.shaders.HAND_DEPTH_MUL=ɥʇdǝp puɐH
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ɥʇdǝp puɐH
@@ -229,34 +238,34 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.6=(ʇꞁnɐɟǝp) - x⥝
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=ɐɹǝɯɐɔ ǝɥʇ ɯoɹɟ ɹɐɟ puɐɥ - xᘔ  
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=ǝɹɐ sʇɔǝɾqo pꞁǝɥpuɐɥ ǝɥʇ ɹɐɟ ʍoɥ sꞁoɹʇuoɔ ɥʇdǝp puɐH
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=˙ɐɹǝɯɐɔ ǝɥʇ ɯoɹɟ
-of.options.shaders.HAND_DEPTH_MUL.tooltip.2=ǝƃuɐɥɔ pꞁnoɥs sᴉɥʇ ɹnꞁq ɥʇdǝp ƃuᴉsn sʞɔɐd ɹǝpɐɥs ɹoℲ
-of.options.shaders.HAND_DEPTH_MUL.tooltip.1=˙sʇɔǝɾqo pꞁǝɥpuɐɥ ɟo ƃuᴉɹɹnꞁq ǝɥʇ
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=ǝᵷuɐɥɔ pꞁnoɥs sᴉɥʇ ɹnꞁq ɥʇdǝp ᵷuᴉsn sʞɔɐd ɹǝpɐɥs ɹoℲ
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=˙sʇɔǝɾqo pꞁǝɥpuɐɥ ɟo ᵷuᴉɹɹnꞁq ǝɥʇ
 
 of.options.shaders.CLOUD_SHADOW=ʍopɐɥS pnoꞁƆ
 
-of.options.shaders.OLD_HAND_LIGHT=ʇɥƃᴉ˥ puɐH pꞁO
-of.options.shaders.OLD_HAND_LIGHT.tooltip.7=ʇɥƃᴉ˥ puɐH pꞁO
+of.options.shaders.OLD_HAND_LIGHT=ʇɥᵷᴉꞀ puɐH pꞁO
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=ʇɥᵷᴉꞀ puɐH pꞁO
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=ʞɔɐd ɹǝpɐɥs ǝɥʇ ʎq pǝꞁꞁoɹʇuoɔ - ʇꞁnɐɟǝp  
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=ʇɥƃᴉꞁpuɐɥ pꞁo ǝsn - NO  
-of.options.shaders.OLD_HAND_LIGHT.tooltip.4=ʇɥƃᴉꞁpuɐɥ ʍǝu ǝsn - ℲℲO  
-of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ʎꞁuo ɥɔᴉɥʍ sʞɔɐd ɹǝpɐɥs sʍoꞁꞁɐ ʇɥƃᴉꞁ puɐɥ pꞁO
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2= puɐɥ uᴉɐɯ ǝɥʇ uᴉ sɯǝʇᴉ ƃuᴉʇʇᴉɯǝ ʇɥƃᴉꞁ ǝsᴉuƃoɔǝɹ
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=ʇɥᵷᴉꞁpuɐɥ pꞁo ǝsn - NO  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=ʇɥᵷᴉꞁpuɐɥ ʍǝu ǝsn - ℲℲO  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ʎꞁuo ɥɔᴉɥʍ sʞɔɐd ɹǝpɐɥs sʍoꞁꞁɐ ʇɥᵷᴉꞁ puɐɥ pꞁO
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2= puɐɥ uᴉɐɯ ǝɥʇ uᴉ sɯǝʇᴉ ᵷuᴉʇʇᴉɯǝ ʇɥᵷᴉꞁ ǝsᴉuᵷoɔǝɹ
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=˙puɐɥ-ɟɟo ǝɥʇ uᴉ sɯǝʇᴉ ɥʇᴉʍ ʞɹoʍ osꞁɐ oʇ
 
-of.options.shaders.OLD_LIGHTING=ƃuᴉʇɥƃᴉ˥ pꞁO
-of.options.shaders.OLD_LIGHTING.tooltip.8=ƃuᴉʇɥƃᴉ˥ pꞁO
+of.options.shaders.OLD_LIGHTING=ᵷuᴉʇɥᵷᴉꞀ pꞁO
+of.options.shaders.OLD_LIGHTING.tooltip.8=ᵷuᴉʇɥᵷᴉꞀ pꞁO
 of.options.shaders.OLD_LIGHTING.tooltip.7=ʞɔɐd ɹǝpɐɥs ǝɥʇ ʎq pǝꞁꞁoɹʇuoɔ - ʇꞁnɐɟǝp  
-of.options.shaders.OLD_LIGHTING.tooltip.6=ƃuᴉʇɥƃᴉꞁ pꞁo ǝsn - NO  
-of.options.shaders.OLD_LIGHTING.tooltip.5=ƃuᴉʇɥƃᴉꞁ pꞁo ǝsn ʇou op - ℲℲO  
-of.options.shaders.OLD_LIGHTING.tooltip.4= pǝᴉꞁddɐ ƃuᴉʇɥƃᴉꞁ pǝxᴉɟ ǝɥʇ sꞁoɹʇuoɔ ƃuᴉʇɥƃᴉꞁ pꞁO
+of.options.shaders.OLD_LIGHTING.tooltip.6=ᵷuᴉʇɥᵷᴉꞁ pꞁo ǝsn - NO  
+of.options.shaders.OLD_LIGHTING.tooltip.5=ᵷuᴉʇɥᵷᴉꞁ pꞁo ǝsn ʇou op - ℲℲO  
+of.options.shaders.OLD_LIGHTING.tooltip.4= pǝᴉꞁddɐ ᵷuᴉʇɥᵷᴉꞁ pǝxᴉɟ ǝɥʇ sꞁoɹʇuoɔ ᵷuᴉʇɥᵷᴉꞁ pꞁO
 of.options.shaders.OLD_LIGHTING.tooltip.3= ˙sǝpᴉs ʞɔoꞁq ǝɥʇ oʇ ɐꞁꞁᴉuɐʌ ʎq
 of.options.shaders.OLD_LIGHTING.tooltip.2= ǝpᴉʌoɹd ʎꞁꞁɐnsn sʍopɐɥs ǝsn ɥɔᴉɥʍ sʞɔɐd ɹǝpɐɥS
-of.options.shaders.OLD_LIGHTING.tooltip.1=˙uoᴉʇᴉsod uns ǝɥʇ uo ƃuᴉpuǝdǝp ƃuᴉʇɥƃᴉꞁ ɹǝʇʇǝq ɥɔnɯ
+of.options.shaders.OLD_LIGHTING.tooltip.1=˙uoᴉʇᴉsod uns ǝɥʇ uo ᵷuᴉpuǝdǝp ᵷuᴉʇɥᵷᴉꞁ ɹǝʇʇǝq ɥɔnɯ
 
-of.options.shaders.DOWNLOAD=sɹǝpɐɥS pɐoꞁuʍop
-of.options.shaders.DOWNLOAD.tooltip.5=sɹǝpɐɥS pɐoꞁuʍop
+of.options.shaders.DOWNLOAD=sɹǝpɐɥS pɐoꞁuʍoᗡ
+of.options.shaders.DOWNLOAD.tooltip.5=sɹǝpɐɥS pɐoꞁuʍoᗡ
 of.options.shaders.DOWNLOAD.tooltip.4= 
-of.options.shaders.DOWNLOAD.tooltip.3=˙ɹǝsʍoɹq ɐ uᴉ ǝƃɐd sʞɔɐd ɹǝpɐɥs ǝɥʇ suǝdO
+of.options.shaders.DOWNLOAD.tooltip.3=˙ɹǝsʍoɹq ɐ uᴉ ǝᵷɐd sʞɔɐd ɹǝpɐɥs ǝɥʇ suǝdO
 of.options.shaders.DOWNLOAD.tooltip.2=,,ɹǝpꞁoℲ sɹǝpɐɥS,, ǝɥʇ uᴉ sʞɔɐd ɹǝpɐɥs pǝpɐoꞁuʍop ǝɥʇ ʇnԀ
 of.options.shaders.DOWNLOAD.tooltip.1=˙sɹǝpɐɥs pǝꞁꞁɐʇsuᴉ ɟo ʇsᴉꞁ ǝɥʇ uᴉ ɹɐǝddɐ ꞁꞁᴉʍ ʎǝɥʇ puɐ
 
@@ -268,62 +277,62 @@ of.options.shaders.shaderOptions=˙˙˙suoᴉʇdo ɹǝpɐɥS
 of.options.shaderOptionsTitle=suoᴉʇdo ɹǝpɐɥS
 
 of.options.quality=˙˙˙ʎʇᴉꞁɐnQ
-of.options.qualityTitle=sƃuᴉʇʇǝS ʎʇᴉꞁɐnQ
+of.options.qualityTitle=sᵷuᴉʇʇǝS ʎʇᴉꞁɐnQ
 
-of.options.details=˙˙˙sꞁᴉɐʇǝp
-of.options.detailsTitle=sƃuᴉʇʇǝS ꞁᴉɐʇǝp
+of.options.details=˙˙˙sꞁᴉɐʇǝᗡ
+of.options.detailsTitle=sᵷuᴉʇʇǝS ꞁᴉɐʇǝᗡ
 
 of.options.performance=˙˙˙ǝɔuɐɯɹoɟɹǝԀ
-of.options.performanceTitle=sƃuᴉʇʇǝS ǝɔuɐɯɹoɟɹǝԀ
+of.options.performanceTitle=sᵷuᴉʇʇǝS ǝɔuɐɯɹoɟɹǝԀ
 
-of.options.animations=˙˙˙suoᴉʇɐɯᴉu∀
-of.options.animationsTitle=sƃuᴉʇʇǝS uoᴉʇɐɯᴉu∀
+of.options.animations=˙˙˙suoᴉʇɐɯᴉuⱯ
+of.options.animationsTitle=sᵷuᴉʇʇǝS uoᴉʇɐɯᴉuⱯ
 
 of.options.other=˙˙˙ɹǝɥʇO
-of.options.otherTitle=sƃuᴉʇʇǝS ɹǝɥʇO
+of.options.otherTitle=sᵷuᴉʇʇǝS ɹǝɥʇO
 
-of.options.other.reset=˙˙˙sƃuᴉʇʇǝS oǝpᴉΛ ʇǝsǝᴚ
+of.options.other.reset=˙˙˙sᵷuᴉʇʇǝS oǝpᴉΛ ʇǝsǝᴚ
 
 of.shaders.profile=ǝꞁᴉɟoɹԀ
 
 # Quality
 
 of.options.mipmap.bilinear=ɹɐǝuᴉꞁᴉᗺ
-of.options.mipmap.linear=ɹɐǝuᴉ˥
+of.options.mipmap.linear=ɹɐǝuᴉꞀ
 of.options.mipmap.nearest=ʇsǝɹɐǝN
 of.options.mipmap.trilinear=ɹɐǝuᴉꞁᴉɹ⟘
 
 options.mipmapLevels.tooltip.6=ɹǝʇʇǝq ʞooꞁ sʇɔǝɾqo ʇuɐʇsᴉp sǝʞɐɯ ɥɔᴉɥʍ ʇɔǝɟɟǝ ꞁɐnsᴉΛ
-options.mipmapLevels.tooltip.5=sꞁᴉɐʇǝp ǝɹnʇxǝʇ ǝɥʇ ƃuᴉɥʇooɯs ʎq
-options.mipmapLevels.tooltip.4=ƃuᴉɥʇooɯs ou - ℲℲO  
-options.mipmapLevels.tooltip.3=ƃuᴉɥʇooɯs ɯnɯᴉuᴉɯ - ⥝  
-options.mipmapLevels.tooltip.2=ƃuᴉɥʇooɯs ɯnɯᴉxɐɯ - ɯnɯᴉxɐW  
+options.mipmapLevels.tooltip.5=sꞁᴉɐʇǝp ǝɹnʇxǝʇ ǝɥʇ ᵷuᴉɥʇooɯs ʎq
+options.mipmapLevels.tooltip.4=ᵷuᴉɥʇooɯs ou - ℲℲO  
+options.mipmapLevels.tooltip.3=ᵷuᴉɥʇooɯs ɯnɯᴉuᴉɯ - ⥝  
+options.mipmapLevels.tooltip.2=ᵷuᴉɥʇooɯs ɯnɯᴉxɐɯ - ɯnɯᴉxɐW  
 options.mipmapLevels.tooltip.1=˙ǝɔuɐɯɹoɟɹǝd ǝɥʇ ʇɔǝɟɟɐ ʇou sǝop ʎꞁꞁɐnsn uoᴉʇdo sᴉɥ⟘
 
 of.options.MIPMAP_TYPE=ǝdʎ⟘ dɐɯdᴉW
 of.options.MIPMAP_TYPE.tooltip.6=ɹǝʇʇǝq ʞooꞁ sʇɔǝɾqo ʇuɐʇsᴉp sǝʞɐɯ ɥɔᴉɥʍ ʇɔǝɟɟǝ ꞁɐnsᴉΛ
-of.options.MIPMAP_TYPE.tooltip.5=sꞁᴉɐʇǝp ǝɹnʇxǝʇ ǝɥʇ ƃuᴉɥʇooɯs ʎq
-of.options.MIPMAP_TYPE.tooltip.4=(ʇsǝʇsɐɟ) ƃuᴉɥʇooɯs ɥƃnoɹ - ʇsǝɹɐǝN  
-of.options.MIPMAP_TYPE.tooltip.3=ƃuᴉɥʇooɯs ꞁɐɯɹou - ɹɐǝuᴉ˥  
-of.options.MIPMAP_TYPE.tooltip.2=ƃuᴉɥʇooɯs ǝuᴉɟ - ɹɐǝuᴉꞁᴉq  
-of.options.MIPMAP_TYPE.tooltip.1=(ʇsǝʍoꞁs) ƃuᴉɥʇooɯs ʇsǝuᴉɟ - ɹɐǝuᴉꞁᴉɹ⟘  
+of.options.MIPMAP_TYPE.tooltip.5=sꞁᴉɐʇǝp ǝɹnʇxǝʇ ǝɥʇ ᵷuᴉɥʇooɯs ʎq
+of.options.MIPMAP_TYPE.tooltip.4=(ʇsǝʇsɐɟ) ᵷuᴉɥʇooɯs ɥᵷnoɹ - ʇsǝɹɐǝN  
+of.options.MIPMAP_TYPE.tooltip.3=ᵷuᴉɥʇooɯs ꞁɐɯɹou - ɹɐǝuᴉꞀ  
+of.options.MIPMAP_TYPE.tooltip.2=ᵷuᴉɥʇooɯs ǝuᴉɟ - ɹɐǝuᴉꞁᴉq  
+of.options.MIPMAP_TYPE.tooltip.1=(ʇsǝʍoꞁs) ᵷuᴉɥʇooɯs ʇsǝuᴉɟ - ɹɐǝuᴉꞁᴉɹ⟘  
 
 
-of.options.AA_LEVEL=ƃuᴉsɐᴉꞁɐᴉʇu∀
-of.options.AA_LEVEL.tooltip.8=ƃuᴉsɐᴉꞁɐᴉʇu∀
-of.options.AA_LEVEL.tooltip.7=(ɹǝʇsɐɟ) ƃuᴉsɐᴉꞁɐᴉʇuɐ ou (ʇꞁnɐɟǝp) - ℲℲO 
-of.options.AA_LEVEL.tooltip.6=(ɹǝʍoꞁs) sǝƃpǝ puɐ sǝuᴉꞁ pǝsɐᴉꞁɐᴉʇuɐ - 9⥝-ᘔ 
-of.options.AA_LEVEL.tooltip.5= puɐ sǝuᴉꞁ pǝƃƃɐɾ sɥʇooɯs ƃuᴉsɐᴉꞁɐᴉʇu∀ ǝɥ⟘
+of.options.AA_LEVEL=ᵷuᴉsɐᴉꞁɐᴉʇuⱯ
+of.options.AA_LEVEL.tooltip.8=ᵷuᴉsɐᴉꞁɐᴉʇuⱯ
+of.options.AA_LEVEL.tooltip.7=(ɹǝʇsɐɟ) ᵷuᴉsɐᴉꞁɐᴉʇuɐ ou (ʇꞁnɐɟǝp) - ℲℲO 
+of.options.AA_LEVEL.tooltip.6=(ɹǝʍoꞁs) sǝᵷpǝ puɐ sǝuᴉꞁ pǝsɐᴉꞁɐᴉʇuɐ - 9⥝-ᘔ 
+of.options.AA_LEVEL.tooltip.5= puɐ sǝuᴉꞁ pǝᵷᵷɐɾ sɥʇooɯs ᵷuᴉsɐᴉꞁɐᴉʇuⱯ ǝɥ⟘
 of.options.AA_LEVEL.tooltip.4=˙suoᴉʇᴉsuɐɹʇ ɹnoꞁoɔ dɹɐɥs
 of.options.AA_LEVEL.tooltip.3=˙SԀℲ ǝɥʇ ǝsɐǝɹɔǝp ʎꞁꞁɐᴉʇuɐʇsqns ʎɐɯ ʇᴉ pǝꞁqɐuǝ uǝɥM
-of.options.AA_LEVEL.tooltip.2=˙spɹɐɔ sɔᴉɥdɐɹƃ ꞁꞁɐ ʎq pǝʇɹoddns ǝɹɐ sꞁǝʌǝꞁ ꞁꞁɐ ʇoN
-of.options.AA_LEVEL.tooltip.1=¡⟘ɹ∀⟘SƎɹ ɐ ɹǝʇɟɐ ǝʌᴉʇɔǝɟɟƎ
+of.options.AA_LEVEL.tooltip.2=˙spɹɐɔ sɔᴉɥdɐɹᵷ ꞁꞁɐ ʎq pǝʇɹoddns ǝɹɐ sꞁǝʌǝꞁ ꞁꞁɐ ʇoN
+of.options.AA_LEVEL.tooltip.1=¡⟘ɹⱯ⟘SƎɹ ɐ ɹǝʇɟɐ ǝʌᴉʇɔǝɟɟƎ
 
-of.options.AF_LEVEL=ƃuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉu∀
-of.options.AF_LEVEL.tooltip.6=ƃuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉu∀
+of.options.AF_LEVEL=ᵷuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉuⱯ
+of.options.AF_LEVEL.tooltip.6=ᵷuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉuⱯ
 of.options.AF_LEVEL.tooltip.5=(ɹǝʇsɐɟ) ꞁᴉɐʇǝp ǝɹnʇxǝʇ pɹɐpuɐʇs (ʇꞁnɐɟǝp) - ℲℲO 
 of.options.AF_LEVEL.tooltip.4=(ɹǝʍoꞁs) sǝɹnʇxǝʇ pǝddɐɯdᴉɯ uᴉ sꞁᴉɐʇǝp ɹǝuᴉɟ - 9⥝-ᘔ 
-of.options.AF_LEVEL.tooltip.3=uᴉ sꞁᴉɐʇǝp sǝɹoʇsǝɹ ƃuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉu∀ ǝɥ⟘
+of.options.AF_LEVEL.tooltip.3=uᴉ sꞁᴉɐʇǝp sǝɹoʇsǝɹ ᵷuᴉɹǝʇꞁᴉℲ ɔᴉdoɹʇosᴉuⱯ ǝɥ⟘
 of.options.AF_LEVEL.tooltip.2=˙sǝɹnʇxǝʇ pǝddɐɯdᴉɯ
 of.options.AF_LEVEL.tooltip.1=˙SԀℲ ǝɥʇ ǝsɐǝɹɔǝp ʎꞁꞁɐᴉʇuɐʇsqns ʎɐɯ ʇᴉ pǝꞁqɐuǝ uǝɥM
 
@@ -336,21 +345,21 @@ of.options.RANDOM_ENTITIES=sǝᴉʇᴉʇuƎ ɯopuɐᴚ
 of.options.RANDOM_ENTITIES.tooltip.5=sǝᴉʇᴉʇuƎ ɯopuɐᴚ
 of.options.RANDOM_ENTITIES.tooltip.4=ɹǝʇsɐɟ 'sǝᴉʇᴉʇuǝ ɯopuɐɹ ou - ℲℲO  
 of.options.RANDOM_ENTITIES.tooltip.3=ɹǝʍoꞁs 'sǝᴉʇᴉʇuǝ ɯopuɐɹ - NO  
-of.options.RANDOM_ENTITIES.tooltip.2=˙sǝᴉʇᴉʇuǝ ǝɯɐƃ ǝɥʇ ɹoɟ sǝɹnʇxǝʇ ɯopuɐɹ sǝsn sǝᴉʇᴉʇuǝ ɯopuɐᴚ
+of.options.RANDOM_ENTITIES.tooltip.2=˙sǝᴉʇᴉʇuǝ ǝɯɐᵷ ǝɥʇ ɹoɟ sǝɹnʇxǝʇ ɯopuɐɹ sǝsn sǝᴉʇᴉʇuǝ ɯopuɐᴚ
 of.options.RANDOM_ENTITIES.tooltip.1=˙sǝɹnʇxǝʇ ʎʇᴉʇuǝ ǝꞁdᴉʇꞁnɯ sɐɥ ɥɔᴉɥʍ ʞɔɐd ǝɔɹnosǝɹ ɐ spǝǝu ʇI
 
 of.options.BETTER_GRASS=ssɐɹפ ɹǝʇʇǝᗺ
 of.options.BETTER_GRASS.tooltip.4=ssɐɹפ ɹǝʇʇǝᗺ
-of.options.BETTER_GRASS.tooltip.3=ʇsǝʇsɐɟ 'ǝɹnʇxǝʇ ssɐɹƃ ǝpᴉs ʇꞁnɐɟǝp - ℲℲO  
-of.options.BETTER_GRASS.tooltip.2=ɹǝʍoꞁs 'ǝɹnʇxǝʇ ssɐɹƃ ǝpᴉs ꞁꞁnɟ - ʇsɐℲ  
-of.options.BETTER_GRASS.tooltip.1=ʇsǝʍoꞁs 'ǝɹnʇxǝʇ ssɐɹƃ ǝpᴉs ɔᴉɯɐuʎp - ʎɔuɐℲ  
+of.options.BETTER_GRASS.tooltip.3=ʇsǝʇsɐɟ 'ǝɹnʇxǝʇ ssɐɹᵷ ǝpᴉs ʇꞁnɐɟǝp - ℲℲO  
+of.options.BETTER_GRASS.tooltip.2=ɹǝʍoꞁs 'ǝɹnʇxǝʇ ssɐɹᵷ ǝpᴉs ꞁꞁnɟ - ʇsɐℲ  
+of.options.BETTER_GRASS.tooltip.1=ʇsǝʍoꞁs 'ǝɹnʇxǝʇ ssɐɹᵷ ǝpᴉs ɔᴉɯɐuʎp - ʎɔuɐℲ  
 
 of.options.BETTER_SNOW=ʍouS ɹǝʇʇǝᗺ
 of.options.BETTER_SNOW.tooltip.5=ʍouS ɹǝʇʇǝᗺ
 of.options.BETTER_SNOW.tooltip.4=ɹǝʇsɐɟ 'ʍous ʇꞁnɐɟǝp - ℲℲO  
 of.options.BETTER_SNOW.tooltip.3=ɹǝʍoꞁs 'ʍous ɹǝʇʇǝq - NO  
-of.options.BETTER_SNOW.tooltip.2=(ssɐɹƃ ꞁꞁɐʇ 'ǝɔuǝɟ) sʞɔoꞁq ʇuǝɹɐdsuɐɹʇ ɹǝpun ʍous sʍoɥS
-of.options.BETTER_SNOW.tooltip.1=˙sʞɔoꞁq ʍous ɥʇᴉʍ ƃuᴉɹǝpɹoq uǝɥʍ
+of.options.BETTER_SNOW.tooltip.2=(ssɐɹᵷ ꞁꞁɐʇ 'ǝɔuǝɟ) sʞɔoꞁq ʇuǝɹɐdsuɐɹʇ ɹǝpun ʍous sʍoɥS
+of.options.BETTER_SNOW.tooltip.1=˙sʞɔoꞁq ʍous ɥʇᴉʍ ᵷuᴉɹǝpɹoq uǝɥʍ
 
 of.options.CUSTOM_FONTS=sʇuoℲ ɯoʇsnƆ
 of.options.CUSTOM_FONTS.tooltip.5=sʇuoℲ ɯoʇsnƆ
@@ -370,22 +379,22 @@ of.options.SWAMP_COLORS=sɹnoꞁoƆ dɯɐʍS
 of.options.SWAMP_COLORS.tooltip.4=sɹnoꞁoƆ dɯɐʍS
 of.options.SWAMP_COLORS.tooltip.3=ɹǝʍoꞁs '(ʇꞁnɐɟǝp)  sɹnoꞁoɔ dɯɐʍs ǝsn - NO  
 of.options.SWAMP_COLORS.tooltip.2=ɹǝʇsɐɟ 'sɹnoꞁoɔ dɯɐʍs ǝsn ʇou op - ℲℲO  
-of.options.SWAMP_COLORS.tooltip.1=˙ɹǝʇɐʍ puɐ sǝuᴉʌ 'sǝʌɐǝꞁ 'ssɐɹƃ ʇɔǝɟɟɐ sɹnoꞁoɔ dɯɐʍs ǝɥ⟘
+of.options.SWAMP_COLORS.tooltip.1=˙ɹǝʇɐʍ puɐ sǝuᴉʌ 'sǝʌɐǝꞁ 'ssɐɹᵷ ʇɔǝɟɟɐ sɹnoꞁoɔ dɯɐʍs ǝɥ⟘
 
 of.options.SMOOTH_BIOMES=sǝɯoᴉq ɥʇooɯS
 of.options.SMOOTH_BIOMES.tooltip.6=sǝɯoᴉq ɥʇooɯS
-of.options.SMOOTH_BIOMES.tooltip.5=ɹǝʍoꞁs '(ʇꞁnɐɟǝp) sɹǝpɹoq ǝɯoᴉq ɟo ƃuᴉɥʇooɯs - NO  
-of.options.SMOOTH_BIOMES.tooltip.4=ɹǝʇsɐɟ 'sɹǝpɹoq ǝɯoᴉq ɟo ƃuᴉɥʇooɯs ou - ℲℲO  
-of.options.SMOOTH_BIOMES.tooltip.3=puɐ ƃuᴉꞁdɯɐs ʎq ǝuop sᴉ sɹǝpɹoq ǝɯoᴉq ɟo ƃuᴉɥʇooɯs ǝɥ⟘
-of.options.SMOOTH_BIOMES.tooltip.2=˙sʞɔoꞁq ƃuᴉpunoɹɹns ꞁꞁɐ ɟo ɹnoꞁoɔ ǝɥʇ ƃuᴉƃɐɹǝʌɐ
-of.options.SMOOTH_BIOMES.tooltip.1=˙ɹǝʇɐʍ puɐ sǝuᴉʌ 'sǝʌɐǝꞁ 'ssɐɹƃ ǝɹɐ pǝʇɔǝɟɟ∀
+of.options.SMOOTH_BIOMES.tooltip.5=ɹǝʍoꞁs '(ʇꞁnɐɟǝp) sɹǝpɹoq ǝɯoᴉq ɟo ᵷuᴉɥʇooɯs - NO  
+of.options.SMOOTH_BIOMES.tooltip.4=ɹǝʇsɐɟ 'sɹǝpɹoq ǝɯoᴉq ɟo ᵷuᴉɥʇooɯs ou - ℲℲO  
+of.options.SMOOTH_BIOMES.tooltip.3=puɐ ᵷuᴉꞁdɯɐs ʎq ǝuop sᴉ sɹǝpɹoq ǝɯoᴉq ɟo ᵷuᴉɥʇooɯs ǝɥ⟘
+of.options.SMOOTH_BIOMES.tooltip.2=˙sʞɔoꞁq ᵷuᴉpunoɹɹns ꞁꞁɐ ɟo ɹnoꞁoɔ ǝɥʇ ᵷuᴉᵷɐɹǝʌɐ
+of.options.SMOOTH_BIOMES.tooltip.1=˙ɹǝʇɐʍ puɐ sǝuᴉʌ 'sǝʌɐǝꞁ 'ssɐɹᵷ ǝɹɐ pǝʇɔǝɟɟⱯ
 
 of.options.CONNECTED_TEXTURES=sǝɹnʇxǝ⟘ pǝʇɔǝuuoƆ
 of.options.CONNECTED_TEXTURES.tooltip.8=sǝɹnʇxǝ⟘ pǝʇɔǝuuoƆ
 of.options.CONNECTED_TEXTURES.tooltip.7=(ʇꞁnɐɟǝp) sǝɹnʇxǝʇ pǝʇɔǝuuoɔ ou - ℲℲO  
 of.options.CONNECTED_TEXTURES.tooltip.6=sǝɹnʇxǝʇ pǝʇɔǝuuoɔ ʇsɐɟ - ʇsɐℲ  
 of.options.CONNECTED_TEXTURES.tooltip.5=sǝɹnʇxǝʇ pǝʇɔǝuuoɔ ʎɔuɐɟ - ʎɔuɐℲ  
-of.options.CONNECTED_TEXTURES.tooltip.4='ssɐꞁƃ ɟo sǝɹnʇxǝʇ ǝɥʇ suᴉoɾ sǝɹnʇxǝʇ pǝʇɔǝuuoƆ
+of.options.CONNECTED_TEXTURES.tooltip.4='ssɐꞁᵷ ɟo sǝɹnʇxǝʇ ǝɥʇ suᴉoɾ sǝɹnʇxǝʇ pǝʇɔǝuuoƆ
 of.options.CONNECTED_TEXTURES.tooltip.3=oʇ ʇxǝu pǝɔɐꞁd uǝɥʍ sǝʌꞁǝɥsʞooq puɐ ǝuoʇspuɐs
 of.options.CONNECTED_TEXTURES.tooltip.2=pǝᴉꞁddns ǝɹɐ sǝɹnʇxǝʇ pǝʇɔǝuuoɔ ǝɥ⟘ ˙ɹǝɥʇo ɥɔɐǝ
 of.options.CONNECTED_TEXTURES.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ ʇuǝɹɹnɔ ǝɥʇ ʎq
@@ -394,10 +403,10 @@ of.options.NATURAL_TEXTURES=sǝɹnʇxǝ⟘ ꞁɐɹnʇɐN
 of.options.NATURAL_TEXTURES.tooltip.8=sǝɹnʇxǝ⟘ ꞁɐɹnʇɐN
 of.options.NATURAL_TEXTURES.tooltip.7=(ʇꞁnɐɟǝp) sǝɹnʇxǝʇ ꞁɐɹnʇɐu ou - ℲℲO  
 of.options.NATURAL_TEXTURES.tooltip.6=sǝɹnʇxǝʇ ꞁɐɹnʇɐu ǝsn - NO  
-of.options.NATURAL_TEXTURES.tooltip.5=uɹǝʇʇɐd ǝʞᴉꞁpᴉɹƃ ǝɥʇ ǝʌoɯǝɹ sǝɹnʇxǝʇ ꞁɐɹnʇɐN
-of.options.NATURAL_TEXTURES.tooltip.4=˙ǝdʎʇ ǝɯɐs ǝɥʇ ɟo sʞɔoꞁq ƃuᴉʇɐǝdǝɹ ʎq pǝʇɐǝɹɔ
+of.options.NATURAL_TEXTURES.tooltip.5=uɹǝʇʇɐd ǝʞᴉꞁpᴉɹᵷ ǝɥʇ ǝʌoɯǝɹ sǝɹnʇxǝʇ ꞁɐɹnʇɐN
+of.options.NATURAL_TEXTURES.tooltip.4=˙ǝdʎʇ ǝɯɐs ǝɥʇ ɟo sʞɔoꞁq ᵷuᴉʇɐǝdǝɹ ʎq pǝʇɐǝɹɔ
 of.options.NATURAL_TEXTURES.tooltip.3=ǝsɐq ǝɥʇ ɟo sʇuɐᴉɹɐʌ pǝddᴉꞁɟ puɐ pǝʇɐʇoɹ sǝsn ʇI
-of.options.NATURAL_TEXTURES.tooltip.2=ꞁɐɹnʇɐu ǝɥʇ ɹoɟ uoᴉʇɐɹnƃᴉɟuoɔ ǝɥ⟘ ˙ǝɹnʇxǝʇ ʞɔoꞁq
+of.options.NATURAL_TEXTURES.tooltip.2=ꞁɐɹnʇɐu ǝɥʇ ɹoɟ uoᴉʇɐɹnᵷᴉɟuoɔ ǝɥ⟘ ˙ǝɹnʇxǝʇ ʞɔoꞁq
 of.options.NATURAL_TEXTURES.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ ʇuǝɹɹnɔ ǝɥʇ ʎq pǝᴉꞁddns sᴉ sǝɹnʇxǝʇ
 
 of.options.EMISSIVE_TEXTURES=sǝɹnʇxǝ⟘ ǝʌᴉssᴉɯƎ
@@ -405,8 +414,8 @@ of.options.EMISSIVE_TEXTURES.tooltip.8=sǝɹnʇxǝ⟘ ǝʌᴉssᴉɯƎ
 of.options.EMISSIVE_TEXTURES.tooltip.7=(ʇꞁnɐɟǝp) sǝɹnʇxǝʇ ǝʌᴉssᴉɯǝ ou - ℲℲO  
 of.options.EMISSIVE_TEXTURES.tooltip.6=sǝɹnʇxǝʇ ǝʌᴉssᴉɯǝ ǝsn - NO  
 of.options.EMISSIVE_TEXTURES.tooltip.5=sʎɐꞁɹǝʌo sɐ pǝɹǝpuǝɹ ǝɹɐ sǝɹnʇxǝʇ ǝʌᴉssᴉɯǝ ǝɥ⟘
-of.options.EMISSIVE_TEXTURES.tooltip.4=ǝʇɐꞁnɯᴉs oʇ pǝsn ǝq uɐɔ ʎǝɥ⟘ ˙ssǝuʇɥƃᴉɹq ꞁꞁnɟ ɥʇᴉʍ
-of.options.EMISSIVE_TEXTURES.tooltip.3=˙ǝɹnʇxǝʇ ǝsɐq ǝɥʇ ɟo sʇɹɐd ƃuᴉʇʇᴉɯǝ ʇɥƃᴉꞁ
+of.options.EMISSIVE_TEXTURES.tooltip.4=ǝʇɐꞁnɯᴉs oʇ pǝsn ǝq uɐɔ ʎǝɥ⟘ ˙ssǝuʇɥᵷᴉɹq ꞁꞁnɟ ɥʇᴉʍ
+of.options.EMISSIVE_TEXTURES.tooltip.3=˙ǝɹnʇxǝʇ ǝsɐq ǝɥʇ ɟo sʇɹɐd ᵷuᴉʇʇᴉɯǝ ʇɥᵷᴉꞁ
 of.options.EMISSIVE_TEXTURES.tooltip.2=ʇuǝɹɹnɔ ǝɥʇ ʎq pǝᴉꞁddns ǝɹɐ sǝɹnʇxǝʇ ǝʌᴉssᴉɯǝ ǝɥ⟘
 of.options.EMISSIVE_TEXTURES.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ
 
@@ -441,31 +450,31 @@ of.options.CUSTOM_GUIS.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ ʇuǝɹɹnɔ ǝɥʇ ʎq
 
 of.options.CLOUDS=spnoꞁƆ
 of.options.CLOUDS.tooltip.7=spnoꞁƆ
-of.options.CLOUDS.tooltip.6=sɔᴉɥdɐɹפ ƃuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
+of.options.CLOUDS.tooltip.6=sɔᴉɥdɐɹפ ᵷuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
 of.options.CLOUDS.tooltip.5=ɹǝʇsɐɟ 'ʎʇᴉꞁɐnb ɹǝʍoꞁ - ʇsɐℲ  
-of.options.CLOUDS.tooltip.4=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ɹǝɥƃᴉɥ - ʎɔuɐℲ  
+of.options.CLOUDS.tooltip.4=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ɹǝɥᵷᴉɥ - ʎɔuɐℲ  
 of.options.CLOUDS.tooltip.3=ʇsǝʇsɐɟ 'spnoꞁɔ ou - ℲℲO  
 of.options.CLOUDS.tooltip.2=˙pᘔ pǝɹǝpuǝɹ ǝɹɐ spnoꞁɔ ʇsɐℲ
 of.options.CLOUDS.tooltip.1=˙pƐ pǝɹǝpuǝɹ ǝɹɐ spnoꞁɔ ʎɔuɐℲ
 
-of.options.CLOUD_HEIGHT=ʇɥƃᴉǝH pnoꞁƆ
-of.options.CLOUD_HEIGHT.tooltip.3=ʇɥƃᴉǝH pnoꞁƆ
-of.options.CLOUD_HEIGHT.tooltip.2=ʇɥƃᴉǝɥ ʇꞁnɐɟǝp - ℲℲO  
-of.options.CLOUD_HEIGHT.tooltip.1=ʇᴉɯᴉꞁ ʇɥƃᴉǝɥ pꞁɹoʍ ǝʌoqɐ - %%00⥝  
+of.options.CLOUD_HEIGHT=ʇɥᵷᴉǝH pnoꞁƆ
+of.options.CLOUD_HEIGHT.tooltip.3=ʇɥᵷᴉǝH pnoꞁƆ
+of.options.CLOUD_HEIGHT.tooltip.2=ʇɥᵷᴉǝɥ ʇꞁnɐɟǝp - ℲℲO  
+of.options.CLOUD_HEIGHT.tooltip.1=ʇᴉɯᴉꞁ ʇɥᵷᴉǝɥ pꞁɹoʍ ǝʌoqɐ - %%00⥝  
 
 of.options.TREES=sǝǝɹ⟘
 of.options.TREES.tooltip.7=sǝǝɹ⟘
-of.options.TREES.tooltip.6=sɔᴉɥdɐɹפ ƃuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
+of.options.TREES.tooltip.6=sɔᴉɥdɐɹפ ᵷuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
 of.options.TREES.tooltip.5=ɹǝʇsɐɟ 'ʎʇᴉꞁɐnb ɹǝʍoꞁ - ʇsɐℲ  
-of.options.TREES.tooltip.4=ʇsɐɟ 'ʎʇᴉꞁɐnb ɹǝɥƃᴉɥ - ʇɹɐɯS  
-of.options.TREES.tooltip.3=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ʇsǝɥƃᴉɥ - ʎɔuɐℲ  
+of.options.TREES.tooltip.4=ʇsɐɟ 'ʎʇᴉꞁɐnb ɹǝɥᵷᴉɥ - ʇɹɐɯS  
+of.options.TREES.tooltip.3=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ʇsǝɥᵷᴉɥ - ʎɔuɐℲ  
 of.options.TREES.tooltip.2=˙sǝʌɐǝꞁ ǝnbɐdo ǝʌɐɥ sǝǝɹʇ ʇsɐℲ
 of.options.TREES.tooltip.1=˙sǝʌɐǝꞁ ʇuǝɹɐdsuɐɹʇ ǝʌɐɥ sǝǝɹʇ ʇɹɐɯs puɐ ʎɔuɐℲ
 
 of.options.RAIN=ʍouS ⅋ uᴉɐᴚ
 of.options.RAIN.tooltip.7=ʍouS ⅋ uᴉɐᴚ
-of.options.RAIN.tooltip.6=sɔᴉɥdɐɹפ ƃuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
-of.options.RAIN.tooltip.5=ɹǝʇsɐɟ 'ʍous/uᴉɐɹ ʇɥƃᴉꞁ -  ʇsɐℲ  
+of.options.RAIN.tooltip.6=sɔᴉɥdɐɹפ ᵷuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
+of.options.RAIN.tooltip.5=ɹǝʇsɐɟ 'ʍous/uᴉɐɹ ʇɥᵷᴉꞁ -  ʇsɐℲ  
 of.options.RAIN.tooltip.4=ɹǝʍoꞁs 'ʍous/uᴉɐɹ ʎʌɐǝɥ - ʎɔuɐℲ  
 of.options.RAIN.tooltip.3=ʇsǝʇsɐɟ 'ʍous/uᴉɐɹ ou - ℲℲO  
 of.options.RAIN.tooltip.2=spunos uᴉɐɹ puɐ sǝɥsɐꞁds ǝɥʇ ℲℲO sᴉ uᴉɐɹ uǝɥM
@@ -494,11 +503,11 @@ of.options.SHOW_CAPES.tooltip.1=sǝdɐɔ ɹǝʎɐꞁd ʍoɥs ʇou op - ℲℲO
 
 of.options.TRANSLUCENT_BLOCKS=sʞɔoꞁq ʇuǝɔnꞁsuɐɹ⟘
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=sʞɔoꞁq ʇuǝɔnꞁsuɐɹ⟘
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=sɔᴉɥdɐɹפ ƃuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=(ɹǝʍoꞁs) ƃuᴉpuǝꞁq ɹnoꞁoɔ ʇɔǝɹɹoɔ - ʎɔuɐℲ  
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=(ɹǝʇsɐɟ) ƃuᴉpuǝꞁq ɹnoꞁoɔ ʇsɐɟ - ʇsɐℲ  
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=sʞɔoꞁq ʇuǝɔnꞁsuɐɹʇ ɟo ƃuᴉpuǝꞁq ɹnoꞁoɔ ǝɥʇ sꞁoɹʇuoƆ
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=(ǝɔᴉ 'ɹǝʇɐʍ 'ssɐꞁƃ pǝuᴉɐʇs) sɹnoꞁoɔ ʇuǝɹǝɟɟᴉp ɥʇᴉʍ
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=sɔᴉɥdɐɹפ ᵷuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=(ɹǝʍoꞁs) ᵷuᴉpuǝꞁq ɹnoꞁoɔ ʇɔǝɹɹoɔ - ʎɔuɐℲ  
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=(ɹǝʇsɐɟ) ᵷuᴉpuǝꞁq ɹnoꞁoɔ ʇsɐɟ - ʇsɐℲ  
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=sʞɔoꞁq ʇuǝɔnꞁsuɐɹʇ ɟo ᵷuᴉpuǝꞁq ɹnoꞁoɔ ǝɥʇ sꞁoɹʇuoƆ
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=(ǝɔᴉ 'ɹǝʇɐʍ 'ssɐꞁᵷ pǝuᴉɐʇs) sɹnoꞁoɔ ʇuǝɹǝɟɟᴉp ɥʇᴉʍ
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=˙ɯǝɥʇ uǝǝʍʇǝq ɹᴉɐ ɥʇᴉʍ ɹǝɥʇo ɥɔɐǝ puᴉɥǝq pǝɔɐꞁd uǝɥʍ
 
 of.options.HELD_ITEM_TOOLTIPS=sdᴉʇꞁoo⟘ ɯǝʇI pꞁǝH
@@ -506,17 +515,17 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.3=sdᴉʇꞁooʇ ɯǝʇᴉ pꞁǝH
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=(ʇꞁnɐɟǝp) sɯǝʇᴉ pꞁǝɥ ɹoɟ sdᴉʇꞁooʇ ʍoɥs - NO  
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=sɯǝʇᴉ pꞁǝɥ ɹoɟ sdᴉʇꞁooʇ ʍoɥs ʇou op - ℲℲO  
 
-of.options.ADVANCED_TOOLTIPS=sdᴉʇꞁoo⟘ pǝɔuɐʌp∀
-of.options.ADVANCED_TOOLTIPS.tooltip.6=sdᴉʇꞁooʇ pǝɔuɐʌp∀
+of.options.ADVANCED_TOOLTIPS=sdᴉʇꞁoo⟘ pǝɔuɐʌpⱯ
+of.options.ADVANCED_TOOLTIPS.tooltip.6=sdᴉʇꞁooʇ pǝɔuɐʌpⱯ
 of.options.ADVANCED_TOOLTIPS.tooltip.5= sdᴉʇꞁooʇ pǝɔuɐʌpɐ ʍoɥs - NO  
 of.options.ADVANCED_TOOLTIPS.tooltip.4=(ʇꞁnɐɟǝp) sdᴉʇꞁooʇ pǝɔuɐʌpɐ ʍoɥs ʇou op - ℲℲO  
-of.options.ADVANCED_TOOLTIPS.tooltip.3=ɹoɟ uoᴉʇɐɯɹoɟuᴉ pǝpuǝʇxǝ ʍoɥs sdᴉʇꞁooʇ pǝɔuɐʌp∀
+of.options.ADVANCED_TOOLTIPS.tooltip.3=ɹoɟ uoᴉʇɐɯɹoɟuᴉ pǝpuǝʇxǝ ʍoɥs sdᴉʇꞁooʇ pǝɔuɐʌpⱯ
 of.options.ADVANCED_TOOLTIPS.tooltip.2=suoᴉʇdo ɹǝpɐɥs ɹoɟ puɐ (ʎʇᴉꞁᴉqɐɹnp 'pᴉ) sɯǝʇᴉ
 of.options.ADVANCED_TOOLTIPS.tooltip.1=˙(ǝnꞁɐʌ ʇꞁnɐɟǝp 'ǝɔɹnos 'pᴉ)
 
-of.options.DROPPED_ITEMS=sɯǝʇI pǝddoɹp
-of.options.DROPPED_ITEMS.tooltip.4=sɯǝʇI pǝddoɹp
-of.options.DROPPED_ITEMS.tooltip.3=sɔᴉɥdɐɹפ ƃuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
+of.options.DROPPED_ITEMS=sɯǝʇI pǝddoɹᗡ
+of.options.DROPPED_ITEMS.tooltip.4=sɯǝʇI pǝddoɹᗡ
+of.options.DROPPED_ITEMS.tooltip.3=sɔᴉɥdɐɹפ ᵷuᴉʇʇǝs ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
 of.options.DROPPED_ITEMS.tooltip.2=(ɹǝʇsɐɟ) sɯǝʇᴉ pǝddoɹp pᘔ - ʇsɐℲ  
 of.options.DROPPED_ITEMS.tooltip.1=(ɹǝʍoꞁs) sɯǝʇᴉ pǝddoɹp pƐ - ʎɔuɐℲ  
 
@@ -524,53 +533,60 @@ options.entityShadows.tooltip.3=sʍopɐɥS ʎʇᴉʇuƎ
 options.entityShadows.tooltip.2=sʍopɐɥs ʎʇᴉʇuǝ ʍoɥs - NO  
 options.entityShadows.tooltip.1=sʍopɐɥs ʎʇᴉʇuǝ ʍoɥs ʇou op - ℲℲO  
 
-of.options.VIGNETTE=ǝʇʇǝuƃᴉΛ
-of.options.VIGNETTE.tooltip.8=sɹǝuɹoɔ uǝǝɹɔs ǝɥʇ suǝʞɹɐp ʎꞁʇɥƃᴉꞁs ɥɔᴉɥʍ ʇɔǝɟɟǝ ꞁɐnsᴉΛ
-of.options.VIGNETTE.tooltip.7=(ʇꞁnɐɟǝp) sɔᴉɥdɐɹפ ƃuᴉʇʇǝs ǝɥʇ ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
-of.options.VIGNETTE.tooltip.6=(ɹǝʇsɐɟ) pǝꞁqɐsᴉp ǝʇʇǝuƃᴉʌ - ʇsɐℲ  
-of.options.VIGNETTE.tooltip.5=(ɹǝʍoꞁs) pǝꞁqɐuǝ ǝʇʇǝuƃᴉʌ - ʎɔuɐℲ  
-of.options.VIGNETTE.tooltip.4='SԀℲ ǝɥʇ uo ʇɔǝɟɟǝ ʇuɐɔᴉɟᴉuƃᴉs ɐ ǝʌɐɥ ʎɐɯ ǝʇʇǝuƃᴉʌ ǝɥ⟘
-of.options.VIGNETTE.tooltip.3=˙uǝǝɹɔsꞁꞁnɟ ƃuᴉʎɐꞁd uǝɥʍ ʎꞁꞁɐᴉɔǝdsǝ
-of.options.VIGNETTE.tooltip.2=ʎꞁǝɟɐs uɐɔ puɐ ǝꞁʇqns ʎɹǝʌ sᴉ ʇɔǝɟɟǝ ǝʇʇǝuƃᴉʌ ǝɥ⟘
+of.options.VIGNETTE=ǝʇʇǝuᵷᴉΛ
+of.options.VIGNETTE.tooltip.8=sɹǝuɹoɔ uǝǝɹɔs ǝɥʇ suǝʞɹɐp ʎꞁʇɥᵷᴉꞁs ɥɔᴉɥʍ ʇɔǝɟɟǝ ꞁɐnsᴉΛ
+of.options.VIGNETTE.tooltip.7=(ʇꞁnɐɟǝp) sɔᴉɥdɐɹפ ᵷuᴉʇʇǝs ǝɥʇ ʎq ʇǝs sɐ - ʇꞁnɐɟǝp  
+of.options.VIGNETTE.tooltip.6=(ɹǝʇsɐɟ) pǝꞁqɐsᴉp ǝʇʇǝuᵷᴉʌ - ʇsɐℲ  
+of.options.VIGNETTE.tooltip.5=(ɹǝʍoꞁs) pǝꞁqɐuǝ ǝʇʇǝuᵷᴉʌ - ʎɔuɐℲ  
+of.options.VIGNETTE.tooltip.4='SԀℲ ǝɥʇ uo ʇɔǝɟɟǝ ʇuɐɔᴉɟᴉuᵷᴉs ɐ ǝʌɐɥ ʎɐɯ ǝʇʇǝuᵷᴉʌ ǝɥ⟘
+of.options.VIGNETTE.tooltip.3=˙uǝǝɹɔsꞁꞁnɟ ᵷuᴉʎɐꞁd uǝɥʍ ʎꞁꞁɐᴉɔǝdsǝ
+of.options.VIGNETTE.tooltip.2=ʎꞁǝɟɐs uɐɔ puɐ ǝꞁʇqns ʎɹǝʌ sᴉ ʇɔǝɟɟǝ ǝʇʇǝuᵷᴉʌ ǝɥ⟘
 of.options.VIGNETTE.tooltip.1=˙pǝꞁqɐsᴉp ǝq
 
-of.options.DYNAMIC_FOV=ΛoℲ ɔᴉɯɐuʎp
-of.options.DYNAMIC_FOV.tooltip.5=ΛoℲ ɔᴉɯɐuʎp
+of.options.DYNAMIC_FOV=ΛoℲ ɔᴉɯɐuʎᗡ
+of.options.DYNAMIC_FOV.tooltip.5=ΛoℲ ɔᴉɯɐuʎᗡ
 of.options.DYNAMIC_FOV.tooltip.4=(ʇꞁnɐɟǝp) ΛoℲ ɔᴉɯɐuʎp ǝꞁqɐuǝ - NO  
 of.options.DYNAMIC_FOV.tooltip.3=ΛoℲ ɔᴉɯɐuʎp ǝꞁqɐsᴉp - ℲℲO  
-of.options.DYNAMIC_FOV.tooltip.2= ƃuᴉʇuᴉɹds 'ƃuᴉʎꞁɟ uǝɥʍ (ΛoℲ) ʍǝᴉʌ ɟo pꞁǝᴉɟ ǝɥʇ sǝƃuɐɥƆ
-of.options.DYNAMIC_FOV.tooltip.1=˙ʍoq ɐ ƃuᴉꞁꞁnd ɹo
+of.options.DYNAMIC_FOV.tooltip.2= ᵷuᴉʇuᴉɹds 'ᵷuᴉʎꞁɟ uǝɥʍ (ΛoℲ) ʍǝᴉʌ ɟo pꞁǝᴉɟ ǝɥʇ sǝᵷuɐɥƆ
+of.options.DYNAMIC_FOV.tooltip.1=˙ʍoq ɐ ᵷuᴉꞁꞁnd ɹo
 
-of.options.DYNAMIC_LIGHTS=sʇɥƃᴉ˥ ɔᴉɯɐuʎp
-of.options.DYNAMIC_LIGHTS.tooltip.7=sʇɥƃᴉ˥ ɔᴉɯɐuʎp
-of.options.DYNAMIC_LIGHTS.tooltip.6=(ʇꞁnɐɟǝp) sʇɥƃᴉꞁ ɔᴉɯɐuʎp ou - ℲℲO  
-of.options.DYNAMIC_LIGHTS.tooltip.5=(sɯ00ϛ ʎɹǝʌǝ pǝʇɐpdn) sʇɥƃᴉꞁ ɔᴉɯɐuʎp ʇsɐɟ - ʇsɐℲ  
-of.options.DYNAMIC_LIGHTS.tooltip.4=(ǝɯᴉʇ-ꞁɐǝɹ uᴉ pǝʇɐpdn) sʇɥƃᴉꞁ ɔᴉɯɐuʎp ʎɔuɐɟ - ʎɔuɐℲ  
-of.options.DYNAMIC_LIGHTS.tooltip.3=(˙ɔʇǝ 'ǝuoʇsʍoꞁƃ 'ɥɔɹoʇ) sɯǝʇᴉ ƃuᴉʇʇᴉɯǝ ʇɥƃᴉꞁ sǝꞁqɐuƎ
-of.options.DYNAMIC_LIGHTS.tooltip.2='puɐɥ uᴉ pꞁǝɥ uǝɥʍ ɯǝɥʇ punoɹɐ ƃuᴉɥʇʎɹǝʌǝ ǝʇɐuᴉɯnꞁꞁᴉ oʇ
-of.options.DYNAMIC_LIGHTS.tooltip.1=˙punoɹƃ ǝɥʇ uo pǝddoɹp ɹo ɹǝʎɐꞁd ɹǝɥʇo ʎq pǝddᴉnbǝ
+of.options.DYNAMIC_LIGHTS=sʇɥᵷᴉꞀ ɔᴉɯɐuʎᗡ
+of.options.DYNAMIC_LIGHTS.tooltip.7=sʇɥᵷᴉꞀ ɔᴉɯɐuʎᗡ
+of.options.DYNAMIC_LIGHTS.tooltip.6=(ʇꞁnɐɟǝp) sʇɥᵷᴉꞁ ɔᴉɯɐuʎp ou - ℲℲO  
+of.options.DYNAMIC_LIGHTS.tooltip.5=(sɯ00ϛ ʎɹǝʌǝ pǝʇɐpdn) sʇɥᵷᴉꞁ ɔᴉɯɐuʎp ʇsɐɟ - ʇsɐℲ  
+of.options.DYNAMIC_LIGHTS.tooltip.4=(ǝɯᴉʇ-ꞁɐǝɹ uᴉ pǝʇɐpdn) sʇɥᵷᴉꞁ ɔᴉɯɐuʎp ʎɔuɐɟ - ʎɔuɐℲ  
+of.options.DYNAMIC_LIGHTS.tooltip.3=(˙ɔʇǝ 'ǝuoʇsʍoꞁᵷ 'ɥɔɹoʇ) sɯǝʇᴉ ᵷuᴉʇʇᴉɯǝ ʇɥᵷᴉꞁ sǝꞁqɐuƎ
+of.options.DYNAMIC_LIGHTS.tooltip.2='puɐɥ uᴉ pꞁǝɥ uǝɥʍ ɯǝɥʇ punoɹɐ ᵷuᴉɥʇʎɹǝʌǝ ǝʇɐuᴉɯnꞁꞁᴉ oʇ
+of.options.DYNAMIC_LIGHTS.tooltip.1=˙punoɹᵷ ǝɥʇ uo pǝddoɹp ɹo ɹǝʎɐꞁd ɹǝɥʇo ʎq pǝddᴉnbǝ
+
+options.biomeBlendRadius.tooltip.6=sǝɯoᴉq uǝǝʍʇǝq uoᴉʇᴉsuɐɹʇ ɹnoꞁoɔ ǝɥʇ sɥʇooɯS
+options.biomeBlendRadius.tooltip.5=(ʇsǝʇsɐɟ) ᵷuᴉpuǝꞁq ou - ℲℲO  
+options.biomeBlendRadius.tooltip.4=(ʇꞁnɐɟǝp) ᵷuᴉpuǝꞁq ꞁɐɯɹou - ϛxϛ  
+options.biomeBlendRadius.tooltip.3=(ʇsǝʍoꞁs) ᵷuᴉpuǝꞁq ꞁɐɯᴉxɐɯ - ϛ⥝xϛ⥝  
+options.biomeBlendRadius.tooltip.2=sǝʞᴉds ᵷɐꞁ ʇuɐɔᴉɟᴉuᵷᴉs ǝʇɐɹǝuǝᵷ ʎɐɯ sǝnꞁɐʌ ɹǝɥᵷᴉH
+options.biomeBlendRadius.tooltip.1=˙pǝǝds ᵷuᴉpɐoꞁ ʞunɥɔ ǝɥʇ uʍop ʍoꞁs puɐ
 
 # Performance
 
 of.options.SMOOTH_FPS=SԀℲ ɥʇooɯS
-of.options.SMOOTH_FPS.tooltip.5=˙sɹǝɟɟnq ɹǝʌᴉɹp ɔᴉɥdɐɹƃ ǝɥʇ ƃuᴉɥsnꞁɟ ʎq SԀℲ sǝsᴉꞁᴉqɐʇS
+of.options.SMOOTH_FPS.tooltip.5=˙sɹǝɟɟnq ɹǝʌᴉɹp ɔᴉɥdɐɹᵷ ǝɥʇ ᵷuᴉɥsnꞁɟ ʎq SԀℲ sǝsᴉꞁᴉqɐʇS
 of.options.SMOOTH_FPS.tooltip.4=ǝʇɐnʇɔnꞁɟ ʎɐɯ SԀℲ 'uoᴉʇɐsᴉꞁᴉqɐʇs ou - ℲℲO  
 of.options.SMOOTH_FPS.tooltip.3=uoᴉʇɐsᴉꞁᴉqɐʇs SԀℲ - NO  
-of.options.SMOOTH_FPS.tooltip.2=ʇɔǝɟɟǝ sʇᴉ puɐ ʇuɐpuǝdǝp ɹǝʌᴉɹp sɔᴉɥdɐɹƃ sᴉ uoᴉʇdo sᴉɥ⟘
+of.options.SMOOTH_FPS.tooltip.2=ʇɔǝɟɟǝ sʇᴉ puɐ ʇuɐpuǝdǝp ɹǝʌᴉɹp sɔᴉɥdɐɹᵷ sᴉ uoᴉʇdo sᴉɥ⟘
 of.options.SMOOTH_FPS.tooltip.1=˙ǝꞁqᴉsᴉʌ sʎɐʍꞁɐ ʇou sᴉ
 
 of.options.SMOOTH_WORLD=pꞁɹoM ɥʇooɯS
-of.options.SMOOTH_WORLD.tooltip.5=˙ɹǝʌɹǝs ꞁɐuɹǝʇuᴉ ǝɥʇ ʎq pǝsnɐɔ sǝʞᴉds ƃɐꞁ sǝʌoɯǝᴚ
+of.options.SMOOTH_WORLD.tooltip.5=˙ɹǝʌɹǝs ꞁɐuɹǝʇuᴉ ǝɥʇ ʎq pǝsnɐɔ sǝʞᴉds ᵷɐꞁ sǝʌoɯǝᴚ
 of.options.SMOOTH_WORLD.tooltip.4=ǝʇɐnʇɔnꞁɟ ʎɐɯ SԀℲ 'uoᴉʇɐsᴉꞁᴉqɐʇs ou - ℲℲO  
 of.options.SMOOTH_WORLD.tooltip.3=uoᴉʇɐsᴉꞁᴉqɐʇs SԀℲ - NO  
-of.options.SMOOTH_WORLD.tooltip.2=˙pɐoꞁ ɹǝʌɹǝs ꞁɐuɹǝʇuᴉ ǝɥʇ ƃuᴉʇnqᴉɹʇsᴉp ʎq SԀℲ sǝsᴉꞁᴉqɐʇS
-of.options.SMOOTH_WORLD.tooltip.1=˙(ɹǝʎɐꞁd ǝꞁƃuᴉs) spꞁɹoʍ ꞁɐɔoꞁ ɹoɟ ʎꞁuo ǝʌᴉʇɔǝɟɟƎ
+of.options.SMOOTH_WORLD.tooltip.2=˙pɐoꞁ ɹǝʌɹǝs ꞁɐuɹǝʇuᴉ ǝɥʇ ᵷuᴉʇnqᴉɹʇsᴉp ʎq SԀℲ sǝsᴉꞁᴉqɐʇS
+of.options.SMOOTH_WORLD.tooltip.1=˙(ɹǝʎɐꞁd ǝꞁᵷuᴉs) spꞁɹoʍ ꞁɐɔoꞁ ɹoɟ ʎꞁuo ǝʌᴉʇɔǝɟɟƎ
 
 of.options.FAST_RENDER=ɹǝpuǝɹ ʇsɐℲ
 of.options.FAST_RENDER.tooltip.6=ɹǝpuǝɹ ʇsɐℲ
-of.options.FAST_RENDER.tooltip.5=(ʇꞁnɐɟǝp) ƃuᴉɹǝpuǝɹ pɹɐpuɐʇs - ℲℲO 
-of.options.FAST_RENDER.tooltip.4=(ɹǝʇsɐɟ) ƃuᴉɹǝpuǝɹ pǝsᴉɯᴉʇdo - NO 
-of.options.FAST_RENDER.tooltip.3=sǝsɐǝɹɔǝp ɥɔᴉɥʍ ɯɥʇᴉɹoƃꞁɐ ƃuᴉɹǝpuǝɹ pǝsᴉɯᴉʇdo sǝs∩
+of.options.FAST_RENDER.tooltip.5=(ʇꞁnɐɟǝp) ᵷuᴉɹǝpuǝɹ pɹɐpuɐʇs - ℲℲO 
+of.options.FAST_RENDER.tooltip.4=(ɹǝʇsɐɟ) ᵷuᴉɹǝpuǝɹ pǝsᴉɯᴉʇdo - NO 
+of.options.FAST_RENDER.tooltip.3=sǝsɐǝɹɔǝp ɥɔᴉɥʍ ɯɥʇᴉɹoᵷꞁɐ ᵷuᴉɹǝpuǝɹ pǝsᴉɯᴉʇdo sǝs∩
 of.options.FAST_RENDER.tooltip.2=˙SԀℲ ǝɥʇ ǝsɐǝɹɔuᴉ ʎꞁꞁɐᴉʇuɐʇsqns ʎɐɯ puɐ pɐoꞁ ∩Ԁפ ǝɥʇ
 of.options.FAST_RENDER.tooltip.1=˙spoɯ ǝɯos ɥʇᴉʍ ʇɔᴉꞁɟuoɔ uɐɔ uoᴉʇdo sᴉɥ⟘
 
@@ -580,78 +596,78 @@ of.options.FAST_MATH.tooltip.5=(ʇꞁnɐɟǝp) sɥʇɐɯ pɹɐpuɐʇs - ℲℲO
 of.options.FAST_MATH.tooltip.4=sɥʇɐɯ ɹǝʇsɐɟ - NO 
 of.options.FAST_MATH.tooltip.3=uɐɔ ɥɔᴉɥʍ suoᴉʇɔunɟ ()soɔ puɐ ()uᴉs pǝsᴉɯᴉʇdo sǝs∩
 of.options.FAST_MATH.tooltip.2=˙SԀℲ ǝɥʇ ǝsɐǝɹɔuᴉ puɐ ǝɥɔɐɔ ∩ԀƆ ǝɥʇ ǝsᴉꞁᴉʇn ɹǝʇʇǝq
-of.options.FAST_MATH.tooltip.1=˙uoᴉʇɐɹǝuǝƃ pꞁɹoʍ ǝɥʇ ʇɔǝɟɟɐ ʎꞁꞁɐɯᴉuᴉɯ uɐɔ uoᴉʇdo sᴉɥ⟘
+of.options.FAST_MATH.tooltip.1=˙uoᴉʇɐɹǝuǝᵷ pꞁɹoʍ ǝɥʇ ʇɔǝɟɟɐ ʎꞁꞁɐɯᴉuᴉɯ uɐɔ uoᴉʇdo sᴉɥ⟘
 
 of.options.CHUNK_UPDATES=sǝʇɐpd∩ ʞunɥƆ
 of.options.CHUNK_UPDATES.tooltip.6=sǝʇɐpdn ʞunɥƆ
-of.options.CHUNK_UPDATES.tooltip.5=(ʇꞁnɐɟǝp) SԀℲ ɹǝɥƃᴉɥ 'ƃuᴉpɐoꞁ pꞁɹoʍ ɹǝʍoꞁs - ⥝ 
-of.options.CHUNK_UPDATES.tooltip.4=SԀℲ ɹǝʍoꞁ 'ƃuᴉpɐoꞁ pꞁɹoʍ ɹǝʇsɐɟ - Ɛ 
-of.options.CHUNK_UPDATES.tooltip.3=SԀℲ ʇsǝʍoꞁ 'ƃuᴉpɐoꞁ pꞁɹoʍ ʇsǝʇsɐɟ - ϛ 
+of.options.CHUNK_UPDATES.tooltip.5=(ʇꞁnɐɟǝp) SԀℲ ɹǝɥᵷᴉɥ 'ᵷuᴉpɐoꞁ pꞁɹoʍ ɹǝʍoꞁs - ⥝ 
+of.options.CHUNK_UPDATES.tooltip.4=SԀℲ ɹǝʍoꞁ 'ᵷuᴉpɐoꞁ pꞁɹoʍ ɹǝʇsɐɟ - Ɛ 
+of.options.CHUNK_UPDATES.tooltip.3=SԀℲ ʇsǝʍoꞁ 'ᵷuᴉpɐoꞁ pꞁɹoʍ ʇsǝʇsɐɟ - ϛ 
 of.options.CHUNK_UPDATES.tooltip.2='ǝɯɐɹɟ pǝɹǝpuǝɹ ɹǝd sǝʇɐpdn ʞunɥɔ ɟo ɹǝqɯnN
-of.options.CHUNK_UPDATES.tooltip.1=˙ǝʇɐɹǝɯɐɹɟ ǝɥʇ ǝzᴉꞁᴉqɐʇsǝp ʎɐɯ sǝnꞁɐʌ ɹǝɥƃᴉɥ
+of.options.CHUNK_UPDATES.tooltip.1=˙ǝʇɐɹǝɯɐɹɟ ǝɥʇ ǝzᴉꞁᴉqɐʇsǝp ʎɐɯ sǝnꞁɐʌ ɹǝɥᵷᴉɥ
 
-of.options.CHUNK_UPDATES_DYNAMIC=sǝʇɐpd∩ ɔᴉɯɐuʎp
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=sǝʇɐpdn ʞunɥɔ ɔᴉɯɐuʎp
+of.options.CHUNK_UPDATES_DYNAMIC=sǝʇɐpd∩ ɔᴉɯɐuʎᗡ
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=sǝʇɐpdn ʞunɥɔ ɔᴉɯɐuʎᗡ
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=(ʇꞁnɐɟǝp) ǝɯɐɹɟ ɹǝd sǝʇɐpdn ʞunɥɔ pɹɐpuɐʇs - ℲℲO 
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=ꞁꞁᴉʇs ƃuᴉpuɐʇs sᴉ ɹǝʎɐꞁd ǝɥʇ ǝꞁᴉɥʍ sǝʇɐpdn ǝɹoɯ - NO 
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=ǝꞁᴉɥʍ sǝʇɐpdn ʞunɥɔ ǝɹoɯ ǝɔɹoɟ sǝʇɐpdn ɔᴉɯɐuʎp
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=˙ɹǝʇsɐɟ pꞁɹoʍ ǝɥʇ pɐoꞁ oʇ ꞁꞁᴉʇs ƃuᴉpuɐʇs sᴉ ɹǝʎɐꞁd ǝɥʇ
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=ꞁꞁᴉʇs ᵷuᴉpuɐʇs sᴉ ɹǝʎɐꞁd ǝɥʇ ǝꞁᴉɥʍ sǝʇɐpdn ǝɹoɯ - NO 
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=ǝꞁᴉɥʍ sǝʇɐpdn ʞunɥɔ ǝɹoɯ ǝɔɹoɟ sǝʇɐpdn ɔᴉɯɐuʎᗡ
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=˙ɹǝʇsɐɟ pꞁɹoʍ ǝɥʇ pɐoꞁ oʇ ꞁꞁᴉʇs ᵷuᴉpuɐʇs sᴉ ɹǝʎɐꞁd ǝɥʇ
 
-of.options.LAZY_CHUNK_LOADING=ƃuᴉpɐo˥ ʞunɥƆ ʎzɐ˥
-of.options.LAZY_CHUNK_LOADING.tooltip.7=ƃuᴉpɐo˥ ʞunɥƆ ʎzɐ˥
-of.options.LAZY_CHUNK_LOADING.tooltip.6=ƃuᴉpɐoꞁ ʞunɥɔ ɹǝʌɹǝs ʇꞁnɐɟǝp - ℲℲO 
-of.options.LAZY_CHUNK_LOADING.tooltip.5=(ɹǝɥʇooɯs) ƃuᴉpɐoꞁ ʞunɥɔ ɹǝʌɹǝs ʎzɐꞁ - NO 
-of.options.LAZY_CHUNK_LOADING.tooltip.4=ʎq ƃuᴉpɐoꞁ ʞunɥɔ ɹǝʌɹǝs pǝʇɐɹƃǝʇuᴉ ǝɥʇ sɥʇooɯS
-of.options.LAZY_CHUNK_LOADING.tooltip.3=˙sʞɔᴉʇ ꞁɐɹǝʌǝs ɹǝʌo sʞunɥɔ ǝɥʇ ƃuᴉʇnqᴉɹʇsᴉp
+of.options.LAZY_CHUNK_LOADING=ᵷuᴉpɐoꞀ ʞunɥƆ ʎzɐꞀ
+of.options.LAZY_CHUNK_LOADING.tooltip.7=ᵷuᴉpɐoꞀ ʞunɥƆ ʎzɐꞀ
+of.options.LAZY_CHUNK_LOADING.tooltip.6=ᵷuᴉpɐoꞁ ʞunɥɔ ɹǝʌɹǝs ʇꞁnɐɟǝp - ℲℲO 
+of.options.LAZY_CHUNK_LOADING.tooltip.5=(ɹǝɥʇooɯs) ᵷuᴉpɐoꞁ ʞunɥɔ ɹǝʌɹǝs ʎzɐꞁ - NO 
+of.options.LAZY_CHUNK_LOADING.tooltip.4=ʎq ᵷuᴉpɐoꞁ ʞunɥɔ ɹǝʌɹǝs pǝʇɐɹᵷǝʇuᴉ ǝɥʇ sɥʇooɯS
+of.options.LAZY_CHUNK_LOADING.tooltip.3=˙sʞɔᴉʇ ꞁɐɹǝʌǝs ɹǝʌo sʞunɥɔ ǝɥʇ ᵷuᴉʇnqᴉɹʇsᴉᗡ
 of.options.LAZY_CHUNK_LOADING.tooltip.2=˙ʎꞁʇɔǝɹɹoɔ pɐoꞁ ʇou op pꞁɹoʍ ǝɥʇ ɟo sʇɹɐd ɟᴉ ℲℲO ʇᴉ uɹn⟘
-of.options.LAZY_CHUNK_LOADING.tooltip.1=˙(ɹǝʎɐꞁd-ǝꞁƃuᴉs) spꞁɹoʍ ꞁɐɔoꞁ ɹoɟ ʎꞁuo ǝʌᴉʇɔǝɟɟƎ
+of.options.LAZY_CHUNK_LOADING.tooltip.1=˙(ɹǝʎɐꞁd-ǝꞁᵷuᴉs) spꞁɹoʍ ꞁɐɔoꞁ ɹoɟ ʎꞁuo ǝʌᴉʇɔǝɟɟƎ
 
-of.options.RENDER_REGIONS=suoᴉƃǝɹ ɹǝpuǝᴚ
-of.options.RENDER_REGIONS.tooltip.6=suoᴉƃǝɹ ɹǝpuǝᴚ
-of.options.RENDER_REGIONS.tooltip.5=(ʇꞁnɐɟǝp) suoᴉƃǝɹ ɹǝpuǝɹ ǝsn ʇou op - ℲℲO 
-of.options.RENDER_REGIONS.tooltip.4=suoᴉƃǝɹ ɹǝpuǝɹ ǝsn - NO 
-of.options.RENDER_REGIONS.tooltip.3=ɹǝɥƃᴉɥ ʇɐ ƃuᴉɹǝpuǝɹ uᴉɐɹɹǝʇ ɹǝʇsɐɟ ʍoꞁꞁɐ suoᴉƃǝɹ ɹǝpuǝᴚ
+of.options.RENDER_REGIONS=suoᴉᵷǝɹ ɹǝpuǝᴚ
+of.options.RENDER_REGIONS.tooltip.6=suoᴉᵷǝɹ ɹǝpuǝᴚ
+of.options.RENDER_REGIONS.tooltip.5=(ʇꞁnɐɟǝp) suoᴉᵷǝɹ ɹǝpuǝɹ ǝsn ʇou op - ℲℲO 
+of.options.RENDER_REGIONS.tooltip.4=suoᴉᵷǝɹ ɹǝpuǝɹ ǝsn - NO 
+of.options.RENDER_REGIONS.tooltip.3=ɹǝɥᵷᴉɥ ʇɐ ᵷuᴉɹǝpuǝɹ uᴉɐɹɹǝʇ ɹǝʇsɐɟ ʍoꞁꞁɐ suoᴉᵷǝɹ ɹǝpuǝᴚ
 of.options.RENDER_REGIONS.tooltip.2=˙pǝꞁqɐuǝ ǝɹɐ soqΛ uǝɥʍ ǝʌᴉʇɔǝɟɟǝ ǝɹoW ˙sǝɔuɐʇsᴉp ɹǝpuǝɹ
-of.options.RENDER_REGIONS.tooltip.1=˙spɹɐɔ sɔᴉɥdɐɹƃ pǝʇɐɹƃǝʇuᴉ ɹoɟ pǝpuǝɯɯoɔǝɹ ʇoN
+of.options.RENDER_REGIONS.tooltip.1=˙spɹɐɔ sɔᴉɥdɐɹᵷ pǝʇɐɹᵷǝʇuᴉ ɹoɟ pǝpuǝɯɯoɔǝɹ ʇoN
 
-of.options.SMART_ANIMATIONS=suoᴉʇɐɯᴉu∀ ʇɹɐɯS
-of.options.SMART_ANIMATIONS.tooltip.7=suoᴉʇɐɯᴉu∀ ʇɹɐɯS
+of.options.SMART_ANIMATIONS=suoᴉʇɐɯᴉuⱯ ʇɹɐɯS
+of.options.SMART_ANIMATIONS.tooltip.7=suoᴉʇɐɯᴉuⱯ ʇɹɐɯS
 of.options.SMART_ANIMATIONS.tooltip.6=(ʇꞁnɐɟǝp) suoᴉʇɐɯᴉuɐ ʇɹɐɯs ǝsn ʇou op - ℲℲO 
 of.options.SMART_ANIMATIONS.tooltip.5=suoᴉʇɐɯᴉuɐ ʇɹɐɯs ǝsn - NO 
-of.options.SMART_ANIMATIONS.tooltip.4= ǝɥʇ ǝʇɐɯᴉuɐ ʎꞁuo ꞁꞁᴉʍ ǝɯɐƃ ǝɥʇ suoᴉʇɐɯᴉuɐ ʇɹɐɯs ɥʇᴉM
+of.options.SMART_ANIMATIONS.tooltip.4= ǝɥʇ ǝʇɐɯᴉuɐ ʎꞁuo ꞁꞁᴉʍ ǝɯɐᵷ ǝɥʇ suoᴉʇɐɯᴉuɐ ʇɹɐɯs ɥʇᴉM
 of.options.SMART_ANIMATIONS.tooltip.3=˙uǝǝɹɔs ǝɥʇ uo ǝꞁqᴉsᴉʌ ʎꞁʇuǝɹɹnɔ ǝɹɐ ɥɔᴉɥʍ sǝɹnʇxǝʇ
-of.options.SMART_ANIMATIONS.tooltip.2=˙SԀℲ ǝɥʇ sǝsɐǝɹɔuᴉ puɐ sǝʞᴉds ƃɐꞁ ʞɔᴉʇ ǝɥʇ sǝɔnpǝɹ sᴉɥ⟘
-of.options.SMART_ANIMATIONS.tooltip.1=˙sʞɔɐd ǝɔɹnosǝɹ pH puɐ sʞɔɐd poɯ ƃᴉq ɹoɟ ꞁnɟǝsn ʎꞁꞁɐᴉɔǝdsƎ
+of.options.SMART_ANIMATIONS.tooltip.2=˙SԀℲ ǝɥʇ sǝsɐǝɹɔuᴉ puɐ sǝʞᴉds ᵷɐꞁ ʞɔᴉʇ ǝɥʇ sǝɔnpǝɹ sᴉɥ⟘
+of.options.SMART_ANIMATIONS.tooltip.1=˙sʞɔɐd ǝɔɹnosǝɹ pH puɐ sʞɔɐd poɯ ᵷᴉq ɹoɟ ꞁnɟǝsn ʎꞁꞁɐᴉɔǝdsƎ
 
 # Animations
 
-of.options.animation.allOn=NO ꞁꞁ∀
-of.options.animation.allOff=ℲℲO ꞁꞁ∀
-of.options.animation.dynamic=ɔᴉɯɐuʎp
+of.options.animation.allOn=NO ꞁꞁⱯ
+of.options.animation.allOff=ℲℲO ꞁꞁⱯ
+of.options.animation.dynamic=ɔᴉɯɐuʎᗡ
 
-of.options.ANIMATED_WATER=pǝʇɐɯᴉu∀ ɹǝʇɐM
-of.options.ANIMATED_LAVA=pǝʇɐɯᴉu∀ ɐʌɐ˥
-of.options.ANIMATED_FIRE=pǝʇɐɯᴉu∀ ǝɹᴉℲ
-of.options.ANIMATED_PORTAL=pǝʇɐɯᴉu∀ ꞁɐʇɹoԀ
-of.options.ANIMATED_REDSTONE=pǝʇɐɯᴉu∀ ǝuoʇspǝᴚ
-of.options.ANIMATED_EXPLOSION=pǝʇɐɯᴉu∀ uoᴉsoꞁdxƎ
-of.options.ANIMATED_FLAME=pǝʇɐɯᴉu∀ ǝɯɐꞁℲ
-of.options.ANIMATED_SMOKE=pǝʇɐɯᴉu∀ ǝʞoɯS
+of.options.ANIMATED_WATER=pǝʇɐɯᴉuⱯ ɹǝʇɐM
+of.options.ANIMATED_LAVA=pǝʇɐɯᴉuⱯ ɐʌɐꞀ
+of.options.ANIMATED_FIRE=pǝʇɐɯᴉuⱯ ǝɹᴉℲ
+of.options.ANIMATED_PORTAL=pǝʇɐɯᴉuⱯ ꞁɐʇɹoԀ
+of.options.ANIMATED_REDSTONE=pǝʇɐɯᴉuⱯ ǝuoʇspǝᴚ
+of.options.ANIMATED_EXPLOSION=pǝʇɐɯᴉuⱯ uoᴉsoꞁdxƎ
+of.options.ANIMATED_FLAME=pǝʇɐɯᴉuⱯ ǝɯɐꞁℲ
+of.options.ANIMATED_SMOKE=pǝʇɐɯᴉuⱯ ǝʞoɯS
 of.options.VOID_PARTICLES=sǝꞁɔᴉʇɹɐԀ pᴉoΛ
 of.options.WATER_PARTICLES=sǝꞁɔᴉʇɹɐԀ ɹǝʇɐM
 of.options.RAIN_SPLASH=ɥsɐꞁdS uᴉɐᴚ
 of.options.PORTAL_PARTICLES=sǝꞁɔᴉʇɹɐԀ ꞁɐʇɹoԀ
 of.options.POTION_PARTICLES=sǝꞁɔᴉʇɹɐԀ uoᴉʇoԀ
-of.options.DRIPPING_WATER_LAVA=ɐʌɐ˥/ɹǝʇɐM ƃuᴉddᴉɹp
-of.options.ANIMATED_TERRAIN=pǝʇɐɯᴉu∀ uᴉɐɹɹǝ⟘
-of.options.ANIMATED_TEXTURES=pǝʇɐɯᴉu∀ sǝɹnʇxǝ⟘
+of.options.DRIPPING_WATER_LAVA=ɐʌɐꞀ/ɹǝʇɐM ᵷuᴉddᴉɹᗡ
+of.options.ANIMATED_TERRAIN=pǝʇɐɯᴉuⱯ uᴉɐɹɹǝ⟘
+of.options.ANIMATED_TEXTURES=pǝʇɐɯᴉuⱯ sǝɹnʇxǝ⟘
 of.options.FIREWORK_PARTICLES=sǝꞁɔᴉʇɹɐԀ ʞɹoʍǝɹᴉℲ
 
 # Other
 
-of.options.LAGOMETER=ɹǝʇǝɯoƃɐ˥
-of.options.LAGOMETER.tooltip.8=˙(ƐℲ) uǝǝɹɔs ƃnqǝp ǝɥʇ uo ɹǝʇǝɯoƃɐꞁ ǝɥʇ sʍoɥS
-of.options.LAGOMETER.tooltip.7=uoᴉʇɔǝꞁꞁoɔ ǝƃɐqɹɐƃ ʎɹoɯǝW - ǝƃuɐɹO *
+of.options.LAGOMETER=ɹǝʇǝɯoᵷɐꞀ
+of.options.LAGOMETER.tooltip.8=˙(ƐℲ) uǝǝɹɔs ᵷnqǝp ǝɥʇ uo ɹǝʇǝɯoᵷɐꞁ ǝɥʇ sʍoɥS
+of.options.LAGOMETER.tooltip.7=uoᴉʇɔǝꞁꞁoɔ ǝᵷɐqɹɐᵷ ʎɹoɯǝW - ǝᵷuɐɹO *
 of.options.LAGOMETER.tooltip.6=ʞɔᴉ⟘ - uɐʎƆ *
 of.options.LAGOMETER.tooltip.5=sǝꞁqɐʇnɔǝxǝ pǝꞁnpǝɥɔS - ǝnꞁᗺ *
 of.options.LAGOMETER.tooltip.4=pɐoꞁdn ʞunɥƆ - ǝꞁdɹnԀ *
@@ -659,12 +675,12 @@ of.options.LAGOMETER.tooltip.3=sǝʇɐpdn ʞunɥƆ - pǝᴚ *
 of.options.LAGOMETER.tooltip.2=ʞɔǝɥɔ ʎʇᴉꞁᴉqᴉsᴉΛ - ʍoꞁꞁǝ⅄ *
 of.options.LAGOMETER.tooltip.1=uᴉɐɹɹǝʇ ɹǝpuǝᴚ - uǝǝɹפ *
 
-of.options.PROFILER=ɹǝꞁᴉɟoɹԀ ƃnqǝp
-of.options.PROFILER.tooltip.5=ɹǝꞁᴉɟoɹԀ ƃnqǝp
-of.options.PROFILER.tooltip.4=ɹǝʍoꞁs 'ǝʌᴉʇɔɐ sᴉ ɹǝꞁᴉɟoɹd ƃnqǝp - NO  
-of.options.PROFILER.tooltip.3=ɹǝʇsɐɟ 'ǝʌᴉʇɔɐ ʇou sᴉ ɹǝꞁᴉɟoɹd ƃnqǝp - ℲℲO  
-of.options.PROFILER.tooltip.2=uoᴉʇɐɯɹoɟuᴉ ƃnqǝp sʍoɥs puɐ sʇɔǝꞁꞁoɔ ɹǝꞁᴉɟoɹd ƃnqǝp ǝɥ⟘
-of.options.PROFILER.tooltip.1=˙(ƐℲ) uǝdo sᴉ uǝǝɹɔs ƃnqǝp ǝɥʇ uǝɥʍ
+of.options.PROFILER=ɹǝꞁᴉɟoɹԀ ᵷnqǝᗡ
+of.options.PROFILER.tooltip.5=ɹǝꞁᴉɟoɹԀ ᵷnqǝᗡ
+of.options.PROFILER.tooltip.4=ɹǝʍoꞁs 'ǝʌᴉʇɔɐ sᴉ ɹǝꞁᴉɟoɹd ᵷnqǝp - NO  
+of.options.PROFILER.tooltip.3=ɹǝʇsɐɟ 'ǝʌᴉʇɔɐ ʇou sᴉ ɹǝꞁᴉɟoɹd ᵷnqǝp - ℲℲO  
+of.options.PROFILER.tooltip.2=uoᴉʇɐɯɹoɟuᴉ ᵷnqǝp sʍoɥs puɐ sʇɔǝꞁꞁoɔ ɹǝꞁᴉɟoɹd ᵷnqǝp ǝɥ⟘
+of.options.PROFILER.tooltip.1=˙(ƐℲ) uǝdo sᴉ uǝǝɹɔs ᵷnqǝp ǝɥʇ uǝɥʍ
 
 of.options.WEATHER=ɹǝɥʇɐǝM
 of.options.WEATHER.tooltip.5=ɹǝɥʇɐǝM
@@ -674,37 +690,37 @@ of.options.WEATHER.tooltip.2=˙sɯɹoʇsɹǝpunɥʇ puɐ ʍous 'uᴉɐɹ sꞁoɹ
 of.options.WEATHER.tooltip.1=˙spꞁɹoʍ ꞁɐɔoꞁ ɹoɟ ǝꞁqᴉssod ʎꞁuo sᴉ ꞁoɹʇuoɔ ɹǝɥʇɐǝM
 
 of.options.time.dayOnly=ʎꞁuo ʎɐᗡ
-of.options.time.nightOnly=ʎꞁuo ʇɥƃᴉN
+of.options.time.nightOnly=ʎꞁuo ʇɥᵷᴉN
 
 of.options.TIME=ǝɯᴉ⟘
 of.options.TIME.tooltip.6=ǝɯᴉ⟘
-of.options.TIME.tooltip.5=sǝꞁɔʎɔ ʇɥƃᴉu/ʎɐp ꞁɐɯɹou - ʇꞁnɐɟǝp 
+of.options.TIME.tooltip.5=sǝꞁɔʎɔ ʇɥᵷᴉu/ʎɐp ꞁɐɯɹou - ʇꞁnɐɟǝp 
 of.options.TIME.tooltip.4=ʎꞁuo ʎɐp - ʎꞁuo ʎɐᗡ 
-of.options.TIME.tooltip.3=ʎꞁuo ʇɥƃᴉu - ʎꞁuo ʇɥƃᴉN 
-of.options.TIME.tooltip.2=ǝpoɯ ƎΛI⟘∀ƎɹƆ uᴉ ǝʌᴉʇɔǝɟɟǝ ʎꞁuo sᴉ ƃuᴉʇʇǝs ǝɯᴉʇ ǝɥ⟘
+of.options.TIME.tooltip.3=ʎꞁuo ʇɥᵷᴉu - ʎꞁuo ʇɥᵷᴉN 
+of.options.TIME.tooltip.2=ǝpoɯ ƎΛI⟘ⱯƎɹƆ uᴉ ǝʌᴉʇɔǝɟɟǝ ʎꞁuo sᴉ ᵷuᴉʇʇǝs ǝɯᴉʇ ǝɥ⟘
 of.options.TIME.tooltip.1=˙spꞁɹoʍ ꞁɐɔoꞁ ɹoɟ puɐ
 
 options.fullscreen.tooltip.5=uǝǝɹɔsꞁꞁnℲ
 options.fullscreen.tooltip.4=ǝpoɯ uǝǝɹɔsꞁꞁnɟ ǝsn - NO  
 options.fullscreen.tooltip.3=ǝpoɯ ʍopuᴉʍ ǝsn - ℲℲO  
 options.fullscreen.tooltip.2=uɐɥʇ ɹǝʍoꞁs ɹo ɹǝʇsɐɟ ǝq ʎɐɯ ǝpoɯ uǝǝɹɔsꞁꞁnℲ
-options.fullscreen.tooltip.1=˙pɹɐɔ sɔᴉɥdɐɹƃ ǝɥʇ uo ƃuᴉpuǝdǝp 'ǝpoɯ ʍopuᴉʍ
+options.fullscreen.tooltip.1=˙pɹɐɔ sɔᴉɥdɐɹᵷ ǝɥʇ uo ᵷuᴉpuǝdǝp 'ǝpoɯ ʍopuᴉʍ
 
-of.options.FULLSCREEN_MODE=ǝpoW uǝǝɹɔsꞁꞁnℲ
-of.options.FULLSCREEN_MODE.tooltip.5=ǝpoɯ uǝǝɹɔsꞁꞁnℲ
-of.options.FULLSCREEN_MODE.tooltip.4=ɹǝʍoꞁs 'uoᴉʇnꞁosǝɹ uǝǝɹɔs doʇʞsǝp ǝsn - ʇꞁnɐɟǝp  
-of.options.FULLSCREEN_MODE.tooltip.3=ɹǝʇsɐɟ ǝq ʎɐɯ 'uoᴉʇnꞁosǝɹ uǝǝɹɔs ɯoʇsnɔ ǝsn - HxM  
-of.options.FULLSCREEN_MODE.tooltip.2=˙(⥝⥝Ⅎ) ǝpoɯ uǝǝɹɔsꞁꞁnɟ uᴉ pǝsn sᴉ uoᴉʇnꞁosǝɹ pǝʇɔǝꞁǝs ǝɥ⟘
-of.options.FULLSCREEN_MODE.tooltip.1=˙ɹǝʇsɐɟ ǝq ʎꞁꞁɐɹǝuǝƃ pꞁnoɥs suoᴉʇnꞁosǝɹ ɹǝʍo˥
+options.fullscreen.resolution=ǝpoW uǝǝɹɔsꞁꞁnℲ
+options.fullscreen.resolution.tooltip.5=ǝpoɯ uǝǝɹɔsꞁꞁnℲ
+options.fullscreen.resolution.tooltip.4=ɹǝʍoꞁs 'uoᴉʇnꞁosǝɹ uǝǝɹɔs doʇʞsǝp ǝsn - ʇꞁnɐɟǝp  
+options.fullscreen.resolution.tooltip.3=ɹǝʇsɐɟ ǝq ʎɐɯ 'uoᴉʇnꞁosǝɹ uǝǝɹɔs ɯoʇsnɔ ǝsn - HxM  
+options.fullscreen.resolution.tooltip.2=˙(⥝⥝Ⅎ) ǝpoɯ uǝǝɹɔsꞁꞁnɟ uᴉ pǝsn sᴉ uoᴉʇnꞁosǝɹ pǝʇɔǝꞁǝs ǝɥ⟘
+options.fullscreen.resolution.tooltip.1=˙ɹǝʇsɐɟ ǝq ʎꞁꞁɐɹǝuǝᵷ pꞁnoɥs suoᴉʇnꞁosǝɹ ɹǝʍoꞀ
 
 of.options.SHOW_FPS=SԀℲ ʍoɥS
 of.options.SHOW_FPS.tooltip.7=˙uoᴉʇɐɯɹoɟuᴉ ɹǝpuǝɹ puɐ SԀℲ ʇɔɐdɯoɔ sʍoɥS
-of.options.SHOW_FPS.tooltip.6=ɯnɯᴉuᴉɯ/ǝƃɐɹǝʌɐ - sdℲ  
+of.options.SHOW_FPS.tooltip.6=ɯnɯᴉuᴉɯ/ǝᵷɐɹǝʌɐ - sdℲ  
 of.options.SHOW_FPS.tooltip.5=sɹǝɹǝpuǝɹ ʞunɥɔ - :Ɔ  
 of.options.SHOW_FPS.tooltip.4=sǝᴉʇᴉʇuǝ ʞɔoꞁq + sǝᴉʇᴉʇuǝ pǝɹǝpuǝɹ - :Ǝ  
 of.options.SHOW_FPS.tooltip.3=sǝʇɐpdn ʞunɥɔ - :∩  
 of.options.SHOW_FPS.tooltip.2=ǝɥʇ uǝɥʍ uʍoɥs ʎꞁuo sᴉ uoᴉʇɐɯɹoɟuᴉ SԀℲ ʇɔɐdɯoɔ ǝɥ⟘
-of.options.SHOW_FPS.tooltip.1=˙ǝꞁqᴉsᴉʌ ʇou sᴉ uǝǝɹɔs ƃnqǝp
+of.options.SHOW_FPS.tooltip.1=˙ǝꞁqᴉsᴉʌ ʇou sᴉ uǝǝɹɔs ᵷnqǝp
 
 of.options.save.45s=sϛ߈
 of.options.save.90s=s06
@@ -713,32 +729,32 @@ of.options.save.6min=uᴉɯ9
 of.options.save.12min=uᴉɯᘔ⥝
 of.options.save.24min=uᴉɯ߈ᘔ
 
-of.options.AUTOSAVE_TICKS=ǝʌɐsoʇn∀
-of.options.AUTOSAVE_TICKS.tooltip.4=ꞁɐʌɹǝʇuI ǝʌɐsoʇn∀
+of.options.AUTOSAVE_TICKS=ǝʌɐsoʇnⱯ
+of.options.AUTOSAVE_TICKS.tooltip.4=ꞁɐʌɹǝʇuI ǝʌɐsoʇnⱯ
 of.options.AUTOSAVE_TICKS.tooltip.3=ʇꞁnɐɟǝp - sϛ߈ 
-of.options.AUTOSAVE_TICKS.tooltip.2=˙ǝɔuɐʇsᴉp ɹǝpuǝɹ ǝɥʇ uo ƃuᴉpuǝdǝp sǝʞᴉds ƃɐꞁ ǝʇɐɹǝuǝƃ ʎɐɯ ǝʌɐsoʇn∀
-of.options.AUTOSAVE_TICKS.tooltip.1=˙pǝuǝdo sᴉ nuǝɯ ǝɯɐƃ ǝɥʇ uǝɥʍ pǝʌɐs osꞁɐ sᴉ pꞁɹoʍ ǝɥ⟘
+of.options.AUTOSAVE_TICKS.tooltip.2=˙ǝɔuɐʇsᴉp ɹǝpuǝɹ ǝɥʇ uo ᵷuᴉpuǝdǝp sǝʞᴉds ᵷɐꞁ ǝʇɐɹǝuǝᵷ ʎɐɯ ǝʌɐsoʇnⱯ
+of.options.AUTOSAVE_TICKS.tooltip.1=˙pǝuǝdo sᴉ nuǝɯ ǝɯɐᵷ ǝɥʇ uǝɥʍ pǝʌɐs osꞁɐ sᴉ pꞁɹoʍ ǝɥ⟘
 
 of.options.SCREENSHOT_SIZE=ǝzᴉS ʇoɥsuǝǝɹɔS
 of.options.SCREENSHOT_SIZE.tooltip.6=ǝzᴉS ʇoɥsuǝǝɹɔS
 of.options.SCREENSHOT_SIZE.tooltip.5=ǝzᴉs ʇoɥsuǝǝɹɔs ʇꞁnɐɟǝp - ʇꞁnɐɟǝp  
 of.options.SCREENSHOT_SIZE.tooltip.4=ǝzᴉs ʇoɥsuǝǝɹɔs ɯoʇsnɔ - x߈-xᘔ  
-of.options.SCREENSHOT_SIZE.tooltip.3=˙ʎɹoɯǝɯ ǝɹoɯ pǝǝu ʎɐɯ sʇoɥsuǝǝɹɔs ɹǝƃƃᴉq ƃuᴉɹnʇdɐƆ
-of.options.SCREENSHOT_SIZE.tooltip.2=˙ƃuᴉsɐᴉꞁɐᴉʇu∀ puɐ ɹǝpuǝɹ ʇsɐℲ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇoN
+of.options.SCREENSHOT_SIZE.tooltip.3=˙ʎɹoɯǝɯ ǝɹoɯ pǝǝu ʎɐɯ sʇoɥsuǝǝɹɔs ɹǝᵷᵷᴉq ᵷuᴉɹnʇdɐƆ
+of.options.SCREENSHOT_SIZE.tooltip.2=˙ᵷuᴉsɐᴉꞁɐᴉʇuⱯ puɐ ɹǝpuǝɹ ʇsɐℲ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇoN
 of.options.SCREENSHOT_SIZE.tooltip.1=˙ʇɹoddns ɹǝɟɟnqǝɯɐɹɟ ∩Ԁפ sǝɹᴉnbǝᴚ
 
-of.options.SHOW_GL_ERRORS=sɹoɹɹƎ ˥פ ʍoɥS
-of.options.SHOW_GL_ERRORS.tooltip.6=sɹoɹɹƎ ˥פuǝdo ʍoɥS
-of.options.SHOW_GL_ERRORS.tooltip.5=˙ʇɐɥɔ ǝɥʇ uᴉ uʍoɥs ǝɹɐ sɹoɹɹǝ ˥פuǝdo pǝꞁqɐuǝ uǝɥM
-of.options.SHOW_GL_ERRORS.tooltip.4=puɐ ʇɔᴉꞁɟuoɔ uʍouʞ ɐ sᴉ ǝɹǝɥʇ ɟᴉ ʎꞁuo ʇᴉ ǝꞁqɐsᴉp
+of.options.SHOW_GL_ERRORS=sɹoɹɹƎ Ꞁפ ʍoɥS
+of.options.SHOW_GL_ERRORS.tooltip.6=sɹoɹɹƎ Ꞁפuǝdo ʍoɥS
+of.options.SHOW_GL_ERRORS.tooltip.5=˙ʇɐɥɔ ǝɥʇ uᴉ uʍoɥs ǝɹɐ sɹoɹɹǝ Ꞁפuǝdo pǝꞁqɐuǝ uǝɥM
+of.options.SHOW_GL_ERRORS.tooltip.4=puɐ ʇɔᴉꞁɟuoɔ uʍouʞ ɐ sᴉ ǝɹǝɥʇ ɟᴉ ʎꞁuo ʇᴉ ǝꞁqɐsᴉᗡ
 of.options.SHOW_GL_ERRORS.tooltip.3=˙pǝxᴉɟ ǝq ʇ,uɐɔ sɹoɹɹǝ ǝɥʇ
-of.options.SHOW_GL_ERRORS.tooltip.2= ǝɥʇ uᴉ pǝƃƃoꞁ ꞁꞁᴉʇs ǝɹɐ sɹoɹɹǝ ǝɥʇ pǝꞁqɐsᴉp uǝɥM
-of.options.SHOW_GL_ERRORS.tooltip.1= ˙doɹp SԀℲ ʇuɐɔᴉɟᴉuƃᴉs ɐ ǝsnɐɔ ꞁꞁᴉʇs ʎɐɯ ʎǝɥʇ puɐ ƃoꞁ ɹoɹɹǝ
+of.options.SHOW_GL_ERRORS.tooltip.2= ǝɥʇ uᴉ pǝᵷᵷoꞁ ꞁꞁᴉʇs ǝɹɐ sɹoɹɹǝ ǝɥʇ pǝꞁqɐsᴉp uǝɥM
+of.options.SHOW_GL_ERRORS.tooltip.1= ˙doɹp SԀℲ ʇuɐɔᴉɟᴉuᵷᴉs ɐ ǝsnɐɔ ꞁꞁᴉʇs ʎɐɯ ʎǝɥʇ puɐ ᵷoꞁ ɹoɹɹǝ
 
 # Chat Settings
 
-of.options.CHAT_BACKGROUND=punoɹƃʞɔɐq ʇɐɥƆ
-of.options.CHAT_BACKGROUND.tooltip.4=punoɹƃʞɔɐq ʇɐɥƆ
+of.options.CHAT_BACKGROUND=punoɹᵷʞɔɐq ʇɐɥƆ
+of.options.CHAT_BACKGROUND.tooltip.4=punoɹᵷʞɔɐq ʇɐɥƆ
 of.options.CHAT_BACKGROUND.tooltip.3=ɥʇpᴉʍ pǝxᴉɟ - ʇꞁnɐɟǝp  
 of.options.CHAT_BACKGROUND.tooltip.2=ɥʇpᴉʍ ǝuᴉꞁ sǝɥɔʇɐɯ - ʇɔɐdɯoƆ  
 of.options.CHAT_BACKGROUND.tooltip.1=uǝppᴉɥ - ℲℲO  
