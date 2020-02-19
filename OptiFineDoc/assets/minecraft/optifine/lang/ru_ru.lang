@@ -1,5 +1,5 @@
 # Contributors of Russian localization #
-#	Jerozgen  01-Mar-2016 — 16-Jun-2019
+#	Jerozgen  01-Mar-2016 — 15-Oct-2019
 #	Dibro     20-Mar-2016
 
 # Общее
@@ -60,8 +60,10 @@ of.options.skinCustomisation.ofCape=Плащ OptiFine...
 of.options.capeOF.title=Плащ OptiFine
 of.options.capeOF.openEditor=Открыть редактор плаща
 of.options.capeOF.reloadCape=Обновить плащ
+of.options.capeOF.copyEditorLink=Копировать ссылку
 
 of.message.capeOF.openEditor=Редактор плаща OptiFine откроется в браузере.
+of.message.capeOF.openEditorError=Произошла ошибка при попытке открыть ссылку в браузере.
 of.message.capeOF.reloadCape=Плащ будет обновлён через 15 секунд.
 
 of.message.capeOF.error1=Не удалось войти в учётную запись Mojang.
