@@ -29,10 +29,10 @@ of.options.SMOOTH_BIOMES.tooltip.5=averaging the colour of all surrounding block
 
 # Details
 
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Fancy - correct colour blending (default)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Fast - fast colour blending (faster)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Controls the colour blending of translucent blocks
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=with different colour (stained glass, water, ice)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Fancy - correct colour blending (default)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Fast - fast colour blending (faster)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Controls the colour blending of translucent blocks
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=with different colour (stained glass, water, ice)
 
 # Performance
 

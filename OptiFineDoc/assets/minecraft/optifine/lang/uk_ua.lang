@@ -57,8 +57,10 @@ of.options.skinCustomisation.ofCape=Плащ OptiFine...
 of.options.capeOF.title=Плащ
 of.options.capeOF.openEditor=Редактор плаща
 of.options.capeOF.reloadCape=Перезавантажити плащ
+of.options.capeOF.copyEditorLink=Копіювати посилання
 
 of.message.capeOF.openEditor=Редактор плаща OptiFine відкриєтся у браузері.
+of.message.capeOF.openEditorError=Помилка під час відкриття у браузері!
 of.message.capeOF.reloadCape=Ваш плащ перезавантажиться за 15 секунд.
 
 of.message.capeOF.error1=Аутентифікація не вдалася.
@@ -124,6 +126,13 @@ options.anaglyph.tooltip.1=3D анагліф
 options.anaglyph.tooltip.2=Вмикає стереоскопічний 3D ефекти використовуючи різні кольори
 options.anaglyph.tooltip.3=для кожного ока.
 options.anaglyph.tooltip.4=Потребує червоно-сині окуляри для перегляду.
+
+options.attackIndicator.tooltip.1=Налаштовує позицію індикатора атаки
+options.attackIndicator.tooltip.2=  Хрестовина - під хрестовиною
+options.attackIndicator.tooltip.3=  Хотбар - коло хотбару
+options.attackIndicator.tooltip.4=  Вимк - без індикатора атаки
+options.attackIndicator.tooltip.5=Індикатор атаки показує силу атаки
+options.attackIndicator.tooltip.6=обраного предмета
 
 of.options.ALTERNATE_BLOCKS=Альтернативні блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативні блоки
@@ -536,6 +545,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.4=  Красива - красиве динам
 of.options.DYNAMIC_LIGHTS.tooltip.5=Дозволяє випромінювати світло речам (факел, світлокамінь, т.д.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=щоб освітлювати все навкруги, коли знаходяться в руці,
 of.options.DYNAMIC_LIGHTS.tooltip.7=вдягнуті іншим гравцем або викинуті на землю.
+
+options.biomeBlendRadius.tooltip.1=Пом'якшує переходи кольорів на межах біомів
+options.biomeBlendRadius.tooltip.2=  Вимк - без переходів (швидше)
+options.biomeBlendRadius.tooltip.3=  5x5 - стандартний перехід (базово)
+options.biomeBlendRadius.tooltip.4=  15x15 - максимальний перехід (повільно)
+options.biomeBlendRadius.tooltip.5=Великі значення можуть зменшувати FPS
+options.biomeBlendRadius.tooltip.6=і заповільнювати швидкість завантаження чанків.
 
 # Performance
 

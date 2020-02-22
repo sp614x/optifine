@@ -21,31 +21,31 @@ of.message.af.shaders2=Desativa as shaders para ativares esta opção.
 of.message.fr.shaders1=O carregamento rápido não é compatível com as shaders.
 of.message.fr.shaders2=Desativa as shaders para ativares esta opção.
 
-of.message.an.shaders1=3D Anaglífico não é compatível com as shaders.
+of.message.an.shaders1=O 3D Anaglífico não é compatível com as shaders.
 of.message.an.shaders2=Desativa as shaders para ativares esta opção.
 
 of.message.shaders.aa1=As shaders não são compatíveis com o antiserrilhamento.
-of.message.shaders.aa2=Vai a "qualidade", define o antiserrilhamento para "não", e reinicia o jogo.
+of.message.shaders.aa2=Vai a "Qualidade", define o antiserrilhamento para "Não", e reinicia o jogo.
 
 of.message.shaders.af1=As shaders não são compatíveis com filtração anisotrópica.
-of.message.shaders.af2=Vai a "qualidade" e define a "filtração anisotrópica" para "não".
+of.message.shaders.af2=Vai a "Qualidade" e define a "filtração anisotrópica" para "Não".
 
 of.message.shaders.fr1=As shaders não são compatíveis com o carregamento rápido.
-of.message.shaders.fr2=Vai a "desempenho" e define o "carregamento rápido" para "não".
+of.message.shaders.fr2=Vai a "Desempenho" e define o "carregamento rápido" para "Não".
 
 of.message.shaders.an1=As shaders não são compatíveis com o 3D anaglífico.
-of.message.shaders.an2=Vai a "outros" e define o "3D anaglífico" para "não".
+of.message.shaders.an2=Vai a "Outros" e define o "3D anaglífico" para "Não".
 
 of.message.shaders.nv1=Este pacote de shaders requer uma nova versão do OptiFine: %s
 of.message.shaders.nv2=Tens a certeza que queres continuar?
 
 of.message.newVersion=Uma nova versão do §eOptiFine§f está agora disponível: §e%s§f
-of.message.java64Bit=Podes instalar o §eJava - 64 bits§f para aumentar o desempenho.
+of.message.java64Bit=Podes instalar o §eJava de 64 bits§f para aumentar o desempenho.
 of.message.openglError=§eErro da OpenGL§f: %s (%s)
 
 of.message.shaders.loading=A carregar shaders: %s
 
-of.message.other.reset=Redefinir todas as definições de vídeo para padrão?
+of.message.other.reset=Redefinir todas as definições de vídeo para o padrão?
 
 of.message.loadingVisibleChunks=A carregar chunks visíveis
 
@@ -105,7 +105,7 @@ options.guiScale.tooltip.1=Tamanho da interface
 options.guiScale.tooltip.2=  Automática - Tamanho máximo
 options.guiScale.tooltip.3=  Pequena, Normal, Grande - 1x to 3x
 options.guiScale.tooltip.4=  4x to 10x - disponível em monitores 4K
-options.guiScale.tooltip.5=Valores ímpares (1x, 3x, 5x ...) não são compatíveis com o
+options.guiScale.tooltip.5=Valores ímpares (1x, 3x, 5x...) não são compatíveis com o
 options.guiScale.tooltip.6=Unicode. Uma interface pequena é normalmente mais rápida.
 
 options.vbo=VBOs
@@ -123,7 +123,7 @@ options.gamma.tooltip.6=objetos completamente negros.
 options.anaglyph.tooltip.1=3D anaglífico
 options.anaglyph.tooltip.2=Ativa o efeito 3D estereoscópio com o uso de diferentes
 options.anaglyph.tooltip.3=cores para cada olho.
-options.anaglyph.tooltip.4=Requere uns óculos 3D, daqueles azuis e vermelhos,
+options.anaglyph.tooltip.4=Requere óculos 3D, daqueles azuis e vermelhos,
 options.anaglyph.tooltip.5=para uma visualização adequada.
 
 options.attackIndicator.tooltip.1=Configura a posição do indicador de ataque
@@ -143,7 +143,7 @@ of.options.FOG_FANCY.tooltip.1=Tipo de nevoeiro
 of.options.FOG_FANCY.tooltip.2=  Rápido - nevoeiro rápido
 of.options.FOG_FANCY.tooltip.3=  Elegante - nevoeiro lento, melhor aspeto
 of.options.FOG_FANCY.tooltip.4=  Não - sem nevoeiro, mais rápido
-of.options.FOG_FANCY.tooltip.5=O nevoeiro "elegante" só está disponível se for
+of.options.FOG_FANCY.tooltip.5=O nevoeiro "Elegante" só está disponível se for
 of.options.FOG_FANCY.tooltip.6=suportado pela placa gráfica atual.
 
 of.options.FOG_START=Começo do nevoeiro
@@ -352,7 +352,7 @@ of.options.BETTER_SNOW.tooltip.6=um bloco.
 of.options.CUSTOM_FONTS=Tipos de letra person.
 of.options.CUSTOM_FONTS.tooltip.1=Tipos de letra personalizados
 of.options.CUSTOM_FONTS.tooltip.2=  Sim - usar tipos de letra personalizados (padrão), lento
-of.options.CUSTOM_FONTS.tooltip.3=  Não - usar o tipo de letra predefenido, rápido
+of.options.CUSTOM_FONTS.tooltip.3=  Não - usar o tipo de letra predefinido, rápido
 of.options.CUSTOM_FONTS.tooltip.4=Os tipos de letra personalizados são suportadas pelo
 of.options.CUSTOM_FONTS.tooltip.5=pacote de recursos atual.
 
