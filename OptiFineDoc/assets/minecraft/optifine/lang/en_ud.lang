@@ -77,12 +77,12 @@ options.graphics.tooltip.3=ɹǝʍoꞁs 'ʎʇᴉꞁɐnb ɹǝɥᵷᴉɥ - ʎɔuɐ�
 options.graphics.tooltip.2='ɹǝʇɐʍ 'sǝʌɐǝꞁ 'spnoꞁɔ ɟo ǝɔuɐɹɐǝddɐ ǝɥʇ sǝᵷuɐɥƆ
 options.graphics.tooltip.1=˙sǝpᴉs ssɐɹᵷ puɐ sʍopɐɥs
 
-options.renderDistance.tooltip.1=Smaller values are faster.
-options.renderDistance.tooltip.2=server's view distance (default 10).
-options.renderDistance.tooltip.3=On servers the visible distance is further limited by the
-options.renderDistance.tooltip.4=  33-64 - resource demanding distances for local worlds
-options.renderDistance.tooltip.5=  2-32 - normal render distances for all worlds
 options.renderDistance.tooltip.6=ǝɔuɐʇsᴉp ǝꞁqᴉsᴉΛ
+options.renderDistance.tooltip.5=  2-32 - normal render distances for all worlds
+options.renderDistance.tooltip.4=  33-64 - resource demanding distances for local worlds
+options.renderDistance.tooltip.3=On servers the visible distance is further limited by the
+options.renderDistance.tooltip.2=server's view distance (default 10).
+options.renderDistance.tooltip.1=Smaller values are faster.
 
 options.ao.tooltip.4=ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯS
 options.ao.tooltip.3=(ɹǝʇsɐɟ) ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯs ou - ℲℲO  
