@@ -75,11 +75,6 @@ options.graphics.tooltip.4=Змінює зовнішній вигляд хмар
 options.graphics.tooltip.5=тіней і сторін трави.
 
 options.renderDistance.tooltip.1=Видима відстань
-options.renderDistance.tooltip.2=  2-32 - normal render distances for all worlds
-options.renderDistance.tooltip.3=  33-64 - resource demanding distances for local worlds
-options.renderDistance.tooltip.4=On servers the visible distance is further limited by the
-options.renderDistance.tooltip.5=server's view distance (default 10).
-options.renderDistance.tooltip.6=Smaller values are faster.
 
 options.ao.tooltip.1=М'яке освітлення
 options.ao.tooltip.2=  Вимк - без м'якого освітлення (Швидка)

@@ -78,11 +78,6 @@ options.graphics.tooltip.4=Изменяет облик дёрна, листье�
 options.graphics.tooltip.5=
 
 options.renderDistance.tooltip.1=Дальность прорисовки
-options.renderDistance.tooltip.2=  2-32 - normal render distances for all worlds
-options.renderDistance.tooltip.3=  33-64 - resource demanding distances for local worlds
-options.renderDistance.tooltip.4=On servers the visible distance is further limited by the
-options.renderDistance.tooltip.5=server's view distance (default 10).
-options.renderDistance.tooltip.6=Smaller values are faster.
 
 options.ao.tooltip.1=Мягкое освещение
 options.ao.tooltip.2=  Выкл - без мягкого освещения (быстрее)

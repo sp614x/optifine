@@ -54,12 +54,7 @@ options.graphics.tooltip.3=  Détaillée - Haute qualité (Lent)
 options.graphics.tooltip.4=Change l'apparence des nuages, des feuilles, 
 options.graphics.tooltip.5=de l'eau, des ombres et du côté de l'herbe.
 
-options.renderDistance.tooltip.1=Distance de Rendu 
-options.renderDistance.tooltip.2=  2-32 - normal render distances for all worlds
-options.renderDistance.tooltip.3=  33-64 - resource demanding distances for local worlds
-options.renderDistance.tooltip.4=On servers the visible distance is further limited by the
-options.renderDistance.tooltip.5=server's view distance (default 10).
-options.renderDistance.tooltip.6=Smaller values are faster.
+options.renderDistance.tooltip.1=Distance de Rendu
 
 options.ao.tooltip.1=Luminosité adoucie 
 options.ao.tooltip.2=  OFF - aucun adoucissement (rapide) 
