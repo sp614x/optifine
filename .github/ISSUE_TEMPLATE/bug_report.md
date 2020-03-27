@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Help OptiFine pinpoint issues
-title: ''
+title: "[Category] Short description"
 labels: ''
 assignees: ''
 
