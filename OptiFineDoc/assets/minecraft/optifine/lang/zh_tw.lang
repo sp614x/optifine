@@ -45,11 +45,11 @@ of.message.shaders.an2=請把 其他 -> 3D 立體 選項設定為 關閉。
 of.message.shaders.nv1=這個光影需要較新的 OptiFine 版本： %s
 of.message.shaders.nv2=你確定要繼續嗎？
 
-of.message.newVersion=新的 §eOptiFine§f 版本已可供使用：§e%s§f
+of.message.newVersion=新的 §eOptiFine§f 版本已可供使用： §e%s§f
 of.message.java64Bit=你可以安裝 §e64 位元 Java§f 來提升效能。
 of.message.openglError=§eOpenGL 錯誤§f: %s (%s)
 
-of.message.shaders.loading=正在載入光影：%s
+of.message.shaders.loading=正在載入光影： %s
 
 of.message.other.reset=確定要將所有顯示設定重設至預設值嗎？
 
@@ -57,7 +57,10 @@ of.message.loadingVisibleChunks=正在載入可見區塊
 
 # Skin customization
 
-of.options.skinCustomisation.ofCape=OptiFine Cape...
+of.options.skinCustomisation.ofCape=OptiFine 披風...
+of.options.capeOF.openEditor=開啟披風編輯器
+of.options.capeOF.reloadCape=重新載入披風
+of.options.capeOF.copyEditorLink=將連結複製至剪貼簿
 
 # Video settings
 
@@ -75,7 +78,7 @@ of.options.renderDistance.extreme=超遠
 of.options.renderDistance.insane=病態
 of.options.renderDistance.ludicrous=荒唐
 
-options.renderDistance.tooltip.1=視野距離
+options.renderDistance.tooltip.1=顯示距離
 options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
 options.renderDistance.tooltip.3=  8 中等 - 128m（正常）
 options.renderDistance.tooltip.4=  16 遠 - 256m（較慢）
@@ -110,7 +113,7 @@ options.guiScale.tooltip.1=介面大小
 options.guiScale.tooltip.2=  自動 - 最大尺寸
 options.guiScale.tooltip.3=  小，中，大 - 1x 到 3x
 options.guiScale.tooltip.4=  4x-10x - 僅適用於 4K 解析度
-options.guiScale.tooltip.5=奇數值的放大倍數（1x，3x，5x...等）與 Unicode 不相容。
+options.guiScale.tooltip.5=奇數值的放大倍數（1x, 3x, 5x...等）與 Unicode 不相容。
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
 
 options.vbo=使用 VBOs
@@ -129,6 +132,13 @@ options.anaglyph.tooltip.1=3D 立體
 options.anaglyph.tooltip.2=給予兩眼不同的顏色以
 options.anaglyph.tooltip.3=達成 3D 立體的效果。
 options.anaglyph.tooltip.4=需要使用紅藍眼鏡進行觀看。
+
+options.attackIndicator.tooltip.1=設定攻擊指示計的位置
+options.attackIndicator.tooltip.2=  十字準星 - 十字準星下方
+options.attackIndicator.tooltip.3=  快捷欄 - 快捷欄旁邊
+options.attackIndicator.tooltip.4=  關閉 - 無攻擊指示計
+options.attackIndicator.tooltip.5=攻擊指示計顯示當前裝備
+options.attackIndicator.tooltip.6=的攻擊威力
 
 of.options.ALTERNATE_BLOCKS=方塊替換
 of.options.ALTERNATE_BLOCKS.tooltip.1=方塊替換
@@ -723,3 +733,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=只有在已知的衝突或錯誤
 of.options.SHOW_GL_ERRORS.tooltip.4=無法修復時才建議停用。
 of.options.SHOW_GL_ERRORS.tooltip.5=停用時，錯誤仍然會記在錯誤記錄中，
 of.options.SHOW_GL_ERRORS.tooltip.6=且依然可能導致 FPS 明顯下降。
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=聊天欄背景
+of.options.CHAT_BACKGROUND.tooltip.1=聊天欄背景
+of.options.CHAT_BACKGROUND.tooltip.2=  預設 - 修正寬度
+of.options.CHAT_BACKGROUND.tooltip.3=  緊湊 - 符合行寬
+of.options.CHAT_BACKGROUND.tooltip.4=  關閉 - 隱藏
+
+of.options.CHAT_SHADOW=聊天欄陰影
+of.options.CHAT_SHADOW.tooltip.1=聊天欄陰影
+of.options.CHAT_SHADOW.tooltip.2=  開啟 - 使用文字陰影
+of.options.CHAT_SHADOW.tooltip.3=  關閉 - 無文字陰影
