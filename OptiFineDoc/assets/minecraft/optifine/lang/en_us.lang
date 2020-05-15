@@ -141,7 +141,7 @@ options.attackIndicator.tooltip.2=  Crosshair - under the crosshair
 options.attackIndicator.tooltip.3=  Hotbar - next to the hotbar
 options.attackIndicator.tooltip.4=  OFF - no attack indicator
 options.attackIndicator.tooltip.5=The attack indicator shows the attack power of the
-options.attackIndicator.tooltip.6=currently equipped item
+options.attackIndicator.tooltip.6=currently equipped item.
 
 of.options.ALTERNATE_BLOCKS=Alternate Blocks
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternate Blocks
@@ -187,7 +187,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiased lines and 
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA is a post-processing effect which smooths
 of.options.shaders.ANTIALIASING.tooltip.5=jagged lines and sharp color transitions.
 of.options.shaders.ANTIALIASING.tooltip.6=It is faster than traditional antialiasing
-of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders and Fast Render.  
+of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders and Fast Render.
 
 of.options.shaders.NORMAL_MAP=Normal Map
 of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
@@ -312,7 +312,6 @@ of.options.MIPMAP_TYPE.tooltip.3=  Nearest - rough smoothing (fastest)
 of.options.MIPMAP_TYPE.tooltip.4=  Linear - normal smoothing
 of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - fine smoothing
 of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - finest smoothing (slowest)
-
 
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
