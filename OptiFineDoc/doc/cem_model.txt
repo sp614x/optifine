@@ -32,7 +32,7 @@
 # creeper              head, armor, body, leg1 ... leg4
 # dragon               head, spine, jaw, body, rear_leg, front_leg, rear_leg_tip, front_leg_tip, rear_foot, front_foot, wing, wing_tip
 # donkey               <same as horse>
-# dolphin              body, back_fin, left_fin, right_fin, tail
+# dolphin              head, body, back_fin, left_fin, right_fin, tail
 # drowned              head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # ender_chest          lid, base, knob
 # end_crystal          cube, glass, base
@@ -82,7 +82,9 @@
 # sign                 board, stick
 # silverfish           body1 ... body7, wing1 ... wing3
 # skeleton             head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# skeleton_horse       <same as horse>
+# skeleton_horse       body, neck, back_left_leg, back_right_leg, front_left_leg, front_right_leg, saddle,
+#                      head, mane, mouth, left_bit, right_bit, left_rein, right_rein, headpiece, noseband,
+#                      child_back_left_leg, child_back_right_leg, child_front_left_leg, child_front_right_leg
 # slime                body, left_eye, right_eye, mouth
 # snow_golem           body, body_bottom, head, left_hand, right_hand
 # spawner_minecart     bottom, back, front, right, left, dirt
