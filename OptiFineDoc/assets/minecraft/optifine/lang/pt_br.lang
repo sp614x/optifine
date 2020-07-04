@@ -36,16 +36,16 @@ of.message.shaders.fr2=Desative a renderização rápida em Desempenho.
 of.message.shaders.an1=Os shaders não são compatíveis com o 3D anaglífico.
 of.message.shaders.an2=Desative o 3D anaglífico em Diversas.
 
-of.message.shaders.nv1=Este pacote shader requer uma versão mais recente do OptiFine: %s
+of.message.shaders.nv1=Este pacote shader requer a versão mais recente do OptiFine: %s
 of.message.shaders.nv2=Deseja continuar?
 
 of.message.newVersion=Nova versão do §eOptiFine§f disponível: §e%s§f
 of.message.java64Bit=Instale o §eJava de 64 bits§f para aumentar o desempenho.
 of.message.openglError=§eErro do OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Carregando shaders: %s
+of.message.shaders.loading=Carregando: %s
 
-of.message.other.reset=Restaurar todas as configurações gráficas para seus valores padrão?
+of.message.other.reset=Restaurar as configurações gráficas para seus valores padrão?
 
 of.message.loadingVisibleChunks=Carregando chunks visíveis
 
@@ -59,7 +59,7 @@ of.options.capeOF.reloadCape=Recarregar capa
 of.options.capeOF.copyEditorLink=Copiar link
 
 of.message.capeOF.openEditor=O editor de capas do OptiFine será aberto no navegador.
-of.message.capeOF.openEditorError=Falha ao abrir o link do editor no navegador.
+of.message.capeOF.openEditorError=Falha ao abrir o link do editor.
 of.message.capeOF.reloadCape=A capa será recarregada em 15 segundos.
 
 of.message.capeOF.error1=Falha na autenticação da Mojang.
@@ -91,14 +91,14 @@ options.renderDistance.tooltip.7=  64 Máxima - 1024m (requer 3GB de RAM)
 options.renderDistance.tooltip.8=Valores acima de 16 funcionam apenas em mundos locais.
 
 options.ao.tooltip.1=Iluminação suave
-options.ao.tooltip.2=  Não - iluminação comum (rápido)
-options.ao.tooltip.3=  Mínima - iluminação suave básica (lento)
-options.ao.tooltip.4=  Máxima - iluminação suave avançada (mais lento)
+options.ao.tooltip.2=  Não - comum (rápido)
+options.ao.tooltip.3=  Mínima - suave básica (lento)
+options.ao.tooltip.4=  Máxima - suave avançada (mais lento)
 
 options.framerateLimit.tooltip.1=Limite de quadros
 options.framerateLimit.tooltip.2=  SV - taxa limitada (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - variável
-options.framerateLimit.tooltip.4=  Ilimitada - sem limites (mais rápido)
+options.framerateLimit.tooltip.4=  Ilimitada - (mais rápido)
 options.framerateLimit.tooltip.5=A taxa cairá mesmo se o valor limite não
 options.framerateLimit.tooltip.6=for atingido.
 of.options.framerateLimit.vsync=SV
@@ -113,21 +113,21 @@ options.viewBobbing.tooltip.1=Movimentos mais realistas
 options.viewBobbing.tooltip.2=Desative-o para melhores resultados com mipmaps.
 
 options.guiScale.tooltip.1=Tamanho da interface
-options.guiScale.tooltip.2=  Auto. - tamanho máximo
+options.guiScale.tooltip.2=  Auto. - máximo
 options.guiScale.tooltip.3=  Pequena, normal, grande - 1 a 3
 options.guiScale.tooltip.4=  4x a 10x - disponível em monitores 4K
-options.guiScale.tooltip.5=Valores ímpares (1, 3...) são incompatíveis com Unicode.
+options.guiScale.tooltip.5=Valores ímpares são incompatíveis com Unicode.
 options.guiScale.tooltip.6=Uma interface menor pode ser mais rápida.
 
 options.vbo=VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
-options.vbo.tooltip.2=Utilizam um modelo de renderização alternativo mais 
+options.vbo.tooltip.2=Utilizam um modelo de renderização alternativo mais
 options.vbo.tooltip.3=rápido (5-10%%) do que o padrão.
 
 options.gamma.tooltip.1=Muda o brilho de itens mais escuros.
-options.gamma.tooltip.2=  Sombrio - brilho padrão
+options.gamma.tooltip.2=  Sombrio - padrão
 options.gamma.tooltip.3=  1-99%% - variável
-options.gamma.tooltip.4=  Claro - brilho máximo
+options.gamma.tooltip.4=  Claro - máximo
 options.gamma.tooltip.5=Essa opção não altera o brilho de itens
 options.gamma.tooltip.6=completamente escuros.
 
@@ -136,16 +136,16 @@ options.anaglyph.tooltip.2=Ativa um efeito estereoscópico em 3D usando cores
 options.anaglyph.tooltip.3=diferentes para cada olho.
 options.anaglyph.tooltip.4=Requer óculos vermelho-ciano para melhores resultados.
 
-options.attackIndicator.tooltip.1=Configura a posição do indicador de ataque
+options.attackIndicator.tooltip.1=Configura a posição do indicador de ataque.
 options.attackIndicator.tooltip.2=  Mira - abaixo da mira
 options.attackIndicator.tooltip.3=  Barra - próximo à mira
 options.attackIndicator.tooltip.4=  Não - sem indicador de ataque
 options.attackIndicator.tooltip.5=O indicador de ataque exibe o poder
-options.attackIndicator.tooltip.6=ofensivo do item em mãos.
+options.attackIndicator.tooltip.6=ofensivo do item na mão.
 
 of.options.ALTERNATE_BLOCKS=Blocos alternativos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocos alternativos
-of.options.ALTERNATE_BLOCKS.tooltip.2=Utiliza modelos alternativos para alguns blocos.
+of.options.ALTERNATE_BLOCKS.tooltip.2=Utiliza modelos alternativos para certos blocos.
 of.options.ALTERNATE_BLOCKS.tooltip.3=Depende do pacote de recursos escolhido.
 
 of.options.FOG_FANCY=Névoa
@@ -191,7 +191,7 @@ of.options.shaders.ANTIALIASING.tooltip.7=compatível com shaders e renderizaç�
 
 of.options.shaders.NORMAL_MAP=Mapa normal
 of.options.shaders.NORMAL_MAP.tooltip.1=Mapa normal
-of.options.shaders.NORMAL_MAP.tooltip.2=  Sim - (padrão) ativar mapas normais
+of.options.shaders.NORMAL_MAP.tooltip.2=  Sim - (padrão)
 of.options.shaders.NORMAL_MAP.tooltip.3=  Não - desativar mapas normais
 of.options.shaders.NORMAL_MAP.tooltip.4=Mapas normais podem ser usados pelo pacote shader
 of.options.shaders.NORMAL_MAP.tooltip.5=para simular efeitos geométricos em superfícies planas.
@@ -200,7 +200,7 @@ of.options.shaders.NORMAL_MAP.tooltip.7=pacote de recursos.
 
 of.options.shaders.SPECULAR_MAP=Mapa especular
 of.options.shaders.SPECULAR_MAP.tooltip.1=Mapa especular
-of.options.shaders.SPECULAR_MAP.tooltip.2=  Sim - (padrão) ativar mapas especulares
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Sim - (padrão)
 of.options.shaders.SPECULAR_MAP.tooltip.3=  Não - desativar mapas especulares
 of.options.shaders.SPECULAR_MAP.tooltip.4=Mapas especulares são usados pelo pacote shader
 of.options.shaders.SPECULAR_MAP.tooltip.5=para simular efeitos reflexivos especiais.
@@ -215,7 +215,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - alta (lento)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=A qualidade de renderização define o tamanho 
 of.options.shaders.RENDER_RES_MUL.tooltip.6=da textura renderizada pelo pacote shader.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Valores baixos podem funcionar em monitores 4K.
-of.options.shaders.RENDER_RES_MUL.tooltip.8=Valores altos funcionam como o filtro anisotrópico.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Valores altos funcionam como a filtr. anisotrópica.
 
 of.options.shaders.SHADOW_RES_MUL=Sombra
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=Qualidade de sombra
@@ -343,14 +343,14 @@ of.options.RANDOM_ENTITIES.tooltip.3=  Sim - com entidades aleatórias (lento)
 of.options.RANDOM_ENTITIES.tooltip.4=Entidades aleatórias usam texturas randômicas.
 of.options.RANDOM_ENTITIES.tooltip.5=Requer um pacote com várias texturas de entidades.
 
-of.options.BETTER_GRASS=Grama melhorada
-of.options.BETTER_GRASS.tooltip.1=Grama melhorada
+of.options.BETTER_GRASS=Grama aprimorada
+of.options.BETTER_GRASS.tooltip.1=Grama aprimorada
 of.options.BETTER_GRASS.tooltip.2=  Não - textura padrão da grama (rápido)
 of.options.BETTER_GRASS.tooltip.3=  Rápidos - textura integrada da grama (lento)
 of.options.BETTER_GRASS.tooltip.4=  Detalhados - textura dinâmica da grama (mais lento)
 
-of.options.BETTER_SNOW=Neve melhorada
-of.options.BETTER_SNOW.tooltip.1=Neve melhorada
+of.options.BETTER_SNOW=Neve aprimorada
+of.options.BETTER_SNOW.tooltip.1=Neve aprimorada
 of.options.BETTER_SNOW.tooltip.2=  Não - neve padrão (rápido)
 of.options.BETTER_SNOW.tooltip.3=  Sim - neve integrada (lento)
 of.options.BETTER_SNOW.tooltip.4=Exibe a neve ao redor e ao redor de blocos
@@ -371,7 +371,7 @@ of.options.CUSTOM_COLORS.tooltip.4=As cores personalizadas são fornecidas
 of.options.CUSTOM_COLORS.tooltip.5=pelo pacote de recursos atual.
 
 of.options.SWAMP_COLORS=Cores do pântano
-of.options.SWAMP_COLORS.tooltip.1=Cores do bioma pântano
+of.options.SWAMP_COLORS.tooltip.1=Cores do pântano
 of.options.SWAMP_COLORS.tooltip.2=  Sim - (padrão, lento) ativar cores do pântano
 of.options.SWAMP_COLORS.tooltip.3=  Não - desativar cores do pântano (rápido)
 of.options.SWAMP_COLORS.tooltip.4=As cores do pântano afetam a vegetação e água.
@@ -477,19 +477,19 @@ of.options.RAIN.tooltip.7=podem estar ativados.
 
 of.options.SKY=Céu
 of.options.SKY.tooltip.1=Céu
-of.options.SKY.tooltip.2=  Sim - céu ativado (lento)
-of.options.SKY.tooltip.3=  Não - céu desativado (rápido)
+of.options.SKY.tooltip.2=  Sim - (lento)
+of.options.SKY.tooltip.3=  Não - (rápido)
 of.options.SKY.tooltip.4=Ao desativar, a Lua e o Sol ainda podem estar visíveis.
 
 of.options.STARS=Estrelas
 of.options.STARS.tooltip.1=Estrelas
-of.options.STARS.tooltip.2=  Sim - estrelas visíveis (lento)
-of.options.STARS.tooltip.3=  Não  - estrelas desativadas (rápido)
+of.options.STARS.tooltip.2=  Sim - (lento)
+of.options.STARS.tooltip.3=  Não - (rápido)
 
 of.options.SUN_MOON=Sol e Lua
 of.options.SUN_MOON.tooltip.1=Sol e Lua
-of.options.SUN_MOON.tooltip.2=  Sim - (padrão) Sol e Lua visíveis
-of.options.SUN_MOON.tooltip.3=  Não  - Sol e Lua desativados (rápido)
+of.options.SUN_MOON.tooltip.2=  Sim - (padrão)
+of.options.SUN_MOON.tooltip.3=  Não - (rápido)
 
 of.options.SHOW_CAPES=Mostrar capas
 of.options.SHOW_CAPES.tooltip.1=Mostrar capas de jogadores
@@ -575,7 +575,7 @@ of.options.SMOOTH_WORLD.tooltip.1=Reduz a latência causada pelo servidor intern
 of.options.SMOOTH_WORLD.tooltip.2=  Não - taxa de quadros flutuante
 of.options.SMOOTH_WORLD.tooltip.3=  Sim - taxa de quadros estável
 of.options.SMOOTH_WORLD.tooltip.4=Particiona o carregamento do servidor interno.
-of.options.SMOOTH_WORLD.tooltip.5=Disponível apenas em mundos locais.
+of.options.SMOOTH_WORLD.tooltip.5=Disponível apenas no modo um jogador.
 
 of.options.FAST_RENDER=Render. rápida
 of.options.FAST_RENDER.tooltip.1=Renderização rápida
@@ -682,7 +682,7 @@ of.options.WEATHER.tooltip.1=Clima
 of.options.WEATHER.tooltip.2=  Sim - ativar controle do clima (lento)
 of.options.WEATHER.tooltip.3=  Não - desativar controle do clima (rápido)
 of.options.WEATHER.tooltip.4=O clima controla a chuva e neve. Disponível
-of.options.WEATHER.tooltip.5=apenas em mundos locais.
+of.options.WEATHER.tooltip.5=apenas no modo um jogador.
 
 of.options.time.dayOnly=Apenas dia
 of.options.time.nightOnly=Apenas noite
@@ -693,7 +693,7 @@ of.options.TIME.tooltip.2= Padrão - ciclos de dia e noite
 of.options.TIME.tooltip.3= Apenas dia - diurno
 of.options.TIME.tooltip.4= Apenas noite - noturno
 of.options.TIME.tooltip.5=Disponível apenas no modo Criativo e
-of.options.TIME.tooltip.6=mundos locais.
+of.options.TIME.tooltip.6=um jogador.
 
 options.fullscreen.tooltip.1=Tela inteira
 options.fullscreen.tooltip.2=  Sim - jogar em tela inteira
