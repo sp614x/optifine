@@ -19,16 +19,16 @@ of.key.zoom=Przybliżenie
 
 # Message
 of.message.aa.shaders1=Antyaliasing nie jest kompatybilny z shaderami.
-of.message.aa.shaders2=Wyłącz Shadery, aby użyć tej opcji.
+of.message.aa.shaders2=Wyłącz shadery, aby użyć tej opcji.
 
 of.message.af.shaders1=Filtrowanie anizotropowe nie jest kompatybilne z shaderami.
-of.message.af.shaders2=Wyłącz Shadery, aby użyć tej opcji.
+of.message.af.shaders2=Wyłącz shadery, aby użyć tej opcji.
 
 of.message.fr.shaders1=Szybkie renderowanie nie jest kompatybilne z shaderami.
-of.message.fr.shaders2=Wyłącz Shadery, aby użyć tej opcji.
+of.message.fr.shaders2=Wyłącz shadery, aby użyć tej opcji.
 
 of.message.an.shaders1=Anaglifowe 3D nie jest kompatybilne z shaderami.
-of.message.an.shaders2=Wyłącz Shadery, aby użyć tej opcji.
+of.message.an.shaders2=Wyłącz shadery, aby użyć tej opcji.
 
 of.message.shaders.aa1=Shadery nie są kompatybilne z antyaliasingiem.
 of.message.shaders.aa2=Wyłącz opcję Jakość -> Antyaliasing, a następnie zrestartuj grę.
@@ -105,7 +105,7 @@ options.framerateLimit.tooltip.1=Limit FPS
 options.framerateLimit.tooltip.2=  VSync — ograniczone do możliwości monitora (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 — ograniczone do podanej wartości
 options.framerateLimit.tooltip.4=  Nielimitowane — brak limitu (najwyższa wydajność)
-options.framerateLimit.tooltip.5=Limit klatek zmiejsza ilość FPS, nawet,
+options.framerateLimit.tooltip.5=Limit klatek zmiejsza ilość FPS, nawet
 options.framerateLimit.tooltip.6= gdy wartość graniczna nie została osiągnięta.
 of.options.framerateLimit.vsync=VSync
 
@@ -123,7 +123,7 @@ options.guiScale.tooltip.2=  Auto — maksymalna dostępna wielkość
 options.guiScale.tooltip.3=  Mała, normalna, duża — od 1x do 3x
 options.guiScale.tooltip.4=  od 4x do 10x — dostępne na wyświetlaczach 4K
 options.guiScale.tooltip.5=Wartości nieparzyste (1x, 3x, 5x...) nie są kompatybilne
-options.guiScale.tooltip.6=z Unikodem. Mniejszy interfejs może zwiększyć wydajność.
+options.guiScale.tooltip.6=z unikodem. Mniejszy interfejs może zwiększyć wydajność.
 
 options.vbo=Używaj VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
@@ -594,12 +594,12 @@ of.options.FAST_RENDER.tooltip.4=Używa zoptymalizowanego algorytmu renderowania
 of.options.FAST_RENDER.tooltip.5=obciązenie CPU, a tym samym zwiększa FPS.
 of.options.FAST_RENDER.tooltip.6=Ta opcja może wywoływać konflikty z niektórymi modami.
 
-of.options.FAST_MATH=Szybka matematyka
-of.options.FAST_MATH.tooltip.1=Szybka matematyka
+of.options.FAST_MATH=Zoptym. matematyka
+of.options.FAST_MATH.tooltip.1=Zoptymalizowana metematyka
 of.options.FAST_MATH.tooltip.2= Wył. — standardowa matematyka (domyślne)
-of.options.FAST_MATH.tooltip.3= Wł. — przyspieszona matematyka
+of.options.FAST_MATH.tooltip.3= Wł. — zoptymalizowana matematyka
 of.options.FAST_MATH.tooltip.4=Używa zoptymalizowanych działań sin() i cos(), które
-of.options.FAST_MATH.tooltip.5=lepiej wykorzystują pamięć procesora i zwiększa FPS.
+of.options.FAST_MATH.tooltip.5=lepiej wykorzystują pamięć procesora, co zwiększa ilość FPS.
 of.options.FAST_MATH.tooltip.6=Ta opcja może mieć minimalny wpływ na generowanie świata.
 
 of.options.CHUNK_UPDATES=Aktualizacje chunków
