@@ -47,7 +47,7 @@ of.message.shaders.fr2=请将 性能 -> 快速渲染 选项设置为 关闭。
 of.message.shaders.an1=光影与3D效果不兼容。
 of.message.shaders.an2=请将 其他 -> 3D效果 选项设置为 关闭。
 
-of.message.shaders.nv1=此光影需要更新的OptiFine版本：%s
+of.message.shaders.nv1=此光影需要新的OptiFine版本：%s
 of.message.shaders.nv2=确认要继续吗？
 
 of.message.newVersion=新的§eOptiFine§f版本现已可用：§e%s§f
