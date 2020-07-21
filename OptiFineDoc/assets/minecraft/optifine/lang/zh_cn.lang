@@ -69,7 +69,7 @@ of.options.capeOF.openEditor=打开披风编辑器
 of.options.capeOF.reloadCape=重新加载披风
 of.options.capeOF.copyEditorLink=复制链接至剪贴板
 
-of.message.capeOF.openEditor=OptiFine 披风编辑器会在网页浏览器中打开。
+of.message.capeOF.openEditor=OptiFine 披风编辑器需要在网页浏览器中打开。
 of.message.capeOF.openEditorError=在网页浏览器中打开编辑器时出现错误。
 of.message.capeOF.reloadCape=披风将在 15 秒内重新加载。
 
@@ -108,10 +108,10 @@ options.ao.tooltip.4=  最大 - 复杂柔和的平滑光照（最慢）
 
 options.framerateLimit.tooltip.1=最大帧率
 options.framerateLimit.tooltip.2=  垂直同步 - 限制为显示器帧率（60, 30, 20）
-options.framerateLimit.tooltip.3=  5-255 - 可变
+options.framerateLimit.tooltip.3=  5-255 - 可变帧率
 options.framerateLimit.tooltip.4=  无限制 - 无限制（最快）
 options.framerateLimit.tooltip.5=帧率限制将降低 FPS，
-options.framerateLimit.tooltip.6=即使其未达到上限值。
+options.framerateLimit.tooltip.6=未达到上限值。
 of.options.framerateLimit.vsync=垂直同步
 
 of.options.AO_LEVEL=平滑光照级别
@@ -121,7 +121,7 @@ of.options.AO_LEVEL.tooltip.3=  50%% - 较浅的阴影
 of.options.AO_LEVEL.tooltip.4=  100%% - 较深的阴影
 
 options.viewBobbing.tooltip.1=更真实的运动。
-options.viewBobbing.tooltip.2=当使用多级纹理贴图（mipmap）时，关闭此选项以取得最佳效果。
+options.viewBobbing.tooltip.2=当使用多级纹理贴图（mipmap）时，关闭此选项以获得最佳效果。
 
 options.guiScale.tooltip.1=界面尺寸
 options.guiScale.tooltip.2=  自动 - 最大尺寸
@@ -145,7 +145,7 @@ options.gamma.tooltip.6=完全黑色的物体的亮度。
 options.anaglyph.tooltip.1=3D效果
 options.anaglyph.tooltip.2=通过为双眼分配不同颜色
 options.anaglyph.tooltip.3=以实现 3D 立体效果。
-options.anaglyph.tooltip.4=需要使用红蓝眼镜正常观看。
+options.anaglyph.tooltip.4=需要使用红蓝眼镜来正常观看。
 
 options.attackIndicator.tooltip.1=配置攻击指示器的位置
 options.attackIndicator.tooltip.2=  十字准线 - 在十字准线下
@@ -154,9 +154,9 @@ options.attackIndicator.tooltip.4=  关闭 - 无攻击指示器
 options.attackIndicator.tooltip.5=攻击指示器显示
 options.attackIndicator.tooltip.6=当前所持物品的攻击力
 
-of.options.ALTERNATE_BLOCKS=替选方块
-of.options.ALTERNATE_BLOCKS.tooltip.1=替选方块
-of.options.ALTERNATE_BLOCKS.tooltip.2=为一些方块使用备选的方块模型。
+of.options.ALTERNATE_BLOCKS=备用方块
+of.options.ALTERNATE_BLOCKS.tooltip.1=备用方块
+of.options.ALTERNATE_BLOCKS.tooltip.2=为一些方块使用备用的方块模型。
 of.options.ALTERNATE_BLOCKS.tooltip.3=取决于所选的资源包。
 
 of.options.FOG_FANCY=迷雾
@@ -165,7 +165,7 @@ of.options.FOG_FANCY.tooltip.2=  流畅 - 较流畅的迷雾
 of.options.FOG_FANCY.tooltip.3=  高品质 - 较慢的迷雾（质量更佳）
 of.options.FOG_FANCY.tooltip.4=  关闭 - 无迷雾（最快）
 of.options.FOG_FANCY.tooltip.5=高品质的迷雾只在
-of.options.FOG_FANCY.tooltip.6=显卡支持下可用。
+of.options.FOG_FANCY.tooltip.6=显卡支持的情况下可用。
 
 of.options.FOG_START=迷雾起始位置
 of.options.FOG_START.tooltip.1=迷雾起始位置
