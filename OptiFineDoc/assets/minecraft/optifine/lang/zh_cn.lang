@@ -111,7 +111,7 @@ options.framerateLimit.tooltip.2=  垂直同步 - 限制为显示器帧率（60,
 options.framerateLimit.tooltip.3=  5-255 - 可变帧率
 options.framerateLimit.tooltip.4=  无限制 - 无限制（最快）
 options.framerateLimit.tooltip.5=帧率限制将降低 FPS，
-options.framerateLimit.tooltip.6=未达到上限值。
+options.framerateLimit.tooltip.6=即使其未达到上限值。
 of.options.framerateLimit.vsync=垂直同步
 
 of.options.AO_LEVEL=平滑光照级别
