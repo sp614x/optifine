@@ -274,7 +274,7 @@ of.options.shaders.DOWNLOAD.tooltip.1=下载光影
 of.options.shaders.DOWNLOAD.tooltip.2= 
 of.options.shaders.DOWNLOAD.tooltip.3=在浏览器中打开光影包页面。
 of.options.shaders.DOWNLOAD.tooltip.4=将已下载完成的光影置于光影文件夹中，
-of.options.shaders.DOWNLOAD.tooltip.5=它们将出现在已安装的光影列表里。
+of.options.shaders.DOWNLOAD.tooltip.5=它们将出现在已安装光影的列表里。
 
 of.options.shaders.SHADER_PACK=光影包文件夹
 
@@ -662,7 +662,7 @@ of.options.ANIMATED_FLAME=火焰动画
 of.options.ANIMATED_SMOKE=烟雾动画
 of.options.VOID_PARTICLES=虚空粒子
 of.options.WATER_PARTICLES=水面粒子
-of.options.RAIN_SPLASH=雨滴飞溅动画
+of.options.RAIN_SPLASH=雨滴溅起
 of.options.PORTAL_PARTICLES=传送门粒子
 of.options.POTION_PARTICLES=药水粒子
 of.options.DRIPPING_WATER_LAVA=水滴/岩浆滴
