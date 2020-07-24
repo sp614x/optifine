@@ -33,6 +33,9 @@ of.message.shaders.af2=Please set Quality -> Anisotropic Filtering to OFF.
 of.message.shaders.fr1=Shaders are not compatible with Fast Render.
 of.message.shaders.fr2=Please set Performance -> Fast Render to OFF.
 
+of.message.shaders.gf1=Shaders are not compatible with Fabulous Graphics.
+of.message.shaders.gf2=Please set Graphics to Fast or Fancy.
+
 of.message.shaders.an1=Shaders are not compatible with 3D Anaglyph.
 of.message.shaders.an2=Please set Other -> 3D Anaglyph to OFF.
 
@@ -68,10 +71,12 @@ of.message.capeOF.error2=Error: %s
 # Video settings
 
 options.graphics.tooltip.1=Visual quality
-options.graphics.tooltip.2=  Fast  - lower quality, faster
+options.graphics.tooltip.2=  Fast - lower quality, faster
 options.graphics.tooltip.3=  Fancy - higher quality, slower
-options.graphics.tooltip.4=Changes the appearance of clouds, leaves, water,
-options.graphics.tooltip.5=shadows and grass sides.
+options.graphics.tooltip.4=  Fabulous - better translucent objects, slowest
+options.graphics.tooltip.5=Changes the appearance of clouds, leaves, water,
+options.graphics.tooltip.6=shadows and grass sides.
+options.graphics.tooltip.7=Fabulous graphics is not compatible with shaders.
 
 of.options.renderDistance.tiny=Tiny
 of.options.renderDistance.short=Short
@@ -89,6 +94,12 @@ options.renderDistance.tooltip.5=  32 Extreme - 512m (slowest!) very resource de
 options.renderDistance.tooltip.6=  48 Insane - 768m, needs 2GB RAM allocated
 options.renderDistance.tooltip.7=  64 Ludicrous - 1024m, needs 3GB RAM allocated
 options.renderDistance.tooltip.8=Values over 16 Far are only effective in local worlds.
+
+options.entityDistanceScaling.tooltip.1=Entity render distance
+options.entityDistanceScaling.tooltip.2=  50%% - faster
+options.entityDistanceScaling.tooltip.3=  100%% - default
+options.entityDistanceScaling.tooltip.4=  500%% - slower
+options.entityDistanceScaling.tooltip.5=Modifies the maximum distance at which entities are shown.
 
 options.ao.tooltip.1=Smooth lighting
 options.ao.tooltip.2=  OFF - no smooth lighting (faster)
@@ -187,7 +198,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiased lines and 
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA is a post-processing effect which smooths
 of.options.shaders.ANTIALIASING.tooltip.5=jagged lines and sharp color transitions.
 of.options.shaders.ANTIALIASING.tooltip.6=It is faster than traditional antialiasing
-of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders and Fast Render.  
+of.options.shaders.ANTIALIASING.tooltip.7=and is compatible with shaders.  
 
 of.options.shaders.NORMAL_MAP=Normal Map
 of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
@@ -560,7 +571,7 @@ options.biomeBlendRadius.tooltip.2=  OFF - no blending (fastest)
 options.biomeBlendRadius.tooltip.3=  5x5 - normal blending (default)
 options.biomeBlendRadius.tooltip.4=  15x15 - maximal blending (slowest)
 options.biomeBlendRadius.tooltip.5=Higher values may generate significant lag spikes
-options.biomeBlendRadius.tooltip.6=add slow down the chunk loading speed.
+options.biomeBlendRadius.tooltip.6=and slow down the chunk loading speed.
 
 # Performance
 
@@ -583,7 +594,7 @@ of.options.FAST_RENDER.tooltip.1=Fast Render
 of.options.FAST_RENDER.tooltip.2= OFF - standard rendering (default)
 of.options.FAST_RENDER.tooltip.3= ON - optimized rendering (faster)
 of.options.FAST_RENDER.tooltip.4=Uses optimized rendering algorithm which decreases
-of.options.FAST_RENDER.tooltip.5=the GPU load and may substantially increase the FPS.
+of.options.FAST_RENDER.tooltip.5=the CPU load and may substantially increase the FPS.
 of.options.FAST_RENDER.tooltip.6=This option can conflict with some mods.
 
 of.options.FAST_MATH=Fast Math
@@ -736,7 +747,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.2=  Default - default screenshot size
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - custom screenshot size
 of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshots may need more memory.
-of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with Fast Render and Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.6=Requires GPU framebuffer support.
 
 of.options.SHOW_GL_ERRORS=Show GL Errors
