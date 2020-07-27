@@ -13,7 +13,7 @@ of.key.zoom=Zoom
 
 # Message
 of.message.aa.shaders1=A suavização não é compatível com os shaders.
-of.message.aa.shaders2=Desative o Shaders para ativar essa opção.
+of.message.aa.shaders2=Desative os shaders para ativar essa opção.
 
 of.message.af.shaders1=A filtragem anisotrópica não é compatível com os shaders.
 of.message.af.shaders2=Desative os shaders para ativar essa opção.
@@ -32,6 +32,9 @@ of.message.shaders.af2=Desative a filtragem anisotrópica em Qualidade e reinici
 
 of.message.shaders.fr1=Os shaders não são compatíveis com a renderização rápida.
 of.message.shaders.fr2=Desative a renderização rápida em Desempenho.
+
+of.message.shaders.gf1=Os shaders não são compatíveis com os gráficos Fabulosos.
+of.message.shaders.gf2=Defina os gráficos para Rápidos ou Detalhados.
 
 of.message.shaders.an1=Os shaders não são compatíveis com o 3D anaglífico.
 of.message.shaders.an2=Desative o 3D anaglífico em Diversas.
@@ -68,10 +71,12 @@ of.message.capeOF.error2=Erro: %s
 # Video settings
 
 options.graphics.tooltip.1=Qualidade gráfica
-options.graphics.tooltip.2=  Rápidos  - baixa qualidade
+options.graphics.tooltip.2=  Rápidos - baixa qualidade
 options.graphics.tooltip.3=  Detalhados - alta qualidade
-options.graphics.tooltip.4=Muda a aparência de nuvens, folhas, água,
-options.graphics.tooltip.5=sombras e grama.
+options.graphics.tooltip.4=  Fabulosos - translucidez aprimorada (mais lento)
+options.graphics.tooltip.5=Muda a aparência de nuvens, folhas, água,
+options.graphics.tooltip.6=sombras e grama.
+options.graphics.tooltip.7=Os gráficos Fabulosos são incompatíveis com shaders.
 
 of.options.renderDistance.tiny=Mínima
 of.options.renderDistance.short=Curta
@@ -89,6 +94,12 @@ options.renderDistance.tooltip.5=  32 Extrema - 512m (mais lento)
 options.renderDistance.tooltip.6=  48 Insana - 768m (requer 2GB de RAM)
 options.renderDistance.tooltip.7=  64 Máxima - 1024m (requer 3GB de RAM)
 options.renderDistance.tooltip.8=Valores acima de 16 funcionam apenas em mundos locais.
+
+options.entityDistanceScaling.tooltip.1=Dist. de render. da entidade
+options.entityDistanceScaling.tooltip.2=  50%% - rápido
+options.entityDistanceScaling.tooltip.3=  100%% - padrão
+options.entityDistanceScaling.tooltip.4=  500%% - mais lento
+options.entityDistanceScaling.tooltip.5=Altera a distância máxima de exibição das entidades.
 
 options.ao.tooltip.1=Iluminação suave
 options.ao.tooltip.2=  Não - comum (rápido)
@@ -187,7 +198,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - linhas e cantos suaviz
 of.options.shaders.ANTIALIASING.tooltip.4=O FXAA é um efeito de pós-processamento que 
 of.options.shaders.ANTIALIASING.tooltip.5=suaviza linhas e transições de cores.
 of.options.shaders.ANTIALIASING.tooltip.6=Mais rápido do que a suavização comum e
-of.options.shaders.ANTIALIASING.tooltip.7=compatível com shaders e renderização rápida.  
+of.options.shaders.ANTIALIASING.tooltip.7=compatível com shaders.
 
 of.options.shaders.NORMAL_MAP=Mapa normal
 of.options.shaders.NORMAL_MAP.tooltip.1=Mapa normal
@@ -582,7 +593,7 @@ of.options.FAST_RENDER.tooltip.1=Renderização rápida
 of.options.FAST_RENDER.tooltip.2= Não - (padrão) renderização comum
 of.options.FAST_RENDER.tooltip.3= Sim - renderização otimizada (rápido)
 of.options.FAST_RENDER.tooltip.4=Utiliza um algoritmo especial de renderização que
-of.options.FAST_RENDER.tooltip.5=reduz o uso da GPU e eleva a taxa de quadros.
+of.options.FAST_RENDER.tooltip.5=reduz o uso da CPU e eleva a taxa de quadros.
 of.options.FAST_RENDER.tooltip.6=Essa opção pode entrar em conflito com outros mods.
 
 of.options.FAST_MATH=Otimizar cálculos
@@ -735,7 +746,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Tamanho da captura de tela
 of.options.SCREENSHOT_SIZE.tooltip.2=  Padrão - tamanho predefinido
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tamanho personalizado
 of.options.SCREENSHOT_SIZE.tooltip.4=Tamanhos maiores requerem mais memória.
-of.options.SCREENSHOT_SIZE.tooltip.5=Incompatível com a renderização rápida e suavização.
+of.options.SCREENSHOT_SIZE.tooltip.5=Incompatível com a suavização.
 of.options.SCREENSHOT_SIZE.tooltip.6=Requer o suporte de framebuffer da GPU.
 
 of.options.SHOW_GL_ERRORS=Erros da OpenGL
