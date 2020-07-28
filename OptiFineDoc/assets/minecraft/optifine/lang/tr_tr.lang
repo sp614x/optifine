@@ -33,6 +33,9 @@ of.message.shaders.af2=Lütfen Kalite -> Anizotropik Filtreleme'yi kapatın.
 of.message.shaders.fr1=Shader'lar, Hızlı İşleme ile uyumlu değildir.
 of.message.shaders.fr2=Lütfen Performans -> Hızlı İşleme'yi kapatın.
 
+of.message.shaders.gf1=Shader'lar, Şahane grafikler ile uyumlu değildir.
+of.message.shaders.gf2=Lütfen Grafikler seçeneğini Hızlı veya Gerçekçi olarak ayarlayın.
+
 of.message.shaders.an1=Anaglif 3D, Shader'larla uyumlu değildir.
 of.message.shaders.an2=Lütfen Diğer -> Anaglif 3D'yi kapatın.
 
@@ -68,10 +71,12 @@ of.message.capeOF.error2=Hata: %s
 # Video settings
 
 options.graphics.tooltip.1=Genel Görüntü Kalitesi
-options.graphics.tooltip.2=  Hızlı  - daha düşük kalite, daha hızlı oyun deneyimi
-options.graphics.tooltip.3=  Gerçekçi - daha yüksek kalite, daha yavaş oyun deneyimi
-options.graphics.tooltip.4=Bulutların, yaprakların, suyun, gölgelerin
-options.graphics.tooltip.5=ve çim yüzeylerinin görünüşünü etkiler.
+options.graphics.tooltip.2=  Hızlı  - daha düşük kalite, daha hızlı
+options.graphics.tooltip.3=  Gerçekçi - daha yüksek kalite, daha yavaş
+options.graphics.tooltip.4=  Şahane - yarı saydam objelerde en iyi kalite, en yavaş
+options.graphics.tooltip.5=Bulutların, yaprakların, suyun, gölgelerin
+options.graphics.tooltip.6=ve çim yüzeylerinin görünüşünü etkiler.
+options.graphics.tooltip.7=Şahane grafikler Shader'larla uyumlu değildir.
 
 of.options.renderDistance.tiny=Çok Kısa
 of.options.renderDistance.short=Kısa
@@ -82,13 +87,19 @@ of.options.renderDistance.insane=Efsanevi
 of.options.renderDistance.ludicrous=Olağanüstü
 
 options.renderDistance.tooltip.1=Görüş Mesafesi
-options.renderDistance.tooltip.2=  2 Çok Kısa - 32m (en hızlı)
-options.renderDistance.tooltip.3=  8 Normal - 128m (varsayılan)
-options.renderDistance.tooltip.4=  16 Uzak - 256m (daha yavaş)
-options.renderDistance.tooltip.5=  32 Çok Uzak - 512m, (çok yavaş!) bolca kaynak tüketir
-options.renderDistance.tooltip.6=  48 Efsanevi - 768m, 2G RAM verilmiş olması gerekir
-options.renderDistance.tooltip.7=  64 Olağanüstü - 1024m, 3G RAM verilmiş olması gerekir
+options.renderDistance.tooltip.2=  2 (Çok Kısa) - 32 metre (en hızlı)
+options.renderDistance.tooltip.3=  8 (Normal) - 128 metre (varsayılan)
+options.renderDistance.tooltip.4=  16 (Uzak) - 256 metre (daha yavaş)
+options.renderDistance.tooltip.5=  32 (Çok Uzak) - 512 m. (çok yavaş!) bolca kaynak tüketir
+options.renderDistance.tooltip.6=  48 (Efsanevi) - 768 m. 2G RAM verilmiş olması gerekir
+options.renderDistance.tooltip.7=  64 (Olağanüstü) - 1024 m. 3G RAM verilmiş olması gerekir
 options.renderDistance.tooltip.8=16 üstündeki değerler sadece tek oyunculuda geçerlidir.
+
+options.entityDistanceScaling.tooltip.1=Varlık İşleme Mesafesi
+options.entityDistanceScaling.tooltip.2=  50%% - daha hızlı, yarım uzaklık
+options.entityDistanceScaling.tooltip.3=  100%% - varsayılan
+options.entityDistanceScaling.tooltip.4=  500%% - daha yavaş, 5 kat uzaklık
+options.entityDistanceScaling.tooltip.5=Varlıkların görünebileceği maksimum uzaklığı ayarlar.
 
 options.ao.tooltip.1=Yumuşak Aydınlatma
 options.ao.tooltip.2=  KAPALI - yumuşak aydınlatma kapalı (daha hızlı)
@@ -96,7 +107,7 @@ options.ao.tooltip.3=  En Az - basit yumuşak aydınlatma (varsayılan)
 options.ao.tooltip.4=  En Fazla - gerçekçi yumuşak aydınlatma (daha yavaş)
 
 options.framerateLimit.tooltip.1=Maks. Kare Hızı (FPS)
-options.framerateLimit.tooltip.2=  Dikey Senk. - monitörün hertz'ine sabitler (60, 30, 20)
+options.framerateLimit.tooltip.2=  Dikey Senk. - monitörün hertz'ine sabitler
 options.framerateLimit.tooltip.3=  5-255 - diğer değerler
 options.framerateLimit.tooltip.4=  Sınırsız - sınır yok (en hızlı)
 options.framerateLimit.tooltip.5=FPS'i limitlemek, limit sınıra ulaşılamasa
@@ -109,7 +120,7 @@ of.options.AO_LEVEL.tooltip.2=  KAPALI - gölge yok
 of.options.AO_LEVEL.tooltip.3=  50%% - basit gölgeler
 of.options.AO_LEVEL.tooltip.4=  100%% - gerçekçi gölgeler
 
-options.viewBobbing.tooltip.1=Daha gerçekçi hareket,
+options.viewBobbing.tooltip.1=Sarsılmayı Göster
 options.viewBobbing.tooltip.2=Hareket ederken ellerinin sallanmasını sağlar.
 
 options.guiScale.tooltip.1=Arayüz Boyutu
@@ -338,7 +349,7 @@ of.options.CLEAR_WATER.tooltip.2=  AÇIK - temiz, saydam su
 of.options.CLEAR_WATER.tooltip.3=  KAPALI - varsayılan su
 
 of.options.RANDOM_ENTITIES=Rastgele Varlıklar
-of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Varlıklar
+of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Görünüşlü Varlıklar
 of.options.RANDOM_ENTITIES.tooltip.2=  KAPALI - tek çeşit varlıklar, daha hızlı
 of.options.RANDOM_ENTITIES.tooltip.3=  AÇIK - çeşitli varlıklar, daha yavaş
 of.options.RANDOM_ENTITIES.tooltip.4=Varlıklar için rastgele görünümler kullanılır. Birden
@@ -543,13 +554,13 @@ of.options.DYNAMIC_FOV=Dinamik Bakış Açısı
 of.options.DYNAMIC_FOV.tooltip.1=Dinamik Bakış Açısı
 of.options.DYNAMIC_FOV.tooltip.2=  AÇIK - değişken bakış açısı aktif (varsayılan)
 of.options.DYNAMIC_FOV.tooltip.3=  KAPALI - değişken bakış açısı devre dışı
-of.options.DYNAMIC_FOV.tooltip.4=Bakış açısını uçarken, koşarken veya bir yay
-of.options.DYNAMIC_FOV.tooltip.5=kullanırken değiştirir.
+of.options.DYNAMIC_FOV.tooltip.4=Bakış açısı uçarken, koşarken veya bir yay
+of.options.DYNAMIC_FOV.tooltip.5=kullanırken genişler.
 
 of.options.DYNAMIC_LIGHTS=Dinamik Işıklar
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dinamik Işıklar
 of.options.DYNAMIC_LIGHTS.tooltip.2=  KAPALI - dinamik ışıklar kapalı (varsayılan)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Hızlı - basit dinamik ışıklar (her yarım sn. günceller)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Hızlı - basit dinamik ışıklar (saniyede 2 kere günceller)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Gerçekçi - gerçekçi dinamik ışıklar (her an günceller)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Işık yayan nesnelerin (meşale gibi) ele alındıklarında,
 of.options.DYNAMIC_LIGHTS.tooltip.6=yere atıldıklarında yada başka bir oyuncunun elindeyken
@@ -596,11 +607,11 @@ of.options.FAST_MATH.tooltip.6=Dünya oluşturmada azda olsa etkilidir.
 
 of.options.CHUNK_UPDATES=Yığın Güncelleme Hızı
 of.options.CHUNK_UPDATES.tooltip.1=Yığın Güncelleme Hızı
-of.options.CHUNK_UPDATES.tooltip.2= 1 - en yavaş dünya yüklemesi, daha yüksek FPS (varsayılan)
+of.options.CHUNK_UPDATES.tooltip.2= 1 - en yavaş dünya yüklemesi, daha yüksek FPS (vrsyln)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - daha hızlı dünya yüklemesi, daha düşük FPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - en hızlı dünya yüklemesi, en düşük FPS
-of.options.CHUNK_UPDATES.tooltip.5=Kare başına düşen Yığın Güncelleme miktarı,
-of.options.CHUNK_UPDATES.tooltip.6=yüksek değerler FPS dengesizliğine sebep olabilir.
+of.options.CHUNK_UPDATES.tooltip.5=Kare başına düşen Yığın Güncelleme miktarı.
+of.options.CHUNK_UPDATES.tooltip.6=Yüksek değerler FPS dengesizliğine sebep olabilir.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dinamik Güncelleme
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dinamik Yığın Güncelleme
@@ -630,8 +641,8 @@ of.options.SMART_ANIMATIONS=Akıllı Animasyonlar
 of.options.SMART_ANIMATIONS.tooltip.1=Akıllı Animasyonlar
 of.options.SMART_ANIMATIONS.tooltip.2= KAPALI - akıllı animasyonlar kullanılmaz (varsayılan)
 of.options.SMART_ANIMATIONS.tooltip.3= AÇIK - akıllı animasyonlar kullanılır
-of.options.SMART_ANIMATIONS.tooltip.4=Akıllı animasyonlar ile sadece ekranda görünen
-of.options.SMART_ANIMATIONS.tooltip.5=animasyonlu blokların animasyonu aktif olacaktır.
+of.options.SMART_ANIMATIONS.tooltip.4=Akıllı animasyonlar ile animasyonlu blokların animasyonu
+of.options.SMART_ANIMATIONS.tooltip.5=sadece ekranda görünüyorsa aktif olacaktır.
 of.options.SMART_ANIMATIONS.tooltip.6=Bu ayar FPS'i yükseltip anlık donmaları engeller.
 of.options.SMART_ANIMATIONS.tooltip.7=Büyük mod paketleri ve HD görüntü paketlerinde etkilidir.
 
@@ -729,15 +740,15 @@ of.options.AUTOSAVE_TICKS=Oto Kayıt Aralığı
 of.options.AUTOSAVE_TICKS.tooltip.1=Oto Kayıt Aralığı
 of.options.AUTOSAVE_TICKS.tooltip.2= 45s - 45 saniyede bir (varsayılan)
 of.options.AUTOSAVE_TICKS.tooltip.3=İşleme uzaklığına bağlı olarak anlık donmaya neden olabilir.
-of.options.AUTOSAVE_TICKS.tooltip.4=Ayrıca oyun, menü açıldığında da otomatik kaydedilir.
+of.options.AUTOSAVE_TICKS.tooltip.4=Oyun, ayrıca menü açıldığında da otomatik kaydedilir.
 
-of.options.SCREENSHOT_SIZE=SS Boyutu
-of.options.SCREENSHOT_SIZE.tooltip.1=Ekran Görüntüsü Boyutu
-of.options.SCREENSHOT_SIZE.tooltip.2=  Varsayılan - varsayılan ekran alıntısı boyutu
+of.options.SCREENSHOT_SIZE=SS Çözünürlüğü
+of.options.SCREENSHOT_SIZE.tooltip.1=Ekran Görüntüsü Çözünürlüğü
+of.options.SCREENSHOT_SIZE.tooltip.2=  Varsayılan - varsayılan ekran görüntüsü çözünürlüğü
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - özel boyutlar
-of.options.SCREENSHOT_SIZE.tooltip.4=büyük boyutlu ekran alıntıları daha fazla alan gerektirir.
+of.options.SCREENSHOT_SIZE.tooltip.4=Yüksek çözünürlükteki görüntüler daha çok alan kaplar.
 of.options.SCREENSHOT_SIZE.tooltip.5=Hızlı yükleme ve kenar yumuşatma ile uyumlu değildir.
-of.options.SCREENSHOT_SIZE.tooltip.6=İyi bir GPU gerektirir.
+of.options.SCREENSHOT_SIZE.tooltip.6=Yüksek ayarlar iyi bir GPU gerektirir.
 
 of.options.SHOW_GL_ERRORS=GL Hatalarını Göster
 of.options.SHOW_GL_ERRORS.tooltip.1=OpenGL Hatalarını Göster
