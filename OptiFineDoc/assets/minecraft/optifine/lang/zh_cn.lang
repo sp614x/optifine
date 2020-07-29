@@ -23,28 +23,28 @@ of.general.smart=智能
 of.key.zoom=缩放
 
 # Message
-of.message.aa.shaders1=抗锯齿与光影不兼容。
+of.message.aa.shaders1=抗锯齿选项与光影不兼容。
 of.message.aa.shaders2=请关闭光影以启用此选项。
 
-of.message.af.shaders1=各向异性过滤与光影不兼容。
+of.message.af.shaders1=各向异性过滤选项与光影不兼容。
 of.message.af.shaders2=请关闭光影以启用此选项。
 
-of.message.fr.shaders1=快速渲染与光影不兼容。
+of.message.fr.shaders1=快速渲染选项与光影不兼容。
 of.message.fr.shaders2=请关闭光影以启用此选项。
 
-of.message.an.shaders1=3D效果与光影不兼容。
+of.message.an.shaders1=3D效果选项与光影不兼容。
 of.message.an.shaders2=请关闭光影以启用此选项。
 
-of.message.shaders.aa1=光影与抗锯齿不兼容。
+of.message.shaders.aa1=光影与抗锯齿选项不兼容。
 of.message.shaders.aa2=请将 品质 -> 抗锯齿 选项设置为 关闭 并重启您的游戏。
 
-of.message.shaders.af1=光影与各向异性过滤不兼容。
+of.message.shaders.af1=光影与各向异性过滤选项不兼容。
 of.message.shaders.af2=请将 品质 -> 各向异性过滤 选项设置为 关闭。
 
-of.message.shaders.fr1=光影与快速渲染不兼容。
+of.message.shaders.fr1=光影与快速渲染选项不兼容。
 of.message.shaders.fr2=请将 性能 -> 快速渲染 选项设置为 关闭。
 
-of.message.shaders.an1=光影与3D效果不兼容。
+of.message.shaders.an1=光影与3D效果选项不兼容。
 of.message.shaders.an2=请将 其他 -> 3D效果 选项设置为 关闭。
 
 of.message.shaders.nv1=此光影需要更新的OptiFine版本：%s
@@ -86,7 +86,7 @@ options.graphics.tooltip.5=阴影和草地的外观。
 
 of.options.renderDistance.tiny=最近
 of.options.renderDistance.short=近
-of.options.renderDistance.normal=中等
+of.options.renderDistance.normal=一般
 of.options.renderDistance.far=远
 of.options.renderDistance.extreme=极远
 of.options.renderDistance.insane=疯狂
@@ -191,9 +191,9 @@ of.options.shadersTitle=光影
 of.options.shaders.packNone=关闭
 of.options.shaders.packDefault=（内置）
 
-of.options.shaders.ANTIALIASING=抗锯齿
-of.options.shaders.ANTIALIASING.tooltip.1=抗锯齿
-of.options.shaders.ANTIALIASING.tooltip.2=  关闭 - （默认）禁用抗锯齿（较快）
+of.options.shaders.ANTIALIASING=抗锯齿功能
+of.options.shaders.ANTIALIASING.tooltip.1=抗锯齿功能
+of.options.shaders.ANTIALIASING.tooltip.2=  关闭 - （默认）禁用抗锯齿功能（较快）
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 对线和边缘抗锯齿处理（较慢）
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一种使锯齿状线条线和鲜明的色彩过渡
 of.options.shaders.ANTIALIASING.tooltip.5=更为平滑的后处理特效。
@@ -552,15 +552,15 @@ of.options.VIGNETTE.tooltip.8=并且可以被安全地禁用。
 
 of.options.DYNAMIC_FOV=动态视场
 of.options.DYNAMIC_FOV.tooltip.1=动态视场
-of.options.DYNAMIC_FOV.tooltip.2=  开启 - 启用动态视场（默认）
-of.options.DYNAMIC_FOV.tooltip.3=  关闭 - 禁用动态视场
+of.options.DYNAMIC_FOV.tooltip.2=  开启 - 启用动态视野大小（默认）
+of.options.DYNAMIC_FOV.tooltip.3=  关闭 - 禁用动态视野大小
 of.options.DYNAMIC_FOV.tooltip.4=当飞行、疾跑或 
-of.options.DYNAMIC_FOV.tooltip.5=拉弓时改变视场。
+of.options.DYNAMIC_FOV.tooltip.5=拉弓时改变视野大小。
 
 of.options.DYNAMIC_LIGHTS=动态光源
 of.options.DYNAMIC_LIGHTS.tooltip.1=动态光源
 of.options.DYNAMIC_LIGHTS.tooltip.2=  关闭 - 无动态光源（默认）
-of.options.DYNAMIC_LIGHTS.tooltip.3=  流畅 - 较快的动态光源（每 500ms 更新一次）
+of.options.DYNAMIC_LIGHTS.tooltip.3=  流畅 - 较快的动态光源（每 0.5秒 更新一次）
 of.options.DYNAMIC_LIGHTS.tooltip.4=  高品质 - 高品质的动态光源（实时更新）
 of.options.DYNAMIC_LIGHTS.tooltip.5=使得发光的物品（火把、萤石等）
 of.options.DYNAMIC_LIGHTS.tooltip.6=被玩家左右手持握、装备或
@@ -594,7 +594,7 @@ of.options.FAST_RENDER.tooltip.1=快速渲染
 of.options.FAST_RENDER.tooltip.2= 关闭 - 标准渲染（默认）
 of.options.FAST_RENDER.tooltip.3= 开启 - 优化渲染（较快）
 of.options.FAST_RENDER.tooltip.4=采用优化渲染算法从而降低 GPU 的负载
-of.options.FAST_RENDER.tooltip.5=并且可能大幅提升 FPS。
+of.options.FAST_RENDER.tooltip.5=并且可能大幅提升帧率。
 of.options.FAST_RENDER.tooltip.6=此选项或与某些模组冲突。
 
 of.options.FAST_MATH=快速运算
@@ -602,14 +602,14 @@ of.options.FAST_MATH.tooltip.1=快速运算
 of.options.FAST_MATH.tooltip.2= 关闭 - 标准的运算（默认）
 of.options.FAST_MATH.tooltip.3= 开启 - 更快的运算
 of.options.FAST_MATH.tooltip.4=采用优化的 sin() 和 cos() 函数可以
-of.options.FAST_MATH.tooltip.5=更好地利用 CPU 缓存，并且提升 FPS。
+of.options.FAST_MATH.tooltip.5=更好地利用 CPU 缓存，并且提升帧率。
 of.options.FAST_MATH.tooltip.6=此选项对世界生成有微小影响。
 
 of.options.CHUNK_UPDATES=区块更新
 of.options.CHUNK_UPDATES.tooltip.1=区块更新
-of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界载入速度较慢，FPS 较高（默认）
-of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界载入速度较快，FPS 较低
-of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界载入速度最快，FPS 最低
+of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界载入速度较慢，帧率较高（默认）
+of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界载入速度较快，帧率较低
+of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界载入速度最快，帧率最低
 of.options.CHUNK_UPDATES.tooltip.5=渲染每帧时更新的区块数，
 of.options.CHUNK_UPDATES.tooltip.6=更高的值将会导致帧数不稳定。
 
