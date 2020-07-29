@@ -39,6 +39,9 @@ of.message.shaders.af2=Будь ласка, встановіть Якість ->
 of.message.shaders.fr1=Шейдери не сумісні зі швидким рендером.
 of.message.shaders.fr2=Будь ласка, встановіть Продуктивність -> Швидкий рендер на Вимк і перезапустіть гру.
 
+of.message.shaders.gf1=Шейдери не сумісні з Казковою Графікою.
+of.message.shaders.gf2=Будь ласка, встановіть графіку на Швидку або Красиву.
+
 of.message.shaders.an1=Шейдери не сумісні з 3D анагліфом.
 of.message.shaders.an2=Будь-ласка, встановіть Інші -> 3D-ефект на Вимк.
  
@@ -76,8 +79,10 @@ of.message.capeOF.error2=Помилка: %s
 options.graphics.tooltip.1=Якість графіки
 options.graphics.tooltip.2=  Швидка  - низька якість, швидше
 options.graphics.tooltip.3=  Красива - висока якість, повільніше
-options.graphics.tooltip.4=Змінює зовнішній вигляд хмар, листя води
-options.graphics.tooltip.5=тіней і сторін трави.
+options.graphics.tooltip.4=  Казкова - кращі напівпрозорі об'єкти, найповільніше
+options.graphics.tooltip.5=Змінює зовнішній вигляд хмар, листя, води,
+options.graphics.tooltip.6=тіней і сторін трави.
+options.graphics.tooltip.7=Казкова графіка не сумісна з шейдерами.
 
 of.options.renderDistance.tiny=Маленька
 of.options.renderDistance.short=Коротка
@@ -95,6 +100,12 @@ options.renderDistance.tooltip.5=  32 Надзвичайна - 512м (найпо
 options.renderDistance.tooltip.6=  48 Шалена - 768м, потребує 2GB оперативної пам'яті
 options.renderDistance.tooltip.7=  64 Безглузда - 1024м, потребує 3GB оперативної пам'яті
 options.renderDistance.tooltip.8=  Значення більше ніж 16 ефективні лише для локальних світів.
+
+options.entityDistanceScaling.tooltip.1=Дальність відображення сутностей
+options.entityDistanceScaling.tooltip.2=  50%% - швидша
+options.entityDistanceScaling.tooltip.3=  100%% - звичайна
+options.entityDistanceScaling.tooltip.4=  500%% - повільніша
+options.entityDistanceScaling.tooltip.5=Змінює максимальну відстань, на якій показуються сутності.
 
 options.ao.tooltip.1=М'яке освітлення
 options.ao.tooltip.2=  Вимк - без м'якого освітлення (Швидка)
@@ -193,7 +204,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - згладжені л�
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA це пост-ефект, який згладжує
 of.options.shaders.ANTIALIASING.tooltip.5=гострі краї та різкі зміни кольорів.
 of.options.shaders.ANTIALIASING.tooltip.6=Це швидше ніж традиційне згладжування
-of.options.shaders.ANTIALIASING.tooltip.7=і працює із Швидким Рендером.  
+of.options.shaders.ANTIALIASING.tooltip.7=і працює з шейдерами.  
 
 of.options.shaders.NORMAL_MAP=Нормальна мапа
 of.options.shaders.NORMAL_MAP.tooltip.1=Нормальна мапа
@@ -742,7 +753,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Розмір скріншоту
 of.options.SCREENSHOT_SIZE.tooltip.2=  Стандартний - стандартний розмір скріншоту
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - власний розмір скріншоту
 of.options.SCREENSHOT_SIZE.tooltip.4=Знімання більшого скріншоту потребує більше пам'яті
-of.options.SCREENSHOT_SIZE.tooltip.5=Не сумісне зі швидким рендером і згладжуванням
+of.options.SCREENSHOT_SIZE.tooltip.5=Не сумісне зі згладжуванням
 of.options.SCREENSHOT_SIZE.tooltip.6=Потребує підтримку фреймбуфера GPU.
 
 of.options.SHOW_GL_ERRORS=Показувати помилки OpenGL
