@@ -573,7 +573,7 @@ options.biomeBlendRadius.tooltip.6=significantes e atrasar o carregamento dos ch
 
 # Performance
 
-of.options.SMOOTH_FPS=Fps fluídos
+of.options.SMOOTH_FPS=Fps estáveis
 of.options.SMOOTH_FPS.tooltip.1=Estabiliza os fps com uma descarga dos buffers
 of.options.SMOOTH_FPS.tooltip.2=da placa gráfica.
 of.options.SMOOTH_FPS.tooltip.3=  Não - sem estabilização dos fps, os fps podem flutuar
@@ -581,7 +581,7 @@ of.options.SMOOTH_FPS.tooltip.4=  Sim - estabilização dos fps
 of.options.SMOOTH_FPS.tooltip.5=Esta opção é dependente da placa gráfica e os
 of.options.SMOOTH_FPS.tooltip.6=seus efeitos nem sempre são visíveis.
 
-of.options.SMOOTH_WORLD=Mundo fluído
+of.options.SMOOTH_WORLD=Mundo estável
 of.options.SMOOTH_WORLD.tooltip.1=Remove os "espinhos de lag" causados pelo
 of.options.SMOOTH_WORLD.tooltip.2=servidor interno.
 of.options.SMOOTH_WORLD.tooltip.3=  Não - sem estabilização, os fps podem flutuar
@@ -589,7 +589,7 @@ of.options.SMOOTH_WORLD.tooltip.4=  Sim - estabilização dos fps
 of.options.SMOOTH_WORLD.tooltip.5=Estabiliza os fps distribuindo o carregamento interno
 of.options.SMOOTH_WORLD.tooltip.6=do servidor. Só é eficaz em mundos locais.
 
-of.options.FAST_RENDER=Carreg. ráp. de chunks
+of.options.FAST_RENDER=Carregamento rápido
 of.options.FAST_RENDER.tooltip.1=Carregamento rápido de chunks
 of.options.FAST_RENDER.tooltip.2= Não - carregamento predefinido (padrão)
 of.options.FAST_RENDER.tooltip.3= Sim - carregamento melhorado (rápido)
@@ -597,11 +597,11 @@ of.options.FAST_RENDER.tooltip.4=Usa um algoritmo de carregamento otimizado que 
 of.options.FAST_RENDER.tooltip.5=a carga do GPU e pode aumentar ligeiramente os fps.
 of.options.FAST_RENDER.tooltip.6=Esta opção pode entrar em conflito com alguns mods.
 
-of.options.FAST_MATH=Matemá. rápida
-of.options.FAST_MATH.tooltip.1=Matemática rápida
-of.options.FAST_MATH.tooltip.2= Não - matemática predefinido (padrão)
-of.options.FAST_MATH.tooltip.3= Sim - matemática rápida
-of.options.FAST_MATH.tooltip.4=Melhora as funções do sin() e do cos() que melhoram
+of.options.FAST_MATH=Otimizar cálculos
+of.options.FAST_MATH.tooltip.1=Otimização dos cálculos
+of.options.FAST_MATH.tooltip.2= Não - cálculos predefinidos (padrão)
+of.options.FAST_MATH.tooltip.3= Sim - cálculos rápidos
+of.options.FAST_MATH.tooltip.4=Melhora as funções do seno() e do cosseno() que melhoram
 of.options.FAST_MATH.tooltip.5=a utilização do cache do CPU e aumentam os fps.
 of.options.FAST_MATH.tooltip.6=Esta opção tem um efeito mínimo na geração do mundo.
 
@@ -614,7 +614,7 @@ of.options.CHUNK_UPDATES.tooltip.5=Número de chunks atualizados por cada fps ca
 of.options.CHUNK_UPDATES.tooltip.6=Quanto mais alto o valor, maior a possiblidade de
 of.options.CHUNK_UPDATES.tooltip.7=destabilização do limite de fps.
 
-of.options.CHUNK_UPDATES_DYNAMIC=Atual. dinâmicas
+of.options.CHUNK_UPDATES_DYNAMIC=Atualiz. dinâmicas
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Atualizações dinâmicas
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Não - atuatização padrão dos chunks por fps
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Sim - mais atualizações enquanto o jogador está imóvel
@@ -622,14 +622,14 @@ of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=As atualizações dinâmicas forçam 
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=chunks enquanto o jogador está imóvel para carregar
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.6=o mundo mais rapidamente.
 
-of.options.LAZY_CHUNK_LOADING=Carr. lento dos chunks
-of.options.LAZY_CHUNK_LOADING.tooltip.1=Carregamento lento dos chunks
+of.options.LAZY_CHUNK_LOADING=Carreg. limitado
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Carregamento limitado
 of.options.LAZY_CHUNK_LOADING.tooltip.2= Não - carregamento padrão dos chunks
-of.options.LAZY_CHUNK_LOADING.tooltip.3= Sim - carregamento lento dos chunks (maior fluidez)
+of.options.LAZY_CHUNK_LOADING.tooltip.3= Sim - carregamento limitado (rápido)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Otimiza o carregamento de chunks integrados no
 of.options.LAZY_CHUNK_LOADING.tooltip.5=servidor, distribuindo-os por vários tiques.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Desliga esta opção se o mundo não estiver a carregar
-of.options.LAZY_CHUNK_LOADING.tooltip.7=corretamente. Só é eficaz em mundos locais.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=corretamente. Apenas disponível em em mundos locais.
 
 of.options.RENDER_REGIONS=Carr. de regiões
 of.options.RENDER_REGIONS.tooltip.1=Carregamento de regiões
@@ -749,7 +749,7 @@ of.options.AUTOSAVE_TICKS.tooltip.3=Dependendo do alcance visual, a gravação a
 of.options.AUTOSAVE_TICKS.tooltip.4=pode gerar "espinhos de lag".
 of.options.AUTOSAVE_TICKS.tooltip.5=O mundo também é guardado quando o menu do jogo é aberto.
 
-of.options.SCREENSHOT_SIZE=Tam. da capt. de ecrã
+of.options.SCREENSHOT_SIZE=Capt. de ecrã
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamanho da captura de ecrã
 of.options.SCREENSHOT_SIZE.tooltip.2=  padrão - tamanho padrão
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tamanho personalizado
