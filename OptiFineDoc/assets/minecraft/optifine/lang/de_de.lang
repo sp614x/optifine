@@ -59,16 +59,16 @@ of.message.loadingVisibleChunks=Lade sichtbare Chunks
 
 # Skin customization
 
-of.options.skinCustomisation.ofCape=OptiFine Umhang...
+of.options.skinCustomisation.ofCape=OptiFine-Umhang …
 
-of.options.capeOF.title=OptiFine Umhang
+of.options.capeOF.title=OptiFine-Umhang
 of.options.capeOF.openEditor=Umhang-Editor öffnen
 of.options.capeOF.reloadCape=Umhang neu laden
 
-of.message.capeOF.openEditor=Der OptiFine Umhang-Editor sollte sich in einem Web-Browser öffnen.
-of.message.capeOF.reloadCape=Der Umhang wird in 15 Sekunden neu geladen.
+of.message.capeOF.openEditor=Der OptiFine-Umhang-Editor sollte sich in einem Web-Browser öffnen.
+of.message.capeOF.reloadCape=Dein Umhang wird in 15 Sekunden neu geladen.
 
-of.message.capeOF.error1=Mojang Authentifizierung fehlgeschlagen.
+of.message.capeOF.error1=Mojang-Authentifizierung fehlgeschlagen.
 of.message.capeOF.error2=Fehler: %s
  
 # Video settings
@@ -123,7 +123,7 @@ options.guiScale.tooltip.1=GUI-Größe
 options.guiScale.tooltip.2=  Auto - Maximale Größe
 options.guiScale.tooltip.3=  Klein, Normal, Groß - 1x-3x
 options.guiScale.tooltip.4=  4x-10x - Verfügbar auf 4K-Monitoren
-options.guiScale.tooltip.5=Ungerade Werte (1x, 3x, 5x ...) sind nicht mit
+options.guiScale.tooltip.5=Ungerade Werte (1x, 3x, 5x …) sind nicht mit
 options.guiScale.tooltip.6=Unicode-Schrift kompatibel.
 options.guiScale.tooltip.7=Ein kleineres GUI ist eventuell schneller.
 
@@ -176,7 +176,7 @@ of.options.CHUNK_LOADING.tooltip.8=die FPS erhöhen, indem es einen zweiten CPU-
 of.options.chunkLoading.smooth=Weich
 of.options.chunkLoading.multiCore=Multi-Core
 
-of.options.shaders=Shader...
+of.options.shaders=Shader …
 of.options.shadersTitle=Shader
 
 of.options.shaders.packNone=Aus
@@ -272,26 +272,26 @@ of.options.shaders.DOWNLOAD.tooltip.6=installierten Shader erscheint.
 of.options.shaders.SHADER_PACK=Shader
 
 of.options.shaders.shadersFolder=Shader-Ordner
-of.options.shaders.shaderOptions=Shadereinstellungen ...
+of.options.shaders.shaderOptions=Shadereinstellungen …
 
 of.options.shaderOptionsTitle=Shader
 
-of.options.quality=Qualität ...
+of.options.quality=Qualität …
 of.options.qualityTitle=Qualitätseinstellungen
 
-of.options.details=Details ...
+of.options.details=Details …
 of.options.detailsTitle=Detaileinstellungen
 
-of.options.performance=Leistung ...
+of.options.performance=Leistung …
 of.options.performanceTitle=Leistungseinstellungen
 
-of.options.animations=Animationen ...
+of.options.animations=Animationen …
 of.options.animationsTitle=Animationseinstellungen
 
-of.options.other=Sonstiges ...
+of.options.other=Sonstiges …
 of.options.otherTitle=Andere Einstellungen
 
-of.options.other.reset=Grafikeinstellungen zurücksetzen ...
+of.options.other.reset=Grafikeinstellungen zurücksetzen …
 
 of.shaders.profile=Profil
 
