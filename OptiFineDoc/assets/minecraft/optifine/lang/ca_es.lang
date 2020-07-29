@@ -1,0 +1,815 @@
+#Traduit al català per Empa, aka (Empa_), (Not_Empanamorse)
+
+# General
+of.general.ambiguous=ambigüe
+of.general.compact=Compacte
+of.general.custom=Personalitzat
+of.general.from=De
+of.general.id=ID
+of.general.max=Màxim
+of.general.restart=Reiniciar
+of.general.smart=Inteligents
+
+# Keys
+of.key.zoom=Zoom
+
+# Message
+of.message.aa.shaders1=Antialiàsing no es compatible amb shaders.
+of.message.aa.shaders2=Desactíval per a utilitzar aquesta funció.
+
+of.message.af.shaders1=Anisotròpic no es compatible amb shaders.
+of.message.af.shaders2=Desactíval per a utilitzar aquesta funció.
+
+of.message.fr.shaders1=No es compatible amb shaders.3
+of.message.fr.shaders2=Desactíval per a utilitzar aquesta funció.
+
+of.message.shaders.aa1=Els shaders no són compatibles amb antialiàsing.
+of.message.shaders.aa2=Per a desactivar-lo, fes clic en Qualitat -> Antialiàsing.
+
+of.message.shaders.af1=Els shaders no són compatibles amb anisotròpic.
+of.message.shaders.af2=Per a desactivar-lo, fes clic en Qualitat -> Anisotròpic.
+
+of.message.shaders.fr1=Els shaders no són compatibles amb el renderitzat ràpid.
+of.message.shaders.fr2=Per a desactivar-lo, fes clic en Rendiment -> Renderitzat ràpid.
+
+of.message.an.shaders1=No es compatible amb shaders.
+of.message.an.shaders2=Desactiva-les per a utilitzar aquesta funció.
+
+of.message.shaders.aa1=No es compatible amb Antialiàsing.
+of.message.shaders.aa2=Desactíva'l a Qualitat -> Antialiàsing -> NO.
+
+of.message.shaders.af1=No es compatible amb Anisotròpic.
+of.message.shaders.af2=Desactíva'l a Qualitat -> Anisotròpic -> NO.
+
+of.message.shaders.fr1=No es compatible amb Renderitzat ràpid.
+of.message.shaders.fr2=Desactíva'l a Qualitat -> Renderitzat ràpid -> NO.
+
+of.message.shaders.an1=No es compatible amb Visió en 3D.
+of.message.shaders.an2=Desactíva'l a Opcions variades -> Visió en 3D.
+
+of.message.shaders.nv1=Aquests shaders requereixen una versió d'Optifine més recent: %s
+of.message.shaders.nv2=Vols continuar?
+
+of.message.newVersion=Hi ha una nova versió d'§eOptiFine§f disponible: §e%s§f
+of.message.java64Bit=Instala §eJava de 64-bits§f per a millorar el rendiment
+of.message.openglError=§eError d'OpenGL§f: %s (%s)
+
+of.message.shaders.loading=Carregant shader: %s
+
+of.message.other.reset=Restablir tota la configuració gràfica?
+
+of.message.loadingVisibleChunks=Carregant chunks visibles
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=Capa d'OptiFine...
+
+of.options.capeOF.title=Capa d'OptiFine
+of.options.capeOF.openEditor=Editor de capa d'OptiFine
+of.options.capeOF.reloadCape=Recarregar capa
+
+of.message.capeOF.openEditor=L'editor de capa necesita obrir-se en el teu navegador.
+of.message.capeOF.openEditorError=Error al obrir l'enllaç.
+of.message.capeOF.reloadCape=La capa es recarregarà en 15 segons.
+
+of.message.capeOF.error1=Error d'autentificació amb Mojang.
+of.message.capeOF.error2=Error: %s
+
+# Video settings
+
+options.graphics.tooltip.1=Gràfics
+options.graphics.tooltip.2=  Ràpids  - pitjor qualitat, millor rendiment
+options.graphics.tooltip.3=  Detallats - millor qualitat, pitjor rendiment
+options.graphics.tooltip.4= 
+options.graphics.tooltip.5=Els canvis s'aprecien en els núvols, en les fulles,
+options.graphics.tooltip.6=en la pluja, en els objectes tiras i en les
+options.graphics.tooltip.7=puntes (o bordes) de la pantalla del joc.
+
+of.options.renderDistance.tiny=Mínim
+of.options.renderDistance.short=Curt
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Llunyà
+of.options.renderDistance.extreme=Extrem
+of.options.renderDistance.insane=Insà
+of.options.renderDistance.ludicrous=A lo bestia
+
+options.renderDistance.tooltip.1=  2 Mínimo - 32m (increíblement ràpid)
+options.renderDistance.tooltip.2=  4 Corto - 64m (ràpid)
+options.renderDistance.tooltip.3=  8 Normal - 128m (recomenat)
+options.renderDistance.tooltip.4=  16 Lejano - 256m (pot anar lent)
+options.renderDistance.tooltip.5=  32 Extremo - 512m (pot anar horrible!)
+options.renderDistance.tooltip.6=  48 Insano - 768m, requereix utilitzar 2GB de RAM
+options.renderDistance.tooltip.7=  64 A lo bestia - 1024m, requereix utilitzar 3GB de RAM
+options.renderDistance.tooltip.8=A partir de 16 chunks serà inútil en multijugador.
+
+options.ao.tooltip.1=Iluminació suau
+options.ao.tooltip.2=  NO - sense iluminació suau (ràpid)
+options.ao.tooltip.3=  Mínim - iluminació suau simple (lent)
+options.ao.tooltip.4=  Màxim - iluminació suau avançada (més lent)
+
+options.framerateLimit.tooltip.1=Límit de FPS
+options.framerateLimit.tooltip.2=  VSync - limita els FPS segons el teu monitor (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - límit personalitzable
+options.framerateLimit.tooltip.4=  Sense límit - tots els FPS posibles (recomendado)
+options.framerateLimit.tooltip.5=
+options.framerateLimit.tooltip.6=Al establir un límit, els FPS poden
+options.framerateLimit.tooltip.7=disminuir si arriben a alcanzarlo.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Nivell de suavitat
+of.options.AO_LEVEL.tooltip.1=Nivell de l'iluminació suau
+of.options.AO_LEVEL.tooltip.2=  NO - sense ombres
+of.options.AO_LEVEL.tooltip.3=  50%% - poques ombres
+of.options.AO_LEVEL.tooltip.4=  100%% - ombres fosques
+
+options.viewBobbing.tooltip.1=Un movimient més realista.
+options.viewBobbing.tooltip.2=Desactíva'l al utilitzar mipmap per a que sigui millor.
+
+options.guiScale.tooltip.1=Mida d'interfaç (GUI)
+options.guiScale.tooltip.2=  Auto. - tamany màxim
+options.guiScale.tooltip.3=  Petit, normal i gran - desde 1x fins a 3x
+options.guiScale.tooltip.4=  Desde 4x fins a 10x - disponible en pantalles 4K.
+options.guiScale.tooltip.5=
+options.guiScale.tooltip.6=Els valors impars (1x, 3x, 5x...) no són compatibles
+options.guiScale.tooltip.7=amb la font unicode.
+options.guiScale.tooltip.8=Una interfaç petita pot millorar el rendiment.
+
+options.vbo=utilitzar VBOs
+options.vbo.tooltip.1=Vertex Buffer Objects (abreviat como VBO)
+options.vbo.tooltip.2= 
+options.vbo.tooltip.3=Es un tipus de renderitzat alternatiu que sol ser
+options.vbo.tooltip.4=més ràpid que el predeterminat (un 5-10%%).
+
+options.gamma.tooltip.1=Modifica la brillantor
+options.gamma.tooltip.2=  Fosc - brillantor per defecte
+options.gamma.tooltip.3=  1-99%% - brillantor personalizada
+options.gamma.tooltip.4=  Clar - brillantor al màxim
+options.gamma.tooltip.5=
+options.gamma.tooltip.6=Aquesta opció no cambia completament
+options.gamma.tooltip.7=la brillantor dels objectes més foscos.
+
+options.anaglyph.tooltip.1=Visió en 3D
+options.anaglyph.tooltip.2=Activar un efecte estereoscópic utilitzant un color
+options.anaglyph.tooltip.3=diferente per a cada ull.
+options.anaglyph.tooltip.4=NOTA: Requereix ulleres anaglífiques (vermelles i blaves).
+
+options.attackIndicator.tooltip.1=Modifica l'ubicación de l'indicador d'atac
+options.attackIndicator.tooltip.2=  MIRA - sota de la mira central
+options.attackIndicator.tooltip.3=  BARRA - a prop de la barra d'objectes
+options.attackIndicator.tooltip.4=  NO - sense indicador d'atac
+options.attackIndicator.tooltip.5=    
+options.attackIndicator.tooltip.6=S'indica la força d'atac de
+options.attackIndicator.tooltip.7=l'objecte que tinguis en la mà principal.
+
+of.options.ALTERNATE_BLOCKS=Blocs alternatius
+of.options.ALTERNATE_BLOCKS.tooltip.1=Blocs amb textures alternatives
+of.options.ALTERNATE_BLOCKS.tooltip.2=Utilitzar textures alternatives per a un mateix bloc.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Depen del paquet de recursos utilitzat.
+
+of.options.FOG_FANCY=Boira
+of.options.FOG_FANCY.tooltip.1=Tipus de boira
+of.options.FOG_FANCY.tooltip.2=  Ràpids - boira més ràpida, es veu cutre
+of.options.FOG_FANCY.tooltip.3=  Detallats - boira més lenta, es veu millor
+of.options.FOG_FANCY.tooltip.4=  NO - sense boira, superràpid
+of.options.FOG_FANCY.tooltip.5=La boira detallada només està disponible si
+of.options.FOG_FANCY.tooltip.6=la teva tarjeta gràfica ho permet.
+
+of.options.FOG_START=Distància de boira
+of.options.FOG_START.tooltip.1=Distància a la que comença la boira
+of.options.FOG_START.tooltip.2=  0.2 - la boira estarà a prop
+of.options.FOG_START.tooltip.3=  0.8 - la boira estarà lluny
+of.options.FOG_START.tooltip.4=Aquesta opció no sol afectar al rendiment.
+
+of.options.CHUNK_LOADING=Càrrega de chunks
+of.options.CHUNK_LOADING.tooltip.1=Velocitat de càrrega de chunks
+of.options.CHUNK_LOADING.tooltip.2=  Per defecto - FPS inestables al carregar chunks
+of.options.CHUNK_LOADING.tooltip.3=  Suau - FPS estables
+of.options.CHUNK_LOADING.tooltip.4=  Multi-núcli - FPS estables i una velocitat 3 vegades superior
+of.options.CHUNK_LOADING.tooltip.5=Les opcions "Suau" i "Multi-núcli" eliminen els tirons i
+of.options.CHUNK_LOADING.tooltip.6=la lentitut causada per la càrrega de chunks.
+of.options.CHUNK_LOADING.tooltip.7=Multi-núcli pot accelerar la càrrega fins a 3 vegades més i
+of.options.CHUNK_LOADING.tooltip.8=millorar els FPS al utilitzar un segon núcli de la CPU.
+of.options.chunkLoading.smooth=Suau
+of.options.chunkLoading.multiCore=Multi-núcli
+
+of.options.shaders=Shaders...
+of.options.shadersTitle=Shaders
+
+of.options.shaders.packNone=(SENSE SHADERS)
+of.options.shaders.packDefault=(SHADERS INTERNS)
+
+of.options.shaders.ANTIALIASING=Antialiàsing
+of.options.shaders.ANTIALIASING.tooltip.1=Nivel de antialiàsing
+of.options.shaders.ANTIALIASING.tooltip.2=  NO - per defecte (ràpid)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - millora línias i puntes (més lent)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA es un efecte de postprocessament que suavitza
+of.options.shaders.ANTIALIASING.tooltip.5="dents de serra" i transicions de color.
+of.options.shaders.ANTIALIASING.tooltip.6=Funciona millor que l'antialiàsing comú, i
+of.options.shaders.ANTIALIASING.tooltip.7=es compatible amb Renderitzat ràpid i shaders.  
+
+of.options.shaders.NORMAL_MAP=Mapejat normal
+of.options.shaders.NORMAL_MAP.tooltip.1=També anomenat Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.2=  SÍ - (per defecte)
+of.options.shaders.NORMAL_MAP.tooltip.3=  NO
+of.options.shaders.NORMAL_MAP.tooltip.4=Pot ser utilitzat per shaders per a simular geometría 3D
+of.options.shaders.NORMAL_MAP.tooltip.5=en superficies planes.
+of.options.shaders.NORMAL_MAP.tooltip.6=  
+of.options.shaders.NORMAL_MAP.tooltip.7=No tots els shaders soporten aquesta opció.
+
+of.options.shaders.SPECULAR_MAP=Mapejat especular
+of.options.shaders.SPECULAR_MAP.tooltip.1=També anomenat Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.2=  SÍ - (per defecte) 
+of.options.shaders.SPECULAR_MAP.tooltip.3=  NO
+of.options.shaders.SPECULAR_MAP.tooltip.4=Aquesta opció pot ser utilitzada per shaders per a simular
+of.options.shaders.SPECULAR_MAP.tooltip.5=un efecte de reflexió especial.
+of.options.shaders.SPECULAR_MAP.tooltip.6=  
+of.options.shaders.SPECULAR_MAP.tooltip.7=No tots els shaders soporten aquesta opció.
+
+
+of.options.shaders.RENDER_RES_MUL=Qualitat render.
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Qualitat de renderitzat del joc
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - baix (més ràpid, més borrós)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - normal (per defecte)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - alt (més lent, més qualitat)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Controla la resolució interna a la que es renderitza.
+of.options.shaders.RENDER_RES_MUL.tooltip.6= 
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Valor baix = aumenta el rendiment.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Valor alt = serveix com antialiàsing.
+
+of.options.shaders.SHADOW_RES_MUL=Qualitat d'ombres
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Qualitat d'ombres
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - baix (més ràpid)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - normal (per defecte)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - alt (més lent)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Controla el mapejat d'ombres dels shaders.
+of.options.shaders.SHADOW_RES_MUL.tooltip.6= 
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Valor baix = borroses, línies gruixudes.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Valor alt = detallades, línies definides.
+
+of.options.shaders.HAND_DEPTH_MUL=Pr. de camp
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Profunditat de camp
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - mà a prop de la càmera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (per defecte)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - mà lluny de la càmera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Controla la distància entre la mà i la càmera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6= 
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Pot cambiar el desenfoc produit en la mà
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=pels shaders que utilitzen blur.
+
+of.options.shaders.CLOUD_SHADOW=Ombres de núvols
+
+of.options.shaders.OLD_HAND_LIGHT=LC mans
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Llum clàssica (LC) a la mà
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Per defecte - controlat per shaders
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  SÍ - utilitzar el sistema clàssic
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  NO - utilitzar el sistema nou
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=La llum clàssica permet que els objectes dissenyats
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=per a emitir llum en la mà principal, també
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=ho facin en la mà secundaria.
+
+of.options.shaders.OLD_LIGHTING=LC
+of.options.shaders.OLD_LIGHTING.tooltip.1=Llum clàssica (LC)
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Per defecte - controlat per shaders
+of.options.shaders.OLD_LIGHTING.tooltip.3=  SÍ - utilitzar el sistema clàssic
+of.options.shaders.OLD_LIGHTING.tooltip.4=  NO - utilitzar el sistema nou
+of.options.shaders.OLD_LIGHTING.tooltip.5=La llum clàssica controla l'iluminació estàtica de
+of.options.shaders.OLD_LIGHTING.tooltip.6=Minecraft normal als costats del bloc. 
+of.options.shaders.OLD_LIGHTING.tooltip.7=Alguns shaders solen proporcionar una iluminación
+of.options.shaders.OLD_LIGHTING.tooltip.8=millorada que varía segons la posició del sol.
+
+of.options.shaders.DOWNLOAD=Descarregar shaders
+of.options.shaders.DOWNLOAD.tooltip.1=
+of.options.shaders.DOWNLOAD.tooltip.2=Per a descarregarte un paquet de shaders:
+of.options.shaders.DOWNLOAD.tooltip.3=1. Obre la web de shaders en el teu navegador.
+of.options.shaders.DOWNLOAD.tooltip.4=2. Descarregat els shaders que t'agradin.
+of.options.shaders.DOWNLOAD.tooltip.5=3. Obre "Carpeta de shaders" i copíales.
+of.options.shaders.DOWNLOAD.tooltip.6=    
+of.options.shaders.DOWNLOAD.tooltip.7=Fàcil, senzill i per a tota la família.
+
+of.options.shaders.SHADER_PACK=Paquet de shaders
+
+of.options.shaders.shadersFolder=Carpeta de shaders
+of.options.shaders.shaderOptions=Opcions de shader...
+
+of.options.shaderOptionsTitle=Opcions de shader
+
+of.options.quality=Qualitat...
+of.options.qualityTitle=Opcions de qualitat gràfica
+
+of.options.details=Detalls...
+of.options.detailsTitle=Opcions de detalls gràfics
+
+of.options.performance=Rendiment...
+of.options.performanceTitle=Opcions de rendiment
+
+of.options.animations=Animacions...
+of.options.animationsTitle=Activar o desactivar animacions
+
+of.options.other=Opcions varies...
+of.options.otherTitle=Opcions varies
+
+of.options.other.reset=Restablir tota la configuració...
+
+of.shaders.profile=Perfil
+
+# Quality
+
+of.options.mipmap.bilinear=Bilinial
+of.options.mipmap.linear=Linial
+of.options.mipmap.nearest=Proper
+of.options.mipmap.trilinear=Trilinial
+
+options.mipmapLevels.tooltip.1=Efecte visual que fa que els objectes llunyans lluin
+options.mipmapLevels.tooltip.2=millor gracies a que suavitza els detalls de la seva textura
+options.mipmapLevels.tooltip.3= 
+options.mipmapLevels.tooltip.4=  NO - sense suavitzat
+options.mipmapLevels.tooltip.5=  1 - suavitzat mínim
+options.mipmapLevels.tooltip.6=  4 - suavitzat màxim
+options.mipmapLevels.tooltip.7= 
+options.mipmapLevels.tooltip.8=Normalment aquesta opció no afecta al rendiment.
+
+of.options.MIPMAP_TYPE=Tipus de mipmap
+of.options.MIPMAP_TYPE.tooltip.1=Efecte visual que fa que els objectes llunyans lluin
+of.options.MIPMAP_TYPE.tooltip.2=millor gracies a que suavitza els detalls de la seva textura
+of.options.MIPMAP_TYPE.tooltip.3= 
+of.options.MIPMAP_TYPE.tooltip.4=  Proper - suavitzat brut (més ràpid)
+of.options.MIPMAP_TYPE.tooltip.5=  Linial - suavitzat normal
+of.options.MIPMAP_TYPE.tooltip.6=  Bilinial - suavitzat fi
+of.options.MIPMAP_TYPE.tooltip.7=  Trilinial - suavitzat molt fi (més lent)
+
+
+of.options.AA_LEVEL=Antialiàsing
+of.options.AA_LEVEL.tooltip.1=Antialiàsing suavitza línies i bores dels blocs
+of.options.AA_LEVEL.tooltip.2= NO - (per defecte) sense antialiàsing (més ràpid)
+of.options.AA_LEVEL.tooltip.3= 2-16 - nivell de suavitzat de l'antialiàsing (més lent)
+of.options.AA_LEVEL.tooltip.4= 
+of.options.AA_LEVEL.tooltip.5= Suavitza els dents de serra i millora la nitidesa.
+of.options.AA_LEVEL.tooltip.6=Els FPS poden disminuir considerablemente al activar-se.
+of.options.AA_LEVEL.tooltip.7=Algunes targetes gràfiques no suportan tots els nivells.
+of.options.AA_LEVEL.tooltip.8= El canvi serà aplicat al REINICIAR el joc!
+
+of.options.AF_LEVEL=Anisotròpic
+of.options.AF_LEVEL.tooltip.1=Filetr anisotròpic
+of.options.AF_LEVEL.tooltip.2= NO - (per defecte) detall normal de textures (ràpid)
+of.options.AF_LEVEL.tooltip.3= 2-16 - refinar textures al utilitzar mipmap (més lent)
+of.options.AF_LEVEL.tooltip.4= 
+of.options.AF_LEVEL.tooltip.5= 
+of.options.AF_LEVEL.tooltip.6=Aquest filtre recupera detalls a l'utilitzar mipmap.
+of.options.AF_LEVEL.tooltip.7=Els FPS poden disminuir considerablemente al activar-se.
+
+of.options.CLEAR_WATER=Aigües cristalines
+of.options.CLEAR_WATER.tooltip.1=Aigües cristalines
+of.options.CLEAR_WATER.tooltip.2=  SÍ - aigua neta i transparent
+of.options.CLEAR_WATER.tooltip.3=  NO - aigua predeterminada del joc
+
+of.options.RANDOM_ENTITIES=Entitats aleatories
+of.options.RANDOM_ENTITIES.tooltip.1=Si una entitat té més d'una textura...
+of.options.RANDOM_ENTITIES.tooltip.2=  NO - una única textura, més ràpid
+of.options.RANDOM_ENTITIES.tooltip.3=  SÍ - textures aleatorias, més lent
+of.options.RANDOM_ENTITIES.tooltip.4=
+of.options.RANDOM_ENTITIES.tooltip.5=Requereix un paquet de recursos que tingui varies
+of.options.RANDOM_ENTITIES.tooltip.6=textures per a una mateixa entitat.
+
+of.options.BETTER_GRASS=Gespa millorada
+of.options.BETTER_GRASS.tooltip.1=Textura dels costats del bloc de gespa millorada
+of.options.BETTER_GRASS.tooltip.2=  NO - gespa normal (per defecte), més ràpid
+of.options.BETTER_GRASS.tooltip.3=  Ràpids - tot el bloc ple de gespa, més lent
+of.options.BETTER_GRASS.tooltip.4=  Detallats - textura dinàmica, molt més lent
+
+of.options.BETTER_SNOW=Neu millorada
+of.options.BETTER_SNOW.tooltip.1=Neu millorada
+of.options.BETTER_SNOW.tooltip.2=  NO - neu predeterminada, més ràpid
+of.options.BETTER_SNOW.tooltip.3=  SÍ - neu millorada, més lent
+of.options.BETTER_SNOW.tooltip.4= 
+of.options.BETTER_SNOW.tooltip.5=Mostrar neu baix dels blocs transparents
+of.options.BETTER_SNOW.tooltip.6=(valles, herbes) al bordejar-los amb neu.
+
+of.options.CUSTOM_FONTS=Fonts personalitzades
+of.options.CUSTOM_FONTS.tooltip.1=Fonts personalitzades
+of.options.CUSTOM_FONTS.tooltip.2=  SÍ - utilitzar personalitzades (per defecte), més lent
+of.options.CUSTOM_FONTS.tooltip.3=  NO - utilitzar la predeterminada, més ràpido
+of.options.CUSTOM_FONTS.tooltip.4= 
+of.options.CUSTOM_FONTS.tooltip.5=Alguns paquets de recursos tenen fonts
+of.options.CUSTOM_FONTS.tooltip.6=personalitzades.
+
+of.options.CUSTOM_COLORS=Colors personalitzats
+of.options.CUSTOM_COLORS.tooltip.1=Colors personalitzats
+of.options.CUSTOM_COLORS.tooltip.2=  SÍ - colors personalitzats (per defecte), més lent
+of.options.CUSTOM_COLORS.tooltip.3=  NO - colors predeterminats, més ràpid
+of.options.CUSTOM_COLORS.tooltip.4=  
+of.options.CUSTOM_COLORS.tooltip.5=Alguns paquets de recursos tenen colors
+of.options.CUSTOM_COLORS.tooltip.6=personalitzats.
+
+of.options.SWAMP_COLORS=Color de pantans
+of.options.SWAMP_COLORS.tooltip.1=Color de pantans
+of.options.SWAMP_COLORS.tooltip.2=  SÍ - color en pantans (per defecte), més lent
+of.options.SWAMP_COLORS.tooltip.3=  NO - sense color en els pantans, més ràpid
+of.options.SWAMP_COLORS.tooltip.4=Afecta a: gespa, aigua, fulles i enredaderes.
+
+of.options.SMOOTH_BIOMES=Suavitzar biomes
+of.options.SMOOTH_BIOMES.tooltip.1=Suavitzar transició entre biomes
+of.options.SMOOTH_BIOMES.tooltip.2=  SÍ - suavitzar canvi entre biomes (per defecte), més lent
+of.options.SMOOTH_BIOMES.tooltip.3=  NO - no suavizar cambio entre biomas, más rápido
+of.options.SMOOTH_BIOMES.tooltip.4=
+of.options.SMOOTH_BIOMES.tooltip.5=El suavitzat es realitza mitjant un degradat de color
+of.options.SMOOTH_BIOMES.tooltip.6=als blocs propers al límit de cada bioma.
+of.options.SMOOTH_BIOMES.tooltip.7=Afecta a: gespa, aigua, fulles i enredaderes.
+
+of.options.CONNECTED_TEXTURES=Blocs units
+of.options.CONNECTED_TEXTURES.tooltip.1=Unir textures de certs blocs
+of.options.CONNECTED_TEXTURES.tooltip.2=  NO - no unirles (per defecte)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Ràpids - unir-les de forma ràpida
+of.options.CONNECTED_TEXTURES.tooltip.4=  Detallats - unir-les de forma millorada
+of.options.CONNECTED_TEXTURES.tooltip.5= 
+of.options.CONNECTED_TEXTURES.tooltip.6=Unir les textures dels cristals, de l'arenisca i de
+of.options.CONNECTED_TEXTURES.tooltip.7=les llibreries al juntar els blocs.
+of.options.CONNECTED_TEXTURES.tooltip.8=No tots els paquets de recursos soporten aquesta opció.
+
+of.options.NATURAL_TEXTURES=Textures naturals
+of.options.NATURAL_TEXTURES.tooltip.1=Textures naturals
+of.options.NATURAL_TEXTURES.tooltip.2=  NO - sense textures naturals (per defecte)
+of.options.NATURAL_TEXTURES.tooltip.3=  SÍ - amb textures naturals
+of.options.NATURAL_TEXTURES.tooltip.4=Aquesta opció elimina el patró dels blocs
+of.options.NATURAL_TEXTURES.tooltip.5=que es crea al posar blocs del mateix tipus.
+of.options.NATURAL_TEXTURES.tooltip.6=S'utilitzen variants rotades i voltejades de la textura
+of.options.NATURAL_TEXTURES.tooltip.7=base del bloc.
+of.options.NATURAL_TEXTURES.tooltip.8=No tots els paquets de recursos soporten aquesta opció.
+
+of.options.EMISSIVE_TEXTURES=Textures emissives
+of.options.EMISSIVE_TEXTURES.tooltip.1=Textures emissives
+of.options.EMISSIVE_TEXTURES.tooltip.2=  NO - sense textures emissives (per defecte)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  SÍ - amb textures emissives
+of.options.EMISSIVE_TEXTURES.tooltip.4=Les textures emissives apareixen superposades amb
+of.options.EMISSIVE_TEXTURES.tooltip.5=la brillantor al màxim. Poden utilitzar-se per a simular
+of.options.EMISSIVE_TEXTURES.tooltip.6=emisió de llum en certes parts d'una textura base.
+of.options.EMISSIVE_TEXTURES.tooltip.7= 
+of.options.EMISSIVE_TEXTURES.tooltip.8=No tots els paquets de recursos soporten aquesta opció.
+
+of.options.CUSTOM_SKY=Cel personalitzat
+of.options.CUSTOM_SKY.tooltip.1=Textura personalitzada del cel
+of.options.CUSTOM_SKY.tooltip.2=  SÍ - cel personalitzat (per defecte), més lent
+of.options.CUSTOM_SKY.tooltip.3=  NO - cel predeterminat, més ràpid
+of.options.CUSTOM_SKY.tooltip.4=
+of.options.CUSTOM_SKY.tooltip.5=No tots els paquets de recursos soporten aquesta opció. 
+
+of.options.CUSTOM_ITEMS=Objectes personalitzats
+of.options.CUSTOM_ITEMS.tooltip.1=Textura personalitzada d'objectes (items)
+of.options.CUSTOM_ITEMS.tooltip.2=  SÍ - objectes personalitzats (per defecte), més lent
+of.options.CUSTOM_ITEMS.tooltip.3=  NO - objectes predeterminats, més ràpid
+of.options.CUSTOM_ITEMS.tooltip.4=
+of.options.CUSTOM_ITEMS.tooltip.5=No tots els paquets de recursos soporten aquesta opció.
+
+of.options.CUSTOM_ENTITY_MODELS=Entitats personalitzades
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Textura personalitzada de les entitats
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  SÍ - variar models d'entitats (per defecte), més lent
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  NO - utilitzar models predeterminats, més ràpid
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=No tots els paquets de recursos soporten aquesta opció.
+
+of.options.CUSTOM_GUIS=Interfaç personalitzada
+of.options.CUSTOM_GUIS.tooltip.1=Interfaç del joc (GUI) personalitzada
+of.options.CUSTOM_GUIS.tooltip.2=  SÍ - interfaç personalitzada (per defecte), més lent
+of.options.CUSTOM_GUIS.tooltip.3=  NO - interfaç original, més ràpido
+of.options.CUSTOM_GUIS.tooltip.4=
+of.options.CUSTOM_GUIS.tooltip.5=No tots els paquets de recursos soporten aquesta opció.
+
+# Details
+
+of.options.CLOUDS=Núvols
+of.options.CLOUDS.tooltip.1=Qualitat dels núvols
+of.options.CLOUDS.tooltip.2=  Per defecte - depen de l'ajust de gràfics
+of.options.CLOUDS.tooltip.3=  Ràpids - pitjor qualitat, millor rendiment
+of.options.CLOUDS.tooltip.4=  Detallats - major qualitat, pitjor rendiment
+of.options.CLOUDS.tooltip.5=  NO - sense núvols, rendiment superràpid
+of.options.CLOUDS.tooltip.6=
+of.options.CLOUDS.tooltip.7=Els núvols ràpids es renderitzen en 2D.
+of.options.CLOUDS.tooltip.8=Els núvols detallats es renderitzen en 3D.
+
+of.options.CLOUD_HEIGHT=Elevació de núvols
+of.options.CLOUD_HEIGHT.tooltip.1=Editar altura a la que es mostren els núvols
+of.options.CLOUD_HEIGHT.tooltip.2=  NO - altura per defecte
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - damunt del límit del món
+
+of.options.TREES=Arbres
+of.options.TREES.tooltip.1=Qualitat de fulles d'arbres
+of.options.TREES.tooltip.2=  Per defecte - depen de l'adjust de gràficos
+of.options.TREES.tooltip.3=  Ràpids - baixa qualitat, millor rendiment
+of.options.TREES.tooltip.4=  Intel·ligents - més qualitat, rendiment mitjà
+of.options.TREES.tooltip.5=  Detallats - màxima qualitat, pitjor rendiment
+of.options.TREES.tooltip.6=
+of.options.TREES.tooltip.7=La qualitat ràpida deixarà las fulles sense transparencia.
+of.options.TREES.tooltip.8="Detallats" e "Intel·ligents" si mantenen la transparencia.
+
+of.options.RAIN=Pluja/Neu
+of.options.RAIN.tooltip.1=Pluja i neu
+of.options.RAIN.tooltip.2=  Per defecte - depen de l'adjust de gràfics
+of.options.RAIN.tooltip.3=  Ràpids - pluja/neu lleugera, més ràpid
+of.options.RAIN.tooltip.4=  Detallats - pluja/neu intensa, més lent
+of.options.RAIN.tooltip.5=  NO - sense pluja/neu, més ràpid
+of.options.RAIN.tooltip.6=
+of.options.RAIN.tooltip.7=Encara que es desactivi la pluja, el só
+of.options.RAIN.tooltip.8=segueix estant actiu.
+
+of.options.SKY=Cel
+of.options.SKY.tooltip.1=Cel
+of.options.SKY.tooltip.2=  SÍ - cel visible, més lent
+of.options.SKY.tooltip.3=  NO - cel no visible, més ràpid
+of.options.SKY.tooltip.4= 
+of.options.SKY.tooltip.5=Encara que es desactivi, la Lluna i el Sol es podràn
+of.options.SKY.tooltip.6=seguir veient.
+
+of.options.STARS=Cel estrellat
+of.options.STARS.tooltip.1=Visibilitat d'estrelles en el cel nocturn
+of.options.STARS.tooltip.2=  SÍ - estrelles, més lent
+of.options.STARS.tooltip.3=  NO - sense estrelles, més ràpido
+
+of.options.SUN_MOON=Sol/Lluna
+of.options.SUN_MOON.tooltip.1=Visibilitat del Sol i la Lluna
+of.options.SUN_MOON.tooltip.2=  SÍ - el Sol i la Lluna SÍ són visibles (per defecte)
+of.options.SUN_MOON.tooltip.3=  NO  - el Sol i la Luna NO són visibles (ràpid)
+
+of.options.SHOW_CAPES=Capes
+of.options.SHOW_CAPES.tooltip.1=Capes de jugadors
+of.options.SHOW_CAPES.tooltip.2=  SÍ - mostrar les capes dels jugadors (per defecte)
+of.options.SHOW_CAPES.tooltip.3=  NO - ocultar les capes dels jugadors
+of.options.capeOF.copyEditorLink=Copiar enllaç
+
+of.options.TRANSLUCENT_BLOCKS=Bl. translúcids
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocs translúcids
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Detallats - mescla de colors perfecta (per defecte)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Ràpids - mescla de colors cutre (més ràpid)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4= 
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Aquesta opció afecta als blocs translúcids que tenen
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=color pero només quan es coloquen un derrera l'altre
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=amb un bloc buit entremig.
+of.options.TRANSLUCENT_BLOCKS.tooltip.8=Afecta a: vidre tintat, aigua, gel...
+
+of.options.HELD_ITEM_TOOLTIPS=Text en barra inferior
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Nom d'objectes en la barra inferior
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  SÍ - mostrar noms (per defecte)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  NO - no mostrar noms (com antiguament)
+
+of.options.DROPPED_ITEMS=Objectes
+of.options.DROPPED_ITEMS.tooltip.1=Qualitat dels objectes en el terra sense recollir
+of.options.DROPPED_ITEMS.tooltip.2=  Per defecte - depen de l'adjust de gràfics
+of.options.DROPPED_ITEMS.tooltip.3=  Rápidos - objectes en 2D, més ràpido
+of.options.DROPPED_ITEMS.tooltip.4=  Detallats - objectes en 3D, més lent pero més bonic
+
+options.entityShadows.tooltip.1=Ombres d'entitats
+options.entityShadows.tooltip.2=  SÍ - mostrar ombres en las entitats
+options.entityShadows.tooltip.3=  NO - no mostrar ombres en les entitats
+
+of.options.VIGNETTE=Costats
+of.options.VIGNETTE.tooltip.1=(Efect vinyeta) enfosqueix les puntes de la pantalla
+of.options.VIGNETTE.tooltip.2=  Per defecte - depen de l'adjust de gràfics
+of.options.VIGNETTE.tooltip.3=  Ràpids - efecte vinyeta desactivat (més ràpid)
+of.options.VIGNETTE.tooltip.4=  Detallats - efecte vinyeta activat (més lent)
+of.options.VIGNETTE.tooltip.5= 
+of.options.VIGNETTE.tooltip.6=Els FPS poden disminuir considerablement al activar-se,
+of.options.VIGNETTE.tooltip.7=sobretot en pantalla completa.
+of.options.VIGNETTE.tooltip.8=L'efecto vinyeta es pot deshabilitar sense cap problema.
+
+of.options.DYNAMIC_FOV=Camp de visió dinàmic
+of.options.DYNAMIC_FOV.tooltip.1=Camp de visió dinàmic
+of.options.DYNAMIC_FOV.tooltip.2=  SÍ - activar-lo (per defecte)
+of.options.DYNAMIC_FOV.tooltip.3=  NO - desactivar-lo
+of.options.DYNAMIC_FOV.tooltip.4=
+of.options.DYNAMIC_FOV.tooltip.5=Cambiar el camp de visió (FOV) al volar, córrer o
+of.options.DYNAMIC_FOV.tooltip.6=apuntar amb un arc.
+
+of.options.DYNAMIC_LIGHTS=Ilum. dinàmica
+of.options.DYNAMIC_LIGHTS.tooltip.1=Iluminació dinàmica
+of.options.DYNAMIC_LIGHTS.tooltip.2=  NO - sense (per defecte)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Ràpids - bàsica (s'actualitza cada 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Detallats - perfecta (s'actualiza en temps real)
+of.options.DYNAMIC_LIGHTS.tooltip.5= 
+of.options.DYNAMIC_LIGHTS.tooltip.6=Permeteix a alguns objectes emetre llum sense estar colocats.
+of.options.DYNAMIC_LIGHTS.tooltip.7=Al equipar un d'aquests objectes en la mà, o al tirar-los,
+of.options.DYNAMIC_LIGHTS.tooltip.8=s'iluminarà l'entorn (afecta a: torxes, roca brillant...).
+
+options.biomeBlendRadius.tooltip.1=L'efecte suavitza els colors entre biomes
+options.biomeBlendRadius.tooltip.2=  NO - sense efecte de transició (més ràpid)
+options.biomeBlendRadius.tooltip.3=  5x5 - transició normal (per defecte)
+options.biomeBlendRadius.tooltip.4=  15x15 - transició detallada (més lent)
+options.biomeBlendRadius.tooltip.5=   
+options.biomeBlendRadius.tooltip.6=Els valors alts poden generar pics de lag
+options.biomeBlendRadius.tooltip.7=i reduir la velocitat de càrrega dels chunks.
+
+# Performance
+
+of.options.SMOOTH_FPS=Estabilitzar FPS
+of.options.SMOOTH_FPS.tooltip.1=Establitzar FPS nivellant el búfer del controlador gràfic
+of.options.SMOOTH_FPS.tooltip.2=  NO - sense estabilització
+of.options.SMOOTH_FPS.tooltip.3=  SÍ - amb estabilització
+of.options.SMOOTH_FPS.tooltip.4= 
+of.options.SMOOTH_FPS.tooltip.5=Aquesta opció depen del controlador gràfic i el seu efecte
+of.options.SMOOTH_FPS.tooltip.6=no sempre es notori.
+
+of.options.SMOOTH_WORLD=Estabilitzar móns
+of.options.SMOOTH_WORLD.tooltip.1=Eliminar els pics de lag causats pel servidor intern
+of.options.SMOOTH_WORLD.tooltip.2=  NO - sense estabilització
+of.options.SMOOTH_WORLD.tooltip.3=  SÍ - amb estabilització
+of.options.SMOOTH_WORLD.tooltip.4=
+of.options.SMOOTH_WORLD.tooltip.5=Aquesta opció estabilitza els FPS distribuint la càrrega
+of.options.SMOOTH_WORLD.tooltip.6=del servidor intern.
+of.options.SMOOTH_WORLD.tooltip.7=No funciona en multijugador.
+
+of.options.FAST_RENDER=Renderitzat ràpid
+of.options.FAST_RENDER.tooltip.1=Renderitzar ràpidament
+of.options.FAST_RENDER.tooltip.2= NO - renderitzat estàndar (per defect)
+of.options.FAST_RENDER.tooltip.3= SÍ - renderitzat optimitzat (ràpid)
+of.options.FAST_RENDER.tooltip.4=
+of.options.FAST_RENDER.tooltip.5=Utilitza un algoritme de renderitzat millorat que redueix el
+of.options.FAST_RENDER.tooltip.6=consum de GPU i augmenta els FPS.
+
+of.options.FAST_MATH=Càlculs ràpids
+of.options.FAST_MATH.tooltip.1=Càlculs ràpids
+of.options.FAST_MATH.tooltip.2= NO - estàndar (per defecte)
+of.options.FAST_MATH.tooltip.3= SÍ - sistema ràpid
+of.options.FAST_MATH.tooltip.4= 
+of.options.FAST_MATH.tooltip.5=Utilitzar les funcions sin() i cos() de Java de forma
+of.options.FAST_MATH.tooltip.6=optimitzada per a millorar l'ús de caché del CPU i
+of.options.FAST_MATH.tooltip.7=augmentar els FPS.
+
+of.options.CHUNK_UPDATES=Actualitzacions de chunks
+of.options.CHUNK_UPDATES.tooltip.1=Actualitzacions de chunks
+of.options.CHUNK_UPDATES.tooltip.2= 1 - càrrega lenta, més FPS (per defecte)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - càrrega ràpida, menys FPS
+of.options.CHUNK_UPDATES.tooltip.4= 5 - càrrega superràpida, molts menys FPS
+of.options.CHUNK_UPDATES.tooltip.5= 
+of.options.CHUNK_UPDATES.tooltip.6=Nombre de chunks renderitzats per cada fotograma.
+of.options.CHUNK_UPDATES.tooltip.7=Els valors més alts poden desestabilitzar els FPS.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Actualització dinàmica
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Actualitzacions de chunks dinàmiques
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= NO - (per defecte) càrrega normal per fotograma
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= SÍ - més actualitzacions mentres estiguis quiet
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=Aquesta opció força l'actualització de chunks mentres
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.6=estàs quiet per a carregar el món més ràpidament.
+
+of.options.LAZY_CHUNK_LOADING=Càrrega de chunks vaga
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Càrrega de chunks vaga
+of.options.LAZY_CHUNK_LOADING.tooltip.2= NO - càrrega de chunks predeterminada
+of.options.LAZY_CHUNK_LOADING.tooltip.3= SÍ - càrrega de chunks vaga (estabilitza la càrrega)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=
+of.options.LAZY_CHUNK_LOADING.tooltip.5=Suavitza la càrrega interna de chunks distribuint-la entre
+of.options.LAZY_CHUNK_LOADING.tooltip.6=diversos ticks. Desactíva'l si algunes parts del món no
+of.options.LAZY_CHUNK_LOADING.tooltip.7=es carreguen correctament.
+of.options.LAZY_CHUNK_LOADING.tooltip.8=Només funciona en móns locals amb CPUs d'un núcli.
+
+of.options.RENDER_REGIONS=Render. per regions
+of.options.RENDER_REGIONS.tooltip.1=Renderitzat per regions
+of.options.RENDER_REGIONS.tooltip.2= NO - no utilitzar renderitzat per regions (per defecte)
+of.options.RENDER_REGIONS.tooltip.3= SÍ - utilitzar renderitzat per regions
+of.options.RENDER_REGIONS.tooltip.4=    
+of.options.RENDER_REGIONS.tooltip.5=Permet renderitzar el terreny molt ràpidament
+of.options.RENDER_REGIONS.tooltip.6=quan et trobes a una gran altura.
+of.options.RENDER_REGIONS.tooltip.7=  
+of.options.RENDER_REGIONS.tooltip.8=És més efectiu si s'activa "Utilitzar VBOs" o "VBO".
+
+of.options.SMART_ANIMATIONS=Animacions intel·ligents
+of.options.SMART_ANIMATIONS.tooltip.1=Animacions intel·ligents
+of.options.SMART_ANIMATIONS.tooltip.2= NO - no utilitzar animacions intel·ligents (per defecte)
+of.options.SMART_ANIMATIONS.tooltip.3= SÍ - utilitzar animacions intel·ligents
+of.options.SMART_ANIMATIONS.tooltip.4=  
+of.options.SMART_ANIMATIONS.tooltip.5=Al activar-se, només s'animen les textures visibles.
+of.options.SMART_ANIMATIONS.tooltip.6=D'aquesta forma es millora molt el rendiment (més FPS).
+of.options.SMART_ANIMATIONS.tooltip.7=És molt útil quan s'utilitzen grans paquets de mods
+of.options.SMART_ANIMATIONS.tooltip.8=o paquets de recursos d'alta resolució.
+
+# Animations
+
+of.options.animation.allOn=TODO SÍ
+of.options.animation.allOff=TODO NO
+of.options.animation.dynamic=Dinàmiques
+
+of.options.ANIMATED_WATER=Aigua
+of.options.ANIMATED_LAVA=Lava
+of.options.ANIMATED_FIRE=Foc
+of.options.ANIMATED_PORTAL=Portals
+of.options.ANIMATED_REDSTONE=Pols de pedra vermella
+of.options.ANIMATED_EXPLOSION=Explosions
+of.options.ANIMATED_FLAME=Flamarades
+of.options.ANIMATED_SMOKE=Fum
+of.options.VOID_PARTICLES=Partícules del buit
+of.options.WATER_PARTICLES=Partícules de l'aigua
+of.options.RAIN_SPLASH=Salpicaduras de la pluja
+of.options.PORTAL_PARTICLES=Partícules de portals
+of.options.POTION_PARTICLES=Partícules de pocions
+of.options.DRIPPING_WATER_LAVA=Gotej d'aigua/lava
+of.options.ANIMATED_TERRAIN=Terreny animat
+of.options.ANIMATED_TEXTURES=Textures animades
+of.options.FIREWORK_PARTICLES=Partícules de cohets
+
+# Other
+
+of.options.LAGOMETER=Mesurador de lag
+of.options.LAGOMETER.tooltip.1=Mostrar el mesurador de lag al utilitzar F3.
+of.options.LAGOMETER.tooltip.2=* Taronja - Brossa en la memoria
+of.options.LAGOMETER.tooltip.3=* Cian - Ticks
+of.options.LAGOMETER.tooltip.4=* Blau - Executables programats
+of.options.LAGOMETER.tooltip.5=* Lila - Càrrega de chunks
+of.options.LAGOMETER.tooltip.6=* Vermell - Actualitzacions de chunks
+of.options.LAGOMETER.tooltip.7=* Groc - Chequej de visibilitat
+of.options.LAGOMETER.tooltip.8=* Verd - Terreny renderitzat
+
+of.options.PROFILER=Perfil debug
+of.options.PROFILER.tooltip.1=Debug (també anomenat depuració)
+of.options.PROFILER.tooltip.2=  SÍ - perfil debug activat, més lent
+of.options.PROFILER.tooltip.3=  NO - perfil debug desactivat, més ràpid
+of.options.PROFILER.tooltip.4=El perfil debug reuneix i mostra més dades
+of.options.PROFILER.tooltip.5=quan s'utilitza F3.
+
+of.options.WEATHER=Temps atmosfèric
+of.options.WEATHER.tooltip.1=  
+of.options.WEATHER.tooltip.2=  SÍ - temps atmosfèric, més lent
+of.options.WEATHER.tooltip.3=  NO - temps atmosfèric, més ràpid
+of.options.WEATHER.tooltip.4=  
+of.options.WEATHER.tooltip.5=Afecta a: pluja, neu i tempestes.
+of.options.WEATHER.tooltip.6=Aquesta opció no funciona en multijugador.
+
+of.options.time.dayOnly=Només dia
+of.options.time.nightOnly=Només nit
+
+of.options.TIME=Rellotge
+of.options.TIME.tooltip.1=Rellotge (temps)
+of.options.TIME.tooltip.2= Per defecte - ciclos normals de día/nit
+of.options.TIME.tooltip.3= Només día - només és de día
+of.options.TIME.tooltip.4= Només nit - només és de nit
+of.options.TIME.tooltip.5=Aquesta opció només funciona en mode creatiu i solament
+of.options.TIME.tooltip.6=en móns locals (en multijugador NO).
+
+options.fullscreen.tooltip.1=Pantalla completa
+options.fullscreen.tooltip.2=  SÍ - jugar en pantalla completa
+options.fullscreen.tooltip.3=  NO - jugar en finestra
+options.fullscreen.tooltip.4=Al jugar en pantalla completa el joc pot funcionar
+options.fullscreen.tooltip.5=millor o pitjor, depén de la targeta gràfica.
+
+of.options.FULLSCREEN_MODE=Resolució
+of.options.FULLSCREEN_MODE.tooltip.1=Resolució de pantalla completa
+of.options.FULLSCREEN_MODE.tooltip.2=  Per defecte - resolució del monitor, més lent
+of.options.FULLSCREEN_MODE.tooltip.3=  Ampli x alt - una altre resolució, pot anar més ràpid
+of.options.FULLSCREEN_MODE.tooltip.4=La resolució cambiarà en la pantalla completa (F11).
+of.options.FULLSCREEN_MODE.tooltip.5=Normalment les més baixes augmenten el rendiment.
+
+of.options.SHOW_FPS=Mostrar FPS
+of.options.SHOW_FPS.tooltip.1=Mostrar FPS i dades de renderitzat
+of.options.SHOW_FPS.tooltip.2=  C: - chunks renderitzats
+of.options.SHOW_FPS.tooltip.3=  E: - entitats renderitzades + "block entities"
+of.options.SHOW_FPS.tooltip.4=  U: - actualitzacions de chunks
+of.options.SHOW_FPS.tooltip.5=
+of.options.SHOW_FPS.tooltip.6=Aquestes dades redüides només es mostren quan no
+of.options.SHOW_FPS.tooltip.7=s'utilitza F3.
+
+of.options.save.default=Original (2s)
+of.options.save.20s=20s
+of.options.save.3min=3min
+of.options.save.30min=30min
+
+of.options.AUTOSAVE_TICKS=Autoguardat
+of.options.AUTOSAVE_TICKS.tooltip.1=Interval de l'autoguardat
+of.options.AUTOSAVE_TICKS.tooltip.2=L'original del joc (cada 2 seg.) NO ES RECOMANA.
+of.options.AUTOSAVE_TICKS.tooltip.3=Posar-lo cada poc temps pot causar mal rendiment.
+
+options.anaglyph.tooltip.1=Visió en 3D
+
+of.options.SCREENSHOT_SIZE=Captures
+of.options.SCREENSHOT_SIZE.tooltip.1=Tamany de les captures de pantalla
+of.options.SCREENSHOT_SIZE.tooltip.2=  Per defecte - tamany normal
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tamanys personalitzats
+of.options.SCREENSHOT_SIZE.tooltip.4=  
+of.options.SCREENSHOT_SIZE.tooltip.5=Les captures ocuparàn més espai al augmentar el tamany.
+of.options.SCREENSHOT_SIZE.tooltip.6=No és compatible amb Renderitzat ràpido ni amb Antialiàsing.
+of.options.SCREENSHOT_SIZE.tooltip.7=Requereix que la teva targeta gràfica suporti Framebuffer.
+
+of.options.ADVANCED_TOOLTIPS=Descripcions d'objectes
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Descripcions d'objetos en l'inventari
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  SÍ - mostrar descripcions 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  NO - no mostrar descripcions (per defecte)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=  
+of.options.ADVANCED_TOOLTIPS.tooltip.5=Aquesta opció permet veure informació més detallada sobre
+of.options.ADVANCED_TOOLTIPS.tooltip.6=objectes (ID, durabilitat) i shaders (ID, font,
+of.options.ADVANCED_TOOLTIPS.tooltip.7=valor predeterminat).
+
+of.options.SHOW_GL_ERRORS=Mostrar errors de GL
+of.options.SHOW_GL_ERRORS.tooltip.1=Mostrar errors d'OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.2=Al activar-se, els errors es mostren en el chat.
+of.options.SHOW_GL_ERRORS.tooltip.3=Desactíva-ho si hi ha un problema irresoluble per a
+of.options.SHOW_GL_ERRORS.tooltip.4=que els errors no et molestin.
+of.options.SHOW_GL_ERRORS.tooltip.5=    
+of.options.SHOW_GL_ERRORS.tooltip.6=Encara que es desactivi, els errors segueixen apareixen en
+of.options.SHOW_GL_ERRORS.tooltip.7=el registre (log) i poden seguir causant FPS inestables.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Fons de chat
+of.options.CHAT_BACKGROUND.tooltip.1=Fons de chat
+of.options.CHAT_BACKGROUND.tooltip.2=  Per defecte - el fons apareix amb un tamany estàtic
+of.options.CHAT_BACKGROUND.tooltip.3=  Compacte - el fons apareix amb un tamany adaptat al text
+of.options.CHAT_BACKGROUND.tooltip.4=  NO - sense fons
+
+of.options.CHAT_SHADOW=Sombrejat de chat
+of.options.CHAT_SHADOW.tooltip.1=Afegir ombra al text del chat
+of.options.CHAT_SHADOW.tooltip.2=  SÍ - ombrejar-lo
+of.options.CHAT_SHADOW.tooltip.3=  NO - sense ombrejar-lo
