@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2019-10-06
+#   Regnander (_Spitz) 2016-01-18 ---- 2020-07-29
 
 # General
 of.general.ambiguous=tvetydig
@@ -35,6 +35,9 @@ of.message.shaders.af2=Ändra "Kvalitet -> Anisotropisk filtrering" till AV.
 
 of.message.shaders.fr1=Shaders är inte kompatibla med Snabb rendering.
 of.message.shaders.fr2=Ändra "Prestanda -> Snabb rendering" till AV.
+
+of.message.shaders.gf1=Shaders är inte kompatibla med grafikalternativet Fabulöst.
+of.message.shaders.gf2=Ändra "Grafik" till Snabbt eller Snyggt.
 
 of.message.shaders.an1=Shaders är inte kompatibla med 3D-effekt.
 of.message.shaders.an2=Ändra "Övrigt -> 3D-effekt" till AV.
@@ -73,8 +76,10 @@ of.message.capeOF.error2=Fel: %s
 options.graphics.tooltip.1=Visuell kvalitet
 options.graphics.tooltip.2=  Snabbt - lägre kvalitet, snabbare
 options.graphics.tooltip.3=  Snyggt - högre kvalitet, långsammare
-options.graphics.tooltip.4=Ändrar utseendet för moln, löv, vatten, skuggor och
-options.graphics.tooltip.5=gräskanter.
+options.graphics.tooltip.4=  Fabulöst - bättre objektgenomskinlighet, långsammast
+options.graphics.tooltip.5=Ändrar utseendet för moln, löv, vatten, skuggor och
+options.graphics.tooltip.6=gräskanter.
+options.graphics.tooltip.7=Alternativet "Fabulöst" är inte kompatibelt med shaders.
 
 of.options.renderDistance.tiny=Litet
 of.options.renderDistance.short=Kort
@@ -93,6 +98,12 @@ options.renderDistance.tooltip.6=  48 Galet - 768m, behöver 2GB allokerat RAM
 options.renderDistance.tooltip.7=  64 Löjligt - 1024m, behöver 3GB allokerat RAM
 options.renderDistance.tooltip.8=Värden över 16 fungerar endast i lokala världar.
 
+options.entityDistanceScaling.tooltip.1=Entitetsavstånd
+options.entityDistanceScaling.tooltip.2=  50 %% - snabbare
+options.entityDistanceScaling.tooltip.3=  100 %% - standard
+options.entityDistanceScaling.tooltip.4=  500 %% - långsammare
+options.entityDistanceScaling.tooltip.5=Ändrar hur långt bort man kan se entiteter.
+
 options.ao.tooltip.1=Ljusutjämning
 options.ao.tooltip.2=  AV - ingen ljusutjämning (snabbast)
 options.ao.tooltip.3=  Minimum - enkel ljusutjämning (långsammare)
@@ -109,8 +120,8 @@ of.options.framerateLimit.vsync=VSync
 of.options.AO_LEVEL=Ljusutjämningsnivå
 of.options.AO_LEVEL.tooltip.1=Ljusutjämningsnivå
 of.options.AO_LEVEL.tooltip.2=  AV - inga skuggor
-of.options.AO_LEVEL.tooltip.3=  50%% - ljusa skuggor
-of.options.AO_LEVEL.tooltip.4=  100%% - mörka skuggor
+of.options.AO_LEVEL.tooltip.3=  50 %% - ljusa skuggor
+of.options.AO_LEVEL.tooltip.4=  100 %% - mörka skuggor
 
 options.viewBobbing.tooltip.1=Mer verklighetstrogna rörelser.
 options.viewBobbing.tooltip.2=Inaktivera detta om mipmaps används för bästa resultat.
@@ -125,11 +136,11 @@ options.guiScale.tooltip.6=Ett mindre gränssnitt kan vara snabbare.
 options.vbo=Använd VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Använder en alternativ renderingsmodell som vanligtvis
-options.vbo.tooltip.3=är snabbare (5-10%%) än standardrenderingen.
+options.vbo.tooltip.3=är snabbare (5-10 %%) än standardrenderingen.
 
 options.gamma.tooltip.1=Ändrar ljusstyrkan för mörkare objekt.
 options.gamma.tooltip.2=  Mörkt - standardljusstyrka
-options.gamma.tooltip.3=  1-99%% - variabel
+options.gamma.tooltip.3=  1-99 %% - variabel
 options.gamma.tooltip.4=  Ljust - maximal ljusstyrka för mörkare objekt
 options.gamma.tooltip.5=Detta alternativ ändrar inte ljusstyrkan för helt svarta 
 options.gamma.tooltip.6=objekt.
@@ -189,8 +200,8 @@ of.options.shaders.ANTIALIASING.tooltip.2=  AV - (standard) ingen kantutjämning
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - utjämnade linjer och kanter (långsammare)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA är en efterbehandlingseffekt som jämnar ut
 of.options.shaders.ANTIALIASING.tooltip.5=taggiga linjer och skarpa färgskiftningar.
-of.options.shaders.ANTIALIASING.tooltip.6=Den är snabbare än den traditionella kantutjämningen
-of.options.shaders.ANTIALIASING.tooltip.7=samt är kompatibel med shaders och Snabb rendering.
+of.options.shaders.ANTIALIASING.tooltip.6=Detta är snabbare än den traditionella kantutjämningen
+of.options.shaders.ANTIALIASING.tooltip.7=samt är kompatibel med shaders.
 
 of.options.shaders.NORMAL_MAP=Normal map
 of.options.shaders.NORMAL_MAP.tooltip.1=Normal map
@@ -405,7 +416,7 @@ of.options.NATURAL_TEXTURES.tooltip.2=  AV - inga naturliga texturer (standard)
 of.options.NATURAL_TEXTURES.tooltip.3=  PÅ - använd naturliga texturer
 of.options.NATURAL_TEXTURES.tooltip.4=Naturliga texturer tar bort rutnätsliknande mönster som
 of.options.NATURAL_TEXTURES.tooltip.5=skapas från upprepade block av samma typ.
-of.options.NATURAL_TEXTURES.tooltip.6=Den använder roterade och speglade varianter av den
+of.options.NATURAL_TEXTURES.tooltip.6=Detta använder roterade och speglade varianter av den
 of.options.NATURAL_TEXTURES.tooltip.7=ursprungliga blocktexturen. Konfigurationen för naturliga
 of.options.NATURAL_TEXTURES.tooltip.8=texturer tillhandahålls av det aktuella resurspaketet.
 
@@ -461,7 +472,7 @@ of.options.CLOUDS.tooltip.7=Snygga moln renderas i 3D.
 of.options.CLOUD_HEIGHT=Molnhöjd
 of.options.CLOUD_HEIGHT.tooltip.1=Molnhöjd
 of.options.CLOUD_HEIGHT.tooltip.2=  AV - standardhöjd
-of.options.CLOUD_HEIGHT.tooltip.3=  100%% - ovanför världens höjdgräns
+of.options.CLOUD_HEIGHT.tooltip.3=  100 %% - ovanför världens höjdgräns
 
 of.options.TREES=Träd
 of.options.TREES.tooltip.1=Träd
@@ -590,8 +601,8 @@ of.options.FAST_RENDER.tooltip.1=Snabb rendering
 of.options.FAST_RENDER.tooltip.2=  AV - standardrendering (standard)
 of.options.FAST_RENDER.tooltip.3=  PÅ - optimerad rendering (snabbare)
 of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som sänker
-of.options.FAST_RENDER.tooltip.5=grafikprocessorns läsninghastighet och kan höja
-of.options.FAST_RENDER.tooltip.6=bildfrekvensen avsevärt.
+of.options.FAST_RENDER.tooltip.5=processorns läsninghastighet och kan höja bild-
+of.options.FAST_RENDER.tooltip.6=frekvensen avsevärt.
 of.options.FAST_RENDER.tooltip.7=Detta alternativ kan skapa en konflikt med andra moddar.
 
 of.options.FAST_MATH=Snabb matematik
@@ -695,7 +706,7 @@ of.options.WEATHER=Väder
 of.options.WEATHER.tooltip.1=Väder
 of.options.WEATHER.tooltip.2=  PÅ - väder är aktiverat, långsammare
 of.options.WEATHER.tooltip.3=  AV - väder är inaktiverat, snabbare
-of.options.WEATHER.tooltip.4=Denna inställning omfattar regn, snö och åska.
+of.options.WEATHER.tooltip.4=Kontrollerar regn, snö och åska.
 of.options.WEATHER.tooltip.5=Detta fungerar bara i lokala världar.
 
 of.options.time.dayOnly=Endast dag
@@ -750,7 +761,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Storlek på skärmdump
 of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek på skärmdumpar
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek på skärmdumpar
 of.options.SCREENSHOT_SIZE.tooltip.4=Större skärmdumpar kan kräva mer minne.
-of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibelt med Snabb rendering och Kantutjämning.
+of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibel med Kantutjämning.
 of.options.SCREENSHOT_SIZE.tooltip.6=Kräver att grafikprocessorn har stöd för framebuffer.
 
 of.options.SHOW_GL_ERRORS=Visa OpenGL-fel
