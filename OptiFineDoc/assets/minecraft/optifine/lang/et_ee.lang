@@ -33,6 +33,9 @@ of.message.shaders.af2=Palun lülita Kvaliteet -> Anisotroopiline filtr. VÄLJA.
 of.message.shaders.fr1=Varjutajad ei ühildu kiire renderdusega.
 of.message.shaders.fr2=Palun lülita Jõudlus -> Kiire renderdus VÄLJA.
 
+of.message.shaders.gf1=Varjutajad ei ühildu vapustava graafikaga.
+of.message.shaders.gf2=Palun määra Graafika kiireks või uhkeks.
+
 of.message.shaders.an1=Varjutajad ei ühildu 3D-anaglüüfiga.
 of.message.shaders.an2=Palun lülita Muu -> 3D-anaglüüf VÄLJA.
 
@@ -70,8 +73,10 @@ of.message.capeOF.error2=Viga: %s
 options.graphics.tooltip.1=Visuaalne kvaliteet
 options.graphics.tooltip.2=  Kiire - madalam kvaliteet, kiirem
 options.graphics.tooltip.3=  Uhke - kõrgem kvaliteet, aeglasem
-options.graphics.tooltip.4=Muudab pilvede, lehtede, vee, varjude ja muru külgede
-options.graphics.tooltip.5=välimust.
+options.graphics.tooltip.4=  Vapustav! - paremad läbipaistvad objektid, aeglaseim
+options.graphics.tooltip.5=Muudab pilvede, lehtede, vee, varjude ja muru külgede
+options.graphics.tooltip.6=välimust.
+options.graphics.tooltip.7=Vapustav graafika ei ühildu varjutajatega.
 
 of.options.renderDistance.tiny=pisike
 of.options.renderDistance.short=lühike
@@ -89,6 +94,12 @@ options.renderDistance.tooltip.5=  32 ekstreemne - 512m (aeglaseim!) väga ressu
 options.renderDistance.tooltip.6=  48 hullumeelne - 768m, vajab 2 GB RAMi allutamist
 options.renderDistance.tooltip.7=  64 naeruväärne - 1024m, vajab 3 GB RAMi allutamist
 options.renderDistance.tooltip.8=Väärtused üle "16 kauge" toimivad ainult kohalikes maailmades.
+
+options.entityDistanceScaling.tooltip.1=Olemite renderduskaugus
+options.entityDistanceScaling.tooltip.2=  50%% - kiirem
+options.entityDistanceScaling.tooltip.3=  100%% - vaikimisi
+options.entityDistanceScaling.tooltip.4=  500%% - aeglasem
+options.entityDistanceScaling.tooltip.5=Määrab maksimaalse kauguse, millelt olemeid kuvatakse.
 
 options.ao.tooltip.1=Sujuv valgustus
 options.ao.tooltip.2=  VÄLJAS - sujuv valgustus puudub (kiirem)
@@ -189,7 +200,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - silutud jooned ja ää
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA on järeltöötluse efekt, mis silub
 of.options.shaders.ANTIALIASING.tooltip.5=sakilised jooned ja teravad värviüleminekud.
 of.options.shaders.ANTIALIASING.tooltip.6=See on traditsioonilisest sakisilumisest kiirem
-of.options.shaders.ANTIALIASING.tooltip.7=ning ühildub nii varjutajate kui ka kiire renderdusega.
+of.options.shaders.ANTIALIASING.tooltip.7=ning ühildub ka varjutajatega.
 
 of.options.shaders.NORMAL_MAP=Tavaline kaart
 of.options.shaders.NORMAL_MAP.tooltip.1=Tavaline kaart
@@ -585,7 +596,7 @@ of.options.FAST_RENDER.tooltip.1=Kiire renderdus
 of.options.FAST_RENDER.tooltip.2= VÄLJAS - standardne renderdus (vaikimisi)
 of.options.FAST_RENDER.tooltip.3= SEES - optimeeritud renderdus (kiirem)
 of.options.FAST_RENDER.tooltip.4=Kasutab optimeeritud renderduse algoritmi, mis vähendab
-of.options.FAST_RENDER.tooltip.5=graafikaprotsessori koormust ja võib oluliselt tõsta ks.
+of.options.FAST_RENDER.tooltip.5=protsessori koormust ja võib kaadrisagedust oluliselt tõsta.
 of.options.FAST_RENDER.tooltip.6=See valik võib sattuda konflikti teatud modidega.
 
 of.options.FAST_MATH=Kiire matemaatika
@@ -738,7 +749,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.2=  Vaikimisi - vaikimisi kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - kohandatud kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.4=Suurema kuvatõmmise loomine võib vajada rohkem mälu.
-of.options.SCREENSHOT_SIZE.tooltip.5=Ei ühildu kiire renderduse ega sakisilumisega.
+of.options.SCREENSHOT_SIZE.tooltip.5=Ei ühildu sakisilumisega.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vajab graafikakaardil kaadripuhvri tuge.
 
 of.options.SHOW_GL_ERRORS=OpenGL'i vead
