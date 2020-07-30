@@ -608,7 +608,7 @@ of.options.FAST_MATH.tooltip.1=Швидка математика
 of.options.FAST_MATH.tooltip.2= Вимк - стандартна математика(базово)
 of.options.FAST_MATH.tooltip.3= Увімк - швидша математика
 of.options.FAST_MATH.tooltip.4=Використовує оптимізовані функції sin() і cos(), що може краще
-of.options.FAST_MATH.tooltip.5=утилізувати  кеш, і збільшити FPS.
+of.options.FAST_MATH.tooltip.5=утилізувати кеш і збільшити FPS.
 of.options.FAST_MATH.tooltip.6=Ця опція може мати мінімальний вплив на генерацію світу.
 
 of.options.CHUNK_UPDATES=Оновлення чанків
