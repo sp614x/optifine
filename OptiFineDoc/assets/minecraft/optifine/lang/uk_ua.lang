@@ -149,7 +149,7 @@ options.gamma.tooltip.5=Ця опція не змінює яскравість
 options.gamma.tooltip.6=повністю чорних об'єктів
 
 options.anaglyph.tooltip.1=3D анагліф
-options.anaglyph.tooltip.2=Вмикає стереоскопічний 3D-ефект використовуючи різні кольори
+options.anaglyph.tooltip.2=Вмикає стереоскопічний 3D-ефект, використовуючи різні кольори
 options.anaglyph.tooltip.3=для кожного ока.
 options.anaglyph.tooltip.4=Потребує червоно-сині окуляри для перегляду.
 
@@ -181,7 +181,7 @@ of.options.FOG_START.tooltip.4=Ця опція зазвичай не зменш�
 
 of.options.CHUNK_LOADING=Завантаження чанків
 of.options.CHUNK_LOADING.tooltip.1=Завантаження чанків
-of.options.CHUNK_LOADING.tooltip.2=  Базове - нестабільний FPS коли завантажується чанк
+of.options.CHUNK_LOADING.tooltip.2=  Базове - нестабільний FPS, коли завантажується чанк
 of.options.CHUNK_LOADING.tooltip.3=  Згладжене - стабільний FPS
 of.options.CHUNK_LOADING.tooltip.4=  Багатоядерне - стабільний FPS, 3x швидше завантаження світу
 of.options.CHUNK_LOADING.tooltip.5=Згладжене і Багатоядерне видаляють заїкання та
@@ -210,7 +210,7 @@ of.options.shaders.NORMAL_MAP=Нормальна мапа
 of.options.shaders.NORMAL_MAP.tooltip.1=Нормальна мапа
 of.options.shaders.NORMAL_MAP.tooltip.2=  Увімк - (базово) дозволити нормальні мапи 
 of.options.shaders.NORMAL_MAP.tooltip.3=  Вимк - вимкнути нормальні мапи
-of.options.shaders.NORMAL_MAP.tooltip.4=Шейдер використовує нормальні мапи
+of.options.shaders.NORMAL_MAP.tooltip.4=Шейдер використовує нормальні мапи,
 of.options.shaders.NORMAL_MAP.tooltip.5=щоб симулювати 3D геометрію на плоских моделях.
 of.options.shaders.NORMAL_MAP.tooltip.6=Нормальна мапа встановлюється
 of.options.shaders.NORMAL_MAP.tooltip.7=обраним шейдером.
@@ -219,7 +219,7 @@ of.options.shaders.SPECULAR_MAP=Дзеркальна мапа
 of.options.shaders.SPECULAR_MAP.tooltip.1=Дзеркальна мапа
 of.options.shaders.SPECULAR_MAP.tooltip.2=  Увімк - (базово) увімкнути дзеркальні мапи
 of.options.shaders.SPECULAR_MAP.tooltip.3=  Вимк - вимкнути дзеркальні мапи
-of.options.shaders.SPECULAR_MAP.tooltip.4=Шейдер використовує дзеркальні мапи
+of.options.shaders.SPECULAR_MAP.tooltip.4=Шейдер використовує дзеркальні мапи,
 of.options.shaders.SPECULAR_MAP.tooltip.5=щоб симулювати віддзеркалення.
 of.options.shaders.SPECULAR_MAP.tooltip.6=Дзеркальна мапа встановлюється
 of.options.shaders.SPECULAR_MAP.tooltip.7=обраним шейдером.
@@ -240,7 +240,7 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - низька (швидка)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - стандартна (базова)
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - висока (повільна)
 of.options.shaders.SHADOW_RES_MUL.tooltip.5=Якість тіней контролює розмір текстури
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=тіней яку використовує шейдер.
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=тіней, яку використовує шейдер.
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Низька якість = неточні, грубі тіні.
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Висока якість = точні, красиві тіні.
 
@@ -249,7 +249,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Глибина руки
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - рука коло камери
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (базово)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - рука далеко від камери
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Глибина руки контролює наскільки далеко
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Глибина руки контролює, наскільки далеко
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=знаходяться предмети в руці від камери.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Для шейдерів з глибоким розмиттям це змінить
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=розмиття предметів в руці.
@@ -337,7 +337,7 @@ of.options.AA_LEVEL.tooltip.2= Вимк - (базове) без згладжув
 of.options.AA_LEVEL.tooltip.3= 2-16 - згладжує лінії та границі (повільніше)
 of.options.AA_LEVEL.tooltip.4=Згладжування розмиває зазубрені границі й 
 of.options.AA_LEVEL.tooltip.5=гострі зміни кольору.
-of.options.AA_LEVEL.tooltip.6=Коли увімкнуто, то по суті зменшує FPS.
+of.options.AA_LEVEL.tooltip.6=Коли увімкнено, тоді, по суті, зменшує FPS.
 of.options.AA_LEVEL.tooltip.7=Не всі рівні підтримуються різними відеокартами.
 of.options.AA_LEVEL.tooltip.8=Ефективне після ПЕРЕЗАПУСКУ!
 
@@ -347,7 +347,7 @@ of.options.AF_LEVEL.tooltip.2= Вимк - (базово) стандартна д
 of.options.AF_LEVEL.tooltip.3= 2-16 - кращі деталі в Міпмап текстурах (повільніше)
 of.options.AF_LEVEL.tooltip.4=Анізотропна фільтрація відновлює деталі в
 of.options.AF_LEVEL.tooltip.5=Міпмап текстурах.
-of.options.AF_LEVEL.tooltip.6=Коли ввімкнуто, зменшує FPS.
+of.options.AF_LEVEL.tooltip.6=Коли ввімкнено, зменшує FPS.
 
 of.options.CLEAR_WATER=Чиста вода
 of.options.CLEAR_WATER.tooltip.1=Чиста вода
@@ -396,11 +396,11 @@ of.options.SWAMP_COLORS.tooltip.4=Кольори болота впливають
 
 of.options.SMOOTH_BIOMES=Плавні біоми
 of.options.SMOOTH_BIOMES.tooltip.1=Плавні біоми
-of.options.SMOOTH_BIOMES.tooltip.2=  Увімк - згладжування границі біомів (базово), повільніше
+of.options.SMOOTH_BIOMES.tooltip.2=  Увімк - згладжування границь біомів (базово), повільніше
 of.options.SMOOTH_BIOMES.tooltip.3=  Вимк - без згладжування границь біомів, швидше
-of.options.SMOOTH_BIOMES.tooltip.4=Згладжування зміняє кольори декількох блоків на границі
-of.options.SMOOTH_BIOMES.tooltip.5=щоб зменшити різку зміну кольорів.
-of.options.SMOOTH_BIOMES.tooltip.6=Впливає на траву, листя, воду і ліани.
+of.options.SMOOTH_BIOMES.tooltip.4=Згладжування границь біомів здійснюється шляхом відбору і
+of.options.SMOOTH_BIOMES.tooltip.5=усереднення кольорів усіх навколишніх блоків.
+of.options.SMOOTH_BIOMES.tooltip.6=Впливає на траву, листя, ліани і воду.
 
 of.options.CONNECTED_TEXTURES=З'єднані текстури
 of.options.CONNECTED_TEXTURES.tooltip.1=З'єднані текстури
@@ -427,7 +427,7 @@ of.options.EMISSIVE_TEXTURES.tooltip.1=Випромінювальні текст
 of.options.EMISSIVE_TEXTURES.tooltip.2=  Увімк - використання випромінювальних текстур
 of.options.EMISSIVE_TEXTURES.tooltip.3=  Вимк - без випромінювальних текстур
 of.options.EMISSIVE_TEXTURES.tooltip.4=Випромінюючі текстури завжди відображаються з повною яскравістю.
-of.options.EMISSIVE_TEXTURES.tooltip.5=Їх можно використовувати для імітації випромінювання світла
+of.options.EMISSIVE_TEXTURES.tooltip.5=Їх можна використовувати для імітації випромінювання світла
 of.options.EMISSIVE_TEXTURES.tooltip.6=частинами основної текстури.
 of.options.EMISSIVE_TEXTURES.tooltip.7=Додається обраним пакетом ресурсів.
 of.options.EMISSIVE_TEXTURES.tooltip.8=
@@ -490,7 +490,7 @@ of.options.RAIN.tooltip.2=  Стандартні - як в налаштуван�
 of.options.RAIN.tooltip.3=  Швидкі - нижча якість, швидше
 of.options.RAIN.tooltip.4=  Красиві - важкий дощ/сніг, повільніше
 of.options.RAIN.tooltip.5=  Вимк - без дощу/снігу, найшвидше
-of.options.RAIN.tooltip.6=Коли дощ вимкнено звуки крапель залишатимуться
+of.options.RAIN.tooltip.6=Коли дощ вимкнено, звуки крапель залишатимуться
 of.options.RAIN.tooltip.7=
 
 of.options.SKY=Небо
@@ -520,7 +520,7 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Стандартне - як в нал�
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Красива - правильне змішування кольорів (повільніше)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Швидка - швидше змішування кольорів (швидше)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Контролює змішування кольорів напівпрозорих блоків
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=з різним кольором (скло, вода, лід)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=з різним кольором (скло, вода, лід),
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=коли між ними є повітря.
 
 of.options.HELD_ITEM_TOOLTIPS=Спливаючі підказки
@@ -533,7 +533,7 @@ of.options.ADVANCED_TOOLTIPS.tooltip.1=Розширені підказки що 
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  Увімк - показувати розширені підказки 
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  Вимк - не показувати розширені підказки (базово)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Розширені підказки показують більше інформації про
-of.options.ADVANCED_TOOLTIPS.tooltip.5=речі (id, міцність) і для налаштування шейдерів
+of.options.ADVANCED_TOOLTIPS.tooltip.5=речі (id, міцність) і налаштування шейдерів
 of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, джерело, стандартне значення)
 
 of.options.DROPPED_ITEMS=Викинуті речі
@@ -553,13 +553,13 @@ of.options.VIGNETTE.tooltip.3=  Швидка - віньєтка вимкнена
 of.options.VIGNETTE.tooltip.4=  Красива - віньєтка увімкнена (повільніше)
 of.options.VIGNETTE.tooltip.5=Віньєтка може зробити істотний вплив на FPS,
 of.options.VIGNETTE.tooltip.6=особливо при грі у повноекранному режимі.
-of.options.VIGNETTE.tooltip.7=Ефект не дуже важливий і легко
-of.options.VIGNETTE.tooltip.8=може бути вимкненим
+of.options.VIGNETTE.tooltip.7=Ефект віньєтки не дуже важливий і його можна спокійно
+of.options.VIGNETTE.tooltip.8=відключити
 
 of.options.DYNAMIC_FOV=Динамічний FOV
 of.options.DYNAMIC_FOV.tooltip.1=Динамічний FOV
-of.options.DYNAMIC_FOV.tooltip.2=  Увімк - динамічний FOV увімкнуто(базово)
-of.options.DYNAMIC_FOV.tooltip.3=  Вимк - динамічний FOV вимкнуто
+of.options.DYNAMIC_FOV.tooltip.2=  Увімк - динамічний FOV увімкнено(базово)
+of.options.DYNAMIC_FOV.tooltip.3=  Вимк - динамічний FOV вимкнено
 of.options.DYNAMIC_FOV.tooltip.4=Змінює поле зору (FOV) коли літаємо, біжимо 
 of.options.DYNAMIC_FOV.tooltip.5=чи натягуємо лук.
 
@@ -623,17 +623,17 @@ of.options.CHUNK_UPDATES_DYNAMIC=Динамічні оновлення
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Динамічні оновлення чанків
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Вимк - стандартне оновлення чанків за кадр (базово)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Увімк - більше оновлень коли гравець стоїть
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Динамічні оновлення змушують виконувати більше оновлень чанків
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=коли гравець стоїть, світ завантажується швидше.
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Динамічні оновлення змушують виконувати більше оновлень чанків,
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=коли гравець стоїть, щоб світ завантажувався швидше.
 
 of.options.LAZY_CHUNK_LOADING=Ліниві чанки
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Ліниве завантаження чанків
 of.options.LAZY_CHUNK_LOADING.tooltip.2= Вимк - базове серверне завантаження чанків
 of.options.LAZY_CHUNK_LOADING.tooltip.3= Увімк - ліниве завантаження серверних чанків (плавніше)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Згладжує завантаження чанків вбудований сервером
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Згладжує завантаження чанків вбудованим сервером,
 of.options.LAZY_CHUNK_LOADING.tooltip.5=розподіляючи чанки на декілька тіків.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Вимкніть це якщо деякі частини світу не завантажуються правильно.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Ефективно тільки для локальних світів і одноядерних процесорів.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Ефективно тільки для локальних світів.
 
 of.options.RENDER_REGIONS=Рендер регіонів
 of.options.RENDER_REGIONS.tooltip.1=Рендер регіонів
@@ -647,7 +647,7 @@ of.options.SMART_ANIMATIONS=Розумна анімація
 of.options.SMART_ANIMATIONS.tooltip.1=Розумна анімація
 of.options.SMART_ANIMATIONS.tooltip.2= Вимк - не використовувати розумну анімацію (базово)
 of.options.SMART_ANIMATIONS.tooltip.3= Увімк - використовувати розумну анімацію
-of.options.SMART_ANIMATIONS.tooltip.4=З розумною анімацією, гра буде анімувати лише
+of.options.SMART_ANIMATIONS.tooltip.4=З розумною анімацією гра буде анімувати лише
 of.options.SMART_ANIMATIONS.tooltip.5=текстури, які видимі на екрані.
 of.options.SMART_ANIMATIONS.tooltip.6=Це зменшує лаги і покращує FPS.
 of.options.SMART_ANIMATIONS.tooltip.7=Особливо корисно для великих модпаків та HD ресурспаків.
@@ -690,8 +690,8 @@ of.options.LAGOMETER.tooltip.8=* Зелений - Рендеринг місце�
 
 of.options.PROFILER=Профіль відладки
 of.options.PROFILER.tooltip.1=Профіль відладки
-of.options.PROFILER.tooltip.2=  Увімк - профіль відладки увімкнуто (повільніше)
-of.options.PROFILER.tooltip.3=  Вимк - профіль відладки вимкнуто (швидше)
+of.options.PROFILER.tooltip.2=  Увімк - профіль відладки увімнено (повільніше)
+of.options.PROFILER.tooltip.3=  Вимк - профіль відладки вимкнено (швидше)
 of.options.PROFILER.tooltip.4=Профіль відладки збирає інформацію і показує її на
 of.options.PROFILER.tooltip.5=екрані відладки (F3)
 
@@ -700,7 +700,7 @@ of.options.WEATHER.tooltip.1=Погода
 of.options.WEATHER.tooltip.2=  Увімк - погода активна, повільніше
 of.options.WEATHER.tooltip.3=  Вимк - погода не активна, швидше
 of.options.WEATHER.tooltip.4=Погода контролює дощі, грози і сніг.
-of.options.WEATHER.tooltip.5=Працює лиш в ОДИНОЧНИХ СВІТАХ.
+of.options.WEATHER.tooltip.5=Працює лише в ОДИНОЧНИХ СВІТАХ.
 
 of.options.time.dayOnly=Тільки день
 of.options.time.nightOnly=Тільки ніч
@@ -710,7 +710,7 @@ of.options.TIME.tooltip.1=Час
 of.options.TIME.tooltip.2= Стандартне - стандартний день
 of.options.TIME.tooltip.3= Тільки день - тільки день
 of.options.TIME.tooltip.4= Тільки ніч - тільки ніч
-of.options.TIME.tooltip.5=Встановлення часу працює лиш для гравців у
+of.options.TIME.tooltip.5=Встановлення часу працює лише для гравців у
 of.options.TIME.tooltip.6=КРЕАТИВІ та у локальних світах.
 
 options.fullscreen.tooltip.1=Повноекранний режим
@@ -732,7 +732,7 @@ of.options.SHOW_FPS.tooltip.2=  Fps - середній/мінімальний
 of.options.SHOW_FPS.tooltip.3=  C: - чанків відображається
 of.options.SHOW_FPS.tooltip.4=  E: - сутностей в рендері + блоковано сутностей
 of.options.SHOW_FPS.tooltip.5=  U: - чанків оновлюється
-of.options.SHOW_FPS.tooltip.6=Компактний FPS показується лиш коли
+of.options.SHOW_FPS.tooltip.6=Компактний FPS показується лише коли
 of.options.SHOW_FPS.tooltip.7=екран відладки вимкнено.
 
 of.options.save.45s=45с
