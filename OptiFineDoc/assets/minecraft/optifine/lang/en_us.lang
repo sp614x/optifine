@@ -324,7 +324,6 @@ of.options.MIPMAP_TYPE.tooltip.4=  Linear - normal smoothing
 of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - fine smoothing
 of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - finest smoothing (slowest)
 
-
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing
 of.options.AA_LEVEL.tooltip.2= OFF - (default) no antialiasing (faster)
