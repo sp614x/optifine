@@ -630,11 +630,11 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=corretamente. Disponível apenas em mund
 
 of.options.RENDER_REGIONS=Render. de regiões
 of.options.RENDER_REGIONS.tooltip.1=Renderização de regiões
-of.options.RENDER_REGIONS.tooltip.2= Não - (padrão) desativar renderização de regiões
-of.options.RENDER_REGIONS.tooltip.3= Sim - ativar renderização de regiões
-of.options.RENDER_REGIONS.tooltip.4=Renderiza terrenos distantes mais rapidamente.
-of.options.RENDER_REGIONS.tooltip.5=Ative o VBO para melhores resultados.
-of.options.RENDER_REGIONS.tooltip.6=Não recomendado com placas de vídeo integradas.
+of.options.RENDER_REGIONS.tooltip.2= Não - renderização padrão
+of.options.RENDER_REGIONS.tooltip.3= Sim - renderização mais rápida
+of.options.RENDER_REGIONS.tooltip.4=Acelera a renderização de terrenos ao otimizar
+of.options.RENDER_REGIONS.tooltip.5=a GPU. Funciona melhor em distâncias mais longas.
+of.options.RENDER_REGIONS.tooltip.6=Não recomendada com placas de vídeo integradas.
 
 of.options.SMART_ANIMATIONS=Animações intel.
 of.options.SMART_ANIMATIONS.tooltip.1=Animações inteligentes
