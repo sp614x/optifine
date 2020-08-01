@@ -633,16 +633,16 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Toimii vain paikallisissa maailmoissa (y
 
 of.options.RENDER_REGIONS=Piirrä alueet
 of.options.RENDER_REGIONS.tooltip.1=Piirrä alueet
-of.options.RENDER_REGIONS.tooltip.2= Pois - älä käytä piirrä alueet -asetusta (oletus)
-of.options.RENDER_REGIONS.tooltip.3= Päällä - käytä piirrä alueet -asetusta
-of.options.RENDER_REGIONS.tooltip.4=Piirrä alueet -asetus sallii nopeamman maaston piirron korkeammilla
-of.options.RENDER_REGIONS.tooltip.5=näköetäisyyksillä. Tehokkaampi kun VBO:t ovat käytössä.
+of.options.RENDER_REGIONS.tooltip.2= Pois - normaali minecraft -piirto (oletus)
+of.options.RENDER_REGIONS.tooltip.3= Päällä - käytä piirrä alueet -asetusta (nopeampi)
+of.options.RENDER_REGIONS.tooltip.4=Mahdollistaa nopeamman maaston piirron, optimoimalla
+of.options.RENDER_REGIONS.tooltip.5=näytönohjaimen käyttöä. Tehokkaampi suurilla näköetäisyyksillä.
 of.options.RENDER_REGIONS.tooltip.6=Ei suositeltu integroiduille näytönohjaimille.
 
 of.options.SMART_ANIMATIONS=Älykkäät animaatiot
 of.options.SMART_ANIMATIONS.tooltip.1=Älykkäät animaatiot
 of.options.SMART_ANIMATIONS.tooltip.2= Pois - älä käytä älykkäitä animaatioita (oletus)
-of.options.SMART_ANIMATIONS.tooltip.3= Päällä - käytä älykkäitä animaatioita
+of.options.SMART_ANIMATIONS.tooltip.3= Päällä - käytä älykkäitä animaatioita (nopeampi)
 of.options.SMART_ANIMATIONS.tooltip.4=Älykkäillä animaatioilla peli animoi vain ne
 of.options.SMART_ANIMATIONS.tooltip.5=tekstuurit jota on näkyvissä ruudulla.
 of.options.SMART_ANIMATIONS.tooltip.6=Tämä pienentää lagipiikkejä ja suurentaa kuvataajuutta.
