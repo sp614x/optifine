@@ -631,16 +631,16 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-
 
 of.options.RENDER_REGIONS=Render Regions
 of.options.RENDER_REGIONS.tooltip.1=Render Regions
-of.options.RENDER_REGIONS.tooltip.2= OFF - do not use render regions (default)
-of.options.RENDER_REGIONS.tooltip.3= ON - use render regions
-of.options.RENDER_REGIONS.tooltip.4=Render regions allow faster terrain rendering at higher
-of.options.RENDER_REGIONS.tooltip.5=render distances. More effective when VBOs are enabled.
+of.options.RENDER_REGIONS.tooltip.2= OFF - vanilla rendering (default)
+of.options.RENDER_REGIONS.tooltip.3= ON - use render regions (faster)
+of.options.RENDER_REGIONS.tooltip.4=Allows faster terrain rendering by optimizing
+of.options.RENDER_REGIONS.tooltip.5=the GPU load. More effective at higher render distances.  
 of.options.RENDER_REGIONS.tooltip.6=Not recommended for integrated graphics cards.
 
 of.options.SMART_ANIMATIONS=Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
 of.options.SMART_ANIMATIONS.tooltip.2= OFF - do not use smart animations (default)
-of.options.SMART_ANIMATIONS.tooltip.3= ON - use smart animations
+of.options.SMART_ANIMATIONS.tooltip.3= ON - use smart animations (faster)
 of.options.SMART_ANIMATIONS.tooltip.4=With smart animations the game will only animate the 
 of.options.SMART_ANIMATIONS.tooltip.5=textures which are currently visible on the screen.
 of.options.SMART_ANIMATIONS.tooltip.6=This reduces the tick lag spikes and increases the FPS.
