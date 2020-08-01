@@ -73,7 +73,7 @@ of.message.capeOF.reloadCape=Dein Umhang wird in 15 Sekunden neu geladen.
 
 of.message.capeOF.error1=Mojang-Authentifizierung fehlgeschlagen.
 of.message.capeOF.error2=Fehler: %s
- 
+
 # Video settings
 
 options.graphics.tooltip.1=Grafikmodus
@@ -275,7 +275,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Beleucht
 
 of.options.shaders.DOWNLOAD=Shader von Website herunterladen
 of.options.shaders.DOWNLOAD.tooltip.1=Shader von Website herunterladen
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Öffnet die Shader-Paket Website im Browser.
 of.options.shaders.DOWNLOAD.tooltip.4=Lege das heruntergeladene Shader-Paket in den
 of.options.shaders.DOWNLOAD.tooltip.5=Shader-Ordner, damit es in der Liste der
