@@ -1,0 +1,772 @@
+# General
+of.general.ambiguous=dvosmislen
+of.general.compact=Kompaktan
+of.general.custom=Prilagođen
+of.general.from=Od
+of.general.id=Id
+of.general.max=Maksimum
+of.general.restart=restart
+of.general.smart=Pametno
+
+# Keys
+of.key.zoom=Zoom
+
+# Message
+of.message.aa.shaders1=Antialiasing nije kompatibilan sa Shaderima.
+of.message.aa.shaders2=Molimo isključite Shadere da bi mogli uključili antialiasing.
+
+of.message.af.shaders1=Anisotropsko filtriranje nije kompatibilno sa Shaderima.
+of.message.af.shaders2=Molimo isključite Shadere da bi mogli uključiti anisotropsko filtriranje.
+
+of.message.fr.shaders1=Brzo crtanje nije kompatibilno sa Shaderima.
+of.message.fr.shaders2=Molimo isključite Shadere da bi mogli uključiti Brzo crtanje.
+
+of.message.an.shaders1=3D stereoskopska slika nije kompatibilna sa Shaderima.
+of.message.an.shaders2=Molimo isključite Shadere da bi mogli uključiti 3D stereoskopsku sliku.
+
+of.message.shaders.aa1=Shaderi nisu kompatibilni sa antialiasingom.
+of.message.shaders.aa2=Molimo namjestite Kvaliteta -> Antialisasing na Ne pa ponovno pokrenite igru.
+
+of.message.shaders.af1=Shaderi nisu kompatibilni sa anisotropskim filtriranjem.
+of.message.shaders.af2=Molimo namjestite Kvaliteta -> Anisotropsko filtriranje na Ne.
+
+of.message.shaders.fr1=Shaderi nisu kompatibilni sa Brzim crtanjem.
+of.message.shaders.fr2=Molimo namjestite Performanse -> Brzo crtanje na Ne.
+
+of.message.shaders.gf1=Shaderi nisu kompatibilni sa Fantastičnom grafikom.
+of.message.shaders.gf2=Molimo namjestite Grafiku na Brza ili Šminkerska.
+
+of.message.shaders.an1=Shaderi nisu kompatibilni sa 3D stereoskopskom slikom.
+of.message.shaders.an2=Molimo namjestite Ostalo -> 3D stereoskopska slika na Ne.
+
+of.message.shaders.nv1=Ovaj paket shadera zahtijeva noviju OptiFine verziju: %s
+of.message.shaders.nv2=Jeste li sigurni da želite nastaviti?
+
+of.message.newVersion=Nova §eOptiFine§f verzija je dostupna: §e%s§f
+of.message.java64Bit=Možete instalirati §e64-bitnu Javu§f za poboljšanje performansi.
+of.message.openglError=§eOpenGL Greška§f: %s (%s)
+
+of.message.shaders.loading=Učitavanje shadera: %s
+
+of.message.other.reset=Vratiti sve postavke prikaza na njihove zadane vrijednosti?
+
+of.message.loadingVisibleChunks=Učitavanje vidljivih chunkova
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine Plašt...
+
+of.options.capeOF.title=OptiFine Plašt
+of.options.capeOF.openEditor=Otvori Uređivač Plašta
+of.options.capeOF.reloadCape=Ponovno Učitaj Plašt
+of.options.capeOF.copyEditorLink=Kopiraj Vezu u Međuspremnik
+
+of.message.capeOF.openEditor=Uređivač OptiFine plašta će se otvoriti u internetskom pregledniku.
+of.message.capeOF.openEditorError=Uređivač se nije uspio otvoriti u internetskom pregledniku.
+of.message.capeOF.reloadCape=Plašt će se ponovno učitati za 15 sekundi.
+
+of.message.capeOF.error1=Mojang autentikacija nije uspjela.
+of.message.capeOF.error2=Greška: %s
+
+# Video settings
+
+options.graphics.tooltip.1=Kvaliteta prikaza
+options.graphics.tooltip.2=  Brza - niža kvaliteta, brže
+options.graphics.tooltip.3=  Šminkerska - viša kvaliteta, sporije
+options.graphics.tooltip.4=  Fantastična - ljepši poluprozirni objekti, najsporije
+options.graphics.tooltip.5=Mijenja izgled oblaka, lišća, vode,
+options.graphics.tooltip.6=sjena i strana trave.
+options.graphics.tooltip.7=Fantastična grafika nije kompatibilna sa shaderima.
+
+of.options.renderDistance.tiny=Sitna
+of.options.renderDistance.short=Kratka
+of.options.renderDistance.normal=Normalna
+of.options.renderDistance.far=Daleka
+of.options.renderDistance.extreme=Ekstremna
+of.options.renderDistance.insane=Bezumna
+of.options.renderDistance.ludicrous=Apsurdna
+
+options.renderDistance.tooltip.1=Vidljivost
+options.renderDistance.tooltip.2=  2 Sitna - 32m (najbrža)
+options.renderDistance.tooltip.3=  8 Normalna - 128m (normalna)
+options.renderDistance.tooltip.4=  16 Daleka - 256m (sporija)
+options.renderDistance.tooltip.5=  32 Ekstremna - 512m (najsporija!) vrlo zahtjevna
+options.renderDistance.tooltip.6=  48 Bezumna - 768m, zahtijeva dodijeljenih 2GB RAM-a
+options.renderDistance.tooltip.7=  64 Apsurdna - 1024m, zahtijeva dodijeljenih 3GB RAM-a
+options.renderDistance.tooltip.8=Vrijednosti veće od 16 Daleka rade samo u lokalnim svijetovima.
+
+options.entityDistanceScaling.tooltip.1=Udaljenost crtanja entityeva
+options.entityDistanceScaling.tooltip.2=  50%% - brže
+options.entityDistanceScaling.tooltip.3=  100%% - zadano
+options.entityDistanceScaling.tooltip.4=  500%% - sporije
+options.entityDistanceScaling.tooltip.5=Mijenja maksimalnu udaljenost na kojoj se entityevi prikazuju.
+
+options.ao.tooltip.1=Glatka svjetlost
+options.ao.tooltip.2=  Ne - nema glatke svjetlosti (brže)
+options.ao.tooltip.3=  Minimalna - jednostavna glatka svjetlost (sporija)
+options.ao.tooltip.4=  Maksimalna - složena glatka svjetlost (najsporija)
+
+options.framerateLimit.tooltip.1=Maksimalna brzina osvježavanja
+options.framerateLimit.tooltip.2=  VSync - ograniči na brzinu osvježavanja monitora (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - varijabilna
+options.framerateLimit.tooltip.4=  Neograničena - nema granice (najbrže)
+options.framerateLimit.tooltip.5=Ograničenje brzine osvježavanje smanjuje FPS čak ako
+options.framerateLimit.tooltip.6=ograničenje nije dosegnuto.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Razina glatke svjetlosti
+of.options.AO_LEVEL.tooltip.1=Razina glatke svjetlosti
+of.options.AO_LEVEL.tooltip.2=  Ne - nema sjena
+of.options.AO_LEVEL.tooltip.3=  50%% - svjetle sjene
+of.options.AO_LEVEL.tooltip.4=  100%% - tamne sjene
+
+options.viewBobbing.tooltip.1=Realističnije kretanje.
+options.viewBobbing.tooltip.2=Kad koristite mipmapove namjestite na Ne za najbolje rezultate.
+
+options.guiScale.tooltip.1=Veličina sučelja
+options.guiScale.tooltip.2=  Auto - maksimalna veličina
+options.guiScale.tooltip.3=  Mala, Normalna, Velika - 1x do 3x
+options.guiScale.tooltip.4=  4x do 10x - dostupna na 4K ekranima
+options.guiScale.tooltip.5=Neparne vrijednosti (1x, 3x, 5x ...) nisu kompatibilne sa Unicodeom.
+options.guiScale.tooltip.6=Manje sučelje bi moglo biti brže.
+
+options.vbo=Koristi VBO
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Koristi alternativni model za crtanje slike koji je obično
+options.vbo.tooltip.3=brži (5-10%%) od zadanog modela crtanja.
+
+options.gamma.tooltip.1=Mijenja svjetlinu tamnijih objekata.
+options.gamma.tooltip.2=  Tamno - standardna svjetlina
+options.gamma.tooltip.3=  1-99%% - varijabilna
+options.gamma.tooltip.4=  Svijetlo - maksimalna svjetlina za tamnije objekte
+options.gamma.tooltip.5=Ova opcija ne mijenja svjetlinu
+options.gamma.tooltip.6=potpuno crnih objekata.
+
+options.anaglyph.tooltip.1=3D stereoskopska slika
+options.anaglyph.tooltip.2=Uključuje stereoskopski 3D efekt koji koristi različite boje
+options.anaglyph.tooltip.3=za svako oko.
+options.anaglyph.tooltip.4=Zahtijeva crveno-plave naočale za pravilno gledanje.
+
+options.attackIndicator.tooltip.1=Mijenja poziciju pokazatelja napada
+options.attackIndicator.tooltip.2=  Ciljnik - ispod ciljnika
+options.attackIndicator.tooltip.3=  Traka - pokraj trake
+options.attackIndicator.tooltip.4=  Ne - nema pokazatelja napada
+options.attackIndicator.tooltip.5=Pokazatelj napada pokazuje udarnu moć
+options.attackIndicator.tooltip.6=trenutnog alata.
+
+of.options.ALTERNATE_BLOCKS=Alternativni Blokovi
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternativni Blokovi
+of.options.ALTERNATE_BLOCKS.tooltip.2=Koriste alternativne modele blokova za neke blokove.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Ovisi o trenutno odabranom paketu resursa.
+
+of.options.FOG_FANCY=Magla
+of.options.FOG_FANCY.tooltip.1=Vrsta magle
+of.options.FOG_FANCY.tooltip.2=  Brza - brža magla
+of.options.FOG_FANCY.tooltip.3=  Šminkerska - sporija magla, izgleda bolje
+of.options.FOG_FANCY.tooltip.4=  Ne - nema magle, najbrže
+of.options.FOG_FANCY.tooltip.5=Šminkerska magla je dostupna samo ako ju podržava
+of.options.FOG_FANCY.tooltip.6=grafička kartica.
+
+of.options.FOG_START=Početak Magle
+of.options.FOG_START.tooltip.1=Početak magle
+of.options.FOG_START.tooltip.2=  0.2 - magla počinje blizu igrača
+of.options.FOG_START.tooltip.3=  0.8 - magla počinje daleko od igrača
+of.options.FOG_START.tooltip.4=Ova opcija uglavnom ne utječe na performanse.
+
+of.options.CHUNK_LOADING=Učitavanje Chunkova
+of.options.CHUNK_LOADING.tooltip.1=Učitavanje Chunkova
+of.options.CHUNK_LOADING.tooltip.2=  Zadano - nestabilni FPS kad se chunkovi učitavaju
+of.options.CHUNK_LOADING.tooltip.3=  Glatko - stabilni FPS
+of.options.CHUNK_LOADING.tooltip.4=  Višejezgreno - stabilni FPS, 3x brže učitavanje svijeta
+of.options.CHUNK_LOADING.tooltip.5=Glatko i Višejezgreno uklanjaju mucanje i
+of.options.CHUNK_LOADING.tooltip.6=zamrzivanje koje uzrokuje učitavanje chunkova.
+of.options.CHUNK_LOADING.tooltip.7=Višejezgreno može ubrzati učitavanje svijeta 3 puta i
+of.options.CHUNK_LOADING.tooltip.8=poboljšati FPS koristeći drugu procesorsku jezgru.
+of.options.chunkLoading.smooth=Glatko
+of.options.chunkLoading.multiCore=Višejezgreno
+
+of.options.shaders=Shaderi...
+of.options.shadersTitle=Shaderi
+
+of.options.shaders.packNone=Ne
+of.options.shaders.packDefault=(internalni)
+
+of.options.shaders.ANTIALIASING=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.2=  Ne - (zadano) nema antialiasinga (brže)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiasane crte i rubovi (sporije)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA je post-processing efekt koji izglađuje
+of.options.shaders.ANTIALIASING.tooltip.5=šiljaste crte i nagle prijelaze boja.
+of.options.shaders.ANTIALIASING.tooltip.6=Brži je od tradicionalnog antialiasinga
+of.options.shaders.ANTIALIASING.tooltip.7=i kompatibilan je sa shaderima.
+
+of.options.shaders.NORMAL_MAP=Normalna Karta
+of.options.shaders.NORMAL_MAP.tooltip.1=Normalna Karta
+of.options.shaders.NORMAL_MAP.tooltip.2=  Da - (zadano) uključi normalne karte
+of.options.shaders.NORMAL_MAP.tooltip.3=  Ne - isključi normalne karte
+of.options.shaders.NORMAL_MAP.tooltip.4=Paket shadera može koristiti normalne karte
+of.options.shaders.NORMAL_MAP.tooltip.5=da bi simulirao 3D geometriju na ravnim površinama.
+of.options.shaders.NORMAL_MAP.tooltip.6=Normalne karte isporučuje trenutno odabrani
+of.options.shaders.NORMAL_MAP.tooltip.7=paket resursa.
+
+of.options.shaders.SPECULAR_MAP=Spekularna Karta
+of.options.shaders.SPECULAR_MAP.tooltip.1=Spekularna Karta
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Da - (zadano) uključi spekularne karte
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Ne - isključi spekularne karte
+of.options.shaders.SPECULAR_MAP.tooltip.4=Paket shadera koristi spekularne karte
+of.options.shaders.SPECULAR_MAP.tooltip.5=da bi simulirao specijalne efekte odsjaja.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Spekularne karte isporučuje trenutno odabrani
+of.options.shaders.SPECULAR_MAP.tooltip.7=paket resursa.
+
+of.options.shaders.RENDER_RES_MUL=Kvaliteta Crtanja
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Kvaliteta Crtanja
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - niska (najbrža)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standardna (zadana)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - visoka (najsporija)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Kvaliteta crtanja kontrolira veličinu teksture
+of.options.shaders.RENDER_RES_MUL.tooltip.6=na kojoj paket shadera crta.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Niže vrijednosti mogu biti korisne za 4K ekrane.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Više vrijednosti funkcioniraju kao filter za antialiasing.
+
+of.options.shaders.SHADOW_RES_MUL=Kvaliteta Sjena
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Kvaliteta Sjena
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - niska (najbrža)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standardna (zadana)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - visoka (najsporija)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Kvaliteta sjena kontrolira veličinu karte sjena
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=koju koristi paket shadera.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Niže vrijednosti = netočne, grubije sjene.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Više vrijednosti = detaljne, finije sjene.
+
+of.options.shaders.HAND_DEPTH_MUL=Dubina Ruke
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Dubina Ruke
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - ruka blizu kamere
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (zadana)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - ruka daleko od kamere
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Dubina ruke kontrolira udaljenost objekata u ruci
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=od kamere.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Kod paketa shadera koji koriste dubinsko magljenje ovo
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=bi trebalo promijeniti magljenje objekata u ruci.
+
+of.options.shaders.CLOUD_SHADOW=Sjena Oblaka
+
+of.options.shaders.OLD_HAND_LIGHT=Stara Svjetlost Ruke
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Stara Svjetlost Ruke
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Zadana - kontrolira ju paket shadera
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Da - koristi staru svjetlost ruke
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Ne - koristi novu svjetlost ruke
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Stara svjetlost ruke dozvoljava paketima shadera koji
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=prepoznaju objekte koji odašilju svjetlost samo u glavnoj ruci
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=da ih prepoznaju i u sekundarnoj ruci.
+
+of.options.shaders.OLD_LIGHTING=Stara Svjetlost
+of.options.shaders.OLD_LIGHTING.tooltip.1=Stara Svjetlost
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Zadana - kontrolira ju paket shadera
+of.options.shaders.OLD_LIGHTING.tooltip.3=  Da - koristi staru svjetlost
+of.options.shaders.OLD_LIGHTING.tooltip.4=  Ne - koristi novu svjetlost
+of.options.shaders.OLD_LIGHTING.tooltip.5=Stara svjetlost kontrolira fiksnu svjetlost koja je
+of.options.shaders.OLD_LIGHTING.tooltip.6=primjenjena na stranama blokova.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Paketi shadera koji koriste sjene obično pružaju
+of.options.shaders.OLD_LIGHTING.tooltip.8=mnogo bolju svjetlost ovisno o poziciji sunca.
+
+of.options.shaders.DOWNLOAD=Preuzmi Shadere
+of.options.shaders.DOWNLOAD.tooltip.1=Preuzmi Shadere
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Otvori stranicu s paketima shadera u internetskom pregledniku.
+of.options.shaders.DOWNLOAD.tooltip.4=Stavite preuzete pakete shadera u "Mapu za shadere"
+of.options.shaders.DOWNLOAD.tooltip.5=i pojavit će se u popisu instaliranih shadera.
+
+of.options.shaders.SHADER_PACK=Paket Shadera
+
+of.options.shaders.shadersFolder=Mapa za shadere
+of.options.shaders.shaderOptions=Opcije Shadera...
+
+of.options.shaderOptionsTitle=Opcije Shadera
+
+of.options.quality=Kvaliteta...
+of.options.qualityTitle=Postavke kvalitete
+
+of.options.details=Detalji...
+of.options.detailsTitle=Postavke detalja
+
+of.options.performance=Performanse...
+of.options.performanceTitle=Postavke performansi
+
+of.options.animations=Animacije...
+of.options.animationsTitle=Postavke animacija
+
+of.options.other=Ostalo...
+of.options.otherTitle=Ostale postavke
+
+of.options.other.reset=Ponovno Postavi Postavke Prikaza...
+
+of.shaders.profile=Profil
+
+# Quality
+
+of.options.mipmap.bilinear=Bilinearno
+of.options.mipmap.linear=Linearno
+of.options.mipmap.nearest=Najbliže
+of.options.mipmap.trilinear=Trilinearno
+
+options.mipmapLevels.tooltip.1=Vizualni efekt koji poboljšava izgled udaljenih objekata
+options.mipmapLevels.tooltip.2=izglađujući detalje tekstura
+options.mipmapLevels.tooltip.3=  Ne - nema izglađivanja
+options.mipmapLevels.tooltip.4=  1 - minimalno izglađivanje
+options.mipmapLevels.tooltip.5=  Maksimalno - maksimalno izglađivanje
+options.mipmapLevels.tooltip.6=Ova opcija obično ne utječe na performanse.
+
+of.options.MIPMAP_TYPE=Vrsta Mipmapova
+of.options.MIPMAP_TYPE.tooltip.1=Vizualni efekt koji poboljšava izgled udaljenih objekata
+of.options.MIPMAP_TYPE.tooltip.2=izglađujući detalje tekstura
+of.options.MIPMAP_TYPE.tooltip.3=  Najbliže - grubo izglađivanje (najbrže)
+of.options.MIPMAP_TYPE.tooltip.4=  Linearno - normalno izglađivanje
+of.options.MIPMAP_TYPE.tooltip.5=  Bilinearno - fino izglađivanje
+of.options.MIPMAP_TYPE.tooltip.6=  Trilinearno - najfinije izglađivanje (najbrže)
+
+
+of.options.AA_LEVEL=Antialiasing
+of.options.AA_LEVEL.tooltip.1=Antialiasing
+of.options.AA_LEVEL.tooltip.2= Ne - (zadano) nema antialiasinga (najbrže)
+of.options.AA_LEVEL.tooltip.3= 2-16 - antialiasane crte i rubovi (sporije)
+of.options.AA_LEVEL.tooltip.4=Antialiasing izglađuje šiljaste crte i
+of.options.AA_LEVEL.tooltip.5=nagle prijelaze boja.
+of.options.AA_LEVEL.tooltip.6=Kad je uključen mogao bi znatno smanjiti FPS.
+of.options.AA_LEVEL.tooltip.7=Neke grafičke kartice ne podržavaju sve razine.
+of.options.AA_LEVEL.tooltip.8=Stupa na snagu nakon PONOVNOG POKRETANJA!
+
+of.options.AF_LEVEL=Anisotropsko Filtriranje
+of.options.AF_LEVEL.tooltip.1=Anisotropsko Filtriranje
+of.options.AF_LEVEL.tooltip.2= Ne - (zadano) standardni detalj tekstura (brže)
+of.options.AF_LEVEL.tooltip.3= 2-16 - finiji detalji u mipmapiranim teksturama (sporije)
+of.options.AF_LEVEL.tooltip.4=Anisotropsko filtriranje vraća detalje u
+of.options.AF_LEVEL.tooltip.5=mipmapiranim teksturama.
+of.options.AF_LEVEL.tooltip.6=Kad je uključeno može znatno smanjiti FPS.
+
+of.options.CLEAR_WATER=Čista Voda
+of.options.CLEAR_WATER.tooltip.1=Čista Voda
+of.options.CLEAR_WATER.tooltip.2=  Da - čista, prozirna voda
+of.options.CLEAR_WATER.tooltip.3=  Ne - zadana voda
+
+of.options.RANDOM_ENTITIES=Nasumična Stvorenja
+of.options.RANDOM_ENTITIES.tooltip.1=Nasumična Stvorenja
+of.options.RANDOM_ENTITIES.tooltip.2=  Ne - nema nasumičnih stvorenja, brže
+of.options.RANDOM_ENTITIES.tooltip.3=  Da - nasumični stvorenja, sporije
+of.options.RANDOM_ENTITIES.tooltip.4=Nasumična stvorenja koriste nasumične teksture za razna stvorenja.
+of.options.RANDOM_ENTITIES.tooltip.5=Ova opcija zahtijeva paket resursa koji ima više tekstura za stvorenja.
+
+of.options.BETTER_GRASS=Bolja Trava
+of.options.BETTER_GRASS.tooltip.1=Bolja Trava
+of.options.BETTER_GRASS.tooltip.2=  Ne - zadana tekstura za stranu trave, brže
+of.options.BETTER_GRASS.tooltip.3=  Brza, puna tekstura za stranu trave, sporija
+of.options.BETTER_GRASS.tooltip.4=  Šminkerska - dinamična tekstura za stranu trave, najsporija
+
+of.options.BETTER_SNOW=Bolji Snijeg
+of.options.BETTER_SNOW.tooltip.1=Bolji Snijeg
+of.options.BETTER_SNOW.tooltip.2=  Ne - zadani snijeg, brže
+of.options.BETTER_SNOW.tooltip.3=  Da - bolji snijeg, sporije
+of.options.BETTER_SNOW.tooltip.4=Pokazuje snijeg ispod prozirnih blokova (ograda, visoka trava)
+of.options.BETTER_SNOW.tooltip.5=kad graniči s blokovima snijega.
+
+of.options.CUSTOM_FONTS=Prilagođeni Fontovi
+of.options.CUSTOM_FONTS.tooltip.1=Prilagođeni Fontovi
+of.options.CUSTOM_FONTS.tooltip.2=  Da - koristi prilagođene fontove (zadano), sporije
+of.options.CUSTOM_FONTS.tooltip.3=  Ne - koristi zadane fontove, brže
+of.options.CUSTOM_FONTS.tooltip.4=Prilagođene fontove isporučuje trenutno
+of.options.CUSTOM_FONTS.tooltip.5=odabrani paket resursa.
+
+of.options.CUSTOM_COLORS=Prilagođene Boje
+of.options.CUSTOM_COLORS.tooltip.1=Prilagođene Boje
+of.options.CUSTOM_COLORS.tooltip.2=  Da - koristi prilagođene boje (zadano), sporije
+of.options.CUSTOM_COLORS.tooltip.3=  Ne - koristi zadane boje, brže
+of.options.CUSTOM_COLORS.tooltip.4=Prilagođene boje isporučuje trenutno
+of.options.CUSTOM_COLORS.tooltip.5=odabrani paket resursa.
+
+of.options.SWAMP_COLORS=Boje Močvare
+of.options.SWAMP_COLORS.tooltip.1=Boje Močvare
+of.options.SWAMP_COLORS.tooltip.2=  Da - koristi boje močvare (zadano), sporije
+of.options.SWAMP_COLORS.tooltip.3=  Ne - ne koristi boje močvare, brže
+of.options.SWAMP_COLORS.tooltip.4=Boje močvare utječu na travu, lišće, loze i vodu.
+
+of.options.SMOOTH_BIOMES=Glatki Biomeovi
+of.options.SMOOTH_BIOMES.tooltip.1=Glatki Biomeovi
+of.options.SMOOTH_BIOMES.tooltip.2=  Da - izglađuje granice biomeova (zadano), sporije
+of.options.SMOOTH_BIOMES.tooltip.3=  Ne - ne izglađuje granice biomeova, brže
+of.options.SMOOTH_BIOMES.tooltip.4=Izglađivanje granica biomeova se izvodi uzorkovanjem i
+of.options.SMOOTH_BIOMES.tooltip.5=usrednjavanjem boje svih okolnih blokova.
+of.options.SMOOTH_BIOMES.tooltip.6=Utječe na travu, lišće, loze i vodu.
+
+of.options.CONNECTED_TEXTURES=Spojene Teksture
+of.options.CONNECTED_TEXTURES.tooltip.1=Spojene Teksture
+of.options.CONNECTED_TEXTURES.tooltip.2=  Ne - nema spojenih tekstura (zadano)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Brze = brze spojene teksture
+of.options.CONNECTED_TEXTURES.tooltip.4=  Šminkerske = šminkerske spojene teksture
+of.options.CONNECTED_TEXTURES.tooltip.5=Spojene teksture spajaju teksture stakla,
+of.options.CONNECTED_TEXTURES.tooltip.6=pješčenjaka i polica s knjigama kad su postavljeni jedan
+of.options.CONNECTED_TEXTURES.tooltip.7=kraj drugoga. Spojene teksture isporučuje trenutno
+of.options.CONNECTED_TEXTURES.tooltip.8=odabrani paket resursa.
+
+of.options.NATURAL_TEXTURES=Prirodne Teksture
+of.options.NATURAL_TEXTURES.tooltip.1=Prirodne Teksture
+of.options.NATURAL_TEXTURES.tooltip.2=  Ne - nema prirodnih tekstura (zadano)
+of.options.NATURAL_TEXTURES.tooltip.3=  Da - koristi prirodne teksture
+of.options.NATURAL_TEXTURES.tooltip.4=Prirodne teksture uklanjaju rešetkasti uzorak
+of.options.NATURAL_TEXTURES.tooltip.5=koji se stvara ponavljanjem blokova iste vrste.
+of.options.NATURAL_TEXTURES.tooltip.6=Koristi okrenute i zrcaljene varijante osnovne
+of.options.NATURAL_TEXTURES.tooltip.7=teksture bloka. Konfiguraciju za prirodne teksture
+of.options.NATURAL_TEXTURES.tooltip.8=isporučuje trenutno odabrani paket resursa.
+
+of.options.EMISSIVE_TEXTURES=Emisivne Teksture
+of.options.EMISSIVE_TEXTURES.tooltip.1=Emisivne Teksture
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Ne - nema emisivnih tekstura (zadano)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Da - koristi emisivne teksture
+of.options.EMISSIVE_TEXTURES.tooltip.4=Emisivne teksture se crtaju kao oblozi
+of.options.EMISSIVE_TEXTURES.tooltip.5=s punom svjetlinom. S njima se mogu simulirati
+of.options.EMISSIVE_TEXTURES.tooltip.6=dijelovi osnovne teksture koji emitiraju svjetlo.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Emisivne teksture isporučuje trenutno odabrani
+of.options.EMISSIVE_TEXTURES.tooltip.8=paket resursa.
+
+of.options.CUSTOM_SKY=Prilagođeno Nebo
+of.options.CUSTOM_SKY.tooltip.1=Prilagođeno Nebo
+of.options.CUSTOM_SKY.tooltip.2=  Da - prilagođene teksture neba (zadano), spore
+of.options.CUSTOM_SKY.tooltip.3=  Ne - zadano nebo, brže
+of.options.CUSTOM_SKY.tooltip.4=Teksture za prilagođeno nebo isporučuje trenutno
+of.options.CUSTOM_SKY.tooltip.5=odabrani paket resursa.
+
+of.options.CUSTOM_ITEMS=Prilagođeni Predmeti
+of.options.CUSTOM_ITEMS.tooltip.1=Prilagođeni Predmeti
+of.options.CUSTOM_ITEMS.tooltip.2=  Da - prilagođene teksture za predmete (zadano), spore
+of.options.CUSTOM_ITEMS.tooltip.3=  Ne - zadane teksture za predmete, brže
+of.options.CUSTOM_ITEMS.tooltip.4=Prilagođene teksture za predmete isporučuje trenutno odabrani
+of.options.CUSTOM_ITEMS.tooltip.5=paket resursa.
+
+of.options.CUSTOM_ENTITY_MODELS=Prilagođena Stvorenja
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Prilagođena Stvorenja
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Da - prilagođena stvorenja (zadano), spora
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Ne - zadana stvorenja, brža
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=The custom entity models are supplied by the current
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resource pack.
+
+of.options.CUSTOM_GUIS=Prilagođena Sučelja
+of.options.CUSTOM_GUIS.tooltip.1=Prilagođena Sučelja
+of.options.CUSTOM_GUIS.tooltip.2=  Da - prilagođena sučelja (zadano), sporija
+of.options.CUSTOM_GUIS.tooltip.3=  Ne - zadana sučelja, brža
+of.options.CUSTOM_GUIS.tooltip.4=Prilagođena sučelja isporučuje trenutno odabrani paket resursa.
+
+# Details
+
+of.options.CLOUDS=Oblaci
+of.options.CLOUDS.tooltip.1=Oblaci
+of.options.CLOUDS.tooltip.2=  Zadani - ovise o postavci Grafika
+of.options.CLOUDS.tooltip.3=  Brzi = niža kvaliteta, brži
+of.options.CLOUDS.tooltip.4=  Šminkerska = najviša kvaliteta, najsporiji
+of.options.CLOUDS.tooltip.5=  Ne - nema oblaka, najbrže
+of.options.CLOUDS.tooltip.6=Brzi oblaci su 2D.
+of.options.CLOUDS.tooltip.7=Šminkerski oblaci su 3D.
+
+of.options.CLOUD_HEIGHT=Visina Oblaka
+of.options.CLOUD_HEIGHT.tooltip.1=Visina Oblaka
+of.options.CLOUD_HEIGHT.tooltip.2=  Ne - zadana visina
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - iznad granice visine svijeta
+
+of.options.TREES=Stabla
+of.options.TREES.tooltip.1=Stabla
+of.options.TREES.tooltip.2=  Zadana - ovise o postavci Grafika
+of.options.TREES.tooltip.3=  Brza - niža kvaliteta, najbrža
+of.options.TREES.tooltip.4=  Pametna - viša kvaliteta, brža
+of.options.TREES.tooltip.5=  Šminkerska - najviša kvaliteta, najsporija
+of.options.TREES.tooltip.6=Brza stabla imaju neprozirno lišće.
+of.options.TREES.tooltip.7=Pametna i šminkerska stabla imaju prozirno lišće.
+
+of.options.RAIN=Kiša & Snijeg
+of.options.RAIN.tooltip.1=Kiša & Snijeg
+of.options.RAIN.tooltip.2=  Zadani - ovise o postavci Grafika
+of.options.RAIN.tooltip.3=  Brzi - rijetka kiša/snijeg, brži
+of.options.RAIN.tooltip.4=  Šminkerski - gusta kiša/snijeg, sporiji
+of.options.RAIN.tooltip.5=  Ne - nema kiše/snijega, najbrži
+of.options.RAIN.tooltip.6=Kad je kiša isključena prskanje i zvukovi kiše
+of.options.RAIN.tooltip.7=su još uvijek aktivni.
+
+of.options.SKY=Nebo
+of.options.SKY.tooltip.1=Nebo
+of.options.SKY.tooltip.2=  Da - nebo je vidljivo, sporije
+of.options.SKY.tooltip.3=  Ne - nebo nije vidljivo, brže
+of.options.SKY.tooltip.4=Kad je nebo isključeno mjesec i sunce su još vidljivi.
+
+of.options.STARS=Zvijezde
+of.options.STARS.tooltip.1=Zvijezde
+of.options.STARS.tooltip.2=  Da - zvijezde su vidljive, sporije
+of.options.STARS.tooltip.3=  Ne - zvijezde nisu vidljive, brže
+
+of.options.SUN_MOON=Sunce & Mjesec
+of.options.SUN_MOON.tooltip.1=Sunce & Mjesec
+of.options.SUN_MOON.tooltip.2=  Da - sunce i mjesec su vidljivi (zadano)
+of.options.SUN_MOON.tooltip.3=  Ne - sunce i mjesec nisu vidljivi (brže)
+
+of.options.SHOW_CAPES=Prikaži Plašteve
+of.options.SHOW_CAPES.tooltip.1=Prikaži Plašteve
+of.options.SHOW_CAPES.tooltip.2=  Da - prikaži plašteve igrača (zadano)
+of.options.SHOW_CAPES.tooltip.3=  Ne - ne prikazuj plašteve igrača
+
+of.options.TRANSLUCENT_BLOCKS=Poluprozirni Blokovi
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Poluprozirni Blokovi
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Zadani - ovise o postavci Grafika
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Šminkerski - točno miješanje boja (sporije)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Brzi - brzo miješanje boja (brže)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontrolira miješanje boja poluprozirnih blokova
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=različitih boja (obojano staklo, voda, led)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=kad su postavljeni jedan iza drugog s zrakom između.
+
+of.options.HELD_ITEM_TOOLTIPS=Opisi Predmeta
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Opisi predmeta
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Da - prikaži opise predmeta (zadano)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Ne - nemoj prikazivati opise predmeta
+
+of.options.ADVANCED_TOOLTIPS=Napredni Opisi Predmeta
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Napredni opisi predmeta
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  Da - prikaži napredne opise predmeta
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  Ne - ne prikazuj napredne opise predmeta (zadano)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Napredni opisi pokazuju proširene informacije za
+of.options.ADVANCED_TOOLTIPS.tooltip.5=predmete (id, iskoristivost) i za opcije shadera
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, izvor, zadana vrijednost).
+
+of.options.DROPPED_ITEMS=Ispušteni Predmeti
+of.options.DROPPED_ITEMS.tooltip.1=Ispušteni Predmeti
+of.options.DROPPED_ITEMS.tooltip.2=  Zadani - ovise o postavci Grafika
+of.options.DROPPED_ITEMS.tooltip.3=  Brzi - 2D ispušteni predmeti (brži)
+of.options.DROPPED_ITEMS.tooltip.4=  Šminkerski - 3D ispušteni predmeti (sporiji)
+
+options.entityShadows.tooltip.1=Sjene Stvorenja
+options.entityShadows.tooltip.2=  Da - prikaži sjene stvorenja
+options.entityShadows.tooltip.3=  Ne - ne prikazuj sjene stvorenja
+
+of.options.VIGNETTE=Vinjeta
+of.options.VIGNETTE.tooltip.1=Vizualni efekt koji potamnjuje kutove ekrana
+of.options.VIGNETTE.tooltip.2=  Zadana - ovisi o postavci Grafika (zadano)
+of.options.VIGNETTE.tooltip.3=  Brza - vinjeta isključena (brže)
+of.options.VIGNETTE.tooltip.4=  Šminkerska - vinjeta uključena (sporije)
+of.options.VIGNETTE.tooltip.5=Vinjeta može imati znatan učinak na FPS,
+of.options.VIGNETTE.tooltip.6=pogotovo u načinu punog ekrana.
+of.options.VIGNETTE.tooltip.7=Vinjeta je vrlo suptilna i može se sigurno
+of.options.VIGNETTE.tooltip.8=isključiti.
+
+of.options.DYNAMIC_FOV=Dinamični FOV
+of.options.DYNAMIC_FOV.tooltip.1=Dinamični FOV
+of.options.DYNAMIC_FOV.tooltip.2=  Da - uključi dinamični FOV (zadano)
+of.options.DYNAMIC_FOV.tooltip.3=  Ne - isključi dinamični FOV
+of.options.DYNAMIC_FOV.tooltip.4=Mijenja vidno polje (FOV) kad letite, brzo trčite
+of.options.DYNAMIC_FOV.tooltip.5=ili povlačite luk.
+
+of.options.DYNAMIC_LIGHTS=Dinamična Svjetla
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dinamična Svjetla
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Ne - nema dinamičnih svjetla (zadano)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Brza - brza dinamična svjetla (ažurirana svakih 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Šminkerska - šminkerska din. svjetla (ažurirana u stvarnom vremenu)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Dozvoljava svjetlima (baklja, svjetlucavi kamen itd.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=da osvjetle sve oko njih kad ih igrač drži u ruci
+of.options.DYNAMIC_LIGHTS.tooltip.7=ili su bačena na pod.
+
+options.biomeBlendRadius.tooltip.1=Izgladi prijelaz boja između biomeova
+options.biomeBlendRadius.tooltip.2=  Ne - nema miješanja (najbrže)
+options.biomeBlendRadius.tooltip.3=  5x5 - normalno miješanje (zadano)
+options.biomeBlendRadius.tooltip.4=  15x15 - maksimalno miješanje (najbrže)
+options.biomeBlendRadius.tooltip.5=Više vrijednosti stvaraju velike lag spikeove
+options.biomeBlendRadius.tooltip.6=i usporavaju učitavanje chunkova.
+
+# Performance
+
+of.options.SMOOTH_FPS=Glatki FPS
+of.options.SMOOTH_FPS.tooltip.1=Stabilizira FPS ispiranjem buffera grafičkog drivera.
+of.options.SMOOTH_FPS.tooltip.2=  Ne - nema stabilizacije, FPS bi mogao fluktuirati
+of.options.SMOOTH_FPS.tooltip.3=  Da - stabilizacija FPS-a
+of.options.SMOOTH_FPS.tooltip.4=Ova opcija ovisi o grafičkom driveru i njezin efekt
+of.options.SMOOTH_FPS.tooltip.5=nije uvijek vidljiv.
+
+of.options.SMOOTH_WORLD=Smooth World
+of.options.SMOOTH_WORLD.tooltip.1=Uklanja lag spikeove uzrokovane internalnim serverom.
+of.options.SMOOTH_WORLD.tooltip.2=  Ne - nema stabilizacije, FPS će možda fluktuirati
+of.options.SMOOTH_WORLD.tooltip.3=  Da - stabilizacija FPS-a
+of.options.SMOOTH_WORLD.tooltip.4=Stabilizira FPS distribucijom opterećenja internalnog servera.
+of.options.SMOOTH_WORLD.tooltip.5=Radi samo na lokalnim svjetovima (singleplayer).
+
+of.options.FAST_RENDER=Brzo Crtanje
+of.options.FAST_RENDER.tooltip.1=Brzo Crtanje
+of.options.FAST_RENDER.tooltip.2= Ne - standardno crtanje (zadano)
+of.options.FAST_RENDER.tooltip.3= Da - optimizirano crtanje (brže)
+of.options.FAST_RENDER.tooltip.4=Koristi optimizirani algoritam za crtanje koji smanjuje
+of.options.FAST_RENDER.tooltip.5=CPU opterećenje i može znatno povećati FPS.
+of.options.FAST_RENDER.tooltip.6=Može uzrokovati probleme za neke modove.
+
+of.options.FAST_MATH=Brza Matematika
+of.options.FAST_MATH.tooltip.1=Brza Matematika
+of.options.FAST_MATH.tooltip.2= Ne - standardna matematika (zadano)OFF - standard math (default)
+of.options.FAST_MATH.tooltip.3= Da - brža matematika
+of.options.FAST_MATH.tooltip.4=Koristi optimizirane sin() i cos() funkcije koje
+of.options.FAST_MATH.tooltip.5=mogu bolje iskoristiti CPU predmemoriju i povećati FPS.
+of.options.FAST_MATH.tooltip.6=Može minimalno utjecati na stvaranje svijeta.
+
+of.options.CHUNK_UPDATES=Ažuriranja Chunkova
+of.options.CHUNK_UPDATES.tooltip.1=Ažuriranja Chunkova
+of.options.CHUNK_UPDATES.tooltip.2= 1 - sporije učitavanje svijeta, viši FPS (zadano)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - brže učitavanje svijeta, niži FPS
+of.options.CHUNK_UPDATES.tooltip.4= 5 - najbrže učitavanje svijeta, najniži FPS
+of.options.CHUNK_UPDATES.tooltip.5=Broj ažuriranja chunkova po nacrtanoj sličici,
+of.options.CHUNK_UPDATES.tooltip.6=više vrijednosti destabiliziraju FPS.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Dynamic Updates
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamic chunk updates
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - standard chunk updates per frame (default)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ON - more updates while the player is standing still
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamic updates force more chunk updates while
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=the player is standing still to load the world faster.
+
+of.options.LAZY_CHUNK_LOADING=Lazy Chunk Loading
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Lazy Chunk Loading
+of.options.LAZY_CHUNK_LOADING.tooltip.2= OFF - default server chunk loading
+of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - lazy server chunk loading (smoother)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Smooths the integrated server chunk loading by
+of.options.LAZY_CHUNK_LOADING.tooltip.5=distributing the chunks over several ticks.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Turn it OFF if parts of the world do not load correctly.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds (single-player).
+
+of.options.RENDER_REGIONS=Render Regions
+of.options.RENDER_REGIONS.tooltip.1=Render Regions
+of.options.RENDER_REGIONS.tooltip.2= OFF - do not use render regions (default)
+of.options.RENDER_REGIONS.tooltip.3= ON - use render regions
+of.options.RENDER_REGIONS.tooltip.4=Render regions allow faster terrain rendering at higher
+of.options.RENDER_REGIONS.tooltip.5=render distances. More effective when VBOs are enabled.
+of.options.RENDER_REGIONS.tooltip.6=Not recommended for integrated graphics cards.
+
+of.options.SMART_ANIMATIONS=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.1=Smart Animations
+of.options.SMART_ANIMATIONS.tooltip.2= OFF - do not use smart animations (default)
+of.options.SMART_ANIMATIONS.tooltip.3= ON - use smart animations
+of.options.SMART_ANIMATIONS.tooltip.4=With smart animations the game will only animate the 
+of.options.SMART_ANIMATIONS.tooltip.5=textures which are currently visible on the screen.
+of.options.SMART_ANIMATIONS.tooltip.6=This reduces the tick lag spikes and increases the FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Especially useful for big mod packs and HD resource packs.
+
+# Animations
+
+of.options.animation.allOn=All ON
+of.options.animation.allOff=All OFF
+of.options.animation.dynamic=Dynamic
+
+of.options.ANIMATED_WATER=Water Animated
+of.options.ANIMATED_LAVA=Lava Animated
+of.options.ANIMATED_FIRE=Fire Animated
+of.options.ANIMATED_PORTAL=Portal Animated
+of.options.ANIMATED_REDSTONE=Redstone Animated
+of.options.ANIMATED_EXPLOSION=Explosion Animated
+of.options.ANIMATED_FLAME=Flame Animated
+of.options.ANIMATED_SMOKE=Smoke Animated
+of.options.VOID_PARTICLES=Void Particles
+of.options.WATER_PARTICLES=Water Particles
+of.options.RAIN_SPLASH=Rain Splash
+of.options.PORTAL_PARTICLES=Portal Particles
+of.options.POTION_PARTICLES=Potion Particles
+of.options.DRIPPING_WATER_LAVA=Dripping Water/Lava
+of.options.ANIMATED_TERRAIN=Terrain Animated
+of.options.ANIMATED_TEXTURES=Textures Animated
+of.options.FIREWORK_PARTICLES=Firework Particles
+
+# Other
+
+of.options.LAGOMETER=Lagometer
+of.options.LAGOMETER.tooltip.1=Shows the lagometer on the debug screen (F3).
+of.options.LAGOMETER.tooltip.2=* Orange - Memory garbage collection
+of.options.LAGOMETER.tooltip.3=* Cyan - Tick
+of.options.LAGOMETER.tooltip.4=* Blue - Scheduled executables
+of.options.LAGOMETER.tooltip.5=* Purple - Chunk upload
+of.options.LAGOMETER.tooltip.6=* Red - Chunk updates
+of.options.LAGOMETER.tooltip.7=* Yellow - Visibility check
+of.options.LAGOMETER.tooltip.8=* Green - Render terrain
+
+of.options.PROFILER=Debug Profiler
+of.options.PROFILER.tooltip.1=Debug Profiler
+of.options.PROFILER.tooltip.2=  ON - debug profiler is active, slower
+of.options.PROFILER.tooltip.3=  OFF - debug profiler is not active, faster
+of.options.PROFILER.tooltip.4=The debug profiler collects and shows debug information
+of.options.PROFILER.tooltip.5=when the debug screen is open (F3).
+
+of.options.WEATHER=Weather
+of.options.WEATHER.tooltip.1=Weather
+of.options.WEATHER.tooltip.2=  ON - weather is active, slower
+of.options.WEATHER.tooltip.3=  OFF - weather is not active, faster
+of.options.WEATHER.tooltip.4=The weather controls rain, snow and thunderstorms.
+of.options.WEATHER.tooltip.5=Weather control is only possible for local worlds.
+
+of.options.time.dayOnly=Day Only
+of.options.time.nightOnly=Night Only
+
+of.options.TIME=Time
+of.options.TIME.tooltip.1=Time
+of.options.TIME.tooltip.2= Default - normal day/night cycles
+of.options.TIME.tooltip.3= Day Only - day only
+of.options.TIME.tooltip.4= Night Only - night only
+of.options.TIME.tooltip.5=The time setting is only effective in CREATIVE mode
+of.options.TIME.tooltip.6=and for local worlds.
+
+options.fullscreen.tooltip.1=Fullscreen
+options.fullscreen.tooltip.2=  ON - use fullscreen mode
+options.fullscreen.tooltip.3=  OFF - use window mode
+options.fullscreen.tooltip.4=Fullscreen mode may be faster or slower than
+options.fullscreen.tooltip.5=window mode, depending on the graphics card.
+
+options.fullscreen.resolution=Fullscreen Mode
+options.fullscreen.resolution.tooltip.1=Fullscreen mode
+options.fullscreen.resolution.tooltip.2=  Default - use desktop screen resolution, slower
+options.fullscreen.resolution.tooltip.3=  WxH - use custom screen resolution, may be faster
+options.fullscreen.resolution.tooltip.4=The selected resolution is used in fullscreen mode (F11).
+options.fullscreen.resolution.tooltip.5=Lower resolutions should generally be faster.
+
+of.options.SHOW_FPS=Show FPS
+of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information.
+of.options.SHOW_FPS.tooltip.2=  Fps - average/minimum
+of.options.SHOW_FPS.tooltip.3=  C: - chunk renderers
+of.options.SHOW_FPS.tooltip.4=  E: - rendered entities + block entities
+of.options.SHOW_FPS.tooltip.5=  U: - chunk updates
+of.options.SHOW_FPS.tooltip.6=The compact FPS information is only shown when the
+of.options.SHOW_FPS.tooltip.7=debug screen is not visible.
+
+of.options.save.45s=45s
+of.options.save.90s=90s
+of.options.save.3min=3min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
+
+of.options.AUTOSAVE_TICKS=Autosave
+of.options.AUTOSAVE_TICKS.tooltip.1=Autosave Interval
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - default
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may generate lag spikes depending on the render distance.
+of.options.AUTOSAVE_TICKS.tooltip.4=The world is also saved when the game menu is opened.
+
+of.options.SCREENSHOT_SIZE=Screenshot Size
+of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
+of.options.SCREENSHOT_SIZE.tooltip.2=  Default - default screenshot size
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - custom screenshot size
+of.options.SCREENSHOT_SIZE.tooltip.4=Capturing bigger screenshots may need more memory.
+of.options.SCREENSHOT_SIZE.tooltip.5=Not compatible with Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=Requires GPU framebuffer support.
+
+of.options.SHOW_GL_ERRORS=Show GL Errors
+of.options.SHOW_GL_ERRORS.tooltip.1=Show OpenGL Errors
+of.options.SHOW_GL_ERRORS.tooltip.2=When enabled OpenGL errors are shown in the chat.
+of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict and
+of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
+of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
+of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Chat Background
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Background
+of.options.CHAT_BACKGROUND.tooltip.2=  Default - fixed width
+of.options.CHAT_BACKGROUND.tooltip.3=  Compact - matches line width
+of.options.CHAT_BACKGROUND.tooltip.4=  OFF - hidden
+
+of.options.CHAT_SHADOW=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.1=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.2=  ON - use text shadow
+of.options.CHAT_SHADOW.tooltip.3=  OFF - no text shadow
