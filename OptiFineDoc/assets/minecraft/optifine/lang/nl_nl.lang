@@ -58,7 +58,7 @@ of.options.capeOF.openEditor=Open Cape Bewerker
 of.options.capeOF.reloadCape=Cape Herladen
 
 of.message.capeOF.openEditor=De OptiFine cape bewerker opent in je web browser.
-of.message.capeOF.reloadCape=The cape zal herladen in 15 seconde.
+of.message.capeOF.reloadCape=The cape zal herladen in 15 seconden.
 
 of.message.capeOF.error1=Mojang authenticatie mislukt.
 of.message.capeOF.error2=Error: %s

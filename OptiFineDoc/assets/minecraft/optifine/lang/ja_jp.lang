@@ -1,6 +1,6 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ----
+#   CrafterKina 2014-01-04 ---- 
 
 # General
 of.general.ambiguous=不明確
@@ -57,10 +57,22 @@ of.message.loadingVisibleChunks=可視チャンクを読み込み中
 
 of.options.skinCustomisation.ofCape=OptiFineマント...
 
+of.options.capeOF.title=OptiFineマント
+of.options.capeOF.openEditor=OptiFineマントエディター
+of.options.capeOF.reloadCape=マントを再読み込み
+of.options.capeOF.copyEditorLink=リンクをクリップボードにコピー
+
+of.message.capeOF.openEditor=OptiFineマントエディターは、ウェブブラウザで開く必要があります。
+of.message.capeOF.openEditorError=ウェブブラウザでエディタリンクを開く時にエラーが発生しました。
+of.message.capeOF.reloadCape=マントは15秒で再読込されます。
+
+of.message.capeOF.error1=Mojang認証に失敗しました。
+of.message.capeOF.error2=エラー: %s
+
 # Video settings
 
 options.graphics.tooltip.1=グラフィックス
-options.graphics.tooltip.2=  処理優先  - 低品質、低負荷
+options.graphics.tooltip.2=  処理優先 - 低品質、低負荷
 options.graphics.tooltip.3=  描画優先 - 高品質、高負荷
 options.graphics.tooltip.4=葉の透過、アイテムやMobの影、ドロップアイテムの3D描写、
 options.graphics.tooltip.5=厚みのある雲、水の2パスレンダリング、といったグラフィック効果を変更します。
@@ -112,6 +124,13 @@ options.anaglyph.tooltip.1=3Dアナグリフ
 options.anaglyph.tooltip.2=それぞれの目に別々の色を使うことで
 options.anaglyph.tooltip.3=立体視を可能にする機能を有効にします。
 options.anaglyph.tooltip.4=赤青3Dメガネが必要です。
+
+options.attackIndicator.tooltip.1=攻撃インジケータの位置を設定します。
+options.attackIndicator.tooltip.2=  クロスヘア - クロスヘアの下
+options.attackIndicator.tooltip.3=  ホットバー - ホットバーの横
+options.attackIndicator.tooltip.4=  オフ - 攻撃インジケータ無し
+options.attackIndicator.tooltip.5=攻撃インジケータは、現在装備しているアイテムの
+options.attackIndicator.tooltip.6=攻撃力を表示します。
 
 of.options.ALTERNATE_BLOCKS=代替ブロック
 of.options.ALTERNATE_BLOCKS.tooltip.1=代替ブロック
@@ -524,6 +543,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=光源となるアイテム (松明、グロ
 of.options.DYNAMIC_LIGHTS.tooltip.6=手に持っているか、他のプレイヤーが装備しているか、
 of.options.DYNAMIC_LIGHTS.tooltip.7=地上に投げ出されている時に、周囲を照らします。
 
+options.biomeBlendRadius.tooltip.1=バイオーム間の色の遷移を滑らかにする
+options.biomeBlendRadius.tooltip.2=  オフ - 混じりなし (低負荷)
+options.biomeBlendRadius.tooltip.3=  5x5 - 普通の混じり (初期値)
+options.biomeBlendRadius.tooltip.4=  15x15 - 最大の混じり (高負荷)
+options.biomeBlendRadius.tooltip.5=値が大きいと大きなラグが発生し、
+options.biomeBlendRadius.tooltip.6=チャンクの読み込み速度が低下する可能性があります。
+
 # Performance
 
 of.options.SMOOTH_FPS=FPS安定化処理
@@ -664,12 +690,12 @@ options.fullscreen.tooltip.3=  オフ - ウィンドウモード
 options.fullscreen.tooltip.4=フルスクリーンでの処理の速さは
 options.fullscreen.tooltip.5=グラフィックボードに左右されます。
 
-of.options.FULLSCREEN_MODE=フルスクリーンの種類
-of.options.FULLSCREEN_MODE.tooltip.1=フルスクリーンの種類
-of.options.FULLSCREEN_MODE.tooltip.2=  デフォルト - デスクトップスクリーンの解像度 高負荷
-of.options.FULLSCREEN_MODE.tooltip.3=  幅x高 - カスタム解像度 おそらく低負荷
-of.options.FULLSCREEN_MODE.tooltip.4=フルスクリーンモードにて使用される解像度です。
-of.options.FULLSCREEN_MODE.tooltip.5=低い解像度では一般的に、より速くなるでしょう。
+options.fullscreen.resolution=フルスクリーンの種類
+options.fullscreen.resolution.tooltip.1=フルスクリーンの種類
+options.fullscreen.resolution.tooltip.2=  デフォルト - デスクトップスクリーンの解像度 高負荷
+options.fullscreen.resolution.tooltip.3=  幅x高 - カスタム解像度 おそらく低負荷
+options.fullscreen.resolution.tooltip.4=フルスクリーンモードにて使用される解像度です。
+options.fullscreen.resolution.tooltip.5=低い解像度では一般的に、より速くなるでしょう。
 
 of.options.SHOW_FPS=FPSを表示
 of.options.SHOW_FPS.tooltip.1=コンパクトなFPSと描画情報を表示
