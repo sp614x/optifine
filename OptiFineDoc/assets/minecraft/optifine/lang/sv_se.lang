@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2020-07-29
+#   Regnander (_Spitz) 2016-01-18 ---- 2020-08-02
 
 # General
 of.general.ambiguous=tvetydig
@@ -592,17 +592,17 @@ of.options.SMOOTH_WORLD.tooltip.1=Tar bort prestandaproblem som orsakas av den i
 of.options.SMOOTH_WORLD.tooltip.2=servern.
 of.options.SMOOTH_WORLD.tooltip.3=  AV - ingen stabilisering, bildfrekvensen kan variera
 of.options.SMOOTH_WORLD.tooltip.4=  PÅ - bildfrekvensen stabiliseras
-of.options.SMOOTH_WORLD.tooltip.5=Stabiliserar bildfrekvensen genom att fördela inläsningen
-of.options.SMOOTH_WORLD.tooltip.6=av den interna servern.
+of.options.SMOOTH_WORLD.tooltip.5=Stabiliserar bildfrekvensen genom att fördela hur den
+of.options.SMOOTH_WORLD.tooltip.6=interna servern belastas.
 of.options.SMOOTH_WORLD.tooltip.7=Fungerar endast på lokala världar (enspelarläge).
 
 of.options.FAST_RENDER=Snabb rendering
 of.options.FAST_RENDER.tooltip.1=Snabb rendering
 of.options.FAST_RENDER.tooltip.2=  AV - standardrendering (standard)
 of.options.FAST_RENDER.tooltip.3=  PÅ - optimerad rendering (snabbare)
-of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som sänker
-of.options.FAST_RENDER.tooltip.5=processorns läsninghastighet och kan höja bild-
-of.options.FAST_RENDER.tooltip.6=frekvensen avsevärt.
+of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som minskar
+of.options.FAST_RENDER.tooltip.5=processorns belastning och kan höja bildfrekvensen
+of.options.FAST_RENDER.tooltip.6=avsevärt.
 of.options.FAST_RENDER.tooltip.7=Detta alternativ kan skapa en konflikt med andra moddar.
 
 of.options.FAST_MATH=Snabb matematik
@@ -642,22 +642,22 @@ of.options.LAZY_CHUNK_LOADING.tooltip.8=Fungerar bara i lokala världar (enspela
 
 of.options.RENDER_REGIONS=Renderingsområden
 of.options.RENDER_REGIONS.tooltip.1=Renderingsområden
-of.options.RENDER_REGIONS.tooltip.2=  AV - använd inte renderingsområden (standard)
+of.options.RENDER_REGIONS.tooltip.2=  AV - inbyggd rendering (standard)
 of.options.RENDER_REGIONS.tooltip.3=  PÅ - använd renderingsområden
-of.options.RENDER_REGIONS.tooltip.4=Renderingsområden gör att terräng renderas snabbare
-of.options.RENDER_REGIONS.tooltip.5=vid högre renderingsavstånd. Mer effektivt när VBO är
-of.options.RENDER_REGIONS.tooltip.6=aktiverat.
+of.options.RENDER_REGIONS.tooltip.4=Renderar terräng snabbare genom att optimera hur
+of.options.RENDER_REGIONS.tooltip.5=grafikprocessorns belastas. Mer effektivt vid högre
+of.options.RENDER_REGIONS.tooltip.6=renderingsavstånd.
 of.options.RENDER_REGIONS.tooltip.7=Rekommenderas inte för integrerade grafikkort.
 
 of.options.SMART_ANIMATIONS=Smarta animeringar
 of.options.SMART_ANIMATIONS.tooltip.1=Smarta animeringar
-of.options.SMART_ANIMATIONS.tooltip.2= AV - använd inte smarta animeringar (standard)
-of.options.SMART_ANIMATIONS.tooltip.3= PÅ - använd smarta animeringar
+of.options.SMART_ANIMATIONS.tooltip.2=  AV - använd inte smarta animeringar (standard)
+of.options.SMART_ANIMATIONS.tooltip.3=  PÅ - använd smarta animeringar (snabbare)
 of.options.SMART_ANIMATIONS.tooltip.4=Med smarta animeringar kommer spelet endast animera
 of.options.SMART_ANIMATIONS.tooltip.5=texturer som för tillfället är synliga på skärmen.
 of.options.SMART_ANIMATIONS.tooltip.6=Detta reducerar prestandaproblem och höjer bild-
 of.options.SMART_ANIMATIONS.tooltip.7=frekvensen. Speciellt användbart för stora modpaket
-of.options.SMART_ANIMATIONS.tooltip.8=och resurspaket i HD.
+of.options.SMART_ANIMATIONS.tooltip.8=och HD-resurspaket.
 
 # Animations
 
