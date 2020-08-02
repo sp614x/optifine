@@ -85,22 +85,7 @@ options.graphics.tooltip.5=Els canvis s'aprecien en els núvols, en les fulles,
 options.graphics.tooltip.6=en la pluja, en els objectes tiras i en les
 options.graphics.tooltip.7=puntes (o bordes) de la pantalla del joc.
 
-of.options.renderDistance.tiny=Mínim
-of.options.renderDistance.short=Curt
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Llunyà
-of.options.renderDistance.extreme=Extrem
-of.options.renderDistance.insane=Insà
-of.options.renderDistance.ludicrous=A lo bestia
 
-options.renderDistance.tooltip.1=  2 Mínimo - 32m (increíblement ràpid)
-options.renderDistance.tooltip.2=  4 Corto - 64m (ràpid)
-options.renderDistance.tooltip.3=  8 Normal - 128m (recomenat)
-options.renderDistance.tooltip.4=  16 Lejano - 256m (pot anar lent)
-options.renderDistance.tooltip.5=  32 Extremo - 512m (pot anar horrible!)
-options.renderDistance.tooltip.6=  48 Insano - 768m, requereix utilitzar 2GB de RAM
-options.renderDistance.tooltip.7=  64 A lo bestia - 1024m, requereix utilitzar 3GB de RAM
-options.renderDistance.tooltip.8=A partir de 16 chunks serà inútil en multijugador.
 
 options.ao.tooltip.1=Iluminació suau
 options.ao.tooltip.2=  NO - sense iluminació suau (ràpid)

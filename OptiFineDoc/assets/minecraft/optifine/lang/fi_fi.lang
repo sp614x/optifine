@@ -73,22 +73,7 @@ options.graphics.tooltip.3=  Hieno - korkeampi laatu, hitaampi
 options.graphics.tooltip.4=Vaihtaa pilvien, lehtien, veden,
 options.graphics.tooltip.5=varjojen ja ruohon sivujen ulkonäköä
 
-of.options.renderDistance.tiny=Pieni
-of.options.renderDistance.short=Lyhyt
-of.options.renderDistance.normal=Keskipitkä
-of.options.renderDistance.far=Pitkä
-of.options.renderDistance.extreme=Äärimmäinen
-of.options.renderDistance.insane=Hullu
-of.options.renderDistance.ludicrous=Älytön
-
 options.renderDistance.tooltip.1=Näköetäisyys
-options.renderDistance.tooltip.2=  2 Pieni - 32m (nopein)
-options.renderDistance.tooltip.3=  8 Keskipitkä - 128m (normaali)
-options.renderDistance.tooltip.4=  16 Pitkä - 256m (hidas)
-options.renderDistance.tooltip.5=  32 Äärimmäinen - 512m (hitain!) erittäinen paljon resursseja kuluttava
-options.renderDistance.tooltip.6=  48 Hullu - 768m, vaati 2gt välimuistia varattuna
-options.renderDistance.tooltip.7=  64 Älytön - 1024m, vaati 3gt välimuistia varattuna
-options.renderDistance.tooltip.8=Luvut 16 tai isommat toimivat vain paikallisissa maailmoissa.
 
 options.ao.tooltip.1=Pehmeä valaistus
 options.ao.tooltip.2=  Pois - ei pehmeää valaistusta (nopeampi)
