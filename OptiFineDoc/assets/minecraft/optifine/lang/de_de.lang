@@ -67,8 +67,10 @@ of.options.skinCustomisation.ofCape=OptiFine-Umhang …
 of.options.capeOF.title=OptiFine-Umhang
 of.options.capeOF.openEditor=Umhang-Editor öffnen
 of.options.capeOF.reloadCape=Umhang neu laden
+of.options.capeOF.copyEditorLink=Link in Zwischenablage kopieren
 
 of.message.capeOF.openEditor=Der OptiFine-Umhang-Editor sollte sich in einem Web-Browser öffnen.
+of.message.capeOF.openEditorError=Beim Öffnen des Links ist ein Fehler aufgetreten.
 of.message.capeOF.reloadCape=Dein Umhang wird in 15 Sekunden neu geladen.
 
 of.message.capeOF.error1=Mojang-Authentifizierung fehlgeschlagen.
@@ -155,6 +157,13 @@ options.anaglyph.tooltip.1=3D-Effekt
 options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
 options.anaglyph.tooltip.3=Verwendung unterschiedlicher Farben für jedes Auge.
 options.anaglyph.tooltip.4=Kann nur mit einer 3D-Brille benutzt werden.
+
+options.attackIndicator.tooltip.1=Position der Angriffsanzeige
+options.attackIndicator.tooltip.2=  Fadenkreuz - Unter dem Fadenkreuz
+options.attackIndicator.tooltip.3=  Schnellzugriffsleiste - Neben der Schnellzugriffsleiste
+options.attackIndicator.tooltip.4=  Aus - Keine Angriffsanzeige
+options.attackIndicator.tooltip.5=Die Angriffsanzeige zeigt die Angriffsstärke des
+options.attackIndicator.tooltip.6=aktuell ausgerüsteten Gegenstandes.
 
 of.options.ALTERNATE_BLOCKS=Blockvarianten
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvarianten
@@ -518,8 +527,6 @@ of.options.SHOW_CAPES=Umhänge
 of.options.SHOW_CAPES.tooltip.1=Umhänge
 of.options.SHOW_CAPES.tooltip.2=  An - Umhänge werden dargestellt (Standard)
 of.options.SHOW_CAPES.tooltip.3=  Aus - Umhänge werden nicht dargestellt
-of.options.SHOW_CAPES.tooltip.4=Diese Einstellung beeinflusst normalerweise nicht die
-of.options.SHOW_CAPES.tooltip.5=Leistung.
 
 of.options.TRANSLUCENT_BLOCKS=Blocktransparenz
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocktransparenz
@@ -580,6 +587,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.4=  Schön - Schöne dyn. Beleuchtung (Echtzei
 of.options.DYNAMIC_LIGHTS.tooltip.5=Leuchtende Gegenstände (Fackel, Glowstone, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=beleuchten die Umgebung, wenn sie in der Hand gehalten,
 of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedroppt werden.
+
+options.biomeBlendRadius.tooltip.1=Glättung der Farbübergänge zwischen Biomen
+options.biomeBlendRadius.tooltip.2=  Aus - Keine Vermischung (am schnellsten)
+options.biomeBlendRadius.tooltip.3=  5x5 - Normale Vermischung (Standard)
+options.biomeBlendRadius.tooltip.4=  15x15 - Maximale Vermischung (am langsamsten)
+options.biomeBlendRadius.tooltip.5=Höhere Werte können erhebliche Lag-Spitzen erzeugen
+options.biomeBlendRadius.tooltip.6=und das Chunkladen verlangsamen.
 
 # Performance
 
@@ -727,13 +741,13 @@ options.fullscreen.tooltip.4=Der Vollbildschirmmodus könnte schneller oder lang
 options.fullscreen.tooltip.5=als der Fenstermodus sein, das kommt auf die Grafik-
 options.fullscreen.tooltip.6=karte an.
 
-of.options.FULLSCREEN_MODE=Vollbild-Auflösung
-of.options.FULLSCREEN_MODE.tooltip.1=Vollbild-Auflösung
-of.options.FULLSCREEN_MODE.tooltip.2=  Standard - Benutze Bildschirmauflösung, langsamer
-of.options.FULLSCREEN_MODE.tooltip.3=  BxH - Benutze andere Auflösung, könnte schneller sein
-of.options.FULLSCREEN_MODE.tooltip.4=Die ausgewählte Auflösung wird im Vollbildschirmmodus
-of.options.FULLSCREEN_MODE.tooltip.5=verwendet (F11). Kleinere Auflösungen sollten generell
-of.options.FULLSCREEN_MODE.tooltip.6=schneller sein.
+options.fullscreen.resolution=Vollbild-Auflösung
+options.fullscreen.resolution.tooltip.1=Vollbild-Auflösung
+options.fullscreen.resolution.tooltip.2=  Standard - Benutze Bildschirmauflösung, langsamer
+options.fullscreen.resolution.tooltip.3=  BxH - Benutze andere Auflösung, könnte schneller sein
+options.fullscreen.resolution.tooltip.4=Die ausgewählte Auflösung wird im Vollbildschirmmodus
+options.fullscreen.resolution.tooltip.5=verwendet (F11). Kleinere Auflösungen sollten generell
+options.fullscreen.resolution.tooltip.6=schneller sein.
 
 of.options.SHOW_FPS=Bildrate anzeigen
 of.options.SHOW_FPS.tooltip.1=Zeige kurze Bildrate- und Render-Informationen
