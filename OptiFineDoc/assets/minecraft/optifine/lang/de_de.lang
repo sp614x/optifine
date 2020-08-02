@@ -656,17 +656,17 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Nur im Einzelspielermodus effektiv.
 
 of.options.RENDER_REGIONS=Render-Regionen
 of.options.RENDER_REGIONS.tooltip.1=Render-Regionen
-of.options.RENDER_REGIONS.tooltip.2= Aus - (Standard) Render-Regionen deaktiviert
-of.options.RENDER_REGIONS.tooltip.3= An - Render-Regionen aktiviert
+of.options.RENDER_REGIONS.tooltip.2= Aus - Vanilla Rendern (Standard)
+of.options.RENDER_REGIONS.tooltip.3= An - Render-Regionen aktiviert (schneller)
 of.options.RENDER_REGIONS.tooltip.4=Render-Regionen ermöglichen ein schnelleres Rendern
-of.options.RENDER_REGIONS.tooltip.5=des Geländes bei großen Render-Distanzen.
-of.options.RENDER_REGIONS.tooltip.6=Effektiver, wenn VBOs aktiviert sind.
+of.options.RENDER_REGIONS.tooltip.5=des Geländes durch optimieren der GPU Last.
+of.options.RENDER_REGIONS.tooltip.6=Effektiver bei großen Render-Distanzen.
 of.options.RENDER_REGIONS.tooltip.6=Nicht für integrierte Grafikkarten empfohlen.
 
 of.options.SMART_ANIMATIONS=Intelligente Animationen
 of.options.SMART_ANIMATIONS.tooltip.1=Intelligente Animationen
 of.options.SMART_ANIMATIONS.tooltip.2= Aus - Keine intelligenten Animationen (Standard)
-of.options.SMART_ANIMATIONS.tooltip.3= An - Benutze intelligente Animationen
+of.options.SMART_ANIMATIONS.tooltip.3= An - Benutze intelligente Animationen (schneller)
 of.options.SMART_ANIMATIONS.tooltip.4=Es werden nur Texturen animiert, die gerade auf
 of.options.SMART_ANIMATIONS.tooltip.5=dem Bildschirm sichtbar sind.
 of.options.SMART_ANIMATIONS.tooltip.6=Dies reduziert Lag-Spitzen und erhöht die FPS.
