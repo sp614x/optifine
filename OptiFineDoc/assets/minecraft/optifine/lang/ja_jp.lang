@@ -1,6 +1,7 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
 #   CrafterKina 2014-01-04 ---- 
+#   syokkendesuyo 2020-08-04
 
 # General
 of.general.ambiguous=不明確
@@ -37,6 +38,9 @@ of.message.shaders.af2=品質の設定 → 異方性フィルタリング をオ
 of.message.shaders.fr1=シェーダーは描画の最適化と共存できません。
 of.message.shaders.fr2=演出の設定 → 描画の最適化 をオフにしてください。
 
+of.message.shaders.gf1=シェーダーはグラフィックスの「最高設定！」と互換性がありません。
+of.message.shaders.gf2=グラフィックスの設定を描画優先または処理優先に変更してください。
+
 of.message.shaders.an1=シェーダーは3Dアナグリフと共存できません。
 of.message.shaders.an2=その他の設定 → 3Dアナグリフ をオフにしてください。
 
@@ -44,7 +48,7 @@ of.message.shaders.nv1=このシェーダーパックはより新しいOptiFine 
 of.message.shaders.nv2=続行しますか？
 
 of.message.newVersion=新しい§eOptiFine§fが公開されました: §e%s§f
-of.message.java64Bit=パフォーマンスを高めるために§e64-bit Java§fが利用できます。
+of.message.java64Bit=最良のパフォーマンスを発揮するためには§e64-bit Java§f使用してください。
 of.message.openglError=§eOpenGLエラー§f: %s (%s)
 
 of.message.shaders.loading=シェーダーをロード中: %s
@@ -52,7 +56,7 @@ of.message.shaders.loading=シェーダーをロード中: %s
 of.message.other.reset=全ての設定を元の状態に戻してもよろしいですか？
 
 of.message.loadingVisibleChunks=可視チャンクを読み込み中
- 
+
 # Skin customization
 
 of.options.skinCustomisation.ofCape=OptiFineマント...
@@ -74,8 +78,10 @@ of.message.capeOF.error2=エラー: %s
 options.graphics.tooltip.1=グラフィックス
 options.graphics.tooltip.2=  処理優先 - 低品質、低負荷
 options.graphics.tooltip.3=  描画優先 - 高品質、高負荷
-options.graphics.tooltip.4=葉の透過、アイテムやMobの影、ドロップアイテムの3D描写、
-options.graphics.tooltip.5=厚みのある雲、水の2パスレンダリング、といったグラフィック効果を変更します。
+options.graphics.tooltip.4=  最高設定！ - 透過ブロックに対する最高品質、非常に高負荷
+options.graphics.tooltip.5=葉の透過、アイテムやMobの影、ドロップアイテムの3D描写、厚みのある雲、
+options.graphics.tooltip.6=水の2パスレンダリング、といったグラフィック効果を変更します。
+options.graphics.tooltip.7=最高品質！はシェーダーと互換性がありません。                                                                            
 
 of.options.renderDistance.tiny=最短
 of.options.renderDistance.short=短い
@@ -90,9 +96,15 @@ options.renderDistance.tooltip.2=  2 最短 - 32m (最低負荷)
 options.renderDistance.tooltip.3=  8 普通 - 128m (普通)
 options.renderDistance.tooltip.4=  16 遠い - 256m (高負荷)
 options.renderDistance.tooltip.5=  32 過激 - 512m (超高負荷！) 大量のリソースを要求します
-options.renderDistance.tooltip.6=  48 狂気 - 768m、2GBのメモリー割り当てが必要です
-options.renderDistance.tooltip.7=  64 不条理 - 1024m、3GBのメモリー割り当てが必要です
+options.renderDistance.tooltip.6=  48 狂気 - 768m、2GB以上のメモリー割り当てが必要です
+options.renderDistance.tooltip.7=  64 不条理 - 1024m、3GB以上のメモリー割り当てが必要です
 options.renderDistance.tooltip.8=遠いを超える描画距離はシングルのワールドでのみ効果があります。
+
+options.entityDistanceScaling.tooltip.1=エンティティの描画距離
+options.entityDistanceScaling.tooltip.2=  50%% - 低負荷
+options.entityDistanceScaling.tooltip.3=  100%% - デフォルト
+options.entityDistanceScaling.tooltip.4=  500%% - 高負荷
+options.entityDistanceScaling.tooltip.5=エンティティが表示される最大距離を変更します。
 
 options.ao.tooltip.1=スムースライティング
 options.ao.tooltip.2=  オフ - スムースライティングを使用しない (低負荷)
@@ -317,15 +329,16 @@ of.options.MIPMAP_TYPE.tooltip.4=  線形補間 - 通常のスムージング
 of.options.MIPMAP_TYPE.tooltip.5=  バイリニア補間 - 繊細なスムージング
 of.options.MIPMAP_TYPE.tooltip.6=  トライリニア補間 - 最高級のスムージング (高負荷)
 
+
 of.options.AA_LEVEL=アンチエイリアス
 of.options.AA_LEVEL.tooltip.1=アンチエイリアス
 of.options.AA_LEVEL.tooltip.2= オフ -  (初期値) アンチエイリアスを行わない (低負荷)
 of.options.AA_LEVEL.tooltip.3= 2〜16 - アンチエイリアスされた輪郭 (高負荷)
 of.options.AA_LEVEL.tooltip.4=アンチエイリアスは輪郭のギザギザや
-of.options.AA_LEVEL.tooltip.5=急激な色の変化を滑らかにします。
-of.options.AA_LEVEL.tooltip.6=有効化すると大幅にFPSが下がります。
-of.options.AA_LEVEL.tooltip.7=すべてのレベルがすべてのグラフィックカードでサポートされているわけではありません。
-of.options.AA_LEVEL.tooltip.8=有効化は再起動後です！
+of.options.AA_LEVEL.tooltip.5=急激な色の変化を滑らかに表現します。
+of.options.AA_LEVEL.tooltip.6=有効化すると大幅にFPSが低下します。
+of.options.AA_LEVEL.tooltip.7=グラフィックカードの仕様によって一部のレベルまたは全レベルが使用できない場合もあります。
+of.options.AA_LEVEL.tooltip.8=この設定はMinecraftの再起動が必要です！
 
 of.options.AF_LEVEL=異方性フィルタリング
 of.options.AF_LEVEL.tooltip.1=異方性フィルタリング
@@ -483,7 +496,7 @@ of.options.SKY=空
 of.options.SKY.tooltip.1=空
 of.options.SKY.tooltip.2=  オン - 空を描画する 高負荷
 of.options.SKY.tooltip.3=  オフ  - 空を描画しない 低負荷
-of.options.SKY.tooltip.4=オフにしても太陽や月はそのままです。
+of.options.SKY.tooltip.4=この設定をオフにしても太陽や月は表示されます。
 
 of.options.STARS=星
 of.options.STARS.tooltip.1=星
@@ -618,7 +631,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.2= オフ - 通常のサーバーチャン
 of.options.LAZY_CHUNK_LOADING.tooltip.3= オン - 遅延サーバーチャンク読み込み (滑らか)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=チャンク読み込み処理を数Tickに分散させることで
 of.options.LAZY_CHUNK_LOADING.tooltip.5=統合サーバーのチャンク読み込み処理を滑らかにします。
-of.options.LAZY_CHUNK_LOADING.tooltip.6=ワールドの一部に欠けが発生するようならOFFにしてください。
+of.options.LAZY_CHUNK_LOADING.tooltip.6=ワールドの一部に欠損が発生する場合はオフにしてください。
 of.options.LAZY_CHUNK_LOADING.tooltip.7=ローカルワールド (シングルプレイヤー) の時のみ有効です。
 
 of.options.RENDER_REGIONS=領域描画
@@ -636,7 +649,7 @@ of.options.SMART_ANIMATIONS.tooltip.3= オン - スマートアニメーショ�
 of.options.SMART_ANIMATIONS.tooltip.4=スマートアニメーションを使えばテクスチャのアニメーション処理は
 of.options.SMART_ANIMATIONS.tooltip.5=見える範囲でのみ行われるようになります。
 of.options.SMART_ANIMATIONS.tooltip.6=ラグを減らし、FPSを増やすことができます。
-of.options.SMART_ANIMATIONS.tooltip.7=特に、大きなModパックや高解像度のリソースパックに対して有用でしょう。
+of.options.SMART_ANIMATIONS.tooltip.7=特に、大きなModパックや高解像度のリソースパックに対してです。
 
 # Animations
 
@@ -685,8 +698,8 @@ of.options.WEATHER=天候
 of.options.WEATHER.tooltip.1=天候
 of.options.WEATHER.tooltip.2=  オン - 天候あり 高負荷
 of.options.WEATHER.tooltip.3=  オフ - 天候なし 低負荷
-of.options.WEATHER.tooltip.4=天候コントロール機能の有効/無効。
-of.options.WEATHER.tooltip.5=シングルプレイでのみ有効。
+of.options.WEATHER.tooltip.4=天候コントロール機能の設定を変更できます。
+of.options.WEATHER.tooltip.5=シングルプレイでのみ利用可能な設定です。
 
 of.options.time.dayOnly=昼のみ
 of.options.time.nightOnly=夜のみ
@@ -696,8 +709,8 @@ of.options.TIME.tooltip.1=クリエイティブの時刻
 of.options.TIME.tooltip.2= デフォルト - 通常の昼夜サイクル
 of.options.TIME.tooltip.3= 昼のみ - 昼のみ
 of.options.TIME.tooltip.4= 夜のみ - 夜のみ
-of.options.TIME.tooltip.5=クリエイティブモードで
-of.options.TIME.tooltip.6=シングルプレイの時のみ有効。
+of.options.TIME.tooltip.5=シングルプレイ（ローカルワールド）の場合でかつ
+of.options.TIME.tooltip.6=クリエイティブモードの場合に適用される設定です。
 
 options.fullscreen.tooltip.1=フルスクリーン
 options.fullscreen.tooltip.2=  オン - フルスクリーンモード
@@ -710,7 +723,7 @@ options.fullscreen.resolution.tooltip.1=フルスクリーンの種類
 options.fullscreen.resolution.tooltip.2=  デフォルト - デスクトップスクリーンの解像度 高負荷
 options.fullscreen.resolution.tooltip.3=  幅x高 - カスタム解像度 おそらく低負荷
 options.fullscreen.resolution.tooltip.4=フルスクリーンモードにて使用される解像度です。
-options.fullscreen.resolution.tooltip.5=低い解像度では一般的に、より速くなるでしょう。
+options.fullscreen.resolution.tooltip.5=低い解像度に設定した場合、通常FPSが向上します。
 
 of.options.SHOW_FPS=FPSを表示
 of.options.SHOW_FPS.tooltip.1=コンパクトなFPSと描画情報を表示
