@@ -749,8 +749,8 @@ of.options.SHOW_GL_ERRORS.tooltip.6=yazılacaktır. Bu durum FPS düşüşüne s
 
 # Chat Settings
  
-of.options.CHAT_BACKGROUND=Sohbet Arkaplanı
-of.options.CHAT_BACKGROUND.tooltip.1=Sohbet Arkaplanı
+of.options.CHAT_BACKGROUND=Sohbet Arka Planı
+of.options.CHAT_BACKGROUND.tooltip.1=Sohbet Arka Planı
 of.options.CHAT_BACKGROUND.tooltip.2=  Varsayılan - düzgün genişlik
 of.options.CHAT_BACKGROUND.tooltip.3=  Sıkışık - metinle eş uzunlukta
 of.options.CHAT_BACKGROUND.tooltip.4=  KAPALI - arka plan yok
