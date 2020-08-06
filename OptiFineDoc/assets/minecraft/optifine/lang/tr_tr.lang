@@ -716,7 +716,7 @@ of.options.SHOW_FPS.tooltip.3=  C: - işlenen yığınlar
 of.options.SHOW_FPS.tooltip.4=  E: - işlenen varlıklar + bloke varlıklar
 of.options.SHOW_FPS.tooltip.5=  U: - yığın güncellemeri
 of.options.SHOW_FPS.tooltip.6=Bu küçük kare hızı bilgisi ekranı sadece
-of.options.SHOW_FPS.tooltip.7=hata giderme kapalıyken gözükür.
+of.options.SHOW_FPS.tooltip.7=hata giderme menüsü kapalıyken gözükür.
 
 of.options.save.45s=45sn
 of.options.save.90s=90sn
