@@ -33,6 +33,8 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Fast - fast colour blending (faster)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Controls the colour blending of translucent blocks
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=with different colour (stained glass, water, ice)
 
+options.biomeBlendRadius.tooltip.1=Smooths the colour transition between biomes
+
 # Performance
 
 of.options.SMOOTH_FPS.tooltip.1=Stabilises FPS by flushing the graphic driver buffers.
