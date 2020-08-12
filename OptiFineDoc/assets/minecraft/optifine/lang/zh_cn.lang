@@ -641,16 +641,16 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于单人游戏的本地世界�
 
 of.options.RENDER_REGIONS=区域渲染
 of.options.RENDER_REGIONS.tooltip.1=区域渲染
-of.options.RENDER_REGIONS.tooltip.2= 关闭 - 不使用区域渲染（默认）
-of.options.RENDER_REGIONS.tooltip.3= 开启 - 使用区域渲染
-of.options.RENDER_REGIONS.tooltip.4=区域渲染可使远处的地形渲染得更快。
-of.options.RENDER_REGIONS.tooltip.5=当启用顶点缓冲区对象时此选项将更有效。
+of.options.RENDER_REGIONS.tooltip.2= 关闭 - 原版的渲染（默认）
+of.options.RENDER_REGIONS.tooltip.3= 开启 - 使用区域渲染（更快）
+of.options.RENDER_REGIONS.tooltip.4=通过优化 GPU 负载加速地形渲染。
+of.options.RENDER_REGIONS.tooltip.5=渲染距离较高时此选项将更有效。
 of.options.RENDER_REGIONS.tooltip.6=不推荐集成显卡使用。
 
 of.options.SMART_ANIMATIONS=智能动态材质
 of.options.SMART_ANIMATIONS.tooltip.1=智能动态材质
 of.options.SMART_ANIMATIONS.tooltip.2= 关闭 - 不使用智能动态材质（默认）
-of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动态材质
+of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动态材质（更快）
 of.options.SMART_ANIMATIONS.tooltip.4=当使用智能动态材质时，游戏仅更新
 of.options.SMART_ANIMATIONS.tooltip.5=当前屏幕可见的动态材质。
 of.options.SMART_ANIMATIONS.tooltip.6=此选项可减少游戏刻突发延迟并提升 FPS。
