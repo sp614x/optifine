@@ -83,6 +83,7 @@ gbuffers_block               block_entities                        gbuffers_terr
 gbuffers_beaconbeam          beacon beam                           gbuffers_textured
 gbuffers_item                <not used>                            gbuffers_textured_lit
 gbuffers_entities            entities                              gbuffers_textured_lit
+gbuffers_entities_glowing    glowing entities, spectral effect     gbuffers_entities
 gbuffers_armor_glint         glint on armor and handheld items     gbuffers_textured
 gbuffers_spidereyes          eyes of spider, enderman and dragon   gbuffers_textured
 gbuffers_hand                hand and opaque handheld objects      gbuffers_textured_lit
@@ -179,6 +180,7 @@ uniform int entityId;                           entity ID
 uniform int blockEntityId;                      block entity ID (block ID for the tile entity, only for blocks specified in "block.properties")
 uniform ivec4 blendFunc;                        blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)
 uniform int instanceId;                         instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies
+uniform float playerMood;                       player mood (0.0-1.0), increases the longer a player stays underground
 
 GBuffers Uniforms
 ================= 
