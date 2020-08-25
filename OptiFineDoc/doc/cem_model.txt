@@ -34,7 +34,7 @@
 #                        front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, 
 #                        front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
 # donkey                 <same as horse>, left_chest, right_chest
-# dolphin                body, back_fin, left_fin, right_fin, tail
+# dolphin                body, back_fin, left_fin, right_fin, tail, tail_fin, head
 # drowned                head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # ender_chest            lid, base, knob
 # end_crystal            cube, glass, base
