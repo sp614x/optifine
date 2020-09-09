@@ -367,7 +367,7 @@ of.options.BETTER_SNOW=Parempi lumi
 of.options.BETTER_SNOW.tooltip.1=Parempi lumi
 of.options.BETTER_SNOW.tooltip.2=  Pois - oletus lumi, nopein
 of.options.BETTER_SNOW.tooltip.3=  Päällä - parempi lumi, hitain
-of.options.BETTER_SNOW.tooltip.4=Näyttää lunta läpinäkyvienkuutioden (aidat, korkear ruoho) alla,
+of.options.BETTER_SNOW.tooltip.4=Näyttää lunta läpinäkyvienkuutioden (aidat, korkea ruoho) alla,
 of.options.BETTER_SNOW.tooltip.5=kun kuution vieressä on lunta.
 
 of.options.CUSTOM_FONTS=Mukautetut fontit
