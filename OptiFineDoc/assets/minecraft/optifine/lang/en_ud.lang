@@ -43,14 +43,14 @@ of.message.shaders.gf1=˙ʎɔuɐℲ ɹo ʇsɐℲ oʇ sɔᴉɥdɐɹ⅁ ʇǝs ǝs�
 of.message.shaders.an2=˙ɥdʎꞁᵷɐuⱯ ᗡƐ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔ ʇou ǝɹɐ sɹǝpɐɥS
 of.message.shaders.an1=˙ℲℲO oʇ ɥdʎꞁᵷɐuⱯ ᗡƐ <- ɹǝɥʇO ʇǝs ǝsɐǝꞁԀ
 
-of.message.shaders.nv2=%1$s :uoᴉsɹǝʌ ǝuᴉℲᴉʇdO ɹǝʍǝu ɐ sǝɹᴉnbǝɹ ʞɔɐd ɹǝpɐɥs sᴉɥ⟘
+of.message.shaders.nv2=%s :uoᴉsɹǝʌ ǝuᴉℲᴉʇdO ɹǝʍǝu ɐ sǝɹᴉnbǝɹ ʞɔɐd ɹǝpɐɥs sᴉɥ⟘
 of.message.shaders.nv1=¿ǝnuᴉʇuoɔ oʇ ʇuɐʍ noʎ ǝɹns noʎ ǝɹⱯ
 
-of.message.newVersion=§f%1$s§e :ǝꞁqɐꞁᴉɐʌɐ sᴉ uoᴉsɹǝʌ §fǝuᴉℲᴉʇdO§e ʍǝu Ɐ
-of.message.java64Bit=˙ǝɔuɐɯɹoɟɹǝd ǝsɐǝɹɔuᴉ oʇ §fɐʌɐſ ʇᴉq-߈9§e ꞁꞁɐʇsuᴉ uɐɔ no⅄
-of.message.openglError=(%2$s) %1$s :§fɹoɹɹƎ Ꞁ⅁uǝdO§e
+of.message.newVersion=§f§e%s§f :ǝꞁqɐꞁᴉɐʌɐ sᴉ uoᴉsɹǝʌ §eǝuᴉℲᴉʇdO§r ʍǝu Ɐ
+of.message.java64Bit=§f˙ǝɔuɐɯɹoɟɹǝd ǝsɐǝɹɔuᴉ oʇ §eɐʌɐſ ʇᴉq-߈9§r ꞁꞁɐʇsuᴉ uɐɔ no⅄
+of.message.openglError=§f(%2$s) %1$s :§eɹoɹɹƎ Ꞁ⅁uǝdO
 
-of.message.shaders.loading=%1$s :sɹǝpɐɥs ᵷuᴉpɐoꞀ
+of.message.shaders.loading=%s :sɹǝpɐɥs ᵷuᴉpɐoꞀ
 
 of.message.other.reset=¿sǝnꞁɐʌ ʇꞁnɐɟǝp ɹᴉǝɥʇ oʇ sᵷuᴉʇʇǝs oǝpᴉʌ ꞁꞁɐ ʇǝsǝᴚ
 
@@ -70,7 +70,7 @@ of.message.capeOF.openEditorError=˙ɹǝsʍoɹq qǝʍ ɐ uᴉ ʞuᴉꞁ ɹoʇᴉ
 of.message.capeOF.reloadCape=˙spuoɔǝs ϛ⥝ uᴉ pǝpɐoꞁǝɹ ǝq ꞁꞁᴉʍ ǝdɐɔ ǝɥ⟘
 
 of.message.capeOF.error2=˙pǝꞁᴉɐɟ uoᴉʇɐɔᴉʇuǝɥʇnɐ ᵷuɐɾoW
-of.message.capeOF.error1=%1$s :ɹoɹɹƎ
+of.message.capeOF.error1=%s :ɹoɹɹƎ
 
 # Video settings
 
