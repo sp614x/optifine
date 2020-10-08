@@ -572,7 +572,7 @@ of.options.DYNAMIC_LIGHTS.tooltip.1=动态光源
 of.options.DYNAMIC_LIGHTS.tooltip.2=  关闭 - 无动态光源（默认）
 of.options.DYNAMIC_LIGHTS.tooltip.3=  流畅 - 较快的动态光源（每 500ms 更新一次）
 of.options.DYNAMIC_LIGHTS.tooltip.4=  高品质 - 高品质的动态光源（实时更新）
-of.options.DYNAMIC_LIGHTS.tooltip.5=使得发光的物品（火把、萤石等）
+of.options.DYNAMIC_LIGHTS.tooltip.5=使得发光的物品（火把、荧石等）
 of.options.DYNAMIC_LIGHTS.tooltip.6=被玩家左右手持握、装备或
 of.options.DYNAMIC_LIGHTS.tooltip.7=成为掉落物时照亮周围。
 
@@ -663,7 +663,7 @@ of.options.animation.allOff=全部关闭
 of.options.animation.dynamic=动态
 
 of.options.ANIMATED_WATER=水面动画
-of.options.ANIMATED_LAVA=岩浆动画
+of.options.ANIMATED_LAVA=熔岩动画
 of.options.ANIMATED_FIRE=火焰动画
 of.options.ANIMATED_PORTAL=传送门动画
 of.options.ANIMATED_REDSTONE=红石动画
@@ -675,7 +675,7 @@ of.options.WATER_PARTICLES=水面粒子
 of.options.RAIN_SPLASH=雨滴飞溅
 of.options.PORTAL_PARTICLES=传送门粒子
 of.options.POTION_PARTICLES=药水粒子
-of.options.DRIPPING_WATER_LAVA=水滴/岩浆滴
+of.options.DRIPPING_WATER_LAVA=水滴/熔岩滴
 of.options.ANIMATED_TERRAIN=地形动画
 of.options.ANIMATED_TEXTURES=动态材质
 of.options.FIREWORK_PARTICLES=烟花粒子
