@@ -633,16 +633,16 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (ü
 
 of.options.RENDER_REGIONS=Renderdusalad
 of.options.RENDER_REGIONS.tooltip.1=Renderdusalad
-of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - ära kasuta renderdusalasid (vaikimisi)
-of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid
-of.options.RENDER_REGIONS.tooltip.4=Renderdusalad lubavad kiiremat maastiku renderdamist
-of.options.RENDER_REGIONS.tooltip.5=kõrgematel nähtavuskaugustel. Efektiivsem, kui VBOd on lubatud.
+of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - vanilli renderdus (vaikimisi)
+of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid (kiirem)
+of.options.RENDER_REGIONS.tooltip.4=Võimaldab kiiremat maastiku renderdamist graafikakaardi koormust
+of.options.RENDER_REGIONS.tooltip.5=optimeerides. Efektiivsem kõrgemate nähtavuskauguste juures.
 of.options.RENDER_REGIONS.tooltip.6=Pole soovitatav integreeritud graafikakaartide puhul.
 
 of.options.SMART_ANIMATIONS=Targad animatsioonid
 of.options.SMART_ANIMATIONS.tooltip.1=Targad animatsioonid
 of.options.SMART_ANIMATIONS.tooltip.2= VÄLJAS - ära kasuta tarku animatsioone (vaikimisi)
-of.options.SMART_ANIMATIONS.tooltip.3= SEES - kasuta tarku animatsioone
+of.options.SMART_ANIMATIONS.tooltip.3= SEES - kasuta tarku animatsioone (kiirem)
 of.options.SMART_ANIMATIONS.tooltip.4=Tarkade animatsioonide puhul animeerib mäng ainult
 of.options.SMART_ANIMATIONS.tooltip.5=neid tekstuure, mida on hetkel ekraanil näha.
 of.options.SMART_ANIMATIONS.tooltip.6=See vähendab "latentsusokkaid" ja suurendab ks.
