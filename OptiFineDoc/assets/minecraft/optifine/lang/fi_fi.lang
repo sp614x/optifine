@@ -1,3 +1,5 @@
+# Translated by Saikkimus (tappaja666)
+
 # Yleiset
 of.general.ambiguous=epäselvä
 of.general.compact=Kompakti
@@ -32,6 +34,9 @@ of.message.shaders.af2=Mene laatuasetuksiin ja laita reunanpehmennys pois pääl
 
 of.message.shaders.fr1=Shaderit eivät ole yhteensopivia nopean piirron kanssa.
 of.message.shaders.fr2=Mene suorituskykyasetuksiin ja laita nopea piirto pois päältä.
+
+of.message.shaders.gf1=Shaderit eivät ole yhteensopivia upeiden grafiikoiden kanssa.
+of.message.shaders.gf2=Vaihda grafiikat nopeaksi tai hienoksi.
 
 of.message.shaders.an1=Shaderit eivät ole yhteensopivia stereoskooppisen 3d:n kanssa.
 of.message.shaders.an2=Mene muutasetuksiin ja laita stereoskooppinen 3d pois päältä.
@@ -68,12 +73,20 @@ of.message.capeOF.error2=Virhe: %s
 # Videoasetukset
 
 options.graphics.tooltip.1=Visuaalinenlaatu
-options.graphics.tooltip.2=  Nopea  - matalampi laatu, nopeampi
+options.graphics.tooltip.2=  Nopea - matalampi laatu, nopeampi
 options.graphics.tooltip.3=  Hieno - korkeampi laatu, hitaampi
-options.graphics.tooltip.4=Vaihtaa pilvien, lehtien, veden,
-options.graphics.tooltip.5=varjojen ja ruohon sivujen ulkonäköä
+options.graphics.tooltip.4=  Upea - paremmat läpikuultavat objektit, hitain
+options.graphics.tooltip.5=Vaihtaa pilvien, lehtien, veden,
+options.graphics.tooltip.6=varjojen ja ruohon sivujen ulkonäköä.
+options.graphics.tooltip.7=Upea-grafiikat eivät ole yhteensopivia shadereiden kanssa.
 
 options.renderDistance.tooltip.1=Näköetäisyys
+
+options.entityDistanceScaling.tooltip.1=Kohteen etäisyys
+options.entityDistanceScaling.tooltip.2=  50%% - nopeampi
+options.entityDistanceScaling.tooltip.3=  100%% - oletus
+options.entityDistanceScaling.tooltip.4=  500%% - hitaampi
+options.entityDistanceScaling.tooltip.5=Muuttaa maksimietäisyyttä, jolta oliot näytetään.
 
 options.ao.tooltip.1=Pehmeä valaistus
 options.ao.tooltip.2=  Pois - ei pehmeää valaistusta (nopeampi)
@@ -172,7 +185,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - pehmennetyt reunat (hi
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA on jälkikäsittely efekti joka pehmentää
 of.options.shaders.ANTIALIASING.tooltip.5=teräviä reunoja ja -värisiirtymiä.
 of.options.shaders.ANTIALIASING.tooltip.6=Se on nopeampi kuin perinteinen reunanpehmennys
-of.options.shaders.ANTIALIASING.tooltip.7=ja se on yhteensopiva shadereiden ja nopean piirron kanssa.
+of.options.shaders.ANTIALIASING.tooltip.7=ja se on yhteensopiva shadereiden kanssa.
 
 of.options.shaders.NORMAL_MAP=Normaalikartat
 of.options.shaders.NORMAL_MAP.tooltip.1=Normaalikartat
@@ -303,7 +316,7 @@ of.options.AA_LEVEL=Reunanpehmennys
 of.options.AA_LEVEL.tooltip.1=Reunanpehmennys
 of.options.AA_LEVEL.tooltip.2= Pois - (oletus) ei reunanpehmennystä (nopein)
 of.options.AA_LEVEL.tooltip.3= 2-16 - pehmennetyt reunat ja kulmat (hitaampi)
-of.options.AA_LEVEL.tooltip.4=The Antialiasing smooths jagged lines and  Reunanpehmennys pehmentää rosoisia reunoja
+of.options.AA_LEVEL.tooltip.4=Reunanpehmennys pehmentää rosoisia reunoja
 of.options.AA_LEVEL.tooltip.5=ja teräviä värisiirtymiä.
 of.options.AA_LEVEL.tooltip.6=Kun päällä, voi vähentää kuvataajuutta huomattavasti.
 of.options.AA_LEVEL.tooltip.7=Jokainen näytönohjain ei tue reunanpehmennystä.
@@ -339,7 +352,7 @@ of.options.BETTER_SNOW=Parempi lumi
 of.options.BETTER_SNOW.tooltip.1=Parempi lumi
 of.options.BETTER_SNOW.tooltip.2=  Pois - oletus lumi, nopein
 of.options.BETTER_SNOW.tooltip.3=  Päällä - parempi lumi, hitain
-of.options.BETTER_SNOW.tooltip.4=Näyttää lunta läpinäkyvienkuutioden (aidat, korkear ruoho) alla,
+of.options.BETTER_SNOW.tooltip.4=Näyttää lunta läpinäkyvienkuutioden (aidat, korkea ruoho) alla,
 of.options.BETTER_SNOW.tooltip.5=kun kuution vieressä on lunta.
 
 of.options.CUSTOM_FONTS=Mukautetut fontit
@@ -479,7 +492,7 @@ of.options.SUN_MOON.tooltip.3=  Pois  - aurinkoa eikä kuuta näy (nopeampi)
 
 of.options.SHOW_CAPES=Näytä viitat
 of.options.SHOW_CAPES.tooltip.1=Näytä viitat
-of.options.SHOW_CAPES.tooltip.2=  Päällä - näytä pelaajien viitat (default)
+of.options.SHOW_CAPES.tooltip.2=  Päällä - näytä pelaajien viitat (oletus)
 of.options.SHOW_CAPES.tooltip.3=  Pois - älä näytä pelaajien viittoja
 
 of.options.TRANSLUCENT_BLOCKS=Läpikuultavat kuutiot
@@ -568,7 +581,7 @@ of.options.FAST_RENDER.tooltip.1=Nopea piirto
 of.options.FAST_RENDER.tooltip.2= Pois - normi piirto (oletus)
 of.options.FAST_RENDER.tooltip.3= Päällä - optimoitu piirto (nopeampi)
 of.options.FAST_RENDER.tooltip.4=Käyttää optimoituja piirto algoritmejä, jotka vähentävät
-of.options.FAST_RENDER.tooltip.5=näytönohjaimen käyttöä ja voivat huomattavasti nostaa kuvataajuutta.
+of.options.FAST_RENDER.tooltip.5=suorittimen käyttöä ja voivat huomattavasti nostaa kuvataajuutta.
 of.options.FAST_RENDER.tooltip.6=Tämä asetus ei välttämättä ole yhteensopiva modien kanssa.
 
 of.options.FAST_MATH=Nopea matikka
@@ -605,16 +618,16 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Toimii vain paikallisissa maailmoissa (y
 
 of.options.RENDER_REGIONS=Piirrä alueet
 of.options.RENDER_REGIONS.tooltip.1=Piirrä alueet
-of.options.RENDER_REGIONS.tooltip.2= Pois - älä käytä piirrä alueet -asetusta (oletus)
-of.options.RENDER_REGIONS.tooltip.3= Päällä - käytä piirrä alueet -asetusta
-of.options.RENDER_REGIONS.tooltip.4=Piirrä alueet -asetus sallii nopeamman maaston piirron korkeammilla
-of.options.RENDER_REGIONS.tooltip.5=näköetäisyyksillä. Tehokkaampi kun VBO:t ovat käytössä.
+of.options.RENDER_REGIONS.tooltip.2= Pois - normaali minecraft -piirto (oletus)
+of.options.RENDER_REGIONS.tooltip.3= Päällä - käytä piirrä alueet -asetusta (nopeampi)
+of.options.RENDER_REGIONS.tooltip.4=Mahdollistaa nopeamman maaston piirron, optimoimalla
+of.options.RENDER_REGIONS.tooltip.5=näytönohjaimen käyttöä. Tehokkaampi suurilla näköetäisyyksillä.
 of.options.RENDER_REGIONS.tooltip.6=Ei suositeltu integroiduille näytönohjaimille.
 
 of.options.SMART_ANIMATIONS=Älykkäät animaatiot
 of.options.SMART_ANIMATIONS.tooltip.1=Älykkäät animaatiot
 of.options.SMART_ANIMATIONS.tooltip.2= Pois - älä käytä älykkäitä animaatioita (oletus)
-of.options.SMART_ANIMATIONS.tooltip.3= Päällä - käytä älykkäitä animaatioita
+of.options.SMART_ANIMATIONS.tooltip.3= Päällä - käytä älykkäitä animaatioita (nopeampi)
 of.options.SMART_ANIMATIONS.tooltip.4=Älykkäillä animaatioilla peli animoi vain ne
 of.options.SMART_ANIMATIONS.tooltip.5=tekstuurit jota on näkyvissä ruudulla.
 of.options.SMART_ANIMATIONS.tooltip.6=Tämä pienentää lagipiikkejä ja suurentaa kuvataajuutta.
@@ -637,8 +650,8 @@ of.options.ANIMATED_SMOKE=Animoitu savu
 of.options.VOID_PARTICLES=Tyhjyyden partikkelit
 of.options.WATER_PARTICLES=Veden partikkelit
 of.options.RAIN_SPLASH=Sateen räiskyminen
-of.options.PORTAL_PARTICLES=Portaalin hiukkaset
-of.options.POTION_PARTICLES=Taikajuoma hiukkaset
+of.options.PORTAL_PARTICLES=Portaalin partikkelit
+of.options.POTION_PARTICLES=Taikajuoma partikkelit
 of.options.DRIPPING_WATER_LAVA=Tippuva vesi/laava
 of.options.ANIMATED_TERRAIN=Animoitu maasto
 of.options.ANIMATED_TEXTURES=Animoidut tekstuurit
@@ -721,7 +734,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Kuvankaappauksen koko
 of.options.SCREENSHOT_SIZE.tooltip.2=  Oletus - oletus kuvakaappauskoko
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - mukautettu kuvakaappauskoko
 of.options.SCREENSHOT_SIZE.tooltip.4=Suurempien kuvankaappausten ottaminen voi vaatia enemmän muistia.
-of.options.SCREENSHOT_SIZE.tooltip.5=Ei ole yhteensopiva nopean piirron eikä reunanpehmennyksen kanssa.
+of.options.SCREENSHOT_SIZE.tooltip.5=Ei ole yhteensopiva reunanpehmennyksen kanssa.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vaatii näytönohjaimen ruutupuskuri tuen.
 
 of.options.SHOW_GL_ERRORS=Näytä GL-virheet

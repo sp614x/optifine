@@ -1,5 +1,5 @@
 # General
-of.general.ambiguous=görkemli
+of.general.ambiguous=belirsiz
 of.general.compact=Sıkışık
 of.general.custom=Özel
 of.general.from=den
@@ -12,41 +12,41 @@ of.general.smart=Akıllı
 of.key.zoom=Yakınlaştır
 
 # Message
-of.message.aa.shaders1=Kenar Yumuşatma, Shader'larla ile uyumlu değildir.
-of.message.aa.shaders2=Bu ayarı açmak için Shader'ları kapatmalısınız.
+of.message.aa.shaders1=Kenar yumuşatma, gölgelendiriciler ile uyumlu değildir.
+of.message.aa.shaders2=Bu ayarı açmak için gölgelendiricileri kapatmalısınız.
 
-of.message.af.shaders1=Anizotropik Filtreleme, Shader'larla ile uyumlu değildir.
-of.message.af.shaders2=Bu ayarı açmak için Shader'ları kapatmalısınız.
+of.message.af.shaders1=Anizotropik filtreleme, gölgelendiriciler ile uyumlu değildir.
+of.message.af.shaders2=Bu ayarı açmak için gölgelendiricileri kapatmalısınız.
 
-of.message.fr.shaders1=Hızlı İşleme, Shader'larla ile uyumlu değildir.
-of.message.fr.shaders2=Bu ayarı açmak için Shader'ları kapatmalısınız.
+of.message.fr.shaders1=Hızlı işleme, gölgelendiriciler ile uyumlu değildir.
+of.message.fr.shaders2=Bu ayarı açmak için gölgelendiricileri kapatmalısınız.
 
-of.message.an.shaders1=Anaglif 3D, Shader'larla ile uyumlu değildir.
-of.message.an.shaders2=Bu ayarı açmak için Shader'ları kapatmalısınız.
+of.message.an.shaders1=3D Anaglif, gölgelendiriciler ile uyumlu değildir.
+of.message.an.shaders2=Bu ayarı açmak için gölgelendiricileri kapatmalısınız.
 
-of.message.shaders.aa1=Shader'lar, Kenar Yumuşatma ile uyumlu değildir.
-of.message.shaders.aa2=Lütfen Kalite -> Kenar Yumuşatma'yı kapatıp oyunu yeniden başlatın.
+of.message.shaders.aa1=Gölgelendiriciler, kenar yumuşatma ile uyumlu değildir.
+of.message.shaders.aa2=Lütfen ayarlardan kenar yumuşatmayı kapatıp oyunu tekrar başlatın.
 
-of.message.shaders.af1=Anizotropik Filtreleme, Shader'larla uyumlu değildir.
-of.message.shaders.af2=Lütfen Kalite -> Anizotropik Filtreleme'yi kapatın.
+of.message.shaders.af1=Anizotropik filtreleme, gölgelendiriciler ile uyumlu değildir.
+of.message.shaders.af2=Lütfen ayarlardan anizotropik filtrelemeyi kapatın.
 
-of.message.shaders.fr1=Shader'lar, Hızlı İşleme ile uyumlu değildir.
-of.message.shaders.fr2=Lütfen Performans -> Hızlı İşleme'yi kapatın.
+of.message.shaders.fr1=Gölgelendiriciler, hızlı işleme ile uyumlu değildir.
+of.message.shaders.fr2=Lütfen ayarlardan hızlı işlemeyi kapatın.
 
-of.message.shaders.gf1=Shader'lar, Şahane grafikler ile uyumlu değildir.
-of.message.shaders.gf2=Lütfen Grafikler seçeneğini Hızlı veya Gerçekçi olarak ayarlayın.
+of.message.shaders.gf1=Gölgelendiriciler, şahane grafikler ayarı ile uyumlu değildir.
+of.message.shaders.gf2=Lütfen grafikler seçeneğini hızlı veya gerçekçi olarak ayarlayın.
 
-of.message.shaders.an1=Anaglif 3D, Shader'larla uyumlu değildir.
-of.message.shaders.an2=Lütfen Diğer -> Anaglif 3D'yi kapatın.
+of.message.shaders.an1=3D Anaglif, gölgelendiriciler ile uyumlu değildir.
+of.message.shaders.an2=Lütfen ayarlardan Anaglif 3D'yi kapatın.
 
-of.message.shaders.nv1=Bu shader paketi yeni bir OptiFine versiyonu gerektiriyor: %s
+of.message.shaders.nv1=Bu gölgelendirme paketi yeni bir OptiFine versiyonu gerektiriyor: %s
 of.message.shaders.nv2=Yine de devam etmek istiyor musunuz?
 
 of.message.newVersion=Yeni bir §eOptiFine§f versiyonu bulunmakta: §e%s§f
 of.message.java64Bit=§e64-bit Java§f yüklemek performansı arttırabilir!
 of.message.openglError=§eOpenGL Hatası§f: %s (%s)
 
-of.message.shaders.loading=Shader'lar yükleniyor: %s
+of.message.shaders.loading=Gölgelendiriciler yükleniyor: %s
 
 of.message.other.reset=Bütün görüntü ayarları varsayılan değerlere sıfırlansın mı?
 
@@ -61,9 +61,9 @@ of.options.capeOF.openEditor=Pelerin Düzenleyiciyi Aç
 of.options.capeOF.reloadCape=Pelerini Yeniden Yükle
 of.options.capeOF.copyEditorLink=Linki Panoya kopyala
 
-of.message.capeOF.openEditor=Optifine pelerin düzenleyici tarayıcınızda açılacak.
-of.message.capeOF.openEditorError=Linki tarayıcıda açarken bir hata oluştu.
-of.message.capeOF.reloadCape=Pelerin 15 saniye içinde yenilenmiş olacak.
+of.message.capeOF.openEditor=Optifine pelerin düzenleyicisi tarayıcınızda açılacak.
+of.message.capeOF.openEditorError=Bağlantıyı tarayıcıda açarken bir hata oluştu.
+of.message.capeOF.reloadCape=Pelerininiz 15 saniye içinde yenilenmiş olacak.
  
 of.message.capeOF.error1=Mojang kimlik doğrulaması başarısız.
 of.message.capeOF.error2=Hata: %s
@@ -76,7 +76,7 @@ options.graphics.tooltip.3=  Gerçekçi - daha yüksek kalite, daha yavaş
 options.graphics.tooltip.4=  Şahane - yarı saydam objelerde en iyi kalite, en yavaş
 options.graphics.tooltip.5=Bulutların, yaprakların, suyun, gölgelerin
 options.graphics.tooltip.6=ve çim yüzeylerinin görünüşünü etkiler.
-options.graphics.tooltip.7=Şahane grafikler Shader'larla uyumlu değildir.
+options.graphics.tooltip.7=Şahane grafikler gölgelendirmeler ile uyumlu değildir.
 
 options.renderDistance.tooltip.1=Görüş Mesafesi
 
@@ -91,16 +91,16 @@ options.ao.tooltip.2=  KAPALI - yumuşak aydınlatma kapalı (daha hızlı)
 options.ao.tooltip.3=  En Az - basit yumuşak aydınlatma (varsayılan)
 options.ao.tooltip.4=  En Fazla - gerçekçi yumuşak aydınlatma (daha yavaş)
 
-options.framerateLimit.tooltip.1=Maks. Kare Hızı (FPS)
-options.framerateLimit.tooltip.2=  Dikey Senk. - monitörün hertz'ine sabitler
+options.framerateLimit.tooltip.1=Maks. Kare Hızı
+options.framerateLimit.tooltip.2=  Dikey Senk. - monitörün yenileme hızını sabitler
 options.framerateLimit.tooltip.3=  5-255 - diğer değerler
 options.framerateLimit.tooltip.4=  Sınırsız - sınır yok (en hızlı)
-options.framerateLimit.tooltip.5=FPS'i limitlemek, limit sınıra ulaşılamasa
-options.framerateLimit.tooltip.6=bile FPS'i düşürebilir.
+options.framerateLimit.tooltip.5=Çerçeve hızını limitlemek, limit sınıra
+options.framerateLimit.tooltip.6=ulaşılmasa bile FPS'i düşürebilir.
 of.options.framerateLimit.vsync=Dikey Senk.
 
 of.options.AO_LEVEL=Pürüzsüz Gölgelndirme
-of.options.AO_LEVEL.tooltip.1=Pürüzsüz Gölgelndirme Seviyesi
+of.options.AO_LEVEL.tooltip.1=Pürüzsüz gölgelendirme seviyesi
 of.options.AO_LEVEL.tooltip.2=  KAPALI - gölge yok
 of.options.AO_LEVEL.tooltip.3=  50%% - basit gölgeler
 of.options.AO_LEVEL.tooltip.4=  100%% - gerçekçi gölgeler
@@ -113,12 +113,12 @@ options.guiScale.tooltip.2=  OTO - ekrana sığacak en büyük boyuta ayarlar
 options.guiScale.tooltip.3=  1x'den 3x'e - küçük, bormal, büyük
 options.guiScale.tooltip.4=  4x'den 10x'e - 4K monitörlerde kullanılabilir
 options.guiScale.tooltip.5=Tek sayılar (1x,3x,5x...) Unicode yazı tipiyle uyumlu değildir.
-options.guiScale.tooltip.6=Küçük bir arayüz daha hızlı kullanılabilir.
+options.guiScale.tooltip.6=Küçük bir arayüz daha hızlı olabilir.
 
 options.vbo=VBO'ları Kullan
 options.vbo.tooltip.1=Vertex Buffer Objeler
-options.vbo.tooltip.2=Normal renderlamadan genelde daha hızlı (5%%-10%%)
-options.vbo.tooltip.3=farklı bir renderlama şeması kullanılır.
+options.vbo.tooltip.2=Normal işlemeden genelde daha hızlı (5%%-10%%)
+options.vbo.tooltip.3=farklı bir işleme şeması kullanılır.
 
 options.gamma.tooltip.1=Karanlık yüzeylerin parlaklığını değiştirir.
 options.gamma.tooltip.2=  Karanlık - varsayılan parlaklık
@@ -127,10 +127,10 @@ options.gamma.tooltip.4=  Parlak - maksimum parlaklık
 options.gamma.tooltip.5=Bu ayar tamamen siyah olan objelerin
 options.gamma.tooltip.6=görünümünü etkilemez.
 
-options.anaglyph.tooltip.1=Anaglif 3D
-options.anaglyph.tooltip.2=Stereoskopik 3D efektlerini etkinleştirir,
-options.anaglyph.tooltip.3=derinliği özel renkler olarak gözlere verir.
-options.anaglyph.tooltip.4=Kırmızı-Mavi 3D Gözlük gerektirir.
+options.anaglyph.tooltip.1=3D Anaglif
+options.anaglyph.tooltip.2=Her göz için farklı renkler kullanarak
+options.anaglyph.tooltip.3=3D stereoskopik efektini etkinleştirir.
+options.anaglyph.tooltip.4=Düzgün bir görünüm için kırmızı-mavi gözlük gerektirir.
 
 options.attackIndicator.tooltip.1=Saldırı göstergesinin konumunu ayarlar.
 options.attackIndicator.tooltip.2=  İmleç - ortadaki artı işaretinin altında
@@ -139,134 +139,131 @@ options.attackIndicator.tooltip.4=  KAPALI - saldırı göstergesi yok
 options.attackIndicator.tooltip.5=Saldırı göstergeci elinizdeki ekipmanın
 options.attackIndicator.tooltip.6=saldırı gücünü gösterir.
 
-of.options.ALTERNATE_BLOCKS=Çeşitli Blok Görünmleri
-of.options.ALTERNATE_BLOCKS.tooltip.1=Çeşitli Blok Görünümleri
-of.options.ALTERNATE_BLOCKS.tooltip.2=Bazı blokların görünümü çeşitli modellerle çeşitlendirilir.
-of.options.ALTERNATE_BLOCKS.tooltip.3=Modeller kaynak paketi tarafından sağlanır.
+of.options.ALTERNATE_BLOCKS=Alternatif Bloklar
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatif Bloklar
+of.options.ALTERNATE_BLOCKS.tooltip.2=Bazı bloklar için alternatif blok modelleri kullanılır.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Modeller kullanılan doku paketine göre değişebilmektedir.
 
 of.options.FOG_FANCY=Sis
 of.options.FOG_FANCY.tooltip.1=Sis Türü
-of.options.FOG_FANCY.tooltip.2=  Hızlı - basit sis, daha hızlı oyun deneyimi
-of.options.FOG_FANCY.tooltip.3=  Gerçekçi - gerçekçi sis, daha yavaş, daha iyi görüntü
+of.options.FOG_FANCY.tooltip.2=  Hızlı - daha hızlı oyun deneyimi
+of.options.FOG_FANCY.tooltip.3=  Gerçekçi - daha yavaş, daha iyi görüntü
 of.options.FOG_FANCY.tooltip.4=  KAPALI - sis yok, en hızlı
-of.options.FOG_FANCY.tooltip.5=Gerçekçi sis, sadece ekran kartı 
-of.options.FOG_FANCY.tooltip.6=destek verirse çalışır.
+of.options.FOG_FANCY.tooltip.5=Gerçekçi sis, yalnızca ekran kartı tarafından
+of.options.FOG_FANCY.tooltip.6=destekleniyorsa kullanılabilir.
 
 of.options.FOG_START=Sis Başlangıcı
 of.options.FOG_START.tooltip.1=Sis Başlangıcı
-of.options.FOG_START.tooltip.2=  0.2 - sis oyuncunun yakınından başlar
-of.options.FOG_START.tooltip.3=  0.8 - sis oyununcunun daha uzağından başlar
-of.options.FOG_START.tooltip.4=Bu ayar genelde performansı etkilemez.
+of.options.FOG_START.tooltip.2=  0.2 - sis oyuncunun yakınında başlar
+of.options.FOG_START.tooltip.3=  0.8 - sis oyununcunun daha uzağında başlar
+of.options.FOG_START.tooltip.4=Bu ayar genel olarak performansı etkilemez.
 
-of.options.CHUNK_LOADING=Yığın Yüklenme Hızı
+of.options.CHUNK_LOADING=Yığın Yüklemesi
 of.options.CHUNK_LOADING.tooltip.1=Yığın Yüklenme Hızı
 of.options.CHUNK_LOADING.tooltip.2=  Varsayılan - yığınlar yüklenirken dengesiz FPS 
 of.options.CHUNK_LOADING.tooltip.3=  Yumuşak - yavaş yüklenme, sabit FPS
-of.options.CHUNK_LOADING.tooltip.4=  Çok-Çekirdekli - stabil fps, 3 kat hızlı dünya yükleme
-of.options.CHUNK_LOADING.tooltip.5=Yumuşak ve Çok-çekirdek Chunk yüklemeleri, Chunk 
-of.options.CHUNK_LOADING.tooltip.6=yüklenmesinden dolayı oluşan takılmayı azaltır.
-of.options.CHUNK_LOADING.tooltip.7=Çok-Çekirdekli seçeneği, hem yüklenme hızını 3 kat arttırır,
-of.options.CHUNK_LOADING.tooltip.8=hem de FPS değerini arttırır.
+of.options.CHUNK_LOADING.tooltip.4=  Çok çekirdekli - stabil fps, 3 kat hızlı dünya yükleme
+of.options.CHUNK_LOADING.tooltip.5=Yumuşak ve çok çekirdekli, yığın yüklemelerinin
+of.options.CHUNK_LOADING.tooltip.6=oluşturduğu takılma ve donmaları azaltır.
+of.options.CHUNK_LOADING.tooltip.7=Çok çekirdekli seçeneği, ikinci bir işlemci çekirdeği kullanarak
+of.options.CHUNK_LOADING.tooltip.8=dünya yüklemesini 3 kat hızlandırabilir ve kare hızını artırabilir.
 of.options.chunkLoading.smooth=Yumuşak
-of.options.chunkLoading.multiCore=Çok-Çekirdekli
+of.options.chunkLoading.multiCore=Çok çekirdekli
 
-of.options.shaders=Shader'lar...
-of.options.shadersTitle=Shader'lar
+of.options.shaders=Gölgelendiriciler...
+of.options.shadersTitle=Gölgelendiriciler
 
 of.options.shaders.packNone=KAPALI
 of.options.shaders.packDefault=(dahili)
 
-of.options.shaders.ANTIALIASING=Kenar Ymştma
+of.options.shaders.ANTIALIASING=Kenar Yumuşatma
 of.options.shaders.ANTIALIASING.tooltip.1=Kenar Yumuşatma
-of.options.shaders.ANTIALIASING.tooltip.2=  KAPALI - (varsayılan) kenar yumuşatma kapalı (en hızlı)
+of.options.shaders.ANTIALIASING.tooltip.2=  KAPALI - (varsayılan) kenar yumuşatma yok (en hızlı)
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - tırtıklanmaları engeller (yavaş)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA, pürüzlü hatları ve keskin renk
 of.options.shaders.ANTIALIASING.tooltip.5=geçişlerini düzelten bir efekttir.
-of.options.shaders.ANTIALIASING.tooltip.6=Normal Kenar Yumuşatma'dan daha hızlıdır ama görüntüyü
-of.options.shaders.ANTIALIASING.tooltip.7=bulanıklaştırabilir. Hızlı İşleme ve Shader'larla uyumludur.
+of.options.shaders.ANTIALIASING.tooltip.6=Varsayılan kenar yumuşatmadan daha hızlıdır
+of.options.shaders.ANTIALIASING.tooltip.7=ve gölgelendiriciler ile uyumludur.
 
-of.options.shaders.NORMAL_MAP=Şekil Şeması
-of.options.shaders.NORMAL_MAP.tooltip.1=Şekil Şeması (Normal Map)
-of.options.shaders.NORMAL_MAP.tooltip.2=  AÇIK - (varsayılan) şekil şemalarını aktif eder
-of.options.shaders.NORMAL_MAP.tooltip.3=  KAPALI - şekil şemalarını kapatır
-of.options.shaders.NORMAL_MAP.tooltip.4=Şekil Şemaları, Shader Paketi tarafından kullanılır. Düz
-of.options.shaders.NORMAL_MAP.tooltip.5=obje yüzlerine gölgeler ekleyerek 3D görünüm kazandırır.
-of.options.shaders.NORMAL_MAP.tooltip.6=Gölgelendirme şemaları, kullanılan kaynak
-of.options.shaders.NORMAL_MAP.tooltip.7=paketi tarafından sağlanır.
+of.options.shaders.NORMAL_MAP=Normal Harita
+of.options.shaders.NORMAL_MAP.tooltip.1=Normal Harita
+of.options.shaders.NORMAL_MAP.tooltip.2=  AÇIK - (varsayılan) normal haritaları aktif eder
+of.options.shaders.NORMAL_MAP.tooltip.3=  KAPALI - normal haritaları kapatır
+of.options.shaders.NORMAL_MAP.tooltip.4=Normal haritalar, gölgelendirici paketleri tarafından kullanılabilir.
+of.options.shaders.NORMAL_MAP.tooltip.5=Düz obje yüzlerine gölgeler ekleyerek 3 boyutlu görünüm kazandırır.
+of.options.shaders.NORMAL_MAP.tooltip.6=Normal harita dokuları mevcut kaynak paketi tarafından sağlanır.
 
-of.options.shaders.SPECULAR_MAP=Parlama Şeması
-of.options.shaders.SPECULAR_MAP.tooltip.1=Parlama Şeması (Specular Map)
-of.options.shaders.SPECULAR_MAP.tooltip.2=  AÇIK - (varsayılan) parlama şemalarını aktif eder
-of.options.shaders.SPECULAR_MAP.tooltip.3=  KAPALI - parlama şemalarını kapatır
-of.options.shaders.SPECULAR_MAP.tooltip.4=Parlama Şemaları, Shader Paketi tarafından kullanılır. Işığı
-of.options.shaders.SPECULAR_MAP.tooltip.5=yansıtan obje kısımlarına özel yansıma efektleri sağlar.
-of.options.shaders.SPECULAR_MAP.tooltip.6=Parlama şemaları, kullanılan kaynak
-of.options.shaders.SPECULAR_MAP.tooltip.7=paketi tarafından sağlanır.
+of.options.shaders.SPECULAR_MAP=Speküler Harita
+of.options.shaders.SPECULAR_MAP.tooltip.1=Speküler Harita
+of.options.shaders.SPECULAR_MAP.tooltip.2=  AÇIK - (varsayılan) speküler haritaları aktif eder
+of.options.shaders.SPECULAR_MAP.tooltip.3=  KAPALI - speküler haritaları kapatır
+of.options.shaders.SPECULAR_MAP.tooltip.4=Speküler haritalar, gölgelendirici paketleri tarafından özel
+of.options.shaders.SPECULAR_MAP.tooltip.5=yansıma efektlerini oluşturabilmek için kullanılabilirler.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Speküler harita dokuları mevcut kaynak paketi tarafından sağlanır.
 
-of.options.shaders.RENDER_RES_MUL=İşleme Çözünürlüğü
-of.options.shaders.RENDER_RES_MUL.tooltip.1=İşleme Çözünürlüğü
-of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - yarım (en hızlı)
-of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - tam (varsayılan)
-of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 2 kat (en yavaş)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=İşleme Çözünürlüğü, görüntünün shader paketi
-of.options.shaders.RENDER_RES_MUL.tooltip.6=tarafından işlendiği çözünürlüğü kontrol eder.
-of.options.shaders.RENDER_RES_MUL.tooltip.7=1x altındaki ayarlar performansı arttırır.
-of.options.shaders.RENDER_RES_MUL.tooltip.8=1x üstündeki ayarlar tırktıklı kenarları yumuşatır.
+of.options.shaders.RENDER_RES_MUL=İşleme Kalitesi
+of.options.shaders.RENDER_RES_MUL.tooltip.1=İşleme Kalitesi
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - düşük (en hızlı)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standart (varsayılan)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - yüksek (en yavaş)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=İşleme kalitesi, gölgelendirici paketinin
+of.options.shaders.RENDER_RES_MUL.tooltip.6=oluşturduğu dokunun boyutunu kontrol eder.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Düşük değerler 4K monitörler ile daha kullanışlı olabilir.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Yüksek değerler kenar yumuşatma filtresi olarak çalışır.
 
-of.options.shaders.SHADOW_RES_MUL=Gölge Çözünürlüğü
-of.options.shaders.SHADOW_RES_MUL.tooltip.1=Gölge Çözünürlüğü
-of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - yarım (en hızlı)
-of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - tam (varsayılan)
-of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 2 kat (en yavaş)
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=Gölge Çözünürlüğü shader paketi tarafından işlenen
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=gölgelerin kalitesini ayarlar.
-of.options.shaders.SHADOW_RES_MUL.tooltip.7=Düşük ayarlar = pikselli ve kalın gölgeler.
-of.options.shaders.SHADOW_RES_MUL.tooltip.8=Yüksek ayarlar = detaylı, kaliteli gölgeler.
+of.options.shaders.SHADOW_RES_MUL=Gölge Kalitesi
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Gölge Kalitesi
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - düşük (en hızlı)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standart (varsayılan)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - yüksek (en yavaş)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Gölge kalitesi, gölgelendirici paketi tarafından kullanılan
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=gölge haritası dokusunun boyutunu kontrol eder.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Düşük değerler = kaba ve kalın gölgeler.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Yüksek değerler = detaylı, kaliteli gölgeler.
 
 of.options.shaders.HAND_DEPTH_MUL=El Derinliği
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=El Derinliği
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - el kameraya daha yakın
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (varsayılan)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - el kameraya daha uzak
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=El derinliği eldeki objelerin kameradan ne
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=kadar uzakta olduğunu kontrol eder.
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Derinlik bulanıklığı kullanan shader paketlerinde
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=El derinliği, elde tutulan nesnelerin kameradan
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=ne kadar uzakta olduğunu kontrol eder.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Derinlik bulanıklığı kullanan gölgelendirici paketlerinde
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=elde taşınan nesnenin bulanıklığını da etkiler.
 
 of.options.shaders.CLOUD_SHADOW=Bulut Gölgeleri
 
 of.options.shaders.OLD_HAND_LIGHT=Eski El Işığı
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Eski El Işığı
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Varsayılan - shader paketi tarafından kontrol edilir
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Varsayılan - gölgelendirici paket tarafından kontrol edilir
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  AÇIK - eski el ışığını kullan
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  KAPALI - yeni el ışığını kullan
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Bir shader paketinde, parlayan bir obje sadece ana
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=(sağ) eldeyken ışık yayıyorsa bu ayarı açın. Eski El Işığı
-of.options.shaders.OLD_HAND_LIGHT.tooltip.7=kullanılırken objeler ikincil (sol) eldeyken de ışık saçar.
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Eski el ışığı, yalnızca ana eldeki ışık yayan nesneleri tanıyan gölgelendirici
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=paketlerin diğer eldeki aynı nesneler için de ışık yaymasını sağlar.
 
-of.options.shaders.OLD_LIGHTING=Eski Aydnltma
+of.options.shaders.OLD_LIGHTING=Eski Aydınlatma
 of.options.shaders.OLD_LIGHTING.tooltip.1=Eski Aydınlatma
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Varsayılan - shader paketi tarafından kontrol edilir
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Varsayılan - gölgelendirici paket tarafından kontrol edilir
 of.options.shaders.OLD_LIGHTING.tooltip.3=  AÇIK - eski aydınlatmayı kullan
 of.options.shaders.OLD_LIGHTING.tooltip.4=  KAPALI - eski aydınlatmayı kullanma
-of.options.shaders.OLD_LIGHTING.tooltip.5=Eski Aydınlatma, Vanilla'da kullanılan ışığın blokların
-of.options.shaders.OLD_LIGHTING.tooltip.6=yan yüzlerine yayılmasını sağlayan sistemi kullanır.
-of.options.shaders.OLD_LIGHTING.tooltip.7=Gölgelendirme içeren Shader paketleri, güneş pozisyonuna
-of.options.shaders.OLD_LIGHTING.tooltip.8=göre gölgeleme sağlayan çok daha iyi bir sistem kullanır.
+of.options.shaders.OLD_LIGHTING.tooltip.5=Eski aydınlatma, Vanilla tarafından kullanılan ışığın blok
+of.options.shaders.OLD_LIGHTING.tooltip.6=yüzeylerine yayılmasını sağlayan sabit aydınlatmayı kontrol eder.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Gölgeler kullanan gölgelendirici paketleri genellikle güneşin
+of.options.shaders.OLD_LIGHTING.tooltip.8=konumuna bağlı olarak çok daha iyi bir aydınlatma sağlar.
 
-of.options.shaders.DOWNLOAD=Shader Paketi indir
-of.options.shaders.DOWNLOAD.tooltip.1=Shader Paketi indir
+of.options.shaders.DOWNLOAD=Gölgelendirici Paketleri İndir
+of.options.shaders.DOWNLOAD.tooltip.1=Gölgelendirici Paketleri İndir
 of.options.shaders.DOWNLOAD.tooltip.2= 
-of.options.shaders.DOWNLOAD.tooltip.3=Shader paketleri indirebileceğiniz bir web sayfası açar.
-of.options.shaders.DOWNLOAD.tooltip.4=İndirdiğiniz dosyayı "Shader Klasörüne" kopyalayın.
-of.options.shaders.DOWNLOAD.tooltip.5=Sonrasında indirdiğiniz Shader bu listede gözükecektir.
+of.options.shaders.DOWNLOAD.tooltip.3=Gölgelendirici paketleri indirebileceğiniz bir internet sayfası açar.
+of.options.shaders.DOWNLOAD.tooltip.4=İndirdiğiniz dosyayı "Gölgelendirici Klasörüne" kopyalayın.
+of.options.shaders.DOWNLOAD.tooltip.5=Sonrasında indirdiğiniz gölgelendirici paketi bu listede gözükecektir.
 
-of.options.shaders.SHADER_PACK=Shader Paketleri
+of.options.shaders.SHADER_PACK=Gölgelendirici Paketleri
 
-of.options.shaders.shadersFolder=Shader Klasörünü Aç
-of.options.shaders.shaderOptions=Shader Ayarları...
+of.options.shaders.shadersFolder=Gölgelendirici Klasörünü Aç
+of.options.shaders.shaderOptions=Gölgelendirici Ayarları...
 
-of.options.shaderOptionsTitle=Shader Ayarları
+of.options.shaderOptionsTitle=Gölgelendirici Ayarları
 
 of.options.quality=Kalite...
 of.options.qualityTitle=Kalite Ayarları
@@ -289,44 +286,43 @@ of.shaders.profile=Profil
 
 # Quality
 
-of.options.mipmap.bilinear=Bilinear
-of.options.mipmap.linear=Linear
-of.options.mipmap.nearest=Nearest
-of.options.mipmap.trilinear=Trilinear
+of.options.mipmap.bilinear=İki çizgili
+of.options.mipmap.linear=Çizgisel
+of.options.mipmap.nearest=En yakın
+of.options.mipmap.trilinear=Üç çizgili
 
-options.mipmapLevels.tooltip.1=Uzaktaki objelerin sertleşen doku detaylarını
-options.mipmapLevels.tooltip.2=yumuşatarak daha güzel görünmelerini sağlar.
+options.mipmapLevels.tooltip.1=Uzaktaki nesnelerin doku detaylarını yumuşatarak
+options.mipmapLevels.tooltip.2=daha iyi görünmelerini sağlayan görsel efekt.
 options.mipmapLevels.tooltip.3=  KAPALI - yumuşatma yok
 options.mipmapLevels.tooltip.4=  1 - minimum yumuşatma
 options.mipmapLevels.tooltip.5=  Maksimum - maksimum yumuşatma
 options.mipmapLevels.tooltip.6=Bu ayar genelde performansı etkilemez.
 
-of.options.MIPMAP_TYPE=Mipmap Türü
-of.options.MIPMAP_TYPE.tooltip.1=Uzaktaki objelerin, sertleşen doku detaylarını
-of.options.MIPMAP_TYPE.tooltip.2=yumuşatarak daha güzel görünmelerini sağlar.
-of.options.MIPMAP_TYPE.tooltip.3=  Nearest - kaba yumuşatma (daha hızlı)
-of.options.MIPMAP_TYPE.tooltip.4=  Linear - tekli, normal yumuşatma
-of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - ikili, iyi yumuşatma
-of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - üçlü, en iyi yumuşatma (daha yavaş)
+of.options.MIPMAP_TYPE=Piramit Türü
+of.options.MIPMAP_TYPE.tooltip.1=Uzaktaki nesnelerin doku detaylarını yumuşatarak
+of.options.MIPMAP_TYPE.tooltip.2=daha iyi görünmelerini sağlayan görsel efekt.
+of.options.MIPMAP_TYPE.tooltip.3=  En yakın - kaba yumuşatma (daha hızlı)
+of.options.MIPMAP_TYPE.tooltip.4=  Çizgisel - normal yumuşatma
+of.options.MIPMAP_TYPE.tooltip.5=  İki çizgili - iyi yumuşatma
+of.options.MIPMAP_TYPE.tooltip.6=  Üç çizgili - en iyi yumuşatma (daha yavaş)
 
 
 of.options.AA_LEVEL=Kenar Yumuşatma
 of.options.AA_LEVEL.tooltip.1=Kenar Yumuşatma
 of.options.AA_LEVEL.tooltip.2= KAPALI - (varsayılan) kenar yumuşatma kapalı (daha hızlı)
 of.options.AA_LEVEL.tooltip.3= 2-16 - köşe ve kenarları düzgünleştirir (daha yavaş)
-of.options.AA_LEVEL.tooltip.4=Kenar Yumuşatma çıkıntılı, pürüzlü kenarları ve 
-of.options.AA_LEVEL.tooltip.5=ani renk geçişlerini düzeltir.
-of.options.AA_LEVEL.tooltip.6=FPS'i ciddi oranda düşürebilir.
-of.options.AA_LEVEL.tooltip.7=Her seviyesi ekran kartınızla uyumlu olmayabilir.
-of.options.AA_LEVEL.tooltip.8=YENİDEN BAŞLATINCA aktif olur!
+of.options.AA_LEVEL.tooltip.4=Kenar yumuşatma, çıkıntılı ve pürüzlü kenarları
+of.options.AA_LEVEL.tooltip.5=ve ani renk geçişlerini pürüzsüzleştirir.
+of.options.AA_LEVEL.tooltip.6=Kare hızını ciddi oranda düşürebilir.
+of.options.AA_LEVEL.tooltip.7=Her seviyesi her ekran kartı tarafından desteklenmeyebilir.
+of.options.AA_LEVEL.tooltip.8=Sadece oyunu YENİDEN BAŞLATINCA aktif olur!
 
 of.options.AF_LEVEL=Anizotropik Filtreleme
 of.options.AF_LEVEL.tooltip.1=Anizotropik Filtreleme
 of.options.AF_LEVEL.tooltip.2= KAPALI - (varsayılan) standart doku detayı (en hızlı)
-of.options.AF_LEVEL.tooltip.3= 2-16 - daha iyi ve ayrıntılı görünümler (daha yavaş)
-of.options.AF_LEVEL.tooltip.4=Anizotropik filtreleme mipmap kullanan dokuların
-of.options.AF_LEVEL.tooltip.5=uzaktayken bulanık gözükmesini engeller.
-of.options.AF_LEVEL.tooltip.6=Açıldığında FPS'i çok az etkileyebilir.
+of.options.AF_LEVEL.tooltip.3= 2-16 - piramitleşmiş dokularda daha iyi görünümler (daha yavaş)
+of.options.AF_LEVEL.tooltip.4=Anizotropik filtreleme, piramitleşmiş dokulardaki detayları geri yükler
+of.options.AF_LEVEL.tooltip.5=Kare hızını ciddi oranda düşürebilir.
 
 of.options.CLEAR_WATER=Temiz Su
 of.options.CLEAR_WATER.tooltip.1=Temiz Su
@@ -334,109 +330,103 @@ of.options.CLEAR_WATER.tooltip.2=  AÇIK - temiz, saydam su
 of.options.CLEAR_WATER.tooltip.3=  KAPALI - varsayılan su
 
 of.options.RANDOM_ENTITIES=Rastgele Varlıklar
-of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Görünüşlü Varlıklar
+of.options.RANDOM_ENTITIES.tooltip.1=Rastgele Varlıklar
 of.options.RANDOM_ENTITIES.tooltip.2=  KAPALI - tek çeşit varlıklar, daha hızlı
 of.options.RANDOM_ENTITIES.tooltip.3=  AÇIK - çeşitli varlıklar, daha yavaş
-of.options.RANDOM_ENTITIES.tooltip.4=Varlıklar için rastgele görünümler kullanılır. Birden
-of.options.RANDOM_ENTITIES.tooltip.5=fazla varlık görünümü barındıran kaynak paketi gerektirir.
+of.options.RANDOM_ENTITIES.tooltip.4=Rastgele varlıklar için rastgele görünümler kullanılabilir.
+of.options.RANDOM_ENTITIES.tooltip.5=Birden fazla varlık görünümüne sahip kaynak paketi gerektirir.
 
 of.options.BETTER_GRASS=Daha İyi Çimenler
 of.options.BETTER_GRASS.tooltip.1=Kaliteli Çimen Blokları
-of.options.BETTER_GRASS.tooltip.2=  KAPALI - üstü çimli normal çimen blokları, daha hızlı
-of.options.BETTER_GRASS.tooltip.3=  Hızlı - tamamen çimle kaplı çimen blokları, daha yavaş
-of.options.BETTER_GRASS.tooltip.4=  Gerçekçi - yanında çim varsa yanları çimlenir, en yavaş
+of.options.BETTER_GRASS.tooltip.2=  KAPALI - varsayılan çim dokusu, daha hızlı
+of.options.BETTER_GRASS.tooltip.3=  Hızlı - tamamen çimle kaplı çimen dokusu, daha yavaş
+of.options.BETTER_GRASS.tooltip.4=  Gerçekçi - dinamik çim dokusu, en yavaş
 
 of.options.BETTER_SNOW=Daha İyi Kar
 of.options.BETTER_SNOW.tooltip.1=Daha İyi Karlı Arazi
 of.options.BETTER_SNOW.tooltip.2=  KAPALI - normal kar, daha hızlı
 of.options.BETTER_SNOW.tooltip.3=  AÇIK - daha iyi kar, daha yavaş
-of.options.BETTER_SNOW.tooltip.4=Karlı araziye yerleştirilmiş araçların
-of.options.BETTER_SNOW.tooltip.5=altında çimen yerine kar gözükmesini sağlar.
+of.options.BETTER_SNOW.tooltip.4=Eğer saydam blokların (çit ve uzun çim gibi) etrafında
+of.options.BETTER_SNOW.tooltip.5=kar varsa çimen yerine karların görünmesini sağlar.
 
 of.options.CUSTOM_FONTS=Özel Yazı Tipi
 of.options.CUSTOM_FONTS.tooltip.1=Özel Yazı Tipleri
-of.options.CUSTOM_FONTS.tooltip.2=  AÇIK - özel yazı tipi kullanılabilir (varsayılan)
-of.options.CUSTOM_FONTS.tooltip.3=  KAPALI - minecraft varsayılan yazı tipi kullanılır
-of.options.CUSTOM_FONTS.tooltip.4=Kaynak paketinin yazı tiplerini
-of.options.CUSTOM_FONTS.tooltip.5=değiştirebilmesini sağlar.
+of.options.CUSTOM_FONTS.tooltip.2=  AÇIK - özel yazı tipi kullanılır (varsayılan) ve daha yavaş
+of.options.CUSTOM_FONTS.tooltip.3=  KAPALI - mevcut olan özel yazı tipini kullanır, daha hızlı
+of.options.CUSTOM_FONTS.tooltip.4=Özel yazı tipleri mevcut kaynak paketi tarafından değiştirilebilir.
 
 of.options.CUSTOM_COLORS=Özel Renkler
 of.options.CUSTOM_COLORS.tooltip.1=Özel Renkler
-of.options.CUSTOM_COLORS.tooltip.2=  AÇIK - özel renkler kullanılabilir (varsayılan)
+of.options.CUSTOM_COLORS.tooltip.2=  AÇIK - özel renkler kullanılır (varsayılan), daha yavaş
 of.options.CUSTOM_COLORS.tooltip.3=  KAPALI - varsayılan renkler kullanılır, daha hızlı
-of.options.CUSTOM_COLORS.tooltip.4=Kaynak paketinin renkleri
-of.options.CUSTOM_COLORS.tooltip.5=değiştirebilmesini sağlar.
+of.options.CUSTOM_COLORS.tooltip.4=Özel renkler mevcut kaynak paketi tarafından değiştirilebilir.
 
 of.options.SWAMP_COLORS=Bataklık Renkleri
 of.options.SWAMP_COLORS.tooltip.1=Bataklık Renkleri
-of.options.SWAMP_COLORS.tooltip.2=  AÇIK - bataklıkta bataklık renkleri kullan (varsayılan)
-of.options.SWAMP_COLORS.tooltip.3=  KAPALI - renk değişimi yapma, daha hızlı
-of.options.SWAMP_COLORS.tooltip.4=Bataklıktaki yaprak, sarmaşık ve çim ve suyu etkiler.
+of.options.SWAMP_COLORS.tooltip.2=  AÇIK - bataklık renkleri kullan (varsayılan), daha yavaş
+of.options.SWAMP_COLORS.tooltip.3=  KAPALI - bataklık renklerini kullanma, daha hızlı
+of.options.SWAMP_COLORS.tooltip.4=Bataklık renkleri çimleri, yaprakları, asmaları ve suyu etkiler.
 
-of.options.SMOOTH_BIOMES=Biyom Karışımı
-of.options.SMOOTH_BIOMES.tooltip.1=Biyom Geçişlerini Yumuşat
-of.options.SMOOTH_BIOMES.tooltip.2=  AÇIK - blokların renklerini karıştır (varsayılan) daha yavaş
-of.options.SMOOTH_BIOMES.tooltip.3=  KAPALI - blokları değiştirme, daha hızlı
+of.options.SMOOTH_BIOMES=Pürüzsüz Biyomlar
+of.options.SMOOTH_BIOMES.tooltip.1=Pürüzsüz Biyomlar
+of.options.SMOOTH_BIOMES.tooltip.2=  AÇIK - biyom sınırlarının yumuşatılması (varsayılan), daha yavaş
+of.options.SMOOTH_BIOMES.tooltip.3=  KAPALI - biyom sınırlarını yumuşatma, daha hızlı
 of.options.SMOOTH_BIOMES.tooltip.4=Bu ayar, biyom geçişlerini yumuşatmak için çevredeki farklı
 of.options.SMOOTH_BIOMES.tooltip.5=renklerdeki bazı blokların renklerini karıştırır.
-of.options.SMOOTH_BIOMES.tooltip.6=Su yaprak, sarmaşık, çim gibi blokları etkiler.
+of.options.SMOOTH_BIOMES.tooltip.6=Çimler, asmalar, yapraklar ve sular etkilenen dokulardır.
 
-of.options.CONNECTED_TEXTURES=Bağlantılı Dokular
-of.options.CONNECTED_TEXTURES.tooltip.1=Bağlantılı Dokular
-of.options.CONNECTED_TEXTURES.tooltip.2=  KAPALI - bağlantılı dokular yok (varsayılan)
-of.options.CONNECTED_TEXTURES.tooltip.3=  Hızlı - hızlı bağlantılı dokular
-of.options.CONNECTED_TEXTURES.tooltip.4=  Gerçekçi - kaliteli bağlantılı dokular
+of.options.CONNECTED_TEXTURES=Bağlı Dokular
+of.options.CONNECTED_TEXTURES.tooltip.1=Bağlı Dokular
+of.options.CONNECTED_TEXTURES.tooltip.2=  KAPALI - bağlı dokular yok (varsayılan)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Hızlı - hızlı bağlı dokular
+of.options.CONNECTED_TEXTURES.tooltip.4=  Gerçekçi - gerçekçi bağlı dokular
 of.options.CONNECTED_TEXTURES.tooltip.5=Bağlantılı dokular; cam, kumtaşı, kitap rafı
-of.options.CONNECTED_TEXTURES.tooltip.6=gibi bloklar yan yana koyulduklarında
-of.options.CONNECTED_TEXTURES.tooltip.7=bütün gibi görünmelerini sağlar.
-of.options.CONNECTED_TEXTURES.tooltip.8=Dokular kaynak paketi tarafından sağlanır.
+of.options.CONNECTED_TEXTURES.tooltip.6=gibi bloklar yan yana koyulduklarında bütün
+of.options.CONNECTED_TEXTURES.tooltip.7=gibi görünmelerini sağlar. Bağlı dokular 
+of.options.CONNECTED_TEXTURES.tooltip.8=mevcut kaynak paketi tarafından sağlanır.
 
-of.options.NATURAL_TEXTURES=Doğal Görünümler
-of.options.NATURAL_TEXTURES.tooltip.1=Doğal Görünümler
-of.options.NATURAL_TEXTURES.tooltip.2=  KAPALI - doğal görünümler kullanılmaz (varsayılan)
-of.options.NATURAL_TEXTURES.tooltip.3=  AÇIK - doğal görünümler kullanılır
-of.options.NATURAL_TEXTURES.tooltip.4=Doğal görünümler ardarda tekrar eden
+of.options.NATURAL_TEXTURES=Doğal Dokular
+of.options.NATURAL_TEXTURES.tooltip.1=Doğal Dokular
+of.options.NATURAL_TEXTURES.tooltip.2=  KAPALI - doğal dokular kullanılmaz (varsayılan)
+of.options.NATURAL_TEXTURES.tooltip.3=  AÇIK - doğal dokular kullanılır
+of.options.NATURAL_TEXTURES.tooltip.4=Doğal dokular art arda tekrar eden
 of.options.NATURAL_TEXTURES.tooltip.5=blokların desen oluşturmasını engeller.
 of.options.NATURAL_TEXTURES.tooltip.6=Yan yana duran aynı bloklardan bazıları döndürülerek
-of.options.NATURAL_TEXTURES.tooltip.7=doğal görünüm elde edilir. Dokular kullanılan kaynak
+of.options.NATURAL_TEXTURES.tooltip.7=doğal görünüm elde edilir. Dokular mevcut olan kaynak
 of.options.NATURAL_TEXTURES.tooltip.8=paketinden alınır.
 
 of.options.EMISSIVE_TEXTURES=Işık Yayan Dokular
 of.options.EMISSIVE_TEXTURES.tooltip.1=Işık Yayan Dokular
 of.options.EMISSIVE_TEXTURES.tooltip.2=  KAPALI - ışık yayan dokular kullanılmaz (varsayılan)
 of.options.EMISSIVE_TEXTURES.tooltip.3=  AÇIK - ışık yayan dokular kullanılır
-of.options.EMISSIVE_TEXTURES.tooltip.4=Bazı objelerin belirli kısımlarının karanlıkta bile
-of.options.EMISSIVE_TEXTURES.tooltip.5=parlak gözükebilmesini sağlar. Bazı objelere
+of.options.EMISSIVE_TEXTURES.tooltip.4=Bazı nesnelerin belirli kısımlarının karanlıkta bile
+of.options.EMISSIVE_TEXTURES.tooltip.5=parlak gözükebilmesini sağlar. Bazı nesnelere
 of.options.EMISSIVE_TEXTURES.tooltip.6=karanlıkta parlayan kısımlar vermek için kullanılır.
-of.options.EMISSIVE_TEXTURES.tooltip.7=Işık Yayan Dokular, mevcut kaynak paketinde
-of.options.EMISSIVE_TEXTURES.tooltip.8=bulunmalıdır.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Bu dokular mevcut olan kaynak paketinden alınır.
 
 of.options.CUSTOM_SKY=Özel Gökyüzü
 of.options.CUSTOM_SKY.tooltip.1=Özel Gökyüzü
-of.options.CUSTOM_SKY.tooltip.2=  AÇIK - özel gökyüzü kullanılabilir (varsayılan)
+of.options.CUSTOM_SKY.tooltip.2=  AÇIK - özel gökyüzü kullanılabilir (varsayılan), yavaş
 of.options.CUSTOM_SKY.tooltip.3=  KAPALI - varsayılan gökyüzü kullanılır, daha hızlı
-of.options.CUSTOM_SKY.tooltip.4=Kaynak paketinin gökyüzünün görünümünü
-of.options.CUSTOM_SKY.tooltip.5=değiştirebilmesini sağlar.
+of.options.CUSTOM_SKY.tooltip.4=Özel gökyüzü dokusu mevcut kaynak paketinden alınır.
 
-of.options.CUSTOM_ITEMS=Özel Eşya Görünümleri
-of.options.CUSTOM_ITEMS.tooltip.1=Özel Eşya Görünümleri
-of.options.CUSTOM_ITEMS.tooltip.2=  AÇIK - özel eşya görünümleri kullanılabilir (varsayılan)
-of.options.CUSTOM_ITEMS.tooltip.3=  KAPALI - varsayılan eşya görünümü kullanılır, daha hızlı
-of.options.CUSTOM_ITEMS.tooltip.4=Kaynak paketinin eşya görünümlerini
-of.options.CUSTOM_ITEMS.tooltip.5=değiştirebilmesini sağlar.
+of.options.CUSTOM_ITEMS=Özel Eşyalar
+of.options.CUSTOM_ITEMS.tooltip.1=Özel Eşyalar
+of.options.CUSTOM_ITEMS.tooltip.2=  AÇIK - özel eşya görünümleri kullanılabilir (varsayılan), yavaş
+of.options.CUSTOM_ITEMS.tooltip.3=  KAPALI - varsayılan eşya görünümleri kullanılır, daha hızlı
+of.options.CUSTOM_ITEMS.tooltip.4=Özel eşya görünümleri mevcut kaynak paketinden alınır.
 
 of.options.CUSTOM_ENTITY_MODELS=Özel Varlık Modelleri
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Özel Varlık Modelleri
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  AÇIK - özel varlık modelleri kullanılabilir (varsayılan)
-of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  KAPALI - varsayılan varlık modelleri kullanılır, daha hızlı
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Kaynak paketinin varlık modellerini
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=değiştirebilmesini sağlar.
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  AÇIK - özel varlık modelleri (varsayılan), yavaş
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  KAPALI - varsayılan varlık modelleri , daha hızlı
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Özel varlık modelleri mevcut kaynak paketinden alınır.
 
-of.options.CUSTOM_GUIS=Özel Arayüz
-of.options.CUSTOM_GUIS.tooltip.1=Özel Arayüz
-of.options.CUSTOM_GUIS.tooltip.2=  AÇIK - özel arayüz kullanılabilir (varsayılan)
-of.options.CUSTOM_GUIS.tooltip.3=  KAPALI - varsayılan arayüz kullanılır, daha hızlı
-of.options.CUSTOM_GUIS.tooltip.4=Kaynak paketinin arayüzü değiştirebilmesini sağlar.
+of.options.CUSTOM_GUIS=Özel Arayüzler
+of.options.CUSTOM_GUIS.tooltip.1=Özel Arayüzler
+of.options.CUSTOM_GUIS.tooltip.2=  AÇIK - özel arayüzler kullanılabilir (varsayılan), daha yavaş
+of.options.CUSTOM_GUIS.tooltip.3=  KAPALI - varsayılan arayüz lerkullanılır, daha hızlı
+of.options.CUSTOM_GUIS.tooltip.4=Özel arayüzler mevcut kaynak paketinden alınır.
 
 # Details
 
@@ -445,62 +435,61 @@ of.options.CLOUDS.tooltip.1=Bulutlar
 of.options.CLOUDS.tooltip.2=  Varsayılan - 'Grafikler' seçeneği belirler
 of.options.CLOUDS.tooltip.3=  Hızlı - düşük kalite, daha hızlı
 of.options.CLOUDS.tooltip.4=  Gerçekçi - yüksek kalite, daha yavaş
-of.options.CLOUDS.tooltip.5=  KAPALI - bulutlar kapalı, en hızlı
+of.options.CLOUDS.tooltip.5=  KAPALI - bulut yok, en hızlı
 of.options.CLOUDS.tooltip.6=Hızlı bulutlar 2D olarak işlenir.
 of.options.CLOUDS.tooltip.7=Gerçekçi Bulutlar 3D olarak işlenir.
 
-of.options.CLOUD_HEIGHT=Bulutları Yükselt
-of.options.CLOUD_HEIGHT.tooltip.1=Bulutları Yükselt
-of.options.CLOUD_HEIGHT.tooltip.2=  KAPALI - normal yükseklik
+of.options.CLOUD_HEIGHT=Bulut Yüksekliği
+of.options.CLOUD_HEIGHT.tooltip.1=Bulut Yüksekliği
+of.options.CLOUD_HEIGHT.tooltip.2=  KAPALI - varsayılan yükseklik
 of.options.CLOUD_HEIGHT.tooltip.3=  100%% - dünya yükseklik limitinin üstünde
 
 of.options.TREES=Ağaçlar
 of.options.TREES.tooltip.1=Ağaçlar
-of.options.TREES.tooltip.2=  Varsayılan - 'Grafikler' seçeneği belirler
+of.options.TREES.tooltip.2=  Varsayılan - Grafikler seçeneği belirler
 of.options.TREES.tooltip.3=  Hızlı - düşük kalite, daha hızlı
 of.options.TREES.tooltip.4=  Akıllı - yüksek kalite, hızlı
 of.options.TREES.tooltip.5=  Gerçekçi - en yüksek kalite, daha yavaş
-of.options.TREES.tooltip.6=Hızlı kalitede yapraklar arkasını göstermez.
-of.options.TREES.tooltip.7=Gerçekçi ve akıllı ayarda yapraklar arkasını gösterir.
+of.options.TREES.tooltip.6=Hızlı kalitedeki ağaçların yaprakları opak olur.
+of.options.TREES.tooltip.7=Gerçekçi ve akıllı kalitedeki ağaçların yaprakları saydam olur.
 
 of.options.RAIN=Yağmur & Kar
 of.options.RAIN.tooltip.1=Yağmur & Kar
-of.options.RAIN.tooltip.2=  Varsayılan - 'Grafikler' seçeneği belirler
+of.options.RAIN.tooltip.2=  Varsayılan - Grafikler seçeneği belirler
 of.options.RAIN.tooltip.3=  Hızlı - hafif yağmur/kar, daha hızlı
 of.options.RAIN.tooltip.4=  Gerçekçi - yoğun yağmur/kar, daha yavaş
 of.options.RAIN.tooltip.5=  KAPALI - yağmur/kar kapalı, en hızlı
-of.options.RAIN.tooltip.6=Yağmur KAPALI'ya ayarlansa bile yere çarpan yağmur
-of.options.RAIN.tooltip.7=tanecikleri ve yağmur sesi hala aktif olacaktır.
+of.options.RAIN.tooltip.6=Yağmur kapalı olsa bile yere çarpan yağmur
+of.options.RAIN.tooltip.7=damlacıklarının sesi hala aktif olacaktır.
 
 of.options.SKY=Gökyüzü
 of.options.SKY.tooltip.1=Gökyüzü
 of.options.SKY.tooltip.2=  AÇIK - gökyüzü görünür, daha yavaş
 of.options.SKY.tooltip.3=  KAPALI  - gökyüzü görünmez, daha hızlı
-of.options.SKY.tooltip.4=Gökyüzü kapalı ayarlansa bile ay ve güneş görünür.
+of.options.SKY.tooltip.4=Gökyüzü kapalı olsa bile Ay ve Güneş görünür.
 
 of.options.STARS=Yıldızlar
 of.options.STARS.tooltip.1=Yıldızlar
-of.options.STARS.tooltip.2=  AÇIK - yızlızlar görünür, daha yavaş
+of.options.STARS.tooltip.2=  AÇIK - yıldızlar görünür, daha yavaş
 of.options.STARS.tooltip.3=  KAPALI  - yıldızlar görünmez, daha hızlı
 
 of.options.SUN_MOON=Güneş & Ay
 of.options.SUN_MOON.tooltip.1=Güneş & Ay
-of.options.SUN_MOON.tooltip.2=  AÇIK - güneş ve ay görünür (varsayılan)
-of.options.SUN_MOON.tooltip.3=  KAPALI  - güneş ve ay görünmez (daha hızlı)
+of.options.SUN_MOON.tooltip.2=  AÇIK - Güneş ve Ay görünür (varsayılan)
+of.options.SUN_MOON.tooltip.3=  KAPALI  - Güneş ve Ay görünmez (daha hızlı)
 
 of.options.SHOW_CAPES=Pelerinleri Göster
 of.options.SHOW_CAPES.tooltip.1=Pelerinleri Göster
 of.options.SHOW_CAPES.tooltip.2=  AÇIK - oyuncu pelerinleri gösterilir (varsayılan)
 of.options.SHOW_CAPES.tooltip.3=  KAPALI - oyuncu pelerinleri gösterilmez
 
-of.options.TRANSLUCENT_BLOCKS=Yarı Sydm Bloklar
+of.options.TRANSLUCENT_BLOCKS=Yarı Saydam Bloklar
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Yarı Saydam Bloklar
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Varsayılan - 'Grafikler' seçeneği belirler
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Varsayılan - Grafikler seçeneği belirler
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Gerçekçi - düzgün renk karışımı (daha yavaş)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Hızlı - hızlı renk karışımı (daha hızlı)
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=Yarı saydam blokların (renkli cam, su, buz gibi)
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=aralarında boşluk var iken
-of.options.TRANSLUCENT_BLOCKS.tooltip.7=renk karışımlarını ayarlar.
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Yarı saydam blokların (renkli camlar, su ve buz gibi)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=aralarında boşluk varken renk karışımlarını ayarlar.
 
 of.options.HELD_ITEM_TOOLTIPS=Eşya İpuçları
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Eşya İpuçları
@@ -510,14 +499,14 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  KAPALI - eşya için bilgiler vermez
 of.options.ADVANCED_TOOLTIPS=Ayrıntılı Bilgiler
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Ayrıntılı Bilgiler
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  AÇIK - ayrıntılı bilgileri gösterir 
-of.options.ADVANCED_TOOLTIPS.tooltip.3=  KAPALI - ayrıntılı bilgileri gösterme (varsayılan)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=Ayrıntılı Bilgiler eşyaların ID'leri, kalan ömürlerini;
-of.options.ADVANCED_TOOLTIPS.tooltip.5=shader ayarlarının ise kaynak, id ve
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  KAPALI - ayrıntılı bilgileri göstermez (varsayılan)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Ayrıntılı bilgiler eşyaların ID'leri, kalan ömürlerini;
+of.options.ADVANCED_TOOLTIPS.tooltip.5=gölgelendirici ayarlarının ise kaynak, ID ve
 of.options.ADVANCED_TOOLTIPS.tooltip.6=varsayılan verilerini gösterir.
 
 of.options.DROPPED_ITEMS=Atılan Eşyalar
 of.options.DROPPED_ITEMS.tooltip.1=Atılan Eşyalar
-of.options.DROPPED_ITEMS.tooltip.2=  Varsayılan - 'Grafikler' seçeneği belirler
+of.options.DROPPED_ITEMS.tooltip.2=  Varsayılan - Grafikler seçeneği belirler
 of.options.DROPPED_ITEMS.tooltip.3=  Hızlı - atılan eşyalar 2D gözükür (daha hızlı)
 of.options.DROPPED_ITEMS.tooltip.4=  Gerçekçi - atılan eşyalar 3D gözükür (daha yavaş)
 
@@ -527,12 +516,12 @@ options.entityShadows.tooltip.3=  KAPALI - varlık gölgelerini gösterme
 
 of.options.VIGNETTE=Vinyet
 of.options.VIGNETTE.tooltip.1=Ekranın köşelerini hafifçe karartan görsel efekt
-of.options.VIGNETTE.tooltip.2=  Varsayılan - 'Grafikler' seçeneği belirler (varsayılan)
+of.options.VIGNETTE.tooltip.2=  Varsayılan - Grafikler seçeneği belirler (varsayılan)
 of.options.VIGNETTE.tooltip.3=  Hızlı - vinyet devre dışı (daha hızlı)
 of.options.VIGNETTE.tooltip.4=  Gerçekçi - vinyet aktif (daha yavaş)
-of.options.VIGNETTE.tooltip.5=Vinyet FPS'e ufak etki edebilir,
-of.options.VIGNETTE.tooltip.6=özellikle tam ekranlarda.
-of.options.VIGNETTE.tooltip.7=Vinyet efekti oldukça hafiftir ve rahatlıkla
+of.options.VIGNETTE.tooltip.5=Vinyetin kare hızına önemli etkisi olabilir
+of.options.VIGNETTE.tooltip.6=özellikle tam ekranda oynuyorsan.
+of.options.VIGNETTE.tooltip.7=Vinyet efekti oldukça hafiftir ve kolaylıkla
 of.options.VIGNETTE.tooltip.8=devre dışı bırakılabilir.
 
 of.options.DYNAMIC_FOV=Dinamik Bakış Açısı
@@ -545,71 +534,71 @@ of.options.DYNAMIC_FOV.tooltip.5=kullanırken genişler.
 of.options.DYNAMIC_LIGHTS=Dinamik Işıklar
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dinamik Işıklar
 of.options.DYNAMIC_LIGHTS.tooltip.2=  KAPALI - dinamik ışıklar kapalı (varsayılan)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Hızlı - basit dinamik ışıklar (saniyede 2 kere günceller)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Gerçekçi - gerçekçi dinamik ışıklar (her an günceller)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Hızlı - basit dinamik ışıklar (her 500ms'de bir güncellenir)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Gerçekçi - gerçekçi dinamik ışıklar (gerçek zamanlı güncellenir)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Işık yayan nesnelerin (meşale gibi) ele alındıklarında,
-of.options.DYNAMIC_LIGHTS.tooltip.6=yere atıldıklarında yada başka bir oyuncunun elindeyken
+of.options.DYNAMIC_LIGHTS.tooltip.6=yere atıldıklarında ya da başka bir oyuncunun elindeyken
 of.options.DYNAMIC_LIGHTS.tooltip.7=etrafına ışık yaymasını sağlar.
 
 options.biomeBlendRadius.tooltip.1=Biyomlar arası renk geçişini yumuşatır
 options.biomeBlendRadius.tooltip.2=  KAPALI - renk karışımı yok (en hızlı)
 options.biomeBlendRadius.tooltip.3=  5x5 - normal karışım (varsayılan)
 options.biomeBlendRadius.tooltip.4=  15x15 - maksimum karışım (en yavaş)
-options.biomeBlendRadius.tooltip.5=Yüksek değerlerde fark edilebilir laga sebep olabilir
-options.biomeBlendRadius.tooltip.6=ve yığın yüklenme hızını düşürebilir.
+options.biomeBlendRadius.tooltip.5=Daha yüksek değerler fark edilebilir bir gecikmeye
+options.biomeBlendRadius.tooltip.6=sebep olabilir ve yığın yükleme hızını düşürebilir.
 
 # Performance
 
-of.options.SMOOTH_FPS=FPS Dengeleme
-of.options.SMOOTH_FPS.tooltip.1=Grafik sürücüsü geçici verilerini temizleyip FPS'i dengeler.
-of.options.SMOOTH_FPS.tooltip.2=  KAPALI - stabilizasyon kapalı, anlık droplar girebilir
-of.options.SMOOTH_FPS.tooltip.3=  AÇIK - FPS dengelenir
+of.options.SMOOTH_FPS=Kare Hızını Dengeleme
+of.options.SMOOTH_FPS.tooltip.1=Grafik sürücüsü geçici verilerini temizleyip kare hızını dengeler.
+of.options.SMOOTH_FPS.tooltip.2=  KAPALI - stabilizasyon kapalı, anlık donmalar yaşanabilir
+of.options.SMOOTH_FPS.tooltip.3=  AÇIK - kare hızı dengelenir
 of.options.SMOOTH_FPS.tooltip.4=Bu ayar grafik sürücülerine bağlıdır ve
 of.options.SMOOTH_FPS.tooltip.5=etkisi her zaman gözle görülmeyebilir.
 
 of.options.SMOOTH_WORLD=Dünya Dengeleme
 of.options.SMOOTH_WORLD.tooltip.1=Dünya yüklenmesinden kaynaklı takılmaları azaltır.
 of.options.SMOOTH_WORLD.tooltip.2=  KAPALI - stabilizasyon yoktur, oyun takılabilir
-of.options.SMOOTH_WORLD.tooltip.3=  AÇIK - FPS dengelenir
-of.options.SMOOTH_WORLD.tooltip.4=Sunucuda oluşan yükü dağıtarak FPS'i stabilize eder.
+of.options.SMOOTH_WORLD.tooltip.3=  AÇIK - kare hızını dengeler
+of.options.SMOOTH_WORLD.tooltip.4=Sunucuda oluşan yükü dağıtarak kare hızını stabilize eder.
 of.options.SMOOTH_WORLD.tooltip.5=Sadece yerel dünyada (tek oyunculu) geçerlidir.
 
 of.options.FAST_RENDER=Hızlı İşleme
 of.options.FAST_RENDER.tooltip.1=Hızlı İşleme
 of.options.FAST_RENDER.tooltip.2= KAPALI - standart işleme (varsayılan)
 of.options.FAST_RENDER.tooltip.3= AÇIK - optimize edilmiş işleme (daha hızlı)
-of.options.FAST_RENDER.tooltip.4=GPU yükünü hafifleten ve FPS'i yükseltebilen, optimize
-of.options.FAST_RENDER.tooltip.5=edilmiş bir algoritma kullanan işleme şeklidir.
-of.options.FAST_RENDER.tooltip.6=Bazı modlarla çakışabilir.
+of.options.FAST_RENDER.tooltip.4=Grafik kartının yükünü hafifleten ve kare hızını yükseltebilen
+of.options.FAST_RENDER.tooltip.5=optimize edilmiş bir algoritma kullanan işleme şeklidir.
+of.options.FAST_RENDER.tooltip.6=Bu ayar bazı modlarla çakışabilir.
 
 of.options.FAST_MATH=Hızlı Hesap
 of.options.FAST_MATH.tooltip.1=Hızlı Hesap
 of.options.FAST_MATH.tooltip.2= KAPALI - standart hesaplama (varsayılan)
 of.options.FAST_MATH.tooltip.3= AÇIK - hızlı hesaplama
 of.options.FAST_MATH.tooltip.4=Optimize edilmiş sin() ve cos() hesapları kullanılır.
-of.options.FAST_MATH.tooltip.5=Bu durum CPU kullanımını azaltıp ve FPS arttırır.
-of.options.FAST_MATH.tooltip.6=Dünya oluşturmada azda olsa etkilidir.
+of.options.FAST_MATH.tooltip.5=Bu durum işlemci kullanımını azaltır ve kare hızını arttırır.
+of.options.FAST_MATH.tooltip.6=Bu ayar dünya oluşumunda az da olsa etkilidir.
 
 of.options.CHUNK_UPDATES=Yığın Güncelleme Hızı
 of.options.CHUNK_UPDATES.tooltip.1=Yığın Güncelleme Hızı
-of.options.CHUNK_UPDATES.tooltip.2= 1 - en yavaş dünya yüklemesi, daha yüksek FPS (vrsyln)
+of.options.CHUNK_UPDATES.tooltip.2= 1 - en yavaş dünya yüklemesi, daha yüksek FPS (varsayılan)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - daha hızlı dünya yüklemesi, daha düşük FPS
 of.options.CHUNK_UPDATES.tooltip.4= 5 - en hızlı dünya yüklemesi, en düşük FPS
-of.options.CHUNK_UPDATES.tooltip.5=Kare başına düşen Yığın Güncelleme miktarı.
+of.options.CHUNK_UPDATES.tooltip.5=Kare başına düşen yığın güncelleme miktarı.
 of.options.CHUNK_UPDATES.tooltip.6=Yüksek değerler FPS dengesizliğine sebep olabilir.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dinamik Güncelleme
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dinamik Yığın Güncelleme
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dinamik Yığın Güncellemesi
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= KAPALI - her karede yığın yüklemesi (varsayılan)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= AÇIK - oyuncu sabitken daha fazla güncelleme
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Oyuncu sabitken yığınların daha hızlı güncellenmesi,
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=dünyanın daha hızlı yüklenmesine olanak tanır.
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Oyuncu sabitken yığınların daha hızlı güncellenmesine
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=ve dünyanın daha hızlı yüklenmesine olanak tanır.
 
-of.options.LAZY_CHUNK_LOADING=Yavaş Yığın Yükleme
-of.options.LAZY_CHUNK_LOADING.tooltip.1=Yavaş Yığın Yükleme
+of.options.LAZY_CHUNK_LOADING=Yavaş Yığın Yüklemesi
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Yavaş Yığın Yüklemesi
 of.options.LAZY_CHUNK_LOADING.tooltip.2= KAPALI - normal yığın yüklenmesi
 of.options.LAZY_CHUNK_LOADING.tooltip.3= AÇIK - yavaş yığın yüklenmesi (daha rahat)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Yığın yükleme hızını birkaç tike dağıtarak yükü
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Yığın yükleme hızını birkaç ms'ye dağıtarak yükü
 of.options.LAZY_CHUNK_LOADING.tooltip.5=hafifletir, yükleme esnasında oluşan takılmaları azaltır.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Eğer dünyalar düzgün yüklenmiyorsa devre dışı bırakın.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Yanlızca yerel dünyalarda (tek oyunculu) geçerlidir.
@@ -620,7 +609,7 @@ of.options.RENDER_REGIONS.tooltip.2= KAPALI - bölgesel işleme kullanılmaz (va
 of.options.RENDER_REGIONS.tooltip.3= AÇIK - bölgesel işleme kullanılır
 of.options.RENDER_REGIONS.tooltip.4=Bölgesel işleme yüksek görüş mesafelerinde daha
 of.options.RENDER_REGIONS.tooltip.5=hızlı yeryüzü işlemesi sağlar. VBO aktifken daha etkilidir.
-of.options.RENDER_REGIONS.tooltip.6=Entegre grafik kartlarına önerilmez.
+of.options.RENDER_REGIONS.tooltip.6=Entegre grafik kartı kullanıcılarına önerilmez.
 
 of.options.SMART_ANIMATIONS=Akıllı Animasyonlar
 of.options.SMART_ANIMATIONS.tooltip.1=Akıllı Animasyonlar
@@ -628,7 +617,7 @@ of.options.SMART_ANIMATIONS.tooltip.2= KAPALI - akıllı animasyonlar kullanılm
 of.options.SMART_ANIMATIONS.tooltip.3= AÇIK - akıllı animasyonlar kullanılır
 of.options.SMART_ANIMATIONS.tooltip.4=Akıllı animasyonlar ile animasyonlu blokların animasyonu
 of.options.SMART_ANIMATIONS.tooltip.5=sadece ekranda görünüyorsa aktif olacaktır.
-of.options.SMART_ANIMATIONS.tooltip.6=Bu ayar FPS'i yükseltip anlık donmaları engeller.
+of.options.SMART_ANIMATIONS.tooltip.6=Bu ayar kare hızını yükseltip anlık takılmaları engeller.
 of.options.SMART_ANIMATIONS.tooltip.7=Büyük mod paketleri ve HD görüntü paketlerinde etkilidir.
 
 # Animations
@@ -657,22 +646,22 @@ of.options.FIREWORK_PARTICLES=Havai Fişek Prçacıkları
 
 # Other
 
-of.options.LAGOMETER=Lag Ölçer
-of.options.LAGOMETER.tooltip.1=Lag Ölçer'i hata giderme menüsünde (F3) gösterir.
+of.options.LAGOMETER=Gecikme Ölçer
+of.options.LAGOMETER.tooltip.1=Gecikme ölçeri hata giderme menüsünde (F3) gösterilir.
 of.options.LAGOMETER.tooltip.2=* Turuncu - Bellek çöp temizliği
-of.options.LAGOMETER.tooltip.3=* Camgöbeği - Tick
+of.options.LAGOMETER.tooltip.3=* Camgöbeği - Milisaniye
 of.options.LAGOMETER.tooltip.4=* Mavi - Zamanlanmış olaylar
 of.options.LAGOMETER.tooltip.5=* Mor - Yığın yüklemesi
 of.options.LAGOMETER.tooltip.6=* Kırmızı - Yığın güncellemesi
 of.options.LAGOMETER.tooltip.7=* Sarı - Görünüm kontrolü
-of.options.LAGOMETER.tooltip.8=* Yeşil - Yeryüzü işleme
+of.options.LAGOMETER.tooltip.8=* Yeşil - Yeryüzü işlemesi
 
 of.options.PROFILER=Hata Giderme Verileri
 of.options.PROFILER.tooltip.1=Hata Giderme Verileri
 of.options.PROFILER.tooltip.2=  AÇIK - hata giderme verileri aktif, daha yavaş
 of.options.PROFILER.tooltip.3=  KAPALI - hata giderme verileri deaktif, daha hızlı
-of.options.PROFILER.tooltip.4=Hata giderme verileri bilgi toplar ve
-of.options.PROFILER.tooltip.5=bu bilgileri F3'e basınca gösterir.
+of.options.PROFILER.tooltip.4=Hata giderme verileri bilgi toplar ve bu
+of.options.PROFILER.tooltip.5=bilgileri hata giderme menüsünde gösterir.
 
 of.options.WEATHER=Hava Değişimleri
 of.options.WEATHER.tooltip.1=Hava Değişimleri
@@ -689,7 +678,7 @@ of.options.TIME.tooltip.1=Zaman
 of.options.TIME.tooltip.2= Varsayılan - normal gece/gündüz döngüsü
 of.options.TIME.tooltip.3= Sadece Gündüz - sürekli gündüz
 of.options.TIME.tooltip.4= Sadece Gece - sürekli gece
-of.options.TIME.tooltip.5=Zaman değiştirme sadece YARATICI mod
+of.options.TIME.tooltip.5=Zaman değiştirme sadece YARATICI modu
 of.options.TIME.tooltip.6=ve yerel dünyalar (tek oyunculu) içindir.
 
 options.fullscreen.tooltip.1=Tam Ekran
@@ -705,21 +694,21 @@ options.fullscreen.resolution.tooltip.3=  YxG@FPS (**bit) - özel yükseklik, ge
 options.fullscreen.resolution.tooltip.4=Seçilen çözünürlük tam ekran modunda kullanılır (F11).
 options.fullscreen.resolution.tooltip.5=Düşük çözünürlükler daha hızlıdır.
 
-of.options.SHOW_FPS=FPS Göster
-of.options.SHOW_FPS.tooltip.1=Sol üstte daima FPS ve işleme bilgisini gösterir.
+of.options.SHOW_FPS=Kare Hızını Göster
+of.options.SHOW_FPS.tooltip.1=Sol üstte daima kare hızını ve işleme bilgisini gösterir.
 of.options.SHOW_FPS.tooltip.2=  Fps - ortalama/minimum
 of.options.SHOW_FPS.tooltip.3=  C: - işlenen yığınlar
 of.options.SHOW_FPS.tooltip.4=  E: - işlenen varlıklar + bloke varlıklar
 of.options.SHOW_FPS.tooltip.5=  U: - yığın güncellemeri
-of.options.SHOW_FPS.tooltip.6=Bu küçük FPS bilgisi ekranı sadece
-of.options.SHOW_FPS.tooltip.7=hata giderme kapalıyken gözükür.
+of.options.SHOW_FPS.tooltip.6=Bu küçük kare hızı bilgisi ekranı sadece
+of.options.SHOW_FPS.tooltip.7=hata giderme menüsü kapalıyken gözükür.
 
 of.options.save.45s=45sn
 of.options.save.90s=90sn
-of.options.save.3min=3dak
-of.options.save.6min=6dak
-of.options.save.12min=12dak
-of.options.save.24min=24dak
+of.options.save.3min=3dk
+of.options.save.6min=6dk
+of.options.save.12min=12dk
+of.options.save.24min=24dk
 
 of.options.AUTOSAVE_TICKS=Oto Kayıt Aralığı
 of.options.AUTOSAVE_TICKS.tooltip.1=Oto Kayıt Aralığı
@@ -727,17 +716,17 @@ of.options.AUTOSAVE_TICKS.tooltip.2= 45s - 45 saniyede bir (varsayılan)
 of.options.AUTOSAVE_TICKS.tooltip.3=İşleme uzaklığına bağlı olarak anlık donmaya neden olabilir.
 of.options.AUTOSAVE_TICKS.tooltip.4=Oyun, ayrıca menü açıldığında da otomatik kaydedilir.
 
-of.options.SCREENSHOT_SIZE=SS Çözünürlüğü
+of.options.SCREENSHOT_SIZE=Ekran Çözünürlüğü
 of.options.SCREENSHOT_SIZE.tooltip.1=Ekran Görüntüsü Çözünürlüğü
 of.options.SCREENSHOT_SIZE.tooltip.2=  Varsayılan - varsayılan ekran görüntüsü çözünürlüğü
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - özel boyutlar
 of.options.SCREENSHOT_SIZE.tooltip.4=Yüksek çözünürlükteki görüntüler daha çok alan kaplar.
 of.options.SCREENSHOT_SIZE.tooltip.5=Hızlı yükleme ve kenar yumuşatma ile uyumlu değildir.
-of.options.SCREENSHOT_SIZE.tooltip.6=Yüksek ayarlar iyi bir GPU gerektirir.
+of.options.SCREENSHOT_SIZE.tooltip.6=Yüksek ayarlar iyi bir ekran kartı gerektirir.
 
 of.options.SHOW_GL_ERRORS=GL Hatalarını Göster
 of.options.SHOW_GL_ERRORS.tooltip.1=OpenGL Hatalarını Göster
-of.options.SHOW_GL_ERRORS.tooltip.2=Aktifken konuşma bölümünde OpenGL hataları gösterilir.
+of.options.SHOW_GL_ERRORS.tooltip.2=Aktifken sohbet bölümünde OpenGL hataları gösterilir.
 of.options.SHOW_GL_ERRORS.tooltip.3=Bu ayarı sadece bilinen bir hata var ve
 of.options.SHOW_GL_ERRORS.tooltip.4=çözülemiyorsa devre dışı bırakın.
 of.options.SHOW_GL_ERRORS.tooltip.5=Devre dışı bırakıldığında bile hatalar kayıt dosyasına
@@ -745,11 +734,11 @@ of.options.SHOW_GL_ERRORS.tooltip.6=yazılacaktır. Bu durum FPS düşüşüne s
 
 # Chat Settings
  
-of.options.CHAT_BACKGROUND=Sohbet Arkaplanı
-of.options.CHAT_BACKGROUND.tooltip.1=Sohbet Arkaplanı
+of.options.CHAT_BACKGROUND=Sohbet Arka Planı
+of.options.CHAT_BACKGROUND.tooltip.1=Sohbet Arka Planı
 of.options.CHAT_BACKGROUND.tooltip.2=  Varsayılan - düzgün genişlik
 of.options.CHAT_BACKGROUND.tooltip.3=  Sıkışık - metinle eş uzunlukta
-of.options.CHAT_BACKGROUND.tooltip.4=  KAPALI - arkaplan yok
+of.options.CHAT_BACKGROUND.tooltip.4=  KAPALI - arka plan yok
  
 of.options.CHAT_SHADOW=Sohbet Gölgesi
 of.options.CHAT_SHADOW.tooltip.1=Sohbet Metin Gölgesi

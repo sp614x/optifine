@@ -34,7 +34,7 @@
 #                        front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, 
 #                        front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
 # donkey                 <same as horse>, left_chest, right_chest
-# dolphin                body, back_fin, left_fin, right_fin, tail
+# dolphin                body, back_fin, left_fin, right_fin, tail, tail_fin, head
 # drowned                head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # ender_chest            lid, base, knob
 # end_crystal            cube, glass, base
@@ -72,6 +72,8 @@
 #                        spikes_front_left, spikes_back_bottom, spikes_front_bottom
 # puffer_fish_small      body, eye_right, eye_left, tail, fin_right, fin_left
 # pig                    head, body, leg1 ... leg4
+# piglin                 head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_ear, right_ear
+# piglin_brute           head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_ear, right_ear
 # pillager               head, body, arms, left_leg, right_leg, nose, left_arm, right_arm
 # polar_bear             head, body, leg1 ... leg4
 # rabbit                 left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
@@ -110,6 +112,7 @@
 # zombie_horse           <same as horse>
 # zombie_pigman          head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # zombie_villager        head, headwear, body, left_arm, right_arm, left_leg, right_leg
+# zombified_piglin       head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_ear
 #
 # Only the elements "models" and "part" are required. 
 #

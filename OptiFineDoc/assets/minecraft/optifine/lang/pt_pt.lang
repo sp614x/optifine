@@ -192,7 +192,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.5=pacotes de shaders para simularem efei
 of.options.shaders.SPECULAR_MAP.tooltip.6=de reflexo. As texturas dos mapas especulares são
 of.options.shaders.SPECULAR_MAP.tooltip.7=suportadas pelo pacote de recursos atual.
 
-of.options.shaders.RENDER_RES_MUL=Qual. de carregamento
+of.options.shaders.RENDER_RES_MUL=Qualidade
 of.options.shaders.RENDER_RES_MUL.tooltip.1=Qualidade de carregamento
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - baixa (rápido)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - padrão
@@ -202,8 +202,8 @@ of.options.shaders.RENDER_RES_MUL.tooltip.6=texura que o pacote de shaders está
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Os valores baixos podem ser úteis em ecrãs 4K.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Os valores altos funcionam como filtração antiserrilha.
 
-of.options.shaders.SHADOW_RES_MUL=Qual. das sombras
-of.options.shaders.SHADOW_RES_MUL.tooltip.1=Qualidade das sombras
+of.options.shaders.SHADOW_RES_MUL=Sombra
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Qualidade da sombra
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - baixa (rápido)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - padrão
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - alta (lento)
@@ -212,7 +212,7 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.6=sombrias do mapa usadas pelo pacote 
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Valores baixos = ríspida, sombras brutas
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Valores altos = detalhadas, sombras aprazíveis
 
-of.options.shaders.HAND_DEPTH_MUL=Profun. da mão
+of.options.shaders.HAND_DEPTH_MUL=Profundidade
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Profundidade da mão
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - mão perto da câmara
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - padrão
@@ -224,7 +224,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.8=a desfocagem dos objetos que tiveres
 
 of.options.shaders.CLOUD_SHADOW=Sombras das nuvens
 
-of.options.shaders.OLD_HAND_LIGHT=Ilum. da mão
+of.options.shaders.OLD_HAND_LIGHT=Ilu. da mão
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Iluminação da mão
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Padrão - controlado pelo pacote de shaders
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Sim - usa o antigo sistema de iluminação da mão
@@ -234,7 +234,7 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.6=shaders, que apenas reconhecem items
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=na mão principal, reconheca também items que estejam
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=ma mão secundária.
 
-of.options.shaders.OLD_LIGHTING=Ilum. antiga
+of.options.shaders.OLD_LIGHTING=Ilu. antiga
 of.options.shaders.OLD_LIGHTING.tooltip.1=Iluminação antiga
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Padrão - controlado pelo pacote de shaders
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Sim - usa o antigo sistema de iluminação
