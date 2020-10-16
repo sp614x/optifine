@@ -82,14 +82,6 @@ options.graphics.tooltip.5=Изменяет облик дёрна, листье�
 options.graphics.tooltip.6=Потрясающая графика не совместима с шейдерами.
 options.graphics.tooltip.7=
 
-of.options.renderDistance.tiny=Минимальная
-of.options.renderDistance.short=Малая
-of.options.renderDistance.normal=Нормальная
-of.options.renderDistance.far=Дальняя
-of.options.renderDistance.extreme=Предельная
-of.options.renderDistance.insane=Безумная
-of.options.renderDistance.ludicrous=Абсурдная!
-
 options.renderDistance.tooltip.1=Дальность прорисовки
 
 options.entityDistanceScaling.tooltip.1=Расстояние до сущности

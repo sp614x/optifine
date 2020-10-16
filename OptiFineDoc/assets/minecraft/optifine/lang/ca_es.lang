@@ -85,8 +85,6 @@ options.graphics.tooltip.5=Els canvis s'aprecien en els núvols, en les fulles,
 options.graphics.tooltip.6=en la pluja, en els objectes tiras i en les
 options.graphics.tooltip.7=puntes (o bordes) de la pantalla del joc.
 
-
-
 options.ao.tooltip.1=Iluminació suau
 options.ao.tooltip.2=  NO - sense iluminació suau (ràpid)
 options.ao.tooltip.3=  Mínim - iluminació suau simple (lent)
