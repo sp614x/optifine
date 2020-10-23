@@ -1,8 +1,8 @@
 ---
-name: Feature request
+name: Feature Request
 about: Suggest an idea for OptiFine
-title: "[Category] Short description"
-labels: ''
+title: "[Category] Short Description"
+labels: 'enhancement'
 assignees: ''
 
 ---
