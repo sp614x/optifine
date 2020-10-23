@@ -1,8 +1,8 @@
 ---
 name: Bug Report
 about: Help OptiFine pinpoint Issues
-title: "[Bug] [Category] Short Description"
-labels: ''
+title: "[Category] Short Description"
+labels: 'bug'
 assignees: ''
 
 ---
@@ -11,11 +11,11 @@ assignees: ''
 Please provide as much detail as possible.
 
 ## Steps to Reproduce
-1. What do you do... 
+1. What do you do...
 2. ...to find this bug?
 
 ## OptiFine Version
-Self-explanatory. 
+Self-explanatory.
 
 ## Installation Method
 How did you install OptiFine? Did you use the included standalone installer, or did you drop the JAR file into your "mods" folder?
