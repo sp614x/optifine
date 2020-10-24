@@ -39,8 +39,8 @@ of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關�
 of.message.shaders.fr1=光影與快速繪製不相容。
 of.message.shaders.fr2=請把 效能 -> 快速繪製 選項設定為 關閉。
 
-of.message.shaders.fr1=光影與 極佳 畫質不相容。
-of.message.shaders.fr2=請把畫質設定為 流暢 或是 精緻。
+of.message.shaders.gf1=光影與 極佳 畫質不相容。
+of.message.shaders.gf2=請把畫質設定為 流暢 或是 精緻。
 
 of.message.shaders.an1=光影與 3D 立體不相容。
 of.message.shaders.an2=請把 其他 -> 3D 立體 選項設定為 關閉。
