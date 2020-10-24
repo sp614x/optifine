@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   THGABS From Minecraft Wiki 2020-9-6
+#   THGABS From Minecraft Wiki 2020-9-6 ---- 2020-10-24
 #   HeartyYF From InfinityStudio 2016-2-18 ---- 2019-10-6
 #   xwjcool123 From Minecraft Bar 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
@@ -672,15 +672,15 @@ of.options.ANIMATED_REDSTONE=红石动画
 of.options.ANIMATED_EXPLOSION=爆炸动画
 of.options.ANIMATED_FLAME=火焰动画
 of.options.ANIMATED_SMOKE=烟雾动画
-of.options.VOID_PARTICLES=虚空颗粒
-of.options.WATER_PARTICLES=水面颗粒
+of.options.VOID_PARTICLES=虚空粒子
+of.options.WATER_PARTICLES=水面粒子
 of.options.RAIN_SPLASH=雨滴飞溅
-of.options.PORTAL_PARTICLES=传送门颗粒
-of.options.POTION_PARTICLES=药水颗粒
+of.options.PORTAL_PARTICLES=传送门粒子
+of.options.POTION_PARTICLES=药水粒子
 of.options.DRIPPING_WATER_LAVA=水滴/熔岩滴
 of.options.ANIMATED_TERRAIN=地形动画
 of.options.ANIMATED_TEXTURES=动态材质
-of.options.FIREWORK_PARTICLES=烟花颗粒
+of.options.FIREWORK_PARTICLES=烟花粒子
 
 # Other
 
@@ -732,8 +732,8 @@ options.fullscreen.resolution.tooltip.3=  自定义 - 使用自定义屏幕分�
 options.fullscreen.resolution.tooltip.4=此选项只在全屏模式下生效（F11）。
 options.fullscreen.resolution.tooltip.5=较低的分辨率通常会更快。
 
-of.options.SHOW_FPS=显示 FPS
-of.options.SHOW_FPS.tooltip.1=显示迷你的FPS和渲染信息
+of.options.SHOW_FPS=显示FPS
+of.options.SHOW_FPS.tooltip.1=显示迷你FPS及渲染信息
 of.options.SHOW_FPS.tooltip.2=  FPS - 平均/最低
 of.options.SHOW_FPS.tooltip.3=  C：- 区块渲染器
 of.options.SHOW_FPS.tooltip.4=  E：- 一般实体 + 方块实体
