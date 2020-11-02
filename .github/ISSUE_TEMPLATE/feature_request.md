@@ -8,4 +8,4 @@ assignees: ''
 ---
 
 ## Description of the new feature
-Please provide as much detail as possible
+<!-- Please provide as much detail as possible -->
