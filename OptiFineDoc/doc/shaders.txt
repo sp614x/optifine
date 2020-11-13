@@ -110,15 +110,24 @@ Remarks:
  - The programs shadow_solid, shadow_cutout, gbuffers_terrain_solid, gbuffers_terrain_cutout and gbuffers_terrain_cutout_mip are not used
 
 Todo:
- - Separate programs for world border, entities (by id, by type), cape, elytra, wolf collar, etc. 
+ - Separate programs for world border, entities (by id, by type), cape, elytra, wolf collar, etc.
  
 Attributes
 ==========
 Source                                          Value                                             Comment
 =====================================================================================================================================================================
 attribute vec3 mc_Entity;                       xy = blockId, renderType                          "blockId" is used only for blocks specified in "block.properties"      
-attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                             Sprite middle UV coordinates                
+attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                             Sprite middle UV coordinates
 attribute vec4 at_tangent;                      xyz = tangent vector, w = handedness
+
+Remarks:
+ - When using newer versions of GLSL, you might want to do this to prevent warn messages:
+ 
+in vec3 mc_Entity;
+
+/*
+attribute vec3 mc_Entity;
+*/
 
 Uniforms
 ==========
@@ -180,7 +189,7 @@ uniform int entityId;                           entity ID
 uniform int blockEntityId;                      block entity ID (block ID for the tile entity, only for blocks specified in "block.properties")
 uniform ivec4 blendFunc;                        blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)
 uniform int instanceId;                         instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies
-uniform float playerMood;                       player mood (0.0-1.0), increases the longer a player stays underground
+uniform float playerMood;                       player mood (0.0-1.0), increases the longer a player stays underground. Plays a cave sound and resets when playerMood == 1.0
 
 GBuffers Uniforms
 ================= 
