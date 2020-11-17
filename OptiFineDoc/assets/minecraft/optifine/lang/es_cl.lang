@@ -244,7 +244,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Profundidad de campo
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - mano cerca de la cámara
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (por defecto)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - mano lejos de la cámara
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=Controla la distancia entre la mano y la cámara.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Puede cambiar el desenfoque producido en la mano
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=por las shaders que usan blur.
