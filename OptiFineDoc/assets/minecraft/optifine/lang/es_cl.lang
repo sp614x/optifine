@@ -657,10 +657,10 @@ of.options.RENDER_REGIONS.tooltip.1=Renderizado por regiones
 of.options.RENDER_REGIONS.tooltip.2= NO - no usar renderizado por regiones (por defecto)
 of.options.RENDER_REGIONS.tooltip.3= SÍ - usar renderizado por regiones
 of.options.RENDER_REGIONS.tooltip.4=    
-of.options.RENDER_REGIONS.tooltip.5=Permite renderizar el terreno muy rápidamente
-of.options.RENDER_REGIONS.tooltip.6=cuando te encuentras a una gran altura.
-of.options.RENDER_REGIONS.tooltip.7=  
-of.options.RENDER_REGIONS.tooltip.8=Es más efectivo si se activa "Usar VBOs" o "VBO".
+of.options.RENDER_REGIONS.tooltip.5=Permite una representación del terreno más rápida
+of.options.RENDER_REGIONS.tooltip.6=optimizando la carga de la GPU.
+of.options.RENDER_REGIONS.tooltip.7=Más efectivo a mayores distancias de renderizado.
+of.options.RENDER_REGIONS.tooltip.8=No recomendado para tarjetas gráficas integradas.
 
 of.options.SMART_ANIMATIONS=Animaciones inteligentes
 of.options.SMART_ANIMATIONS.tooltip.1=Animaciones inteligentes
