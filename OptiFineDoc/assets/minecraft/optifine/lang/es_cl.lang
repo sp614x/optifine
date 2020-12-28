@@ -30,11 +30,11 @@ of.message.shaders.af2=Para desactivarlo, haz clic en Calidad -> Anisotrópico.
 of.message.shaders.fr1=Las shaders no son compatibles con el renderizado rápido.
 of.message.shaders.fr2=Para desactivarlo, haz clic en Rendimiento -> Renderizado rápido.
 
-of.message.shaders.gf1=Las shaders no son compatibles con graficos Fabulosos.
-of.message.shaders.gf2=Porfavor usa Gráficos Rápido o Elegantes.
-
 of.message.an.shaders1=No es compatible con shaders.
 of.message.an.shaders2=Desactívalas para usar esta función.
+
+of.message.shaders.gf1=Las shaders no son compatibles con graficos Fabulosos.
+of.message.shaders.gf2=Porfavor usa Gráficos Rápido o Elegantes.
 
 of.message.shaders.an1=No es compatible con Visión en 3D.
 of.message.shaders.an2=Desactívalo en Opciones varias -> Visión en 3D.
@@ -110,8 +110,9 @@ options.framerateLimit.tooltip.1=Límite de FPS
 options.framerateLimit.tooltip.2=  VSync - limita los FPS según tu monitor (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - límite personalizado
 options.framerateLimit.tooltip.4=  Sin límite - todos los FPS posibles (recomendado)
-options.framerateLimit.tooltip.5=Al establecer un límite, los FPS pueden
-options.framerateLimit.tooltip.6=disminuir si llegan a alcanzarlo.
+options.framerateLimit.tooltip.5=
+options.framerateLimit.tooltip.6=Al establecer un límite, los FPS pueden
+options.framerateLimit.tooltip.7=disminuir si llegan a alcanzarlo.
 of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Nivel de suavidad
@@ -127,21 +128,24 @@ options.guiScale.tooltip.1=Tamaño de interfaz (GUI)
 options.guiScale.tooltip.2=  Auto. - tamaño máximo
 options.guiScale.tooltip.3=  Pequeña, normal y grande - desde 1x hasta 3x
 options.guiScale.tooltip.4=  Desde 4x hasta 10x - disponible en pantallas 4K.
-options.guiScale.tooltip.5=Los valores impares (1x, 3x, 5x...) no son compatibles
-options.guiScale.tooltip.6=con la fuente unicode.
-options.guiScale.tooltip.7=Una interfaz pequeña puede mejorar el rendimiento.
+options.guiScale.tooltip.5=
+options.guiScale.tooltip.6=Los valores impares (1x, 3x, 5x...) no son compatibles
+options.guiScale.tooltip.7=con la fuente unicode.
+options.guiScale.tooltip.8=Una interfaz pequeña puede mejorar el rendimiento.
 
 options.vbo=Usar VBOs
 options.vbo.tooltip.1=Vertex Buffer Objects (abreviado como VBO)
-options.vbo.tooltip.2=Es un tipo de renderizado alternativo que suele ser
-options.vbo.tooltip.3=más rápido que el predeterminado (un 5-10%%).
+options.vbo.tooltip.2=
+options.vbo.tooltip.3=Es un tipo de renderizado alternativo que suele ser
+options.vbo.tooltip.4=más rápido que el predeterminado (un 5-10%%).
 
 options.gamma.tooltip.1=Modificar el brillo
 options.gamma.tooltip.2=  Oscuro - brillo por defecto
 options.gamma.tooltip.3=  1-99%% - brillo personalizado
 options.gamma.tooltip.4=  Claro - brillo al máximo
-options.gamma.tooltip.5=Esta opción no cambia el brillo de
-options.gamma.tooltip.6=los objetos más oscuros.
+options.gamma.tooltip.5=
+options.gamma.tooltip.6=Esta opción no cambia el brillo de
+options.gamma.tooltip.7=los objetos más oscuros.
 
 options.anaglyph.tooltip.1=Visión en 3D
 options.anaglyph.tooltip.2=Activar un efecto estereoscópico usando un color
@@ -152,8 +156,9 @@ options.attackIndicator.tooltip.1=Modifica la ubicación del indicador de ataque
 options.attackIndicator.tooltip.2=  MIRA - debajo de mira central
 options.attackIndicator.tooltip.3=  BARRA - cerca de barra de objetos
 options.attackIndicator.tooltip.4=  NO - sin indicador de ataque
-options.attackIndicator.tooltip.5=Se indica la fuerza de ataque del
-options.attackIndicator.tooltip.6=objeto que tengas en la mano principal.
+options.attackIndicator.tooltip.5= 
+options.attackIndicator.tooltip.6=Se indica la fuerza de ataque del
+options.attackIndicator.tooltip.7=objeto que tengas en la mano principal.
 
 of.options.ALTERNATE_BLOCKS=Bloques alternos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Bloques con texturas alternas
@@ -312,18 +317,21 @@ of.options.mipmap.trilinear=Trilineal
 
 options.mipmapLevels.tooltip.1=Efecto visual que hace que los objetos lejanos luzcan
 options.mipmapLevels.tooltip.2=mejor gracias a que suaviza los detalles de su textura
-options.mipmapLevels.tooltip.3=  NO - sin suavizado
-options.mipmapLevels.tooltip.4=  1 - suavizado mínimo
-options.mipmapLevels.tooltip.5=  4 - suavizado máximo
-options.mipmapLevels.tooltip.6= Normalmente esta opción no afecta al rendimiento.
+options.mipmapLevels.tooltip.3= 
+options.mipmapLevels.tooltip.4=  NO - sin suavizado
+options.mipmapLevels.tooltip.5=  1 - suavizado mínimo
+options.mipmapLevels.tooltip.6=  4 - suavizado máximo
+options.mipmapLevels.tooltip.7= 
+options.mipmapLevels.tooltip.8= Normalmente esta opción no afecta al rendimiento.
 
 of.options.MIPMAP_TYPE=Tipo de mipmap
 of.options.MIPMAP_TYPE.tooltip.1=Efecto visual que hace que los objetos lejanos luzcan
 of.options.MIPMAP_TYPE.tooltip.2=mejor gracias a que suaviza los detalles de su textura
-of.options.MIPMAP_TYPE.tooltip.3=  Cercano - suavizado bruto (más rápido)
-of.options.MIPMAP_TYPE.tooltip.4=  Lineal - suavizado normal
-of.options.MIPMAP_TYPE.tooltip.5=  Bilineal - suavizado fino
-of.options.MIPMAP_TYPE.tooltip.6=  Trilineal - suavizado muy fino (más lento)
+of.options.MIPMAP_TYPE.tooltip.3=
+of.options.MIPMAP_TYPE.tooltip.4=  Cercano - suavizado bruto (más rápido)
+of.options.MIPMAP_TYPE.tooltip.5=  Lineal - suavizado normal
+of.options.MIPMAP_TYPE.tooltip.6=  Bilineal - suavizado fino
+of.options.MIPMAP_TYPE.tooltip.7=  Trilineal - suavizado muy fino (más lento)
 
 of.options.AA_LEVEL=Antialiasing
 of.options.AA_LEVEL.tooltip.1=Antialiasing suaviza líneas y bordes de los bloques
@@ -540,8 +548,9 @@ of.options.ADVANCED_TOOLTIPS.tooltip.1=Herramientas avanzada
 of.options.ADVANCED_TOOLTIPS.tooltip.2= ON - mostrar información sobre herramientas avanzadas
 of.options.ADVANCED_TOOLTIPS.tooltip.3= OFF - predeterminado
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Muestra información ampliada para los
-of.options.ADVANCED_TOOLTIPS.tooltip.5=elementos (id, durabilidad) y para opciones de sombreado
-of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, fuente, valor predeterminado).
+of.options.ADVANCED_TOOLTIPS.tooltip.5= 
+of.options.ADVANCED_TOOLTIPS.tooltip.6=elementos (id, durabilidad) y para opciones de sombreado
+of.options.ADVANCED_TOOLTIPS.tooltip.7=(id, fuente, valor predeterminado).
 
 of.options.DROPPED_ITEMS=Objetos
 of.options.DROPPED_ITEMS.tooltip.1=Calidad de los objetos en el suelo sin recoger
@@ -766,10 +775,7 @@ of.options.save.24min=24min
 of.options.AUTOSAVE_TICKS=Autoguardado
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo del autoguardado
 of.options.AUTOSAVE_TICKS.tooltip.2= 45s - Predeterminado
-of.options.SCREENSHOT_SIZE.tooltip.3=La captura de capturas de pantalla más grandes 
-of.options.SCREENSHOT_SIZE.tooltip.4=puede necesitar más memoria.
-of.options.SCREENSHOT_SIZE.tooltip.5=No compatible con Antialiasing.
-of.options.SCREENSHOT_SIZE.tooltip.6=Requiere soporte de framebuffer de GPU.
+of.options.AUTOSAVE_TICKS.tooltip.3=Ponerlo cada poco tiempo puede causar mal rendimiento.
 
 of.options.SCREENSHOT_SIZE=Capturas
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamaño de las capturas de pantalla
