@@ -3,7 +3,7 @@
 #   Shujinko_kun From MCHK 2016-02-25 ---- 2016-03-27
 #   NatsuArashi (crowdin MC_PR) 2016-03-03 ---- 2018-06-18
 #   pan93412 (crowdin pan93412) 2018-08-23 ---- 2018-08-23
-#   NatsuArashi (crowdin MC_PR) ---- 2018-10-29 ----2021-1-1
+#   NatsuArashi (crowdin MC_PR) 2018-10-29 ---- 2021-1-1
 ##-------------- zh_TW ---------------
 
 # General
@@ -73,8 +73,8 @@ of.message.capeOF.openEditor=OptiFine cape 編輯器應以瀏覽器開啟。
 of.message.capeOF.openEditorError=網頁瀏覽器開啟連結失敗。
 of.message.capeOF.reloadCape=披風將在 15 秒後重新載入。
 
-of.message.capeOF.error1=Mojang authentication failed.
-of.message.capeOF.error2=Error: %s
+of.message.capeOF.error1=Mojang 驗證失敗。
+of.message.capeOF.error2=錯誤: %s
 
 # Video settings
 
