@@ -15,6 +15,9 @@ of.key.zoom=Zoom
 of.message.aa.shaders1=Antialiasing is not compatible with Shaders.
 of.message.aa.shaders2=Please disable Shaders to enable this option.
 
+of.message.aa.gf1=Antialiasing is not compatible with Fabulous Graphics.
+of.message.aa.gf2=Please set Graphics to Fast or Fancy.
+
 of.message.af.shaders1=Anisotropic Filtering is not compatible with Shaders.
 of.message.af.shaders2=Please disable Shaders to enable this option.
 
@@ -76,7 +79,8 @@ options.graphics.tooltip.3=  Fancy - higher quality, slower
 options.graphics.tooltip.4=  Fabulous - better translucent objects, slowest
 options.graphics.tooltip.5=Changes the appearance of clouds, leaves, water,
 options.graphics.tooltip.6=shadows and grass sides.
-options.graphics.tooltip.7=Fabulous graphics is not compatible with shaders.
+options.graphics.tooltip.7=Fabulous graphics is not compatible with shaders and
+options.graphics.tooltip.8=antialiasing.
 
 of.options.renderDistance.tiny=Tiny
 of.options.renderDistance.short=Short
