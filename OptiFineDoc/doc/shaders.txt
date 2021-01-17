@@ -22,9 +22,10 @@ Geometry shaders need either OpenGL 3.2 with layout qualifiers or the extension 
 Color Attachments
 =================
 The data is passed from shader to shader using color attachments. 
-There are at least 4 for all machines. For machines that can support it, there are 8. 
-In the deferred, composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms
-(colortex0 to colortex7 can be used instead of gcolor, gdepth etc.)
+There are at least 4 for all machines. For machines that can support it, there are up to 16.
+MacOS is limited to 8 color attachments, even with modern GPUs.
+In the deferred, composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms.
+(colortex0 to colortexF can be used instead of gcolor, gdepth etc.)
 Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
@@ -37,6 +38,10 @@ Deferred/composite programs always read from "main" and write to "alt" buffers.
 After a deferred/composite program is rendered the buffers that it writes to are flipped so the next programs can see the current output as input.
 The property "flip.<program>.<buffer>=<true|false>" can be used to enable or disable the flip independant of the buffer write.
 The virtual programs "deferred_pre" and "composite_pre" can be used for buffer flipping before the deferred/composite pass.
+
+Output color attachments are configured with the "/* DRAWBUFFERS:XYZ */" comment, placed in the fragment shader.
+Gbuffers, deferred and composite programs can write to any color attachment, but no more than 8 at the same time.
+If the output color attachments are not configured, then the program will write to the first 8 color attachments.  
 
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
@@ -201,6 +206,18 @@ uniform sampler2D gaux1;                        7  <custom texture or output fro
 uniform sampler2D gaux2;                        8  <custom texture or output from deferred programs>
 uniform sampler2D gaux3;                        9  <custom texture or output from deferred programs>
 uniform sampler2D gaux4;                        10 <custom texture or output from deferred programs>
+uniform sampler2D colortex4;                    7  <custom texture or output from deferred programs>
+uniform sampler2D colortex5;                    8  <custom texture or output from deferred programs>
+uniform sampler2D colortex6;                    9  <custom texture or output from deferred programs>
+uniform sampler2D colortex7;                    10 <custom texture or output from deferred programs>
+uniform sampler2D colortex8;                    16 <custom texture or output from deferred programs>
+uniform sampler2D colortex9;                    17 <custom texture or output from deferred programs>
+uniform sampler2D colortexA;                    18 <custom texture or output from deferred programs>
+uniform sampler2D colortexB;                    19 <custom texture or output from deferred programs>
+uniform sampler2D colortexC;                    20 <custom texture or output from deferred programs>
+uniform sampler2D colortexD;                    21 <custom texture or output from deferred programs>
+uniform sampler2D colortexE;                    22 <custom texture or output from deferred programs>
+uniform sampler2D colortexF;                    23 <custom texture or output from deferred programs>
 uniform sampler2D depthtex1;                    11
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
@@ -226,6 +243,18 @@ uniform sampler2D gaux1;                        7  <custom texture>
 uniform sampler2D gaux2;                        8  <custom texture>
 uniform sampler2D gaux3;                        9  <custom texture>
 uniform sampler2D gaux4;                        10 <custom texture>
+uniform sampler2D colortex4;                    7  <custom texture>
+uniform sampler2D colortex5;                    8  <custom texture>
+uniform sampler2D colortex6;                    9  <custom texture>
+uniform sampler2D colortex7;                    10 <custom texture>
+uniform sampler2D colortex8;                    16 <custom texture>
+uniform sampler2D colortex9;                    17 <custom texture>
+uniform sampler2D colortexA;                    18 <custom texture>
+uniform sampler2D colortexB;                    19 <custom texture>
+uniform sampler2D colortexC;                    20 <custom texture>
+uniform sampler2D colortexD;                    21 <custom texture>
+uniform sampler2D colortexE;                    22 <custom texture>
+uniform sampler2D colortexF;                    23 <custom texture>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
@@ -253,6 +282,14 @@ uniform sampler2D colortex4;                    7
 uniform sampler2D colortex5;                    8
 uniform sampler2D colortex6;                    9
 uniform sampler2D colortex7;                    10
+uniform sampler2D colortex8;                    16 
+uniform sampler2D colortex9;                    17 
+uniform sampler2D colortexA;                    18 
+uniform sampler2D colortexB;                    19 
+uniform sampler2D colortexC;                    20 
+uniform sampler2D colortexD;                    21 
+uniform sampler2D colortexE;                    22 
+uniform sampler2D colortexF;                    23 
 uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
 uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
@@ -277,14 +314,22 @@ Id Name           Legacy name
 4  shadowtex0     shadow, watershadow 
 5  shadowtex1     shadow (when watershadow used)
 6  depthtex0
-7  gaux1          <custom texture or output from deferred programs>
-8  gaux2          <custom texture or output from deferred programs>
-9  gaux3          <custom texture or output from deferred programs>
-10 gaux4          <custom texture or output from deferred programs>
+7  gaux1          colortex4 <custom texture or output from deferred programs>
+8  gaux2          colortex5 <custom texture or output from deferred programs>
+9  gaux3          colortex6 <custom texture or output from deferred programs>
+10 gaux4          colortex7 <custom texture or output from deferred programs>
 12 depthtex1
 13 shadowcolor0   shadowcolor 
 14 shadowcolor1
 15 noisetex
+16 colortex8      <custom texture or output from deferred programs>
+17 colortex9      <custom texture or output from deferred programs>
+18 colortexA      <custom texture or output from deferred programs>
+19 colortexB      <custom texture or output from deferred programs>
+20 colortexC      <custom texture or output from deferred programs>
+21 colortexD      <custom texture or output from deferred programs>
+22 colortexE      <custom texture or output from deferred programs>
+23 colortexF      <custom texture or output from deferred programs>
 
 Shadow Textures
 ==================
@@ -296,13 +341,21 @@ Id Name           Legacy name
 3  specular
 4  shadowtex0     shadow, watershadow        
 5  shadowtex1     shadow (when watershadow used)
-7  gaux1          <custom texture>
-8  gaux2          <custom texture>
-9  gaux3          <custom texture>
-10 gaux4          <custom texture>
+7  gaux1          colortex4 <custom texture>
+8  gaux2          colortex5 <custom texture>
+9  gaux3          colortex6 <custom texture>
+10 gaux4          colortex7 <custom texture>
 13 shadowcolor0   shadowcolor
 14 shadowcolor1   
 15 noisetex
+16 colortex8      <custom texture>
+17 colortex9      <custom texture>
+18 colortexA      <custom texture>
+19 colortexB      <custom texture>
+20 colortexC      <custom texture>
+21 colortexD      <custom texture>
+22 colortexE      <custom texture>
+23 colortexF      <custom texture>
 
 Composite and Deferred Textures
 ===============================
@@ -324,6 +377,14 @@ Id Name           Legacy name
 13 shadowcolor0   shadowcolor
 14 shadowcolor1
 15 noisetex
+16 colortex8
+17 colortex9
+18 colortexA
+19 colortexB
+20 colortexC
+21 colortexD
+22 colortexE
+23 colortexF
 
 Depth buffers usage
 ===================
@@ -428,13 +489,13 @@ const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format> 
 const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" and "deferred" programs 
 const vec4 <bufferIndex>ClearColor = vec4();    gbuffersClearColor[index] = vec4(r, g, b, a)               Clear color for the given buffer, only for "composite" and "deferred" programs 
 const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" , "deferred" and "final"
-/* DRAWBUFFERS:0246 */                          drawBuffers = "0246"                                       Draw buffers 0, 2, 4 and 6
+/* DRAWBUFFERS:02BF */                          drawBuffers = "02BF"                                       Draw buffers 0, 2, B and F
 
 Draw Buffer Index 
 ==================
 Prefix                  Index
 ==================================
-colortex<0-7>           0-7
+colortex<0-F>           0-F
 gcolor                  0
 gdepth                  1
 gnormal                 2
