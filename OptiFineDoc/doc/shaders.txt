@@ -485,14 +485,15 @@ const int noiseTextureResolution = 256;         noiseTextureResolution = 256
 /* GAUX4FORMAT:RGBA32F */                       buffersFormat[7] = GL_RGBA32F
 /* GAUX4FORMAT:RGB32F */                        buffersFormat[7] = GL_RGB32F
 /* GAUX4FORMAT:RGB16 */                         buffersFormat[7] = GL_RGB16
-const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Buffer Index" and "Texture Formats"
+const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format>                            See "Draw Buffer Index" and "Texture Formats"
 const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" and "deferred" programs 
 const vec4 <bufferIndex>ClearColor = vec4();    gbuffersClearColor[index] = vec4(r, g, b, a)               Clear color for the given buffer, only for "composite" and "deferred" programs 
 const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" , "deferred" and "final"
+const int <shadowBufferIndex>Format = <format>; shadowBufferFormats[index] = <format>                      See "Shadow Buffer Index" and "Texture Formats"
 /* DRAWBUFFERS:02BF */                          drawBuffers = "02BF"                                       Draw buffers 0, 2, B and F
 
-Draw Buffer Index 
-==================
+Draw Buffer Index
+=================
 Prefix                  Index
 ==================================
 colortex<0-F>           0-F
@@ -504,6 +505,13 @@ gaux1                   4
 gaux2                   5
 gaux3                   6
 gaux4                   7
+
+Shadow Buffer Index
+===================
+Prefix                  Index
+==================================
+shadowcolor             0
+shadowcolor<0-1>        0-1
  
 Texture Formats
 ===============
