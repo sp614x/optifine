@@ -489,7 +489,9 @@ const int <bufferIndex>Format = <format>;       bufferFormats[index] = <format> 
 const bool <bufferIndex>Clear = false;          gbuffersClear[index] = false                               Skip glClear() for the given buffer, only for "composite" and "deferred" programs 
 const vec4 <bufferIndex>ClearColor = vec4();    gbuffersClearColor[index] = vec4(r, g, b, a)               Clear color for the given buffer, only for "composite" and "deferred" programs 
 const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true                                Only for programs "composite" , "deferred" and "final"
-const int <shadowBufferIndex>Format = <format>; shadowBufferFormats[index] = <format>                      See "Shadow Buffer Index" and "Texture Formats"
+const int <shadowBufferIx>Format = <format>;    shadowBufferFormats[index] = <format>                      See "Shadow Buffer Index" and "Texture Formats"
+const bool <shadowBufferIx>Clear = false;       shadowBuffersClear[index] = false                          Skip glClear() for the given shadow color buffer 
+const vec4 <shadowBufferIx>ClearColor = vec4(); shadowBuffersClearColor[index] = vec4(r, g, b, a)          Clear color for the given shadow color buffer
 /* DRAWBUFFERS:02BF */                          drawBuffers = "02BF"                                       Draw buffers 0, 2, B and F
 
 Draw Buffer Index
