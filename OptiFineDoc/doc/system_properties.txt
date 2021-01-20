@@ -27,3 +27,10 @@ player.models.reload=<true|false>
 
 # Show frame time (ms) instead of FPS
 frame.time=<true|false>
+
+# OpenGL debug groups
+gl.debug.groups=<true|false>
+
+# Ignore OpenGL errors
+# <ids> - comma separated list of error ids
+gl.ignore.errors=<ids>
