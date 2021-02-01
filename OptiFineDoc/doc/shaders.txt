@@ -715,14 +715,15 @@ G. OpenGL extensions
  Only the macros which are referenced and supported are added to the shader file.
 
 H. Options
- #define MC_FXAA_LEVEL <value>       // When FXAA is enabled, values: 2, 4
- #define MC_NORMAL_MAP               // When the normal map is enabled
- #define MC_SPECULAR_MAP             // When the specular map is enabled
- #define MC_RENDER_QUALITY <value>   // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
- #define MC_SHADOW_QUALITY <value>   // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
- #define MC_HAND_DEPTH <value>       // Values: 0.0625, 0.125, 0.25
- #define MC_OLD_HAND_LIGHT           // When Old Hand Light is enabled
- #define MC_OLD_LIGHTING             // When Old Lighting is enabled
+ #define MC_FXAA_LEVEL <value>             // When FXAA is enabled, values: 2, 4
+ #define MC_NORMAL_MAP                     // When the normal map is enabled
+ #define MC_SPECULAR_MAP                   // When the specular map is enabled
+ #define MC_RENDER_QUALITY <value>         // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
+ #define MC_SHADOW_QUALITY <value>         // Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0
+ #define MC_HAND_DEPTH <value>             // Values: 0.0625, 0.125, 0.25
+ #define MC_OLD_HAND_LIGHT                 // When Old Hand Light is enabled
+ #define MC_OLD_LIGHTING                   // When Old Lighting is enabled
+ #define MC_ANISOTROPIC_FILTERING <value>  // When anisotropic filtering is enabled
 
 I. Textures 
  #define MC_TEXTURE_FORMAT_LAB_PBR       // Texture format LabPBR (https://github.com/rre36/lab-pbr/wiki)
