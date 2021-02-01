@@ -701,6 +701,7 @@ D. Operating system
 
 E. GPU
  One of the following:
+  #define MC_GL_VENDOR_AMD
   #define MC_GL_VENDOR_ATI
   #define MC_GL_VENDOR_INTEL
   #define MC_GL_VENDOR_NVIDIA
