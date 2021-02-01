@@ -517,47 +517,28 @@ shadowcolor<0-1>        0-1
  
 Texture Formats
 ===============
-1. 8-bit normalized
- R8
- RG8
- RGB8
- RGBA8
-2. 8-bit signed normalized
- R8_SNORM
- RG8_SNORM
- RGB8_SNORM
- RGBA8_SNORM
-3. 16-bit normalized
- R16
- RG16
- RGB16
- RGBA16
-4. 16-bit signed normalized 
- R16_SNORM
- RG16_SNORM
- RGB16_SNORM
- RGBA16_SNORM
-5. 16-bit float
- R16F
- RG16F
- RGB16F
- RGBA16F
-6. 32-bit float     
- R32F
- RG32F
- RGB32F
- RGBA32F
-7. 32-bit integer
- R32I
- RG32I
- RGB32I
- RGBA32I
-8. 32-bit unsigned integer 
- R32UI
- RG32UI
- RGB32UI
- RGBA32UI
-9. Mixed
+1. 8-bit
+ Normalized         Signed normalized  Integer            Unsigned integer
+ =================  =================  =================  =================
+ R8                 R8_SNORM           R8I                R8I
+ RG8                RG8_SNORM          RG8I               RG8I
+ RGB8               RGB8_SNORM         RGB8I              RGB8I
+ RGBA8              RGBA8_SNORM        RGBA8I             RGBA8I
+2. 16-bit
+ Normalized         Signed normalized  Float              Integer            Unsigned integer
+ =================  =================  =================  =================  =================
+ R16                R16_SNORM          R16F               R16I               R16UI    
+ RG16               RG16_SNORM         RG16F              RG16I              RG16UI   
+ RGB16              RGB16_SNORM        RGB16F             RGB16I             RGB16UI  
+ RGBA16             RGBA16_SNORM       RGBA16F            RGBA16I            RGBA16UI 
+3. 32-bit
+ Float              Integer            Unsigned integer
+ =================  =================  =================
+ R32F               R32I               R32UI
+ RG32F              RG32I              RG32UI
+ RGB32F             RGB32I             RGB32UI
+ RGBA32F            RGBA32I            RGBA32UI
+4. Mixed
  R3_G3_B2
  RGB5_A1
  RGB10_A2
