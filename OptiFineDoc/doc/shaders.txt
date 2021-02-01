@@ -1,8 +1,8 @@
 Overview
 ========
-The Shaders Mod makes use of a deferred rendering pipeline. 
+The Shaders Mod makes use of a deferred rendering pipeline.
 The gbuffer shaders come first in the pipeline. They render data to textures that will be sent to the composite shaders. 
-Optional deferred shaders can be added between terrain and water rendering.
+Optional composite shaders can be added after the shadow map (shadowcomp), before terrain (prepare) and before water rendering (deferred).
 The composite shaders then render to textures that will be sent to the final shader. 
 The final shader renders directly to the screen.
 
@@ -72,6 +72,16 @@ Name                         Render                                When not defi
 shadow                       everything in shadow pass             <none>  
 shadow_solid                 <not used>                            shadow
 shadow_cutout                <not used>                            shadow
+--- Shadow composite ---
+shadowcomp                   <shadowcomp>                          <none>
+shadowcomp1                  <shadowcomp>                          <none>
+...
+shadowcomp15                 <shadowcomp>                          <none>
+--- Prepare ---
+prepare                      <prepare>                             <none>
+prepare1                     <prepare>                             <none>
+...
+prepare15                    <prepare>                             <none>
 --- GBuffers ---
 gbuffers_basic               leash, block selection box            <none>
 gbuffers_textured            particles                             gbuffers_basic
