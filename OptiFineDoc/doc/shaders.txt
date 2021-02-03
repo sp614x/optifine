@@ -190,6 +190,7 @@ uniform float screenBrightness;                 screen brightness (0.0-1.0)
 uniform int hideGUI;                            GUI is hidden
 uniform float centerDepthSmooth;                centerDepth smoothed with centerDepthSmoothHalflife
 uniform ivec2 atlasSize;                        texture atlas size (only set when the atlas texture is bound)
+uniform vec4 spriteBounds;                      sprite bounds in the texture atlas (u0, v0, u1, v1), set when MC_ANISOTROPIC_FILTERING is enabled
 uniform vec4 entityColor;                       entity color multiplier (entity hurt, creeper flashing when exploding)
 uniform int entityId;                           entity ID
 uniform int blockEntityId;                      block entity ID (block ID for the tile entity, only for blocks specified in "block.properties")
