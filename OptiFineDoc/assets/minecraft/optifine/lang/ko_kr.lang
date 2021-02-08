@@ -21,6 +21,9 @@ of.key.zoom=확대
 of.message.aa.shaders1=안티에일리어싱은 셰이더와 호환되지 않습니다.
 of.message.aa.shaders2=이 설정을 켜려면 먼저 셰이더를 꺼주십시오.
 
+of.message.aa.gf1=안티에일리어싱은 굉장한 그래픽과 호환되지 않습니다.
+of.message.aa.gf2=그래픽을 빠르게 또는 화려하게로 설정해 주십시오.
+
 of.message.af.shaders1=비등방성 필터링은 셰이더와 호환되지 않습니다.
 of.message.af.shaders2=이 설정을 켜려면 먼저 셰이더를 꺼주십시오.
 
@@ -82,7 +85,8 @@ options.graphics.tooltip.3=  화려하게 - 높은 품질, 느림
 options.graphics.tooltip.4=  굉장하게 - 더 나은 투명 물체, 가장 느림
 options.graphics.tooltip.5=구름, 잎, 물, 그림자, 풀의
 options.graphics.tooltip.6=외형을 변경합니다.
-options.graphics.tooltip.7=굉장한 그래픽은 셰이더와 호환되지 않습니다.
+options.graphics.tooltip.7=굉장한 그래픽은 셰이더, 안티에일리어싱과 
+options.graphics.tooltip.8=호환되지 않습니다.
 
 of.options.renderDistance.tiny=아주 작게
 of.options.renderDistance.short=짧게
