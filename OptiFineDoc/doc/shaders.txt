@@ -13,6 +13,7 @@ The shader source files use the name of the program in which they are to be used
 
 Extension  Type                 
 ==========================
+.csh       Compute shader
 .vsh       Vertex shader     
 .gsh       Geometry shader   
 .fsh       Fragment shader   
@@ -46,7 +47,7 @@ If the output color attachments are not configured, then the program will write 
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
 
-The vertex and fragment configuration parsing is affected by the preprocessor conditional compilation directives.
+The shaders configuration parsing is affected by the preprocessor conditional compilation directives.
 The following preprocessor directives are currently recognized:
   #define <macro>
   #undef <macro>
@@ -62,6 +63,22 @@ The following preprocessor directives are currently recognized:
   #endif
 
 The current shaderpack can be reloaded by pressing "F3+R" or using the command "/reloadShaders". 
+
+Compute Shaders
+===============
+A list of compute shaders can be attached to every program except gbuffers programs.
+They are named like the program with optional suffix, for example "composite.csh", "composite_a.csh" ... "composite_z.csh".
+Compute shaders run before the program and can read from all buffers using texture samplers.
+They can read and write to colortex0-5 and shadowcolor0-1 buffers as images using the aliases colorimg0-5 and shadowcolorimg0-1, 
+for example "layout (rgba8) uniform image2D colorimg0;"
+Compute shaders need at least "#version 430" and local size definition, for example: "layout (local_size_x = 16, local_size_y = 16) in;".
+Work groups are defined either fixed via "const ivec3 workGroups = ivec3(50, 30, 1);" or relative to render size 
+via "const vec2 workGroupsRender = vec2(0.5f, 0.5f);".
+The default configuration is "const vec2 workGroupsRender = vec2(1.0f, 1.0f);", which executes the compute shader once per pixel.
+
+Image access
+============
+All programs can read and write to colorimg0-5 and shadowcolorimg0-1 using imageLoad() and imageStore().
 
 Shader Programs
 ===============
