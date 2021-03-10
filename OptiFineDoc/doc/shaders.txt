@@ -40,7 +40,7 @@ After a deferred/composite program is rendered the buffers that it writes to are
 The property "flip.<program>.<buffer>=<true|false>" can be used to enable or disable the flip independant of the buffer write.
 The virtual programs "deferred_pre" and "composite_pre" can be used for buffer flipping before the deferred/composite pass.
 
-Output color attachments are configured with the "/* DRAWBUFFERS:XYZ */" comment, placed in the fragment shader.
+Output color attachments are configured with the "/* DRAWBUFFERS:XYZ */" or "/* RENDERTARGETS: X,Y,Z */" comment, placed in the fragment shader.
 Gbuffers, deferred and composite programs can write to any color attachment, but no more than 8 at the same time.
 If the output color attachments are not configured, then the program will write to the first 8 color attachments.  
 
@@ -521,6 +521,7 @@ const int <shadowBufferIx>Format = <format>;    shadowBufferFormats[index] = <fo
 const bool <shadowBufferIx>Clear = false;       shadowBuffersClear[index] = false                          Skip glClear() for the given shadow color buffer 
 const vec4 <shadowBufferIx>ClearColor = vec4(); shadowBuffersClearColor[index] = vec4(r, g, b, a)          Clear color for the given shadow color buffer
 /* DRAWBUFFERS:02BF */                          drawBuffers = "02BF"                                       Draw buffers 0, 2, B and F
+/* RENDERTARGETS: 0,2,B,F */                    drawBuffers = "02BF"                                       Draw buffers 0, 2, B and F
 
 Draw Buffer Index
 =================
