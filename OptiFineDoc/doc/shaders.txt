@@ -26,7 +26,7 @@ The data is passed from shader to shader using color attachments.
 There are at least 4 for all machines. For machines that can support it, there are up to 16.
 MacOS is limited to 8 color attachments, even with modern GPUs.
 In the deferred, composite and final shaders, these are referenced by the gcolor, gdepth, gnormal, composite, gaux1, gaux2, gaux3 and gaux4 uniforms.
-(colortex0 to colortexF can be used instead of gcolor, gdepth etc.)
+(colortex0 to colortex15 can be used instead of gcolor, gdepth etc.)
 Despite the naming, all of these color attachments are the same and can be used for any purpose with the exception of the first two. 
 The first one, gcolor has its color cleared to the current fog color before rendering. 
 The second one, gdepth has its color cleared to solid white before rendering and uses a higher precision storage buffer suitable for storing depth values. 
@@ -240,12 +240,12 @@ uniform sampler2D colortex6;                    9  <custom texture or output fro
 uniform sampler2D colortex7;                    10 <custom texture or output from deferred programs>
 uniform sampler2D colortex8;                    16 <custom texture or output from deferred programs>
 uniform sampler2D colortex9;                    17 <custom texture or output from deferred programs>
-uniform sampler2D colortexA;                    18 <custom texture or output from deferred programs>
-uniform sampler2D colortexB;                    19 <custom texture or output from deferred programs>
-uniform sampler2D colortexC;                    20 <custom texture or output from deferred programs>
-uniform sampler2D colortexD;                    21 <custom texture or output from deferred programs>
-uniform sampler2D colortexE;                    22 <custom texture or output from deferred programs>
-uniform sampler2D colortexF;                    23 <custom texture or output from deferred programs>
+uniform sampler2D colortex10;                   18 <custom texture or output from deferred programs>
+uniform sampler2D colortex11;                   19 <custom texture or output from deferred programs>
+uniform sampler2D colortex12;                   20 <custom texture or output from deferred programs>
+uniform sampler2D colortex13;                   21 <custom texture or output from deferred programs>
+uniform sampler2D colortex14;                   22 <custom texture or output from deferred programs>
+uniform sampler2D colortex15;                   23 <custom texture or output from deferred programs>
 uniform sampler2D depthtex1;                    11
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
@@ -277,12 +277,12 @@ uniform sampler2D colortex6;                    9  <custom texture>
 uniform sampler2D colortex7;                    10 <custom texture>
 uniform sampler2D colortex8;                    16 <custom texture>
 uniform sampler2D colortex9;                    17 <custom texture>
-uniform sampler2D colortexA;                    18 <custom texture>
-uniform sampler2D colortexB;                    19 <custom texture>
-uniform sampler2D colortexC;                    20 <custom texture>
-uniform sampler2D colortexD;                    21 <custom texture>
-uniform sampler2D colortexE;                    22 <custom texture>
-uniform sampler2D colortexF;                    23 <custom texture>
+uniform sampler2D colortex10;                   18 <custom texture>
+uniform sampler2D colortex11;                   19 <custom texture>
+uniform sampler2D colortex12;                   20 <custom texture>
+uniform sampler2D colortex13;                   21 <custom texture>
+uniform sampler2D colortex14;                   22 <custom texture>
+uniform sampler2D colortex15;                   23 <custom texture>
 uniform sampler2D shadowcolor;                  13
 uniform sampler2D shadowcolor0;                 13
 uniform sampler2D shadowcolor1;                 14
@@ -312,12 +312,12 @@ uniform sampler2D colortex6;                    9
 uniform sampler2D colortex7;                    10
 uniform sampler2D colortex8;                    16 
 uniform sampler2D colortex9;                    17 
-uniform sampler2D colortexA;                    18 
-uniform sampler2D colortexB;                    19 
-uniform sampler2D colortexC;                    20 
-uniform sampler2D colortexD;                    21 
-uniform sampler2D colortexE;                    22 
-uniform sampler2D colortexF;                    23 
+uniform sampler2D colortex10;                   18 
+uniform sampler2D colortex11;                   19 
+uniform sampler2D colortex12;                   20 
+uniform sampler2D colortex13;                   21 
+uniform sampler2D colortex14;                   22 
+uniform sampler2D colortex15;                   23 
 uniform sampler2D shadow;                       waterShadowEnabled ? 5 : 4
 uniform sampler2D watershadow;                  4
 uniform sampler2D shadowtex0;                   4
@@ -352,12 +352,12 @@ Id Name           Legacy name
 15 noisetex
 16 colortex8      <custom texture or output from deferred programs>
 17 colortex9      <custom texture or output from deferred programs>
-18 colortexA      <custom texture or output from deferred programs>
-19 colortexB      <custom texture or output from deferred programs>
-20 colortexC      <custom texture or output from deferred programs>
-21 colortexD      <custom texture or output from deferred programs>
-22 colortexE      <custom texture or output from deferred programs>
-23 colortexF      <custom texture or output from deferred programs>
+18 colortex10     <custom texture or output from deferred programs>
+19 colortex11     <custom texture or output from deferred programs>
+20 colortex12     <custom texture or output from deferred programs>
+21 colortex13     <custom texture or output from deferred programs>
+22 colortex14     <custom texture or output from deferred programs>
+23 colortex15     <custom texture or output from deferred programs>
 
 Shadow Textures
 ==================
@@ -378,12 +378,12 @@ Id Name           Legacy name
 15 noisetex
 16 colortex8      <custom texture>
 17 colortex9      <custom texture>
-18 colortexA      <custom texture>
-19 colortexB      <custom texture>
-20 colortexC      <custom texture>
-21 colortexD      <custom texture>
-22 colortexE      <custom texture>
-23 colortexF      <custom texture>
+18 colortex10     <custom texture>
+19 colortex11     <custom texture>
+20 colortex12     <custom texture>
+21 colortex13     <custom texture>
+22 colortex14     <custom texture>
+23 colortex15     <custom texture>
 
 Composite and Deferred Textures
 ===============================
@@ -407,12 +407,12 @@ Id Name           Legacy name
 15 noisetex
 16 colortex8
 17 colortex9
-18 colortexA
-19 colortexB
-20 colortexC
-21 colortexD
-22 colortexE
-23 colortexF
+18 colortex10
+19 colortex11
+20 colortex12
+21 colortex13
+22 colortex14
+23 colortex15
 
 Depth buffers usage
 ===================
@@ -520,14 +520,14 @@ const bool <bufferIndex>MipmapEnabled = true;   bufferMipmaps[index] = true     
 const int <shadowBufferIx>Format = <format>;    shadowBufferFormats[index] = <format>                      See "Shadow Buffer Index" and "Texture Formats"
 const bool <shadowBufferIx>Clear = false;       shadowBuffersClear[index] = false                          Skip glClear() for the given shadow color buffer 
 const vec4 <shadowBufferIx>ClearColor = vec4(); shadowBuffersClearColor[index] = vec4(r, g, b, a)          Clear color for the given shadow color buffer
-/* DRAWBUFFERS:02BF */                          drawBuffers = "02BF"                                       Draw buffers 0, 2, B and F
-/* RENDERTARGETS: 0,2,B,F */                    drawBuffers = "02BF"                                       Draw buffers 0, 2, B and F
+/* DRAWBUFFERS:0257 */                          drawBuffers = {0, 2, 5, 7)                                 Only buffers 0 to 9 can be used.
+/* RENDERTARGETS: 0,2,11,15 */                  drawBuffers = {0, 2, 11, 15}                               Buffers 0 to 15 can be used
 
 Draw Buffer Index
 =================
 Prefix                  Index
 ==================================
-colortex<0-F>           0-F
+colortex<0-15>          0-15
 gcolor                  0
 gdepth                  1
 gnormal                 2
