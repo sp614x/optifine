@@ -151,6 +151,7 @@ Source                                          Value                           
 attribute vec3 mc_Entity;                       xy = blockId, renderType                          "blockId" is used only for blocks specified in "block.properties"      
 attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                             Sprite middle UV coordinates                
 attribute vec4 at_tangent;                      xyz = tangent vector, w = handedness
+attribute vec3 at_velocity;                     vertex offset to previous frame                   In view space, only for entities and block entities
 
 Uniforms
 ==========
