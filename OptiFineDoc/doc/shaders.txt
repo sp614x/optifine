@@ -152,6 +152,7 @@ attribute vec3 mc_Entity;                       xy = blockId, renderType        
 attribute vec2 mc_midTexCoord;                  st = midTexU, midTexV                             Sprite middle UV coordinates                
 attribute vec4 at_tangent;                      xyz = tangent vector, w = handedness
 attribute vec3 at_velocity;                     vertex offset to previous frame                   In view space, only for entities and block entities
+attribute vec3 at_midBlock;                     offset to block center in 1/64m units             Only for blocks
 
 Uniforms
 ==========
