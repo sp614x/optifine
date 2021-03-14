@@ -614,7 +614,7 @@ of.options.SMOOTH_WORLD.tooltip.2=  Aus - Keine Stabilisierung, Bildrate könnte
 of.options.SMOOTH_WORLD.tooltip.3=  An - Weltstabilisierung aktiviert
 of.options.SMOOTH_WORLD.tooltip.4=Stabilisiert die Bildrate, indem die interne Server-
 of.options.SMOOTH_WORLD.tooltip.5=auslastung aufgeteilt wird.
-of.options.SMOOTH_WORLD.tooltip=6=Funktioniert nur im Einzelspielermodus.
+of.options.SMOOTH_WORLD.tooltip.6=Funktioniert nur im Einzelspielermodus.
 
 of.options.FAST_RENDER=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.1=Schnelles Rendern
