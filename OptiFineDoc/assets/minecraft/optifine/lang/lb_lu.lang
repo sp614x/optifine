@@ -1,11 +1,13 @@
 # Contributors of Luxembourgish localization #
-#   Hyperspacemaster ---- 2016-04-06 ---- 2018-09-04
+#   Hyperspacemaster ---- 2016-04-06 ---- 2020-10-18
 
 # General
 of.general.ambiguous=onkloer
+of.general.compact=Kompakt
 of.general.custom=Aneres
 of.general.from=Vun
 of.general.id=ID
+of.general.max=Maximum
 of.general.restart=Neistart
 of.general.smart=Fein
 
@@ -34,6 +36,9 @@ of.message.shaders.af2=W.e.g desaktivéier Qualitéit -> Anisotropescht Filteren
 of.message.shaders.fr1=Shader sinn net kompatibel mat schnellem Renderen.
 of.message.shaders.fr2=W.e.g desaktivéier Qualitéit -> Schnellt Renderen.
 
+of.message.shaders.gf1=Shader sinn net kompatibel mam Grafikmodus "Fantastesch!".
+of.message.shaders.gf2=W.e.g setzt de Grafikmodus op "Schnell" oder "Schéin"
+
 of.message.shaders.an1=Shader sinn net kompatibel mam 3D Anaglyph.
 of.message.shaders.an2=W.e.g desaktivéier Verschiddenes -> 3D Anaglyph.
 
@@ -52,15 +57,29 @@ of.message.loadingVisibleChunks=Siichtbar Chunks gi gelueden
 
 # Skin customization
 
-of.options.skinCustomisation.ofCape=OptiFine Emhang ...
+of.options.skinCustomisation.ofCape=OptiFine Ëmhang ...
+
+of.options.capeOF.title=OptiFine Ëmhang
+of.options.capeOF.openEditor=Ëmhang Editor opmaachen
+of.options.capeOF.reloadCape=Ëmhang néi lueden
+of.options.capeOF.copyEditorLink=Link kopéieren
+
+of.message.capeOF.openEditor=Den OptiFine Ëmhang Editor sollt an engem Web Browser opgoen.
+of.message.capeOF.openEditorError=Feeler beim opmaache vum Editor Link an engem Web Browser.
+of.message.capeOF.reloadCape=Den Ëmhang gëtt a 15 Sekonnen néi gelueden.
+
+of.message.capeOF.error1=Mojang Authentifizéierung feelgeschloen.
+of.message.capeOF.error2=Feeler: %s
 
 # Video settings
 
 options.graphics.tooltip.1=Grafikmodus
 options.graphics.tooltip.2=  Schnell - méi schlecht Qualitéit, méi schnell
 options.graphics.tooltip.3=  Schéin - héich Qualitéit, méi lues
-options.graphics.tooltip.4=Verännert d'Ausgesi vun de Wolleken, Blieder, Grasbléck,
-options.graphics.tooltip.5=Schieter a vum Waasser.
+options.graphics.tooltip.4=  Fantastesch! - besser transparent Objeten, am luesten
+options.graphics.tooltip.5=Verännert d'Ausgesi vun de Wolleken, Blieder, Grasbléck,
+options.graphics.tooltip.6=Schieter a vum Waasser.
+options.graphics.tooltip.7=Grafikmodus "Fantastesch!" ass net kompatibel mat Shader
 
 of.options.renderDistance.tiny=Winzeg
 of.options.renderDistance.short=Geréng
@@ -79,6 +98,12 @@ options.renderDistance.tooltip.6=  48 Verréckt - 768m, brauch 2GB RAM zougedeel
 options.renderDistance.tooltip.7=  64 Wahnsinn - 1024m, brauch 3GB RAM zougedeelt
 options.renderDistance.tooltip.8=Wäerter iwwer 16 funktionéieren nëmmen am Singleplayer.
 
+options.entityDistanceScaling.tooltip.1=Render Distanz Entitéiten
+options.entityDistanceScaling.tooltip.2=  50 %% - méi schnell
+options.entityDistanceScaling.tooltip.3=  100 %% - Standard
+options.entityDistanceScaling.tooltip.4=  500 %% - méi lues
+options.entityDistanceScaling.tooltip.5=Modifizéiert déi maximal Distanz wou Entitéiten ugewise ginn.
+
 options.ao.tooltip.1=Fléissend Beliichtung
 options.ao.tooltip.2=  Aus - keng fléissend Beliichtung (schnell)
 options.ao.tooltip.3=  Minimum - einfach fléissend Beliichtung (lues)
@@ -96,8 +121,8 @@ of.options.framerateLimit.vsync=V-Sync
 of.options.AO_LEVEL=Schiet-Hellegkeet
 of.options.AO_LEVEL.tooltip.1=Hellegkeet vun de Schieter
 of.options.AO_LEVEL.tooltip.2=  Aus - keng Schieter
-of.options.AO_LEVEL.tooltip.3=  50%% - hell Schieter
-of.options.AO_LEVEL.tooltip.4=  100%% - donkel Schieter
+of.options.AO_LEVEL.tooltip.3=  50 %% - hell Schieter
+of.options.AO_LEVEL.tooltip.4=  100 %% - donkel Schieter
 
 options.viewBobbing.tooltip.1=Realistesch Beweegungen
 options.viewBobbing.tooltip.2=Wann Mipmaps genotzt ginn desaktivéiert d'Astellung
@@ -114,11 +139,11 @@ options.guiScale.tooltip.7=Ee méi klengt GUI ka méi schnell sinn.
 options.vbo=VBOs benotzen
 options.vbo.tooltip.1=Vertexbufferobjeten
 options.vbo.tooltip.2=Benotz een alternative Rendermodel, deen normalerweis
-options.vbo.tooltip.3=méi schnell (5-10%%) wei d'Standard-Renderen ass.
+options.vbo.tooltip.3=méi schnell (5-10 %%) wei d'Standard-Renderen ass.
 
 options.gamma.tooltip.1=Erhéicht d'Hellegkeet vun donkelen Objeten
 options.gamma.tooltip.2=  Aus - Standardhellegkeet
-options.gamma.tooltip.3=  1-99%% - variabel
+options.gamma.tooltip.3=  1-99 %% - variabel
 options.gamma.tooltip.4=  Hell - maximal Hellegkeet fir donkel Objeten
 options.gamma.tooltip.5=Dës Optioun ännert d'Hellegkeet vu ganz donkelen
 options.gamma.tooltip.6=Objeten net.
@@ -127,6 +152,13 @@ options.anaglyph.tooltip.1=3D Anaglyph
 options.anaglyph.tooltip.2=Aktivéiert ee stereoskopeschen 3D-Effekt duerch
 options.anaglyph.tooltip.3=benotze vun ënnerschiddleche Faarwe fir d'Aen.
 options.anaglyph.tooltip.4=Kann nëmme mat engem Rout-Turquoise-Brëll benotzt ginn.
+
+options.attackIndicator.tooltip.1=Konfiguréiert Positioun vum Attackenindicateur
+options.attackIndicator.tooltip.2=  Viséier - ënnert dem Viséier
+options.attackIndicator.tooltip.3=  Hotbar - nieft der Hotbar
+options.attackIndicator.tooltip.4=  Aus - keen Attackenindicateur
+options.attackIndicator.tooltip.5=Den Attackenindicateur wéist d'Kraaft vun der Attack
+options.attackIndicator.tooltip.6=vum därzäit ausgewieltem Item
 
 of.options.ALTERNATE_BLOCKS=Blockvariatiounen
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvariatiounen
@@ -170,9 +202,9 @@ of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.2=  Aus - (Standard) keen Antialiasing (méi schnell)
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiséiert Linnen a Kanten (méi lues)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA ass een Nobeaarbechtungseffekt dee zackeg
-of.options.shaders.ANTIALIASING.tooltip.5=Linnen an haart Faarweniwwergäng ofschwächt.
+of.options.shaders.ANTIALIASING.tooltip.5=Linnen an haart Faarfiwergäng ofschwächt.
 of.options.shaders.ANTIALIASING.tooltip.6=Et ass méi schnell wei traditionellen Antialiasing
-of.options.shaders.ANTIALIASING.tooltip.7=an ass kompatibel mat Shader a Schnellt Renderen.
+of.options.shaders.ANTIALIASING.tooltip.7=an ass kompatibel mat Shader.
 
 of.options.shaders.NORMAL_MAP=Normalkaarten
 of.options.shaders.NORMAL_MAP.tooltip.1=Normalkaarten
@@ -290,7 +322,7 @@ options.mipmapLevels.tooltip.2=Distanz besser ausgesi léisst duerch verréngere
 options.mipmapLevels.tooltip.3=vun den Texturdetailer.
 options.mipmapLevels.tooltip.4=  Aus - keng Verréngerung vun Detailer
 options.mipmapLevels.tooltip.5=  1 - minimal Verréngerung vun Detailer
-options.mipmapLevels.tooltip.6=  4 - maximal Verréngerung vun Detailer
+options.mipmapLevels.tooltip.6=  Maximum - maximal Verréngerung vun Detailer
 options.mipmapLevels.tooltip.7=Dës Optioun beaflosst normalerweis d'Performance net.
 
 of.options.MIPMAP_TYPE=Mipmap Typ
@@ -447,7 +479,7 @@ of.options.CLOUDS.tooltip.7=Schéi Wolleke sinn am 3D gerendert.
 of.options.CLOUD_HEIGHT=Wollekenhéicht
 of.options.CLOUD_HEIGHT.tooltip.1=Wollekenhéicht
 of.options.CLOUD_HEIGHT.tooltip.2=  Aus - Standardhéicht
-of.options.CLOUD_HEIGHT.tooltip.3=  100%% - iwwert der max. Welt héicht
+of.options.CLOUD_HEIGHT.tooltip.3=  100 %% - iwwert der max. Welthéicht
 
 of.options.TREES=Beem
 of.options.TREES.tooltip.1=Beem
@@ -484,10 +516,10 @@ of.options.SUN_MOON.tooltip.1=Sonn a Mound
 of.options.SUN_MOON.tooltip.2=  Un - Sonn a Mound siichtbar (Standard)
 of.options.SUN_MOON.tooltip.3=  Aus - Sonn a Mound net siichtbar (méi schnell)
 
-of.options.SHOW_CAPES=Emhang weisen
-of.options.SHOW_CAPES.tooltip.1=Emhang weisen
-of.options.SHOW_CAPES.tooltip.2=  Un - weis d'Emhäng vun de Spiller (Standard)
-of.options.SHOW_CAPES.tooltip.3=  Aus - d'Emhäng vun de Spiller ginn net ugewisen
+of.options.SHOW_CAPES=Ëmhang weisen
+of.options.SHOW_CAPES.tooltip.1=Ëmhang weisen
+of.options.SHOW_CAPES.tooltip.2=  Un - weis d'Ëmhäng vun de Spiller (Standard)
+of.options.SHOW_CAPES.tooltip.3=  Aus - d'Ëmhäng vun de Spiller ginn net ugewisen
 
 of.options.TRANSLUCENT_BLOCKS=Blocktransparenz
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocktransparenz
@@ -548,6 +580,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.6=beliichten d'Ëmgéigend wann se an der Hand
 of.options.DYNAMIC_LIGHTS.tooltip.7=een anere Spiller se equipéiert huet oder se
 of.options.DYNAMIC_LIGHTS.tooltip.8=um Buedem leien.
 
+options.biomeBlendRadius.tooltip.1=Méi douce Faarfiwwergäng tëschent Biomer
+options.biomeBlendRadius.tooltip.2=  Aus - kee Vermëschen (am schnellsten)
+options.biomeBlendRadius.tooltip.3=  5x5 - normaalt Vermëschen (Standard)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximaalt Vermëschen (am luesten)
+options.biomeBlendRadius.tooltip.5=Héich Wäerter kenne grouss Lag Spëtzte generéieren
+options.biomeBlendRadius.tooltip.6=an d'Geschwindegkeet vum Chunklueden erofsetzen.
+
 # Performance
 
 of.options.SMOOTH_FPS=Stabil FPS
@@ -571,7 +610,7 @@ of.options.FAST_RENDER=Schnellt Renderen
 of.options.FAST_RENDER.tooltip.1=Schnellt Renderen
 of.options.FAST_RENDER.tooltip.2=  Aus - Standard-Renderen (Standard)
 of.options.FAST_RENDER.tooltip.3=  Un - optiméiert Renderen (méi schnell)
-of.options.FAST_RENDER.tooltip.4=Benotzt een optimiséierte Renderalgorithmus dee GPU
+of.options.FAST_RENDER.tooltip.4=Benotzt een optimiséierte Renderalgorithmus deen d'CPU
 of.options.FAST_RENDER.tooltip.5=Laascht verklengert an domadder méi héich FPS
 of.options.FAST_RENDER.tooltip.6=erméiglecht.
 
@@ -610,17 +649,17 @@ of.options.LAZY_CHUNK_LOADING.tooltip.8=engem Eenzel-Kär CPU.
 
 of.options.RENDER_REGIONS=Render Regiounen
 of.options.RENDER_REGIONS.tooltip.1=Render Regiounen
-of.options.RENDER_REGIONS.tooltip.2=  Aus - Render Regiounen desaktivéiert (Standard)
-of.options.RENDER_REGIONS.tooltip.3=  Un - Render Regiounen aktivéiert
-of.options.RENDER_REGIONS.tooltip.4=Render Regiounen erméiglechen ee schnellt Renderen
-of.options.RENDER_REGIONS.tooltip.5=vum Terrain bei grousse Render Distanzen.
-of.options.RENDER_REGIONS.tooltip.6=Ass méi aktiv wann VBOs aktivéiert ass.
+of.options.RENDER_REGIONS.tooltip.2=  Aus - Vanilla Renderen (Standard)
+of.options.RENDER_REGIONS.tooltip.3=  Un - Render Regiounen aktivéiert (méi schnell)
+of.options.RENDER_REGIONS.tooltip.4=Erméiglecht ee méi schnellt Rendere
+of.options.RENDER_REGIONS.tooltip.5=vum Terrain duerch optimiséiere vun der GPU Laascht.
+of.options.RENDER_REGIONS.tooltip.6=Méi effektive bei grousse Render Distanzen.
 of.options.RENDER_REGIONS.tooltip.7=Net fir integréiert Grafikkaarte recommandéiert.
 
 of.options.SMART_ANIMATIONS=Schlau Animatiounen
 of.options.SMART_ANIMATIONS.tooltip.1=Schlau Animatiounen
 of.options.SMART_ANIMATIONS.tooltip.2=  Aus - Schlau Animatiounen desaktivéiert (Standard)
-of.options.SMART_ANIMATIONS.tooltip.3=  Un - Schlau Animatiounen aktivéiert
+of.options.SMART_ANIMATIONS.tooltip.3=  Un - Schlau Animatiounen aktivéiert (méi schnell)
 of.options.SMART_ANIMATIONS.tooltip.4=Mat schlauen Animatiounen animéiert d'Spill nëmmen
 of.options.SMART_ANIMATIONS.tooltip.5=déi Animatiounen déi grad um Display siichtbar sinn.
 of.options.SMART_ANIMATIONS.tooltip.6=Reduzéiert Tick Lag Spëtzten an erhéicht d'FPS.
@@ -694,33 +733,36 @@ options.fullscreen.tooltip.3=  Aus - benotz de Fenstermodus
 options.fullscreen.tooltip.4=De Vollbildmodus ka méi schnell oder awer méi lues sinn
 options.fullscreen.tooltip.5=wéi de Fenstermodus ofhängeg vun denger Grafikkaart.
 
-of.options.FULLSCREEN_MODE=Vollbildmodus
-of.options.FULLSCREEN_MODE.tooltip.1=Vollbildmodus
-of.options.FULLSCREEN_MODE.tooltip.2=  Standard - benotz d'Desktop-Opléisung, méi lues
-of.options.FULLSCREEN_MODE.tooltip.3=  WxH - benotz eng eege Opléisung, ka méi schnell sinn
-of.options.FULLSCREEN_MODE.tooltip.4=D'ausgewielten Opléisung gëtt am Vollbildmodus
-of.options.FULLSCREEN_MODE.tooltip.5=benotzt (F11).
-of.options.FULLSCREEN_MODE.tooltip.6=Eng méi eng geréng Opléisung sollt méi schnell sinn.
+options.fullscreen.resolution=Vollbildmodus
+options.fullscreen.resolution.tooltip.1=Vollbildmodus
+options.fullscreen.resolution.tooltip.2=  Standard - benotz d'Desktop-Opléisung, méi lues
+options.fullscreen.resolution.tooltip.3=  BxH - benotz eng eege Opléisung, ka méi schnell sinn
+options.fullscreen.resolution.tooltip.4=D'ausgewielten Opléisung gëtt am Vollbildmodus
+options.fullscreen.resolution.tooltip.5=benotzt (F11).
+options.fullscreen.resolution.tooltip.1=Eng méi eng geréng Opléisung sollt méi schnell sinn.
 
 of.options.SHOW_FPS=FPS uweisen
 of.options.SHOW_FPS.tooltip.1=Weist kompriméiert FPS a Render Informatiounen un
-of.options.SHOW_FPS.tooltip.2=  Fps - Duerchschnëttlech/Minimum
+of.options.SHOW_FPS.tooltip.2=  FPS - Duerchschnëttlech/Minimum
 of.options.SHOW_FPS.tooltip.3=  C: - Chunkrenderer
 of.options.SHOW_FPS.tooltip.4=  E: - Objet- a Blockrenderer
 of.options.SHOW_FPS.tooltip.5=  U: - Chunk Updates
 of.options.SHOW_FPS.tooltip.6=D'kompakt FPS Informatioune ginn nëmmen ugewisen
 of.options.SHOW_FPS.tooltip.7=wann de Debug-Bildschierm net siichtbar ass.
 
-of.options.save.default=Standard (2s)
-of.options.save.20s=20s
-of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.45s=45 s
+of.options.save.90s=90 s
+of.options.save.3min=3 min
+of.options.save.6min=6 min
+of.options.save.12min=12 min
+of.options.save.24min=24 min
 
 of.options.AUTOSAVE_TICKS=Autospäicheren
 of.options.AUTOSAVE_TICKS.tooltip.1=Autospäicher Intervall
-of.options.AUTOSAVE_TICKS.tooltip.2=Den normalen Autospäicher Intervall (2s) ass net
-of.options.AUTOSAVE_TICKS.tooltip.3=recommandéiert
-of.options.AUTOSAVE_TICKS.tooltip.4=Autospäichere verursaacht de bekannte Lag vum Doud.
+of.options.AUTOSAVE_TICKS.tooltip.2=  45 s - Standard
+of.options.AUTOSAVE_TICKS.tooltip.3=Autospäicheren kann ofhängeg vun der Renderdistanz
+of.options.AUTOSAVE_TICKS.tooltip.3=Lag Spëtzten generéieren.
+of.options.AUTOSAVE_TICKS.tooltip.4=D'Welt gëtt och gespaichert wann den Spillmenu opgeet.
 
 of.options.SCREENSHOT_SIZE=Scrnshot Gréisst
 of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Gréisst
@@ -728,7 +770,7 @@ of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - Standard Screenshot Gréisst
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - Benotzerdefinéiert Screenshot Opléisung
 of.options.SCREENSHOT_SIZE.tooltip.4=D'Ophuele vu méi grousse Screenshots ka méi
 of.options.SCREENSHOT_SIZE.tooltip.5=Späicher brauchen.
-of.options.SCREENSHOT_SIZE.tooltip.6=Net kompatibel mat Schnellem Renderen an Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=Net kompatibel mat Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.7=Erfuerdert GPU Billerpuffer Ënnerstëtzung.
 
 of.options.SHOW_GL_ERRORS=Wéis GL Feeler
@@ -738,3 +780,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Desaktivéier et nëmme wann ee bekannte Kon
 of.options.SHOW_GL_ERRORS.tooltip.4=existéiert an d'Feeler net behuewe kenne ginn.
 of.options.SHOW_GL_ERRORS.tooltip.5=Falls desaktivéiert ginn d'Feeler weiderhin an de
 of.options.SHOW_GL_ERRORS.tooltip.6=Feelerlog geschriwwen an d'FPS kënne signifikant falen.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Chat Hannergrond
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Hannergrond
+of.options.CHAT_BACKGROUND.tooltip.2=  Standard - Fest Breet
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompakt - Entsprécht Zeilebreet
+of.options.CHAT_BACKGROUND.tooltip.4=  Aus - Verstoppt
+
+of.options.CHAT_SHADOW=Chat Schiet
+of.options.CHAT_SHADOW.tooltip.1=Chat Schiet
+of.options.CHAT_SHADOW.tooltip.2=  Un - Textschiet uweisen
+of.options.CHAT_SHADOW.tooltip.3=  Aus - Keen Textschiet
