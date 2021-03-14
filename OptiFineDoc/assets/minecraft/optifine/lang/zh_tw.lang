@@ -23,6 +23,9 @@ of.key.zoom=縮放
 of.message.aa.shaders1=反鋸齒與光影不相容。
 of.message.aa.shaders2=請關閉光影來啟用這個選項。
 
+of.message.aa.gf1=反鋸齒與 驚艷 畫質不相容。
+of.message.aa.gf2=請將畫質設定為 流暢 或 精緻。
+
 of.message.af.shaders1=各向異性過濾與光影不相容。
 of.message.af.shaders2=請關閉光影來啟用這個選項。
 
@@ -84,7 +87,8 @@ options.graphics.tooltip.3=  精緻 - 畫面品質較高，較慢
 options.graphics.tooltip.4=  驚豔 - 較佳的透明效果，最慢
 options.graphics.tooltip.5=改變雲、樹葉、水、
 options.graphics.tooltip.6=陰影與草地側面的外觀。
-options.graphics.tooltip.7=驚豔 畫質與光影不相容。
+options.graphics.tooltip.7=驚豔 畫質與光影以及
+options.graphics.tooltip.8=反鋸齒不相容。
 
 of.options.renderDistance.tiny=最近
 of.options.renderDistance.short=近
