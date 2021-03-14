@@ -15,6 +15,9 @@ of.key.zoom=Přiblížení
 of.message.aa.shaders1=Antialiasing není kompatibilní se stíny.
 of.message.aa.shaders2=Prosím vypni stíny pro použití téhle možnosti.
 
+of.message.aa.gf1=Antialiasing není kompatibilní s úžasnou grafikou.
+of.message.aa.gf2=Prosím nastav grafiku na rychlou nebo pěknou.
+
 of.message.af.shaders1=Anizotropní filtrování není kompatibilní se stíny.
 of.message.af.shaders2=Prosím vypni stíny pro použití téhle možnosti.
 
@@ -76,7 +79,8 @@ options.graphics.tooltip.3=  Pěkná - vyšší kvalita, pomalejší
 options.graphics.tooltip.4=  Úžasná - lepší průhledné objekty, nejpomalejší
 options.graphics.tooltip.5=Mění vzhled mraků, listí, vody,
 options.graphics.tooltip.6=stínů a stran trávníků
-options.graphics.tooltip.7=Úžasná grafika není kompatibilní se stíny.
+options.graphics.tooltip.7=Úžasná grafika není kompatibilní se stíny a
+options.graphics.tooltip.8=antialiasingem.
 
 options.renderDistance.tooltip.1=Dohled
 

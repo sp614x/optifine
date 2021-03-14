@@ -13,16 +13,19 @@ of.key.zoom=Suum
 
 # Message
 of.message.aa.shaders1=Sakisilumine ei ühildu varjutajatega.
-of.message.aa.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.aa.shaders2=Selle valiku lubamiseks palun keela varjutajad.
+
+of.message.aa.gf1=Sakisilumine ei ühildu vapustava graafikaga.
+of.message.aa.gf2=Palun määra Graafika kiireks või uhkeks.
 
 of.message.af.shaders1=Anisotroopiline filtreerimine ei ühildu varjutajatega.
-of.message.af.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.af.shaders2=Selle valiku lubamiseks palun keela varjutajad.
 
 of.message.fr.shaders1=Kiire renderdus ei ühildu varjutajatega.
-of.message.fr.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.fr.shaders2=Selle valiku lubamiseks palun keela varjutajad.
 
 of.message.an.shaders1=3D-anaglüüf ei ühildu varjutajatega.
-of.message.an.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.an.shaders2=Selle valiku lubamiseks palun keela varjutajad.
 
 of.message.shaders.aa1=Varjutajad ei ühildu sakisilumisega.
 of.message.shaders.aa2=Palun lülita Kvaliteet -> Sakisilumine VÄLJA ja taaskäivita mäng.
@@ -76,7 +79,8 @@ options.graphics.tooltip.3=  Uhke - kõrgem kvaliteet, aeglasem
 options.graphics.tooltip.4=  Vapustav! - paremad läbipaistvad objektid, aeglaseim
 options.graphics.tooltip.5=Muudab pilvede, lehtede, vee, varjude ja muru külgede
 options.graphics.tooltip.6=välimust.
-options.graphics.tooltip.7=Vapustav graafika ei ühildu varjutajatega.
+options.graphics.tooltip.7=Vapustav graafika ei ühildu varjutajatega ega
+options.graphics.tooltip.8=sakisilumisega.
 
 options.renderDistance.tooltip.1=Nähtav kaugus
 options.renderDistance.tooltip.2=  2-32 - tavaline nähtavuskaugus kõikidele maailmadele

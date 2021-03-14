@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   shaderecker (TheHADILP) 2016-5-20 ---- 2019-10-16
+#   shaderecker (TheHADILP) 2016-5-20 ---- 2020-08-02
 #   Nerdyyy 2018-1-6
 #   OfficialCRUGG / CRUGG 2019-03-17
 
@@ -32,14 +32,17 @@ of.message.fr.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivie
 of.message.an.shaders1=3D-Effekt ist nicht mit Shadern kompatibel.
 of.message.an.shaders2=Bitte deaktiviere Shader, um diese Einstellung zu aktivieren.
 
-of.message.shaders.aa1=Antialiasing ist nicht mit Shadern kompatibel. 
+of.message.shaders.aa1=Shader sind nicht mit Antialiasing kompatibel.
 of.message.shaders.aa2=Bitte deaktiviere Qualität -> Antialiasing und starte das Spiel neu.
 
-of.message.shaders.af1=Anisotropische Filterung ist nicht mit Shadern kompatibel.
+of.message.shaders.af1=Shader sind nicht mit Anisotropischer Filterung kompatibel.
 of.message.shaders.af2=Bitte deaktiviere Qualität -> Anisotropische Filterung.
 
-of.message.shaders.fr1=Schnelles Rendern ist nicht mit Shadern kompatibel.
+of.message.shaders.fr1=Shader sind nicht mit Schnellem Rendern kompatibel.
 of.message.shaders.fr2=Bitte deaktiviere Leistung -> Schnelles Rendern.
+
+of.message.shaders.gf1=Shader sind nicht mit dem Grafikmodus Fabelhaft kompatibel.
+of.message.shaders.gf2=Bitte ändere den Grafikmodus auf Schnell oder Schön.
 
 of.message.shaders.an1=Shader sind nicht mit dem 3D-Effekt kompatibel.
 of.message.shaders.an2=Bitte deaktiviere Sonstiges -> 3D-Effekt.
@@ -64,20 +67,24 @@ of.options.skinCustomisation.ofCape=OptiFine-Umhang …
 of.options.capeOF.title=OptiFine-Umhang
 of.options.capeOF.openEditor=Umhang-Editor öffnen
 of.options.capeOF.reloadCape=Umhang neu laden
+of.options.capeOF.copyEditorLink=Link in Zwischenablage kopieren
 
 of.message.capeOF.openEditor=Der OptiFine-Umhang-Editor sollte sich in einem Web-Browser öffnen.
+of.message.capeOF.openEditorError=Beim Öffnen des Links ist ein Fehler aufgetreten.
 of.message.capeOF.reloadCape=Dein Umhang wird in 15 Sekunden neu geladen.
 
 of.message.capeOF.error1=Mojang-Authentifizierung fehlgeschlagen.
 of.message.capeOF.error2=Fehler: %s
- 
+
 # Video settings
 
 options.graphics.tooltip.1=Grafikmodus
-options.graphics.tooltip.2=  Schnell - Niedrigere Qualität (schneller)
-options.graphics.tooltip.3=  Schön   - Höhere Qualität (langsamer)
-options.graphics.tooltip.4=Verändert das Aussehen von Wolken, Blättern, Wasser,
-options.graphics.tooltip.5=Schatten und Grasblöcken.
+options.graphics.tooltip.2=  Schnell   - Niedrige Qualität (schneller)
+options.graphics.tooltip.3=  Schön     - Höhere Qualität (langsamer)
+options.graphics.tooltip.4=  Fabelhaft - Bessere transp. Objekte (am langsamsten)
+options.graphics.tooltip.5=Verändert das Aussehen von Wolken, Blättern, Wasser,
+options.graphics.tooltip.6=Schatten und Grasblöcken.
+options.graphics.tooltip.7=Fabelhaft ist nicht mit Shadern kompatibel.
 
 options.renderDistance.tooltip.1=Sichtweite
 options.renderDistance.tooltip.2=  2-32 - Normale Sichtweiten für alle Welten
@@ -85,6 +92,13 @@ options.renderDistance.tooltip.3=  33-64 - Rechenintensive Sichtweiten (Einzelsp
 options.renderDistance.tooltip.4=Im Mehrspielermodus ist die Sichtweite zudem durch die
 options.renderDistance.tooltip.5=serverseitigen Einstellungen begrenzt (standardmäßig 10).
 options.renderDistance.tooltip.6=Niedrigere Werte sind schneller.
+
+options.entityDistanceScaling.tooltip.1=Objektentfernung
+options.entityDistanceScaling.tooltip.2=  50%% - Schneller
+options.entityDistanceScaling.tooltip.3=  100%% - Standard
+options.entityDistanceScaling.tooltip.4=  500%% - Langsamer
+options.entityDistanceScaling.tooltip.5=Ändert die maximale Distanz auf der Objekte angezeigt
+options.entityDistanceScaling.tooltip.6=werden.
 
 options.ao.tooltip.1=Weiche Beleuchtung
 options.ao.tooltip.2=  Aus - Normale Beleuchtung (schnell)
@@ -134,6 +148,13 @@ options.anaglyph.tooltip.2=Aktiviert einen stereoskopischen 3D-Effekt durch
 options.anaglyph.tooltip.3=Verwendung unterschiedlicher Farben für jedes Auge.
 options.anaglyph.tooltip.4=Kann nur mit einer 3D-Brille benutzt werden.
 
+options.attackIndicator.tooltip.1=Position der Angriffsanzeige
+options.attackIndicator.tooltip.2=  Fadenkreuz - Unter dem Fadenkreuz
+options.attackIndicator.tooltip.3=  Schnellzugriffsleiste - Neben der Schnellzugriffsleiste
+options.attackIndicator.tooltip.4=  Aus - Keine Angriffsanzeige
+options.attackIndicator.tooltip.5=Die Angriffsanzeige zeigt die Angriffsstärke des
+options.attackIndicator.tooltip.6=aktuell ausgerüsteten Gegenstandes.
+
 of.options.ALTERNATE_BLOCKS=Blockvarianten
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvarianten
 of.options.ALTERNATE_BLOCKS.tooltip.2=Benutzt alternative Blockmodelle für einige Blöcke.
@@ -179,7 +200,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - Geglättete Linien und
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA ist ein Nachbearbeitungs-Effekt, der zackige
 of.options.shaders.ANTIALIASING.tooltip.5=Linien und harte Farbübergänge glättet.
 of.options.shaders.ANTIALIASING.tooltip.6=Dies ist schneller als herkömmliches Antialiasing
-of.options.shaders.ANTIALIASING.tooltip.7=und kompatibel mit Shadern und schnellem Rendern.
+of.options.shaders.ANTIALIASING.tooltip.7=und kompatibel mit Shadern.
 
 of.options.shaders.NORMAL_MAP=Normalkarten
 of.options.shaders.NORMAL_MAP.tooltip.1=Normalkarten
@@ -253,7 +274,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.8=stellen meistens eine bessere Beleucht
 
 of.options.shaders.DOWNLOAD=Shader von Website herunterladen
 of.options.shaders.DOWNLOAD.tooltip.1=Shader von Website herunterladen
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Öffnet die Shader-Paket Website im Browser.
 of.options.shaders.DOWNLOAD.tooltip.4=Lege das heruntergeladene Shader-Paket in den
 of.options.shaders.DOWNLOAD.tooltip.5=Shader-Ordner, damit es in der Liste der
@@ -332,11 +353,11 @@ of.options.CLEAR_WATER.tooltip.1=Klares Wasser
 of.options.CLEAR_WATER.tooltip.2=  An - Klares, transparentes Wasser
 of.options.CLEAR_WATER.tooltip.3=  Aus - Normales Wasser
 
-of.options.RANDOM_ENTITIES=Entitätsvarianten
-of.options.RANDOM_ENTITIES.tooltip.1=Entitätsvarianten
-of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Entitätsvarianten (schneller)
-of.options.RANDOM_ENTITIES.tooltip.3=  An - Entitätsvarianten (langsamer)
-of.options.RANDOM_ENTITIES.tooltip.4=Die gleichen Entitäten können unterschiedliche Texturen
+of.options.RANDOM_ENTITIES=Objektvarianten
+of.options.RANDOM_ENTITIES.tooltip.1=Objektvarianten
+of.options.RANDOM_ENTITIES.tooltip.2=  Aus - Keine Objektvarianten (schneller)
+of.options.RANDOM_ENTITIES.tooltip.3=  An - Objektvarianten (langsamer)
+of.options.RANDOM_ENTITIES.tooltip.4=Die gleichen Objekte können unterschiedliche Texturen
 of.options.RANDOM_ENTITIES.tooltip.5=haben. Dies benötigt ein Ressourcenpaket mit entspre-
 of.options.RANDOM_ENTITIES.tooltip.6=chenden Texturen.
 
@@ -427,12 +448,12 @@ of.options.CUSTOM_ITEMS.tooltip.3=  Aus - Standard-Gegenstandstexturen (schnelle
 of.options.CUSTOM_ITEMS.tooltip.4=Die Gegenstandstexturen werden aus den aktivierten
 of.options.CUSTOM_ITEMS.tooltip.5=Ressourcenpaketen geladen.
 
-of.options.CUSTOM_ENTITY_MODELS=Wesens- & Objektmodelle
-of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Wesens- und Objektmodelle
+of.options.CUSTOM_ENTITY_MODELS=Objektmodelle
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Objektmodelle
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  An - Ressourcenpaketmodelle (Standard, langsam)
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Aus - Standardmodelle (schneller)
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Die Wesens- und Objektmodelle werden aus den
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=aktivierten Ressourcenpaketen geladen.
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Die Objektmodelle werden aus den aktivierten
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=Ressourcenpaketen geladen.
 
 of.options.CUSTOM_GUIS=Ressourcenpaket-GUI
 of.options.CUSTOM_GUIS.tooltip.1=Ressourcenpaket-GUI
@@ -496,8 +517,6 @@ of.options.SHOW_CAPES=Umhänge
 of.options.SHOW_CAPES.tooltip.1=Umhänge
 of.options.SHOW_CAPES.tooltip.2=  An - Umhänge werden dargestellt (Standard)
 of.options.SHOW_CAPES.tooltip.3=  Aus - Umhänge werden nicht dargestellt
-of.options.SHOW_CAPES.tooltip.4=Diese Einstellung beeinflusst normalerweise nicht die
-of.options.SHOW_CAPES.tooltip.5=Leistung.
 
 of.options.TRANSLUCENT_BLOCKS=Blocktransparenz
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blocktransparenz
@@ -559,6 +578,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Leuchtende Gegenstände (Fackel, Glowstone, 
 of.options.DYNAMIC_LIGHTS.tooltip.6=beleuchten die Umgebung, wenn sie in der Hand gehalten,
 of.options.DYNAMIC_LIGHTS.tooltip.7=von anderen Spielern ausgerüstet oder gedroppt werden.
 
+options.biomeBlendRadius.tooltip.1=Glättung der Farbübergänge zwischen Biomen
+options.biomeBlendRadius.tooltip.2=  Aus - Keine Vermischung (am schnellsten)
+options.biomeBlendRadius.tooltip.3=  5x5 - Normale Vermischung (Standard)
+options.biomeBlendRadius.tooltip.4=  15x15 - Maximale Vermischung (am langsamsten)
+options.biomeBlendRadius.tooltip.5=Höhere Werte können erhebliche Lag-Spitzen erzeugen
+options.biomeBlendRadius.tooltip.6=und das Chunkladen verlangsamen.
+
 # Performance
 
 of.options.SMOOTH_FPS=Stabile Bildrate
@@ -580,7 +606,7 @@ of.options.FAST_RENDER=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.1=Schnelles Rendern
 of.options.FAST_RENDER.tooltip.2=  Aus - Standard-Rendern (Standard)
 of.options.FAST_RENDER.tooltip.3=  An - Optimiertes Rendern (schneller)
-of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die die GPU-Aus-
+of.options.FAST_RENDER.tooltip.4=Benutzt optimierte Renderalgorithmen, die die CPU-Aus-
 of.options.FAST_RENDER.tooltip.5=lastung verringern und die Leistung erheblich steigern.
 of.options.FAST_RENDER.tooltip.6=Dies kann zu Konflikten mit einigen Mods führen.
 
@@ -620,17 +646,17 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Nur im Einzelspielermodus effektiv.
 
 of.options.RENDER_REGIONS=Render-Regionen
 of.options.RENDER_REGIONS.tooltip.1=Render-Regionen
-of.options.RENDER_REGIONS.tooltip.2= Aus - (Standard) Render-Regionen deaktiviert
-of.options.RENDER_REGIONS.tooltip.3= An - Render-Regionen aktiviert
+of.options.RENDER_REGIONS.tooltip.2= Aus - Vanilla Rendern (Standard)
+of.options.RENDER_REGIONS.tooltip.3= An - Render-Regionen aktiviert (schneller)
 of.options.RENDER_REGIONS.tooltip.4=Render-Regionen ermöglichen ein schnelleres Rendern
-of.options.RENDER_REGIONS.tooltip.5=des Geländes bei großen Render-Distanzen.
-of.options.RENDER_REGIONS.tooltip.6=Effektiver, wenn VBOs aktiviert sind.
+of.options.RENDER_REGIONS.tooltip.5=des Geländes durch optimieren der GPU Last.
+of.options.RENDER_REGIONS.tooltip.6=Effektiver bei großen Render-Distanzen.
 of.options.RENDER_REGIONS.tooltip.6=Nicht für integrierte Grafikkarten empfohlen.
 
 of.options.SMART_ANIMATIONS=Intelligente Animationen
 of.options.SMART_ANIMATIONS.tooltip.1=Intelligente Animationen
 of.options.SMART_ANIMATIONS.tooltip.2= Aus - Keine intelligenten Animationen (Standard)
-of.options.SMART_ANIMATIONS.tooltip.3= An - Benutze intelligente Animationen
+of.options.SMART_ANIMATIONS.tooltip.3= An - Benutze intelligente Animationen (schneller)
 of.options.SMART_ANIMATIONS.tooltip.4=Es werden nur Texturen animiert, die gerade auf
 of.options.SMART_ANIMATIONS.tooltip.5=dem Bildschirm sichtbar sind.
 of.options.SMART_ANIMATIONS.tooltip.6=Dies reduziert Lag-Spitzen und erhöht die FPS.
@@ -705,13 +731,13 @@ options.fullscreen.tooltip.4=Der Vollbildschirmmodus könnte schneller oder lang
 options.fullscreen.tooltip.5=als der Fenstermodus sein, das kommt auf die Grafik-
 options.fullscreen.tooltip.6=karte an.
 
-of.options.FULLSCREEN_MODE=Vollbild-Auflösung
-of.options.FULLSCREEN_MODE.tooltip.1=Vollbild-Auflösung
-of.options.FULLSCREEN_MODE.tooltip.2=  Standard - Benutze Bildschirmauflösung, langsamer
-of.options.FULLSCREEN_MODE.tooltip.3=  BxH - Benutze andere Auflösung, könnte schneller sein
-of.options.FULLSCREEN_MODE.tooltip.4=Die ausgewählte Auflösung wird im Vollbildschirmmodus
-of.options.FULLSCREEN_MODE.tooltip.5=verwendet (F11). Kleinere Auflösungen sollten generell
-of.options.FULLSCREEN_MODE.tooltip.6=schneller sein.
+options.fullscreen.resolution=Vollbild-Auflösung
+options.fullscreen.resolution.tooltip.1=Vollbild-Auflösung
+options.fullscreen.resolution.tooltip.2=  Standard - Benutze Bildschirmauflösung, langsamer
+options.fullscreen.resolution.tooltip.3=  BxH - Benutze andere Auflösung, könnte schneller sein
+options.fullscreen.resolution.tooltip.4=Die ausgewählte Auflösung wird im Vollbildschirmmodus
+options.fullscreen.resolution.tooltip.5=verwendet (F11). Kleinere Auflösungen sollten generell
+options.fullscreen.resolution.tooltip.6=schneller sein.
 
 of.options.SHOW_FPS=Bildrate anzeigen
 of.options.SHOW_FPS.tooltip.1=Zeige kurze Bildrate- und Render-Informationen
@@ -742,7 +768,7 @@ of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - Standard-Screenshot-Auflösung
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - Benutzerdefinierte Screenshot-Auflösung
 of.options.SCREENSHOT_SIZE.tooltip.4=Das Aufnehmen größerer Screenshots kann mehr
 of.options.SCREENSHOT_SIZE.tooltip.5=Speicher benötigen.
-of.options.SCREENSHOT_SIZE.tooltip.6=Nicht kompatibel mit Schnellem Rendern und Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=Nicht kompatibel mit Antialiasing.
 of.options.SCREENSHOT_SIZE.tooltip.7=Erfordert Grafiktreiberpuffer-Unterstützung.
 
 of.options.SHOW_GL_ERRORS=Zeige OpenGL Fehler

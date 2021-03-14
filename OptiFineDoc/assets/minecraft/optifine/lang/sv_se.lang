@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2020-08-02
+#   Regnander (_Spitz) 2016-01-18 ---- 2021-01-03
 
 # General
 of.general.ambiguous=tvetydig
@@ -17,6 +17,9 @@ of.key.zoom=Zooma in
 # Message
 of.message.aa.shaders1=Kantutjämning är inte kompatibel med Shaders.
 of.message.aa.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
+
+of.message.aa.gf1=Kantutjämning är inte kompatibel med grafikalternativet Fabulöst.
+of.message.aa.gf2=Ändra "Grafik" till Snabbt eller Snyggt.
 
 of.message.af.shaders1=Anisotropisk filtrering är inte kompatibel med Shaders.
 of.message.af.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
@@ -79,7 +82,8 @@ options.graphics.tooltip.3=  Snyggt - högre kvalitet, långsammare
 options.graphics.tooltip.4=  Fabulöst - bättre objektgenomskinlighet, långsammast
 options.graphics.tooltip.5=Ändrar utseendet för moln, löv, vatten, skuggor och
 options.graphics.tooltip.6=gräskanter.
-options.graphics.tooltip.7=Alternativet "Fabulöst" är inte kompatibelt med shaders.
+options.graphics.tooltip.7=Alternativet "Fabulöst" är inte kompatibelt med shaders
+options.graphics.tooltip.8=och kantutjämning.
 
 options.renderDistance.tooltip.1=Synligt avstånd
 

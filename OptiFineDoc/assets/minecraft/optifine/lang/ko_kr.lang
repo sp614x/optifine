@@ -2,12 +2,15 @@
 #   auth ---- 2017-06-09 ---- 2017-06-24
 #   Final Child ---- 2017-06-09 ---- 2017-06-24
 #   SRA PLY ---- 2017-06-09 ---- 2017-06-24
+#   TrollBonL ---- 2020-12-23 ---- 2020-12-24
 
 # General
 of.general.ambiguous=불분명
+of.general.compact=컴팩트
 of.general.custom=맞춤
 of.general.from=출처
 of.general.id=아이디
+of.general.max=최대
 of.general.restart=재시작
 of.general.smart=멋지게
 
@@ -17,6 +20,9 @@ of.key.zoom=확대
 # Message
 of.message.aa.shaders1=안티에일리어싱은 셰이더와 호환되지 않습니다.
 of.message.aa.shaders2=이 설정을 켜려면 먼저 셰이더를 꺼주십시오.
+
+of.message.aa.gf1=안티에일리어싱은 굉장한 그래픽과 호환되지 않습니다.
+of.message.aa.gf2=그래픽을 빠르게 또는 화려하게로 설정해 주십시오.
 
 of.message.af.shaders1=비등방성 필터링은 셰이더와 호환되지 않습니다.
 of.message.af.shaders2=이 설정을 켜려면 먼저 셰이더를 꺼주십시오.
@@ -36,8 +42,14 @@ of.message.shaders.af2=품질 > 비등방성 필터링을 꺼짐으로 설정해
 of.message.shaders.fr1=셰이더는 빠른 렌더와 호환되지 않습니다.
 of.message.shaders.fr2=성능 > 빠른 렌더를 꺼짐으로 설정해 주십시오.
 
+of.message.shaders.gf1=셰이더는 굉장한 그래픽과 호환되지 않습니다.
+of.message.shaders.gf2=그래픽을 빠르게 또는 화려하게로 설정해 주십시오.
+
 of.message.shaders.an1=셰이더는 3D 애너글리프와 호환되지 않습니다.
 of.message.shaders.an2=기타 > 3D 애너글리프를 꺼짐으로 설정해 주십시오.
+
+of.message.shaders.nv1=이 셰이드 팩은 새로운 버전의 옵티파인이 필요합니다.: %s
+of.message.shaders.nv2=정말 계속하고 싶으신가요?
 
 of.message.newVersion=새로운 §eOptiFine§f 버전을 사용할 수 있습니다: §e%s§f
 of.message.java64Bit=§e64비트 Java§f를 설치해 성능을 향상할 수 있습니다.
@@ -48,16 +60,41 @@ of.message.shaders.loading=셰이더 불러오는 중: %s
 of.message.other.reset=모든 비디오 설정을 기본값으로 재설정하시겠습니까?
  
 of.message.loadingVisibleChunks=보이는 청크 불러오는 중
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=옵티파인 망토...
+
+of.options.capeOF.title=옵티파인 망토
+of.options.capeOF.openEditor=옵티파인 망토 편집기
+of.options.capeOF.reloadCape=망토 다시 로딩하기
+of.options.capeOF.copyEditorLink=링크가 클립보드에 복사 되었습니다.
+
+of.message.capeOF.openEditor=옵티파인 망토 편집기가 웹 브라우저에서 열립니다.
+of.message.capeOF.openEditorError=웹 브라우저에서 편집기 링크를 여는 동안 오류가 발생했습니다.
+of.message.capeOF.reloadCape=망토가 15초 안에 다시 로딩 됩니다.
+
+of.message.capeOF.error1=모장 인증 실패.
+of.message.capeOF.error2=에러: %s
  
 # Video settings
 
 options.graphics.tooltip.1=시각 품질
 options.graphics.tooltip.2=  빠르게 - 낮은 품질, 빠름
 options.graphics.tooltip.3=  화려하게 - 높은 품질, 느림
-options.graphics.tooltip.4=구름, 잎, 물, 그림자, 풀의
-options.graphics.tooltip.5=외형을 변경합니다.
+options.graphics.tooltip.4=  굉장하게 - 더 나은 투명 물체, 가장 느림
+options.graphics.tooltip.5=구름, 잎, 물, 그림자, 풀의
+options.graphics.tooltip.6=외형을 변경합니다.
+options.graphics.tooltip.7=굉장한 그래픽은 셰이더, 안티에일리어싱과 
+options.graphics.tooltip.8=호환되지 않습니다.
 
 options.renderDistance.tooltip.1=시야 거리
+
+options.entityDistanceScaling.tooltip.1=엔티티 렌더 거리
+options.entityDistanceScaling.tooltip.2=  50%% - 빠르게
+options.entityDistanceScaling.tooltip.3=  100%% - 기본
+options.entityDistanceScaling.tooltip.4=  500%% - 느리게
+options.entityDistanceScaling.tooltip.5=엔티티가 표시되는 최대 거리를 수정합니다.
 
 options.ao.tooltip.1=부드러운 조명 효과
 options.ao.tooltip.2=  꺼짐 - 부드러운 조명 효과 없음 (빠름)
@@ -105,6 +142,13 @@ options.anaglyph.tooltip.2=양쪽 눈에 다른 색상을 사용함으로써
 options.anaglyph.tooltip.3=입체적인 3D 효과를 낼 수 있습니다.
 options.anaglyph.tooltip.4=올바르게 보기 위해서는 적청 안경이 필요합니다.
 
+options.attackIndicator.tooltip.1=공격 표시기의 위치 조정
+options.attackIndicator.tooltip.2=  십자선 - 십자선 아래
+options.attackIndicator.tooltip.3=  핫바 - 핫바 옆
+options.attackIndicator.tooltip.4=  끄기 - 공격 표시기 없음
+options.attackIndicator.tooltip.5=공격 표시기는 현재 장비한 아이템의 공격력을 보여줍니다.
+options.attackIndicator.tooltip.6=
+
 of.options.ALTERNATE_BLOCKS=대체 블록
 of.options.ALTERNATE_BLOCKS.tooltip.1=대체 블록
 of.options.ALTERNATE_BLOCKS.tooltip.2=몇몇 블록에 대체 블록 모델을 사용합니다.
@@ -143,14 +187,90 @@ of.options.shaders.packNone=꺼짐
 of.options.shaders.packDefault=(내부)
 
 of.options.shaders.ANTIALIASING=안티에일리어싱
-of.options.shaders.NORMAL_MAP=법선 맵
+of.options.shaders.ANTIALIASING.tooltip.1=안티에일리어싱
+of.options.shaders.ANTIALIASING.tooltip.2=  끄기 - (기본) 안티에일리어싱 없음 (빠름)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 선과 가장자리를 안티에일리어싱 (느림)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA는 삐죽삐죽한 선과 급격한 색상 변화를
+of.options.shaders.ANTIALIASING.tooltip.5=부드럽게 후처리 합니다.
+of.options.shaders.ANTIALIASING.tooltip.6=이것은 전통적인 안티에일리어싱보다 빠르고
+of.options.shaders.ANTIALIASING.tooltip.7=셰이더와 호환 됩니다.
+
+of.options.shaders.NORMAL_MAP=노말 맵
+of.options.shaders.NORMAL_MAP.tooltip.1=노말 맵
+of.options.shaders.NORMAL_MAP.tooltip.2=  켜짐 - (기본) 노말 맵 켜짐
+of.options.shaders.NORMAL_MAP.tooltip.3=  꺼짐 - 노말 맵 꺼짐
+of.options.shaders.NORMAL_MAP.tooltip.4=셰이더 팩은 노말 맵을 사용하여 평평한 모델 표면에서
+of.options.shaders.NORMAL_MAP.tooltip.5=3D 지오메트리를 시뮬레이션 할 수 있습니다.
+of.options.shaders.NORMAL_MAP.tooltip.6=노멀 맵 텍스처는
+of.options.shaders.NORMAL_MAP.tooltip.7=현재 리소스 팩에서 제공합니다.
+
 of.options.shaders.SPECULAR_MAP=반사 맵
+of.options.shaders.SPECULAR_MAP.tooltip.1=반사 맵
+of.options.shaders.SPECULAR_MAP.tooltip.2=  켜짐 - (기본) 반사 맵 
+of.options.shaders.SPECULAR_MAP.tooltip.3=  꺼짐 - 반사 맵 끄기
+of.options.shaders.SPECULAR_MAP.tooltip.4=특수 반사 효과를 시뮬레이션하기 위해 셰이더 팩에서
+of.options.shaders.SPECULAR_MAP.tooltip.5=반사 맵을 사용할 수 있습니다.
+of.options.shaders.SPECULAR_MAP.tooltip.6=반사 맵 텍스처는 현재 리소스 팩
+of.options.shaders.SPECULAR_MAP.tooltip.7=에서 제공합니다.
+
 of.options.shaders.RENDER_RES_MUL=렌더 품질
+of.options.shaders.RENDER_RES_MUL.tooltip.1=렌더 품질
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - 낮음 (가장 빠름)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 기본 (기본)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 높음 (가장 느림)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=렌더링 품질은 셰이더 팩이 렌더링 하는
+of.options.shaders.RENDER_RES_MUL.tooltip.6=텍스쳐의 크기를 조정 합니다.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=낮은 값은 4K 화면에 유용할 수 있습니다.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=높은 값은 안티에일리어싱 필터로 작동 합니다.
+
 of.options.shaders.SHADOW_RES_MUL=그림자 품질
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=그림자 품질
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 낮음 (가장 빠름)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 기본 (기본)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 높음 (가장 느림)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=그림자 품질은 셰이더 팩에서 사용하는 
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=그림자 맵 텍스처의 크기를 제어합니다.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=낮은 값 = 정확하지 않고 거친 그림자.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=높은 값 = 정확하고 고운 그림자.
+
 of.options.shaders.HAND_DEPTH_MUL=손 깊이
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=손 깊이
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - 손이 카메라와 가까움
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (기본)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - 손이 카메라와 멀어져 있음
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=손 깊이는 들고있는 사물이 얼마나 카메라와
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=떨어져 있는지 제어합니다.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Depth Blur를 사용하는 셰이더 팩의 경우
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=blurring of hendheld 오브젝트들을 변경해야합니다.
+
 of.options.shaders.CLOUD_SHADOW=구름 그림자
+
 of.options.shaders.OLD_HAND_LIGHT=구 손 조명
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=구 손 조명
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  기본 - 셰이더 팩에 의해 조정 됨
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  켜짐 - 구 조명 사용
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  꺼짐 - 새로운 손 조명 사용
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=구 손 조명을 사용하면 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=주 손에있는 발광 항목 만 인식하는 셰이더 팩이
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=다른 손에있는 항목과도 함께 작동 할 수 있습니다.
+
 of.options.shaders.OLD_LIGHTING=구 조명
+of.options.shaders.OLD_LIGHTING.tooltip.1=구 조명
+of.options.shaders.OLD_LIGHTING.tooltip.2=  기본 - 셰이더 팩에 의해 조정 됨
+of.options.shaders.OLD_LIGHTING.tooltip.3=  켜짐 - 구 조명 사용
+of.options.shaders.OLD_LIGHTING.tooltip.4=  꺼짐 - 구 조명 사용 안함
+of.options.shaders.OLD_LIGHTING.tooltip.5=오래된 조명 효과 설정은 기본 마인크래프트가 블록의 측면에 
+of.options.shaders.OLD_LIGHTING.tooltip.6=적용한 조명 그리기를 제어합니다.
+of.options.shaders.OLD_LIGHTING.tooltip.7=그림자를 사용하는 셰이더 팩은 일반적으로 태양 위치에 따라 
+of.options.shaders.OLD_LIGHTING.tooltip.8=훨씬 더 나은 조명을 제공합니다.
+
+of.options.shaders.DOWNLOAD=셰이더 다운로드
+of.options.shaders.DOWNLOAD.tooltip.1=셰이더 다운로드
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=브라우저에서 셰이더 팩 페이지를 엽니다.
+of.options.shaders.DOWNLOAD.tooltip.4=다운로드 한 셰이더 팩을 "셰이더 폴더"에 넣으면 
+of.options.shaders.DOWNLOAD.tooltip.5=설치된 셰이더 목록에 나타납니다.
+
 of.options.shaders.SHADER_PACK=셰이더 팩
 
 of.options.shaders.shadersFolder=셰이더 폴더
@@ -291,6 +411,16 @@ of.options.NATURAL_TEXTURES.tooltip.6=회전하거나 뒤집은 기본 블록 �
 of.options.NATURAL_TEXTURES.tooltip.7=변종을 사용합니다. 자연스러운 텍스처의 설정은
 of.options.NATURAL_TEXTURES.tooltip.8=현재 리소스팩이 제공합니다.
 
+of.options.EMISSIVE_TEXTURES=발광 텍스쳐
+of.options.EMISSIVE_TEXTURES.tooltip.1=발광 텍스쳐
+of.options.EMISSIVE_TEXTURES.tooltip.2=  꺼짐 - 발광 텍스쳐 없음 (기본)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  켜짐 - 발광 텍스쳐 사용
+of.options.EMISSIVE_TEXTURES.tooltip.4=발광 텍스처는 전체 밝기를 가진 오버레이로 렌더링됩니다.
+of.options.EMISSIVE_TEXTURES.tooltip.5=기본 텍스처의 발광 부분을 
+of.options.EMISSIVE_TEXTURES.tooltip.6=시뮬레이션하는 데 사용할 수 있습니다
+of.options.EMISSIVE_TEXTURES.tooltip.7=발광 텍스쳐는 현재 리소스팩에서
+of.options.EMISSIVE_TEXTURES.tooltip.8=제공 됩니다.
+
 of.options.CUSTOM_SKY=맞춤 하늘
 of.options.CUSTOM_SKY.tooltip.1=맞춤 하늘
 of.options.CUSTOM_SKY.tooltip.2=  켜짐 - 맞춤 하늘 텍스처 (기본), 느림
@@ -311,6 +441,12 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  켜짐 - 맞춤 개체 모델 (기�
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  꺼짐 - 기본 개체 모델, 빠름
 of.options.CUSTOM_ENTITY_MODELS.tooltip.4=맞춤 개체 모델은 현재 리소스팩이
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=제공합니다.
+
+of.options.CUSTOM_GUIS=맞춤 GUI
+of.options.CUSTOM_GUIS.tooltip.1=맞춤 GUI
+of.options.CUSTOM_GUIS.tooltip.2=  켜짐 - 맞춤 GUI (기본), 느림
+of.options.CUSTOM_GUIS.tooltip.3=  꺼짐 - 기본 GUI, 빠름
+of.options.CUSTOM_GUIS.tooltip.4=맞춤 GUI는 현재 리소스 팩에서 제공합니다.
 
 # Details
 
@@ -369,7 +505,8 @@ of.options.SHOW_CAPES.tooltip.3=  꺼짐 - 플레이어의 망토 표시 안 함
 
 of.options.TRANSLUCENT_BLOCKS=반투명 블록
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=반투명 블록
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  화려하게 - 정확한 색깔 혼합 (기본)
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  기본 - 그래픽 설정에 의해 설정
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  화려하게 - 정확한 색깔 혼합 (느림)
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  빠르게 - 빠른 색깔 혼합 (빠름)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=다른 색깔의 반투명 블록(염색된 유리, 물, 얼음)이
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=공기를 사이에 두고 놓였을 때의
@@ -424,6 +561,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=빛을 내는 아이템(횃불, 발광석 �
 of.options.DYNAMIC_LIGHTS.tooltip.6=들렸거나 다른 플레이어에게 장착됐거나 바닥에
 of.options.DYNAMIC_LIGHTS.tooltip.7=떨어졌을 때 주변을 비추도록 합니다.
 
+options.biomeBlendRadius.tooltip.1=생물 군계 간의 색상 전환을 부드럽게합니다.
+options.biomeBlendRadius.tooltip.2=  끄기 - 혼합 없음 (가장 빠름)
+options.biomeBlendRadius.tooltip.3=  5x5 - 기본 혼합 (기본)
+options.biomeBlendRadius.tooltip.4=  15x15 - 최대 혼합 (가장 느림)
+options.biomeBlendRadius.tooltip.5=높은 값은 상당한 렉 유발과
+options.biomeBlendRadius.tooltip.6=청크 로딩속도를 낮출수 있습니다
+
 # Performance
 
 of.options.SMOOTH_FPS=부드러운 FPS
@@ -446,6 +590,7 @@ of.options.FAST_RENDER.tooltip.2= 꺼짐 - 표준 렌더링 (기본)
 of.options.FAST_RENDER.tooltip.3= 켜짐 - 최적화된 렌더링 (빠름)
 of.options.FAST_RENDER.tooltip.4=렌더링 알고리즘 최적화로 GPU 로드를 줄여
 of.options.FAST_RENDER.tooltip.5=FPS를 크게 향상시킬 수 있습니다.
+of.options.FAST_RENDER.tooltip.6=이 옵션은 일부 모드와 충돌할 수 있습니다.
 
 of.options.FAST_MATH=빠른 계산
 of.options.FAST_MATH.tooltip.1=빠른 계산
@@ -453,6 +598,7 @@ of.options.FAST_MATH.tooltip.2= 꺼짐 - 표준 계산 (기본)
 of.options.FAST_MATH.tooltip.3= 켜짐 - 빠른 계산
 of.options.FAST_MATH.tooltip.4=최적화된 sin()과 cos() 함수를 사용하여 CPU 캐시를 더
 of.options.FAST_MATH.tooltip.5=잘 활용하고 FPS를 높입니다.
+of.options.FAST_MATH.tooltip.6=이 옵션은 월드 생성에 작은 영향을 미칠 수 있습니다.
 
 of.options.CHUNK_UPDATES=청크 갱신
 of.options.CHUNK_UPDATES.tooltip.1=청크 갱신
@@ -478,6 +624,23 @@ of.options.LAZY_CHUNK_LOADING.tooltip.5=불러오기를 부드럽게 합니다.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=세계의 일부를 정확히 불러오지 않으면 꺼짐으로 설정해 주십시오.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=로컬 세계와 싱글코어 CPU에만 효과가 있습니다.
 
+of.options.RENDER_REGIONS=렌더 영역
+of.options.RENDER_REGIONS.tooltip.1=렌더 영역
+of.options.RENDER_REGIONS.tooltip.2= 꺼짐 - 기본 렌더링 (기본)
+of.options.RENDER_REGIONS.tooltip.3= 켜짐 - 렌더 영역 사용하기 (빠름)
+of.options.RENDER_REGIONS.tooltip.4=GPU 로드를 최적화하여 더 빠른 지형 렌더링을 허용합니다.
+of.options.RENDER_REGIONS.tooltip.5더 높은 렌더링 거리에서 더 효과적입니다.
+of.options.RENDER_REGIONS.tooltip.6=내장 그래픽 카드에는 권장되지 않습니다.
+
+of.options.SMART_ANIMATIONS=스마트 에니메이션
+of.options.SMART_ANIMATIONS.tooltip.1=스마트 에니메이션들
+of.options.SMART_ANIMATIONS.tooltip.2= 꺼짐 - 스마트 에니메이션 사용 안함 (기본)
+of.options.SMART_ANIMATIONS.tooltip.3=  - 스마트 에니메이션 사용 (빠름)
+of.options.SMART_ANIMATIONS.tooltip.4=스마트 애니메이션을 사용하면 게임은
+of.options.SMART_ANIMATIONS.tooltip.5=현재 화면에 표시되는 텍스처에만 애니메이션을 적용합니다.
+of.options.SMART_ANIMATIONS.tooltip.6=이 옵션은 렉을 줄이고 프레임을 향상시킬 수 있습니다.
+of.options.SMART_ANIMATIONS.tooltip.7=큰 모드 팩과 HD 리소스 팩에 특히 유용합니다.
+
 # Animations
 
 of.options.animation.allOn=모두 켜짐으로
@@ -487,7 +650,7 @@ of.options.animation.dynamic=동적
 of.options.ANIMATED_WATER=물 애니메이션
 of.options.ANIMATED_LAVA=용암 애니메이션
 of.options.ANIMATED_FIRE=불 애니메이션
-of.options.ANIMATED_PORTAL=관문 애니메이션
+of.options.ANIMATED_PORTAL=포탈 애니메이션
 of.options.ANIMATED_REDSTONE=레드스톤 애니메이션
 of.options.ANIMATED_EXPLOSION=폭발 애니메이션
 of.options.ANIMATED_FLAME=화염 애니메이션
@@ -554,21 +717,25 @@ of.options.FULLSCREEN_MODE.tooltip.5=낮은 해상도가 일반적으로 빠릅�
 
 of.options.SHOW_FPS=FPS 표시
 of.options.SHOW_FPS.tooltip.1=소형 FPS 및 렌더 정보를 표시합니다.
+of.options.SHOW_FPS.tooltip.2=  Fps - 평균/최소
 of.options.SHOW_FPS.tooltip.2=  C: - 청크 렌더러
 of.options.SHOW_FPS.tooltip.3=  E: - 렌더된 개체 + 블록 개체
 of.options.SHOW_FPS.tooltip.4=  U: - 청크 갱신
 of.options.SHOW_FPS.tooltip.5=소형 FPS 정보는 디버그 화면이
 of.options.SHOW_FPS.tooltip.6=보이지 않을 때에만 표시됩니다.
 
-of.options.save.default=기본 (2초)
-of.options.save.20s=20초
+of.options.save.45s=45초
+of.options.save.90s=90초
 of.options.save.3min=3분
-of.options.save.30min=30분
+of.options.save.6min=6분
+of.options.save.12min=12분
+of.options.save.24min=24분
 
 of.options.AUTOSAVE_TICKS=자동 저장
 of.options.AUTOSAVE_TICKS.tooltip.1=자동 저장 간격
-of.options.AUTOSAVE_TICKS.tooltip.2=기본 자동 저장 간격(2초)을 권장하지 않습니다.
-of.options.AUTOSAVE_TICKS.tooltip.3=자동 저장은 그 유명한 죽음의 랙 급증을 야기합니다.
+of.options.AUTOSAVE_TICKS.tooltip.2= 45초 - 기본
+of.options.AUTOSAVE_TICKS.tooltip.3=자동 저장은 렌더 거리에 따라 지연 스파이크를 생성 할 수 있습니다.
+of.options.AUTOSAVE_TICKS.tooltip.4=게임 메뉴가 열려 있을 때에도 세계가 저장됩니다.
 
 of.options.SCREENSHOT_SIZE=스크린샷 크기
 of.options.SCREENSHOT_SIZE.tooltip.1=스크린샷 크기
@@ -577,3 +744,24 @@ of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 사용자 지정 스크린샷 크
 of.options.SCREENSHOT_SIZE.tooltip.4=큰 스크린샷을 캡쳐하는 데 많은 메모리가 필요할 수 있습니다.
 of.options.SCREENSHOT_SIZE.tooltip.5=빠른 렌더와 안티에일리어싱과 호환되지 않습니다.
 of.options.SCREENSHOT_SIZE.tooltip.6=GPU 프레임버퍼 지원이 필요합니다.
+
+of.options.SHOW_GL_ERRORS=GL에러 보이기
+of.options.SHOW_GL_ERRORS.tooltip.1=OpenGL에러 보이기
+of.options.SHOW_GL_ERRORS.tooltip.2=활성화 되어 있을때 OpenGL에러들이 채팅에 보입니다.
+of.options.SHOW_GL_ERRORS.tooltip.3=알려진 충돌이거나 오류를 고칠 수 없을때 
+of.options.SHOW_GL_ERRORS.tooltip.4=이것을 비활성화 하십시오.
+of.options.SHOW_GL_ERRORS.tooltip.5=비활성화 된 경우 오류는 여전히 오류 로그에 기록되며
+of.options.SHOW_GL_ERRORS.tooltip.6=여전히 상당한 FPS 저하를 유발할 수 있습니다.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=채팅 배경
+of.options.CHAT_BACKGROUND.tooltip.1=채팅 배경
+of.options.CHAT_BACKGROUND.tooltip.2=  기본 - 고정 너비
+of.options.CHAT_BACKGROUND.tooltip.3=  컴팩트 - 선 너비와 일치
+of.options.CHAT_BACKGROUND.tooltip.4=  끄기 - 숨겨짐
+
+of.options.CHAT_SHADOW=채팅 그림자
+of.options.CHAT_SHADOW.tooltip.1=채팅 그림자
+of.options.CHAT_SHADOW.tooltip.2=  켜짐 - 채팅 그림자 사용
+of.options.CHAT_SHADOW.tooltip.3=  꺼짐 - 채팅 그림자 사용하지 않음
