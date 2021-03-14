@@ -15,6 +15,9 @@ of.key.zoom=Zoom
 of.message.aa.shaders1=L'anticrénelage n'est pas compatible avec les shaders.
 of.message.aa.shaders2=Veuillez désactiver les shaders pour activer cette option.
 
+of.message.aa.gf1=L'anticrénelage n'est pas compatible aves les graphismes "Fabuleux !".
+of.message.aa.gf2=Veuillez définir Graphismes sur "Rapides" ou "Détaillés".
+
 of.message.af.shaders1=Le filtrage anisotrope n'est pas compatible avec les shaders.
 of.message.af.shaders2=Veuillez désactiver les shaders pour activer cette option.
 
@@ -32,6 +35,9 @@ of.message.shaders.af2=Veuillez définir Qualité -> Filtrage anisotrope sur "No
 
 of.message.shaders.fr1=Les shaders ne sont pas compatibles avec le rendu rapide.
 of.message.shaders.fr2=Veuillez définir Performance -> Rendu rapide sur "Non".
+
+of.message.shaders.gf1=Les shaders ne sont pas compatibles avec les graphismes "Fabuleux !".
+of.message.shaders.gf2=Veuillez définir Graphismes sur "Rapides" ou "Détaillés".
 
 of.message.shaders.an1=Les shaders ne sont pas compatibles avec la 3D anaglyphe.
 of.message.shaders.an2=Veuillez définir Autre -> 3D anaglyphe sur "Non".
@@ -58,8 +64,8 @@ of.options.capeOF.openEditor=Ouvrir l'éditeur de cape
 of.options.capeOF.reloadCape=Recharger la cape
 of.options.capeOF.copyEditorLink=Copier le lien
 
-of.message.capeOF.openEditor=L'éditeur de cape OptiFine devrait s'ouvrir dans un navigateur internet.
-of.message.capeOF.openEditorError=Erreur lors de l'ouverture du lien de l'éditeur dans un navigateur internet.
+of.message.capeOF.openEditor=L'éditeur de cape OptiFine devrait s'ouvrir dans un navigateur Internet.
+of.message.capeOF.openEditorError=Erreur lors de l'ouverture du lien de l'éditeur dans un navigateur Internet.
 of.message.capeOF.reloadCape=La cape sera rechargée dans 15 secondes.
 
 of.message.capeOF.error1=Échec de l'authentification Mojang.
@@ -70,8 +76,11 @@ of.message.capeOF.error2=Erreur : %s
 options.graphics.tooltip.1=Graphismes
 options.graphics.tooltip.2=  Rapides - Basse qualité (rapide)
 options.graphics.tooltip.3=  Détaillés - Haute qualité (lent)
-options.graphics.tooltip.4=Modifie l'apparence des nuages, des feuilles, de l'eau, des
-options.graphics.tooltip.5=ombres et du côté de l'herbe.
+options.graphics.tooltip.4=  Fabuleux - Objets plus translucides (lent)
+options.graphics.tooltip.5=Modifie l'apparence des nuages, des feuilles, de l'eau, des
+options.graphics.tooltip.6=ombres et du côté de l'herbe.
+options.graphics.tooltip.7=Les graphismes "Fabuleux !" ne sont pas compatibles avec
+options.graphics.tooltip.8=les shaders et l'anticrénelage.
 
 of.options.renderDistance.tiny=Minimale
 of.options.renderDistance.short=Courte
@@ -89,6 +98,13 @@ options.renderDistance.tooltip.5=  32 Extrême - 512m (très lent) - Très gourm
 options.renderDistance.tooltip.6=  48 Insensée - 768m, nécessite 2 Go de RAM allouée
 options.renderDistance.tooltip.7=  64 Inimaginable - 1024m, nécessite 3 Go de RAM allouée
 options.renderDistance.tooltip.8=Les valeurs au-dessus de 16 n'ont effet qu'en solo.
+
+options.entityDistanceScaling.tooltip.1=Distance de rendu des entités
+options.entityDistanceScaling.tooltip.2=  50 %% - rapide
+options.entityDistanceScaling.tooltip.3=  100 %% - par défaut
+options.entityDistanceScaling.tooltip.4=  500 %% - lent
+options.entityDistanceScaling.tooltip.5=Modifie la distance maximale à laquelle les entités
+options.entityDistanceScaling.tooltip.6=sont affichées.
 
 options.ao.tooltip.1=Luminosité adoucie
 options.ao.tooltip.2=  Non - aucun adoucissement (rapide)
@@ -187,8 +203,8 @@ of.options.shaders.ANTIALIASING.tooltip.2=  Non - (par défaut) pas d'anticréne
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - anticrénelage des lignes et bords (lent)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA est un effet de post-traitement qui adoucit les
 of.options.shaders.ANTIALIASING.tooltip.5=lignes rugueuses et transitions rapides de couleur.
-of.options.shaders.ANTIALIASING.tooltip.6=Il est plus rapide que l'anticrénelage traditionnel
-of.options.shaders.ANTIALIASING.tooltip.7=et est compatible avec les shaders et le rendu rapide.
+of.options.shaders.ANTIALIASING.tooltip.6=Il est plus rapide que l'anticrénelage traditionnel et
+of.options.shaders.ANTIALIASING.tooltip.7=est compatible avec les shaders.
 
 of.options.shaders.NORMAL_MAP=Carte normale 
 of.options.shaders.NORMAL_MAP.tooltip.1=Carte normale
@@ -592,9 +608,8 @@ of.options.FAST_RENDER.tooltip.1=Rendu rapide
 of.options.FAST_RENDER.tooltip.2=  Non - rendu standard (par défaut)
 of.options.FAST_RENDER.tooltip.3=  Oui - rendu optimisé (rapide)
 of.options.FAST_RENDER.tooltip.4=Utilise des algorithmes de rendu optimisé pour diminuer la
-of.options.FAST_RENDER.tooltip.5=charge du processeur graphique, ce qui peut augmenter
-of.options.FAST_RENDER.tooltip.6=les FPS.
-of.options.FAST_RENDER.tooltip.7=Cette option peut entrer en conflit avec certains mods.
+of.options.FAST_RENDER.tooltip.5=charge du processeur, ce qui peut augmenter les FPS.
+of.options.FAST_RENDER.tooltip.6=Cette option peut entrer en conflit avec certains mods.
 
 of.options.FAST_MATH=Calculs rapides 
 of.options.FAST_MATH.tooltip.1=Calculs rapides
@@ -635,15 +650,15 @@ of.options.RENDER_REGIONS=Rendu des régions
 of.options.RENDER_REGIONS.tooltip.1=Rendu des régions
 of.options.RENDER_REGIONS.tooltip.2= Non - rendu standard (par défaut)
 of.options.RENDER_REGIONS.tooltip.3= Oui - rendu des régions
-of.options.RENDER_REGIONS.tooltip.4=Permet un rendu du terrain plus rapide à des distances
-of.options.RENDER_REGIONS.tooltip.5=d'affichage plus élevées. Plus efficace lorsque les VBOs
-of.options.RENDER_REGIONS.tooltip.6=sont activés. Non recommandé pour les cartes graphiques
-of.options.RENDER_REGIONS.tooltip.7=intégrées.
+of.options.RENDER_REGIONS.tooltip.4=Permet un rendu du terrain plus rapide en optimisant
+of.options.RENDER_REGIONS.tooltip.5=la charge du processeur graphique. Plus efficace à des
+of.options.RENDER_REGIONS.tooltip.6=distances d'affichage élevées.
+of.options.RENDER_REGIONS.tooltip.7=Non recommandé pour les cartes graphiques intégrées.
 
 of.options.SMART_ANIMATIONS=Animations intelligentes 
 of.options.SMART_ANIMATIONS.tooltip.1=Animations intelligentes
 of.options.SMART_ANIMATIONS.tooltip.2= Non - animations standards (par défaut)
-of.options.SMART_ANIMATIONS.tooltip.3= Oui - animations intelligentes
+of.options.SMART_ANIMATIONS.tooltip.3= Oui - animations intelligentes (rapide)
 of.options.SMART_ANIMATIONS.tooltip.4=Permet au jeu d'animer uniquement les textures
 of.options.SMART_ANIMATIONS.tooltip.5=actuellement visibles à l'écran. Cela réduit les pics
 of.options.SMART_ANIMATIONS.tooltip.6=de lag et augmente les FPS. Surtout utile pour les gros
@@ -753,7 +768,7 @@ of.options.SCREENSHOT_SIZE.tooltip.2=  Par défaut - taille de la fenêtre
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - taille personnalisée
 of.options.SCREENSHOT_SIZE.tooltip.4=Prendre une capture d'écran plus grande peut
 of.options.SCREENSHOT_SIZE.tooltip.5=nécessiter plus de mémoire.
-of.options.SCREENSHOT_SIZE.tooltip.6=Incompatible avec le rendu rapide et l'anticrénelage.
+of.options.SCREENSHOT_SIZE.tooltip.6=Incompatible avec l'anticrénelage.
 of.options.SCREENSHOT_SIZE.tooltip.7=Requiert un processeur graphique avec un tampon de trame.
 
 of.options.SHOW_GL_ERRORS=Afficher les erreurs GL 

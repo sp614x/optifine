@@ -3,6 +3,7 @@
 #  Puuska    2017-07-15 -- 2018-01-31 #
 #  Kamil7430 2018-07-30 -- ?????      #
 #  ravkr     2019-08-25 -- ?????      #
+#  Moneko    2020-10-   -- ?????      #
 
 # General
 of.general.ambiguous=dwuznaczny
@@ -38,6 +39,9 @@ of.message.shaders.af2=Wyłącz opcję Jakość -> Filtrowanie anizotropowe.
 
 of.message.shaders.fr1=Shadery nie są kompatybilne z szybkim renderowaniem.
 of.message.shaders.fr2=Wyłącz opcję Wydajność -> Szybkie renderowanie.
+
+of.message.shaders.gf1=Shadery nie są kompatybilne z Bajeczną Grafiką.
+of.message.shaders.gf2=Ustaw Jakość grafiki na Szybką lub Dokładną.
 
 of.message.shaders.an1=Shadery nie są kompatybilne z anaglifowym 3D.
 of.message.shaders.an2=Wyłącz opcję Inne -> Anaglifowe 3D.
@@ -76,8 +80,10 @@ of.message.capeOF.error2=Błąd: %s
 options.graphics.tooltip.1=Jakość grafiki
 options.graphics.tooltip.2=  Szybka — niższa jakość, większa wydajność
 options.graphics.tooltip.3=  Dokładna — wyższa jakość, mniejsza wydajność
-options.graphics.tooltip.4=Zmienia wygląd chmur, liści, wody,
-options.graphics.tooltip.5=cieni oraz boków bloków trawy.
+options.graphics.tooltip.4=  Bajeczna — lepsza przeźroczystość, najwolniejsza
+options.graphics.tooltip.5=Zmienia wygląd chmur, liści, wody,
+options.graphics.tooltip.6=cieni oraz boków bloków trawy.
+options.graphics.tooltip.7=Bajeczna grafika nie jest kompatybilna z shaderami.
 
 of.options.renderDistance.tiny=Najkrótsza
 of.options.renderDistance.short=Krótka
@@ -95,6 +101,12 @@ options.renderDistance.tooltip.5=  32 Ekstremalna — 512m
 options.renderDistance.tooltip.6=  48 Szalona — 768m, potrzeba min. 2GB RAM-u
 options.renderDistance.tooltip.7=  64 Niedorzeczna — 1024m, potrzeba min. 3GB RAM-u
 options.renderDistance.tooltip.8=Wartości powyżej 16 są zalecane tylko dla lokalnych światów.
+
+options.entityDistanceScaling.tooltip.1=Odległość renderowania bytów
+options.entityDistanceScaling.tooltip.2=  50%% - szybsze
+options.entityDistanceScaling.tooltip.3=  100%% - domyślne
+options.entityDistanceScaling.tooltip.4=  500%% - wolniejsze
+options.entityDistanceScaling.tooltip.5=Modyfikuje maksymalny dystans na którym widać byty.
 
 options.ao.tooltip.1=Gładkie oświetlenie
 options.ao.tooltip.2=  Wył. — brak wygładzania oświetlenia (wysoka wydajność)

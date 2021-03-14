@@ -1,7 +1,8 @@
 # Contributors of Japanese localization #
 #   takanasayo 2012-12-01 ---- 2013-07-15
-#   CrafterKina 2014-01-04 ---- 
-#   syokkendesuyo 2020-08-04
+#   CrafterKina 2014-01-04 ---- 2018-12-07
+#   ViaSnake 2019-12-16 ---- 
+#   syokkendesuyo 2020-08-04 ---- 
 
 # General
 of.general.ambiguous=不明確
@@ -19,6 +20,9 @@ of.key.zoom=ズーム
 # Message
 of.message.aa.shaders1=アンチエイリアスはシェーダーと共存できません。
 of.message.aa.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
+
+of.message.aa.gf1=アンチエイリアスはFabulous Graphicsと共存できません。
+of.message.aa.gf2=グラフィックスを処理優先か描画優先にしてください。
 
 of.message.af.shaders1=異方性フィルタリングはシェーダーと共存できません。
 of.message.af.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
@@ -38,7 +42,7 @@ of.message.shaders.af2=品質の設定 → 異方性フィルタリング をオ
 of.message.shaders.fr1=シェーダーは描画の最適化と共存できません。
 of.message.shaders.fr2=演出の設定 → 描画の最適化 をオフにしてください。
 
-of.message.shaders.gf1=シェーダーはグラフィックスの「最高設定！」と互換性がありません。
+of.message.shaders.gf1=シェーダーはグラフィックスの「最高設定」と互換性がありません。
 of.message.shaders.gf2=グラフィックスの設定を描画優先または処理優先に変更してください。
 
 of.message.shaders.an1=シェーダーは3Dアナグリフと共存できません。
@@ -78,10 +82,11 @@ of.message.capeOF.error2=エラー: %s
 options.graphics.tooltip.1=グラフィックス
 options.graphics.tooltip.2=  処理優先 - 低品質、低負荷
 options.graphics.tooltip.3=  描画優先 - 高品質、高負荷
-options.graphics.tooltip.4=  最高設定！ - 透過ブロックに対する最高品質、非常に高負荷
-options.graphics.tooltip.5=葉の透過、アイテムやMobの影、ドロップアイテムの3D描写、厚みのある雲、
-options.graphics.tooltip.6=水の2パスレンダリング、といったグラフィック効果を変更します。
-options.graphics.tooltip.7=最高品質！はシェーダーと互換性がありません。                                                                            
+options.graphics.tooltip.4=  最高設定 - 最高品質の透過ブロック、非常に高負荷
+options.graphics.tooltip.5=雲、葉、水、影、草の側面の
+options.graphics.tooltip.6=外観を変更します。
+options.graphics.tooltip.7=最高設定はシェーダー及びアンチエイリアスと
+options.graphics.tooltip.8=互換性がありません。
 
 of.options.renderDistance.tiny=最短
 of.options.renderDistance.short=短い
@@ -203,7 +208,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x、4x - アンチエイリア
 of.options.shaders.ANTIALIASING.tooltip.4=FXAAは輪郭のギザギザや急激な色の変化を
 of.options.shaders.ANTIALIASING.tooltip.5=滑らかにする後処理効果です。
 of.options.shaders.ANTIALIASING.tooltip.6=この機能は旧来のアンチエイリアス処理より低負荷で
-of.options.shaders.ANTIALIASING.tooltip.7=シェーダーや描画の最適化機能と共存できます。
+of.options.shaders.ANTIALIASING.tooltip.7=シェーダーと共存できます。
 
 of.options.shaders.NORMAL_MAP=法線マップ
 of.options.shaders.NORMAL_MAP.tooltip.1=法線マップ
@@ -598,7 +603,7 @@ of.options.FAST_RENDER=描画の最適化
 of.options.FAST_RENDER.tooltip.1=描画の最適化
 of.options.FAST_RENDER.tooltip.2= オフ - 通常の描画 (初期値) 
 of.options.FAST_RENDER.tooltip.3= オン - 最適化された描画 (低負荷) 
-of.options.FAST_RENDER.tooltip.4=GPUのロード回数を減らした方式によって
+of.options.FAST_RENDER.tooltip.4=CPUのロード回数を減らした方式によって
 of.options.FAST_RENDER.tooltip.5=大幅にFPSを向上します。
 of.options.FAST_RENDER.tooltip.6=この機能はModと競合する可能性があります。
 
@@ -636,16 +641,16 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=ローカルワールド (シングル�
 
 of.options.RENDER_REGIONS=領域描画
 of.options.RENDER_REGIONS.tooltip.1=領域描画
-of.options.RENDER_REGIONS.tooltip.2= オフ - 領域描画を用いない (初期値)
-of.options.RENDER_REGIONS.tooltip.3= オン - 領域描画を用いる
-of.options.RENDER_REGIONS.tooltip.4=領域描画は描画距離が広い場合に素早い地形描画を可能にします。
-of.options.RENDER_REGIONS.tooltip.5=頂点バッファオブジェクトが有効な場合に、より効果的です。
+of.options.RENDER_REGIONS.tooltip.2= オフ - バニラレンダリング (初期値)
+of.options.RENDER_REGIONS.tooltip.3= オン - 領域描画を用いる (高速)
+of.options.RENDER_REGIONS.tooltip.4=GPUへの負荷を最適化することで
+of.options.RENDER_REGIONS.tooltip.5=より高速なレンダリングを可能にします。
 of.options.RENDER_REGIONS.tooltip.6=オンボードグラフィックカードでは推奨されません。
 
 of.options.SMART_ANIMATIONS=スマートアニメーション
 of.options.SMART_ANIMATIONS.tooltip.1=スマートアニメーション
 of.options.SMART_ANIMATIONS.tooltip.2= オフ - スマートアニメーションを用いない (初期値)
-of.options.SMART_ANIMATIONS.tooltip.3= オン - スマートアニメーションを用いる
+of.options.SMART_ANIMATIONS.tooltip.3= オン - スマートアニメーションを用いる (高速)
 of.options.SMART_ANIMATIONS.tooltip.4=スマートアニメーションを使えばテクスチャのアニメーション処理は
 of.options.SMART_ANIMATIONS.tooltip.5=見える範囲でのみ行われるようになります。
 of.options.SMART_ANIMATIONS.tooltip.6=ラグを減らし、FPSを増やすことができます。
@@ -752,7 +757,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.2=  デフォルト - 通常の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x〜4x - 任意の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.4=より大きなスクリーンショットの撮影には、より多くのメモリが必要です。
-of.options.SCREENSHOT_SIZE.tooltip.5=描画の最適化、アンチエイリアスとは共存できません。
+of.options.SCREENSHOT_SIZE.tooltip.5=アンチエイリアスとは共存できません。
 of.options.SCREENSHOT_SIZE.tooltip.6=GPUがフレームバッファをサポートしている必要があります。
 
 of.options.SHOW_GL_ERRORS=OpenGLエラーの表示

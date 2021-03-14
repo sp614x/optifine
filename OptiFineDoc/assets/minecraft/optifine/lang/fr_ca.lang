@@ -7,7 +7,7 @@ of.general.custom=Personnalisé
 of.general.from=De
 of.general.id=ID
 of.general.max=Maximum
-of.general.restart=Redémarer
+of.general.restart=Redémarrer
 of.general.smart=Intelligent
 
 # Keys 
@@ -34,6 +34,9 @@ of.message.shaders.af2=Veuillez fixé Qualité -> Filtrage Anisotropique à OFF.
 
 of.message.shaders.fr1=Les Shaders ne sont pas compatible avec le Rendu Rapide.
 of.message.shaders.fr2=Veuillez fixé Performance -> Rendu Rapide à OFF.
+
+of.message.shaders.gf1=Les Shaders ne sont pas compatible avec Graphiques Fabuleux.
+of.message.shaders.gf2=Veuillez configurer Graphiques à Rapide ou Détaillé.
 
 of.message.shaders.an1=Les Shaders ne sont pas compatible avec l'Anaglyphe 3D.
 of.message.shaders.an2=Veuillez configurer Autre -> Anaglyphe 3D à OFF.
@@ -72,8 +75,10 @@ of.message.capeOF.error2=Error: %s
 options.graphics.tooltip.1=Qualité visuel
 options.graphics.tooltip.2=  Rapide - Basse qualité (Rapide)
 options.graphics.tooltip.3=  Détaillée - Haute qualité (Lent)
-options.graphics.tooltip.4=Change l'apparence des nuages, des feuilles,
-options.graphics.tooltip.5=de l'eau, des ombres et du côté de l'herbe.
+options.graphics.tooltip.4=  Fabuleux - Objets translucides magnifiques (Très lent)
+options.graphics.tooltip.5=Change l'apparence des nuages, des feuilles,
+options.graphics.tooltip.6=de l'eau, des ombres et du côté de l'herbe.
+options.graphics.tooltip.7=Les graphiques Fabuleux ne sont pas compatible avec les shaders.
 
 of.options.renderDistance.tiny=Mini
 of.options.renderDistance.short=Courte
