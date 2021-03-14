@@ -18,7 +18,8 @@ Extension  Type
 .gsh       Geometry shader   
 .fsh       Fragment shader   
 
-Geometry shaders need either OpenGL 3.2 with layout qualifiers or the extension GL_ARB_geometry_shader4 with configuration "maxVerticesOut".
+Geometry shaders need either OpenGL 3.2 with layout qualifiers or the extension GL_ARB_geometry_shader4 (GL_EXT_geometry_shader4) 
+with configuration "maxVerticesOut".
 
 Color Attachments
 =================
