@@ -39,6 +39,9 @@ of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關�
 of.message.shaders.fr1=光影與快速繪製不相容。
 of.message.shaders.fr2=請把 效能 -> 快速繪製 選項設定為 關閉。
 
+of.message.shaders.gf1=光影與 極佳 畫質不相容。
+of.message.shaders.gf2=請把畫質設定為 流暢 或是 精緻。
+
 of.message.shaders.an1=光影與 3D 立體不相容。
 of.message.shaders.an2=請把 其他 -> 3D 立體 選項設定為 關閉。
 
@@ -67,8 +70,10 @@ of.options.capeOF.copyEditorLink=將連結複製至剪貼簿
 options.graphics.tooltip.1=畫面品質
 options.graphics.tooltip.2=  流暢  - 低畫質，較流暢
 options.graphics.tooltip.3=  精緻  - 高畫質，較慢
-options.graphics.tooltip.4=改變雲、樹葉、水、
-options.graphics.tooltip.5=陰影與草地側面的外觀。
+options.graphics.tooltip.4=  極佳 - 更佳的半透明對象，最慢
+options.graphics.tooltip.5=改變雲、樹葉、水、
+options.graphics.tooltip.6=陰影與草地側面的外觀。
+options.graphics.tooltip.7=極佳 畫質與光影不相容。
 
 of.options.renderDistance.tiny=最近
 of.options.renderDistance.short=近
@@ -387,7 +392,7 @@ of.options.CONNECTED_TEXTURES.tooltip.1=連接材質
 of.options.CONNECTED_TEXTURES.tooltip.2=  關閉 - 關閉連接材質（預設）
 of.options.CONNECTED_TEXTURES.tooltip.3=  流暢 - 快速處理連接材質
 of.options.CONNECTED_TEXTURES.tooltip.4=  精緻 - 精細處理連接材質
-of.options.CONNECTED_TEXTURES.tooltip.5=連接材質為玻璃、沙石和書架增加了連接材質，
+of.options.CONNECTED_TEXTURES.tooltip.5=連接材質為玻璃、砂岩和書架增加了連接材質，
 of.options.CONNECTED_TEXTURES.tooltip.6=當它們互相放在一起時會將材質接為一體。
 of.options.CONNECTED_TEXTURES.tooltip.7=連接材質一般由目前的
 of.options.CONNECTED_TEXTURES.tooltip.8=資源包提供。
@@ -548,9 +553,16 @@ of.options.DYNAMIC_LIGHTS.tooltip.1=動態光源
 of.options.DYNAMIC_LIGHTS.tooltip.2=  關閉 - 無動態光源（預設）
 of.options.DYNAMIC_LIGHTS.tooltip.3=  流暢 - 較流暢的動態光源（每 500 毫秒更新一次）
 of.options.DYNAMIC_LIGHTS.tooltip.4=  精緻 - 高品質的動態光源（即時更新）
-of.options.DYNAMIC_LIGHTS.tooltip.5=允許發光的物品（火把、螢石等）
+of.options.DYNAMIC_LIGHTS.tooltip.5=允許發光的物品（火把、螢光石等）
 of.options.DYNAMIC_LIGHTS.tooltip.6=當被玩家左右手持握、裝備或
 of.options.DYNAMIC_LIGHTS.tooltip.7=成爲掉落物時照亮周圍。
+
+options.biomeBlendRadius.tooltip.1=平滑生態域間的顏色過渡
+options.biomeBlendRadius.tooltip.2= 關閉 - 無混色（最快）
+options.biomeBlendRadius.tooltip.3= 5x5 - 正常混色（預設）
+options.biomeBlendRadius.tooltip.4= 15x15 - 最大混色（最慢）
+options.biomeBlendRadius.tooltip.5=較大的值可能會產生顯著的突發延遲
+options.biomeBlendRadius.tooltip.6=並減慢區塊加載速度。
 
 # Performance
 
@@ -632,7 +644,7 @@ of.options.animation.allOff=全部關閉
 of.options.animation.dynamic=動態
 
 of.options.ANIMATED_WATER=水面動畫
-of.options.ANIMATED_LAVA=岩漿動畫
+of.options.ANIMATED_LAVA=熔岩動畫
 of.options.ANIMATED_FIRE=火焰動畫
 of.options.ANIMATED_PORTAL=傳送門動畫
 of.options.ANIMATED_REDSTONE=紅石動畫
@@ -644,7 +656,7 @@ of.options.WATER_PARTICLES=水濺粒子
 of.options.RAIN_SPLASH=雨滴飛濺
 of.options.PORTAL_PARTICLES=傳送門粒子
 of.options.POTION_PARTICLES=藥水粒子
-of.options.DRIPPING_WATER_LAVA=流動水/岩漿
+of.options.DRIPPING_WATER_LAVA=流動水/熔岩
 of.options.ANIMATED_TERRAIN=地形動畫
 of.options.ANIMATED_TEXTURES=材質動畫
 of.options.FIREWORK_PARTICLES=煙火粒子
