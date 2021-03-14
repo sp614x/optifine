@@ -84,7 +84,6 @@ options.graphics.tooltip.6=en la lluvia, en los ítems tirados y en las
 options.graphics.tooltip.7=esquinas (o bordes) de la pantalla del juego.
 
 
-
 options.ao.tooltip.1=Iluminación suave
 options.ao.tooltip.2=  NO - sin iluminación suave (rápido)
 options.ao.tooltip.3=  Mínimo - iluminación suave simple (lento)
