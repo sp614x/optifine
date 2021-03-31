@@ -9,7 +9,7 @@ of.general.restart=reštart
 of.general.smart=Chytré
 
 # Keys
-of.key.zoom=Zoom
+of.key.zoom=Priblíženie
 
 # Message
 of.message.aa.shaders1=Antialiasing nie je kompatibilný s tieňovačmi (Shaders).
@@ -68,8 +68,11 @@ of.message.capeOF.error2=Chyba: %s
 options.graphics.tooltip.1=Kvalita obrazu
 options.graphics.tooltip.2=  Rýchla - nižšia kvalia, rýchlejšia
 options.graphics.tooltip.3=  Pekná - vyššia kvalita, pomalšia
-options.graphics.tooltip.4=Mení vzhľad oblakov, listov, vody,
-options.graphics.tooltip.5=tieňov a trávy.
+options.graphics.tooltip.4=  Nádherná - lepšie miešanie priesvitných objektov, najpomalšie
+options.graphics.tooltip.5=Mení vzhľad oblakov, listov, vody,
+options.graphics.tooltip.6=tieňov a trávy.
+options.graphics.tooltip.7=Nádherná grafika nepodporuje
+options.graphics.tooltip.8=tieňovače a antialiasing.
 
 of.options.renderDistance.tiny=Drobná
 of.options.renderDistance.short=Krátka
@@ -87,6 +90,12 @@ options.renderDistance.tooltip.5=  32 Extrémna - 512m (najpomalšia!) veľmi n�
 options.renderDistance.tooltip.6=  48 Šialená - 768m, potrebuje 2GB alokovanej RAM
 options.renderDistance.tooltip.7=  64 Absurdná - 1024m, potrebuje 3GB alokovanej RAM
 options.renderDistance.tooltip.8=Hodnoty nad 16 sú funkčné len pre lokálne svety.
+
+options.entityDistanceScaling.tooltip.1=Vzdialenosť vykresľovania entít
+options.entityDistanceScaling.tooltip.2=  50%% - rýchlejšie
+options.entityDistanceScaling.tooltip.3=  100%% - predvolené
+options.entityDistanceScaling.tooltip.4=  500%% - pomalšie
+options.entityDistanceScaling.tooltip.5=Mení vzdialenosť ukazovania entít v hre.
 
 options.ao.tooltip.1=Vyhladené osvetlenie
 options.ao.tooltip.2=  VYP - žiadne vyhladené osvetlenie (rýchlejšie)
@@ -133,6 +142,13 @@ options.anaglyph.tooltip.1=3D Anaglyf režim
 options.anaglyph.tooltip.2=Zapne stereoskopický 3D efekt pomocou rôznych farieb
 options.anaglyph.tooltip.3=pre každé oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-tyrkysové 3D okuliare.
+
+options.attackIndicator.tooltip.1=Nastavuje pozíciu ukazovateľa útoku
+options.attackIndicator.tooltip.2=  Zameriavač - pod stredom obrazovky
+options.attackIndicator.tooltip.3=  Lišta - vpravo od lišty
+options.attackIndicator.tooltip.4=  VYP - vypnutý ukazovateľ
+options.attackIndicator.tooltip.5=Ukazuje kedy treba buchnúť pre
+options.attackIndicator.tooltip.6=najväčsie poranenie.
 
 of.options.ALTERNATE_BLOCKS=Rozličné kocky
 of.options.ALTERNATE_BLOCKS.tooltip.1=Rozličné kocky
@@ -306,8 +322,8 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trilineárna - najjemnejšie vyhladzovanie (n
 
 
 of.options.AA_LEVEL=Antialiasing
-of.options.AA_LEVEL.tooltip.1=Antialiasing (vyhladzovanie okrajov)
-of.options.AA_LEVEL.tooltip.2= VYP - (štandard) žiadne vyhladzovanie okrajov (rýchlejšie)
+of.options.AA_LEVEL.tooltip.1=Vyhladzovanie okrajov
+of.options.AA_LEVEL.tooltip.2= VYP - (predvolené) žiadne vyhladzovanie okrajov (rýchle)
 of.options.AA_LEVEL.tooltip.3= 2-16 - vyhladené línie a hrany (pomalšie)
 of.options.AA_LEVEL.tooltip.4=Antialiasing vyhladzuje zúbkované okraje
 of.options.AA_LEVEL.tooltip.5=a ostré prechody farieb.
@@ -534,17 +550,24 @@ of.options.DYNAMIC_FOV=Dynamické zorné pole
 of.options.DYNAMIC_FOV.tooltip.1=Dynamické zorné pole (FOV)
 of.options.DYNAMIC_FOV.tooltip.2=  ZAP - (štandard) zapnúť dynamické zorné pole
 of.options.DYNAMIC_FOV.tooltip.3=  VYP - vypnúť dynamické zorné pole
-of.options.DYNAMIC_FOV.tooltip.4=CMení zorné pole pri lietaní, behu
+of.options.DYNAMIC_FOV.tooltip.4=Mení zorné pole pri lietaní, behu
 of.options.DYNAMIC_FOV.tooltip.5=alebo naťahovaní tetivy luku.
 
 of.options.DYNAMIC_LIGHTS=Dynamické svetlá
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamické svetlá
 of.options.DYNAMIC_LIGHTS.tooltip.2=  VYP - (štandard) žiadne dynamické svetlá
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Rýchle - rýchle dynamické svetlá (obnovené každých 500ms)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Pekné - pekné dynamické svetlá (obnovované v reálnom čase)
-of.options.DYNAMIC_LIGHTS.tooltip.5=Umožní predmetom vyžarujúcim svetlo (fakľa, svietivec, atď.)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Rýchle - obnovené každých 500ms
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Pekné - obnovované každú snímku
+of.options.DYNAMIC_LIGHTS.tooltip.5=Umožní predmetom vyžarujúcim svetlo (fakľa, svietivec...)
 of.options.DYNAMIC_LIGHTS.tooltip.6=osvetliť všetko v ich okolí, keď je predmet v ruke,
 of.options.DYNAMIC_LIGHTS.tooltip.7=na tele hráča, alebo odhodený na zemi.
+
+options.biomeBlendRadius.tooltip.1=Vyhladí prechody farieb biómov
+options.biomeBlendRadius.tooltip.2=  VYP - ostré (rýchle)
+options.biomeBlendRadius.tooltip.3=  5x5 - normálne prelínanie (predvolené)
+options.biomeBlendRadius.tooltip.4=  15x15 - najdlhšie prelínanie (pomalé)
+options.biomeBlendRadius.tooltip.5=Väčšie hodnoty môžu spôsobiť väčšie záseky
+options.biomeBlendRadius.tooltip.6=a spomalenia načítavania chunkov.
 
 # Performance
 
