@@ -12,35 +12,41 @@ of.general.smart=Chytré
 of.key.zoom=Priblíženie
 
 # Message
-of.message.aa.shaders1=Antialiasing nie je kompatibilný s tieňovačmi (Shaders).
+of.message.aa.shaders1=Vyhladzovanie nie je kompatibilné s tieňovačmi.
 of.message.aa.shaders2=Vypni tieňovače pre odomknutie tejto možnosti.
 
-of.message.af.shaders1=Anizotropné filtrovanie nie je kompatibilné s tieňovačmi (Shaders).
+of.message.aa.gf1=Vyhladzovanie nie je kompatibilné s nádhernou grafikou.
+of.message.aa.gf2=Vypni nádhernú grafiku pre odomknutie tejto možnosti.
+
+of.message.af.shaders1=Anizotropné filtrovanie nie je kompatibilné s tieňovačmi.
 of.message.af.shaders2=Vypni tieňovače pre odomknutie tejto možnosti.
 
-of.message.fr.shaders1=Rýchle vykresľovanie nie je kompatibilné s tieňovačmi (Shaders).
+of.message.fr.shaders1=Rýchle vykresľovanie nie je kompatibilné s tieňovačmi.
 of.message.fr.shaders2=Vypni tieňovače pre odomknutie tejto možnosti.
 
-of.message.an.shaders1=3D Anaglyf režim nie je kompatibilný s tieňovačmi (Shaders).
+of.message.an.shaders1=3D Anaglyf nie je kompatibilný s tieňovačmi.
 of.message.an.shaders2=Vypni tieňovače pre odomknutie tejto možnosti.
 
-of.message.shaders.aa1=Tieňovače nie sú kompatibilné s antialiasingom.
-of.message.shaders.aa2=Nastav Kvalita -> Antialiasing na VYP a reštartuj hru.
+of.message.shaders.aa1=Tieňovače nie sú kompatibilné s vyhladzovaním.
+of.message.shaders.aa2=Vypni Kvalita -> Vyhladzovanie a reštartuj hru.
 
 of.message.shaders.af1=Tieňovače nie sú kompatibilné s anizotropným filtrovaním.
-of.message.shaders.af2=Nastav Kvalita -> Anizotropné filtrovanie na VYP a reštartuj hru.
+of.message.shaders.af2=Vypni Kvalita -> Anizotropné filtrovanie a reštartuj hru.
 
 of.message.shaders.fr1=Tieňovače nie sú kompatibilné s rýchlym vykresľovaním.
-of.message.shaders.fr2=Nastav Výkon -> Rýchle vykresľovanie na VYP a reštartuj hru.
+of.message.shaders.fr2=Vypni Výkon -> Rýchle vykresľovanie a reštartuj hru.
 
-of.message.shaders.an1=Tieňovače nie sú kompatibilné s 3D anaglyf režimom.
-of.message.shaders.an2=Nastav Iné -> 3D Anaglyf režim na VYP a reštartuj hru.
+of.message.shaders.gf1=Tieňovače nie sú kompatibilné s nádhernou grafikou.
+of.message.shaders.gf2=Vypni nádhernú grafiku pre odomknutie tejto možnosti.
 
-of.message.shaders.nv1=Tento balík tieňovačov vyžaduje novšiu verziu OptiFine: %s
+of.message.shaders.an1=Tieňovače nie sú kompatibilné s 3D anaglyfom.
+of.message.shaders.an2=Vypni Iné -> 3D Anaglyf.
+
+of.message.shaders.nv1=Tento balík tieňovačov vyžaduje novšiu verziu OptiFinu: %s
 of.message.shaders.nv2=Si si istý že chceš pokračovať?
 
-of.message.newVersion=Je dostupná nová verzia §eOptiFine§f: §e%s§f
-of.message.java64Bit=Môžeš nainštalovať §e64-bit Java§f pre zlepšenie výkonu.
+of.message.newVersion=Je dostupná nová verzia §eOptiFinu§f: §e%s§f
+of.message.java64Bit=Nainštaluj §e64-bitovú verziu Java§f pre zlepšenie výkonu.
 of.message.openglError=§eChyba OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Načítavajú sa tieňovače: %s
@@ -54,10 +60,12 @@ of.message.loadingVisibleChunks=Načítavajú sa viditeľné chunky
 of.options.skinCustomisation.ofCape=OptiFine plášť...
 
 of.options.capeOF.title=OptiFine plášť
-of.options.capeOF.openEditor=Otvoriť editor plášťa
+of.options.capeOF.openEditor=Otvoriť úpravu plášťa
 of.options.capeOF.reloadCape=Znova načítať plášť
+of.options.capeOF.copyEditorLink=Kopírovať odkaz
 
-of.message.capeOF.openEditor=Editor OptiFine plášťa sa otvorí vo webovom prehliadači.
+of.message.capeOF.openEditor=Úprava OptiFine plášťa sa otvorí vo webovom prehliadači.
+of.message.capeOF.openEditorError=Nastala chyba pri otváraní prehliadača.
 of.message.capeOF.reloadCape=Plášť bude načítaný do 15 sekúnd.
 
 of.message.capeOF.error1=Overenie Mojang zlyhalo.
@@ -65,14 +73,14 @@ of.message.capeOF.error2=Chyba: %s
 
 # Video settings
 
-options.graphics.tooltip.1=Kvalita obrazu
-options.graphics.tooltip.2=  Rýchla - nižšia kvalia, rýchlejšia
-options.graphics.tooltip.3=  Pekná - vyššia kvalita, pomalšia
-options.graphics.tooltip.4=  Nádherná - lepšie miešanie priesvitných objektov, najpomalšie
+options.graphics.tooltip.1=Všeobecná kvalita obrazu
+options.graphics.tooltip.2=  Rýchla - nižšia kvalia
+options.graphics.tooltip.3=  Pekná - vyššia kvalita
+options.graphics.tooltip.4=  Nádherná - lepšie miešanie priesvitných objektov
 options.graphics.tooltip.5=Mení vzhľad oblakov, listov, vody,
 options.graphics.tooltip.6=tieňov a trávy.
 options.graphics.tooltip.7=Nádherná grafika nepodporuje
-options.graphics.tooltip.8=tieňovače a antialiasing.
+options.graphics.tooltip.8=tieňovače a vyhladzovanie.
 
 of.options.renderDistance.tiny=Drobná
 of.options.renderDistance.short=Krátka
@@ -82,32 +90,33 @@ of.options.renderDistance.extreme=Extrémna
 of.options.renderDistance.insane=Šialená
 of.options.renderDistance.ludicrous=Absurdná
 
-options.renderDistance.tooltip.1=Dohľadnosť (vzdialenosť vykresľovania)
-options.renderDistance.tooltip.2=  2 Drobná - 32m (najrýchlejšia)
-options.renderDistance.tooltip.3=  8 Normálna - 128m (normálna)
-options.renderDistance.tooltip.4=  16 Ďaleká - 256m (pomalšia)
-options.renderDistance.tooltip.5=  32 Extrémna - 512m (najpomalšia!) veľmi náročná na výkon
-options.renderDistance.tooltip.6=  48 Šialená - 768m, potrebuje 2GB alokovanej RAM
-options.renderDistance.tooltip.7=  64 Absurdná - 1024m, potrebuje 3GB alokovanej RAM
-options.renderDistance.tooltip.8=Hodnoty nad 16 sú funkčné len pre lokálne svety.
+options.renderDistance.tooltip.1=Vzdialenosť vykresľovania (v chunkoch/16m)
+options.renderDistance.tooltip.2=  2 Drobná = 32m
+options.renderDistance.tooltip.3=  8 Normálna = 128m
+options.renderDistance.tooltip.4=  16 Ďaleká = 256m
+options.renderDistance.tooltip.5=  32 Extrémna = 512m
+options.renderDistance.tooltip.6=  48 Šialená = 768m, potrebuje 2GB alokovanej RAM
+options.renderDistance.tooltip.7=  64 Absurdná = 1024m, potrebuje 3GB alokovanej RAM
+options.renderDistance.tooltip.8=Menej je rýchlejšie, servery majú zvyčajne 10 chunkov.
 
 options.entityDistanceScaling.tooltip.1=Vzdialenosť vykresľovania entít
-options.entityDistanceScaling.tooltip.2=  50%% - rýchlejšie
-options.entityDistanceScaling.tooltip.3=  100%% - predvolené
-options.entityDistanceScaling.tooltip.4=  500%% - pomalšie
-options.entityDistanceScaling.tooltip.5=Mení vzdialenosť ukazovania entít v hre.
+options.entityDistanceScaling.tooltip.2=  50%%-500%%
+options.entityDistanceScaling.tooltip.3=  100%% = predvolené
+options.entityDistanceScaling.tooltip.4=Mení vzdialenosť vykresľovania entít v hre.
+options.entityDistanceScaling.tooltip.5=Menej je rýchlejšie.
 
-options.ao.tooltip.1=Vyhladené osvetlenie
-options.ao.tooltip.2=  VYP - žiadne vyhladené osvetlenie (rýchlejšie)
-options.ao.tooltip.3=  Minimálne - jednoduché vyhladené osvetlenie (pomalšie)
-options.ao.tooltip.4=  Maximálne - complex vyhladené osvetlenie (najpomalšie)
+options.ao.tooltip.1=Vyhladenie tieňov
+options.ao.tooltip.2=  VYP - žiadne vyhladenie
+options.ao.tooltip.3=  Minimálne - jednoduché vyhladenie
+options.ao.tooltip.4=  Maximálne - komplexné vyhladenie
+options.ao.tooltip.5=Vypnuté ukazuje presný level svetla v tvare ostrej kocky.     #string was made up for this lang
 
 options.framerateLimit.tooltip.1=Najvyššia rýchlosť snímok (FPS)
-options.framerateLimit.tooltip.2=  VSync - obmedzená na frekvenciu monitora (60, 30, 20)
-options.framerateLimit.tooltip.3=  5-255 - variabilná
-options.framerateLimit.tooltip.4=  Neobmedzená - žiadny limit (najrýchlejšia)
-options.framerateLimit.tooltip.5=Limit rýchlosti snímok znižuje FPS aj keď
-options.framerateLimit.tooltip.6=hraničná hodnota nie je dosiahnutá.
+options.framerateLimit.tooltip.2=  Vsync -> 5-255 -> Neobmedzená
+options.framerateLimit.tooltip.3=  VSync - obmedzená na frekvenciu monitora
+options.framerateLimit.tooltip.4=  Neobmedzená - snímok vykreslí koľko môže
+options.framerateLimit.tooltip.5=Limituje množstvo snímok na sekundu.
+options.framerateLimit.tooltip.6=Viac ako má monitor môže spôsobiť trhanie obrazu.
 of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Vyhladené osvetlenie
@@ -116,55 +125,55 @@ of.options.AO_LEVEL.tooltip.2=  VYP - žiadne tiene
 of.options.AO_LEVEL.tooltip.3=  50%% - svetlé tiene
 of.options.AO_LEVEL.tooltip.4=  100%% - tmavé tiene
 
-options.viewBobbing.tooltip.1=Realistickejší pohyb.
-options.viewBobbing.tooltip.2=Pre najlepšie výsledky pri použití MIP máp nastav na VYP.
+options.viewBobbing.tooltip.1=Realistickejší pohyb
+options.viewBobbing.tooltip.2=Kolíše kamerou hráča pri jeho pohybe.
 
-options.guiScale.tooltip.1=Veľkosť grafického rozhrania (GUI)
-options.guiScale.tooltip.2=  Auto - najväčšie
-options.guiScale.tooltip.3=  Malé, Normálne, Veľké - 1x až 3x
-options.guiScale.tooltip.4=  4x až 10x - dostupné pre 4K obrazovky
-options.guiScale.tooltip.5=Nepárne hodnoty (1x, 3x, 5x ...) nie sú kompatibilné s Unicode.
-options.guiScale.tooltip.6=Menšie GUI môže byť rýchlejšie.
+options.guiScale.tooltip.1=Veľkosť grafického rozhrania
+options.guiScale.tooltip.2=  Automatická - Najväčšia podľa rozlíšenia
+options.guiScale.tooltip.3=  1, 2, 3...
+options.guiScale.tooltip.4=  Najväčšia hodnota závisí od rozlíšenia okna/monitoru.
+options.guiScale.tooltip.5=Nepárne hodnoty (1, 3, 5...) nie sú kompatibilné s Unicode.
+options.guiScale.tooltip.6=Menšie môže byť rýchlejšie.
 
-options.vbo=Používať VBO
-options.vbo.tooltip.1=Objekty medzipamňte vrcholov (VBO)
-options.vbo.tooltip.2=Používa alternatívnu metódu vykresľovania, ktorá je bežne
-options.vbo.tooltip.3=rýchlejšia (5-10%%) než štandardné vykresľovanie.
+options.vbo=Používanie VBO
+options.vbo.tooltip.1=Objekt vrchnej medzipamäte
+options.vbo.tooltip.2=Ukladá niektoré dáta v pamäti grafiky namiesto RAM.
+options.vbo.tooltip.3=Väčšinou rýchlejšie (5-10%%) než okamžité vykresľovanie.
 
 options.gamma.tooltip.1=Mení jas tmavých objektov.
-options.gamma.tooltip.2=  Prítmie - štandardný jas
-options.gamma.tooltip.3=  1-99%% - variabilný
-options.gamma.tooltip.4=  Jasný - najvyšší jas pre tmavé objekty
-options.gamma.tooltip.5=Toto nastavenie nemení jas 
-options.gamma.tooltip.6=úplne čiernych objektov.
+options.gamma.tooltip.2=  Tmavý -> 1-99% -> Jasný
+options.gamma.tooltip.3=Upravuje jas tmavších objektov teda kontrast
+options.gamma.tooltip.4=medzi rozdielne osvetlenými objektmi.
+options.gamma.tooltip.5=Nemení jas úplne čiernych objektov.
+options.gamma.tooltip.6=Nevplýva na výkon
 
-options.anaglyph.tooltip.1=3D Anaglyf režim
+options.anaglyph.tooltip.1=3D Anaglyf
 options.anaglyph.tooltip.2=Zapne stereoskopický 3D efekt pomocou rôznych farieb
 options.anaglyph.tooltip.3=pre každé oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-tyrkysové 3D okuliare.
 
 options.attackIndicator.tooltip.1=Nastavuje pozíciu ukazovateľa útoku
-options.attackIndicator.tooltip.2=  Zameriavač - pod stredom obrazovky
+options.attackIndicator.tooltip.2=  VYP - vypnutý ukazovateľ
 options.attackIndicator.tooltip.3=  Lišta - vpravo od lišty
-options.attackIndicator.tooltip.4=  VYP - vypnutý ukazovateľ
+options.attackIndicator.tooltip.4=  Zameriavač - pod stredom obrazovky
 options.attackIndicator.tooltip.5=Ukazuje kedy treba buchnúť pre
 options.attackIndicator.tooltip.6=najväčsie poranenie.
 
 of.options.ALTERNATE_BLOCKS=Rozličné kocky
 of.options.ALTERNATE_BLOCKS.tooltip.1=Rozličné kocky
-of.options.ALTERNATE_BLOCKS.tooltip.2=Používa rozličné modely kociek pre niektoré kocky.
+of.options.ALTERNATE_BLOCKS.tooltip.2=Povoľuje náhodné modely kociek (podľa pozície vo svete).
 of.options.ALTERNATE_BLOCKS.tooltip.3=Závisí od zvoleného zdrojového balíka.
 
 of.options.FOG_FANCY=Hmla
 of.options.FOG_FANCY.tooltip.1=Typ hmly
-of.options.FOG_FANCY.tooltip.2=  Rýchla - rýchlejšia hmla
-of.options.FOG_FANCY.tooltip.3=  Pekná - pomalšia hmla, vyzerá lepšie
-of.options.FOG_FANCY.tooltip.4=  VYP - žiadna hmla, najrýchlejšie
+of.options.FOG_FANCY.tooltip.2=  VYP - žiadna hmla
+of.options.FOG_FANCY.tooltip.3=  Rýchla - plochá (otáčanie mení čo je vidieť)
+of.options.FOG_FANCY.tooltip.4=  Pekná - okolo hráča
 of.options.FOG_FANCY.tooltip.5=Pekná hmla je dostupná len ak je podporovaná
 of.options.FOG_FANCY.tooltip.6=grafickou kartou.
 
 of.options.FOG_START=Hranica hmly
-of.options.FOG_START.tooltip.1=Hranica hmly
+of.options.FOG_START.tooltip.1=Pozícia hmly
 of.options.FOG_START.tooltip.2=  0.2 - hmla začína bližšie k hráčovi
 of.options.FOG_START.tooltip.3=  0.8 - hmla začína ďalej od hráča
 of.options.FOG_START.tooltip.4=Toto nastavenie bežne nemá vplyv na výkon.
@@ -175,35 +184,35 @@ of.options.CHUNK_LOADING.tooltip.2=  Štandardné - nestále FPS pri načítavan
 of.options.CHUNK_LOADING.tooltip.3=  Vyhladené - stabilné FPS
 of.options.CHUNK_LOADING.tooltip.4=  Viacjadrové - stabilné FPS, 3x rýchlejšie načítavanie sveta
 of.options.CHUNK_LOADING.tooltip.5=Vyhladené a Viacjadrové odstraňujú trhavosť 
-of.options.CHUNK_LOADING.tooltip.6=a zamŕzanie spôsobené načitavaním chunkov.
+of.options.CHUNK_LOADING.tooltip.6=a zamŕzanie spôsobené načítavaním chunkov.
 of.options.CHUNK_LOADING.tooltip.7=Viacjadrové môže načítavanie sveta urýchliť až 3x
 of.options.CHUNK_LOADING.tooltip.8=a zvýšiť FPS využitím ďalších jadier procesora.
 of.options.chunkLoading.smooth=Vyhladené
 of.options.chunkLoading.multiCore=Viacjadrové
 
 of.options.shaders=Tieňovače...
-of.options.shadersTitle=Tieňovače (Shaders)
+of.options.shadersTitle=Tieňovače
 
 of.options.shaders.packNone=VYP
 of.options.shaders.packDefault=(interný)
 
-of.options.shaders.ANTIALIASING=Antialiasing
-of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
-of.options.shaders.ANTIALIASING.tooltip.2=  VYP - (štandard) žiadne vyhladzovanie (rýchlejšie)
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - vyhladené línie a hrany (pomalšie)
+of.options.shaders.ANTIALIASING=Vyhladzovanie FXAA
+of.options.shaders.ANTIALIASING.tooltip.1=Rýchle približné vyhladzovanie okrajov
+of.options.shaders.ANTIALIASING.tooltip.2=  VYP -  žiadne vyhladzovanie
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA - vyhladené línie a hrany
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA je efekt následného spracovania, ktorý vyhladzuje
 of.options.shaders.ANTIALIASING.tooltip.5=zúbkované línie a ostré prechody farieb.
 of.options.shaders.ANTIALIASING.tooltip.6=Je rýchlejší než tradičné vyhladzovanie
-of.options.shaders.ANTIALIASING.tooltip.7=a je kompatibilné s tieňovačmi a Rýchlym vykresľovaním.  
+of.options.shaders.ANTIALIASING.tooltip.7=a je kompatibilné s tieňovačmi a rýchlym vykresľovaním.  
 
 of.options.shaders.NORMAL_MAP=Normálna mapa
 of.options.shaders.NORMAL_MAP.tooltip.1=Normálna mapa
-of.options.shaders.NORMAL_MAP.tooltip.2=  ZAP - (štandard) zapnúť normálnu mapu
-of.options.shaders.NORMAL_MAP.tooltip.3=  VYP - vypnúť normálnu mapu
-of.options.shaders.NORMAL_MAP.tooltip.4=Normálnu mapu môže použiť balík tieňovačov
-of.options.shaders.NORMAL_MAP.tooltip.5=na simuláciu 3D geometrie na hladkých plochách.
-of.options.shaders.NORMAL_MAP.tooltip.6=Textúry normálnej mapy závisia od
-of.options.shaders.NORMAL_MAP.tooltip.7=zvoleného zdrojového balíka.
+of.options.shaders.NORMAL_MAP.tooltip.2=  VYP, ZAP
+of.options.shaders.NORMAL_MAP.tooltip.3=Normálnu mapu môže použiť balík tieňovačov
+of.options.shaders.NORMAL_MAP.tooltip.4=na simuláciu 3D geometrie na hladkých plochách.
+of.options.shaders.NORMAL_MAP.tooltip.5=Textúry normálnej mapy závisia od
+of.options.shaders.NORMAL_MAP.tooltip.6=zvoleného zdrojového balíka.
+of.options.shaders.NORMAL_MAP.tooltip.7=
 
 of.options.shaders.SPECULAR_MAP=Zrkadlová mapa
 of.options.shaders.SPECULAR_MAP.tooltip.1=Zrkadlová mapa
@@ -709,12 +718,12 @@ options.fullscreen.tooltip.3=  VYP - hrať v okne
 options.fullscreen.tooltip.4=Hra na celej obrazovke môže byť rýchlejšia alebo pomalšia než
 options.fullscreen.tooltip.5=hra v okne, v závislosti od grafickej karty.
 
-of.options.FULLSCREEN_MODE=Režim celej obraovky
-of.options.FULLSCREEN_MODE.tooltip.1=Režim celej obrazovky
-of.options.FULLSCREEN_MODE.tooltip.2=  Štandardný - použiť rozlíšenie obrazovky, pomalšie
-of.options.FULLSCREEN_MODE.tooltip.3=  VxŠ - použiť vlastné rozlíšenie, môže byť rýchlejšie
-of.options.FULLSCREEN_MODE.tooltip.4=Vybrané rozlíšenie je použité pri hre na celej obrazovke (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Nižšie rozlíšenia by všeobecne mali byť rýchlejšie.
+options.FULLSCREEN_MODE=Režim celej obraovky
+options.FULLSCREEN_MODE.tooltip.1=Režim celej obrazovky
+options.FULLSCREEN_MODE.tooltip.2=  Štandardný - použiť rozlíšenie obrazovky, pomalšie
+options.FULLSCREEN_MODE.tooltip.3=  VxŠ - použiť vlastné rozlíšenie, môže byť rýchlejšie
+options.FULLSCREEN_MODE.tooltip.4=Vybrané rozlíšenie je použité pri hre na celej obrazovke (F11).
+options.FULLSCREEN_MODE.tooltip.5=Nižšie rozlíšenia by všeobecne mali byť rýchlejšie.
 
 of.options.SHOW_FPS=Zobraziť FPS
 of.options.SHOW_FPS.tooltip.1=Zobrazí kompaktné informácie o FPS a vykresľovaní.
