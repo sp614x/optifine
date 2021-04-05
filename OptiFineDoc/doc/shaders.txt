@@ -713,7 +713,7 @@ D. Operating system
   #define MC_OS_LINUX
   #define MC_OS_OTHER
 
-E. GPU
+E. Driver
  One of the following:
   #define MC_GL_VENDOR_AMD
   #define MC_GL_VENDOR_ATI
@@ -723,7 +723,7 @@ E. GPU
   #define MC_GL_VENDOR_XORG
   #define MC_GL_VENDOR_OTHER
 
-F. Driver
+F. GPU
  One of the following:
   #define MC_GL_RENDERER_RADEON 
   #define MC_GL_RENDERER_GEFORCE
