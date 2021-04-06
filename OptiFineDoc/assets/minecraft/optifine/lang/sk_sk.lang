@@ -606,8 +606,8 @@ of.options.FAST_MATH.tooltip.1=Rýchle výpočty
 of.options.FAST_MATH.tooltip.2=  Vypnuté, Zapnuté
 of.options.FAST_MATH.tooltip.3=Používa optimalizované funkcie sínus a kosínus, čo umožní
 of.options.FAST_MATH.tooltip.4=lepšie využitie medzipamäte procesora zvýšenie FPS.
-of.options.FAST_MATH.tooltip.5=Ovplyvňuje veľa vecí a mala by byť použitá v málo
-of.options.FAST_MATH.tooltip.6=prípadoch (generácia, dosah, pohyb...).
+of.options.FAST_MATH.tooltip.5=Môže mierne ovplyvniť generáciu sveta.
+of.options.FAST_MATH.tooltip.6=
 
 of.options.CHUNK_UPDATES=Aktualizácie chunkov
 of.options.CHUNK_UPDATES.tooltip.1=Aktualizácie chunkov
@@ -648,7 +648,7 @@ of.options.SMART_ANIMATIONS.tooltip.3=Zapnuté je rýchlejšie.
 of.options.SMART_ANIMATIONS.tooltip.4=S chytrými animáciami bude hra animovať len tie 
 of.options.SMART_ANIMATIONS.tooltip.5=textúry, ktoré sú práve viditeľné na obrazovke.
 of.options.SMART_ANIMATIONS.tooltip.6=Znižuje to výkyvy zaťaženia a zvyšuje FPS.
-of.options.SMART_ANIMATIONS.tooltip.7=Obzvlášť užitočné pri veľa animovaných HD textúrach.
+of.options.SMART_ANIMATIONS.tooltip.7=Užitočné pri veľkom počte animovaných HD textúr.
 
 # Animations
 
