@@ -521,8 +521,8 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.5=s rôznymi farbami (farebné sklo, voda,
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=keď sú položené za sebou s medzerou medzi nimi.
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=
 
-of.options.HELD_ITEM_TOOLTIPS=Názov predmetov v ruke
-of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Názov predmetov v ruke nad lištou
+of.options.HELD_ITEM_TOOLTIPS=Názvy predmetov v ruke
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Názvy predmetov v ruke nad lištou
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Vypnuté, Zapnuté
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=Zobrazí meno veci v ruke nad lištou.
 
@@ -542,7 +542,7 @@ of.options.DROPPED_ITEMS.tooltip.4=  Normálne = podľa všeobecného nastavenia
 
 options.entityShadows.tooltip.1=Tiene entít
 options.entityShadows.tooltip.2=  Vypnuté, Zapnuté
-options.entityShadows.tooltip.3=Zobrazuje textúru kruhu pod entitamy.
+options.entityShadows.tooltip.3=Zobrazuje textúru kruhu pod entitami.
 
 of.options.VIGNETTE=Vineta
 of.options.VIGNETTE.tooltip.1=Stmavenie okrajov
@@ -589,8 +589,8 @@ of.options.SMOOTH_FPS.tooltip.5=a jeho efekt nemusí byť viditeľný.
 of.options.SMOOTH_WORLD=Vyhladený svet
 of.options.SMOOTH_WORLD.tooltip.1=Vyhladený svet
 of.options.SMOOTH_WORLD.tooltip.2=  Vypnutý, Zapnutý
-of.options.SMOOTH_WORLD.tooltip.3=Odstráni oneskorenie interného servera a
-of.options.SMOOTH_WORLD.tooltip.4=rozloží jeho zaťaženie.
+of.options.SMOOTH_WORLD.tooltip.3=Odstráni oneskorenie interného servera
+of.options.SMOOTH_WORLD.tooltip.4=a rozloží jeho zaťaženie.
 of.options.SMOOTH_WORLD.tooltip.5=Funkčné len pre lokálne svety.
 
 of.options.FAST_RENDER=Rýchle vykresľovanie
