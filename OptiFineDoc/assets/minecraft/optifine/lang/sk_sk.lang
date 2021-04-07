@@ -108,7 +108,7 @@ options.entityDistanceScaling.tooltip.5=Mení vzdialenosť vykresľovania entít
 options.ao.tooltip.1=Vyhladenie tieňov
 options.ao.tooltip.2=  Vypnuté, Minimálne, Maximálne
 options.ao.tooltip.3=Menej je rýchlejšie.
-options.ao.tooltip.4=Vypnuté ukazuje presný level svetla v tvare ostrej kocky.
+options.ao.tooltip.4=Vyhladí prechody úrovní svetla kociek.
 
 options.framerateLimit.tooltip.1=Najvyššia rýchlosť snímok (FPS)
 options.framerateLimit.tooltip.2=  Vsync, 5-255, Neobmedzená
@@ -118,8 +118,8 @@ options.framerateLimit.tooltip.5=Limituje množstvo snímok na sekundu.
 options.framerateLimit.tooltip.6=Viac ako má monitor môže spôsobiť trhanie obrazu.
 of.options.framerateLimit.vsync=VSync
 
-of.options.AO_LEVEL=Oklúzia okolia
-of.options.AO_LEVEL.tooltip.1=Zatienenie okolia
+of.options.AO_LEVEL=Zatienenie okolia
+of.options.AO_LEVEL.tooltip.1=Oklúzia okolia
 of.options.AO_LEVEL.tooltip.2=  Vypnuté, 0-100%%
 of.options.AO_LEVEL.tooltip.3=Menej je rýchlejšie. Dodáva realistickejší
 of.options.AO_LEVEL.tooltip.4=pocit zo svetla zatieňovaním okrajov.
@@ -152,7 +152,7 @@ options.anaglyph.tooltip.3=pre každé oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-tyrkysové 3D okuliare.
 
 options.attackIndicator.tooltip.1=Nastavuje pozíciu ukazovateľa útoku
-options.attackIndicator.tooltip.2=  VYP = vypnutý ukazovateľ
+options.attackIndicator.tooltip.2=  Vypnutý, Lišta, Zameriavač
 options.attackIndicator.tooltip.3=  Lišta = vpravo od lišty
 options.attackIndicator.tooltip.4=  Zameriavač = pod stredom obrazovky
 options.attackIndicator.tooltip.5=Ukazuje kedy treba buchnúť pre
@@ -195,7 +195,7 @@ of.options.shadersTitle=Tieňovače
 of.options.shaders.packNone=Žiadny
 of.options.shaders.packDefault=(interný)
 
-of.options.shaders.ANTIALIASING=Vyhladzovanie FXAA
+of.options.shaders.ANTIALIASING=Vyhladzovanie
 of.options.shaders.ANTIALIASING.tooltip.1=Rýchle približné vyhladzovanie okrajov
 of.options.shaders.ANTIALIASING.tooltip.2=  Vypnuté, 2x, 4x
 of.options.shaders.ANTIALIASING.tooltip.3=Menej je rýchlejšie.
@@ -222,7 +222,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.5=Textúry zrkadlovej mapy závisia od
 of.options.shaders.SPECULAR_MAP.tooltip.6=zvoleného zdrojového balíka.
 of.options.shaders.SPECULAR_MAP.tooltip.7=
 
-of.options.shaders.RENDER_RES_MUL=Kvalita vykresľovania
+of.options.shaders.RENDER_RES_MUL=Rozlíšenie
 of.options.shaders.RENDER_RES_MUL.tooltip.1=Kvalita vykresľovania
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5-2x
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x (predvolené)
@@ -269,7 +269,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.2=  Vypnuté, Zapnuté
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Normálne = použitie nastavenia tieňovača
 of.options.shaders.OLD_LIGHTING.tooltip.4=Staré osvetlenie reguluje pevné osvetlenie  
 of.options.shaders.OLD_LIGHTING.tooltip.5=strán kociek podľa vanila spôsobu. 
-of.options.shaders.OLD_LIGHTING.tooltip.6=Balíky tieňovačov, ktoré používajú tiene zväčša poskytujú
+of.options.shaders.OLD_LIGHTING.tooltip.6=Balíky tieňovačov, ktoré používajú tiene zväčša použijú
 of.options.shaders.OLD_LIGHTING.tooltip.7=oveľa lepšie osvetlenie na základe polohy slnka.
 of.options.shaders.OLD_LIGHTING.tooltip.8=
 
@@ -475,9 +475,9 @@ of.options.CLOUD_HEIGHT.tooltip.3=  100%% = nad výškovým limitom sveta
 
 of.options.TREES=Lístie
 of.options.TREES.tooltip.1=Lístie
-of.options.TREES.tooltip.2=  Rýchle = nepriehľadné listy
-of.options.TREES.tooltip.3=  Chytré = Priehľadné listy
-of.options.TREES.tooltip.4=  Pekné = Priehľadné listy (listy za nimi sa vykresľujú tiež)
+of.options.TREES.tooltip.2=  Rýchle = nepriehľadné
+of.options.TREES.tooltip.3=  Chytré = Priehľadné
+of.options.TREES.tooltip.4=  Pekné = Priehľadné (listy za nimi sa vykresľujú tiež)
 of.options.TREES.tooltip.5=  Normálne = podľa všeobecného nastavenia grafiky.
 of.options.TREES.tooltip.6=Hore je rýchlejšie.
 of.options.TREES.tooltip.7=
@@ -596,10 +596,10 @@ of.options.SMOOTH_WORLD.tooltip.5=Funkčné len pre lokálne svety.
 of.options.FAST_RENDER=Rýchle vykresľovanie
 of.options.FAST_RENDER.tooltip.1=Rýchle vykresľovanie
 of.options.FAST_RENDER.tooltip.2=  Vypnuté, Zapnuté
-of.options.FAST_RENDER.tooltip.3=Používa optimalizovaný algoritmus vykresľovania, korý znižuje
-of.options.FAST_RENDER.tooltip.4=zaťaženie procesora a tým môže značne zvýšiť FPS.
-of.options.FAST_RENDER.tooltip.5=Táto možnosť nemusí správne fungovať s niektorými módmi.
-of.options.FAST_RENDER.tooltip.6=
+of.options.FAST_RENDER.tooltip.3=Používa optimalizovaný algoritmus vykresľovania,
+of.options.FAST_RENDER.tooltip.4=ktorý znižuje zaťaženie procesora
+of.options.FAST_RENDER.tooltip.5=a tým môže značne zvýšiť FPS.
+of.options.FAST_RENDER.tooltip.6=Táto možnosť nemusí správne fungovať s niektorými módmi.
 
 of.options.FAST_MATH=Rýchle výpočty
 of.options.FAST_MATH.tooltip.1=Rýchle výpočty
@@ -652,8 +652,8 @@ of.options.SMART_ANIMATIONS.tooltip.7=Užitočné pri veľkom počte animovanýc
 
 # Animations
 
-of.options.animation.allOn=Zapnúť všetky
-of.options.animation.allOff=Vypnúť všetky
+of.options.animation.allOn=Zapni všetky
+of.options.animation.allOff=Vypni všetky
 of.options.animation.dynamic=Dynamické
 
 of.options.ANIMATED_WATER=Animovaná voda
@@ -681,7 +681,7 @@ of.options.LAGOMETER.tooltip.1=Zobrazí lagometer na ladiacej obrazovke (F3).
 of.options.LAGOMETER.tooltip.2=* Oranžová - Zbieranie odpadovej pamäti
 of.options.LAGOMETER.tooltip.3=* Tyrkysová - Tik
 of.options.LAGOMETER.tooltip.4=* Modrá - Plánované spustenia
-of.options.LAGOMETER.tooltip.5=* Fialová - Upload chunkov
+of.options.LAGOMETER.tooltip.5=* Fialová - Nahrávanie chunkov
 of.options.LAGOMETER.tooltip.6=* Červená - Aktualizácie chunkov
 of.options.LAGOMETER.tooltip.7=* Žltá - Kontrola viditeľnosti
 of.options.LAGOMETER.tooltip.8=* Zelená - Vykresľovanie terénu
