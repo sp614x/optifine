@@ -140,7 +140,7 @@ options.vbo.tooltip.2=Ukladá niektoré dáta v pamäti grafiky namiesto RAM.
 options.vbo.tooltip.3=Väčšinou rýchlejšie (5-10%%) než okamžité vykresľovanie.
 
 options.gamma.tooltip.1=Mení jas tmavých objektov.
-options.gamma.tooltip.2=  Tmavý -> 1-99% -> Jasný
+options.gamma.tooltip.2=  Tmavý, 1-99%, Jasný
 options.gamma.tooltip.3=Nevplýva na výkon.
 options.gamma.tooltip.4=Upravuje jas tmavších objektov, teda kontrast
 options.gamma.tooltip.5=medzi rozdielne osvetlenými objektmi.
