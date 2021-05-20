@@ -79,6 +79,9 @@
 #   is_child
 #   is_glowing
 #   is_hurt
+#   is_in_hand
+#   is_in_ground
+#   is_in_gui
 #   is_in_lava
 #   is_in_water
 #   is_invisible
