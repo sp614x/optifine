@@ -34,3 +34,8 @@ gl.debug.groups=<true|false>
 # Ignore OpenGL errors
 # <ids> - comma separated list of error ids
 gl.ignore.errors=<ids>
+
+# CEM debug models
+# Automatically generate CEM models for all supported entities using different colors for each model part
+# The part names and colors are written in the log
+cem.debug.models=<true|false>
