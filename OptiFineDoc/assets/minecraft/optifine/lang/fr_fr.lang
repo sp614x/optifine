@@ -82,22 +82,7 @@ options.graphics.tooltip.6=ombres et du côté de l'herbe.
 options.graphics.tooltip.7=Les graphismes "Fabuleux !" ne sont pas compatibles avec
 options.graphics.tooltip.8=les shaders et l'anticrénelage.
 
-of.options.renderDistance.tiny=Minimale
-of.options.renderDistance.short=Courte
-of.options.renderDistance.normal=Normale
-of.options.renderDistance.far=Lointaine
-of.options.renderDistance.extreme=Extrême
-of.options.renderDistance.insane=Insensée
-of.options.renderDistance.ludicrous=Inimaginable
-
 options.renderDistance.tooltip.1=Distance d'affichage
-options.renderDistance.tooltip.2=  2 Minimale - 32m (très rapide)
-options.renderDistance.tooltip.3=  8 Normale - 128m (normal)
-options.renderDistance.tooltip.4=  16 Lointaine - 256m (lent)
-options.renderDistance.tooltip.5=  32 Extrême - 512m (très lent) - Très gourmand en ressources
-options.renderDistance.tooltip.6=  48 Insensée - 768m, nécessite 2 Go de RAM allouée
-options.renderDistance.tooltip.7=  64 Inimaginable - 1024m, nécessite 3 Go de RAM allouée
-options.renderDistance.tooltip.8=Les valeurs au-dessus de 16 n'ont effet qu'en solo.
 
 options.entityDistanceScaling.tooltip.1=Distance de rendu des entités
 options.entityDistanceScaling.tooltip.2=  50 %% - rapide

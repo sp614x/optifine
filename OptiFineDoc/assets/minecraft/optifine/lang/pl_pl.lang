@@ -85,22 +85,7 @@ options.graphics.tooltip.5=Zmienia wygląd chmur, liści, wody,
 options.graphics.tooltip.6=cieni oraz boków bloków trawy.
 options.graphics.tooltip.7=Bajeczna grafika nie jest kompatybilna z shaderami.
 
-of.options.renderDistance.tiny=Najkrótsza
-of.options.renderDistance.short=Krótka
-of.options.renderDistance.normal=Normalna
-of.options.renderDistance.far=Długa
-of.options.renderDistance.extreme=Ekstremalna
-of.options.renderDistance.insane=Szalona
-of.options.renderDistance.ludicrous=Niedorzeczna
-
 options.renderDistance.tooltip.1=Odległość renderowania
-options.renderDistance.tooltip.2=  2 Najkrótsza — 32m
-options.renderDistance.tooltip.3=  8 Normalna — 128m
-options.renderDistance.tooltip.4=  16 Długa — 256m
-options.renderDistance.tooltip.5=  32 Ekstremalna — 512m
-options.renderDistance.tooltip.6=  48 Szalona — 768m, potrzeba min. 2GB RAM-u
-options.renderDistance.tooltip.7=  64 Niedorzeczna — 1024m, potrzeba min. 3GB RAM-u
-options.renderDistance.tooltip.8=Wartości powyżej 16 są zalecane tylko dla lokalnych światów.
 
 options.entityDistanceScaling.tooltip.1=Odległość renderowania bytów
 options.entityDistanceScaling.tooltip.2=  50%% - szybsze

@@ -84,22 +84,7 @@ options.graphics.tooltip.5=Змінює зовнішній вигляд хмар
 options.graphics.tooltip.6=тіней і сторін трави.
 options.graphics.tooltip.7=Казкова графіка не сумісна з шейдерами.
 
-of.options.renderDistance.tiny=Маленька
-of.options.renderDistance.short=Коротка
-of.options.renderDistance.normal=Нормальна
-of.options.renderDistance.far=Далека
-of.options.renderDistance.extreme=Екстремальна
-of.options.renderDistance.insane=Шалена
-of.options.renderDistance.ludicrous=Безглузда!
-
 options.renderDistance.tooltip.1=Видима відстань
-options.renderDistance.tooltip.2=  2 Маленька - 32м (найшвидше)
-options.renderDistance.tooltip.3=  8 Нормальна - 128м (нормальна)
-options.renderDistance.tooltip.4=  16 Далека - 256м (повільніше)
-options.renderDistance.tooltip.5=  32 Надзвичайна - 512м (найповільніше!) потребує багато ресурсів
-options.renderDistance.tooltip.6=  48 Шалена - 768м, потребує 2GB оперативної пам'яті
-options.renderDistance.tooltip.7=  64 Безглузда - 1024м, потребує 3GB оперативної пам'яті
-options.renderDistance.tooltip.8=  Значення більше ніж 16 ефективні лише для локальних світів.
 
 options.entityDistanceScaling.tooltip.1=Дальність відображення сутностей
 options.entityDistanceScaling.tooltip.2=  50%% - швидша

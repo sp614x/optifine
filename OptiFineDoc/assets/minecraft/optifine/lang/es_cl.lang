@@ -78,23 +78,6 @@ options.graphics.tooltip.5=Los cambios se aprecian en las nubes, hojas, lluvia,
 options.graphics.tooltip.6=sombras y hierba.
 options.graphics.tooltip.7=Los gráficos fabulosos no son compatibles con shader.
 
-of.options.renderDistance.tiny=Mínimo
-of.options.renderDistance.short=Corto
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Lejano
-of.options.renderDistance.extreme=Extremo
-of.options.renderDistance.insane=Insano
-of.options.renderDistance.ludicrous=Absurdo
-
-options.renderDistance.tooltip.1=  2 Mínimo - 32m (increíblemente rápido)
-options.renderDistance.tooltip.2=  4 Corto - 64m (rápido)
-options.renderDistance.tooltip.3=  8 Normal - 128m (recomendado)
-options.renderDistance.tooltip.4=  16 Lejano - 256m (puede ir lento)
-options.renderDistance.tooltip.5=  32 Extremo - 512m (¡puede ir horrible!)
-options.renderDistance.tooltip.6=  48 Insano - 768m, requiere usar 2GB de RAM
-options.renderDistance.tooltip.7=  64 Absurdo - 1024m, requiere usar 3GB de RAM
-options.renderDistance.tooltip.8=A partir de 16 chunks será inútil en multijugador.
-
 options.entityDistanceScaling.tooltip.1=Distancia a renderizar entidades
 options.entityDistanceScaling.tooltip.2=  50%% - Rapido
 options.entityDistanceScaling.tooltip.3=  100%% - Predeterminado

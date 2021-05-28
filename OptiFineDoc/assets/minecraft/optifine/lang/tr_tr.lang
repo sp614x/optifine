@@ -79,22 +79,7 @@ options.graphics.tooltip.5=Bulutların, yaprakların, suyun, gölgelerin
 options.graphics.tooltip.6=ve çim yüzeylerinin görünüşünü etkiler.
 options.graphics.tooltip.7=Şahane grafikler gölgelendirmeler ile uyumlu değildir.
 
-of.options.renderDistance.tiny=Çok Kısa
-of.options.renderDistance.short=Kısa
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Uzak
-of.options.renderDistance.extreme=Çok Uzak
-of.options.renderDistance.insane=Efsanevi
-of.options.renderDistance.ludicrous=Olağanüstü
-
 options.renderDistance.tooltip.1=Görüş Mesafesi
-options.renderDistance.tooltip.2=  2 (Çok Kısa) - 32 metre (en hızlı)
-options.renderDistance.tooltip.3=  8 (Normal) - 128 metre (varsayılan)
-options.renderDistance.tooltip.4=  16 (Uzak) - 256 metre (daha yavaş)
-options.renderDistance.tooltip.5=  32 (Çok Uzak) - 512 m. (çok yavaş!) bolca kaynak tüketir
-options.renderDistance.tooltip.6=  48 (Efsanevi) - 768 m. 2GB RAM verilmiş olması gerekir
-options.renderDistance.tooltip.7=  64 (Olağanüstü) - 1024 m. 3GB RAM verilmiş olması gerekir
-options.renderDistance.tooltip.8=16 üzerindeki değerler sadece tek oyunculuda geçerlidir.
 
 options.entityDistanceScaling.tooltip.1=Varlık İşleme Mesafesi
 options.entityDistanceScaling.tooltip.2=  50%% - daha hızlı, yarım uzaklık

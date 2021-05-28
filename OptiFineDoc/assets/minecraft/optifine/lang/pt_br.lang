@@ -78,22 +78,7 @@ options.graphics.tooltip.5=Muda a aparência de nuvens, folhas, água,
 options.graphics.tooltip.6=sombras e grama.
 options.graphics.tooltip.7=Os gráficos Fabulosos são incompatíveis com shaders.
 
-of.options.renderDistance.tiny=Mínima
-of.options.renderDistance.short=Curta
-of.options.renderDistance.normal=Padrão
-of.options.renderDistance.far=Longa
-of.options.renderDistance.extreme=Extrema
-of.options.renderDistance.insane=Insana
-of.options.renderDistance.ludicrous=Máxima
-
 options.renderDistance.tooltip.1=Alcance visual
-options.renderDistance.tooltip.2=  2 Mínima - 32m (mais rápido)
-options.renderDistance.tooltip.3=  8 Padrão - 128m (normal)
-options.renderDistance.tooltip.4=  16 Longa - 256m (lento)
-options.renderDistance.tooltip.5=  32 Extrema - 512m (mais lento)
-options.renderDistance.tooltip.6=  48 Insana - 768m (requer 2GB de RAM)
-options.renderDistance.tooltip.7=  64 Máxima - 1024m (requer 3GB de RAM)
-options.renderDistance.tooltip.8=Valores acima de 16 funcionam apenas em mundos locais.
 
 options.entityDistanceScaling.tooltip.1=Dist. de render. da entidade
 options.entityDistanceScaling.tooltip.2=  50%% - rápido

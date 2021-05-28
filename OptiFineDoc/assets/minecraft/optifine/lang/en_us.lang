@@ -82,22 +82,12 @@ options.graphics.tooltip.6=shadows and grass sides.
 options.graphics.tooltip.7=Fabulous graphics is not compatible with shaders and
 options.graphics.tooltip.8=antialiasing.
 
-of.options.renderDistance.tiny=Tiny
-of.options.renderDistance.short=Short
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Far
-of.options.renderDistance.extreme=Extreme
-of.options.renderDistance.insane=Insane
-of.options.renderDistance.ludicrous=Ludicrous
-
 options.renderDistance.tooltip.1=Visible distance
-options.renderDistance.tooltip.2=  2 Tiny - 32m (fastest)
-options.renderDistance.tooltip.3=  8 Normal - 128m (normal)
-options.renderDistance.tooltip.4=  16 Far - 256m (slower)
-options.renderDistance.tooltip.5=  32 Extreme - 512m (slowest!) very resource demanding
-options.renderDistance.tooltip.6=  48 Insane - 768m, needs 2GB RAM allocated
-options.renderDistance.tooltip.7=  64 Ludicrous - 1024m, needs 3GB RAM allocated
-options.renderDistance.tooltip.8=Values over 16 Far are only effective in local worlds.
+options.renderDistance.tooltip.2=  2-32 - normal render distances for all worlds
+options.renderDistance.tooltip.3=  33-64 - resource demanding distances for local worlds
+options.renderDistance.tooltip.4=On servers the visible distance is further limited by the
+options.renderDistance.tooltip.5=server's view distance (default 10).
+options.renderDistance.tooltip.6=Smaller values are faster.
 
 options.entityDistanceScaling.tooltip.1=Entity render distance
 options.entityDistanceScaling.tooltip.2=  50%% - faster

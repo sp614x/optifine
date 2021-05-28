@@ -82,22 +82,12 @@ options.graphics.tooltip.6=välimust.
 options.graphics.tooltip.7=Vapustav graafika ei ühildu varjutajatega ega
 options.graphics.tooltip.8=sakisilumisega.
 
-of.options.renderDistance.tiny=pisike
-of.options.renderDistance.short=lühike
-of.options.renderDistance.normal=tavaline
-of.options.renderDistance.far=kauge
-of.options.renderDistance.extreme=ekstreemne
-of.options.renderDistance.insane=hullumeelne
-of.options.renderDistance.ludicrous=naeruväärne
-
 options.renderDistance.tooltip.1=Nähtav kaugus
-options.renderDistance.tooltip.2=  2 pisike - 32m (kiireim)
-options.renderDistance.tooltip.3=  8 tavaline - 128m (tavaline)
-options.renderDistance.tooltip.4=  16 kauge - 256m (aeglasem)
-options.renderDistance.tooltip.5=  32 ekstreemne - 512m (aeglaseim!) väga ressursinõudlik
-options.renderDistance.tooltip.6=  48 hullumeelne - 768m, vajab 2 GB RAMi allutamist
-options.renderDistance.tooltip.7=  64 naeruväärne - 1024m, vajab 3 GB RAMi allutamist
-options.renderDistance.tooltip.8=Väärtused üle "16 kauge" toimivad ainult kohalikes maailmades.
+options.renderDistance.tooltip.2=  2-32 - tavaline nähtavuskaugus kõikidele maailmadele
+options.renderDistance.tooltip.3=  33-64 - ressursinõudlik kaugus kohalikele maailmadele
+options.renderDistance.tooltip.4=Serverites piiratakse nähtavat kaugust serveri
+options.renderDistance.tooltip.5=vaatluskaugusega (vaikimisi 10).
+options.renderDistance.tooltip.6=Väiksemad väärtused on kiiremad.
 
 options.entityDistanceScaling.tooltip.1=Olemite renderduskaugus
 options.entityDistanceScaling.tooltip.2=  50%% - kiirem

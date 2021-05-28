@@ -80,22 +80,7 @@ options.graphics.tooltip.5=Change l'apparence des nuages, des feuilles,
 options.graphics.tooltip.6=de l'eau, des ombres et du côté de l'herbe.
 options.graphics.tooltip.7=Les graphiques Fabuleux ne sont pas compatible avec les shaders.
 
-of.options.renderDistance.tiny=Mini
-of.options.renderDistance.short=Courte
-of.options.renderDistance.normal=Normale
-of.options.renderDistance.far=Loin
-of.options.renderDistance.extreme=Extrême
-of.options.renderDistance.insane=Démentielle
-of.options.renderDistance.ludicrous=Ridicule
-
 options.renderDistance.tooltip.1=Distance de Rendu
-options.renderDistance.tooltip.2=  2 Mini - 32m (Très rapide)
-options.renderDistance.tooltip.3=  8 Normal - 128m (Normal)
-options.renderDistance.tooltip.4=  16 Loin - 256m (Lent)
-options.renderDistance.tooltip.5=  32 Extrême - 256m (Très lent)
-options.renderDistance.tooltip.6=  48 Démentielle - 768m (Besoin de 2Go de RAM allouée)
-options.renderDistance.tooltip.7=  64 Ridicule - 1024m (Besoin de 3Go de RAM alloué)
-options.renderDistance.tooltip.8=Les valeurs au-dessus de 16 n'ont effet qu'en solo.
 
 options.ao.tooltip.1=Luminosité adoucie
 options.ao.tooltip.2=  OFF - aucun adoucissement (rapide)
