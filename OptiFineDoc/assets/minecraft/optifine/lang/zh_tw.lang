@@ -21,6 +21,9 @@ of.key.zoom=縮放
 of.message.aa.shaders1=反鋸齒與光影不相容。
 of.message.aa.shaders2=請關閉光影來啟用這個選項。
 
+of.message.aa.gf1=反鋸齒與 極佳 畫質不相容。
+of.message.aa.gf2=請把畫質設定為 流暢 或是 精緻。
+
 of.message.af.shaders1=各向異性過濾與光影不相容。
 of.message.af.shaders2=請關閉光影來啟用這個選項。
 
@@ -52,7 +55,7 @@ of.message.newVersion=新的 §eOptiFine§f 版本已可供使用： §e%s§f
 of.message.java64Bit=你可以安裝 §e64 位元 Java§f 來提升效能。
 of.message.openglError=§eOpenGL 錯誤§f: %s (%s)
 
-of.message.shaders.loading=正在載入光影： %s
+of.message.shaders.loading=正在載入光影：%s
 
 of.message.other.reset=確定要將所有顯示設定重設至預設值嗎？
 
@@ -68,12 +71,13 @@ of.options.capeOF.copyEditorLink=將連結複製至剪貼簿
 # Video settings
 
 options.graphics.tooltip.1=畫面品質
-options.graphics.tooltip.2=  流暢  - 低畫質，較流暢
-options.graphics.tooltip.3=  精緻  - 高畫質，較慢
-options.graphics.tooltip.4=  極佳 - 更佳的半透明對象，最慢
-options.graphics.tooltip.5=改變雲、樹葉、水、
-options.graphics.tooltip.6=陰影與草地側面的外觀。
-options.graphics.tooltip.7=極佳 畫質與光影不相容。
+options.graphics.tooltip.2=  流暢 - 低畫質，較流暢
+options.graphics.tooltip.3=  精緻 - 高畫質，較慢
+options.graphics.tooltip.4=  §o極佳！§r - 更佳的半透明對象，最慢
+options.graphics.tooltip.5=改變雲、樹葉、水、陰影與草地側面的外觀。
+options.graphics.tooltip.6=極佳 畫質與光影和反鋸齒不相容。
+options.graphics.tooltip.7= 
+options.graphics.tooltip.8= 
 
 of.options.renderDistance.tiny=最近
 of.options.renderDistance.short=近
@@ -91,6 +95,12 @@ options.renderDistance.tooltip.5=  32 超遠 - 512m（最慢！）非常消耗�
 options.renderDistance.tooltip.6=  48 病態 - 768m，需要分配 2G 的記憶體
 options.renderDistance.tooltip.7=  64 荒唐 - 1024m，需要分配 3G 的記憶體
 options.renderDistance.tooltip.8=16 以上的視野值只在本機世界有效。
+
+options.entityDistanceScaling.tooltip.1=實體渲染距離
+options.entityDistanceScaling.tooltip.2= 50%% - 較快
+options.entityDistanceScaling.tooltip.3= 100%% - 預設
+options.entityDistanceScaling.tooltip.4= 500%% - 較慢
+options.entityDistanceScaling.tooltip.5=修改實體顯示的最遠距離。
 
 options.ao.tooltip.1=柔和光源
 options.ao.tooltip.2=  關閉 - 無柔和光源（較快）
