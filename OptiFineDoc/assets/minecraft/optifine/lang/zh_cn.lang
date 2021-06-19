@@ -60,7 +60,7 @@ of.message.newVersion=新的§eOptiFine§f版本现已可用：§e%s§f
 of.message.java64Bit=您可以安装§e64位Java§f来提升性能。
 of.message.openglError=§eOpenGL错误§f：%s（%s）
 
-of.message.shaders.loading=加载光影中：%s
+of.message.shaders.loading=正在加载光影：%s
 
 of.message.other.reset=确定要重置所有视频设置为默认值吗？
 
