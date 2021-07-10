@@ -21,7 +21,7 @@ of.key.zoom=縮放
 of.message.aa.shaders1=反鋸齒與光影不相容。
 of.message.aa.shaders2=請關閉光影來啟用這個選項。
 
-of.message.aa.gf1=反鋸齒與 極佳 畫質不相容。
+of.message.aa.gf1=反鋸齒與 極致 畫質不相容。
 of.message.aa.gf2=請把畫質設定為 流暢 或是 精緻。
 
 of.message.af.shaders1=各向異性過濾與光影不相容。
@@ -42,7 +42,7 @@ of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關�
 of.message.shaders.fr1=光影與快速繪製不相容。
 of.message.shaders.fr2=請把 效能 -> 快速繪製 選項設定為 關閉。
 
-of.message.shaders.gf1=光影與 極佳 畫質不相容。
+of.message.shaders.gf1=光影與 極致 畫質不相容。
 of.message.shaders.gf2=請把畫質設定為 流暢 或是 精緻。
 
 of.message.shaders.an1=光影與 3D 立體不相容。
@@ -70,12 +70,12 @@ of.options.capeOF.copyEditorLink=將連結複製至剪貼簿
 
 # Video settings
 
-options.graphics.tooltip.1=畫面品質
+options.graphics.tooltip.1=畫質
 options.graphics.tooltip.2=  流暢 - 低畫質，較流暢
 options.graphics.tooltip.3=  精緻 - 高畫質，較慢
-options.graphics.tooltip.4=  §o極佳！§r - 更佳的半透明對象，最慢
+options.graphics.tooltip.4=  §o極致！§r - 更佳的半透明對象，最慢
 options.graphics.tooltip.5=改變雲、樹葉、水、陰影與草地側面的外觀。
-options.graphics.tooltip.6=極佳 畫質與光影和反鋸齒不相容。
+options.graphics.tooltip.6=極致 畫質與光影和反鋸齒不相容。
 options.graphics.tooltip.7= 
 options.graphics.tooltip.8= 
 
@@ -96,7 +96,7 @@ options.renderDistance.tooltip.6=  48 病態 - 768m，需要分配 2G 的記憶�
 options.renderDistance.tooltip.7=  64 荒唐 - 1024m，需要分配 3G 的記憶體
 options.renderDistance.tooltip.8=16 以上的視野值只在本機世界有效。
 
-options.entityDistanceScaling.tooltip.1=實體渲染距離
+options.entityDistanceScaling.tooltip.1=實體顯示距離
 options.entityDistanceScaling.tooltip.2= 50%% - 較快
 options.entityDistanceScaling.tooltip.3= 100%% - 預設
 options.entityDistanceScaling.tooltip.4= 500%% - 較慢
@@ -132,12 +132,12 @@ options.guiScale.tooltip.5=奇數值的放大倍數（1x, 3x, 5x...等）與 Uni
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
 
 options.vbo=使用 VBOs
-options.vbo.tooltip.1=啟用緩衝區頂點物件(VBOs)
+options.vbo.tooltip.1=啟用緩衝區頂點物件（VBOs）
 options.vbo.tooltip.2=使用一種常見的替代繪製模型
 options.vbo.tooltip.3=比預設繪製快 (5-10%%)。
 
-options.gamma.tooltip.1=增加較暗物體的亮度
-options.gamma.tooltip.2=  幽暗 - 標準亮度
+options.gamma.tooltip.1=增加較暗物體的亮度。
+options.gamma.tooltip.2=  昏暗 - 標準亮度
 options.gamma.tooltip.3=  1-99%% - 可變亮度
 options.gamma.tooltip.4=  明亮 - 最大亮度
 options.gamma.tooltip.5=此選項不會改變
@@ -148,12 +148,12 @@ options.anaglyph.tooltip.2=給予兩眼不同的顏色以
 options.anaglyph.tooltip.3=達成 3D 立體的效果。
 options.anaglyph.tooltip.4=需要使用紅藍眼鏡進行觀看。
 
-options.attackIndicator.tooltip.1=設定攻擊指示計的位置
+options.attackIndicator.tooltip.1=設定攻擊指示計的位置。
 options.attackIndicator.tooltip.2=  十字準星 - 十字準星下方
 options.attackIndicator.tooltip.3=  快捷欄 - 快捷欄旁邊
 options.attackIndicator.tooltip.4=  關閉 - 無攻擊指示計
 options.attackIndicator.tooltip.5=攻擊指示計顯示當前裝備
-options.attackIndicator.tooltip.6=的攻擊威力
+options.attackIndicator.tooltip.6=的攻擊威力。
 
 of.options.ALTERNATE_BLOCKS=方塊替換
 of.options.ALTERNATE_BLOCKS.tooltip.1=方塊替換
@@ -299,7 +299,7 @@ of.options.animationsTitle=動畫設定
 of.options.other=其他...
 of.options.otherTitle=其他設定
 
-of.options.other.reset=重設視訊設定...
+of.options.other.reset=重設顯示設定...
 
 of.shaders.profile=設定檔
 
@@ -458,7 +458,7 @@ of.options.CUSTOM_GUIS.tooltip.4=自訂介面一般由目前的資源包提供�
 
 of.options.CLOUDS=雲
 of.options.CLOUDS.tooltip.1=雲
-of.options.CLOUDS.tooltip.2=  預設 - 以「畫面品質」的設定為準
+of.options.CLOUDS.tooltip.2=  預設 - 以「畫質」設定為準
 of.options.CLOUDS.tooltip.3=  流暢 - 低品質，較快
 of.options.CLOUDS.tooltip.4=  精緻 - 高品質，較慢
 of.options.CLOUDS.tooltip.5=  關閉 - 沒有雲，最快
@@ -723,7 +723,7 @@ of.options.FULLSCREEN_MODE.tooltip.5=較低的解析度通常會較快。
 
 of.options.SHOW_FPS=顯示 FPS
 of.options.SHOW_FPS.tooltip.1=顯示精簡的 FPS 和繪製資訊
-of.options.SHOW_FPS.tooltip.2=  Fps - 平均值/最低值
+of.options.SHOW_FPS.tooltip.2=  FPS - 平均值/最低值
 of.options.SHOW_FPS.tooltip.3=  C: - 區塊繪製器
 of.options.SHOW_FPS.tooltip.4=  E: - 一般實體 + 方塊實體
 of.options.SHOW_FPS.tooltip.5=  U: - 區塊更新
