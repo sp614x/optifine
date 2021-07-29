@@ -138,7 +138,8 @@ options.guiScale.tooltip.2=  Авто - максимальный размер
 options.guiScale.tooltip.3=  Мелкий, обычный, крупный - 1x—3x соответственно
 options.guiScale.tooltip.4=  с 4x до 10x - на мониторах с разрешением 4K
 options.guiScale.tooltip.5=Нечётные значения несовместимы со шрифтом Unicode.
-options.guiScale.tooltip.6=Производительность может быть выше при меньших значениях.
+options.guiScale.tooltip.6=Производительность может повыситься при уменьшении
+options.guiScale.tooltip.7=значения параметра.
 
 options.vbo=Использовать VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
