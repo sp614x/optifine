@@ -226,7 +226,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.2=  §oВкл§r - карта отраж
 of.options.shaders.SPECULAR_MAP.tooltip.3=  Выкл - карта отражений отключена
 of.options.shaders.SPECULAR_MAP.tooltip.4=Используется шейдерами при создании особого
 of.options.shaders.SPECULAR_MAP.tooltip.5=эффекта отражения.
-of.options.shaders.SPECULAR_MAP.tooltip.6=Предоставляется ресурс-паками.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Предоставляется наборами ресурсов.
 of.options.shaders.SPECULAR_MAP.tooltip.7=
 
 of.options.shaders.RENDER_RES_MUL=Качество рендера
@@ -366,7 +366,7 @@ of.options.RANDOM_ENTITIES.tooltip.1=Случайные текстуры сущ�
 of.options.RANDOM_ENTITIES.tooltip.2=  Выкл - случайные сущности отключены (быстрее)
 of.options.RANDOM_ENTITIES.tooltip.3=  Вкл - случайные сущности включены (медленнее)
 of.options.RANDOM_ENTITIES.tooltip.4=Сущности используют случайные текстуры.
-of.options.RANDOM_ENTITIES.tooltip.5=Предоставляются ресурс-паками.
+of.options.RANDOM_ENTITIES.tooltip.5=Предоставляются наборами ресурсов.
 
 of.options.BETTER_GRASS=Улучшенный дёрн
 of.options.BETTER_GRASS.tooltip.1=Улучшенный дёрн
@@ -386,14 +386,14 @@ of.options.CUSTOM_FONTS=Особый шрифт
 of.options.CUSTOM_FONTS.tooltip.1=Пользовательский шрифт
 of.options.CUSTOM_FONTS.tooltip.2=  §oВкл§r - пользовательский шрифт
 of.options.CUSTOM_FONTS.tooltip.3=  Выкл - стандартный шрифт (быстрее)
-of.options.CUSTOM_FONTS.tooltip.4=Предоставляется ресурс-паками.
+of.options.CUSTOM_FONTS.tooltip.4=Предоставляется наборами ресурсов.
 of.options.CUSTOM_FONTS.tooltip.5= 
 
 of.options.CUSTOM_COLORS=Особые цвета
 of.options.CUSTOM_COLORS.tooltip.1=Пользовательские цвета
 of.options.CUSTOM_COLORS.tooltip.2=  §oВкл§r - пользовательские цвета
 of.options.CUSTOM_COLORS.tooltip.3=  Выкл - стандартные цвета (быстрее)
-of.options.CUSTOM_COLORS.tooltip.4=Предоставляются ресурс-паками.
+of.options.CUSTOM_COLORS.tooltip.4=Предоставляются наборами ресурсов.
 of.options.CUSTOM_COLORS.tooltip.5= 
 
 of.options.SWAMP_COLORS=Болотные цвета
@@ -417,7 +417,7 @@ of.options.CONNECTED_TEXTURES.tooltip.3=  Быстро - простое слия
 of.options.CONNECTED_TEXTURES.tooltip.4=  Детально - качественное слияние
 of.options.CONNECTED_TEXTURES.tooltip.5=Cоединяет текстуры (по умолчанию стекла, песчаника
 of.options.CONNECTED_TEXTURES.tooltip.6=и книжных полок) друг с другом.
-of.options.CONNECTED_TEXTURES.tooltip.7=Предоставляются ресурс-паками.
+of.options.CONNECTED_TEXTURES.tooltip.7=Предоставляются наборами ресурсов.
 of.options.CONNECTED_TEXTURES.tooltip.8= 
 
 of.options.NATURAL_TEXTURES=Свободные текстуры
@@ -426,7 +426,7 @@ of.options.NATURAL_TEXTURES.tooltip.2=  §oВыкл§r - без свободны
 of.options.NATURAL_TEXTURES.tooltip.3=  Вкл - использовать свободные текстуры
 of.options.NATURAL_TEXTURES.tooltip.4=Убирает повторяющиеся текстуры блоков и вместо
 of.options.NATURAL_TEXTURES.tooltip.5=них использует повёрнутые и отражённые варианты.
-of.options.NATURAL_TEXTURES.tooltip.6=Конфигурация предоставляется ресурс-паками.
+of.options.NATURAL_TEXTURES.tooltip.6=Конфигурация предоставляется наборами ресурсов.
 of.options.NATURAL_TEXTURES.tooltip.7=
 of.options.NATURAL_TEXTURES.tooltip.8=
 
@@ -458,14 +458,14 @@ of.options.CUSTOM_ENTITY_MODELS=Особые сущности
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Пользовательские модели сущностей
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  §oВкл§r - сущности с пользовательскими моделями
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Выкл - стандартные модели сущностей (быстрее)
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Предоставляются ресурс-паками.
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Предоставляются наборами ресурсов.
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=
 
 of.options.CUSTOM_GUIS=Особый интерфейс
 of.options.CUSTOM_GUIS.tooltip.1=Пользовательский интерфейс
 of.options.CUSTOM_GUIS.tooltip.2=  §oВкл§r - пользовательский интерфейс
 of.options.CUSTOM_GUIS.tooltip.3=  Выкл - стандартный интерфейс (быстрее)
-of.options.CUSTOM_GUIS.tooltip.4=Предоставляется ресурс-паками.
+of.options.CUSTOM_GUIS.tooltip.4=Предоставляется наборами ресурсов.
 
 # Details
 
