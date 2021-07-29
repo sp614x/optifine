@@ -217,7 +217,7 @@ of.options.shaders.NORMAL_MAP.tooltip.2=  §oВкл§r - карта нормал
 of.options.shaders.NORMAL_MAP.tooltip.3=  Выкл - карта нормалей отключена
 of.options.shaders.NORMAL_MAP.tooltip.4=Используется шейдерами в моделировании трёхмерной
 of.options.shaders.NORMAL_MAP.tooltip.5=геометрии на плоских поверхностях.
-of.options.shaders.NORMAL_MAP.tooltip.6=Предоставляется ресурс-паками.
+of.options.shaders.NORMAL_MAP.tooltip.6=Предоставляется наборами ресурсов.
 of.options.shaders.NORMAL_MAP.tooltip.7=
 
 of.options.shaders.SPECULAR_MAP=Карта отражений
