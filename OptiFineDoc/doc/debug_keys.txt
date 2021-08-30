@@ -1,0 +1,3 @@
+F3 + V = load all visible chunks
+F3 + O = shader options
+F3 + R = reload shaders
