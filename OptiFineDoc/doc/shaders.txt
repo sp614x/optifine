@@ -102,6 +102,7 @@ prepare1                     <prepare>                             <none>
 prepare15                    <prepare>                             <none>
 --- GBuffers ---
 gbuffers_basic               leash, block selection box            <none>
+gbuffers_line                block outline, fishing line           gbuffers_basic
 gbuffers_textured            particles                             gbuffers_basic
 gbuffers_textured_lit        lit_particles, world border           gbuffers_textured
 gbuffers_skybasic            sky, horizon, stars, void             gbuffers_basic
