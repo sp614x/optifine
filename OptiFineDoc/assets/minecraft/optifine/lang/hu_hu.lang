@@ -198,7 +198,7 @@ of.options.shaders.NORMAL_MAP.tooltip.2=  BE - (alapértelmezett) bekapcsolja a 
 of.options.shaders.NORMAL_MAP.tooltip.3=  KI - kikapcsolja a normál térképezést
 of.options.shaders.NORMAL_MAP.tooltip.4=A normál térképezést a shaderek használják,
 of.options.shaders.NORMAL_MAP.tooltip.5=hogy 3D-s geometriát szimuláljon sima model felületeken.
-of.options.shaders.NORMAL_MAP.tooltip.6=A ormál térképezés textúrákat a jelenlegi
+of.options.shaders.NORMAL_MAP.tooltip.6=A normál térképezés textúrákat a jelenlegi
 of.options.shaders.NORMAL_MAP.tooltip.7=forráscsomag biztosítja.
 
 of.options.shaders.SPECULAR_MAP=Tükrös térképezés
