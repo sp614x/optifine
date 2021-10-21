@@ -270,7 +270,7 @@ of.options.shaders.DOWNLOAD.tooltip.5=és megjelennek a listán, mint telepítet
 
 of.options.shaders.SHADER_PACK=Shadercsomag
 
-of.options.shaders.shadersFolder=Shader MAppa
+of.options.shaders.shadersFolder=Shader Mappa
 of.options.shaders.shaderOptions=Shader Beállítások...
 
 of.options.shaderOptionsTitle=Shader Beállítások
@@ -597,7 +597,7 @@ of.options.FAST_MATH.tooltip.4=Optimalizált sin() és cos() függvényeket hasz
 of.options.FAST_MATH.tooltip.5=jobban kihasználhatja a CPU belső memóriáját és növelheti az FPS-t.
 of.options.FAST_MATH.tooltip.6=Ez a beállítás minimálisan változtathat a világgeneráláson.
 
-of.options.CHUNK_UPDATES=TErület Frissítés
+of.options.CHUNK_UPDATES=Terület Frissítés
 of.options.CHUNK_UPDATES.tooltip.1=Terület Frissítés
 of.options.CHUNK_UPDATES.tooltip.2= 1 - lassabb világbetöltés, magasabb FPS (alapértelmezett)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - gyorsabb világbetöltés, alacsonyabb FPS
@@ -644,28 +644,28 @@ of.options.animation.allOn=Mind BE
 of.options.animation.allOff=Mind KI
 of.options.animation.dynamic=Dinamikus
 
-of.options.ANIMATED_WATER=Víz Animálva
-of.options.ANIMATED_LAVA=Láva Animálva
-of.options.ANIMATED_FIRE=Tűz Animálva
-of.options.ANIMATED_PORTAL=Portál Animálva
-of.options.ANIMATED_REDSTONE=Vöröskő ANimálva
-of.options.ANIMATED_EXPLOSION=Robbanás Animálva
-of.options.ANIMATED_FLAME=Láng Animálva
+of.options.ANIMATED_WATER=Animált Víz
+of.options.ANIMATED_LAVA=Animált Láva
+of.options.ANIMATED_FIRE=Animált Tűz
+of.options.ANIMATED_PORTAL=Animált Portál
+of.options.ANIMATED_REDSTONE=Animált Redstone
+of.options.ANIMATED_EXPLOSION=Animált Robbanás
+of.options.ANIMATED_FLAME=Animált Lángok
 of.options.ANIMATED_SMOKE=Animált Füst
 of.options.VOID_PARTICLES=Űr Részecskék
 of.options.WATER_PARTICLES=Víz Részecskék
-of.options.RAIN_SPLASH=Eső Placcsanás
+of.options.RAIN_SPLASH=Eső Felcsapódás
 of.options.PORTAL_PARTICLES=Portál Részecskék
 of.options.POTION_PARTICLES=Bájital Részecskék
 of.options.DRIPPING_WATER_LAVA=Csöpögő Víz/Láva
-of.options.ANIMATED_TERRAIN=Terep Animálva
-of.options.ANIMATED_TEXTURES=Textúrák Animálva
-of.options.FIREWORK_PARTICLES=Tüzijáték Részecskék
+of.options.ANIMATED_TERRAIN=Animált Terep
+of.options.ANIMATED_TEXTURES=Animált Textúrák
+of.options.FIREWORK_PARTICLES=Tűzijáték Részecskék
 
 # Other
 
 of.options.LAGOMETER=Lagomérő
-of.options.LAGOMETER.tooltip.1=Megjeleníti a legmérőt a hibakereső képernyőn (F3).
+of.options.LAGOMETER.tooltip.1=Megjeleníti a lagomérőt a hibakereső képernyőn (F3).
 of.options.LAGOMETER.tooltip.2=* Narancs - Memóriaszemét gyűjtése
 of.options.LAGOMETER.tooltip.3=* Cián - Tick
 of.options.LAGOMETER.tooltip.4=* Kék - Időzített betöltendők
