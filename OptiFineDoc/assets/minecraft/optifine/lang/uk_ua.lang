@@ -71,7 +71,7 @@ of.message.capeOF.openEditor=Редактор плаща OptiFine відкриє
 of.message.capeOF.openEditorError=Помилка під час відкриття у браузері!
 of.message.capeOF.reloadCape=Ваш плащ перезавантажиться за 15 секунд.
 
-of.message.capeOF.error1=Аутентифікація не вдалася.
+of.message.capeOF.error1=Автентифікація не вдалася.
 of.message.capeOF.error2=Помилка: %s
 
 # Налаштування графіки
@@ -290,13 +290,13 @@ of.options.shaders.shaderOptions=Налаштування шейдерів...
 of.options.shaderOptionsTitle=Налаштування шейдерів
 
 of.options.quality=Якість...
-of.options.qualityTitle=Налаштування якості
+of.options.qualityTitle=Налаштування якости
 
 of.options.details=Деталі...
 of.options.detailsTitle=Налаштування деталей
 
 of.options.performance=Продуктивність...
-of.options.performanceTitle=Налаштування продуктивності
+of.options.performanceTitle=Налаштування продуктивности
 
 of.options.animations=Анімації...
 of.options.animationsTitle=Налаштування анімації
@@ -672,7 +672,7 @@ of.options.RAIN_SPLASH=Краплі дощу
 of.options.PORTAL_PARTICLES=Чатинки порталу
 of.options.POTION_PARTICLES=Частинки зілля
 of.options.DRIPPING_WATER_LAVA=Капаюча лава/вода
-of.options.ANIMATED_TERRAIN=Анімація місцевості
+of.options.ANIMATED_TERRAIN=Анімація місцевости
 of.options.ANIMATED_TEXTURES=Анімація текстур
 of.options.FIREWORK_PARTICLES=Частинки феєрверку
 
@@ -685,8 +685,8 @@ of.options.LAGOMETER.tooltip.3=* Блакитний - Тік
 of.options.LAGOMETER.tooltip.4=* Синій - Заплановані дії
 of.options.LAGOMETER.tooltip.5=* Фіолетовий - Завантаження чанків
 of.options.LAGOMETER.tooltip.6=* Червоний - Оновлення чанків
-of.options.LAGOMETER.tooltip.7=* Жовтий - Перевірка видимості
-of.options.LAGOMETER.tooltip.8=* Зелений - Рендеринг місцевості
+of.options.LAGOMETER.tooltip.7=* Жовтий - Перевірка видимости
+of.options.LAGOMETER.tooltip.8=* Зелений - Рендеринг місцевости
 
 of.options.PROFILER=Профіль відладки
 of.options.PROFILER.tooltip.1=Профіль відладки
