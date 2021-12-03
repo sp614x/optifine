@@ -437,7 +437,7 @@ of.options.EMISSIVE_TEXTURES.tooltip.3=  Вкл - использование с�
 of.options.EMISSIVE_TEXTURES.tooltip.4=Светящиеся текстуры отображаются с полной яркостью.
 of.options.EMISSIVE_TEXTURES.tooltip.5=Их можно использовать для имитации светоизлучения
 of.options.EMISSIVE_TEXTURES.tooltip.6=частей основной текстуры.
-of.options.EMISSIVE_TEXTURES.tooltip.7=Предоставляются ресурс-паками.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Предоставляются наборами ресурсов.
 of.options.EMISSIVE_TEXTURES.tooltip.8=
 
 of.options.CUSTOM_SKY=Особое небо
