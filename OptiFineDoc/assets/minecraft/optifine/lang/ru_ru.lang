@@ -444,7 +444,7 @@ of.options.CUSTOM_SKY=Особое небо
 of.options.CUSTOM_SKY.tooltip.1=Пользовательские текстуры неба
 of.options.CUSTOM_SKY.tooltip.2=  §oВкл§r - небо с пользовательскими текстурами
 of.options.CUSTOM_SKY.tooltip.3=  Выкл - стандартные текстуры неба (быстрее)
-of.options.CUSTOM_SKY.tooltip.4=Предоставляются ресурс-паками.
+of.options.CUSTOM_SKY.tooltip.4=Предоставляются наборами ресурсов.
 of.options.CUSTOM_SKY.tooltip.5=
 
 of.options.CUSTOM_ITEMS=Особые предметы
