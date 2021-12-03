@@ -451,7 +451,7 @@ of.options.CUSTOM_ITEMS=Особые предметы
 of.options.CUSTOM_ITEMS.tooltip.1=Пользовательские текстуры предметов
 of.options.CUSTOM_ITEMS.tooltip.2=  §oВкл§r - предметы с пользовательскими текстурами
 of.options.CUSTOM_ITEMS.tooltip.3=  Выкл - стандартные текстуры предметов (быстрее)
-of.options.CUSTOM_ITEMS.tooltip.4=Предоставляются ресурс-паками.
+of.options.CUSTOM_ITEMS.tooltip.4=Предоставляются наборами ресурсов.
 of.options.CUSTOM_ITEMS.tooltip.5=
 
 of.options.CUSTOM_ENTITY_MODELS=Особые сущности
