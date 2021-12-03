@@ -39,3 +39,7 @@ gl.ignore.errors=<ids>
 # Automatically generate CEM models for all supported entities using different colors for each model part
 # The part names and colors are written in the log
 cem.debug.models=<true|false>
+
+# Chunk debug keys
+# Enable chunk debug keys, see "debug_keys.txt"
+chunk.debug.keys=<true|false>
