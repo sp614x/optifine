@@ -26,6 +26,9 @@ of.key.zoom=缩放
 of.message.aa.shaders1=抗锯齿与光影不兼容。
 of.message.aa.shaders2=请关闭光影以启用此选项。
 
+of.message.aa.gf1=抗锯齿与“极佳”画质不兼容。
+of.message.aa.gf2=请将图像品质设为“流畅”或“高品质”。
+
 of.message.af.shaders1=各向异性过滤与光影不兼容。
 of.message.af.shaders2=请关闭光影以启用此选项。
 
@@ -50,14 +53,14 @@ of.message.shaders.gf2=请将图像品质设为“流畅”或“高品质”。
 of.message.shaders.an1=光影与3D效果选项不兼容。
 of.message.shaders.an2=请将其他->3D效果选项设为“关闭”。
 
-of.message.shaders.nv1=此光影需要较新的OptiFine版本：%s
-of.message.shaders.nv2=无论如何都要继续吗？
+of.message.shaders.nv1=此光影需要更新的OptiFine版本：%s
+of.message.shaders.nv2=你确定要继续吗？
 
 of.message.newVersion=新的§eOptiFine§f版本现已可用：§e%s§f
 of.message.java64Bit=您可以安装§e64位Java§f来提升性能。
 of.message.openglError=§eOpenGL错误§f：%s（%s）
 
-of.message.shaders.loading=加载光影：%s
+of.message.shaders.loading=正在加载光影：%s
 
 of.message.other.reset=确定要重置所有视频设置为默认值吗？
 
@@ -82,12 +85,13 @@ of.message.capeOF.error2=错误：%s
 # Video settings
 
 options.graphics.tooltip.1=图像品质
-options.graphics.tooltip.2=  流畅   - 低品质（较快）
-options.graphics.tooltip.3=  高品质 - 高品质（较慢）
-options.graphics.tooltip.4=  极佳   - 更好的半透明对象（最慢）
+options.graphics.tooltip.2=  流畅 - 较低品质（较快）
+options.graphics.tooltip.3=  高品质 - 较高品质（较慢）
+options.graphics.tooltip.4=  §o极佳！§r - 更好的半透明对象（最慢）
 options.graphics.tooltip.5=改变云、树叶、水、阴影和草地侧面的外观。
-options.graphics.tooltip.6="极佳"画质与光影不兼容。
+options.graphics.tooltip.6="极佳"画质与光影和抗锯齿不兼容。
 options.graphics.tooltip.7= 
+options.graphics.tooltip.8= 
 
 of.options.renderDistance.tiny=最近
 of.options.renderDistance.short=近
@@ -110,7 +114,7 @@ options.entityDistanceScaling.tooltip.1=实体渲染距离
 options.entityDistanceScaling.tooltip.2=  50%% - 较快
 options.entityDistanceScaling.tooltip.3=  100%% - 默认
 options.entityDistanceScaling.tooltip.4=  500%% - 较慢
-options.entityDistanceScaling.tooltip.5=修改显示实体的最远距离。
+options.entityDistanceScaling.tooltip.5=修改实体显示的最远距离。
 
 options.ao.tooltip.1=平滑光照
 options.ao.tooltip.2=  关闭 - 禁用平滑光照（较快）
@@ -138,7 +142,7 @@ options.guiScale.tooltip.1=界面尺寸
 options.guiScale.tooltip.2=  自动 - 最大尺寸
 options.guiScale.tooltip.3=  小、中、大 - 1x到3x
 options.guiScale.tooltip.4=  4x到10x - 在4K分辨率下可用
-options.guiScale.tooltip.5=奇数值（1x、3x、5x之类）与Unicode不兼容。
+options.guiScale.tooltip.5=奇数值（1x、3x、5x等）与Unicode不兼容。
 options.guiScale.tooltip.6=较小的界面或许会更快。
 
 options.vbo=启用顶点缓冲器
@@ -186,9 +190,9 @@ of.options.FOG_START.tooltip.4=此选项通常不会影响性能。
 
 of.options.CHUNK_LOADING=区块加载
 of.options.CHUNK_LOADING.tooltip.1=区块加载
-of.options.CHUNK_LOADING.tooltip.2=  默认   - 当加载区块时FPS不稳定
-of.options.CHUNK_LOADING.tooltip.3=  平滑   - 稳定FPS
-of.options.CHUNK_LOADING.tooltip.4=  多核心 - 稳定FPS，3倍世界加载速度
+of.options.CHUNK_LOADING.tooltip.2=  默认 - 加载区块时FPS不稳定
+of.options.CHUNK_LOADING.tooltip.3=  平滑 - FPS稳定
+of.options.CHUNK_LOADING.tooltip.4=  多核心 - FPS稳定，3倍世界加载速度
 of.options.CHUNK_LOADING.tooltip.5=平滑和多核心可消除由区块加载引起的延迟和卡顿。
 of.options.CHUNK_LOADING.tooltip.6=多核心可以令世界加载速度提升3倍并通过使用多个CPU
 of.options.CHUNK_LOADING.tooltip.7=核心来提升FPS。
@@ -206,79 +210,79 @@ of.options.shaders.ANTIALIASING=抗锯齿
 of.options.shaders.ANTIALIASING.tooltip.1=抗锯齿
 of.options.shaders.ANTIALIASING.tooltip.2=  关闭 - （默认）禁用抗锯齿（较快）
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 对线和边缘抗锯齿处理（较慢）
-of.options.shaders.ANTIALIASING.tooltip.4=FXAA 是一种使锯齿状线条线和鲜明的色彩过渡
-of.options.shaders.ANTIALIASING.tooltip.5=更为平滑的后处理特效。
-of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，
-of.options.shaders.ANTIALIASING.tooltip.7=同时也与光影和快速渲染兼容。
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA是一种能够将锯齿状线条和鲜明的色彩过渡变得更加
+of.options.shaders.ANTIALIASING.tooltip.5=平滑的后处理特效。
+of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，而且同时也与光影兼容。
+of.options.shaders.ANTIALIASING.tooltip.7= 
 
 of.options.shaders.NORMAL_MAP=法线贴图
 of.options.shaders.NORMAL_MAP.tooltip.1=法线贴图
 of.options.shaders.NORMAL_MAP.tooltip.2=  开启 - （默认）启用法线贴图
 of.options.shaders.NORMAL_MAP.tooltip.3=  关闭 - 禁用法线贴图
-of.options.shaders.NORMAL_MAP.tooltip.4=光影包可以使用法线贴图
-of.options.shaders.NORMAL_MAP.tooltip.5=以在模型的平面表面内模拟三维几何结构。
-of.options.shaders.NORMAL_MAP.tooltip.6=法线贴图材质一般由
-of.options.shaders.NORMAL_MAP.tooltip.7=当前的资源包提供。
+of.options.shaders.NORMAL_MAP.tooltip.4=光影包可以使用法线贴图，从而在模型的平面表面内
+of.options.shaders.NORMAL_MAP.tooltip.5=模拟三维几何结构。
+of.options.shaders.NORMAL_MAP.tooltip.6=法线贴图纹理由当前的资源包提供。
+of.options.shaders.NORMAL_MAP.tooltip.7= 
 
 of.options.shaders.SPECULAR_MAP=高光贴图
 of.options.shaders.SPECULAR_MAP.tooltip.1=高光贴图
 of.options.shaders.SPECULAR_MAP.tooltip.2=  开启 - （默认）启用高光贴图
 of.options.shaders.SPECULAR_MAP.tooltip.3=  关闭 - 禁用高光贴图
-of.options.shaders.SPECULAR_MAP.tooltip.4=光影包可以使用高光贴图
-of.options.shaders.SPECULAR_MAP.tooltip.5=以模拟特殊的反射效果。
-of.options.shaders.SPECULAR_MAP.tooltip.6=高光贴图材质一般由
-of.options.shaders.SPECULAR_MAP.tooltip.7=当前的资源包提供。
+of.options.shaders.SPECULAR_MAP.tooltip.4=光影包可以使用高光贴图，从而模拟特殊的
+of.options.shaders.SPECULAR_MAP.tooltip.5=反射效果。
+of.options.shaders.SPECULAR_MAP.tooltip.6=高光贴图纹理由当前的资源包提供。
+of.options.shaders.SPECULAR_MAP.tooltip.7= 
 
 of.options.shaders.RENDER_RES_MUL=渲染精细度
 of.options.shaders.RENDER_RES_MUL.tooltip.1=渲染精细度
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - 低（最快）
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - 标准（默认）
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高（最慢）
-of.options.shaders.RENDER_RES_MUL.tooltip.5=渲染精细度控制
-of.options.shaders.RENDER_RES_MUL.tooltip.6=光影包当前渲染的材质大小。
-of.options.shaders.RENDER_RES_MUL.tooltip.7=较低的值或许利于4K显示。
-of.options.shaders.RENDER_RES_MUL.tooltip.8=较高的值将以抗锯齿滤镜的形式工作。
+of.options.shaders.RENDER_RES_MUL.tooltip.5=渲染精细度控制光影包当前所渲染纹理的大小。
+of.options.shaders.RENDER_RES_MUL.tooltip.6=较低的值可能会有利于4K显示。
+of.options.shaders.RENDER_RES_MUL.tooltip.7=较高的值会以抗锯齿滤镜的形式工作。
+of.options.shaders.RENDER_RES_MUL.tooltip.8= 
 
 of.options.shaders.SHADOW_RES_MUL=阴影精细度
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=阴影精细度
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低（最快）
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 标准（默认）
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高（最慢）
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=阴影精细度控制
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=光影包使用的阴影映射贴图大小。
-of.options.shaders.SHADOW_RES_MUL.tooltip.7=较低的值 = 不精确的、粗糙的阴影。
-of.options.shaders.SHADOW_RES_MUL.tooltip.8=较高的值 = 细致的、更佳的阴影。
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=阴影精细度控制光影包所当前使用的阴影映射贴图的大小。
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=较低的值 = 不精确的、粗糙的阴影。
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=较高的值 = 细致的、更佳的阴影。
+of.options.shaders.SHADOW_RES_MUL.tooltip.8= 
 
 of.options.shaders.HAND_DEPTH_MUL=手部景深
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手部景深
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - 手与镜头相距较近
-of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x   - （默认）
-of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x   - 手与镜头相距较远
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部景深控制
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=手持的物品与镜头相距的距离。
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=对于使用模糊景深的光影包，
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=此选项应当会改变手持物品的模糊程度。
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - （默认）
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - 手与镜头相距较远
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=手部景深控制当前所持的物品与镜头之间的距离。
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=对于使用模糊景深的光影包，此选项应当会改变
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=手持物品的模糊程度。
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8= 
 
 of.options.shaders.CLOUD_SHADOW=云朵阴影
 
 of.options.shaders.OLD_HAND_LIGHT=经典手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=经典手持光源
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  默认 - 光影包控制
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  默认 - 由光影包控制
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  开启 - 使用经典手持光源
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  关闭 - 使用新式手持光源
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=经典手持光源允许只能辨别
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=主手中发光物品的光影包
-of.options.shaders.OLD_HAND_LIGHT.tooltip.7=对于另一只手也能工作。
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=经典手持光源可使只能辨别主手中发光物品的光影包
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=对于副手也能工作。
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7= 
 
 of.options.shaders.OLD_LIGHTING=经典光效
 of.options.shaders.OLD_LIGHTING.tooltip.1=经典光效
-of.options.shaders.OLD_LIGHTING.tooltip.2=  默认 - 光影包控制
+of.options.shaders.OLD_LIGHTING.tooltip.2=  默认 - 由光影包控制
 of.options.shaders.OLD_LIGHTING.tooltip.3=  开启 - 使用经典光效
 of.options.shaders.OLD_LIGHTING.tooltip.4=  关闭 - 不使用经典光效
-of.options.shaders.OLD_LIGHTING.tooltip.5=使用经典光效时则采用原版的固定照明。
-of.options.shaders.OLD_LIGHTING.tooltip.6=在这种情况下，方块各面的照明会始终如一。
-of.options.shaders.OLD_LIGHTING.tooltip.7=使用阴影的光影包通常会提供
-of.options.shaders.OLD_LIGHTING.tooltip.8=更好的、取决于太阳位置的照明。
+of.options.shaders.OLD_LIGHTING.tooltip.5=经典光效决定是否将原版的固定照明应用于方块各面。
+of.options.shaders.OLD_LIGHTING.tooltip.6=使用阴影的光影包通常会提供更好的、取决于太阳位置的照明。
+of.options.shaders.OLD_LIGHTING.tooltip.7= 
+of.options.shaders.OLD_LIGHTING.tooltip.8= 
 
 of.options.shaders.DOWNLOAD=光影下载
 of.options.shaders.DOWNLOAD.tooltip.1=下载光影
@@ -320,7 +324,7 @@ of.options.mipmap.linear=线性
 of.options.mipmap.nearest=邻近
 of.options.mipmap.trilinear=三线性
 
-options.mipmapLevels.tooltip.1=通过平滑材质细节，使远处的物体获得更好的视觉效果。
+options.mipmapLevels.tooltip.1=通过平滑纹理细节，使远处的物体获得更好的视觉效果。
 options.mipmapLevels.tooltip.2=  关闭 - 无平滑
 options.mipmapLevels.tooltip.3=  1 - 最小平滑
 options.mipmapLevels.tooltip.4=  最大化 - 最大平滑
@@ -328,7 +332,7 @@ options.mipmapLevels.tooltip.5=此选项通常不会影响性能。
 options.mipmapLevels.tooltip.6= 
 
 of.options.MIPMAP_TYPE=多级纹理（mipmap）类型
-of.options.MIPMAP_TYPE.tooltip.1=通过平滑材质细节，使远处的物体获得更好的视觉效果。
+of.options.MIPMAP_TYPE.tooltip.1=通过平滑纹理细节，使远处的物体获得更好的视觉效果。
 of.options.MIPMAP_TYPE.tooltip.2=  邻近 - 粗略平滑（最快）
 of.options.MIPMAP_TYPE.tooltip.3=  线性 - 正常平滑
 of.options.MIPMAP_TYPE.tooltip.4=  双线性 - 精细平滑
@@ -348,9 +352,9 @@ of.options.AA_LEVEL.tooltip.8=重启后生效！
 
 of.options.AF_LEVEL=各向异性过滤
 of.options.AF_LEVEL.tooltip.1=各向异性过滤
-of.options.AF_LEVEL.tooltip.2= 关闭 - （默认）标准材质细节（较快）
+of.options.AF_LEVEL.tooltip.2= 关闭 - （默认）标准纹理细节（较快）
 of.options.AF_LEVEL.tooltip.3= 2-16 - 还原多级纹理（mipmap）处理后的的细节（较慢）
-of.options.AF_LEVEL.tooltip.4=各向异性过滤还原了经多级纹理过滤后的材质细节。
+of.options.AF_LEVEL.tooltip.4=各向异性过滤还原了经多级纹理过滤后的纹理细节。
 of.options.AF_LEVEL.tooltip.5=启用它可能会大幅降低FPS。
 of.options.AF_LEVEL.tooltip.6= 
 
@@ -359,18 +363,18 @@ of.options.CLEAR_WATER.tooltip.1=清澈水体
 of.options.CLEAR_WATER.tooltip.2=  开启 - 清澈、透明水体
 of.options.CLEAR_WATER.tooltip.3=  关闭 - 默认水体
 
-of.options.RANDOM_ENTITIES=随机实体材质
-of.options.RANDOM_ENTITIES.tooltip.1=随机实体材质
-of.options.RANDOM_ENTITIES.tooltip.2=  关闭 - 关闭随机实体材质（较快）
-of.options.RANDOM_ENTITIES.tooltip.3=  开启 - 随机实体材质（较慢）
+of.options.RANDOM_ENTITIES=随机实体纹理
+of.options.RANDOM_ENTITIES.tooltip.1=随机实体纹理
+of.options.RANDOM_ENTITIES.tooltip.2=  关闭 - 关闭随机实体纹理（较快）
+of.options.RANDOM_ENTITIES.tooltip.3=  开启 - 随机实体纹理（较慢）
 of.options.RANDOM_ENTITIES.tooltip.4=游戏中的实体使用随机的相应贴图。
 of.options.RANDOM_ENTITIES.tooltip.5=需要资源包内有多个实体贴图。
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
-of.options.BETTER_GRASS.tooltip.2=  关闭 - 默认草地材质（最快）
-of.options.BETTER_GRASS.tooltip.3=  流畅 - 草方块侧面全部使用草地材质（较慢）
-of.options.BETTER_GRASS.tooltip.4=  高品质 - 草方块侧面材质动态化（最慢）
+of.options.BETTER_GRASS.tooltip.2=  关闭 - 默认草地纹理（最快）
+of.options.BETTER_GRASS.tooltip.3=  流畅 - 草方块侧面全部使用草地纹理（较慢）
+of.options.BETTER_GRASS.tooltip.4=  高品质 - 草方块侧面纹理动态化（最慢）
 
 of.options.BETTER_SNOW=更好的雪地
 of.options.BETTER_SNOW.tooltip.1=更好的雪地
@@ -407,14 +411,14 @@ of.options.SMOOTH_BIOMES.tooltip.4=取样边界附近所有方块颜色的平均
 of.options.SMOOTH_BIOMES.tooltip.5=以平滑生物群系的边界。
 of.options.SMOOTH_BIOMES.tooltip.6=草、树叶、藤蔓和水会被受到影响。
 
-of.options.CONNECTED_TEXTURES=连接材质
-of.options.CONNECTED_TEXTURES.tooltip.1=连接材质
-of.options.CONNECTED_TEXTURES.tooltip.2=  关闭 - 关闭连接材质（默认）
-of.options.CONNECTED_TEXTURES.tooltip.3=  流畅 - 快速处理材质连接
-of.options.CONNECTED_TEXTURES.tooltip.4=高品质 - 精细处理材质连接
-of.options.CONNECTED_TEXTURES.tooltip.5=连接材质为玻璃、砂岩和书架增加了连接材质，当这
-of.options.CONNECTED_TEXTURES.tooltip.6=些同类方块放在一起时会将材质连为一体。
-of.options.CONNECTED_TEXTURES.tooltip.7=连接材质一般由当前的资源包提供。
+of.options.CONNECTED_TEXTURES=连接纹理
+of.options.CONNECTED_TEXTURES.tooltip.1=连接纹理
+of.options.CONNECTED_TEXTURES.tooltip.2=  关闭 - 关闭连接纹理（默认）
+of.options.CONNECTED_TEXTURES.tooltip.3=  流畅 - 快速处理纹理连接
+of.options.CONNECTED_TEXTURES.tooltip.4=高品质 - 精细处理纹理连接
+of.options.CONNECTED_TEXTURES.tooltip.5=连接纹理为玻璃、砂岩和书架增加了连接纹理，当这
+of.options.CONNECTED_TEXTURES.tooltip.6=些同类方块放在一起时会将纹理连为一体。
+of.options.CONNECTED_TEXTURES.tooltip.7=连接纹理一般由当前的资源包提供。
 of.options.CONNECTED_TEXTURES.tooltip.8= 
 
 of.options.NATURAL_TEXTURES=自然纹理
@@ -423,7 +427,7 @@ of.options.NATURAL_TEXTURES.tooltip.2=  关闭 - 关闭自然纹理（默认）
 of.options.NATURAL_TEXTURES.tooltip.3=  开启 - 启用自然纹理
 of.options.NATURAL_TEXTURES.tooltip.4=自然纹理会移除由同一类型的方块重复铺设
 of.options.NATURAL_TEXTURES.tooltip.5=而造成的栅格状图案。此功能通过旋转和翻转
-of.options.NATURAL_TEXTURES.tooltip.6=方块的基础材质来创建材质变体。
+of.options.NATURAL_TEXTURES.tooltip.6=方块的基础纹理来创建纹理变体。
 of.options.NATURAL_TEXTURES.tooltip.7=自然纹理的配置由当前的资源包提供。
 of.options.NATURAL_TEXTURES.tooltip.8= 
 
@@ -432,23 +436,23 @@ of.options.EMISSIVE_TEXTURES.tooltip.1=自发光纹理
 of.options.EMISSIVE_TEXTURES.tooltip.2=  关闭 - 关闭自发光纹理（默认）
 of.options.EMISSIVE_TEXTURES.tooltip.3=  开启 - 启用自发光纹理
 of.options.EMISSIVE_TEXTURES.tooltip.4=自发光纹理会作为覆盖层以最大亮度渲染。其可用于
-of.options.EMISSIVE_TEXTURES.tooltip.5=模拟基础材质的发光部分。
+of.options.EMISSIVE_TEXTURES.tooltip.5=模拟基础纹理的发光部分。
 of.options.EMISSIVE_TEXTURES.tooltip.6=自发光纹理由当前的资源包提供。
 of.options.EMISSIVE_TEXTURES.tooltip.7= 
 of.options.EMISSIVE_TEXTURES.tooltip.8= 
 
 of.options.CUSTOM_SKY=自定义天空
 of.options.CUSTOM_SKY.tooltip.1=自定义天空
-of.options.CUSTOM_SKY.tooltip.2=  开启 - （默认）自定义天空材质（较慢）
-of.options.CUSTOM_SKY.tooltip.3=  关闭 - 默认天空材质（较快）
-of.options.CUSTOM_SKY.tooltip.4=自定义天空的材质一般由
+of.options.CUSTOM_SKY.tooltip.2=  开启 - （默认）自定义天空纹理（较慢）
+of.options.CUSTOM_SKY.tooltip.3=  关闭 - 默认天空纹理（较快）
+of.options.CUSTOM_SKY.tooltip.4=自定义天空的纹理一般由
 of.options.CUSTOM_SKY.tooltip.5=当前的资源包提供。
 
 of.options.CUSTOM_ITEMS=自定义物品
 of.options.CUSTOM_ITEMS.tooltip.1=自定义物品
-of.options.CUSTOM_ITEMS.tooltip.2=  开启 - （默认）自定义物品材质（较慢）
-of.options.CUSTOM_ITEMS.tooltip.3=  关闭 - 默认物品材质（较快）
-of.options.CUSTOM_ITEMS.tooltip.4=自定义物品的材质一般由当前的资源包提供。
+of.options.CUSTOM_ITEMS.tooltip.2=  开启 - （默认）自定义物品纹理（较慢）
+of.options.CUSTOM_ITEMS.tooltip.3=  关闭 - 默认物品纹理（较快）
+of.options.CUSTOM_ITEMS.tooltip.4=自定义物品的纹理一般由当前的资源包提供。
 of.options.CUSTOM_ITEMS.tooltip.5= 
 
 of.options.CUSTOM_ENTITY_MODELS=自定义实体模型
@@ -492,7 +496,7 @@ of.options.TREES.tooltip.7="高品质"与"智能"的树叶透明镂空。
 of.options.RAIN=雨雪
 of.options.RAIN.tooltip.1=雨雪
 of.options.RAIN.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.RAIN.tooltip.3=  流畅  - 少量的雨/雪（较快）
+of.options.RAIN.tooltip.3=  流畅 - 少量的雨/雪（较快）
 of.options.RAIN.tooltip.4=  高品质 - 大量的雨/雪（较慢）
 of.options.RAIN.tooltip.5=  关闭 - 禁用雨/雪（最快）
 of.options.RAIN.tooltip.6=当“雨雪”选项关闭时，雨滴飞溅与雨声
@@ -501,7 +505,7 @@ of.options.RAIN.tooltip.7=仍会正常出现。
 of.options.SKY=天空
 of.options.SKY.tooltip.1=天空
 of.options.SKY.tooltip.2=  开启 - 天空可见（较慢）
-of.options.SKY.tooltip.3=  关闭  - 天空不可见（较快）
+of.options.SKY.tooltip.3=  关闭 - 天空不可见（较快）
 of.options.SKY.tooltip.4=日月的可见与否有单独的选项。
 
 of.options.STARS=星星
@@ -563,9 +567,9 @@ of.options.VIGNETTE.tooltip.8=
 
 of.options.DYNAMIC_FOV=动态视场
 of.options.DYNAMIC_FOV.tooltip.1=动态视场
-of.options.DYNAMIC_FOV.tooltip.2=  开启 - 启用动态视野大小（默认）
-of.options.DYNAMIC_FOV.tooltip.3=  关闭 - 禁用动态视野大小
-of.options.DYNAMIC_FOV.tooltip.4=当飞行、疾跑或拉弓时改变视野大小。
+of.options.DYNAMIC_FOV.tooltip.2=  开启 - 启用动态视场角大小（默认）
+of.options.DYNAMIC_FOV.tooltip.3=  关闭 - 禁用动态视场角大小
+of.options.DYNAMIC_FOV.tooltip.4=当飞行、疾跑或拉弓时改变视场角大小。
 of.options.DYNAMIC_FOV.tooltip.5= 
 
 of.options.DYNAMIC_LIGHTS=动态光源
@@ -648,12 +652,12 @@ of.options.RENDER_REGIONS.tooltip.4=通过优化GPU负载来加速地形渲染�
 of.options.RENDER_REGIONS.tooltip.5=当渲染距离较高时此选项会更有效。
 of.options.RENDER_REGIONS.tooltip.6=不推荐集成显卡使用。
 
-of.options.SMART_ANIMATIONS=智能动态材质
-of.options.SMART_ANIMATIONS.tooltip.1=智能动态材质
-of.options.SMART_ANIMATIONS.tooltip.2= 关闭 - 不使用智能动态材质（默认）
-of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动态材质（较快）
-of.options.SMART_ANIMATIONS.tooltip.4=当使用智能动态材质时，游戏仅更新
-of.options.SMART_ANIMATIONS.tooltip.5=当前屏幕可见的动态材质。
+of.options.SMART_ANIMATIONS=智能动态纹理
+of.options.SMART_ANIMATIONS.tooltip.1=智能动态纹理
+of.options.SMART_ANIMATIONS.tooltip.2= 关闭 - 不使用智能动态纹理（默认）
+of.options.SMART_ANIMATIONS.tooltip.3= 开启 - 使用智能动态纹理（较快）
+of.options.SMART_ANIMATIONS.tooltip.4=当使用智能动态纹理时，游戏仅更新
+of.options.SMART_ANIMATIONS.tooltip.5=当前屏幕可见的动态纹理。
 of.options.SMART_ANIMATIONS.tooltip.6=此选项可减少游戏刻突发延迟并提升FPS。
 of.options.SMART_ANIMATIONS.tooltip.7=对于大型模组包和高清资源包格外有效。
 
@@ -678,7 +682,7 @@ of.options.PORTAL_PARTICLES=传送门粒子
 of.options.POTION_PARTICLES=药水粒子
 of.options.DRIPPING_WATER_LAVA=水滴/熔岩滴
 of.options.ANIMATED_TERRAIN=地形动画
-of.options.ANIMATED_TEXTURES=动态材质
+of.options.ANIMATED_TEXTURES=动态纹理
 of.options.FIREWORK_PARTICLES=烟花粒子
 
 # Other
@@ -704,7 +708,7 @@ of.options.WEATHER=天气
 of.options.WEATHER.tooltip.1=天气
 of.options.WEATHER.tooltip.2=  开启 - 开启天气（较慢）
 of.options.WEATHER.tooltip.3=  关闭 - 关闭天气（较快）
-of.options.WEATHER.tooltip.4=天气选项影响雨，雪和雷电。
+of.options.WEATHER.tooltip.4=天气选项影响雨、雪和雷暴。
 of.options.WEATHER.tooltip.5=天气选项仅在本地游戏中生效。
 
 of.options.time.dayOnly=终为白日
