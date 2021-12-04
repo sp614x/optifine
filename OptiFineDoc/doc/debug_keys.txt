@@ -1,0 +1,11 @@
+F3 + V = load all visible chunks
+F3 + O = shader options
+F3 + R = reload shaders
+
+# Chunk debug keys, see system property "chunk.debug.keys"
+F3 + E = chunk path
+F3 + L = smart cull
+F3 + U = capture frustum
+Alt + F3 + U = capture shadow frustum
+Shift + F3 + U = release frustum
+F3 + V = chunk visibility

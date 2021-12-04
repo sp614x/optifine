@@ -177,30 +177,30 @@ of.options.shaders.ANTIALIASING.tooltip.5=a cikcakkos vonalakat és éles szín�
 of.options.shaders.ANTIALIASING.tooltip.6=Gyorsabb, mint a tradícionális élsimítás
 of.options.shaders.ANTIALIASING.tooltip.7=és kompatibilis a shaderekkel és Gyors Leképzéssel. 
 
-of.options.shaders.NORMAL_MAP=Normal Map
-of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
-of.options.shaders.NORMAL_MAP.tooltip.2=  BE - (alapértelmezett) bekapcsolja a normal mapokat 
-of.options.shaders.NORMAL_MAP.tooltip.3=  KI - kikapcsolja a normal mapokat
-of.options.shaders.NORMAL_MAP.tooltip.4=A normal mapokat a shaderek használják,
+of.options.shaders.NORMAL_MAP=Normál térképezés
+of.options.shaders.NORMAL_MAP.tooltip.1=Normál térképezés
+of.options.shaders.NORMAL_MAP.tooltip.2=  BE - (alapértelmezett) bekapcsolja a normál térképezést 
+of.options.shaders.NORMAL_MAP.tooltip.3=  KI - kikapcsolja a normál térképezést
+of.options.shaders.NORMAL_MAP.tooltip.4=A normál térképezést a shaderek használják,
 of.options.shaders.NORMAL_MAP.tooltip.5=hogy 3D-s geometriát szimuláljon sima model felületeken.
-of.options.shaders.NORMAL_MAP.tooltip.6=A normal map textúrákat a jelenlegi
+of.options.shaders.NORMAL_MAP.tooltip.6=A normál térképezés textúrákat a jelenlegi
 of.options.shaders.NORMAL_MAP.tooltip.7=forráscsomag biztosítja.
 
-of.options.shaders.SPECULAR_MAP=Specular Map
-of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
-of.options.shaders.SPECULAR_MAP.tooltip.2=  BE - (alapértelmezett) bekapcsolja a specular mapokat
-of.options.shaders.SPECULAR_MAP.tooltip.3=  KI - kikapcsolja a specular mapokat
-of.options.shaders.SPECULAR_MAP.tooltip.4=A specular mapokat a shaderek használják,
+of.options.shaders.SPECULAR_MAP=Tükrös térképezés
+of.options.shaders.SPECULAR_MAP.tooltip.1=Tükrös térképezés
+of.options.shaders.SPECULAR_MAP.tooltip.2=  BE - (alapértelmezett) bekapcsolja a tükrös térképezést
+of.options.shaders.SPECULAR_MAP.tooltip.3=  KI - kikapcsolja a tükrös térképezést
+of.options.shaders.SPECULAR_MAP.tooltip.4=A tükrös térképezést a shaderek használják,
 of.options.shaders.SPECULAR_MAP.tooltip.5=hogy a tükröződési effekteket szimulálják.
-of.options.shaders.SPECULAR_MAP.tooltip.6=A specular map textúrákat a jelenlegi
+of.options.shaders.SPECULAR_MAP.tooltip.6=A tükrös térképezés textúrákat a jelenlegi
 of.options.shaders.SPECULAR_MAP.tooltip.7=forráscsomag biztosítja.
 
-of.options.shaders.RENDER_RES_MUL=Render Minőség
+of.options.shaders.RENDER_RES_MUL=Leképzési Minőség
 of.options.shaders.RENDER_RES_MUL.tooltip.1=Leképzés minősége
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - alacsony (fastest)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - normál (alapértelmezettt)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - magas (leglassabb)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=A Render minőség szabályozza a textúra méretét,
+of.options.shaders.RENDER_RES_MUL.tooltip.5=A leképzési minőség szabályozza a textúra méretét,
 of.options.shaders.RENDER_RES_MUL.tooltip.6=amibe a shadercsomag renderel.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Alacsonyabb értékek hasznosak lehetnek 4K kijelzővel.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Magasabb értékek élsimításként működnek. (supersampling)
@@ -255,7 +255,7 @@ of.options.shaders.DOWNLOAD.tooltip.5=és megjelennek a listán, mint telepítet
 
 of.options.shaders.SHADER_PACK=Shadercsomag
 
-of.options.shaders.shadersFolder=Shader MAppa
+of.options.shaders.shadersFolder=Shader Mappa
 of.options.shaders.shaderOptions=Shader Beállítások...
 
 of.options.shaderOptionsTitle=Shader Beállítások
@@ -582,7 +582,7 @@ of.options.FAST_MATH.tooltip.4=Optimalizált sin() és cos() függvényeket hasz
 of.options.FAST_MATH.tooltip.5=jobban kihasználhatja a CPU belső memóriáját és növelheti az FPS-t.
 of.options.FAST_MATH.tooltip.6=Ez a beállítás minimálisan változtathat a világgeneráláson.
 
-of.options.CHUNK_UPDATES=TErület Frissítés
+of.options.CHUNK_UPDATES=Terület Frissítés
 of.options.CHUNK_UPDATES.tooltip.1=Terület Frissítés
 of.options.CHUNK_UPDATES.tooltip.2= 1 - lassabb világbetöltés, magasabb FPS (alapértelmezett)
 of.options.CHUNK_UPDATES.tooltip.3= 3 - gyorsabb világbetöltés, alacsonyabb FPS
@@ -629,28 +629,28 @@ of.options.animation.allOn=Mind BE
 of.options.animation.allOff=Mind KI
 of.options.animation.dynamic=Dinamikus
 
-of.options.ANIMATED_WATER=Víz Animálva
-of.options.ANIMATED_LAVA=Láva Animálva
-of.options.ANIMATED_FIRE=Tűz Animálva
-of.options.ANIMATED_PORTAL=Portál Animálva
-of.options.ANIMATED_REDSTONE=Vöröskő ANimálva
-of.options.ANIMATED_EXPLOSION=Robbanás Animálva
-of.options.ANIMATED_FLAME=Láng Animálva
+of.options.ANIMATED_WATER=Animált Víz
+of.options.ANIMATED_LAVA=Animált Láva
+of.options.ANIMATED_FIRE=Animált Tűz
+of.options.ANIMATED_PORTAL=Animált Portál
+of.options.ANIMATED_REDSTONE=Animált Redstone
+of.options.ANIMATED_EXPLOSION=Animált Robbanás
+of.options.ANIMATED_FLAME=Animált Lángok
 of.options.ANIMATED_SMOKE=Animált Füst
 of.options.VOID_PARTICLES=Űr Részecskék
 of.options.WATER_PARTICLES=Víz Részecskék
-of.options.RAIN_SPLASH=Eső Placcsanás
+of.options.RAIN_SPLASH=Eső Felcsapódás
 of.options.PORTAL_PARTICLES=Portál Részecskék
 of.options.POTION_PARTICLES=Bájital Részecskék
 of.options.DRIPPING_WATER_LAVA=Csöpögő Víz/Láva
-of.options.ANIMATED_TERRAIN=Terep Animálva
-of.options.ANIMATED_TEXTURES=Textúrák Animálva
-of.options.FIREWORK_PARTICLES=Tüzijáték Részecskék
+of.options.ANIMATED_TERRAIN=Animált Terep
+of.options.ANIMATED_TEXTURES=Animált Textúrák
+of.options.FIREWORK_PARTICLES=Tűzijáték Részecskék
 
 # Other
 
 of.options.LAGOMETER=Lagomérő
-of.options.LAGOMETER.tooltip.1=Megjeleníti a legmérőt a hibakereső képernyőn (F3).
+of.options.LAGOMETER.tooltip.1=Megjeleníti a lagomérőt a hibakereső képernyőn (F3).
 of.options.LAGOMETER.tooltip.2=* Narancs - Memóriaszemét gyűjtése
 of.options.LAGOMETER.tooltip.3=* Cián - Tick
 of.options.LAGOMETER.tooltip.4=* Kék - Időzített betöltendők
