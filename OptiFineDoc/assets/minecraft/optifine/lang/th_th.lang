@@ -82,22 +82,7 @@ options.graphics.tooltip.6= กราฟิกระดับ งามเลิ
 options.graphics.tooltip.7=
 options.graphics.tooltip.8=
 
-of.options.renderDistance.tiny=เล็กกระจิ๋ว
-of.options.renderDistance.short=สั้น
-of.options.renderDistance.normal=ปกติ
-of.options.renderDistance.far=ไกล
-of.options.renderDistance.extreme=สุดขีด
-of.options.renderDistance.insane=บ้าระห่ำ
-of.options.renderDistance.ludicrous=เหลือเชื่อ
-
 options.renderDistance.tooltip.1=ระยะการมองเห็น
-options.renderDistance.tooltip.2=  2 เล็กกระจิ๋ว - 32 ม. (เร็วที่สุด)
-options.renderDistance.tooltip.3=  8 ปกติ - 128 ม. (ปกติ)
-options.renderDistance.tooltip.4=  16 ไกล - 256 ม. (ช้ากว่า)
-options.renderDistance.tooltip.5=  32 สุดขีด - 512 ม. (ช้าจัด ๆ !) ต้องการทรัพยากรอันสูงส่ง
-options.renderDistance.tooltip.6=  48 บ้าระห่ำ - 768 ม. ต้องแบ่ง RAM ให้ตัวเกม 2 GB
-options.renderDistance.tooltip.7=  64 น่าขำ - 1024 ม. ต้องแบ่ง RAM ให้ตัวเกม 3 GB
-options.renderDistance.tooltip.8=ค่าที่มากกว่า 16 ไกล ใช้ได้แค่ในโลกเล่นคนเดียวเท่านั้น
 
 options.entityDistanceScaling.tooltip.1=ระยะการเรนเดอร์เอนติตี้
 options.entityDistanceScaling.tooltip.2=  50%% - เร็วกว่า

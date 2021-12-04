@@ -86,22 +86,7 @@ options.graphics.tooltip.6=bayangan dan sisi rumput.
 options.graphics.tooltip.7=Fabulous graphics tidak cocok dengan shaders and
 options.graphics.tooltip.8=anti alias.
 
-of.options.renderDistance.tiny=Kecil
-of.options.renderDistance.short=Pendek
-of.options.renderDistance.normal=Normal
-of.options.renderDistance.far=Jauh
-of.options.renderDistance.extreme=Ekstrim
-of.options.renderDistance.insane=Gila
-of.options.renderDistance.ludicrous=Sakit Jiwa
-
 options.renderDistance.tooltip.1= Jarak tampak
-options.renderDistance.tooltip.2=  2 Kecil - 32m (tercepat)
-options.renderDistance.tooltip.3=  8 Normal - 128m (normal)
-options.renderDistance.tooltip.4=  16 Jauh - 256m (pelan)
-options.renderDistance.tooltip.5=  32 Ekstrim - 512m (paling pelan!) sangat meminta sumber daya
-options.renderDistance.tooltip.6=  48 Gila - 768m, membutuhkan 2GB RAM untuk dialokasi
-options.renderDistance.tooltip.7=  64 Sakit Jiwa - 1024m, membutuhkan 3GB RAM untuk dialokasi
-options.renderDistance.tooltip.8=Nilai melibihi 16 Jauh hanya efektif di dunia lokal.
 
 options.entityDistanceScaling.tooltip.1=Jarak pandang entitas
 options.entityDistanceScaling.tooltip.2=  50%% - lebih cepat
