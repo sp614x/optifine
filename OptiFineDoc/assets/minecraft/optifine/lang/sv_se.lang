@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2021-01-03
+#   Regnander (_Spitz) 2016-01-18 ---- 2021-12-09
 
 # General
 of.general.ambiguous=tvetydig
@@ -94,13 +94,21 @@ of.options.renderDistance.insane=Galet
 of.options.renderDistance.ludicrous=Löjligt
 
 options.renderDistance.tooltip.1=Synligt avstånd
-options.renderDistance.tooltip.2=   2 Litet - 32m (snabbast)
-options.renderDistance.tooltip.3=   8 Normalt - 128m (normalt)
+options.renderDistance.tooltip.2=  2 Litet - 32m (snabbast)
+options.renderDistance.tooltip.3=  8 Normalt - 128m (normalt)
 options.renderDistance.tooltip.4=  16 Långt - 256m (långsammare)
 options.renderDistance.tooltip.5=  32 Extremt - 512m (långsammast!) mkt resurskrävande
 options.renderDistance.tooltip.6=  48 Galet - 768m, behöver 2GB allokerat RAM
 options.renderDistance.tooltip.7=  64 Löjligt - 1024m, behöver 3GB allokerat RAM
 options.renderDistance.tooltip.8=Värden över 16 fungerar endast i lokala världar.
+
+options.simulationDistance.tooltip.1=Simulerat avstånd
+options.simulationDistance.tooltip.2=  5-12 - Normalt (snabbare)
+options.simulationDistance.tooltip.3=  13-24 - Långt (långsammare)
+options.simulationDistance.tooltip.4=  25-32 - Extremt (långsammast)
+options.simulationDistance.tooltip.5=Styr hur långt bort datablock och entiteter får vara
+options.simulationDistance.tooltip.6=ifrån spelaren för att uppdateras.
+options.simulationDistance.tooltip.7=Högre världen kan orsaka avsevärda prestandaproblem.
 
 options.entityDistanceScaling.tooltip.1=Entitetsavstånd
 options.entityDistanceScaling.tooltip.2=  50 %% - snabbare
@@ -160,6 +168,30 @@ options.attackIndicator.tooltip.3=  Föremålsmeny - bredvid föremålsmenyn
 options.attackIndicator.tooltip.4=  AV - ingen attackmätare
 options.attackIndicator.tooltip.5=Attackmätaren visar attackstyrkan hos det hållna
 options.attackIndicator.tooltip.6=föremålet
+
+options.screenEffectScale.tooltip.1=Skärmeffekter
+options.screenEffectScale.tooltip.2=  AV - inaktiverad
+options.screenEffectScale.tooltip.3=  1-100 %% - aktiverad
+options.screenEffectScale.tooltip.4=Styr hur intensivt skärmeffekterna vid portal-
+options.screenEffectScale.tooltip.5=animeringar och illamående förändrar synfältet.
+
+options.autosaveIndicator.tooltip.1=Text vid autosparning
+options.autosaveIndicator.tooltip.2=  AV - inaktiverad
+options.autosaveIndicator.tooltip.3=  PÅ - aktiverad
+options.autosaveIndicator.tooltip.4=Visar när spelet sparar världen automatiskt.
+
+options.fovEffectScale.tooltip.1=Synfältseffekter
+options.fovEffectScale.tooltip.2=  AV - inaktiverad
+options.fovEffectScale.tooltip.3=  1-100 %% - aktiverad
+options.fovEffectScale.tooltip.4=Styr hur intensivt skärmen zoomar in när man spänner
+options.fovEffectScale.tooltip.5=en pilbåge, sprintar och flyger.
+
+options.prioritizeChunkUpdates.tooltip.1=Datablocksuppdateringar
+options.prioritizeChunkUpdates.tooltip.2=  Trådade - uppdatera alla datablock i bakgrunden
+options.prioritizeChunkUpdates.tooltip.3=  Spelare - uppdatera datablock med spelare omedelbart
+options.prioritizeChunkUpdates.tooltip.4=  Omgivande - uppdatera omgivande datablock omedelbart
+options.prioritizeChunkUpdates.tooltip.5=Trådade uppdateringar kan ibland orsaka terränghål.
+options.prioritizeChunkUpdates.tooltip.6=Omgivande kan orsaka avsevärda prestandaproblem.
 
 of.options.ALTERNATE_BLOCKS=Alternerade block
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternerade block
@@ -618,8 +650,8 @@ of.options.FAST_MATH.tooltip.5=kan utnyttja processorcachen mer och höja bild-
 of.options.FAST_MATH.tooltip.6=frekvensen.
 of.options.FAST_MATH.tooltip.7=Detta alternativ kan påverka världsgenereringen minimalt.
 
-of.options.CHUNK_UPDATES=Datablocksuppdateringar
-of.options.CHUNK_UPDATES.tooltip.1=Datablocksuppdateringar
+of.options.CHUNK_UPDATES=Antal datablocksuppdat.
+of.options.CHUNK_UPDATES.tooltip.1=Antal datablocksuppdateringar
 of.options.CHUNK_UPDATES.tooltip.2=  1 - långsammare inläsning, högre bildfrekv. (standard)
 of.options.CHUNK_UPDATES.tooltip.3=  3 - snabbare inläsning, lägre bildfrekvens
 of.options.CHUNK_UPDATES.tooltip.4=  5 - snabbast inläsning, lägst bildfrekvens
@@ -724,17 +756,17 @@ of.options.TIME.tooltip.4=  Endast natt - natt hela tiden
 of.options.TIME.tooltip.5=Tidsinställningen fungerar endast i KREATIVT läge och
 of.options.TIME.tooltip.6=för lokala världar.
 
-options.fullscreen.tooltip.1=Fullskärm
-options.fullscreen.tooltip.2=  PÅ - använd fullskärmsläge
+options.fullscreen.tooltip.1=Helskärm
+options.fullscreen.tooltip.2=  PÅ - använd helskärmsläge
 options.fullscreen.tooltip.3=  AV - använd fönsterläge
-options.fullscreen.tooltip.4=Fullskärmsläge kan vara snabbare eller långsammare än
+options.fullscreen.tooltip.4=Helskärmsläge kan vara snabbare eller långsammare än
 options.fullscreen.tooltip.5=fönsterläge beroende på grafikkortet.
 
-options.fullscreen.resolution=Fullskärmsläge
-options.fullscreen.resolution.tooltip.1=Fullskärmsläge
+options.fullscreen.resolution=Helskärmsläge
+options.fullscreen.resolution.tooltip.1=Helskärmsläge
 options.fullscreen.resolution.tooltip.2=  Standard - använd datorns upplösning, långsammare
 options.fullscreen.resolution.tooltip.3=  BxH - använd anpassad upplösning, kan vara snabbare
-options.fullscreen.resolution.tooltip.4=Den valda upplösningen används i fullskärmsläge (F11).
+options.fullscreen.resolution.tooltip.4=Den valda upplösningen används i helskärmsläge (F11).
 options.fullscreen.resolution.tooltip.5=Lägre upplösningar bör vanligtvis vara snabbare.
 
 of.options.SHOW_FPS=Visa bildfrekvens
