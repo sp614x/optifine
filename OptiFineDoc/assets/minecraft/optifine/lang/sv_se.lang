@@ -187,10 +187,10 @@ options.fovEffectScale.tooltip.4=Styr hur intensivt skärmen zoomar in när man 
 options.fovEffectScale.tooltip.5=en pilbåge, sprintar och flyger.
 
 options.prioritizeChunkUpdates.tooltip.1=Datablocksuppdateringar
-options.prioritizeChunkUpdates.tooltip.2=  Trådade - uppdatera alla datablock i bakgrunden
+options.prioritizeChunkUpdates.tooltip.2=  Trådad - uppdatera alla datablock i bakgrunden
 options.prioritizeChunkUpdates.tooltip.3=  Spelare - uppdatera datablock med spelare omedelbart
 options.prioritizeChunkUpdates.tooltip.4=  Omgivande - uppdatera omgivande datablock omedelbart
-options.prioritizeChunkUpdates.tooltip.5=Trådade uppdateringar kan ibland orsaka terränghål.
+options.prioritizeChunkUpdates.tooltip.5=Trådad uppdatering kan ibland orsaka terränghål.
 options.prioritizeChunkUpdates.tooltip.6=Omgivande kan orsaka avsevärda prestandaproblem.
 
 of.options.ALTERNATE_BLOCKS=Alternerade block
@@ -233,7 +233,7 @@ of.options.shaders.packDefault=(intern)
 of.options.shaders.ANTIALIASING=Kantutjämning
 of.options.shaders.ANTIALIASING.tooltip.1=Kantutjämning
 of.options.shaders.ANTIALIASING.tooltip.2=  AV - (standard) ingen kantutjämning (snabbare)
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - utjämnade linjer och kanter (långsammare)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - utjämnade linjer o. kanter (långsammare)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA är en efterbehandlingseffekt som jämnar ut
 of.options.shaders.ANTIALIASING.tooltip.5=taggiga linjer och skarpa färgskiftningar.
 of.options.shaders.ANTIALIASING.tooltip.6=Detta är snabbare än den traditionella kantutjämningen
@@ -262,8 +262,8 @@ of.options.shaders.RENDER_RES_MUL.tooltip.1=Renderingskvalitet
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - låg (snabbast)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standard (standard)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - hög (långsammast)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=Renderingskvalitet kontrollerar storleken på texturen
-of.options.shaders.RENDER_RES_MUL.tooltip.6=som shaderpaketet renderar till.
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Renderingskvalitet styr storleken på texturen som
+of.options.shaders.RENDER_RES_MUL.tooltip.6=shaderpaketet renderar till.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Lägre värden kan vara användbara på 4K-skärmar.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Högre värden fungerar som ett kantutjämnande filter.
 
@@ -272,8 +272,8 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.1=Skuggkvalitet
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - låg (snabbast)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standard (standard)
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - hög (långsammast)
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=Skuggkvalitet kontrollerar storleken på texturen för
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=shadow map som används i shaderpaketet.
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Skuggkvalitet styr storleken på texturen för shadow map
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=som används i shaderpaketet.
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lägre kvalitet = enkla grova skuggor.
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Högre kvalitet = detaljerade fina skuggor.
 
@@ -282,8 +282,8 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Handdjup
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - handen är nära kameran
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (standard)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - handen är långt borta från kameran
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Handdjup kontrollerar hur långt borta handhållna
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=föremål är från kameran.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Handdjup styr hur långt borta handhållna föremål är
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=från kameran.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=För shaderpaket som använder skärpedjup bör detta
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhållna föremål blir.
 
@@ -303,8 +303,8 @@ of.options.shaders.OLD_LIGHTING.tooltip.1=Gammalt ljus
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Standard - kontrolleras av shaderpaketet
 of.options.shaders.OLD_LIGHTING.tooltip.3=  PÅ - använd gammalt ljus
 of.options.shaders.OLD_LIGHTING.tooltip.4=  AV - använd inte gammalt ljus
-of.options.shaders.OLD_LIGHTING.tooltip.5=Gammalt ljus kontrollerar det fasta ljuset som tillämpas
-of.options.shaders.OLD_LIGHTING.tooltip.6=på blocksidor som standard.
+of.options.shaders.OLD_LIGHTING.tooltip.5=Gammalt ljus styr det fasta ljuset som tillämpas på
+of.options.shaders.OLD_LIGHTING.tooltip.6=blocksidor som standard.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Shaderpaket som använder skuggor ger vanligtvis
 of.options.shaders.OLD_LIGHTING.tooltip.8=mycket bättre ljus som är beroende av solens position.
 
@@ -554,8 +554,8 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.1=Genomskinliga block
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Snyggt - korrekt färgblandning (långsammare)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Snabbt - snabb färgblandning (snabbare)
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kontrollerar färgblandningen för genomskinliga block
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=med olika färger (färgat glas, vatten, is) när de
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Styr färgblandningen för genomskinliga block med
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=olika färger (färgat glas, vatten, is) när de
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=placeras bakom varandra med luft emellan.
 
 of.options.HELD_ITEM_TOOLTIPS=Infotext för föremål
@@ -742,7 +742,7 @@ of.options.WEATHER=Väder
 of.options.WEATHER.tooltip.1=Väder
 of.options.WEATHER.tooltip.2=  PÅ - väder är aktiverat, långsammare
 of.options.WEATHER.tooltip.3=  AV - väder är inaktiverat, snabbare
-of.options.WEATHER.tooltip.4=Kontrollerar regn, snö och åska.
+of.options.WEATHER.tooltip.4=Styr om regn, snö och åska ska synas.
 of.options.WEATHER.tooltip.5=Detta fungerar bara i lokala världar.
 
 of.options.time.dayOnly=Endast dag
