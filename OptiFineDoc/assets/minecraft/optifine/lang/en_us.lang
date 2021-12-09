@@ -192,9 +192,9 @@ options.fovEffectScale.tooltip.5=like bow drawing, sprinting and flying.
 options.prioritizeChunkUpdates.tooltip.1=Chunk builder
 options.prioritizeChunkUpdates.tooltip.2= Threaded - update all chunks in the background
 options.prioritizeChunkUpdates.tooltip.3= Semi Blocking - update player affected chunks immediately
-options.prioritizeChunkUpdates.tooltip.4= Blocking - update all nearby chunks immediately
+options.prioritizeChunkUpdates.tooltip.4= Fully Blocking - update all nearby chunks immediately
 options.prioritizeChunkUpdates.tooltip.5=Threaded updates may briefly show holes in the terrain.
-options.prioritizeChunkUpdates.tooltip.6=Blocking updates may cause significant lag spikes.
+options.prioritizeChunkUpdates.tooltip.6=Fully blocking updates may cause significant lag spikes.
 
 of.options.ALTERNATE_BLOCKS=Alternate Blocks
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternate Blocks
