@@ -27,13 +27,13 @@
 # cave_spider            head, neck, body, leg1 ... leg8
 # chest                  lid, base, knob
 # chest_large            lid_left, base_left, knob_left, lid_right, base_right, knob_right
-# chest_minecart         bottom, back, front, right, left, dirt
+# chest_minecart         bottom, back, front, right, left
 # chicken                head, body, right_leg, left_leg, right_wing, left_wing, bill, chin
 # cod                    body, fin_back, head, nose, fin_right, fin_left, tail
-# command_block_minecart bottom, back, front, right, left, dirt
+# command_block_minecart bottom, back, front, right, left
 # conduit                base, eye, cage, wind 
 # cow                    head, body, leg1 ... leg4
-# creeper                head, armor, body, leg1 ... leg4
+# creeper                head, body, leg1 ... leg4
 # dragon                 head, spine, jaw, body, left_wing, left_wing_tip, right_wing, right_wing_tip,
 #                        front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, 
 #                        front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
@@ -49,7 +49,7 @@
 # evoker                 head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm
 # evoker_fangs           base, upper_jaw, lower_jaw
 # fox                    head, body, leg1 ... leg4, tail
-# furnace_minecart       bottom, back, front, right, left, dirt
+# furnace_minecart       bottom, back, front, right, left
 # ghast                  body, tentacle1 ... tentacle9
 # giant                  head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # guardian               body, eye, spine1 ... spine12, tail1 ... tail3
@@ -59,7 +59,7 @@
 # head_wither_skeleton   head
 # head_zombie            head
 # hoglin                 head, right_ear, left_ear, body, front_right_leg, front_left_leg, back_right_leg, back_left_leg, mane
-# hopper_minecart        bottom, back, front, right, left, dirt
+# hopper_minecart        bottom, back, front, right, left
 # horse                  body, neck, back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, saddle,
 #                        head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband,
 #                        child_back_left_leg, child_back_right_leg, child_front_left_leg, child_front_right_leg
@@ -72,7 +72,7 @@
 # llama_decor            head, body, leg1 ... leg4, chest_right, chest_left
 # llama_spit             body
 # magma_cube             core, segment1 ... segment8
-# minecart               bottom, back, front, right, left, dirt
+# minecart               bottom, back, front, right, left
 # mooshroom              head, body, leg1 ... leg4
 # mule                   <same as horse>, left_chest, right_chest
 # ocelot                 back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
@@ -103,12 +103,12 @@
 # skeleton_horse         <same as horse>
 # slime                  body, left_eye, right_eye, mouth
 # snow_golem             body, body_bottom, head, left_hand, right_hand
-# spawner_minecart       bottom, back, front, right, left, dirt
+# spawner_minecart       bottom, back, front, right, left
 # spider                 head, neck, body, leg1, ... leg8
 # squid                  body, tentacle1 ... tentacle8
 # stray                  head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # strider                body, right_leg, left_leg, hair_right_top, hair_right_middle, hair_right_bottom, hair_left_top, hair_left_middle, hair_left_bottom
-# tnt_minecart           bottom, back, front, right, left, dirt
+# tnt_minecart           bottom, back, front, right, left
 # trader_llama           head, body, leg1 ... leg4, chest_right, chest_left
 # trader_llama_decor     head, body, leg1 ... leg4, chest_right, chest_left
 # trapped_chest          lid, base, knob
