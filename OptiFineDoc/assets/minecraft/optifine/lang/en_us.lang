@@ -89,6 +89,14 @@ options.renderDistance.tooltip.4=On servers the visible distance is further limi
 options.renderDistance.tooltip.5=server's view distance (default 10).
 options.renderDistance.tooltip.6=Smaller values are faster.
 
+options.simulationDistance.tooltip.1=Simulation distance
+options.simulationDistance.tooltip.2=  5-12 - Normal (faster)
+options.simulationDistance.tooltip.3=  13-24 - Far (slower)
+options.simulationDistance.tooltip.4=  25-32 - Extreme (slowest)
+options.simulationDistance.tooltip.5=Controls how far from the player the chunks and entities 
+options.simulationDistance.tooltip.6=are being updated. 
+options.simulationDistance.tooltip.7=Higher values may produce significant lag spikes.
+
 options.entityDistanceScaling.tooltip.1=Entity render distance
 options.entityDistanceScaling.tooltip.2=  50%% - faster
 options.entityDistanceScaling.tooltip.3=  100%% - default
@@ -147,6 +155,36 @@ options.attackIndicator.tooltip.3=  Hotbar - next to the hotbar
 options.attackIndicator.tooltip.4=  OFF - no attack indicator
 options.attackIndicator.tooltip.5=The attack indicator shows the attack power of the
 options.attackIndicator.tooltip.6=currently equipped item
+
+options.screenEffectScale.tooltip.1=Distortion effects
+options.screenEffectScale.tooltip.2=  OFF - disabled
+options.screenEffectScale.tooltip.3=  1-100%% - enabled
+options.screenEffectScale.tooltip.4=Controls the intensity of screen distorting effects
+options.screenEffectScale.tooltip.5=like portal animation and nausea effect.
+
+options.screenEffectScale.tooltip.1=Distortion effects
+options.screenEffectScale.tooltip.2=  OFF - disabled
+options.screenEffectScale.tooltip.3=  1-100%% - enabled
+options.screenEffectScale.tooltip.4=Controls the intensity of screen distorting effects
+options.screenEffectScale.tooltip.5=like portal animation and nausea effect.
+
+options.autosaveIndicator.tooltip.1=Autosave indicator
+options.autosaveIndicator.tooltip.2=  OFF - disabled
+options.autosaveIndicator.tooltip.3=  ON - enabled
+options.autosaveIndicator.tooltip.4=Shows when the game is automatically saving the world.
+
+options.fovEffectScale.tooltip.1=FOV effects
+options.fovEffectScale.tooltip.2=  OFF - disabled
+options.fovEffectScale.tooltip.3=  1-100%% - enabled
+options.fovEffectScale.tooltip.4=Controls the intensity of screen zooming effects
+options.fovEffectScale.tooltip.5=like bow drawing, sprinting and flying.
+
+options.prioritizeChunkUpdates.tooltip.1=Chunk builder
+options.prioritizeChunkUpdates.tooltip.2= Threaded - update all chunks in the background
+options.prioritizeChunkUpdates.tooltip.3= Semi Blocking - update player affected chunks immediately
+options.prioritizeChunkUpdates.tooltip.4= Fully Blocking - update all nearby chunks immediately
+options.prioritizeChunkUpdates.tooltip.5=Threaded updates may briefly show holes in the terrain.
+options.prioritizeChunkUpdates.tooltip.6=Fully blocking updates may cause significant lag spikes.
 
 of.options.ALTERNATE_BLOCKS=Alternate Blocks
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternate Blocks
