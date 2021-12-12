@@ -83,11 +83,11 @@ options.graphics.tooltip.7=Vapustav graafika ei ühildu varjutajatega ega
 options.graphics.tooltip.8=sakisilumisega.
 
 options.renderDistance.tooltip.1=Nähtav kaugus
-options.renderDistance.tooltip.2=  2-32 - tavaline nähtavuskaugus kõikidele maailmadele
-options.renderDistance.tooltip.3=  33-64 - ressursinõudlik kaugus kohalikele maailmadele
+options.renderDistance.tooltip.2=  2-32 - vanilli nähtavuskaugus kõikidele maailmadele
+options.renderDistance.tooltip.3=  33-64 - laiendatud nähtavuskaugus kohalikele maailmadele
 options.renderDistance.tooltip.4=Serverites piiratakse nähtavat kaugust serveri
 options.renderDistance.tooltip.5=vaatluskaugusega (vaikimisi 10).
-options.renderDistance.tooltip.6=Väiksemad väärtused on kiiremad.
+options.renderDistance.tooltip.6=Väiksemad väärtused on tunduvalt kiiremad.
 
 options.entityDistanceScaling.tooltip.1=Olemite renderduskaugus
 options.entityDistanceScaling.tooltip.2=  50%% - kiirem
