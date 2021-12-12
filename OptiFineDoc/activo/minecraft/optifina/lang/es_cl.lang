@@ -208,10 +208,10 @@ of.options.FOG_START.tooltip.3=  0.8 - la niebla estará lejos
 of.options.FOG_START.tooltip.4=Esta opción no suele afectar al rendimiento.
 
 options.prioritizeChunkUpdates.tooltip.1=Cargador de Chunk
-options.prioritizeChunkUpdates.tooltip.2= Subproceso - actualice todos los Chunks en segundo plano
-options.prioritizeChunkUpdates.tooltip.3= Semi Bloqueo - actualiza los Chunks afectados por el jugador
-options.prioritizeChunkUpdates.tooltip.4= Bloqueo Completo -  actualice todos los Chunks cercanos
-options.prioritizeChunkUpdates.tooltip.5=Las actualizaciones con subprocesos pueden mostrar breves agujeros en el terreno.
+options.prioritizeChunkUpdates.tooltip.2= Por hilos - actualice todos los Chunks en segundo plano
+options.prioritizeChunkUpdates.tooltip.3= Por jugador - actualiza los Chunks afectados por el jugador
+options.prioritizeChunkUpdates.tooltip.4= Completos -  actualice todos los Chunks cercanos
+options.prioritizeChunkUpdates.tooltip.5=Las actualizaciones por hilos pueden mostrar agujeros en el terreno.
 options.prioritizeChunkUpdates.tooltip.6=El bloqueo total de las actualizaciones puede provocar picos de retraso.
 
 of.options.CHUNK_LOADING=Carga de chunks
