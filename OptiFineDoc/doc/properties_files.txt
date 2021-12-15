@@ -170,8 +170,17 @@ Occasionally you will need to specify a list of numbers. OptiFine understands ra
   list=1-3
   # Multiple ranges.
   list=1-3 6 8 10-15
-  # Open-ended ranges
-  damage=100-
+
+Since 1.18 negative values may be specified for height. When used in a range they have to be put in brackets.
+
+  # Single entry.
+  list=-1
+  # Multiple values listed separately.
+  list=-3 -2 -1
+  # Same values using ranges.
+  list=(-3)-(-1)
+  # Multiple ranges.
+  list=(-3)-(-1) 6 8 (-10)-15
 
 RGB colors
 ==========
