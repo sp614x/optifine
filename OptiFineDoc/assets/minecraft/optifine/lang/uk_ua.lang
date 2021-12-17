@@ -192,11 +192,11 @@ options.fovEffectScale.tooltip.4=Впливає на інтенсивість з
 options.fovEffectScale.tooltip.5=як натягування лука, біг та літання.
 
 options.prioritizeChunkUpdates.tooltip.1=Будівник чанків
-options.prioritizeChunkUpdates.tooltip.2= Потокове - оновлює всі чанки, які віддалені від гравця.
-options.prioritizeChunkUpdates.tooltip.3= Напів-блокування - моментально оновлює чанки за гравцем.
-options.prioritizeChunkUpdates.tooltip.4= Повне блокування - моментально оновлю всі чанки поряд.
-options.prioritizeChunkUpdates.tooltip.5=Потокове оновлення може на деякий час відображати діри на місцевості.
-options.prioritizeChunkUpdates.tooltip.6=Повне блокування може спричинити значне збільшення фрізів
+options.prioritizeChunkUpdates.tooltip.2= Потоковий - оновлює всі чанки, які віддалені від гравця.
+options.prioritizeChunkUpdates.tooltip.3= Напів-блок. - моментально оновлює чанки за гравцем.
+options.prioritizeChunkUpdates.tooltip.4= Блокуючий - моментально оновлю всі чанки поряд.
+options.prioritizeChunkUpdates.tooltip.5=Потоковий може на деякий час відображати діри на місцевості.
+options.prioritizeChunkUpdates.tooltip.6=Блокуючий може спричинити значне збільшення фрізів
 
 of.options.ALTERNATE_BLOCKS=Альтернативні блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативні блоки
