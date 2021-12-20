@@ -3,6 +3,7 @@
 #   CrafterKina 2014-01-04 ---- 2018-12-07
 #   ViaSnake 2019-12-16 ---- 
 #   syokkendesuyo 2020-08-04 ---- 
+#   Diamond_256 2021-12-20 ---- 
 
 # General
 of.general.ambiguous=不明確
@@ -105,6 +106,14 @@ options.renderDistance.tooltip.6=  48 狂気 - 768m、2GB以上のメモリー�
 options.renderDistance.tooltip.7=  64 不条理 - 1024m、3GB以上のメモリー割り当てが必要です
 options.renderDistance.tooltip.8=遠いを超える描画距離はシングルのワールドでのみ効果があります。
 
+options.simulationDistance.tooltip.1=演算距離
+options.simulationDistance.tooltip.2=  5-12 - 普通 (低負荷)
+options.simulationDistance.tooltip.3=  13-24 - 遠い (高負荷)
+options.simulationDistance.tooltip.4=  25-32 - 過激 (最高負荷)
+options.simulationDistance.tooltip.5=チャンクとエンティティがプレイヤーから
+options.simulationDistance.tooltip.6=どれだけ近いと更新されるかを制御します。
+options.simulationDistance.tooltip.7=値を大きくすると、大幅な遅延が発生する可能性があります。
+
 options.entityDistanceScaling.tooltip.1=エンティティの描画距離
 options.entityDistanceScaling.tooltip.2=  50%% - 低負荷
 options.entityDistanceScaling.tooltip.3=  100%% - デフォルト
@@ -163,6 +172,30 @@ options.attackIndicator.tooltip.3=  ホットバー - ホットバーの横
 options.attackIndicator.tooltip.4=  オフ - 攻撃インジケータ無し
 options.attackIndicator.tooltip.5=攻撃インジケータは、現在装備しているアイテムの
 options.attackIndicator.tooltip.6=攻撃力を表示します。
+
+options.screenEffectScale.tooltip.1=画面の歪み
+options.screenEffectScale.tooltip.2=  オフ - 無効
+options.screenEffectScale.tooltip.3=  1-100%% - 有効
+options.screenEffectScale.tooltip.4=ポータルのアニメーションや吐き気の効果
+options.screenEffectScale.tooltip.5=などの画面の歪み効果の強度を制御します。
+
+options.autosaveIndicator.tooltip.1=オートセーブの表示
+options.autosaveIndicator.tooltip.2=  オフ - 無効
+options.autosaveIndicator.tooltip.3=  オン - 有効
+options.autosaveIndicator.tooltip.4=ゲームが自動的にワールドを保存しているときに表示します。
+
+options.fovEffectScale.tooltip.1=視野の変化
+options.fovEffectScale.tooltip.2=  オフ - 無効
+options.fovEffectScale.tooltip.3=  1-100%% - 有効
+options.fovEffectScale.tooltip.4=弓の引き、ダッシュ、飛行などの
+options.fovEffectScale.tooltip.5=画面のズーム効果の強度を制御します。
+
+options.prioritizeChunkUpdates.tooltip.1=チャンク構築
+options.prioritizeChunkUpdates.tooltip.2= スレッド - バックグラウンドですべてのチャンクを更新する
+options.prioritizeChunkUpdates.tooltip.3= セミブロック化 - 影響を受けたチャンクを直ちに更新する
+options.prioritizeChunkUpdates.tooltip.4= フルブロック化 - 近くのすべてのチャンクを直ちに更新する
+options.prioritizeChunkUpdates.tooltip.5=スレッドでは、地形に一時的な穴が表示される場合があります。
+options.prioritizeChunkUpdates.tooltip.6=フルブロック化では、大幅な遅延を引き起こす可能性があります。
 
 of.options.ALTERNATE_BLOCKS=代替ブロック
 of.options.ALTERNATE_BLOCKS.tooltip.1=代替ブロック
