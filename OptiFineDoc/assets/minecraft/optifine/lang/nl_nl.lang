@@ -15,6 +15,9 @@ of.key.zoom=Zoom
 of.message.aa.shaders1=Antialiasing is niet compatibel met Shaders.
 of.message.aa.shaders2=Schakel Shaders uit om deze optie te gebruiken.
 
+of.message.aa.gf1=Antialiasing is niet compatibel met grafische weergave Fantastisch.
+of.message.aa.gf2=Verander de grafische weergave naar Snel of Fraai.
+
 of.message.af.shaders1=Anisotropische Filtering is niet compatibel met Shaders.
 of.message.af.shaders2=Schakel Shaders uit om deze optie te gebruiken.
 
@@ -76,7 +79,8 @@ options.graphics.tooltip.3=  Fraai - hogere kwaliteit, langzamer
 options.graphics.tooltip.4=  Fantastisch - betere doorzichte objecten, langzaamste
 options.graphics.tooltip.5=Verandert hoe wolken, bladeren, water,
 options.graphics.tooltip.6=schaduwen and gras eruit zien.
-options.graphics.tooltip.7=Fantatische grafische weergave is niet compatibel met shaders.
+options.graphics.tooltip.7=Fantatische grafische weergave is niet compatibel met
+options.graphics.tooltip.8=shaders en antialiasing.
 
 of.options.renderDistance.tiny=Klein
 of.options.renderDistance.short=Kort
@@ -94,6 +98,14 @@ options.renderDistance.tooltip.5=  32 Extreem - 512m (langzaamste!) erg veeleise
 options.renderDistance.tooltip.6=  48 Krankzinnig - 768m, 2GB toegewezen RAM benodigd
 options.renderDistance.tooltip.7=  64 Belachelijk - 1024m, 3GB toegewezen RAM benodigd
 options.renderDistance.tooltip.8=Waarden boven 16 (Ver) zijn alleen effectief in locale werelden.
+
+options.simulationDistance.tooltip.1=Simulatieafstand
+options.simulationDistance.tooltip.2=  5-12 - Normaal (sneller)
+options.simulationDistance.tooltip.3=  13-24 - Ver (langzamer)
+options.simulationDistance.tooltip.4=  25-32 - Extreem (langzaamst)
+options.simulationDistance.tooltip.5=Verandert hoe ver van de speler chunks en entiteiten
+options.simulationDistance.tooltip.6=worden geüpdatet.
+options.simulationDistance.tooltip.7=Hogere waarden kunnen significante haperingen veroorzaken.
 
 options.entityDistanceScaling.tooltip.1=Entiteitsweergaveafstand
 options.entityDistanceScaling.tooltip.2=  50%% - sneller
@@ -153,6 +165,30 @@ options.attackIndicator.tooltip.3=  Werkbalk - naast de werkbalk
 options.attackIndicator.tooltip.4=  UIT - geen aanvalsindicator
 options.attackIndicator.tooltip.5=De aanvalsindicator toont de aanvalskracht van het
 options.attackIndicator.tooltip.6=vastgehouden object.
+
+options.screenEffectScale.tooltip.1=Vervormingseffecten
+options.screenEffectScale.tooltip.2=  UIT - uitgeschakeld
+options.screenEffectScale.tooltip.3=  1-100%% - ingeschakeld
+options.screenEffectScale.tooltip.4=Regelt de intensiteit van de schermvervormingseffecten,
+options.screenEffectScale.tooltip.5=zoals van de netherportaal en het misselijkheideffect.
+
+options.autosaveIndicator.tooltip.1=Opslagindicator
+options.autosaveIndicator.tooltip.2=  UIT - uitgeschakeld
+options.autosaveIndicator.tooltip.3=  AAN - ingeschakeld
+options.autosaveIndicator.tooltip.4=Toont wanneer het spel de wereld automatisch opslaat.
+
+options.fovEffectScale.tooltip.1=Gezichtsveldeffecten
+options.fovEffectScale.tooltip.2=  UIT - uitgeschakeld
+options.fovEffectScale.tooltip.3=  1-100%% - ingeschakeld
+options.fovEffectScale.tooltip.4=Regelt de intensiteit van gezichtsveldveranderingen
+options.fovEffectScale.tooltip.5=door bijv. bogen te spannen, te sprinten of vliegen.
+
+options.prioritizeChunkUpdates.tooltip.1=Chunkbouwer
+options.prioritizeChunkUpdates.tooltip.2= synchroon - bouw alle chunks op in de achtergrond
+options.prioritizeChunkUpdates.tooltip.3= deels asynchroon - bouw door de speler beïnvloede chunks onmiddelijk op.
+options.prioritizeChunkUpdates.tooltip.4= asynchroon - nabije chunks worden altijd onmiddelijk opgebouwd.
+options.prioritizeChunkUpdates.tooltip.5=Bij synchrone updates kunnen er kort gaten in het terrein worden weergegeven.
+options.prioritizeChunkUpdates.tooltip.6=Bij asynchrone updates kunnen er significante haperingen ontstaan.
 
 of.options.ALTERNATE_BLOCKS=Alternatieve Blokken
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatieve Blokken
@@ -555,13 +591,13 @@ of.options.DYNAMIC_FOV.tooltip.1=Dynamisch Gezichtsveld
 of.options.DYNAMIC_FOV.tooltip.2=  AAN - gebruik dynamisch gezichtsveld (standaard)
 of.options.DYNAMIC_FOV.tooltip.3=  UIT - gebruik geen dynamisch gezichtsveld
 of.options.DYNAMIC_FOV.tooltip.4=Verandert het gezichtsveld (FOV) bij het vliegen, sprinten 
-of.options.DYNAMIC_FOV.tooltip.5=of trekken van een boog.
+of.options.DYNAMIC_FOV.tooltip.5=of spannen van een boog.
 
 of.options.DYNAMIC_LIGHTS=Dynamische Verlichting
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamische Verlichting
 of.options.DYNAMIC_LIGHTS.tooltip.2=  UIT - geen dynamische verlichting (standaard)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Snel - snelle dynamische verlichting (update elke 500ms)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Fraai - fraaie dynamische verlichting (update onmiddeljk)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Snel - snelle dynamische verlichting (updatet elke 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Fraai - fraaie dynamische verlichting (updatet onmiddeljk)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Stelt verlichte objecten (fakkel, gloeisteen, etc.) in staat
 of.options.DYNAMIC_LIGHTS.tooltip.6=om nabije blokken te verlichten wanneer ze worden vast-
 of.options.DYNAMIC_LIGHTS.tooltip.7=gehouden door een speler of op de grond zijn gegooid.
@@ -629,18 +665,18 @@ of.options.LAZY_CHUNK_LOADING.tooltip.5=verdelen van het laden van chunks over m
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Zet dit UIT als delen van de wereld niet correct laden.
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Alleen effectief voor locale werelden (alleen spelen).
 
-of.options.RENDER_REGIONS=Weergave Regio's
-of.options.RENDER_REGIONS.tooltip.1=Weergave Regio's
+of.options.RENDER_REGIONS=Weergaveregio's
+of.options.RENDER_REGIONS.tooltip.1=Weergaveregio's
 of.options.RENDER_REGIONS.tooltip.2= UIT - gebruik geen weergave regio's (standaard)
 of.options.RENDER_REGIONS.tooltip.3= AAN - gebruik weergave regio's
-of.options.RENDER_REGIONS.tooltip.4=Weergave regio's maakt het sneller laden van terrein bij hogere
-of.options.RENDER_REGIONS.tooltip.5=weergave-afstanden mogelijk. Effectiever met VBOs ingeschakeld.
+of.options.RENDER_REGIONS.tooltip.4=Maakt sneller laden van terrein mogelijk door betere
+of.options.RENDER_REGIONS.tooltip.5=GPU-belasting. Effectiever bij hogere weergave-afstanden.
 of.options.RENDER_REGIONS.tooltip.6=Niet aangeraden voor geïntegreerde grafische kaarten.
 
 of.options.SMART_ANIMATIONS=Slimme Animaties
 of.options.SMART_ANIMATIONS.tooltip.1=Slimme Animaties
 of.options.SMART_ANIMATIONS.tooltip.2= UIT - gebruik geen slimme animaties (standaard)
-of.options.SMART_ANIMATIONS.tooltip.3= AAN - gebruik slimme animaties
+of.options.SMART_ANIMATIONS.tooltip.3= AAN - gebruik slimme animaties (sneller)
 of.options.SMART_ANIMATIONS.tooltip.4=Met slimme animaties worden alleen blokken zichtbaar op het  
 of.options.SMART_ANIMATIONS.tooltip.5=scherm geanimeerd. Dit vermindert haperingen en verbetert 
 of.options.SMART_ANIMATIONS.tooltip.6=prestaties. Vooral handig bij het gebruik van grote
@@ -678,7 +714,7 @@ of.options.LAGOMETER.tooltip.2=* Oranje - Geheugenvuilnisverzameling
 of.options.LAGOMETER.tooltip.3=* Cyaan - Tick
 of.options.LAGOMETER.tooltip.4=* Blauw - Geplande opdrachten
 of.options.LAGOMETER.tooltip.5=* Paars - Chunk upload
-of.options.LAGOMETER.tooltip.6=* Rood - Chunk updates
+of.options.LAGOMETER.tooltip.6=* Rood - Chunkupdates
 of.options.LAGOMETER.tooltip.7=* Geel - Zichtbaarheidscheck
 of.options.LAGOMETER.tooltip.8=* Groen - Terreinweergave
 
