@@ -3,7 +3,7 @@
 #   CrafterKina 2014-01-04 ---- 2018-12-07
 #   ViaSnake 2019-12-16 ---- 
 #   syokkendesuyo 2020-08-04 ---- 
-#   httpsnet 2021-12-17 ---- 
+#   httpsnet 2021-12-17 ---- 2021-12-25
 
 
 # General
@@ -20,48 +20,48 @@ of.general.smart=スマート
 of.key.zoom=ズーム
 
 # Message
-of.message.aa.shaders1=アンチエイリアスはシェーダーと共存できません。
+of.message.aa.shaders1=アンチエイリアスはシェーダーと互換性がありません。
 of.message.aa.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
 of.message.aa.gf1=アンチエイリアスはグラフィックスの「最高設定」と互換性がありません。
 of.message.aa.gf2=グラフィックスを処理優先か描画優先にしてください。
 
-of.message.af.shaders1=異方性フィルタリングはシェーダーと共存できません。
+of.message.af.shaders1=異方性フィルタリングはシェーダーと互換性がありません。
 of.message.af.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
-of.message.fr.shaders1=描画の最適化はシェーダーと共存できません。
+of.message.fr.shaders1=描画の最適化はシェーダーと互換性がありません。
 of.message.fr.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
-of.message.an.shaders1=3Dアナグリフはシェーダーと共存できません。
+of.message.an.shaders1=3Dアナグリフはシェーダーと互換性がありません。
 of.message.an.shaders2=このオプションを有効にするには、シェーダーを無効にしてください。
 
-of.message.shaders.aa1=シェーダーはアンチエイリアスと共存できません。
+of.message.shaders.aa1=シェーダーはアンチエイリアスと互換性がありません。
 of.message.shaders.aa2=品質の設定 → アンチエイリアス をオフにし、ゲームを再起動してください。
 
-of.message.shaders.af1=シェーダーは異方性フィルタリングと共存できません。
+of.message.shaders.af1=シェーダーは異方性フィルタリングと互換性がありません。
 of.message.shaders.af2=品質の設定 → 異方性フィルタリング をオフにしてください。
 
-of.message.shaders.fr1=シェーダーは描画の最適化と共存できません。
+of.message.shaders.fr1=シェーダーは描画の最適化と互換性がありません。
 of.message.shaders.fr2=演出の設定 → 描画の最適化 をオフにしてください。
 
 of.message.shaders.gf1=シェーダーはグラフィックスの「最高設定」と互換性がありません。
 of.message.shaders.gf2=グラフィックスの設定を描画優先または処理優先に変更してください。
 
-of.message.shaders.an1=シェーダーは3Dアナグリフと共存できません。
+of.message.shaders.an1=シェーダーは3Dアナグリフと互換性がありません。
 of.message.shaders.an2=その他の設定 → 3Dアナグリフ をオフにしてください。
 
-of.message.shaders.nv1=このシェーダーパックはより新しいOptiFine (%s) を要求します。
+of.message.shaders.nv1=このシェーダーパックは新しいOptiFine (%s) が必要です。
 of.message.shaders.nv2=続行しますか？
 
-of.message.newVersion=新しい§eOptiFine§fが公開されました: §e%s§f
-of.message.java64Bit=最良のパフォーマンスを発揮するためには§e64-bit Java§f使用してください。
+of.message.newVersion=新しい§eOptiFine§fが利用可能です: §e%s§f
+of.message.java64Bit=パフォーマンスを向上させるために§e64-bit Java§fを使用してください。
 of.message.openglError=§eOpenGLエラー§f: %s (%s)
 
 of.message.shaders.loading=シェーダーをロード中: %s
 
-of.message.other.reset=全ての設定を元の状態に戻してもよろしいですか？
+of.message.other.reset=すべてのビデオ設定を初期化しますか？
 
-of.message.loadingVisibleChunks=表示されているチャンクを読み込んでいます
+of.message.loadingVisibleChunks=表示中のチャンクを読み込んでいます
 
 # Skin customization
 
@@ -84,7 +84,7 @@ of.message.capeOF.error2=エラー: %s
 options.graphics.tooltip.1=グラフィックス
 options.graphics.tooltip.2=  処理優先 - 低品質、低負荷
 options.graphics.tooltip.3=  描画優先 - 高品質、高負荷
-options.graphics.tooltip.4=  最高設定 - 最高品質の透過ブロック、非常に高負荷
+options.graphics.tooltip.4=  最高設定 - 最高品質の透過ブロック 超高負荷
 options.graphics.tooltip.5=雲、葉、水、影、草の側面の
 options.graphics.tooltip.6=外観を変更します。
 options.graphics.tooltip.7=最高設定はシェーダー及びアンチエイリアスと
@@ -100,7 +100,7 @@ of.options.renderDistance.ludicrous=不条理
 
 options.renderDistance.tooltip.1=描画距離
 options.renderDistance.tooltip.2=  2 最短 - 32m (最低負荷)
-options.renderDistance.tooltip.3=  8 普通 - 128m (普通)
+options.renderDistance.tooltip.3=  8 普通 - 128m (中負荷)
 options.renderDistance.tooltip.4=  16 遠い - 256m (高負荷)
 options.renderDistance.tooltip.5=  32 過激 - 512m (超高負荷！) 大量のリソースを要求します
 options.renderDistance.tooltip.6=  48 狂気 - 768m、2GB以上のメモリー割り当てが必要です
@@ -149,8 +149,9 @@ of.options.AO_LEVEL.tooltip.4=  100%% - 暗い影
 of.options.AO_LEVEL.tooltip.5=この項目のオフではスムースライティングは無効化されない。
 
 options.viewBobbing.tooltip.1=画面の揺れ
-options.viewBobbing.tooltip.2=ミップマップを使う場合には、最良の結果のためにオフにしてください。
-options.viewBobbing.tooltip.3=歩行やダメージを受けたときの画面の揺れを設定します。
+options.viewBobbing.tooltip.2=ミップマップを使用する場合は、
+options.viewBobbing.tooltip.3=最良の結果を得るためにオフに設定してください。
+options.viewBobbing.tooltip.4=歩行やダメージを受けたときの画面の揺れを設定します。
 
 options.guiScale.tooltip.1=GUIの大きさ
 options.guiScale.tooltip.2=  自動 - 最大サイズ
@@ -168,8 +169,8 @@ options.gamma.tooltip.1=暗い物体の明るさの変更
 options.gamma.tooltip.2=  暗い - 通常の明るさ
 options.gamma.tooltip.3=  1〜99%% - 明るさを調整する
 options.gamma.tooltip.4=  明るい - 最大の明るさ
-options.gamma.tooltip.5=完全に黒い物体の明るさは、
-options.gamma.tooltip.6=変更できません。
+options.gamma.tooltip.5=完全に黒い物体の明るさを変更しません。
+options.gamma.tooltip.6= 
 
 options.anaglyph.tooltip.1=3Dアナグリフ
 options.anaglyph.tooltip.2=それぞれの目に別々の色を使うことで
@@ -225,7 +226,7 @@ of.options.FOG_START=霧の距離
 of.options.FOG_START.tooltip.1=プレイヤーと霧の距離の設定
 of.options.FOG_START.tooltip.2=  0.2 - プレイヤーと霧の距離を最も近くする
 of.options.FOG_START.tooltip.3=  0.8 - プレイヤーと霧の距離を最も遠くする
-of.options.FOG_START.tooltip.4=この設定は概ねパフォーマンスに影響を与えません。
+of.options.FOG_START.tooltip.4=この設定は通常はパフォーマンスには影響しません。
 
 of.options.CHUNK_LOADING=チャンク読み込み
 of.options.CHUNK_LOADING.tooltip.1=チャンク読み込み
@@ -368,7 +369,7 @@ options.mipmapLevels.tooltip.2=テクスチャのスムージングによって�
 options.mipmapLevels.tooltip.3=  オフ - スムージングを行わない
 options.mipmapLevels.tooltip.4=  1 - 最小限のスムージング
 options.mipmapLevels.tooltip.5=  最大限 - 最大限のスムージング
-options.mipmapLevels.tooltip.6=この設定は概ねパフォーマンスに影響を与えません。
+options.mipmapLevels.tooltip.6=この設定は基本的にパフォーマンスに影響を与えません。
 
 of.options.MIPMAP_TYPE=ミップマップの種類
 of.options.MIPMAP_TYPE.tooltip.1=遠くの物体における視覚効果を
@@ -436,11 +437,11 @@ of.options.CUSTOM_COLORS.tooltip.3=  オフ - デフォルトの色を使う 低
 of.options.CUSTOM_COLORS.tooltip.4=カスタムカラーは現在使用中の
 of.options.CUSTOM_COLORS.tooltip.5=リソースパックによって提供されます。
 
-of.options.SWAMP_COLORS=湿地帯色
-of.options.SWAMP_COLORS.tooltip.1=湿地帯色
-of.options.SWAMP_COLORS.tooltip.2=  オン - 湿地帯色を使う 高負荷
-of.options.SWAMP_COLORS.tooltip.3=  オフ - 湿地帯色を使わない 低負荷
-of.options.SWAMP_COLORS.tooltip.4=湿地帯色は草、葉、蔦、水に影響を与えます。
+of.options.SWAMP_COLORS=沼地の色
+of.options.SWAMP_COLORS.tooltip.1=沼地バイオームの色
+of.options.SWAMP_COLORS.tooltip.2=  オン - 沼地の色を使う 高負荷
+of.options.SWAMP_COLORS.tooltip.3=  オフ - 沼地の色を使わない 低負荷
+of.options.SWAMP_COLORS.tooltip.4=沼地の色は草、葉、蔦、水に影響を与えます。
 
 of.options.SMOOTH_BIOMES=滑らかなバイオーム
 of.options.SMOOTH_BIOMES.tooltip.1=滑らかなバイオーム
@@ -454,7 +455,7 @@ of.options.CONNECTED_TEXTURES=継ぎ目ないテクスチャ
 of.options.CONNECTED_TEXTURES.tooltip.1=継ぎ目ないテクスチャ
 of.options.CONNECTED_TEXTURES.tooltip.2=  オフ - テクスチャの継ぎ目をなくさない (初期値)
 of.options.CONNECTED_TEXTURES.tooltip.3=  処理優先 - テクスチャの継ぎ目を減らす
-of.options.CONNECTED_TEXTURES.tooltip.4=  描画優先 - テクスチャの継ぎ目を綺麗にする
+of.options.CONNECTED_TEXTURES.tooltip.4=  描画優先 - テクスチャの継ぎ目を自然にする
 of.options.CONNECTED_TEXTURES.tooltip.5=ガラス、砂岩、本棚を並べて配置すると、
 of.options.CONNECTED_TEXTURES.tooltip.6=そのテクスチャを継ぎ目なく表示します。
 of.options.CONNECTED_TEXTURES.tooltip.7=つながった状態のテクスチャは現在使用中の
@@ -642,7 +643,7 @@ of.options.SMOOTH_FPS.tooltip.5=常には有効ではありません。
 of.options.SMOOTH_WORLD=サーバー負荷を分散
 of.options.SMOOTH_WORLD.tooltip.1=内部サーバーによるラグの除去。
 of.options.SMOOTH_WORLD.tooltip.2=  オフ - 安定化しない。FPSは変動しやすくなります。
-of.options.SMOOTH_WORLD.tooltip.3=  オン - 安定化する。
+of.options.SMOOTH_WORLD.tooltip.3=  オン - FPSは安定化する。
 of.options.SMOOTH_WORLD.tooltip.4=内部サーバーの負荷を分散することにより、FPSを安定します。
 of.options.SMOOTH_WORLD.tooltip.5=シングルプレイにのみ有効です。
 
@@ -683,7 +684,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.2= オフ - 通常のサーバーチャン
 of.options.LAZY_CHUNK_LOADING.tooltip.3= オン - 遅延サーバーチャンク読み込み (滑らか)
 of.options.LAZY_CHUNK_LOADING.tooltip.4=チャンク読み込み処理を数Tickに分散することで
 of.options.LAZY_CHUNK_LOADING.tooltip.5=統合サーバーのチャンク読み込み処理を滑らかにします。
-of.options.LAZY_CHUNK_LOADING.tooltip.6=ワールドの一部に欠損が発生する場合はオフにしてください。
+of.options.LAZY_CHUNK_LOADING.tooltip.6=地形の一部に穴が発生する場合はオフにしてください。
 of.options.LAZY_CHUNK_LOADING.tooltip.7=シングルプレイの時のみ有効です。
 
 of.options.RENDER_REGIONS=領域描画
@@ -698,15 +699,15 @@ of.options.SMART_ANIMATIONS=スマートアニメーション
 of.options.SMART_ANIMATIONS.tooltip.1=スマートアニメーション
 of.options.SMART_ANIMATIONS.tooltip.2= オフ - スマートアニメーションを使用しない (初期値)
 of.options.SMART_ANIMATIONS.tooltip.3= オン - スマートアニメーションを使用する (高速)
-of.options.SMART_ANIMATIONS.tooltip.4=スマートアニメーションを使えばテクスチャのアニメーション処理は
-of.options.SMART_ANIMATIONS.tooltip.5=見える範囲でのみ行われるようになります。
+of.options.SMART_ANIMATIONS.tooltip.4=スマートアニメーションを使えばテクスチャの
+of.options.SMART_ANIMATIONS.tooltip.5=アニメーション処理は見える範囲のみ行うことで
 of.options.SMART_ANIMATIONS.tooltip.6=ラグを減らし、FPSが向上します。
 of.options.SMART_ANIMATIONS.tooltip.7=特に大きなModパックや高解像度のリソースパックに役立ちます。
 
 # Animations
 
-of.options.animation.allOn=全てオン
-of.options.animation.allOff=全てオフ
+of.options.animation.allOn=すべてオン
+of.options.animation.allOff=すべてオフ
 of.options.animation.dynamic=動的
 
 of.options.ANIMATED_WATER=水
@@ -743,17 +744,17 @@ of.options.PROFILER=デバッグプロファイラ
 of.options.PROFILER.tooltip.1=デバッグプロファイラ
 of.options.PROFILER.tooltip.2=  オン - デバッグプロファイラの有効化 高負荷
 of.options.PROFILER.tooltip.3=  オフ - デバッグプロファイラの無効化 低負荷
-of.options.PROFILER.tooltip.4=デバッグ画面 (F3) が開かれている時に
+of.options.PROFILER.tooltip.4=デバッグ画面 (F3) が表示されている時に
 of.options.PROFILER.tooltip.5=デバッグ情報を収集し円グラフ上に表示します。
 of.options.PROFILER.tooltip.6=デバッグプロファイラの表示中に数字キーを入力すると
-of.options.PROFILER.tooltip.7=プロファイラが更に詳細化されます。0キーで戻ることができます。
+of.options.PROFILER.tooltip.7=プロファイラが詳細化します。0キーで戻ることができます。
 
 of.options.WEATHER=天候
 of.options.WEATHER.tooltip.1=天候
 of.options.WEATHER.tooltip.2=  オン - 天候あり 高負荷
 of.options.WEATHER.tooltip.3=  オフ - 天候なし 低負荷
 of.options.WEATHER.tooltip.4=天候コントロール機能の設定を変更できます。
-of.options.WEATHER.tooltip.5=シングルプレイでのみ利用可能な設定です。
+of.options.WEATHER.tooltip.5=シングルプレイでのみ有効な設定です。
 
 of.options.time.dayOnly=昼のみ
 of.options.time.nightOnly=夜のみ
@@ -763,16 +764,16 @@ of.options.TIME.tooltip.1=クリエイティブの時刻
 of.options.TIME.tooltip.2= デフォルト - 通常の昼夜サイクル
 of.options.TIME.tooltip.3= 昼のみ - 昼のみ
 of.options.TIME.tooltip.4= 夜のみ - 夜のみ
-of.options.TIME.tooltip.5=この設定はシングルプレイかつクリエイティブモードに限り有効です。
-of.options.TIME.tooltip.6= 
+of.options.TIME.tooltip.5=この設定はシングルプレイかつ
+of.options.TIME.tooltip.6=クリエイティブモードで有効になります。
 
 options.fullscreen.tooltip.1=フルスクリーン
 options.fullscreen.tooltip.2=  オン - フルスクリーンモード
 options.fullscreen.tooltip.3=  オフ - ウィンドウモード
 options.fullscreen.tooltip.4=フルスクリーンモードは、グラフィックカードに応じて、
 options.fullscreen.tooltip.5=ウィンドウモードよりもFPSが低下または向上することがあります。 
-options.fullscreen.tooltip.6=フルスクリーンモードでも、余計なアプリケーションを
-options.fullscreen.tooltip.7=非表示にすることでFPSが向上する可能性があります。
+options.fullscreen.tooltip.6=フルスクリーンモードでも、他のアプリケーションを
+options.fullscreen.tooltip.7=非表示にすることでFPSが向上しやすくなります。
 
 options.fullscreen.resolution=フルスクリーンの種類
 options.fullscreen.resolution.tooltip.1=フルスクリーンの種類
@@ -802,8 +803,8 @@ of.options.save.24min=24分
 of.options.AUTOSAVE_TICKS=オートセーブ
 of.options.AUTOSAVE_TICKS.tooltip.1=セーブ間隔
 of.options.AUTOSAVE_TICKS.tooltip.2= 45秒 - デフォルト
-of.options.AUTOSAVE_TICKS.tooltip.3=描画距離によってはオートセーブはラグを引き起こします。
-of.options.AUTOSAVE_TICKS.tooltip.4=ゲームメニューを開いた際にもワールドはセーブされます。
+of.options.AUTOSAVE_TICKS.tooltip.3=オートセーブは描画距離に応じてラグを引き起こします。
+of.options.AUTOSAVE_TICKS.tooltip.4=ゲームメニューを開いてもワールドは保存されます。
 
 of.options.SCREENSHOT_SIZE=スクリーンショットのサイズ
 of.options.SCREENSHOT_SIZE.tooltip.1=スクリーンショットのサイズ
@@ -811,7 +812,7 @@ of.options.SCREENSHOT_SIZE.tooltip.2=  デフォルト - 通常の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x〜4x - 任意の大きさ
 of.options.SCREENSHOT_SIZE.tooltip.4=より大きなスクリーンショットの撮影には、
 of.options.SCREENSHOT_SIZE.tooltip.5=より多くのメモリが必要になります。
-of.options.SCREENSHOT_SIZE.tooltip.6=アンチエイリアスとは共存できません。
+of.options.SCREENSHOT_SIZE.tooltip.6=アンチエイリアスとは互換性がありません。
 of.options.SCREENSHOT_SIZE.tooltip.7=GPUがフレームバッファをサポートしている必要があります。
 
 of.options.SHOW_GL_ERRORS=OpenGLエラーの表示
