@@ -1,5 +1,3 @@
-![](https://raw.githubusercontent.com/frogweezer/optifine/master/.github/ASSETS/OptiFine.png)
-
 <div align="center">
   <h1>OptiFine</h1>
 
@@ -12,6 +10,12 @@
   **Donate to OptiFine** and receive the [OptiFine cape](http://i.imgur.com/zXIkv.png) as a sign of your awesomeness.
 
   The cape is visible to everyone using OptiFine. Thank you for being awesome.
+
+  <table border="0"><tr>
+  <th><img src="https://preview.redd.it/zrdnoq4k16p41.png?width=2560&format=png&auto=webp&s=c3094fe447432ace149d0030bef4ee8cb87250d5" height=200></th>
+  <th><img src="https://preview.redd.it/zrdnoq4k16p41.png?width=2560&format=png&auto=webp&s=c3094fe447432ace149d0030bef4ee8cb87250d5" height=200></th>
+  <th><img src="https://preview.redd.it/zrdnoq4k16p41.png?width=2560&format=png&auto=webp&s=c3094fe447432ace149d0030bef4ee8cb87250d5" height=200></th>
+  </tr></table>
 </div>
 
 ---
