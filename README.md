@@ -5,17 +5,15 @@
 
   [r/OptiFine](https://www.minecraftforum.net/linkout?remoteUrl=https%253a%252f%252fwww.reddit.com%252fr%252fOptifine%252f") || [Twitter](https://twitter.com/sp614x) || [Issue Tracker](https://github.com/sp614x/optifine/issues)
 
+  <a href="https://www.reddit.com/r/Optifine/comments/fpsoee/152_screenshots/"><img src="https://preview.redd.it/7lbhgi3q16p41.png?width=2560&format=png&auto=webp&s=994b33e6f258f67238647f9ec0ac458cf21756b5" height=300></a>
+
+  <a href="https://www.reddit.com/r/Optifine/comments/kxe0u4/favorite_screenshots_ive_tooken_today/"><img src="https://preview.redd.it/nwpu2dy1ycb61.jpg?width=2880&format=pjpg&auto=webp&s=417eac9117937527e1f5ae06acb6c1ad3ac07511" height=300></a>
+
   <br>
 
   **Donate to OptiFine** and receive the [OptiFine cape](http://i.imgur.com/zXIkv.png) as a sign of your awesomeness.
 
   The cape is visible to everyone using OptiFine. Thank you for being awesome.
-
-  <table border="0"><tr>
-  <th><img src="https://preview.redd.it/zrdnoq4k16p41.png?width=2560&format=png&auto=webp&s=c3094fe447432ace149d0030bef4ee8cb87250d5" height=200></th>
-  <th><img src="https://preview.redd.it/zrdnoq4k16p41.png?width=2560&format=png&auto=webp&s=c3094fe447432ace149d0030bef4ee8cb87250d5" height=200></th>
-  <th><img src="https://preview.redd.it/zrdnoq4k16p41.png?width=2560&format=png&auto=webp&s=c3094fe447432ace149d0030bef4ee8cb87250d5" height=200></th>
-  </tr></table>
 </div>
 
 ---
