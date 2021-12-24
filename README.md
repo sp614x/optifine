@@ -3,15 +3,11 @@
 
   A mod which adds support for HD textures, shaders, and a ton of options for better looks and performance. Doubling the FPS is common.
 
-  [r/OptiFine](https://www.minecraftforum.net/linkout?remoteUrl=https%253a%252f%252fwww.reddit.com%252fr%252fOptifine%252f") || [Twitter](https://twitter.com/sp614x) || [Issue Tracker](https://github.com/sp614x/optifine/issues)
-
-  <a href="https://www.reddit.com/r/Optifine/comments/fpsoee/152_screenshots/"><img src="https://preview.redd.it/7lbhgi3q16p41.png?width=2560&format=png&auto=webp&s=994b33e6f258f67238647f9ec0ac458cf21756b5" height=300></a>
-
-  <a href="https://www.reddit.com/r/Optifine/comments/kxe0u4/favorite_screenshots_ive_tooken_today/"><img src="https://preview.redd.it/nwpu2dy1ycb61.jpg?width=2880&format=pjpg&auto=webp&s=417eac9117937527e1f5ae06acb6c1ad3ac07511" height=300></a>
+  [r/OptiFine](https://www.minecraftforum.net/linkout?remoteUrl=https%253a%252f%252fwww.reddit.com%252fr%252fOptifine%252f") || [Twitter](https://twitter.com/sp614x) || [Issue Tracker](https://github.com/sp614x/optifine/issues) || [Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272953-optifine-hd-fps-boost-dynamic-lights-shaders-and)
 
   <br>
 
-  **Donate to OptiFine** and receive the [OptiFine cape](http://i.imgur.com/zXIkv.png) as a sign of your awesomeness.
+  **[Donate to OptiFine](https://optifine.net/donate)** and receive the [OptiFine cape](http://i.imgur.com/zXIkv.png) as a sign of your awesomeness.
 
   The cape is visible to everyone using OptiFine. Thank you for being awesome.
 </div>
