@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/frogweezer/optifine/.GITHUB/ASSETS/OptiFine.png)
+![](https://raw.githubusercontent.com/frogweezer/optifine/master/.github/ASSETS/OptiFine.png)
 
 <div align="center">
   <h1>OptiFine</h1>
