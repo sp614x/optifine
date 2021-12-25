@@ -1,4 +1,5 @@
 # Contributors of Chinese localization #
+#   THGABS from Minecraft Wiki 2019-2-18 ---- 2021-12-25
 #   HeartyYF From InfinityStudio 2016-2-18 ---- 2020-7-25
 #   xwjcool123 From Rainbow Pixel 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
@@ -101,14 +102,22 @@ of.options.renderDistance.extreme=极远
 of.options.renderDistance.insane=疯狂
 of.options.renderDistance.ludicrous=荒唐
 
-options.renderDistance.tooltip.1=能见度
+options.renderDistance.tooltip.1=可见距离
 options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
 options.renderDistance.tooltip.3=  8 中等 - 128m（正常）
 options.renderDistance.tooltip.4=  16 远 - 256m（较慢）
 options.renderDistance.tooltip.5=  32 极远 - 512m（最慢！）非常消耗资源！
-options.renderDistance.tooltip.6=  48 疯狂 - 768m，至少需要分配2G内存
-options.renderDistance.tooltip.7=  64 荒唐 - 1024m，至少需要分配3G内存
-options.renderDistance.tooltip.8=超过16的能见度值只在本地世界有效。
+options.renderDistance.tooltip.6=  48 疯狂 - 768m，至少需要分配2GB内存
+options.renderDistance.tooltip.7=  64 荒唐 - 1024m，至少需要分配3GB内存
+options.renderDistance.tooltip.8=超过16的值只在本地世界内有效。
+
+options.simulationDistance.tooltip.1=模拟距离
+options.simulationDistance.tooltip.2=  5-12 - 中等（较快）
+options.simulationDistance.tooltip.3=  13-24 - 远（较慢）
+options.simulationDistance.tooltip.4=  25-32 - 极远（最慢）
+options.simulationDistance.tooltip.5=控制区块和实体与玩家相距多远时开始进行更新。
+options.simulationDistance.tooltip.6=较高的值可能会导致明显的突发延迟。
+options.simulationDistance.tooltip.7= 
 
 options.entityDistanceScaling.tooltip.1=实体渲染距离
 options.entityDistanceScaling.tooltip.2=  50%% - 较快
@@ -150,7 +159,7 @@ options.vbo.tooltip.1=顶点缓冲区对象
 options.vbo.tooltip.2=使用一种替选的渲染模式，通常
 options.vbo.tooltip.3=可以比默认渲染快（5-10%%）。
 
-options.gamma.tooltip.1=增加较暗物体的亮度
+options.gamma.tooltip.1=提高较暗物体的亮度
 options.gamma.tooltip.2=  标准 - 标准亮度
 options.gamma.tooltip.3=  1-99%% - 可变亮度
 options.gamma.tooltip.4=  明亮 - 最大亮度
@@ -168,6 +177,30 @@ options.attackIndicator.tooltip.3=  快捷栏 - 位于快捷栏旁
 options.attackIndicator.tooltip.4=  关闭 - 无攻击指示器
 options.attackIndicator.tooltip.5=攻击指示器显示当前所持物品的攻击力。
 options.attackIndicator.tooltip.6= 
+
+options.screenEffectScale.tooltip.1=屏幕扭曲效果
+options.screenEffectScale.tooltip.2=  关 - 关闭
+options.screenEffectScale.tooltip.3=  1-100%% - 开启
+options.screenEffectScale.tooltip.4=控制屏幕扭曲效果（例如反胃状态效果
+options.screenEffectScale.tooltip.5=和下界传送门）的强度。
+
+options.autosaveIndicator.tooltip.1=自动保存指示器
+options.autosaveIndicator.tooltip.2=  关 - 关闭
+options.autosaveIndicator.tooltip.3=  开 - 开启
+options.autosaveIndicator.tooltip.4=会在游戏自动保存世界时显示。
+
+options.fovEffectScale.tooltip.1=视场角效果
+options.fovEffectScale.tooltip.2=  关 - 关闭
+options.fovEffectScale.tooltip.3=  1-100%% - 开启
+options.fovEffectScale.tooltip.4=控制视场角效果（例如拉弓、疾跑和
+options.fovEffectScale.tooltip.5=飞行时的视场缩放）的强度。
+
+options.prioritizeChunkUpdates.tooltip.1=区块构建器
+options.prioritizeChunkUpdates.tooltip.2= 线程化 - 在后台更新所有的区块
+options.prioritizeChunkUpdates.tooltip.3= 半阻塞 - 立刻更新会使玩家受到影响的区块
+options.prioritizeChunkUpdates.tooltip.4= 全阻塞 - 立刻更新附近的所有区块
+options.prioritizeChunkUpdates.tooltip.5=线程化的更新可能导致破坏方块时短暂出现空洞。
+options.prioritizeChunkUpdates.tooltip.6=全阻塞式更新可能导致显著突发延迟。
 
 of.options.ALTERNATE_BLOCKS=替选方块
 of.options.ALTERNATE_BLOCKS.tooltip.1=替选方块
@@ -338,7 +371,6 @@ of.options.MIPMAP_TYPE.tooltip.3=  线性 - 正常平滑
 of.options.MIPMAP_TYPE.tooltip.4=  双线性 - 精细平滑
 of.options.MIPMAP_TYPE.tooltip.5=  三线性 - 极致平滑（最慢）
 of.options.MIPMAP_TYPE.tooltip.6= 
-
 
 of.options.AA_LEVEL=抗锯齿
 of.options.AA_LEVEL.tooltip.1=抗锯齿
@@ -511,12 +543,12 @@ of.options.SKY.tooltip.4=日月的可见与否有单独的选项。
 of.options.STARS=星星
 of.options.STARS.tooltip.1=星星
 of.options.STARS.tooltip.2=  开启 - 星星可见（较慢）
-of.options.STARS.tooltip.3=  关闭  - 星星不可见（较快）
+of.options.STARS.tooltip.3=  关闭 - 星星不可见（较快）
 
 of.options.SUN_MOON=日月
 of.options.SUN_MOON.tooltip.1=日月
 of.options.SUN_MOON.tooltip.2=  开启 - 太阳和月亮可见（默认）
-of.options.SUN_MOON.tooltip.3=  关闭  - 太阳和月亮不可见（较快）
+of.options.SUN_MOON.tooltip.3=  关闭 - 太阳和月亮不可见（较快）
 
 of.options.SHOW_CAPES=显示披风
 of.options.SHOW_CAPES.tooltip.1=显示披风
@@ -586,7 +618,7 @@ options.biomeBlendRadius.tooltip.2=  关 - 无混色（最快）
 options.biomeBlendRadius.tooltip.3=  5x5 - 正常混色（默认）
 options.biomeBlendRadius.tooltip.4=  15x15 - 最大混色（最慢）
 options.biomeBlendRadius.tooltip.5=较大的值可能会产生显著的突发延迟
-options.biomeBlendRadius.tooltip.6=并减慢区块加载速度。
+options.biomeBlendRadius.tooltip.6=并降低区块加载速度。
 
 # Performance
 
@@ -602,7 +634,7 @@ of.options.SMOOTH_WORLD.tooltip.1=消除内置服务器造成的突发延迟。
 of.options.SMOOTH_WORLD.tooltip.2=  关闭 - 不稳定，FPS可能波动
 of.options.SMOOTH_WORLD.tooltip.3=  开启 - FPS稳定
 of.options.SMOOTH_WORLD.tooltip.4=分担内置服务器负载来稳定FPS。
-of.options.SMOOTH_WORLD.tooltip.5=只在本地世界（单人游戏）有效。
+of.options.SMOOTH_WORLD.tooltip.5=仅适用于本地世界（单人游戏）。
 
 of.options.FAST_RENDER=快速渲染
 of.options.FAST_RENDER.tooltip.1=快速渲染
@@ -642,7 +674,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= 开启 - 缓慢的服务器区块载入
 of.options.LAZY_CHUNK_LOADING.tooltip.4=将区块分布在多个“游戏刻”进行加载
 of.options.LAZY_CHUNK_LOADING.tooltip.5=从而平滑服务器整体区块加载。
 of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正确地载入，请把它设为关。
-of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于单人游戏的本地世界。
+of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于本地世界（单人游戏）。
 
 of.options.RENDER_REGIONS=区域渲染
 of.options.RENDER_REGIONS.tooltip.1=区域渲染
@@ -708,8 +740,8 @@ of.options.WEATHER=天气
 of.options.WEATHER.tooltip.1=天气
 of.options.WEATHER.tooltip.2=  开启 - 开启天气（较慢）
 of.options.WEATHER.tooltip.3=  关闭 - 关闭天气（较快）
-of.options.WEATHER.tooltip.4=天气选项影响雨、雪和雷暴。
-of.options.WEATHER.tooltip.5=天气选项仅在本地游戏中生效。
+of.options.WEATHER.tooltip.4=天气选项会影响雨、雪和雷雨。
+of.options.WEATHER.tooltip.5=天气选项只能在本地世界中生效。
 
 of.options.time.dayOnly=终为白日
 of.options.time.nightOnly=终为夜晚
@@ -719,8 +751,8 @@ of.options.TIME.tooltip.1=时间
 of.options.TIME.tooltip.2= 默认 - 正常的日夜交替
 of.options.TIME.tooltip.3= 终为白日 - 只有白天
 of.options.TIME.tooltip.4= 终为夜晚 - 只有夜晚
-of.options.TIME.tooltip.5=时间设置只在创造模式下
-of.options.TIME.tooltip.6=且为本地游戏时有效。
+of.options.TIME.tooltip.5=时间设置只在创造模式下的本地
+of.options.TIME.tooltip.6=世界中有效。
 
 options.fullscreen.tooltip.1=全屏
 options.fullscreen.tooltip.2=  开启 - 使用全屏模式
@@ -732,8 +764,8 @@ options.fullscreen.resolution=全屏模式
 options.fullscreen.resolution.tooltip.1=全屏模式
 options.fullscreen.resolution.tooltip.2=  默认 - 使用桌面分辨率（较慢）
 options.fullscreen.resolution.tooltip.3=  自定义 - 使用自定义屏幕分辨率，可能会较快
-options.fullscreen.resolution.tooltip.4=此选项只在全屏模式下生效（F11）。
-options.fullscreen.resolution.tooltip.5=较低的分辨率通常会更快。
+options.fullscreen.resolution.tooltip.4=此选项只在全屏模式（F11）下生效。
+options.fullscreen.resolution.tooltip.5=较低的分辨率通常应当更快。
 
 of.options.SHOW_FPS=显示FPS
 of.options.SHOW_FPS.tooltip.1=显示迷你FPS及渲染信息
@@ -768,8 +800,8 @@ of.options.SCREENSHOT_SIZE.tooltip.6=需要显卡帧缓冲区支持。
 of.options.SHOW_GL_ERRORS=显示GL错误
 of.options.SHOW_GL_ERRORS.tooltip.1=显示OpenGL错误
 of.options.SHOW_GL_ERRORS.tooltip.2=当启用此选项时，OpenGL错误会在聊天框中显示出来。
-of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且
-of.options.SHOW_GL_ERRORS.tooltip.4=明确知道错误无法修复时禁用此选项。
+of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且明确知道
+of.options.SHOW_GL_ERRORS.tooltip.4=错误无法修复时禁用此选项。
 of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
 of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误仍可能会导致明显的FPS下降。
 
