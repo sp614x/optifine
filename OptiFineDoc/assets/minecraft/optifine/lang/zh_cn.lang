@@ -197,7 +197,7 @@ options.fovEffectScale.tooltip.5=飞行时的视场缩放）的强度。
 
 options.prioritizeChunkUpdates.tooltip.1=区块构建器
 options.prioritizeChunkUpdates.tooltip.2= 线程化 - 在后台更新所有的区块
-options.prioritizeChunkUpdates.tooltip.3= 半阻塞 - 立刻更新会使玩家受到影响的区块
+options.prioritizeChunkUpdates.tooltip.3= 半阻塞 - 立刻更新玩家影响的区块
 options.prioritizeChunkUpdates.tooltip.4= 全阻塞 - 立刻更新附近的所有区块
 options.prioritizeChunkUpdates.tooltip.5=线程化的更新可能会导致破坏方块时短暂出现空洞。
 options.prioritizeChunkUpdates.tooltip.6=全阻塞式更新可能会导致显著突发延迟。
