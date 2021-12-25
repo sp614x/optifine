@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   THGABS from Minecraft Wiki 2019-2-18 ---- 2021-12-25
+#   THGABS from Minecraft Wiki 2020-10-24 ---- 2021-12-25
 #   HeartyYF From InfinityStudio 2016-2-18 ---- 2020-7-25
 #   xwjcool123 From Rainbow Pixel 2018-5-20 ---- 2018-6-16
 #   xuyu_staryG(gxy17886) From InfinityStudio 2016-1-18 ---- 2016-1-19
@@ -17,7 +17,7 @@ of.general.custom=自定义
 of.general.from=来自
 of.general.id=ID
 of.general.max=最大化
-of.general.restart=重启游戏
+of.general.restart=重启
 of.general.smart=智能
 
 # Keys
