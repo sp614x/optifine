@@ -431,7 +431,7 @@ of.options.SWAMP_COLORS=沼澤顏色
 of.options.SWAMP_COLORS.tooltip.1=沼澤顏色
 of.options.SWAMP_COLORS.tooltip.2= 開啟 - 使用沼澤顏色 （預設），較慢
 of.options.SWAMP_COLORS.tooltip.3= 關閉 - 不使用沼澤顏色，較快
-of.options.SWAMP_COLORS.tooltip.4=沼澤的顏色會影響草、樹葉、籐蔓和水。
+of.options.SWAMP_COLORS.tooltip.4=沼澤的顏色會影響草、樹葉、藤蔓和水。
 
 of.options.SMOOTH_BIOMES=柔和化生態域
 of.options.SMOOTH_BIOMES.tooltip.1=柔和化生態域
@@ -439,7 +439,7 @@ of.options.SMOOTH_BIOMES.tooltip.2=  開啟 - 柔和化生態域的邊界 （預
 of.options.SMOOTH_BIOMES.tooltip.3=  關閉 - 不柔和化生態域的邊界，較快
 of.options.SMOOTH_BIOMES.tooltip.4=柔和化生態域的邊界平滑取樣於
 of.options.SMOOTH_BIOMES.tooltip.5=附近所有方塊顏色的平均值。
-of.options.SMOOTH_BIOMES.tooltip.6=草、樹葉、籐蔓和水皆會受影響。
+of.options.SMOOTH_BIOMES.tooltip.6=草、樹葉、藤蔓和水皆會受影響。
 
 of.options.CONNECTED_TEXTURES=連接材質
 of.options.CONNECTED_TEXTURES.tooltip.1=連接材質
