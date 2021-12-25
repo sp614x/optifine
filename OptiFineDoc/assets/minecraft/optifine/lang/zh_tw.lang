@@ -4,6 +4,7 @@
 #   NatsuArashi (crowdin MC_PR) 2016-03-03 ---- 2018-06-18
 #   pan93412 (crowdin pan93412) 2018-08-23 ---- 2018-08-23
 #   NatsuArashi (crowdin MC_PR) 2018-10-29 ---- 2021-03-14
+#   THGABS (Minecraft Wiki Thgabs) 2020-10-24 ---- 2021-12-25
 ##-------------- zh_TW ---------------
 
 # General
@@ -36,7 +37,7 @@ of.message.an.shaders1=3D 立體與光影不相容。
 of.message.an.shaders2=請關閉光影來啟用這個選項。
 
 of.message.shaders.aa1=光影與反鋸齒不相容。
-of.message.shaders.aa2=請把 品質 -> 反鋸齒 選項設定為 關閉 並重啟你的遊戲。
+of.message.shaders.aa2=請把 品質 -> 反鋸齒 選項設定為 關閉 並重啟您的遊戲。
 
 of.message.shaders.af1=光影與各向異性過濾不相容。
 of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關閉。 
@@ -44,17 +45,17 @@ of.message.shaders.af2=請把 品質 -> 各向異性過濾 選項設定為 關�
 of.message.shaders.fr1=光影與快速繪製不相容。
 of.message.shaders.fr2=請把 效能 -> 快速繪製 選項設定為 關閉。
 
-of.message.shaders.gf1=光影與 驚艷 畫質不相容。
-of.message.shaders.gf2=請將畫質設定為 流暢 或 精緻。
+of.message.shaders.gf1=光影與 極致 畫質不相容。
+of.message.shaders.gf2=請把畫質設定為 流暢 或 精緻。
 
 of.message.shaders.an1=光影與 3D 立體不相容。
 of.message.shaders.an2=請把 其他 -> 3D 立體 選項設定為 關閉。
 
 of.message.shaders.nv1=這個光影需要較新的 OptiFine 版本： %s
-of.message.shaders.nv2=你確定要繼續嗎？
+of.message.shaders.nv2=您確定要繼續嗎？
 
 of.message.newVersion=新的 §eOptiFine§f 版本已可供使用： §e%s§f
-of.message.java64Bit=你可以安裝 §e64 位元 Java§f 來提升效能。
+of.message.java64Bit=您可以安裝 §e64 位元 Java§f 來提升效能。
 of.message.openglError=§eOpenGL 錯誤§f: %s (%s)
 
 of.message.shaders.loading=正在載入光影： %s
@@ -84,10 +85,10 @@ of.message.capeOF.error2=錯誤: %s
 options.graphics.tooltip.1=畫面品質
 options.graphics.tooltip.2=  流暢 - 畫面品質較低，較流暢
 options.graphics.tooltip.3=  精緻 - 畫面品質較高，較慢
-options.graphics.tooltip.4=  驚豔 - 較佳的透明效果，最慢
+options.graphics.tooltip.4=  極致！ - 較佳的透明效果，最慢
 options.graphics.tooltip.5=改變雲、樹葉、水、
 options.graphics.tooltip.6=陰影與草地側面的外觀。
-options.graphics.tooltip.7=驚豔 畫質與光影以及
+options.graphics.tooltip.7=極致 畫質與光影以及
 options.graphics.tooltip.8=反鋸齒不相容。
 
 of.options.renderDistance.tiny=最近
@@ -107,7 +108,15 @@ options.renderDistance.tooltip.6=  48 病態 - 768m，需要分配 2G 的記憶�
 options.renderDistance.tooltip.7=  64 荒唐 - 1024m，需要分配 3G 的記憶體
 options.renderDistance.tooltip.8=16 以上的視野值只在本機世界有效。
 
-options.entityDistanceScaling.tooltip.1=實體繪製距離
+options.simulationDistance.tooltip.1=模擬距離
+options.simulationDistance.tooltip.2=  5-12 - 中等（較快）
+options.simulationDistance.tooltip.3=  13-24 - 遠（較慢）
+options.simulationDistance.tooltip.4=  25-32 - 超遠（最慢）
+options.simulationDistance.tooltip.5=控制區塊及實體距玩家有多遠時
+options.simulationDistance.tooltip.6=會被更新。
+options.simulationDistance.tooltip.7=較高值可能會產生顯著的延遲尖峰。
+
+options.entityDistanceScaling.tooltip.1=實體顯示距離
 options.entityDistanceScaling.tooltip.2=  50%% - 較快
 options.entityDistanceScaling.tooltip.3=  100%% - 預設
 options.entityDistanceScaling.tooltip.4=  500%% - 較慢
@@ -119,12 +128,12 @@ options.ao.tooltip.3=  最小 - 簡單柔和光源 （較慢）
 options.ao.tooltip.4=  最大 - 複雜柔和光源 （最慢）
 
 options.framerateLimit.tooltip.1=最大 FPS
-options.framerateLimit.tooltip.2=  VSync - 受限於螢幕畫面更新率 (60, 30, 20)
+options.framerateLimit.tooltip.2=  垂直同步 - 受限於螢幕畫面更新率 (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - 可變
 options.framerateLimit.tooltip.4=  無限制 - 無限制 （最快）
 options.framerateLimit.tooltip.5=即使未達設定上限
 options.framerateLimit.tooltip.6=該限制仍會影響 FPS。
-of.options.framerateLimit.vsync=VSync
+of.options.framerateLimit.vsync=垂直同步
 
 of.options.AO_LEVEL=柔和光源
 of.options.AO_LEVEL.tooltip.1=柔和光源
@@ -143,12 +152,12 @@ options.guiScale.tooltip.5=奇數值的放大倍數 （1x, 3x, 5x...等）與 Un
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
 
 options.vbo=使用 VBOs
-options.vbo.tooltip.1=頂點緩衝物件(VBOs)
+options.vbo.tooltip.1=頂點緩衝物件 (VBOs)
 options.vbo.tooltip.2=使用一種常見的替代繪製模型
 options.vbo.tooltip.3=比預設繪製快 (5-10%%)。
 
 options.gamma.tooltip.1=增加較暗物體的亮度
-options.gamma.tooltip.2=  幽暗 - 標準亮度
+options.gamma.tooltip.2=  昏暗 - 最小亮度
 options.gamma.tooltip.3=  1-99%% - 可變亮度
 options.gamma.tooltip.4=  明亮 - 最大亮度
 options.gamma.tooltip.5=此選項不會改變
@@ -164,7 +173,31 @@ options.attackIndicator.tooltip.2=  十字準星 - 十字準星下方
 options.attackIndicator.tooltip.3=  快捷欄 - 快捷欄旁邊
 options.attackIndicator.tooltip.4=  關閉 - 無攻擊指示計
 options.attackIndicator.tooltip.5=攻擊指示計顯示當前裝備
-options.attackIndicator.tooltip.6=的攻擊威力
+options.attackIndicator.tooltip.6=的攻擊威力。
+
+options.screenEffectScale.tooltip.1=畫面扭曲效果
+options.screenEffectScale.tooltip.2=  關閉 - 停用
+options.screenEffectScale.tooltip.3=  1-100%% - 啟用
+options.screenEffectScale.tooltip.4=控制畫面扭曲，比如噁心狀態效果
+options.screenEffectScale.tooltip.5=和地獄傳送門扭曲的強度。
+
+options.autosaveIndicator.tooltip.1=自動儲存指示器
+options.autosaveIndicator.tooltip.2=  關閉 - 停用
+options.autosaveIndicator.tooltip.3=  開啟 - 啟用
+options.autosaveIndicator.tooltip.4=會在遊戲自動儲存時顯示。
+
+options.fovEffectScale.tooltip.1=視角廣度效果
+options.fovEffectScale.tooltip.2=  關閉 - 停用
+options.fovEffectScale.tooltip.3=  1-100%% - 啟用
+options.fovEffectScale.tooltip.4=控制畫面縮放效果，比如拉弓、疾跑
+options.fovEffectScale.tooltip.5=和飛行時效果的強度。
+
+options.prioritizeChunkUpdates.tooltip.1=區塊生成器
+options.prioritizeChunkUpdates.tooltip.2= 依執行緒 - 在後方更新所有的區塊
+options.prioritizeChunkUpdates.tooltip.3= 半阻塞 - 即時更新玩家影響的區塊
+options.prioritizeChunkUpdates.tooltip.4= 全阻塞 - 即時更新附近所有的區塊
+options.prioritizeChunkUpdates.tooltip.5=依執行緒的更新可能會使地形產生短暫的畫面空洞。
+options.prioritizeChunkUpdates.tooltip.6=全阻塞的更新可能會產生嚴重的延遲尖峰。
 
 of.options.ALTERNATE_BLOCKS=方塊替換
 of.options.ALTERNATE_BLOCKS.tooltip.1=方塊替換
@@ -310,7 +343,7 @@ of.options.animationsTitle=動畫設定
 of.options.other=其他...
 of.options.otherTitle=其他設定
 
-of.options.other.reset=重設視訊設定...
+of.options.other.reset=重設顯示設定...
 
 of.shaders.profile=設定檔
 
@@ -370,8 +403,8 @@ of.options.RANDOM_ENTITIES.tooltip.5=需要資源包內有多個實體貼圖。
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
 of.options.BETTER_GRASS.tooltip.2=  關閉 - 預設草地材質，較快
-of.options.BETTER_GRASS.tooltip.3=  流暢 - 草方塊側面全部使用草地材質，較慢
-of.options.BETTER_GRASS.tooltip.4=  精緻 - 草方塊側面材質動態化，最慢
+of.options.BETTER_GRASS.tooltip.3=  流暢 - 草地側面全部使用草地材質，較慢
+of.options.BETTER_GRASS.tooltip.4=  精緻 - 草地側面材質動態化，最慢
 
 of.options.BETTER_SNOW=更好的雪地
 of.options.BETTER_SNOW.tooltip.1=更好的雪地
@@ -428,14 +461,14 @@ of.options.NATURAL_TEXTURES.tooltip.6=它通過旋轉和翻轉方塊的基礎材
 of.options.NATURAL_TEXTURES.tooltip.7=來產生材質變體。自然材質的設定
 of.options.NATURAL_TEXTURES.tooltip.8=和材質一般由目前的資源包提供。
 
-of.options.EMISSIVE_TEXTURES=鏡面材質
-of.options.EMISSIVE_TEXTURES.tooltip.1=鏡面材質
-of.options.EMISSIVE_TEXTURES.tooltip.2=  關閉 - 關閉鏡面材質 （預設）
-of.options.EMISSIVE_TEXTURES.tooltip.3=  開啟 - 使用鏡面材質
-of.options.EMISSIVE_TEXTURES.tooltip.4=光亮材質被繪製為全亮度
+of.options.EMISSIVE_TEXTURES=高光材質
+of.options.EMISSIVE_TEXTURES.tooltip.1=高光材質
+of.options.EMISSIVE_TEXTURES.tooltip.2=  關閉 - 關閉高光材質 （預設）
+of.options.EMISSIVE_TEXTURES.tooltip.3=  開啟 - 使用高光材質
+of.options.EMISSIVE_TEXTURES.tooltip.4=高光材質被繪製為全亮度
 of.options.EMISSIVE_TEXTURES.tooltip.5=的覆蓋層。它們可以用來
 of.options.EMISSIVE_TEXTURES.tooltip.6=模擬基本材質的發光部分。
-of.options.EMISSIVE_TEXTURES.tooltip.7=鏡面材質一般由目前的
+of.options.EMISSIVE_TEXTURES.tooltip.7=高光材質一般由目前的
 of.options.EMISSIVE_TEXTURES.tooltip.8=資源包提供。
 
 of.options.CUSTOM_SKY=自訂天空
@@ -469,7 +502,7 @@ of.options.CUSTOM_GUIS.tooltip.4=自訂介面一般由目前的資源包提供�
 
 of.options.CLOUDS=雲
 of.options.CLOUDS.tooltip.1=雲
-of.options.CLOUDS.tooltip.2=  預設 - 以「畫面品質」的設定為準
+of.options.CLOUDS.tooltip.2=  預設 - 以「畫質」的設定為準
 of.options.CLOUDS.tooltip.3=  流暢 - 低品質，較快
 of.options.CLOUDS.tooltip.4=  精緻 - 高品質，較慢
 of.options.CLOUDS.tooltip.5=  關閉 - 沒有雲，最快
@@ -566,8 +599,8 @@ of.options.DYNAMIC_FOV=動態視場
 of.options.DYNAMIC_FOV.tooltip.1=動態視場
 of.options.DYNAMIC_FOV.tooltip.2=  開啟 - 啟用動態視場 （預設）
 of.options.DYNAMIC_FOV.tooltip.3=  關閉 - 停用動態視場
-of.options.DYNAMIC_FOV.tooltip.4=當飛行、疾跑或拉弓
-of.options.DYNAMIC_FOV.tooltip.5=時改變視場。
+of.options.DYNAMIC_FOV.tooltip.4=當飛行、疾跑或拉弓時
+of.options.DYNAMIC_FOV.tooltip.5=改變視角廣度。
 
 of.options.DYNAMIC_LIGHTS=動態光源
 of.options.DYNAMIC_LIGHTS.tooltip.1=動態光源
@@ -582,7 +615,7 @@ options.biomeBlendRadius.tooltip.1=平滑化不同生態域間的顏色變化
 options.biomeBlendRadius.tooltip.2=  關閉 - 無混合 （最快）
 options.biomeBlendRadius.tooltip.3=  5x5 - 一般混合 （預設）
 options.biomeBlendRadius.tooltip.4=  15x15 - 最大混和範圍 （最慢）
-options.biomeBlendRadius.tooltip.5=調高數值可能會造成明顯的卡頓
+options.biomeBlendRadius.tooltip.5=較高數值可能會造成明顯的卡頓
 options.biomeBlendRadius.tooltip.6=並拖慢區塊載入的速度。
 
 # Performance
@@ -595,7 +628,7 @@ of.options.SMOOTH_FPS.tooltip.4=此選項依賴於顯卡驅動
 of.options.SMOOTH_FPS.tooltip.5=不一定有明顯效果。
 
 of.options.SMOOTH_WORLD=柔和化世界
-of.options.SMOOTH_WORLD.tooltip.1=移除內部伺服器造成的資料延遲。
+of.options.SMOOTH_WORLD.tooltip.1=移除內部伺服器造成的延遲。
 of.options.SMOOTH_WORLD.tooltip.2=  關閉 - 不穩定，FPS 可能波動
 of.options.SMOOTH_WORLD.tooltip.3=  開啟 - FPS 穩定
 of.options.SMOOTH_WORLD.tooltip.4=分擔內部伺服器負載來穩定 FPS。
@@ -655,7 +688,7 @@ of.options.SMART_ANIMATIONS.tooltip.2= 關閉 - 不使用智慧型動畫 （預�
 of.options.SMART_ANIMATIONS.tooltip.3= 開啟 - 使用智慧型動畫
 of.options.SMART_ANIMATIONS.tooltip.4=利用智慧型動畫，讓遊戲只播放
 of.options.SMART_ANIMATIONS.tooltip.5=畫面目前可見的材質動畫效果。
-of.options.SMART_ANIMATIONS.tooltip.6=這能降低 tick lag 尖峰並提升 FPS。
+of.options.SMART_ANIMATIONS.tooltip.6=這能降低 tick 延遲尖峰並提升 FPS。
 of.options.SMART_ANIMATIONS.tooltip.7=在大型模組包與高解析度資源包下很有用。
 
 # Animations
@@ -729,7 +762,7 @@ options.fullscreen.resolution=全螢幕模式
 options.fullscreen.resolution.tooltip.1=全螢幕模式
 options.fullscreen.resolution.tooltip.2=  預設 - 使用桌面解析度，較慢
 options.fullscreen.resolution.tooltip.3=  自訂 - 使用自訂螢幕解析度，可能會較快
-options.fullscreen.resolution.tooltip.4=此選項只在全螢幕模式下有效 (F11)。
+options.fullscreen.resolution.tooltip.4=此選項只在全螢幕模式 (F11) 下有效。
 options.fullscreen.resolution.tooltip.5=較低的解析度通常會較快。
 
 of.options.SHOW_FPS=顯示 FPS
