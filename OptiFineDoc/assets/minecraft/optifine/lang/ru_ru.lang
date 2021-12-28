@@ -665,6 +665,14 @@ of.options.SMART_ANIMATIONS.tooltip.5=что уменьшает число за�
 of.options.SMART_ANIMATIONS.tooltip.6=Особенно полезно для больших наборов модов и
 of.options.SMART_ANIMATIONS.tooltip.7=наборов ресурсов с текстурами HD-качества.
 
+options.prioritizeChunkUpdates.tooltip.1=Сборка чанков
+options.prioritizeChunkUpdates.tooltip.2=Потоковая - обновление всех чанков в фоновом режиме
+options.prioritizeChunkUpdates.tooltip.3=По событию - немедленно обновляет сломанные чанки 
+options.prioritizeChunkUpdates.tooltip.4=Полная блокировка - немедленно обновляет
+options.prioritizeChunkUpdates.tooltip.5=соседние чанки
+options.prioritizeChunkUpdates.tooltip.6=Потоковое обновление может показывать пустые чанки.
+options.prioritizeChunkUpdates.tooltip.7=Полная блокировка может привести к сильным задержкам.
+
 # Animations
 
 of.options.animation.allOn=Включить
