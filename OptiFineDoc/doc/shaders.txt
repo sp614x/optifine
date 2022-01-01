@@ -94,12 +94,12 @@ shadow_cutout                <not used>                            shadow
 shadowcomp                   <shadowcomp>                          <none>
 shadowcomp1                  <shadowcomp>                          <none>
 ...
-shadowcomp15                 <shadowcomp>                          <none>
+shadowcomp99                 <shadowcomp>                          <none>
 --- Prepare ---
 prepare                      <prepare>                             <none>
 prepare1                     <prepare>                             <none>
 ...
-prepare15                    <prepare>                             <none>
+prepare99                    <prepare>                             <none>
 --- GBuffers ---
 gbuffers_basic               leash, block selection box            <none>
 gbuffers_line                block outline, fishing line           gbuffers_basic
@@ -127,7 +127,7 @@ deferred_pre                 <virtual> flip ping-pong buffers      <none>
 deferred                     <deferred>                            <none>
 deferred1                    <deferred>                            <none>
 ...
-deferred15                   <deferred>                            <none>
+deferred99                   <deferred>                            <none>
 --- GBuffers translucent ---
 gbuffers_water               translucent                           gbuffers_terrain
 gbuffers_hand_water          translucent handheld objects          gbuffers_hand
@@ -136,7 +136,7 @@ composite_pre                <virtual> flip ping-pong buffers      <none>
 composite                    <composite>                           <none>
 composite1                   <composite>                           <none>
 ...
-composite15                  <composite>                           <none>
+composite99                  <composite>                           <none>
 --- Final ---
 final                        <final>                               <none>
 
