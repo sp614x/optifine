@@ -284,7 +284,7 @@ of.options.CUSTOM_SKY.tooltip.3=  SÍ – Texturas del cielo personalizadas. Por
 of.options.CUSTOM_SKY.tooltip.4=La textura para el cielo personalizado es obtenida del
 of.options.CUSTOM_SKY.tooltip.5=paquete de texturas seleccionado.
 
-of.options.CUSTOM_ITEMS=Obejetos personalizados
+of.options.CUSTOM_ITEMS=Objetos personalizados
 of.options.CUSTOM_ITEMS.tooltip.1=Usa texturas para los objetos.
 of.options.CUSTOM_ITEMS.tooltip.2=  NO – Texturas de objetos predeterminadas. (rápido)
 of.options.CUSTOM_ITEMS.tooltip.3=  SÍ – Texturas de objetos personalizadas. Por defecto. (lento)
@@ -505,7 +505,7 @@ of.options.FULLSCREEN_MODE.tooltip.1=Dimensiones al entrar en modo pantalla comp
 of.options.FULLSCREEN_MODE.tooltip.2=  Default - Se ajusta a la pantalla. (lento)
 of.options.FULLSCREEN_MODE.tooltip.3=  Ancho por Altura - Utiliza la resolución personalizada.
 of.options.FULLSCREEN_MODE.tooltip.4=La resoulución de pantalla seleccionada es usada al entrar en pantalla
-of.options.FULLSCREEN_MODE.tooltip.5=completa. Resouluciónes pequeñas generalmente son más rápidas.
+of.options.FULLSCREEN_MODE.tooltip.5=completa. Resouluciones pequeñas generalmente son más rápidas.
 
 of.options.SHOW_FPS=Medidor de FPS
 of.options.SHOW_FPS.tooltip.1=Despliega los FPS, además de otra información, resumida.
