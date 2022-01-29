@@ -116,7 +116,7 @@
 #   exp(x)
 #   frac(x)
 #   log(x)
-#   pow(x)
+#   pow(x, y)
 #   random(x)
 #   round(x)
 #   signum(x)
