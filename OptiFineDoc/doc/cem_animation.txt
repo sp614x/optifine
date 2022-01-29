@@ -116,7 +116,7 @@
 #   exp(x)
 #   frac(x)
 #   log(x)
-#   pow(x)
+#   pow(x,y)
 #   random(x)
 #   round(x)
 #   signum(x)
@@ -134,9 +134,9 @@
 #    "animations":
 #    [
 #      {
-#        "this.rx": "clamp(-0.5 * part.rx, 0, 90)",
+#        "this.rx": "clamp(-0.5 * part.rx, 0, 2*pi)",
 #        "this.tx": "3 * sin(limb_swing / 4) - 2",
-#        "this:Hoof.rx": "if(leg4:Hoof.rx > 90, leg4:Hoof.rx - 90, 0)"
+#        "this:Hoof.rx": "if(leg4:Hoof.rx > 2*pi, leg4:Hoof.rx - 2*pi, 0)"
 #        ...
 #      }
 #    ]
