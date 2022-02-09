@@ -129,8 +129,8 @@ options.framerateLimit.tooltip.3=  5-255 - giới hạn khung hình có thể th
 options.framerateLimit.tooltip.4=  Vô hạn - không giới hạn (nhanh nhất)
 options.framerateLimit.tooltip.5=Giới hạn tốc độ khung hình làm giảm FPS ngay cả khi
 options.framerateLimit.tooltip.6=không đạt đến giá trị giới hạn.
-options.framerateLimit.tooltip.7=Việc để Vô hạn sẽ làm giảm tuổi thọ phần cứng máy tính, 
-options.framerateLimit.tooltip.8=nên để giới hạn khung hình từ 140-240 FPS.
+options.framerateLimit.tooltip.7=Các khung hình vượt quá tần số quét của màn hình sẽ không được hiển thị.
+options.framerateLimit.tooltip.8=Lưu ý việc để Vô hạn sẽ làm giảm tuổi thọ phần cứng máy tính.
 of.options.framerateLimit.vsync=VSync
 
 of.options.AO_LEVEL=Tỉ lệ phối sáng đều
@@ -157,7 +157,7 @@ options.vbo.tooltip.1=Đối tượng bộ đệm đỉnh
 options.vbo.tooltip.2=Sử dụng mô hình kết xuất thay thế thường nhanh 
 options.vbo.tooltip.3=hơn (5-10 %%) so với kết xuất mặc định.
 
-options.gamma.tooltip.1=Thay đổi độ sáng của các đối tượng tối hơn.
+options.gamma.tooltip.1=Thay đổi độ đậm nhạt của các vật tối
 options.gamma.tooltip.2=  U ám - độ sáng tiêu chuẩn
 options.gamma.tooltip.3=  1-99%% - Điều chỉnh độ sáng
 options.gamma.tooltip.4=  Sáng - độ sáng tối đa cho các vật thể tối hơn
@@ -332,7 +332,7 @@ of.options.shaderOptionsTitle=Cài đặt Shader
 of.options.quality=Chất lượng...
 of.options.qualityTitle=Cài đặt chất lượng
 
-of.options.details=thông tin chi tiết...
+of.options.details=Thông tin chi tiết...
 of.options.detailsTitle=Cài đặt chi tiết
 
 of.options.performance=Hiệu suất...
@@ -469,8 +469,8 @@ of.options.EMISSIVE_TEXTURES=Kết cấu phát quang
 of.options.EMISSIVE_TEXTURES.tooltip.1=Kết cấu phát quang
 of.options.EMISSIVE_TEXTURES.tooltip.2=  TẮT - không dùng kết cấu phát quang (mặc định)
 of.options.EMISSIVE_TEXTURES.tooltip.3=  BẬT - dùng kết cấu phát quang
-of.options.EMISSIVE_TEXTURES.tooltip.4=Các kết cấu phát quang được hiển thị dưới dạng lớp phủ
-of.options.EMISSIVE_TEXTURES.tooltip.5=với độ sáng đầy đủ. Cũng có thể được sử dụng để mô phỏng
+of.options.EMISSIVE_TEXTURES.tooltip.4=Các kết cấu phát quang được hiển thị dưới dạng lớp phủ với độ sáng đầy đủ. 
+of.options.EMISSIVE_TEXTURES.tooltip.5=Cũng có thể được sử dụng để mô phỏng
 of.options.EMISSIVE_TEXTURES.tooltip.6=các phần phát sáng của kết cấu cơ bản.
 of.options.EMISSIVE_TEXTURES.tooltip.7=Các Kết cấu phát quang phụ thuộc vào
 of.options.EMISSIVE_TEXTURES.tooltip.8=gói tài nguyên đang được sử dụng.
