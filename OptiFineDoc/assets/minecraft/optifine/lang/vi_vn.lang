@@ -604,8 +604,8 @@ of.options.VIGNETTE.tooltip.8=một cách an toàn.
 
 of.options.DYNAMIC_FOV=Góc nhìn động
 of.options.DYNAMIC_FOV.tooltip.1=Góc nhìn động
-of.options.DYNAMIC_FOV.tooltip.2=  BẬT - dùng góc nhìn thực tế (mặc định)
-of.options.DYNAMIC_FOV.tooltip.3=  TẮT - không góc nhìn thực tế
+of.options.DYNAMIC_FOV.tooltip.2=  BẬT - dùng góc nhìn động (mặc định)
+of.options.DYNAMIC_FOV.tooltip.3=  TẮT - không góc nhìn động
 of.options.DYNAMIC_FOV.tooltip.4=Thay đổi trường nhìn (FOV) khi bay, chạy nhanh
 of.options.DYNAMIC_FOV.tooltip.5=hoặc kéo cung.
 
