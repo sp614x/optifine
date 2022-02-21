@@ -1,4 +1,4 @@
-# Traduit en français par Z0ul0u25, Koockies, SkytAsul, robot275 et Calinou
+# Traduit en français par Z0ul0u25, Koockies, SkytAsul, robot275, Calinou et Calvineries
 
 # General
 of.general.ambiguous=Ambiguë
@@ -99,6 +99,14 @@ options.renderDistance.tooltip.6=  48 Insensée - 768m, nécessite 2 Go de RAM a
 options.renderDistance.tooltip.7=  64 Inimaginable - 1024m, nécessite 3 Go de RAM allouée
 options.renderDistance.tooltip.8=Les valeurs au-dessus de 16 n'ont effet qu'en solo.
 
+options.simulationDistance.tooltip.1=Distance de simulation
+options.simulationDistance.tooltip.2=  5-12 - Normale (faster)
+options.simulationDistance.tooltip.3=  13-24 - Lointaine (lent)
+options.simulationDistance.tooltip.4=  25-32 - Extrême (très lent)
+options.simulationDistance.tooltip.5=Contrôle à quelle distance du joueur les tronçons et les entités 
+options.simulationDistance.tooltip.6=sont mis à jour. 
+options.simulationDistance.tooltip.7=Des valeurs plus élevées peuvent produire des pics de lags importants.
+
 options.entityDistanceScaling.tooltip.1=Distance de rendu des entités
 options.entityDistanceScaling.tooltip.2=  50 %% - rapide
 options.entityDistanceScaling.tooltip.3=  100 %% - par défaut
@@ -159,6 +167,30 @@ options.attackIndicator.tooltip.2=  Viseur - sous le viseur
 options.attackIndicator.tooltip.3=  Barre - à côté de la barre
 options.attackIndicator.tooltip.4=  Non - pas d'indicateur d'attaque
 options.attackIndicator.tooltip.5=L'indicateur montre la force d'attaque de l'objet en main.
+
+options.screenEffectScale.tooltip.1=Effets de distorsion
+options.screenEffectScale.tooltip.2=  Non - désactivé
+options.screenEffectScale.tooltip.3=  1-100%% - activé
+options.screenEffectScale.tooltip.4=Contrôle l'intensité des effets de distorsion de l'écran
+options.screenEffectScale.tooltip.5=comme l'animation du portail et l'effet de nausée.
+
+options.autosaveIndicator.tooltip.1=Indicateur de sauvegarde automatique
+options.autosaveIndicator.tooltip.2=  Non - désactivé
+options.autosaveIndicator.tooltip.3=  Oui - activé
+options.autosaveIndicator.tooltip.4=Indique quand le jeu sauvegarde automatiquement le monde.
+
+options.fovEffectScale.tooltip.1=Effets de ch. de vison
+options.fovEffectScale.tooltip.2=  Non - désactivé
+options.fovEffectScale.tooltip.3=  1-100%% - activé
+options.fovEffectScale.tooltip.4=Contrôle l'intensité des effets de zoom de l'écran
+options.fovEffectScale.tooltip.5=comme tirer à l'arc, sprinter et voler.
+
+options.prioritizeChunkUpdates.tooltip.1=MàJ des tronçons
+options.prioritizeChunkUpdates.tooltip.2= Parallèle - mettre à jour tous les tronçons en arrière-plan
+options.prioritizeChunkUpdates.tooltip.3= Par action - mettre à jour immédiatement les tronçons affectés par le joueur
+options.prioritizeChunkUpdates.tooltip.4= Constante - mettre à jour tous les tronçons à proximité immédiatement
+options.prioritizeChunkUpdates.tooltip.5=Les mises à jour parallèle peuvent montrer brièvement des trous dans le terrain.
+options.prioritizeChunkUpdates.tooltip.6=Les mises à jour par action peuvent provoquer des pics de lag importants.
 
 of.options.ALTERNATE_BLOCKS=Blocs alternatifs 
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocs alternatifs
@@ -585,7 +617,7 @@ options.biomeBlendRadius.tooltip.2=  Non - pas de transition (rapide)
 options.biomeBlendRadius.tooltip.3=  5x5 - transition normale (par défaut)
 options.biomeBlendRadius.tooltip.4=  15x15 - transition maximale (lent)
 options.biomeBlendRadius.tooltip.5=Des valeurs hautes peuvent causer d'importants pics de
-options.biomeBlendRadius.tooltip.6=lag et ralentir la vitesse de chargement des tronçons.
+options.biomeBlendRadius.tooltip.6=lags et ralentir la vitesse de chargement des tronçons.
 
 # Performance
 
