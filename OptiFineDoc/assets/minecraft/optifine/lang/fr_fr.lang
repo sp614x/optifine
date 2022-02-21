@@ -105,7 +105,7 @@ options.simulationDistance.tooltip.3=  13-24 - Lointaine (lent)
 options.simulationDistance.tooltip.4=  25-32 - Extrême (très lent)
 options.simulationDistance.tooltip.5=Contrôle à quelle distance du joueur les tronçons et les entités 
 options.simulationDistance.tooltip.6=sont mis à jour. 
-options.simulationDistance.tooltip.7=Des valeurs plus élevées peuvent produire des pics de lags importants.
+options.simulationDistance.tooltip.7=Des valeurs plus élevées peuvent produire des pics de lag importants.
 
 options.entityDistanceScaling.tooltip.1=Distance de rendu des entités
 options.entityDistanceScaling.tooltip.2=  50 %% - rapide
@@ -617,7 +617,7 @@ options.biomeBlendRadius.tooltip.2=  Non - pas de transition (rapide)
 options.biomeBlendRadius.tooltip.3=  5x5 - transition normale (par défaut)
 options.biomeBlendRadius.tooltip.4=  15x15 - transition maximale (lent)
 options.biomeBlendRadius.tooltip.5=Des valeurs hautes peuvent causer d'importants pics de
-options.biomeBlendRadius.tooltip.6=lags et ralentir la vitesse de chargement des tronçons.
+options.biomeBlendRadius.tooltip.6=lag et ralentir la vitesse de chargement des tronçons.
 
 # Performance
 
