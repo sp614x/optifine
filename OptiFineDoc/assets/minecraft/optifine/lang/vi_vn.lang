@@ -1,4 +1,5 @@
-#Translated into Vietnamese by Blazemetal and google translate 2022-02-04 --- 2022-02-07
+# Contributor for translation:
+# Blazemetal and Google translator 2022-02-04 --- 2022-02-07
 
 # General
 of.general.ambiguous=Mơ hồ
@@ -154,7 +155,7 @@ options.guiScale.tooltip.6=Một giao diện nhỏ hơn có thể nhanh hơn.
 
 options.vbo=Dùng VBOs
 options.vbo.tooltip.1=Đối tượng bộ đệm đỉnh
-options.vbo.tooltip.2=Sử dụng mô hình kết xuất thay thế thường nhanh 
+options.vbo.tooltip.2=Sử dụng mô hình kết xuất thay thế, thường nhanh 
 options.vbo.tooltip.3=hơn (5-10 %%) so với kết xuất mặc định.
 
 options.gamma.tooltip.1=Thay đổi độ đậm nhạt của các vật tối
@@ -815,8 +816,8 @@ of.options.SHOW_GL_ERRORS.tooltip.6=và chúng vẫn có thể gây giảm FPS �
 
 # Chat Settings
 
-of.options.CHAT_BACKGROUND=Chuyên mục trò chuyện
-of.options.CHAT_BACKGROUND.tooltip.1=Chuyên mục trò chuyện
+of.options.CHAT_BACKGROUND=Nền trò chuyện
+of.options.CHAT_BACKGROUND.tooltip.1=Nền trò chuyện
 of.options.CHAT_BACKGROUND.tooltip.2=  Mặc định - chiều rộng cố định
 of.options.CHAT_BACKGROUND.tooltip.3=  gọn nhẹ - khớp với chiều rộng dòng
 of.options.CHAT_BACKGROUND.tooltip.4=  TẮT - ẩn
