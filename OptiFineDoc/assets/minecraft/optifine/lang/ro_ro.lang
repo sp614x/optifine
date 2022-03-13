@@ -469,8 +469,8 @@ of.options.SUN_MOON.tooltip.1=Soarele și Luna
 of.options.SUN_MOON.tooltip.2=  Da - soarele și luna sunt vizibile (implicit)
 of.options.SUN_MOON.tooltip.3=  Nu - soarele și luna nu sunt vizibile (lent)
 
-of.options.SHOW_CAPES=Arata Cape
-of.options.SHOW_CAPES.tooltip.1=Arata Cape
+of.options.SHOW_CAPES=Arată Cape
+of.options.SHOW_CAPES.tooltip.1=Arată Cape
 of.options.SHOW_CAPES.tooltip.2=  Da - arată capele jucătorilor (implicit)
 of.options.SHOW_CAPES.tooltip.3=  Nu - nu arăta capele jucătorilor
 
