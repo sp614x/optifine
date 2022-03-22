@@ -1,6 +1,6 @@
 # Contributors of British English (upside down) #
-# DaDodger and sp614x for creating en_gb.lang
-# Regnander for converting and proofreading the result
+#   DaDodger and sp614x for creating en_gb.lang
+#   Regnander for converting and proofreading the result 2019-02-11 ---- 2021-12-10
 
 # General
 of.general.ambiguous=snonᵷᴉqɯɐ
@@ -109,6 +109,14 @@ options.entityDistanceScaling.tooltip.3=ʇꞁnɐɟǝp - %%00⥝
 options.entityDistanceScaling.tooltip.2=ɹǝʍoꞁs - %%00ϛ  
 options.entityDistanceScaling.tooltip.1=˙uʍoɥs ǝɹɐ sǝᴉʇᴉʇuǝ ɥɔᴉɥʍ ʇɐ ǝɔuɐʇsᴉp ɯnɯᴉxɐɯ ǝɥʇ sǝᴉɟᴉpoW
 
+options.simulationDistance.tooltip.7=ǝɔuɐʇsᴉp uoᴉʇɐꞁnɯᴉS
+options.simulationDistance.tooltip.6=(ɹǝʇsɐɟ) ꞁɐɯɹoN - ᘔ⥝-ϛ  
+options.simulationDistance.tooltip.5=(ɹǝʍoꞁs) ɹɐℲ - ߈ᘔ-Ɛ⥝  
+options.simulationDistance.tooltip.4=(ʇsǝʍoꞁs) ǝɯǝɹʇxƎ - ᘔƐ-ϛᘔ  
+options.simulationDistance.tooltip.3= sǝᴉʇᴉʇuǝ puɐ sʞunɥɔ ǝɥʇ ɹǝʎɐꞁd ǝɥʇ ɯoɹɟ ɹɐɟ ʍoɥ sꞁoɹʇuoƆ
+options.simulationDistance.tooltip.2= ˙pǝʇɐpdn ᵷuᴉǝq ǝɹɐ
+options.simulationDistance.tooltip.1=˙sǝʞᴉds ᵷɐꞁ ʇuɐɔᴉɟᴉuᵷᴉs ǝɔnpoɹd ʎɐɯ sǝnꞁɐʌ ɹǝɥᵷᴉH
+
 options.ao.tooltip.4=ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯS
 options.ao.tooltip.3=(ɹǝʇsɐɟ) ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯs ou - ℲℲO  
 options.ao.tooltip.2=(ɹǝʍoꞁs) ᵷuᴉʇɥᵷᴉꞁ ɥʇooɯs ǝꞁdɯᴉs - ɯnɯᴉuᴉW  
@@ -161,6 +169,36 @@ options.attackIndicator.tooltip.4=ɹɐqʇoɥ ǝɥʇ oʇ ʇxǝu - ɹɐqʇoH
 options.attackIndicator.tooltip.3=ɹoʇɐɔᴉpuᴉ ʞɔɐʇʇɐ ou - ℲℲO  
 options.attackIndicator.tooltip.2=ǝɥʇ ɟo ɹǝʍod ʞɔɐʇʇɐ ǝɥʇ sʍoɥs ɹoʇɐɔᴉpuᴉ ʞɔɐʇʇɐ ǝɥ⟘
 options.attackIndicator.tooltip.1=ɯǝʇᴉ pǝddᴉnbǝ ʎꞁʇuǝɹɹnɔ
+
+options.screenEffectScale.tooltip.5=sʇɔǝɟɟǝ uoᴉʇɹoʇsᴉᗡ
+options.screenEffectScale.tooltip.4=pǝꞁqɐsᴉp - ℲℲO  
+options.screenEffectScale.tooltip.3=pǝꞁqɐuǝ - %%00⥝-⥝  
+options.screenEffectScale.tooltip.2=sʇɔǝɟɟǝ ᵷuᴉʇɹoʇsᴉp uǝǝɹɔs ɟo ʎʇᴉsuǝʇuᴉ ǝɥʇ sꞁoɹʇuoƆ
+options.screenEffectScale.tooltip.1=˙ʇɔǝɟɟǝ ɐǝsnɐu puɐ uoᴉʇɐɯᴉuɐ ꞁɐʇɹod ǝʞᴉꞁ
+
+options.screenEffectScale.tooltip.5=sʇɔǝɟɟǝ uoᴉʇɹoʇsᴉᗡ
+options.screenEffectScale.tooltip.4=pǝꞁqɐsᴉp - ℲℲO  
+options.screenEffectScale.tooltip.3=pǝꞁqɐuǝ - %%00⥝-⥝  
+options.screenEffectScale.tooltip.2=sʇɔǝɟɟǝ ᵷuᴉʇɹoʇsᴉp uǝǝɹɔs ɟo ʎʇᴉsuǝʇuᴉ ǝɥʇ sꞁoɹʇuoƆ
+options.screenEffectScale.tooltip.1=˙ʇɔǝɟɟǝ ɐǝsnɐu puɐ uoᴉʇɐɯᴉuɐ ꞁɐʇɹod ǝʞᴉꞁ
+
+options.autosaveIndicator.tooltip.4=ɹoʇɐɔᴉpuᴉ ǝʌɐsoʇnⱯ
+options.autosaveIndicator.tooltip.3=pǝꞁqɐsᴉp - ℲℲO  
+options.autosaveIndicator.tooltip.2=pǝꞁqɐuǝ - NO  
+options.autosaveIndicator.tooltip.1=˙pꞁɹoʍ ǝɥʇ ᵷuᴉʌɐs ʎꞁꞁɐɔᴉʇɐɯoʇnɐ sᴉ ǝɯɐᵷ ǝɥʇ uǝɥʍ sʍoɥS
+
+options.fovEffectScale.tooltip.5=sʇɔǝɟɟǝ ΛOℲ
+options.fovEffectScale.tooltip.4=pǝꞁqɐsᴉp - ℲℲO  
+options.fovEffectScale.tooltip.3=pǝꞁqɐuǝ - %%00⥝-⥝  
+options.fovEffectScale.tooltip.2=sʇɔǝɟɟǝ ᵷuᴉɯooz uǝǝɹɔs ɟo ʎʇᴉsuǝʇuᴉ ǝɥʇ sꞁoɹʇuoƆ
+options.fovEffectScale.tooltip.1=˙ᵷuᴉʎꞁɟ puɐ ᵷuᴉʇuᴉɹds 'ᵷuᴉʍɐɹp ʍoq ǝʞᴉꞁ
+
+options.prioritizeChunkUpdates.tooltip.6=ɹǝpꞁᴉnq ʞunɥƆ
+options.prioritizeChunkUpdates.tooltip.5=punoɹᵷʞɔɐq ǝɥʇ uᴉ sʞunɥɔ ꞁꞁɐ ǝʇɐpdn - pǝpɐǝɹɥ⟘ 
+options.prioritizeChunkUpdates.tooltip.4=ʎꞁǝʇɐᴉpǝɯɯᴉ sʞunɥɔ pǝʇɔǝɟɟɐ ɹǝʎɐꞁd ǝʇɐpdn - ᵷuᴉʞɔoꞁᗺ ᴉɯǝS 
+options.prioritizeChunkUpdates.tooltip.3=ʎꞁǝʇɐᴉpǝɯɯᴉ sʞunɥɔ ʎqɹɐǝu ꞁꞁɐ ǝʇɐpdn - ᵷuᴉʞɔoꞁᗺ ʎꞁꞁnℲ 
+options.prioritizeChunkUpdates.tooltip.2=˙uᴉɐɹɹǝʇ ǝɥʇ uᴉ sǝꞁoɥ ʍoɥs ʎꞁɟǝᴉɹq ʎɐɯ sǝʇɐpdn pǝpɐǝɹɥ⟘
+options.prioritizeChunkUpdates.tooltip.1=˙sǝʞᴉds ᵷɐꞁ ʇuɐɔᴉɟᴉuᵷᴉs ǝsnɐɔ ʎɐɯ sǝʇɐpdn ᵷuᴉʞɔoꞁq ʎꞁꞁnℲ
 
 of.options.ALTERNATE_BLOCKS=sʞɔoꞁᗺ ǝʇɐuɹǝʇꞁⱯ
 of.options.ALTERNATE_BLOCKS.tooltip.3=sʞɔoꞁᗺ ǝʇɐuɹǝʇꞁⱯ
