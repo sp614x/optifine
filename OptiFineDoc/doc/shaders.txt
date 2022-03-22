@@ -171,6 +171,9 @@ uniform int heldBlockLightValue;                held item light value (main hand
 uniform int heldItemId2;                        held item ID (off hand), used only for items defined in "item.properties"
 uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
+uniform float fogStart;                         fog start distance (m)
+uniform float fogEnd;                           fog end distance (m)
+uniform int fogShape;                           0 = sphere, 1 = cylinder
 uniform float fogDensity;                       0.0-1.0
 uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
