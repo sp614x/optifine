@@ -80,12 +80,14 @@
 #   is_glowing
 #   is_hurt
 #   is_in_hand
+#   is_in_item_frame
 #   is_in_ground
 #   is_in_gui
 #   is_in_lava
 #   is_in_water
 #   is_invisible
 #   is_on_ground
+#   is_on_head
 #   is_ridden
 #   is_riding
 #   is_sneaking
