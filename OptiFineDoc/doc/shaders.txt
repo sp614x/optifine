@@ -228,6 +228,7 @@ uniform ivec4 blendFunc;                        blend function (srcRGB, dstRGB, 
 uniform int instanceId;                         instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies
 uniform float playerMood;                       player mood (0.0-1.0), increases the longer a player stays underground
 uniform int renderStage;                        render stage, see "Standard Macros", "J. Render stages"
+uniform int bossBattle;                         1 = custom, 2 = ender dragon, 3 = wither, 4 = raid
 // 1.17+
 uniform mat4 modelViewMatrix;                   model view matrix
 uniform mat4 modelViewMatrixInverse;            inverse model view matrix
