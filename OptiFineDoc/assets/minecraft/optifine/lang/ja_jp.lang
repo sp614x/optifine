@@ -3,7 +3,7 @@
 #   CrafterKina 2014-01-04 ---- 2018-12-07
 #   ViaSnake 2019-12-16 ---- 
 #   syokkendesuyo 2020-08-04 ---- 
-#   httpsnet 2021-12-17 ---- 2022-02-04
+#   httpsnet 2021-12-17 ---- 2022-03-25
 
 
 # General
@@ -15,6 +15,7 @@ of.general.id=ID
 of.general.max=最大限
 of.general.restart=再起動
 of.general.smart=スマート
+of.general.anonymous=匿名
 
 # Keys
 of.key.zoom=ズーム
@@ -85,10 +86,10 @@ options.graphics.tooltip.1=グラフィックス
 options.graphics.tooltip.2=  処理優先 - 低品質、低負荷
 options.graphics.tooltip.3=  描画優先 - 高品質、高負荷
 options.graphics.tooltip.4=  最高設定 - 最高品質の透過ブロック 超高負荷
-options.graphics.tooltip.5=雲、葉、水、影、草の側面の
-options.graphics.tooltip.6=外観を変更します。
-options.graphics.tooltip.7=最高設定はシェーダー及びアンチエイリアスと
-options.graphics.tooltip.8=互換性がありません。
+options.graphics.tooltip.5=雲、葉、水、影、草の側面の外観を変更します。
+options.graphics.tooltip.6=最高設定はシェーダー及びアンチエイリアスと
+options.graphics.tooltip.7=互換性がありません。
+options.graphics.tooltip.8= 
 
 of.options.renderDistance.tiny=最短
 of.options.renderDistance.short=短い
@@ -113,8 +114,7 @@ options.simulationDistance.tooltip.3=  13〜24 - 遠い (高負荷)
 options.simulationDistance.tooltip.4=  25〜32 - 過激 (超高負荷)
 options.simulationDistance.tooltip.5=チャンクとエンティティが更新される最大距離を変更します。
 options.simulationDistance.tooltip.6=距離が大きいと大きなラグが発生する可能性があります。
-options.simulationDistance.tooltip.7=1単位はチャンクで16mです。1mはブロックの全長です。
-options.simulationDistance.tooltip.8=演算距離と描画距離はプレイヤーを中心地点とした半径です。
+options.simulationDistance.tooltip.7=演算距離と描画距離はプレイヤーを中心地点とした半径です。
 
 options.entityDistanceScaling.tooltip.1=エンティティの描画距離
 options.entityDistanceScaling.tooltip.2=  50%% - 低負荷
@@ -128,7 +128,7 @@ options.ao.tooltip.2=  オフ - スムースライティングを使用しない
 options.ao.tooltip.3=  最小 - 単純なスムースライティング (高負荷)
 options.ao.tooltip.4=  最大 - 複雑なスムースライティング (最高負荷)
 options.ao.tooltip.5=ブロックのテクスチャに影を追加することで
-options.ao.tooltip.6=ブロックの明るさに継ぎ目なく自然な見た目として描画できます。
+options.ao.tooltip.6=ブロック間の明るさが補完されて自然な見た目になります。
 options.ao.tooltip.7=有効化するとチャンクの描画の負荷が増えます。
 
 options.framerateLimit.tooltip.1=最大フレームレート
@@ -136,7 +136,7 @@ options.framerateLimit.tooltip.2=  垂直同期 - モニターのフレームレ
 options.framerateLimit.tooltip.3=  5〜255 - フレームレートを設定した値までに制限する
 options.framerateLimit.tooltip.4=  無制限 - フレームレートを制限しない (最低負荷)
 options.framerateLimit.tooltip.5=モニターのフレームレートを超えた部分のフレームは表示されません。
-options.framerateLimit.tooltip.6=無制限は最大のマシンパワーを使うためハードウェアに負荷が掛かります。
+options.framerateLimit.tooltip.6=無制限は最大のマシンパワーを使うためデバイスに負荷が掛かります。
 options.framerateLimit.tooltip.7=垂直同期はフレーム生成のタイミングを一定間隔に保とうとするため、
 options.framerateLimit.tooltip.8=生成したフレームはほとんど無駄になりません。
 of.options.framerateLimit.vsync=垂直同期
@@ -146,7 +146,7 @@ of.options.AO_LEVEL.tooltip.1=スムースライティングの程度
 of.options.AO_LEVEL.tooltip.2=  オフ - 影なし
 of.options.AO_LEVEL.tooltip.3=  50%% - 明るい影
 of.options.AO_LEVEL.tooltip.4=  100%% - 暗い影
-of.options.AO_LEVEL.tooltip.5=この項目のオフではスムースライティングは無効化されない。
+of.options.AO_LEVEL.tooltip.5=この項目のオフではスムースライティングは無効化しません。
 
 options.viewBobbing.tooltip.1=画面の揺れ
 options.viewBobbing.tooltip.2=ミップマップを使用する場合は、
@@ -169,7 +169,7 @@ options.gamma.tooltip.1=暗い物体の明るさの変更
 options.gamma.tooltip.2=  暗い - 通常の明るさ
 options.gamma.tooltip.3=  1〜99%% - 明るさを調整する
 options.gamma.tooltip.4=  明るい - 最大の明るさ
-options.gamma.tooltip.5=完全に黒い物体の明るさを変更しません。
+options.gamma.tooltip.5=完全に黒い物体の明るさは変更されません。
 options.gamma.tooltip.6= 
 
 options.anaglyph.tooltip.1=3Dアナグリフ
@@ -226,7 +226,7 @@ of.options.FOG_START=霧の距離
 of.options.FOG_START.tooltip.1=プレイヤーと霧の距離の設定
 of.options.FOG_START.tooltip.2=  0.2 - プレイヤーと霧の距離を最も近くする
 of.options.FOG_START.tooltip.3=  0.8 - プレイヤーと霧の距離を最も遠くする
-of.options.FOG_START.tooltip.4=この設定は通常はパフォーマンスには影響しません。
+of.options.FOG_START.tooltip.4=この設定は通常、パフォーマンスには影響しません。
 
 of.options.CHUNK_LOADING=チャンク読み込み
 of.options.CHUNK_LOADING.tooltip.1=チャンク読み込み
@@ -281,17 +281,17 @@ of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - 高い (最高負荷)
 of.options.shaders.RENDER_RES_MUL.tooltip.5=シェーダーパックがレンダリングする
 of.options.shaders.RENDER_RES_MUL.tooltip.6=テクスチャのサイズを制御します。
 of.options.shaders.RENDER_RES_MUL.tooltip.7=4Kディスプレイでは、低い値が役立つ場合があります。
-of.options.shaders.RENDER_RES_MUL.tooltip.8=高い値は、アンチエイリアシングフィルターとして機能します。
+of.options.shaders.RENDER_RES_MUL.tooltip.8=高い値はアンチエイリアシングフィルターとして機能します。
 
-of.options.shaders.SHADOW_RES_MUL=陰影の品質
-of.options.shaders.SHADOW_RES_MUL.tooltip.1=陰影の品質
+of.options.shaders.SHADOW_RES_MUL=影の品質
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=影の品質
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低い (最低負荷)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 標準  (初期値)
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高い (最高負荷)
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=陰影の品質設定ではシェーダーパックが使用する
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=影の品質は、シェーダーパックで使用される
 of.options.shaders.SHADOW_RES_MUL.tooltip.6=シャドウマップテクスチャのサイズを制御します。
-of.options.shaders.SHADOW_RES_MUL.tooltip.7=低い値 = 厳格でない、荒い影。
-of.options.shaders.SHADOW_RES_MUL.tooltip.8=高い値 = 細密で、繊細な影。
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=値が低いほど不正確で粗い影になります。
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=値が高いほど詳細で細かい影になります。 
 
 of.options.shaders.HAND_DEPTH_MUL=手の遠近
 of.options.shaders.HAND_DEPTH_MUL.tooltip.1=手の遠近
@@ -320,7 +320,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.2=  デフォルト - シェーダーパ
 of.options.shaders.OLD_LIGHTING.tooltip.3=  オン - 古い照明効果を使用する
 of.options.shaders.OLD_LIGHTING.tooltip.4=  オフ - 古い照明効果を使用しない
 of.options.shaders.OLD_LIGHTING.tooltip.5=古い照明効果設定ではバニラがブロックの側面に
-of.options.shaders.OLD_LIGHTING.tooltip.6=適用した明かりの描画を制御します。 
+of.options.shaders.OLD_LIGHTING.tooltip.6=適用した明かりの描画を制御します。
 of.options.shaders.OLD_LIGHTING.tooltip.7=影を扱うシェーダーパックは多くの場合
 of.options.shaders.OLD_LIGHTING.tooltip.8=太陽の位置に基づくはるかに良い影を提供します。
 
@@ -328,8 +328,8 @@ of.options.shaders.DOWNLOAD=シェーダーのダウンロード
 of.options.shaders.DOWNLOAD.tooltip.1=シェーダーのダウンロード
 of.options.shaders.DOWNLOAD.tooltip.2= 
 of.options.shaders.DOWNLOAD.tooltip.3=シェーダーのダウンロードページをブラウザで開きます。
-of.options.shaders.DOWNLOAD.tooltip.4=ダウンロードしたシェーダーパックは「シェーダーフォルダー」に入れると
-of.options.shaders.DOWNLOAD.tooltip.5=インストールされているシェーダーのリストに表示されます。
+of.options.shaders.DOWNLOAD.tooltip.4=ダウンロードしたシェーダーパックは「シェーダーフォルダー」に
+of.options.shaders.DOWNLOAD.tooltip.5=入れるとインストールされているシェーダーのリストに表示されます。
 
 of.options.shaders.SHADER_PACK=シェーダーパック
 
@@ -372,7 +372,7 @@ options.mipmapLevels.tooltip.5=  最大限 - 最大限のスムージング
 options.mipmapLevels.tooltip.6=この設定は基本的にパフォーマンスに影響を与えません。
 
 of.options.MIPMAP_TYPE=ミップマップの種類
-of.options.MIPMAP_TYPE.tooltip.1=テクスチャの詳細をスムージングにすることで、
+of.options.MIPMAP_TYPE.tooltip.1=テクスチャの詳細をスムージング (滑らか) にすることで、
 of.options.MIPMAP_TYPE.tooltip.2=遠くの物体の見栄えを良くする視覚効果です。
 of.options.MIPMAP_TYPE.tooltip.3=  ニアレストネイバー補間 - おおまかなスムージング (低負荷)
 of.options.MIPMAP_TYPE.tooltip.4=  線形補間 - 通常のスムージング
@@ -423,8 +423,8 @@ of.options.BETTER_SNOW=より良い雪
 of.options.BETTER_SNOW.tooltip.1=より良い雪
 of.options.BETTER_SNOW.tooltip.2=  オフ - 通常の雪 低負荷
 of.options.BETTER_SNOW.tooltip.3=  オン - より良い雪 高負荷
-of.options.BETTER_SNOW.tooltip.4=隣接したブロックに雪が積もっているものがあった時に
-of.options.BETTER_SNOW.tooltip.5=透過性のあるブロック (フェンス、背の高い草) の下でも雪を描画します。
+of.options.BETTER_SNOW.tooltip.4=雪に隣接された透過性のあるブロック（フェンス、背の高い草）の
+of.options.BETTER_SNOW.tooltip.5=下に雪を表示します。
 
 of.options.CUSTOM_FONTS=カスタムフォント
 of.options.CUSTOM_FONTS.tooltip.1=カスタムフォント
@@ -462,7 +462,7 @@ of.options.CONNECTED_TEXTURES.tooltip.4=  描画優先 - テクスチャの継�
 of.options.CONNECTED_TEXTURES.tooltip.5=ガラス、砂岩、本棚を並べて配置すると、
 of.options.CONNECTED_TEXTURES.tooltip.6=そのテクスチャを継ぎ目なく表示します。
 of.options.CONNECTED_TEXTURES.tooltip.7=つながった状態のテクスチャは現在使用中の
-of.options.CONNECTED_TEXTURES.tooltip.8=リソースパックによって提供されます。 
+of.options.CONNECTED_TEXTURES.tooltip.8=リソースパックによって提供されます。
 
 of.options.NATURAL_TEXTURES=自然なテクスチャ
 of.options.NATURAL_TEXTURES.tooltip.1=自然なテクスチャ
@@ -574,7 +574,7 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.2=  デフォルト - グラフィック�
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  描画優先 - 完全なカラーブレンド (初期値)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  処理優先 - 速さ重視のカラーブレンド (低負荷)
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=空気を挟んで前後に配置した場合の、
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=さまざまな色の半透明ブロック（色付きガラス、水、氷）の
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=さまざまな色の半透明ブロック (色付きガラス、水、氷) の
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=色のブレンドを制御します。
 
 of.options.HELD_ITEM_TOOLTIPS=持ち替え時アイテム名表示
@@ -749,7 +749,7 @@ of.options.PROFILER.tooltip.2=  オン - デバッグプロファイラの有効
 of.options.PROFILER.tooltip.3=  オフ - デバッグプロファイラの無効化 低負荷
 of.options.PROFILER.tooltip.4=デバッグ画面 (F3) が表示されている時に
 of.options.PROFILER.tooltip.5=デバッグ情報を収集し円グラフ上に表示します。
-of.options.PROFILER.tooltip.6=デバッグプロファイラの表示中に数字キーを入力すると
+of.options.PROFILER.tooltip.6=デバッグプロファイラの表示中に各数字キーを入力すると
 of.options.PROFILER.tooltip.7=プロファイラが詳細化します。0キーで戻ることができます。
 
 of.options.WEATHER=天候
@@ -774,7 +774,7 @@ options.fullscreen.tooltip.1=フルスクリーン
 options.fullscreen.tooltip.2=  オン - フルスクリーンモード
 options.fullscreen.tooltip.3=  オフ - ウィンドウモード
 options.fullscreen.tooltip.4=フルスクリーンモードは、グラフィックカードに応じて、
-options.fullscreen.tooltip.5=ウィンドウモードよりもFPSが低下または向上することがあります。 
+options.fullscreen.tooltip.5=ウィンドウモードよりもFPSが低下または向上することがあります。
 options.fullscreen.tooltip.6=フルスクリーンモードでも、他のアプリケーションを
 options.fullscreen.tooltip.7=非表示にすることでFPSが向上しやすくなります。
 
@@ -785,7 +785,7 @@ options.fullscreen.resolution.tooltip.3=  幅x高 - カスタム解像度 おそ
 options.fullscreen.resolution.tooltip.4=フルスクリーンモード (F11) にて使用される解像度です。
 options.fullscreen.resolution.tooltip.5=通常、解像度は低いほどFPSが向上します。
 options.fullscreen.resolution.tooltip.6=4Kのような高解像度の場合、半分の解像度と
-options.fullscreen.resolution.tooltip.7=FXAAを組み合わせた方がFPSが向上する場合があります。
+options.fullscreen.resolution.tooltip.7=アンチエイリアスを組み合わせた方がFPSが向上しやすいです。
 
 of.options.SHOW_FPS=FPSを表示
 of.options.SHOW_FPS.tooltip.1=コンパクトなFPSと描画情報を表示
@@ -794,7 +794,7 @@ of.options.SHOW_FPS.tooltip.3=  C: - チャンク描画
 of.options.SHOW_FPS.tooltip.4=  E: - エンティティ描画
 of.options.SHOW_FPS.tooltip.5=  U: - チャンクアップデート
 of.options.SHOW_FPS.tooltip.6=コンパクトなFPS情報は、
-of.options.SHOW_FPS.tooltip.7=デバッグ画面（F3）が表示されていない場合にのみ表示されます。 
+of.options.SHOW_FPS.tooltip.7=デバッグ画面 (F3) が表示されていない場合にのみ表示されます。
 
 of.options.save.45s=45秒
 of.options.save.90s=90秒
@@ -825,6 +825,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=既知の競合があり、エラーを修�
 of.options.SHOW_GL_ERRORS.tooltip.4=無効にしてもエラーはログに記録され、
 of.options.SHOW_GL_ERRORS.tooltip.5=FPSが大幅に低下する可能性があります。
 of.options.SHOW_GL_ERRORS.tooltip.6= 
+
+of.options.TELEMETRY=テレメトリ
+of.options.TELEMETRY.tooltip.1=テレメトリデータをMojangに送信します
+of.options.TELEMETRY.tooltip.2=  ON - 完全なテレメトリ (初期値)
+of.options.TELEMETRY.tooltip.3=  匿名 - 匿名テレメトリ
+of.options.TELEMETRY.tooltip.4=  オフ - テレメトリなし
+of.options.TELEMETRY.tooltip.5=完全なテレメトリは、さまざまなデバイス間で
+of.options.TELEMETRY.tooltip.6=ユーザーを追跡するために使用できるユーザーUUIDを送信します。
+of.options.TELEMETRY.tooltip.7=匿名テレメトリは、ユーザーまたはクライアントを
+of.options.TELEMETRY.tooltip.8=識別できるデータを送信しません。
 
 # Chat Settings
 
