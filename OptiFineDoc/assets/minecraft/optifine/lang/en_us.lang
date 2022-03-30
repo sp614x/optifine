@@ -802,7 +802,7 @@ of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in
 of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
 
 of.options.TELEMETRY=Telemetry
-of.options.TELEMETRY.tooltip.1=Send telemetry data
+of.options.TELEMETRY.tooltip.1=Send telemetry data to Mojang
 of.options.TELEMETRY.tooltip.2=  ON - full telemetry (default)
 of.options.TELEMETRY.tooltip.3=  Anonymous - anonymous telemetry
 of.options.TELEMETRY.tooltip.4=  OFF - no telemetry
