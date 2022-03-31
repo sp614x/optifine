@@ -811,7 +811,7 @@ of.options.SHOW_GL_ERRORS.tooltip.6=registreras i felloggen och kan fortfarande 
 of.options.SHOW_GL_ERRORS.tooltip.7=bildfrekvensen sjunker avsevärt.
 
 of.options.TELEMETRY=Telemetri
-of.options.TELEMETRY.tooltip.1=Skicka telemetridata
+of.options.TELEMETRY.tooltip.1=Skicka telemetridata till Mojang
 of.options.TELEMETRY.tooltip.2=  PÅ - full telemetri (standard)
 of.options.TELEMETRY.tooltip.3=  Anonym - anonym telemetri
 of.options.TELEMETRY.tooltip.4=  AV - ingen telemetri
