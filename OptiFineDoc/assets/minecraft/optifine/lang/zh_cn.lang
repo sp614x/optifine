@@ -184,6 +184,12 @@ options.screenEffectScale.tooltip.3=  1-100%% - 开启
 options.screenEffectScale.tooltip.4=控制屏幕扭曲效果（例如反胃状态效果
 options.screenEffectScale.tooltip.5=和下界传送门）的强度。
 
+options.screenEffectScale.tooltip.1=失真效果
+options.screenEffectScale.tooltip.2=  关 - 关闭
+options.screenEffectScale.tooltip.3=  1-100%% - 开启
+options.screenEffectScale.tooltip.4=控制屏幕失真效果（例如反胃状态效果
+options.screenEffectScale.tooltip.5=和下界传送门）的强度。
+
 options.autosaveIndicator.tooltip.1=自动保存指示器
 options.autosaveIndicator.tooltip.2=  关 - 关闭
 options.autosaveIndicator.tooltip.3=  开 - 开启
@@ -804,6 +810,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=请仅当所有冲突都已知并且明确�
 of.options.SHOW_GL_ERRORS.tooltip.4=错误无法修复时禁用此选项。
 of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
 of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误仍可能会导致明显的FPS下降。
+
+of.options.TELEMETRY=用户体验改善计划
+of.options.TELEMETRY.tooltip.1=把使用数据发送给Mojang
+of.options.TELEMETRY.tooltip.2=  开启 - 全部使用数据
+of.options.TELEMETRY.tooltip.3=  匿名 - 匿名发送使用数据
+of.options.TELEMETRY.tooltip.4=  关闭 - 不发送使用数据
+of.options.TELEMETRY.tooltip.5=开启时会发送可用的玩家UUID
+of.options.TELEMETRY.tooltip.6=来跨设备跟踪用户。
+of.options.TELEMETRY.tooltip.7=匿名选项不会发送任何
+of.options.TELEMETRY.tooltip.8=可被识别的玩家或客户端信息。
 
 # Chat Settings
 
