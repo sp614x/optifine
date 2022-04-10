@@ -46,7 +46,7 @@ Gbuffers, deferred and composite programs can write to any color attachment, but
 If the output color attachments are not configured, then the program will write to the first 8 color attachments.  
 
 In shaders using the modern syntax (130 and above) the outputs of the fragment shader should use the outColor<n> names. Example:
-/* DRAWBUFFERS:3,4,7 */
+/* DRAWBUFFERS:347 */
 out vec4 outColor0; // Writes to buffer 3
 out vec4 outColor1; // Writes to buffer 4
 out vec4 outColor2; // Writes to buffer 7
