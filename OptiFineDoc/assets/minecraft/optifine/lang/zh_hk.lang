@@ -7,6 +7,7 @@ of.general.from=來自
 of.general.id=Id
 of.general.restart=重新啟動
 of.general.smart=智慧
+of.general.anonymous=匿名
 
 # Keys
 of.key.zoom=縮放
@@ -131,7 +132,7 @@ options.guiScale.tooltip.2=  自動 - 最大尺寸
 options.guiScale.tooltip.3=  小，中，大 - 1x 到 3x
 options.guiScale.tooltip.4=  4x-10x - 只適用於 4K 解析度
 options.guiScale.tooltip.5=奇數值嘅放大倍數（1x, 3x, 5x…等）與 Unicode 唔相容。
-options.guiScale.tooltip.6=較小嘅介面或許會更流暢。
+options.guiScale.tooltip.6=較小嘅介面有機會更流暢。
 
 options.vbo=使用 VBOs
 options.vbo.tooltip.1=啟用緩衝區頂點物件（VBOs）
@@ -150,11 +151,11 @@ options.anaglyph.tooltip.2=給予兩眼唔同嘅顏色嚟
 options.anaglyph.tooltip.3=達成 3D 立體嘅效果。
 options.anaglyph.tooltip.4=需要使用紅藍眼鏡進行觀看。
 
-options.attackIndicator.tooltip.1=設定攻擊指示計嘅位置。
+options.attackIndicator.tooltip.1=設定攻擊顯示器嘅位置。
 options.attackIndicator.tooltip.2=  十字準星 - 十字準星下方
 options.attackIndicator.tooltip.3=  快捷欄 - 快捷欄旁邊
-options.attackIndicator.tooltip.4=  關 - 冇攻擊指示計
-options.attackIndicator.tooltip.5=攻擊指示計顯示當前裝備
+options.attackIndicator.tooltip.4=  關 - 冇攻擊顯示器
+options.attackIndicator.tooltip.5=攻擊顯示器顯示當前裝備
 options.attackIndicator.tooltip.6=嘅攻擊威力。
 
 options.screenEffectScale.tooltip.1=畫面扭曲效果
@@ -163,10 +164,10 @@ options.screenEffectScale.tooltip.3=  1-100%% - 啟用
 options.screenEffectScale.tooltip.4=控制畫面扭曲，比如嘔心效果
 options.screenEffectScale.tooltip.5=和地獄傳送門扭曲嘅強度。
 
-options.autosaveIndicator.tooltip.1=自動儲存指示器
+options.autosaveIndicator.tooltip.1=自動存檔顯示器
 options.autosaveIndicator.tooltip.2=  關 - 停用
 options.autosaveIndicator.tooltip.3=  開 - 啟用
-options.autosaveIndicator.tooltip.4=會在遊戲自動儲存時顯示。
+options.autosaveIndicator.tooltip.4=會在遊戲自動存檔時顯示。
 
 options.fovEffectScale.tooltip.1=視角廣度效果
 options.fovEffectScale.tooltip.2=  關 - 停用
@@ -530,10 +531,10 @@ of.options.SUN_MOON.tooltip.1=太陽和月亮
 of.options.SUN_MOON.tooltip.2= 開 - 太陽和月亮可見（預設）
 of.options.SUN_MOON.tooltip.3= 關 - 太陽和月亮唔可見（較快）
 
-of.options.SHOW_CAPES=顯示披風
-of.options.SHOW_CAPES.tooltip.1=顯示披風
-of.options.SHOW_CAPES.tooltip.2=  開 - 顯示玩家披風（預設）
-of.options.SHOW_CAPES.tooltip.3=  關 - 唔顯示玩家披風
+of.options.SHOW_CAPES=顯示披肩
+of.options.SHOW_CAPES.tooltip.1=顯示披肩
+of.options.SHOW_CAPES.tooltip.2=  開 - 顯示玩家披肩（預設）
+of.options.SHOW_CAPES.tooltip.3=  關 - 唔顯示玩家披肩
 
 of.options.TRANSLUCENT_BLOCKS=半透明方塊
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=半透明方塊
@@ -542,7 +543,7 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.3=  細緻 - 準確嘅混合顏色（預�
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  流暢 - 快速嘅混合顏色（較快）
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=控制唔同顏色嘅半透明方塊
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=（染色玻璃、水、冰）隔著空氣
-of.options.TRANSLUCENT_BLOCKS.tooltip.7=放在一起時嘅顏色混和。
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=放在一起時嘅顏色混合。
 
 of.options.HELD_ITEM_TOOLTIPS=持有物資訊顯示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持有物資訊顯示
@@ -638,7 +639,7 @@ of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界載入速度較慢，FPS 較高（
 of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界載入速度較快，FPS 較低
 of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界載入速度最快，FPS 最低
 of.options.CHUNK_UPDATES.tooltip.5=繪製每 FPS 時更新嘅區塊數，
-of.options.CHUNK_UPDATES.tooltip.6=較高嘅值將會導致 FPS 唔穩定。
+of.options.CHUNK_UPDATES.tooltip.6=較高嘅值可能會導致 FPS 唔穩定。
 
 of.options.CHUNK_UPDATES_DYNAMIC=動態更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=動態更新
@@ -756,23 +757,26 @@ of.options.SHOW_FPS.tooltip.5=  U: - 區塊更新
 of.options.SHOW_FPS.tooltip.6=當除錯畫面隱藏時才會
 of.options.SHOW_FPS.tooltip.7=顯示精簡嘅 FPS 資訊。
 
-of.options.save.default=預設（兩秒）
-of.options.save.20s=20 秒
+of.options.save.45s=45 秒
+of.options.save.90s=90 秒
 of.options.save.3min=3 分鐘
-of.options.save.30min=30 分鐘
+of.options.save.6min=6 分鐘
+of.options.save.12min=12 分鐘
+of.options.save.24min=24 分鐘
 
-of.options.AUTOSAVE_TICKS=自動儲存
-of.options.AUTOSAVE_TICKS.tooltip.1=自動儲存間隔
-of.options.AUTOSAVE_TICKS.tooltip.2=不建議使用預設自動儲存間隔（兩秒）。
-of.options.AUTOSAVE_TICKS.tooltip.3=自動儲存會導致卡頓。
+of.options.AUTOSAVE_TICKS=自動存檔
+of.options.AUTOSAVE_TICKS.tooltip.1=自動存檔間隔
+of.options.AUTOSAVE_TICKS.tooltip.2= 45 秒 - 預設
+of.options.AUTOSAVE_TICKS.tooltip.3=自動存檔在較高嘅顯示距離下有機會造成卡頓。
+of.options.AUTOSAVE_TICKS.tooltip.4=當開啟遊戲選單時也會自動儲存世界。
 
-of.options.SCREENSHOT_SIZE=截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.1=截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設嘅截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自訂截圖尺寸
-of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大嘅截圖可能需要更多嘅記憶體。
+of.options.SCREENSHOT_SIZE=尺寸
+of.options.SCREENSHOT_SIZE.tooltip.1=螢幕畫面擷取尺寸
+of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設嘅螢幕畫面擷取尺寸
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自訂螢幕畫面擷取尺寸
+of.options.SCREENSHOT_SIZE.tooltip.4=擷取更大嘅螢幕畫面可能需要更多嘅記憶體。
 of.options.SCREENSHOT_SIZE.tooltip.5=與快速繪製及反鋸齒唔相容。
-of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡 FPS 緩衝區支持。
+of.options.SCREENSHOT_SIZE.tooltip.6=需要顯示卡 FPS 緩衝區支持。
 
 of.options.SHOW_GL_ERRORS=顯示 GL 錯誤
 of.options.SHOW_GL_ERRORS.tooltip.1=顯示 OpenGL 錯誤
@@ -781,6 +785,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=只有在已知嘅衝突或錯誤
 of.options.SHOW_GL_ERRORS.tooltip.4=無法修復時才建議停用。
 of.options.SHOW_GL_ERRORS.tooltip.5=停用時，錯誤仍然會記在錯誤記錄中，
 of.options.SHOW_GL_ERRORS.tooltip.6=且依然可能導致 FPS 明顯下降。
+
+of.options.TELEMETRY=遙測
+of.options.TELEMETRY.tooltip.1=傳送遙測數據
+of.options.TELEMETRY.tooltip.2=  開 - 完整遙測（預設）
+of.options.TELEMETRY.tooltip.3=  匿名 - 匿名遙測
+of.options.TELEMETRY.tooltip.4=  關 - 冇遙測
+of.options.TELEMETRY.tooltip.5=完整遙測會傳送用戶嘅 UUID，可用於跨不同裝置
+of.options.TELEMETRY.tooltip.6=追蹤用戶。
+of.options.TELEMETRY.tooltip.7=匿名遙測唔會傳送用戶或用戶端嘅任何
+of.options.TELEMETRY.tooltip.8=可識別數據。
 
 # Chat Settings
 
