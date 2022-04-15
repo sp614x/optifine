@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2021-12-09
+#   Regnander (_Spitz) 2016-01-18 ---- 2022-03-31
 
 # General
 of.general.ambiguous=tvetydig
@@ -10,6 +10,7 @@ of.general.id=ID
 of.general.max=Maximal
 of.general.restart=starta om
 of.general.smart=Smart
+of.general.anonymous=Anonym
 
 # Keys
 of.key.zoom=Zooma in
@@ -808,6 +809,16 @@ of.options.SHOW_GL_ERRORS.tooltip.4=felen inte kan åtgärdas.
 of.options.SHOW_GL_ERRORS.tooltip.5=När detta inaktiveras kommer felen fortfarande
 of.options.SHOW_GL_ERRORS.tooltip.6=registreras i felloggen och kan fortfarande orsaka att
 of.options.SHOW_GL_ERRORS.tooltip.7=bildfrekvensen sjunker avsevärt.
+
+of.options.TELEMETRY=Telemetri
+of.options.TELEMETRY.tooltip.1=Skicka telemetridata till Mojang
+of.options.TELEMETRY.tooltip.2=  PÅ - full telemetri (standard)
+of.options.TELEMETRY.tooltip.3=  Anonym - anonym telemetri
+of.options.TELEMETRY.tooltip.4=  AV - ingen telemetri
+of.options.TELEMETRY.tooltip.5=Full telemetri skickar användarens UUID som kan 
+of.options.TELEMETRY.tooltip.6=användas för att spåra användare över olika enheter.
+of.options.TELEMETRY.tooltip.7=Anonym telemetri skickar inte någon data som kan
+of.options.TELEMETRY.tooltip.8=användas för att identifiera användare eller klienter.
 
 # Chat Settings
 of.options.CHAT_BACKGROUND=Chattbakgrund

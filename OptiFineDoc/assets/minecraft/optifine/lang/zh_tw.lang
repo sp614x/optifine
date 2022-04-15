@@ -4,7 +4,7 @@
 #   NatsuArashi (crowdin MC_PR) 2016-03-03 ---- 2018-06-18
 #   pan93412 (crowdin pan93412) 2018-08-23 ---- 2018-08-23
 #   NatsuArashi (crowdin MC_PR) 2018-10-29 ---- 2021-03-14
-#   THGABS (Minecraft Wiki Thgabs) 2020-10-24 ---- 2021-12-25
+#   THGABS (Minecraft Wiki Thgabs) 2020-10-24 ---- 2022-3-24
 ##-------------- zh_TW ---------------
 
 # General
@@ -16,6 +16,7 @@ of.general.id=Id
 of.general.max=最大
 of.general.restart=重新啟動
 of.general.smart=智慧
+of.general.anonymous=匿名
 
 # Keys
 of.key.zoom=縮放
@@ -410,7 +411,7 @@ of.options.BETTER_SNOW=更好的雪地
 of.options.BETTER_SNOW.tooltip.1=更好的雪地
 of.options.BETTER_SNOW.tooltip.2=  關閉 - 預設的雪地，較快
 of.options.BETTER_SNOW.tooltip.3=  開啟 - 更好的雪地，較慢
-of.options.BETTER_SNOW.tooltip.4=在透明方塊 （如柵欄、草叢）與雪
+of.options.BETTER_SNOW.tooltip.4=在透明方塊（如柵欄、草叢）與雪
 of.options.BETTER_SNOW.tooltip.5=接壤時在其下方顯示雪。
 
 of.options.CUSTOM_FONTS=自訂字體
@@ -560,7 +561,7 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.3=  精緻 - 準確的混合顏色 （預�
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  流暢 - 快速的混合顏色 （較快）
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=控制不同顏色的半透明方塊
 of.options.TRANSLUCENT_BLOCKS.tooltip.6= （染色玻璃、水、冰）隔著空氣
-of.options.TRANSLUCENT_BLOCKS.tooltip.7=放在一起時的顏色混和。
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=放在一起時的顏色混合。
 
 of.options.HELD_ITEM_TOOLTIPS=持有物資訊顯示
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=持有物資訊顯示
@@ -656,7 +657,7 @@ of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界載入速度較慢，FPS 較高 �
 of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界載入速度較快，FPS 較低
 of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界載入速度最快，FPS 最低
 of.options.CHUNK_UPDATES.tooltip.5=繪製每 FPS 時更新的區塊數，
-of.options.CHUNK_UPDATES.tooltip.6=愈高的值將會導致 FPS 不穩定。
+of.options.CHUNK_UPDATES.tooltip.6=較高的值可能會導致 FPS 不穩定。
 
 of.options.CHUNK_UPDATES_DYNAMIC=動態更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=動態更新
@@ -688,7 +689,7 @@ of.options.SMART_ANIMATIONS.tooltip.2= 關閉 - 不使用智慧型動畫 （預�
 of.options.SMART_ANIMATIONS.tooltip.3= 開啟 - 使用智慧型動畫
 of.options.SMART_ANIMATIONS.tooltip.4=利用智慧型動畫，讓遊戲只播放
 of.options.SMART_ANIMATIONS.tooltip.5=畫面目前可見的材質動畫效果。
-of.options.SMART_ANIMATIONS.tooltip.6=這能降低 tick 延遲尖峰並提升 FPS。
+of.options.SMART_ANIMATIONS.tooltip.6=這能降低遊戲刻延遲尖峰並提升 FPS。
 of.options.SMART_ANIMATIONS.tooltip.7=在大型模組包與高解析度資源包下很有用。
 
 # Animations
@@ -710,7 +711,7 @@ of.options.WATER_PARTICLES=水濺粒子
 of.options.RAIN_SPLASH=雨滴飛濺
 of.options.PORTAL_PARTICLES=傳送門粒子
 of.options.POTION_PARTICLES=藥水粒子
-of.options.DRIPPING_WATER_LAVA=流動水/熔岩
+of.options.DRIPPING_WATER_LAVA=滴落水/熔岩
 of.options.ANIMATED_TERRAIN=地形動畫
 of.options.ANIMATED_TEXTURES=材質動畫
 of.options.FIREWORK_PARTICLES=煙火粒子
@@ -720,7 +721,7 @@ of.options.FIREWORK_PARTICLES=煙火粒子
 of.options.LAGOMETER=效能資訊
 of.options.LAGOMETER.tooltip.1=在除錯畫面 (F3) 中顯示效能資訊。
 of.options.LAGOMETER.tooltip.2=* 橙 - 記憶體垃圾回收
-of.options.LAGOMETER.tooltip.3=* 青 - Tick
+of.options.LAGOMETER.tooltip.3=* 青 - 遊戲刻
 of.options.LAGOMETER.tooltip.4=* 藍 - 排定的處理程序
 of.options.LAGOMETER.tooltip.5=* 紫 - 區塊上傳
 of.options.LAGOMETER.tooltip.6=* 紅 - 區塊更新
@@ -802,6 +803,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=只有在已知的衝突或錯誤
 of.options.SHOW_GL_ERRORS.tooltip.4=無法修復時才建議停用。
 of.options.SHOW_GL_ERRORS.tooltip.5=停用時，錯誤仍然會記在錯誤記錄中，
 of.options.SHOW_GL_ERRORS.tooltip.6=且依然可能導致 FPS 明顯下降。
+
+of.options.TELEMETRY=遙測
+of.options.TELEMETRY.tooltip.1=發送遙測資料
+of.options.TELEMETRY.tooltip.2=  開啟 - 完整遙測 （預設）
+of.options.TELEMETRY.tooltip.3=  匿名 - 匿名遙測
+of.options.TELEMETRY.tooltip.4=  關閉 - 關閉遙測
+of.options.TELEMETRY.tooltip.5=完整遙測會發送使用者的 UUID，可用於跨不同裝置
+of.options.TELEMETRY.tooltip.6=追蹤使用者。
+of.options.TELEMETRY.tooltip.7=匿名遙測不會發送任何使用者或用戶端的
+of.options.TELEMETRY.tooltip.8=可識別資料。
 
 # Chat Settings
 

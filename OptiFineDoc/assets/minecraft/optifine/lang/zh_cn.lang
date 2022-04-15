@@ -20,6 +20,7 @@ of.general.id=ID
 of.general.max=最大化
 of.general.restart=重启
 of.general.smart=智能
+of.general.anonymous=匿名
 
 # Keys
 of.key.zoom=缩放
@@ -252,7 +253,7 @@ of.options.shaders.ANTIALIASING.tooltip.2=  关闭 - （默认）禁用抗锯齿
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - 对线和边缘抗锯齿处理（较慢）
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA是一种能够将锯齿状线条和鲜明的色彩过渡变得更加
 of.options.shaders.ANTIALIASING.tooltip.5=平滑的后处理特效。
-of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，而且同时也与光影兼容。
+of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，而且同时还与光影兼容。
 of.options.shaders.ANTIALIASING.tooltip.7= 
 
 of.options.shaders.NORMAL_MAP=法线贴图
@@ -649,14 +650,14 @@ of.options.FAST_RENDER.tooltip.2= 关闭 - 标准渲染（默认）
 of.options.FAST_RENDER.tooltip.3= 开启 - 优化渲染（较快）
 of.options.FAST_RENDER.tooltip.4=采用优化渲染算法从而降低CPU的负载
 of.options.FAST_RENDER.tooltip.5=并可能大幅提升FPS。
-of.options.FAST_RENDER.tooltip.6=此选项或与某些模组冲突。
+of.options.FAST_RENDER.tooltip.6=此选项可能会与某些模组冲突。
 
 of.options.FAST_MATH=快速运算
 of.options.FAST_MATH.tooltip.1=快速运算
 of.options.FAST_MATH.tooltip.2= 关闭 - 标准的运算（默认）
 of.options.FAST_MATH.tooltip.3= 开启 - 更快的运算
-of.options.FAST_MATH.tooltip.4=采用优化的 sin() 和 cos() 函数可以
-of.options.FAST_MATH.tooltip.5=更好地利用CPU缓存，并且提升FPS。
+of.options.FAST_MATH.tooltip.4=采用优化的 sin() 和 cos() 函数，
+of.options.FAST_MATH.tooltip.5=从而可以更好地利用CPU缓存并提升FPS。
 of.options.FAST_MATH.tooltip.6=此选项对世界生成有微小影响。
 
 of.options.CHUNK_UPDATES=区块更新
@@ -665,7 +666,7 @@ of.options.CHUNK_UPDATES.tooltip.2= 1 - 世界载入速度较慢，FPS较高（�
 of.options.CHUNK_UPDATES.tooltip.3= 3 - 世界载入速度较快，FPS较低
 of.options.CHUNK_UPDATES.tooltip.4= 5 - 世界载入速度最快，FPS最低
 of.options.CHUNK_UPDATES.tooltip.5=渲染每帧时更新的区块数，
-of.options.CHUNK_UPDATES.tooltip.6=更高的值将会导致帧数不稳定。
+of.options.CHUNK_UPDATES.tooltip.6=较高的值可能会导致帧数不稳定。
 
 of.options.CHUNK_UPDATES_DYNAMIC=动态更新
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=动态区块更新
@@ -680,7 +681,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.2= 关闭 - 默认的服务器区块载入
 of.options.LAZY_CHUNK_LOADING.tooltip.3= 开启 - 缓慢的服务器区块载入（更平滑）
 of.options.LAZY_CHUNK_LOADING.tooltip.4=将区块分布在多个“游戏刻”进行加载
 of.options.LAZY_CHUNK_LOADING.tooltip.5=从而平滑服务器整体区块加载。
-of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界不能正确地载入，请把它设为关。
+of.options.LAZY_CHUNK_LOADING.tooltip.6=如果部分世界无法正确载入，请把它设为“关”。
 of.options.LAZY_CHUNK_LOADING.tooltip.7=仅适用于本地世界（单人游戏）。
 
 of.options.RENDER_REGIONS=区域渲染
@@ -812,15 +813,15 @@ of.options.SHOW_GL_ERRORS.tooltip.4=错误无法修复时禁用此选项。
 of.options.SHOW_GL_ERRORS.tooltip.5=即使禁用了此选项，错误仍会被记录在错误日志中，
 of.options.SHOW_GL_ERRORS.tooltip.6=并且这些错误仍可能会导致明显的FPS下降。
 
-of.options.TELEMETRY=用户体验改善计划
-of.options.TELEMETRY.tooltip.1=把使用数据发送给Mojang
-of.options.TELEMETRY.tooltip.2=  开启 - 全部使用数据
-of.options.TELEMETRY.tooltip.3=  匿名 - 匿名发送使用数据
-of.options.TELEMETRY.tooltip.4=  关闭 - 不发送使用数据
-of.options.TELEMETRY.tooltip.5=开启时会发送可用的玩家UUID
-of.options.TELEMETRY.tooltip.6=来跨设备跟踪用户。
-of.options.TELEMETRY.tooltip.7=匿名选项不会发送任何
-of.options.TELEMETRY.tooltip.8=可被识别的玩家或客户端信息。
+of.options.TELEMETRY=遥测
+of.options.TELEMETRY.tooltip.1=发送遥测数据
+of.options.TELEMETRY.tooltip.2=  开 - 完整遥测（默认）
+of.options.TELEMETRY.tooltip.3=  匿名 - 匿名遥测
+of.options.TELEMETRY.tooltip.4=  关 - 关闭遥测
+of.options.TELEMETRY.tooltip.5=完整遥测会发送用户的UUID，这可以用于在不同设备
+of.options.TELEMETRY.tooltip.6=之间追踪用户。
+of.options.TELEMETRY.tooltip.7=匿名遥测不会发送用户或客户端的任何可识别数据。
+of.options.TELEMETRY.tooltip.8= 
 
 # Chat Settings
 

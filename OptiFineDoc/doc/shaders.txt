@@ -45,6 +45,12 @@ Output color attachments are configured with the "/* DRAWBUFFERS:XYZ */" or "/* 
 Gbuffers, deferred and composite programs can write to any color attachment, but no more than 8 at the same time.
 If the output color attachments are not configured, then the program will write to the first 8 color attachments.  
 
+In shaders using the modern syntax (130 and above) the outputs of the fragment shader should use the outColor<n> names. Example:
+/* DRAWBUFFERS:3,4,7 */
+out vec4 outColor0; // Writes to buffer 3
+out vec4 outColor1; // Writes to buffer 4
+out vec4 outColor2; // Writes to buffer 7
+
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
 
