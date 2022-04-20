@@ -2,11 +2,14 @@
 
 # General
 of.general.ambiguous=Ambiguë
+of.general.compact=Compact
 of.general.custom=Personnalisé
 of.general.from=De
 of.general.id=ID
+of.general.max=Maximum
 of.general.restart=Redémarrer
 of.general.smart=Approfondis
+of.general.anonymous=Anonyme
 
 # Keys
 of.key.zoom=Zoom
@@ -811,6 +814,16 @@ of.options.SHOW_GL_ERRORS.tooltip.4=conflit inconnu et que les erreurs ne peuven
 of.options.SHOW_GL_ERRORS.tooltip.5=corrigées. Les erreurs sont toujours journalisées lorsque
 of.options.SHOW_GL_ERRORS.tooltip.6=cette option est désactivée et peuvent toujours causer
 of.options.SHOW_GL_ERRORS.tooltip.7=une chute importante de FPS.
+
+of.options.TELEMETRY=Télémétrie
+of.options.TELEMETRY.tooltip.1=Envoyer des données de télémétrie à Mojang
+of.options.TELEMETRY.tooltip.2=  Oui - télémétrie complète (par défaut)
+of.options.TELEMETRY.tooltip.3=  Anonyme - télémétrie anonyme
+of.options.TELEMETRY.tooltip.4=  Non - pas de télémétrie
+of.options.TELEMETRY.tooltip.5=La télémétrie complète envoie l'UUID de l'utilisateur qui peut être utilisé
+of.options.TELEMETRY.tooltip.6=pour suivre l'utilisateur sur différents appareils.
+of.options.TELEMETRY.tooltip.7=La télémétrie anonyme n'envoie aucune donnée identifiable
+of.options.TELEMETRY.tooltip.8=de l'utilisateur ou du client.
 
 # Chat Settings
 
