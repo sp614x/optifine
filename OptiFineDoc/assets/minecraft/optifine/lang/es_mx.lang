@@ -145,21 +145,21 @@ of.options.shaders.shaderOptions=Opciones del Shader...
 of.options.shaderOptionsTitle=Opciones del Shader
 
 of.options.quality=Calidad...
-of.options.qualityTitle=Configurar calidad.
+of.options.qualityTitle=Opciones de calidad.
 
 of.options.details=Detalles...
-of.options.detailsTitle=Configurar detalles.
+of.options.detailsTitle=Opciones de detalles.
 
 of.options.performance=Rendimiento...
-of.options.performanceTitle=Configuración del rendimiento.
+of.options.performanceTitle=Opciones de rendimiento.
 
 of.options.animations=Animaciones...
-of.options.animationsTitle=Configuraciones de animaciones.
+of.options.animationsTitle=Opciones de animaciones.
 
 of.options.other=Otro...
-of.options.otherTitle=Otras configuraciones
+of.options.otherTitle=Otras opciones
 
-of.options.other.reset=Reiniciar la configuracion de video...
+of.options.other.reset=Reiniciar las opciones de video...
 
 of.shaders.profile=Perfil
 
@@ -211,8 +211,8 @@ of.options.CLEAR_WATER.tooltip.3=  SÍ – Agua más transparente.
 
 of.options.RANDOM_ENTITIES=Mobs aleatorios
 of.options.RANDOM_ENTITIES.tooltip.1=Mobs aleaotrios.
-of.options.RANDOM_ENTITIES.tooltip.2=  NO – Sin skins aleatorios de mobs. (rápido)
-of.options.RANDOM_ENTITIES.tooltip.3=  SÍ – Skins de mobs aleatorios. (lento)
+of.options.RANDOM_ENTITIES.tooltip.2=  NO – Sin aspectos aleatorios de mobs. (rápido)
+of.options.RANDOM_ENTITIES.tooltip.3=  SÍ – Aspectos de mobs aleatorios. (lento)
 of.options.RANDOM_ENTITIES.tooltip.4=Esta opción habilita el uso de skins aleatorias para mobs por
 of.options.RANDOM_ENTITIES.tooltip.5=lo que requiere de un paquete de texturas que los contenga.
 
@@ -258,7 +258,7 @@ of.options.SMOOTH_BIOMES.tooltip.5=combinando y contemplando el color de los blo
 of.options.SMOOTH_BIOMES.tooltip.6=Solo afecta a hojas, pastos, lianas y agua.
 
 of.options.CONNECTED_TEXTURES=Texturas conectadas
-of.options.CONNECTED_TEXTURES.tooltip.1=Textruas conectadas.
+of.options.CONNECTED_TEXTURES.tooltip.1=Texturas conectadas.
 of.options.CONNECTED_TEXTURES.tooltip.2=  NO – Sin texturas conectadas. Por defecto.
 of.options.CONNECTED_TEXTURES.tooltip.3=  Rápido – Texturas conectadas rápidas.
 of.options.CONNECTED_TEXTURES.tooltip.4=  Detallada – Texturas conectadas finas.
@@ -284,17 +284,17 @@ of.options.CUSTOM_SKY.tooltip.3=  SÍ – Texturas del cielo personalizadas. Por
 of.options.CUSTOM_SKY.tooltip.4=La textura para el cielo personalizado es obtenida del
 of.options.CUSTOM_SKY.tooltip.5=paquete de texturas seleccionado.
 
-of.options.CUSTOM_ITEMS=Objetos personalizados
-of.options.CUSTOM_ITEMS.tooltip.1=Usa texturas para los objetos.
-of.options.CUSTOM_ITEMS.tooltip.2=  NO – Texturas de objetos predeterminadas. (rápido)
-of.options.CUSTOM_ITEMS.tooltip.3=  SÍ – Texturas de objetos personalizadas. Por defecto. (lento)
-of.options.CUSTOM_ITEMS.tooltip.4=Las texturas de los objetos personalizados se obtienen del
+of.options.CUSTOM_ITEMS=Ítems personalizados
+of.options.CUSTOM_ITEMS.tooltip.1=Usa texturas para los ítems.
+of.options.CUSTOM_ITEMS.tooltip.2=  NO – Texturas de ítems predeterminadas. (rápido)
+of.options.CUSTOM_ITEMS.tooltip.3=  SÍ – Texturas de ítems personalizadas. Por defecto. (lento)
+of.options.CUSTOM_ITEMS.tooltip.4=Las texturas de los ítems personalizados se obtienen del
 of.options.CUSTOM_ITEMS.tooltip.5=paquete de texturas seleccionado.
 
 # Details
 
 of.options.CLOUDS=Nube
-of.options.CLOUDS.tooltip.1=Como se ven las nubes.
+of.options.CLOUDS.tooltip.1=Aspecto de las nubes.
 of.options.CLOUDS.tooltip.2=  NO - Sin nubes. (más rápido)
 of.options.CLOUDS.tooltip.3=  Normal - Establecido en la configuración de calidad visual.
 of.options.CLOUDS.tooltip.4=  Rápida - Menor calidad. (rápido)
@@ -305,7 +305,7 @@ of.options.CLOUDS.tooltip.7=Las nubes con calidad alta son renderizadas en 3D.
 of.options.CLOUD_HEIGHT=Altitud de nube
 of.options.CLOUD_HEIGHT.tooltip.1=Que tan arriba se muestran las nubes.
 of.options.CLOUD_HEIGHT.tooltip.2=  NO - Altitud por defecto.
-of.options.CLOUD_HEIGHT.tooltip.3=  100%% - Por encima del límite de altitud.
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - Por encima del límite de altura.
 
 of.options.TREES=Árboles
 of.options.TREES.tooltip.1=Como se ven las hojas de los árboles.
@@ -316,9 +316,9 @@ of.options.TREES.tooltip.5=  Detallada - Calidad alta. (más lento)
 of.options.TREES.tooltip.6=Los árboles con menor calidad tienen las hojas opacas.
 of.options.TREES.tooltip.7=Los árboles con mayor calidad o dinámicos tienen hojas transparentes.
 
-of.options.RAIN=Nieve y lluvia
+of.options.RAIN=Lluvia y nieve
 of.options.RAIN.tooltip.1=Lluvia y nieve.
-of.options.RAIN.tooltip.2=  NO - Sin nieve o lluvia. (más rápido)
+of.options.RAIN.tooltip.2=  NO - Sin lluvia y nieve. (más rápido)
 of.options.RAIN.tooltip.3=  Normal - Establecido en la configuración de calidad visual.
 of.options.RAIN.tooltip.4=  Rápida - Lluvia y nive ligera. (rápido)
 of.options.RAIN.tooltip.5=  Detallada - Lluvia y nieve pesada. (lento)
@@ -354,18 +354,18 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Detallada - Corrección definida de co
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=Controla el cambio de color entre bloques translúcidos (cristal
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=teñido, agua, hielo) cuando son puestos separados por aire.
 
-of.options.HELD_ITEM_TOOLTIPS=Item en mano
-of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Muestra información encima del hotbar al cambiar de item en mano.
+of.options.HELD_ITEM_TOOLTIPS=Ítem en mano
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Muestra información encima de la barra de ítems al cambiar de ítem en mano.
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  NO - No muestra información.
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  SÍ - Muestra información. Por defecto.
 
 of.options.DROPPED_ITEMS=Items caídos
 of.options.DROPPED_ITEMS.tooltip.1=Afecta como se ven los items.
 of.options.DROPPED_ITEMS.tooltip.2=  Normal - Establecido en la configuración de calidad visual.
-of.options.DROPPED_ITEMS.tooltip.3=  Rápida - Los items caídos se ven en 2D. (rápido)
-of.options.DROPPED_ITEMS.tooltip.4=  Detallada - Los items caídos se ven en 3D. (lento)
+of.options.DROPPED_ITEMS.tooltip.3=  Rápida - Los ítems caídos se ven en 2D. (rápido)
+of.options.DROPPED_ITEMS.tooltip.4=  Detallada - Los ítems caídos se ven en 3D. (lento)
 
-options.entityShadows.tooltip.1=Sombra de entidades (mobs, jugadores, etcétera).
+options.entityShadows.tooltip.1=Sombra de entidades (criaturas, jugadores, etcétera).
 options.entityShadows.tooltip.2=  NO - No muestra sombras de entidades.
 options.entityShadows.tooltip.3=  SÍ - Muestra sombras de entidades.
 
@@ -404,7 +404,7 @@ of.options.FAST_RENDER.tooltip.5=la carga del GPU, aumentando sustancialmente lo
 
 of.options.FAST_MATH=Matemática avanzada
 of.options.FAST_MATH.tooltip.1=Matemática avanzada.
-of.options.FAST_MATH.tooltip.2=  NO - Matemática estandard. Por defecto.
+of.options.FAST_MATH.tooltip.2=  NO - Matemática estandar. Por defecto.
 of.options.FAST_MATH.tooltip.3=  SÍ - Matemática rápida.
 of.options.FAST_MATH.tooltip.4=Utiliza funciones sin() y cos() optimizadas usando
 of.options.FAST_MATH.tooltip.5=el cache del CPU e incrementa los FPS.
@@ -443,14 +443,14 @@ of.options.ANIMATED_WATER=Animación de agua
 of.options.ANIMATED_LAVA=Animación de lava
 of.options.ANIMATED_FIRE=Animación de fuego
 of.options.ANIMATED_PORTAL=Animación del portal
-of.options.ANIMATED_REDSTONE=Animación del redstone
+of.options.ANIMATED_REDSTONE=Animación de redstone
 of.options.ANIMATED_EXPLOSION=Animación de explosiones
 of.options.ANIMATED_FLAME=Animación de fuego
 of.options.ANIMATED_SMOKE=Animación de humo
-of.options.VOID_PARTICLES=Partículas del Fin
+of.options.VOID_PARTICLES=Partículas del End
 of.options.WATER_PARTICLES=Partículas de agua
 of.options.RAIN_SPLASH=Salpicadura de lluvia
-of.options.PORTAL_PARTICLES=Partículas de portal
+of.options.PORTAL_PARTICLES=Partículas del portal
 of.options.POTION_PARTICLES=Partículas de pociones
 of.options.DRIPPING_WATER_LAVA=Goteo de agua y lava
 of.options.ANIMATED_TERRAIN=Animación del terreno
