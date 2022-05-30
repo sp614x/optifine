@@ -7,6 +7,7 @@ of.general.id=Id
 of.general.max=Maximální
 of.general.restart=restart
 of.general.smart=Chytrá
+of.general.anonymous=Anonymní
 
 # Klávesy
 of.key.zoom=Přiblížení
@@ -793,6 +794,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=budou objevovat v chatu. Vypni jen když je
 of.options.SHOW_GL_ERRORS.tooltip.4=chyba známa a víš, že se nedá opravit.
 of.options.SHOW_GL_ERRORS.tooltip.5=Pokud NE, chyby jsou stále logovány v
 of.options.SHOW_GL_ERRORS.tooltip.6=error logu a mohou způsobit značný drop v FPS.
+
+of.options.TELEMETRY=Telemetrie
+of.options.TELEMETRY.tooltip.1=Posílání telemetrie Mojangu
+of.options.TELEMETRY.tooltip.2=  ANO - plná telemetrie (výchozí)
+of.options.TELEMETRY.tooltip.3=  Anonymní - anonymní telemetrie
+of.options.TELEMETRY.tooltip.4=  NE - telemetrie vypnuta
+of.options.TELEMETRY.tooltip.5=Plná telemetrie posílá UUID uživatele, které lze použít
+of.options.TELEMETRY.tooltip.6=pro sledování stejného uživatele na jiných zařízeních.
+of.options.TELEMETRY.tooltip.7=Anonymní telemetrie neposílá žádné
+of.options.TELEMETRY.tooltip.8=identifikovatelné údaje.
 
 # Chat Settings
 
