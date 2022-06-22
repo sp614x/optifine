@@ -1,0 +1,814 @@
+# General
+of.general.ambiguous=Неясно
+of.general.compact=Компактно
+of.general.custom=Персонализирано
+of.general.from=От
+of.general.id=ID
+of.general.max=Максимум
+of.general.restart=Рестарт
+of.general.smart=Умно
+
+# Keys
+of.key.zoom=Увеличаване
+
+# Message
+of.message.aa.shaders1=Антиалиасингът не е съвместим с шейдъри.
+of.message.aa.shaders2=Моля, деактивирайте шейдърите, за да активирате тази опция.
+
+of.message.aa.gf1=Антиалиасингът не е съвместим с Страхотна Графика.
+of.message.aa.gf2=Моля, задайте графиката на Бързо или Изящнo.
+
+of.message.af.shaders1=Анизотропното филтриране не е съвместимо с шейдъри.
+of.message.af.shaders2=Моля, деактивирайте шейдърите, за да активирате тази опция.
+
+of.message.fr.shaders1=Бързo Изобразяване не е съвместимо с шейдъри.
+of.message.fr.shaders2=Моля, деактивирайте шейдърите, за да активирате тази опция.
+
+of.message.an.shaders1=3D анаглифът не е съвместим с шейдъри.
+of.message.an.shaders2=Моля, деактивирайте шейдърите, за да активирате тази опция.
+
+of.message.shaders.aa1=Шейдърите не са съвместими с Антиалиасинг.
+of.message.shaders.aa2=Моля, задайте Качество -> Антиалиасинг на ИЗКЛ и рестартирайте играта.
+
+of.message.shaders.af1=Шейдърите не са съвместими с анизотропното филтриране.
+of.message.shaders.af2=Моля, задайте Качество -> Анизотропно филтриране на ИЗКЛ.
+
+of.message.shaders.fr1=Шейдърите не са съвместими с Бърз Изобразяване.
+of.message.shaders.fr2=Моля, задайте Производителност -> Бързo Изобразяване на ИЗКЛ.
+
+of.message.shaders.gf1=Шейдърите не са съвместими с Страхотна Графика.
+of.message.shaders.gf2=Моля, задайте графиката на Бързо или Изящнo.
+
+of.message.shaders.an1=Шейдърите не са съвместими с 3D анаглифи.
+of.message.shaders.an2=Моля, задайте Друго -> 3D анаглиф на ИЗКЛ.
+
+of.message.shaders.nv1=Този пакет за шейдъри изисква по-нова версия на OptiFine: %s
+of.message.shaders.nv2=Сигурен ли си, че искаш да продължиш?
+
+of.message.newVersion=Налична е нова версия на §eOptiFine§f: §e%s§f
+of.message.java64Bit=Можете да инсталирате §e64-bit Java§f, за да увеличите производителността.
+of.message.openglError=§eOpenGL Грешка§f: %s (%s)
+
+of.message.shaders.loading=Зареждане на шейдъри: %s
+
+of.message.other.reset=Нулиране на всички видео настройки до техните стойности по подразбиране?
+
+of.message.loadingVisibleChunks=Зареждане на видими парчета
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=Наметало OptiFine...
+
+of.options.capeOF.title=OptiFine Наметало
+of.options.capeOF.openEditor=Отворете редактора на Наметало
+of.options.capeOF.reloadCape=Презаредете Наметало
+of.options.capeOF.copyEditorLink=Копирайте връзката в клипборда
+
+of.message.capeOF.openEditor=Редакторът на наметала OptiFine трябва да се отвори в уеб браузър.
+of.message.capeOF.openEditorError=Грешка при отварянето на връзката на редактора в уеб браузър.
+of.message.capeOF.reloadCape=Наметалото ще бъде презаредена за 15 секунди.
+
+of.message.capeOF.error1=Удостоверяването на Mojang не бе успешно.
+of.message.capeOF.error2=Грешка: %s
+
+# Video settings
+
+options.graphics.tooltip.1=Визуално качество
+options.graphics.tooltip.2=  Бързо - по-ниско качество, по-бързо
+options.graphics.tooltip.3=  Изящнo - по-високо качество, по-бавно
+options.graphics.tooltip.4=  Страхотно - по-добре полупрозрачни обекти, най-бавно
+options.graphics.tooltip.5=Променя външния вид на облаци, листа, вода,
+options.graphics.tooltip.6=сенки и тревни страни.
+options.graphics.tooltip.7=Страхотната графика не е съвместима с шейдъри и
+options.graphics.tooltip.8=Антиалиасинг.
+
+of.options.renderDistance.tiny=Mъничко
+of.options.renderDistance.short=Kъсо
+of.options.renderDistance.normal=Нормално
+of.options.renderDistance.far=Далече
+of.options.renderDistance.extreme=Eкстремно
+of.options.renderDistance.insane=Безумно
+of.options.renderDistance.ludicrous=Нелепо
+
+options.renderDistance.tooltip.1=Видимо разстояние
+options.renderDistance.tooltip.2=  2 Mъничко - 32 м (най-бърз)
+options.renderDistance.tooltip.3=  8 Нормално - 128 м (нормално)
+options.renderDistance.tooltip.4=  16 Далече - 256 м (по-бавно)
+options.renderDistance.tooltip.5=  32 Eкстремно - 512m (най-бавният!) Много изискващ ресурси
+options.renderDistance.tooltip.6=  48 Безумно - 768m, има нужда от разпределени 2GB RAM
+options.renderDistance.tooltip.7=  64 Нелепо - 1024m, има нужда от разпределени 3GB RAM
+options.renderDistance.tooltip.8=Стойности над 16 Далече са ефективни само в локалните светове.
+
+options.simulationDistance.tooltip.1=Симулационно разстояние
+options.simulationDistance.tooltip.2=  5-12 - Нормално (по-бързо)
+options.simulationDistance.tooltip.3=  13-24 - Далеч (по-бавно)
+options.simulationDistance.tooltip.4=  25-32 - Екстремно (най-бавно)
+options.simulationDistance.tooltip.5=Контролира колко далеч от играча са парчетата и обектите
+options.simulationDistance.tooltip.6=се актуализират.
+options.simulationDistance.tooltip.7=По-високите стойности могат да доведат до значителни скокове на забавяне.
+
+options.entityDistanceScaling.tooltip.1=Разстояние за изобразяване на обект
+options.entityDistanceScaling.tooltip.2=  50%% - по-бързо
+options.entityDistanceScaling.tooltip.3=  100%% - по подразбиране
+options.entityDistanceScaling.tooltip.4=  500%% - по-бавно
+options.entityDistanceScaling.tooltip.5=Променя максималното разстояние, на което се показват обектите.
+
+options.ao.tooltip.1=Плавно осветление
+options.ao.tooltip.2=  ИЗКЛ - без плавно осветление (по-бързо)
+options.ao.tooltip.3=  Минимум - просто плавно осветление (по-бавно)
+options.ao.tooltip.4=  Максимум - сложно плавно осветление (най-бавно)
+
+options.framerateLimit.tooltip.1=Максимална честота на кадрите
+options.framerateLimit.tooltip.2=  VSync - ограничение до честотата на кадрите на монитора (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - променлива
+options.framerateLimit.tooltip.4=  Неограничен - без ограничение (най-бърз)
+options.framerateLimit.tooltip.5=Ограничението за честотата на кадрите намалява FPS, дори ако
+options.framerateLimit.tooltip.6=граничната стойност не е достигната.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Ниво на Плавно осветление
+of.options.AO_LEVEL.tooltip.1=Ниво на Плавно осветление
+of.options.AO_LEVEL.tooltip.2= ИЗКЛ - без сенки
+of.options.AO_LEVEL.tooltip.3= 50%% - светли сенки
+of.options.AO_LEVEL.tooltip.4= 100%% - тъмни сенки
+
+options.viewBobbing.tooltip.1=По-реалистично движение.
+options.viewBobbing.tooltip.2=Когато използвате mipmaps, задайте го на ИЗКЛ за най-добри резултати.
+
+options.guiScale.tooltip.1=GUI скала
+options.guiScale.tooltip.2=  Автоматичен - максимален размер
+options.guiScale.tooltip.3=  Малък, нормален, голям - 1x до 3x
+options.guiScale.tooltip.4=  4x до 10x - налични на 4K дисплеи
+options.guiScale.tooltip.5=Нечетните стойности (1x, 3x, 5x ...) не са съвместими с Unicode.
+options.guiScale.tooltip.6=По-малък GUI може да е по-бърз.
+
+options.vbo=Използвайте VBO
+options.vbo.tooltip.1=Вертексни буферни обекти
+options.vbo.tooltip.2=Използва алтернативен модел на изобразяване, който обикновено е
+options.vbo.tooltip.3=по-бързо (5-10%%) от изобразяването по подразбиране.
+
+options.gamma.tooltip.1=Променя яркостта на по-тъмните обекти.
+options.gamma.tooltip.2=  Уютно - стандартна яркост
+options.gamma.tooltip.3=  1-99%% - променлива
+options.gamma.tooltip.4=  Ярко - максимална яркост за по-тъмни обекти
+options.gamma.tooltip.5=Тази опция не променя яркостта на
+options.gamma.tooltip.6=напълно черни обекти.
+
+options.anaglyph.tooltip.1=3D анаглифи
+options.anaglyph.tooltip.2=Позволява стереоскопичен 3D ефект, използвайки различни цветове
+options.anaglyph.tooltip.3=за всяко око.
+options.anaglyph.tooltip.4=Изисква червено-цианови очила за правилно гледане.
+
+options.attackIndicator.tooltip.1=Конфигурира позицията на индикатора за атака
+options.attackIndicator.tooltip.2=  Kръст - под кръста
+options.attackIndicator.tooltip.3=  Хотбар - до хотбара
+options.attackIndicator.tooltip.4=  ИЗКЛ - няма индикатор за атака
+options.attackIndicator.tooltip.5=Индикаторът за атака показва силата на атака на
+options.attackIndicator.tooltip.6=в момента оборудван артикул
+
+options.screenEffectScale.tooltip.1=Ефекти на изкривяване
+options.screenEffectScale.tooltip.2=  ИЗКЛ - деактивиранo
+options.screenEffectScale.tooltip.3=  1-100%% - активирано
+options.screenEffectScale.tooltip.4=Контролира интензивността на ефектите на изкривяване на екрана
+options.screenEffectScale.tooltip.5=като портална анимация и ефект на гадене.
+
+options.screenEffectScale.tooltip.1=Ефекти на изкривяване
+options.screenEffectScale.tooltip.2=  ИЗКЛ - деактивиранo
+options.screenEffectScale.tooltip.3=  1-100%% - активирано
+options.screenEffectScale.tooltip.4=Контролира интензивността на ефектите на изкривяване на екрана
+options.screenEffectScale.tooltip.5=като портална анимация и ефект на гадене.
+
+options.autosaveIndicator.tooltip.1=Индикатор за автоматично запазване
+options.autosaveIndicator.tooltip.2=  ИЗКЛ - деактивиранo
+options.autosaveIndicator.tooltip.3=  ВКЛ - активиран
+options.autosaveIndicator.tooltip.4=Показва кога играта автоматично спасява света.
+
+options.fovEffectScale.tooltip.1=FOV ефекти
+options.fovEffectScale.tooltip.2=  ИЗКЛ - деактивиран
+options.fovEffectScale.tooltip.3=  1-100%% - активирано
+options.fovEffectScale.tooltip.4=Контролира интензивността на ефектите за мащабиране на екрана
+options.fovEffectScale.tooltip.5=като теглене на лък, спринт и летене.
+
+options.prioritizeChunkUpdates.tooltip.1=Строител на парчета
+options.prioritizeChunkUpdates.tooltip.2=  Threaded - актуализирайте всички парчета във фонов режим
+options.prioritizeChunkUpdates.tooltip.3=  Semi Blocking - веднага актуализиране на засегнатите парчета на плейъра
+options.prioritizeChunkUpdates.tooltip.4=  Fully Blocking - актуализирайте веднага всички близки парчета
+options.prioritizeChunkUpdates.tooltip.5=Актуализациите с нишки може за кратко да покажат дупки в терена.
+options.prioritizeChunkUpdates.tooltip.6=Пълното блокиране на актуализации може да доведе до значителни скокове на забавяне.
+
+of.options.ALTERNATE_BLOCKS=Алтернативни блокове
+of.options.ALTERNATE_BLOCKS.tooltip.1=Алтернативни блокове
+of.options.ALTERNATE_BLOCKS.tooltip.2=Използва алтернативни блокови модели за някои блокове.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Зависи от избрания ресурсен пакет.
+
+of.options.FOG_FANCY=Мъгла
+of.options.FOG_FANCY.tooltip.1=Тип мъгла
+of.options.FOG_FANCY.tooltip.2=  Бързо - по-бърза мъгла
+of.options.FOG_FANCY.tooltip.3=  Изящнo - по-бавна мъгла, изглежда по-добре
+of.options.FOG_FANCY.tooltip.4=  ИЗКЛ - без мъгла, най-бърз
+of.options.FOG_FANCY.tooltip.5=Изящнama мъгла е налична само ако се поддържа от
+of.options.FOG_FANCY.tooltip.6=графичнатa карта.
+
+of.options.FOG_START=Старт на мъглата
+of.options.FOG_START.tooltip.1=Старт на мъглата
+of.options.FOG_START.tooltip.2=  0.2 - мъглата започва близо до играча
+of.options.FOG_START.tooltip.3=  0.8 - мъглата започва далеч от играча
+of.options.FOG_START.tooltip.4=Тази опция обикновено не влияе на производителността.
+
+of.options.CHUNK_LOADING=Зареждане на парчета
+of.options.CHUNK_LOADING.tooltip.1=Зареждане на парчета
+of.options.CHUNK_LOADING.tooltip.2=По подразбиране - нестабилен FPS при зареждане на парчета
+of.options.CHUNK_LOADING.tooltip.3=  Плавен - стабилен FPS
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - стабилен FPS, 3 пъти по-бързо зареждане на света
+of.options.CHUNK_LOADING.tooltip.5=Плавен и Multi-Core премахват заекването и
+of.options.CHUNK_LOADING.tooltip.6=замръзвания, причинени от зареждане на парчета.
+of.options.CHUNK_LOADING.tooltip.7=Multi-Core може да ускори 3 пъти световното зареждане и
+of.options.CHUNK_LOADING.tooltip.8=увеличете FPS, като използвате второ ядро на процесора.
+of.options.chunkLoading.smooth=Плавен
+of.options.chunkLoading.multiCore=Multi-Core
+
+of.options.shaders=Шейдери...
+of.options.shadersTitle=Шейдери
+
+of.options.shaders.packNone=ИЗКЛ
+of.options.shaders.packDefault=(вътрешни)
+
+of.options.shaders.ANTIALIASING=Антиалиасинг
+of.options.shaders.ANTIALIASING.tooltip.1=Антиалиасинг
+of.options.shaders.ANTIALIASING.tooltip.2=  ИЗКЛ - (по подразбиране) без Антиалиасинг (по-бързо)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - антиалиасни линии и ръбове (по-бавно)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA е ефект след обработка, който изглажда
+of.options.shaders.ANTIALIASING.tooltip.5=назъбени линии и резки цветови преходи.
+of.options.shaders.ANTIALIASING.tooltip.6=Това е по-бързо от традиционния антиалиасинг
+of.options.shaders.ANTIALIASING.tooltip.7=и е съвместим с шейдъри.
+
+of.options.shaders.NORMAL_MAP=Нормална карта
+of.options.shaders.NORMAL_MAP.tooltip.1=Нормална карта
+of.options.shaders.NORMAL_MAP.tooltip.2=  ВКЛ - (по подразбиране) активира нормалните карти
+of.options.shaders.NORMAL_MAP.tooltip.3=  ИЗКЛ - деактивиране на нормалните карти
+of.options.shaders.NORMAL_MAP.tooltip.4=Нормалните карти могат да се използват от пакета за шейдъри
+of.options.shaders.NORMAL_MAP.tooltip.5=за симулиране на 3D геометрия върху плоски повърхности на модела.
+of.options.shaders.NORMAL_MAP.tooltip.6=Нормалните текстури на картата се предоставят от
+of.options.shaders.NORMAL_MAP.tooltip.7=текущ ресурсен пакет.
+
+of.options.shaders.SPECULAR_MAP=Огледална карта
+of.options.shaders.SPECULAR_MAP.tooltip.1=Огледална карта
+of.options.shaders.SPECULAR_MAP.tooltip.2=  ВКЛ - (по подразбиране) активира огледални карти
+of.options.shaders.SPECULAR_MAP.tooltip.3=  ИЗКЛ - деактивиране на огледалните карти
+of.options.shaders.SPECULAR_MAP.tooltip.4=Огледалните карти могат да се използват от пакета за шейдъри
+of.options.shaders.SPECULAR_MAP.tooltip.5=за симулиране на специални отразяващи ефекти.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Огледалните текстури на картата се предоставят от
+of.options.shaders.SPECULAR_MAP.tooltip.7=текущ ресурсен пакет.
+
+of.options.shaders.RENDER_RES_MUL=Качество на Изобразяване
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Качество на Изобразяване
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0,5x - ниско (най-бързо)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - стандартно (по подразбиране)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - високо (най-бавно)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Качеството на изобразяването контролира размера на текстурата
+of.options.shaders.RENDER_RES_MUL.tooltip.6=на който пакетът с шейдъри се изобразява.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=По-ниските стойности могат да бъдат полезни с 4K дисплеи.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=По-високите стойности работят като филтър Antialiasing.
+
+of.options.shaders.SHADOW_RES_MUL=Качество на Сянка
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Качество на Сянка
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0,5x - ниско (най-бързо)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - стандартно (по подразбиране)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - високо (най-бавно)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Качеството на сянка контролира размера на картата на сенките
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=текстура, използвана от пакета за шейдъри.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=По-ниски стойности = неточни, по-груби сенки.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=По-високи стойности = детайлни, по-фини сенки.
+
+of.options.shaders.HAND_DEPTH_MUL=Дълбочина на ръката
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Дълбочина на ръката
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0,5x - ръка близо до камерата
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (по подразбиране)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - ръка далеч от камерата
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Дълбочината на ръката контролира колко далеч са ръчните обекти
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=от камерата.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=За пакети с шейдъри, използващи размазване в дълбочина, това трябва да се промени
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=замъгляването на ръчни обекти.
+
+of.options.shaders.CLOUD_SHADOW=Облачна сянка
+
+of.options.shaders.OLD_HAND_LIGHT=Стара ръчна светлина
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Стара ръчна светлина
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  По подразбиране - контролира се от пакета шейдъри
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  ВКЛ - използвайте стара ръчна светлина
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  ИЗКЛ - използвайте нова ръчна светлина
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Старата ръчна светлина позволява пакети за шейдъри, които само
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=разпознават светлинни предмети в главната ръка
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=да работи и с предмети в другата ръка.
+
+of.options.shaders.OLD_LIGHTING=Старо осветление
+of.options.shaders.OLD_LIGHTING.tooltip.1=Старо осветление
+of.options.shaders.OLD_LIGHTING.tooltip.2=  По подразбиране - контролира се от пакета шейдъри
+of.options.shaders.OLD_LIGHTING.tooltip.3=  ВКЛ - използвайте старо осветление
+of.options.shaders.OLD_LIGHTING.tooltip.4=  ИЗКЛ - не използвайте старо осветление
+of.options.shaders.OLD_LIGHTING.tooltip.5=Старото осветление управлява приложеното фиксирано осветление
+of.options.shaders.OLD_LIGHTING.tooltip.6=с ванилия към страните на блока.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Пакетите с шейдъри, които използват сенки, обикновено осигуряват
+of.options.shaders.OLD_LIGHTING.tooltip.8=много по-добро осветление в зависимост от позицията на слънцето.
+
+of.options.shaders.DOWNLOAD=Изтеглете шейдъри
+of.options.shaders.DOWNLOAD.tooltip.1=Изтеглете шейдъри
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Отваря страницата с пакети за шейдъри в браузър.
+of.options.shaders.DOWNLOAD.tooltip.4=Поставете изтеглените пакети за шейдъри в „Папка за шейдъри“
+of.options.shaders.DOWNLOAD.tooltip.5=и те ще се появят в списъка с инсталирани шейдъри.
+
+of.options.shaders.SHADER_PACK=Шейдър Пакет
+
+of.options.shaders.shadersFolder=Папка за шейдъри
+of.options.shaders.shaderOptions=Опции за шейдър...
+
+of.options.shaderOptionsTitle=Опции за шейдър
+
+of.options.quality=Качество...
+of.options.qualityTitle=Настройки за Качество
+
+of.options.details=Детайли...
+of.options.detailsTitle=Настройки за Детайл
+
+of.options.performance=Производителност...
+of.options.performanceTitle=Настройки за Производителност
+
+of.options.animations=Aнимации...
+of.options.animationsTitle=Настройки за Анимация
+
+of.options.other=Друго...
+of.options.otherTitle=Други Настройки
+
+of.options.other.reset=Нулиране на видео настройките...
+
+of.shaders.profile=Профил
+
+# Quality
+
+of.options.mipmap.bilinear=Билинеен
+of.options.mipmap.linear=Линеен
+of.options.mipmap.nearest=Най-близкo
+of.options.mipmap.trilinear=Трилинеен
+
+options.mipmapLevels.tooltip.1=Визуален ефект, който прави отдалечените обекти да изглеждат по-добре
+options.mipmapLevels.tooltip.2=чрез изглаждане на детайлите на текстурата
+options.mipmapLevels.tooltip.3=  ИЗКЛ - без изглаждане
+options.mipmapLevels.tooltip.4=  1 - минимално изглаждане
+options.mipmapLevels.tooltip.5=  Максимум - максимално изглаждане
+options.mipmapLevels.tooltip.6=Тази опция обикновено не влияе на производителността.
+
+of.options.MIPMAP_TYPE=Тип Mipmap
+of.options.MIPMAP_TYPE.tooltip.1=Визуален ефект, който прави отдалечените обекти да изглеждат по-добре
+of.options.MIPMAP_TYPE.tooltip.2=чрез изглаждане на детайлите на текстурата
+of.options.MIPMAP_TYPE.tooltip.3=  Най-близкият - грубо изглаждане (най-бързо)
+of.options.MIPMAP_TYPE.tooltip.4=  Линеен - нормално изглаждане
+of.options.MIPMAP_TYPE.tooltip.5=  Билинеен - фино изглаждане
+of.options.MIPMAP_TYPE.tooltip.6=  Трилинеен - най-фино изглаждане (най-бавно)
+
+
+of.options.AA_LEVEL=Антиалиасинг
+of.options.AA_LEVEL.tooltip.1=Антиалиасинг
+of.options.AA_LEVEL.tooltip.2=  ИЗКЛ - (по подразбиране) без Антиалиасинг (по-бързо)
+of.options.AA_LEVEL.tooltip.3=  2-16 - изгладени линии и ръбове (по-бавно)
+of.options.AA_LEVEL.tooltip.4=Антиалиасингът изглажда назъбените линии и
+of.options.AA_LEVEL.tooltip.5=резки цветови преходи.
+of.options.AA_LEVEL.tooltip.6=Когато е активиран, може значително да намали FPS.
+of.options.AA_LEVEL.tooltip.7=Не всички нива се поддържат от всички графични карти.
+of.options.AA_LEVEL.tooltip.8=В сила след РЕСТАРТ!
+
+of.options.AF_LEVEL=Анизотропно филтриране
+of.options.AF_LEVEL.tooltip.1=Анизотропно филтриране
+of.options.AF_LEVEL.tooltip.2=  ИЗКЛ - (по подразбиране) стандартна детайлност на текстурата (по-бързо)
+of.options.AF_LEVEL.tooltip.3=  2-16 - по-фини детайли в мипмапирани текстури (по-бавно)
+of.options.AF_LEVEL.tooltip.4=Анизотропното филтриране възстановява детайлите в
+of.options.AF_LEVEL.tooltip.5=mipmap текстури.
+of.options.AF_LEVEL.tooltip.6=Когато е активиран, може значително да намали FPS.
+
+of.options.CLEAR_WATER=Чиста вода
+of.options.CLEAR_WATER.tooltip.1=Чиста вода
+of.options.CLEAR_WATER.tooltip.2=  ВКЛ - бистра, прозрачна вода
+of.options.CLEAR_WATER.tooltip.3=  ИЗКЛ - вода по подразбиране
+
+of.options.RANDOM_ENTITIES=Произволни субекти
+of.options.RANDOM_ENTITIES.tooltip.1=Произволни субекти
+of.options.RANDOM_ENTITIES.tooltip.2=  ИЗКЛ - без произволни субекти, по-бързо
+of.options.RANDOM_ENTITIES.tooltip.3=  ВКЛ - произволни субекти, по-бавнo
+of.options.RANDOM_ENTITIES.tooltip.4=Произволни субекти използва произволни текстури за игровите обекти.
+of.options.RANDOM_ENTITIES.tooltip.5=Той се нуждае от пакет с ресурси, който има множество текстури на обекти.
+
+of.options.BETTER_GRASS=По-добра трева
+of.options.BETTER_GRASS.tooltip.1=По-добра трева
+of.options.BETTER_GRASS.tooltip.2=  ИЗКЛ - текстура на страничната трева по подразбиране, най-бърз
+of.options.BETTER_GRASS.tooltip.3=  Бързо - пълна странична тревна текстура, по-бавно
+of.options.BETTER_GRASS.tooltip.4=  Изящнo - динамична странична тревна текстура, най-бавна
+
+of.options.BETTER_SNOW=По-добър сняг
+of.options.BETTER_SNOW.tooltip.1=По-добър сняг
+of.options.BETTER_SNOW.tooltip.2=  ИЗКЛ - сняг по подразбиране, по-бързо
+of.options.BETTER_SNOW.tooltip.3=  ВКЛ - по-добър сняг, по-бавен
+of.options.BETTER_SNOW.tooltip.4=Показва сняг под прозрачни блокове (ограда, висока трева)
+of.options.BETTER_SNOW.tooltip.5=когато граничи със снежни блокове.
+
+of.options.CUSTOM_FONTS=Персонализирани шрифтове
+of.options.CUSTOM_FONTS.tooltip.1=Персонализирани шрифтове
+of.options.CUSTOM_FONTS.tooltip.2=  ВКЛ - използва персонализирани шрифтове (по подразбиране), по-бавно
+of.options.CUSTOM_FONTS.tooltip.3=  ИЗКЛ - използва шрифт по подразбиране, по-бързо
+of.options.CUSTOM_FONTS.tooltip.4=Персонализираните шрифтове се доставят от текущия
+of.options.CUSTOM_FONTS.tooltip.5=пакет с ресурси.
+
+of.options.CUSTOM_COLORS=Персонализирани цветове
+of.options.CUSTOM_COLORS.tooltip.1=Персонализирани цветове
+of.options.CUSTOM_COLORS.tooltip.2=  ВКЛ - използва персонализирани цветове (по подразбиране), по-бавно
+of.options.CUSTOM_COLORS.tooltip.3=  ИЗКЛ - използва цветове по подразбиране, по-бързо
+of.options.CUSTOM_COLORS.tooltip.4=Персонализираните цветове се доставят от тока
+of.options.CUSTOM_COLORS.tooltip.5=пакет с ресурси.
+
+of.options.SWAMP_COLORS=Цветове в блатата
+of.options.SWAMP_COLORS.tooltip.1=Цветове в блатата
+of.options.SWAMP_COLORS.tooltip.2=  ВКЛ - използвайте блато цветове (по подразбиране), по-бавно
+of.options.SWAMP_COLORS.tooltip.3=  ИЗКЛ - не използвайте блатни цветове, по-бързо
+of.options.SWAMP_COLORS.tooltip.4=Цветовете на блатото засягат тревата, листата, лозята и водата.
+
+of.options.SMOOTH_BIOMES=Гладки биоми
+of.options.SMOOTH_BIOMES.tooltip.1=Гладки биоми
+of.options.SMOOTH_BIOMES.tooltip.2=  ВКЛ - изглаждане на границите на биома (по подразбиране), по-бавно
+of.options.SMOOTH_BIOMES.tooltip.3=  ИЗКЛ - без изглаждане на границите на биома, по-бързо
+of.options.SMOOTH_BIOMES.tooltip.4=Изглаждането на границите на биома се извършва чрез вземане на проби и
+of.options.SMOOTH_BIOMES.tooltip.5=осредняване на цвета на всички околни блокове.
+of.options.SMOOTH_BIOMES.tooltip.6=Засегнати са трева, листа, лозя и вода.
+
+of.options.CONNECTED_TEXTURES=Свързани текстури
+of.options.CONNECTED_TEXTURES.tooltip.1=Свързани текстури
+of.options.CONNECTED_TEXTURES.tooltip.2=  ИЗКЛ - няма свързани текстури (по подразбиране)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Бързо - бързо свързани текстури
+of.options.CONNECTED_TEXTURES.tooltip.4=  Изящнo - фантастични свързани текстури
+of.options.CONNECTED_TEXTURES.tooltip.5=Свързани текстури се присъединяват към текстурите на стъклото,
+of.options.CONNECTED_TEXTURES.tooltip.6=пясъчник и рафтове за книги, когато са поставени до
+of.options.CONNECTED_TEXTURES.tooltip.7=взаимно. Свързаните текстури се доставят
+of.options.CONNECTED_TEXTURES.tooltip.8=от текущия ресурсен пакет.
+
+of.options.NATURAL_TEXTURES=Естествени текстури
+of.options.NATURAL_TEXTURES.tooltip.1=Естествени текстури
+of.options.NATURAL_TEXTURES.tooltip.2=  ИЗКЛ - без естествени текстури (по подразбиране)
+of.options.NATURAL_TEXTURES.tooltip.3=  ВКЛ - използвайте естествени текстури
+of.options.NATURAL_TEXTURES.tooltip.4=Естествените текстури премахват модела, подобен на мрежа
+of.options.NATURAL_TEXTURES.tooltip.5=създаден чрез повтарящи се блокове от един и същи тип.
+of.options.NATURAL_TEXTURES.tooltip.6=Използва завъртени и обърнати варианти на основата
+of.options.NATURAL_TEXTURES.tooltip.7=блокова текстура. Конфигурацията за естествено
+of.options.NATURAL_TEXTURES.tooltip.8=текстурите се доставят от текущия ресурсен пакет.
+
+of.options.EMISSIVE_TEXTURES=Емисионни текстури
+of.options.EMISSIVE_TEXTURES.tooltip.1=Емисионни текстури
+of.options.EMISSIVE_TEXTURES.tooltip.2=  ИЗКЛ - без емисионни текстури (по подразбиране)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  ВКЛ - използвайте емисионни текстури
+of.options.EMISSIVE_TEXTURES.tooltip.4=Емисионните текстури се изобразяват като наслагвания
+of.options.EMISSIVE_TEXTURES.tooltip.5=с пълна яркост. Могат да се използват за симулиране
+of.options.EMISSIVE_TEXTURES.tooltip.6=светлоизлъчващи части от основната текстура.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Емисионните текстури се доставят от тока
+of.options.EMISSIVE_TEXTURES.tooltip.8=пакет с ресурси.
+
+of.options.CUSTOM_SKY=Персонализирано небе
+of.options.CUSTOM_SKY.tooltip.1=Персонализирано н
+of.options.CUSTOM_SKY.tooltip.2=  ВКЛ - персонализирани текстури на небето (по подразбиране), ба
+of.options.CUSTOM_SKY.tooltip.3=  ИЗКЛ - небето по подразбиране, по-бъ
+of.options.CUSTOM_SKY.tooltip.4=Персонализираните текстури на небето се доставят от съществуващя
+of.options.CUSTOM_SKY.tooltip.5=пакет с ресур
+
+of.options.CUSTOM_ITEMS=Персонализирани артикули
+of.options.CUSTOM_ITEMS.tooltip.1=Персонализирани артикули
+of.options.CUSTOM_ITEMS.tooltip.2=  ВКЛ - персонализирани текстури на артикули (по подразбиране), бавно
+of.options.CUSTOM_ITEMS.tooltip.3=  ИЗКЛ - текстури на артикули по подразбиране, по-бързо
+of.options.CUSTOM_ITEMS.tooltip.4=Персонализираните текстури на артикули се доставят от тока
+of.options.CUSTOM_ITEMS.tooltip.5=пакет с ресурси.
+
+of.options.CUSTOM_ENTITY_MODELS=Персонализирани модели на обекти
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Персонализирани модели на обекти
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  ВКЛ - персонализирани модели на обекти (по подразбиране), бавно
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  ИЗКЛ - модели на обекти по подразбиране, по-бързи
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Персонализираните модели на обекти се доставят от тока
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=пакет с ресурси.
+
+of.options.CUSTOM_GUIS=Персонализирани графични интерфейси
+of.options.CUSTOM_GUIS.tooltip.1=Персонализирани графични интерфейси
+of.options.CUSTOM_GUIS.tooltip.2=  ВКЛ - персонализирани графични интерфейси (по подразбиране), по-бавни
+of.options.CUSTOM_GUIS.tooltip.3=  ИЗКЛ - GUI по подразбиране, по-бързо
+of.options.CUSTOM_GUIS.tooltip.4=Персонализираните графични интерфейси се предоставят от текущия ресурсен пакет.
+
+# Details
+
+of.options.CLOUDS=Облаци
+of.options.CLOUDS.tooltip.1=Облаци
+of.options.CLOUDS.tooltip.2=  По подразбиране - както е зададено от графичните настройки
+of.options.CLOUDS.tooltip.3=  Бързо - по-ниско качество, по-бързо
+of.options.CLOUDS.tooltip.4=  Изящнo - по-високо качество, по-бавно
+of.options.CLOUDS.tooltip.5=  ИЗКЛ - без облаци, най-бърз
+of.options.CLOUDS.tooltip.6=Бързи облаци се изобразяват 2D.
+of.options.CLOUDS.tooltip.7=Изящните облаци се изобразяват 3D.
+
+of.options.CLOUD_HEIGHT=Височина на облака
+of.options.CLOUD_HEIGHT.tooltip.1=Височина на облака
+of.options.CLOUD_HEIGHT.tooltip.2=  ИЗКЛ - височина по подразбиране
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - над световната граница за височина
+
+of.options.TREES=Дърветата
+of.options.TREES.tooltip.1=Дърветата
+of.options.TREES.tooltip.2=  По подразбиране - както е зададено от графичните настройки
+of.options.TREES.tooltip.3=  Бързо - по-ниско качество, по-бързо
+of.options.TREES.tooltip.4=  Умно - по-високо качество, бързо
+of.options.TREES.tooltip.5=  Изящнo - най-високо качество, по-бавно
+of.options.TREES.tooltip.6=Бързиme дървета имат непрозрачни листа.
+of.options.TREES.tooltip.7=Изящните и Умниme дървета имат прозрачни листа.
+
+of.options.RAIN=Дъжд и сняг
+of.options.RAIN.tooltip.1=Дъжд и сняг
+of.options.RAIN.tooltip.2=  По подразбиране - както е зададено от графичните настройки
+of.options.RAIN.tooltip.3=  Бързо - слаб дъжд/сняг, по-бързо
+of.options.RAIN.tooltip.4=  Изящно - силен дъжд/сняг, по-бавно
+of.options.RAIN.tooltip.5=  ИЗКЛ - без дъжд/сняг, най-бърз
+of.options.RAIN.tooltip.6=Когато дъждът е ИЗКЛ, се чуват пръски и дъжд
+of.options.RAIN.tooltip.7=все още са активни.
+
+of.options.SKY=Небе
+of.options.SKY.tooltip.1=Небе
+of.options.SKY.tooltip.2=  ВКЛ - небето се вижда, по-бавно
+of.options.SKY.tooltip.3=  ИЗКЛ - небето не се вижда, по-бързо
+of.options.SKY.tooltip.4=Когато небето е ИЗКЛ, луната и слънцето все още се виждат.
+
+of.options.STARS=Звезди
+of.options.STARS.tooltip.1=Звезди
+of.options.STARS.tooltip.2=  ВКЛ - звездите се виждат, по-бавно
+of.options.STARS.tooltip.3=  ИЗКЛ - звездите не се виждат, по-бързо
+
+of.options.SUN_MOON=Слънце и Луна
+of.options.SUN_MOON.tooltip.1=Слънце и Луна
+of.options.SUN_MOON.tooltip.2=  ВКЛ - слънцето и луната се виждат (по подразбиране)
+of.options.SUN_MOON.tooltip.3=  ИЗКЛ - слънцето и луната не се виждат (по-бързо)
+
+of.options.SHOW_CAPES=Покажи Наметалa
+of.options.SHOW_CAPES.tooltip.1=Покажи Наметала
+of.options.SHOW_CAPES.tooltip.2=  ВКЛ - показване на Наметала на играча (по подразбиране)
+of.options.SHOW_CAPES.tooltip.3=  ИЗКЛ - не показвайте Наметала на играчите
+
+of.options.TRANSLUCENT_BLOCKS=Полупрозрачни блокове
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Полупрозрачни блокове
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  По подразбиране - както е зададено от графичните настройки
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Изящно - правилно смесване на цветовете (по-бавно)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Бързо - бързо смесване на цветове (по-бързо)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Контролира смесването на цветовете на полупрозрачните блокове
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=с различни цветове (витраж, вода, лед)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=когато са поставени един зад друг с въздух между тях.
+
+of.options.HELD_ITEM_TOOLTIPS=Подсказки за държани предмети
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Подсказки за държани предмети
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  ВКЛ - показва подсказки за задържани елементи (по подразбиране)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  ИЗКЛ - не показва подсказки за задържани елементи
+
+of.options.ADVANCED_TOOLTIPS=Разширени подсказки
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Разширени подсказки
+of.options.ADVANCED_TOOLTIPS.tooltip.2=   ВКЛ - показва разширени подсказки
+of.options.ADVANCED_TOOLTIPS.tooltip.3=   ИЗКЛ - не показва разширени подсказки (по подразбиране)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Разширените подсказки показват разширена информация за
+of.options.ADVANCED_TOOLTIPS.tooltip.5=елементи (id, издръжливост) и за опции за шейдъри
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(идентификатор, източник, стойност по подразбиране).
+
+of.options.DROPPED_ITEMS=Изпуснати предмети
+of.options.DROPPED_ITEMS.tooltip.1=Изпуснати предмети
+of.options.DROPPED_ITEMS.tooltip.2=  По подразбиране - както е зададено от настройката Графика
+of.options.DROPPED_ITEMS.tooltip.3=  Бързо - 2D изпуснати предмети (по-бързо)
+of.options.DROPPED_ITEMS.tooltip.4=  Изящно - 3D изпуснати предмети (по-бавно)
+
+options.entityShadows.tooltip.1=Сенки на обекти
+options.entityShadows.tooltip.2=  ВКЛ - показва сенките на обекта
+options.entityShadows.tooltip.3=  ИЗКЛ - не показва сенките на обекти
+
+of.options.VIGNETTE=Винетка
+of.options.VIGNETTE.tooltip.1=Визуален ефект, който леко затъмнява ъглите на екрана
+of.options.VIGNETTE.tooltip.2=  По подразбиране - както е зададено от графичните настройки (по подразбиране)
+of.options.VIGNETTE.tooltip.3=  Бързо - деактивирана винетка (по-бързо)
+of.options.VIGNETTE.tooltip.4=  Изящно - активирана винетка (по-бавно)
+of.options.VIGNETTE.tooltip.5=Винетката може да има значителен ефект върху FPS,
+of.options.VIGNETTE.tooltip.6=особено когато играете на цял екран.
+of.options.VIGNETTE.tooltip.7=Винетният ефект е много фин и може безопасно
+of.options.VIGNETTE.tooltip.8=да бъде инвалид.
+
+of.options.DYNAMIC_FOV=Динамичен FOV
+of.options.DYNAMIC_FOV.tooltip.1=Динамичен FOV
+of.options.DYNAMIC_FOV.tooltip.2=  ВКЛ - активиране на динамично FOV (по подразбиране)
+of.options.DYNAMIC_FOV.tooltip.3=  ИЗКЛ - деактивиране на динамичния FOV
+of.options.DYNAMIC_FOV.tooltip.4=Променя зрителното поле (FOV) при летене, спринт
+of.options.DYNAMIC_FOV.tooltip.5=или теглене на лък.
+
+of.options.DYNAMIC_LIGHTS=Динамични светлини
+of.options.DYNAMIC_LIGHTS.tooltip.1=Динамични светлини
+of.options.DYNAMIC_LIGHTS.tooltip.2=  ИЗКЛ - няма динамични светлини (по подразбиране)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Бързо - бързи динамични светлини (актуализирани на всеки 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Изящно - фантастични динамични светлини (актуализирани в реално време)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Позволява излъчващи светлина елементи (факла, светещ камък и др.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=да осветяват всичко около тях, когато се държат в ръка,
+of.options.DYNAMIC_LIGHTS.tooltip.7=оборудвана от друг играч или пусната на земята.
+
+options.biomeBlendRadius.tooltip.1=Изглажда прехода на цветовете между биомите
+options.biomeBlendRadius.tooltip.2=  ИЗКЛ - без смесване (най-бързо)
+options.biomeBlendRadius.tooltip.3=  5x5 - нормално смесване (по подразбиране)
+options.biomeBlendRadius.tooltip.4=  15x15 - максимално смесване (най-бавно)
+options.biomeBlendRadius.tooltip.5=По-високите стойности могат да генерират значителни скокове на забавяне
+options.biomeBlendRadius.tooltip.6=и забавете скоростта на зареждане на парчета.
+
+# Performance
+
+of.options.SMOOTH_FPS=Плавен FPS
+of.options.SMOOTH_FPS.tooltip.1=Стабилизира FPS чрез промиване на буферите на графичния драйвер.
+of.options.SMOOTH_FPS.tooltip.2=  ИЗКЛ - няма стабилизация, FPS може да варира
+of.options.SMOOTH_FPS.tooltip.3=  ВКЛ - стабилизация на FPS
+of.options.SMOOTH_FPS.tooltip.4=Тази опция зависи от графичния драйвер и нейния ефект
+of.options.SMOOTH_FPS.tooltip.5=не винаги се вижда.
+
+of.options.SMOOTH_WORLD=Гладък свят
+of.options.SMOOTH_WORLD.tooltip.1=Премахва пикове на забавяне, причинени от вътрешния сървър.
+of.options.SMOOTH_WORLD.tooltip.2=   ИЗКЛ - няма стабилизация, FPS може да варира
+of.options.SMOOTH_WORLD.tooltip.3=   ВКЛ - стабилизация на FPS
+of.options.SMOOTH_WORLD.tooltip.4=Стабилизира FPS чрез разпределяне на вътрешния сървърен товар.
+of.options.SMOOTH_WORLD.tooltip.5=Ефективно само за локални светове (един играч).
+
+of.options.FAST_RENDER=Бързо Изобразяване
+of.options.FAST_RENDER.tooltip.1=Бързо Изобразяване
+of.options.FAST_RENDER.tooltip.2=  ИЗКЛ - стандартно изобразяване (по подразбиране)
+of.options.FAST_RENDER.tooltip.3=  ВКЛ - оптимизирано изобразяване (по-бързо)
+of.options.FAST_RENDER.tooltip.4=Използва оптимизиран алгоритъм за изобразяване, който намалява
+of.options.FAST_RENDER.tooltip.5=натоварването на процесора и може значително да увеличи FPS.
+of.options.FAST_RENDER.tooltip.6=Тази опция може да е в конфликт с някои модификации.
+
+of.options.FAST_MATH=Бърза математика
+of.options.FAST_MATH.tooltip.1=Бърза математика
+of.options.FAST_MATH.tooltip.2=  ИЗКЛ - стандартна математика (по подразбиране)
+of.options.FAST_MATH.tooltip.3=  ВКЛ - по-бърза математика
+of.options.FAST_MATH.tooltip.4=Използва оптимизирани функции sin() и cos(), които могат
+of.options.FAST_MATH.tooltip.5=по-добре използвайте кеша на процесора и увеличете FPS.
+of.options.FAST_MATH.tooltip.6=Тази опция може минимално да повлияе на световното поколение.
+
+of.options.CHUNK_UPDATES=Актуализации на парчета
+of.options.CHUNK_UPDATES.tooltip.1=Актуализации на парчета
+of.options.CHUNK_UPDATES.tooltip.2= 1 - по-бавно зареждане на света, по-висок FPS (по подразбиране)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - по-бързо зареждане на света, по-нисък FPS
+of.options.CHUNK_UPDATES.tooltip.4= 5 - най-бързо зареждане в света, най-нисък FPS
+of.options.CHUNK_UPDATES.tooltip.5=Брой актуализации на парчета на изобразен кадър,
+of.options.CHUNK_UPDATES.tooltip.6=по-високите стойности могат да дестабилизират честотата на кадрите.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Динамични актуализации
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Динамични актуализации на парчета
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  ИЗКЛ - стандартни актуализации на парчета на кадър (по подразбиране)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  ВКЛ - повече актуализации, докато плейърът стои неподвижно
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Динамичните актуализации налагат повече актуализации на парчета, докато
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=играчът стои неподвижно, за да зареди света по-бързо.
+
+of.options.LAZY_CHUNK_LOADING=Мързеливо зареждане на парчета
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Мързеливо зареждане на парчета
+of.options.LAZY_CHUNK_LOADING.tooltip.2= ИЗКЛ - зареждане на части от сървъра по подразбиране
+of.options.LAZY_CHUNK_LOADING.tooltip.3= ВКЛ - мързеливо зареждане на части от сървъра (по-плавно)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Изглажда зареждането на части от интегрирания сървър
+of.options.LAZY_CHUNK_LOADING.tooltip.5=разпределяне на парчетата върху няколко кърлежи.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Включете го ИЗКЛ, ако части от света не се зареждат правилно.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Ефективен само за локални светове (за един играч).
+
+of.options.RENDER_REGIONS=Изобразяване на региони
+of.options.RENDER_REGIONS.tooltip.1=Изобразяване на региони
+of.options.RENDER_REGIONS.tooltip.2=  ИЗКЛ - изобразяване на ванилия (по подразбиране)
+of.options.RENDER_REGIONS.tooltip.3=  ВКЛ - използвайте региони за изобразяване (по-бързо)
+of.options.RENDER_REGIONS.tooltip.4=Позволява по-бързо изобразяване на терен чрез оптимизиране
+of.options.RENDER_REGIONS.tooltip.5=натоварването на графичния процесор. По-ефективен при по-големи разстояния за рендиране.
+of.options.RENDER_REGIONS.tooltip.6=Не се препоръчва за интегрирани графични карти.
+
+of.options.SMART_ANIMATIONS=Интелигентни анимации
+of.options.SMART_ANIMATIONS.tooltip.1=Интелигентни анимации
+of.options.SMART_ANIMATIONS.tooltip.2=  ИЗКЛ - не използвайте интелигентни анимации (по подразбиране)
+of.options.SMART_ANIMATIONS.tooltip.3=  ВКЛ - използвайте интелигентни анимации (по-бързо)
+of.options.SMART_ANIMATIONS.tooltip.4=С интелигентни анимации играта ще анимира само
+of.options.SMART_ANIMATIONS.tooltip.5=текстури, които в момента се виждат на екрана.
+of.options.SMART_ANIMATIONS.tooltip.6=Това намалява пиковете на забавяне и увеличава FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Особено полезно за големи мод пакети и HD пакети с ресурси.
+
+# Animations
+
+of.options.animation.allOn=Всичко ВКЛ
+of.options.animation.allOff=Всичко ИЗКЛ
+of.options.animation.dynamic=Динамичен
+
+of.options.ANIMATED_WATER=Анимирана вода
+of.options.ANIMATED_LAVA=Анимирана лава
+of.options.ANIMATED_FIRE=Анимиран огън
+of.options.ANIMATED_PORTAL=Анимиран портал
+of.options.ANIMATED_REDSTONE=Анимиран redstone
+of.options.ANIMATED_EXPLOSION=Анимирани експлозии
+of.options.ANIMATED_FLAME=Анимиран пламък
+of.options.ANIMATED_SMOKE=Анимиран дим
+of.options.VOID_PARTICLES=Празнини частици
+of.options.WATER_PARTICLES=Водни частици
+of.options.RAIN_SPLASH=Пръскане на дъжд
+of.options.PORTAL_PARTICLES=Портални частици
+of.options.POTION_PARTICLES=Частици от отвари
+of.options.DRIPPING_WATER_LAVA=Капеща вода/лава
+of.options.ANIMATED_TERRAIN=Анимиран терен
+of.options.ANIMATED_TEXTURES=Анимирани текстури
+of.options.FIREWORK_PARTICLES=Фойерверкови частици
+
+# Other
+
+of.options.LAGOMETER=Лагометър
+of.options.LAGOMETER.tooltip.1=Показва лагометъра на екрана за отстраняване на грешки (F3).
+of.options.LAGOMETER.tooltip.2=* Oранжево - Събиране на боклук в паметта
+of.options.LAGOMETER.tooltip.3=* Циан - Отметка
+of.options.LAGOMETER.tooltip.4=* Син - планирани изпълними файлове
+of.options.LAGOMETER.tooltip.5=* Лилаво - Качване на парчета
+of.options.LAGOMETER.tooltip.6=* Червено - актуализации на парчета
+of.options.LAGOMETER.tooltip.7=* Жълто - Проверка на видимостта
+of.options.LAGOMETER.tooltip.8=* Зелено - Изобразяване на терена
+
+of.options.PROFILER=Профильор за отстраняване на грешки
+of.options.PROFILER.tooltip.1=Профил за грешката
+of.options.PROFILER.tooltip.2=  ВКЛ - профайлърът за отстраняване на грешки е активен, по-бавен
+of.options.PROFILER.tooltip.3=  ИЗКЛ - профилът за отстраняване на грешки не е активен, по-бърз
+of.options.PROFILER.tooltip.4=Профилизаторът за отстраняване на грешки събира и показва информация за отстраняване на грешки
+of.options.PROFILER.tooltip.5=когато екранът за отстраняване на грешки е отворен (F3).
+
+of.options.WEATHER=Метеорологично време
+of.options.WEATHER.tooltip.1=Метеорологично време
+of.options.WEATHER.tooltip.2=  ВКЛ - времето е активно, по-бавно
+of.options.WEATHER.tooltip.3=  ИЗКЛ - времето не е активно, по-бързо
+of.options.WEATHER.tooltip.4=Времето контролира дъжд, сняг и гръмотевични бури.
+of.options.WEATHER.tooltip.5=Контролът на времето е възможен само за локални светове.
+
+of.options.time.dayOnly=Само ден
+of.options.time.nightOnly=Само нощ
+
+of.options.TIME=Време
+of.options.TIME.tooltip.1=Време
+of.options.TIME.tooltip.2=  По подразбиране - нормални цикли ден/нощ
+of.options.TIME.tooltip.3=  Само ден - само ден
+of.options.TIME.tooltip.4=  Само през нощта - само през нощта
+of.options.TIME.tooltip.5=Настройката на времето е ефективна само в режим CREATIVE
+of.options.TIME.tooltip.6=и за местните светове.
+
+options.fullscreen.tooltip.1=Цял екран
+options.fullscreen.tooltip.2=  ВКЛ - използвайте режим на цял екран
+options.fullscreen.tooltip.3=  ИЗКЛ - използвайте режим на прозорец
+options.fullscreen.tooltip.4=Режимът на цял екран може да е по-бърз или по-бавен от
+options.fullscreen.tooltip.5=режим на прозорец, в зависимост от графичната карта.
+
+options.fullscreen.resolution=Режим на цял екран
+options.fullscreen.resolution.tooltip.1=Режим на цял екран
+options.fullscreen.resolution.tooltip.2=  По подразбиране - използвайте разделителна способност на екрана на работния плот, по-бавно
+options.fullscreen.resolution.tooltip.3=  ШxВ - използвайте персонализирана разделителна способност на екрана, може да е по-бърза
+options.fullscreen.resolution.tooltip.4=Избраната разделителна способност се използва в режим на цял екран (F11).
+options.fullscreen.resolution.tooltip.5=По-ниските разделителни способности обикновено трябва да са по-бързи.
+
+of.options.SHOW_FPS=Показване на FPS
+of.options.SHOW_FPS.tooltip.1=Показва компактна информация за FPS и рендериране.
+of.options.SHOW_FPS.tooltip.2=   Fps - среден/минимален
+of.options.SHOW_FPS.tooltip.3=   C: - рендери на парчета
+of.options.SHOW_FPS.tooltip.4=   E: - изобразени обекти + блокови обекти
+of.options.SHOW_FPS.tooltip.5=   U: - актуализации на парчета
+of.options.SHOW_FPS.tooltip.6=Информацията за компактния FPS се показва само когато
+of.options.SHOW_FPS.tooltip.7=екранът за отстраняване на грешки не се вижда.
+
+of.options.save.45s=45s
+of.options.save.90s=90s
+of.options.save.3min=3мин
+of.options.save.6min=6мин
+of.options.save.12min=12мин
+of.options.save.24min=24мин
+
+of.options.AUTOSAVE_TICKS=Автоматично запазване
+of.options.AUTOSAVE_TICKS.tooltip.1=Интервал за автоматично запазване
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - по подразбиране
+of.options.AUTOSAVE_TICKS.tooltip.3=Автоматичното запазване може да генерира пикове на забавяне в зависимост от разстоянието на изобразяване.
+of.options.AUTOSAVE_TICKS.tooltip.4=Светът също се запазва, когато се отвори менюто на играта.
+
+of.options.SCREENSHOT_SIZE=Размер на екранната снимка
+of.options.SCREENSHOT_SIZE.tooltip.1=Размер на екранната снимка
+of.options.SCREENSHOT_SIZE.tooltip.2=  По подразбиране - размер на екранната снимка по подразбиране
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - персонализиран размер на екранната снимка
+of.options.SCREENSHOT_SIZE.tooltip.4=Заснемането на по-големи екранни снимки може да изисква повече памет.
+of.options.SCREENSHOT_SIZE.tooltip.5=Не е съвместим с Антиалиасинг.
+of.options.SCREENSHOT_SIZE.tooltip.6=Изисква поддръжка на GPU framebuffer.
+
+of.options.SHOW_GL_ERRORS=Показване на GL грешки
+of.options.SHOW_GL_ERRORS.tooltip.1=Показване на GL грешки
+of.options.SHOW_GL_ERRORS.tooltip.2=Когато е активиран OpenGL, грешките се показват в чата.
+of.options.SHOW_GL_ERRORS.tooltip.3=Деактивирайте го само ако има известен конфликт и
+of.options.SHOW_GL_ERRORS.tooltip.4=грешките не могат да се поправят.
+of.options.SHOW_GL_ERRORS.tooltip.5=Когато е деактивиран, грешките все още се регистрират в
+of.options.SHOW_GL_ERRORS.tooltip.6=регистър на грешките и те все още могат да причинят значителен спад на FPS.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Фон на чатa
+of.options.CHAT_BACKGROUND.tooltip.1=Фон на чат
+of.options.CHAT_BACKGROUND.tooltip.2=  По подразбиране - фиксирана ширина
+of.options.CHAT_BACKGROUND.tooltip.3=  Компактен - съответства на ширината на линията
+of.options.CHAT_BACKGROUND.tooltip.4=  ИЗКЛ - скрит
+
+of.options.CHAT_SHADOW=Сянка на чатa
+of.options.CHAT_SHADOW.tooltip.1=Сянка на чата
+of.options.CHAT_SHADOW.tooltip.2=  ВКЛ - използва текстова сянка
+of.options.CHAT_SHADOW.tooltip.3=  ИЗКЛ - няма текстова сянка

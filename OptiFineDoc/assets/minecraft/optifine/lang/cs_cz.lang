@@ -84,6 +84,14 @@ options.graphics.tooltip.8=antialiasingem.
 
 options.renderDistance.tooltip.1=Dohled
 
+options.simulationDistance.tooltip.1=Dohled simulace
+options.simulationDistance.tooltip.2=  5-12 - Normální (rychlejší)
+options.simulationDistance.tooltip.3=  13-24 - Velký (pomalejší)
+options.simulationDistance.tooltip.4=  25-32 - Extrémní (nejpomalejší)
+options.simulationDistance.tooltip.5=Kontroluje, jak daleko od hráče jsou entity 
+options.simulationDistance.tooltip.6=a chunky aktualizovány. 
+options.simulationDistance.tooltip.7=Vyšší hodnoty mohou způsobit velké záseky hry.
+
 options.entityDistanceScaling.tooltip.1=Dohled entit
 options.entityDistanceScaling.tooltip.2=  50%% - rychlejší
 options.entityDistanceScaling.tooltip.3=  100%% - výchozí
@@ -142,6 +150,30 @@ options.attackIndicator.tooltip.3=  Lišta - nalevo od spodní lišty
 options.attackIndicator.tooltip.4=  NE - žádný ukazatel útoku
 options.attackIndicator.tooltip.5=Ukazatel útoku zobrazuje sílu útoku
 options.attackIndicator.tooltip.6=aktuálně vybaveného itemu.
+
+options.screenEffectScale.tooltip.1=Efekty pokřivení
+options.screenEffectScale.tooltip.2=  NE - vypnuto
+options.screenEffectScale.tooltip.3=  1-100%% - zapnuto
+options.screenEffectScale.tooltip.4=Kontroluje intenzitu efektů pokřivující obrazovku
+options.screenEffectScale.tooltip.5=třeba animace portálu nebo efekt nevolnosti.
+
+options.autosaveIndicator.tooltip.1=Ukazatel ukládání
+options.autosaveIndicator.tooltip.2=  NE - vypnuto
+options.autosaveIndicator.tooltip.3=  ANO - zapnuto
+options.autosaveIndicator.tooltip.4=Ukáže, kdy hra automaticky ukládá svět.
+
+options.fovEffectScale.tooltip.1=Efekty zorného pole
+options.fovEffectScale.tooltip.2=  NE - vypnuto
+options.fovEffectScale.tooltip.3=  1-100%% - zapnuto
+options.fovEffectScale.tooltip.4=Kontroluje intenzitu efektů přibližující
+options.fovEffectScale.tooltip.5=obrazovku, např. natahování luku, běh a létání.
+
+options.prioritizeChunkUpdates.tooltip.1=Obnova chunků
+options.prioritizeChunkUpdates.tooltip.2= Souběžná - aktualizace všech chunků v pozadí
+options.prioritizeChunkUpdates.tooltip.3= Částečná - aktualizuje okamžitě chunky ovlivnéně hráčem
+options.prioritizeChunkUpdates.tooltip.4= Plná - aktualizuje okamžitě všechny chunky poblíž
+options.prioritizeChunkUpdates.tooltip.5=Souběžné obnovy mohou krátce ukázat díry v zemi.
+options.prioritizeChunkUpdates.tooltip.6=Plné obnovy mohou způsobit velké záseky.
 
 of.options.ALTERNATE_BLOCKS=Různé bloky
 options.blockAlternatives.tooltip.1=Alternativní bloky

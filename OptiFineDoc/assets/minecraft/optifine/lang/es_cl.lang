@@ -15,11 +15,17 @@ of.key.zoom=Zoom
 of.message.aa.shaders1=Antialiasing no es compatible con shaders.
 of.message.aa.shaders2=Desactívalas para usar esta función.
 
+of.message.aa.gf1=Antialiasing no es compatible con Graficos Fabulosos.
+of.message.aa.gf2=selecciona Graficos Rapidos o Detallados para usar esta función.
+
 of.message.af.shaders1=Anisotrópico no es compatible con shaders.
 of.message.af.shaders2=Desactívalas para usar esta función.
 
 of.message.fr.shaders1=Las shaders no son compatibles con el renderizado rápido.
 of.message.fr.shaders2=Desactívalas para usar esta función.
+
+of.message.an.shaders1=No es compatible con shaders.
+of.message.an.shaders2=Desactívalas para usar esta función.
 
 of.message.shaders.aa1=Las shaders no son compatibles con antialiasing.
 of.message.shaders.aa2=Para desactivarlo, haz clic en Calidad -> Antialiasing.
@@ -29,9 +35,6 @@ of.message.shaders.af2=Para desactivarlo, haz clic en Calidad -> Anisotrópico.
 
 of.message.shaders.fr1=Las shaders no son compatibles con el renderizado rápido.
 of.message.shaders.fr2=Para desactivarlo, haz clic en Rendimiento -> Renderizado rápido.
-
-of.message.an.shaders1=No es compatible con shaders.
-of.message.an.shaders2=Desactívalas para usar esta función.
 
 of.message.shaders.gf1=Las shaders no son compatibles con graficos Fabulosos.
 of.message.shaders.gf2=Porfavor usa Gráficos Rápido o Elegantes.
@@ -71,12 +74,30 @@ of.message.capeOF.error2=Error: %s
 # Video settings
 
 options.graphics.tooltip.1=Gráficos
-options.graphics.tooltip.2=  Rápidos  - peor calidad, mejor rendimiento
-options.graphics.tooltip.3=  Detallados - mejor calidad, peor rendimiento
-options.graphics.tooltip.4=	 Fabuloso: mejores objetos translúcidos, más lento
+options.graphics.tooltip.2= Rápidos  - peor calidad, mejor rendimiento
+options.graphics.tooltip.3= Detallados - mejor calidad, peor rendimiento
+options.graphics.tooltip.4=	Fabulosos: mejores objetos translúcidos, más lento
 options.graphics.tooltip.5=Los cambios se aprecian en las nubes, hojas, lluvia,
 options.graphics.tooltip.6=sombras y hierba.
 options.graphics.tooltip.7=Los gráficos fabulosos no son compatibles con shader.
+
+of.options.renderDistance.tiny=Mínimo
+of.options.renderDistance.short=Corto
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Lejano
+of.options.renderDistance.extreme=Extremo
+of.options.renderDistance.insane=Insano
+of.options.renderDistance.ludicrous=Absurdo
+
+options.renderDistance.tooltip.1=Distancia visible
+
+options.simulationDistance.tooltip.1=Dictancia de simulation
+options.simulationDistance.tooltip.2=  5-12 - Normal (rápido)
+options.simulationDistance.tooltip.3=  13-24 - Lejano (lento)
+options.simulationDistance.tooltip.4=  25-32 - Extreme (muy lento)
+options.simulationDistance.tooltip.5=Controla qué tan lejos del jugador están los fragmentos y
+options.simulationDistance.tooltip.6=las entidades se están actualizando. 
+options.simulationDistance.tooltip.7=Los valores más altos pueden producir picos de retraso significativos.
 
 options.entityDistanceScaling.tooltip.1=Distancia a renderizar entidades
 options.entityDistanceScaling.tooltip.2=  50%% - Rapido
@@ -123,7 +144,7 @@ options.vbo.tooltip.3=Es un tipo de renderizado alternativo que suele ser
 options.vbo.tooltip.4=más rápido que el predeterminado (un 5-10%%).
 
 options.gamma.tooltip.1=Modificar el brillo
-options.gamma.tooltip.2=  Oscuro - brillo por defecto
+options.gamma.tooltip.2=  Oscuro - brillo al mínimo
 options.gamma.tooltip.3=  1-99%% - brillo personalizado
 options.gamma.tooltip.4=  Claro - brillo al máximo
 options.gamma.tooltip.5=
@@ -143,6 +164,23 @@ options.attackIndicator.tooltip.5=
 options.attackIndicator.tooltip.6=Se indica la fuerza de ataque del
 options.attackIndicator.tooltip.7=objeto que tengas en la mano principal.
 
+options.screenEffectScale.tooltip.1=Efectos de distorción
+options.screenEffectScale.tooltip.2=  No - desactivado
+options.screenEffectScale.tooltip.3=  1-100%% - activado
+options.screenEffectScale.tooltip.4=Controla la intensidad de los efectos de distorsión de la pantalla,
+options.screenEffectScale.tooltip.5=como animación del portal y los efectos de náuseas.
+
+options.autosaveIndicator.tooltip.1=Indicador de Autoguardado 
+options.autosaveIndicator.tooltip.2=  No - desactivado
+options.autosaveIndicator.tooltip.3=  Si - activado
+options.autosaveIndicator.tooltip.4=Muestra cuando el juego está guardando el mundo automáticamente.
+
+options.fovEffectScale.tooltip.1=Efecto FOV
+options.fovEffectScale.tooltip.2=  No - desactivado
+options.fovEffectScale.tooltip.3=  1-100%% - activado
+options.fovEffectScale.tooltip.4=Controla la intensidad de los efectos de zoom de la pantalla,
+options.fovEffectScale.tooltip.5=como cargar un arco, correr y volar.
+
 of.options.ALTERNATE_BLOCKS=Bloques alternos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Bloques con texturas alternas
 of.options.ALTERNATE_BLOCKS.tooltip.2=Usar texturas alternativas para un mismo bloque.
@@ -161,6 +199,13 @@ of.options.FOG_START.tooltip.1=Distancia a la que empieza la niebla
 of.options.FOG_START.tooltip.2=  0.2 - la niebla estará cerca
 of.options.FOG_START.tooltip.3=  0.8 - la niebla estará lejos
 of.options.FOG_START.tooltip.4=Esta opción no suele afectar al rendimiento.
+
+options.prioritizeChunkUpdates.tooltip.1=Cargador de Chunk
+options.prioritizeChunkUpdates.tooltip.2= Por hilos - actualice todos los Chunks en segundo plano
+options.prioritizeChunkUpdates.tooltip.3= Por jugador - actualiza los Chunks afectados por el jugador
+options.prioritizeChunkUpdates.tooltip.4= Completos -  actualice todos los Chunks cercanos
+options.prioritizeChunkUpdates.tooltip.5=Las actualizaciones por hilos pueden mostrar agujeros en el terreno.
+options.prioritizeChunkUpdates.tooltip.6=El bloqueo total de las actualizaciones puede provocar picos de retraso.
 
 of.options.CHUNK_LOADING=Carga de chunks
 of.options.CHUNK_LOADING.tooltip.1=Velocidad de carga de chunks

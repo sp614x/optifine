@@ -45,6 +45,12 @@ Output color attachments are configured with the "/* DRAWBUFFERS:XYZ */" or "/* 
 Gbuffers, deferred and composite programs can write to any color attachment, but no more than 8 at the same time.
 If the output color attachments are not configured, then the program will write to the first 8 color attachments.  
 
+In shaders using the modern syntax (130 and above) the outputs of the fragment shader should use the outColor<n> names. Example:
+/* DRAWBUFFERS:3,4,7 */
+out vec4 outColor0; // Writes to buffer 3
+out vec4 outColor1; // Writes to buffer 4
+out vec4 outColor2; // Writes to buffer 7
+
 When writing to the color attachments in the composite shader, blending is disabled. 
 Writing to color attachments that the composite shader also reads from will generate artifacts (unless you just copy the original contents) 
 
@@ -94,12 +100,12 @@ shadow_cutout                <not used>                            shadow
 shadowcomp                   <shadowcomp>                          <none>
 shadowcomp1                  <shadowcomp>                          <none>
 ...
-shadowcomp15                 <shadowcomp>                          <none>
+shadowcomp99                 <shadowcomp>                          <none>
 --- Prepare ---
 prepare                      <prepare>                             <none>
 prepare1                     <prepare>                             <none>
 ...
-prepare15                    <prepare>                             <none>
+prepare99                    <prepare>                             <none>
 --- GBuffers ---
 gbuffers_basic               leash, block selection box            <none>
 gbuffers_line                block outline, fishing line           gbuffers_basic
@@ -127,7 +133,7 @@ deferred_pre                 <virtual> flip ping-pong buffers      <none>
 deferred                     <deferred>                            <none>
 deferred1                    <deferred>                            <none>
 ...
-deferred15                   <deferred>                            <none>
+deferred99                   <deferred>                            <none>
 --- GBuffers translucent ---
 gbuffers_water               translucent                           gbuffers_terrain
 gbuffers_hand_water          translucent handheld objects          gbuffers_hand
@@ -136,7 +142,7 @@ composite_pre                <virtual> flip ping-pong buffers      <none>
 composite                    <composite>                           <none>
 composite1                   <composite>                           <none>
 ...
-composite15                  <composite>                           <none>
+composite99                  <composite>                           <none>
 --- Final ---
 final                        <final>                               <none>
 
@@ -171,6 +177,9 @@ uniform int heldBlockLightValue;                held item light value (main hand
 uniform int heldItemId2;                        held item ID (off hand), used only for items defined in "item.properties"
 uniform int heldBlockLightValue2;               held item light value (off hand)
 uniform int fogMode;                            GL_LINEAR, GL_EXP or GL_EXP2
+uniform float fogStart;                         fog start distance (m)
+uniform float fogEnd;                           fog end distance (m)
+uniform int fogShape;                           0 = sphere, 1 = cylinder
 uniform float fogDensity;                       0.0-1.0
 uniform vec3 fogColor;                          r, g, b
 uniform vec3 skyColor;                          r, g, b
@@ -225,6 +234,7 @@ uniform ivec4 blendFunc;                        blend function (srcRGB, dstRGB, 
 uniform int instanceId;                         instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies
 uniform float playerMood;                       player mood (0.0-1.0), increases the longer a player stays underground
 uniform int renderStage;                        render stage, see "Standard Macros", "J. Render stages"
+uniform int bossBattle;                         1 = custom, 2 = ender dragon, 3 = wither, 4 = raid
 // 1.17+
 uniform mat4 modelViewMatrix;                   model view matrix
 uniform mat4 modelViewMatrixInverse;            inverse model view matrix

@@ -7,6 +7,7 @@ of.general.id=Id
 of.general.max=Maximum
 of.general.restart=restart
 of.general.smart=Smart
+of.general.anonymous=Anonymous
 
 # Keys
 of.key.zoom=Zoom
@@ -789,6 +790,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict
 of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
 of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the 
 of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop. 
+
+of.options.TELEMETRY=Telemetry
+of.options.TELEMETRY.tooltip.1=Send telemetry data to Mojang
+of.options.TELEMETRY.tooltip.2=  ON - full telemetry (default)
+of.options.TELEMETRY.tooltip.3=  Anonymous - anonymous telemetry
+of.options.TELEMETRY.tooltip.4=  OFF - no telemetry
+of.options.TELEMETRY.tooltip.5=The full telemetry sends user UUID which can be used
+of.options.TELEMETRY.tooltip.6=to track the user across different devices.
+of.options.TELEMETRY.tooltip.7=The anonymous telemetry doesn't send any user or client
+of.options.TELEMETRY.tooltip.8=identifiable data.
 
 # Chat Settings
 

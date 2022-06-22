@@ -73,7 +73,7 @@ of.message.capeOF.openEditor=Редактор плаща OptiFine відкриє
 of.message.capeOF.openEditorError=Помилка під час відкриття у браузері!
 of.message.capeOF.reloadCape=Ваш плащ перезавантажиться за 15 секунд.
 
-of.message.capeOF.error1=Аутентифікація не вдалася.
+of.message.capeOF.error1=Автентифікація не вдалася.
 of.message.capeOF.error2=Помилка: %s
 
 # Video settings
@@ -88,6 +88,14 @@ options.graphics.tooltip.7=Казкова графіка не сумісна з 
 options.graphics.tooltip.8=згладжуванням.
 
 options.renderDistance.tooltip.1=Видима відстань
+
+options.simulationDistance.tooltip.1=Симуляція
+options.simulationDistance.tooltip.2=  5-12 - Нормальна (швидше)
+options.simulationDistance.tooltip.3=  13-24 - Далека (повільніше)
+options.simulationDistance.tooltip.4=  25-32 - Надзвичайна (найповільніше)
+options.simulationDistance.tooltip.5=Впливає на те, як далеко від гравця сутності
+options.simulationDistance.tooltip.6=будуть оновлюватися. 
+options.simulationDistance.tooltip.7=Високі значення можуть спричинити значне збільшення фрізів.
 
 options.entityDistanceScaling.tooltip.1=Дальність відображення сутностей
 options.entityDistanceScaling.tooltip.2=  50%% - швидша
@@ -147,6 +155,36 @@ options.attackIndicator.tooltip.3=  Хотбар - коло хотбару
 options.attackIndicator.tooltip.4=  Вимк - без індикатора атаки
 options.attackIndicator.tooltip.5=Індикатор атаки показує силу атаки
 options.attackIndicator.tooltip.6=обраного предмета
+
+options.screenEffectScale.tooltip.1=Ефекти викривлення
+options.screenEffectScale.tooltip.2=  Вимк - вимкнено
+options.screenEffectScale.tooltip.3=  1-100%% - увімкнено
+options.screenEffectScale.tooltip.4=Впливає на інтенсивність ефектів викривлення екрана,
+options.screenEffectScale.tooltip.5=як анімація порталу та еффект нудоти.
+
+options.screenEffectScale.tooltip.1=Ефекти викривлення
+options.screenEffectScale.tooltip.2=  Вимк - вимкнено
+options.screenEffectScale.tooltip.3=  1-100%% - увімкнено
+options.screenEffectScale.tooltip.4=Впливає інтенсивність ефектів викривлення екрана,
+options.screenEffectScale.tooltip.5=як анімація порталу та еффект нудоти.
+
+options.autosaveIndicator.tooltip.1=Індикатор автозбереження
+options.autosaveIndicator.tooltip.2=  Вимк - вимкнено
+options.autosaveIndicator.tooltip.3=  Увімк - увімкнено
+options.autosaveIndicator.tooltip.4=Показує коли гра зберігає світ.
+
+options.fovEffectScale.tooltip.1=Ефекти FOV
+options.fovEffectScale.tooltip.2=  Вимк - вимкнено
+options.fovEffectScale.tooltip.3=  1-100%% - увімкнено
+options.fovEffectScale.tooltip.4=Впливає на інтенсивість змінення поля зору,
+options.fovEffectScale.tooltip.5=як натягування лука, біг та літання.
+
+options.prioritizeChunkUpdates.tooltip.1=Будівник чанків
+options.prioritizeChunkUpdates.tooltip.2= Потоковий - оновлює всі чанки, які віддалені від гравця.
+options.prioritizeChunkUpdates.tooltip.3= Напів-блок. - моментально оновлює чанки за гравцем.
+options.prioritizeChunkUpdates.tooltip.4= Блокуючий - моментально оновлю всі чанки поряд.
+options.prioritizeChunkUpdates.tooltip.5=Потоковий може на деякий час відображати діри на місцевості.
+options.prioritizeChunkUpdates.tooltip.6=Блокуючий може спричинити значне збільшення фрізів
 
 of.options.ALTERNATE_BLOCKS=Альтернативні блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативні блоки
