@@ -86,7 +86,15 @@ options.graphics.tooltip.6=bayangan dan sisi rumput.
 options.graphics.tooltip.7=Fabulous graphics tidak cocok dengan shaders and
 options.graphics.tooltip.8=anti alias.
 
-options.renderDistance.tooltip.1= Jarak tampak
+of.options.renderDistance.tiny=Kecil
+of.options.renderDistance.short=Pendek
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Jauh
+of.options.renderDistance.extreme=Ekstrim
+of.options.renderDistance.insane=Gila
+of.options.renderDistance.ludicrous=Sakit Jiwa
+
+options.renderDistance.tooltip.1=Jarak tampak
 
 options.entityDistanceScaling.tooltip.1=Jarak pandang entitas
 options.entityDistanceScaling.tooltip.2=  50%% - lebih cepat

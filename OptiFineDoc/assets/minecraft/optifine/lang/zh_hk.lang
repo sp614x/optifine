@@ -83,13 +83,6 @@ of.options.renderDistance.insane=病態
 of.options.renderDistance.ludicrous=荒唐
 
 options.renderDistance.tooltip.1=顯示距離
-options.renderDistance.tooltip.2=  2 最近 - 32m（最快）
-options.renderDistance.tooltip.3=  8 中等 - 128m（普通）
-options.renderDistance.tooltip.4=  16 遠 - 256m（較慢）
-options.renderDistance.tooltip.5=  32 超遠 - 512m（最慢！）非常消耗資源！
-options.renderDistance.tooltip.6=  48 病態 - 768m，需分配 2G 嘅記憶體
-options.renderDistance.tooltip.7=  64 荒唐 - 1024m，需分配 3G 嘅記憶體
-options.renderDistance.tooltip.8=16 以上嘅值只在本地世界有效。
 
 options.simulationDistance.tooltip.1=模擬距離
 options.simulationDistance.tooltip.2=  5-12 - 中等（較快）

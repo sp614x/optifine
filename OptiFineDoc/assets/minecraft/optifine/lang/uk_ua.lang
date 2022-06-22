@@ -87,6 +87,14 @@ options.graphics.tooltip.6=тіней і сторін трави.
 options.graphics.tooltip.7=Казкова графіка не сумісна з шейдерами та
 options.graphics.tooltip.8=згладжуванням.
 
+of.options.renderDistance.tiny=Маленька
+of.options.renderDistance.short=Коротка
+of.options.renderDistance.normal=Нормальна
+of.options.renderDistance.far=Далека
+of.options.renderDistance.extreme=Екстремальна
+of.options.renderDistance.insane=Шалена
+of.options.renderDistance.ludicrous=Безглузда!
+
 options.renderDistance.tooltip.1=Видима відстань
 
 options.simulationDistance.tooltip.1=Симуляція

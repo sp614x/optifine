@@ -79,6 +79,14 @@ options.graphics.tooltip.5=Bulutların, yaprakların, suyun, gölgelerin
 options.graphics.tooltip.6=ve çim yüzeylerinin görünüşünü etkiler.
 options.graphics.tooltip.7=Şahane grafikler gölgelendirmeler ile uyumlu değildir.
 
+of.options.renderDistance.tiny=Çok Kısa
+of.options.renderDistance.short=Kısa
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Uzak
+of.options.renderDistance.extreme=Çok Uzak
+of.options.renderDistance.insane=Efsanevi
+of.options.renderDistance.ludicrous=Olağanüstü
+
 options.renderDistance.tooltip.1=Görüş Mesafesi
 
 options.entityDistanceScaling.tooltip.1=Varlık İşleme Mesafesi

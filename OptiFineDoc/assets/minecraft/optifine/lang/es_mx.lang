@@ -41,6 +41,8 @@ options.graphics.tooltip.3=  Detallada - Mejor apariencia.
 options.graphics.tooltip.4=Cambia la apariencia de nubes, hojas, agua,
 options.graphics.tooltip.5=sombras y bloques con pasto.
 
+of.options.renderDistance.extreme=Extremo
+
 options.renderDistance.tooltip.1=Distancia de renderizado.
 
 options.ao.tooltip.1=Iluminación suave.

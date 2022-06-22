@@ -80,6 +80,14 @@ options.graphics.tooltip.5=Change l'apparence des nuages, des feuilles,
 options.graphics.tooltip.6=de l'eau, des ombres et du côté de l'herbe.
 options.graphics.tooltip.7=Les graphiques Fabuleux ne sont pas compatible avec les shaders.
 
+of.options.renderDistance.tiny=Mini
+of.options.renderDistance.short=Courte
+of.options.renderDistance.normal=Normale
+of.options.renderDistance.far=Loin
+of.options.renderDistance.extreme=Extrême
+of.options.renderDistance.insane=Démentielle
+of.options.renderDistance.ludicrous=Ridicule
+
 options.renderDistance.tooltip.1=Distance de Rendu
 
 options.ao.tooltip.1=Luminosité adoucie

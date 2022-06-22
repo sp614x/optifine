@@ -82,6 +82,14 @@ options.graphics.tooltip.6=stínů a stran trávníků
 options.graphics.tooltip.7=Úžasná grafika není kompatibilní se stíny a
 options.graphics.tooltip.8=antialiasingem.
 
+of.options.renderDistance.tiny=Maličký
+of.options.renderDistance.short=Malý
+of.options.renderDistance.normal=Normální
+of.options.renderDistance.far=Velký
+of.options.renderDistance.extreme=Extrémní
+of.options.renderDistance.insane=Šílený
+of.options.renderDistance.ludicrous=Neuvěřitelný
+
 options.renderDistance.tooltip.1=Dohled
 
 options.simulationDistance.tooltip.1=Dohled simulace

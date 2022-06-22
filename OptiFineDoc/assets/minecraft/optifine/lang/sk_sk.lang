@@ -82,6 +82,14 @@ options.graphics.tooltip.6=zmení na túto hodnotu (Nádherná=>Pekná).
 options.graphics.tooltip.7=Nádherná grafika nepodporuje
 options.graphics.tooltip.8=tieňovače a vyhladzovanie.
 
+of.options.renderDistance.tiny=Drobná
+of.options.renderDistance.short=Krátka
+of.options.renderDistance.normal=Normálna
+of.options.renderDistance.far=Ďaleká
+of.options.renderDistance.extreme=Extrémna
+of.options.renderDistance.insane=Šialená
+of.options.renderDistance.ludicrous=Absurdná
+
 options.renderDistance.tooltip.1=Vzdialenosť vykresľovania (v chunkoch/16m)
 
 options.entityDistanceScaling.tooltip.1=Vzdialenosť vykresľovania entít

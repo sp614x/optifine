@@ -91,13 +91,6 @@ of.options.renderDistance.insane=Безумно
 of.options.renderDistance.ludicrous=Нелепо
 
 options.renderDistance.tooltip.1=Видимо разстояние
-options.renderDistance.tooltip.2=  2 Mъничко - 32 м (най-бърз)
-options.renderDistance.tooltip.3=  8 Нормално - 128 м (нормално)
-options.renderDistance.tooltip.4=  16 Далече - 256 м (по-бавно)
-options.renderDistance.tooltip.5=  32 Eкстремно - 512m (най-бавният!) Много изискващ ресурси
-options.renderDistance.tooltip.6=  48 Безумно - 768m, има нужда от разпределени 2GB RAM
-options.renderDistance.tooltip.7=  64 Нелепо - 1024m, има нужда от разпределени 3GB RAM
-options.renderDistance.tooltip.8=Стойности над 16 Далече са ефективни само в локалните светове.
 
 options.simulationDistance.tooltip.1=Симулационно разстояние
 options.simulationDistance.tooltip.2=  5-12 - Нормално (по-бързо)

@@ -92,6 +92,14 @@ options.graphics.tooltip.6=陰影與草地側面的外觀。
 options.graphics.tooltip.7=極致 畫質與光影以及
 options.graphics.tooltip.8=反鋸齒不相容。
 
+of.options.renderDistance.tiny=最近
+of.options.renderDistance.short=近
+of.options.renderDistance.normal=中等
+of.options.renderDistance.far=遠
+of.options.renderDistance.extreme=超遠
+of.options.renderDistance.insane=病態
+of.options.renderDistance.ludicrous=荒唐
+
 options.renderDistance.tooltip.1=顯示距離
 
 options.simulationDistance.tooltip.1=模擬距離

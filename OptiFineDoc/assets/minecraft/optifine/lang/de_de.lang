@@ -90,6 +90,14 @@ options.graphics.tooltip.6=Schatten und Grasblöcken.
 options.graphics.tooltip.7=Fabelhaft ist nicht mit Shadern und Antialiasing kompatibel.
 options.graphics.tooltip.8=
 
+of.options.renderDistance.tiny=Winzig
+of.options.renderDistance.short=Klein
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Weit
+of.options.renderDistance.extreme=Extrem
+of.options.renderDistance.insane=Wahnsinnig
+of.options.renderDistance.ludicrous=Absurd
+
 options.renderDistance.tooltip.1=Sichtweite
 options.renderDistance.tooltip.2=  2-32 - Vanilla Sichtweiten für alle Welten
 options.renderDistance.tooltip.3=  33-64 - Erweiterte Sichtweiten (Einzelspielermodus)

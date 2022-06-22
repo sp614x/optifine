@@ -88,6 +88,14 @@ options.graphics.tooltip.6=외형을 변경합니다.
 options.graphics.tooltip.7=굉장한 그래픽은 셰이더, 안티에일리어싱과 
 options.graphics.tooltip.8=호환되지 않습니다.
 
+of.options.renderDistance.tiny=아주 작게
+of.options.renderDistance.short=짧게
+of.options.renderDistance.normal=보통
+of.options.renderDistance.far=멀리
+of.options.renderDistance.extreme=극도
+of.options.renderDistance.insane=미친
+of.options.renderDistance.ludicrous=부조리
+
 options.renderDistance.tooltip.1=시야 거리
 
 options.entityDistanceScaling.tooltip.1=엔티티 렌더 거리

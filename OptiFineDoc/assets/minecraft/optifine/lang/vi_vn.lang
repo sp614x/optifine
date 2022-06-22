@@ -95,13 +95,6 @@ of.options.renderDistance.insane=Điên cuồng
 of.options.renderDistance.ludicrous=Phi lý!
 
 options.renderDistance.tooltip.1=Khoảng cách kết xuất
-options.renderDistance.tooltip.2=  2 Nhỏ - 32m (nhanh nhất)
-options.renderDistance.tooltip.3=  8 Bình thường - 128m (Bình thường)
-options.renderDistance.tooltip.4=  16 Xa - 256m (Chậm)
-options.renderDistance.tooltip.5=  32 Xa nhất - 512m (chậm nhất!) đòi hỏi rất nhiều tài nguyên
-options.renderDistance.tooltip.6=  48 Điên cuồng - 768m, cần phân bổ 2GB RAM
-options.renderDistance.tooltip.7=  64 Phi lý - 1024m, cần phân bổ 3GB RAM
-options.renderDistance.tooltip.8=Các giá trị trên 16 cho đến nay chỉ có hiệu lực trong các thế giới cục bộ.
 
 options.simulationDistance.tooltip.1=Khoảng cách mô phỏng
 options.simulationDistance.tooltip.2=  5-12 - Bình thường  (nhanh hơn)

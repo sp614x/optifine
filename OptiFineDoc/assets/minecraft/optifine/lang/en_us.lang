@@ -83,6 +83,14 @@ options.graphics.tooltip.6=shadows and grass sides.
 options.graphics.tooltip.7=Fabulous graphics is not compatible with shaders and
 options.graphics.tooltip.8=antialiasing.
 
+of.options.renderDistance.tiny=Tiny
+of.options.renderDistance.short=Short
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Far
+of.options.renderDistance.extreme=Extreme
+of.options.renderDistance.insane=Insane
+of.options.renderDistance.ludicrous=Ludicrous
+
 options.renderDistance.tooltip.1=Visible distance
 options.renderDistance.tooltip.2=  2-32 - vanilla render distances for all worlds
 options.renderDistance.tooltip.3=  33-64 - extended render distances for local worlds

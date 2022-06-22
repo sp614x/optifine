@@ -80,6 +80,14 @@ options.graphics.tooltip.5=Vaihtaa pilvien, lehtien, veden,
 options.graphics.tooltip.6=varjojen ja ruohon sivujen ulkonäköä.
 options.graphics.tooltip.7=Upea-grafiikat eivät ole yhteensopivia shadereiden kanssa.
 
+of.options.renderDistance.tiny=Pieni
+of.options.renderDistance.short=Lyhyt
+of.options.renderDistance.normal=Keskipitkä
+of.options.renderDistance.far=Pitkä
+of.options.renderDistance.extreme=Äärimmäinen
+of.options.renderDistance.insane=Hullu
+of.options.renderDistance.ludicrous=Älytön
+
 options.renderDistance.tooltip.1=Näköetäisyys
 
 options.entityDistanceScaling.tooltip.1=Kohteen etäisyys

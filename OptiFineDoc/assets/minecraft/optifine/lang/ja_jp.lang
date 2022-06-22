@@ -91,6 +91,14 @@ options.graphics.tooltip.6=最高設定はシェーダー及びアンチエイ�
 options.graphics.tooltip.7=互換性がありません。
 options.graphics.tooltip.8= 
 
+of.options.renderDistance.tiny=最短
+of.options.renderDistance.short=短い
+of.options.renderDistance.normal=普通
+of.options.renderDistance.far=遠い
+of.options.renderDistance.extreme=過激
+of.options.renderDistance.insane=狂気
+of.options.renderDistance.ludicrous=不条理
+
 options.renderDistance.tooltip.1=描画距離
 
 options.simulationDistance.tooltip.1=演算距離

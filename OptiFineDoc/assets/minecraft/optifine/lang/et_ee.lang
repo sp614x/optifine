@@ -82,6 +82,14 @@ options.graphics.tooltip.6=välimust.
 options.graphics.tooltip.7=Vapustav graafika ei ühildu varjutajatega ega
 options.graphics.tooltip.8=sakisilumisega.
 
+of.options.renderDistance.tiny=pisike
+of.options.renderDistance.short=lühike
+of.options.renderDistance.normal=tavaline
+of.options.renderDistance.far=kauge
+of.options.renderDistance.extreme=ekstreemne
+of.options.renderDistance.insane=hullumeelne
+of.options.renderDistance.ludicrous=naeruväärne
+
 options.renderDistance.tooltip.1=Nähtav kaugus
 options.renderDistance.tooltip.2=  2-32 - vanilli nähtavuskaugus kõikidele maailmadele
 options.renderDistance.tooltip.3=  33-64 - laiendatud nähtavuskaugus kohalikele maailmadele

@@ -76,6 +76,14 @@ options.graphics.tooltip.3=  Szép - magasabb minőség, lassabb
 options.graphics.tooltip.4=Megváltoztatja a kinézetét a felhőknek, leveleknek,
 options.graphics.tooltip.5=víznek és a fű oldalának.
 
+of.options.renderDistance.tiny=Apró
+of.options.renderDistance.short=Rövid
+of.options.renderDistance.normal=Normál
+of.options.renderDistance.far=Messzi
+of.options.renderDistance.extreme=Extrém
+of.options.renderDistance.insane=Őrületes
+of.options.renderDistance.ludicrous=Nevetséges
+
 options.renderDistance.tooltip.1=Látótávolság
 
 options.ao.tooltip.1=Simított megvilágítás

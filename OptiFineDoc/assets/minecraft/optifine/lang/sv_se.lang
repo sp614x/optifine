@@ -86,6 +86,14 @@ options.graphics.tooltip.6=gräskanter.
 options.graphics.tooltip.7=Alternativet "Fabulöst" är inte kompatibelt med shaders
 options.graphics.tooltip.8=och kantutjämning.
 
+of.options.renderDistance.tiny=Litet
+of.options.renderDistance.short=Kort
+of.options.renderDistance.normal=Normalt
+of.options.renderDistance.far=Långt
+of.options.renderDistance.extreme=Extremt
+of.options.renderDistance.insane=Galet
+of.options.renderDistance.ludicrous=Löjligt
+
 options.renderDistance.tooltip.1=Synligt avstånd
 
 options.simulationDistance.tooltip.1=Simulerat avstånd

@@ -82,6 +82,14 @@ options.graphics.tooltip.6=ombres et du côté de l'herbe.
 options.graphics.tooltip.7=Les graphismes "Fabuleux !" ne sont pas compatibles avec
 options.graphics.tooltip.8=les shaders et l'anticrénelage.
 
+of.options.renderDistance.tiny=Minimale
+of.options.renderDistance.short=Courte
+of.options.renderDistance.normal=Normale
+of.options.renderDistance.far=Lointaine
+of.options.renderDistance.extreme=Extrême
+of.options.renderDistance.insane=Insensée
+of.options.renderDistance.ludicrous=Inimaginable
+
 options.renderDistance.tooltip.1=Distance d'affichage
 
 options.simulationDistance.tooltip.1=Distance de simulation

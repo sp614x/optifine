@@ -78,6 +78,14 @@ options.graphics.tooltip.5=Muda a aparência de nuvens, folhas, água,
 options.graphics.tooltip.6=sombras e grama.
 options.graphics.tooltip.7=Os gráficos Fabulosos são incompatíveis com shaders.
 
+of.options.renderDistance.tiny=Mínima
+of.options.renderDistance.short=Curta
+of.options.renderDistance.normal=Padrão
+of.options.renderDistance.far=Longa
+of.options.renderDistance.extreme=Extrema
+of.options.renderDistance.insane=Insana
+of.options.renderDistance.ludicrous=Máxima
+
 options.renderDistance.tooltip.1=Alcance visual
 
 options.entityDistanceScaling.tooltip.1=Dist. de render. da entidade

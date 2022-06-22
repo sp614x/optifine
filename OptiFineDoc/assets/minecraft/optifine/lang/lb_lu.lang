@@ -81,6 +81,14 @@ options.graphics.tooltip.5=Verännert d'Ausgesi vun de Wolleken, Blieder, Grasbl
 options.graphics.tooltip.6=Schieter a vum Waasser.
 options.graphics.tooltip.7=Grafikmodus "Fantastesch!" ass net kompatibel mat Shader
 
+of.options.renderDistance.tiny=Winzeg
+of.options.renderDistance.short=Geréng
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Wéit
+of.options.renderDistance.extreme=Extrem
+of.options.renderDistance.insane=Verréckt
+of.options.renderDistance.ludicrous=Wahnsinn
+
 options.renderDistance.tooltip.1=Siichtwéit
 
 options.entityDistanceScaling.tooltip.1=Render Distanz Entitéiten

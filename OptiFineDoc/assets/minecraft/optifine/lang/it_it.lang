@@ -73,6 +73,14 @@ options.graphics.tooltip.3=  Dettagliata - qualità migliore, prestazioni peggio
 options.graphics.tooltip.4=Cambiamenti visibili nelle nuvole, foglie, acqua
 options.graphics.tooltip.5=ombre e lati dei blocchi d'erba.
 
+of.options.renderDistance.tiny=Minima
+of.options.renderDistance.short=Corta
+of.options.renderDistance.normal=Normale
+of.options.renderDistance.far=Lontana
+of.options.renderDistance.extreme=Estrema
+of.options.renderDistance.insane=Folle
+of.options.renderDistance.ludicrous=Ridicola
+
 options.renderDistance.tooltip.1=Distanza visibile
 
 options.ao.tooltip.1=Luci soffuse

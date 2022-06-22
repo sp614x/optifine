@@ -76,6 +76,14 @@ options.graphics.tooltip.3=  Stilig - høyere kvalitet, langsommere
 options.graphics.tooltip.4=Endrer utseendet på skyer, blader, vann, skygger og
 options.graphics.tooltip.5=gresskanter.
 
+of.options.renderDistance.tiny=Liten
+of.options.renderDistance.short=Kort
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Lang
+of.options.renderDistance.extreme=Ekstrem
+of.options.renderDistance.insane=Sinnssyk
+of.options.renderDistance.ludicrous=Latterlig
+
 options.renderDistance.tooltip.1=Synlig avstand
 
 options.ao.tooltip.1=Jevnt beslysningsnivå
