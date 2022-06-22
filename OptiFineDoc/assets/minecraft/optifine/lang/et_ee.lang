@@ -93,9 +93,10 @@ of.options.renderDistance.ludicrous=naeruväärne
 options.renderDistance.tooltip.1=Nähtav kaugus
 options.renderDistance.tooltip.2=  2-32 - vanilli nähtavuskaugus kõikidele maailmadele
 options.renderDistance.tooltip.3=  33-64 - laiendatud nähtavuskaugus kohalikele maailmadele
-options.renderDistance.tooltip.4=Serverites piiratakse nähtavat kaugust serveri
-options.renderDistance.tooltip.5=vaatluskaugusega (vaikimisi 10).
-options.renderDistance.tooltip.6=Väiksemad väärtused on tunduvalt kiiremad.
+options.renderDistance.tooltip.4=Kaugused 48-63 vajavad 2 GB RAM allutamist, 64 vajab 3 GB
+options.renderDistance.tooltip.5=Serverites piiratakse nähtavat kaugust serveri
+options.renderDistance.tooltip.6=vaatluskaugusega (vaikimisi 10).
+options.renderDistance.tooltip.7=Väiksemad väärtused on tunduvalt kiiremad.
 
 options.entityDistanceScaling.tooltip.1=Olemite renderduskaugus
 options.entityDistanceScaling.tooltip.2=  50%% - kiirem

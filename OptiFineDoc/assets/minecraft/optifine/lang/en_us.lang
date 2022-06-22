@@ -94,9 +94,10 @@ of.options.renderDistance.ludicrous=Ludicrous
 options.renderDistance.tooltip.1=Visible distance
 options.renderDistance.tooltip.2=  2-32 - vanilla render distances for all worlds
 options.renderDistance.tooltip.3=  33-64 - extended render distances for local worlds
-options.renderDistance.tooltip.4=On servers the visible distance is further limited by the
-options.renderDistance.tooltip.5=server's view distance (default 10).
-options.renderDistance.tooltip.6=Smaller values are much faster.
+options.renderDistance.tooltip.4=Distances 48-63 need 2 GB RAM allocated, 64 needs 3 GB
+options.renderDistance.tooltip.5=On servers the visible distance is further limited by the
+options.renderDistance.tooltip.6=server's view distance (default 10).
+options.renderDistance.tooltip.7=Smaller values are much faster.
 
 options.simulationDistance.tooltip.1=Simulation distance
 options.simulationDistance.tooltip.2=  5-12 - Normal (faster)

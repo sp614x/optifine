@@ -89,7 +89,7 @@ of.options.renderDistance.far=Velký
 of.options.renderDistance.extreme=Extrémní
 of.options.renderDistance.insane=Šílený
 of.options.renderDistance.ludicrous=Neuvěřitelný
-
+ 
 options.renderDistance.tooltip.1=Dohled
 
 options.simulationDistance.tooltip.1=Dohled simulace

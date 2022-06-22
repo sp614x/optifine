@@ -101,9 +101,10 @@ of.options.renderDistance.ludicrous=Absurd
 options.renderDistance.tooltip.1=Sichtweite
 options.renderDistance.tooltip.2=  2-32 - Vanilla Sichtweiten für alle Welten
 options.renderDistance.tooltip.3=  33-64 - Erweiterte Sichtweiten (Einzelspielermodus)
-options.renderDistance.tooltip.4=Im Mehrspielermodus ist die Sichtweite zudem durch die
-options.renderDistance.tooltip.5=serverseitigen Einstellungen begrenzt (standardmäßig 10).
-options.renderDistance.tooltip.6=Niedrigere Werte sind deutlich schneller.
+options.renderDistance.tooltip.4=
+options.renderDistance.tooltip.5=Im Mehrspielermodus ist die Sichtweite zudem durch die
+options.renderDistance.tooltip.6=serverseitigen Einstellungen begrenzt (standardmäßig 10).
+options.renderDistance.tooltip.7=Niedrigere Werte sind deutlich schneller.
 
 options.entityDistanceScaling.tooltip.1=Objektentfernung
 options.entityDistanceScaling.tooltip.2=  50%% - Schneller
