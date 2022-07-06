@@ -243,7 +243,10 @@ uniform mat4 projectionMatrixInverse;           inverse projection matrix
 uniform mat4 textureMatrix = mat4(1.0);         texture matrix, default is identity
 uniform mat3 normalMatrix;                      normal matrix
 uniform vec3 chunkOffset;                       terrain chunk origin, used with attribute "vaPosition"
-uniform float alphaTestRef;                     alpha test reference value, the check is "if (color.a < alphaTestRef) discard;" 
+uniform float alphaTestRef;                     alpha test reference value, the check is "if (color.a < alphaTestRef) discard;"
+// 1.19+
+uniform float darknessFactor;                   strength of the darkness effect (0.0-1.0)
+uniform float darknessLightFactor;              lightmap variations caused by the darkness effect (0.0-1.0) 
 
 Constants
 =====================================================================================================================================================================
