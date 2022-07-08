@@ -2,6 +2,7 @@
 #	Jerozgen  01-Mar-2016 — 10-Jan-2021
 #	Dibro     20-Mar-2016
 #	tnkv      26-Jul-2021
+#       Amirkhan  10-Apr-2022
 
 # General
 of.general.ambiguous=Неопределено
@@ -12,6 +13,7 @@ of.general.id=ID
 of.general.max=Макс.
 of.general.restart=⟲
 of.general.smart=Умно
+of.general.anonymous=Анон.
 
 # Keys
 of.key.zoom=Приблизить
@@ -104,6 +106,14 @@ options.renderDistance.tooltip.6=  32 Предельная - 512 м (ещё ме
 options.renderDistance.tooltip.7=  48 Безумная - 768 м, требуется 2 Гбайт ОЗУ
 options.renderDistance.tooltip.8=  64 Абсурдная! - 1024 м, требуется 3 Гбайт ОЗУ
 
+options.simulationDistance.tooltip.1=Дальность симуляции
+options.simulationDistance.tooltip.2=  5-12 - Обычная (быстрее)
+options.simulationDistance.tooltip.3=  13-24 - Дальняя (медленнее)
+options.simulationDistance.tooltip.4=  25-32 - Экстремальная (медленнее)
+options.simulationDistance.tooltip.5=Контролирует насколько далеко от игрока чанки и сущности
+options.simulationDistance.tooltip.6=обновляются.
+options.simulationDistance.tooltip.7=Чем выше значение, тем выше вероятность замедления.
+
 options.entityDistanceScaling.tooltip.1=Расстояние до сущности
 options.entityDistanceScaling.tooltip.2=  50%% - быстрее
 options.entityDistanceScaling.tooltip.3=  §o100%%§r - по умолчанию
@@ -119,8 +129,8 @@ options.framerateLimit.tooltip.1=Частота кадров
 options.framerateLimit.tooltip.2=  V-Sync - частота обновления монитора
 options.framerateLimit.tooltip.3=  5–255 - свои значения
 options.framerateLimit.tooltip.4=  Максимум - без ограничений (быстрее)
-options.framerateLimit.tooltip.5=Уменьшает частоту кадров до указанной.
-options.framerateLimit.tooltip.6=
+options.framerateLimit.tooltip.5=Уменьшает частоту кадров до указанной,
+options.framerateLimit.tooltip.6=даже если ограничение не достигнуто.
 of.options.framerateLimit.vsync=V-Sync
 
 of.options.AO_LEVEL=Мягкое освещение
@@ -164,6 +174,31 @@ options.attackIndicator.tooltip.3=  Инвентарь - рядом с инве�
 options.attackIndicator.tooltip.4=  Выкл - индикатор атаки отключён
 options.attackIndicator.tooltip.5=Индикатор атаки отображает силу атаки предмета,
 options.attackIndicator.tooltip.6=экипированного в данный момент.
+
+options.screenEffectScale.tooltip.1=Эффекты укачивания
+options.screenEffectScale.tooltip.2=  Выкл. - отключено
+options.screenEffectScale.tooltip.3=  1-100%% - включено
+options.screenEffectScale.tooltip.4=Управляет интенсивностью таких эффектов укачивания,
+options.screenEffectScale.tooltip.5=как анимация портала и эффект тошноты.
+
+options.autosaveIndicator.tooltip.1=Индикатор автосохранения
+options.autosaveIndicator.tooltip.2=  Выкл. - отключено
+options.autosaveIndicator.tooltip.3=  Вкл. - включено
+options.autosaveIndicator.tooltip.4=Показывает, когда игра автоматически сохраняет мир.
+
+options.fovEffectScale.tooltip.1=Эффекты поля зрения
+options.fovEffectScale.tooltip.2=  Выкл. - отключено
+options.fovEffectScale.tooltip.3=  1-100%% - включено
+options.fovEffectScale.tooltip.4=Управляет интенсивностью таких эффектов приближения,
+options.fovEffectScale.tooltip.5=как натяжение тетивы лука, бег и полёт.
+¶
+options.prioritizeChunkUpdates.tooltip.1=Сборка чанков¶
+options.prioritizeChunkUpdates.tooltip.2=  Потоковая - обновление всех чанков в фоновом режиме
+options.prioritizeChunkUpdates.tooltip.3=  По событию - немедленно обновляет сломанные чанки
+options.prioritizeChunkUpdates.tooltip.4=  Полная блокировка - немедленно обновляет
+options.prioritizeChunkUpdates.tooltip.5=соседние чанки.
+options.prioritizeChunkUpdates.tooltip.6=Потоковое обновление может показывать пустые чанки.
+¶
 
 of.options.ALTERNATE_BLOCKS=Альтернативные блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативные модели блоков
@@ -785,6 +820,16 @@ of.options.SHOW_GL_ERRORS.tooltip.4=исправить.
 of.options.SHOW_GL_ERRORS.tooltip.5=В отключённом состоянии ошибки по-прежнему будут
 of.options.SHOW_GL_ERRORS.tooltip.6=записываться в журнал и могут значительно понизить
 of.options.SHOW_GL_ERRORS.tooltip.7=частоту кадров.
+
+of.options.TELEMETRY=Телеметрия
+of.options.TELEMETRY.tooltip.1=Отправляет телеметрические данные в Mojang Studios
+of.options.TELEMETRY.tooltip.2=  Вкл. - полная телеметрия (по умолчанию)
+of.options.TELEMETRY.tooltip.3=  Анон. - анонимная телеметрия
+of.options.TELEMETRY.tooltip.4=  Выкл. - телеметрия отключена
+of.options.TELEMETRY.tooltip.5=Полная телеметрия отправляет UUID пользователя,
+of.options.TELEMETRY.tooltip.6=позволяющий отслеживать пользователя с разных устройств.
+of.options.TELEMETRY.tooltip.7=Анонимная телеметрия не отправляет ни данные пользователя,
+of.options.TELEMETRY.tooltip.8=ни данные клиента игры.
 
 # Chat Settings
 
