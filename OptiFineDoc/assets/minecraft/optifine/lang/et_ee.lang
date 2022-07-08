@@ -7,6 +7,7 @@ of.general.id=ID
 of.general.max=maksimaalne
 of.general.restart=taaskäivita
 of.general.smart=tark
+of.general.anonymous=anonüümne
 
 # Keys
 of.key.zoom=Suum
@@ -99,6 +100,14 @@ options.renderDistance.tooltip.6=  48 hullumeelne - 768m, vajab 2 GB RAMi alluta
 options.renderDistance.tooltip.7=  64 naeruväärne - 1024m, vajab 3 GB RAMi allutamist
 options.renderDistance.tooltip.8=Väärtused üle "16 kauge" toimivad ainult kohalikes maailmades.
 
+options.simulationDistance.tooltip.1=Simuleerimiskaugus
+options.simulationDistance.tooltip.2=  5-12 - tavaline (kiirem)
+options.simulationDistance.tooltip.3=  13-24 - kauge (aeglasem)
+options.simulationDistance.tooltip.4=  25-32 - ekstreemne (aeglaseim)
+options.simulationDistance.tooltip.5=Juhib, kui kaugel mängijast uuendatakse kamakaid
+options.simulationDistance.tooltip.6=ja olemeid.
+options.simulationDistance.tooltip.7=Suuremad väärtused võivad põhjustada silmnähtavaid latentsusokkaid.
+
 options.entityDistanceScaling.tooltip.1=Olemite renderduskaugus
 options.entityDistanceScaling.tooltip.2=  50%% - kiirem
 options.entityDistanceScaling.tooltip.3=  100%% - vaikimisi
@@ -159,6 +168,30 @@ options.attackIndicator.tooltip.3=  Plokiribal - plokiriba kõrval
 options.attackIndicator.tooltip.4=  VÄLJAS - ründeindikaator puudub
 options.attackIndicator.tooltip.5=Ründeindikaator kuvab käesoleva eseme ründevõimsust
 options.attackIndicator.tooltip.6=
+
+options.screenEffectScale.tooltip.1=Moonutusefektid
+options.screenEffectScale.tooltip.2=  VÄLJAS - keelatud
+options.screenEffectScale.tooltip.3=  1-100%% - lubatud
+options.screenEffectScale.tooltip.4=Juhib ekraani moonutavate efektide tugevust,
+options.screenEffectScale.tooltip.5=sealhulgas portaalianimatsioon ja iiveldusmõju.
+
+options.autosaveIndicator.tooltip.1=Automaatsalvestuse indikaator
+options.autosaveIndicator.tooltip.2=  VÄLJAS - keelatud
+options.autosaveIndicator.tooltip.3=  SEES - lubatud
+options.autosaveIndicator.tooltip.4=Kuvab, kui mäng salvestab maailma automaatselt.
+
+options.fovEffectScale.tooltip.1=Vaatevälja efektid
+options.fovEffectScale.tooltip.2=  VÄLJAS - keelatud
+options.fovEffectScale.tooltip.3=  1-100%% - lubatud
+options.fovEffectScale.tooltip.4=Juhib ekraani suumivate efektide tugevust,
+options.fovEffectScale.tooltip.5=sealhulgas vibu vinnastamine, jooksmine ja lendamine.
+
+options.prioritizeChunkUpdates.tooltip.1=Kamakaehitaja
+options.prioritizeChunkUpdates.tooltip.2= Lõimeline - uuenda kõik kamakad taustal
+options.prioritizeChunkUpdates.tooltip.3= Osal. blokeeriv - uuenda mängijat mõjutavad kamakad koheselt
+options.prioritizeChunkUpdates.tooltip.4= Täiel. blokeeriv - uuenda kõik lähikamakad koheselt
+options.prioritizeChunkUpdates.tooltip.5=Lõimelised uuendused võivad korraks maastikul auke kuvada.
+options.prioritizeChunkUpdates.tooltip.6=Blokeerivad uuendused võivad põhjustada silmnähtavaid latentsusokkaid.
 
 of.options.ALTERNATE_BLOCKS=Alternatiivsed plokid
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatiivsed plokid
@@ -763,6 +796,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Keela see vaid siis, kui on teadaolev konfli
 of.options.SHOW_GL_ERRORS.tooltip.4=ning neid vigu ei saa parandada.
 of.options.SHOW_GL_ERRORS.tooltip.5=Keelamisel logitakse vead siiski vealogisse ning
 of.options.SHOW_GL_ERRORS.tooltip.6=need võivad siiski põhjustada silmnähtava ks languse.
+
+of.options.TELEMETRY=Telemeetria
+of.options.TELEMETRY.tooltip.1=Saada Mojangile telemeetriaandmeid
+of.options.TELEMETRY.tooltip.2=  SEES - täielik telemeetria (vaikimisi)
+of.options.TELEMETRY.tooltip.3=  Anonüümne - anonüümne telemeetria
+of.options.TELEMETRY.tooltip.4=  VÄLJAS - telemeetria puudub
+of.options.TELEMETRY.tooltip.5=Täielik telemeetria saadab kasutaja UUID, mida
+of.options.TELEMETRY.tooltip.6=saab kasutada kasutaja jälgimiseks mitme seadme vahel.
+of.options.TELEMETRY.tooltip.7=Anonüümne telemeetria ei saada mistahes kasutajat
+of.options.TELEMETRY.tooltip.8=või klienti identifitseerivaid andmeid.
 
 # Chat Settings
 
