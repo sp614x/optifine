@@ -191,14 +191,13 @@ options.fovEffectScale.tooltip.2=  Выкл. - отключено
 options.fovEffectScale.tooltip.3=  1-100%% - включено
 options.fovEffectScale.tooltip.4=Управляет интенсивностью таких эффектов приближения,
 options.fovEffectScale.tooltip.5=как натяжение тетивы лука, бег и полёт.
-¶
-options.prioritizeChunkUpdates.tooltip.1=Сборка чанков¶
+
+options.prioritizeChunkUpdates.tooltip.1=Сборка чанков
 options.prioritizeChunkUpdates.tooltip.2=  Потоковая - обновление всех чанков в фоновом режиме
 options.prioritizeChunkUpdates.tooltip.3=  По событию - немедленно обновляет сломанные чанки
 options.prioritizeChunkUpdates.tooltip.4=  Полная блокировка - немедленно обновляет
-options.prioritizeChunkUpdates.tooltip.5=соседние чанки.
+options.prioritizeChunkUpdates.tooltip.5=  соседние чанки.
 options.prioritizeChunkUpdates.tooltip.6=Потоковое обновление может показывать пустые чанки.
-¶
 
 of.options.ALTERNATE_BLOCKS=Альтернативные блоки
 of.options.ALTERNATE_BLOCKS.tooltip.1=Альтернативные модели блоков
