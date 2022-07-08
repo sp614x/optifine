@@ -86,7 +86,7 @@ options.graphics.tooltip.6=cieni oraz boków bloków trawy.
 options.graphics.tooltip.7=Bajeczna grafika nie jest kompatybilna z shaderami.
 
 of.options.renderDistance.tiny=Najkrótsza
-of.options.renderDistance.short=Krótka
+of.options.renderDistance.short=Krótsza
 of.options.renderDistance.normal=Normalna
 of.options.renderDistance.far=Długa
 of.options.renderDistance.extreme=Ekstremalna
