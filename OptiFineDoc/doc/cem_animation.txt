@@ -65,13 +65,18 @@
 # Entity parameters (float)
 #   health
 #   hurt_time
+#   death_time
 #   idle_time
 #   max_health
 #   move_forward
 #   move_strafing
 #   pos_x, pos_y, pos_z
+#   rot_x, rot_y
+#   player_pos_x, player_pos_y, player_pos_z
+#   player_rot_x, player_rot_y
 #   revenge_time
 #   swing_progress
+#   id
 #
 # Entity parameters (boolean)
 #   is_alive
