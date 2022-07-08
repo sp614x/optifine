@@ -119,12 +119,13 @@
 #   frac(x)
 #   log(x)
 #   pow(x, y)
-#   random(x)
+#   random(seed)                                   Random value from 0 to 1, the seed is optional
 #   round(x)
 #   signum(x)
 #   sqrt(x)
 #   fmod(x, y)                                     Similar to Math.floorMod()
 #   if(cond, val, [cond2, val2, ...], val_else)    Select a value based one or more conditions
+#   print(id, n, x)                                Prints the value "x" every N-th frame
 #
 # Boolean functions                 
 #   between(x, min, max)                           Check if a value is between min and max values
