@@ -135,7 +135,7 @@
 #   equals(x, y, epsilon)  - Compare two float values with error margin
 #   in(x, val1, val2, ...) - Check if a value equals one of several values
 #
-#  Example:
+# Examples:
 #    ...
 #    "animations":
 #    [
@@ -147,3 +147,17 @@
 #      }
 #    ]
 #    
+# Walking animation:
+#    x is a multipler to control how fast the leg swings back and forth, and y is a multiplier to control how far it swings back and forth
+#
+#    "left_leg.rx": "sin(limb_swing*x)*limb_speed*y"
+# 
+# Attack animation:
+#    x is a multipler for how much it rotates
+#
+#    "head.rx": "sin(swing_progress*pi)*x"
+#
+# Hurt animation:
+#    x is a multipler for how much it rotates
+#
+#    "head.rx": "-sin(hurt_time/pi)*x"
