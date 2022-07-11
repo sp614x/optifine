@@ -73,7 +73,6 @@
 #   rot_x, rot_y                             - The entities current world rotation. North is 0
 #   player_pos_x, player_pos_y, player_pos_z - The players current world position
 #   player_rot_x, player_rot_y               - The entities current world rotation. North is 0
-#   revenge_time                             - The time since last hurt by another entity.
 #   swing_progress                           - How far through an attack the entity is. Counts up from 0 to 1
 #   id                                       - A unique numeric identifier for the entity
 #
