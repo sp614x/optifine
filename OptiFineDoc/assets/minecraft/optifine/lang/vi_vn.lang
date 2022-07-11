@@ -1,3 +1,4 @@
+# Ai dịch thì nhớ ghi: tên,ngày, tháng, năm bắt đầu và kết thúc
 # Contributor for translation:
 # Blazemetal and Google translator 2022-02-04 ---
 
@@ -81,10 +82,10 @@ options.graphics.tooltip.1=Đồ họa
 options.graphics.tooltip.2=  Nhanh - chất lượng thấp hơn, nhanh hơn
 options.graphics.tooltip.3=  Đẹp - chất lượng cao hơn, chậm hơn
 options.graphics.tooltip.4=  Tuyệt Đẹp! - vật thể mờ tốt hơn, rất chậm
-options.graphics.tooltip.5=Thay đổi diện mạo của mây, lá, nước,
-options.graphics.tooltip.6=bóng và các mặt cỏ.
-options.graphics.tooltip.7=Đồ họa tuyệt vời không tương thích với shaders và
-options.graphics.tooltip.8=khử răng cưa.
+options.graphics.tooltip.5=Thay đổi diện mạo của mây, lá, nước, bóng và các mặt cỏ.
+options.graphics.tooltip.6=Đồ họa tuyệt vời không tương thích với shaders và khử răng cưa.
+options.graphics.tooltip.7=
+options.graphics.tooltip.8=
 
 of.options.renderDistance.tiny=Tối thiểu
 of.options.renderDistance.short=Thấp
@@ -107,8 +108,8 @@ options.simulationDistance.tooltip.1=Khoảng cách mô phỏng
 options.simulationDistance.tooltip.2=  5-12 - Bình thường  (nhanh hơn)
 options.simulationDistance.tooltip.3=  13-24 - Xa (chậm hơn)
 options.simulationDistance.tooltip.4=  25-32 - Xa nhất (chậm nhất)
-options.simulationDistance.tooltip.5=Kiểm soát khoảng cách từ người chơi đến các khối và thực thể 
-options.simulationDistance.tooltip.6=đang được cập nhật. 
+options.simulationDistance.tooltip.5=Kiểm soát khoảng cách từ người chơi đến các khối và thực thể đang được 
+options.simulationDistance.tooltip.6=cập nhật. 
 options.simulationDistance.tooltip.7=Khoảng cách mô phỏng lớn hơn có thể gây ra độ trễ lớn.
 
 options.entityDistanceScaling.tooltip.1=Hiển thị khoảng cách thực thể
@@ -129,8 +130,8 @@ options.framerateLimit.tooltip.1=Khung hình tối đa
 options.framerateLimit.tooltip.2=  VSync - giới hạn để giám sát tốc độ khung hình (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - giới hạn khung hình có thể thay đổi
 options.framerateLimit.tooltip.4=  Vô hạn - không giới hạn (nhanh nhất)
-options.framerateLimit.tooltip.5=Giới hạn tốc độ khung hình làm giảm FPS ngay cả khi
-options.framerateLimit.tooltip.6=không đạt đến giá trị giới hạn.
+options.framerateLimit.tooltip.5=Giới hạn tốc độ khung hình làm giảm FPS ngay cả khi không đạt đến giá trị 
+options.framerateLimit.tooltip.6=giới hạn.
 options.framerateLimit.tooltip.7=Các khung hình vượt quá tần số quét của màn hình sẽ không được hiển thị.
 options.framerateLimit.tooltip.8=Lưu ý việc để Vô hạn sẽ làm giảm tuổi thọ phần cứng máy tính.
 of.options.framerateLimit.vsync=VSync
@@ -163,8 +164,8 @@ options.gamma.tooltip.1=Thay đổi độ đậm nhạt của các vật tối
 options.gamma.tooltip.2=  U ám - độ sáng tiêu chuẩn
 options.gamma.tooltip.3=  1-99%% - Điều chỉnh độ sáng
 options.gamma.tooltip.4=  Sáng - độ sáng tối đa cho các vật thể tối hơn
-options.gamma.tooltip.5=Tùy chọn này không làm thay đổi độ sáng của
-options.gamma.tooltip.6=các vật đen hoàn toàn.
+options.gamma.tooltip.5=Tùy chọn này không làm thay đổi độ sáng của các vật đen hoàn toàn.
+options.gamma.tooltip.6=
 
 options.anaglyph.tooltip.1=3D Anaglyph
 options.anaglyph.tooltip.2=Bật hiệu ứng 3D lập thể bằng cách sử dụng các màu khác nhau
@@ -175,14 +176,14 @@ options.attackIndicator.tooltip.1=Định cấu hình vị trí của chỉ báo
 options.attackIndicator.tooltip.2=  Hình chữ thập - dưới dạng chữ thập
 options.attackIndicator.tooltip.3=  Thanh nóng - bên cạnh thanh nóng
 options.attackIndicator.tooltip.4=  TẮT - Không có chỉ báo tấn công
-options.attackIndicator.tooltip.5=Chỉ số tấn công cho thấy sức mạnh tấn công của
-options.attackIndicator.tooltip.6=vật phẩm hiện được trang bị
+options.attackIndicator.tooltip.5=Chỉ số tấn công cho thấy sức mạnh tấn công của vật phẩm hiện được trang bị
+options.attackIndicator.tooltip.6=
 
 options.screenEffectScale.tooltip.1=Hiệu ứng biến dạng
 options.screenEffectScale.tooltip.2=  TẮT - Vô hiệu hóa
 options.screenEffectScale.tooltip.3=  1-100%% - kích hoạt
-options.screenEffectScale.tooltip.4=Kiểm soát cường độ của các hiệu ứng bóp méo màn hình
-options.screenEffectScale.tooltip.5=như hoạt ảnh cổng và hiệu ứng buồn nôn.
+options.screenEffectScale.tooltip.4=Kiểm soát cường độ của các hiệu ứng bóp méo màn hình như hoạt ảnh cổng và 
+options.screenEffectScale.tooltip.5=hiệu ứng buồn nôn.
 
 options.autosaveIndicator.tooltip.1=Chỉ báo tự động lưu
 options.autosaveIndicator.tooltip.2=  TẮT - Vô hiệu hóa
@@ -192,8 +193,8 @@ options.autosaveIndicator.tooltip.4=Hiển thị thời điểm trò chơi tự 
 options.fovEffectScale.tooltip.1=Hiệu ứng FOV
 options.fovEffectScale.tooltip.2=  TẮT - Vô hiệu hóa
 options.fovEffectScale.tooltip.3=  1-100%% - kích hoạt
-options.fovEffectScale.tooltip.4=Kiểm soát cường độ của các hiệu ứng phóng to màn hình
-options.fovEffectScale.tooltip.5=như căng cung, chạy nước rút và bay.
+options.fovEffectScale.tooltip.4=Kiểm soát cường độ của các hiệu ứng phóng to màn hình như căng cung, chạy 
+options.fovEffectScale.tooltip.5=và bay.
 
 options.prioritizeChunkUpdates.tooltip.1=Trình tạo đoạn khúc
 options.prioritizeChunkUpdates.tooltip.2= Theo luồng - cập nhật tất cả các đoạn khúc ở chế độ nền
@@ -243,9 +244,9 @@ of.options.shaders.ANTIALIASING=Khử răng cưa
 of.options.shaders.ANTIALIASING.tooltip.1=Khử răng cưa
 of.options.shaders.ANTIALIASING.tooltip.2=  TẮT - (mặc định) không khử răng cưa (nhanh hơn)
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - các đường và cạnh chống răng cưa (chậm hơn)
-of.options.shaders.ANTIALIASING.tooltip.4=FXAA là hiệu ứng xử lý hậu kỳ giúp làm mịn các đường răng cưa và 
-of.options.shaders.ANTIALIASING.tooltip.5=chuyển màu sắc nét.
-of.options.shaders.ANTIALIASING.tooltip.6=Nó nhanh hơn khử răng cưa truyền thống và tương thích với shader.. 
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA là hiệu ứng xử lý hậu kỳ giúp làm mịn các đường răng cưa và chuyển màu
+of.options.shaders.ANTIALIASING.tooltip.5=sắc nét.
+of.options.shaders.ANTIALIASING.tooltip.6=Nó nhanh hơn khử răng cưa truyền thống và tương thích với shader.
 of.options.shaders.ANTIALIASING.tooltip.7= 
 
 of.options.shaders.NORMAL_MAP=Bản đồ thường
@@ -271,8 +272,8 @@ of.options.shaders.RENDER_RES_MUL.tooltip.1=Chất lượng kết xuất
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - thấp (nhanh nhất)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - tiêu chuẩn (mặc định)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - cao (chậm nhất)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=Chất lượng kết xuất kiểm soát kích thước của kết cấu
-of.options.shaders.RENDER_RES_MUL.tooltip.6=mà gói shader đang hiển thị.
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Chất lượng kết xuất kiểm soát kích thước của kết cấu mà gói shader đang hiển 
+of.options.shaders.RENDER_RES_MUL.tooltip.6=thị.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Các giá trị thấp hơn có thể hữu ích với màn hình 4K.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Giá trị cao hơn hoạt động như một bộ lọc khử răng cưa.
 
@@ -281,8 +282,8 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.1=Chất lượng bóng
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - thấp (nhanh nhất)
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - tiêu chuẩn (mặc định)
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - cao (chậm nhất)
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=Chất lượng bóng kiểm soát kích thước của kết cấu
-of.options.shaders.SHADOW_RES_MUL.tooltip.6=bản đồ bóng được sử dụng bởi gói shader.
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Chất lượng bóng kiểm soát kích thước của kết cấu bản đồ bóng được sử dụng 
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=bởi gói shader.
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=Giá trị thấp hơn = bóng không rõ ràng, thô hơn.
 of.options.shaders.SHADOW_RES_MUL.tooltip.8=Giá trị cao hơn = bóng chi tiết, mịn hơn.
 
@@ -291,10 +292,10 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Phối cảnh bàn tay
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - đưa tay đến gần camera
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (mặc định)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - đưa tay ra xa camera
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Độ sâu bàn tay kiểm soát khoảng cách của các đối tượng cầm tay
-of.options.shaders.HAND_DEPTH_MUL.tooltip.6=so với máy ảnh.
-of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Nó cũng thay đổi độ mờ của những vật mà bạn có trong tay bằng gói shader 
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=có hiệu ứng mờ theo chiều sâu.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Độ sâu bàn tay kiểm soát khoảng cách của các đối tượng cầm tay so với camera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=Nó cũng thay đổi độ mờ của những vật mà bạn có trong tay bằng gói shader 
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=có hiệu ứng mờ theo chiều sâu.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=
 
 of.options.shaders.CLOUD_SHADOW=Bóng mây
 
@@ -303,8 +304,8 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Nguồn sáng cầm tay cũ
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Mặc định - được kiểm soát bởi gói shader
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  BẬT - Sử dụng hệ thống nguồn sáng cầm tay cũ
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  TẮT - Sử dụng hệ thống nguồn sáng cầm tay mới
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Nguồn sáng cầm tay cũ cho phép các gói shader chỉ nhận dạng các vật phẩm phát ra 
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=ánh sáng trong tay chính cũng hoạt động với các vật phẩm ở tay phụ.
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Nguồn sáng cầm tay cũ cho phép các gói shader chỉ nhận dạng các vật phẩm 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=phát ra ánh sáng trong tay chính cũng hoạt động với các vật phẩm ở tay phụ.
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=
 
 of.options.shaders.OLD_LIGHTING=Hiệu ứng ánh sáng cũ
@@ -312,10 +313,10 @@ of.options.shaders.OLD_LIGHTING.tooltip.1=Hiệu ứng ánh sáng cũ
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Mặc định - Kiểm soát bằng gói shader
 of.options.shaders.OLD_LIGHTING.tooltip.3=  BẬT - Sử dụng các hiệu ứng ánh sáng cũ
 of.options.shaders.OLD_LIGHTING.tooltip.4=  TẮT - Không sử dụng các hiệu ứng ánh sáng cũ
-of.options.shaders.OLD_LIGHTING.tooltip.5=Hệ thống chiếu sáng cũ điều khiển ánh sáng cố định được vanilla áp dụng 
-of.options.shaders.OLD_LIGHTING.tooltip.6=cho các mặt của khối. 
-of.options.shaders.OLD_LIGHTING.tooltip.7=Các gói Shader xử lý bóng thường cung cấp bóng tốt hơn nhiều dựa trên 
-of.options.shaders.OLD_LIGHTING.tooltip.8=vị trí của mặt trời.
+of.options.shaders.OLD_LIGHTING.tooltip.5=Hệ thống chiếu sáng cũ điều khiển ánh sáng cố định được vanilla áp dụng cho 
+of.options.shaders.OLD_LIGHTING.tooltip.6=các mặt của khối. 
+of.options.shaders.OLD_LIGHTING.tooltip.7=Các gói Shader xử lý bóng thường cung cấp bóng tốt hơn nhiều dựa trên vị 
+of.options.shaders.OLD_LIGHTING.tooltip.8=trí của mặt trời.
 
 of.options.shaders.DOWNLOAD=Tải xuống Shader
 of.options.shaders.DOWNLOAD.tooltip.1=Tải xuống Shader
@@ -352,10 +353,10 @@ of.shaders.profile=Hồ sơ
 
 # Quality
 
-of.options.mipmap.bilinear=Song tuyến (bilinear)
-of.options.mipmap.linear=Tuyến tính (linear)
-of.options.mipmap.nearest=Gần nhất (nearest)
-of.options.mipmap.trilinear=Tam tuyến (trilinear)
+of.options.mipmap.bilinear=Song tuyến
+of.options.mipmap.linear=Tuyến tính
+of.options.mipmap.nearest=Gần nhất
+of.options.mipmap.trilinear=Tam tuyến
 
 options.mipmapLevels.tooltip.1=Cải thiện hiệu ứng hình ảnh trên các vật thể ở xa
 options.mipmapLevels.tooltip.2=bằng cách làm mịn kết cấu.
@@ -376,7 +377,7 @@ of.options.MIPMAP_TYPE.tooltip.6=  Tam tuyến - làm mịn tốt nhất (chậm
 of.options.AA_LEVEL=Khử răng cưa
 of.options.AA_LEVEL.tooltip.1=Khử răng cưa
 of.options.AA_LEVEL.tooltip.2= TẮT - (mặc định) không khử răng cưa (nhanh hơn)
-of.options.AA_LEVEL.tooltip.3= 2-16 - Đường viền chống răng cưa (chạm hơn)
+of.options.AA_LEVEL.tooltip.3= 2-16 - Đường viền chống răng cưa (chậm hơn)
 of.options.AA_LEVEL.tooltip.4=Thể hiện mượt mà các cạnh răng cưa và sự thay đổi màu sắc đột ngột.
 of.options.AA_LEVEL.tooltip.5=Khi được bật, nó có thể làm giảm đáng kể FPS.
 of.options.AA_LEVEL.tooltip.6=Một số hoặc tất cả các cấp có thể không khả dụng tùy thuộc vào thông số 
@@ -416,15 +417,15 @@ of.options.BETTER_SNOW=Tuyết tốt hơn
 of.options.BETTER_SNOW.tooltip.1=Tuyết tốt hơn
 of.options.BETTER_SNOW.tooltip.2=  TẮT - tuyết mặc định, nhanh hơn
 of.options.BETTER_SNOW.tooltip.3=  BẬT - tuyết tốt hơn, chậm hơn
-of.options.BETTER_SNOW.tooltip.4=Hiển thị tuyết dưới các khối trong suốt (hàng rào, cỏ cao)
-of.options.BETTER_SNOW.tooltip.5=khi giáp với các khối tuyết.
+of.options.BETTER_SNOW.tooltip.4=Hiển thị tuyết dưới các khối trong suốt (hàng rào, cỏ cao) khi giáp với các 
+of.options.BETTER_SNOW.tooltip.5=khối tuyết.
 
 of.options.CUSTOM_FONTS=Phông chữ tùy chỉnh
 of.options.CUSTOM_FONTS.tooltip.1=Phông chữ tùy chỉnh
 of.options.CUSTOM_FONTS.tooltip.2=  BẬT - sử dụng phông chữ tùy chỉnh (mặc định), chậm hơn
 of.options.CUSTOM_FONTS.tooltip.3=  TẮT - sử dụng phông chữ mặc định, nhanh hơn
-of.options.CUSTOM_FONTS.tooltip.4=Các phông chữ tùy chỉnh phụ thuộc vào gói tài nguyên 
-of.options.CUSTOM_FONTS.tooltip.5=đang được sử dụng.
+of.options.CUSTOM_FONTS.tooltip.4=Các phông chữ tùy chỉnh phụ thuộc vào gói tài nguyên đang được sử dụng.
+of.options.CUSTOM_FONTS.tooltip.5=
 
 of.options.CUSTOM_COLORS=Màu sắc tùy chỉnh
 of.options.CUSTOM_COLORS.tooltip.1=Màu sắc tùy chỉnh
@@ -452,59 +453,59 @@ of.options.CONNECTED_TEXTURES.tooltip.1=Kết cấu liền mạch
 of.options.CONNECTED_TEXTURES.tooltip.2=  TẮT - không có kết cấu liền mạch (mặc định)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Nhanh - kết cấu liền mạch nhanh
 of.options.CONNECTED_TEXTURES.tooltip.4=  Đẹp - kết cấu liền mạch đẹp
-of.options.CONNECTED_TEXTURES.tooltip.5=Liên kết các kết cấu của kính, đá sa thạch và giá sách 
-of.options.CONNECTED_TEXTURES.tooltip.6=khi đặt cạnh nhau.
-of.options.CONNECTED_TEXTURES.tooltip.7=Các kết cấu liền mạch phụ thuộc vào gói tài nguyên 
-of.options.CONNECTED_TEXTURES.tooltip.8=đang được sử dụng.
+of.options.CONNECTED_TEXTURES.tooltip.5=Liên kết các kết cấu của kính, đá sa thạch và kệ sách khi đặt cạnh nhau.
+of.options.CONNECTED_TEXTURES.tooltip.6=Các kết cấu liền mạch phụ thuộc vào gói tài nguyên đang được sử dụng.
+of.options.CONNECTED_TEXTURES.tooltip.7=
+of.options.CONNECTED_TEXTURES.tooltip.8=
 
 of.options.NATURAL_TEXTURES=Kết cấu tự nhiên
 of.options.NATURAL_TEXTURES.tooltip.1=Kết cấu tự nhiên
 of.options.NATURAL_TEXTURES.tooltip.2=  TẮT - không dùng kết cấu tự nhiên (mặc định)
 of.options.NATURAL_TEXTURES.tooltip.3=  BẬT - sử dụng kết cấu tự nhiên
-of.options.NATURAL_TEXTURES.tooltip.4=Kết cấu tự nhiên loại bỏ mô hình dạng lưới được tạo ra bằng cách 
-of.options.NATURAL_TEXTURES.tooltip.5=lặp lại các khối cùng loại.
+of.options.NATURAL_TEXTURES.tooltip.4=Kết cấu tự nhiên loại bỏ mô hình dạng lưới được tạo ra bằng cách lặp lại các 
+of.options.NATURAL_TEXTURES.tooltip.5=khối cùng loại.
 of.options.NATURAL_TEXTURES.tooltip.6=Nó sử dụng các biến thể xoay và lật của kết cấu khối cơ bản.
-of.options.NATURAL_TEXTURES.tooltip.7=Cấu hình cho các kết cấu tự nhiên phụ thuộc vào gói tài nguyên 
-of.options.NATURAL_TEXTURES.tooltip.8=đang được sử dụng.
+of.options.NATURAL_TEXTURES.tooltip.7=Cấu hình cho các kết cấu tự nhiên phụ thuộc vào gói tài nguyên đang được 
+of.options.NATURAL_TEXTURES.tooltip.8=sử dụng.
 
 of.options.EMISSIVE_TEXTURES=Kết cấu phát quang
 of.options.EMISSIVE_TEXTURES.tooltip.1=Kết cấu phát quang
 of.options.EMISSIVE_TEXTURES.tooltip.2=  TẮT - không dùng kết cấu phát quang (mặc định)
 of.options.EMISSIVE_TEXTURES.tooltip.3=  BẬT - dùng kết cấu phát quang
 of.options.EMISSIVE_TEXTURES.tooltip.4=Các kết cấu phát quang được hiển thị dưới dạng lớp phủ với độ sáng đầy đủ. 
-of.options.EMISSIVE_TEXTURES.tooltip.5=Cũng có thể được sử dụng để mô phỏng các phần phát sáng của 
-of.options.EMISSIVE_TEXTURES.tooltip.6=kết cấu cơ bản.
-of.options.EMISSIVE_TEXTURES.tooltip.7=Các Kết cấu phát quang phụ thuộc vào gói tài nguyên đang được sử dụng.
+of.options.EMISSIVE_TEXTURES.tooltip.5=Cũng có thể được sử dụng để mô phỏng các phần phát sáng của kết cấu cơ bản.
+of.options.EMISSIVE_TEXTURES.tooltip.6=Các Kết cấu phát quang phụ thuộc vào gói tài nguyên đang được sử dụng.
+of.options.EMISSIVE_TEXTURES.tooltip.7=
 of.options.EMISSIVE_TEXTURES.tooltip.8=
 
 of.options.CUSTOM_SKY=Bầu trời tùy chỉnh
 of.options.CUSTOM_SKY.tooltip.1=Bầu trời tùy chỉnh
 of.options.CUSTOM_SKY.tooltip.2=  BẬT - kết cấu bầu trời tùy chỉnh (mặc định), chậm
 of.options.CUSTOM_SKY.tooltip.3=  TẮT - bầu trời mặc định, nhanh hơn
-of.options.CUSTOM_SKY.tooltip.4=Kết cấu cho bầu trời tùy chỉnh phụ thuộc vào gói tài nguyên
-of.options.CUSTOM_SKY.tooltip.5=đang được sử dụng.
+of.options.CUSTOM_SKY.tooltip.4=Kết cấu cho bầu trời tùy chỉnh phụ thuộc vào gói tài nguyên đang được sử
+of.options.CUSTOM_SKY.tooltip.5=dụng.
 
 of.options.CUSTOM_ITEMS=Vật phẩm tùy chỉnh
 of.options.CUSTOM_ITEMS.tooltip.1=Vật phẩm tùy chỉnh
 of.options.CUSTOM_ITEMS.tooltip.2=  BẬT - kết cấu vật phẩm tùy chỉnh (mặc định), chậm
 of.options.CUSTOM_ITEMS.tooltip.3=  TẮT - kết cấu vật phẩm mặc định, nhanh hơn
-of.options.CUSTOM_ITEMS.tooltip.4=Kết cấu cho vật phẩm tùy chỉnh (CIT) phụ thuộc vào gói tài nguyên 
-of.options.CUSTOM_ITEMS.tooltip.5=đang được sử dụng.
+of.options.CUSTOM_ITEMS.tooltip.4=Kết cấu cho vật phẩm tùy chỉnh (CIT) phụ thuộc vào gói tài nguyên đang được 
+of.options.CUSTOM_ITEMS.tooltip.5=sử dụng.
 
 of.options.CUSTOM_ENTITY_MODELS=thực thể tùy chỉnh
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=thực thể tùy chỉnh
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  BẬT - mô hình thực thể tùy chỉnh (mặc định), chậm
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  TẮT - mô hình thực thể mặc định, nhanh hơn
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Kết cấu cho mô hình thực thể tùy chỉnh (CEM) phụ thuộc vào
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=gói tài nguyên đang được sử dụng.
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Kết cấu cho mô hình thực thể tùy chỉnh (CEM) phụ thuộc vào gói tài nguyên 
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=đang được sử dụng.
 
 
 of.options.CUSTOM_GUIS=Tuỳ chỉnh GUIs
 of.options.CUSTOM_GUIS.tooltip.1=Tuỳ chỉnh GUIs
 of.options.CUSTOM_GUIS.tooltip.2=  BẬT - tuỳ chỉnh GUIs (mặc định), chậm hơn
 of.options.CUSTOM_GUIS.tooltip.3=  TẮT - GUIs mặc định, nhanh hơn
-of.options.CUSTOM_GUIS.tooltip.4=Tuỳ chỉnh giao diện (GUIs) phụ thuộc vào gói tài nguyên 
-of.options.CUSTOM_GUIS.tooltip.5=đang được sử dụng.
+of.options.CUSTOM_GUIS.tooltip.4=Tuỳ chỉnh giao diện phụ thuộc vào gói tài nguyên đang được sử dụng.
+of.options.CUSTOM_GUIS.tooltip.5=
 
 # Details
 
@@ -550,8 +551,8 @@ of.options.STARS=Sao
 of.options.STARS.tooltip.1=Sao
 of.options.STARS.tooltip.2=  BẬT - sao có thể nhìn thấy được, chậm hơn
 of.options.STARS.tooltip.3=  TẮT  - sao không thể nhìn thấy được, nhanh hơn
-of.options.STARS.tooltip.4=Sao có thể bị ẩn tùy thuộc vào gói tài nguyên hoặc shader 
-of.options.STARS.tooltip.5=hiển thị bầu trời đêm.
+of.options.STARS.tooltip.4=Sao có thể bị ẩn tùy thuộc vào gói tài nguyên hoặc shader hiển thị bầu trời 
+of.options.STARS.tooltip.5=đêm.
 
 of.options.SUN_MOON=Mặt trời và Mặt trăng
 of.options.SUN_MOON.tooltip.1=Mặt trời và Mặt trăng
@@ -568,9 +569,9 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.1=Khối mờ
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Mặc định - phù hợp với cài đặt đồ họa
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Đẹp - pha trộn màu chính xác (chậm hơn)
 of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Nhanh - pha màu nhanh (nhanh hơn)
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kiểm soát sự pha trộn màu sắc của các khối mờ với các 
-of.options.TRANSLUCENT_BLOCKS.tooltip.6=màu khác nhau (kính màu, nước, đá)
-of.options.TRANSLUCENT_BLOCKS.tooltip.7=khi đặt sau nhau và giữa chúng có không khí.
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kiểm soát sự pha trộn màu sắc của các khối mờ với các màu khác nhau 
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=(kính màu, nước, nước đá) khi đặt sau nhau và giữa chúng có không khí.
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=
 
 of.options.HELD_ITEM_TOOLTIPS=Hiển thị tên vật phẩm khi đổi tay
 of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Hiển thị tên vật phẩm khi đổi tay
@@ -600,8 +601,8 @@ of.options.VIGNETTE.tooltip.1=Hiệu ứng hình ảnh làm tối các góc củ
 of.options.VIGNETTE.tooltip.2=  Mặc định - phù hợp với cài đặt đồ họa (mặc định)
 of.options.VIGNETTE.tooltip.3=  Nhanh - không dùng hiệu ứng mờ viền (nhanh hơn)
 of.options.VIGNETTE.tooltip.4=  Đẹp - dùng ứng mờ viền (chậm hơn)
-of.options.VIGNETTE.tooltip.5=Hiệu ứng mờ có thể ảnh hưởng đáng kể đến FPS, đặc biệt là 
-of.options.VIGNETTE.tooltip.6=khi chơi toàn màn hình.
+of.options.VIGNETTE.tooltip.5=Hiệu ứng mờ có thể ảnh hưởng đáng kể đến FPS, đặc biệt là khi chơi toàn màn 
+of.options.VIGNETTE.tooltip.6=hình.
 of.options.VIGNETTE.tooltip.7=Hiệu ứng mờ rất tinh tế và có thể được tắt một cách an toàn.
 of.options.VIGNETTE.tooltip.8=
 
@@ -609,17 +610,17 @@ of.options.DYNAMIC_FOV=Góc nhìn động
 of.options.DYNAMIC_FOV.tooltip.1=Góc nhìn động
 of.options.DYNAMIC_FOV.tooltip.2=  BẬT - dùng góc nhìn động (mặc định)
 of.options.DYNAMIC_FOV.tooltip.3=  TẮT - không góc nhìn động
-of.options.DYNAMIC_FOV.tooltip.4=Thay đổi trường nhìn (FOV) khi bay, chạy nhanh
-of.options.DYNAMIC_FOV.tooltip.5=hoặc kéo cung.
+of.options.DYNAMIC_FOV.tooltip.4=Thay đổi trường nhìn (FOV) khi bay, chạy nhanh hoặc kéo cung.
+of.options.DYNAMIC_FOV.tooltip.5=
 
 of.options.DYNAMIC_LIGHTS=Nguồn sáng động
 of.options.DYNAMIC_LIGHTS.tooltip.1=Nguồn sáng động
 of.options.DYNAMIC_LIGHTS.tooltip.2=  TẮT - không dùng nguồn sáng động (mặc định)
 of.options.DYNAMIC_LIGHTS.tooltip.3=  Nhanh - nguồn sáng động nhanh (cập nhật sau mỗi 500ms)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Đẹp - nguồn sáng động đẹp (cập nhật trong thời gian thực)
-of.options.DYNAMIC_LIGHTS.tooltip.5=Cho phép các vật phẩm phát ra ánh sáng (đèn pin, đá phát sáng, v.v.)
-of.options.DYNAMIC_LIGHTS.tooltip.6=để chiếu sáng mọi thứ xung quanh khi người chơi cầm trên tay,
-of.options.DYNAMIC_LIGHTS.tooltip.7=được trang bị bởi người chơi khác hoặc bị rơi trên mặt đất.
+of.options.DYNAMIC_LIGHTS.tooltip.5=Cho phép các vật phẩm phát ra ánh sáng (đèn pin, đá phát sáng, v.v.) để chiếu
+of.options.DYNAMIC_LIGHTS.tooltip.6=sáng mọi thứ xung quanh khi người chơi cầm trên tay, được trang bị bởi 
+of.options.DYNAMIC_LIGHTS.tooltip.7=người chơi khác hoặc bị rơi trên mặt đất.
 of.options.DYNAMIC_LIGHTS.tooltip.8=Ảnh hưởng đáng kể tới hiệu suất.
 
 options.biomeBlendRadius.tooltip.1=Làm mượt quá trình chuyển màu giữa các quần xã
@@ -631,7 +632,7 @@ options.biomeBlendRadius.tooltip.6=
 
 # Performance
 
-of.options.SMOOTH_FPS=Ổn định FPS
+of.options.SMOOTH_FPS=FPS mượt
 of.options.SMOOTH_FPS.tooltip.1=Sử dụng bộ nhớ đệm để ổn định FPS.
 of.options.SMOOTH_FPS.tooltip.2=  TẮT - không ổn định, FPS có thể dao động
 of.options.SMOOTH_FPS.tooltip.3=  BẬT - ổn định FPS
@@ -649,16 +650,16 @@ of.options.FAST_RENDER=Kết xuất nhanh
 of.options.FAST_RENDER.tooltip.1=Kết xuất nhanh
 of.options.FAST_RENDER.tooltip.2= TẮT - kết xuất tiêu chuẩn (mặc định)
 of.options.FAST_RENDER.tooltip.3= BẬT - kết xuất tối ưu hóa (nhanh hơn)
-of.options.FAST_RENDER.tooltip.4=Sử dụng thuật toán kết xuất được tối ưu hóa để giảm tải CPU và 
-of.options.FAST_RENDER.tooltip.5=về cơ bản có thể tăng FPS.
+of.options.FAST_RENDER.tooltip.4=Sử dụng thuật toán kết xuất được tối ưu hóa để giảm tải CPU và cơ bản có 
+of.options.FAST_RENDER.tooltip.5=thể tăng FPS.
 of.options.FAST_RENDER.tooltip.6=Tùy chọn này có thể xung đột với một số mod.
 
 of.options.FAST_MATH=thuật toán nhanh
 of.options.FAST_MATH.tooltip.1=thuật toán nhanh
 of.options.FAST_MATH.tooltip.2= TẮT - thuật toán tiêu chuẩn (mặc định)
 of.options.FAST_MATH.tooltip.3= BẬT - thuật toán nhanh hơn
-of.options.FAST_MATH.tooltip.4=Sử dụng các hàm sin () và cos () được tối ưu hóa để có thể sử dụng 
-of.options.FAST_MATH.tooltip.5=bộ nhớ đệm CPU tốt hơn và tăng FPS.
+of.options.FAST_MATH.tooltip.4=Sử dụng các hàm sin() và cos() được tối ưu hóa để có thể sử dụng bộ nhớ đệm 
+of.options.FAST_MATH.tooltip.5=CPU tốt hơn và tăng FPS.
 of.options.FAST_MATH.tooltip.6=Tính năng này có thể có tác động nhỏ đến việc tạo địa hình.
 
 of.options.CHUNK_UPDATES=Cập nhật đoạn khúc
@@ -669,7 +670,7 @@ of.options.CHUNK_UPDATES.tooltip.4= 5 - tải thế giới rất nhanh, FPS ch�
 of.options.CHUNK_UPDATES.tooltip.5=Chỉ định số lượng cập nhật đoạn khúc được thực hiện trên mỗi khung hình.
 of.options.CHUNK_UPDATES.tooltip.6=Giá trị cao hơn dẫn đến tốc độ khung hình không ổn định.
 
-of.options.CHUNK_UPDATES_DYNAMIC=Cập nhật động
+of.options.CHUNK_UPDATES_DYNAMIC=Cập nhật đoạn khúc động
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Cập nhật đoạn khúc động
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= TẮT - cập nhật đoạn khúc tiêu chuẩn cho mỗi khung hình (mặc định)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= BẬT - cập nhật nhiều hơn trong khi ngưởi chơi đang đứng yên
@@ -697,8 +698,8 @@ of.options.SMART_ANIMATIONS=Hoạt ảnh thông minh
 of.options.SMART_ANIMATIONS.tooltip.1=Hoạt ảnh thông minh
 of.options.SMART_ANIMATIONS.tooltip.2= TẮT - không dùng hoạt ảnh thông minh (mặc định)
 of.options.SMART_ANIMATIONS.tooltip.3= BẬT - dùng hoạt ảnh thông minh (nhanh hơn)
-of.options.SMART_ANIMATIONS.tooltip.4=Với hoạt ảnh thông minh, trò chơi sẽ chỉ tạo hoạt ảnh cho các kết cấu 
-of.options.SMART_ANIMATIONS.tooltip.5=trong phạm vi có thể nhìn thấy được.
+of.options.SMART_ANIMATIONS.tooltip.4=Với hoạt ảnh thông minh, trò chơi sẽ chỉ tạo hoạt ảnh cho các kết cấu trong 
+of.options.SMART_ANIMATIONS.tooltip.5=phạm vi có thể nhìn thấy được.
 of.options.SMART_ANIMATIONS.tooltip.6=Điều này làm giảm độ trễ và tăng FPS.
 of.options.SMART_ANIMATIONS.tooltip.7=Đặc biệt hữu ích cho các gói mod lớn và gói tài nguyên HD.
 
@@ -733,17 +734,17 @@ of.options.LAGOMETER.tooltip.1=Hiển thị đồng hồ đo độ trễ trên m
 of.options.LAGOMETER.tooltip.2=* Cam - Bộ nhớ rác
 of.options.LAGOMETER.tooltip.3=* Ngọc bích - Tick
 of.options.LAGOMETER.tooltip.4=* Xanh lam - Các tệp thực thi đã lên lịch
-of.options.LAGOMETER.tooltip.5=* Tím - Tai lên đoạn khúc
+of.options.LAGOMETER.tooltip.5=* Tím - Tải lên đoạn khúc
 of.options.LAGOMETER.tooltip.6=* Đỏ - Cập nhật đoạn khúc
 of.options.LAGOMETER.tooltip.7=* Vàng - Khả năng hiển thị
 of.options.LAGOMETER.tooltip.8=* Xanh lá - Kết xuất địa hình
 
-of.options.PROFILER=Gỡ lỗi hồ sơ
-of.options.PROFILER.tooltip.1=Gỡ lỗi hồ sơ
-of.options.PROFILER.tooltip.2=  BẬT - sơ gỡ lỗi đang hoạt động, chậm hơn
+of.options.PROFILER=Hồ sơ gỡ lỗi
+of.options.PROFILER.tooltip.1=Hồ sơ gỡ lỗi
+of.options.PROFILER.tooltip.2=  BẬT - hồ sơ gỡ lỗi đang hoạt động, chậm hơn
 of.options.PROFILER.tooltip.3=  TẮT - hồ sơ gỡ lỗi không hoạt động, nhanh hơn
-of.options.PROFILER.tooltip.4=hồ sơ gỡ lỗi thu thập và hiển thị thông tin gỡ lỗi khi màn hình 
-of.options.PROFILER.tooltip.5=gỡ lỗi đang mở (F3).
+of.options.PROFILER.tooltip.4=hồ sơ gỡ lỗi thu thập và hiển thị thông tin gỡ lỗi khi màn hình gỡ lỗi đang
+of.options.PROFILER.tooltip.5=mở (F3).
 
 of.options.WEATHER=Thời tiết
 of.options.WEATHER.tooltip.1=Thời tiết
@@ -766,23 +767,23 @@ of.options.TIME.tooltip.6=
 options.fullscreen.tooltip.1=Toàn màn hình
 options.fullscreen.tooltip.2=  BẬT - dùng chế độ toàn màn hình
 options.fullscreen.tooltip.3=  TẮT - dùng chế độ cửa sổ
-options.fullscreen.tooltip.4=Chế độ toàn màn hình có thể nhanh hơn hoặc chậm hơn chế độ cửa sổ,
-options.fullscreen.tooltip.5=tùy thuộc vào card đồ họa.
+options.fullscreen.tooltip.4=Chế độ toàn màn hình có thể nhanh hơn hoặc chậm hơn chế độ cửa sổ, tùy 
+options.fullscreen.tooltip.5=thuộc vào card đồ họa.
 
-options.fullscreen.resolution=chế độ toàn màn hình
-options.fullscreen.resolution.tooltip.1=chế độ toàn màn hình
+options.fullscreen.resolution=Chế độ toàn màn hình
+options.fullscreen.resolution.tooltip.1=Chế độ toàn màn hình
 options.fullscreen.resolution.tooltip.2=  Mặc định - sử dụng độ phân giải màn hình máy tính, chậm hơn
 options.fullscreen.resolution.tooltip.3=  rộng x cao - dùng độ phân giải màn hình tùy chỉnh, có thể nhanh hơn
 options.fullscreen.resolution.tooltip.4=Độ phân giải đã chọn được sử dụng ở chế độ toàn màn hình (F11).
 options.fullscreen.resolution.tooltip.5=Độ phân giải thấp hơn thường sẽ nhanh hơn.
-options.fullscreen.resolution.tooltip.6=Đối với độ phân giải cao như 4K, việc kết hợp độ phân giải 
-options.fullscreen.resolution.tooltip.7=với FXAA có thể cải thiện FPS.
+options.fullscreen.resolution.tooltip.6=Đối với độ phân giải cao như 4K, việc kết hợp độ phân giải với FXAA có thể 
+options.fullscreen.resolution.tooltip.7=cải thiện FPS.
 
 of.options.SHOW_FPS=Hiện FPS
 of.options.SHOW_FPS.tooltip.1=Hiển thị FPS nhỏ gọn và thông tin kết xuất.
 of.options.SHOW_FPS.tooltip.2=  Fps - Trung bình/tối thiểu
 of.options.SHOW_FPS.tooltip.3=  C: - Đoạn khúc kết xuất
-of.options.SHOW_FPS.tooltip.4=  E: - Kết xuất thực thể + khối thực thể
+of.options.SHOW_FPS.tooltip.4=  E: - Thực thể + khối thực thể
 of.options.SHOW_FPS.tooltip.5=  U: - Cập nhật đoạn khúc
 of.options.SHOW_FPS.tooltip.6=Thông tin FPS nhỏ gọn chỉ được hiển thị khi màn hình gỡ lỗi không hiển thị.
 of.options.SHOW_FPS.tooltip.7=
@@ -811,20 +812,20 @@ of.options.SCREENSHOT_SIZE.tooltip.6=GPU phải hỗ trợ bộ đệm khung.
 of.options.SHOW_GL_ERRORS=Hiển thị lỗi GL
 of.options.SHOW_GL_ERRORS.tooltip.1=Hiển thị lỗi OpenGL
 of.options.SHOW_GL_ERRORS.tooltip.2=Khi được bật, lỗi OpenGL sẽ hiển thị trong mục trò chuyện.
-of.options.SHOW_GL_ERRORS.tooltip.3=Chỉ vô hiệu hóa nó nếu có xung đột đã biết và
-of.options.SHOW_GL_ERRORS.tooltip.4=không thể sửa được lỗi.
-of.options.SHOW_GL_ERRORS.tooltip.5=Khi bị vô hiệu hóa, các lỗi vẫn được ghi trong nhật ký lỗi và chúng vẫn 
-of.options.SHOW_GL_ERRORS.tooltip.6=có thể gây giảm FPS đáng kể.
+of.options.SHOW_GL_ERRORS.tooltip.3=Chỉ vô hiệu hóa nó nếu có xung đột đã biết và không thể sửa được lỗi.
+of.options.SHOW_GL_ERRORS.tooltip.4=Khi bị vô hiệu hóa, các lỗi vẫn được ghi trong nhật ký lỗi và chúng vẫn có 
+of.options.SHOW_GL_ERRORS.tooltip.5=thể làm giảm đáng kể FPS.
+of.options.SHOW_GL_ERRORS.tooltip.6=
 
-of.options.TELEMETRY=Phép đo từ xa
+of.options.TELEMETRY=Đo từ xa
 of.options.TELEMETRY.tooltip.1=Gửi dữ liệu đo từ xa tới Mojang
 of.options.TELEMETRY.tooltip.2=  Bật - đầy đủ (mặc định)
 of.options.TELEMETRY.tooltip.3=  Ẩn danh - đo từ xa ẩn danh
 of.options.TELEMETRY.tooltip.4=  Tắt - không đo từ xa
-of.options.TELEMETRY.tooltip.5=Phép đo từ xa đầy đủ gửi cho người dùng UUID có thể
-of.options.TELEMETRY.tooltip.6=được sử dụng  để theo dõi người dùng trên các thiết bị khác nhau.
-of.options.TELEMETRY.tooltip.7=Ẩn danh: không gửi bất kỳ dữ liệu nhận dạng
-of.options.TELEMETRY.tooltip.8=người dùng hoặc khách hàng nào.
+of.options.TELEMETRY.tooltip.5=Phép đo từ xa đầy đủ có thể được sử dụng để theo dõi người dùng trên các 
+of.options.TELEMETRY.tooltip.6=thiết bị khác nhau.
+of.options.TELEMETRY.tooltip.7=Ẩn danh: không gửi bất kỳ dữ liệu nhận dạng người dùng hoặc khách hàng nào.
+of.options.TELEMETRY.tooltip.8=
 
 # Chat Settings
 
