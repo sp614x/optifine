@@ -17,6 +17,7 @@
 # 
 # 
 # Variables
+#
 # Model variables are specified in the format 
 #   "<model>.<variable_name>"
 #
@@ -37,9 +38,26 @@
 # The intermediate parents in the hierarchical specification can be skipped. 
 #
 # Variable names
-#   tx, ty, tz - translation x, y, z
-#   rx, ry, rz - rotation x, y, z
-#   sx, sy, sz - scale x, y, z
+#   tx, ty, tz    - translation x, y, z
+#   rx, ry, rz    - rotation x, y, z
+#   sx, sy, sz    - scale x, y, z
+#   visible       - show model and submodels (boolean)
+#   visible_boxes - show model only, does not affect submodels (boolean)
+#
+# Entity variables
+#
+# Entity variables are specified in the format "var.<name>" (float) or "varb.<name>" (boolean) 
+# The name can be any string, for example "var.xyz", "var.last_rx", etc.
+# The variable is attached to the rendered entity and has a default value 0 or false.
+# Entity variables are useful for storing animation data between frames.
+# Not supported for block entities.
+#
+# Render variables
+#
+#   render.shadow_size
+#   render.shadow_opacity
+#   render.leash_offset_x, render.leash_offset_y, render.leash_offset_z
+#   render.shadow_offset_x, render.shadow_offset_z
 # 
 # Expressions
 #
@@ -61,6 +79,10 @@
 #   age - age in ticks
 #   head_yaw - head yaw
 #   head_pitch - head pitch
+#   player_pos_x, player_pos_y, player_pos_z
+#   player_rot_x, player_rot_y
+#   frame_time
+#   dimension
 #
 # Entity parameters (float)
 #   health
@@ -72,13 +94,12 @@
 #   move_strafing
 #   pos_x, pos_y, pos_z
 #   rot_x, rot_y
-#   player_pos_x, player_pos_y, player_pos_z
-#   player_rot_x, player_rot_y
-#   revenge_time
+#   anger_time
 #   swing_progress
 #   id
 #
 # Entity parameters (boolean)
+#   is_aggressive
 #   is_alive
 #   is_burning
 #   is_child
@@ -93,10 +114,13 @@
 #   is_invisible
 #   is_on_ground
 #   is_on_head
+#   is_on_shoulder
 #   is_ridden
 #   is_riding
+#   is_sitting
 #   is_sneaking
 #   is_sprinting
+#   is_tamed
 #   is_wet
 #
 # Operators
@@ -129,8 +153,10 @@
 #   signum(x)
 #   sqrt(x)
 #   fmod(x, y)                                     Similar to Math.floorMod()
+#   lerp(k, x, y)                                  Linear interpolation between X and Y
 #   if(cond, val, [cond2, val2, ...], val_else)    Select a value based one or more conditions
 #   print(id, n, x)                                Prints the value "x" every N-th frame
+#   printb(id, n, b)                               Prints the boolean value "b" every N-th frame
 #
 # Boolean functions                 
 #   between(x, min, max)                           Check if a value is between min and max values
