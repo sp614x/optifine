@@ -17,6 +17,7 @@
 # 
 # 
 # Variables
+#
 # Model variables are specified in the format 
 #   "<model>.<variable_name>"
 #
@@ -37,9 +38,25 @@
 # The intermediate parents in the hierarchical specification can be skipped. 
 #
 # Variable names
-#   tx, ty, tz - translation x, y, z
-#   rx, ry, rz - rotation x, y, z
-#   sx, sy, sz - scale x, y, z
+#   tx, ty, tz    - Translation x, y, z
+#   rx, ry, rz    - Rotation x, y, z
+#   sx, sy, sz    - Scale x, y, z
+#   visible       - Show model and submodels (boolean)
+#   visible_boxes - Show model only, does not affect submodels (boolean)
+#
+# Entity variables
+#
+# Entity variables are specified in the format "var.<name>" (float) or "varb.<name>" (boolean) 
+# The name can be any string, for example "var.xyz", "var.last_rx", etc.
+# The variable is attached to the rendered entity and has a default value 0 or false.
+# Entity variables are useful for storing animation data between frames.
+# Not supported for block entities.
+#
+# Render variables
+#   render.shadow_size                                                  - The size of the shadow underneath an entity
+#   render.shadow_opacity                                               - How transparent the shadow is
+#   render.shadow_offset_x, render.shadow_offset_z                      - The location of the shadow
+#   render.leash_offset_x, render.leash_offset_y, render.leash_offset_z - The position of the point the leash attaches to
 # 
 # Expressions
 #
@@ -77,6 +94,7 @@
 #   id                                       - A unique numeric identifier for the entity
 #
 # Entity parameters (boolean)
+#   is_aggressive    - If the entity is aggressive towards a player or another entity
 #   is_alive         - If the entity is alive
 #   is_burning       - If the entity is on fire
 #   is_child         - If the entity is in its baby state
@@ -91,10 +109,13 @@
 #   is_invisible     - If the entity has the Invisibility effect/NBT tag
 #   is_on_ground     - If the entity is touching the ground
 #   is_on_head       - If the entity is worn on another entity's head
+#   is_on_shoulder   - If a parrot is sitting on your shoulder
 #   is_ridden        - If the entity is being ridden by another entity
 #   is_riding        - If the entity is riding another entity
+#   is_sitting       - If a cat/wolf/parrot is sitting
 #   is_sneaking      - If a cat/ocelot is sneaking
 #   is_sprinting     - If a cat/ocelot is sprinting
+#   is_tamed         - If a cat/wolf/parrot is tamed
 #   is_wet           - If the entity is inside water/rain
 #
 # Operators
@@ -127,8 +148,10 @@
 #   signum(x)                                   - Get the sign of x (positive or negative)
 #   sqrt(x)                                     - Get the square root of x
 #   fmod(x, y)                                  - Similar to the % operator, but the returned value always has the same sign as the divisor
+#   lerp(k, x, y)                               - Linear interpolation between X and Y
 #   if(cond, val, [cond2, val2, ...], val_else) - Select a value based one or more conditions
 #   print(id, n, x)                             - Prints the value "x" every N-th frame
+#   printb(id, n, x)                            - Prints the boolean value "b" every N-th frame
 #
 # Boolean functions                 
 #   between(x, min, max)   - Check if a value is between min and max values
@@ -161,3 +184,8 @@
 #    x is a multipler for how much it rotates
 #
 #    "head.rx": "-sin(hurt_time/pi)*x"
+#
+# Custom counter:
+#    This is a counter that will count up while an entity is in water, and count down again when it leaves
+#
+#    "var.counter": "if(is_in_water, min(20, var.counter + 0.1), max(0, var.counter - 0.1))"
