@@ -87,6 +87,7 @@
 #   health              - The entity's current health
 #   hurt_time           - The time the entity is hurt for. Counts down from 10 to 0
 #   death_time          - The time the entity is dead. Counts up from 0 to 20
+#   anger_time          - The time the entity is angry. 0 while neutral, 720 while agressive, and then counts down to 0 when the target is lost
 #   max_health          - The entity's maximum health
 #   move_forward        - Currently broken
 #   move_strafing       - Currently broken
