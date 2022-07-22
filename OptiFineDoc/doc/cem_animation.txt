@@ -188,4 +188,4 @@
 # Custom counter:
 #    This is a counter that will count up while an entity is in water, and count down again when it leaves
 #
-#    "var.counter": "if(is_in_water, min(20, var.counter + 0.1), max(0, var.counter - 0.1))"
+#    "var.counter": "if(is_in_water, min(20, var.counter + 0.1 * frame_time * 20), max(0, var.counter - 0.1 * frame_time * 20))"
