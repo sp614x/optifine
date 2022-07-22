@@ -4,6 +4,7 @@
 #  Kamil7430 2018-07-30 -- ?????      #
 #  ravkr     2019-08-25 -- ?????      #
 #  Moneko    2020-10-   -- ?????      #
+#  Xemulated 2022-07-09 -- ?????      #
 
 # General
 of.general.ambiguous=dwuznaczny
@@ -11,28 +12,28 @@ of.general.compact=Kompaktowe
 of.general.custom=Inny
 of.general.from=Od
 of.general.id=ID
-of.general.max=Maksimum
-of.general.restart=restart
-of.general.smart=Smart
+of.general.max=Maksymalny
+of.general.restart=Uruchom Ponownie
+of.general.smart=Mądry
 
 # Keys
 of.key.zoom=Przybliżenie
 
 # Message
 of.message.aa.shaders1=Antyaliasing nie jest kompatybilny z shaderami.
-of.message.aa.shaders2=Wyłącz shadery, aby użyć tej opcji.
+of.message.aa.shaders2=Wyłącz shader żeby móc użyć tej opcji.
 
 of.message.af.shaders1=Filtrowanie anizotropowe nie jest kompatybilne z shaderami.
-of.message.af.shaders2=Wyłącz shadery, aby użyć tej opcji.
+of.message.af.shaders2=Wyłącz shader żeby móc użyć tej opcji.
 
 of.message.fr.shaders1=Szybkie renderowanie nie jest kompatybilne z shaderami.
-of.message.fr.shaders2=Wyłącz shadery, aby użyć tej opcji.
+of.message.fr.shaders2=Wyłącz shadery żeby móc użyć tej opcji.
 
 of.message.an.shaders1=Anaglifowe 3D nie jest kompatybilne z shaderami.
 of.message.an.shaders2=Wyłącz shadery, aby użyć tej opcji.
 
 of.message.shaders.aa1=Shadery nie są kompatybilne z antyaliasingiem.
-of.message.shaders.aa2=Wyłącz opcję Jakość -> Antyaliasing, a następnie zrestartuj grę.
+of.message.shaders.aa2=Wyłącz opcję Jakość -> Antyaliasing, a następnie uruchom ponownie grę.
 
 of.message.shaders.af1=Shadery nie są kompatybilne z filtrowaniem anizotropowym.
 of.message.shaders.af2=Wyłącz opcję Jakość -> Filtrowanie anizotropowe.
@@ -50,7 +51,7 @@ of.message.shaders.nv1=Ten zestaw shaderów wymaga nowszej wersji OptiFine: %s
 of.message.shaders.nv2=Czy na pewno chcesz kontynuować?
 
 of.message.newVersion=Nowa wersja §eOptiFine§f jest dostępna: §e%s§f
-of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowego środowiska Java§f, aby zwiększyć wydajność.
+of.message.java64Bit=Zalecamy zainstalowanie §e64-bitowego środowiska uruchamialnego Java§f, aby zwiększyć wydajność.
 of.message.openglError=§eBłąd OpenGL§f: %s (%s)
 
 of.message.shaders.loading=Wczytywanie shaderów: %s
