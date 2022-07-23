@@ -73,25 +73,28 @@
 #   time          - The current world time in ticks
 #
 # Render parameters
-#   limb_swing - Limb animation counter. Counts up in ticks when the entity moves
-#   limb_speed - Limb movement speed. Ranges from 0 to 1 (still = 0, sprinting = 1)
-#   age        - Age in ticks
-#   head_pitch - Head pitch (x Rotation)
-#   head_yaw   - Head yaw   (y rotation)
-#
-# Entity parameters (float)
-#   health                                   - The entity's current health
-#   hurt_time                                - The time the entity is hurt for. Counts down from 10 to 0
-#   death_time                               - The time the entity is dead. Counts up from 0 to 20
-#   max_health                               - The entity's maximum health
-#   move_forward                             - Currently broken
-#   move_strafing                            - Currently broken
-#   pos_x, pos_y, pos_z                      - The entities current world position
-#   rot_x, rot_y                             - The entities current world rotation. North is 0
+#   limb_swing                               - Limb animation counter. Counts up in ticks when the entity moves
+#   limb_speed                               - Limb movement speed. Ranges from 0 to 1 (still = 0, sprinting = 1)
+#   age                                      - Age in ticks
+#   head_pitch                               - Head pitch (x Rotation)
+#   head_yaw                                 - Head yaw   (y rotation)
 #   player_pos_x, player_pos_y, player_pos_z - The players current world position
 #   player_rot_x, player_rot_y               - The entities current world rotation. North is 0
-#   swing_progress                           - How far through an attack the entity is. Counts up from 0 to 1
-#   id                                       - A unique numeric identifier for the entity
+#   frame_time                               - The time in seconds since the last frame
+#   dimension                                - The current dimension. Overworld: 0, Nether: -1, End: 1
+#
+# Entity parameters (float)
+#   health              - The entity's current health
+#   hurt_time           - The time the entity is hurt for. Counts down from 10 to 0
+#   death_time          - The time the entity is dead. Counts up from 0 to 20
+#   anger_time          - The time the entity is angry. 0 while neutral, 720 while agressive, and then counts down to 0 when the target is lost
+#   max_health          - The entity's maximum health
+#   move_forward        - Currently broken
+#   move_strafing       - Currently broken
+#   pos_x, pos_y, pos_z - The entities current world position
+#   rot_x, rot_y        - The entities current world rotation. North is 0
+#   swing_progress      - How far through an attack the entity is. Counts up from 0 to 1
+#   id                  - A unique numeric identifier for the entity
 #
 # Entity parameters (boolean)
 #   is_aggressive    - If the entity is aggressive towards a player or another entity
