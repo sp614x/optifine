@@ -17,6 +17,7 @@
 # 
 # 
 # Variables
+#
 # Model variables are specified in the format 
 #   "<model>.<variable_name>"
 #
@@ -37,59 +38,88 @@
 # The intermediate parents in the hierarchical specification can be skipped. 
 #
 # Variable names
-#   tx, ty, tz - translation x, y, z
-#   rx, ry, rz - rotation x, y, z
-#   ox, oy, oz - offset x, y, z (absolute, not scaling with model, can be used for translation animations)
-#   sx, sy, sz - scale x, y, z
+#   tx, ty, tz    - Translation x, y, z
+#   rx, ry, rz    - Rotation x, y, z
+#   sx, sy, sz    - Scale x, y, z
+#   visible       - Show model and submodels (boolean)
+#   visible_boxes - Show model only, does not affect submodels (boolean)
+#
+# Entity variables
+#
+# Entity variables are specified in the format "var.<name>" (float) or "varb.<name>" (boolean) 
+# The name can be any string, for example "var.xyz", "var.last_rx", etc.
+# The variable is attached to the rendered entity and has a default value 0 or false.
+# Entity variables are useful for storing animation data between frames.
+# Not supported for block entities.
+#
+# Render variables
+#   render.shadow_size                                                  - The size of the shadow underneath an entity
+#   render.shadow_opacity                                               - How transparent the shadow is
+#   render.shadow_offset_x, render.shadow_offset_z                      - The location of the shadow
+#   render.leash_offset_x, render.leash_offset_y, render.leash_offset_z - The position of the point the leash attaches to
 # 
 # Expressions
 #
 # Expressions are general mathematical expressions with brackets, constants, variables, operators and functions.
 #
 # Constants
-#   floating point number
-#   pi - 3.1415926
+#   <number> - Floating point number
+#   pi       - 3.1415926
 #   true
 #   false
 #
 # Variables
-#   <model>.<var> - model variable, see the model variable specification
-#   time - current world time in ticks
+#   <model>.<var> - Model variable, see the model variable specification
+#   time          - The current world time in ticks
 #
 # Render parameters
-#   limb_swing - limb animation counter
-#   limb_speed - limb movement speed
-#   age - age in ticks
-#   head_yaw - head yaw
-#   head_pitch - head pitch
-#   scale - render scale, default is 0.0625
+#   limb_swing                               - Limb animation counter. Counts up in ticks when the entity moves
+#   limb_speed                               - Limb movement speed. Ranges from 0 to 1 (still = 0, sprinting = 1)
+#   age                                      - Age in ticks
+#   head_pitch                               - Head pitch (x Rotation)
+#   head_yaw                                 - Head yaw   (y rotation)
+#   player_pos_x, player_pos_y, player_pos_z - The players current world position
+#   player_rot_x, player_rot_y               - The entities current world rotation. North is 0
+#   frame_time                               - The time in seconds since the last frame
+#   dimension                                - The current dimension. Overworld: 0, Nether: -1, End: 1
 #
 # Entity parameters (float)
-#   health
-#   hurt_time
-#   idle_time
-#   max_health
-#   move_forward
-#   move_strafing
-#   pos_x, pos_y, pos_z
-#   revenge_time
-#   swing_progress
+#   health              - The entity's current health
+#   hurt_time           - The time the entity is hurt for. Counts down from 10 to 0
+#   death_time          - The time the entity is dead. Counts up from 0 to 20
+#   anger_time          - The time the entity is angry. 0 while neutral, 720 while agressive, and then counts down to 0 when the target is lost
+#   max_health          - The entity's maximum health
+#   move_forward        - Currently broken
+#   move_strafing       - Currently broken
+#   pos_x, pos_y, pos_z - The entities current world position
+#   rot_x, rot_y        - The entities current world rotation. North is 0
+#   swing_progress      - How far through an attack the entity is. Counts up from 0 to 1
+#   id                  - A unique numeric identifier for the entity
 #
 # Entity parameters (boolean)
-#   is_alive
-#   is_burning
-#   is_child
-#   is_glowing
-#   is_hurt
-#   is_in_lava
-#   is_in_water
-#   is_invisible
-#   is_on_ground
-#   is_ridden
-#   is_riding
-#   is_sneaking
-#   is_sprinting
-#   is_wet
+#   is_aggressive    - If the entity is aggressive towards a player or another entity
+#   is_alive         - If the entity is alive
+#   is_burning       - If the entity is on fire
+#   is_child         - If the entity is in its baby state
+#   is_glowing       - If the entity has the Glowing effect
+#   is_hurt          - If the entity is taking damage
+#   is_in_hand       - If the entity is being held in your hand
+#   is_in_item_frame - If the entity is in an item frame
+#   is_in_ground     - If a trident is impaled in the ground
+#   is_in_gui        - If the entity is inside the GUI
+#   is_in_lava       - If the entity is touching lava
+#   is_in_water      - If the entity is touching water
+#   is_invisible     - If the entity has the Invisibility effect/NBT tag
+#   is_on_ground     - If the entity is touching the ground
+#   is_on_head       - If the entity is worn on another entity's head
+#   is_on_shoulder   - If a parrot is sitting on your shoulder
+#   is_ridden        - If the entity is being ridden by another entity
+#   is_riding        - If the entity is riding another entity
+#   is_sitting       - If a cat/wolf/parrot is sitting
+#   is_sneaking      - If a cat/ocelot is sneaking
+#   is_sprinting     - If a cat/ocelot is sprinting
+#   is_tamed         - If a cat/wolf/parrot is tamed
+#   is_wet           - If the entity is inside water/rain
 #
 # Operators
 #   +, -, *, /, %
@@ -97,38 +127,41 @@
 #   >, >=, <, <=, ==, !=
 #
 # Functions
-#   sin(x)
-#   cos(x)
-#   asin(x)
-#   acos(x)
-#   tan(x)
-#   atan(x)
-#   atan2(y, x)
-#   torad(deg)
-#   todeg(rad)
-#   min(x, y ,...)
-#   max(x, y, ...)
-#   clamp(x, min, max)                             Limits a value to be between min and max values
-#   abs(x)
-#   floor(x)
-#   ceil(x)
-#   exp(x)
-#   frac(x)
-#   log(x)
-#   pow(x)
-#   random(x)
-#   round(x)
-#   signum(x)
-#   sqrt(x)
-#   fmod(x, y)                                     Similar to Math.floorMod()
-#   if(cond, val, [cond2, val2, ...], val_else)    Select a value based one or more conditions
+#   sin(x)                                      - Get the sine of x
+#   cos(x)                                      - Get the cosine of c
+#   asin(x)                                     - Get the arc sine of x
+#   acos(x)                                     - Get the arc cosine of x
+#   tan(x)                                      - Get the tangent of x
+#   atan(x)                                     - Get the arc tangent of x
+#   atan2(y, x)                                 - Get the angle between the positive x-axis and the point (x, y)
+#   torad(deg)                                  - Convert degrees to radians
+#   todeg(rad)                                  - Convert radians to degrees
+#   min(x, y ,...)                              - Get the smallest number from a list of numbers
+#   max(x, y, ...)                              - Get the largest number from a list of numbers
+#   clamp(x, min, max)                          - Limits a number to be between min and max values
+#   abs(x)                                      - Get the absolute value of a number. Will turn negative numbers positive
+#   floor(x)                                    - Round x down to the nearest whole number
+#   ceil(x)                                     - Round x up to the nearest whole number
+#   exp(x)                                      - Get e (Euler's constant) raised to the power of x
+#   frac(x)                                     - Get the fractional part of x (what's behind the decimal point)
+#   log(x)                                      - Get the natural logarithm of x
+#   pow(x, y)                                   - Get x raised to the power of y
+#   random(seed)                                - Random number from 0 to 1. Providing a seed will always return the same result. The seed is optional
+#   round(x)                                    - Round x to nearest whole number
+#   signum(x)                                   - Get the sign of x (positive or negative)
+#   sqrt(x)                                     - Get the square root of x
+#   fmod(x, y)                                  - Similar to the % operator, but the returned value always has the same sign as the divisor
+#   lerp(k, x, y)                               - Linear interpolation between X and Y
+#   if(cond, val, [cond2, val2, ...], val_else) - Select a value based one or more conditions
+#   print(id, n, x)                             - Prints the value "x" every N-th frame
+#   printb(id, n, x)                            - Prints the boolean value "x" every N-th frame
 #
 # Boolean functions                 
-#   between(x, min, max)                           Check if a value is between min and max values
-#   equals(x, y, epsilon)                          Compare two float values with error margin
-#   in(x, val1, val2, ...)                         Check if a value equals one of several values
+#   between(x, min, max)   - Check if a value is between min and max values
+#   equals(x, y, epsilon)  - Compare two float values with error margin
+#   in(x, val1, val2, ...) - Check if a value equals one of several values
 #
-#  Example:
+# Examples:
 #    ...
 #    "animations":
 #    [
@@ -140,3 +173,22 @@
 #      }
 #    ]
 #    
+# Walking animation:
+#    x is a multipler to control how fast the leg swings back and forth, and y is a multiplier to control how far it swings back and forth
+#
+#    "left_leg.rx": "sin(limb_swing*x)*limb_speed*y"
+# 
+# Attack animation:
+#    x is a multipler for how much it rotates
+#
+#    "head.rx": "sin(swing_progress*pi)*x"
+#
+# Hurt animation:
+#    x is a multipler for how much it rotates
+#
+#    "head.rx": "-sin(hurt_time/pi)*x"
+#
+# Custom counter:
+#    This is a counter that will count up while an entity is in water, and count down again when it leaves
+#
+#    "var.counter": "if(is_in_water, min(20, var.counter + 0.1 * frame_time * 20), max(0, var.counter - 0.1 * frame_time * 20))"

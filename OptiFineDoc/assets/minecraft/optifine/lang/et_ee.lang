@@ -7,22 +7,26 @@ of.general.id=ID
 of.general.max=maksimaalne
 of.general.restart=taaskäivita
 of.general.smart=tark
+of.general.anonymous=anonüümne
 
 # Keys
 of.key.zoom=Suum
 
 # Message
 of.message.aa.shaders1=Sakisilumine ei ühildu varjutajatega.
-of.message.aa.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.aa.shaders2=Selle valiku lubamiseks palun keela varjutajad.
+
+of.message.aa.gf1=Sakisilumine ei ühildu vapustava graafikaga.
+of.message.aa.gf2=Palun määra Graafika kiireks või uhkeks.
 
 of.message.af.shaders1=Anisotroopiline filtreerimine ei ühildu varjutajatega.
-of.message.af.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.af.shaders2=Selle valiku lubamiseks palun keela varjutajad.
 
 of.message.fr.shaders1=Kiire renderdus ei ühildu varjutajatega.
-of.message.fr.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.fr.shaders2=Selle valiku lubamiseks palun keela varjutajad.
 
 of.message.an.shaders1=3D-anaglüüf ei ühildu varjutajatega.
-of.message.an.shaders2=Palun keela varjutajad selle valiku lubamiseks.
+of.message.an.shaders2=Selle valiku lubamiseks palun keela varjutajad.
 
 of.message.shaders.aa1=Varjutajad ei ühildu sakisilumisega.
 of.message.shaders.aa2=Palun lülita Kvaliteet -> Sakisilumine VÄLJA ja taaskäivita mäng.
@@ -32,6 +36,9 @@ of.message.shaders.af2=Palun lülita Kvaliteet -> Anisotroopiline filtr. VÄLJA.
 
 of.message.shaders.fr1=Varjutajad ei ühildu kiire renderdusega.
 of.message.shaders.fr2=Palun lülita Jõudlus -> Kiire renderdus VÄLJA.
+
+of.message.shaders.gf1=Varjutajad ei ühildu vapustava graafikaga.
+of.message.shaders.gf2=Palun määra Graafika kiireks või uhkeks.
 
 of.message.shaders.an1=Varjutajad ei ühildu 3D-anaglüüfiga.
 of.message.shaders.an2=Palun lülita Muu -> 3D-anaglüüf VÄLJA.
@@ -56,8 +63,10 @@ of.options.skinCustomisation.ofCape=OptiFine'i keep...
 of.options.capeOF.title=OptiFine'i keep
 of.options.capeOF.openEditor=Ava keebimuutja
 of.options.capeOF.reloadCape=Laadi keep uuesti
+of.options.capeOF.copyEditorLink=Kopeeri link lõikelauale
 
 of.message.capeOF.openEditor=OptiFine'i keebimuutja peaks veebibrauseris avanema.
+of.message.capeOF.openEditorError=Keebimuutja lingi avamisel brauseris esines viga.
 of.message.capeOF.reloadCape=Keep laaditakse uuesti 15 sekundi pärast.
 
 of.message.capeOF.error1=Mojangiga autentimine ebaõnnestus.
@@ -68,8 +77,11 @@ of.message.capeOF.error2=Viga: %s
 options.graphics.tooltip.1=Visuaalne kvaliteet
 options.graphics.tooltip.2=  Kiire - madalam kvaliteet, kiirem
 options.graphics.tooltip.3=  Uhke - kõrgem kvaliteet, aeglasem
-options.graphics.tooltip.4=Muudab pilvede, lehtede, vee, varjude ja muru külgede
-options.graphics.tooltip.5=välimust.
+options.graphics.tooltip.4=  Vapustav! - paremad läbipaistvad objektid, aeglaseim
+options.graphics.tooltip.5=Muudab pilvede, lehtede, vee, varjude ja muru külgede
+options.graphics.tooltip.6=välimust.
+options.graphics.tooltip.7=Vapustav graafika ei ühildu varjutajatega ega
+options.graphics.tooltip.8=sakisilumisega.
 
 of.options.renderDistance.tiny=pisike
 of.options.renderDistance.short=lühike
@@ -81,12 +93,26 @@ of.options.renderDistance.ludicrous=naeruväärne
 
 options.renderDistance.tooltip.1=Nähtav kaugus
 options.renderDistance.tooltip.2=  2 pisike - 32m (kiireim)
-options.renderDistance.tooltip.3=  8 tavaline - 128m (tavaline
+options.renderDistance.tooltip.3=  8 tavaline - 128m (tavaline)
 options.renderDistance.tooltip.4=  16 kauge - 256m (aeglasem)
 options.renderDistance.tooltip.5=  32 ekstreemne - 512m (aeglaseim!) väga ressursinõudlik
 options.renderDistance.tooltip.6=  48 hullumeelne - 768m, vajab 2 GB RAMi allutamist
 options.renderDistance.tooltip.7=  64 naeruväärne - 1024m, vajab 3 GB RAMi allutamist
 options.renderDistance.tooltip.8=Väärtused üle "16 kauge" toimivad ainult kohalikes maailmades.
+
+options.simulationDistance.tooltip.1=Simuleerimiskaugus
+options.simulationDistance.tooltip.2=  5-12 - tavaline (kiirem)
+options.simulationDistance.tooltip.3=  13-24 - kauge (aeglasem)
+options.simulationDistance.tooltip.4=  25-32 - ekstreemne (aeglaseim)
+options.simulationDistance.tooltip.5=Juhib, kui kaugel mängijast uuendatakse kamakaid
+options.simulationDistance.tooltip.6=ja olemeid.
+options.simulationDistance.tooltip.7=Suuremad väärtused võivad põhjustada silmnähtavaid latentsusokkaid.
+
+options.entityDistanceScaling.tooltip.1=Olemite renderduskaugus
+options.entityDistanceScaling.tooltip.2=  50%% - kiirem
+options.entityDistanceScaling.tooltip.3=  100%% - vaikimisi
+options.entityDistanceScaling.tooltip.4=  500%% - aeglasem
+options.entityDistanceScaling.tooltip.5=Määrab maksimaalse kauguse, millelt olemeid kuvatakse.
 
 options.ao.tooltip.1=Sujuv valgustus
 options.ao.tooltip.2=  VÄLJAS - sujuv valgustus puudub (kiirem)
@@ -119,6 +145,7 @@ options.guiScale.tooltip.4=  4x kuni 10x - saadaval 4K ekraanidel
 options.guiScale.tooltip.5=Paaritud arvud (1x, 3x, 5x, ...) ei ühildu Unicode'iga.
 options.guiScale.tooltip.6=Väiksem kasutajaliides võib olla kiirem.
 
+options.vbo=VBO'd
 options.vbo.tooltip.1=Vertex Buffer Objects
 options.vbo.tooltip.2=Kasutab alternatiivset renderdusmudelit, mis on tavaliselt
 options.vbo.tooltip.3=vaikimisi renderdusest kiirem (5-10%%).
@@ -134,6 +161,37 @@ options.anaglyph.tooltip.1=3D-anaglüüf
 options.anaglyph.tooltip.2=Lubab stereoskoopilise 3D-efekti, kasutades erinevaid
 options.anaglyph.tooltip.3=värve eri silmadel.
 options.anaglyph.tooltip.4=Vajab punasiniseid prille korralikuks vaatamiseks.
+
+options.attackIndicator.tooltip.1=Seadistab ründeindikaatori asukohta
+options.attackIndicator.tooltip.2=  Sihtimisristil - sihtimisristi all
+options.attackIndicator.tooltip.3=  Plokiribal - plokiriba kõrval
+options.attackIndicator.tooltip.4=  VÄLJAS - ründeindikaator puudub
+options.attackIndicator.tooltip.5=Ründeindikaator kuvab käesoleva eseme ründevõimsust
+options.attackIndicator.tooltip.6=
+
+options.screenEffectScale.tooltip.1=Moonutusefektid
+options.screenEffectScale.tooltip.2=  VÄLJAS - keelatud
+options.screenEffectScale.tooltip.3=  1-100%% - lubatud
+options.screenEffectScale.tooltip.4=Juhib ekraani moonutavate efektide tugevust,
+options.screenEffectScale.tooltip.5=sealhulgas portaalianimatsioon ja iiveldusmõju.
+
+options.autosaveIndicator.tooltip.1=Automaatsalvestuse indikaator
+options.autosaveIndicator.tooltip.2=  VÄLJAS - keelatud
+options.autosaveIndicator.tooltip.3=  SEES - lubatud
+options.autosaveIndicator.tooltip.4=Kuvab, kui mäng salvestab maailma automaatselt.
+
+options.fovEffectScale.tooltip.1=Vaatevälja efektid
+options.fovEffectScale.tooltip.2=  VÄLJAS - keelatud
+options.fovEffectScale.tooltip.3=  1-100%% - lubatud
+options.fovEffectScale.tooltip.4=Juhib ekraani suumivate efektide tugevust,
+options.fovEffectScale.tooltip.5=sealhulgas vibu vinnastamine, jooksmine ja lendamine.
+
+options.prioritizeChunkUpdates.tooltip.1=Kamakaehitaja
+options.prioritizeChunkUpdates.tooltip.2= Lõimeline - uuenda kõik kamakad taustal
+options.prioritizeChunkUpdates.tooltip.3= Osal. blokeeriv - uuenda mängijat mõjutavad kamakad koheselt
+options.prioritizeChunkUpdates.tooltip.4= Täiel. blokeeriv - uuenda kõik lähikamakad koheselt
+options.prioritizeChunkUpdates.tooltip.5=Lõimelised uuendused võivad korraks maastikul auke kuvada.
+options.prioritizeChunkUpdates.tooltip.6=Blokeerivad uuendused võivad põhjustada silmnähtavaid latentsusokkaid.
 
 of.options.ALTERNATE_BLOCKS=Alternatiivsed plokid
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatiivsed plokid
@@ -179,7 +237,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - silutud jooned ja ää
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA on järeltöötluse efekt, mis silub
 of.options.shaders.ANTIALIASING.tooltip.5=sakilised jooned ja teravad värviüleminekud.
 of.options.shaders.ANTIALIASING.tooltip.6=See on traditsioonilisest sakisilumisest kiirem
-of.options.shaders.ANTIALIASING.tooltip.7=ning ühildub nii varjutajate kui ka kiire renderdusega.
+of.options.shaders.ANTIALIASING.tooltip.7=ning ühildub ka varjutajatega.
 
 of.options.shaders.NORMAL_MAP=Tavaline kaart
 of.options.shaders.NORMAL_MAP.tooltip.1=Tavaline kaart
@@ -547,6 +605,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Lubab valgust kiirgavatel esemetel (tõrvik,
 of.options.DYNAMIC_LIGHTS.tooltip.6=käes hoides või maha visates valgustada ümbritsevat ala.
 of.options.DYNAMIC_LIGHTS.tooltip.7=
 
+options.biomeBlendRadius.tooltip.1=Silub bioomidevahelise värvide ülemineku
+options.biomeBlendRadius.tooltip.2=  VÄLJAS - üleminek puudub (kiireim)
+options.biomeBlendRadius.tooltip.3=  5x5 - tavaline üleminek (vaikimisi)
+options.biomeBlendRadius.tooltip.4=  15x15 - maksimaalne üleminek (aeglaseim)
+options.biomeBlendRadius.tooltip.5=Kõrgemad väärtused võivad luua silmnähtavaid
+options.biomeBlendRadius.tooltip.6="latentsusokkaid" ning aeglustada kamakalaadimist.
+
 # Performance
 
 of.options.SMOOTH_FPS=Sujuv kaadrisagedus
@@ -568,7 +633,7 @@ of.options.FAST_RENDER.tooltip.1=Kiire renderdus
 of.options.FAST_RENDER.tooltip.2= VÄLJAS - standardne renderdus (vaikimisi)
 of.options.FAST_RENDER.tooltip.3= SEES - optimeeritud renderdus (kiirem)
 of.options.FAST_RENDER.tooltip.4=Kasutab optimeeritud renderduse algoritmi, mis vähendab
-of.options.FAST_RENDER.tooltip.5=graafikaprotsessori koormust ja võib oluliselt tõsta ks.
+of.options.FAST_RENDER.tooltip.5=protsessori koormust ja võib kaadrisagedust oluliselt tõsta.
 of.options.FAST_RENDER.tooltip.6=See valik võib sattuda konflikti teatud modidega.
 
 of.options.FAST_MATH=Kiire matemaatika
@@ -605,16 +670,16 @@ of.options.LAZY_CHUNK_LOADING.tooltip.7=Töötab ainult kohalikes maailmades (ü
 
 of.options.RENDER_REGIONS=Renderdusalad
 of.options.RENDER_REGIONS.tooltip.1=Renderdusalad
-of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - ära kasuta renderdusalasid (vaikimisi)
-of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid
-of.options.RENDER_REGIONS.tooltip.4=Renderdusalad lubavad kiiremat maastiku renderdamist
-of.options.RENDER_REGIONS.tooltip.5=kõrgematel nähtavuskaugustel. Efektiivsem, kui VBOd on lubatud.
+of.options.RENDER_REGIONS.tooltip.2= VÄLJAS - vanilli renderdus (vaikimisi)
+of.options.RENDER_REGIONS.tooltip.3= SEES - kasuta renderdusalasid (kiirem)
+of.options.RENDER_REGIONS.tooltip.4=Võimaldab kiiremat maastiku renderdamist graafikakaardi koormust
+of.options.RENDER_REGIONS.tooltip.5=optimeerides. Efektiivsem kõrgemate nähtavuskauguste juures.
 of.options.RENDER_REGIONS.tooltip.6=Pole soovitatav integreeritud graafikakaartide puhul.
 
 of.options.SMART_ANIMATIONS=Targad animatsioonid
 of.options.SMART_ANIMATIONS.tooltip.1=Targad animatsioonid
 of.options.SMART_ANIMATIONS.tooltip.2= VÄLJAS - ära kasuta tarku animatsioone (vaikimisi)
-of.options.SMART_ANIMATIONS.tooltip.3= SEES - kasuta tarku animatsioone
+of.options.SMART_ANIMATIONS.tooltip.3= SEES - kasuta tarku animatsioone (kiirem)
 of.options.SMART_ANIMATIONS.tooltip.4=Tarkade animatsioonide puhul animeerib mäng ainult
 of.options.SMART_ANIMATIONS.tooltip.5=neid tekstuure, mida on hetkel ekraanil näha.
 of.options.SMART_ANIMATIONS.tooltip.6=See vähendab "latentsusokkaid" ja suurendab ks.
@@ -687,16 +752,16 @@ options.fullscreen.tooltip.3=  VÄLJAS - kasuta aknarežiimi
 options.fullscreen.tooltip.4=Täisekraanirežiim võib olenevalt graafikakaardist 
 options.fullscreen.tooltip.5=olla aknarežiimist kiirem või aeglasem.
 
-of.options.FULLSCREEN_MODE=Täisekraanirežiim
-of.options.FULLSCREEN_MODE.tooltip.1=Täisekraanirežiim
-of.options.FULLSCREEN_MODE.tooltip.2=  Vaikimisi - kasuta töölaua ekraaniresolutsiooni, aeglasem
-of.options.FULLSCREEN_MODE.tooltip.3=  L x K - kasuta kohandatud ekraaniresolutsiooni, võib olla kiirem
-of.options.FULLSCREEN_MODE.tooltip.4=Valitud resolutsiooni kasutatakse täisekraanirežiimis (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt olema kiiremad.
+options.fullscreen.resolution=Täisekraanirežiim
+options.fullscreen.resolution.tooltip.1=Täisekraanirežiim
+options.fullscreen.resolution.tooltip.2=  Vaikimisi - kasuta töölaua ekraaniresolutsiooni, aeglasem
+options.fullscreen.resolution.tooltip.3=  Laius x kõrgus - kasuta kohandatud resolutsiooni, võib olla kiirem
+options.fullscreen.resolution.tooltip.4=Valitud resolutsiooni kasutatakse täisekraanirežiimis (F11).
+options.fullscreen.resolution.tooltip.5=Madalamad resolutsioonid peaksid tavaliselt olema kiiremad.
 
 of.options.SHOW_FPS=Kaadrisageduse kuva
 of.options.SHOW_FPS.tooltip.1=Kuvab kompaktselt kaadrisageduse ja renderduse infot.
-of.options.SHOW_FPS.tooltip.2=  Fps - keskmine/minimaalne ks
+of.options.SHOW_FPS.tooltip.2=  Fps - keskmine/minimaalne kaadrisagedus
 of.options.SHOW_FPS.tooltip.3=  C: - kamaka renderdajad
 of.options.SHOW_FPS.tooltip.4=  E: - renderdatud olemid + plokiolemid
 of.options.SHOW_FPS.tooltip.5=  U: - kamakauuendused
@@ -721,7 +786,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.2=  Vaikimisi - vaikimisi kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - kohandatud kuvatõmmise suurus
 of.options.SCREENSHOT_SIZE.tooltip.4=Suurema kuvatõmmise loomine võib vajada rohkem mälu.
-of.options.SCREENSHOT_SIZE.tooltip.5=Ei ühildu kiire renderduse ega sakisilumisega.
+of.options.SCREENSHOT_SIZE.tooltip.5=Ei ühildu sakisilumisega.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vajab graafikakaardil kaadripuhvri tuge.
 
 of.options.SHOW_GL_ERRORS=OpenGL'i vead
@@ -731,6 +796,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Keela see vaid siis, kui on teadaolev konfli
 of.options.SHOW_GL_ERRORS.tooltip.4=ning neid vigu ei saa parandada.
 of.options.SHOW_GL_ERRORS.tooltip.5=Keelamisel logitakse vead siiski vealogisse ning
 of.options.SHOW_GL_ERRORS.tooltip.6=need võivad siiski põhjustada silmnähtava ks languse.
+
+of.options.TELEMETRY=Telemeetria
+of.options.TELEMETRY.tooltip.1=Saada Mojangile telemeetriaandmeid
+of.options.TELEMETRY.tooltip.2=  SEES - täielik telemeetria (vaikimisi)
+of.options.TELEMETRY.tooltip.3=  Anonüümne - anonüümne telemeetria
+of.options.TELEMETRY.tooltip.4=  VÄLJAS - telemeetria puudub
+of.options.TELEMETRY.tooltip.5=Täielik telemeetria saadab kasutaja UUID, mida
+of.options.TELEMETRY.tooltip.6=saab kasutada kasutaja jälgimiseks mitme seadme vahel.
+of.options.TELEMETRY.tooltip.7=Anonüümne telemeetria ei saada mistahes kasutajat
+of.options.TELEMETRY.tooltip.8=või klienti identifitseerivaid andmeid.
 
 # Chat Settings
 

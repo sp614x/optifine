@@ -1,0 +1,780 @@
+# Bahasa Indonesia translation
+# Translator = Typhoic 
+# Discord = typhoic#7111
+
+# General
+of.general.ambiguous=ambigu
+of.general.compact=Compact
+of.general.custom=Custom
+of.general.from=Dari
+of.general.id=Id
+of.general.max=Maksimal
+of.general.restart=Muat ulang
+of.general.smart=Pintar
+
+# Keys
+of.key.zoom=Pembesar
+
+# Message
+of.message.aa.shaders1=Anti Alias tidak cocok dengan Shader.
+of.message.aa.shaders2=Mohon matikan Shader untuk menggunakan pengaturan ini.
+
+of.message.aa.gf1=Anti Alias tidak cocok dengan Grafik Menakjubkan.
+of.message.aa.gf2=Mohon atur Grafik ke Cepat atau Bagus.
+
+of.message.af.shaders1=Anisotropic Filtering tidak cocok dengan Shader.
+of.message.af.shaders2=Mohon matikan Shader untuk menggunakan pengaturan ini.
+
+of.message.fr.shaders1=Render Cepat tidak cocok dengan Shader.
+of.message.fr.shaders2=Mohon matikan Shader untuk menggunakan pengaturan ini.
+
+of.message.an.shaders1=3D Anaglyph tidak cocok dengan Shader.
+of.message.an.shaders2=Mohon matikan Shader untuk menggunakan pengaturan ini.
+
+of.message.shaders.aa1=Shader tidak cocok dengan  Anti Alias.
+of.message.shaders.aa2=Mohon atur Kualitas -> Anti Alias jadikan MATI dan nyala ulang permainan.
+
+of.message.shaders.af1=Shader tidak cocok dengan  Anisotropic Filtering.
+of.message.shaders.af2=Mohon atur Kualitas -> Anisotropic Filtering jadikan MATI.
+
+of.message.shaders.fr1=Shader tidak cocok dengan Render Cepat.
+of.message.shaders.fr2=Mohon atur Performa -> Render Cepat jadikan MATI.
+
+of.message.shaders.gf1=Shader tidak cocok dengan Graphik Menakjubkan.
+of.message.shaders.gf2=Mohon atur Grafik ke Cepat atau Bagus.
+
+of.message.shaders.an1=Shader tidak cocok dengan 3D Anaglyph.
+of.message.shaders.an2=Mohon atur Lainnya -> 3D Anaglyph jadikan MATI.
+
+of.message.shaders.nv1=Paket shader ini membutuhkan versi Optifine yang baruan: %s
+of.message.shaders.nv2=Apakah anda yakin untuk melanjutkannya?
+
+of.message.newVersion=Versi §eOptiFine§f baru tersedia: §e%s§f
+of.message.java64Bit=Anda bisa instal §e64-bit Java§f untuk menambah performa.
+of.message.openglError=§eOpenGL Error§f: %s (%s)
+
+of.message.shaders.loading=Memuatkan shader: %s
+
+of.message.other.reset=Atur ulang semua pengaturan video ke semula?
+
+of.message.loadingVisibleChunks=Memuat bingkah terlihat
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=Jubah OptiFine...
+
+of.options.capeOF.title=Jubah OptiFine 
+of.options.capeOF.openEditor=Buka Jubah Editor 
+of.options.capeOF.reloadCape=Muat ulang Jubah
+of.options.capeOF.copyEditorLink=Salin tautan ke Papan klip
+
+of.message.capeOF.openEditor=cape editor OptiFine harus dibuka di internet.
+of.message.capeOF.openEditorError=Gagal membuka link editor di internet.
+of.message.capeOF.reloadCape=cape akan dimuat dalam 15 detik.
+
+of.message.capeOF.error1=gagal autentikasi Mojang.
+of.message.capeOF.error2=Error: %s
+
+# Video settings
+
+options.graphics.tooltip.1=Kualitas visual
+options.graphics.tooltip.2=  Cepat - kualitas rendah, lebih cepat
+options.graphics.tooltip.3=  Bagus - kualitas tinggi, lebih pelan
+options.graphics.tooltip.4=  Menakjubkan - benda tembus cahaya lebih baik, paling pelan
+options.graphics.tooltip.5=Menggantikan penampilan awan, daun, air,
+options.graphics.tooltip.6=bayangan dan sisi rumput.
+options.graphics.tooltip.7=Fabulous graphics tidak cocok dengan shaders and
+options.graphics.tooltip.8=anti alias.
+
+of.options.renderDistance.tiny=Kecil
+of.options.renderDistance.short=Pendek
+of.options.renderDistance.normal=Normal
+of.options.renderDistance.far=Jauh
+of.options.renderDistance.extreme=Ekstrim
+of.options.renderDistance.insane=Gila
+of.options.renderDistance.ludicrous=Sakit Jiwa
+
+options.renderDistance.tooltip.1= Jarak tampak
+options.renderDistance.tooltip.2=  2 Kecil - 32m (tercepat)
+options.renderDistance.tooltip.3=  8 Normal - 128m (normal)
+options.renderDistance.tooltip.4=  16 Jauh - 256m (pelan)
+options.renderDistance.tooltip.5=  32 Ekstrim - 512m (paling pelan!) sangat meminta sumber daya
+options.renderDistance.tooltip.6=  48 Gila - 768m, membutuhkan 2GB RAM untuk dialokasi
+options.renderDistance.tooltip.7=  64 Sakit Jiwa - 1024m, membutuhkan 3GB RAM untuk dialokasi
+options.renderDistance.tooltip.8=Nilai melibihi 16 Jauh hanya efektif di dunia lokal.
+
+options.entityDistanceScaling.tooltip.1=Jarak pandang entitas
+options.entityDistanceScaling.tooltip.2=  50%% - lebih cepat
+options.entityDistanceScaling.tooltip.3=  100%% - asal
+options.entityDistanceScaling.tooltip.4=  500%% - lebih pelan
+options.entityDistanceScaling.tooltip.5=Merubah jarak maksimum dimana entitas terlihat.
+
+options.ao.tooltip.1=Cahaya halus
+options.ao.tooltip.2=  MATI - tidak ada cahaya halus (lebih cepat)
+options.ao.tooltip.3=  Minimum - cahaya halus sederhana (lebih pelan)
+options.ao.tooltip.4=  Maksimum - cahaya halus kompleks (paling pelan)
+
+options.framerateLimit.tooltip.1=Kecepatan bingkai maksimum
+options.framerateLimit.tooltip.2=  VSync - terbatas untuk kecepatan bingkai monitor (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - variabel
+options.framerateLimit.tooltip.4=  Tak hingga - tidak terbatas (tercepat)
+options.framerateLimit.tooltip.5=Batasan kecepatan bingkai mengurangi BPD walaupun
+options.framerateLimit.tooltip.6=Nilai batasan tak tercapai.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Level Cahaya Halus
+of.options.AO_LEVEL.tooltip.1=Level cahaya halus
+of.options.AO_LEVEL.tooltip.2=  MATI - tak ada bayangan
+of.options.AO_LEVEL.tooltip.3=  50%% - bayangan terang
+of.options.AO_LEVEL.tooltip.4=  100%% - bayangan gelap
+
+options.viewBobbing.tooltip.1=Gerakan lebih realistis.
+options.viewBobbing.tooltip.2=Ketika menggunakan mipmaps mohon matikan untuk hasil yang terbaik.
+
+options.guiScale.tooltip.1=Skala GUI
+options.guiScale.tooltip.2=  Auto - ukuran maksimal
+options.guiScale.tooltip.3=  Kecil, Normal, Besar - 1x sampai 3x
+options.guiScale.tooltip.4=  4x sampai 10x - tersedia di tampilan 4K
+options.guiScale.tooltip.5=Nlai ganjil (1x, 3x, 5x ...) tidak cocok dengan Unicode.
+options.guiScale.tooltip.6=GUI yang lebih kecil bisa lebih cepat.
+
+options.vbo=Gunakan VBO
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Menggunakan model render alternatif yang biasanya
+options.vbo.tooltip.3=lebih cepat (5-10%%) daripada render biasa.
+
+options.gamma.tooltip.1=Mengubah kecerahan pada objek lebih gelap.
+options.gamma.tooltip.2=  Moody - kecerahan standar
+options.gamma.tooltip.3=  1-99%% - variabel
+options.gamma.tooltip.4=  Bright - kecerahan maksimum untuk objek lebih gelap
+options.gamma.tooltip.5=Opsi ini tidak mengubah kecerahan pada
+options.gamma.tooltip.6=objek yang gelap total.
+
+options.anaglyph.tooltip.1=3D Anaglyph
+options.anaglyph.tooltip.2=Membuat efek 3D stereoskopis dengan cahaya berbeda
+options.anaglyph.tooltip.3=untuk setiap mata.
+options.anaglyph.tooltip.4=Perlu kacamata merah-cyan untuk tampilan tepat.
+
+options.attackIndicator.tooltip.1=Mengkofigurasi posisi tanda serang
+options.attackIndicator.tooltip.2=  Bulu Bidik - di bawah bulu bidik
+options.attackIndicator.tooltip.3=  Bilah Alat Tersimpanr - di samping bilah alat tersimpan
+options.attackIndicator.tooltip.4=  MATI - tidak ada tanda serang
+options.attackIndicator.tooltip.5=Tanda serang menunjukan kekuatan serangan pada
+options.attackIndicator.tooltip.6=barang yang sedang digengam
+
+of.options.ALTERNATE_BLOCKS=Blok Begantian
+of.options.ALTERNATE_BLOCKS.tooltip.1=Blok Begantian
+of.options.ALTERNATE_BLOCKS.tooltip.2=Menggunakan model blok alternatif untuk beberapa blok.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Bergantung pada paket daya peladen yang terpilih.
+
+of.options.FOG_FANCY=Kabut
+of.options.FOG_FANCY.tooltip.1=Tipe kabut
+of.options.FOG_FANCY.tooltip.2=  Cepat - kabut lebih cepat 
+of.options.FOG_FANCY.tooltip.3=  Fancy - kabut lebih pelan, kelihatan lebih baik
+of.options.FOG_FANCY.tooltip.4=  MATI - tak ada kabut, tercepat
+of.options.FOG_FANCY.tooltip.5=Kabut bagus hanya tersedia jika terdukung dengan
+of.options.FOG_FANCY.tooltip.6=kartu grafik.
+
+of.options.FOG_START=Kabut Mulai
+of.options.FOG_START.tooltip.1=Kabut mulai
+of.options.FOG_START.tooltip.2=  0.2 - kabut mulai dari dekat dengan pemain
+of.options.FOG_START.tooltip.3=  0.8 - kabut mulai dari jauh dengan pemain
+of.options.FOG_START.tooltip.4=Opsi ini biasanya tidak mempengaruhi performa.
+
+of.options.CHUNK_LOADING=Pemuatan Bingkah
+of.options.CHUNK_LOADING.tooltip.1=Pemuatan Bingkah
+of.options.CHUNK_LOADING.tooltip.2=  Asali - BPD tidak stabil saat pemuatan bingkah
+of.options.CHUNK_LOADING.tooltip.3=  Halus - BPD stabil
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - BPD stabil, pemuatan dunia 3x lebih cepat 
+of.options.CHUNK_LOADING.tooltip.5=Halus dan Multi-Core menghilangkan gagap dan 
+of.options.CHUNK_LOADING.tooltip.6=pembekuan yang disebabkan oleh pemuatan bingkah.
+of.options.CHUNK_LOADING.tooltip.7=Multi-Core bisa 3x mempercepat pemuatan dunia dan
+of.options.CHUNK_LOADING.tooltip.8=menambah BPD dengan menggunakan core CPU kedua.
+of.options.chunkLoading.smooth=Halus
+of.options.chunkLoading.multiCore=Multi-Core
+
+of.options.shaders=Shader...
+of.options.shadersTitle=Shader
+
+of.options.shaders.packNone=MATI
+of.options.shaders.packDefault=(internal)
+
+of.options.shaders.ANTIALIASING=Anti Alias
+of.options.shaders.ANTIALIASING.tooltip.1=Anti Alias
+of.options.shaders.ANTIALIASING.tooltip.2=  MATI - (asali) tak ada antialiasing (lebih cepat)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - anti alias garis dan pinggiran (lebih pelan)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA adalah efek pengolahan pasca yang menghaluskan
+of.options.shaders.ANTIALIASING.tooltip.5=garis bergerigi dan transisi warna tajam.
+of.options.shaders.ANTIALIASING.tooltip.6=Itu lebih cepat daripada anti alias tradisional
+of.options.shaders.ANTIALIASING.tooltip.7=dan kompatibel dengan shader.  
+
+of.options.shaders.NORMAL_MAP=Map Normal 
+of.options.shaders.NORMAL_MAP.tooltip.1=Map Normal 
+of.options.shaders.NORMAL_MAP.tooltip.2=  NYALA - (asali) memungkinan map normal 
+of.options.shaders.NORMAL_MAP.tooltip.3=  MATI - tidak memungkinkan map normal 
+of.options.shaders.NORMAL_MAP.tooltip.4=Map normal bisa digunakan dengan paket shader
+of.options.shaders.NORMAL_MAP.tooltip.5=untuk simulasikan geometri 3D pada bidang model datar.
+of.options.shaders.NORMAL_MAP.tooltip.6=Tekstur map nomrmal disuplai dengan
+of.options.shaders.NORMAL_MAP.tooltip.7=paket daya peladen saat ini.
+
+of.options.shaders.SPECULAR_MAP=Map Spekular 
+of.options.shaders.SPECULAR_MAP.tooltip.1=Map Spekular
+of.options.shaders.SPECULAR_MAP.tooltip.2=  NYALA - (asali) enable map spekulars
+of.options.shaders.SPECULAR_MAP.tooltip.3=  MATI - disable map spekulars
+of.options.shaders.SPECULAR_MAP.tooltip.4=Map spekular bisa digunakan dengan paket shader
+of.options.shaders.SPECULAR_MAP.tooltip.5=untuk simulasikan efek refleksi spesial.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Tekstur map spekular disuplai dengan
+of.options.shaders.SPECULAR_MAP.tooltip.7=paket daya peladen saat ini.
+
+of.options.shaders.RENDER_RES_MUL=Kualitas Render
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Kualitas Render
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - rendah (tercepat)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - standar (asali)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - tinggi (paling pelan)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Kualitas render mengontrol ukuran tekstur
+of.options.shaders.RENDER_RES_MUL.tooltip.6=yang dirender oleh paket shader.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Nilai lebih rendah berguna dengan tampilan 4K.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Nilai lebih tinggi berkerja sebagai filter anti alias.
+
+of.options.shaders.SHADOW_RES_MUL=Kualitas Bayangan
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Kualitas Bayangan
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - rendah (tercepat)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - standar (asali)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - tinggi (paling pelan)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Kualitas bayangan mengontrol ukuran tekstur 
+of.options.shaders.SHADOW_RES_MUL.tooltip.6= map bayangan digunakan dengan paket shader.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Nilai lebih rendah = bayangan tidak tepat, lebih kasar.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Higher values = bayangan lebih detail, lebih halus.
+
+of.options.shaders.HAND_DEPTH_MUL=Kedalaman Tangan
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Kedalaman Tangan
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - tangan di dekat kamera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (asali)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - tangan jauh dari kamera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Kedalaman tangan mengontrol kejauhan benda genggaman
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=dari kamera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Untuk paket shader menggunakan kedalaman pengaburan 
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=akan mengubah pengaburan objek genggaman.
+
+of.options.shaders.CLOUD_SHADOW=Bayangan Awan
+
+of.options.shaders.OLD_HAND_LIGHT=Cahaya Tangan Lama
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Cahaya Tangan Lama
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  asali - dikontrol dengan paket shader
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  NYALA - menggunakan cahaya tangan lama
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  MATI - menggunakan cahaya tangan baru
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Cahaya tangan lama membolehkan paket shader yang hanya
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=mengenali benda mengeluarkan cahaya di tangan utama
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=juga berkerja untuk benda di tangan kedua.
+
+of.options.shaders.OLD_LIGHTING=Pencahayaan Lama
+of.options.shaders.OLD_LIGHTING.tooltip.1=Pencahayaan Lama
+of.options.shaders.OLD_LIGHTING.tooltip.2=  asali - dikontrol dengan paket shader
+of.options.shaders.OLD_LIGHTING.tooltip.3=  NYALA - menggunakan pencahayaan lama
+of.options.shaders.OLD_LIGHTING.tooltip.4=  MATI - tidak menggunakan pencahayaan lama
+of.options.shaders.OLD_LIGHTING.tooltip.5=Pencahayaan lama mengontrol pencahayaan tetap yang diterapkan
+of.options.shaders.OLD_LIGHTING.tooltip.6=oleh vanilla ke sisi blok. 
+of.options.shaders.OLD_LIGHTING.tooltip.7=Paket Shader yang menggunakan bayangan biasanya menyediakan 
+of.options.shaders.OLD_LIGHTING.tooltip.8=pencahyaan yang lebih baik tergantung pada posisi matahari.
+
+of.options.shaders.DOWNLOAD=Unduh Shader
+of.options.shaders.DOWNLOAD.tooltip.1=Unduh Shader
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Membuka halaman paket shader di sebuah peramban.
+of.options.shaders.DOWNLOAD.tooltip.4=Taruh shader yang telah terunduh di "Folder Shader"
+of.options.shaders.DOWNLOAD.tooltip.5=dan mereka akan muncul di daftar shader terpasang.
+
+of.options.shaders.SHADER_PACK=Paket Shader
+
+of.options.shaders.shadersFolder=Folder Shader 
+of.options.shaders.shaderOptions=Opsi Shader...
+
+of.options.shaderOptionsTitle=Opsi Shader 
+
+of.options.quality=Kualitas...
+of.options.qualityTitle=Pengaturan Kualitas
+
+of.options.details=Detail...
+of.options.detailsTitle=Pengaturan Detail 
+
+of.options.performance=Performa...
+of.options.performanceTitle=Pengaturan Performa
+
+of.options.animations=Animasi...
+of.options.animationsTitle=Pengaturan Animasi
+
+of.options.other=Lainnya...
+of.options.otherTitle=Pengturan Lainnya
+
+of.options.other.reset=Reset Pengaturan Video...
+
+of.shaders.profile=Profil
+
+# Quality
+
+of.options.mipmap.bilinear=Bilinear
+of.options.mipmap.linear=Linier
+of.options.mipmap.nearest=Terdekat
+of.options.mipmap.trilinear=Trilinear
+
+options.mipmapLevels.tooltip.1=Efek visual yang membuat objek jauh terlihat bagus
+options.mipmapLevels.tooltip.2=dengan menghaluskan detail tekstur
+options.mipmapLevels.tooltip.3=  MATI - tak ada penghalusan
+options.mipmapLevels.tooltip.4=  1 - penghalusan minimum
+options.mipmapLevels.tooltip.5=  Maximum - penghalusan maksimum
+options.mipmapLevels.tooltip.6=Opsi ini biasanya tidak mempengaruhi performa.
+
+of.options.MIPMAP_TYPE=Tipe Mipmap
+of.options.MIPMAP_TYPE.tooltip.1=Efek visual yang membuat objek jauh terlihat bagus
+of.options.MIPMAP_TYPE.tooltip.2=dengan menghaluskan detail tekstur
+of.options.MIPMAP_TYPE.tooltip.3=  Nearest - penghalusan kasar (tercepat)
+of.options.MIPMAP_TYPE.tooltip.4=  Linear - penghalusan normal 
+of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - penghalusan baik
+of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - penghalusan terbaik (paling pelan)
+
+
+of.options.AA_LEVEL=Anti Alias
+of.options.AA_LEVEL.tooltip.1=Anti Alias
+of.options.AA_LEVEL.tooltip.2= MATI - (asali) tak ada anti alias (lebih cepat)
+of.options.AA_LEVEL.tooltip.3= 2-16 - anti alias garis dan pinggiran (lebih pelan)
+of.options.AA_LEVEL.tooltip.4=Anti Alias menghaluskan garis bergerigi dan
+of.options.AA_LEVEL.tooltip.5=transisi warna tajam.
+of.options.AA_LEVEL.tooltip.6=Saat dinyalakan bisa secara substasial mengurangi BPD.
+of.options.AA_LEVEL.tooltip.7=Tidak semua level didukung oleh semua kartu grafik.
+of.options.AA_LEVEL.tooltip.8=Efektif setelah MENJALANKAN ULANG PERMAINAN!
+
+of.options.AF_LEVEL=Penyaringan Anisotropik
+of.options.AF_LEVEL.tooltip.1=Penyaringan Anisotropik
+of.options.AF_LEVEL.tooltip.2= MATI - (asali) tekstur detail standar (lebih cepat)
+of.options.AF_LEVEL.tooltip.3= 2-16 - detail lebih halus di tekstur mipmap (lebih pelan)
+of.options.AF_LEVEL.tooltip.4=Penyaringan Anisotropik mengembalikan detail dalam
+of.options.AF_LEVEL.tooltip.5=tekstur mip map.
+of.options.AF_LEVEL.tooltip.6=Saat dinyalakan bisa secara substasial mengurangi BPD.
+
+of.options.CLEAR_WATER=Air Jernih
+of.options.CLEAR_WATER.tooltip.1=Air Jernih
+of.options.CLEAR_WATER.tooltip.2=  NYALA - air jernih dan transparan
+of.options.CLEAR_WATER.tooltip.3=  MATI - air biasa 
+
+of.options.RANDOM_ENTITIES=Entitas Acak
+of.options.RANDOM_ENTITIES.tooltip.1=Entitas Acak
+of.options.RANDOM_ENTITIES.tooltip.2=  MATI - tak ada entitas acak, lebih cepat
+of.options.RANDOM_ENTITIES.tooltip.3=  NYALA - entitas acak, lebih pelan
+of.options.RANDOM_ENTITIES.tooltip.4=Entitas acak menggunakan tekstur acak untuk entitas permainan.
+of.options.RANDOM_ENTITIES.tooltip.5=Perlu membutuhkan paket daya peladen yang mempunyai bebrapa tekstur entitas.
+
+of.options.BETTER_GRASS=Rumput Bagus
+of.options.BETTER_GRASS.tooltip.1=Rumput Bagus
+of.options.BETTER_GRASS.tooltip.2=  MATI - tekstur sisi rumput biasa, tercepat
+of.options.BETTER_GRASS.tooltip.3=  Cepat - tekstur sisi rumput penuh, lebih pelan
+of.options.BETTER_GRASS.tooltip.4=  Bagus - tekstur sisi rumput dinamis, paling pelan
+
+of.options.BETTER_SNOW=Salju Bagus
+of.options.BETTER_SNOW.tooltip.1=Salju Bagus
+of.options.BETTER_SNOW.tooltip.2=  MATI - salju biasa, lebih cepat
+of.options.BETTER_SNOW.tooltip.3=  NYALA - salju bagus, lebih pelan
+of.options.BETTER_SNOW.tooltip.4=Terlihat salju di bawah blok transparan (pagar, rumput tinggi)
+of.options.BETTER_SNOW.tooltip.5=saat berbatasan dengan blok salju.
+
+of.options.CUSTOM_FONTS=Font Kesukaan
+of.options.CUSTOM_FONTS.tooltip.1=Font Kesukaan
+of.options.CUSTOM_FONTS.tooltip.2=  NYALA - menggunakan font kesukaan (asali), lebih pelan
+of.options.CUSTOM_FONTS.tooltip.3=  MATI - menggunakan font biasa, lebih cepat
+of.options.CUSTOM_FONTS.tooltip.4=Font kesukaan disuplai oleh paket daya peladen
+of.options.CUSTOM_FONTS.tooltip.5=saat ini.
+
+of.options.CUSTOM_COLORS=Warna Kesukaan
+of.options.CUSTOM_COLORS.tooltip.1=Warna Kesuakaan
+of.options.CUSTOM_COLORS.tooltip.2=  NYALA - menggunakan warna kesukaan (asali), lebih pelan
+of.options.CUSTOM_COLORS.tooltip.3=  MATI - menggunakan warna biasa, lebih cepat
+of.options.CUSTOM_COLORS.tooltip.4=Warna kesukaan disuplai oleh paket daya peladen
+of.options.CUSTOM_COLORS.tooltip.5=saat ini.
+
+of.options.SWAMP_COLORS=Warna Rawa
+of.options.SWAMP_COLORS.tooltip.1=Warna Rawa
+of.options.SWAMP_COLORS.tooltip.2=  NYALA - menggunakan warna rawa (asali), lebih pelan
+of.options.SWAMP_COLORS.tooltip.3=  MATI - tidak menggunakan warna rawa, lebih cepat
+of.options.SWAMP_COLORS.tooltip.4=Warna rawa mengaruhi rumput, daun, tanaman merambat, dan air.
+
+of.options.SMOOTH_BIOMES=Bioma Halus
+of.options.SMOOTH_BIOMES.tooltip.1=Bioma Halus
+of.options.SMOOTH_BIOMES.tooltip.2=  NYALA - menghalus batasan bioma (asali), lebih pelan
+of.options.SMOOTH_BIOMES.tooltip.3=  MATI - tidak menghalus batasan bioma, lebih cepat
+of.options.SMOOTH_BIOMES.tooltip.4=Penghalusan batasan bioma dilakukan dengan cara sampling dan
+of.options.SMOOTH_BIOMES.tooltip.5=meratakan warna dari semua blok sekitarnya.
+of.options.SMOOTH_BIOMES.tooltip.6=Yang terpengaruh adalah rumput, daun, tanaman merambat, dan air.
+
+of.options.CONNECTED_TEXTURES=Tekstur Menyambung
+of.options.CONNECTED_TEXTURES.tooltip.1=Tekstur Menyambung
+of.options.CONNECTED_TEXTURES.tooltip.2=  MATI - tak ada tekstur menyambung (asali)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Fast - tekstur menyambung cepat
+of.options.CONNECTED_TEXTURES.tooltip.4=  Fancy - tekstur menyambung bagus
+of.options.CONNECTED_TEXTURES.tooltip.5=Tekstur menyambung menyambungkan tekstur kaca,
+of.options.CONNECTED_TEXTURES.tooltip.6=batu pasir dan rak buku ketika ditaruh 
+of.options.CONNECTED_TEXTURES.tooltip.7=bersebelahan. Tekstur menyambung disuplai
+of.options.CONNECTED_TEXTURES.tooltip.8=oleh paket daya peladen saat ini.
+
+of.options.NATURAL_TEXTURES=Tekstur Natural
+of.options.NATURAL_TEXTURES.tooltip.1=Tekstur Natural
+of.options.NATURAL_TEXTURES.tooltip.2=  MATI - tak ada tekstur natural (asali)
+of.options.NATURAL_TEXTURES.tooltip.3=  NYALA - menggunakan tekstur natural
+of.options.NATURAL_TEXTURES.tooltip.4=Tekstur natural menghapus pola seperti kotak-kotak
+of.options.NATURAL_TEXTURES.tooltip.5=yang dibuat dengan mengulang blok yang bertipe sama.
+of.options.NATURAL_TEXTURES.tooltip.6=Tekstur natural menggunakan varian tekstur blok dari dasar 
+of.options.NATURAL_TEXTURES.tooltip.7=yang terputar dan terbalik. Konfigurasi untuk tekstur 
+of.options.NATURAL_TEXTURES.tooltip.8=natural disuplai paket daya peladen saat ini.
+
+of.options.EMISSIVE_TEXTURES=Tekstur yang Memancar
+of.options.EMISSIVE_TEXTURES.tooltip.1=Tekstur yang Memancar
+of.options.EMISSIVE_TEXTURES.tooltip.2=  MATI - tak ada tekstur yang memancar (asali)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  NYALA - menggunakan tekstur yang memancar
+of.options.EMISSIVE_TEXTURES.tooltip.4=Tekstur yang memancar dirender sebagai lapisan
+of.options.EMISSIVE_TEXTURES.tooltip.5=dengan kecerahan penuh. Mereka bisa menggunakan itu untuk mensimulasikan
+of.options.EMISSIVE_TEXTURES.tooltip.6=cahaya memancarkan bagian dasar dari tekstur.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Tekstur yang memancar disuplai oleh paket daya
+of.options.EMISSIVE_TEXTURES.tooltip.8=peladen saat ini.
+
+of.options.CUSTOM_SKY=Langit Kesuakaan
+of.options.CUSTOM_SKY.tooltip.1=Langit Kesuakaan
+of.options.CUSTOM_SKY.tooltip.2=  NYALA - tekstur langit kesukaan (asali), pelan
+of.options.CUSTOM_SKY.tooltip.3=  MATI - langit biasa, lebih cepat
+of.options.CUSTOM_SKY.tooltip.4=Tekstur langit kesukaan disuplai oleh paket daya
+of.options.CUSTOM_SKY.tooltip.5=peladen saat ini.
+
+of.options.CUSTOM_ITEMS=Benda Kesukaan
+of.options.CUSTOM_ITEMS.tooltip.1=Benda Kesuakaan
+of.options.CUSTOM_ITEMS.tooltip.2=  NYALA - tekstur benda kesukaan (asali), pelan
+of.options.CUSTOM_ITEMS.tooltip.3=  MATI - tekstur benda asal, lebih cepat
+of.options.CUSTOM_ITEMS.tooltip.4=Tekstur benda kesukaan disuplai oleh paket daya
+of.options.CUSTOM_ITEMS.tooltip.5=peladen saat ini.
+
+of.options.CUSTOM_ENTITY_MODELS=Model Entitas Kesukaan
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Model Entitas	Kesuakaan
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  NYALA - model entitas kesukaan (asali), pelan
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  MATI - model entitas asal, lebih cepat
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Model entitas kesukaan disuplai oleh paket daya
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=peladen saat ini.
+
+of.options.CUSTOM_GUIS=GUI Kesukaan
+of.options.CUSTOM_GUIS.tooltip.1=GUI Kesuakaan
+of.options.CUSTOM_GUIS.tooltip.2=  NYALA - GUI kesukaan (asali), lebih pelan
+of.options.CUSTOM_GUIS.tooltip.3=  MATI - GUI asal, lebih cepat
+of.options.CUSTOM_GUIS.tooltip.4=GUI kesukaan disuplai oleh paket daya peladen saat ini.
+
+# Details
+
+of.options.CLOUDS=Awan
+of.options.CLOUDS.tooltip.1=Awan
+of.options.CLOUDS.tooltip.2=  Asali - sesuai dengan pengaturan Grafik
+of.options.CLOUDS.tooltip.3=  Cepat - kualitas lebih rendah, lebih cepat
+of.options.CLOUDS.tooltip.4=  Bagus - kualitas lebih tinggi, lebih pelan
+of.options.CLOUDS.tooltip.5=  MATI - tak ada awan, tercepat
+of.options.CLOUDS.tooltip.6=Awan cepat dirender 2D.
+of.options.CLOUDS.tooltip.7=Awan bagus dirender 3D.
+
+of.options.CLOUD_HEIGHT=Ketinggian Awan
+of.options.CLOUD_HEIGHT.tooltip.1=Ketinggian Awan
+of.options.CLOUD_HEIGHT.tooltip.2=  MATI - tinggi asal
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - diatas batasan ketinggian dunia
+
+of.options.TREES=Pohon
+of.options.TREES.tooltip.1=Pohon
+of.options.TREES.tooltip.2=  Asali - sesuai dengan pengaturan Grafik
+of.options.TREES.tooltip.3=  Cepat - kualitas lebih rendah, lebih cepat
+of.options.TREES.tooltip.4=  Pintar - kualitas lebih tinggi, cepat
+of.options.TREES.tooltip.5=  Bagus - kualitas tertinggi, lebih pelan
+of.options.TREES.tooltip.6=Pohon cepat mempunyai daun buram.
+of.options.TREES.tooltip.7=Pohon bagus dan pintar mempunyai daun transparan.
+
+of.options.RAIN=Hujan & Salju
+of.options.RAIN.tooltip.1=Hujan & Salju
+of.options.RAIN.tooltip.2=  Asali - sesuai dengan pengaturan Grafik
+of.options.RAIN.tooltip.3=  Fast  - hujan/salju ringan, lebih cepat
+of.options.RAIN.tooltip.4=  Fancy - hujan/salju berat, lebih pelan
+of.options.RAIN.tooltip.5=  MATI - tak ada hujan/salju, tercepat
+of.options.RAIN.tooltip.6=Ketika hujan MATI percikan dan suara hujan
+of.options.RAIN.tooltip.7=tetap aktif.
+
+of.options.SKY=Langit
+of.options.SKY.tooltip.1=Langit
+of.options.SKY.tooltip.2=  NYALA - langit terlihat, lebih pelan
+of.options.SKY.tooltip.3=  MATI  - langit tak terlihat, lebih cepat
+of.options.SKY.tooltip.4=Ketika langit MATI bulan dan matahari tetap terlihat
+
+of.options.STARS=Bintang
+of.options.STARS.tooltip.1=Bintang
+of.options.STARS.tooltip.2=  NYALA - bintang terlihat, lebih pelan
+of.options.STARS.tooltip.3=  MATI  - bintang tak terlihat, lebih cepat
+
+of.options.SUN_MOON=Matahari & Bulan
+of.options.SUN_MOON.tooltip.1=Matahari & Bulan
+of.options.SUN_MOON.tooltip.2=  NYALA - matahari dan bulan terlihat (asali)
+of.options.SUN_MOON.tooltip.3=  MATI  - matahari dan bulan tak terlihat (lebih cepat)
+
+of.options.SHOW_CAPES=Lihatkan Jubah 
+of.options.SHOW_CAPES.tooltip.1=Lihatkan Jubah
+of.options.SHOW_CAPES.tooltip.2=  NYALA - jubah pemain terlihat (asali)
+of.options.SHOW_CAPES.tooltip.3=  MATI - jubah pemain tak terlihat
+
+of.options.TRANSLUCENT_BLOCKS=Blok Tembus Cahaya
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Blok Tembus Cahaya
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Asali - sesuai dengan pengaturan Grafik
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Bagus - pecampuran warna benar (lebih pelan)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Cepat - pecampuran warna cepat (lebih cepat)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Mengontrol pecampuran warna blok tembus cahaya
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=dengan warna berbeda (kaca berwarna, air, es)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=ketika menaruh dibelakang satu sama lain dengan udara diantaranya.
+
+of.options.HELD_ITEM_TOOLTIPS=Tips Alat Dipegang
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Tips Alat Dipegang
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  NYALA - menunjuk tips alat untuk benda dipegang (asali)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  MATI - tidak menunjuk tips alat untuk benda dipegang
+
+of.options.ADVANCED_TOOLTIPS=Tips Alat Lanjutan
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Tips Alat Lanjutan
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  NYALA - menunjuk tips alat lanjutan
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  MATI - tidak menunjuk tips alat lanjutan (asali)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Tips alat lanjutan menunjukan informasi tambahan untuk
+of.options.ADVANCED_TOOLTIPS.tooltip.5=benda (id, durabilitas) dan untuk opsi shader
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, sumber, nilai asal).
+
+of.options.DROPPED_ITEMS=Benda Dijatuhkan
+of.options.DROPPED_ITEMS.tooltip.1=Benda Dijatuhkan
+of.options.DROPPED_ITEMS.tooltip.2=  Asali - sesuai dengan pengaturan Grafik
+of.options.DROPPED_ITEMS.tooltip.3=  Cepat - benda dijatuhkan 2D (lebih cepat)
+of.options.DROPPED_ITEMS.tooltip.4=  Bagus - benda dijatuhkan 3D (lebih pelan)
+
+options.entityShadows.tooltip.1=Bayangan Entitas
+options.entityShadows.tooltip.2=  NYALA - menunjukan bayangan entitas
+options.entityShadows.tooltip.3=  MATI - tidak menunjukan bayangan entitas
+
+of.options.VIGNETTE=Vignette
+of.options.VIGNETTE.tooltip.1=Efek visual yang menggelapkan di tepian layar
+of.options.VIGNETTE.tooltip.2=  Asali - sesuai dengan pengaturan Grafik (asali)
+of.options.VIGNETTE.tooltip.3=  Cepat - vignette dimatikan (lebih cepat)
+of.options.VIGNETTE.tooltip.4=  Bagus - vignette nyala (lebih pelan)
+of.options.VIGNETTE.tooltip.5=Vignette mungkin mempunyai efek signifikan pada BPD,
+of.options.VIGNETTE.tooltip.6=terutama saat main di layar penuh.
+of.options.VIGNETTE.tooltip.7=Efek vignette sangat tak disadar dan bisa
+of.options.VIGNETTE.tooltip.8=dimatikan dengan aman.
+
+of.options.DYNAMIC_FOV=Bidang Pandang Dinamis
+of.options.DYNAMIC_FOV.tooltip.1=Bidang Pandang Dinamis
+of.options.DYNAMIC_FOV.tooltip.2=  NYALA - menyalakan bidang pandang dinamis (asali)
+of.options.DYNAMIC_FOV.tooltip.3=  MATI - mematikan bidang pandang dinamis
+of.options.DYNAMIC_FOV.tooltip.4=Merubah bidang pandang saat terbang, berlari
+of.options.DYNAMIC_FOV.tooltip.5=atau menarik busur.
+
+of.options.DYNAMIC_LIGHTS=Cahaya Dinamis
+of.options.DYNAMIC_LIGHTS.tooltip.1=Cahaya Dinamis
+of.options.DYNAMIC_LIGHTS.tooltip.2=  MATI - tak ada cahaya dinamis (asali)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Cepat - cahaya dinamis cepat (diperbarui setiap 500md)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Bagus - cahaya dinamis bagud (diperbarui setiap saat)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Membuat benda memancar cahaya (obor, batu bersinar, dll.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=untuk menerangi sekitar saat dipegang,
+of.options.DYNAMIC_LIGHTS.tooltip.7=dipegang oleh pemain lain atau dijatukan ke tanah.
+
+options.biomeBlendRadius.tooltip.1=Menghaluskan warna transisi antar bioma
+options.biomeBlendRadius.tooltip.2=  MATI - tak ada campuran (tercepat)
+options.biomeBlendRadius.tooltip.3=  5x5 - campuran normal (asali)
+options.biomeBlendRadius.tooltip.4=  15x15 - campuran maksimal (paling pelan)
+options.biomeBlendRadius.tooltip.5=Nilai lebih tinggi bisa menghasilkan lonjatan lag signifikan
+options.biomeBlendRadius.tooltip.6=dan memperlambat kecepatan pemuatan bingkah.
+
+# Performance
+
+of.options.SMOOTH_FPS=BPD halus
+of.options.SMOOTH_FPS.tooltip.1=Menstabilkan BPD dengan membilas penyangga driver grafik.
+of.options.SMOOTH_FPS.tooltip.2=  MATI - tak ada stabilisasi, BPD bisa fluktuasi
+of.options.SMOOTH_FPS.tooltip.3=  NYALA - BPD distabilisasi
+of.options.SMOOTH_FPS.tooltip.4=Opsi ini bergantung pada driver grafik dan efeknya
+of.options.SMOOTH_FPS.tooltip.5=tidak selalu terlihat.
+
+of.options.SMOOTH_WORLD=Dunia Halus
+of.options.SMOOTH_WORLD.tooltip.1=Menghilangkan lonjakan lag yang disebabkan oleh server internal.
+of.options.SMOOTH_WORLD.tooltip.2=  MATI - tak ada stabilisasi, BPD bisa fluktuasi
+of.options.SMOOTH_WORLD.tooltip.3=  NYALA - BPD distabilisasi
+of.options.SMOOTH_WORLD.tooltip.4=Menstabilkan BPD dengan mendistribusikan beban server internal.
+of.options.SMOOTH_WORLD.tooltip.5=Efektif hanya untuk dunia lokal (bermain sendiri).
+
+of.options.FAST_RENDER=Render Cepat
+of.options.FAST_RENDER.tooltip.1=Render Cepat
+of.options.FAST_RENDER.tooltip.2= MATI - render standar (asali)
+of.options.FAST_RENDER.tooltip.3= NYALA - render optimal (lebih cepat)
+of.options.FAST_RENDER.tooltip.4=Gunakan algoritma render optimal yang mengurangi
+of.options.FAST_RENDER.tooltip.5=beban CPU dan bisa meningkatkan BPD secara substasial.
+of.options.FAST_RENDER.tooltip.6=Opsi ini bisa menyebabkan konflike dengan beberapa mods.
+
+of.options.FAST_MATH=Matematika Cepat
+of.options.FAST_MATH.tooltip.1=Matematika Cepat
+of.options.FAST_MATH.tooltip.2= MATI - matematika standar (asali)
+of.options.FAST_MATH.tooltip.3= NYALA - matematika lebih cepat
+of.options.FAST_MATH.tooltip.4=Menggunakan fungsi sin() dan cos() yang optimal yang 
+of.options.FAST_MATH.tooltip.5=bisa memanfaatkan cache CPU dengan lebih baik dan meningkatkan BPD.
+of.options.FAST_MATH.tooltip.6=Opsi ini bisa mempengaruhi regenerasi dunia secara minimal.
+
+of.options.CHUNK_UPDATES=Pembaruan Bingkah
+of.options.CHUNK_UPDATES.tooltip.1=Pembaruan Bingkah
+of.options.CHUNK_UPDATES.tooltip.2= 1 - pemuatan dunia lebih pelan, BPD lebih tinggi (asali)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - pemuatan dunia lebih cepat, BPD lebih rendah
+of.options.CHUNK_UPDATES.tooltip.4= 5 - pemuatan dunia tercepat, BPD terendah 
+of.options.CHUNK_UPDATES.tooltip.5=Jumlah pembaruan bingkah per bingkai yang dirender,
+of.options.CHUNK_UPDATES.tooltip.6=nilai lebih tinggi bisa membuat kecepatan bingkai tidak stabil.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Pembaruan Dinamis 
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Pembaruan bingkah dinamis
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= MATI - pembaruan bingkah per bingkai yang standar (asali)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= NYALA - lebih banyak pembaruan saat pemain tidak bergerak
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Pembaruan dinamis memaksa lebih banyak pembaruan bingkah saat
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=pemain tidak bergerak untuk memuat dunia lebih cepat.
+
+of.options.LAZY_CHUNK_LOADING=Pemuatan Bingkah Malas
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Pemuatan Bingkah Malas
+of.options.LAZY_CHUNK_LOADING.tooltip.2= MATI - pemuatan bingkah server biasa
+of.options.LAZY_CHUNK_LOADING.tooltip.3= NYALA - pemuatan bingkah server malas (smoother)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Menghaluskan pemuatan bingkah server terintegrasi dengan
+of.options.LAZY_CHUNK_LOADING.tooltip.5=mendistribusikan bingkah selama beberapa tick.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Buatlah ke MATI jika bagian di dunia tidak memuat dengan benar.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektif hanya untuk dunia lokal (bermain sendiri).
+
+of.options.RENDER_REGIONS=Render Wilayah
+of.options.RENDER_REGIONS.tooltip.1=Render Wilayah
+of.options.RENDER_REGIONS.tooltip.2= MATI - render vanilla (asali)
+of.options.RENDER_REGIONS.tooltip.3= NYALA - menggunakan render wilayah (lebih cepat)
+of.options.RENDER_REGIONS.tooltip.4=Membuat render lahan lebih cepat dengan mengoptimalkan
+of.options.RENDER_REGIONS.tooltip.5=beban GPU. Lebih efektif di jarak pandah lebih jauh.  
+of.options.RENDER_REGIONS.tooltip.6=Tidak direkomendasikan untuk kartu grafik terintegrasi.
+
+of.options.SMART_ANIMATIONS=Animasi Pintar
+of.options.SMART_ANIMATIONS.tooltip.1=Animasi Pintar
+of.options.SMART_ANIMATIONS.tooltip.2= MATI - tidak menggunakan animasi pintar (asali)
+of.options.SMART_ANIMATIONS.tooltip.3= NYALA - menggunakan animasi pintar (lebih cepat)
+of.options.SMART_ANIMATIONS.tooltip.4=Permainan akan menganimasikan tekstur yang saat ini
+of.options.SMART_ANIMATIONS.tooltip.5=terlihat di layar dengan animasi pintar.
+of.options.SMART_ANIMATIONS.tooltip.6=Ini mengurangi lonjakan lag tick dan meningkatkan BPD.
+of.options.SMART_ANIMATIONS.tooltip.7=Terutama berguna untuk paket mod besar dan paket daya peladen HD.
+
+# Animations
+
+of.options.animation.allOn=Semua NYALA
+of.options.animation.allOff=Semua MATI
+of.options.animation.dynamic=Dinamis
+
+of.options.ANIMATED_WATER=Animasi Air
+of.options.ANIMATED_LAVA=Animasi Lava 
+of.options.ANIMATED_FIRE=Animasi Api
+of.options.ANIMATED_PORTAL=Animasi Portal 
+of.options.ANIMATED_REDSTONE=Animasi Batu Merah 
+of.options.ANIMATED_EXPLOSION=Animasi Ledakan 
+of.options.ANIMATED_FLAME=Animasi Lidah Api
+of.options.ANIMATED_SMOKE=Animasi Asap
+of.options.VOID_PARTICLES=Partikel Hampa
+of.options.WATER_PARTICLES=Partikel Air
+of.options.RAIN_SPLASH=Percikan Hujan
+of.options.PORTAL_PARTICLES=Partikel Portal
+of.options.POTION_PARTICLES=Partikel Ramuan
+of.options.DRIPPING_WATER_LAVA=Air/Lava Menetes
+of.options.ANIMATED_TERRAIN=Animasi Lahan
+of.options.ANIMATED_TEXTURES=Animasi Tekstur
+of.options.FIREWORK_PARTICLES=Partikel Kembang Api
+
+# Other
+
+of.options.LAGOMETER=Lagometer
+of.options.LAGOMETER.tooltip.1=Menampilkan lagometer di layar awakutu (F3).
+of.options.LAGOMETER.tooltip.2=* Oren - pengumpulan sampah memori
+of.options.LAGOMETER.tooltip.3=* Cyan - Tick
+of.options.LAGOMETER.tooltip.4=* Blue - Jadwal eksekusi
+of.options.LAGOMETER.tooltip.5=* Purple - Unggah bingkah 
+of.options.LAGOMETER.tooltip.6=* Red - Pembaruan bingkah
+of.options.LAGOMETER.tooltip.7=* Yellow - Mengecek visibilitas
+of.options.LAGOMETER.tooltip.8=* Green - Render lahan 
+
+of.options.PROFILER=Profiler Awakutu
+of.options.PROFILER.tooltip.1=Profiler Awakutu
+of.options.PROFILER.tooltip.2=  NYALA - profiler awakutu nyala, lebih pelan
+of.options.PROFILER.tooltip.3=  MATI - profiler awakutu tidak nyala, lebih cepat
+of.options.PROFILER.tooltip.4=Profiler awakutu mengoleksi dan melihat informasi awakutu
+of.options.PROFILER.tooltip.5=saat layar awakutu terbuka (F3).
+
+of.options.WEATHER=Cuaca
+of.options.WEATHER.tooltip.1=Cuaca
+of.options.WEATHER.tooltip.2=  NYALA - cuaca nyala, lebih pelan
+of.options.WEATHER.tooltip.3=  MATI - cuaca tidak nyala, lebih cepat
+of.options.WEATHER.tooltip.4=Cuaca mengontrol hujan, salju, dan hujan badai.
+of.options.WEATHER.tooltip.5=Kontrol cuaca hanya bisa untuk dunia lokal.
+
+of.options.time.dayOnly=Siang Saja
+of.options.time.nightOnly=Malam Saja
+
+of.options.TIME=Waktu
+of.options.TIME.tooltip.1=Waktu
+of.options.TIME.tooltip.2= Asali - siklus siang/malam normal
+of.options.TIME.tooltip.3= Hanya Siang - hanya siang 
+of.options.TIME.tooltip.4= Hanya Malam - hanya malam
+of.options.TIME.tooltip.5=Pengaturan waktu hanya efektif di mode KREATIF
+of.options.TIME.tooltip.6=dan untuk dunia lokal.
+
+options.fullscreen.tooltip.1=Layar Penuh
+options.fullscreen.tooltip.2=  NYALA - menggunakan mode layar penuh
+options.fullscreen.tooltip.3=  MATI - menggunakan mode window
+options.fullscreen.tooltip.4=Mode layar penuh  bisa lebih cepat atau lebih pelan daripada
+options.fullscreen.tooltip.5=mode window, tergantung kartu grafik.
+
+options.fullscreen.resolution=Mode Layar Penuh
+options.fullscreen.resolution.tooltip.1=Mode Layar Penuh
+options.fullscreen.resolution.tooltip.2=  Asali - menggunakan resolusi layar desktop, lebih pelan
+options.fullscreen.resolution.tooltip.3=  LxT - menggunakan resolusi layar kesukaan, mungkin lebih cepat
+options.fullscreen.resolution.tooltip.4=Resolusi terpilih digunakan di mode layar penuh (F11).
+options.fullscreen.resolution.tooltip.5=Resolusi lebih rendah biasanya lebih cepat.
+
+of.options.SHOW_FPS=Tunjukan BPD
+of.options.SHOW_FPS.tooltip.1=Mwnunjukan informasi BPD dan render kompak.
+of.options.SHOW_FPS.tooltip.2=  Bpd - rata-rata/minimum
+of.options.SHOW_FPS.tooltip.3=  B: - render bingkai 
+of.options.SHOW_FPS.tooltip.4=  E: - render entitas + entitas blok
+of.options.SHOW_FPS.tooltip.5=  P: - pembaruan bingkah
+of.options.SHOW_FPS.tooltip.6=Informasi BPD kompak hanya ditunjuk saat 
+of.options.SHOW_FPS.tooltip.7=layar awakutu tidak terlihat.
+
+of.options.save.45s=45d
+of.options.save.90s=90d
+of.options.save.3min=3mnt
+of.options.save.6min=6mnt
+of.options.save.12min=12mnt
+of.options.save.24min=24mnt
+
+of.options.AUTOSAVE_TICKS=Penyimpanan Otomatis
+of.options.AUTOSAVE_TICKS.tooltip.1=Interval Penyimpanan Otomatis
+of.options.AUTOSAVE_TICKS.tooltip.2= 45d - asali
+of.options.AUTOSAVE_TICKS.tooltip.3=Penyimpanan otomatis bisa membuat lonjakan lag tergantung pada jarak pandang.
+of.options.AUTOSAVE_TICKS.tooltip.4=Dunia juga disimpan saat permainan menu dibuka.
+
+of.options.SCREENSHOT_SIZE=Ukuran Tangkap Layar
+of.options.SCREENSHOT_SIZE.tooltip.1=Ukuran Tangkap Layar
+of.options.SCREENSHOT_SIZE.tooltip.2=  Asali - ukuran tangkap biasa
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - ukuran tangkap layar kesukaan
+of.options.SCREENSHOT_SIZE.tooltip.4=Menangkap tangkap layar lebih besar membutuhkan memori lebih banyak.
+of.options.SCREENSHOT_SIZE.tooltip.5=Tidak kompatibel dengan anti alias.
+of.options.SCREENSHOT_SIZE.tooltip.6=Memperlukan dukungan framebuffer GPU .
+
+of.options.SHOW_GL_ERRORS=Tunjukan Eror OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.1=Tunjukan Eror OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.2=Saat dinyalakan eror-eror OpenGL ditunjukan di obrolan.
+of.options.SHOW_GL_ERRORS.tooltip.3=Matikan tunjukan eror OpenGL hanya jika ada konflik yang diketahui dan
+of.options.SHOW_GL_ERRORS.tooltip.4=eror tidak bisa dibetulkan.
+of.options.SHOW_GL_ERRORS.tooltip.5=Eror-eror tetap masuk dalam error log dan mungkin masih 
+of.options.SHOW_GL_ERRORS.tooltip.6=menyebabkan BPD jatuh secara signifikan saat dimatikan eror. 
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Latar Belakang Obrolan
+of.options.CHAT_BACKGROUND.tooltip.1=Latar Belakang Obrolan
+of.options.CHAT_BACKGROUND.tooltip.2=  Asali - membetulkan lebar
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompak - menyamakan lebar baris
+of.options.CHAT_BACKGROUND.tooltip.4=  MATI - tersembunyi
+
+of.options.CHAT_SHADOW=Bayangan Obrolan
+of.options.CHAT_SHADOW.tooltip.1=Bayangan Obrolan
+of.options.CHAT_SHADOW.tooltip.2=  NYALA - menggunakan bayangan teks
+of.options.CHAT_SHADOW.tooltip.3=  MATI - tidak menggunakan bayangan teks

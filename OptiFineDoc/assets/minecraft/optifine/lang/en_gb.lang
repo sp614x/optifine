@@ -6,7 +6,7 @@ options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colo
 
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=recognise light emitting items in the main hand 
 
-of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = inexact, coarser shadows
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Lower values = inexact, coarser shadows.
 
 # Quality
 
@@ -17,7 +17,6 @@ of.options.CUSTOM_COLORS.tooltip.1=Custom Colours
 of.options.CUSTOM_COLORS.tooltip.2=  ON - uses custom colours (default), slower
 of.options.CUSTOM_COLORS.tooltip.3=  OFF - uses default colours, faster
 of.options.CUSTOM_COLORS.tooltip.4=The custom colours are supplied by the current
-of.options.CUSTOM_COLORS.tooltip.5=resource pack
 
 of.options.SWAMP_COLORS=Swamp Colours
 of.options.SWAMP_COLORS.tooltip.1=Swamp Colours
@@ -29,10 +28,12 @@ of.options.SMOOTH_BIOMES.tooltip.5=averaging the colour of all surrounding block
 
 # Details
 
-of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Fancy - correct colour blending (default)
-of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Fast - fast colour blending (faster)
-of.options.TRANSLUCENT_BLOCKS.tooltip.4=Controls the colour blending of translucent blocks
-of.options.TRANSLUCENT_BLOCKS.tooltip.5=with different colour (stained glass, water, ice)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Fancy - correct colour blending (slower)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Fast - fast colour blending (faster)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Controls the colour blending of translucent blocks
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=with different colour (stained glass, water, ice)
+
+options.biomeBlendRadius.tooltip.1=Smooths the colour transition between biomes
 
 # Performance
 
@@ -55,3 +56,5 @@ of.options.FAST_MATH.tooltip.4=Uses optimised sin() and cos() functions which ca
 of.options.FAST_MATH.tooltip.5=better utilise the CPU cache and increase the FPS.
 
 of.options.CHUNK_UPDATES.tooltip.6=higher values may destabilise the framerate.
+
+of.options.RENDER_REGIONS.tooltip.4=Allows faster terrain rendering by optimising

@@ -1,0 +1,774 @@
+# Translated by Saikkimus (tappaja666)
+
+# Yleiset
+of.general.ambiguous=epäselvä
+of.general.compact=Kompakti
+of.general.custom=Mukautettu
+of.general.from=Käyttää
+of.general.id=Tunniste
+of.general.max=Maksimi
+of.general.restart=käynnistä uudelleen
+of.general.smart=Älykäs
+
+# Näppäimet
+of.key.zoom=Zoomi
+
+# Viestit
+of.message.aa.shaders1=Reunanpehmennys ei ole yhteensopiva shadereiden kanssa.
+of.message.aa.shaders2=Poista shaderit käytöstä, jotta voit käyttää tätä asetusta.
+
+of.message.af.shaders1=Anisotrooppinen suodatus ei ole yhteensopiva shadereiden kanssa.
+of.message.af.shaders2=Poista shaderit käytöstä, jotta voit käyttää tätä asetusta.
+
+of.message.fr.shaders1=Nopea piirto ei ole yhteensopiva shadereiden kanssa.
+of.message.fr.shaders2=Poista shaderit käytöstä, jotta voit käyttää tätä asetusta.
+
+of.message.an.shaders1=Stereoskooppinen 3D ei ole yhteensopiva shadereiden kanssa.
+of.message.an.shaders2=Poista shaderit käytöstä, jotta voit käyttää tätä asetusta.
+
+of.message.shaders.aa1=Shaderit eivät ole yhteensopivia reunanpehmennyksen kanssa.
+of.message.shaders.aa2=Mene laatuasetuksiin ja laita reunanpehmennys pois päältä. Käynnistä sitten peli uudelleen.
+
+of.message.shaders.af1=Shaderit eivät ole yhteensopivia reunanpehmennyksen kanssa.
+of.message.shaders.af2=Mene laatuasetuksiin ja laita reunanpehmennys pois päältä.
+
+of.message.shaders.fr1=Shaderit eivät ole yhteensopivia nopean piirron kanssa.
+of.message.shaders.fr2=Mene suorituskykyasetuksiin ja laita nopea piirto pois päältä.
+
+of.message.shaders.gf1=Shaderit eivät ole yhteensopivia upeiden grafiikoiden kanssa.
+of.message.shaders.gf2=Vaihda grafiikat nopeaksi tai hienoksi.
+
+of.message.shaders.an1=Shaderit eivät ole yhteensopivia stereoskooppisen 3d:n kanssa.
+of.message.shaders.an2=Mene muutasetuksiin ja laita stereoskooppinen 3d pois päältä.
+
+of.message.shaders.nv1=Tämä shader-paketti vaatii uudemman OptiFine-version: %s
+of.message.shaders.nv2=Oletko varma, että haluat jatkaa?
+
+of.message.newVersion=Uusi §eOptiFine§f-versio on saatavilla: §e§s§f
+of.message.java64Bit=Voit asentaa §e64-bittisen -Javan nostaaksesi pelin suorituskykyä.
+of.message.openglError=§eOpenGL-virhe§f: %s (%s)
+
+of.message.shaders.loading=Ladataan shadereita: %s
+
+of.message.other.reset=Palauta kaikki videoasetukset oletuksille?
+
+of.message.loadingVisibleChunks=Ladataan näkyviä lohkoja
+
+# Skinin-mukautus
+
+of.options.skinCustomisation.ofCape=OptiFine-viitta...
+
+of.options.capeOF.title=OptiFine-viitta
+of.options.capeOF.openEditor=Avaa viitan muokkaus
+of.options.capeOF.reloadCape=Uudelleenlataa viitta
+of.options.capeOF.copyEditorLink=Kopioi linkki leikepöydälle
+
+of.message.capeOF.openEditor=OptiFine-viitan muokkauksen pitäisi avautua nettiselaimessa.
+of.message.capeOF.openEditorError=Viitan muokkauksen avaamisessa tapahtui virhe.
+of.message.capeOF.reloadCape=Viitta ladataan uudelleen 15:ssa sekunnissa.
+
+of.message.capeOF.error1=Mojang-todennus epäonnistui.
+of.message.capeOF.error2=Virhe: %s
+
+# Videoasetukset
+
+options.graphics.tooltip.1=Visuaalinenlaatu
+options.graphics.tooltip.2=  Nopea - matalampi laatu, nopeampi
+options.graphics.tooltip.3=  Hieno - korkeampi laatu, hitaampi
+options.graphics.tooltip.4=  Upea - paremmat läpikuultavat objektit, hitain
+options.graphics.tooltip.5=Vaihtaa pilvien, lehtien, veden,
+options.graphics.tooltip.6=varjojen ja ruohon sivujen ulkonäköä.
+options.graphics.tooltip.7=Upea-grafiikat eivät ole yhteensopivia shadereiden kanssa.
+
+of.options.renderDistance.tiny=Pieni
+of.options.renderDistance.short=Lyhyt
+of.options.renderDistance.normal=Keskipitkä
+of.options.renderDistance.far=Pitkä
+of.options.renderDistance.extreme=Äärimmäinen
+of.options.renderDistance.insane=Hullu
+of.options.renderDistance.ludicrous=Älytön
+
+options.renderDistance.tooltip.1=Näköetäisyys
+options.renderDistance.tooltip.2=  2 Pieni - 32m (nopein)
+options.renderDistance.tooltip.3=  8 Keskipitkä - 128m (normaali)
+options.renderDistance.tooltip.4=  16 Pitkä - 256m (hidas)
+options.renderDistance.tooltip.5=  32 Äärimmäinen - 512m (hitain!) erittäinen paljon resursseja kuluttava
+options.renderDistance.tooltip.6=  48 Hullu - 768m, vaati 2gt välimuistia varattuna
+options.renderDistance.tooltip.7=  64 Älytön - 1024m, vaati 3gt välimuistia varattuna
+options.renderDistance.tooltip.8=Luvut 16 tai isommat toimivat vain paikallisissa maailmoissa.
+
+options.entityDistanceScaling.tooltip.1=Kohteen etäisyys
+options.entityDistanceScaling.tooltip.2=  50%% - nopeampi
+options.entityDistanceScaling.tooltip.3=  100%% - oletus
+options.entityDistanceScaling.tooltip.4=  500%% - hitaampi
+options.entityDistanceScaling.tooltip.5=Muuttaa maksimietäisyyttä, jolta oliot näytetään.
+
+options.ao.tooltip.1=Pehmeä valaistus
+options.ao.tooltip.2=  Pois - ei pehmeää valaistusta (nopeampi)
+options.ao.tooltip.3=  Minimi - yksinkertainen pehmeä valaistus (hitaampi)
+options.ao.tooltip.4=  Maksimi - monimutkainen pehmeä valaistus (hitain)
+
+options.framerateLimit.tooltip.1=Maksimikuvataajuus
+options.framerateLimit.tooltip.2=  VSync - rajoita näytön kuvataajuuteen (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - muuttuva
+options.framerateLimit.tooltip.4=  Rajaton - ei rajoitusta (nopein)
+options.framerateLimit.tooltip.5=Kuvataajuusrajoitin vähentää kuvataajuutta vaikka
+options.framerateLimit.tooltip.6=rajoitusta ei saavuteta.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Pehmeän valaistuksen taso
+of.options.AO_LEVEL.tooltip.1=Pehmeän valaistuksen taso
+of.options.AO_LEVEL.tooltip.2=  Pois - ei varjoja
+of.options.AO_LEVEL.tooltip.3=  50%% - vaaleat varjot
+of.options.AO_LEVEL.tooltip.4=  100%% - tummat varjot
+
+options.viewBobbing.tooltip.1=Aidompi liike.
+options.viewBobbing.tooltip.2=Jos käytät mipmapseja, laita tämä pois päältä saadaksesi parhaimman tuloksen.
+
+options.guiScale.tooltip.1=Valikon koko
+options.guiScale.tooltip.2=  Auto - maksimi koko
+options.guiScale.tooltip.3=  Pieni, keskikokoinen, suuri - 1x:stä 3x:n
+options.guiScale.tooltip.4=  4x:stä 10x:n - saatavilla 4k-näytöillä
+options.guiScale.tooltip.5=Oudot luvut (1x, 3x, 5x ...) eivät ole yhteensopivia Unicoden kanssa.
+options.guiScale.tooltip.6=Pienempi valikko saattaa olla nopeampi.
+
+options.vbo=Käytä VBO:ita
+options.vbo.tooltip.1=Vertex-puskuriobjektit
+options.vbo.tooltip.2=Käyttää toissijaista piirtotapaa, joka on yleensä
+options.vbo.tooltip.3=5-10%% nopeampi kuin oletus piirtotapa.
+
+options.gamma.tooltip.1=Vaihtaa tummien objekteiden valoisuutta.
+options.gamma.tooltip.2=  Tunnelmallinen - standardi kirkkaus
+options.gamma.tooltip.3=  1-99%% - muuttuva
+options.gamma.tooltip.4=  Kirkas - maksimi kirkkaus tummille objekteille
+options.gamma.tooltip.5=Tämä asetus ei vaihda täysin tummien
+options.gamma.tooltip.6=objekteiden kirkkautta.
+
+options.anaglyph.tooltip.1=Stereoskooppinen 3d
+options.anaglyph.tooltip.2=Ottaa käyttään stereoskooppisen 3d efektin käyttäen eri värejä
+options.anaglyph.tooltip.3=eri silmille.
+options.anaglyph.tooltip.4=Vaati puna-syaani lasit, kunnolliselle katselulle.
+
+options.attackIndicator.tooltip.1=Määrittää hyökkäysilmaisimen sijainnin.
+options.attackIndicator.tooltip.2=  Tähtäin - tähtäimen alapuolella
+options.attackIndicator.tooltip.3=  Pikapalkki - pikapalkin vieressä
+options.attackIndicator.tooltip.4=  Pois - ei hyökkäysilmaisinta
+options.attackIndicator.tooltip.5=Hyökkäysilmaisin näyttää pitämäsi
+options.attackIndicator.tooltip.6=tavaran hyökkäysvahvuuden.
+
+of.options.ALTERNATE_BLOCKS=Toissijaiset kuutiot
+of.options.ALTERNATE_BLOCKS.tooltip.1=Toissijaiset kuutiot
+of.options.ALTERNATE_BLOCKS.tooltip.2=Käyttää toissijaisia kuutiomalleja joillekkin kuutiolle.
+of.options.ALTERNATE_BLOCKS.tooltip.3=Riippuu valitusta resurssipaketista.
+
+of.options.FOG_FANCY=Sumu
+of.options.FOG_FANCY.tooltip.1=Sumun tyyppi
+of.options.FOG_FANCY.tooltip.2=  Nopea - nopeampi sumu
+of.options.FOG_FANCY.tooltip.3=  Hieno - hitaampi sumu, näyttää paremmalta
+of.options.FOG_FANCY.tooltip.4=  Pois - ei sumua, nopein
+of.options.FOG_FANCY.tooltip.5=Hieno sumu on saatavilla vain jos
+of.options.FOG_FANCY.tooltip.6=näytönohjaimesi tukee sitä.
+
+of.options.FOG_START=Sumun alkaminen
+of.options.FOG_START.tooltip.1=Sumun alkaminen
+of.options.FOG_START.tooltip.2=  0.2 - sumu alkaa pelaajan lähellä
+of.options.FOG_START.tooltip.3=  0.8 - sumu alkaa kaukana pelaajasta
+of.options.FOG_START.tooltip.4=Tämä asetus ei yleensä vaikuta suorituskykyyn.
+
+of.options.CHUNK_LOADING=Lohkojen lataaminen
+of.options.CHUNK_LOADING.tooltip.1=Lohkojen lataaminen
+of.options.CHUNK_LOADING.tooltip.2=  Oletus - epävakaa kuvataajuus kun lohkoja ladataan
+of.options.CHUNK_LOADING.tooltip.3=  Tasainen - vakaa kuvataajuus
+of.options.CHUNK_LOADING.tooltip.4=  Moniydin - vakaa kuvataajuus, 3x nopeampi maailman lataus
+of.options.CHUNK_LOADING.tooltip.5=Tasainen ja moniydin asetukset poistavat pätkimiset ja 
+of.options.CHUNK_LOADING.tooltip.6=jäätymiset, jotka ovat lohkojen lataamisen aihettamia.
+of.options.CHUNK_LOADING.tooltip.7=Moniydinasetus voi nopeuttaa maailman latausta kolminkertaisesti ja
+of.options.CHUNK_LOADING.tooltip.8=nostaa kuvataajuutta, käyttämällä toista prosessoriydintä.
+of.options.chunkLoading.smooth=Tasainen
+of.options.chunkLoading.multiCore=Moniydin
+
+of.options.shaders=Shaderit...
+of.options.shadersTitle=Shaderit
+
+of.options.shaders.packNone=Pois
+of.options.shaders.packDefault=(sisäinen)
+
+of.options.shaders.ANTIALIASING=Reunanpehmennys
+of.options.shaders.ANTIALIASING.tooltip.1=Reunanpehmennys
+of.options.shaders.ANTIALIASING.tooltip.2=  Pois - (oletus) ei reunanpehmennystä (nopeampi)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - pehmennetyt reunat (hitaampi)
+of.options.shaders.ANTIALIASING.tooltip.4=FXAA on jälkikäsittely efekti joka pehmentää
+of.options.shaders.ANTIALIASING.tooltip.5=teräviä reunoja ja -värisiirtymiä.
+of.options.shaders.ANTIALIASING.tooltip.6=Se on nopeampi kuin perinteinen reunanpehmennys
+of.options.shaders.ANTIALIASING.tooltip.7=ja se on yhteensopiva shadereiden kanssa.
+
+of.options.shaders.NORMAL_MAP=Normaalikartat
+of.options.shaders.NORMAL_MAP.tooltip.1=Normaalikartat
+of.options.shaders.NORMAL_MAP.tooltip.2=  Päällä - (oletus) normaalikartat päällä
+of.options.shaders.NORMAL_MAP.tooltip.3=  Pois - normaalikartat pois
+of.options.shaders.NORMAL_MAP.tooltip.4=Shader-paketit voivat käyttää normaalikarttoja
+of.options.shaders.NORMAL_MAP.tooltip.5=simuloidakseen 3d geometriaa litteillä pinnoilla.
+of.options.shaders.NORMAL_MAP.tooltip.6=Normaalikartat tarjoaa pitämäsi
+of.options.shaders.NORMAL_MAP.tooltip.7=resurssipaketti.
+
+of.options.shaders.SPECULAR_MAP=Heijastuskartat
+of.options.shaders.SPECULAR_MAP.tooltip.1=Heijastuskartat
+of.options.shaders.SPECULAR_MAP.tooltip.2=  Päällä - (oletus) heijastuskartat päällä
+of.options.shaders.SPECULAR_MAP.tooltip.3=  Pois - heijastuskartat pois
+of.options.shaders.SPECULAR_MAP.tooltip.4=Shader-paketit voivat käyttää heijastuskarttoja
+of.options.shaders.SPECULAR_MAP.tooltip.5=simuloidakseen erikoisia heijastusefektejä.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Heijastuskartat tarjoaa pitämäsi
+of.options.shaders.SPECULAR_MAP.tooltip.7=resurssipaketti.
+
+of.options.shaders.RENDER_RES_MUL=Piirronlaatu
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Piirronlaatu
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - matala (nopein)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - normi (oletus)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - korkea (hitain)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Piirronlaatu määrää textuurien koon,
+of.options.shaders.RENDER_RES_MUL.tooltip.6=jonka shader-paketti piirtää.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Pienemmät luvut voivat olla hyödyllisiä 4k-näytöillä.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Suuremmat luvut toimivat reunanpehmennys suodattimena.
+
+of.options.shaders.SHADOW_RES_MUL=Varjojen laatu
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Varjojen laatu
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - matala (nopein)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - normi (oletus)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - korkea (hitain)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Varjojen laatu hallitsee varjokarttatextuurien
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=kokoa, jota shader-paketti käyttää.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Pienemmät luvut = epätarkat, karkeat varjot.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Suuremmat luvut = yksityiskohtaiset, hienommat varjot.
+
+of.options.shaders.HAND_DEPTH_MUL=Käden syvyys
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Käden syvyys
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - käsi kameran lähellä
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (oletus)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - käsi kaukana kamerasta
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Käden syvyys määrittää kuinka kaukana 
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=pitämäsi esineet ovat kamerasta.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Shader-paketit, jotka käyttävät syvyyssumennusta,
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=voivat käyttää tätä määrittääkseen pitämäsi esineesi sumennuksen.
+
+of.options.shaders.CLOUD_SHADOW=Pilven varjot
+
+of.options.shaders.OLD_HAND_LIGHT=Vanha käden valaistus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Vanha käden valaistus
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Oletus - shader-paketin hallitsema
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Päällä - käytä vanhaa käsivalaistusta
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Pois - käytä uutta käsivalaistusta
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Vanha käden valaistus asetus, mahdollistaa shader-pakettien, jotka tunnistavat vain
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=pääkädessä pitämien tavaroiden valon tuottamisen,
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=toimivan myös toissijaisessa kädessä.
+
+of.options.shaders.OLD_LIGHTING=Vanha valaistus
+of.options.shaders.OLD_LIGHTING.tooltip.1=Vanha valaistus
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Oletus - shader-paketin hallitsema
+of.options.shaders.OLD_LIGHTING.tooltip.3=  Päällä - käytä vanhaa valaistusta
+of.options.shaders.OLD_LIGHTING.tooltip.4=  Pois - älä käytä vanhaa valaistusta
+of.options.shaders.OLD_LIGHTING.tooltip.5=Vanha valaistus hallitsee kiinteää valaistusta,
+of.options.shaders.OLD_LIGHTING.tooltip.6=joka on mukauttamattoman Minecraft asettama kuution sivuille.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Shader-paketit jotka käyttävät varjoja, tuottavat yleensä
+of.options.shaders.OLD_LIGHTING.tooltip.8=paljon paremman valaistuksen, joka riippuu auringon asennosta.
+
+of.options.shaders.DOWNLOAD=Lataa shadereita
+of.options.shaders.DOWNLOAD.tooltip.1=Lataa shadereita
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Avaa shader-paketit -sivun selaimeesi.
+of.options.shaders.DOWNLOAD.tooltip.4=Laita ladattu shader-paketti "Shaders-kansioon",
+of.options.shaders.DOWNLOAD.tooltip.5=ja ne näkyvät listassa asennettuina shadereina.
+
+of.options.shaders.SHADER_PACK=Shader-paketti
+
+of.options.shaders.shadersFolder=Shader-kansio
+of.options.shaders.shaderOptions=Shader-asetukset...
+
+of.options.shaderOptionsTitle=Shader-asetukset
+
+of.options.quality=Laatu...
+of.options.qualityTitle=Laatuasetukset
+
+of.options.details=Yksityiskohdat...
+of.options.detailsTitle=Yksityiskohta-asetukset
+
+of.options.performance=Suorituskyky...
+of.options.performanceTitle=Suorituskykyasetukset
+
+of.options.animations=Animaatiot...
+of.options.animationsTitle=Animaatioasetukset
+
+of.options.other=Muut...
+of.options.otherTitle=Muut asetukset
+
+of.options.other.reset=Nollaa videoasetukset...
+
+of.shaders.profile=Profiili
+
+# Laatu
+
+of.options.mipmap.bilinear=Bilineaarinen
+of.options.mipmap.linear=Lineaarinen
+of.options.mipmap.nearest=Lähin
+of.options.mipmap.trilinear=Trilineaarinen
+
+options.mipmapLevels.tooltip.1=Visuaalinenefekti, joka tekee kaukaiset asiat näyttämään paremmalta
+options.mipmapLevels.tooltip.2=pehmentämällä tekstuurien yksityiskohtia.
+options.mipmapLevels.tooltip.3=  Pois - ei pehmennystä
+options.mipmapLevels.tooltip.4=  1 - minimi pehmennys
+options.mipmapLevels.tooltip.5=  Maksimi - maksimi pehmennys
+options.mipmapLevels.tooltip.6=Tämä asetus ei yleensä vaikuta suorituskykyyn.
+
+of.options.MIPMAP_TYPE=Mipmap-tyyppi
+of.options.MIPMAP_TYPE.tooltip.1=Visuaalinenefekti, joka tekee kaukaiset asiat näyttämään paremmalta
+of.options.MIPMAP_TYPE.tooltip.2=pehmentämällä tekstuurien yksityiskohtia.
+of.options.MIPMAP_TYPE.tooltip.3=  Nopea - karkea pehmennys (nopein)
+of.options.MIPMAP_TYPE.tooltip.4=  Lineaarinen - normaali pehmennys
+of.options.MIPMAP_TYPE.tooltip.5=  Bilineaarinen - hyvä pehmennys
+of.options.MIPMAP_TYPE.tooltip.6=  Trilineaarinen - paras pehmennys (hitain)
+
+
+of.options.AA_LEVEL=Reunanpehmennys
+of.options.AA_LEVEL.tooltip.1=Reunanpehmennys
+of.options.AA_LEVEL.tooltip.2= Pois - (oletus) ei reunanpehmennystä (nopein)
+of.options.AA_LEVEL.tooltip.3= 2-16 - pehmennetyt reunat ja kulmat (hitaampi)
+of.options.AA_LEVEL.tooltip.4=Reunanpehmennys pehmentää rosoisia reunoja
+of.options.AA_LEVEL.tooltip.5=ja teräviä värisiirtymiä.
+of.options.AA_LEVEL.tooltip.6=Kun päällä, voi vähentää kuvataajuutta huomattavasti.
+of.options.AA_LEVEL.tooltip.7=Jokainen näytönohjain ei tue reunanpehmennystä.
+of.options.AA_LEVEL.tooltip.8=Vaikuttaa UUDELLEENKÄYNNISTYKSEN jälkeen!
+
+of.options.AF_LEVEL=Anisotrooppinen suodatus
+of.options.AF_LEVEL.tooltip.1=Anisotrooppinen suodatus
+of.options.AF_LEVEL.tooltip.2= Pois - (oletus) normaali tekstuurilaatu (nopampi)
+of.options.AF_LEVEL.tooltip.3= 2-16 - paremmat yksityiskohdat mipmapatuissa tekstuureissa (hitaampi)
+of.options.AF_LEVEL.tooltip.4=Anisotrooppinen suodatus palauttaa yksityiskohtia
+of.options.AF_LEVEL.tooltip.5=mipmaptuissia tekstuureissa.
+of.options.AF_LEVEL.tooltip.6=Kun päällä, voi vähentää kuvataajuutta huomattavasti.
+
+of.options.CLEAR_WATER=Läpinäkyvä vesi
+of.options.CLEAR_WATER.tooltip.1=Läpinäkyvä vesi
+of.options.CLEAR_WATER.tooltip.2=  Päällä - läpinäkyvä vesi
+of.options.CLEAR_WATER.tooltip.3=  Pois - oletus vesi
+
+of.options.RANDOM_ENTITIES=Satunnaiset oliot
+of.options.RANDOM_ENTITIES.tooltip.1=Satunnaiset oliot
+of.options.RANDOM_ENTITIES.tooltip.2=  Pois - ei satunnaisia olioita, nopein
+of.options.RANDOM_ENTITIES.tooltip.3=  Päällä - satunnaiset oliot, hitaampi
+of.options.RANDOM_ENTITIES.tooltip.4=Satunnaiset oliot asetus, käyttää satunnaisia tekstuureja oliolle.
+of.options.RANDOM_ENTITIES.tooltip.5=Käyttämäsi resurssipaketti määrittää satunnaiset tekstuurit.
+
+of.options.BETTER_GRASS=Parempi ruoho
+of.options.BETTER_GRASS.tooltip.1=Parempi ruoho
+of.options.BETTER_GRASS.tooltip.2=  Pois - oletus ruohonsivutekstuuri, nopein
+of.options.BETTER_GRASS.tooltip.3=  Nopea - kokosivu ruohotekstuuri, hitaampi
+of.options.BETTER_GRASS.tooltip.4=  Hieno - dynaaminen ruohonsivutekstuuri, hitain
+
+of.options.BETTER_SNOW=Parempi lumi
+of.options.BETTER_SNOW.tooltip.1=Parempi lumi
+of.options.BETTER_SNOW.tooltip.2=  Pois - oletus lumi, nopein
+of.options.BETTER_SNOW.tooltip.3=  Päällä - parempi lumi, hitain
+of.options.BETTER_SNOW.tooltip.4=Näyttää lunta läpinäkyvienkuutioden (aidat, korkea ruoho) alla,
+of.options.BETTER_SNOW.tooltip.5=kun kuution vieressä on lunta.
+
+of.options.CUSTOM_FONTS=Mukautetut fontit
+of.options.CUSTOM_FONTS.tooltip.1=Muokautetut fontit
+of.options.CUSTOM_FONTS.tooltip.2=  Päällä - käytä mukautettuja fontteja (oletus), hitaampi
+of.options.CUSTOM_FONTS.tooltip.3=  Pois - käytä oletusfonttia, nopeampi
+of.options.CUSTOM_FONTS.tooltip.4=Mukautetun fontin tarjoaa pitämäsi
+of.options.CUSTOM_FONTS.tooltip.5=resurssipaketti.
+
+of.options.CUSTOM_COLORS=Mukautetut värit
+of.options.CUSTOM_COLORS.tooltip.1=Mukautetut värit
+of.options.CUSTOM_COLORS.tooltip.2=  Päällä - käytä mukautettuja värejä (oletus), hitaampi
+of.options.CUSTOM_COLORS.tooltip.3=  Pois - käytä oletusvärejä, nopeampi
+of.options.CUSTOM_COLORS.tooltip.4=Mukautetut värit tarjoaa pitämäsi
+of.options.CUSTOM_COLORS.tooltip.5=resurssipaketti.
+
+of.options.SWAMP_COLORS=Suon värit
+of.options.SWAMP_COLORS.tooltip.1=Suon värit
+of.options.SWAMP_COLORS.tooltip.2=  Päällä - käytä suon värejä (oletus), hitaampi
+of.options.SWAMP_COLORS.tooltip.3=  Pois - älä käytä suon värejä, nopeampi
+of.options.SWAMP_COLORS.tooltip.4=Suon värit vaikuttaa ruohoon, lehtiin ja veteen.
+
+of.options.SMOOTH_BIOMES=Pehmeät biomit
+of.options.SMOOTH_BIOMES.tooltip.1=Pehmeät biomit
+of.options.SMOOTH_BIOMES.tooltip.2=  Päällä - pehmennetyt biomeiden rajat (oletus), hitaampi
+of.options.SMOOTH_BIOMES.tooltip.3=  Pois - ei biomeiden rajojen pehmennystä, nopeampi
+of.options.SMOOTH_BIOMES.tooltip.4=Biomien rajojen pehmentäminen tehdään ottamalla
+of.options.SMOOTH_BIOMES.tooltip.5=keskimääräinen väri naapurikuutioista.
+of.options.SMOOTH_BIOMES.tooltip.6=Vaikuttaa ruohoon, lehtiin, köynnöksiin ja veteen.
+
+of.options.CONNECTED_TEXTURES=Yhdistetyt tekstuurit
+of.options.CONNECTED_TEXTURES.tooltip.1=Yhdistetyt tekstuurit
+of.options.CONNECTED_TEXTURES.tooltip.2=  Pois - ei yhdistettyjä tekstuureita (oletus)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Nopea - nopean yhdistetyt tekstuurit
+of.options.CONNECTED_TEXTURES.tooltip.4=  Hieno - hienot yhdistetyt tekstuurit
+of.options.CONNECTED_TEXTURES.tooltip.5=Yhdistetyt tekstuurit asetus yhdistää lasi, hiekkakiven ja kirjahyllyjen
+of.options.CONNECTED_TEXTURES.tooltip.6=tekstuurit yhteen kun ne laitetaan toistensa viereen.
+of.options.CONNECTED_TEXTURES.tooltip.7=Yhdistetyt tekstuurit tarjoaa pitämäsi
+of.options.CONNECTED_TEXTURES.tooltip.8=resurssipaketti.
+
+of.options.NATURAL_TEXTURES=Luontaiset tekstuurit
+of.options.NATURAL_TEXTURES.tooltip.1=Luontaiset tekstuurit
+of.options.NATURAL_TEXTURES.tooltip.2=  Pois - ei luontaisia tekstuureja (oletus)
+of.options.NATURAL_TEXTURES.tooltip.3=  Päällä - käytä luontaisia tekstuureja
+of.options.NATURAL_TEXTURES.tooltip.4=Luontaiset tekstuurit asetus poistaa ruudukkomaisen kuvoinnin,
+of.options.NATURAL_TEXTURES.tooltip.5=kääntelemällä samantyyppisiä kuutioita.
+of.options.NATURAL_TEXTURES.tooltip.6=Se käyttää käännettyjä ja peilitettyjä versioita
+of.options.NATURAL_TEXTURES.tooltip.7=pääkuution tekstuurista. Luontaisten tekstuurien asetukset
+of.options.NATURAL_TEXTURES.tooltip.8=määrittää pitämäsi resurssipaketti
+
+of.options.EMISSIVE_TEXTURES=Emissiiviset tekstuurit
+of.options.EMISSIVE_TEXTURES.tooltip.1=Emissiiviset tekstuurit
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Pois - ei emissiivisiä tekstuureja (oletus)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Päällä - käytä emissiivisiä tekstuureja
+of.options.EMISSIVE_TEXTURES.tooltip.4=Emissiiviset tekstuurit piirretään päätekstuuriin päällä,
+of.options.EMISSIVE_TEXTURES.tooltip.5=täydellä kirkkaudella. Niitä voidaan käyttää simuloidaan
+of.options.EMISSIVE_TEXTURES.tooltip.6=valoa tuottavia osia päätekstuurista.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Emissiiviset tekstuurit tarjoaa pitämäsi
+of.options.EMISSIVE_TEXTURES.tooltip.8=resurssipaketti.
+
+of.options.CUSTOM_SKY=Mukautettu taivas
+of.options.CUSTOM_SKY.tooltip.1=Mukautettu taivas
+of.options.CUSTOM_SKY.tooltip.2=  Päällä - mukautetut taivas tekstuurit (oletus), hidas
+of.options.CUSTOM_SKY.tooltip.3=  Pois - oletus taivas, nopeampi
+of.options.CUSTOM_SKY.tooltip.4=Mukautetut taivas tekstuurit tarjoaa pitämäsi
+of.options.CUSTOM_SKY.tooltip.5=resurssipaketti.
+
+of.options.CUSTOM_ITEMS=Mukautetut tavarat
+of.options.CUSTOM_ITEMS.tooltip.1=Mukautetut tavarat
+of.options.CUSTOM_ITEMS.tooltip.2=  Päällä - mukautetut tavaratekstuurit (oletus), hidas
+of.options.CUSTOM_ITEMS.tooltip.3=  Pois - oletus tavaratekstuurit, nopeampi
+of.options.CUSTOM_ITEMS.tooltip.4=Mukautetut tavaratekstuurit tarjoaa pitämäsi
+of.options.CUSTOM_ITEMS.tooltip.5=resurssipaketti.
+
+of.options.CUSTOM_ENTITY_MODELS=Mukautetut olioiden mallit
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Mukautetut olioiden mallit
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Päällä - mukautetut olioiden mallit (oletus), hidas
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Pois - oletus olioiden mallit, nopeampi
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Mukautetut olioiden mallit tarjoaa pitämäsi
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resurssipaketti.
+
+of.options.CUSTOM_GUIS=Mukautetut GUI:t
+of.options.CUSTOM_GUIS.tooltip.1=Mukautetut GUI:t
+of.options.CUSTOM_GUIS.tooltip.2=  Päällä - mukautetut GUI:t (oletus), hitaampi
+of.options.CUSTOM_GUIS.tooltip.3=  Pois - oletus GUI:t, nopeampi
+of.options.CUSTOM_GUIS.tooltip.4=Mukautetut GUI:t tarjoaa pitämäsi resurssipaketti.
+
+# Yksityiskohdat
+
+of.options.CLOUDS=Pilvet
+of.options.CLOUDS.tooltip.1=Pilvet
+of.options.CLOUDS.tooltip.2=  Oletus - grafiikka-asetuksen asettama
+of.options.CLOUDS.tooltip.3=  Nopea - matalampi laatu, nopeampi
+of.options.CLOUDS.tooltip.4=  Hieno - korkeampi laatu, hitaampi
+of.options.CLOUDS.tooltip.5=  Pois - no clouds, fastest
+of.options.CLOUDS.tooltip.6=Nopeat pilvet piirretään 2d:nä.
+of.options.CLOUDS.tooltip.7=Hienot pilvet piirretään 3d:nä.
+
+of.options.CLOUD_HEIGHT=Pilvien korkeus
+of.options.CLOUD_HEIGHT.tooltip.1=Pilvien korkeus
+of.options.CLOUD_HEIGHT.tooltip.2=  Pois - oletus korkeus
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - maailman rakennusrajan yläpuolella
+
+of.options.TREES=Puut
+of.options.TREES.tooltip.1=Puut
+of.options.TREES.tooltip.2=  Oletus - grafiikka-asetuksen asettama
+of.options.TREES.tooltip.3=  Nopea - matalampi laatu, nopeampi
+of.options.TREES.tooltip.4=  Älykäs - korkeampi laatu, nopea
+of.options.TREES.tooltip.5=  Hieno - korkein laatu, hitaampi
+of.options.TREES.tooltip.6=Nopeissa puissa on läpinäkymättömät lehdet.
+of.options.TREES.tooltip.7=Hienoissa - ja älykkäissä puissa on läpinäkyvät lehdet.
+
+of.options.RAIN=Sade ja lumi
+of.options.RAIN.tooltip.1=Sade ja lumi
+of.options.RAIN.tooltip.2=  Oletus - grafiikka-asetuksen asettama
+of.options.RAIN.tooltip.3=  Nopea  - kevyt sade/lumi, nopeampi
+of.options.RAIN.tooltip.4=  Hieno - runsas sade/lumi, hitaampi
+of.options.RAIN.tooltip.5=  Pois - ei sadetta/lunta, nopein
+of.options.RAIN.tooltip.6=Kun sade on pois päältä, sateen räiskyminen ja äänet
+of.options.RAIN.tooltip.7=ovat edelleen päällä.
+
+of.options.SKY=Taivas
+of.options.SKY.tooltip.1=Taivas
+of.options.SKY.tooltip.2=  Päällä - taivas on näkyvissä, hitaampi
+of.options.SKY.tooltip.3=  Pois  - taivasta ei näy, nopeampi
+of.options.SKY.tooltip.4=Kun taivas on pois päältä, kuu ja aurinko näkyy kuitenkin.
+
+of.options.STARS=Tähdet
+of.options.STARS.tooltip.1=Tähdet
+of.options.STARS.tooltip.2=  Päällä - tähdet ovat näkyvissä, hitaampi
+of.options.STARS.tooltip.3=  Pois  - tähtiä ei näy, nopeampi
+
+of.options.SUN_MOON=Aurinko ja kuu
+of.options.SUN_MOON.tooltip.1=Aurinko ja kuu
+of.options.SUN_MOON.tooltip.2=  Päällä - aurinko ja kuu ovat näkyvissä (oletus)
+of.options.SUN_MOON.tooltip.3=  Pois  - aurinkoa eikä kuuta näy (nopeampi)
+
+of.options.SHOW_CAPES=Näytä viitat
+of.options.SHOW_CAPES.tooltip.1=Näytä viitat
+of.options.SHOW_CAPES.tooltip.2=  Päällä - näytä pelaajien viitat (oletus)
+of.options.SHOW_CAPES.tooltip.3=  Pois - älä näytä pelaajien viittoja
+
+of.options.TRANSLUCENT_BLOCKS=Läpikuultavat kuutiot
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Läpikuultavat kuutiot
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Oletus - grafiikka-asetuksen asettama
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Hieno - oikea värien sekoitus (hitaampi)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Nopea - nopea värien sekoitus (nopeampi)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Hallitsee eri väristen (värjätty lasi, vesi, jää) läpikuultavien
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=kuutioden värien sekoitusta, kun ne on laitettu
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=toistensa taakse, kun niissä on ilmaa niiden välissä
+
+of.options.HELD_ITEM_TOOLTIPS=Pidetyn tavaran vinkit
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Pidetyn tavaran vinkit
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  Päällä - näytä tavaravinkit pidetyille tavaroille (oletus)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  Pois - älä näytä tavaravinkkejä pidetyille tavaroille
+
+of.options.ADVANCED_TOOLTIPS=Edistyneet vinkit
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Edistyneet vinkit
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  Päällä - näytä edistyneet vinkit
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  Pois - älä näytä edistyneitä vikkejä (oletus)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Advanced tooltips show extended information for Edistyneet vinkit
+of.options.ADVANCED_TOOLTIPS.tooltip.5=näyttämät lisää tietoja tavaroille (tunniste, kestävyys) ja
+of.options.ADVANCED_TOOLTIPS.tooltip.6=shader-asetuksille (tunniste, lähde, oletus luku).
+
+of.options.DROPPED_ITEMS=Pudotetut esineet
+of.options.DROPPED_ITEMS.tooltip.1=Pudotetut esineet
+of.options.DROPPED_ITEMS.tooltip.2=  Oletus - grafiikka-asetuksen asettama
+of.options.DROPPED_ITEMS.tooltip.3=  Nopea - 2d pudotetut esineet (nopeampi)
+of.options.DROPPED_ITEMS.tooltip.4=  Hieno - 3d pudotetut esineet (hitaampi)
+
+options.entityShadows.tooltip.1=Olioden varjot
+options.entityShadows.tooltip.2=  Päällä - näytä olioiden varjot
+options.entityShadows.tooltip.3=  Pois - älä näytä olioiden varjoja
+
+of.options.VIGNETTE=Vinjetti
+of.options.VIGNETTE.tooltip.1=Visuaalinenefekti joka tummentaa näytön reunoja hieman
+of.options.VIGNETTE.tooltip.2=  Oletus - grafiikka-asetuksen asettama (oletus)
+of.options.VIGNETTE.tooltip.3=  Nopea - vinjetti pois päältä (nopeampi)
+of.options.VIGNETTE.tooltip.4=  Fancy - vinjetti päällä (hitaampi)
+of.options.VIGNETTE.tooltip.5=Vinjetillä voi olla huomattava vaikutus kuvataajuuten,
+of.options.VIGNETTE.tooltip.6=varsinkin jos peli on kokoruudulla.
+of.options.VIGNETTE.tooltip.7=Vinjettiefekti on todella hienovarainen ja sen
+of.options.VIGNETTE.tooltip.8=voi turvallisesti ottaa pois käytöstä.
+
+of.options.DYNAMIC_FOV=Dynaaminen näkökenttä
+of.options.DYNAMIC_FOV.tooltip.1=Dynaaminen näkökenttä
+of.options.DYNAMIC_FOV.tooltip.2=  Päällä - ota dynaaminen näkökenttä käyttöön (oletus)
+of.options.DYNAMIC_FOV.tooltip.3=  Pois - ota dynaaminen näkökenttä pois käytöstä
+of.options.DYNAMIC_FOV.tooltip.4=Vaihtaa näkökenttää kun lennät, juokset tai
+of.options.DYNAMIC_FOV.tooltip.5=venytät jousta.
+
+of.options.DYNAMIC_LIGHTS=Dynaamiset valot
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynaamiset valot
+of.options.DYNAMIC_LIGHTS.tooltip.2=  Pois - ei dynaamisia valoja (oletus)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Nopea - nopeat dynaamiset valot (päivitetään joka 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Hieno - hienot dynaamiset valot (päivitetään reaaliajassa)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Mahdollistaa valoa tuottavien esineiden (soihtu, hehkukivi, jne.),
+of.options.DYNAMIC_LIGHTS.tooltip.6=valaista lähiympäristö kun niitä pidetään
+of.options.DYNAMIC_LIGHTS.tooltip.7=kädessä, tai kun ne ovat pudotettuina maahan.
+
+options.biomeBlendRadius.tooltip.1=Pehmentää värisiirtymää biomien välissä
+options.biomeBlendRadius.tooltip.2=  Pois - ei sekoitusta (nopein)
+options.biomeBlendRadius.tooltip.3=  5x5 - oletus sekoitus (oletus)
+options.biomeBlendRadius.tooltip.4=  15x15 - maksimi sekoitus (hitain)
+options.biomeBlendRadius.tooltip.5=Korkeat luvut saattavat generoida huomattavia lagipiikkejä
+options.biomeBlendRadius.tooltip.6=ja hidastaa lohkojen latausnopeutta.
+
+# Suorituskyky
+
+of.options.SMOOTH_FPS=Tasainen kuvataajuus
+of.options.SMOOTH_FPS.tooltip.1=Tasoittaa kuvatajuutta huuhtelemalla näytönohjainpuskureita.
+of.options.SMOOTH_FPS.tooltip.2=  Pois - ei tasoitusta, kuvataajuus saattaa heitellä
+of.options.SMOOTH_FPS.tooltip.3=  Päällä - kuvataajuuden tasoitus
+of.options.SMOOTH_FPS.tooltip.4=Tämä asetus riippuu näytönohjaimesta ja sen vaikutus
+of.options.SMOOTH_FPS.tooltip.5=ei ole aina huomattavissa.
+
+of.options.SMOOTH_WORLD=Tasainen maailma
+of.options.SMOOTH_WORLD.tooltip.1=Poistaa sisäisen palvelimen aihettamia lagipiikkejä.
+of.options.SMOOTH_WORLD.tooltip.2=  Pois - ei tasoitusta, kuvataajuus saattaa heitellä
+of.options.SMOOTH_WORLD.tooltip.3=  Päällä - kuvataajuuden tasoitus
+of.options.SMOOTH_WORLD.tooltip.4=Tasoittaa kuvataajuutta jakamalla sisäisen palvelimen latausta.
+of.options.SMOOTH_WORLD.tooltip.5=Toimii vain paikallisissa maailmoissa (yksinpeli).
+
+of.options.FAST_RENDER=Nopea piirto
+of.options.FAST_RENDER.tooltip.1=Nopea piirto
+of.options.FAST_RENDER.tooltip.2= Pois - normi piirto (oletus)
+of.options.FAST_RENDER.tooltip.3= Päällä - optimoitu piirto (nopeampi)
+of.options.FAST_RENDER.tooltip.4=Käyttää optimoituja piirto algoritmejä, jotka vähentävät
+of.options.FAST_RENDER.tooltip.5=suorittimen käyttöä ja voivat huomattavasti nostaa kuvataajuutta.
+of.options.FAST_RENDER.tooltip.6=Tämä asetus ei välttämättä ole yhteensopiva modien kanssa.
+
+of.options.FAST_MATH=Nopea matikka
+of.options.FAST_MATH.tooltip.1=Nopea matikka
+of.options.FAST_MATH.tooltip.2= Pois - normi matikka (oletus)
+of.options.FAST_MATH.tooltip.3= Päällä - nopeampi matikka
+of.options.FAST_MATH.tooltip.4=Käyttää optimoituja sin() ja cos() funktioita, jotka voi
+of.options.FAST_MATH.tooltip.5=paremmin käyttää prosessorin välimuistia ja nostaa kuvataajuutta.
+of.options.FAST_MATH.tooltip.6=Tämä asetus voi vaikuttaa maailman generoitumiseen minimaalisesti.
+
+of.options.CHUNK_UPDATES=Lohkojen päivitykset
+of.options.CHUNK_UPDATES.tooltip.1=Lohkojen päivitykset
+of.options.CHUNK_UPDATES.tooltip.2= 1 - hitaampi maailman lataaminen, korkeampi kuvataajuus (oletus)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - nopeampi maalman lataaminen, matalampi kuvataajuus
+of.options.CHUNK_UPDATES.tooltip.4= 5 - nopein maailman lataaminen, matalin kuvataajuus
+of.options.CHUNK_UPDATES.tooltip.5=Lohkon päivitysten määrä per piirretty kuva,
+of.options.CHUNK_UPDATES.tooltip.6=suuremmat luvut voivat epätasapainoittaa kuvataajuutta.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Dynaamiset lohkojen päivitykset
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynaamiset lohkojen päivitykset
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= Pois - normi määrä lohkojen päivityksiä per kuva (oletus)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= Päällä - enemmän lohkojen päivityksiä kun pelaaja on paikallaan
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynaamiset lohkojen päivitykset -asetus pakottaa enemmän lohkojen päivityksiä
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=kun pelaaja seisoo paikallaan ladakseen maailmaa nopeammin.
+
+of.options.LAZY_CHUNK_LOADING=Laiska lohkojen lataaminen
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Laiska lohkojen lataaminen
+of.options.LAZY_CHUNK_LOADING.tooltip.2= Pois - oletus palvelimen lohkojen lataus
+of.options.LAZY_CHUNK_LOADING.tooltip.3= Päällä - laiska palvelimen lohkojen lataus (pehmeämpi)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Pehmentää integroidun palvelimen lohkojen lataamista,
+of.options.LAZY_CHUNK_LOADING.tooltip.5=jakamalla lohkot useammalle kuvalle.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Laita tämä pois päältä jos osat maailmastasi eivät lataa.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Toimii vain paikallisissa maailmoissa (yksinpeli).
+
+of.options.RENDER_REGIONS=Piirrä alueet
+of.options.RENDER_REGIONS.tooltip.1=Piirrä alueet
+of.options.RENDER_REGIONS.tooltip.2= Pois - normaali minecraft -piirto (oletus)
+of.options.RENDER_REGIONS.tooltip.3= Päällä - käytä piirrä alueet -asetusta (nopeampi)
+of.options.RENDER_REGIONS.tooltip.4=Mahdollistaa nopeamman maaston piirron, optimoimalla
+of.options.RENDER_REGIONS.tooltip.5=näytönohjaimen käyttöä. Tehokkaampi suurilla näköetäisyyksillä.
+of.options.RENDER_REGIONS.tooltip.6=Ei suositeltu integroiduille näytönohjaimille.
+
+of.options.SMART_ANIMATIONS=Älykkäät animaatiot
+of.options.SMART_ANIMATIONS.tooltip.1=Älykkäät animaatiot
+of.options.SMART_ANIMATIONS.tooltip.2= Pois - älä käytä älykkäitä animaatioita (oletus)
+of.options.SMART_ANIMATIONS.tooltip.3= Päällä - käytä älykkäitä animaatioita (nopeampi)
+of.options.SMART_ANIMATIONS.tooltip.4=Älykkäillä animaatioilla peli animoi vain ne
+of.options.SMART_ANIMATIONS.tooltip.5=tekstuurit jota on näkyvissä ruudulla.
+of.options.SMART_ANIMATIONS.tooltip.6=Tämä pienentää lagipiikkejä ja suurentaa kuvataajuutta.
+of.options.SMART_ANIMATIONS.tooltip.7=Todella hyödyllinen isoille modipaketeille ja hd-resurssipaketeille.
+
+# Animaatiot
+
+of.options.animation.allOn=Kaikki päälle
+of.options.animation.allOff=Kaikki pois
+of.options.animation.dynamic=Dynaaminen
+
+of.options.ANIMATED_WATER=Animoitu vesi
+of.options.ANIMATED_LAVA=Animoitu laava
+of.options.ANIMATED_FIRE=Animoitu tuli
+of.options.ANIMATED_PORTAL=Animoitu portaali
+of.options.ANIMATED_REDSTONE=Animoitu redstone
+of.options.ANIMATED_EXPLOSION=Animoidut räjähdykset
+of.options.ANIMATED_FLAME=Animoitu liekki
+of.options.ANIMATED_SMOKE=Animoitu savu
+of.options.VOID_PARTICLES=Tyhjyyden partikkelit
+of.options.WATER_PARTICLES=Veden partikkelit
+of.options.RAIN_SPLASH=Sateen räiskyminen
+of.options.PORTAL_PARTICLES=Portaalin partikkelit
+of.options.POTION_PARTICLES=Taikajuoma partikkelit
+of.options.DRIPPING_WATER_LAVA=Tippuva vesi/laava
+of.options.ANIMATED_TERRAIN=Animoitu maasto
+of.options.ANIMATED_TEXTURES=Animoidut tekstuurit
+of.options.FIREWORK_PARTICLES=Ilotulitteiden partikkelit
+
+# Muut
+
+of.options.LAGOMETER=Lagimittari
+of.options.LAGOMETER.tooltip.1=Näyttää lagimittarin virheenkorjausruudussa (F3).
+of.options.LAGOMETER.tooltip.2=* Oranssi - Muistin roskankeräys
+of.options.LAGOMETER.tooltip.3=* Syaani - Hetki
+of.options.LAGOMETER.tooltip.4=* Sininen - Ajoitetut suoritettavat tiedostot
+of.options.LAGOMETER.tooltip.5=* Purppura - Lohkojen lataukset
+of.options.LAGOMETER.tooltip.6=* Punainen - Lohkopäivitykset
+of.options.LAGOMETER.tooltip.7=* Keltainen - Näkyvyyden tarkistus
+of.options.LAGOMETER.tooltip.8=* Vihreä - Maaston piirto
+
+of.options.PROFILER=Virheenkorjaus profiloija
+of.options.PROFILER.tooltip.1=Virheenkorjaus profiloija
+of.options.PROFILER.tooltip.2=  Päällä - virheenkorjaus profiloija on päällä, hitaampi
+of.options.PROFILER.tooltip.3=  Pois - virheenkorjaus profiloija ei ole päällä, nopeampi
+of.options.PROFILER.tooltip.4=Virheenkorjaus profiloija kerää näyttää tietoja kun
+of.options.PROFILER.tooltip.5=virheenkorjausruutu on auki (F3).
+
+of.options.WEATHER=Sää
+of.options.WEATHER.tooltip.1=Sää
+of.options.WEATHER.tooltip.2=  Päällä - sää on päällä, hitaampi
+of.options.WEATHER.tooltip.3=  Pois - sää on pois päältä, nopeampi
+of.options.WEATHER.tooltip.4=Sääasetus hallitsee sadetta, lumisadetta ja ukkosmyrskyjä.
+of.options.WEATHER.tooltip.5=Sään hallitseminen on mahdollista vain paikallisissa maailmoissa.
+
+of.options.time.dayOnly=Vain päivä
+of.options.time.nightOnly=Vain yö
+
+of.options.TIME=Aika
+of.options.TIME.tooltip.1=Aika
+of.options.TIME.tooltip.2= Oletus - normaali päivä/yö ajanjakso
+of.options.TIME.tooltip.3= Vain päivä - vain päivä
+of.options.TIME.tooltip.4= Vain yö - vain yö
+of.options.TIME.tooltip.5=Aika asetus vaikuttaa vain LUOVASSATILASSA ja
+of.options.TIME.tooltip.6=paikallisissa maailmoissa
+
+options.fullscreen.tooltip.1=Kokonäyttö
+options.fullscreen.tooltip.2=  Päällä - käytä kokonäyttötilaa
+options.fullscreen.tooltip.3=  Pois - käytä ikkunatilaa
+options.fullscreen.tooltip.4=Kokoruututila Voi olla nopeampi tai hitaampi,
+options.fullscreen.tooltip.5=kuin ikkunatila, riippuen näytönohjaimesta.
+
+options.fullscreen.resolution=Kokonäytön tila
+options.fullscreen.resolution.tooltip.1=Kokonäytön tila
+options.fullscreen.resolution.tooltip.2=  Oletus - käytä työpöydän kuvatarkkuutta, hitaampi
+options.fullscreen.resolution.tooltip.3=  LxK - käytä mukautettua kuvatarkkuutta, voi olla nopeampi
+options.fullscreen.resolution.tooltip.4=Valittua kuvatarkkuutta käytetään kokonäytön tilassa (F11).
+options.fullscreen.resolution.tooltip.5=Matalammat kuvatarkkuudet ovat yleensä nopeampia.
+
+of.options.SHOW_FPS=Näytä kuvataajuus
+of.options.SHOW_FPS.tooltip.1=Näyttää kompaktin kuvataajuuden ja piirtotietoja.
+of.options.SHOW_FPS.tooltip.2=  Fps - keskiverto/minimi kuvataajuus
+of.options.SHOW_FPS.tooltip.3=  C: - lohkojen piirtoja
+of.options.SHOW_FPS.tooltip.4=  E: - piirretyt oliot ja kuutioentiteetit
+of.options.SHOW_FPS.tooltip.5=  U: - lohkopäivitykset
+of.options.SHOW_FPS.tooltip.6=Kompaktit kuvataajuustiedot näytetään vain kun virheenkorjausruutu
+of.options.SHOW_FPS.tooltip.7=ei ole näkyvissä.
+
+of.options.save.45s=45s
+of.options.save.90s=90s
+of.options.save.3min=3min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
+
+of.options.AUTOSAVE_TICKS=Automaattinen tallennus
+of.options.AUTOSAVE_TICKS.tooltip.1=Automaattisen tallennuksen aikaväli
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - oletus
+of.options.AUTOSAVE_TICKS.tooltip.3=Automaattinen tallennuksen saattaa aiheuttaa lagipiikkejä, riippuen näköetäisyydestä.
+of.options.AUTOSAVE_TICKS.tooltip.4=Maailma tallennetaan myös kun pelivalikko avataan.
+
+of.options.SCREENSHOT_SIZE=Kuvankaappauksen koko
+of.options.SCREENSHOT_SIZE.tooltip.1=Kuvankaappauksen koko
+of.options.SCREENSHOT_SIZE.tooltip.2=  Oletus - oletus kuvakaappauskoko
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - mukautettu kuvakaappauskoko
+of.options.SCREENSHOT_SIZE.tooltip.4=Suurempien kuvankaappausten ottaminen voi vaatia enemmän muistia.
+of.options.SCREENSHOT_SIZE.tooltip.5=Ei ole yhteensopiva reunanpehmennyksen kanssa.
+of.options.SCREENSHOT_SIZE.tooltip.6=Vaatii näytönohjaimen ruutupuskuri tuen.
+
+of.options.SHOW_GL_ERRORS=Näytä GL-virheet
+of.options.SHOW_GL_ERRORS.tooltip.1=Näytä OpenGL-virheet
+of.options.SHOW_GL_ERRORS.tooltip.2=Kun päällä, OpenGL-virheen näytetään keskustelussa.
+of.options.SHOW_GL_ERRORS.tooltip.3=Ota tämä pois käytöstä vain, jos tiedät mikä aiheuttaa virheen,
+of.options.SHOW_GL_ERRORS.tooltip.4=eikä sitä voi korjata.
+of.options.SHOW_GL_ERRORS.tooltip.5=Jos otettuna pois, virheet kirjataan kuitenkin virhelokiin,
+of.options.SHOW_GL_ERRORS.tooltip.6=joka voi aihettaa huomattavia kuvataajuuspudotuksia.
+
+# Keskusteluasetukset
+
+of.options.CHAT_BACKGROUND=Keskustelun tausta
+of.options.CHAT_BACKGROUND.tooltip.1=Keskustelun tausta
+of.options.CHAT_BACKGROUND.tooltip.2=  Oletus - muuttumaton leveys
+of.options.CHAT_BACKGROUND.tooltip.3=  Kompakti - sopii rivin leveyteen
+of.options.CHAT_BACKGROUND.tooltip.4=  Pois - piilotettu
+
+of.options.CHAT_SHADOW=Keskustelun varjo
+of.options.CHAT_SHADOW.tooltip.1=Keskustelun varjo
+of.options.CHAT_SHADOW.tooltip.2=  Päällä - käytä tekstin varjoa
+of.options.CHAT_SHADOW.tooltip.3=  Pois - ei tekstin varjoa

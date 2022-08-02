@@ -1,0 +1,807 @@
+# General
+of.general.ambiguous=คลุมเครือ
+of.general.compact=กะทัดรัด
+of.general.custom=กำหนดเอง
+of.general.from=จาก
+of.general.id=ID
+of.general.max=สูงสุด
+of.general.restart=รีสตาร์ต
+of.general.smart=ฉลาด
+
+# Keys
+of.key.zoom=ขยาย
+
+# Message
+of.message.aa.shaders1=ระบบลบรอยหยัก ไม่สามารถใช้ร่วมกับระบบแสงเงาได้
+of.message.aa.shaders2=โปรดปิดแสงเงา เพื่อใช้ตัวเลือกนี้
+
+of.message.aa.gf1=ระบบลบรอยหยัก ไม่สามารถใช้ร่วมกับกราฟิกระดับ งามเลิศ! ได้.
+of.message.aa.gf2=โปรดปรับตัวเลือกกราฟิกให้อยู่ในระดับ เร็ว หรือ สวยงาม
+
+of.message.af.shaders1=ระบบ Anisotropic Filtering ไม่สามารถใช้ร่วมกับระบบแสงเงาได้
+of.message.af.shaders2=โปรดปิดระบบแสงเงา เพื่อใช้ตัวเลือกนี้
+
+of.message.fr.shaders1=ระบบเรนเดอร์ฉบับเร็ว ไม่สามารถใช้ร่วมกับระบบแสงเงาได้
+of.message.fr.shaders2=โปรดปิดระบบแสงเงา เพื่อใช้ตัวเลือกนี้
+
+of.message.an.shaders1=ระบบภาพสามมิติแบบซ้อนเหลื่อม ไม่สามารถใช้ร่วมกับระบบแสงเงาได้
+of.message.an.shaders2=โปรดปิดระบบแสงเงา เพื่อใช้ตัวเลือกนี้
+
+of.message.shaders.aa1=ระบบแสงเงา ไม่สามารถใช้ร่วมกับระบบลบรอยหยักได้
+of.message.shaders.aa2=โปรดตั้งค่า คุณภาพ -> ลบรอยหยัก เป็น ปิด แล้วรีสตาร์ตเกม
+
+of.message.shaders.af1=ระบบแสงเงา ไม่สามารถใช้ร่วมกับระบบ Anisotropic Filtering ได้
+of.message.shaders.af2=โปรดตั้งค่า คุณภาพ -> Anisotropic Filtering เป็น ปิด
+
+of.message.shaders.fr1=ไม่สามารถใช้ร่วมกับ ระบบเรนเดอร์ฉบับเร็วได้
+of.message.shaders.fr2=โปรดตั้งค่า ประสิทธิภาพ -> เรนเดอร์ฉบับเร็ว เป็น ปิด
+
+of.message.shaders.gf1=ระบบแสงเงา ไม่สามารถใช้ร่วมกับกราฟิกระดับ งามเลิศ! ได้
+of.message.shaders.gf2=โปรดปรับตัวเลือกกราฟิกให้เป็น เร็ว หรือ สวยงาม
+
+of.message.shaders.an1=ระบบแสงเงา ไม่สามารถใช้ร่วมกับระบบภาพสามมิติแบบซ้อนเหลื่อมได้
+of.message.shaders.an2=โปรดตั้งค่า ตัวเลือกอื่น ๆ -> ภาพสามมิติแบบซ้อนเหลื่อม เป็น ปิด
+
+of.message.shaders.nv1=แสงเงาตัวนี้ต้องการ Optifine เวอร์ชั่นที่ใหม่กว่านี้: %s
+of.message.shaders.nv2=คุณต้องการดำเนินการต่อหรือไม่?
+
+of.message.newVersion=Optifine เวอร์ชั่น §eOptiFine§f พร้อมให้ติดตั้งแล้ว: §e%s§f
+of.message.java64Bit=คุณสามารถติดตั้ง §e64-bit Java§f เพื่อประสิทธิภาพที่ดีขึ้นได้
+of.message.openglError=§eเกิดข้อผิดพลาด OpenGL§f: %s (%s)
+
+of.message.shaders.loading=กำลังโหลดแสงเงา: %s
+
+of.message.other.reset=การตั้งค่าทุกอย่างจะถูกรีเซ็ต คุณแน่ใจหรือไม่?
+
+of.message.loadingVisibleChunks=กำลังโหลดชังก์ที่มองเห็นได้
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=ผ้าคลุมสำหรับ OptiFine...
+
+of.options.capeOF.title=ผ้าคลุมสำหรับ OptiFine
+of.options.capeOF.openEditor=เปิดตัวปรับแต่งผ้าคลุม
+of.options.capeOF.reloadCape=โหลดผ้าคลุมใหม่
+of.options.capeOF.copyEditorLink=คัดลอกลิงค์ไปยังคลิบบอร์ด
+
+of.message.capeOF.openEditor=ตัวปรับแต่งผ้าคลุมจะต้องเปิดในเว็บบราวเซอร์
+of.message.capeOF.openEditorError=เกิดข้อผิดพลาดขณะเปิดตัวปรับแต่งผ้าคลุม
+of.message.capeOF.reloadCape=ผ้าคลุมจะถูกโหลดใหม่ภายใน 15 วินาที
+
+of.message.capeOF.error1=การรับรองจาก Mojang ล้มเหลว
+of.message.capeOF.error2=Error: %s
+
+# Video settings
+
+options.graphics.tooltip.1=คุณภาพกราฟิก
+options.graphics.tooltip.2=  เร็ว - คุณภาพต่ำกว่า แต่เร็วกว่า
+options.graphics.tooltip.3=  สวยงาม - คุณภาพดีกว่า แต่ช้ากว่า
+options.graphics.tooltip.4=  งามเลิศ! - คุณภาพวัตถุโปร่งแสงดีกว่า แต่ช้าที่สุด
+options.graphics.tooltip.5= เปลี่ยนลักษณะของเมฆ ใบไม้ น้ำ เงา และด้านข้างของหญ้า
+options.graphics.tooltip.6= กราฟิกระดับ งามเลิศ! จะไม่สามารถใช้ร่วมกับแสงเงา และระบบลบรอยหยักได้
+options.graphics.tooltip.7=
+options.graphics.tooltip.8=
+
+of.options.renderDistance.tiny=เล็กกระจิ๋ว
+of.options.renderDistance.short=สั้น
+of.options.renderDistance.normal=ปกติ
+of.options.renderDistance.far=ไกล
+of.options.renderDistance.extreme=สุดขีด
+of.options.renderDistance.insane=บ้าระห่ำ
+of.options.renderDistance.ludicrous=น่าขำ
+
+options.renderDistance.tooltip.1=ระยะการมองเห็น
+options.renderDistance.tooltip.2=  2 เล็กกระจิ๋ว - 32 ม. (เร็วที่สุด)
+options.renderDistance.tooltip.3=  8 ปกติ - 128 ม. (ปกติ)
+options.renderDistance.tooltip.4=  16 ไกล - 256 ม. (ช้ากว่า)
+options.renderDistance.tooltip.5=  32 สุดขีด - 512 ม. (ช้าจัด ๆ !) ต้องการทรัพยากรอันสูงส่ง
+options.renderDistance.tooltip.6=  48 บ้าระห่ำ - 768 ม. ต้องแบ่ง RAM ให้ตัวเกม 2 GB
+options.renderDistance.tooltip.7=  64 น่าขำ - 1024 ม. ต้องแบ่ง RAM ให้ตัวเกม 3 GB
+options.renderDistance.tooltip.8= ค่าที่มากกว่า 16 ไกล จะใช้ได้แค่ในโลกเล่นคนเดียวเท่านั้น
+
+options.simulationDistance.tooltip.1=ระยะการจำลอง
+options.simulationDistance.tooltip.2=  5-12 - ปกติ (เร็วกว่า)
+options.simulationDistance.tooltip.3=  13-24 - ไกล (ช้ากว่า)
+options.simulationDistance.tooltip.4=  25-32 - สุดขีด (ช้าที่สุด)
+options.simulationDistance.tooltip.5= ควบคุมว่าจะให้อัพเดตชังก์และเอนติตี้ไกลจากผู้เล่นมาก
+options.simulationDistance.tooltip.6=หรือน้อยแค่ไหน
+options.simulationDistance.tooltip.7= ค่ายิ่งมากอาจก่อให้เกิด Lag Spike ขึ้นได้มากอย่างเห็นได้ชัด
+
+options.entityDistanceScaling.tooltip.1=ระยะการเรนเดอร์เอนติตี้
+options.entityDistanceScaling.tooltip.2=  50%% - เร็วกว่า
+options.entityDistanceScaling.tooltip.3=  100%% - ปกติ
+options.entityDistanceScaling.tooltip.4=  500%% - ช้ากว่า
+options.entityDistanceScaling.tooltip.5= เปลี่ยนระยะทางสูงสุดที่จะเห็นเอนติตี้
+
+options.ao.tooltip.1=แสงนวล
+options.ao.tooltip.2=  ปิด - ไม่มีแสงนวล (เร็ว)
+options.ao.tooltip.3=  ขั้นต่ำ - แสงนวลแบบเรียบง่าย(ช้ากว่า)
+options.ao.tooltip.4=  ขั้นสูงสุด - แสงนวลแบบซับซ้อน (ช้าที่สุด)
+
+options.framerateLimit.tooltip.1=อัตราเฟรมสูงสุด
+options.framerateLimit.tooltip.2=  VSync - จำกัดอัตราเฟรมให้เท่ากับอัตราการรีเฟรชของจอ (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - จำกัดเฟรมตามที่ตั้งไว้
+options.framerateLimit.tooltip.4=  ไม่จำกัด - เหนือทะลุขีดจำกัด (เร็วที่สุด)
+options.framerateLimit.tooltip.5= ขีดจำกัดของอัตราเฟรมจะลดอัตราเฟรมลง แม้ว่าจะยังไม่ถึงขีดจำกัดก็ตาม
+options.framerateLimit.tooltip.6=
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=ระดับแสงนวล
+of.options.AO_LEVEL.tooltip.1=ระดับแสงนวล
+of.options.AO_LEVEL.tooltip.2=  ปิด - ไม่มีเงา
+of.options.AO_LEVEL.tooltip.3=  50%% - เงาสว่าง
+of.options.AO_LEVEL.tooltip.4=  100%% - เงามืด
+
+options.viewBobbing.tooltip.1=ทำให้การเคลื่อนไหวสมจริงมากขึ้น
+options.viewBobbing.tooltip.2=ปิดระดับความเร็วในการคำนวณ เพื่อผลลัพธ์ที่ดีที่สุด
+
+options.guiScale.tooltip.1=ปรับขนาดของเมนู
+options.guiScale.tooltip.2=  อัตโนมัติ - ขนาดใหญ่ที่สุด
+options.guiScale.tooltip.3=  เล็ก, กลาง, ใหญ่ - 1x ถึง 3x
+options.guiScale.tooltip.4=  4x ถึง 10x - ใช้ได้บนจอ 4K
+options.guiScale.tooltip.5=ค่าที่เป็นเลขคี่ (1x, 3x, 5x ...) จะไม่เข้ากันกับ Unicode.
+options.guiScale.tooltip.6=เมนูขนาดที่เล็กกว่าอาจเร็วกว่า
+
+options.vbo=ใช้ระบบ VBO
+options.vbo.tooltip.1=VBO: Vertex Buffer Objects
+options.vbo.tooltip.2= จะใช้วิธีการแบบทางเลือกในการเรนเดอร์โมเดล ซึ่งโดยปกติแล้ว
+options.vbo.tooltip.3=จะเร็วกว่าการเรนเดอร์แบบปกติ (5-10%%)
+options.gamma.tooltip.1=ปรับความสว่างของวัตถุที่มืดกว่า
+options.gamma.tooltip.2=  สลัว - ความสว่างแบบมาตรฐาน
+options.gamma.tooltip.3=  1-99%% - หลากหลาย
+options.gamma.tooltip.4=  สว่าง - ความสว่างสูงสุดสำหรับวัตถุที่มืดกว่า
+options.gamma.tooltip.5= ตัวเลือกนี้จะไม่เปลี่ยนความสว่างของวัตถุที่มีสีดำสนิทเป็นทุนเดิมอยู่แล้ว
+options.gamma.tooltip.6=
+
+options.anaglyph.tooltip.1=ภาพสามมิติแบบซ้อนเหลื่อม
+options.anaglyph.tooltip.2= เปิดเอฟเฟกต์ภาพสามมิติ โดยในตาแต่ละข้างจะใช้สีที่แตกต่างกัน
+options.anaglyph.tooltip.3= ต้องใช้ แว่นสามมิติเพื่อให้ได้ภาพที่เหมาะสม
+options.anaglyph.tooltip.4=
+
+options.attackIndicator.tooltip.1=กำหนดตำแหน่งของแถบตัวบ่งชี้การโจมตี
+options.attackIndicator.tooltip.2=  เป้าเล็ง - ใต้เป้าเล็ง
+options.attackIndicator.tooltip.3=  แถบลัด - ข้าง ๆ แถบลัด
+options.attackIndicator.tooltip.4=  ปิด - ปิดแถบตัวบ่งชี้การโจมตี
+options.attackIndicator.tooltip.5= แถบตัวบ่งชี้การโจมตีจะแสดงให้เห็นถึงพลังการโจมตีของสิ่งของที่
+options.attackIndicator.tooltip.6=ถืออยู่ในมือ
+
+options.screenEffectScale.tooltip.1=เอฟเฟกต์การบิดเบือน
+options.screenEffectScale.tooltip.2=  ปิด - ปิด
+options.screenEffectScale.tooltip.3=  1-100%% - เปิด
+options.screenEffectScale.tooltip.4= ควบคุมความเข้มข้นของเอฟเฟกต์การบิดเบือนของจอภาพ
+options.screenEffectScale.tooltip.5=เช่น  ภาพเคลื่อนไหวของประตูมิติ หรือเอฟเฟกต์คลื่นไส้
+
+options.autosaveIndicator.tooltip.1=ตัวบ่งชี้การบันทึกอัตโนมัติ
+options.autosaveIndicator.tooltip.2=  ปิด - ปิด
+options.autosaveIndicator.tooltip.3=  เปิด - เปิด
+options.autosaveIndicator.tooltip.4= จะแสดงเมื่อตัวเกมกำลังบันทึกโลกโดยอัตโนมัติ
+
+options.fovEffectScale.tooltip.1=เอฟเฟกต์ระยะการมอง
+options.fovEffectScale.tooltip.2=  ปิด - ปิด
+options.fovEffectScale.tooltip.3=  1-100%% - เปิด
+options.fovEffectScale.tooltip.4= ควบคุมความเข้มข้นในการซูมของหน้าจออย่างการดึงคันธนู การวิ่ง
+options.fovEffectScale.tooltip.5=หรือการบิน
+
+options.prioritizeChunkUpdates.tooltip.1=ตัวสร้างชังก์
+options.prioritizeChunkUpdates.tooltip.2= สายโยงใย - อัพเดตทุก ๆ ชังก์ในพื้นหลัง
+options.prioritizeChunkUpdates.tooltip.3= แปลงแบบกึ่งเต็มบล็อก - อัพเดตชังก์ที่มีผู้เล่นอยู่ทันที
+options.prioritizeChunkUpdates.tooltip.4= แปลงแบบเต็มบล็อก - อัพเดตทุกชังก์ที่อยู่ใกล้ ๆ ทันที
+options.prioritizeChunkUpdates.tooltip.5=การอัพเดตแบบสายโยงใยอาจให้เห็นหลุมในภูมิประเทศได้ในระยะเวลาสั้น ๆ
+options.prioritizeChunkUpdates.tooltip.6=การแปลงแบบเต็มบล็อกอาจทำให้เกิด Lag Spike อย่างเห็นได้ชัด
+
+of.options.ALTERNATE_BLOCKS=บล็อกทางเลือก
+of.options.ALTERNATE_BLOCKS.tooltip.1=บล็อกทางเลือก
+of.options.ALTERNATE_BLOCKS.tooltip.2= ปิดการใช้งานของโมเดลบล็อกทางเลือกให้กับบล็อกบางบล็อก
+of.options.ALTERNATE_BLOCKS.tooltip.3= ขึ้นอยู่กับรีซอร์ซแพ็กที่กำลังใช้อยู่
+
+of.options.FOG_FANCY=หมอก
+of.options.FOG_FANCY.tooltip.1=ชนิดของหมอก
+of.options.FOG_FANCY.tooltip.2=  เร็ว - หมอกแบบที่เร็วกว่า
+of.options.FOG_FANCY.tooltip.3=  สวยงาม - หมอกแบบที่ช้ากว่า แต่ดูดีกว่า
+of.options.FOG_FANCY.tooltip.4=  ปิด - ปิดหมอก เร็วที่สุด
+of.options.FOG_FANCY.tooltip.5=หมอกแบบสวยงามจะใช้ได้ก็ต่อเมื่อการ์ดจอรองรับได้เท่านั้น
+of.options.FOG_FANCY.tooltip.6=
+
+of.options.FOG_START=ระยะที่หมอกเริ่ม
+of.options.FOG_START.tooltip.1=ระยะที่หมอกเริ่ม
+of.options.FOG_START.tooltip.2=  0.2 - หมอกจะเริ่มใกล้กับตัวผู้เล่น
+of.options.FOG_START.tooltip.3=  0.8 - หมอกจะเริ่มไกลจากตัวผู้เล่น
+of.options.FOG_START.tooltip.4=ตัวเลือกนี้โดยปกติแล้วจะไม่ส่งผลกระทบต่อประสิทธิภาพใด ๆ
+
+of.options.CHUNK_LOADING=การโหลดชังก์
+of.options.CHUNK_LOADING.tooltip.1=การโหลดชังก์
+of.options.CHUNK_LOADING.tooltip.2=  ค่าเริ่มต้น - อัตราเฟรมจะไม่เสถียรเมื่อโหลดชังก์
+of.options.CHUNK_LOADING.tooltip.3=  ราบรื่น - อัตราเฟรมจะเสถียร
+of.options.CHUNK_LOADING.tooltip.4=  มัลติคอร์ - อัตราเฟรมจะเสถียร และโหลดโลกเร็วกว่าถึง 3 เท่า
+of.options.CHUNK_LOADING.tooltip.5= การโหลดชังก์แบบราบรื่น และแบบมัลติคอร์จะไม่ก่อให้เกิดการติดขัด 
+of.options.CHUNK_LOADING.tooltip.6=หรือค้างโดยการโหลดของชังก์
+of.options.CHUNK_LOADING.tooltip.7=การโหลดชังก์แบบมัลติคอร์สามารถเร่งการโหลดโลกได้ 3 เท่า และ
+of.options.CHUNK_LOADING.tooltip.8=เพิ่มอัตราเฟรมได้โดยใช้ซีพียูเพิ่มอีกหนึ่งหัว
+of.options.chunkLoading.smooth=ราบรื่น
+of.options.chunkLoading.multiCore=มัลติคอร์
+
+of.options.shaders=แสงเงา...
+of.options.shadersTitle=แสงเงา
+
+of.options.shaders.packNone=ปิด
+of.options.shaders.packDefault=(internal)
+
+of.options.shaders.ANTIALIASING=ลบรอยหยัก
+of.options.shaders.ANTIALIASING.tooltip.1=ลบรอยหยัก
+of.options.shaders.ANTIALIASING.tooltip.2=  ปิด - (ค่าเริ่มต้น) ไม่มีการลบรอยหยัก (เร็วกว่า)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - ลบรอยหยักบนเส้นและขอบต่าง ๆ(ช้ากว่า)
+of.options.shaders.ANTIALIASING.tooltip.4= FXAA คือเอฟเฟกต์การโพสต์โปรเซส ที่จะทำให้เส้นหยัก ๆ และการเปลี่ยน
+of.options.shaders.ANTIALIASING.tooltip.5=ผ่านของสีดูเนียนตามากขึ้น
+of.options.shaders.ANTIALIASING.tooltip.6= ตัวเลือกลบรอยหยักในนี้ จะเร็วกว่าตัวเลือกลบรอยหยักแบบเดิม และใช้กับ
+of.options.shaders.ANTIALIASING.tooltip.7=แสงเงา ได้
+
+of.options.shaders.NORMAL_MAP=Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.1=Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.2=  เปิด - (ค่าเริ่มต้น) เปิดการใช้งาน Normal Map 
+of.options.shaders.NORMAL_MAP.tooltip.3=  ปิด - ปิดการใช้งาน Normal Map
+of.options.shaders.NORMAL_MAP.tooltip.4= Normal maps จะถูกใช้โดยเซดเดอร์แพ็ก เพื่อจำลองเรขาคณิต 3 มิติ
+of.options.shaders.NORMAL_MAP.tooltip.5=บนพื้นผิวแบน
+of.options.shaders.NORMAL_MAP.tooltip.6= ทั้งนี้ ขึ้นอยู่กับว่ารีซอร์ซแพ็กที่ใช้อยู่ จะรองรับการใช้งานของ Normal Map 
+of.options.shaders.NORMAL_MAP.tooltip.7=หรือไม่
+
+of.options.shaders.SPECULAR_MAP=Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.1=Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.2=  เปิด - (ค่าเริ่มต้น) เปิดการใช้งาน Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.3=  ปิด - ปิดการใช้งาน Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.4= Specular maps จะถูกใช้โดยแสงเงา เพื่อจำลองเอฟเฟกต์เงาสะท้อน
+of.options.shaders.SPECULAR_MAP.tooltip.5=แบบพิเศษ
+of.options.shaders.SPECULAR_MAP.tooltip.6= ทั้งนี้ ขึ้นอยู่กับว่ารีซอร์ซแพ็กที่ใช้อยู่ จะรองรับการใช้งานของ Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.7=หรือไม่
+
+of.options.shaders.RENDER_RES_MUL=คุณภาพการเรนเดอร์
+of.options.shaders.RENDER_RES_MUL.tooltip.1=คุณภาพการเรนเดอร์
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - ต่ำ (เร็วที่สุด)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - มาตรฐาน (ค่าเริ่มต้น)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - สูง (ช้าที่สุด)
+of.options.shaders.RENDER_RES_MUL.tooltip.5= คุณภาพการเรนเดอร์ จะควบคุมขนาดของภาพที่เชดเดอร์แพ็ก ได้ทำการ
+of.options.shaders.RENDER_RES_MUL.tooltip.6=เรนเดอร์
+of.options.shaders.RENDER_RES_MUL.tooltip.7= ค่าต่ำ ๆ อาจเป็นประโยชน์กับจอความละเอียด 4K ได้
+of.options.shaders.RENDER_RES_MUL.tooltip.8=ส่วนค่าสูง ๆ ทำหน้าที่เป็นระบบลบรอยหยักได้
+
+of.options.shaders.SHADOW_RES_MUL=คุณภาพของเงา
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=คุณภาพของเงา
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - ต่ำ (เร็วที่สุด)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - มาตรฐาน (ค่าเริ่มต้น)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - สูง (ช้าที่สุด)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5= ตัวเลือกคุณภาพของเงา จะควบคุมความละเอียดของเงาที่เชดเดอร์แพ็ก ใช้ 
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=  ถ้าค่ายิ่งต่ำ เงาจะยิ่งหยาบ และยิ่งไม่ชัด
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=  ถ้าค่ายิ่งสูง เงาจะยิ่งชัด และยิ่งมีรายละเอียด
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=
+
+of.options.shaders.HAND_DEPTH_MUL=ระยะมือ
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=ระยะมือ
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - มือจะอยู่ใกล้กับตัวกล้อง
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (ค่าเริ่มต้น)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - มือจะอยู่ไกลจากตัวกล้อง
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5= ตัวเลือกระยะมือ จะควบคุมว่าวัตถุที่ถืออยู่จะห่างจะตัวกล้องมากแค่ไหน
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=สำหรับแสงเงาที่มีฟังก์ชั่น ระยะการเบลอ ตัวเลือกนี้จะช่วยแก้ปัญหาวัตถุ
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=ในมือเบลอได้
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=
+
+of.options.shaders.CLOUD_SHADOW=เงาของตัวเมฆ
+
+of.options.shaders.OLD_HAND_LIGHT=แสงกระทบมือแบบเก่า
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=แสงกระทบมือแบบเก่า
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  ค่าเริ่มต้น - จะถูกควบคุมโดยเชดเดอร์แพ็กเอง
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  เปิด - ใช้แสงกระทบมือแบบเก่า
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  ปิด - ใช้แสงกระทบมือแบบใหม่
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=ตัวเลือกแสงกระทบมือแบบเก่า จะให้เชดเดอร์แพ็กที่เข้าใจใน
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=ระบบการเปล่งแสงของสิ่งของในมือหลัก เพื่อให้สามารถใช้กับสิ่งของในมือรองได้
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=
+
+of.options.shaders.OLD_LIGHTING=แสงแบบเก่า
+of.options.shaders.OLD_LIGHTING.tooltip.1=แสงแบบเก่า
+of.options.shaders.OLD_LIGHTING.tooltip.2=  ค่าเริ่มต้น - จะถูกควบคุมโดยเชดเดอร์แพ็กเอง
+of.options.shaders.OLD_LIGHTING.tooltip.3=  เปิด - ใช้แสงเงาแบบเก่า
+of.options.shaders.OLD_LIGHTING.tooltip.4=  ปิด - ไม่ใช้แสงเงาแบบเก่า
+of.options.shaders.OLD_LIGHTING.tooltip.5= ตัวเลือกแสงเงาแบบเก่า จะเป็นการควบคุมแสงเงาที่กระทบกับด้านข้างของ
+of.options.shaders.OLD_LIGHTING.tooltip.6=บล็อกให้อยู่กับที่ซึ่งเป็นแสงเงาแบบที่ Minecraft ปกติใช้ประจำ 
+of.options.shaders.OLD_LIGHTING.tooltip.7=โดยแสงเงานั้น มักจะเพิ่มแสงเงาทำให้แส่งสีในเกม ดูสวยงาม
+of.options.shaders.OLD_LIGHTING.tooltip.8=มากขึ้น ตามตำแหน่งของดวงอาทิตย์
+
+of.options.shaders.DOWNLOAD=ดาวน์โหลดแสงเงา
+of.options.shaders.DOWNLOAD.tooltip.1=ดาวน์โหลดแสงเงา
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=เปิดหน้าแสงเงา ในตัวบราวเซอร์
+of.options.shaders.DOWNLOAD.tooltip.4= ให้ใส่แสงเงาที่ดาวน์โหลดมาแล้วลงในโฟลเดอร์ "shaderpacks"
+of.options.shaders.DOWNLOAD.tooltip.5=แล้วจะมีให้เลือกในตัวเลือกของ แสงเงา ที่ติดตั้งแล้ว
+
+of.options.shaders.SHADER_PACK=แสงเงา
+
+of.options.shaders.shadersFolder=โฟลเดอร์แสงเงา
+of.options.shaders.shaderOptions=ตั้งค่าแสงเงา...
+
+of.options.shaderOptionsTitle=การตั้งค่าแสงเงา...
+
+of.options.quality=คุณภาพ...
+of.options.qualityTitle=การตั้งค่าคุณภาพ
+
+of.options.details=รายละเอียด...
+of.options.detailsTitle=การตั้งค่ารายละเอียด
+
+of.options.performance=ประสิทธิภาพ...
+of.options.performanceTitle=การตั้งค่าประสิทธิภาพ
+
+of.options.animations=ภาพเคลื่อนไหว...
+of.options.animationsTitle=การตั้งค่าภาพเคลื่อนไหว
+
+of.options.other=ตัวเลือกอื่น ๆ...
+of.options.otherTitle=การตั้งค่าตัวเลือกอื่น ๆ...
+
+of.options.other.reset=รีเซ็ตการตั้งค่ากราฟิก...
+
+of.shaders.profile=โปรไฟล์
+
+# Quality
+
+of.options.mipmap.bilinear=ไบลิเนียร์
+of.options.mipmap.linear=เส้นตรง
+of.options.mipmap.nearest=ใกล้ที่สุด
+of.options.mipmap.trilinear=ไตรลิเนียร์
+
+options.mipmapLevels.tooltip.1= เอฟเฟกต์ภาพที่จะทำให้วัตถุที่อยู่ไกลดูดีขึ้น โดยการทำให้รายละเอียด
+options.mipmapLevels.tooltip.2=ของภาพวัตถุดูนวลขึ้น
+options.mipmapLevels.tooltip.3=  ปิด - ภาพดูไม่นวล
+options.mipmapLevels.tooltip.4=  1 - ภาพดูนวลเล็กน้อย
+options.mipmapLevels.tooltip.5=  สูงสุด - ความนวลของภาพสูงสุด
+options.mipmapLevels.tooltip.6= โดยปกติแล้ว ตัวเลือกนี้จะไม่ส่งผลกระทบต่อประสิทธิภาพใด ๆ ทั้งสิ้น
+
+of.options.MIPMAP_TYPE=รูปแบบความเร็วในการคำนวณ
+of.options.MIPMAP_TYPE.tooltip.1= เอฟเฟกต์ภาพที่จะทำให้วัตถุที่อยู่ไกลดูดีขึ้น โดยการทำให้รายละเอียด
+of.options.MIPMAP_TYPE.tooltip.2=ของภาพวัตถุดูนวลขึ้น
+of.options.MIPMAP_TYPE.tooltip.3=  ใกล้ที่สุด - ทำให้ดูนวลแบบหยาบ ๆ (เร็วที่สุด)
+of.options.MIPMAP_TYPE.tooltip.4=  เส้นตรง - ทำให้ดูนวลแบบปกติ
+of.options.MIPMAP_TYPE.tooltip.5=  ไบลิเนียร์ - ทำให้ดูนวลแบบดูดี
+of.options.MIPMAP_TYPE.tooltip.6=  ไตรลิเนียร์ - ทำให้ดูนวลแบบดูดีที่สุด (ช้าที่สุด)
+
+
+of.options.AA_LEVEL=ลบรอยหยัก
+of.options.AA_LEVEL.tooltip.1=ระบบการลบรอยหยัก
+of.options.AA_LEVEL.tooltip.2= ปิด - (ค่าเริ่มต้น) ไม่มีการลบรอยหยัก (เร็วกว่า)
+of.options.AA_LEVEL.tooltip.3= 2-16 - ลบรอยหยักบนเส้นและขอบต่าง ๆ(ช้ากว่า)
+of.options.AA_LEVEL.tooltip.4= การลบรอยหยัก จะช่วยทำให้เส้นหยัก ๆ และการเปลี่ยนผ่านของสีดู
+of.options.AA_LEVEL.tooltip.5=เนียนตามากขึ้น
+of.options.AA_LEVEL.tooltip.6= เมื่อเปิดแล้ว อาจลดอัตราเฟรมไปอย่างมาก
+of.options.AA_LEVEL.tooltip.7= ไม่ทุกระดับที่การ์ดจอทุกตัวจะรองรับ
+of.options.AA_LEVEL.tooltip.8= มีผลหลังรีสตาร์ตเกมเท่านั้น!
+
+of.options.AF_LEVEL=Anisotropic Filtering
+of.options.AF_LEVEL.tooltip.1=ระบบ Anisotropic Filtering
+of.options.AF_LEVEL.tooltip.2=  ปิด - (ค่าเริ่มต้น) รายละเอียดภาพแบบปกติ (เร็วกว่า)
+of.options.AF_LEVEL.tooltip.3=  2-16 - รายละเอียดภาพที่ดีกว่ากับพื้นผิวที่ผ่านการคำนวณมาแล้ว (ช้าที่สุด)
+of.options.AF_LEVEL.tooltip.4=Anisotropic Filtering จะฟื้นฟูรายละเอียดพื้นผิวที่ผ่านการคำนวณมาแล้ว
+of.options.AF_LEVEL.tooltip.5=เมื่อเปิดแล้ว อาจลดอัตราเฟรมไปอย่างมาก
+of.options.AF_LEVEL.tooltip.6=
+
+of.options.CLEAR_WATER=น้ำใส
+of.options.CLEAR_WATER.tooltip.1=น้ำใส
+of.options.CLEAR_WATER.tooltip.2=  เปิด - น้ำดูโปร่ง ใส
+of.options.CLEAR_WATER.tooltip.3=  ปิด - น้ำแบบปกติ
+
+of.options.RANDOM_ENTITIES=สุ่มเอนติตี
+of.options.RANDOM_ENTITIES.tooltip.1=สุ่มเอนติตี
+of.options.RANDOM_ENTITIES.tooltip.2=  ปิด - ไม่มีการสุ่มเอนติตี แต่เร็วกว่า
+of.options.RANDOM_ENTITIES.tooltip.3=  เปิด - มีการสุ่มเอนติตี แต่ช้ากว่า
+of.options.RANDOM_ENTITIES.tooltip.4= การสุ่มเอนติตีจะใช้พื้นผิวแบบสุ่มให้กับเอนติตีในเกม
+of.options.RANDOM_ENTITIES.tooltip.5= จำเป็นต้องใช้รีซอร์ซแพ็กที่มีหลายพื้นผิวเอนติตี
+
+of.options.BETTER_GRASS=คุณภาพหญ้า
+of.options.BETTER_GRASS.tooltip.1=คุณภาพหญ้า
+of.options.BETTER_GRASS.tooltip.2=  ปิด - พื้นผิวด้านข้างของหญ้าเป็นปกติ  เร็วที่สุด
+of.options.BETTER_GRASS.tooltip.3=  เร็ว - พื้นหญ้าแบบเต็ม แต่ช้ากว่า
+of.options.BETTER_GRASS.tooltip.4=  สวยงาม - พื้นผิวด้านข้างของหญ้าแบบไดนามิก  ช้าที่สุด
+
+of.options.BETTER_SNOW=คุณภาพหิมะ
+of.options.BETTER_SNOW.tooltip.1=คุณภาพหิมะ
+of.options.BETTER_SNOW.tooltip.2=  ปิด - หิมะแบบปกติ เร็วกว่า
+of.options.BETTER_SNOW.tooltip.3=  เปิด - หิมะดีกว่า ช้ากว่า
+of.options.BETTER_SNOW.tooltip.4= แสดงหิมะใต้บล็อกโปร่งใส (รั้ว, หญ้าสูง) เมื่ออยู่บริเวณขอบหิมะ
+of.options.BETTER_SNOW.tooltip.5=
+
+of.options.CUSTOM_FONTS=ฟอนต์แบบกำหนดเอง
+of.options.CUSTOM_FONTS.tooltip.1=ฟอนต์แบบกำหนดเอง
+of.options.CUSTOM_FONTS.tooltip.2=  เปิด - ใช้ฟอนต์แบบกำหนดเอง(ค่าเริ่มต้น)   ช้ากว่า
+of.options.CUSTOM_FONTS.tooltip.3=  ปิด - ใช้ฟอนต์แบบดั้งเดิม  เร็วกว่า
+of.options.CUSTOM_FONTS.tooltip.4= โดยฟอนต์ที่กำหนดเองนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.CUSTOM_FONTS.tooltip.5=
+
+of.options.CUSTOM_COLORS=สีที่กำหนดเอง
+of.options.CUSTOM_COLORS.tooltip.1=สีที่กำหนดเอง
+of.options.CUSTOM_COLORS.tooltip.2=  เปิด - ใช้สีที่กำหนดเอง(ค่าเริ่มต้น)   ช้ากว่า
+of.options.CUSTOM_COLORS.tooltip.3=  ปิด - ใช้สีแบบดั้งเดิม  เร็วกว่า
+of.options.CUSTOM_COLORS.tooltip.4= โดยสีที่กำหนดเองนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.CUSTOM_COLORS.tooltip.5=
+
+of.options.SWAMP_COLORS=สีบึงหนอง
+of.options.SWAMP_COLORS.tooltip.1=สีบึงหนอง
+of.options.SWAMP_COLORS.tooltip.2=  เปิด - ใช้สีบึงหนอง (ค่าเริ่มต้น)  ช้ากว่า
+of.options.SWAMP_COLORS.tooltip.3=  ปิด - ไม่ใช้สีบึงหนอง  เร็วกว่า
+of.options.SWAMP_COLORS.tooltip.4= โดยสีบึงหนองนั้น จะมีผลต่อหญ้า ใบไม้ เถาวัลย์ และน้ำ
+
+of.options.SMOOTH_BIOMES=การประสานไบโอม
+of.options.SMOOTH_BIOMES.tooltip.1=การประสานไบโอม
+of.options.SMOOTH_BIOMES.tooltip.2=  เปิด - ทำให้ขอบไบโอมประสานกันได้นวลขึ้น  (ค่าเริ่มต้น)  ช้ากว่า
+of.options.SMOOTH_BIOMES.tooltip.3=  ปิด - ปิดการทำให้ขอบไบโอมประสานกันนวลขึ้น  เร็วกว่า
+of.options.SMOOTH_BIOMES.tooltip.4= โดยการทำขอบไบโอมประสานกันได้นวลขึ้นนั้น  ทำได้โดยการเลือกตัวอย่างมาแล้วเฉลี่ยสีที่อยู่โดยรอบ
+of.options.SMOOTH_BIOMES.tooltip.5= มีผลต่อหญ้า ใบไม้ เถาวัลย์ และน้ำ
+of.options.SMOOTH_BIOMES.tooltip.6= 
+
+of.options.CONNECTED_TEXTURES=การเชื่อมของพื้นผิว
+of.options.CONNECTED_TEXTURES.tooltip.1=การเชื่อมของพื้นผิว
+of.options.CONNECTED_TEXTURES.tooltip.2=  ปิด -ไม่มีการเชื่อมของพื้นผิว (ค่าเริ่มต้น)
+of.options.CONNECTED_TEXTURES.tooltip.3=  เร็ว - เชื่อมพื้นผิวแบบเร็ว
+of.options.CONNECTED_TEXTURES.tooltip.4=  สวยงาม - เชื่อมพื้นผิวแบบสวยงาม
+of.options.CONNECTED_TEXTURES.tooltip.5= การเชื่อมของพื้นผิว จะเชื่อมพื้นผิวของกระจก หินทราย 
+of.options.CONNECTED_TEXTURES.tooltip.6=และชั้นหนังสือเมื่อวางไว้ข้างกัน
+of.options.CONNECTED_TEXTURES.tooltip.7= การเชื่อมของพื้นผิวนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.CONNECTED_TEXTURES.tooltip.8=
+
+of.options.NATURAL_TEXTURES=พื้นผิวแบบเหมือนจริง
+of.options.NATURAL_TEXTURES.tooltip.1=พื้นผิวแบบเหมือนจริง
+of.options.NATURAL_TEXTURES.tooltip.2=  ปิด - ไม่มีพื้นผิวแบบเหมือนจริง (ค่าเริ่มต้น)
+of.options.NATURAL_TEXTURES.tooltip.3=  เปิด - ใช้พื้นผิวแบบเหมือนจริง
+of.options.NATURAL_TEXTURES.tooltip.4= พื้นผิวแบบเหมือนจริง จะนำรูปแบบพื้นผิวที่คล้ายตะแกรง โดยสร้างบล็อก
+of.options.NATURAL_TEXTURES.tooltip.5=ที่มีลักษณะเหมือนกันออก โดยจะใช้วิธีการหมุนและพลิกพื้นผิวบนตัวบล็อก
+of.options.NATURAL_TEXTURES.tooltip.6= พื้นผิวแบบเหมือนจริงนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.NATURAL_TEXTURES.tooltip.7=
+of.options.NATURAL_TEXTURES.tooltip.8=
+
+of.options.EMISSIVE_TEXTURES=พื้นผิวเปล่งปลั่ง
+of.options.EMISSIVE_TEXTURES.tooltip.1=พื้นผิวเปล่งปลั่ง
+of.options.EMISSIVE_TEXTURES.tooltip.2=  ปิด - ไม่มีพื้นผิวเปล่งปลั่ง (ค่าเริ่มต้น)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  เปิด - ใช้พื้นผิวเปล่งปลั่ง
+of.options.EMISSIVE_TEXTURES.tooltip.4= พื้นผิวเปล่งแสงจะถูกเรนเดอร์แบบซ้อนทับโดยจะมีความสว่างสูงสุด และ
+of.options.EMISSIVE_TEXTURES.tooltip.5=สามารถใช้จำลองความเปล่งปลั่งของส่วนที่อยู่บนพื้นผิวหลักได้
+of.options.EMISSIVE_TEXTURES.tooltip.6= พื้นผิวที่เปล่งปลั่งนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.EMISSIVE_TEXTURES.tooltip.7=
+of.options.EMISSIVE_TEXTURES.tooltip.8=
+
+of.options.CUSTOM_SKY=ท้องฟ้าที่กำหนดเอง
+of.options.CUSTOM_SKY.tooltip.1=ท้องฟ้าที่กำหนดเอง
+of.options.CUSTOM_SKY.tooltip.2=  เปิด - ใช้ท้องฟ้าที่กำหนดเอง (ค่าเริ่มต้น)  ช้า
+of.options.CUSTOM_SKY.tooltip.3=  ปิด - ท้องฟ้าแบบค่าเริ่มต้น  เร็วกว่า
+of.options.CUSTOM_SKY.tooltip.4= ท้องฟ้าที่กำหนดเองนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.CUSTOM_SKY.tooltip.5=
+
+of.options.CUSTOM_ITEMS=สิ่งของที่กำหนดเอง
+of.options.CUSTOM_ITEMS.tooltip.1=สิ่งของที่กำหนดเอง
+of.options.CUSTOM_ITEMS.tooltip.2=  เปิด - ใช้สิ่งของที่กำหนดเอง (ค่าเริ่มต้น)  ช้า
+of.options.CUSTOM_ITEMS.tooltip.3=  ปิด - ใช้สิ่งของตามค่าเริ่มต้น  เร็วกว่า
+of.options.CUSTOM_ITEMS.tooltip.4= สิ่งของที่กำหนดเองนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.CUSTOM_ITEMS.tooltip.5=
+
+of.options.CUSTOM_ENTITY_MODELS=โมเดลเอนติตีที่กำหนดเอง
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=โมเดลเอนติตีที่กำหนดเอง
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  เปิด - ใช้โมเดลเอนติตีที่กำหนดเอง (ค่าเริ่มต้น) ช้า
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  ปิด - ใช้โมเดลเอนติตีตามเริ่มต้น เร็วกว่า
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4= โมเดลเอนติตีที่กำหนดเองนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=
+
+of.options.CUSTOM_GUIS=เมนูที่กำหนดเอง
+of.options.CUSTOM_GUIS.tooltip.1=เมนูที่กำหนดเอง
+of.options.CUSTOM_GUIS.tooltip.2=  เปิด - ใช้เมนูที่กำหนดเอง (ค่าเริ่มต้น)  ช้ากว่า
+of.options.CUSTOM_GUIS.tooltip.3=  ปิด - ใช้เมนูแบบค่าเริ่มต้น  เร็วกว่า
+of.options.CUSTOM_GUIS.tooltip.4=เมนูที่กำหนดเองนั้น จะถูกจัดมาพร้อมกับรีซอร์ซแพ็กที่รองรับ
+
+# Details
+
+of.options.CLOUDS=เมฆ
+of.options.CLOUDS.tooltip.1=เมฆ
+of.options.CLOUDS.tooltip.2=  ค่าเริ่มต้น - ใช้ตามที่ตัวเลือก กราฟิก ได้ตั้งเอาไว้
+of.options.CLOUDS.tooltip.3=  เร็ว - คุณภาพต่ำกว่า เร็วกว่า
+of.options.CLOUDS.tooltip.4=  สวยงาม - คุณภาพดีกว่า ช้ากว่า
+of.options.CLOUDS.tooltip.5=  ปิด - ปิดการใช้งานเมฆ เร็วที่สุด
+of.options.CLOUDS.tooltip.6=เมฆแบบเร็วจะถูกเรนเดอร์แบบสองมิติ
+of.options.CLOUDS.tooltip.7=เมฆแบบสวยงามจะถูกเรนเดอร์แบบสามมิติ
+
+of.options.CLOUD_HEIGHT=ความสูงของเมฆ
+of.options.CLOUD_HEIGHT.tooltip.1=ความสูงของเมฆ
+of.options.CLOUD_HEIGHT.tooltip.2=  ปิด - ความสูงแบบปกติ
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - เหนือขีดจำกัดความสูงของโลก
+
+of.options.TREES=ต้นไม้
+of.options.TREES.tooltip.1=ต้นไม้
+of.options.TREES.tooltip.2=  ค่าเริ่มต้น - ใช้ตามที่ตัวเลือก กราฟิก ได้ตั้งเอาไว้
+of.options.TREES.tooltip.3=  เร็ว - คุณภาพต่ำกว่า แต่เร็วกว่า
+of.options.TREES.tooltip.4=  ฉลาด - คุณภาพดีกว่า และเร็ว
+of.options.TREES.tooltip.5=  สวยงาม - คุณภาพดีที่สุด แต่ช้ากว่า
+of.options.TREES.tooltip.6= ต้นไม้แบบเร็วจะมีใบไม้ที่ทึบ
+of.options.TREES.tooltip.7= ต้นไม้แบบฉลาดและสวยงามจะมีใบไม้ที่โปร่ง
+
+of.options.RAIN=ฝน และหิมะ
+of.options.RAIN.tooltip.1=ฝน และหิมะ
+of.options.RAIN.tooltip.2=  ค่าเริ่มต้น - ใช้ตามที่ตัวเลือก กราฟิก ได้ตั้งเอาไว้
+of.options.RAIN.tooltip.3=  เร็ว  - ฝน/หิมะ น้อย ๆ เร็วกว่า
+of.options.RAIN.tooltip.4=  สวยงาม - ฝน/หิมะ มาก ๆ ช้ากว่า
+of.options.RAIN.tooltip.5=  ปิด - ปิดการใช้งานฝนและหิมะ เร็วที่สุด
+of.options.RAIN.tooltip.6= เมื่อฝนถูกปิด อนุภาคฝนสาดและเสียงฝนจะยังคงอยู่
+of.options.RAIN.tooltip.7=
+
+of.options.SKY=ท้องฟ้า
+of.options.SKY.tooltip.1=ท้องฟ้า
+of.options.SKY.tooltip.2=  เปิด - ท้องฟ้าจะปรากฏให้เห็น แต่ช้ากว่า
+of.options.SKY.tooltip.3=  ปิด  - ท้องฟ้าจะไม่ปรากฏ แต่เร็วกว่า
+of.options.SKY.tooltip.4= เมื่อท้องฟ้าถูกปิด ดวงจันทร์และพระอาทิตย์จะยังปรากฏอยู่
+
+of.options.STARS=ดวงดาว
+of.options.STARS.tooltip.1=ดวงดาว
+of.options.STARS.tooltip.2=  เปิด - ดวงดาวจะปรากฏให้เห็น แต่ช้ากว่า
+of.options.STARS.tooltip.3=  ปิด  - ดวงดาวจะไม่ปรากฏ แต่เร็วกว่า
+
+of.options.SUN_MOON=พระอาทิตย์ และดวงจันทร์
+of.options.SUN_MOON.tooltip.1=พระอาทิตย์ และดวงจันทร์
+of.options.SUN_MOON.tooltip.2=  เปิด - พระอาทิตย์ และดวงจันทร์จะปรากฏให้เห็น (ค่าเริ่มต้น)
+of.options.SUN_MOON.tooltip.3=  ปิด  - พระอาทิตย์ และดวงจันทร์จะไม่ปรากฏ (เร็วกว่า)
+
+of.options.SHOW_CAPES=แสดงผ้าคลุม
+of.options.SHOW_CAPES.tooltip.1=แสดงผ้าคลุม
+of.options.SHOW_CAPES.tooltip.2=  เปิด - แสดงผ้าคลุมของผู้เล่น(ค่าเริ่มต้น)
+of.options.SHOW_CAPES.tooltip.3=  ปิด - ไม่แสดงผ้าคลุมของผู้เล่น
+
+of.options.TRANSLUCENT_BLOCKS=บล็อกโปร่งแสง
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=บล็อกโปร่งแสง
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  ค่าเริ่มต้น - ใช้ตามที่ตัวเลือก กราฟิก ได้ตั้งเอาไว้
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  สวยงาม - การผสมของสีเป็นไปตามที่ควรจะเป็น (ช้ากว่า)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  เร็ว - การผสมของสีฉบับเร็ว (เร็วกว่า)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5= ควบคุมการผสมสีของบล็อกโปร่งแสงที่มีสีต่างกัน
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=(กระจกสี, น้ำ, น้ำแข็ง) เมื่อวางด้านหลังของกันและกัน
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=โดยมีอากาศอยู่ตรงกลางระหว่างบล็อก
+
+of.options.HELD_ITEM_TOOLTIPS=คำแนะนำเครื่องมือที่ถืออยู่
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=คำแนะนำเครื่องมือที่ถืออยู่
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  เปิด - แสดงคำแนะนำของเครื่องมือที่ถืออยู่ (ค่าเริ่มต้น)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  ปิด - ไม่แสดงคำแนะนำของเครื่องมือที่ถืออยู่
+
+of.options.ADVANCED_TOOLTIPS=คำแนะนำขั้นสูง
+of.options.ADVANCED_TOOLTIPS.tooltip.1=คำแนะนำขั้นสูง
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  เปิด - แสดงคำแนะนำขั้นสูง
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  ปิด - ไม่แสดงคำแนะนำขั้นสูง (ค่าเริ่มต้น)
+of.options.ADVANCED_TOOLTIPS.tooltip.4= คำแนะนำขั้นสูง จะแสดงข้อมูลเพิ่มเติมของสิ่งของต่าง ๆ 
+of.options.ADVANCED_TOOLTIPS.tooltip.5=(ID, ความทนทาน) และข้อมูลเพิ่มเติมในการตั้งค่าแสงเงา
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(ID, ที่มา, ค่าเริ่มต้น)
+
+of.options.DROPPED_ITEMS=สิ่งของที่ตกหล่น
+of.options.DROPPED_ITEMS.tooltip.1=สิ่งของที่ตกหล่น
+of.options.DROPPED_ITEMS.tooltip.2=  ค่าเริ่มต้น - ใช้ตามที่ตัวเลือก กราฟิก ได้ตั้งเอาไว้
+of.options.DROPPED_ITEMS.tooltip.3=  เร็ว - สิ่งของที่ตกหล่นจะเป็นแบบสองมิติ (เร็วกว่า) *ไม่มีผล*
+of.options.DROPPED_ITEMS.tooltip.4=  สวยงาม - สิ่งของที่ตกหล่นจะเป็นแบบสามมิติ (ช้ากว่า)
+
+options.entityShadows.tooltip.1=เงาเอนติตี
+options.entityShadows.tooltip.2=  เปิด - แสดงเงาเอนติตี
+options.entityShadows.tooltip.3=  ปิด - ไม่แสดงเงาเอนติตี
+
+of.options.VIGNETTE=Vignette
+of.options.VIGNETTE.tooltip.1= เอฟเฟกต์ภาพที่จะทำให้มุมจอมืดลงเล็กน้อย
+of.options.VIGNETTE.tooltip.2=  ค่าเริ่มต้น - ใช้ตามที่ตัวเลือก กราฟิก ได้ตั้งเอาไว้ (ค่าเริ่มต้น)
+of.options.VIGNETTE.tooltip.3=  เร็ว - ปิด Vignette (เร็วกว่า)
+of.options.VIGNETTE.tooltip.4=  สวยงาม - เปิด Vignette (ช้ากว่า)
+of.options.VIGNETTE.tooltip.5= เอฟเฟกต์ Vignette อาจมีผลกระทบต่ออัตราเฟรม โดยเฉพาะขณะที่เล่น
+of.options.VIGNETTE.tooltip.6= แบบเต็มหน้าจอ เนื่องจากเอฟเฟกต์ Vignette บอบบางมาก จึงสามารถ
+of.options.VIGNETTE.tooltip.7=ปิดได้อย่างปลอดภัย
+of.options.VIGNETTE.tooltip.8=
+
+of.options.DYNAMIC_FOV=ระยะการมองเห็นแบบไดนามิก
+of.options.DYNAMIC_FOV.tooltip.1=ระยะการมองเห็นแบบไดนามิก
+of.options.DYNAMIC_FOV.tooltip.2=  เปิด - เปิดการใช้งานระยะการมองเห็นแบบไดนามิก (ค่าเริ่มต้น)
+of.options.DYNAMIC_FOV.tooltip.3=  ปิด - ปิดการใช้งานระยะการมองเห็นแบบไดนามิก
+of.options.DYNAMIC_FOV.tooltip.4= ระยะการมองเห็นแบบไดนามิก จะเปลี่ยนระยะการมองเห็นขณะที่บิน วิ่ง หรือ
+of.options.DYNAMIC_FOV.tooltip.5=ดึงคันธนู
+
+of.options.DYNAMIC_LIGHTS=แสงไดนามิก
+of.options.DYNAMIC_LIGHTS.tooltip.1=แสงไดนามิก
+of.options.DYNAMIC_LIGHTS.tooltip.2=  ปิด - ไม่มีแสงไดนามิก (ค่าเริ่มต้น)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  เร็ว - แสงไดนามิกฉบับเร็ว (จะอัพเดตทุก ๆ 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  สวยงาม - แสงไดนามิกฉบับสวยงาม (อัพเดตแบบ เรียลไทม์)
+of.options.DYNAMIC_LIGHTS.tooltip.5= เปิดการใช้งานการเปล่งแสงของสิ่งของที่เปล่งแสงได้
+of.options.DYNAMIC_LIGHTS.tooltip.6=(คบเพลิง หินเรืองแสง ฯลฯ) เพื่อส่องสว่างทุกอย่างที่อยู่รอบตัว
+of.options.DYNAMIC_LIGHTS.tooltip.7=มันในตอนที่ถืออยู่บนมือของผู้เล่นเอง ผู้เล่นคนอื่น หรือตกหล่นอยู่บนพื้น
+
+options.biomeBlendRadius.tooltip.1=ทำให้การประสานของสีระหว่างไบโอมดูเนียนขึ้น
+options.biomeBlendRadius.tooltip.2=  ปิด - ไม่มีการทำให้สีระหว่างไบโอมดูเรียบเนียน (เร็วที่สุด)
+options.biomeBlendRadius.tooltip.3=  5x5 - มีการทำให้สีระหว่างไบโอมดูเรียบเนียนแบบปกติ (ค่าเริ่มต้น)
+options.biomeBlendRadius.tooltip.4=  15x15 - มีการทำให้สีระหว่างไบโอมดูเรียบเนียนมากที่สุด (ช้าที่สุด)
+options.biomeBlendRadius.tooltip.5= ค่ายิ่งมากอาจก่อให้เกิดอาการ Lag Spike และทำให้การโหลดของชังก์ช้าลง
+options.biomeBlendRadius.tooltip.6=
+
+# Performance
+
+of.options.SMOOTH_FPS=อัตราเฟรมที่ลื่นไหล
+of.options.SMOOTH_FPS.tooltip.1= ทำอัตราเฟรมให้คงที่โดยล้างการบัฟเฟอร์ของไดรเวอร์การ์ดจอ
+of.options.SMOOTH_FPS.tooltip.2=  ปิด - ไม่มีการทำอัตราเฟรมให้คงที่ อัตราเฟรมอาจแกว่งได้
+of.options.SMOOTH_FPS.tooltip.3=  เปิด - มีการทำอัตราเฟรมให้คงที่
+of.options.SMOOTH_FPS.tooltip.4= ตัวเลือกนี้จะมีผลหรือไม่ ขึ้นอยู่กับไดร์เวอร์ของการ์ดจอ
+of.options.SMOOTH_FPS.tooltip.5=
+
+of.options.SMOOTH_WORLD=โลกที่ลื่นไหล
+of.options.SMOOTH_WORLD.tooltip.1= กำจัดอาการ Lag Spikes ที่เกิดจากตัวเซิร์ฟเวอร์ภายในเอง
+of.options.SMOOTH_WORLD.tooltip.2=  ปิด - ไม่มีการทำให้คงที่ อัตราเฟรมอาจแกว่งได้
+of.options.SMOOTH_WORLD.tooltip.3=  เปิด - มีการทำอัตราเฟรมให้คงที่
+of.options.SMOOTH_WORLD.tooltip.4= ทำอัตราเฟรมให้คงที่โดยการกระจายการโหลดของเซิร์ฟเวอร์ภายใน
+of.options.SMOOTH_WORLD.tooltip.5= มีผลแค่ในโลกผู้เล่นคนเดียวเท่านั้น
+
+of.options.FAST_RENDER=เรนเดอร์เร็ว
+of.options.FAST_RENDER.tooltip.1=เรนเดอร์ฉบับเร็ว
+of.options.FAST_RENDER.tooltip.2=  ปิด - เรนเดอร์ฉบับปกติ (ค่าเริ่มต้น)
+of.options.FAST_RENDER.tooltip.3=  เปิด - เพิ่มประสิทธิภาพการเรนเดอร์ (เร็วกว่า)
+of.options.FAST_RENDER.tooltip.4= ใช้กระบวนการเรนเดอร์ที่ได้รับการปรับปรุงมาแล้ว ซึ่งจะสามารถลดการใช้ซีพียู และอาจจะช่วย
+of.options.FAST_RENDER.tooltip.5=เพิ่มอัตราเฟรมได้เป็นอย่างมาก 
+of.options.FAST_RENDER.tooltip.6= ตัวเลือกนี้อาจไม่ถูกกับ Mod บางตัว
+
+of.options.FAST_MATH=คณิตศาสตร์แบบเร็ว
+of.options.FAST_MATH.tooltip.1=คณิตศาสตร์เร็ว
+of.options.FAST_MATH.tooltip.2=  ปิด - ใช้คณิตศาสตร์ในแบบปกติ (ค่าเริ่มต้น)
+of.options.FAST_MATH.tooltip.3=  เปิด - ใช้คณิตศาสตร์ในแบบที่เร็วกว่า
+of.options.FAST_MATH.tooltip.4= ใช้ฟังก์ชั่น sinθ และ cosθ ที่ได้รับการปรับปรุงมาแล้ว ซึ่งสามารถใช้ประโยชน์
+of.options.FAST_MATH.tooltip.5=ของแคชของซีพียู จนสามารถเพิ่มอัตราเฟรมได้
+of.options.FAST_MATH.tooltip.6= ตัวเลือกนี้ส่งผลต่อการสร้างโลกได้เร็วขึ้นเล็กน้อย
+
+of.options.CHUNK_UPDATES=การอัพเดตของชังก์
+of.options.CHUNK_UPDATES.tooltip.1=การอัพเดตของชังก์
+of.options.CHUNK_UPDATES.tooltip.2=  1 - โหลดโลกได้ช้ากว่า แต่ได้อัตราเฟรมที่สูงกว่า (ค่าเริ่มต้น)
+of.options.CHUNK_UPDATES.tooltip.3=  3 - โหลดโลกได้เร็วกว่า แต่ได้อัตราเฟรมที่ต่ำกว่า
+of.options.CHUNK_UPDATES.tooltip.4=  5 - โหลดโลกได้เร็วที่สุด แต่ได้อัตราเฟรมที่ต่ำที่สุดเช่นกัน
+of.options.CHUNK_UPDATES.tooltip.5= ตัวเลขของการอัพเดตของชังก์ต่อเฟรมที่ถูกเรนเดอร์
+of.options.CHUNK_UPDATES.tooltip.6= ค่ายิ่งสูงอาจทำให้อัตราเฟรมไม่เสถียรได้
+
+of.options.CHUNK_UPDATES_DYNAMIC=อัพเดตแบบไดนามิก
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1= อัพเดตชังก์แบบไดนามิก
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  ปิด - โหลดแบบชังก์ต่อเฟรม แบบปกติ (ค่าเริ่มต้น)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  เปิด - ยิ่งมีการอัพเดตมากขึ้นขณะที่ผู้เล่นยืนอยู่นิ่ง ๆ
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4= การอัพเดตชังก์แบบไดนามิก จะมีการบังคับให้อัพเดตชังก์มากขึ้นขณะที่
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=ผู้เล่นยืนอยู่นิ่ง ๆ เพื่อให้โหลดโลกได้ไวขึ้น
+
+of.options.LAZY_CHUNK_LOADING=โหลดชังก์แบบขี้เกียจ
+of.options.LAZY_CHUNK_LOADING.tooltip.1=โหลดชังก์แบบขี้เกียจ
+of.options.LAZY_CHUNK_LOADING.tooltip.2=  ปิด - โหลดชังก์ของเซิร์ฟเวอร์แบบปกติ
+of.options.LAZY_CHUNK_LOADING.tooltip.3=  เปิด - โหลดชังก์ของเซิร์ฟเวอร์แบบขี้เกียจ (ลื่นกว่า)
+of.options.LAZY_CHUNK_LOADING.tooltip.4= ทำการโหลดชังก์ของเซิร์ฟเวอร์ให้ลื่นโดยกระจายการโหลดของชังก์ในหลาย ๆ 
+of.options.LAZY_CHUNK_LOADING.tooltip.5=Tick
+of.options.LAZY_CHUNK_LOADING.tooltip.6= ถ้าส่วนหนึ่งของโลกถูกโหลดอย่างไม่ถูกต้อง ให้ปิดตัวเลือกนี้ไป
+of.options.LAZY_CHUNK_LOADING.tooltip.7= มีผลแค่ในโลกผู้เล่นคนเดียวเท่านั้น
+
+of.options.RENDER_REGIONS=เรนเดอร์แบบภูมิภาค
+of.options.RENDER_REGIONS.tooltip.1=เรนเดอร์แบบภูมิภาค
+of.options.RENDER_REGIONS.tooltip.2=  ปิด - ใช้การเรนเดอร์แบบปกติ (ค่าเริ่มต้น)
+of.options.RENDER_REGIONS.tooltip.3=  เปิด - ใช้การเรนเดอร์แบบภูมิภาค (เร็วกว่า)
+of.options.RENDER_REGIONS.tooltip.4= ทำให้การเรนเดอร์ภูมิประเทศเป็นไปอย่างรวดเร็วมากขึ้นโดยปรับการโหลดของการ์ดจอ
+of.options.RENDER_REGIONS.tooltip.5=ซึ่งมีผลอย่างมากกับระยะการเรนเดอร์สูง ๆ  
+of.options.RENDER_REGIONS.tooltip.6= ไม่แนะนำกับการ์ดจอในตัวซีพียูเอง
+
+of.options.SMART_ANIMATIONS=ภาพเคลื่อนไหวแบบฉลาด
+of.options.SMART_ANIMATIONS.tooltip.1=โหลดภาพเคลื่อนไหวแบบฉลาด
+of.options.SMART_ANIMATIONS.tooltip.2=  ปิด - ไม่ใช้การโหลดภาพเคลื่อนไหวแบบฉลาด (ค่าเริ่มต้น)
+of.options.SMART_ANIMATIONS.tooltip.3=  เปิด - ใช้การโหลดภาพเคลื่อนไหวแบบฉลาด (เร็วกว่า)
+of.options.SMART_ANIMATIONS.tooltip.4= ด้วยระบบการโหลดภาพเคลื่อนไหวแบบฉลาด ตัวเกมจะโหลดภาพเคลื่อนไหว
+of.options.SMART_ANIMATIONS.tooltip.5=ก็ต่อเมื่อพื้นผิวนั้น ๆแสดงให้เห็นบนหน้าจอ
+of.options.SMART_ANIMATIONS.tooltip.6= ระบบนี้จะลด Tick Lag Spike และเพิ่มอัตราเฟรมได้ โดยเฉพาะกับ
+of.options.SMART_ANIMATIONS.tooltip.7=Mod pack ขนาดใหญ่ และรีซอร์ซแพ็กความละเอียด HD
+
+# Animations
+
+of.options.animation.allOn=เปิดทั้งหมด
+of.options.animation.allOff=ปิดทั้งหมด
+of.options.animation.dynamic=ไดนามิก
+
+of.options.ANIMATED_WATER=ภาพเคลื่อนไหวของน้ำ
+of.options.ANIMATED_LAVA=ภาพเคลื่อนไหวของลาวา
+of.options.ANIMATED_FIRE=ภาพเคลื่อนไหวของไฟ
+of.options.ANIMATED_PORTAL=ภาพเคลื่อนไหวของพอร์ทัล
+of.options.ANIMATED_REDSTONE=ภาพเคลื่อนไหวของเรดสโตน
+of.options.ANIMATED_EXPLOSION=ภาพเคลื่อนไหวของระเบิด
+of.options.ANIMATED_FLAME=ภาพเคลื่อนไหวของเปลวไฟ
+of.options.ANIMATED_SMOKE=ภาพเคลื่อนไหวของควัน
+of.options.VOID_PARTICLES=อนุภาคของความว่างเปล่า
+of.options.WATER_PARTICLES=อนุภาคของน้ำ
+of.options.RAIN_SPLASH=อนุภาคของฝนสาด
+of.options.PORTAL_PARTICLES=อนุภาคของพอร์ทัล
+of.options.POTION_PARTICLES=อนุภาคของยา
+of.options.DRIPPING_WATER_LAVA=อนุภาคของหยดน้ำ/ลาวา
+of.options.ANIMATED_TERRAIN=ภาพเคลื่อนไหวของภูมิประเทศ
+of.options.ANIMATED_TEXTURES=ภาพเคลื่อนไหวของพื้นผิว
+of.options.FIREWORK_PARTICLES=อนุภาคของดอกไม้ไฟ
+
+# Other
+
+of.options.LAGOMETER=ตัววัดความหน่วง
+of.options.LAGOMETER.tooltip.1=แสดงให้เห็นตัววัดความหน่วงบนหน้าจอ Debug [F3]
+of.options.LAGOMETER.tooltip.2=* สีส้ม - ขยะหน่วยความจำ
+of.options.LAGOMETER.tooltip.3=* สีคราม - Tick
+of.options.LAGOMETER.tooltip.4=* สีน้ำเงิน - ไฟล์ปฏิบัติการณ์ตามกำหนดเวลา
+of.options.LAGOMETER.tooltip.5=* สีม่วง - ชังก์ที่ถูกอัพโหลด
+of.options.LAGOMETER.tooltip.6=* สีแดง - อัพเดตชังก์
+of.options.LAGOMETER.tooltip.7=* สีเหลือง - ตรวจสอบทัศนวิสัย
+of.options.LAGOMETER.tooltip.8=* สีเขียว - เรนเดอร์ภูมิประเทศ
+
+of.options.PROFILER=ตัวบันทึกการ Debug
+of.options.PROFILER.tooltip.1=ตัวบันทึกการ Debug
+of.options.PROFILER.tooltip.2=  เปิด - เปิดตัวบันทึกการ Debug ช้ากว่า
+of.options.PROFILER.tooltip.3=  ปิด - ปิดตัวบันทึกการ Debug เร็วกว่า
+of.options.PROFILER.tooltip.4= ตัวบันทึกการ Debug จะเก็บข้อมูลและแสดงข้อมูลการ Debug เมื่อหน้าจอ Debug
+of.options.PROFILER.tooltip.5=เปิดอยู่ [F3]
+
+of.options.WEATHER=สภาพอากาศ
+of.options.WEATHER.tooltip.1=สภาพอากาศ
+of.options.WEATHER.tooltip.2=  เปิด - เปิดสภาพอากาศ ช้ากว่า
+of.options.WEATHER.tooltip.3=  ปิด - ปิดสภาพอากาศ เร็วกว่า
+of.options.WEATHER.tooltip.4= สภาพอากาศจะควบคุมฝน หิมะ และฟ้าร้อง
+of.options.WEATHER.tooltip.5= การควบคุมสภาพอากาศทำได้แค่ในโลกผู้เล่นคนเดียวเท่านั้น
+
+of.options.time.dayOnly=แค่กลางวัน
+of.options.time.nightOnly=แค่กลางคืน
+
+of.options.TIME=เวลา
+of.options.TIME.tooltip.1=เวลา
+of.options.TIME.tooltip.2=  ค่าเริ่มต้น - รอบกลางวัน-กลางคืนแบบปกติ
+of.options.TIME.tooltip.3=  แค่กลางวัน - กลางวันเท่านั้น
+of.options.TIME.tooltip.4=  แค่กลางคืน - กลางคืนเท่านั้น
+of.options.TIME.tooltip.5= มีผลเฉพาะในโหมดสร้างสรรค์ และต้องเป็นโลกผู้เล่นคนเดียวเท่านั้น
+of.options.TIME.tooltip.6=
+
+options.fullscreen.tooltip.1=เต็มหน้าจอ
+options.fullscreen.tooltip.2=  เปิด - ใช้งานโหมดเต็มหน้าจอ
+options.fullscreen.tooltip.3=  ปิด - ใช้งานโหมดหน้าต่าง
+options.fullscreen.tooltip.4= โหมดเต็มหน้าจออาจเร็วกว่าหรือช้ากว่าก็ได้ ขึ้นอยู่กับการ์ดจอ
+options.fullscreen.tooltip.5=
+
+options.fullscreen.resolution=โหมดเต็มหน้าจอ
+options.fullscreen.resolution.tooltip.1=โหมดเต็มหน้าจอ
+options.fullscreen.resolution.tooltip.2=  ค่าเริ่มต้น - ใช้ความละเอียดตามเดสก์ท็อป  ช้ากว่า
+options.fullscreen.resolution.tooltip.3=  กxส - ใช้ความละเอียดตามที่กำหนดไว้  (อาจจะ) เร็วกว่า
+options.fullscreen.resolution.tooltip.4= ความละเอียดที่กำหนดไว้จะถูกใช้ในโหมดเต็มหน้าจอ [F11]
+options.fullscreen.resolution.tooltip.5= โดยทั่วไปแล้ว ความละเอียดที่ต่ำ ๆ จะเร็วกว่า
+
+of.options.SHOW_FPS=แสดงอัตราเฟรม
+of.options.SHOW_FPS.tooltip.1=แสดงอัตราเฟรมในรูปแบบที่กะทัดรัด รวมถึงข้อมูลการเรนเดอร์
+of.options.SHOW_FPS.tooltip.2=  อัตราเฟรม - กลาง/น้อยที่สุด
+of.options.SHOW_FPS.tooltip.3=  C: - ตัวเรนเดอร์ของชังก์
+of.options.SHOW_FPS.tooltip.4=  E: - บล็๋อกและเอนติตีที่ถูกเรนเดอร์
+of.options.SHOW_FPS.tooltip.5=  U: - อัพเดตชังก์
+of.options.SHOW_FPS.tooltip.6= อัตราเฟรมในรูปแบบที่กะทัดรัดจะแสดงเมื่อหน้าจอ 
+of.options.SHOW_FPS.tooltip.7=Debug จะไม่ถูกแสดงให้เห็น
+
+of.options.save.45s=45 วินาที
+of.options.save.90s=90 วินาที
+of.options.save.3min=3 นาที
+of.options.save.6min=6 นาที
+of.options.save.12min=12 นาที
+of.options.save.24min=24 นาที
+
+of.options.AUTOSAVE_TICKS=บันทึกอัตโนมัติ
+of.options.AUTOSAVE_TICKS.tooltip.1=ช่วงเวลาบันทึกอัตโนมัติ
+of.options.AUTOSAVE_TICKS.tooltip.2= 45 วินาที - ค่าเริ่มต้น
+of.options.AUTOSAVE_TICKS.tooltip.3= การบันทึกอัตโนมัติอาจก่อให้เกิด Lag spike ขึ้นอยู่กับระยะการมองเห็น
+of.options.AUTOSAVE_TICKS.tooltip.4= โลกจะยังคงถูกบันทึกเรื่อย ๆ เมื่อหน้าเมนูเกมถูกเปิด
+
+of.options.SCREENSHOT_SIZE=ขนาดของภาพที่ถูกจับ
+of.options.SCREENSHOT_SIZE.tooltip.1=ขนาดของภาพที่ถูกจับ
+of.options.SCREENSHOT_SIZE.tooltip.2=  ปกติ - ตามความละเอียดของหน้าจอ
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - ขนาดของภาพแบบกำหนดเอง
+of.options.SCREENSHOT_SIZE.tooltip.4= ขนาดของภาพยิ่งใหญ่มากเท่าไร อาจต้องใช้พื้นที่จัดเก็บมากเท่านั้น
+of.options.SCREENSHOT_SIZE.tooltip.5= ไม่เข้ากับระบบ ลบรอยหยัก
+of.options.SCREENSHOT_SIZE.tooltip.6= ต้องการการรองรับของเฟรมบัฟเฟอร์การ์ดจอ
+
+of.options.SHOW_GL_ERRORS=แสดงข้อผิดพลาด GL
+of.options.SHOW_GL_ERRORS.tooltip.1=แสดงข้อผิดพลาดของ OpenGL
+of.options.SHOW_GL_ERRORS.tooltip.2= เมื่อเปิดแล้ว ข้อผิดพลาดของ OpenGL จะถูกแสดงในช่องแชท
+of.options.SHOW_GL_ERRORS.tooltip.3= ให้ปิดถ้ามีปัญหาที่ขัดแย้งกันและไม่มีวิธีการแก้ไข
+of.options.SHOW_GL_ERRORS.tooltip.4= เมื่อปิดแล้ว ข้อผิดพลาดจะยังคงถูกบันทึกใน บันทึกข้อผิดพลาด และอาจ
+of.options.SHOW_GL_ERRORS.tooltip.5=ทำให้อัตราเฟรมลดลงเหมือนเดิม
+of.options.SHOW_GL_ERRORS.tooltip.6= 
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=พื้นหลังแชท
+of.options.CHAT_BACKGROUND.tooltip.1=พื้นหลังแชท
+of.options.CHAT_BACKGROUND.tooltip.2=  ค่าเริ่มต้น - ความกว้างคงที่
+of.options.CHAT_BACKGROUND.tooltip.3=  กะทัดรัด - ตรงกับความยาวของบรรทัด
+of.options.CHAT_BACKGROUND.tooltip.4=  ปิด - ถูกซ่อน
+
+of.options.CHAT_SHADOW=เงาแชท
+of.options.CHAT_SHADOW.tooltip.1=เงาแชท
+of.options.CHAT_SHADOW.tooltip.2=  เปิด - เปิดการใช้งานเงาตัวอักษร
+of.options.CHAT_SHADOW.tooltip.3=  ปิด - ปิดการใช้งานเงาตัวอักษร

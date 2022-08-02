@@ -7,6 +7,7 @@ of.general.id=Id
 of.general.max=Maximální
 of.general.restart=restart
 of.general.smart=Chytrá
+of.general.anonymous=Anonymní
 
 # Klávesy
 of.key.zoom=Přiblížení
@@ -14,6 +15,9 @@ of.key.zoom=Přiblížení
 # Zprávy
 of.message.aa.shaders1=Antialiasing není kompatibilní se stíny.
 of.message.aa.shaders2=Prosím vypni stíny pro použití téhle možnosti.
+
+of.message.aa.gf1=Antialiasing není kompatibilní s úžasnou grafikou.
+of.message.aa.gf2=Prosím nastav grafiku na rychlou nebo pěknou.
 
 of.message.af.shaders1=Anizotropní filtrování není kompatibilní se stíny.
 of.message.af.shaders2=Prosím vypni stíny pro použití téhle možnosti.
@@ -30,8 +34,11 @@ of.message.shaders.aa2=Jdi do nastavení kvality -> antialiasing na NE a restart
 of.message.shaders.af1=Stíny nejsou kompatibilní s anizotropním filtrováním.
 of.message.shaders.af2=Jdi do nastavení kvality -> anizotropní filtrování na NE.
 
-of.message.shaders.fr1=Stíny nejsou komoatibilní s rychlým renderem.
+of.message.shaders.fr1=Stíny nejsou kompatibilní s rychlým renderem.
 of.message.shaders.fr2=Jdi do nastavení výkonu -> rychlý render na NE.
+
+of.message.shaders.gf1=Stíny nejsou kompatibilní s úžasnou grafikou
+of.message.shaders.gf2=Jdi do nastavení výkonu -> grafika na pěkná nebo rychlá
 
 of.message.shaders.an1=Stíny nejsou kompatibilní se 3D zobrazením.
 of.message.shaders.an2=Jdi do nastavení ostatního -> 3D zobrazení na NE.
@@ -56,8 +63,10 @@ of.options.skinCustomisation.ofCape=OptiFine kápě...
 of.options.capeOF.title=OptiFine kápě
 of.options.capeOF.openEditor=Otevřít editor kápě
 of.options.capeOF.reloadCape=Obnovit kápi
+of.options.capeOF.copyEditorLink=Zkopírovat do schránky
 
 of.message.capeOF.openEditor=Editor OptiFine kápě by se nyní měl otevřít ve webovém prohližeči.
+of.message.capeOF.openEditorError=Chyba při otevírání editoru v prohlížeči.
 of.message.capeOF.reloadCape=Kápě budu obnovena (znovu načtena) za 15 sekund.
 
 of.message.capeOF.error1=Chyba při oěření se servery Mojangu.
@@ -66,10 +75,13 @@ of.message.capeOF.error2=Chyba: %s
 # Nastavení Grafiky
 
 options.graphics.tooltip.1=Vizuální kvalita
-options.graphics.tooltip.2=  Rychlá  - nižší kvalita, rychlejší
+options.graphics.tooltip.2=  Rychlá - nižší kvalita, rychlejší
 options.graphics.tooltip.3=  Pěkná - vyšší kvalita, pomalejší
-options.graphics.tooltip.4=Mění vzhled mraků, listí, vody,
-options.graphics.tooltip.5=stínů a stran trávníků.
+options.graphics.tooltip.4=  Úžasná - lepší průhledné objekty, nejpomalejší
+options.graphics.tooltip.5=Mění vzhled mraků, listí, vody,
+options.graphics.tooltip.6=stínů a stran trávníků
+options.graphics.tooltip.7=Úžasná grafika není kompatibilní se stíny a
+options.graphics.tooltip.8=antialiasingem.
 
 of.options.renderDistance.tiny=Maličký
 of.options.renderDistance.short=Malý
@@ -87,6 +99,20 @@ options.renderDistance.tooltip.5=  32 Extrémní - 512m (nejpomalejší!) velmi 
 options.renderDistance.tooltip.6=  48 Šílený - 768m, potřebuje 2 GB přidělené RAM
 options.renderDistance.tooltip.7=  64 Neuvěřitelný - 1024m,  potřebuje 3 GB přidělené RAM
 options.renderDistance.tooltip.8=Hodnoty nad 16 Velká jsou pouze pro lokální světy.
+
+options.simulationDistance.tooltip.1=Dohled simulace
+options.simulationDistance.tooltip.2=  5-12 - Normální (rychlejší)
+options.simulationDistance.tooltip.3=  13-24 - Velký (pomalejší)
+options.simulationDistance.tooltip.4=  25-32 - Extrémní (nejpomalejší)
+options.simulationDistance.tooltip.5=Kontroluje, jak daleko od hráče jsou entity 
+options.simulationDistance.tooltip.6=a chunky aktualizovány. 
+options.simulationDistance.tooltip.7=Vyšší hodnoty mohou způsobit velké záseky hry.
+
+options.entityDistanceScaling.tooltip.1=Dohled entit
+options.entityDistanceScaling.tooltip.2=  50%% - rychlejší
+options.entityDistanceScaling.tooltip.3=  100%% - výchozí
+options.entityDistanceScaling.tooltip.4=  500%% - pomalejší
+options.entityDistanceScaling.tooltip.5=Upravuje nejvyšší vzdálenost na které se ukazují entity.
 
 options.ao.tooltip.1=Vyhlazené stíny
 options.ao.tooltip.2=  NE - žádné vyhlazené osvětlení (rychlejší)
@@ -117,6 +143,7 @@ options.guiScale.tooltip.4=  4x do 10x - dostupné na 4K obrazovkách
 options.guiScale.tooltip.5=Liché hodnoty (1x, 3x, 5x ...) nejsou kompatibilní s písmem Unicode.
 options.guiScale.tooltip.6=Menší GUI mohou být rychlejší.
 
+options.vbo=Použít VBO
 options.vbo.tooltip.1= Použít VBO
 options.vbo.tooltip.2=Používá alternativní model renderování, který je
 options.vbo.tooltip.3=rychlejší (5-10%%) oproti výchozímu renderování.
@@ -132,6 +159,37 @@ options.anaglyph.tooltip.1=3D Zobrazení
 options.anaglyph.tooltip.2=Zapne stereoskopické 3D, které používá rozdílné barvy
 options.anaglyph.tooltip.3=pro každé oko.
 options.anaglyph.tooltip.4=Vyžaduje červeno-modré brýle pro správné vidění.
+
+options.attackIndicator.tooltip.1=Nastavuje pozici ukazatele útoku
+options.attackIndicator.tooltip.2=  Křížek - pod středovým křížkem
+options.attackIndicator.tooltip.3=  Lišta - nalevo od spodní lišty
+options.attackIndicator.tooltip.4=  NE - žádný ukazatel útoku
+options.attackIndicator.tooltip.5=Ukazatel útoku zobrazuje sílu útoku
+options.attackIndicator.tooltip.6=aktuálně vybaveného itemu.
+
+options.screenEffectScale.tooltip.1=Efekty pokřivení
+options.screenEffectScale.tooltip.2=  NE - vypnuto
+options.screenEffectScale.tooltip.3=  1-100%% - zapnuto
+options.screenEffectScale.tooltip.4=Kontroluje intenzitu efektů pokřivující obrazovku
+options.screenEffectScale.tooltip.5=třeba animace portálu nebo efekt nevolnosti.
+
+options.autosaveIndicator.tooltip.1=Ukazatel ukládání
+options.autosaveIndicator.tooltip.2=  NE - vypnuto
+options.autosaveIndicator.tooltip.3=  ANO - zapnuto
+options.autosaveIndicator.tooltip.4=Ukáže, kdy hra automaticky ukládá svět.
+
+options.fovEffectScale.tooltip.1=Efekty zorného pole
+options.fovEffectScale.tooltip.2=  NE - vypnuto
+options.fovEffectScale.tooltip.3=  1-100%% - zapnuto
+options.fovEffectScale.tooltip.4=Kontroluje intenzitu efektů přibližující
+options.fovEffectScale.tooltip.5=obrazovku, např. natahování luku, běh a létání.
+
+options.prioritizeChunkUpdates.tooltip.1=Obnova chunků
+options.prioritizeChunkUpdates.tooltip.2= Souběžná - aktualizace všech chunků v pozadí
+options.prioritizeChunkUpdates.tooltip.3= Částečná - aktualizuje okamžitě chunky ovlivnéně hráčem
+options.prioritizeChunkUpdates.tooltip.4= Plná - aktualizuje okamžitě všechny chunky poblíž
+options.prioritizeChunkUpdates.tooltip.5=Souběžné obnovy mohou krátce ukázat díry v zemi.
+options.prioritizeChunkUpdates.tooltip.6=Plné obnovy mohou způsobit velké záseky.
 
 of.options.ALTERNATE_BLOCKS=Různé bloky
 options.blockAlternatives.tooltip.1=Alternativní bloky
@@ -167,8 +225,8 @@ of.options.chunkLoading.multiCore=Více jader
 of.options.shaders=Stíny...
 of.options.shadersTitle=Stíny (shadery)
 
-of.options.shaders.packNone=NE
-of.options.shaders.packDefault=(vložené)
+of.options.shaders.packNone=ŽÁDNÉ
+of.options.shaders.packDefault=(interní)
 
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
@@ -177,7 +235,7 @@ of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - vyhlazené hrany (poma
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA je post-processing efekt, který vyhladí
 of.options.shaders.ANTIALIASING.tooltip.5=pixelované hrany a přechody barev.
 of.options.shaders.ANTIALIASING.tooltip.6=Je rychlejší jak tradiční antialiasing
-of.options.shaders.ANTIALIASING.tooltip.7=a je kompatibilní se stíny a rychlým renderem.
+of.options.shaders.ANTIALIASING.tooltip.7=a je kompatibilní se stíny.
 
 of.options.shaders.NORMAL_MAP=Normální mapa
 of.options.shaders.NORMAL_MAP.tooltip.1=Normální mapa
@@ -222,7 +280,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Hloubka ruky
 of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - ruka přímo u kamery
 of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (výchozí)
 of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - ruka daleko od kamery
-of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hlubka ruky ovládá, jak jsou objekty v ruce a ruka
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Hloubka ruky ovládá, jak jsou objekty v ruce a ruka
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=samotná daleko od kamery.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Pro balíčky stínu, které používají rozmazání
 of.options.shaders.HAND_DEPTH_MUL.tooltip.8=by tohle mohlo zabránit rozmazání ruky.
@@ -545,6 +603,13 @@ of.options.DYNAMIC_LIGHTS.tooltip.5=Pokud je ANO a v ruce, na zemi nebo v ruce
 of.options.DYNAMIC_LIGHTS.tooltip.6=jiného hráče je držen svítící item (louč, světlit, atd.)
 of.options.DYNAMIC_LIGHTS.tooltip.7=tak se osvětlí vše kolem.
 
+options.biomeBlendRadius.tooltip.1=Vyhlazuje přechody barev mezi biomy
+options.biomeBlendRadius.tooltip.2=  NE - žádné vyhlazení (nejrychlejší)
+options.biomeBlendRadius.tooltip.3=  5x5 - normální vyhlazení (výchozí)
+options.biomeBlendRadius.tooltip.4=  15x15 - maximální vyhlazení (nejpomalejší)
+options.biomeBlendRadius.tooltip.5=Větší hodnoty mohou často generovat záseky
+options.biomeBlendRadius.tooltip.6=a taky zpomalit generování světa.
+
 # Výkon
 
 of.options.SMOOTH_FPS=Vyhlazené FPS
@@ -566,7 +631,7 @@ of.options.FAST_RENDER.tooltip.1=Rychlý render
 of.options.FAST_RENDER.tooltip.2= NE - standardní render
 of.options.FAST_RENDER.tooltip.3= ANO - vyvážený render (rychlejší)
 of.options.FAST_RENDER.tooltip.4=Používáním vyváženěho renderovacího algoritmu se může snížít
-of.options.FAST_RENDER.tooltip.5=využití GPU, což může zvýšit FPS.
+of.options.FAST_RENDER.tooltip.5=využití CPU, což může zvýšit FPS.
 of.options.FAST_RENDER.tooltip.6=Toto nastavení může vytvořit konflikt s některými módy.
 
 of.options.FAST_MATH=Rychlá matematika
@@ -602,17 +667,17 @@ of.options.LAZY_CHUNK_LOADING.tooltip.6=Vypni to, pokud se některé části sv�
 of.options.LAZY_CHUNK_LOADING.tooltip.7=Efektivní pouze pro lokální světy (single-player).
 
 of.options.RENDER_REGIONS=Render regiony
-of.options.RENDER_REGIONS.tooltip.1=Render regiony
-of.options.RENDER_REGIONS.tooltip.2= NE - nepoužívat render regiony (výchozí)
-of.options.RENDER_REGIONS.tooltip.3= ANO - použít render regiony
-of.options.RENDER_REGIONS.tooltip.4=Render regiony umožní rychlejší render terénu při vyšších
-of.options.RENDER_REGIONS.tooltip.5=viditelných vzdálenostech. Efektivnějsí při zapnutém VBO.
+of.options.RENDER_REGIONS.tooltip.1=Vykreslovací regiony
+of.options.RENDER_REGIONS.tooltip.2= NE - výchozí vykreslování (výchozí)
+of.options.RENDER_REGIONS.tooltip.3= ANO - použít vykreslovací regiony (rychlejší)
+of.options.RENDER_REGIONS.tooltip.4=Dovoluje rychlejší vykreslovaní terénu optimalizovaním
+of.options.RENDER_REGIONS.tooltip.5=použití GPU. Více efektivní s vyšším dohledem.
 of.options.RENDER_REGIONS.tooltip.6=Není doporučeno pro integrované grafické karty.
 
 of.options.SMART_ANIMATIONS=Chytré animace
 of.options.SMART_ANIMATIONS.tooltip.1=Chytré animace
 of.options.SMART_ANIMATIONS.tooltip.2= NE - nepoužívat chytré animace (výchozí)
-of.options.SMART_ANIMATIONS.tooltip.3= ANO - používat chytré animace
+of.options.SMART_ANIMATIONS.tooltip.3= ANO - používat chytré animace (rychlejší)
 of.options.SMART_ANIMATIONS.tooltip.4=Se zapnutými chytrými animacemi bude hra
 of.options.SMART_ANIMATIONS.tooltip.5=animovat jen textury viditelné na obrazovce.
 of.options.SMART_ANIMATIONS.tooltip.6=To sníží záseky a zvýší FPS.
@@ -685,12 +750,12 @@ options.fullscreen.tooltip.3=  NE - použít mód v okně
 options.fullscreen.tooltip.4=Fullscreen mód může být rychlejší nebo pomalejší než
 options.fullscreen.tooltip.5=mód v okně, záleží na GPU.
 
-of.options.FULLSCREEN_MODE=Fullscreen mód
-of.options.FULLSCREEN_MODE.tooltip.1=Celoobrázkový mód
-of.options.FULLSCREEN_MODE.tooltip.2=  Výchozí - používá hlavní rozlišení, pomalejší
-of.options.FULLSCREEN_MODE.tooltip.3=  ŠxV - používá vlastní rozlišení, může být rychlejší
-of.options.FULLSCREEN_MODE.tooltip.4=Vybrané rozlišení je používáno ve fullscreenu (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Nižší rozlišení by měli být většinou rychlejší.
+of.options.fullscreen.resolution=Rozlišení fullscreenu
+of.options.fullscreen.resolution.tooltip.1=Rozlišení režimu celé obrazovky
+of.options.fullscreen.resolution.tooltip.2=  Výchozí - používá hlavní rozlišení, pomalejší
+of.options.fullscreen.resolution.tooltip.3=  ŠxV - používá vlastní rozlišení, může být rychlejší
+of.options.fullscreen.resolution.tooltip.4=Vybrané rozlišení je používáno ve fullscreenu (F11).
+of.options.fullscreen.resolution.tooltip.5=Nižší rozlišení by měli být většinou rychlejší.
 
 of.options.SHOW_FPS=Zobrazit FPS
 of.options.SHOW_FPS.tooltip.1=Kompaktně zobrazí informace o FPS a renderu.
@@ -719,7 +784,7 @@ of.options.SCREENSHOT_SIZE.tooltip.1=Velikost snímku obrazovky
 of.options.SCREENSHOT_SIZE.tooltip.2=  Výchozí - výchozí velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - vlastní velikost screenshotu
 of.options.SCREENSHOT_SIZE.tooltip.4=Focení větších screenshotů může vyžadovat více RAM.
-of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatinilní s rychlým renderem a antialiasingem.
+of.options.SCREENSHOT_SIZE.tooltip.5=Není kompatibilní s antialiasingem.
 of.options.SCREENSHOT_SIZE.tooltip.6=Vyžaduje podporu GPU framebufferu.
 
 of.options.SHOW_GL_ERRORS=Zobrazit GL chyby
@@ -729,6 +794,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=budou objevovat v chatu. Vypni jen když je
 of.options.SHOW_GL_ERRORS.tooltip.4=chyba známa a víš, že se nedá opravit.
 of.options.SHOW_GL_ERRORS.tooltip.5=Pokud NE, chyby jsou stále logovány v
 of.options.SHOW_GL_ERRORS.tooltip.6=error logu a mohou způsobit značný drop v FPS.
+
+of.options.TELEMETRY=Telemetrie
+of.options.TELEMETRY.tooltip.1=Posílání telemetrie Mojangu
+of.options.TELEMETRY.tooltip.2=  ANO - plná telemetrie (výchozí)
+of.options.TELEMETRY.tooltip.3=  Anonymní - anonymní telemetrie
+of.options.TELEMETRY.tooltip.4=  NE - telemetrie vypnuta
+of.options.TELEMETRY.tooltip.5=Plná telemetrie posílá UUID uživatele, které lze použít
+of.options.TELEMETRY.tooltip.6=pro sledování stejného uživatele na jiných zařízeních.
+of.options.TELEMETRY.tooltip.7=Anonymní telemetrie neposílá žádné
+of.options.TELEMETRY.tooltip.8=identifikovatelné údaje.
 
 # Chat Settings
 
