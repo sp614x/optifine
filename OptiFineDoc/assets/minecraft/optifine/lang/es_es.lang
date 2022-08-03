@@ -300,7 +300,7 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.6=reconocen los objetos que emiten luz
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=funcionen también con los objetos de la mano secundaria.
 
 of.options.shaders.OLD_LIGHTING=Iluminación
-of.options.shaders.OLD_LIGHTING.tooltip.1=Sistema de iluminación
+of.options.shaders.OLD_LIGHTING.tooltip.1=Sistema de iluminación antiguo
 of.options.shaders.OLD_LIGHTING.tooltip.2=Por defecto - controlado por el paquete de shaders
 of.options.shaders.OLD_LIGHTING.tooltip.3= SI - utilizar el sistema de iluminación antiguo
 of.options.shaders.OLD_LIGHTING.tooltip.4= NO - no utilizar el sistema de iluminación antiguo
