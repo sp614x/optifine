@@ -756,7 +756,7 @@ options.fullscreen.tooltip.5=modo ventana, dependiendo de la tarjeta gráfica.
 
 options.fullscreen.resolution=Modo de pantalla completa
 options.fullscreen.resolution.tooltip.1=Modo de pantalla completa
-options.fullscreen.resolution.tooltip.2= Por defecto - utiliza la resolución de pantalla del escritorio
+options.fullscreen.resolution.tooltip.2= Actual - utiliza la resolución de pantalla del escritorio
 options.fullscreen.resolution.tooltip.3= AnchoxAlto - utiliza una resolución de pantalla personalizada
 options.fullscreen.resolution.tooltip.4=La resolución seleccionada se utiliza en modo pantalla completa (F11).
 options.fullscreen.resolution.tooltip.5=Las resoluciones más bajas suelen ser más rápidas.
