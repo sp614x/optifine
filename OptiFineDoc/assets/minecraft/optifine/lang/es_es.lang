@@ -100,7 +100,7 @@ options.renderDistance.tooltip.6= 48 Demente - 768m, necesita 2GB de RAM asignad
 options.renderDistance.tooltip.7= 64 Absurda - 1024m, necesita 3GB de RAM asignada
 options.renderDistance.tooltip.8=Los valores superiores a 16 sólo son efectivos en mundos locales.
 
-options.simulationDistance.tooltip.1=Distancia de simulación
+options.simulationDistance.tooltip.1=Dist. de simulación
 options.simulationDistance.tooltip.2= 5-12 - Normal (más rápido)
 options.simulationDistance.tooltip.3= 13-24 - Lejana (más lento)
 options.simulationDistance.tooltip.4= 25-32 - Extrema (aún más lento)
@@ -127,7 +127,7 @@ options.framerateLimit.tooltip.5=Limitar la velocidad de fotogramas disminuye lo
 options.framerateLimit.tooltip.6=no se alcanza el valor límite.
 of.options.framerateLimit.vsync=VSync
 
-of.options.AO_LEVEL=Nivel de iluminación suave
+of.options.AO_LEVEL=Nivel de ilum. suave
 of.options.AO_LEVEL.tooltip.1=Nivel de iluminación suave
 of.options.AO_LEVEL.tooltip.2= NO - sin sombras
 of.options.AO_LEVEL.tooltip.3= 50%% - sombras ligeras
