@@ -173,12 +173,6 @@ options.screenEffectScale.tooltip.3=  1-100%% - enabled
 options.screenEffectScale.tooltip.4=Controls the intensity of screen distorting effects
 options.screenEffectScale.tooltip.5=like portal animation and nausea effect.
 
-options.screenEffectScale.tooltip.1=Distortion effects
-options.screenEffectScale.tooltip.2=  OFF - disabled
-options.screenEffectScale.tooltip.3=  1-100%% - enabled
-options.screenEffectScale.tooltip.4=Controls the intensity of screen distorting effects
-options.screenEffectScale.tooltip.5=like portal animation and nausea effect.
-
 options.autosaveIndicator.tooltip.1=Autosave indicator
 options.autosaveIndicator.tooltip.2=  OFF - disabled
 options.autosaveIndicator.tooltip.3=  ON - enabled
