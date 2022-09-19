@@ -2,9 +2,8 @@
 # Json Entity Model
 # Reference configuration for OptiFine's feature Custom Entity Models
 ######################################################################
-# For each entity model or tile entity model that you wish to override
-# use this template and create a "<entity_name>.jem" file in the 
-# "assets/minecraft/optifine/cem" folder of your resource pack. 
+# For each entity model or tile entity model that you wish to override use this template and create a "<entity_name>.jem" file in the 
+# "assets/minecraft/optifine/cem" or "assets/minecraft/optifine/cem/<entity_name>" folder of your resource pack. 
 # The entity model contains a list of entity part models.
 # The part models can be specified inline or loaded from external ".jpm" files.
 #
@@ -115,7 +114,7 @@
 # skeleton                 head, headwear, body, left_arm, right_arm, left_leg, right_leg
 # skeleton_horse           <same as horse>
 # slime                    body, left_eye, right_eye, mouth
-# slime_outer              body, left_eye, right_eye, mouth
+# slime_outer              body
 # snow_golem               body, body_bottom, head, left_hand, right_hand
 # spawner_minecart         bottom, back, front, right, left
 # spider                   head, neck, body, leg1, ... leg8
@@ -186,3 +185,19 @@
     ...
   ]
 }
+######################################################################
+# Randomized models
+######################################################################
+# The alternative models use the same name as the main model with a number suffix.
+# For example:
+#   wolf.jem  - main model (index 1)
+#   wolf2.jem - alternative model (index 2)
+#   wolf3.jem - alternative model (index 3)
+#
+# The alternative models are selected randomly based on the entity id.
+#
+# To customize the use of the alternative models add a "<model_name>.properties" file in the folder where the models are located.
+# The properties file works identically to the properties file used by Random Entities.
+# The models to be used are selected with the setting "models.<n>=<list>" instead of "textures.<n>=<list>".
+# The index of the current matching rule is available as animation parameter "rule_index" and can be used to cutomize the model depending on entity properties.
+# For more details see "random_entities.properties".
