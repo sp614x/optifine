@@ -82,12 +82,14 @@
 #   player_rot_x, player_rot_y               - The entities current world rotation. North is 0
 #   frame_time                               - The time in seconds since the last frame
 #   dimension                                - The current dimension. Overworld: 0, Nether: -1, End: 1
+#   rule_index                               - The index of the current matching random models rule
 #
 # Entity parameters (float)
 #   health              - The entity's current health
 #   hurt_time           - The time the entity is hurt for. Counts down from 10 to 0
 #   death_time          - The time the entity is dead. Counts up from 0 to 20
-#   anger_time          - The time the entity is angry. 0 while neutral, 720 while agressive, and then counts down to 0 when the target is lost
+#   anger_time          - The remaining entity angry time in ticks. Starts with 400-780 while agressive, and then counts down to 0 when the target is lost
+#   anger_time_start    - The start value of anger_time 
 #   max_health          - The entity's maximum health
 #   move_forward        - Currently broken
 #   move_strafing       - Currently broken
