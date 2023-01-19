@@ -5,7 +5,7 @@
 #   pan93412 (crowdin pan93412) 2018-08-23 ---- 2018-08-23
 #   NatsuArashi (crowdin MC_PR) 2018-10-29 ---- 2021-03-14
 #   THGABS (Minecraft Wiki Thgabs) 2020-10-24 ---- 2022-3-24
-#   Jimmysheep (Personal translation) 2020-04-05 ---- 2022-12-31
+#   Jimmysheep (Personal translation) 2020-04-05 ---- 2022-01-19
 ##-------------- zh_TW ---------------
 
 # General
@@ -136,7 +136,7 @@ options.framerateLimit.tooltip.1=最大畫面更新率
 options.framerateLimit.tooltip.2=  垂直同步 - 受限於螢幕畫面更新率（60, 30, 20）
 options.framerateLimit.tooltip.3=  5-255 - 可變
 options.framerateLimit.tooltip.4=  無限制 - 無限制（最快）
-options.framerateLimit.tooltip.5=即使未達 FPS 上限該限制仍會影響 FPS。
+options.framerateLimit.tooltip.5=即使未達限制值，該限制仍會影響 FPS。
 options.framerateLimit.tooltip.6=
 of.options.framerateLimit.vsync=垂直同步
 
