@@ -7,6 +7,7 @@ of.general.id=ID
 of.general.max=Máximo
 of.general.restart=reiniciar
 of.general.smart=Inteligentes
+of.general.anonymous=Anônimo
 
 # Keys
 of.key.zoom=Zoom
@@ -14,6 +15,9 @@ of.key.zoom=Zoom
 # Message
 of.message.aa.shaders1=A suavização não é compatível com os shaders.
 of.message.aa.shaders2=Desative os shaders para ativar esta opção.
+
+of.message.aa.gf1=Suavização não é compatível com os Gráficos Fabulosos.
+of.message.aa.gf2=Por favor, defina os gráficos como Rápidos ou Detalhados.
 
 of.message.af.shaders1=A filtragem anisotrópica não é compatível com os shaders.
 of.message.af.shaders2=Desative os shaders para ativar esta opção.
@@ -76,7 +80,8 @@ options.graphics.tooltip.3=  Detalhados - alta qualidade
 options.graphics.tooltip.4=  Fabulosos - translucidez aprimorada (mais lento)
 options.graphics.tooltip.5=Muda a aparência de nuvens, folhas, água,
 options.graphics.tooltip.6=sombras e grama.
-options.graphics.tooltip.7=Os gráficos Fabulosos são incompatíveis com shaders.
+options.graphics.tooltip.7=Os gráficos Fabulosos são incompatíveis com shaders e
+options.graphics.tooltip.8=suavização.
 
 of.options.renderDistance.tiny=Mínima
 of.options.renderDistance.short=Curta
@@ -95,6 +100,14 @@ options.renderDistance.tooltip.6=  48 Insana - 768m (requer 2GB de RAM)
 options.renderDistance.tooltip.7=  64 Máxima - 1024m (requer 3GB de RAM)
 options.renderDistance.tooltip.8=Valores acima de 16 funcionam apenas em mundos locais.
 
+options.simulationDistance.tooltip.1=Distância de simulação
+options.simulationDistance.tooltip.2=  5-12 - Normal (rápido)
+options.simulationDistance.tooltip.3=  13-24 - Longe (lento)
+options.simulationDistance.tooltip.4=  25-32 - Extremo (mais lento)
+options.simulationDistance.tooltip.5=Controla a distância em que chunks e entidades
+options.simulationDistance.tooltip.6=estão sendo atualizados.
+options.simulationDistance.tooltip.7=Valores mais altos causam picos de travamento significantes.
+
 options.entityDistanceScaling.tooltip.1=Dist. de render. da entidade
 options.entityDistanceScaling.tooltip.2=  50%% - rápido
 options.entityDistanceScaling.tooltip.3=  100%% - padrão
@@ -107,12 +120,12 @@ options.ao.tooltip.3=  Mínima - suave básica (lento)
 options.ao.tooltip.4=  Máxima - suave avançada (mais lento)
 
 options.framerateLimit.tooltip.1=Limite de quadros
-options.framerateLimit.tooltip.2=  SV - taxa limitada (60, 30, 20)
+options.framerateLimit.tooltip.2=  Sinc. Vertical - taxa limitada (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - variável
 options.framerateLimit.tooltip.4=  Ilimitada - (mais rápido)
 options.framerateLimit.tooltip.5=A taxa cairá mesmo se o valor limite não
 options.framerateLimit.tooltip.6=for atingido.
-of.options.framerateLimit.vsync=SV
+of.options.framerateLimit.vsync=Sinc. Vertical
 
 of.options.AO_LEVEL=Nível de ilum. suave
 of.options.AO_LEVEL.tooltip.1=Nível de iluminação suave
@@ -154,6 +167,30 @@ options.attackIndicator.tooltip.4=  Não - sem indicador de ataque
 options.attackIndicator.tooltip.5=O indicador de ataque exibe o poder
 options.attackIndicator.tooltip.6=ofensivo do item na mão.
 
+options.screenEffectScale.tooltip.1=Efeitos de distorção
+options.screenEffectScale.tooltip.2=  Não - desativado
+options.screenEffectScale.tooltip.3=  1-100%% - ativado
+options.screenEffectScale.tooltip.4=Controla a intensidade dos efeitos de distorção na tela,
+options.screenEffectScale.tooltip.5=como a animação do portal ou o efeito de náusea.
+
+options.autosaveIndicator.tooltip.1=Indicador de auto-salvamento
+options.autosaveIndicator.tooltip.2=  Não - desativado
+options.autosaveIndicator.tooltip.3=  Sim - ativado
+options.autosaveIndicator.tooltip.4=Indica quando o jogo está salvando o mundo automaticamente.
+
+options.fovEffectScale.tooltip.1=Efeitos de FOV
+options.fovEffectScale.tooltip.2=  Não - desativado
+options.fovEffectScale.tooltip.3=  1-100%% - ativado
+options.fovEffectScale.tooltip.4=Controla a intensidade dos efeitos de zoom na tela,
+options.fovEffectScale.tooltip.5=como usar  um arco, correr ou voar.
+
+options.prioritizeChunkUpdates.tooltip.1=Chunk builder
+options.prioritizeChunkUpdates.tooltip.2= Em Thread - atualiza todos os chunks em segundo plano
+options.prioritizeChunkUpdates.tooltip.3= Semi Bloqueio - atualiza chunks afetados pelo jogador imediatamente
+options.prioritizeChunkUpdates.tooltip.4= Bloqueio Total - atualiza todos os chunks próximos imediatamente
+options.prioritizeChunkUpdates.tooltip.5=Atualizações em thread podem causar buracos no terreno brevemente
+options.prioritizeChunkUpdates.tooltip.6=Atualizações de bloqueio total podem causar picos de travamento significantes.
+
 of.options.ALTERNATE_BLOCKS=Blocos alternativos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocos alternativos
 of.options.ALTERNATE_BLOCKS.tooltip.2=Utiliza modelos alternativos para certos blocos.
@@ -164,7 +201,7 @@ of.options.FOG_FANCY.tooltip.1=Tipo de névoa
 of.options.FOG_FANCY.tooltip.2=  Rápidos - taxa de quadros elevada
 of.options.FOG_FANCY.tooltip.3=  Detalhados - taxa de quadros reduzida
 of.options.FOG_FANCY.tooltip.4=  Não - sem névoa (mais rápido)
-of.options.FOG_FANCY.tooltip.5=A névoa detalhada estará disponível apenas se 
+of.options.FOG_FANCY.tooltip.5=A névoa detalhada estará disponível apenas se
 of.options.FOG_FANCY.tooltip.6=compatível com a placa gráfica.
 
 of.options.FOG_START=Início do nevoeiro
@@ -178,7 +215,7 @@ of.options.CHUNK_LOADING.tooltip.1=Carregamento de chunks
 of.options.CHUNK_LOADING.tooltip.2=  Padrão - taxa instável ao carregar chunks
 of.options.CHUNK_LOADING.tooltip.3=  Fluído - taxa de quadros estável
 of.options.CHUNK_LOADING.tooltip.4=  Multinúcleo - carregamento 3x mais rápido
-of.options.CHUNK_LOADING.tooltip.5=Fluído e Multinúcleo reduzem os travamentos 
+of.options.CHUNK_LOADING.tooltip.5=Fluído e Multinúcleo reduzem os travamentos
 of.options.CHUNK_LOADING.tooltip.6=ao carregar chunks.
 of.options.CHUNK_LOADING.tooltip.7=O Multinúcleo pode acelerar o carregamento e
 of.options.CHUNK_LOADING.tooltip.8=aumentar a taxa de quadros usando um segundo CPU.
@@ -195,7 +232,7 @@ of.options.shaders.ANTIALIASING=Suavização
 of.options.shaders.ANTIALIASING.tooltip.1=Suavização
 of.options.shaders.ANTIALIASING.tooltip.2=  Não - (padrão, rápido) sem suavização
 of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - linhas e cantos suavizados (lento)
-of.options.shaders.ANTIALIASING.tooltip.4=O FXAA é um efeito de pós-processamento que 
+of.options.shaders.ANTIALIASING.tooltip.4=O FXAA é um efeito de pós-processamento que
 of.options.shaders.ANTIALIASING.tooltip.5=suaviza linhas e transições de cores.
 of.options.shaders.ANTIALIASING.tooltip.6=Mais rápido do que a suavização comum e
 of.options.shaders.ANTIALIASING.tooltip.7=compatível com shaders.
@@ -223,7 +260,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.1=Qualidade de renderização
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - baixa (rápido)
 of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - padrão
 of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - alta (lento)
-of.options.shaders.RENDER_RES_MUL.tooltip.5=A qualidade de renderização define o tamanho 
+of.options.shaders.RENDER_RES_MUL.tooltip.5=A qualidade de renderização define o tamanho
 of.options.shaders.RENDER_RES_MUL.tooltip.6=da textura renderizada pelo pacote shader.
 of.options.shaders.RENDER_RES_MUL.tooltip.7=Valores baixos podem funcionar em monitores 4K.
 of.options.shaders.RENDER_RES_MUL.tooltip.8=Valores altos funcionam como a filtr. anisotrópica.
@@ -255,8 +292,8 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Iluminação pela mão
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Padrão - definida pelo pacote shader
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Sim - iluminação antiga
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  Não - iluminação nova
-of.options.shaders.OLD_HAND_LIGHT.tooltip.5=A iluminação antiga permite que o pacote shader  
-of.options.shaders.OLD_HAND_LIGHT.tooltip.6=reconheça a emissão de luzes por itens tanto na mão 
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=A iluminação antiga permite que o pacote shader
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=reconheça a emissão de luzes por itens tanto na mão
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7=principal como na secundária.
 
 of.options.shaders.OLD_LIGHTING=Ilum. antiga
@@ -264,9 +301,9 @@ of.options.shaders.OLD_LIGHTING.tooltip.1=Iluminação antiga
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Padrão - definida pelo pacote shader
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Sim - iluminação antiga
 of.options.shaders.OLD_LIGHTING.tooltip.4=  Não - iluminação nova
-of.options.shaders.OLD_LIGHTING.tooltip.5=A iluminação antiga define o foco de luz comum aplicado 
-of.options.shaders.OLD_LIGHTING.tooltip.6=as laterais dos blocos. 
-of.options.shaders.OLD_LIGHTING.tooltip.7=Pacotes shaders podem fornecer uma melhor iluminação 
+of.options.shaders.OLD_LIGHTING.tooltip.5=A iluminação antiga define o foco de luz comum aplicado
+of.options.shaders.OLD_LIGHTING.tooltip.6=as laterais dos blocos.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Pacotes shaders podem fornecer uma melhor iluminação
 of.options.shaders.OLD_LIGHTING.tooltip.8=dependendo da posição do Sol.
 
 of.options.shaders.DOWNLOAD=Baixar shaders
@@ -443,7 +480,7 @@ of.options.CUSTOM_ENTITY_MODELS=Modelos de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Modelos personalizados de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Sim - (padrão) modelos personalizados de entidades
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Não - modelos comuns de entidades (rápido)
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Os modelos personalizados de entidades são 
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Os modelos personalizados de entidades são
 of.options.CUSTOM_ENTITY_MODELS.tooltip.5=fornecidos pelo pacote de recursos atual.
 
 of.options.CUSTOM_GUIS=Interfaces personal.
@@ -756,6 +793,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Desativar apenas se houver conflitos e os er
 of.options.SHOW_GL_ERRORS.tooltip.4=não puderem ser corrigidos.
 of.options.SHOW_GL_ERRORS.tooltip.5=Ao desativar, os erros ainda são registrados e
 of.options.SHOW_GL_ERRORS.tooltip.6=podem reduzir a taxa de quadros.
+
+of.options.TELEMETRY=Telemetria
+of.options.TELEMETRY.tooltip.1=Enviar dados de telemetria à Mojang
+of.options.TELEMETRY.tooltip.2=  Sim - telemetria completa (padrão)
+of.options.TELEMETRY.tooltip.3=  Anônimo - telemetria anônima
+of.options.TELEMETRY.tooltip.4=  Não - sem telemetria
+of.options.TELEMETRY.tooltip.5=A telemetria completa contém o UUID do usuário, que pode
+of.options.TELEMETRY.tooltip.6=ser utilizado para identificar o usuário em dispositivos diferentes.
+of.options.TELEMETRY.tooltip.7=A telemetria anônima não envia nenhum dado que
+of.options.TELEMETRY.tooltip.8=identifique o usuário ou o cliente.
 
 # Chat Settings
 
