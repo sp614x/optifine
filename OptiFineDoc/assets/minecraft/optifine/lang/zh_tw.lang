@@ -214,7 +214,7 @@ of.options.FOG_FANCY.tooltip.1=迷霧類型
 of.options.FOG_FANCY.tooltip.2=  流暢 - 較流暢的迷霧
 of.options.FOG_FANCY.tooltip.3=  精緻 - 較慢的迷霧，視覺效果較佳
 of.options.FOG_FANCY.tooltip.4=  關閉 - 無迷霧，最快
-of.options.FOG_FANCY.tooltip.5=精緻的迷霧只有當顯卡支援時才可使用。
+of.options.FOG_FANCY.tooltip.5=精緻的迷霧只有當顯示卡支援時才可使用。
 of.options.FOG_FANCY.tooltip.6=
 
 of.options.FOG_START=迷霧出現距離
@@ -382,7 +382,7 @@ of.options.AA_LEVEL.tooltip.3=  2-16 - 對線與邊緣進行抗鋸齒處理（�
 of.options.AA_LEVEL.tooltip.4=抗鋸齒對鋸齒線和鮮明的色彩過渡
 of.options.AA_LEVEL.tooltip.5=進行平滑處理。
 of.options.AA_LEVEL.tooltip.6=啟用它可能會大幅降低 FPS。
-of.options.AA_LEVEL.tooltip.7=並非所有等級都顯卡都支援。
+of.options.AA_LEVEL.tooltip.7=並非所有等級都顯示卡都支援。
 of.options.AA_LEVEL.tooltip.8=重啟後生效！
 
 of.options.AF_LEVEL=各向異性過濾
@@ -629,7 +629,7 @@ of.options.SMOOTH_FPS=柔和化 FPS
 of.options.SMOOTH_FPS.tooltip.1=通過清除顯示卡緩衝區來穩定 FPS
 of.options.SMOOTH_FPS.tooltip.2=  關閉 - 不穩定，FPS 可能波動
 of.options.SMOOTH_FPS.tooltip.3=  開啟 - FPS 穩定
-of.options.SMOOTH_FPS.tooltip.4=此選項依賴於顯卡驅動不一定有明顯效果。
+of.options.SMOOTH_FPS.tooltip.4=此選項依賴於顯示卡驅動不一定有明顯效果。
 of.options.SMOOTH_FPS.tooltip.5=
 
 of.options.SMOOTH_WORLD=柔和化世界
@@ -760,7 +760,7 @@ of.options.TIME.tooltip.6=
 options.fullscreen.tooltip.1=全螢幕
 options.fullscreen.tooltip.2=  開啟 - 使用全螢幕模式
 options.fullscreen.tooltip.3=  關閉 - 使用視窗模式
-options.fullscreen.tooltip.4=全螢幕模式可能比視窗模式更快或更慢，取決於顯卡。
+options.fullscreen.tooltip.4=全螢幕模式可能比視窗模式更快或更慢，取決於顯示卡。
 options.fullscreen.tooltip.5=
 
 options.fullscreen.resolution=全螢幕模式
@@ -798,7 +798,7 @@ of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設的截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自訂截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體。
 of.options.SCREENSHOT_SIZE.tooltip.5=與抗鋸齒不相容。
-of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡影格緩衝區支援。
+of.options.SCREENSHOT_SIZE.tooltip.6=需要顯示卡影格緩衝區支援。
 
 of.options.SHOW_GL_ERRORS=顯示 GL 錯誤
 of.options.SHOW_GL_ERRORS.tooltip.1=顯示 OpenGL 錯誤
