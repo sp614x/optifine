@@ -5,7 +5,7 @@
 #   pan93412 (crowdin pan93412) 2018-08-23 ---- 2018-08-23
 #   NatsuArashi (crowdin MC_PR) 2018-10-29 ---- 2021-03-14
 #   THGABS (Minecraft Wiki Thgabs) 2020-10-24 ---- 2022-3-24
-#   Jimmysheep (Personal translation) 2020-04-05 ---- 2022-12-31
+#   Jimmysheep (Personal translation) 2020-04-05 ---- 2023-01-19
 ##-------------- zh_TW ---------------
 
 # General
@@ -790,7 +790,7 @@ of.options.AUTOSAVE_TICKS=自動儲存
 of.options.AUTOSAVE_TICKS.tooltip.1=自動儲存間隔
 of.options.AUTOSAVE_TICKS.tooltip.2= 45秒 - 預設
 of.options.AUTOSAVE_TICKS.tooltip.3=自動儲存可能會造成卡頓，具體取決於顯示距離。
-of.options.AUTOSAVE_TICKS.tooltip.4=當開啟遊戲菜單時，世界也會被保存。
+of.options.AUTOSAVE_TICKS.tooltip.4=當開啟遊戲選單時，世界也會被保存。
 
 of.options.SCREENSHOT_SIZE=截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.1=截圖尺寸
@@ -798,13 +798,13 @@ of.options.SCREENSHOT_SIZE.tooltip.2=  預設 - 預設的截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - 自訂截圖尺寸
 of.options.SCREENSHOT_SIZE.tooltip.4=抓取更大的截圖可能需要更多的記憶體。
 of.options.SCREENSHOT_SIZE.tooltip.5=與抗鋸齒不相容。
-of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡 FPS 緩衝區支持。
+of.options.SCREENSHOT_SIZE.tooltip.6=需要顯卡影格緩衝區支援。
 
 of.options.SHOW_GL_ERRORS=顯示 GL 錯誤
 of.options.SHOW_GL_ERRORS.tooltip.1=顯示 OpenGL 錯誤
 of.options.SHOW_GL_ERRORS.tooltip.2=啟用時，OpenGL 的錯誤會顯示在聊天視窗中。
 of.options.SHOW_GL_ERRORS.tooltip.3=只有在已知的衝突或錯誤無法修復時才建議停用。
-of.options.SHOW_GL_ERRORS.tooltip.4=停用時，錯誤仍然會記在錯誤記錄中，且依然可能導致 FPS 明顯下降。
+of.options.SHOW_GL_ERRORS.tooltip.4=停用時，錯誤仍然會紀錄在錯誤記錄中，且依然可能導致 FPS 明顯下降。
 of.options.SHOW_GL_ERRORS.tooltip.5=
 of.options.SHOW_GL_ERRORS.tooltip.6=
 
