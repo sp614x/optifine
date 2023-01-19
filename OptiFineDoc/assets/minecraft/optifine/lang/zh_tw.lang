@@ -5,7 +5,7 @@
 #   pan93412 (crowdin pan93412) 2018-08-23 ---- 2018-08-23
 #   NatsuArashi (crowdin MC_PR) 2018-10-29 ---- 2021-03-14
 #   THGABS (Minecraft Wiki Thgabs) 2020-10-24 ---- 2022-3-24
-#   Jimmysheep (Personal translation) 2020-04-05 ---- 2022-01-19
+#   Jimmysheep (Personal translation) 2020-04-05 ---- 2022-12-31
 ##-------------- zh_TW ---------------
 
 # General
@@ -151,7 +151,7 @@ options.viewBobbing.tooltip.2=當使用多精度材質時，關閉它來取得�
 
 options.guiScale.tooltip.1=介面大小
 options.guiScale.tooltip.2=  自動 - 最大尺寸
-options.guiScale.tooltip.3=  小、中‵、大 - 1x 到 3x
+options.guiScale.tooltip.3=  小、中、大 - 1x 到 3x
 options.guiScale.tooltip.4=  4x-10x - 僅適用於 4K 解析度
 options.guiScale.tooltip.5=奇數值的放大倍數（1x, 3x, 5x...等）與 Unicode 不相容。
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
