@@ -71,6 +71,7 @@
 # Variables
 #   <model>.<var> - Model variable, see the model variable specification
 #   time          - The current world time in ticks
+#   rule_index    - The active random model rule index from the properties file. Defaults to 0.
 #
 # Render parameters
 #   limb_swing                               - Limb animation counter. Counts up in ticks when the entity moves
