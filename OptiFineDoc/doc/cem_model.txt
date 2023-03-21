@@ -135,7 +135,7 @@
 # tropical_fish_pattern_a  body, tail, fin_right, fin_left, fin_top
 # tropical_fish_pattern_b  body, tail, fin_right, fin_left, fin_top, fin_bottom
 # turtle                   head, body, leg1 ... leg4, body2
-# vex                      head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_wing, right_wing
+# vex                      head, body, left_arm, right_arm, left_wing, right_wing
 # villager                 head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose
 # vindicator               head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm
 # wandering_trader         head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose
@@ -201,3 +201,8 @@
 # The models to be used are selected with the setting "models.<n>=<list>" instead of "textures.<n>=<list>".
 # The index of the current matching rule is available as animation parameter "rule_index" and can be used to cutomize the model depending on entity properties.
 # For more details see "random_entities.properties".
+#
+# Example:
+# creeper.properties
+models.1=2
+name.1=James
