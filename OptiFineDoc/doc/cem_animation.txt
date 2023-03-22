@@ -82,7 +82,7 @@
 #   player_rot_x, player_rot_y               - The entities current world rotation. North is 0
 #   frame_time                               - The time in seconds since the last frame
 #   dimension                                - The current dimension. Overworld: 0, Nether: -1, End: 1
-#   rule_index                               - The index of the current matching random models rule
+#   rule_index                               - The index of the current matching random models rule. Defaults to 0
 #
 # Entity parameters (float)
 #   health              - The entity's current health
