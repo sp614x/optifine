@@ -70,7 +70,9 @@
 #
 # Variables
 #   <model>.<var> - Model variable, see the model variable specification
-#   time          - The current world time in ticks
+#   time          - The total game time in ticks, not related to the daylight cycle (0-720720)
+#   day_time      - The current day time in ticks (0-24000)
+#   day_count     - The current day count
 #
 # Render parameters
 #   limb_swing                               - Limb animation counter. Counts up in ticks when the entity moves
