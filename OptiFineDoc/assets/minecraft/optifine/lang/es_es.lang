@@ -7,6 +7,7 @@ of.general.id=ID
 of.general.max=Máximo
 of.general.restart=Reiniciar
 of.general.smart=Inteligentes
+of.general.anonymous=Anónima
 
 # Keys
 of.key.zoom=Zoom
@@ -21,17 +22,20 @@ of.message.af.shaders2=Desactívalas para usar esta función.
 of.message.fr.shaders1=No es compatible con shaders.
 of.message.fr.shaders2=Desactívalas para usar esta función.
 
-of.message.shaders.aa1=Las shaders no son compatibles con antialiasing.
+of.message.shaders.aa1=No es compatible con Antialiasing.
 of.message.shaders.aa2=Para desactivarlo, haz clic en Calidad -> Antialiasing.
 
-of.message.shaders.af1=Las shaders no son compatibles con anisotrópico.
+of.message.shaders.af1=No es compatible con Anisotrópico.
 of.message.shaders.af2=Para desactivarlo, haz clic en Calidad -> Anisotrópico.
 
-of.message.shaders.fr1=Las shaders no son compatibles con el renderizado rápido.
+of.message.shaders.fr1=No es compatible con Renderizado rápido.
 of.message.shaders.fr2=Para desactivarlo, haz clic en Rendimiento -> Renderizado rápido.
 
 of.message.an.shaders1=No es compatible con shaders.
 of.message.an.shaders2=Desactívalas para usar esta función.
+
+of.message.shaders.gf1=No es compatible con los gráficos "¡Fabulosos!".
+of.message.shaders.gf2=Por favor, cambia la configuración de gráficos a "Detallados" o "Rápidos".
 
 of.message.shaders.aa1=No es compatible con Antialiasing.
 of.message.shaders.aa2=Desactívalo en Calidad -> Antialiasing -> NO.
@@ -45,7 +49,7 @@ of.message.shaders.fr2=Desactívalo en Calidad -> Renderizado rápido -> NO.
 of.message.shaders.an1=No es compatible con Visión en 3D.
 of.message.shaders.an2=Desactívalo en Opciones varias -> Visión en 3D.
 
-of.message.shaders.nv1=Estas shaders requieren un Optifine más reciente: %s
+of.message.shaders.nv1=Estas shaders requieren una versión de Optifine más reciente: %s
 of.message.shaders.nv2=¿Quieres continuar?
 
 of.message.newVersion=Hay una nueva versión de §eOptiFine§f disponible: §e%s§f
@@ -77,11 +81,12 @@ of.message.capeOF.error2=Error: %s
 
 options.graphics.tooltip.1=Gráficos
 options.graphics.tooltip.2=  Rápidos  - peor calidad, mejor rendimiento
-options.graphics.tooltip.3=  Detallados - mejor calidad, peor rendimiento
-options.graphics.tooltip.4= 
-options.graphics.tooltip.5=Los cambios se aprecian en las nubes, en las hojas,
-options.graphics.tooltip.6=en la lluvia, en los objetos tirados y en las
-options.graphics.tooltip.7=esquinas (o bordes) de la pantalla del juego.
+options.graphics.tooltip.3=  Detallados - mejor calidad, rendimiento medio
+options.graphics.tooltip.4=  ¡Fabulosos! - traslucidez perfecta, peor rendimiento
+options.graphics.tooltip.5=  
+options.graphics.tooltip.6=Los cambios se ven en el agua, en las nubes, en las 
+options.graphics.tooltip.7=hojas, en la lluvia, en los objetos tirados y en las
+options.graphics.tooltip.8=esquinas (o bordes) de la pantalla del juego.
 
 of.options.renderDistance.tiny=Mínimo
 of.options.renderDistance.short=Corto
@@ -189,6 +194,14 @@ of.options.CHUNK_LOADING.tooltip.7=Multinúcleo puede acelerar la carga hasta 3 
 of.options.CHUNK_LOADING.tooltip.8=mejorar los FPS al usar un segundo núcleo del CPU.
 of.options.chunkLoading.smooth=Suave
 of.options.chunkLoading.multiCore=Multinúcleo
+
+options.prioritizeChunkUpdates.tooltip.1=Generación de chunks
+options.prioritizeChunkUpdates.tooltip.2= En paralelo - actualiza todos los chunks en segundo plano.
+options.prioritizeChunkUpdates.tooltip.3= Por acción - actualiza los chunks cuando el jugador interactúa.
+options.prioritizeChunkUpdates.tooltip.4= Siempre - actualiza todos los chunks cercanos inmediatamente.
+options.prioritizeChunkUpdates.tooltip.5=   
+options.prioritizeChunkUpdates.tooltip.6="En paralelo" puede generar problemas visuales en el suelo.
+options.prioritizeChunkUpdates.tooltip.7="Siempre" puede generar picos de lag constantes.
 
 of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
@@ -811,3 +824,13 @@ of.options.CHAT_SHADOW=Sombreado de chat
 of.options.CHAT_SHADOW.tooltip.1=Añadir sombra al texto del chat
 of.options.CHAT_SHADOW.tooltip.2=  SÍ - sombrearlo
 of.options.CHAT_SHADOW.tooltip.3=  NO - sin sombrearlo
+
+of.options.TELEMETRY=Telemetría
+of.options.TELEMETRY.tooltip.1=Enviar datos de uso a Mojang
+of.options.TELEMETRY.tooltip.2=  SÍ - telemetría completa (por defecto)
+of.options.TELEMETRY.tooltip.3=  Anónima - telemetría sin enviar tu identidad
+of.options.TELEMETRY.tooltip.4=  NO - sin telemetría, no se mandan datos de uso
+of.options.TELEMETRY.tooltip.5=   
+of.options.TELEMETRY.tooltip.6=La telemetría completa envía tu UUID, lo que permite
+of.options.TELEMETRY.tooltip.7=recabar información entre distintos dispositivos.
+of.options.TELEMETRY.tooltip.8=La telemetría anónima no comparte tus datos de usuario.
