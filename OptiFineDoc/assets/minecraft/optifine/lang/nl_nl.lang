@@ -7,6 +7,7 @@ of.general.id=Id
 of.general.max=maximaal
 of.general.restart=herstarten
 of.general.smart=slim
+of.general.anonymous=Anoniem
 
 # Keys
 of.key.zoom=Zoom
@@ -793,6 +794,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Schakel alleen uit als er een bekend conflic
 of.options.SHOW_GL_ERRORS.tooltip.4=errors niet opgelost kunnen worden. Indien uitgeschakeld
 of.options.SHOW_GL_ERRORS.tooltip.5=worden de errors alsnog in de errorlog gelogd en kan
 of.options.SHOW_GL_ERRORS.tooltip.6=dit nog steeds de prestaties verminderen.
+
+of.options.TELEMETRY=Telemetrie
+of.options.TELEMETRY.tooltip.1=Verstuur telemetriegegevens naar Mojang
+of.options.TELEMETRY.tooltip.2=  AAN - volledige telemetrie (standaard)
+of.options.TELEMETRY.tooltip.3=  Anoniem - anonieme telemetrie
+of.options.TELEMETRY.tooltip.4=  UIT - geen telemetrie
+of.options.TELEMETRY.tooltip.5=Volledige telemetrie stuurt de UUID van de gebruiker
+of.options.TELEMETRY.tooltip.6=waarmee deze over verschillende apparaten gevolgd kan
+of.options.TELEMETRY.tooltip.7=worden. De anonieme telemetrie stuurt geen aan de
+of.options.TELEMETRY.tooltip.8=gebruiker herleidbare informatie mee.
 
 # Chat Settings
 

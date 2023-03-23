@@ -7,7 +7,7 @@ of.general.id=ID
 of.general.max=Maximálne
 of.general.restart=reštart
 of.general.smart=Chytré
-of.general.anonymous=Anonymné
+of.general.anonymous=Anonymná
 
 # Keys
 of.key.zoom=Priblíženie
@@ -100,6 +100,14 @@ options.renderDistance.tooltip.6=  48 Šialená = 768m, potrebuje 2GB alokovanej
 options.renderDistance.tooltip.7=  64 Absurdná = 1024m, potrebuje 3GB alokovanej RAM
 options.renderDistance.tooltip.8=Menej je rýchlejšie, servery majú zvyčajne 10 chunkov.
 
+options.simulationDistance.tooltip.1=Dosah simulácie
+options.simulationDistance.tooltip.2=  5-12 - Normálna
+options.simulationDistance.tooltip.3=  13-24 - Ďaleká
+options.simulationDistance.tooltip.4=  25-32 - Extrémna
+options.simulationDistance.tooltip.5=Menej je rýchlejšie. 
+options.simulationDistance.tooltip.6=Reguluje vzdialenosť od hráča, v ktorej sa
+options.simulationDistance.tooltip.7=spracúvajú entity a chunky.
+
 options.entityDistanceScaling.tooltip.1=Vzdialenosť vykresľovania entít
 options.entityDistanceScaling.tooltip.2=  50%%-500%%
 options.entityDistanceScaling.tooltip.3=  100%% = predvolené
@@ -158,6 +166,30 @@ options.attackIndicator.tooltip.3=  Lišta = vpravo od lišty
 options.attackIndicator.tooltip.4=  Zameriavač = pod stredom obrazovky
 options.attackIndicator.tooltip.5=Ukazuje kedy treba buchnúť pre
 options.attackIndicator.tooltip.6=najväčsie poranenie.
+
+options.screenEffectScale.tooltip.1=Efekty skreslenia
+options.screenEffectScale.tooltip.2=  Vypnuté, 1-100%%
+options.screenEffectScale.tooltip.3=Reguluje intenzitu skreslenia obrazovky
+options.screenEffectScale.tooltip.4=ako animácie otravy alebo portálu.
+options.screenEffectScale.tooltip.5=
+
+options.autosaveIndicator.tooltip.1=Ukazovateľ ukladania
+options.autosaveIndicator.tooltip.2=  Vypnuté, Zapnuté
+options.autosaveIndicator.tooltip.3=Zobrazuje sa, keď sa hra automaticky ukladá.
+options.autosaveIndicator.tooltip.4=
+
+options.fovEffectScale.tooltip.1=Efekty zorného poľa
+options.fovEffectScale.tooltip.2=  Vypnuté, 1-100%%
+options.fovEffectScale.tooltip.3=Reguluje intenzitu efektu približovania
+options.fovEffectScale.tooltip.4=a odďaľovania obrazovky pri behu,
+options.fovEffectScale.tooltip.5=naťahovaní luku a lete.
+
+options.prioritizeChunkUpdates.tooltip.1=Obnova chunkov
+options.prioritizeChunkUpdates.tooltip.2=  Postupná = Chunky sa obnovujú postupne
+options.prioritizeChunkUpdates.tooltip.3=  Podľa hráča = Okamžite obnoví hráčom zmenené chunky
+options.prioritizeChunkUpdates.tooltip.4=  Plná = Okolité chunky sa vždy obnovujú
+options.prioritizeChunkUpdates.tooltip.5=Vyššie je rýchlejšie.
+options.prioritizeChunkUpdates.tooltip.6=Pri postupnom obnovovaní sa môžu vyskytnúť diery.
 
 of.options.ALTERNATE_BLOCKS=Rozličné kocky
 of.options.ALTERNATE_BLOCKS.tooltip.1=Rozličné kocky
@@ -772,6 +804,7 @@ of.options.TELEMETRY.tooltip.5=Plná telemetria odosiela hráčove UUID, ktoré 
 of.options.TELEMETRY.tooltip.6=použité na sledovanie aktivity na rôznych zariadeniach.
 of.options.TELEMETRY.tooltip.7=Anonymná telemetria neposiela žiadne používateľské, ani
 of.options.TELEMETRY.tooltip.8=klientske dáta, pomocou ktorých je možné hráča identifikovať.
+
 
 # Chat Settings
 #these tooltips don't show ingame (at least in 1.16.5)
