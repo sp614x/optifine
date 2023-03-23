@@ -2,7 +2,7 @@
 #   ThexXTURBOXx (Collaborator of Reforged) 2016-2-29 ---- 2016-3-3
 #   RoiEXLab 2016-3-8
 #   violine1101 (German Minecraft Wiki admin) 2016-4-4 ---- 2017-6-7
-#   shaderecker (TheHADILP) 2016-5-20 ---- 2021-03-14
+#   shaderecker 2016-5-20 ---- 2023-01-11
 #   Nerdyyy 2018-1-6
 #   OfficialCRUGG / CRUGG 2019-03-17
 
@@ -15,6 +15,7 @@ of.general.id=ID
 of.general.max=Maximum
 of.general.restart=Neustart
 of.general.smart=Intelligent
+of.general.anonymous=Anonym
 
 # Keys
 of.key.zoom=Zoom
@@ -107,6 +108,14 @@ options.renderDistance.tooltip.6=  48 Wahnsinnig - 768m, braucht 2GB RAM zugetei
 options.renderDistance.tooltip.7=  64 Absurd - 1024m, braucht 3GB RAM zugeteilt
 options.renderDistance.tooltip.8=Werte über 16 funktionieren nur im Einzelspielermodus.
 
+options.simulationDistance.tooltip.1=Simulationsweite
+options.simulationDistance.tooltip.2=  5-12 - Normal (schneller)
+options.simulationDistance.tooltip.3=  13-24 - Weit (langsamer)
+options.simulationDistance.tooltip.4=  25-32 - Extrem (am langsamsten)
+options.simulationDistance.tooltip.5=Kontrolliert wie weit entfernt vom Spieler die Chunks
+options.simulationDistance.tooltip.6=und Entitäten aktualisiert werden.
+options.simulationDistance.tooltip.7=Höhere Werte können erhebliche Lag-Spitzen erzeugen.
+
 options.entityDistanceScaling.tooltip.1=Objektentfernung
 options.entityDistanceScaling.tooltip.2=  50%% - Schneller
 options.entityDistanceScaling.tooltip.3=  100%% - Standard
@@ -168,6 +177,30 @@ options.attackIndicator.tooltip.3=  Schnellzugriffsleiste - Neben der Schnellzug
 options.attackIndicator.tooltip.4=  Aus - Keine Angriffsanzeige
 options.attackIndicator.tooltip.5=Die Angriffsanzeige zeigt die Angriffsstärke des
 options.attackIndicator.tooltip.6=aktuell ausgerüsteten Gegenstandes.
+
+options.screenEffectScale.tooltip.1=Verzerrungseffekte
+options.screenEffectScale.tooltip.2=  Aus - deaktiviert
+options.screenEffectScale.tooltip.3=  1-100%% - aktiviert
+options.screenEffectScale.tooltip.4=Kontrolliert die Intensität der Bildschirm Verzerrungs-
+options.screenEffectScale.tooltip.5=effekte wie Portal-Animationen und Übelkeit.
+
+options.autosaveIndicator.tooltip.1=Automatisches-Speichern Anzeige
+options.autosaveIndicator.tooltip.2=  Aus - deaktiviert
+options.autosaveIndicator.tooltip.3=  An - aktiviert
+options.autosaveIndicator.tooltip.4=Zeigt an, wenn die Welt automatisch gespeichert wird.
+
+options.fovEffectScale.tooltip.1=Sichtfeld Effekte
+options.fovEffectScale.tooltip.2=  Aus - deaktiviert
+options.fovEffectScale.tooltip.3=  1-100%% - aktiviert
+options.fovEffectScale.tooltip.4=Kontrolliert die Intensität der Bildschirm Zoom-Effekte
+options.fovEffectScale.tooltip.5=wie Bogenspannen, Laufen und Fliegen.
+
+options.prioritizeChunkUpdates.tooltip.1=Chunk Erbauer
+options.prioritizeChunkUpdates.tooltip.2= Verteilt - Aktualisiert alle Chunks im Hintergrund
+options.prioritizeChunkUpdates.tooltip.3= Halb Blockierend - Aktualisiert spielerbezogene Chunks sofort
+options.prioritizeChunkUpdates.tooltip.4= Voll Blockierend - Aktualisiert alle nahen Chunks sofort
+options.prioritizeChunkUpdates.tooltip.5=Verteilte Updates können kurzzeitig Löcher im Boden zeigen.
+options.prioritizeChunkUpdates.tooltip.6=Voll blockierende Updates können erhebliche Lag-Spitzen erzeugen.
 
 of.options.ALTERNATE_BLOCKS=Blockvarianten
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blockvarianten
@@ -793,6 +826,16 @@ of.options.SHOW_GL_ERRORS.tooltip.4=vorliegt und dieser nicht behoben werden kan
 of.options.SHOW_GL_ERRORS.tooltip.5=Auch nach Deaktivierung werden Fehler in der Log Datei
 of.options.SHOW_GL_ERRORS.tooltip.6=festgehalten und es kann zu erheblichen FPS Einbrüchen
 of.options.SHOW_GL_ERRORS.tooltip.7=kommen.
+
+of.options.TELEMETRY=Telemetrie
+of.options.TELEMETRY.tooltip.1=Sende Telemetrie Daten an Mojang
+of.options.TELEMETRY.tooltip.2=  An - Volle Telemetrie (Standard)
+of.options.TELEMETRY.tooltip.3=  Anonym - Anonyme Telemetrie
+of.options.TELEMETRY.tooltip.4=  Aus - Keine Telemetrie
+of.options.TELEMETRY.tooltip.5=Die volle Telemetrie sendet die Benutzer UUID mit, wodurch
+of.options.TELEMETRY.tooltip.6=der Benutzer über verschiedene Geräte hinweg erkannt wird.
+of.options.TELEMETRY.tooltip.7=Die anonyme Telemetrie sendet keine Benutzer identifizierbaren
+of.options.TELEMETRY.tooltip.8=Daten.
 
 # Chat Settings
 
