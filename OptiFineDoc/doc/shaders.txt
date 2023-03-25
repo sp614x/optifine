@@ -259,7 +259,7 @@ Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain,
 ==================
 Source                                          Value                                                    
 =====================================================================================================================================================================
-uniform sampler2D texture;                      0
+uniform sampler2D gtexture;                     0
 uniform sampler2D lightmap;                     1
 uniform sampler2D normals;                      2         
 uniform sampler2D specular;                     3
@@ -297,7 +297,7 @@ Programs: shadow, shadow_solid, shadow_cutout
 Source                                          Value                                                    
 =====================================================================================================================================================================
 uniform sampler2D tex;                          0
-uniform sampler2D texture;                      0
+uniform sampler2D gtexture;                     0
 uniform sampler2D lightmap;                     1
 uniform sampler2D normals;                      2         
 uniform sampler2D specular;                     3
@@ -373,7 +373,7 @@ GBuffers Textures
 =================
 Id Name           Legacy name
 ======================================
-0  texture
+0  gtexture       texture
 1  lightmap
 2  normals
 3  specular
@@ -401,7 +401,7 @@ Shadow Textures
 ==================
 Id Name           Legacy name
 ======================================
-0  texture        tex
+0  gtexture       tex, texture
 1  lightmap
 2  normals
 3  specular
