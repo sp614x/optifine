@@ -24,11 +24,14 @@
 # bell                     body
 # blaze                    head, stick1 ... stick12
 # boat                     bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water
+# camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg,
+#                          saddle, reins, bridle
 # cat                      back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
 # cat_collar               back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
 # cave_spider              head, neck, body, leg1 ... leg8
 # chest                    lid, base, knob
 # chest_boat               bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water, chest_base, chest_lid, chest_knob
+# chest_raft               bottom, paddle_left, paddle_right, chest_base, chest_lid, chest_knob
 # chest_large              lid_left, base_left, knob_left, lid_right, base_right, knob_right
 # chest_minecart           bottom, back, front, right, left
 # chicken                  head, body, right_leg, left_leg, right_wing, left_wing, bill, chin
@@ -102,6 +105,7 @@
 # pillager                 head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm
 # polar_bear               head, body, leg1 ... leg4
 # rabbit                   left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
+# raft                     bottom, paddle_left, paddle_right
 # ravager                  head, jaw, body, leg1 ... leg4, neck
 # salmon                   body_front, body_back, head, fin_back_1, fin_back_2, tail, fin_right, fin_left
 # sheep                    head, body, leg1 ... leg4
@@ -115,6 +119,8 @@
 # skeleton_horse           <same as horse>
 # slime                    body, left_eye, right_eye, mouth
 # slime_outer              body
+# sniffer                  body, back_left_leg, back_right_leg, middle_left_leg, middle_right_leg, front_left_leg, front_right_leg,
+#                          head, left_ear, right_ear, nose, lower_beak
 # snow_golem               body, body_bottom, head, left_hand, right_hand
 # spawner_minecart         bottom, back, front, right, left
 # spider                   head, neck, body, leg1, ... leg8
