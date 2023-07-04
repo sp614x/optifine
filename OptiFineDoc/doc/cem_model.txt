@@ -202,7 +202,27 @@
 # The index of the current matching rule is available as animation parameter "rule_index" and can be used to cutomize the model depending on entity properties.
 # For more details see "random_entities.properties".
 #
-# Example:
-# creeper.properties
+# Examples
+######################################################################
+# Named creeper
+# creeper.properties, creeper.jem, creeper2.jem
 models.1=2
 name.1=James
+
+######################################################################
+# Boat variants
+# boat.properties, boat.jem, boat2.jem, boat3.jem
+models.1=2
+nbt.1.Type=spruce
+
+models.2=3
+nbt.2.Type=birch
+
+######################################################################
+# Bed variants
+# bed.properties, bed.jem, bed2.jem, bed3.jem
+models.1=2
+blocks.1=black_bed
+
+models.2=3
+blocks.2=orange_bed
