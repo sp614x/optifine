@@ -41,6 +41,7 @@
 # cow                      head, body, leg1 ... leg4
 # creeper                  head, body, leg1 ... leg4
 # creeper_charge           head, body, leg1 ... leg4
+# decorated_pot            neck, front, back, left, right, top, bottom
 # dragon                   head, spine, jaw, body, left_wing, left_wing_tip, right_wing, right_wing_tip,
 #                          front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, 
 #                          front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
@@ -64,7 +65,9 @@
 # glow_squid               body, tentacle1 ... tentacle8
 # goat                     head, body, leg1 ... leg4, left_horn, right_horn, nose
 # guardian                 body, eye, spine1 ... spine12, tail1 ... tail3
+# hanging_sign             board, plank, chains, chain_left1, chain_left2, chain_right1, chain_right2, chains_v
 # head_dragon              head, jaw
+# head_piglin              head
 # head_player              head
 # head_skeleton            head
 # head_wither_skeleton     head
