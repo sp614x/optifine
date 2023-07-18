@@ -683,7 +683,7 @@ of.options.SMART_ANIMATIONS.tooltip.3= ON - use smart animations (faster)
 of.options.SMART_ANIMATIONS.tooltip.4=With smart animations the game will only animate the 
 of.options.SMART_ANIMATIONS.tooltip.5=textures which are currently visible on the screen.
 of.options.SMART_ANIMATIONS.tooltip.6=This reduces the tick lag spikes and increases the FPS.
-of.options.SMART_ANIMATIONS.tooltip.7=Notably useful for big mod packs & HD resource packs.
+of.options.SMART_ANIMATIONS.tooltip.7=Notably useful for big mod packs and HD resource packs.
 
 # Animations
 
