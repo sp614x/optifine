@@ -389,8 +389,9 @@ of.options.RANDOM_ENTITIES=Random Entities
 of.options.RANDOM_ENTITIES.tooltip.1=Random Entities
 of.options.RANDOM_ENTITIES.tooltip.2=  OFF - no random entities, faster
 of.options.RANDOM_ENTITIES.tooltip.3=  ON - random entities, slower
-of.options.RANDOM_ENTITIES.tooltip.4=Random entities uses random textures for the game entities.
-of.options.RANDOM_ENTITIES.tooltip.5=It needs a resource pack which has multiple entity textures.
+of.options.RANDOM_ENTITIES.tooltip.4=Randon entities shows a random texture for game entities.
+of.options.RANDOM_ENTITIES.tooltip.5=The random textures are supplied by the current
+of.options.RANDOM_ENTITIES.tooltip.6=resource pack which has two or more entity textures.
 
 of.options.BETTER_GRASS=Better Grass
 of.options.BETTER_GRASS.tooltip.1=Better Grass
