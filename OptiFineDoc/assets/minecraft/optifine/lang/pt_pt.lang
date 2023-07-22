@@ -393,7 +393,7 @@ of.options.RANDOM_ENTITIES.tooltip.2=  Não - sem entidades aleatórias, rápido
 of.options.RANDOM_ENTITIES.tooltip.3=  Sim - entidades aleatórias, lento
 of.options.RANDOM_ENTITIES.tooltip.4=As entidades aleatórias usam texturas aleatorizadas 
 of.options.RANDOM_ENTITIES.tooltip.5=para as entidades do jogo. Precisa de um pacote
-of.options.RANDOM_ENTITIES.tooltip.5=de recursos que possua várias texturas das entidades.
+of.options.RANDOM_ENTITIES.tooltip.6=de recursos que possua várias texturas das entidades.
 
 of.options.BETTER_GRASS=Relva formosa
 of.options.BETTER_GRASS.tooltip.1=Relva formosa
