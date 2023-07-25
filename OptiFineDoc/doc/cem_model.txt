@@ -24,11 +24,14 @@
 # bell                     body
 # blaze                    head, stick1 ... stick12
 # boat                     bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water
+# camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg,
+#                          saddle, reins, bridle
 # cat                      back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
 # cat_collar               back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
 # cave_spider              head, neck, body, leg1 ... leg8
 # chest                    lid, base, knob
 # chest_boat               bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water, chest_base, chest_lid, chest_knob
+# chest_raft               bottom, paddle_left, paddle_right, chest_base, chest_lid, chest_knob
 # chest_large              lid_left, base_left, knob_left, lid_right, base_right, knob_right
 # chest_minecart           bottom, back, front, right, left
 # chicken                  head, body, right_leg, left_leg, right_wing, left_wing, bill, chin
@@ -38,6 +41,7 @@
 # cow                      head, body, leg1 ... leg4
 # creeper                  head, body, leg1 ... leg4
 # creeper_charge           head, body, leg1 ... leg4
+# decorated_pot            neck, front, back, left, right, top, bottom
 # dragon                   head, spine, jaw, body, left_wing, left_wing_tip, right_wing, right_wing_tip,
 #                          front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, 
 #                          front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
@@ -61,7 +65,9 @@
 # glow_squid               body, tentacle1 ... tentacle8
 # goat                     head, body, leg1 ... leg4, left_horn, right_horn, nose
 # guardian                 body, eye, spine1 ... spine12, tail1 ... tail3
+# hanging_sign             board, plank, chains, chain_left1, chain_left2, chain_right1, chain_right2, chains_v
 # head_dragon              head, jaw
+# head_piglin              head
 # head_player              head
 # head_skeleton            head
 # head_wither_skeleton     head
@@ -102,6 +108,7 @@
 # pillager                 head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm
 # polar_bear               head, body, leg1 ... leg4
 # rabbit                   left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
+# raft                     bottom, paddle_left, paddle_right
 # ravager                  head, jaw, body, leg1 ... leg4, neck
 # salmon                   body_front, body_back, head, fin_back_1, fin_back_2, tail, fin_right, fin_left
 # sheep                    head, body, leg1 ... leg4
@@ -115,6 +122,8 @@
 # skeleton_horse           <same as horse>
 # slime                    body, left_eye, right_eye, mouth
 # slime_outer              body
+# sniffer                  body, back_left_leg, back_right_leg, middle_left_leg, middle_right_leg, front_left_leg, front_right_leg,
+#                          head, left_ear, right_ear, nose, lower_beak
 # snow_golem               body, body_bottom, head, left_hand, right_hand
 # spawner_minecart         bottom, back, front, right, left
 # spider                   head, neck, body, leg1, ... leg8
@@ -202,7 +211,27 @@
 # The index of the current matching rule is available as animation parameter "rule_index" and can be used to cutomize the model depending on entity properties.
 # For more details see "random_entities.properties".
 #
-# Example:
-# creeper.properties
+# Examples
+######################################################################
+# Named creeper
+# creeper.properties, creeper.jem, creeper2.jem
 models.1=2
 name.1=James
+
+######################################################################
+# Boat variants
+# boat.properties, boat.jem, boat2.jem, boat3.jem
+models.1=2
+nbt.1.Type=spruce
+
+models.2=3
+nbt.2.Type=birch
+
+######################################################################
+# Bed variants
+# bed.properties, bed.jem, bed2.jem, bed3.jem
+models.1=2
+blocks.1=black_bed
+
+models.2=3
+blocks.2=orange_bed

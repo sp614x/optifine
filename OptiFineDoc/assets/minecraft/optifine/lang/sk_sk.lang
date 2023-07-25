@@ -796,24 +796,25 @@ of.options.SHOW_GL_ERRORS.tooltip.5=Ak je vypnuté, chyby sa stále zapisujú do
 of.options.SHOW_GL_ERRORS.tooltip.6=a stále môžu spôsobiť značné poklesy FPS. 
 
 of.options.TELEMETRY=Telemetria
-of.options.TELEMETRY.tooltip.1=Odosielať štatistické dáta Mojangu
-of.options.TELEMETRY.tooltip.2=  Zapnuté, Anonymné, Vypnuté
-of.options.TELEMETRY.tooltip.3=Plná telemtria môže byť používaná na sledovanie
-of.options.TELEMETRY.tooltip.4=používateľa medzi zariadeniami pomocou jeho UUID.
-of.options.TELEMETRY.tooltip.5=Anonymná telemetria neodosiela žiadne
-of.options.TELEMETRY.tooltip.6=identifikačné dáta.
-of.options.TELEMETRY.tooltip.7=
-of.options.TELEMETRY.tooltip.8=
+of.options.TELEMETRY.tooltip.1=Odosielanie telemetrických dát Mojangu
+of.options.TELEMETRY.tooltip.2=  ZAP - plná telemetria (predvolené)
+of.options.TELEMETRY.tooltip.3=  Anonymné - anonymná telemetria
+of.options.TELEMETRY.tooltip.4=  VYP - žiadna telemetria
+of.options.TELEMETRY.tooltip.5=Plná telemetria odosiela hráčove UUID, ktoré môže byť
+of.options.TELEMETRY.tooltip.6=použité na sledovanie aktivity na rôznych zariadeniach.
+of.options.TELEMETRY.tooltip.7=Anonymná telemetria neposiela žiadne používateľské, ani
+of.options.TELEMETRY.tooltip.8=klientske dáta, pomocou ktorých je možné hráča identifikovať.
+
 
 # Chat Settings
 #these tooltips don't show ingame (at least in 1.16.5)
-of.options.CHAT_BACKGROUND=Pozadie četu
-of.options.CHAT_BACKGROUND.tooltip.1=Pozadie četu
+of.options.CHAT_BACKGROUND=Pozadie chatu
+of.options.CHAT_BACKGROUND.tooltip.1=Pozadie chatu
 of.options.CHAT_BACKGROUND.tooltip.2=  Vypnuté = len písmo
 of.options.CHAT_BACKGROUND.tooltip.3=  Normálne = pevná šírka
 of.options.CHAT_BACKGROUND.tooltip.4=  Kompaktné = podľa šírky riadku
 
-of.options.CHAT_SHADOW=Tieň písma četu
-of.options.CHAT_SHADOW.tooltip.1=Tieň písma četu
+of.options.CHAT_SHADOW=Tieň písma chatu
+of.options.CHAT_SHADOW.tooltip.1=Tieň písma chatu
 of.options.CHAT_SHADOW.tooltip.2=  Vypnuté, Zapnuté
-of.options.CHAT_SHADOW.tooltip.3=Povoľuje písmu v čete mať tieň.
+of.options.CHAT_SHADOW.tooltip.3=Povoľuje písmu v chate mať tieň.

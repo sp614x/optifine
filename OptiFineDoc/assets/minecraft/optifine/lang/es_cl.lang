@@ -811,6 +811,7 @@ of.options.AUTOSAVE_TICKS=Autoguardado
 of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo del autoguardado
 of.options.AUTOSAVE_TICKS.tooltip.2= 45s - Predeterminado
 of.options.AUTOSAVE_TICKS.tooltip.3=Ponerlo cada poco tiempo puede causar mal rendimiento.
+of.options.AUTOSAVE_TICKS.tooltip.4=El mundo también se autoguarda cuando se abre el menú del juego.
 
 of.options.SCREENSHOT_SIZE=Capturas
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamaño de las capturas de pantalla
@@ -829,6 +830,16 @@ of.options.SHOW_GL_ERRORS.tooltip.4=que los errores no te molesten.
 of.options.SHOW_GL_ERRORS.tooltip.5=    
 of.options.SHOW_GL_ERRORS.tooltip.6=Aunque se desactive, los errores siguen apareciendo en
 of.options.SHOW_GL_ERRORS.tooltip.7=el registro (log) y pueden seguir causando FPS inestables.
+
+of.options.TELEMETRY=Telemetría
+of.options.TELEMETRY.tooltip.1=Enviar datos de telemetría a Mojang
+of.options.TELEMETRY.tooltip.2=  Si - Completa telemetría (default)
+of.options.TELEMETRY.tooltip.3=  Anónimo - telemetría anónima
+of.options.TELEMETRY.tooltip.4=  No - no enviar datos
+of.options.TELEMETRY.tooltip.5=La telemetría completa envía el UUID del usuario que sirve
+of.options.TELEMETRY.tooltip.6=para rastrear al usuario a través de diferentes dispositivos.
+of.options.TELEMETRY.tooltip.7=La telemetría anónima no envía datos del usuario o datos
+of.options.TELEMETRY.tooltip.8=identificables del usuario.
 
 # Chat Settings
 
