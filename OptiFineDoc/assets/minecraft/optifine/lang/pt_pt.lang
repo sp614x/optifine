@@ -52,7 +52,7 @@ of.message.openglError=§eErro do OpenGL§f: %s (%s)
 
 of.message.shaders.loading=A carregar shaders: %s
 
-of.message.other.reset=Redefinir todas as definições de vídeo para as predefinições?
+of.message.other.reset=Repor todas as definições de vídeo para as predefinições?
 
 of.message.loadingVisibleChunks=A carregar chunks visíveis
 
