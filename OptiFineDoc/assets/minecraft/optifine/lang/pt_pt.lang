@@ -738,7 +738,7 @@ of.options.LAGOMETER.tooltip.8=* Verde - Terreno carregado
 of.options.PROFILER=Análise de depur.
 of.options.PROFILER.tooltip.1=Análise de depuração
 of.options.PROFILER.tooltip.2=  Sim - a análise de depuração está ativa, lento
-of.options.PROFILER.tooltip.3=  Não - a análise de depuração está não está ativa, rápido
+of.options.PROFILER.tooltip.3=  Não - a análise de depuração não está ativa, rápido
 of.options.PROFILER.tooltip.4=A análise de depuração recolhe e mostra informação
 of.options.PROFILER.tooltip.5=da depuração quando o ecrã de depuração está visível (F3).
 
