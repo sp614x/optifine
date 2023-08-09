@@ -66,6 +66,7 @@
 # goat                     head, body, leg1 ... leg4, left_horn, right_horn, nose
 # guardian                 body, eye, spine1 ... spine12, tail1 ... tail3
 # hanging_sign             board, plank, chains, chain_left1, chain_left2, chain_right1, chain_right2, chains_v
+# head_creeper             head
 # head_dragon              head, jaw
 # head_piglin              head
 # head_player              head
