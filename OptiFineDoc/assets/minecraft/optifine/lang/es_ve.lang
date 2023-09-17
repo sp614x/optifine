@@ -193,7 +193,7 @@ options.prioritizeChunkUpdates.tooltip.6=La opción "Siempre" puede causar picos
 
 of.options.ALTERNATE_BLOCKS=Bloques alternativos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Usar modelos alternativos de bloques.
-of.options.ALTERNATE_BLOCKS.tooltip.2
+of.options.ALTERNATE_BLOCKS.tooltip.2=
 of.options.ALTERNATE_BLOCKS.tooltip.3=Los modelos personalizados son proveídos
 of.options.ALTERNATE_BLOCKS.tooltip.4=por el paquete de texturas seleccionado.
 
@@ -237,11 +237,11 @@ of.options.shaders.ANTIALIASING.tooltip.4=
 of.options.shaders.ANTIALIASING.tooltip.5=FXAA es un efecto de post-procesado que suaviza
 of.options.shaders.ANTIALIASING.tooltip.6="serruchos" y transiciones de colores.
 of.options.shaders.ANTIALIASING.tooltip.7=Más rápido que el Anti-aliasing normal y además es
-of.options.shaders.ANTIALIASING.tooltip.8=compatibles con Shaders.  
+of.options.shaders.ANTIALIASING.tooltip.8=compatibles con Shaders.
 
 of.options.shaders.NORMAL_MAP=Mapeado normal
 of.options.shaders.NORMAL_MAP.tooltip.1=Controla el mapeado normal
-of.options.shaders.NORMAL_MAP.tooltip.2=  SÍ - activado, por defecto 
+of.options.shaders.NORMAL_MAP.tooltip.2=  SÍ - activado, por defecto
 of.options.shaders.NORMAL_MAP.tooltip.3=  NO - desactivado
 of.options.shaders.NORMAL_MAP.tooltip.4=
 of.options.shaders.NORMAL_MAP.tooltip.5=Puede ser usado por los shaders para simular
@@ -301,16 +301,16 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.7=al ser llevados en la mano secundari
 of.options.shaders.OLD_LIGHTING=Iluminación clásica
 of.options.shaders.OLD_LIGHTING.tooltip.1=Iluminación clásica
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Por defecto - controlado por el shader
-of.options.shaders.OLD_LIGHTING.tooltip.3=  SÍ - usar iluminacion clásica
+of.options.shaders.OLD_LIGHTING.tooltip.3=  SÍ - usar iluminación clásica
 of.options.shaders.OLD_LIGHTING.tooltip.4=  NO - no usar iluminación clásica
 of.options.shaders.OLD_LIGHTING.tooltip.5=Controla la iluminación estática usada
-of.options.shaders.OLD_LIGHTING.tooltip.6=por Minecraft a los lados de los bloques. 
+of.options.shaders.OLD_LIGHTING.tooltip.6=por Minecraft a los lados de los bloques.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Algunos shaders pueden proveer una mejor
-of.options.shaders.OLD_LIGHTING.tooltip.8=iluminación dependiendo de la posición del sol.
+of.options.shaders.OLD_LIGHTING.tooltip.8=iluminación dependiendo de la posición del Sol.
 
 of.options.shaders.DOWNLOAD=Descargar shaders
 of.options.shaders.DOWNLOAD.tooltip.1=Descargar shaders
-of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Abre la página de Shaders en tu navegador.
 of.options.shaders.DOWNLOAD.tooltip.4=Coloca los shaders descargados en la
 of.options.shaders.DOWNLOAD.tooltip.5="Carpeta de Shaders" para instalarlos.
@@ -337,7 +337,7 @@ of.options.animationsTitle=Configuraciones de animaciones.
 of.options.other=Otro...
 of.options.otherTitle=Otras configuraciones
 
-of.options.other.reset=Reiniciar la configuracion de video...
+of.options.other.reset=Reiniciar la configuración de video...
 
 of.shaders.profile=Perfil
 
@@ -352,7 +352,7 @@ options.mipmapLevels.tooltip.1=Efecto que mejora la apariencia de objetos lejano
 options.mipmapLevels.tooltip.2=suavizando los detalles de la textura.
 options.mipmapLevels.tooltip.3=  NO - Sin suavizar
 options.mipmapLevels.tooltip.4=  1 – Suavizado mínimo
-options.mipmapLevels.tooltip.5=  4 – Suavizado máximo 
+options.mipmapLevels.tooltip.5=  4 – Suavizado máximo
 options.mipmapLevels.tooltip.6=Esta opción normalmente no afecta el rendimiento.
 
 of.options.MIPMAP_TYPE=Tipo de mipmap
@@ -446,7 +446,7 @@ of.options.CONNECTED_TEXTURES.tooltip.3=  Rápidos – texturas conectadas rápi
 of.options.CONNECTED_TEXTURES.tooltip.4=  Detallados – texturas conectadas finas
 of.options.CONNECTED_TEXTURES.tooltip.5=Forma en la que las texturas de los bloques de cristal,
 of.options.CONNECTED_TEXTURES.tooltip.6=arena, estanterías, se conectan entre sí cuando son
-of.options.CONNECTED_TEXTURES.tooltip.7=puestos junto a otros del mismo tipo. El resultado
+of.options.CONNECTED_TEXTURES.tooltip.7=colocados junto a otros del mismo tipo. El resultado
 of.options.CONNECTED_TEXTURES.tooltip.8=depende del paquete de texturas seleccionado.
 
 of.options.NATURAL_TEXTURES=Texturas naturales
@@ -529,24 +529,24 @@ of.options.RAIN.tooltip.2=  NO - sin nieve ni lluvia (más rápido)
 of.options.RAIN.tooltip.3=  Por defecto - según el ajuste "Gráficos"
 of.options.RAIN.tooltip.4=  Rápidos - lluvia y nieve ligera (rápido)
 of.options.RAIN.tooltip.5=  Detallados - mucha lluvia y nieve (lento)
-of.options.RAIN.tooltip.6=Esta opción no afecta las salpicadas ni el ruido de la
-of.options.RAIN.tooltip.7=lluvia, el cual seguirá sonando.
+of.options.RAIN.tooltip.6=Esta opción no afecta las salpicaduras ni el ruido de
+of.options.RAIN.tooltip.7=la lluvia, el cual seguirá sonando.
 
 of.options.SKY=Cielo
 of.options.SKY.tooltip.1=Visibilidad del cielo.
 of.options.SKY.tooltip.2=  NO - el cielo no es visible (rápido)
 of.options.SKY.tooltip.3=  SÍ - el cielo es visible (lento)
-of.options.SKY.tooltip.4=Si se desactiva, el sol y la luna aun pueden ser vistos.
+of.options.SKY.tooltip.4=Si se desactiva, el Sol y la Luna aun pueden ser vistos.
 
 of.options.STARS=Estrellas
 of.options.STARS.tooltip.1=Visibilidad de estrellas durante la noche.
 of.options.STARS.tooltip.2=  NO - estrellas no visibles (rápido)
 of.options.STARS.tooltip.3=  SÍ - estrellas visibles (lento)
 
-of.options.SUN_MOON=Sol y luna
-of.options.SUN_MOON.tooltip.1=Visibilidad de la luna y el sol.
-of.options.SUN_MOON.tooltip.2=  NO - sol y la luna no visibles (más rápido)
-of.options.SUN_MOON.tooltip.3=  SÍ - sol y la luna visibles (por defecto)
+of.options.SUN_MOON=Sol y Luna
+of.options.SUN_MOON.tooltip.1=Visibilidad de la Luna y el Sol.
+of.options.SUN_MOON.tooltip.2=  NO - Sol y Luna no visibles (más rápido)
+of.options.SUN_MOON.tooltip.3=  SÍ - Sol y Luna visibles (por defecto)
 
 of.options.SHOW_CAPES=Mostrar capas
 of.options.SHOW_CAPES.tooltip.1=Visibilidad de las capas de los jugadores.
@@ -569,9 +569,9 @@ of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  NO - No mostrar información
 of.options.HELD_ITEM_TOOLTIPS.tooltip.4=  SÍ - Mostrar información (por defecto)
 
 of.options.ADVANCED_TOOLTIPS=Información avanzada
-of.options.ADVANCED_TOOLTIPS.tooltip.1=Información para jugadores expertos
-of.options.ADVANCED_TOOLTIPS.tooltip.2=  NO - no mostrar información avanzada, por defecto
-of.options.ADVANCED_TOOLTIPS.tooltip.3=  SÍ - mostrar información avanzada 
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Información para jugadores expertos.
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  NO - no mostrar información avanzada (por defecto)
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  SÍ - mostrar información avanzada
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Muestra información avanzada para los items
 of.options.ADVANCED_TOOLTIPS.tooltip.5=(id, durabilidad) y para las opciones de los
 of.options.ADVANCED_TOOLTIPS.tooltip.6=shaders (id, fuente, valor por defecto).
@@ -662,15 +662,15 @@ of.options.CHUNK_UPDATES.tooltip.6=Valores altos pueden desestabilizar los FPS.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Actualizaciones dinámicas
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Actualizaciones dinámicas de chunks.
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  NO - actualización de chunks estándar, por defecto.
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  SÍ - actualizaciones incluso si el jugador está inactivo
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  NO - actualización de chunks estándar (por defecto)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  SÍ - actualizar incluso si el jugador está inactivo
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Facilita las actualizaciones de chunks incluso cuando
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=el jugador no se mueve, cargando el mundo más rápido.
 
 of.options.LAZY_CHUNK_LOADING=Carga de chunks vaga
 of.options.LAZY_CHUNK_LOADING.tooltip.1=Carga los trozos del mapa con algo de retraso.
-of.options.LAZY_CHUNK_LOADING.tooltip.2=  NO - carga de chunks determinada por el servidor.
-of.options.LAZY_CHUNK_LOADING.tooltip.3=  SÍ - carga de chunks lenta, más atractiva.
+of.options.LAZY_CHUNK_LOADING.tooltip.2=  NO - carga de chunks determinada por el servidor
+of.options.LAZY_CHUNK_LOADING.tooltip.3=  SÍ - carga de chunks lenta, más atractiva
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Retrasa en varios ticks la carga de chunks integrada
 of.options.LAZY_CHUNK_LOADING.tooltip.5=por el servidor interno.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Desactívalo si el mundo no carga correctamente.
@@ -708,7 +708,7 @@ of.options.ANIMATED_REDSTONE=Animación del redstone
 of.options.ANIMATED_EXPLOSION=Animación de explosiones
 of.options.ANIMATED_FLAME=Animación de llamas
 of.options.ANIMATED_SMOKE=Animación del humo
-of.options.VOID_PARTICLES=Partículas del Fin
+of.options.VOID_PARTICLES=Partículas del vacío
 of.options.WATER_PARTICLES=Partículas de agua
 of.options.RAIN_SPLASH=Salpicadura de lluvia
 of.options.PORTAL_PARTICLES=Partículas de portal
@@ -735,7 +735,7 @@ of.options.PROFILER.tooltip.1=Perfil de depurador.
 of.options.PROFILER.tooltip.2=  NO - depurador desactivado (rápido)
 of.options.PROFILER.tooltip.3=  SÍ - depurador activado (lento)
 of.options.PROFILER.tooltip.4=La información recopilada se muestra en la
-of.options.PROFILER.tooltip.5=pantalla de dupuración (F3).
+of.options.PROFILER.tooltip.5=pantalla de depuración (F3).
 
 of.options.WEATHER=Clima
 of.options.WEATHER.tooltip.1=Activa o desactiva el clima.
@@ -763,13 +763,13 @@ options.fullscreen.tooltip.5=de ventana, dependiendo de la tarjeta de video.
 
 options.fullscreen.resolution=Modo pantalla completa
 options.fullscreen.resolution.tooltip.1=Modo de pantalla completa
-options.fullscreen.resolution.tooltip.2=  Por defecto - usar resolución de la pantalla princ., (lento)
+options.fullscreen.resolution.tooltip.2=  Por defecto - usar resolución de pantalla princ. (lento)
 options.fullscreen.resolution.tooltip.3=  WxH - resolución personalizada, quizás más rápido
 options.fullscreen.resolution.tooltip.4=Resolución usada en modo pantalla completa (F11).
 options.fullscreen.resolution.tooltip.5=Las resoluciones más bajas suelen ser más rápidas.
 
 of.options.SHOW_FPS=Medidor de FPS
-of.options.SHOW_FPS.tooltip.1=Mustra los FPS, además de otra información resumida.
+of.options.SHOW_FPS.tooltip.1=Muestra los FPS, además de otra información resumida.
 of.options.SHOW_FPS.tooltip.2=  Fps - promedio/mínimo
 of.options.SHOW_FPS.tooltip.3=  C: - Renderizado de chunks
 of.options.SHOW_FPS.tooltip.4=  E: - Entidades y bloques renderizados
