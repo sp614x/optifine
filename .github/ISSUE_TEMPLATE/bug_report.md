@@ -35,7 +35,7 @@ assignees: ''
 <!-- Any relevant log files. Drag and drop text files here to upload to GitHub directly, OR upload the complete contents to Pastebin. https://pastebin.com/ -->
 
 <!-- You can get logs from `.minecraft/logs`, and crash reports from `.minecraft/crash-reports`. 
-Locating your `.minecraft` folder will depend entirely on your OS. See this page for details: https://minecraft.gamepedia.com/.minecraft -->
+Locating your `.minecraft` folder will depend entirely on your OS. See this page for details: https://minecraft.wiki/w/.minecraft -->
 
 <!-- **DO NOT directly copy and paste log contents here on GitHub.** -->
 

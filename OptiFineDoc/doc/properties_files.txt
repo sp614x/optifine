@@ -92,7 +92,7 @@ so just "stone" will also work. Mods will probably use a namespace other than "m
 See the Dinnerbone's list of Block and Item IDs with names: http://media.dinnerbone.com/uploads/2013-09/files/28_00-44-23_YfmAkomVI.txt
 
 In 1.13 many variant blocks were "flattened" to several simple blocks and the block metadata was removed.
-See https://minecraft.gamepedia.com/1.13/Flattening 
+See https://minecraft.wiki/w/Java_Edition_1.13/Flattening
 
 The block name format is "<namespace:>name<:property1=value1,...:property2=value1,...>". 
 Optional parts are in angle brackets "<>". Default namespace is "minecraft".
@@ -121,14 +121,14 @@ Since 1.7 items can also be specified by name.
 See Dinnerbone's list of Block and Item IDs with names: http://dinnerbone.com/media/uploads/2013-09/files/28_00-44-23_YfmAkomVI.txt
 
 Since 1.13 items can only be specified by name.
-See: https://minecraft.gamepedia.com/1.13/Flattening  
+See: https://minecraft.wiki/w/Java_Edition_1.13/Flattening
 
 Again, the "minecraft:" prefix is optional.
 
 Biomes
 ======
 
-For features that call for a list of biomes, use the names from the Minecraft wiki: https://minecraft.gamepedia.com/Biome#Biome_IDs
+For features that call for a list of biomes, use the names from the Minecraft wiki: https://minecraft.wiki/w/Biome#Biome_IDs
 Biomes added by mods can also be used.
 
   # Biomes short
@@ -137,7 +137,7 @@ Biomes added by mods can also be used.
   biomes=minecraft:ocean biomesoplenty:highland
   
 Since 1.13 many biomes have been renamed.
-See: https://minecraft.gamepedia.com/1.13/Flattening  
+See: https://minecraft.wiki/w/Java_Edition_1.13/Flattening
 
 Blending methods
 ================
@@ -204,4 +204,5 @@ https://bitbucket.org/prupe/mcpatcher/wiki/About_Properties_Files
 http://dinnerbone.com/media/uploads/2013-09/files/28_00-44-23_YfmAkomVI.txt
 http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1226351-1?comment=11315
 http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1226351-1?comment=11128
-https://minecraft.gamepedia.com/1.13/Flattening
+https://minecraft.wiki/w/Java_Edition_1.13/Flattening
+https://minecraft.wiki/w/Biome#Biome_IDs
