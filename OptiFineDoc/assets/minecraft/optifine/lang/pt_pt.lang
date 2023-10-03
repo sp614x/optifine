@@ -37,7 +37,7 @@ of.message.shaders.af2=Vai a "Qualidade" e define a "filtração anisotrópica" 
 of.message.shaders.fr1=As shaders não são compatíveis com o carregamento rápido.
 of.message.shaders.fr2=Vai a "Desempenho" e define o "carregamento rápido" para "Não".
 
-of.message.shaders.gf1=O antiserrilhamento não é compatível com gráficos fabulosos.
+of.message.shaders.gf1=As shaders não são compatíveis com gráficos fabulosos.
 of.message.shaders.gf2=Define os gráficos para "Rápidos" ou "Elegantes".
 
 of.message.shaders.an1=As shaders não são compatíveis com o 3D anaglífico.
@@ -77,7 +77,7 @@ of.message.capeOF.error2=Erro: %s
 options.graphics.tooltip.1=Qualidade visual
 options.graphics.tooltip.2=  Rápidos  - menor qualidade, rápido
 options.graphics.tooltip.3=  Elegantes - maior qualidade, lento
-options.graphics.tooltip.4=  Fabulosos - melhores objetos translúcidos, mutio lento
+options.graphics.tooltip.4=  Fabulosos - melhores objetos translúcidos, muito lento
 options.graphics.tooltip.5=Altera a aparência das nuvens, folhas, água,
 options.graphics.tooltip.6=sombras e ainda as laterais da relva.
 options.graphics.tooltip.7=Gráficos fabulosos não são compatíves com shaders nem
@@ -142,7 +142,8 @@ options.guiScale.tooltip.2=  Automática - Tamanho máximo
 options.guiScale.tooltip.3=  Pequena, Normal, Grande - 1x to 3x
 options.guiScale.tooltip.4=  4x to 10x - disponível em monitores 4K
 options.guiScale.tooltip.5=Valores ímpares (1x, 3x, 5x...) não são compatíveis com o
-options.guiScale.tooltip.6=Unicode. Uma interface pequena é normalmente mais rápida.
+options.guiScale.tooltip.6=Unicode. Uma interface pequena é normalmente mais
+options.guiScale.tooltip.7=rápida.
 
 options.vbo=VBOs
 options.vbo.tooltip.1=Vertex Buffer Objects
@@ -188,10 +189,10 @@ options.fovEffectScale.tooltip.5=como carregar um arco, correr e voar.
 
 options.prioritizeChunkUpdates.tooltip.1=Gerar chunks
 options.prioritizeChunkUpdates.tooltip.2= Em paralelo - atualizar todos os chunks em segundo plano
-options.prioritizeChunkUpdates.tooltip.3= Parcial - atualizar chunks afetados pelo jogador de imediato
+options.prioritizeChunkUpdates.tooltip.3= Parcial - atual. chunks afetados pelo jogador de imediato
 options.prioritizeChunkUpdates.tooltip.4= Total - atualizar todos os chunks próximos de imediato
 options.prioritizeChunkUpdates.tooltip.5=Atualizações em paralelo podem mostrar buracos no terreno.
-options.prioritizeChunkUpdates.tooltip.6=Atualizações totais podem causar picos de lag significantes.
+options.prioritizeChunkUpdates.tooltip.6=Atualizações totais podem causar picos de lag.
 
 of.options.ALTERNATE_BLOCKS=Alternar blocos
 of.options.ALTERNATE_BLOCKS.tooltip.1=Alternar blocos
@@ -304,8 +305,8 @@ of.options.shaders.OLD_LIGHTING.tooltip.1=Iluminação antiga
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Predefinido - controlado pelo pacote de shaders
 of.options.shaders.OLD_LIGHTING.tooltip.3=  Sim - usa o antigo sistema de iluminação
 of.options.shaders.OLD_LIGHTING.tooltip.4=  Não - não usa o sistema de iluminação antigo
-of.options.shaders.OLD_LIGHTING.tooltip.5=A iluminação antiga controla o foco de luz que
-of.options.shaders.OLD_LIGHTING.tooltip.6=está aplicado às laterais dos blocos. 
+of.options.shaders.OLD_LIGHTING.tooltip.5=A iluminação antiga controla a iluminação fixa que
+of.options.shaders.OLD_LIGHTING.tooltip.6=é aplicada às laterais dos blocos.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Pacotes de shaders com o uso de sombras, garantem
 of.options.shaders.OLD_LIGHTING.tooltip.8=uma melhor iluminação dependendo da posição do sol.
 
@@ -452,7 +453,7 @@ of.options.NATURAL_TEXTURES=Tex. naturais
 of.options.NATURAL_TEXTURES.tooltip.1=Texturas naturais
 of.options.NATURAL_TEXTURES.tooltip.2=  Não - sem texturas naturais (padrão)
 of.options.NATURAL_TEXTURES.tooltip.3=  Sim - usar texturas naturais
-of.options.NATURAL_TEXTURES.tooltip.4=As texturas naturais removem o padrão "em grelha"
+of.options.NATURAL_TEXTURES.tooltip.4=As texturas naturais removem o padrão de grelha
 of.options.NATURAL_TEXTURES.tooltip.5=criado pela repetição do mesmo tipo de bloco.
 of.options.NATURAL_TEXTURES.tooltip.6=Roda e inverte os blocos para criar variantes da
 of.options.NATURAL_TEXTURES.tooltip.7=textura base do bloco. As texturas naturais são 
@@ -461,7 +462,7 @@ of.options.NATURAL_TEXTURES.tooltip.8=fornecidas pelo pacote de recursos atual.
 of.options.EMISSIVE_TEXTURES=Tex. emissivas
 of.options.EMISSIVE_TEXTURES.tooltip.1=Texturas emissivas
 of.options.EMISSIVE_TEXTURES.tooltip.2=  Não - não usar texturas emissivas (padrão)
-of.options.EMISSIVE_TEXTURES.tooltip.3=  Sim - usar texturas emissivass
+of.options.EMISSIVE_TEXTURES.tooltip.3=  Sim - usar texturas emissivas
 of.options.EMISSIVE_TEXTURES.tooltip.4=As texturas emissivas são caregadas como uma
 of.options.EMISSIVE_TEXTURES.tooltip.5=película com o brilho máximo. Podem ser usadas para
 of.options.EMISSIVE_TEXTURES.tooltip.6=simular partes que emitem luz de uma textura base.
@@ -573,7 +574,7 @@ of.options.ADVANCED_TOOLTIPS=Desc. avançadas
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Descrições avançadas
 of.options.ADVANCED_TOOLTIPS.tooltip.2=  Sim - mostrar as descrições avançadas
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  Não - não mostrar as descrições avançadas (padrão)
-of.options.ADVANCED_TOOLTIPS.tooltip.4=As descrições avançadas dispõem informação adicional 
+of.options.ADVANCED_TOOLTIPS.tooltip.4=As descrições avançadas mostram informação adicional 
 of.options.ADVANCED_TOOLTIPS.tooltip.5=para os itens (id, durabilidade) e para as opções das
 of.options.ADVANCED_TOOLTIPS.tooltip.6=shaders (id, origem, valor padrão).
 
@@ -650,8 +651,8 @@ of.options.FAST_MATH=Otimizar cálculos
 of.options.FAST_MATH.tooltip.1=Otimização dos cálculos
 of.options.FAST_MATH.tooltip.2= Não - cálculos predefinidos (padrão)
 of.options.FAST_MATH.tooltip.3= Sim - cálculos rápidos
-of.options.FAST_MATH.tooltip.4=Melhora as funções do seno() e do cosseno() que melhoram
-of.options.FAST_MATH.tooltip.5=a utilização do cache da CPU e aumentam os fps.
+of.options.FAST_MATH.tooltip.4=Melhora as funções do seno e do cosseno, melhorando
+of.options.FAST_MATH.tooltip.5=a utilização do cache da CPU e aumentando os fps.
 of.options.FAST_MATH.tooltip.6=Esta opção tem um efeito mínimo na geração do mundo.
 
 of.options.CHUNK_UPDATES=Atual. dos chunks
@@ -661,7 +662,7 @@ of.options.CHUNK_UPDATES.tooltip.3= 3 - carregamento rápido do mundo, menos fps
 of.options.CHUNK_UPDATES.tooltip.4= 5 - carregamento insano do mundo, muito menos fps
 of.options.CHUNK_UPDATES.tooltip.5=Número de chunks atualizados por cada fps carregado.
 of.options.CHUNK_UPDATES.tooltip.6=Quanto mais alto o valor, maior a possiblidade de
-of.options.CHUNK_UPDATES.tooltip.7=destabilização do limite de fps.
+of.options.CHUNK_UPDATES.tooltip.7=destabilização dos fps.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Atualiz. dinâmicas
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Atualizações dinâmicas
@@ -740,7 +741,8 @@ of.options.PROFILER.tooltip.1=Análise de depuração
 of.options.PROFILER.tooltip.2=  Sim - a análise de depuração está ativa, lento
 of.options.PROFILER.tooltip.3=  Não - a análise de depuração não está ativa, rápido
 of.options.PROFILER.tooltip.4=A análise de depuração recolhe e mostra informação
-of.options.PROFILER.tooltip.5=da depuração quando o ecrã de depuração está visível (F3).
+of.options.PROFILER.tooltip.5=da depuração quando o ecrã de depuração está visível
+of.options.PROFILER.tooltip.6=(F3).
 
 of.options.WEATHER=Clima
 of.options.WEATHER.tooltip.1=Clima
@@ -796,7 +798,8 @@ of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo entre cada gravação
 of.options.AUTOSAVE_TICKS.tooltip.2= 45s - padrão
 of.options.AUTOSAVE_TICKS.tooltip.3=Dependendo do alcance visual, a gravação automática
 of.options.AUTOSAVE_TICKS.tooltip.4=pode gerar picos de lag.
-of.options.AUTOSAVE_TICKS.tooltip.5=O mundo também é guardado quando o menu do jogo é aberto.
+of.options.AUTOSAVE_TICKS.tooltip.5=O mundo também é guardado quando o menu do jogo
+of.options.AUTOSAVE_TICKS.tooltip.6=é aberto.
 
 of.options.SCREENSHOT_SIZE=Capt. de ecrã
 of.options.SCREENSHOT_SIZE.tooltip.1=Tamanho da captura de ecrã
@@ -821,9 +824,9 @@ of.options.TELEMETRY.tooltip.2=  Sim - telemetria completa (padrão)
 of.options.TELEMETRY.tooltip.3=  Anónimo - telemetria anónima
 of.options.TELEMETRY.tooltip.4=  Não - telemetria desativada
 of.options.TELEMETRY.tooltip.5=A telemetria completa envia o UUID do utilizador, que
-of.options.TELEMETRY.tooltip.6=pode ser usado para identificá-lo em dispositivos diferentes.
-of.options.TELEMETRY.tooltip.7=A telemetria anónima não envia qualquer dado que identifique
-of.options.TELEMETRY.tooltip.8=o utilizador ou cliente.
+of.options.TELEMETRY.tooltip.6=pode ser usado para identificá-lo em dispositivos
+of.options.TELEMETRY.tooltip.7=diferentes. A telemetria anónima não envia qualquer
+of.options.TELEMETRY.tooltip.8=dado que identifique o utilizador ou cliente.
 
 # Chat Settings
 
