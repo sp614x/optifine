@@ -186,8 +186,8 @@ options.fovEffectScale.tooltip.5=like bow drawing, sprinting and flying.
 
 options.prioritizeChunkUpdates.tooltip.1=Chunk builder
 options.prioritizeChunkUpdates.tooltip.2= Threaded - update all chunks in the background
-options.prioritizeChunkUpdates.tooltip.3= Semi Blocking - update player affected chunks immediately
-options.prioritizeChunkUpdates.tooltip.4= Fully Blocking - update all nearby chunks immediately
+options.prioritizeChunkUpdates.tooltip.3= Semi Blocking - update player affected chunks instantly
+options.prioritizeChunkUpdates.tooltip.4= Fully Blocking - update all nearby chunks instantly
 options.prioritizeChunkUpdates.tooltip.5=Threaded updates may briefly show holes in the terrain.
 options.prioritizeChunkUpdates.tooltip.6=Fully blocking updates may cause significant lag spikes.
 
@@ -389,8 +389,9 @@ of.options.RANDOM_ENTITIES=Random Entities
 of.options.RANDOM_ENTITIES.tooltip.1=Random Entities
 of.options.RANDOM_ENTITIES.tooltip.2=  OFF - no random entities, faster
 of.options.RANDOM_ENTITIES.tooltip.3=  ON - random entities, slower
-of.options.RANDOM_ENTITIES.tooltip.4=Random entities uses random textures for the game entities.
-of.options.RANDOM_ENTITIES.tooltip.5=It needs a resource pack which has multiple entity textures.
+of.options.RANDOM_ENTITIES.tooltip.4=Randon entities shows a random texture for game entities.
+of.options.RANDOM_ENTITIES.tooltip.5=The random textures are supplied by the current
+of.options.RANDOM_ENTITIES.tooltip.6=resource pack which has two or more entity textures.
 
 of.options.BETTER_GRASS=Better Grass
 of.options.BETTER_GRASS.tooltip.1=Better Grass
@@ -488,7 +489,8 @@ of.options.CUSTOM_GUIS=Custom GUIs
 of.options.CUSTOM_GUIS.tooltip.1=Custom GUIs
 of.options.CUSTOM_GUIS.tooltip.2=  ON - custom GUIs (default), slower
 of.options.CUSTOM_GUIS.tooltip.3=  OFF - default GUIs, faster
-of.options.CUSTOM_GUIS.tooltip.4=The custom GUIs are supplied by the current resource pack.
+of.options.CUSTOM_GUIS.tooltip.4=The custom GUI textures are supplied by the current
+of.options.CUSTOM_GUIS.tooltip.5=resource pack.
 
 # Details
 
@@ -681,7 +683,7 @@ of.options.SMART_ANIMATIONS.tooltip.3= ON - use smart animations (faster)
 of.options.SMART_ANIMATIONS.tooltip.4=With smart animations the game will only animate the 
 of.options.SMART_ANIMATIONS.tooltip.5=textures which are currently visible on the screen.
 of.options.SMART_ANIMATIONS.tooltip.6=This reduces the tick lag spikes and increases the FPS.
-of.options.SMART_ANIMATIONS.tooltip.7=Especially useful for big mod packs and HD resource packs.
+of.options.SMART_ANIMATIONS.tooltip.7=Notably useful for big mod packs and HD resource packs.
 
 # Animations
 
@@ -776,8 +778,9 @@ of.options.save.24min=24min
 of.options.AUTOSAVE_TICKS=Autosave
 of.options.AUTOSAVE_TICKS.tooltip.1=Autosave Interval
 of.options.AUTOSAVE_TICKS.tooltip.2= 45s - default
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may generate lag spikes depending on the render distance.
-of.options.AUTOSAVE_TICKS.tooltip.4=The world is also saved when the game menu is opened.
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may cause lag spikes depending on the render
+of.options.AUTOSAVE_TICKS.tooltip.4=distance.
+of.options.AUTOSAVE_TICKS.tooltip.5=The world is also saved when the game menu is opened.
 
 of.options.SCREENSHOT_SIZE=Screenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
