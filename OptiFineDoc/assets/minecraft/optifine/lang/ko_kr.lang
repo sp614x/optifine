@@ -3,6 +3,8 @@
 #   Final Child ---- 2017-06-09 ---- 2017-06-24
 #   SRA PLY ---- 2017-06-09 ---- 2017-06-24
 #   TrollBonL ---- 2020-12-23 ---- 2020-12-24
+#   DominoKorean ---- 2023-8-13 ---- 2023-8-13
+
 
 # General
 of.general.ambiguous=불분명
@@ -88,22 +90,31 @@ options.graphics.tooltip.6=외형을 변경합니다.
 options.graphics.tooltip.7=굉장한 그래픽은 셰이더, 안티에일리어싱과 
 options.graphics.tooltip.8=호환되지 않습니다.
 
-of.options.renderDistance.tiny=아주 작게
+of.options.renderDistance.tiny=매우 짧게
 of.options.renderDistance.short=짧게
 of.options.renderDistance.normal=보통
 of.options.renderDistance.far=멀리
-of.options.renderDistance.extreme=극도
-of.options.renderDistance.insane=미친
-of.options.renderDistance.ludicrous=부조리
+of.options.renderDistance.extreme=매우 멀리
+of.options.renderDistance.insane=굉장히 멀리
+of.options.renderDistance.ludicrous=엄청나게 멀리
 
 options.renderDistance.tooltip.1=시야 거리
-options.renderDistance.tooltip.2=  2 아주 작게 - 32m (가장 빠름)
-options.renderDistance.tooltip.3=  4 짧게 - 64m (빠름)
-options.renderDistance.tooltip.4=  8 보통 - 128m
-options.renderDistance.tooltip.5=  16 멀리 - 256m (느림)
-options.renderDistance.tooltip.6=  32 극도 - 512m (가장 느림!)
-options.renderDistance.tooltip.7=극도 시야 거리는 상당한 성능이 요구됩니다!
+options.renderDistance.tooltip.2=  2 매우 짧게 - 32m (가장 빠름)
+options.renderDistance.tooltip.3=  8 보통 - 128m (보통)
+options.renderDistance.tooltip.4=  16 멀리 - 256m (느림)
+options.renderDistance.tooltip.5=  32 매우 멀리 - 512m (매우 느림!) 높은 사양 요구됨
+options.renderDistance.tooltip.6=  48 굉장히 멀리 - 768m, 2GB RAM 할당 필요
+options.renderDistance.tooltip.7=  64 엄청나게 멀리 - 1024m, 3GB RAM 할당 필요
 options.renderDistance.tooltip.8=16 멀리를 넘는 값은 로컬 세계에서만 효과가 있습니다.
+
+
+options.simulationDistance.tooltip.1=시뮬레이션 거리
+options.simulationDistance.tooltip.2=  5-12 - 보통 (빠름)
+options.simulationDistance.tooltip.3=  13-24 - 멀리 (느림)
+options.simulationDistance.tooltip.4=  25-32 - 매우 멀리 (매우 느림)
+options.simulationDistance.tooltip.5=플레이어로부터 얼마나 먼 거리에서 청크와 개체가
+options.simulationDistance.tooltip.6=업데이트되는지를 제어합니다.
+options.simulationDistance.tooltip.7=높은 값은 상당한 랙 현상을 유발할 수 있습니다.
 
 options.entityDistanceScaling.tooltip.1=엔티티 렌더 거리
 options.entityDistanceScaling.tooltip.2=  50%% - 빠르게
@@ -119,7 +130,7 @@ options.ao.tooltip.4=  최대 - 복잡한 부드러운 조명 효과 (가장 느
 options.framerateLimit.tooltip.1=최대 프레임률
 options.framerateLimit.tooltip.2=  VSync - 모니터 프레임률로 제한 (60, 30, 20)
 options.framerateLimit.tooltip.3=  5-255 - 조절 가능
-options.framerateLimit.tooltip.4=  무제한 - 제한 없음 (가장 빠름)
+options.framerateLimit.tooltip.4=  무제한 - 제한 없음 (매우 빠름)
 options.framerateLimit.tooltip.5=프레임률 제한은 제한 값에 도달하지 않았을 때도
 options.framerateLimit.tooltip.6=FPS를 감소시킵니다.
 of.options.framerateLimit.vsync=VSync
@@ -131,7 +142,7 @@ of.options.AO_LEVEL.tooltip.3=  50%% - 옅은 그림자
 of.options.AO_LEVEL.tooltip.4=  100%% - 짙은 그림자
 
 options.viewBobbing.tooltip.1=더 사실적인 움직임.
-options.viewBobbing.tooltip.2=밉맵을 사용할 때 최상의 결과를 위해 밉맵을 꺼짐으로 설정하십시오.
+options.viewBobbing.tooltip.2=만약 밉맵을 사용하고있다면 최상의 결과를 위해 밉맵을 꺼짐으로 설정하십시오.
 
 options.guiScale.tooltip.1=GUI 크기
 options.guiScale.tooltip.2=  자동 - 최대 크기
@@ -141,9 +152,9 @@ options.guiScale.tooltip.5=홀수 값(1x, 3x, 5x ...)은 유니코드와 호환�
 options.guiScale.tooltip.6=작은 GUI가 빠를 수 있습니다.
 
 options.vbo=VBO 사용
-options.vbo.tooltip.1=정점 버퍼 객체
-options.vbo.tooltip.2=기본 렌더링보다 보통 빠른 (5-10%%)
-options.vbo.tooltip.3=다른 렌더링 모델을 사용합니다.
+options.vbo.tooltip.1= 버텍스 버퍼 오브젝트
+options.vbo.tooltip.2=일반적으로 기본 렌더링보다 빠른 (5-10%%) 
+options.vbo.tooltip.3=대체 렌더링 모델을 사용합니다.
 
 options.gamma.tooltip.1=어두운 물체의 밝기를 바꿉니다.
 options.gamma.tooltip.2=  어둡게 - 표준 밝기
@@ -164,10 +175,34 @@ options.attackIndicator.tooltip.4=  끄기 - 공격 표시기 없음
 options.attackIndicator.tooltip.5=공격 표시기는 현재 장비한 아이템의 공격력을 보여줍니다.
 options.attackIndicator.tooltip.6=
 
+options.screenEffectScale.tooltip.1=왜곡 효과
+options.screenEffectScale.tooltip.2=  끄기 - 비활성화됨
+options.screenEffectScale.tooltip.3=  1-100%% - 활성화됨
+options.screenEffectScale.tooltip.4=화면 왜곡 효과의 강도를 제어합니다.
+options.screenEffectScale.tooltip.5=포탈 애니메이션 및 메스꺼움 효과와 같은 것들이 포함됩니다.
+
+options.autosaveIndicator.tooltip.1=자동 저장 표시기
+options.autosaveIndicator.tooltip.2=  끄기 - 비활성화됨
+options.autosaveIndicator.tooltip.3=  켜기 - 활성화됨
+options.autosaveIndicator.tooltip.4=게임이 자동으로 세계를 저장할 때 표시됩니다.
+
+options.fovEffectScale.tooltip.1=FOV 효과
+options.fovEffectScale.tooltip.2=  끄기 - 비활성화됨
+options.fovEffectScale.tooltip.3=  1-100%% - 활성화됨
+options.fovEffectScale.tooltip.4=화면 확대 효과의 강도를 조절합니다.
+options.fovEffectScale.tooltip.5=활을 당기기, 달리기 및 비행과 같은 것들이 포함됩니다.
+
+options.prioritizeChunkUpdates.tooltip.1=청크 업데이트 우선순위
+options.prioritizeChunkUpdates.tooltip.2= 쓰레드 - 모든 청크를 백그라운드에서 업데이트합니다.
+options.prioritizeChunkUpdates.tooltip.3= 반배타적 - 플레이어 영향을 받는 청크를 즉시 업데이트합니다.
+options.prioritizeChunkUpdates.tooltip.4= 완전한 배타적 - 모든 근접 청크를 즉시 업데이트합니다.
+options.prioritizeChunkUpdates.tooltip.5=쓰레드 업데이트는 잠시 동안 지형의 구멍이 보일 수 있습니다.
+options.prioritizeChunkUpdates.tooltip.6=완전한 배타적 업데이트는 상당한 랙 현상을 유발할 수 있습니다.
+
 of.options.ALTERNATE_BLOCKS=대체 블록
 of.options.ALTERNATE_BLOCKS.tooltip.1=대체 블록
 of.options.ALTERNATE_BLOCKS.tooltip.2=몇몇 블록에 대체 블록 모델을 사용합니다.
-of.options.ALTERNATE_BLOCKS.tooltip.3=선택한 리소스 팩에 따라 달라집니다.
+of.options.ALTERNATE_BLOCKS.tooltip.3=선택한 리소스팩에 따라 달라집니다.
 
 of.options.FOG_FANCY=안개
 of.options.FOG_FANCY.tooltip.1=안개 유형
@@ -181,7 +216,7 @@ of.options.FOG_START=안개 시작
 of.options.FOG_START.tooltip.1=안개 시작
 of.options.FOG_START.tooltip.2=  0.2 - 안개가 플레이어 가까이에서 시작함
 of.options.FOG_START.tooltip.3=  0.8 - 안개가 플레이어에서 멀리 떨어진 곳부터 시작함
-of.options.FOG_START.tooltip.4=이 설정은 보통 성능에 영향을 주지 않습니다.
+of.options.FOG_START.tooltip.4=이 살정은 일반적으로 성능에 영향을 주지 않습니다.
 
 of.options.CHUNK_LOADING=청크 불러오기
 of.options.CHUNK_LOADING.tooltip.1=청크 불러오기
@@ -210,22 +245,22 @@ of.options.shaders.ANTIALIASING.tooltip.5=부드럽게 후처리 합니다.
 of.options.shaders.ANTIALIASING.tooltip.6=이것은 전통적인 안티에일리어싱보다 빠르고
 of.options.shaders.ANTIALIASING.tooltip.7=셰이더와 호환 됩니다.
 
-of.options.shaders.NORMAL_MAP=노말 맵
-of.options.shaders.NORMAL_MAP.tooltip.1=노말 맵
-of.options.shaders.NORMAL_MAP.tooltip.2=  켜짐 - (기본) 노말 맵 켜짐
-of.options.shaders.NORMAL_MAP.tooltip.3=  꺼짐 - 노말 맵 꺼짐
-of.options.shaders.NORMAL_MAP.tooltip.4=셰이더 팩은 노말 맵을 사용하여 평평한 모델 표면에서
+of.options.shaders.NORMAL_MAP=노멀 맵
+of.options.shaders.NORMAL_MAP.tooltip.1=노멀 맵
+of.options.shaders.NORMAL_MAP.tooltip.2=  켜짐 - (기본) 노멀 맵 켜짐
+of.options.shaders.NORMAL_MAP.tooltip.3=  꺼짐 - 노멀 맵 꺼짐
+of.options.shaders.NORMAL_MAP.tooltip.4=셰이더 팩은 노멀 맵을 사용하여 평평한 모델 표면에서
 of.options.shaders.NORMAL_MAP.tooltip.5=3D 지오메트리를 시뮬레이션 할 수 있습니다.
 of.options.shaders.NORMAL_MAP.tooltip.6=노멀 맵 텍스처는
 of.options.shaders.NORMAL_MAP.tooltip.7=현재 리소스 팩에서 제공합니다.
 
-of.options.shaders.SPECULAR_MAP=반사 맵
-of.options.shaders.SPECULAR_MAP.tooltip.1=반사 맵
-of.options.shaders.SPECULAR_MAP.tooltip.2=  켜짐 - (기본) 반사 맵 
-of.options.shaders.SPECULAR_MAP.tooltip.3=  꺼짐 - 반사 맵 끄기
-of.options.shaders.SPECULAR_MAP.tooltip.4=특수 반사 효과를 시뮬레이션하기 위해 셰이더 팩에서
-of.options.shaders.SPECULAR_MAP.tooltip.5=반사 맵을 사용할 수 있습니다.
-of.options.shaders.SPECULAR_MAP.tooltip.6=반사 맵 텍스처는 현재 리소스 팩
+of.options.shaders.SPECULAR_MAP=스펙큘러 맵
+of.options.shaders.SPECULAR_MAP.tooltip.1=스펙큘러 맵
+of.options.shaders.SPECULAR_MAP.tooltip.2=  켜짐 - (기본) 스펙큘러 맵 
+of.options.shaders.SPECULAR_MAP.tooltip.3=  꺼짐 - 스펙큘러 맵 끄기
+of.options.shaders.SPECULAR_MAP.tooltip.4=특수 스펙큘러 효과를 시뮬레이션하기 위해 셰이더 팩에서
+of.options.shaders.SPECULAR_MAP.tooltip.5=스펙큘러 맵을 사용할 수 있습니다.
+of.options.shaders.SPECULAR_MAP.tooltip.6=스펙큘러 맵 텍스처는 현재 리소스 팩
 of.options.shaders.SPECULAR_MAP.tooltip.7=에서 제공합니다.
 
 of.options.shaders.RENDER_RES_MUL=렌더 품질
@@ -274,7 +309,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.1=구 조명
 of.options.shaders.OLD_LIGHTING.tooltip.2=  기본 - 셰이더 팩에 의해 조정 됨
 of.options.shaders.OLD_LIGHTING.tooltip.3=  켜짐 - 구 조명 사용
 of.options.shaders.OLD_LIGHTING.tooltip.4=  꺼짐 - 구 조명 사용 안함
-of.options.shaders.OLD_LIGHTING.tooltip.5=오래된 조명 효과 설정은 기본 마인크래프트가 블록의 측면에 
+of.options.shaders.OLD_LIGHTING.tooltip.5=구 조명 효과 설정은 기본 마인크래프트가 블록의 측면에 
 of.options.shaders.OLD_LIGHTING.tooltip.6=적용한 조명 그리기를 제어합니다.
 of.options.shaders.OLD_LIGHTING.tooltip.7=그림자를 사용하는 셰이더 팩은 일반적으로 태양 위치에 따라 
 of.options.shaders.OLD_LIGHTING.tooltip.8=훨씬 더 나은 조명을 제공합니다.
@@ -283,7 +318,7 @@ of.options.shaders.DOWNLOAD=셰이더 다운로드
 of.options.shaders.DOWNLOAD.tooltip.1=셰이더 다운로드
 of.options.shaders.DOWNLOAD.tooltip.2= 
 of.options.shaders.DOWNLOAD.tooltip.3=브라우저에서 셰이더 팩 페이지를 엽니다.
-of.options.shaders.DOWNLOAD.tooltip.4=다운로드 한 셰이더 팩을 "셰이더 폴더"에 넣으면 
+of.options.shaders.DOWNLOAD.tooltip.4=다운로드 한 셰이더 팩을 "Shaders 폴더"에 넣으면 
 of.options.shaders.DOWNLOAD.tooltip.5=설치된 셰이더 목록에 나타납니다.
 
 of.options.shaders.SHADER_PACK=셰이더 팩
@@ -767,6 +802,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=알려진 충돌이거나 오류를 고칠 �
 of.options.SHOW_GL_ERRORS.tooltip.4=이것을 비활성화 하십시오.
 of.options.SHOW_GL_ERRORS.tooltip.5=비활성화 된 경우 오류는 여전히 오류 로그에 기록되며
 of.options.SHOW_GL_ERRORS.tooltip.6=여전히 상당한 FPS 저하를 유발할 수 있습니다.
+
+of.options.TELEMETRY=텔레메트리
+of.options.TELEMETRY.tooltip.1=텔레메트리 데이터를 Mojang에 보냅니다.
+of.options.TELEMETRY.tooltip.2=  켜기 - 전체 텔레메트리 (기본값)
+of.options.TELEMETRY.tooltip.3=  익명 - 익명 텔레메트리
+of.options.TELEMETRY.tooltip.4=  끄기 - 텔레메트리 비활성화
+of.options.TELEMETRY.tooltip.5=전체 텔레메트리는 사용자 UUID를 보내며, 이를 사용하여
+of.options.TELEMETRY.tooltip.6=사용자를 다른 기기에서 추적할 수 있습니다.
+of.options.TELEMETRY.tooltip.7=익명 텔레메트리는 사용자나 클라이언트를 식별할 수 있는
+of.options.TELEMETRY.tooltip.8=어떤 데이터도 보내지 않습니다.
 
 # Chat Settings
 
