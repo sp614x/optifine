@@ -235,7 +235,7 @@ of.options.shaders.packDefault=(intern)
 of.options.shaders.ANTIALIASING=Kantutjämning
 of.options.shaders.ANTIALIASING.tooltip.1=Kantutjämning
 of.options.shaders.ANTIALIASING.tooltip.2=  AV - (standard) ingen kantutjämning (snabbare)
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - utjämnade linjer och kanter (långsammare)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - utjämnade kanter (långsammare)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA är en efterbehandlingseffekt som jämnar ut
 of.options.shaders.ANTIALIASING.tooltip.5=taggiga linjer och skarpa färgskiftningar.
 of.options.shaders.ANTIALIASING.tooltip.6=Detta är snabbare än den traditionella kantutjämningen
@@ -291,7 +291,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ändra hur suddiga handhållna före
 
 of.options.shaders.CLOUD_SHADOW=Molnskugga
 
-of.options.shaders.OLD_HAND_LIGHT=G. handljus
+of.options.shaders.OLD_HAND_LIGHT=Gammalt handljus
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Gammalt handljus
 of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Standard - kontrolleras av shaderpaketet
 of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  PÅ - använd gammalt handljus
@@ -603,7 +603,7 @@ of.options.DYNAMIC_FOV.tooltip.5=med en pilbåge.
 of.options.DYNAMIC_LIGHTS=Dynamiska ljus
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiska ljus
 of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inga dynamiska ljus (standard)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabba dynamiska ljus (uppdateras efter 500 ms)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabba dynamiska ljus (uppdat. efter 500 ms)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snygga dynamiska ljus (uppdateras i realtid)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, glödsten, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de hålls av dig, andra spelare
