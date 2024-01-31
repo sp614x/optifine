@@ -1,6 +1,6 @@
 # Contributors of Swedish localization #
 #   Regnander (_Spitz) 2016-01-18 ---- 2022-03-31
-#   eliasCS2 (eliasCS2) 2024-01-31 ---- 2024-01-31
+#   eliasCS2 (eliasCS2) 2024-01-31
 
 # General
 of.general.ambiguous=ambiguös
@@ -83,7 +83,7 @@ options.graphics.tooltip.2=  Snabbt - lägre kvalitet, snabbare
 options.graphics.tooltip.3=  Snyggt - högre kvalitet, långsammare
 options.graphics.tooltip.4=  Fabulöst - bättre objektgenomskinlighet, långsammast
 options.graphics.tooltip.5=Ändrar utseendet för moln, löv, vatten, skuggor och
-options.graphics.tooltip.6=gräskanter.
+options.graphics.tooltip.6=grässidor.
 options.graphics.tooltip.7=Alternativet "Fabulöst" är inkompatibel med shaders
 options.graphics.tooltip.8=och kantutjämning.
 
@@ -144,7 +144,7 @@ options.guiScale.tooltip.1=Gränssnittstorlek
 options.guiScale.tooltip.2=  Automatisk - maximal storlek
 options.guiScale.tooltip.3=  Liten, Normal, Stor - 1x till 3x
 options.guiScale.tooltip.4=  4x till 10x - tillgängliga på 4K-skärmar
-options.guiScale.tooltip.5=Udda värden (1x, 3x, 5x...) är inte kompatibla med Unicode.
+options.guiScale.tooltip.5=Udda värden (1x, 3x, 5x...) är inkompatibel med Unicode.
 options.guiScale.tooltip.6=Ett mindre gränssnitt kan vara snabbare.
 
 options.vbo=Använd VBO
@@ -216,13 +216,13 @@ of.options.FOG_START.tooltip.4=Detta alternativ påverkar vanligtvis inte presta
 
 of.options.CHUNK_LOADING=Datablocksinläsn.: Flerkärnig
 of.options.CHUNK_LOADING.tooltip.1=Datablocksinläsning
-of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildfrekvens när datablock läser in
-of.options.CHUNK_LOADING.tooltip.3=  Jämn - stabil bildfrekvens
-of.options.CHUNK_LOADING.tooltip.4=  Flerkärnig - stabil bildfrekvens, 3x snabbare inläsning
+of.options.CHUNK_LOADING.tooltip.2=  Standard - ostabil bildhastighet när datablock läser in
+of.options.CHUNK_LOADING.tooltip.3=  Jämn - stabil bildhastighet
+of.options.CHUNK_LOADING.tooltip.4=  Flerkärnig - stabil bildhastighet, 3x snabbare inläsning
 of.options.CHUNK_LOADING.tooltip.5=Jämn och Flerkärnig tar bort ryckningar och frysningar
 of.options.CHUNK_LOADING.tooltip.6=som orsakas av inlästa datablock.
 of.options.CHUNK_LOADING.tooltip.7=Flerkärnig kan påskynda världens inläsning trefaldigt
-of.options.CHUNK_LOADING.tooltip.8=och höja bildfrekvensen med en andra processorkärna.
+of.options.CHUNK_LOADING.tooltip.8=och höja bildhastigheten med en till processorkärna.
 of.options.chunkLoading.smooth=Jämn
 of.options.chunkLoading.multiCore=Flerkärnig
 
@@ -305,7 +305,7 @@ of.options.shaders.OLD_LIGHTING.tooltip.1=Gammalt ljus
 of.options.shaders.OLD_LIGHTING.tooltip.2=  Standard - kontrolleras av shaderpaketet
 of.options.shaders.OLD_LIGHTING.tooltip.3=  PÅ - använd gammalt ljus
 of.options.shaders.OLD_LIGHTING.tooltip.4=  AV - använd inte gammalt ljus
-of.options.shaders.OLD_LIGHTING.tooltip.5=Gammalt ljus styr det fasta ljuset som tillämpas på
+of.options.shaders.OLD_LIGHTING.tooltip.5=Gammalt ljus styr det fasta ljuset som används på
 of.options.shaders.OLD_LIGHTING.tooltip.6=blocksidor som standard.
 of.options.shaders.OLD_LIGHTING.tooltip.7=Shaderpaket som använder skuggor ger vanligtvis
 of.options.shaders.OLD_LIGHTING.tooltip.8=mycket bättre ljus som är beroende av solens position.
@@ -314,7 +314,7 @@ of.options.shaders.DOWNLOAD=Ladda ned shaders
 of.options.shaders.DOWNLOAD.tooltip.1=Ladda ned shaders
 of.options.shaders.DOWNLOAD.tooltip.2=
 of.options.shaders.DOWNLOAD.tooltip.3=Öppnar webbsidan för shaderpaket i en webbläsare.
-of.options.shaders.DOWNLOAD.tooltip.4=Lägg nedladdade shaderpaket i "shadermappen" så
+of.options.shaders.DOWNLOAD.tooltip.4=Lägg nedladdade shaderpaket i mappen "shaderpacks" så
 of.options.shaders.DOWNLOAD.tooltip.5=kommer de visas i listan över installerade shaders.
 
 of.options.shaders.SHADER_PACK=Shaderpaket
@@ -370,9 +370,9 @@ of.options.AA_LEVEL=Kantutjämning
 of.options.AA_LEVEL.tooltip.1=Kantutjämning
 of.options.AA_LEVEL.tooltip.2=  AV - ingen kantutjämning (standard), snabbare
 of.options.AA_LEVEL.tooltip.3=  2-16 - kantutjämnade linjer och kanter (långsammare)
-of.options.AA_LEVEL.tooltip.4=Kantutjämningen jämnar ur ojämna linjer och skarpa
+of.options.AA_LEVEL.tooltip.4=Kantutjämningen jämnar ut ojämna linjer och skarpa
 of.options.AA_LEVEL.tooltip.5=färgövergångar.
-of.options.AA_LEVEL.tooltip.6=Bildfrekvensen kan sjunka avsevärt när detta aktiveras.
+of.options.AA_LEVEL.tooltip.6=Bildhastigheten kan sjunka betydligt när detta aktiveras.
 of.options.AA_LEVEL.tooltip.7=Alla nivåer stöds inte av alla grafikkort.
 of.options.AA_LEVEL.tooltip.8=Kräver OMSTART!
 
@@ -382,25 +382,25 @@ of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer i texturer (standard), sna
 of.options.AF_LEVEL.tooltip.3=  2-16 - finare detaljer i mipmaptexturer (långsammare)
 of.options.AF_LEVEL.tooltip.4=Den anisotropiska filtreringen återställer detaljer i
 of.options.AF_LEVEL.tooltip.5=mipmaptexturer.
-of.options.AF_LEVEL.tooltip.6=Bildfrekvensen kan sjunka avsevärt när detta aktiveras.
+of.options.AF_LEVEL.tooltip.6=Bildhastigheten kan sjunka betydligt när detta aktiveras.
 
 of.options.CLEAR_WATER=Kristallklart vatten
 of.options.CLEAR_WATER.tooltip.1=Kristallklart vatten
 of.options.CLEAR_WATER.tooltip.2=  PÅ - kristallklart, genomskinligt vatten
 of.options.CLEAR_WATER.tooltip.3=  AV - standardvatten
 
-of.options.RANDOM_ENTITIES=Slumpartade entiteter
-of.options.RANDOM_ENTITIES.tooltip.1=Slumpartade entiteter
-of.options.RANDOM_ENTITIES.tooltip.2=  AV - inga slumpartade entiteter, snabbare
-of.options.RANDOM_ENTITIES.tooltip.3=  PÅ - slumpartade entiteter, långsammare
-of.options.RANDOM_ENTITIES.tooltip.4=Använder slumpartade texturer för spelets entiteter.
+of.options.RANDOM_ENTITIES=Slumpmässiga entiteter
+of.options.RANDOM_ENTITIES.tooltip.1=Slumpmässiga entiteter
+of.options.RANDOM_ENTITIES.tooltip.2=  AV - inga slumpmässiga entiteter, snabbare
+of.options.RANDOM_ENTITIES.tooltip.3=  PÅ - slumpmässiga entiteter, långsammare
+of.options.RANDOM_ENTITIES.tooltip.4=Använder slumpmässiga texturer för spelets entiteter.
 of.options.RANDOM_ENTITIES.tooltip.5=Kräver ett resurspaket med flera entitettexturer.
 
 of.options.BETTER_GRASS=Bättre gräs
 of.options.BETTER_GRASS.tooltip.1=Bättre gräs
-of.options.BETTER_GRASS.tooltip.2=  AV - standardtextur för gräskanter, snabbast
-of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig gräskantstextur, långsammare
-of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk gräskantstextur, långsammast
+of.options.BETTER_GRASS.tooltip.2=  AV - standardtextur för grässidor, snabbast
+of.options.BETTER_GRASS.tooltip.3=  Snabbt - fullständig grässidotextur, långsammare
+of.options.BETTER_GRASS.tooltip.4=  Snyggt - dynamisk grässidotextur, långsammast
 
 of.options.BETTER_SNOW=Bättre snö
 of.options.BETTER_SNOW.tooltip.1=Bättre snö
@@ -409,16 +409,16 @@ of.options.BETTER_SNOW.tooltip.3=  PÅ - bättre snö, långsammare
 of.options.BETTER_SNOW.tooltip.4=Visar snö under genomskinliga block (staket, högt gräs)
 of.options.BETTER_SNOW.tooltip.5=som angränsar till snöblock.
 
-of.options.CUSTOM_FONTS=Anpassade typsnitt
-of.options.CUSTOM_FONTS.tooltip.1=Anpassade typsnitt
-of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpass. typsnitt (standard), långsammare
+of.options.CUSTOM_FONTS=Anpassat typsnitt
+of.options.CUSTOM_FONTS.tooltip.1=Anpassat typsnitt
+of.options.CUSTOM_FONTS.tooltip.2=  PÅ - använd anpassat typsnitt (standard), långsammare
 of.options.CUSTOM_FONTS.tooltip.3=  AV - använd standardtypsnittet, snabbare
 of.options.CUSTOM_FONTS.tooltip.4=De anpassade typsnitten ges av det aktuella
 of.options.CUSTOM_FONTS.tooltip.5=resurspaketet.
 
 of.options.CUSTOM_COLORS=Anpassade färger
 of.options.CUSTOM_COLORS.tooltip.1=Anpassade färger
-of.options.CUSTOM_COLORS.tooltip.2=  PÅ - använd anpass. färger (standard), långsammare
+of.options.CUSTOM_COLORS.tooltip.2=  PÅ - använd anpassade färger (standard), långsammare
 of.options.CUSTOM_COLORS.tooltip.3=  AV - använd standardfärgerna, snabbare
 of.options.CUSTOM_COLORS.tooltip.4=De anpassade färgerna ges av det aktuella
 of.options.CUSTOM_COLORS.tooltip.5=resurspaketet
@@ -438,14 +438,14 @@ of.options.SMOOTH_BIOMES.tooltip.4=Biomkanterna jämnas ut genom att sampla och 
 of.options.SMOOTH_BIOMES.tooltip.5=medelvärdet av färgen för alla block runtomkring.
 of.options.SMOOTH_BIOMES.tooltip.6=Gräs, löv, klätterväxter och vatten påverkas.
 
-of.options.CONNECTED_TEXTURES=Anslutande texturer
-of.options.CONNECTED_TEXTURES.tooltip.1=Anslutande texturer
-of.options.CONNECTED_TEXTURES.tooltip.2=  AV - inga anslutande texturer (standard)
-of.options.CONNECTED_TEXTURES.tooltip.3=  Snabbt - snabba anslutande texturer
-of.options.CONNECTED_TEXTURES.tooltip.4=  Snyggt - snygga anslutande texturer
-of.options.CONNECTED_TEXTURES.tooltip.5=Anslutande texturer sammanfogar texturerna för glas,
+of.options.CONNECTED_TEXTURES=Anslutna texturer
+of.options.CONNECTED_TEXTURES.tooltip.1=Anslutna texturer
+of.options.CONNECTED_TEXTURES.tooltip.2=  AV - inga anslutna texturer (standard)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Snabbt - snabba anslutna texturer
+of.options.CONNECTED_TEXTURES.tooltip.4=  Snyggt - snygga anslutna texturer
+of.options.CONNECTED_TEXTURES.tooltip.5=Anslutna texturer ansluter texturerna för glas,
 of.options.CONNECTED_TEXTURES.tooltip.6=sandsten och bokhyllor när de placeras intill varandra.
-of.options.CONNECTED_TEXTURES.tooltip.7=De anslutande texturerna ges av det aktuella
+of.options.CONNECTED_TEXTURES.tooltip.7=De anslutna texturerna ges av det aktuella
 of.options.CONNECTED_TEXTURES.tooltip.8=resurspaketet.
 
 of.options.NATURAL_TEXTURES=Naturliga texturer
@@ -482,7 +482,7 @@ of.options.CUSTOM_ITEMS.tooltip.3=  AV - standardtexturer för föremål, snabba
 of.options.CUSTOM_ITEMS.tooltip.4=De anpassade föremålstexturerna ges av det
 of.options.CUSTOM_ITEMS.tooltip.5=aktuella resurspaketet.
 
-of.options.CUSTOM_ENTITY_MODELS=Anp. entitetsmodeller
+of.options.CUSTOM_ENTITY_MODELS=Anpassade entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Anpassade entitetsmodeller
 of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  PÅ - anpassade entitetsmodeller (standard), långsamt
 of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  AV - standardentitetsmodeller, snabbare
@@ -551,7 +551,7 @@ of.options.SHOW_CAPES.tooltip.1=Visa mantlar
 of.options.SHOW_CAPES.tooltip.2=  PÅ - visa spelarmantlar (standard)
 of.options.SHOW_CAPES.tooltip.3=  AV - visa inte spelarmantlar
 
-of.options.TRANSLUCENT_BLOCKS=Genomskinl. block
+of.options.TRANSLUCENT_BLOCKS=Genomskinliga block
 of.options.TRANSLUCENT_BLOCKS.tooltip.1=Genomskinliga block
 of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Standard - följer alternativet "Grafik"
 of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Snyggt - korrekt färgblandning (långsammare)
@@ -560,10 +560,10 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.5=Styr färgblandningen för genomskinliga
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=olika färger (färgat glas, vatten, is) när de
 of.options.TRANSLUCENT_BLOCKS.tooltip.7=placeras bakom varandra med luft emellan.
 
-of.options.HELD_ITEM_TOOLTIPS=Infotext för föremål
-of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Infotext för föremål
-of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  PÅ - visa infotext för hållna föremål (standard)
-of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  AV - visa inte infotext för hållna föremål
+of.options.HELD_ITEM_TOOLTIPS=Inforutor för föremål
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Inforutor för föremål
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  PÅ - visa inforutor för föremål i handen (standard)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  AV - visa inte inforutor för föremål i handen
 
 of.options.ADVANCED_TOOLTIPS=Avancerade inforutor
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Avancerade inforutor
@@ -584,12 +584,12 @@ options.entityShadows.tooltip.2=  PÅ - visa skuggor för entiteter
 options.entityShadows.tooltip.3=  AV - visa inte skuggor för entiteter
 
 of.options.VIGNETTE=Vinjett
-of.options.VIGNETTE.tooltip.1=Visuell effekt som mörklägger skärmens hörn en aning
+of.options.VIGNETTE.tooltip.1=Visuell effekt som mörklägger skärmens hörn
 of.options.VIGNETTE.tooltip.2=  Standard - följer alternativet "Grafik" (standard)
 of.options.VIGNETTE.tooltip.3=  Snabbt - vinjetten är inaktiverad (snabbare)
 of.options.VIGNETTE.tooltip.4=  Snyggt - vinjetten är aktiverad (långsammare)
-of.options.VIGNETTE.tooltip.5=Vinjetten kan ha en betydande verkan på bildfrekvensen,
-of.options.VIGNETTE.tooltip.6=speciellt när fullskärm är aktiverad.
+of.options.VIGNETTE.tooltip.5=Vinjetten kan ha en betydande verkan på bildhastigheten,
+of.options.VIGNETTE.tooltip.6=speciellt när fullskärm är aktiverat.
 of.options.VIGNETTE.tooltip.7=Vinjetteffekten är riktigt diskret och kan stängas av
 of.options.VIGNETTE.tooltip.8=utan någon fara.
 
@@ -603,7 +603,7 @@ of.options.DYNAMIC_FOV.tooltip.5=med en pilbåge.
 of.options.DYNAMIC_LIGHTS=Dynamiska ljus
 of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamiska ljus
 of.options.DYNAMIC_LIGHTS.tooltip.2=  AV - inga dynamiska ljus (standard)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabba dynamiska ljus (uppdat. efter 500 ms)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Snabbt - snabba dynamiska ljus (uppdateras efter 500 ms)
 of.options.DYNAMIC_LIGHTS.tooltip.4=  Snyggt - snygga dynamiska ljus (uppdateras i realtid)
 of.options.DYNAMIC_LIGHTS.tooltip.5=Låter föremål som avger ljus (facklor, glödsten, etc.)
 of.options.DYNAMIC_LIGHTS.tooltip.6=lysa upp omgivningen när de hålls av dig, andra spelare
@@ -618,19 +618,19 @@ options.biomeBlendRadius.tooltip.6=sakta ned inläsningshastigheten för datablo
 
 # Performance
 
-of.options.SMOOTH_FPS=Jämn bildfrekvens
-of.options.SMOOTH_FPS.tooltip.1=Stabiliserar bildfrekvensen genom att rensa grafik-
+of.options.SMOOTH_FPS=Jämn bildhastighet
+of.options.SMOOTH_FPS.tooltip.1=Stabiliserar bildhastigheten genom att rensa grafik-
 of.options.SMOOTH_FPS.tooltip.2=drivrutinernas buffertar.
-of.options.SMOOTH_FPS.tooltip.3=  AV - ingen stabilisering, bildfrekvensen kan variera
-of.options.SMOOTH_FPS.tooltip.4=  PÅ - bildfrekvensen stabiliseras
+of.options.SMOOTH_FPS.tooltip.3=  AV - ingen stabilisering, bildhastigheten kan variera
+of.options.SMOOTH_FPS.tooltip.4=  PÅ - bildhastigheten stabiliseras
 of.options.SMOOTH_FPS.tooltip.5=Beror på grafikdrivrutinerna och märks inte alltid.
 
 of.options.SMOOTH_WORLD=Jämn värld
 of.options.SMOOTH_WORLD.tooltip.1=Tar bort prestandaproblem som orsakas av den interna
 of.options.SMOOTH_WORLD.tooltip.2=servern.
-of.options.SMOOTH_WORLD.tooltip.3=  AV - ingen stabilisering, bildfrekvensen kan variera
-of.options.SMOOTH_WORLD.tooltip.4=  PÅ - bildfrekvensen stabiliseras
-of.options.SMOOTH_WORLD.tooltip.5=Stabiliserar bildfrekvensen genom att fördela hur den
+of.options.SMOOTH_WORLD.tooltip.3=  AV - ingen stabilisering, bildhastigheten kan variera
+of.options.SMOOTH_WORLD.tooltip.4=  PÅ - bildhastigheten stabiliseras
+of.options.SMOOTH_WORLD.tooltip.5=Stabiliserar bildhastigheten genom att fördela hur den
 of.options.SMOOTH_WORLD.tooltip.6=interna servern belastas.
 of.options.SMOOTH_WORLD.tooltip.7=Fungerar endast på lokala världar (enspelarläge).
 
@@ -639,9 +639,9 @@ of.options.FAST_RENDER.tooltip.1=Snabb rendering
 of.options.FAST_RENDER.tooltip.2=  AV - standardrendering (standard)
 of.options.FAST_RENDER.tooltip.3=  PÅ - optimerad rendering (snabbare)
 of.options.FAST_RENDER.tooltip.4=Använder en optimerad renderingsalgoritm som minskar
-of.options.FAST_RENDER.tooltip.5=processorns belastning och kan höja bildfrekvensen
-of.options.FAST_RENDER.tooltip.6=avsevärt.
-of.options.FAST_RENDER.tooltip.7=Detta alternativ kan skapa en konflikt med andra moddar.
+of.options.FAST_RENDER.tooltip.5=processorns belastning och kan höja bildhastigheten
+of.options.FAST_RENDER.tooltip.6=betydligt.
+of.options.FAST_RENDER.tooltip.7=Detta alternativ kan skapa en konflikt med andra mods.
 
 of.options.FAST_MATH=Snabb matematik
 of.options.FAST_MATH.tooltip.1=Snabb matematik
@@ -649,20 +649,20 @@ of.options.FAST_MATH.tooltip.2=  AV - standardmatematik (standard)
 of.options.FAST_MATH.tooltip.3=  PÅ - snabbare matematik
 of.options.FAST_MATH.tooltip.4=Använder optimerade sin()- och cos()-funktioner som
 of.options.FAST_MATH.tooltip.5=kan utnyttja processorcachen mer och höja bild-
-of.options.FAST_MATH.tooltip.6=frekvensen.
+of.options.FAST_MATH.tooltip.6=hastigheten.
 of.options.FAST_MATH.tooltip.7=Detta alternativ kan påverka världsgenereringen minimalt.
 
-of.options.CHUNK_UPDATES=Antal datablocksuppdat.
-of.options.CHUNK_UPDATES.tooltip.1=Antal datablocksuppdateringar
+of.options.CHUNK_UPDATES=Datablocksuppdateringar
+of.options.CHUNK_UPDATES.tooltip.1=Datablocksuppdateringar
 of.options.CHUNK_UPDATES.tooltip.2=  1 - långsammare inläsning, högre bildfrekv. (standard)
-of.options.CHUNK_UPDATES.tooltip.3=  3 - snabbare inläsning, lägre bildfrekvens
-of.options.CHUNK_UPDATES.tooltip.4=  5 - snabbast inläsning, lägst bildfrekvens
+of.options.CHUNK_UPDATES.tooltip.3=  3 - snabbare inläsning, lägre bildhastighet
+of.options.CHUNK_UPDATES.tooltip.4=  5 - snabbast inläsning, lägst bildhastighet
 of.options.CHUNK_UPDATES.tooltip.5=Antalet datablocksuppdateringar per renderad bildruta.
-of.options.CHUNK_UPDATES.tooltip.6=Högre värden kan göra bildfrekvensen ostabil.
+of.options.CHUNK_UPDATES.tooltip.6=Högre värden kan göra bildhastigheten ostabil.
 
 of.options.CHUNK_UPDATES_DYNAMIC=Dynamiska uppdateringar
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamiska datablocksuppdateringar
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  AV - standardantal uppdater. per bildruta (standard)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  AV - standarduppdatering av datablock per bildruta (standard)
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=  PÅ - fler uppdateringar när spelaren står stilla
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamiska uppdateringar tvingar fler datablocks-
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=uppdateringar när spelaren står stilla för att läsa in
@@ -683,18 +683,18 @@ of.options.RENDER_REGIONS.tooltip.1=Renderingsområden
 of.options.RENDER_REGIONS.tooltip.2=  AV - inbyggd rendering (standard)
 of.options.RENDER_REGIONS.tooltip.3=  PÅ - använd renderingsområden
 of.options.RENDER_REGIONS.tooltip.4=Renderar terräng snabbare genom att optimera hur
-of.options.RENDER_REGIONS.tooltip.5=grafikprocessorns belastas. Mer effektivt vid högre
+of.options.RENDER_REGIONS.tooltip.5=grafikprocessorn belastas. Mer effektivt vid högre
 of.options.RENDER_REGIONS.tooltip.6=renderingsavstånd.
 of.options.RENDER_REGIONS.tooltip.7=Rekommenderas inte för integrerade grafikkort.
 
-of.options.SMART_ANIMATIONS=Smarta animeringar
-of.options.SMART_ANIMATIONS.tooltip.1=Smarta animeringar
-of.options.SMART_ANIMATIONS.tooltip.2=  AV - använd inte smarta animeringar (standard)
-of.options.SMART_ANIMATIONS.tooltip.3=  PÅ - använd smarta animeringar (snabbare)
-of.options.SMART_ANIMATIONS.tooltip.4=Med smarta animeringar kommer spelet endast animera
+of.options.SMART_ANIMATIONS=Smarta animationer
+of.options.SMART_ANIMATIONS.tooltip.1=Smarta animationer
+of.options.SMART_ANIMATIONS.tooltip.2=  AV - använd inte smarta animationer (standard)
+of.options.SMART_ANIMATIONS.tooltip.3=  PÅ - använd smarta animationer (snabbare)
+of.options.SMART_ANIMATIONS.tooltip.4=Med smarta animationer kommer spelet endast animera
 of.options.SMART_ANIMATIONS.tooltip.5=texturer som för tillfället är synliga på skärmen.
 of.options.SMART_ANIMATIONS.tooltip.6=Detta reducerar prestandaproblem och höjer bild-
-of.options.SMART_ANIMATIONS.tooltip.7=frekvensen. Speciellt användbart för stora modpaket
+of.options.SMART_ANIMATIONS.tooltip.7=hastigheten. Speciellt användbart för stora modpaket
 of.options.SMART_ANIMATIONS.tooltip.8=och HD-resurspaket.
 
 # Animations
@@ -716,7 +716,7 @@ of.options.WATER_PARTICLES=Vattenpartiklar
 of.options.RAIN_SPLASH=Regnstänk
 of.options.PORTAL_PARTICLES=Portalpartiklar
 of.options.POTION_PARTICLES=Brygdpartiklar
-of.options.DRIPPING_WATER_LAVA=Droppande vatten/lava
+of.options.DRIPPING_WATER_LAVA=Droppande vatten och lava
 of.options.ANIMATED_TERRAIN=Animerad terräng
 of.options.ANIMATED_TEXTURES=Animerade texturer
 of.options.FIREWORK_PARTICLES=Fyrverkeripartiklar
@@ -771,9 +771,9 @@ options.fullscreen.resolution.tooltip.3=  BxH - använd anpassad upplösning, ka
 options.fullscreen.resolution.tooltip.4=Den valda upplösningen används i helskärmsläge (F11).
 options.fullscreen.resolution.tooltip.5=Lägre upplösningar bör vanligtvis vara snabbare.
 
-of.options.SHOW_FPS=Visa bildfrekvens
-of.options.SHOW_FPS.tooltip.1=Visar kort information om bildfrekvens och rendering.
-of.options.SHOW_FPS.tooltip.2=  fps - bildfrekvensens medelvärde/minimum
+of.options.SHOW_FPS=Visa bildhastighet
+of.options.SHOW_FPS.tooltip.1=Visar kort information om bildhastighet och rendering.
+of.options.SHOW_FPS.tooltip.2=  fps - bildhastighetens medelvärde/minimum
 of.options.SHOW_FPS.tooltip.3=    C: - antal datablocksrenderingar
 of.options.SHOW_FPS.tooltip.4=    E: - antal renderade entiteter + blockentiteter
 of.options.SHOW_FPS.tooltip.5=    U: - antal datablocksuppdateringar
@@ -794,12 +794,12 @@ of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk sparning kan orsaka prestandaprob
 of.options.AUTOSAVE_TICKS.tooltip.4=beroende på det synliga avståndet.
 of.options.AUTOSAVE_TICKS.tooltip.5=Världen sparas även när spelmenyn är öppen.
 
-of.options.SCREENSHOT_SIZE=Stl. på skärmdump
+of.options.SCREENSHOT_SIZE=Stlorlek på skärmdump
 of.options.SCREENSHOT_SIZE.tooltip.1=Storlek på skärmdump
 of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstorlek på skärmdumpar
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - anpassad storlek på skärmdumpar
 of.options.SCREENSHOT_SIZE.tooltip.4=Större skärmdumpar kan kräva mer minne.
-of.options.SCREENSHOT_SIZE.tooltip.5=Inte kompatibel med Kantutjämning.
+of.options.SCREENSHOT_SIZE.tooltip.5=Inkompatibel med Kantutjämning.
 of.options.SCREENSHOT_SIZE.tooltip.6=Kräver att grafikprocessorn har stöd för framebuffer.
 
 of.options.SHOW_GL_ERRORS=Visa OpenGL-fel
@@ -809,7 +809,7 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Inaktivera endast detta om det finns en kän
 of.options.SHOW_GL_ERRORS.tooltip.4=felen inte kan åtgärdas.
 of.options.SHOW_GL_ERRORS.tooltip.5=När detta inaktiveras kommer felen fortfarande
 of.options.SHOW_GL_ERRORS.tooltip.6=registreras i felloggen och kan fortfarande orsaka att
-of.options.SHOW_GL_ERRORS.tooltip.7=bildfrekvensen sjunker avsevärt.
+of.options.SHOW_GL_ERRORS.tooltip.7=bildhastigheten sjunker betydligt.
 
 of.options.TELEMETRY=Telemetri
 of.options.TELEMETRY.tooltip.1=Skicka telemetridata till Mojang
