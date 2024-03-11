@@ -18,12 +18,15 @@
 # armor_stand              head, headwear, body, left_arm, right_arm, left_leg, right_leg, right, left, waist, base 
 # axolotl                  head, body, leg1 ... leg4, tail, top_gills, left_gills, right_gills
 # banner                   slate, stand, top
-# bat                      head, body, right_wing, left_wing, outer_right_wing, outer_left_wing
+# bat                      head, body, right_wing, left_wing, outer_right_wing, outer_left_wing, feet
 # bee                      body, torso, right_wing, left_wing, front_legs, middle_legs, back_legs, stinger, left_antenna, right_antenna
 # bed                      head, foot, leg1 ... leg4
 # bell                     body
 # blaze                    head, stick1 ... stick12
 # boat                     bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water
+# breeze                   body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
+# breeze_eyes              body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
+# breeze_wind              body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
 # camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg,
 #                          saddle, reins, bridle
 # cat                      back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
@@ -150,6 +153,7 @@
 # vindicator               head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm
 # wandering_trader         head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose
 # warden                   body, torso, head, left_leg, right_leg, left_arm, right_arm, left_tendril, right_tendril, left_ribcage, right_ribcage
+# wind_charge              core, wind, cube1, cube2, charge
 # witch                    head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose, mole
 # wither                   body1 ... body3, head1 ... head3
 # wither_armor             body1 ... body3, head1 ... head3
