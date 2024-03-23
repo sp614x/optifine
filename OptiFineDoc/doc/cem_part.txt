@@ -25,6 +25,15 @@
 # - "textureOffset" or individual face UV
 # - "coordinates" 
 #
+# Entities can have items/blocks attached to them. The attachments system allows you to render these items/blocks attached to model parts of your choice.
+# 
+# Attachment name          Supported models
+# ======================== ======================================================
+# left_handheld_item       allay, armor_stand, drowned, evoker, giant, husk, illusioner, piglin, piglin_brute, pillager, skeleton, stray, vex, vindicator, 
+#                          wither_skeleton, zombie, zombie_villager, zombified_piglin
+# right_handheld_item      allay, armor_stand, drowned, evoker, giant, husk, illusioner, piglin, piglin_brute, pillager, skeleton, stray, vex, vindicator, 
+#                          wither_skeleton, zombie, zombie_villager, zombified_piglin
+#
 # Note: This is not a valid JSON format and it should only be used as a reference  
 ######################################################################
 {
@@ -35,7 +44,11 @@
   "translate": [<x>, <y>, <z>],                                         - Translate (pixels)
   "rotate": [<angle_x>, <angle_y>, <angle_z>],                          - Rotate (degrees)
   "mirrorTexture": <axis_to_mirror>,                                    - Texture axis to mirror, for example "uv" mirrors both U and V axis
-  "boxes"                                                               - List of part model boxes
+  "attachments":                                                        - Attachment points for vanilla rendering
+  {
+    "attachment_name": [tx, ty, tz]                                     - Render an attachment with translation (tx, ty, tz). See attachment section for details.
+  },
+  "boxes":                                                              - List of part model boxes
   [
     {
       "textureOffset": [<u>, <v>],                                      - Texture offset for box format, see "model_box.png"
