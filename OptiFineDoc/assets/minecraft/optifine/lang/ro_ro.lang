@@ -2,123 +2,153 @@
 
 # General
 of.general.ambiguous=ambiguu
+of.general.compact=Compact
 of.general.custom=Personalizat
 of.general.from=Din
-of.general.id=Id
-of.general.restart=restart
-of.general.smart=Deștept
+of.general.id=ID
+of.general.max=Maxim
+of.general.restart=repornire
+of.general.smart=Inteligent
+of.general.anonymous=Anonim
 
 # Keys
-of.key.zoom=Zoom
+of.key.zoom=Mărire
 
 # Message
-of.message.aa.shaders1=Anti-aliasing nu este compatibil cu Shader.
-of.message.aa.shaders2=Dezactivează Shader pentru a activa această opțiune.
+of.message.aa.shaders1=Opțiunea nu este compatibilă cu pachetele shader.
+of.message.aa.shaders2=Configurarea acesteia necesită dezactivarea pachetului Shader.
 
-of.message.af.shaders1=Filtrul Anisotropic nu este compatibil cu Shader.
-of.message.af.shaders2=Dezactivează Shader pentru a activa această opțiune.
+of.message.af.shaders1=Opțiunea nu este compatibilă cu pachetele shader.
+of.message.af.shaders2=Configurarea acesteia necesită dezactivarea pachetului Shader.
 
-of.message.fr.shaders1=Redarea Rapidă nu este compatibila cu Shader.
-of.message.fr.shaders2=Dezactivează Shader pentru a activa această opțiune.
+of.message.fr.shaders1=Opțiunea nu este compatibilă cu pachetele shader.
+of.message.fr.shaders2=Configurarea acesteia necesită dezactivarea pachetului Shader.
 
-of.message.an.shaders1=Viziunea 3D nu este compatibila cu Shader.
-of.message.an.shaders2=Dezactivează Shader pentru a activa această opțiune.
+of.message.an.shaders1=Opțiunea nu este compatibilă cu pachetele shader.
+of.message.an.shaders2=Configurarea acesteia necesită dezactivarea pachetului Shader.
 
-of.message.shaders.aa1=Shader-ul nu este compatibil cu Anti-aliasing. 
-of.message.shaders.aa2=Setează Calitatea -> Anti-aliasing pe oprit și repornește jocul.
+of.message.shaders.aa1=Pachetele shader nu sunt compatibile cu opțiunea „Antialiasing“. 
+of.message.shaders.aa2=Dezactivează „Calitate texturi…“ -> „Antialiasing“ și repornește jocul.
 
-of.message.shaders.af1=Shader-ul nu este compatibil cu Filtrul Anisotropic.
-of.message.shaders.af2=Setează Calitatea -> Filtrul Anisotropic pe oprit. 
+of.message.shaders.af1=Pachetele shader nu sunt compatibile cu opțiunea „Filtru anizotropie“.
+of.message.shaders.af2=Dezactivează „Calitate texturi…“ -> „Filtru anizotropie“. 
 
-of.message.shaders.fr1=Shader-ul nu este compatibil cu Redarea Rapidă.
-of.message.shaders.fr2=Setează Performanța -> Redare Rapidă pe oprit.
+of.message.shaders.fr1=Pachetele shader nu sunt compatibile cu opțiunea „Generare rapidă“.
+of.message.shaders.fr2=Dezactivează „Performanță…“ -> „Generare rapidă“.
 
-of.message.shaders.an1=Shader-ul nu este compatibil cu Viziunea 3D.
-of.message.shaders.an2=Setează Altele -> Viziune 3D pe oprit.
+of.message.shaders.gf1=Pachetele shader nu sunt compatibile cu grafica „Fabuloasă“.
+of.message.shaders.gf2=Alege între grafică „Rapidă” sau „Detaliată”.
 
-of.message.shaders.nv1=Acest shader necesită o nouă versiune a Optifine, versiunea: %s
-of.message.shaders.nv2=Ești sigur(ă) că dorești să continui?
+of.message.shaders.an1=Pachetele shader nu sunt compatibile cu opțiunea „Proiecție 3D“.
+of.message.shaders.an2=Dezactivează „Altele…“ -> „Proiecție 3D“.
 
-of.message.newVersion=O versiune nouă de §eOptiFine§f este disponibilă: §e%s§f
-of.message.java64Bit=Poți instala versiunea de §e64-bit Java§f pentru a crește performanța.
+of.message.shaders.nv1=Acest shader necesită o nouă versiune de OptiFine: %s.
+of.message.shaders.nv2=Sigur dorești să continui?
+
+of.message.newVersion=O nouă versiune de §eOptiFine§f este disponibilă: §e%s§f
+of.message.java64Bit=Instalarea versiunii de §e64 de biți§f a §eJava§f poate crește performanța.
 of.message.openglError=§eEroare OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Shader-uri se încarcă: %s
+of.message.shaders.loading=Se încarcă pachetele shader: %s
 
-of.message.other.reset=Resetezi toate setările video la valorile implicite?
+of.message.other.reset=Reinițializezi setările video la valorile implicite?
  
-of.message.loadingVisibleChunks=Încarcă chunk-urile vizibile
+of.message.loadingVisibleChunks=Se încarcă chunkurile vizibile…
  
 # Video settings
+options.graphics.tooltip.1=  Rapidă - calitate redusă, mai rapid
+options.graphics.tooltip.2=  Detaliată - calitate înaltă, mai lent
+options.graphics.tooltip.3=  Fabuloasă - calitate îmbunătățită, cel mai încet
+options.graphics.tooltip.4=Schimbă aspectul norilor, frunzelor, apei, umbrelor și fețelor ierbii.
+options.graphics.tooltip.5=Grafica „Fabuloasă“ este incompatibilă cu pachetele shader și cu antialiasing.
 
-options.graphics.tooltip.1=Calitate vizuală
-options.graphics.tooltip.2=  Rapidă - calitate mică, rapid
-options.graphics.tooltip.3=  Detaliată - calitate mare, lent
-options.graphics.tooltip.4=Schimbă aspectul norilor, frunzelor, apei,
-options.graphics.tooltip.5=umbrelor și fețele ierbii.
-
-of.options.renderDistance.tiny=Mic
-of.options.renderDistance.short=Scurt
-of.options.renderDistance.normal=Normal
+of.options.renderDistance.tiny=Foarte scurtă
+of.options.renderDistance.short=Scurtă
+of.options.renderDistance.normal=Normală
 of.options.renderDistance.far=Departe
-of.options.renderDistance.extreme=Extrem
-of.options.renderDistance.insane=Nebun
-of.options.renderDistance.ludicrous=Ridicol
+of.options.renderDistance.extreme=Extremă
+of.options.renderDistance.insane=Nebună
+of.options.renderDistance.ludicrous=Ridicolă
 
-options.renderDistance.tooltip.1=Distanța vizibilă
-options.renderDistance.tooltip.2=  2 Mic - 32m (rapid)
-options.renderDistance.tooltip.3=  4 Scurt - 64m (rapid)
-options.renderDistance.tooltip.4=  8 Normal - 128m
-options.renderDistance.tooltip.5=  16 Departe - 256m (lent)
-options.renderDistance.tooltip.6=  32 Extrem - 512m (foarte lent!)
-options.renderDistance.tooltip.7=Vederea la distanță Extrem este foarte solicitant pentru resurse!
-options.renderDistance.tooltip.8=Valorile peste 16 Departe are efect doar într-o lume locala.
+options.renderDistance.tooltip.1=  2 Foarte scurtă - 32m (cel mai rapid)
+options.renderDistance.tooltip.2=  8 Normală - 128m
+options.renderDistance.tooltip.3=  16 Departe - 256m (lent)
+options.renderDistance.tooltip.4=  32 Extremă - 512m (foarte lent!)
+options.renderDistance.tooltip.5=  48 Nebună - 768m, necesită 2GB RAM alocați
+options.renderDistance.tooltip.6=  64 Ridicolă - 1024m, needs 3GB RAM alocați
+options.renderDistance.tooltip.7=Valorile peste 16 au efect doar în lumile locale.
 
-options.ao.tooltip.1=Lumină netedă
-options.ao.tooltip.2=  Nu - fără lumină netedă (rapid)
-options.ao.tooltip.3=  Minimă - lumină netedă simplă (lent)
-options.ao.tooltip.4=  Maximă - lumină netedă complexă (foarte lent)
+options.simulationDistance.tooltip.1=  5-12 - Normală
+options.simulationDistance.tooltip.2=  13-24 - Departe
+options.simulationDistance.tooltip.3=  25-32 - Extremă
+options.simulationDistance.tooltip.4=Distanța maximă la care entitățile vor fi actualizate.
+options.simulationDistance.tooltip.5=Valori mai mari pot provoca sacadarea jocului.
 
-options.framerateLimit.tooltip.1=Rată de cadre maximă
-options.framerateLimit.tooltip.2=  VSync - limitează rata de cadre a monitorului (60, 30, 20)
-options.framerateLimit.tooltip.3=  5-255 - variabilă
-options.framerateLimit.tooltip.4=  Nelimitat - fără limită (foarte rapid)
-options.framerateLimit.tooltip.5=Limită de cadre scade chiar dacă
-options.framerateLimit.tooltip.6=valoarea limitei nu este atinsă.
-of.options.framerateLimit.vsync=VSync
+options.entityDistanceScaling.tooltip.1=Distanța de afișare a entităților????
+options.entityDistanceScaling.tooltip.2=  50%% - mai rapid
+options.entityDistanceScaling.tooltip.3=  100%% - implicit
+options.entityDistanceScaling.tooltip.4=  500%% - mai încet
+options.entityDistanceScaling.tooltip.5=Distanța maximă la care vor fi afișate entitățile.
 
-of.options.AO_LEVEL=Nivel de lumină netedă
-of.options.AO_LEVEL.tooltip.1=Nivel de lumină netedă
-of.options.AO_LEVEL.tooltip.2=  Nu - fără umbre
-of.options.AO_LEVEL.tooltip.3=  50%% - umbre deschise
-of.options.AO_LEVEL.tooltip.4=  100%% - umbre închise
+options.ao.tooltip.1=  Nu - fără lumină fină (mai rapid)
+options.ao.tooltip.2=  Minimă - lumină fină simplă (mai lent)
+options.ao.tooltip.3=  Maximă - lumină fină complexă (cel mai lent)
+
+options.framerateLimit.tooltip.1=  Sincronizare verticală - limitare la rata monitorului (60, 30, 20)
+options.framerateLimit.tooltip.2=  5-255 - variabilă
+options.framerateLimit.tooltip.3=  Nelimitat (cel mai rapid)
+options.framerateLimit.tooltip.4=Limitarea cadrelor scade rata acestora, chiar dacă limita nu a fost atinsă.
+of.options.framerateLimit.vsync=Sincronizare verticală
+
+of.options.AO_LEVEL=Intensitate lumină fină
+of.options.AO_LEVEL.tooltip.1=  Nu - fără umbre
+of.options.AO_LEVEL.tooltip.2=  50%% - umbre fade
+of.options.AO_LEVEL.tooltip.3=  100%% - umbre pronunțate
 
 options.viewBobbing.tooltip.1=Mișcare mai realistă.
-options.viewBobbing.tooltip.2=Când utilizați mip-maps, setați-l pe oprit pentru rezultate optime.
+options.viewBobbing.tooltip.2=La utilizarea mipmap, dezactivează pentru rezultate optime.
 
-options.guiScale.tooltip.1=Dimensiune GUI
-options.guiScale.tooltip.2=  Automat - mărime maximă
-options.guiScale.tooltip.3=  Mic, Normal, Larg - 1x la 3x
-options.guiScale.tooltip.4=  4x la 10x - valabil pe ecranele 4K
-options.guiScale.tooltip.5=Valorile impare (1x, 3x, 5x ...) nu sunt compatibile cu Unicode.
-options.guiScale.tooltip.6=Un GUI mic poate fi mai rapid.
+options.guiScale.tooltip.1=  Automat - mărime maximă
+options.guiScale.tooltip.2=  1, 2, 3 - de la 1x la 3x
+options.guiScale.tooltip.3=  4x la 10x - valabil pe ecranele 4K
+options.guiScale.tooltip.4=Valorile impare (1x, 3x, 5x …) nu sunt compatibile cu Unicode.
+options.guiScale.tooltip.5=O interfață mică poate fi mai rapidă.
 
-options.vbo=Folosește VBO-uri
+options.vbo=Tehnologie VBO
 options.vbo.tooltip.1=Vertex Buffer Objects
-options.vbo.tooltip.2=Folosește un model de render alternativ care de obicei
-options.vbo.tooltip.3=este mai rapid (5-10%%) față de render-ul implicit.
+options.vbo.tooltip.2=Model alternativ de procesare video care, de obicei,
+options.vbo.tooltip.3=este mai rapid (5-10%%) decât procesarea implicită.
 
-options.gamma.tooltip.1=Schimbă luminozitatea obiectelor negre.
-options.gamma.tooltip.2=  Întunecos - luminozitate standard
-options.gamma.tooltip.3=  1-99%% - variabile
-options.gamma.tooltip.4=  Luminos - luminozitate maximă pentru obiecte negre.
-options.gamma.tooltip.5=Această opțiune nu schimbă luminozitatea
-options.gamma.tooltip.6=obiectelor total negre.
+options.gamma.tooltip.1=Luminozitatea obiectelor întunecate.
+options.gamma.tooltip.2=  Întunecat - luminozitate minimă
+options.gamma.tooltip.3=  50%% - valoare implicită
+options.gamma.tooltip.4=  Luminos - luminozitate maximă
+options.gamma.tooltip.5=Această opțiune nu schimbă luminozitatea obiectelor total negre.
 
-options.anaglyph.tooltip.1=Viziune 3D
-options.anaglyph.tooltip.2=Activează un efect stereoscopic 3D folosind culori diferite
-options.anaglyph.tooltip.3=pentru fiecare ochi.
-options.anaglyph.tooltip.4=Necesita ochelari cu lentile roșu-cyan pentru vizualizarea adecvata.
+options.anaglyph.tooltip.1=Efect 3D stereoscopic realizat prin folosirea culori diferite
+options.anaglyph.tooltip.2=pentru fiecare ochi. Necesită ochelari speciali pentru vizionare adecvată.
+
+options.attackIndicator.tooltip.1=  Reticul - sub reticulul din centrul ecranului
+options.attackIndicator.tooltip.2=  Bară - lângă bara obiectului activ
+options.attackIndicator.tooltip.3=  Nu - dezactivat
+options.attackIndicator.tooltip.4=Afișează cadența de refolosire a armei selectate.
+
+options.screenEffectScale.tooltip.1=  Nu - dezactivate
+options.screenEffectScale.tooltip.2=  1-100%% - activate
+
+options.autosaveIndicator.tooltip.1=  Nu - dezactivat
+options.autosaveIndicator.tooltip.2=  Da - activat
+options.autosaveIndicator.tooltip.3=Apare când lumea se salvează automat.
+
+options.fovEffectScale.tooltip.1=  Nu - dezactivate
+options.fovEffectScale.tooltip.2=  1-100%% - activate
+
+options.prioritizeChunkUpdates.tooltip.1=Actualizare chunkuri
+options.prioritizeChunkUpdates.tooltip.2= În paralel - actualizarea tuturor chunkurilor alăturate pe fire CPU distincte
+options.prioritizeChunkUpdates.tooltip.3= Anumite blocuri - actualizarea numai a chunkurilor afectate de jucător
+options.prioritizeChunkUpdates.tooltip.4= Toate blocurile - actualizarea tuturor chunkurilor alăturate
+options.prioritizeChunkUpdates.tooltip.5=Actualizarea în paralel poate cauza apariția unor goluri în pământ pentru câteva momente.
+options.prioritizeChunkUpdates.tooltip.6=Actualizarea tuturor blocurilor poate afecta negativ performanța.
 
 of.options.ALTERNATE_BLOCKS=Blocuri Alternative
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocuri Alternative
@@ -151,7 +181,7 @@ of.options.CHUNK_LOADING.tooltip.8=crescând FPS utilizând un al 2-lea necleu a
 of.options.chunkLoading.smooth=Neted
 of.options.chunkLoading.multiCore=Multi-Core
 
-of.options.shaders=Shadere...
+of.options.shaders=Shadere…
 of.options.shadersTitle=Shadere
 
 of.options.shaders.packNone=Fără
@@ -245,50 +275,46 @@ of.options.shaders.DOWNLOAD.tooltip.5=și vor apărea în lista shadere-lor inst
 of.options.shaders.SHADER_PACK=Pachet Shader
 
 of.options.shaders.shadersFolder=Dosar Shadere
-of.options.shaders.shaderOptions=Opțiuni Shader...
+of.options.shaders.shaderOptions=Opțiuni Shader…
 
 of.options.shaderOptionsTitle=Opțiuni Shader
 
-of.options.quality=Calitate...
+of.options.quality=Calitate…
 of.options.qualityTitle=Setări Calitate
 
-of.options.details=Detalii...
+of.options.details=Detalii…
 of.options.detailsTitle=Setări Detalii
 
-of.options.performance=Performanță...
+of.options.performance=Performanță…
 of.options.performanceTitle=Setări Performanță
 
-of.options.animations=Animații...
+of.options.animations=Animații…
 of.options.animationsTitle=Setări animații
 
-of.options.other=Altele...
+of.options.other=Altele…
 of.options.otherTitle=Alte Setări
 
-of.options.other.reset=Resetează Setările Video...
+of.options.other.reset=Reinițializare setări video…
 
 of.shaders.profile=Profil
 
 # Quality
-
 of.options.mipmap.bilinear=Biliniar
 of.options.mipmap.linear=Liniar
 of.options.mipmap.nearest=Apropiat
 of.options.mipmap.trilinear=Triliniar
 
-options.mipmapLevels.tooltip.1=Efect vizual care face obiectele la distanță să arate
-options.mipmapLevels.tooltip.2=mai bine prin netezirea detaliilor texturii.
-options.mipmapLevels.tooltip.3=  Nu - fără netezire
-options.mipmapLevels.tooltip.4=  1 - netezire minimă
-options.mipmapLevels.tooltip.5=  4 - netezire maximă
-options.mipmapLevels.tooltip.6=Această opțiune de obicei nu afectează performanța.
+options.mipmapLevels.tooltip.1=Îmbunătățește texturile la distanță prin netezirea detaliilor.
+options.mipmapLevels.tooltip.2=  Nu - fără netezire
+options.mipmapLevels.tooltip.3=  1 - netezire minimă
+options.mipmapLevels.tooltip.4=  Maxim - netezire maximă
+options.mipmapLevels.tooltip.5=Această opțiune nu afectează performanța, de obicei.
 
-of.options.MIPMAP_TYPE=Tip Mip-maping
-of.options.MIPMAP_TYPE.tooltip.1=Efect vizual care face obiectele la distanță sa arate bine
-of.options.MIPMAP_TYPE.tooltip.2=prin netezirea detaliilor texturii.
-of.options.MIPMAP_TYPE.tooltip.3=  Apropiat - netezire aspră (foarte rapid)
-of.options.MIPMAP_TYPE.tooltip.4=  Liniar - netezire normală
-of.options.MIPMAP_TYPE.tooltip.5=  Biliniar - netezire fină
-of.options.MIPMAP_TYPE.tooltip.6=  Triliniar - netezire foarte fină (foarte lent)
+of.options.MIPMAP_TYPE=Tip de mipmap
+of.options.MIPMAP_TYPE.tooltip.1=  Apropiat - netezire aspră (cel mai rapid)
+of.options.MIPMAP_TYPE.tooltip.2=  Liniar - netezire normală
+of.options.MIPMAP_TYPE.tooltip.3=  Biliniar - netezire fină
+of.options.MIPMAP_TYPE.tooltip.4=  Triliniar - netezire foarte fină (cel mai lent)
 
 
 of.options.AA_LEVEL=Antialiasing
