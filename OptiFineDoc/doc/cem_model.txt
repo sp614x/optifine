@@ -72,7 +72,7 @@
 # hanging_sign             board, plank, chains, chain_left1, chain_left2, chain_right1, chain_right2, chains_v
 # head_creeper             head, root
 # head_dragon              head, jaw, root
-# head_piglin              head, root
+# head_piglin              head, root, left_ear, right_ear
 # head_player              head, root
 # head_skeleton            head, root
 # head_wither_skeleton     head, root
