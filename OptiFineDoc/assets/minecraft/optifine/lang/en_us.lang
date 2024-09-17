@@ -1,6 +1,8 @@
 # General
 of.general.ambiguous=ambiguous
 of.general.compact=Compact
+of.general.full=Full
+of.general.detailed=Detailed
 of.general.custom=Custom
 of.general.from=From
 of.general.id=Id
@@ -334,6 +336,9 @@ of.options.animationsTitle=Animation Settings
 
 of.options.other=Other...
 of.options.otherTitle=Other Settings
+
+of.options.quickInfo=Quick Info...
+of.options.quickInfoTitle=Quick Info Settings
 
 of.options.other.reset=Reset Video Settings...
 
@@ -807,6 +812,118 @@ of.options.TELEMETRY.tooltip.5=The full telemetry sends user UUID which can be u
 of.options.TELEMETRY.tooltip.6=to track the user across different devices.
 of.options.TELEMETRY.tooltip.7=The anonymous telemetry doesn't send any user or client
 of.options.TELEMETRY.tooltip.8=identifiable data.
+
+# Quick Info
+of.options.QUICK_INFO=Quick Info
+of.options.QUICK_INFO.tooltip.1=Quick Info
+of.options.QUICK_INFO.tooltip.2=
+of.options.QUICK_INFO.tooltip.3=Shows compact information at the top of the screen.
+
+of.options.QUICK_INFO_FPS=Framerate
+of.options.QUICK_INFO_FPS.tooltip.1=Framerate
+of.options.QUICK_INFO_FPS.tooltip.2=  OFF - don't show framerate
+of.options.QUICK_INFO_FPS.tooltip.3=  Compact - show average framerate
+of.options.QUICK_INFO_FPS.tooltip.4=  Full - show average and minimum framerate
+of.options.QUICK_INFO_FPS.tooltip.5=The average shows the general game performance.
+of.options.QUICK_INFO_FPS.tooltip.6=The minimum shows the framerate stability and how
+of.options.QUICK_INFO_FPS.tooltip.7=the framerate feels when playing.
+
+of.options.QUICK_INFO_CHUNKS=Rendered Chunks
+of.options.QUICK_INFO_CHUNKS.tooltip.1=Rendered Chunks
+of.options.QUICK_INFO_CHUNKS.tooltip.2=
+of.options.QUICK_INFO_CHUNKS.tooltip.3=Shows the number of rendered chunks.
+
+of.options.QUICK_INFO_ENTITIES=Rendered Entities
+of.options.QUICK_INFO_ENTITIES.tooltip.1=Rendered Entities
+of.options.QUICK_INFO_ENTITIES.tooltip.2=
+of.options.QUICK_INFO_ENTITIES.tooltip.3=Shows the number of rendered entities and block entities.
+of.options.QUICK_INFO_ENTITIES.tooltip.4=Format: <entities> + <block entities>
+
+of.options.QUICK_INFO_PARTICLES=Rendered Particles
+of.options.QUICK_INFO_PARTICLES.tooltip.1=Rendered Particles
+of.options.QUICK_INFO_PARTICLES.tooltip.2=
+of.options.QUICK_INFO_PARTICLES.tooltip.3=Shows the number of rendered particles.
+
+of.options.QUICK_INFO_UPDATES=Chunk Updates
+of.options.QUICK_INFO_UPDATES.tooltip.1=Chunk Updates
+of.options.QUICK_INFO_UPDATES.tooltip.2=
+of.options.QUICK_INFO_UPDATES.tooltip.3=Shows the number of chunk updates per frame.
+
+of.options.QUICK_INFO_GPU=GPU Load
+of.options.QUICK_INFO_GPU.tooltip.1=GPU Load
+of.options.QUICK_INFO_GPU.tooltip.2=  0%% to 30%% - performance is CPU limited
+of.options.QUICK_INFO_GPU.tooltip.3=  30%% to 70%% - performance is CPU/GPU limited
+of.options.QUICK_INFO_GPU.tooltip.4=  70%% to 100%% - performance is GPU limited
+of.options.QUICK_INFO_GPU.tooltip.5=The GPU load is calculated by measuring the GPU time
+of.options.QUICK_INFO_GPU.tooltip.6=needed for rendering the frame vs the frame duration.
+of.options.QUICK_INFO_GPU.tooltip.7=It doesn't account for the buffers swap time which may
+of.options.QUICK_INFO_GPU.tooltip.8=cause some differences with the real GPU load.
+
+of.options.QUICK_INFO_POS=Position
+of.options.QUICK_INFO_POS.tooltip.1=Position
+of.options.QUICK_INFO_POS.tooltip.2=
+of.options.QUICK_INFO_POS.tooltip.3=Shows the player position.
+of.options.QUICK_INFO_POS.tooltip.4=Format: <world corrdinates> [<chunk relative coordinates>]
+
+of.options.QUICK_INFO_FACING=Facing
+of.options.QUICK_INFO_FACING.tooltip.1=Facing
+of.options.QUICK_INFO_FACING.tooltip.2=
+of.options.QUICK_INFO_FACING.tooltip.3=Shows the direction at which the player is looking.
+of.options.QUICK_INFO_FACING.tooltip.4=Format: <world direction> [XYZ direction] (yaw/pitch)
+
+of.options.QUICK_INFO_BIOME=Biome
+of.options.QUICK_INFO_BIOME.tooltip.1=Biome
+of.options.QUICK_INFO_BIOME.tooltip.2=
+of.options.QUICK_INFO_BIOME.tooltip.3=Shows the current biome name.
+
+of.options.QUICK_INFO_LIGHT=Light
+of.options.QUICK_INFO_LIGHT.tooltip.1=Light
+of.options.QUICK_INFO_LIGHT.tooltip.2=
+of.options.QUICK_INFO_LIGHT.tooltip.3=Shows the current light levels.
+of.options.QUICK_INFO_LIGHT.tooltip.4=Format: <sky light> / <block light>
+
+of.options.QUICK_INFO_MEMORY=Memory
+of.options.QUICK_INFO_MEMORY.tooltip.1=Memory
+of.options.QUICK_INFO_MEMORY.tooltip.2=
+of.options.QUICK_INFO_MEMORY.tooltip.3=Shows the currently used and maximum Java memory.
+of.options.QUICK_INFO_MEMORY.tooltip.4=Format: <used memory> / <maximum memory> MB
+
+of.options.QUICK_INFO_NATIVE_MEMORY=Native Memory
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.1=Native Memory
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.2=
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.3=Shows the currently used and maximum native memory.
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.4=Format: <buffers used> / <buffers maximum> + <textures>
+
+of.options.QUICK_INFO_TARGET_BLOCK=Target Block
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.1=Target Block
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.2=
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.3=Shows name and coordinates of the targeted block.
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.4=Format: <block name> (block coordinates)
+
+of.options.QUICK_INFO_TARGET_FLUID=Target Fluid
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.1=Target Fluid
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.2=
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.3=Format: <fluid name> (fluid coordinates)
+
+of.options.QUICK_INFO_TARGET_ENTITY=Target Entity
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.1=Target Entity
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.2=
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.3=Format: <entity name> (entity coordinates)
+
+of.options.QUICK_INFO_LABELS=Labels
+of.options.QUICK_INFO_LABELS.tooltip.1=Labels
+of.options.QUICK_INFO_LABELS.tooltip.2=  Compact - show compact labels
+of.options.QUICK_INFO_LABELS.tooltip.3=  Full - show full labels
+of.options.QUICK_INFO_LABELS.tooltip.4=  Detailed - show full labels and full coordinates
+of.options.QUICK_INFO_LABELS.tooltip.5=When full labels are selected the performance line
+of.options.QUICK_INFO_LABELS.tooltip.6=(framerate) is split in two lines. 
+
+of.options.QUICK_INFO_BACKGROUND=Background
+of.options.QUICK_INFO_BACKGROUND.tooltip.1=Background
+of.options.QUICK_INFO_BACKGROUND.tooltip.2=
+of.options.QUICK_INFO_BACKGROUND.tooltip.3=Shows translucent text background which may help
+of.options.QUICK_INFO_BACKGROUND.tooltip.4=with the readability, but it can also make the text
+of.options.QUICK_INFO_BACKGROUND.tooltip.5=more distracting.
 
 # Chat Settings
 
