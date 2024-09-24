@@ -156,7 +156,7 @@
 # vindicator               head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm, root
 # wandering_trader         head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose, root
 # warden                   body, torso, head, left_leg, right_leg, left_arm, right_arm, left_tendril, right_tendril, left_ribcage, right_ribcage, root
-# wind_charge              core, wind, cube1, cube2, charge, root
+# wind_charge              wind, charge, root
 # witch                    head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose, mole, root
 # wither                   body1 ... body3, head1 ... head3, root
 # wither_armor             body1 ... body3, head1 ... head3, root
