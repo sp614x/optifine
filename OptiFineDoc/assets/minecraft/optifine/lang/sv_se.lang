@@ -867,7 +867,6 @@ of.options.QUICK_INFO_GPU.tooltip.1=Belastning av grafikprocessor
 of.options.QUICK_INFO_GPU.tooltip.2=  0–30 %% - processorn begränsar prestandan
 of.options.QUICK_INFO_GPU.tooltip.3=  30–70 %% - grafik-/processorn begränsar prestandan
 of.options.QUICK_INFO_GPU.tooltip.4=  70–100 %% - grafikprocessorn begränsar prestandan
-of.options.QUICK_INFO_GPU.tooltip.5=Grafikprocessorns belastning beräknas genom att mäta tiden
 of.options.QUICK_INFO_GPU.tooltip.5=Belastningen beräknas genom att mäta tiden som krävs
 of.options.QUICK_INFO_GPU.tooltip.6=för att rendera bildrutan gentemot dess varaktighet.
 of.options.QUICK_INFO_GPU.tooltip.7=Tar inte hänsyn till buffertarnas bytestid som kan
