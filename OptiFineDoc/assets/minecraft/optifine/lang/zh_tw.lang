@@ -154,7 +154,7 @@ options.guiScale.tooltip.1=介面大小
 options.guiScale.tooltip.2=  自動 - 最大尺寸
 options.guiScale.tooltip.3=  小、中、大 - 1× 到 3×
 options.guiScale.tooltip.4=  4×-10× - 僅適用於 4K 解析度
-options.guiScale.tooltip.5=奇數值的放大倍數（1×、3×、5×等）與 Unicode 不相容。
+options.guiScale.tooltip.5=奇數值的放大倍數（1×、3×、5× 等）與 Unicode 不相容。
 options.guiScale.tooltip.6=較小的介面或許會更流暢。
 
 options.vbo=使用 VBOs
