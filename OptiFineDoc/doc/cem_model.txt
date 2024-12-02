@@ -14,163 +14,238 @@
 #
 # Entity name              Part name
 # ======================== ======================================================
-# allay                    head, body, left_arm, right_arm, left_wing, right_wing, root
-# armor_stand              head, headwear, body, left_arm, right_arm, left_leg, right_leg, right, left, waist, base 
-# arrow                    body
-# axolotl                  head, body, leg1 ... leg4, tail, top_gills, left_gills, right_gills
-# banner                   slate, stand, top
-# bat                      head, body, right_wing, left_wing, outer_right_wing, outer_left_wing, feet, root
+# allay                    body, head, left_arm, right_arm, left_wing, right_wing
+# armadillo                body, head, left_ear, right_ear, left_ear_cube, right_ear_cube, back_left_leg, back_right_leg, front_left_leg, front_right_leg, cube, tail
+# armor_stand              body, head, headwear, left_arm, right_arm, left_leg, right_leg, right, left, waist, base
+# arrow                    back, cross_1, cross_2
+# axolotl                  body, head, leg1 ... leg4, tail, top_gills, left_gills, right_gills
+# bat                      body, head, right_wing, left_wing, outer_right_wing, outer_left_wing, feet
 # bee                      body, torso, right_wing, left_wing, front_legs, middle_legs, back_legs, stinger, left_antenna, right_antenna
-# bed                      head, foot, leg1 ... leg4
-# bell                     body
-# blaze                    head, stick1 ... stick12, root
-# boat                     bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water
-# breeze                   body, rods, head, wind_body, wind_middle, wind_bottom, wind_top, root
-# breeze_eyes              body, rods, head, wind_body, wind_middle, wind_bottom, wind_top, root
-# breeze_wind              body, rods, head, wind_body, wind_middle, wind_bottom, wind_top, root
-# camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg,
-#                          saddle, reins, bridle, root
-# cat                      back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
-# cat_collar               back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
-# cave_spider              head, neck, body, leg1 ... leg8, root
-# chest                    lid, base, knob
-# chest_boat               bottom, back, front, right, left, paddle_left, paddle_right, bottom_no_water, chest_base, chest_lid, chest_knob
-# chest_raft               bottom, paddle_left, paddle_right, chest_base, chest_lid, chest_knob
-# chest_large              lid_left, base_left, knob_left, lid_right, base_right, knob_right
-# chest_minecart           bottom, back, front, right, left, root
-# chicken                  head, body, right_leg, left_leg, right_wing, left_wing, bill, chin
-# cod                      body, fin_back, head, nose, fin_right, fin_left, tail, root
-# command_block_minecart   bottom, back, front, right, left, root
-# conduit                  base, eye, cage, wind 
-# cow                      head, body, leg1 ... leg4
-# creeper                  head, body, leg1 ... leg4, root
-# creeper_charge           head, body, leg1 ... leg4, root
-# decorated_pot            neck, front, back, left, right, top, bottom
-# dragon                   head, spine, jaw, body, left_wing, left_wing_tip, right_wing, right_wing_tip,
-#                          front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, 
-#                          front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
-# donkey                   <same as horse>, left_chest, right_chest
-# dolphin                  body, back_fin, left_fin, right_fin, tail, tail_fin, head, root
-# drowned                  head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# drowned_outer            head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# elder_guardian           body, eye, spine1 ... spine12, tail1 ... tail3, root
-# enchanting_book          cover_right, cover_left, pages_right, pages_left, flipping_page_right, flipping_page_left, book_spine, root
-# ender_chest              lid, base, knob
-# end_crystal              cube, glass, base
-# enderman                 head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# endermite                body1 ... body4, root
-# evoker                   head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm, root
-# evoker_fangs             base, upper_jaw, lower_jaw, root
-# fox                      head, body, leg1 ... leg4, tail
-# frog                     head, body, eyes, tongue, left_arm, right_arm, left_leg, right_leg, croaking_body, root
-# furnace_minecart         bottom, back, front, right, left, root
-# ghast                    body, tentacle1 ... tentacle9, root
-# giant                    head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# glow_squid               body, tentacle1 ... tentacle8, root
-# goat                     head, body, leg1 ... leg4, left_horn, right_horn, nose
-# guardian                 body, eye, spine1 ... spine12, tail1 ... tail3, root
-# hanging_sign             board, plank, chains, chain_left1, chain_left2, chain_right1, chain_right2, chains_v
-# head_creeper             head, root
-# head_dragon              head, jaw, root
-# head_piglin              head, root, left_ear, right_ear
-# head_player              head, root
-# head_skeleton            head, root
-# head_wither_skeleton     head, root
-# head_zombie              head, root
-# hoglin                   head, right_ear, left_ear, body, front_right_leg, front_left_leg, back_right_leg, back_left_leg, mane
-# hopper_minecart          bottom, back, front, right, left, root
-# horse                    body, neck, back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, saddle,
-#                          head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband,
-#                          child_back_left_leg, child_back_right_leg, child_front_left_leg, child_front_right_leg
-# horse_armor              body, neck, back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, saddle,
-#                          head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband,
-#                          child_back_left_leg, child_back_right_leg, child_front_left_leg, child_front_right_leg
-# husk                     head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# illusioner               head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm, root
-# iron_golem               head, body, left_arm, right_arm, left_leg, right_leg, root
-# lead_knot                knot, root
-# lectern_book             cover_right, cover_left, pages_right, pages_left, flipping_page_right, flipping_page_left, book_spine, root
-# llama                    head, body, leg1 ... leg4, chest_right, chest_left
-# llama_decor              head, body, leg1 ... leg4, chest_right, chest_left
-# llama_spit               body, root
-# magma_cube               core, segment1 ... segment8, root
-# minecart                 bottom, back, front, right, left, root
-# mooshroom                head, body, leg1 ... leg4
-# mule                     <same as horse>, left_chest, right_chest
-# ocelot                   back_left_leg, back_right_leg, front_left_leg, front_right_leg, tail, tail2, head, body
-# panda                    head, body, leg1 ... leg4
-# parrot                   head, body, tail, left_wing, right_wing, left_leg, right_leg, root
-# phantom                  body, left_wing, left_wing_tip, right_wing, right_wing_tip, head, tail, tail2, root
-# puffer_fish_big          body, fin_right, fin_left, spikes_front_top, spikes_middle_top, spikes_back_top, spikes_front_right, spikes_front_left, 
-#                          spikes_front_bottom, spikes_middle_bottom, spikes_back_bottom, spikes_back_right, spikes_back_left, root
-# puffer_fish_medium       body, fin_right, fin_left, spikes_front_top, spikes_back_top, spikes_front_right, spikes_back_right, spikes_back_left, 
-#                          spikes_front_left, spikes_back_bottom, spikes_front_bottom, root
-# puffer_fish_small        body, eye_right, eye_left, tail, fin_right, fin_left, root
-# pig                      head, body, leg1 ... leg4
-# pig_saddle               head, body, leg1 ... leg4
-# piglin                   head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_ear, right_ear, left_sleeve, right_sleeve, left_pants, right_pants, jacket
-# piglin_brute             head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_ear, right_ear, left_sleeve, right_sleeve, left_pants, right_pants, jacket
-# pillager                 head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm, root
-# polar_bear               head, body, leg1 ... leg4
-# rabbit                   left_foot, right_foot, left_thigh, right_thigh, body, left_arm, right_arm, head, right_ear, left_ear, tail, nose
-# raft                     bottom, paddle_left, paddle_right
-# ravager                  head, jaw, body, leg1 ... leg4, neck, root
-# salmon                   body_front, body_back, head, fin_back_1, fin_back_2, tail, fin_right, fin_left, root
-# sheep                    head, body, leg1 ... leg4
-# sheep_wool               head, body, leg1 ... leg4
-# shield                   plate, handle, root
-# shulker                  head, base, lid
-# shulker_box              base, lid
-# shulker_bullet           bullet, root
-# sign                     board, stick
-# silverfish               body1 ... body7, wing1 ... wing3, root
-# skeleton                 head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# skeleton_horse           <same as horse>
-# slime                    body, left_eye, right_eye, mouth, root
+# blaze                    head, stick1 ... stick12
+# bogged                   body, head, headwear, left_arm, right_arm, left_leg, right_leg, mushrooms
+# bogged_outer             body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# breeze                   body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
+# breeze_wind              body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
+# breeze_wind_charge       <fallback to wind_charge>
+# camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg, saddle, reins, bridle
+# cat                      body, head, tail, tail2, back_left_leg, back_right_leg, front_left_leg, front_right_leg
+# cat_collar               <fallback to cat>
+# cave_spider              body, head, neck, leg1 ... leg8
+# chicken                  body, head, right_leg, left_leg, right_wing, left_wing, bill, chin
+# cod                      body, fin_back, head, nose, fin_right, fin_left, tail
+# cow                      body, head, leg1 ... leg4
+# creaking                 body, upper_body, head, right_arm, left_arm, right_leg, left_leg
+# creaking_transient       <fallback to creaking>
+# creeper                  body, head, leg1 ... leg4
+# creeper_charge           body, head, leg1 ... leg4
+# dolphin                  body, back_fin, left_fin, right_fin, tail, tail_fin, head
+# donkey                   body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband, left_chest, right_chest
+# dragon                   head, jaw, body, neck1 ... neck4, neck5, tail1 ... tail12, left_wing, left_wing_tip, front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, right_wing, right_wing_tip, front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
+# drowned                  body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# drowned_outer            body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# elder_guardian           body, eye, spine1 ... spine12, tail1 ... tail3
+# end_crystal              cube, outer_glass, inner_glass, base
+# enderman                 body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# endermite                body1 ... body4
+# evoker                   body, head, hat, arms, right_leg, left_leg, nose, right_arm, left_arm
+# evoker_fangs             base, upper_jaw, lower_jaw
+# fox                      body, head, leg1 ... leg4, tail
+# frog                     body, head, eyes, tongue, left_arm, right_arm, left_leg, right_leg, croaking_body
+# ghast                    body, tentacle1 ... tentacle9
+# giant                    body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# glow_squid               body, tentacle1 ... tentacle8
+# goat                     body, head, leg1 ... leg4, left_horn, right_horn, nose
+# guardian                 body, eye, spine1 ... spine12, tail1 ... tail3
+# hoglin                   body, mane, head, right_ear, left_ear, front_right_leg, front_left_leg, back_right_leg, back_left_leg
+# horse                    body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
+# horse_armor              body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
+# husk                     body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# illusioner               body, head, hat, arms, right_leg, left_leg, nose, right_arm, left_arm
+# iron_golem               body, head, right_arm, left_arm, left_leg, right_leg
+# lead_knot                knot
+# llama                    body, head, leg1 ... leg4, chest_right, chest_left
+# llama_decor              body, head, leg1 ... leg4, chest_right, chest_left
+# llama_spit               body
+# magma_cube               core, segment1 ... segment8
+# mooshroom                body, head, leg1 ... leg4
+# mule                     body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband, left_chest, right_chest
+# ocelot                   body, head, tail, tail2, back_left_leg, back_right_leg, front_left_leg, front_right_leg
+# panda                    body, head, leg1 ... leg4
+# parrot                   body, tail, left_wing, right_wing, head, left_leg, right_leg
+# parrot_shoulder          <fallback to parrot>
+# phantom                  body, head, left_wing, left_wing_tip, right_wing, right_wing_tip, tail, tail2
+# pig                      body, head, leg1 ... leg4
+# pig_saddle               body, head, leg1 ... leg4
+# piglin                   body, head, headwear, left_arm, right_arm, left_leg, right_leg, left_sleeve, right_sleeve, left_pants, right_pants, jacket, left_ear, right_ear
+# piglin_brute             body, head, headwear, left_arm, right_arm, left_leg, right_leg, left_sleeve, right_sleeve, left_pants, right_pants, jacket, left_ear, right_ear
+# pillager                 body, head, hat, arms, right_leg, left_leg, nose, right_arm, left_arm
+# polar_bear               body, head, leg1 ... leg4
+# puffer_fish_big          body, fin_right, fin_left, spikes_front_top, spikes_middle_top, spikes_back_top, spikes_front_right, spikes_front_left, spikes_front_bottom, spikes_middle_bottom, spikes_back_bottom, spikes_back_right, spikes_back_left
+# puffer_fish_medium       body, fin_right, fin_left, spikes_front_top, spikes_back_top, spikes_front_right, spikes_back_right, spikes_back_left, spikes_front_left, spikes_back_bottom, spikes_front_bottom
+# puffer_fish_small        body, eye_right, eye_left, fin_right, fin_left, tail
+# rabbit                   body, left_foot, right_foot, left_thigh, right_thigh, left_arm, right_arm, head, right_ear, left_ear, tail, nose
+# ravager                  body, head, jaw, leg1 ... leg4, neck
+# salmon                   body_front, body_back, head, fin_back_1, fin_back_2, tail, fin_right, fin_left
+# salmon_large             <fallback to salmon>
+# salmon_small             <fallback to salmon>
+# sheep                    body, head, leg1 ... leg4
+# sheep_wool               body, head, leg1 ... leg4
+# shield                   plate, handle
+# shulker                  base, lid, head
+# shulker_bullet           bullet
+# silverfish               body1 ... body7, wing1 ... wing3
+# skeleton                 body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# skeleton_horse           body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
+# slime                    body, left_eye, right_eye, mouth
 # slime_outer              body
-# sniffer                  body, back_left_leg, back_right_leg, middle_left_leg, middle_right_leg, front_left_leg, front_right_leg,
-#                          head, left_ear, right_ear, nose, lower_beak, root
-# snow_golem               body, body_bottom, head, left_hand, right_hand, root
-# spawner_minecart         bottom, back, front, right, left, root
-# spectral_arrow           body
-# spider                   head, neck, body, leg1, ... leg8, root
-# squid                    body, tentacle1 ... tentacle8, root
-# stray                    head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# stray_outer              head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# strider                  body, right_leg, left_leg, hair_right_top, hair_right_middle, hair_right_bottom, hair_left_top, hair_left_middle, hair_left_bottom, root
-# strider_saddle           body, right_leg, left_leg, hair_right_top, hair_right_middle, hair_right_bottom, hair_left_top, hair_left_middle, hair_left_bottom, root
-# tnt_minecart             bottom, back, front, right, left, root
+# sniffer                  body, back_left_leg, back_right_leg, middle_left_leg, middle_right_leg, front_left_leg, front_right_leg, head, left_ear, right_ear, nose, lower_beak
+# snow_golem               body, body_bottom, head, right_hand, left_hand
+# spectral_arrow           <fallback to arrow>
+# spider                   body, head, neck, leg1 ... leg4, leg5, leg6, leg7, leg8
+# squid                    body, tentacle1 ... tentacle8
+# stray                    body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# stray_outer              body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# strider                  body, right_leg, left_leg, hair_right_bottom, hair_right_middle, hair_right_top, hair_left_top, hair_left_middle, hair_left_bottom
+# strider_saddle           body, right_leg, left_leg, hair_right_bottom, hair_right_middle, hair_right_top, hair_left_top, hair_left_middle, hair_left_bottom
 # tadpole                  body, tail
-# trader_llama             head, body, leg1 ... leg4, chest_right, chest_left
-# trader_llama_decor       head, body, leg1 ... leg4, chest_right, chest_left
-# trapped_chest            lid, base, knob
-# trapped_chest_large      lid_left, base_left, knob_left, lid_right, base_right, knob_right
-# trident                  body, base, left_spike, middle_spike, right_spike, root
-# tropical_fish_a          body, tail, fin_right, fin_left, fin_top, root
-# tropical_fish_b          body, tail, fin_right, fin_left, fin_top, fin_bottom, root
-# tropical_fish_pattern_a  body, tail, fin_right, fin_left, fin_top, root
-# tropical_fish_pattern_b  body, tail, fin_right, fin_left, fin_top, fin_bottom, root
-# turtle                   head, body, leg1 ... leg4, body2
-# vex                      head, body, left_arm, right_arm, left_wing, right_wing, root
-# villager                 head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose, root
-# vindicator               head, hat, body, arms, left_leg, right_leg, nose, left_arm, right_arm, root
-# wandering_trader         head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose, root
-# warden                   body, torso, head, left_leg, right_leg, left_arm, right_arm, left_tendril, right_tendril, left_ribcage, right_ribcage, root
-# wind_charge              wind, charge, root
-# witch                    head, headwear, headwear2, body, bodywear, arms, left_leg, right_leg, nose, mole, root
-# wither                   body1 ... body3, head1 ... head3, root
-# wither_armor             body1 ... body3, head1 ... head3, root
-# wither_skeleton          head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# wither_skull             head, root
-# wolf                     head, body, leg1 ... leg4, tail, mane
-# wolf_collar              head, body, leg1 ... leg4, tail, mane
-# zoglin                   head, right_ear, left_ear, body, front_right_leg, front_left_leg, back_right_leg, back_left_leg, mane
-# zombie                   head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# zombie_horse             <same as horse>
-# zombie_pigman            head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# zombie_villager          head, headwear, body, left_arm, right_arm, left_leg, right_leg
-# zombified_piglin         head, headwear, body, left_arm, right_arm, left_leg, right_leg, left_ear, left_sleeve, right_sleeve, left_pants, right_pants, jacket
+# trader_llama             body, head, leg1 ... leg4, chest_right, chest_left
+# trader_llama_decor       body, head, leg1 ... leg4, chest_right, chest_left
+# trident                  body, base, left_spike, middle_spike, right_spike
+# trident_hand             <fallback to trident>
+# tropical_fish_a          body, tail, fin_right, fin_left, fin_top
+# tropical_fish_b          body, tail, fin_right, fin_left, fin_top, fin_bottom
+# tropical_fish_pattern_a  body, tail, fin_right, fin_left, fin_top
+# tropical_fish_pattern_b  body, tail, fin_right, fin_left, fin_top, fin_bottom
+# turtle                   body, head, leg1 ... leg4, body2
+# vex                      body, head, right_arm, left_arm, right_wing, left_wing
+# villager                 body, head, headwear, headwear2, bodywear, arms, right_leg, left_leg, nose
+# vindicator               body, head, hat, arms, right_leg, left_leg, nose, right_arm, left_arm
+# wandering_trader         body, head, headwear, headwear2, bodywear, arms, right_leg, left_leg, nose
+# warden                   body, torso, head, right_leg, left_leg, right_arm, left_arm, right_tendril, left_tendril, right_ribcage, left_ribcage
+# wind_charge              wind, charge
+# witch                    body, head, headwear, headwear2, bodywear, arms, right_leg, left_leg, nose, mole
+# wither                   body1 ... body3, head1 ... head3
+# wither_armor             body1, body2, body3, head1, head2, head3
+# wither_skeleton          body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# wither_skull             head
+# wolf                     body, head, leg1 ... leg4, tail, mane
+# wolf_armor               body, head, leg1 ... leg4, tail, mane
+# wolf_collar              <fallback to wolf>
+# zoglin                   body, mane, head, right_ear, left_ear, front_right_leg, front_left_leg, back_right_leg, back_left_leg
+# zombie                   body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# zombie_horse             body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
+# zombie_villager          body, head, headwear, left_arm, right_arm, left_leg, right_leg
+# zombified_piglin         body, head, headwear, left_arm, right_arm, left_leg, right_leg, left_sleeve, right_sleeve, left_pants, right_pants, jacket, left_ear, right_ear
 #
+# Baby name                Part name
+# ======================== ======================================================
+# armadillo_baby           <fallback to armadillo>
+# armor_stand_small        <fallback to armor_stand>
+# axolotl_baby             <fallback to axolotl>
+# bee_baby                 <fallback to bee>
+# camel_baby               <fallback to camel>
+# cat_baby                 <fallback to cat>
+# cat_baby_collar          <fallback to cat_collar>
+# chicken_baby             <fallback to chicken>
+# cow_baby                 <fallback to cow>
+# dolphin_baby             <fallback to dolphin>
+# donkey_baby              <fallback to donkey>
+# drowned_baby             <fallback to drowned>
+# drowned_baby_outer       <fallback to drowned_outer>
+# fox_baby                 <fallback to fox>
+# glow_squid_baby          <fallback to glow_squid>
+# goat_baby                <fallback to goat>
+# hoglin_baby              <fallback to hoglin>
+# horse_baby               <fallback to horse>
+# horse_baby_armor         <fallback to horse_armor>
+# husk_baby                <fallback to husk>
+# llama_baby               <fallback to llama>
+# llama_baby_decor         <fallback to llama_decor>
+# mooshroom_baby           <fallback to mooshroom>
+# mule_baby                <fallback to mule>
+# ocelot_baby              <fallback to ocelot>
+# panda_baby               <fallback to panda>
+# pig_baby                 <fallback to pig>
+# pig_baby_saddle          <fallback to pig_saddle>
+# piglin_baby              <fallback to piglin>
+# polar_bear_baby          <fallback to polar_bear>
+# rabbit_baby              <fallback to rabbit>
+# sheep_baby               <fallback to sheep>
+# sheep_baby_wool          <fallback to sheep_wool>
+# skeleton_horse_baby      <fallback to skeleton_horse>
+# sniffer_baby             <fallback to sniffer>
+# squid_baby               <fallback to squid>
+# trader_llama_baby        <fallback to trader_llama>
+# trader_llama_baby_decor  <fallback to trader_llama_decor>
+# turtle_baby              <fallback to turtle>
+# wolf_baby                <fallback to wolf>
+# wolf_baby_armor          <fallback to wolf_armor>
+# wolf_baby_collar         <fallback to wolf_collar>
+# zoglin_baby              <fallback to zoglin>
+# zombie_baby              <fallback to zombie>
+# zombie_horse_baby        <fallback to zombie_horse>
+# zombie_villager_baby     <fallback to zombie_villager>
+# zombified_piglin_baby    <fallback to zombified_piglin>
+#
+# Boats                    Part name
+# ======================== ======================================================
+# boat                     bottom, back, front, right, left, paddle_left, paddle_right
+# chest_boat               bottom, back, front, right, left, paddle_left, paddle_right, chest_base, chest_lid, chest_knob
+# boat_patch               water_patch
+# raft                     bottom, paddle_left, paddle_right
+# chest_raft               bottom, paddle_left, paddle_right, chest_base, chest_lid, chest_knob
+#
+# Minecarts                Part name
+# ======================== ======================================================
+# minecart                 bottom, back, front, right, left
+# chest_minecart           <fallback to minecart>
+# command_block_minecart   <fallback to minecart>
+# furnace_minecart         <fallback to minecart>
+# hopper_minecart          <fallback to minecart>
+# tnt_minecart             <fallback to minecart>
+# spawner_minecart         <fallback to minecart>
+#
+# Block entity name        Part name
+# ======================== ======================================================
+# banner                   stand, slate, top
+# bed                      head, foot, leg1 ... leg4
+# bell                     body, base
+# book                     cover_right, cover_left, pages_right, pages_left, flipping_page_right, flipping_page_left, book_spine
+# chest                    base, lid, knob
+# chest_left               base, lid, knob
+# chest_right              base, lid, knob
+# conduit                  eye, wind, base, cage
+# decorated_pot            neck, front, back, left, right, top, bottom
+# enchanting_book          <fallback to book>
+# enchanting_screen_book   <fallback to enchanting_book>
+# ender_chest              base, lid, knob
+# hanging_sign             board, plank, chains, chain_left1, chain_left2, chain_right1, chain_right2, chains_v
+# head_creeper             head
+# head_dragon              head, jaw
+# head_piglin              head, left_ear, right_ear
+# head_player              head
+# head_skeleton            head
+# head_wither_skeleton     head
+# head_zombie              head
+# lectern_book             <fallback to book>
+# shulker_box              base, lid
+# sign                     board, stick
+# trapped_chest            base, lid, knob
+# trapped_chest_left       base, lid, knob
+# trapped_chest_right      base, lid, knob
+# wall_sign                board <fallback to sign>
+#
+# Model variants              Variant
+# =========================== ======================================================
+# <variant>_boat              oak, spruce, birch, jungle, acacia, cherry, dark_oak, pale_oak, mangrove (fallback to boat)
+# <variant>_chest_boat        oak, spruce, birch, jungle, acacia, cherry, dark_oak, pale_oak, mangrove (fallback to chest_boat)
+# <variant>_boat_patch        oak, spruce, birch, jungle, acacia, cherry, dark_oak, pale_oak, mangrove (fallback to boat_patch)
+# <variant>_chest_boat_patch  oak, spruce, birch, jungle, acacia, cherry, dark_oak, pale_oak, mangrove (fallback to boat_patch)
+# <variant>_sign              oak, spruce, birch, jungle, acacia, cherry, dark_oak, pale_oak, mangrove, crimson, warped, bamboo (fallback to sign)
+# <variant>_wall_sign         oak, spruce, birch, jungle, acacia, cherry, dark_oak, pale_oak, mangrove, crimson, warped, bamboo (fallback to wall_sign)
+# <variant>_hanging_sign      oak, spruce, birch, jungle, acacia, cherry, dark_oak, pale_oak, mangrove, crimson, warped, bamboo (fallback to hanging_sign)
+#
+# All models except "banner", "bed", "conduit" and "decorated_pot" have a "root" part.
 # Only the elements "models" and "part" are required. 
 #
 # Note: This is not a valid JSON format and it should only be used as a reference  
@@ -243,3 +318,10 @@ blocks.1=black_bed
 
 models.2=3
 blocks.2=orange_bed
+
+######################################################################
+# External resources:
+#   Interactive Documentation:          https://wynem.com/cem/
+#   Video Tutorial:                     https://youtu.be/arj2eim42KI
+#   CEM Template Loader for Blockbench: https://ewanhowell.com/plugins/cem-template-loader
+######################################################################
