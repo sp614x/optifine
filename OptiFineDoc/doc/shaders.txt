@@ -46,7 +46,7 @@ Gbuffers, deferred and composite programs can write to any color attachment, but
 If the output color attachments are not configured, then the program will write to the first 8 color attachments.  
 
 In shaders using the modern syntax (130 and above) the outputs of the fragment shader should use the outColor<n> names. Example:
-/* DRAWBUFFERS:3,4,7 */
+/* RENDERTARGETS:3,4,7 */
 out vec4 outColor0; // Writes to buffer 3
 out vec4 outColor1; // Writes to buffer 4
 out vec4 outColor2; // Writes to buffer 7
@@ -113,7 +113,7 @@ gbuffers_textured            particles                             gbuffers_basi
 gbuffers_textured_lit        lit_particles, world border           gbuffers_textured
 gbuffers_skybasic            sky, horizon, stars, void             gbuffers_basic
 gbuffers_skytextured         sun, moon                             gbuffers_textured
-gbuffers_clouds              clouds                                gbuffers_textured
+gbuffers_clouds              clouds                                <none>
 gbuffers_terrain             solid, cutout, cutout_mip             gbuffers_textured_lit
 gbuffers_terrain_solid       <not used>                            gbuffers_terrain
 gbuffers_terrain_cutout_mip  <not used>                            gbuffers_terrain
@@ -156,7 +156,7 @@ Attributes
 ==========
 Source                                          Value                                       Comment
 ======================================================================================================================================================================
-in vec3 vaPosition;                             position (x, y, z)                          1.17+, for terrain it is relative to the chunk origin, see "chunkOffset"
+in vec3 vaPosition;                             position (x, y, z)                          1.17+, for terrain it is relative to the chunk origin, see "modelOffset"
 in vec4 vaColor;                                color (r, g, b, a)                          1.17+
 in vec2 vaUV0;                                  texture (u, v)                              1.17+
 in ivec2 vaUV1;                                 overlay (u, v)                              1.17+
@@ -242,7 +242,7 @@ uniform mat4 projectionMatrix;                  projection matrix
 uniform mat4 projectionMatrixInverse;           inverse projection matrix
 uniform mat4 textureMatrix = mat4(1.0);         texture matrix, default is identity
 uniform mat3 normalMatrix;                      normal matrix
-uniform vec3 chunkOffset;                       terrain chunk origin, used with attribute "vaPosition"
+uniform vec3 modelOffset;                       used by terrain chunks (with attribute "vaPosition") and clouds, replaces chunkOffset (1.21.2+)
 uniform float alphaTestRef;                     alpha test reference value, the check is "if (color.a < alphaTestRef) discard;"
 // 1.19+
 uniform float darknessFactor;                   strength of the darkness effect (0.0-1.0)
