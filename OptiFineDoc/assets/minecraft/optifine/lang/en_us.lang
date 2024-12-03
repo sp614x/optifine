@@ -228,7 +228,7 @@ of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
 
 of.options.shaders.packNone=OFF
-of.options.shaders.packDefault=(internal)
+of.options.shaders.packDefault=(debug)
 
 of.options.shaders.ANTIALIASING=Antialiasing
 of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
@@ -394,7 +394,7 @@ of.options.RANDOM_ENTITIES=Random Entities
 of.options.RANDOM_ENTITIES.tooltip.1=Random Entities
 of.options.RANDOM_ENTITIES.tooltip.2=  OFF - no random entities, faster
 of.options.RANDOM_ENTITIES.tooltip.3=  ON - random entities, slower
-of.options.RANDOM_ENTITIES.tooltip.4=Randon entities shows a random texture for game entities.
+of.options.RANDOM_ENTITIES.tooltip.4=Random entities shows a random texture for game entities.
 of.options.RANDOM_ENTITIES.tooltip.5=The random textures are supplied by the current
 of.options.RANDOM_ENTITIES.tooltip.6=resource pack which has two or more entity textures.
 
@@ -863,7 +863,7 @@ of.options.QUICK_INFO_POS=Position
 of.options.QUICK_INFO_POS.tooltip.1=Position
 of.options.QUICK_INFO_POS.tooltip.2=
 of.options.QUICK_INFO_POS.tooltip.3=Shows the player position.
-of.options.QUICK_INFO_POS.tooltip.4=Format: <world corrdinates> [<chunk relative coordinates>]
+of.options.QUICK_INFO_POS.tooltip.4=Format: <world coordinates> [<chunk relative coordinates>]
 
 of.options.QUICK_INFO_FACING=Facing
 of.options.QUICK_INFO_FACING.tooltip.1=Facing
