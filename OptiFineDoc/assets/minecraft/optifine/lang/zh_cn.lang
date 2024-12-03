@@ -1,4 +1,5 @@
 # Contributors of Chinese localization #
+#   GeForceLegend 2024-12-03 ---- 2024-12-03
 #   THGABS from Minecraft Wiki 2020-10-24 ---- 2021-12-25
 #   HeartyYF From InfinityStudio 2016-2-18 ---- 2020-7-25
 #   xwjcool123 From Rainbow Pixel 2018-5-20 ---- 2018-6-16
@@ -13,6 +14,8 @@
 # General
 of.general.ambiguous=模糊
 of.general.compact=紧凑
+of.general.full=完整
+of.general.detailed=详细
 of.general.custom=自定义
 of.general.from=来自
 of.general.id=ID
@@ -146,7 +149,7 @@ of.options.AO_LEVEL.tooltip.3=  50%% - 较浅的阴影
 of.options.AO_LEVEL.tooltip.4=  100%% - 较深的阴影
 
 options.viewBobbing.tooltip.1=更真实的运动。
-options.viewBobbing.tooltip.2=当使用多级纹理贴图（mipmap）时，关闭此选项以获得最佳效果。
+options.viewBobbing.tooltip.2=当使用多级渐远纹理（mipmap）时，关闭此选项以获得最佳效果。
 
 options.guiScale.tooltip.1=界面尺寸
 options.guiScale.tooltip.2=  自动 - 最大尺寸
@@ -249,22 +252,22 @@ of.options.shaders.ANTIALIASING.tooltip.5=平滑的后处理特效。
 of.options.shaders.ANTIALIASING.tooltip.6=它不仅快于传统的抗锯齿处理，而且同时还与光影兼容。
 of.options.shaders.ANTIALIASING.tooltip.7= 
 
-of.options.shaders.NORMAL_MAP=法线贴图
-of.options.shaders.NORMAL_MAP.tooltip.1=法线贴图
-of.options.shaders.NORMAL_MAP.tooltip.2=  开启 - （默认）启用法线贴图
-of.options.shaders.NORMAL_MAP.tooltip.3=  关闭 - 禁用法线贴图
-of.options.shaders.NORMAL_MAP.tooltip.4=光影包可以使用法线贴图，从而在模型的平面表面内
+of.options.shaders.NORMAL_MAP=法线纹理
+of.options.shaders.NORMAL_MAP.tooltip.1=法线纹理
+of.options.shaders.NORMAL_MAP.tooltip.2=  开启 - （默认）启用法线纹理
+of.options.shaders.NORMAL_MAP.tooltip.3=  关闭 - 禁用法线纹理
+of.options.shaders.NORMAL_MAP.tooltip.4=光影包可以使用法线纹理，从而在模型的平面表面内
 of.options.shaders.NORMAL_MAP.tooltip.5=模拟三维几何结构。
-of.options.shaders.NORMAL_MAP.tooltip.6=法线贴图纹理由当前的资源包提供。
+of.options.shaders.NORMAL_MAP.tooltip.6=法线纹理纹理由当前的资源包提供。
 of.options.shaders.NORMAL_MAP.tooltip.7= 
 
-of.options.shaders.SPECULAR_MAP=高光贴图
-of.options.shaders.SPECULAR_MAP.tooltip.1=高光贴图
-of.options.shaders.SPECULAR_MAP.tooltip.2=  开启 - （默认）启用高光贴图
-of.options.shaders.SPECULAR_MAP.tooltip.3=  关闭 - 禁用高光贴图
-of.options.shaders.SPECULAR_MAP.tooltip.4=光影包可以使用高光贴图，从而模拟特殊的
+of.options.shaders.SPECULAR_MAP=高光纹理
+of.options.shaders.SPECULAR_MAP.tooltip.1=高光纹理
+of.options.shaders.SPECULAR_MAP.tooltip.2=  开启 - （默认）启用高光纹理
+of.options.shaders.SPECULAR_MAP.tooltip.3=  关闭 - 禁用高光纹理
+of.options.shaders.SPECULAR_MAP.tooltip.4=光影包可以使用高光纹理，从而模拟特殊的
 of.options.shaders.SPECULAR_MAP.tooltip.5=反射效果。
-of.options.shaders.SPECULAR_MAP.tooltip.6=高光贴图纹理由当前的资源包提供。
+of.options.shaders.SPECULAR_MAP.tooltip.6=高光纹理纹理由当前的资源包提供。
 of.options.shaders.SPECULAR_MAP.tooltip.7= 
 
 of.options.shaders.RENDER_RES_MUL=渲染精细度
@@ -282,7 +285,7 @@ of.options.shaders.SHADOW_RES_MUL.tooltip.1=阴影精细度
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - 低（最快）
 of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - 标准（默认）
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - 高（最慢）
-of.options.shaders.SHADOW_RES_MUL.tooltip.5=阴影精细度控制光影包所当前使用的阴影映射贴图的大小。
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=阴影精细度控制光影包所当前使用的阴影映射纹理的大小。
 of.options.shaders.SHADOW_RES_MUL.tooltip.6=较低的值 = 不精确的、粗糙的阴影。
 of.options.shaders.SHADOW_RES_MUL.tooltip.7=较高的值 = 细致的、更佳的阴影。
 of.options.shaders.SHADOW_RES_MUL.tooltip.8= 
@@ -308,12 +311,12 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.5=经典手持光源可使只能辨别
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=对于副手也能工作。
 of.options.shaders.OLD_HAND_LIGHT.tooltip.7= 
 
-of.options.shaders.OLD_LIGHTING=经典光效
-of.options.shaders.OLD_LIGHTING.tooltip.1=经典光效
+of.options.shaders.OLD_LIGHTING=经典光照
+of.options.shaders.OLD_LIGHTING.tooltip.1=经典光照
 of.options.shaders.OLD_LIGHTING.tooltip.2=  默认 - 由光影包控制
-of.options.shaders.OLD_LIGHTING.tooltip.3=  开启 - 使用经典光效
-of.options.shaders.OLD_LIGHTING.tooltip.4=  关闭 - 不使用经典光效
-of.options.shaders.OLD_LIGHTING.tooltip.5=经典光效决定是否将原版的固定照明应用于方块各面。
+of.options.shaders.OLD_LIGHTING.tooltip.3=  开启 - 使用经典光照
+of.options.shaders.OLD_LIGHTING.tooltip.4=  关闭 - 不使用经典光照
+of.options.shaders.OLD_LIGHTING.tooltip.5=经典光照决定是否将原版的固定照明应用于方块各面。
 of.options.shaders.OLD_LIGHTING.tooltip.6=使用阴影的光影包通常会提供更好的、取决于太阳位置的照明。
 of.options.shaders.OLD_LIGHTING.tooltip.7= 
 of.options.shaders.OLD_LIGHTING.tooltip.8= 
@@ -346,6 +349,9 @@ of.options.animationsTitle=动画设置
 
 of.options.other=其他…
 of.options.otherTitle=其他设置
+
+of.options.quickInfo=快捷信息…
+of.options.quickInfoTitle=快捷信息设置
 
 of.options.other.reset=重置视频设置…
 
@@ -400,8 +406,9 @@ of.options.RANDOM_ENTITIES=随机实体纹理
 of.options.RANDOM_ENTITIES.tooltip.1=随机实体纹理
 of.options.RANDOM_ENTITIES.tooltip.2=  关闭 - 关闭随机实体纹理（较快）
 of.options.RANDOM_ENTITIES.tooltip.3=  开启 - 随机实体纹理（较慢）
-of.options.RANDOM_ENTITIES.tooltip.4=游戏中的实体使用随机的相应贴图。
-of.options.RANDOM_ENTITIES.tooltip.5=需要资源包内有多个实体贴图。
+of.options.RANDOM_ENTITIES.tooltip.4=游戏中的实体使用随机的相应纹理。
+of.options.RANDOM_ENTITIES.tooltip.5=需要资源包内有多个实体纹理。
+of.options.RANDOM_ENTITIES.tooltip.6=
 
 of.options.BETTER_GRASS=更好的草地
 of.options.BETTER_GRASS.tooltip.1=更好的草地
@@ -500,6 +507,7 @@ of.options.CUSTOM_GUIS.tooltip.1=自定义界面
 of.options.CUSTOM_GUIS.tooltip.2=  开启 - （默认）自定义图形用户界面（较慢）
 of.options.CUSTOM_GUIS.tooltip.3=  关闭 - 默认图形用户界面（较快）
 of.options.CUSTOM_GUIS.tooltip.4=自定义图形用户界面一般由当前的资源包提供。
+of.options.CUSTOM_GUIS.tooltip.5=
 
 # Details
 
@@ -789,6 +797,7 @@ of.options.AUTOSAVE_TICKS.tooltip.1=自动保存间隔
 of.options.AUTOSAVE_TICKS.tooltip.2= 45秒 - 默认
 of.options.AUTOSAVE_TICKS.tooltip.3=自动保存或许会导致突发延迟，这取决于渲染距离。
 of.options.AUTOSAVE_TICKS.tooltip.4=当打开游戏菜单时，世界也会保存。
+of.options.AUTOSAVE_TICKS.tooltip.5=
 
 of.options.SCREENSHOT_SIZE=截图尺寸
 of.options.SCREENSHOT_SIZE.tooltip.1=截图尺寸
@@ -815,6 +824,118 @@ of.options.TELEMETRY.tooltip.5=完整遥测会发送用户的UUID，这可以用
 of.options.TELEMETRY.tooltip.6=之间追踪用户。
 of.options.TELEMETRY.tooltip.7=匿名遥测不会发送用户或客户端的任何可识别数据。
 of.options.TELEMETRY.tooltip.8= 
+
+# Quick Info
+of.options.QUICK_INFO=快捷信息
+of.options.QUICK_INFO.tooltip.1=快捷信息
+of.options.QUICK_INFO.tooltip.2=
+of.options.QUICK_INFO.tooltip.3=在屏幕上方显示紧凑的信息。
+
+of.options.QUICK_INFO_FPS=帧率
+of.options.QUICK_INFO_FPS.tooltip.1=帧率
+of.options.QUICK_INFO_FPS.tooltip.2=  关 - 不显示帧率
+of.options.QUICK_INFO_FPS.tooltip.3=  紧凑 - 显示平均帧率
+of.options.QUICK_INFO_FPS.tooltip.4=  完整 - 显示平均帧率和最小帧率
+of.options.QUICK_INFO_FPS.tooltip.5=平均帧率体现游戏的一般性能。
+of.options.QUICK_INFO_FPS.tooltip.6=最小帧率体现帧率的稳定性，
+of.options.QUICK_INFO_FPS.tooltip.7=以及游玩时感受到的帧率。
+
+of.options.QUICK_INFO_CHUNKS=已渲染区块数
+of.options.QUICK_INFO_CHUNKS.tooltip.1=已渲染区块数
+of.options.QUICK_INFO_CHUNKS.tooltip.2=
+of.options.QUICK_INFO_CHUNKS.tooltip.3=显示已渲染区块的数量。
+
+of.options.QUICK_INFO_ENTITIES=已渲染实体数
+of.options.QUICK_INFO_ENTITIES.tooltip.1=已渲染实体数
+of.options.QUICK_INFO_ENTITIES.tooltip.2=
+of.options.QUICK_INFO_ENTITIES.tooltip.3=显示已渲染实体和方块实体的数量。
+of.options.QUICK_INFO_ENTITIES.tooltip.4=格式：<实体数量> + <方块实体数量>
+
+of.options.QUICK_INFO_PARTICLES=已渲染粒子数
+of.options.QUICK_INFO_PARTICLES.tooltip.1=已渲染粒子数
+of.options.QUICK_INFO_PARTICLES.tooltip.2=
+of.options.QUICK_INFO_PARTICLES.tooltip.3=显示已渲染粒子的数量。
+
+of.options.QUICK_INFO_UPDATES=区块更新数
+of.options.QUICK_INFO_UPDATES.tooltip.1=区块更新数
+of.options.QUICK_INFO_UPDATES.tooltip.2=
+of.options.QUICK_INFO_UPDATES.tooltip.3=显示每一帧更新的区块数量。
+
+of.options.QUICK_INFO_GPU=GPU负载
+of.options.QUICK_INFO_GPU.tooltip.1=GPU负载
+of.options.QUICK_INFO_GPU.tooltip.2=  0%% to 30%% - 性能受限于CPU
+of.options.QUICK_INFO_GPU.tooltip.3=  30%% to 70%% - 性能受限于CPU/GPU
+of.options.QUICK_INFO_GPU.tooltip.4=  70%% to 100%% - 性能受限于GPU
+of.options.QUICK_INFO_GPU.tooltip.5=GPU负载由测量渲染本帧所需GPU耗时
+of.options.QUICK_INFO_GPU.tooltip.6=与本帧总耗时之比计算得出。
+of.options.QUICK_INFO_GPU.tooltip.7=它并不考虑到缓冲翻转耗时，
+of.options.QUICK_INFO_GPU.tooltip.8=可能会导致与真实GPU负载存在差异。
+
+of.options.QUICK_INFO_POS=位置
+of.options.QUICK_INFO_POS.tooltip.1=位置
+of.options.QUICK_INFO_POS.tooltip.2=
+of.options.QUICK_INFO_POS.tooltip.3=显示玩家的位置。
+of.options.QUICK_INFO_POS.tooltip.4=格式：<世界坐标> [<相对区块坐标>]
+
+of.options.QUICK_INFO_FACING=朝向
+of.options.QUICK_INFO_FACING.tooltip.1=朝向
+of.options.QUICK_INFO_FACING.tooltip.2=
+of.options.QUICK_INFO_FACING.tooltip.3=显示玩家当前的朝向。
+of.options.QUICK_INFO_FACING.tooltip.4=格式：<世界方向> [XYZ方向] (水平方向/竖直方向)
+
+of.options.QUICK_INFO_BIOME=生物群系
+of.options.QUICK_INFO_BIOME.tooltip.1=生物群系
+of.options.QUICK_INFO_BIOME.tooltip.2=
+of.options.QUICK_INFO_BIOME.tooltip.3=显示当前生物群系的名称。
+
+of.options.QUICK_INFO_LIGHT=光照
+of.options.QUICK_INFO_LIGHT.tooltip.1=光照
+of.options.QUICK_INFO_LIGHT.tooltip.2=
+of.options.QUICK_INFO_LIGHT.tooltip.3=显示当前光照等级。
+of.options.QUICK_INFO_LIGHT.tooltip.4=格式：<天空光照> / <方块光照>
+
+of.options.QUICK_INFO_MEMORY=内存
+of.options.QUICK_INFO_MEMORY.tooltip.1=内存
+of.options.QUICK_INFO_MEMORY.tooltip.2=
+of.options.QUICK_INFO_MEMORY.tooltip.3=显示当前已使用与最大Java内存。
+of.options.QUICK_INFO_MEMORY.tooltip.4=格式：<已使用内存> / <最大内存> MB
+
+of.options.QUICK_INFO_NATIVE_MEMORY=本地内存
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.1=本地内存
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.2=
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.3=显示当前已使用与最大本地内存。
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.4=格式：<已使用缓冲> / <最大缓冲> + <纹理数量>
+
+of.options.QUICK_INFO_TARGET_BLOCK=目标方块
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.1=目标方块
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.2=
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.3=显示当前准心选中方块的名称与坐标。
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.4=格式：<方块名称> (方块坐标)
+
+of.options.QUICK_INFO_TARGET_FLUID=目标流体
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.1=目标流体
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.2=
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.3=格式：<流体名称> (流体坐标)
+
+of.options.QUICK_INFO_TARGET_ENTITY=目标实体
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.1=目标实体
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.2=
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.3=格式：<实体名称> (实体坐标)
+
+of.options.QUICK_INFO_LABELS=标签格式
+of.options.QUICK_INFO_LABELS.tooltip.1=标签格式
+of.options.QUICK_INFO_LABELS.tooltip.2=  紧凑 - 显示紧凑的标签
+of.options.QUICK_INFO_LABELS.tooltip.3=  完整 - 显示完整标签
+of.options.QUICK_INFO_LABELS.tooltip.4=  详细 - 显示完整标签和完整坐标
+of.options.QUICK_INFO_LABELS.tooltip.5=当选择完整标签时，
+of.options.QUICK_INFO_LABELS.tooltip.6=性能行（帧率）会被分成两行。
+
+of.options.QUICK_INFO_BACKGROUND=文本背景
+of.options.QUICK_INFO_BACKGROUND.tooltip.1=文本背景
+of.options.QUICK_INFO_BACKGROUND.tooltip.2=
+of.options.QUICK_INFO_BACKGROUND.tooltip.3=显示有助于提升可读性的半透明文本背景，
+of.options.QUICK_INFO_BACKGROUND.tooltip.4=但文本也可能会更容易分散注意力。
+of.options.QUICK_INFO_BACKGROUND.tooltip.5=
 
 # Chat Settings
 
