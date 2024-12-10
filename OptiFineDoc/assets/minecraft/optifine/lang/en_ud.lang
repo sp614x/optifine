@@ -1,6 +1,6 @@
 # Contributors of British English (upside down) #
 #   DaDodger and sp614x for creating en_gb.lang
-#   Regnander (_Spitz) for converting and proofreading the result 2019-02-11 ---- 2024-09-25
+#   Regnander (_Spitz) for converting and proofreading the result 2019-02-11 ---- 2024-12-10
 
 # General
 of.general.ambiguous=snonᵷᴉqɯɐ
@@ -232,7 +232,7 @@ of.options.shaders=˙˙˙sɹǝpɐɥS
 of.options.shadersTitle=sɹǝpɐɥS
 
 of.options.shaders.packNone=ℲℲO
-of.options.shaders.packDefault=(ꞁɐuɹǝʇuᴉ)
+of.options.shaders.packDefault=(ᵷnqǝp)
 
 of.options.shaders.ANTIALIASING=ᵷuᴉsɐᴉꞁɐᴉʇuⱯ
 of.options.shaders.ANTIALIASING.tooltip.7=ᵷuᴉsɐᴉꞁɐᴉʇuⱯ
@@ -867,13 +867,13 @@ of.options.QUICK_INFO_POS=uoᴉʇᴉsoԀ
 of.options.QUICK_INFO_POS.tooltip.4=uoᴉʇᴉsoԀ
 of.options.QUICK_INFO_POS.tooltip.3=
 of.options.QUICK_INFO_POS.tooltip.2=˙uoᴉʇᴉsod ɹǝʎɐꞁd ǝɥʇ sʍoɥS
-of.options.QUICK_INFO_POS.tooltip.1=]<sǝʇɐuᴉpɹooɔ ǝʌᴉʇɐꞁǝɹ ʞunɥɔ>[ <sǝʇɐuᴉpɹooɔ pꞁɹoʍ> :ʇɐɯɹoℲ
+of.options.QUICK_INFO_POS.tooltip.1=[<sǝʇɐuᴉpɹooɔ ǝʌᴉʇɐꞁǝɹ ʞunɥɔ>] <sǝʇɐuᴉpɹooɔ pꞁɹoʍ> :ʇɐɯɹoℲ
 
 of.options.QUICK_INFO_FACING=ᵷuᴉɔɐℲ
 of.options.QUICK_INFO_FACING.tooltip.4=ᵷuᴉɔɐℲ
 of.options.QUICK_INFO_FACING.tooltip.3=
 of.options.QUICK_INFO_FACING.tooltip.2=˙ᵷuᴉʞooꞁ sᴉ ɹǝʎɐꞁd ǝɥʇ ɥɔᴉɥʍ ʇɐ uoᴉʇɔǝɹᴉp ǝɥʇ sʍoɥS
-of.options.QUICK_INFO_FACING.tooltip.1=(ɥɔʇᴉd/ʍɐʎ) ]uoᴉʇɔǝɹᴉp Z⅄X[ <uoᴉʇɔǝɹᴉp pꞁɹoʍ> :ʇɐɯɹoℲ
+of.options.QUICK_INFO_FACING.tooltip.1=(ɥɔʇᴉd/ʍɐʎ) [uoᴉʇɔǝɹᴉp Z⅄X] <uoᴉʇɔǝɹᴉp pꞁɹoʍ> :ʇɐɯɹoℲ
 
 of.options.QUICK_INFO_BIOME=ǝɯoᴉᗺ
 of.options.QUICK_INFO_BIOME.tooltip.3=ǝɯoᴉᗺ
