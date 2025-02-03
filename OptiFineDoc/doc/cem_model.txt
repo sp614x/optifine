@@ -35,7 +35,6 @@
 # cod                      body, fin_back, head, nose, fin_right, fin_left, tail
 # cow                      body, head, leg1 ... leg4
 # creaking                 body, upper_body, head, right_arm, left_arm, right_leg, left_leg
-# creaking_transient       <fallback to creaking>
 # creeper                  body, head, leg1 ... leg4
 # creeper_charge           body, head, leg1 ... leg4
 # dolphin                  body, back_fin, left_fin, right_fin, tail, tail_fin, head
@@ -175,9 +174,12 @@
 # skeleton_horse_baby      <fallback to skeleton_horse>
 # sniffer_baby             <fallback to sniffer>
 # squid_baby               <fallback to squid>
+# strider_baby             <fallback to strider>
+# strider_baby_saddle      <fallback to strider_saddle>
 # trader_llama_baby        <fallback to trader_llama>
 # trader_llama_baby_decor  <fallback to trader_llama_decor>
 # turtle_baby              <fallback to turtle>
+# villager_baby            <fallback to villager>
 # wolf_baby                <fallback to wolf>
 # wolf_baby_armor          <fallback to wolf_armor>
 # wolf_baby_collar         <fallback to wolf_collar>
@@ -207,7 +209,8 @@
 #
 # Block entity name        Part name
 # ======================== ======================================================
-# banner                   stand, slate, top
+# banner_base              stand, top (fallback to banner)
+# banner_flag              slate (fallback to banner)
 # bed                      head, foot, leg1 ... leg4
 # bell                     body, base
 # book                     cover_right, cover_left, pages_right, pages_left, flipping_page_right, flipping_page_left, book_spine
