@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2024-09-25
+#   Regnander (_Spitz) 2016-01-18 ---- 2024-12-05
 
 # General
 of.general.ambiguous=tvetydig
@@ -231,7 +231,7 @@ of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
 
 of.options.shaders.packNone=AV
-of.options.shaders.packDefault=(intern)
+of.options.shaders.packDefault=(felsökning)
 
 of.options.shaders.ANTIALIASING=Kantutjämning
 of.options.shaders.ANTIALIASING.tooltip.1=Kantutjämning
