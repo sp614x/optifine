@@ -377,15 +377,15 @@ of.options.SWAMP_COLORS.tooltip.1=  Da - (implicit) folosește culorile mlaștin
 of.options.SWAMP_COLORS.tooltip.2=  Nu - nu folosește culorile mlaștinii, rapid
 of.options.SWAMP_COLORS.tooltip.3=Culorile mlaștinii afectează gazonul, frunzele, lianele și apa.
 
-of.options.SMOOTH_BIOMES=Biomuri netede
-of.options.SMOOTH_BIOMES.tooltip.1=  Da - (implicit) omogenizează tranzițiile dintre biomuri, lent
-of.options.SMOOTH_BIOMES.tooltip.2=  Nu - fără omogenizare a tranzițiilor dintre biomuri, rapid
+of.options.SMOOTH_BIOMES=Tranziții între biomuri
+of.options.SMOOTH_BIOMES.tooltip.1=  Da - (implicit) tranziții line între biomuri, lent
+of.options.SMOOTH_BIOMES.tooltip.2=  Nu - tranziții dure între biomuri, rapid
 of.options.SMOOTH_BIOMES.tooltip.3=Omogenizarea tranzițiilor dintre biomuri este realizată prin
 of.options.SMOOTH_BIOMES.tooltip.4=calcularea medii culorilor specifice blocurilor din biomurile alăturate.
 of.options.SMOOTH_BIOMES.tooltip.5=Afectează iarba, frunzele, lianele și apa.
 
-of.options.CONNECTED_TEXTURES=Texturi conectate
-of.options.CONNECTED_TEXTURES.tooltip.1=  Nu - (implicit) fără texturi conectate
+of.options.CONNECTED_TEXTURES=Conectarea texturilor
+of.options.CONNECTED_TEXTURES.tooltip.1=  Nu - (implicit) texturile nu sunt conectate
 of.options.CONNECTED_TEXTURES.tooltip.2=  Rapidă - texturi conectate rapid
 of.options.CONNECTED_TEXTURES.tooltip.3=  Detaliată - texturi conectate elegant
 of.options.CONNECTED_TEXTURES.tooltip.4=Texturile conectate unesc sticla, gresia și
@@ -393,52 +393,46 @@ of.options.CONNECTED_TEXTURES.tooltip.5=bibliotecile când se află unele lâng�
 of.options.CONNECTED_TEXTURES.tooltip.6=Texturile conectate sunt furnizate de
 of.options.CONNECTED_TEXTURES.tooltip.7=pachetul de resurse.
 
-of.options.NATURAL_TEXTURES=Texturi Naturale
-of.options.NATURAL_TEXTURES.tooltip.1=Texturi Naturale
-of.options.NATURAL_TEXTURES.tooltip.2=  Nu - fără texturi naturale (implicit)
-of.options.NATURAL_TEXTURES.tooltip.3=  Da - folosește texturi naturale
-of.options.NATURAL_TEXTURES.tooltip.4=Texturile naturale elimină modelul de grilă
-of.options.NATURAL_TEXTURES.tooltip.5=creat din blocuri repetate de același tip.
-of.options.NATURAL_TEXTURES.tooltip.6=Folosește variante rotite și oglindite a texturii
-of.options.NATURAL_TEXTURES.tooltip.7=blocului. Configurația pentru texturile naturale
-of.options.NATURAL_TEXTURES.tooltip.8=sunt furnizate de pachetul de resurse curent.
+of.options.NATURAL_TEXTURES=Texturi naturale
+of.options.NATURAL_TEXTURES.tooltip.1=  Nu - fără texturi naturale (implicit)
+of.options.NATURAL_TEXTURES.tooltip.2=  Da - folosește texturi naturale
+of.options.NATURAL_TEXTURES.tooltip.3=Opțiunea folosește variante rotite și oglindite
+of.options.NATURAL_TEXTURES.tooltip.4=pentru a diminua repetitivitatea texturilor
+of.options.NATURAL_TEXTURES.tooltip.5=blocurilor. Texturile naturale sunt furnizate
+of.options.NATURAL_TEXTURES.tooltip.6=de pachetul de resurse curent.
 
-of.options.EMISSIVE_TEXTURES=Texturi Emisive
-of.options.EMISSIVE_TEXTURES.tooltip.1=Texturi Emisive
-of.options.EMISSIVE_TEXTURES.tooltip.2=  Nu - fără texturi emisive (implicit)
-of.options.EMISSIVE_TEXTURES.tooltip.3=  Da - folosește texturi emisive
-of.options.EMISSIVE_TEXTURES.tooltip.4=Texturile emisive sunt randate ca straturi
-of.options.EMISSIVE_TEXTURES.tooltip.5=Pot fi folosite pentru a simula
-of.options.EMISSIVE_TEXTURES.tooltip.6=părți care emit lumină la baza texturii.
-of.options.EMISSIVE_TEXTURES.tooltip.7=Texturile emisive sunt furnizate de
-of.options.EMISSIVE_TEXTURES.tooltip.8=pachetul de resurse curent.
+of.options.EMISSIVE_TEXTURES=Surse de lumină
+of.options.EMISSIVE_TEXTURES.tooltip.1=  Nu - fără texturi emisive (implicit)
+of.options.EMISSIVE_TEXTURES.tooltip.2=  Da - folosește texturi emisive
+of.options.EMISSIVE_TEXTURES.tooltip.3=Texturile emisive sunt randate ca straturi
+of.options.EMISSIVE_TEXTURES.tooltip.4=Pot fi folosite pentru a simula
+of.options.EMISSIVE_TEXTURES.tooltip.5=părți care emit lumină la baza texturii.
+of.options.EMISSIVE_TEXTURES.tooltip.6=Texturile emisive sunt furnizate de
+of.options.EMISSIVE_TEXTURES.tooltip.7=pachetul de resurse curent.
 
-of.options.CUSTOM_SKY=Cer Personalizat
-of.options.CUSTOM_SKY.tooltip.1=Cer Personalizat
+of.options.CUSTOM_SKY=Cer personalizat
+of.options.CUSTOM_SKY.tooltip.1=Cer personalizat
 of.options.CUSTOM_SKY.tooltip.2=  Da - texturile cerului personalizate (implicit), lent
 of.options.CUSTOM_SKY.tooltip.3=  Nu - cer implicit, rapid
 of.options.CUSTOM_SKY.tooltip.4=Cerul personalizat este furnizat din
 of.options.CUSTOM_SKY.tooltip.5=pachetul de resurse curent.
 
-of.options.CUSTOM_ITEMS=Obiecte Personalizate
-of.options.CUSTOM_ITEMS.tooltip.1=Obiecte Personalizate
-of.options.CUSTOM_ITEMS.tooltip.2=  Da - texturile obiectelor personalizate (implicit), lent
-of.options.CUSTOM_ITEMS.tooltip.3=  Nu - texturile obiectelor implicite, rapid
-of.options.CUSTOM_ITEMS.tooltip.4=Obiectele personalizate sunt furnizate de
+of.options.CUSTOM_ITEMS=Obiecte personalizate
+of.options.CUSTOM_ITEMS.tooltip.1=  Da - texturile personalizate pentru obiecte (implicit), lent
+of.options.CUSTOM_ITEMS.tooltip.3=  Nu - texturi implicite pentru obiecte, rapid
+of.options.CUSTOM_ITEMS.tooltip.4=Texturile personalizate sunt furnizate de
 of.options.CUSTOM_ITEMS.tooltip.5=pachetul de resurse curent.
 
-of.options.CUSTOM_ENTITY_MODELS=Modele Entități Personalizate
-of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Modele Entități Personalizate
-of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Da - modele entități personalizate (implicit), lent
-of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  Nu - modele entități implicite, rapid
-of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Modelele entităților personalizate sunt furnizate de
-of.options.CUSTOM_ENTITY_MODELS.tooltip.5=pachetul de resurse curent.
+of.options.CUSTOM_ENTITY_MODELS=Entități personalizate
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=  Da - modele personalizate pentru entități (implicit), lent
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  Nu - modele implicite pentru entități, rapid
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=Modelele personalizate sunt furnizate de
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=pachetul de resurse curent.
 
-of.options.CUSTOM_GUIS=GUI-uri Personalizate
-of.options.CUSTOM_GUIS.tooltip.1=GUI-uri Personalizate
-of.options.CUSTOM_GUIS.tooltip.2=  Da - GUI-uri personalizate (implicit), lent
-of.options.CUSTOM_GUIS.tooltip.3=  Nu - GUI-uri implicite, rapid
-of.options.CUSTOM_GUIS.tooltip.4=GUI-urile personalizate sunt furnizate de pachetul de resurse curent.
+of.options.CUSTOM_GUIS=Interfață personalizată
+of.options.CUSTOM_GUIS.tooltip.1=  Da - interfață personalizată (implicit), lent
+of.options.CUSTOM_GUIS.tooltip.2=  Nu - interfață implicită, rapid
+of.options.CUSTOM_GUIS.tooltip.3=Interfața personalizată este furnizată de pachetul de resurse curent.
 
 # Details
 
