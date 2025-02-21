@@ -1,10 +1,12 @@
 # Contributors of British English (upside down) #
 #   DaDodger and sp614x for creating en_gb.lang
-#   Regnander (_Spitz) for converting and proofreading the result 2019-02-11 ---- 2022-03-31
+#   Regnander (_Spitz) for converting and proofreading the result 2019-02-11 ---- 2024-09-25
 
 # General
 of.general.ambiguous=snonᵷᴉqɯɐ
 of.general.compact=ʇɔɐdɯoƆ
+of.general.full=ꞁꞁnℲ
+of.general.detailed=pǝꞁᴉɐʇǝᗡ
 of.general.custom=ɯoʇsnƆ
 of.general.from=ɯoɹℲ
 of.general.id=pI
@@ -177,12 +179,6 @@ options.screenEffectScale.tooltip.3=pǝꞁqɐuǝ - %%00⥝-⥝
 options.screenEffectScale.tooltip.2=sʇɔǝɟɟǝ ᵷuᴉʇɹoʇsᴉp uǝǝɹɔs ɟo ʎʇᴉsuǝʇuᴉ ǝɥʇ sꞁoɹʇuoƆ
 options.screenEffectScale.tooltip.1=˙ʇɔǝɟɟǝ ɐǝsnɐu puɐ uoᴉʇɐɯᴉuɐ ꞁɐʇɹod ǝʞᴉꞁ
 
-options.screenEffectScale.tooltip.5=sʇɔǝɟɟǝ uoᴉʇɹoʇsᴉᗡ
-options.screenEffectScale.tooltip.4=pǝꞁqɐsᴉp - ℲℲO  
-options.screenEffectScale.tooltip.3=pǝꞁqɐuǝ - %%00⥝-⥝  
-options.screenEffectScale.tooltip.2=sʇɔǝɟɟǝ ᵷuᴉʇɹoʇsᴉp uǝǝɹɔs ɟo ʎʇᴉsuǝʇuᴉ ǝɥʇ sꞁoɹʇuoƆ
-options.screenEffectScale.tooltip.1=˙ʇɔǝɟɟǝ ɐǝsnɐu puɐ uoᴉʇɐɯᴉuɐ ꞁɐʇɹod ǝʞᴉꞁ
-
 options.autosaveIndicator.tooltip.4=ɹoʇɐɔᴉpuᴉ ǝʌɐsoʇnⱯ
 options.autosaveIndicator.tooltip.3=pǝꞁqɐsᴉp - ℲℲO  
 options.autosaveIndicator.tooltip.2=pǝꞁqɐuǝ - NO  
@@ -196,8 +192,8 @@ options.fovEffectScale.tooltip.1=˙ᵷuᴉʎꞁɟ puɐ ᵷuᴉʇuᴉɹds 'ᵷu�
 
 options.prioritizeChunkUpdates.tooltip.6=ɹǝpꞁᴉnq ʞunɥƆ
 options.prioritizeChunkUpdates.tooltip.5=punoɹᵷʞɔɐq ǝɥʇ uᴉ sʞunɥɔ ꞁꞁɐ ǝʇɐpdn - pǝpɐǝɹɥ⟘ 
-options.prioritizeChunkUpdates.tooltip.4=ʎꞁǝʇɐᴉpǝɯɯᴉ sʞunɥɔ pǝʇɔǝɟɟɐ ɹǝʎɐꞁd ǝʇɐpdn - ᵷuᴉʞɔoꞁᗺ ᴉɯǝS 
-options.prioritizeChunkUpdates.tooltip.3=ʎꞁǝʇɐᴉpǝɯɯᴉ sʞunɥɔ ʎqɹɐǝu ꞁꞁɐ ǝʇɐpdn - ᵷuᴉʞɔoꞁᗺ ʎꞁꞁnℲ 
+options.prioritizeChunkUpdates.tooltip.4=ʎꞁʇuɐʇsuᴉ sʞunɥɔ pǝʇɔǝɟɟɐ ɹǝʎɐꞁd ǝʇɐpdn - ᵷuᴉʞɔoꞁᗺ ᴉɯǝS 
+options.prioritizeChunkUpdates.tooltip.3=ʎꞁʇuɐʇsuᴉ sʞunɥɔ ʎqɹɐǝu ꞁꞁɐ ǝʇɐpdn - ᵷuᴉʞɔoꞁᗺ ʎꞁꞁnℲ 
 options.prioritizeChunkUpdates.tooltip.2=˙uᴉɐɹɹǝʇ ǝɥʇ uᴉ sǝꞁoɥ ʍoɥs ʎꞁɟǝᴉɹq ʎɐɯ sǝʇɐpdn pǝpɐǝɹɥ⟘
 options.prioritizeChunkUpdates.tooltip.1=˙sǝʞᴉds ᵷɐꞁ ʇuɐɔᴉɟᴉuᵷᴉs ǝsnɐɔ ʎɐɯ sǝʇɐpdn ᵷuᴉʞɔoꞁq ʎꞁꞁnℲ
 
@@ -345,6 +341,9 @@ of.options.animationsTitle=sᵷuᴉʇʇǝS uoᴉʇɐɯᴉuⱯ
 of.options.other=˙˙˙ɹǝɥʇO
 of.options.otherTitle=sᵷuᴉʇʇǝS ɹǝɥʇO
 
+of.options.quickInfo=˙˙˙oɟuI ʞɔᴉnꝹ
+of.options.quickInfoTitle=sᵷuᴉʇʇǝS oɟuI ʞɔᴉnꝹ
+
 of.options.other.reset=˙˙˙sᵷuᴉʇʇǝS oǝpᴉΛ ʇǝsǝᴚ
 
 of.shaders.profile=ǝꞁᴉɟoɹԀ
@@ -396,11 +395,12 @@ of.options.CLEAR_WATER.tooltip.2=ɹǝʇɐʍ ʇuǝɹɐdsuɐɹʇ 'ɹɐǝꞁɔ - NO
 of.options.CLEAR_WATER.tooltip.1=ɹǝʇɐʍ ʇꞁnɐɟǝp - ℲℲO  
 
 of.options.RANDOM_ENTITIES=sǝᴉʇᴉʇuƎ ɯopuɐᴚ
-of.options.RANDOM_ENTITIES.tooltip.5=sǝᴉʇᴉʇuƎ ɯopuɐᴚ
-of.options.RANDOM_ENTITIES.tooltip.4=ɹǝʇsɐɟ 'sǝᴉʇᴉʇuǝ ɯopuɐɹ ou - ℲℲO  
-of.options.RANDOM_ENTITIES.tooltip.3=ɹǝʍoꞁs 'sǝᴉʇᴉʇuǝ ɯopuɐɹ - NO  
-of.options.RANDOM_ENTITIES.tooltip.2=˙sǝᴉʇᴉʇuǝ ǝɯɐᵷ ǝɥʇ ɹoɟ sǝɹnʇxǝʇ ɯopuɐɹ sǝsn sǝᴉʇᴉʇuǝ ɯopuɐᴚ
-of.options.RANDOM_ENTITIES.tooltip.1=˙sǝɹnʇxǝʇ ʎʇᴉʇuǝ ǝꞁdᴉʇꞁnɯ sɐɥ ɥɔᴉɥʍ ʞɔɐd ǝɔɹnosǝɹ ɐ spǝǝu ʇI
+of.options.RANDOM_ENTITIES.tooltip.6=sǝᴉʇᴉʇuƎ ɯopuɐᴚ
+of.options.RANDOM_ENTITIES.tooltip.5=ɹǝʇsɐɟ 'sǝᴉʇᴉʇuǝ ɯopuɐɹ ou - ℲℲO  
+of.options.RANDOM_ENTITIES.tooltip.4=ɹǝʍoꞁs 'sǝᴉʇᴉʇuǝ ɯopuɐɹ - NO  
+of.options.RANDOM_ENTITIES.tooltip.3=˙sǝᴉʇᴉʇuǝ ǝɯɐᵷ ǝɥʇ ɹoɟ sǝɹnʇxǝʇ ɯopuɐɹ sǝsn sǝᴉʇᴉʇuǝ ɯopuɐᴚ
+of.options.RANDOM_ENTITIES.tooltip.2=ʇuǝɹɹnɔ ǝɥʇ ʎq pǝᴉꞁddns ǝɹɐ sǝɹnʇxǝʇ ɯopuɐɹ ǝɥ⟘
+of.options.RANDOM_ENTITIES.tooltip.1=˙sǝɹnʇxǝʇ ʎʇᴉʇuǝ ǝɹoɯ ɹo oʍʇ sɐɥ ɥɔᴉɥʍ ʞɔɐd ǝɔɹnosǝɹ
 
 of.options.BETTER_GRASS=ssɐɹ⅁ ɹǝʇʇǝᗺ
 of.options.BETTER_GRASS.tooltip.4=ssɐɹ⅁ ɹǝʇʇǝᗺ
@@ -495,10 +495,11 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.2=ʇuǝɹɹnɔ ǝɥʇ ʎq pǝᴉꞁddns 
 of.options.CUSTOM_ENTITY_MODELS.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ
 
 of.options.CUSTOM_GUIS=sI∩⅁ ɯoʇsnƆ
-of.options.CUSTOM_GUIS.tooltip.4=sI∩⅁ ɯoʇsnƆ
-of.options.CUSTOM_GUIS.tooltip.3=ɹǝʍoꞁs '(ʇꞁnɐɟǝp) sI∩⅁ ɯoʇsnɔ - NO  
-of.options.CUSTOM_GUIS.tooltip.2=ɹǝʇsɐɟ 'sI∩⅁ ʇꞁnɐɟǝp - ℲℲO  
-of.options.CUSTOM_GUIS.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ ʇuǝɹɹnɔ ǝɥʇ ʎq pǝᴉꞁddns ǝɹɐ sI∩⅁ ɯoʇsnɔ ǝɥ⟘
+of.options.CUSTOM_GUIS.tooltip.5=sI∩⅁ ɯoʇsnƆ
+of.options.CUSTOM_GUIS.tooltip.4=ɹǝʍoꞁs '(ʇꞁnɐɟǝp) sI∩⅁ ɯoʇsnɔ - NO  
+of.options.CUSTOM_GUIS.tooltip.3=ɹǝʇsɐɟ 'sI∩⅁ ʇꞁnɐɟǝp - ℲℲO  
+of.options.CUSTOM_GUIS.tooltip.2=ʇuǝɹɹnɔ ǝɥʇ ʎq pǝᴉꞁddns ǝɹɐ sǝɹnʇxǝʇ I∩⅁ ɯoʇsnɔ ǝɥ⟘
+of.options.CUSTOM_GUIS.tooltip.1=˙ʞɔɐd ǝɔɹnosǝɹ
 
 # Details
 
@@ -691,7 +692,7 @@ of.options.SMART_ANIMATIONS.tooltip.5=(ɹǝʇsɐɟ) suoᴉʇɐɯᴉuɐ ʇɹɐɯs
 of.options.SMART_ANIMATIONS.tooltip.4=ǝɥʇ ǝʇɐɯᴉuɐ ʎꞁuo ꞁꞁᴉʍ ǝɯɐᵷ ǝɥʇ suoᴉʇɐɯᴉuɐ ʇɹɐɯs ɥʇᴉM
 of.options.SMART_ANIMATIONS.tooltip.3=˙uǝǝɹɔs ǝɥʇ uo ǝꞁqᴉsᴉʌ ʎꞁʇuǝɹɹnɔ ǝɹɐ ɥɔᴉɥʍ sǝɹnʇxǝʇ
 of.options.SMART_ANIMATIONS.tooltip.2=˙SԀℲ ǝɥʇ sǝsɐǝɹɔuᴉ puɐ sǝʞᴉds ᵷɐꞁ ʞɔᴉʇ ǝɥʇ sǝɔnpǝɹ sᴉɥ⟘
-of.options.SMART_ANIMATIONS.tooltip.1=˙sʞɔɐd ǝɔɹnosǝɹ ᗡH puɐ sʞɔɐd poɯ ᵷᴉq ɹoɟ ꞁnɟǝsn ʎꞁꞁɐᴉɔǝdsƎ
+of.options.SMART_ANIMATIONS.tooltip.1=˙sʞɔɐd ǝɔɹnosǝɹ ᗡH puɐ sʞɔɐd poɯ ᵷᴉq ɹoɟ ꞁnɟǝsn ʎꞁqɐʇoN
 
 # Animations
 
@@ -784,9 +785,10 @@ of.options.save.12min=uᴉɯᘔ⥝
 of.options.save.24min=uᴉɯ߈ᘔ
 
 of.options.AUTOSAVE_TICKS=ǝʌɐsoʇnⱯ
-of.options.AUTOSAVE_TICKS.tooltip.4=ꞁɐʌɹǝʇuI ǝʌɐsoʇnⱯ
-of.options.AUTOSAVE_TICKS.tooltip.3=ʇꞁnɐɟǝp - sϛ߈ 
-of.options.AUTOSAVE_TICKS.tooltip.2=˙ǝɔuɐʇsᴉp ɹǝpuǝɹ ǝɥʇ uo ᵷuᴉpuǝdǝp sǝʞᴉds ᵷɐꞁ ǝʇɐɹǝuǝᵷ ʎɐɯ ǝʌɐsoʇnⱯ
+of.options.AUTOSAVE_TICKS.tooltip.5=ꞁɐʌɹǝʇuI ǝʌɐsoʇnⱯ
+of.options.AUTOSAVE_TICKS.tooltip.4=ʇꞁnɐɟǝp - sϛ߈ 
+of.options.AUTOSAVE_TICKS.tooltip.3=ɹǝpuǝɹ ǝɥʇ uo ᵷuᴉpuǝdǝp sǝʞᴉds ᵷɐꞁ ǝsnɐɔ ʎɐɯ ǝʌɐsoʇnⱯ
+of.options.AUTOSAVE_TICKS.tooltip.2=˙ǝɔuɐʇsᴉp
 of.options.AUTOSAVE_TICKS.tooltip.1=˙pǝuǝdo sᴉ nuǝɯ ǝɯɐᵷ ǝɥʇ uǝɥʍ pǝʌɐs osꞁɐ sᴉ pꞁɹoʍ ǝɥ⟘
 
 of.options.SCREENSHOT_SIZE=ǝzᴉS ʇoɥsuǝǝɹɔS
@@ -814,6 +816,118 @@ of.options.TELEMETRY.tooltip.4=pǝsn ǝq uɐɔ ɥɔᴉɥʍ ᗡI∩∩ ɹǝsn spu
 of.options.TELEMETRY.tooltip.3=˙sǝɔᴉʌǝp ʇuǝɹǝɟɟᴉp ssoɹɔɐ ɹǝsn ǝɥʇ ʞɔɐɹʇ oʇ
 of.options.TELEMETRY.tooltip.2=ʇuǝᴉꞁɔ ɹo ɹǝsn ʎuɐ puǝs ʇ,usǝop ʎɹʇǝɯǝꞁǝʇ snoɯʎuouɐ ǝɥ⟘
 of.options.TELEMETRY.tooltip.1=˙ɐʇɐp ǝꞁqɐᴉɟᴉʇuǝpᴉ
+
+# Quick Info
+of.options.QUICK_INFO=oɟuI ʞɔᴉnꝹ
+of.options.QUICK_INFO.tooltip.3=oɟuI ʞɔᴉnꝹ
+of.options.QUICK_INFO.tooltip.2=
+of.options.QUICK_INFO.tooltip.1=˙uǝǝɹɔs ǝɥʇ ɟo doʇ ǝɥʇ ʇɐ uoᴉʇɐɯɹoɟuᴉ ʇɔɐdɯoɔ sʍoɥS
+
+of.options.QUICK_INFO_FPS=ǝʇɐɹǝɯɐɹℲ
+of.options.QUICK_INFO_FPS.tooltip.7=ǝʇɐɹǝɯɐɹℲ
+of.options.QUICK_INFO_FPS.tooltip.6=ǝʇɐɹǝɯɐɹɟ ʍoɥs ʇ,uop - ℲℲO  
+of.options.QUICK_INFO_FPS.tooltip.5=ǝʇɐɹǝɯɐɹɟ ǝᵷɐɹǝʌɐ ʍoɥs - ʇɔɐdɯoƆ  
+of.options.QUICK_INFO_FPS.tooltip.4=ǝʇɐɹǝɯɐɹɟ ɯnɯᴉuᴉɯ puɐ ǝᵷɐɹǝʌɐ ʍoɥs - ꞁꞁnℲ  
+of.options.QUICK_INFO_FPS.tooltip.3=˙ǝɔuɐɯɹoɟɹǝd ǝɯɐᵷ ꞁɐɹǝuǝᵷ ǝɥʇ sʍoɥs ǝᵷɐɹǝʌɐ ǝɥ⟘
+of.options.QUICK_INFO_FPS.tooltip.2=ʍoɥ puɐ ʎʇᴉꞁᴉqɐʇs ǝʇɐɹǝɯɐɹɟ ǝɥʇ sʍoɥs ɯnɯᴉuᴉɯ ǝɥ⟘
+of.options.QUICK_INFO_FPS.tooltip.1=˙ᵷuᴉʎɐꞁd uǝɥʍ sꞁǝǝɟ ǝʇɐɹǝɯɐɹɟ ǝɥʇ
+
+of.options.QUICK_INFO_CHUNKS=sʞunɥƆ pǝɹǝpuǝᴚ
+of.options.QUICK_INFO_CHUNKS.tooltip.3=sʞunɥƆ pǝɹǝpuǝᴚ
+of.options.QUICK_INFO_CHUNKS.tooltip.2=
+of.options.QUICK_INFO_CHUNKS.tooltip.1=˙sʞunɥɔ pǝɹǝpuǝɹ ɟo ɹǝqɯnu ǝɥʇ sʍoɥS
+
+of.options.QUICK_INFO_ENTITIES=sǝᴉʇᴉʇuƎ pǝɹǝpuǝᴚ
+of.options.QUICK_INFO_ENTITIES.tooltip.4=sǝᴉʇᴉʇuƎ pǝɹǝpuǝᴚ
+of.options.QUICK_INFO_ENTITIES.tooltip.3=
+of.options.QUICK_INFO_ENTITIES.tooltip.2=˙sǝᴉʇᴉʇuǝ ʞɔoꞁq puɐ sǝᴉʇᴉʇuǝ pǝɹǝpuǝɹ ɟo ɹǝqɯnu ǝɥʇ sʍoɥS
+of.options.QUICK_INFO_ENTITIES.tooltip.1=<sǝᴉʇᴉʇuǝ ʞɔoꞁq> + <sǝᴉʇᴉʇuǝ> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_PARTICLES=sǝꞁɔᴉʇɹɐԀ pǝɹǝpuǝᴚ
+of.options.QUICK_INFO_PARTICLES.tooltip.3=sǝꞁɔᴉʇɹɐԀ pǝɹǝpuǝᴚ
+of.options.QUICK_INFO_PARTICLES.tooltip.2=
+of.options.QUICK_INFO_PARTICLES.tooltip.1=˙sǝꞁɔᴉʇɹɐd pǝɹǝpuǝɹ ɟo ɹǝqɯnu ǝɥʇ sʍoɥS
+
+of.options.QUICK_INFO_UPDATES=sǝʇɐpd∩ ʞunɥƆ
+of.options.QUICK_INFO_UPDATES.tooltip.3=sǝʇɐpd∩ ʞunɥƆ
+of.options.QUICK_INFO_UPDATES.tooltip.2=
+of.options.QUICK_INFO_UPDATES.tooltip.1=˙ǝɯɐɹɟ ɹǝd sǝʇɐpdn ʞunɥɔ ɟo ɹǝqɯnu ǝɥʇ sʍoɥS
+
+of.options.QUICK_INFO_GPU=pɐoꞀ ∩Ԁ⅁
+of.options.QUICK_INFO_GPU.tooltip.8=pɐoꞀ ∩Ԁ⅁
+of.options.QUICK_INFO_GPU.tooltip.7=pǝʇᴉɯᴉꞁ ∩ԀƆ sᴉ ǝɔuɐɯɹoɟɹǝd - %%0Ɛ oʇ %%0  
+of.options.QUICK_INFO_GPU.tooltip.6=pǝʇᴉɯᴉꞁ ∩Ԁ⅁/∩ԀƆ sᴉ ǝɔuɐɯɹoɟɹǝd - %%0ㄥ oʇ %%0Ɛ  
+of.options.QUICK_INFO_GPU.tooltip.5=pǝʇᴉɯᴉꞁ ∩Ԁ⅁ sᴉ ǝɔuɐɯɹoɟɹǝd - %%00⥝ oʇ %%0ㄥ  
+of.options.QUICK_INFO_GPU.tooltip.4=ǝɯᴉʇ ∩Ԁ⅁ ǝɥʇ ᵷuᴉɹnsɐǝɯ ʎq pǝʇɐꞁnɔꞁɐɔ sᴉ pɐoꞁ ∩Ԁ⅁ ǝɥ⟘
+of.options.QUICK_INFO_GPU.tooltip.3=˙uoᴉʇɐɹnp ǝɯɐɹɟ ǝɥʇ sʌ ǝɯɐɹɟ ǝɥʇ ᵷuᴉɹǝpuǝɹ ɹoɟ pǝpǝǝu
+of.options.QUICK_INFO_GPU.tooltip.2=ʎɐɯ ɥɔᴉɥʍ ǝɯᴉʇ dɐʍs sɹǝɟɟnq ǝɥʇ ɹoɟ ʇunoɔɔɐ ʇ,usǝop ʇI
+of.options.QUICK_INFO_GPU.tooltip.1=˙pɐoꞁ ∩Ԁ⅁ ꞁɐǝɹ ǝɥʇ ɥʇᴉʍ sǝɔuǝɹǝɟɟᴉp ǝɯos ǝsnɐɔ
+
+of.options.QUICK_INFO_POS=uoᴉʇᴉsoԀ
+of.options.QUICK_INFO_POS.tooltip.4=uoᴉʇᴉsoԀ
+of.options.QUICK_INFO_POS.tooltip.3=
+of.options.QUICK_INFO_POS.tooltip.2=˙uoᴉʇᴉsod ɹǝʎɐꞁd ǝɥʇ sʍoɥS
+of.options.QUICK_INFO_POS.tooltip.1=]<sǝʇɐuᴉpɹooɔ ǝʌᴉʇɐꞁǝɹ ʞunɥɔ>[ <sǝʇɐuᴉpɹooɔ pꞁɹoʍ> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_FACING=ᵷuᴉɔɐℲ
+of.options.QUICK_INFO_FACING.tooltip.4=ᵷuᴉɔɐℲ
+of.options.QUICK_INFO_FACING.tooltip.3=
+of.options.QUICK_INFO_FACING.tooltip.2=˙ᵷuᴉʞooꞁ sᴉ ɹǝʎɐꞁd ǝɥʇ ɥɔᴉɥʍ ʇɐ uoᴉʇɔǝɹᴉp ǝɥʇ sʍoɥS
+of.options.QUICK_INFO_FACING.tooltip.1=(ɥɔʇᴉd/ʍɐʎ) ]uoᴉʇɔǝɹᴉp Z⅄X[ <uoᴉʇɔǝɹᴉp pꞁɹoʍ> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_BIOME=ǝɯoᴉᗺ
+of.options.QUICK_INFO_BIOME.tooltip.3=ǝɯoᴉᗺ
+of.options.QUICK_INFO_BIOME.tooltip.2=
+of.options.QUICK_INFO_BIOME.tooltip.1=˙ǝɯɐu ǝɯoᴉq ʇuǝɹɹnɔ ǝɥʇ sʍoɥS
+
+of.options.QUICK_INFO_LIGHT=ʇɥᵷᴉꞀ
+of.options.QUICK_INFO_LIGHT.tooltip.4=ʇɥᵷᴉꞀ
+of.options.QUICK_INFO_LIGHT.tooltip.3=
+of.options.QUICK_INFO_LIGHT.tooltip.2=˙sꞁǝʌǝꞁ ʇɥᵷᴉꞁ ʇuǝɹɹnɔ ǝɥʇ sʍoɥS
+of.options.QUICK_INFO_LIGHT.tooltip.1=<ʇɥᵷᴉꞁ ʞɔoꞁq> / <ʇɥᵷᴉꞁ ʎʞs> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_MEMORY=ʎɹoɯǝW
+of.options.QUICK_INFO_MEMORY.tooltip.4=ʎɹoɯǝW
+of.options.QUICK_INFO_MEMORY.tooltip.3=
+of.options.QUICK_INFO_MEMORY.tooltip.2=˙ʎɹoɯǝɯ ɐʌɐſ ɯnɯᴉxɐɯ puɐ pǝsn ʎꞁʇuǝɹɹnɔ ǝɥʇ sʍoɥS
+of.options.QUICK_INFO_MEMORY.tooltip.1=ᗺW <ʎɹoɯǝɯ ɯnɯᴉxɐɯ> / <ʎɹoɯǝɯ pǝsn> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_NATIVE_MEMORY=ʎɹoɯǝW ǝʌᴉʇɐN
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.4=ʎɹoɯǝW ǝʌᴉʇɐN
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.3=
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.2=˙ʎɹoɯǝɯ ǝʌᴉʇɐu ɯnɯᴉxɐɯ puɐ pǝsn ʎꞁʇuǝɹɹnɔ ǝɥʇ sʍoɥS
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.1=<sǝɹnʇxǝʇ> + <ɯnɯᴉxɐɯ sɹǝɟɟnq> / <pǝsn sɹǝɟɟnq> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_TARGET_BLOCK=ʞɔoꞁᗺ ʇǝᵷɹɐ⟘
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.4=ʞɔoꞁᗺ ʇǝᵷɹɐ⟘
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.3=
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.2=˙ʞɔoꞁq pǝʇǝᵷɹɐʇ ǝɥʇ ɟo sǝʇɐuᴉpɹooɔ puɐ ǝɯɐu sʍoɥS
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.1=(sǝʇɐuᴉpɹooɔ ʞɔoꞁq) <ǝɯɐu ʞɔoꞁq> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_TARGET_FLUID=pᴉnꞁℲ ʇǝᵷɹɐ⟘
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.3=pᴉnꞁℲ ʇǝᵷɹɐ⟘
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.2=
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.1=(sǝʇɐuᴉpɹooɔ pᴉnꞁɟ) <ǝɯɐu pᴉnꞁɟ> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_TARGET_ENTITY=ʎʇᴉʇuƎ ʇǝᵷɹɐ⟘
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.3=ʎʇᴉʇuƎ ʇǝᵷɹɐ⟘
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.2=
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.1=(sǝʇɐuᴉpɹooɔ ʎʇᴉʇuǝ) <ǝɯɐu ʎʇᴉʇuǝ> :ʇɐɯɹoℲ
+
+of.options.QUICK_INFO_LABELS=sꞁǝqɐꞀ
+of.options.QUICK_INFO_LABELS.tooltip.6=sꞁǝqɐꞀ
+of.options.QUICK_INFO_LABELS.tooltip.5=sꞁǝqɐꞁ ʇɔɐdɯoɔ ʍoɥs - ʇɔɐdɯoƆ  
+of.options.QUICK_INFO_LABELS.tooltip.4=sꞁǝqɐꞁ ꞁꞁnɟ ʍoɥs - ꞁꞁnℲ  
+of.options.QUICK_INFO_LABELS.tooltip.3=sǝʇɐuᴉpɹooɔ ꞁꞁnɟ puɐ sꞁǝqɐꞁ ꞁꞁnɟ ʍoɥs - pǝꞁᴉɐʇǝᗡ  
+of.options.QUICK_INFO_LABELS.tooltip.2=ǝuᴉꞁ ǝɔuɐɯɹoɟɹǝd ǝɥʇ pǝʇɔǝꞁǝs ǝɹɐ sꞁǝqɐꞁ ꞁꞁnɟ uǝɥM
+of.options.QUICK_INFO_LABELS.tooltip.1= ˙sǝuᴉꞁ oʍʇ uᴉ ʇᴉꞁds sᴉ (ǝʇɐɹǝɯɐɹɟ)
+
+of.options.QUICK_INFO_BACKGROUND=punoɹᵷʞɔɐᗺ
+of.options.QUICK_INFO_BACKGROUND.tooltip.5=punoɹᵷʞɔɐᗺ
+of.options.QUICK_INFO_BACKGROUND.tooltip.4=
+of.options.QUICK_INFO_BACKGROUND.tooltip.3=dꞁǝɥ ʎɐɯ ɥɔᴉɥʍ punoɹᵷʞɔɐq ʇxǝʇ ʇuǝɔnꞁsuɐɹʇ sʍoɥS
+of.options.QUICK_INFO_BACKGROUND.tooltip.2=ʇxǝʇ ǝɥʇ ǝʞɐɯ osꞁɐ uɐɔ ʇᴉ ʇnq 'ʎʇᴉꞁᴉqɐpɐǝɹ ǝɥʇ ɥʇᴉʍ
+of.options.QUICK_INFO_BACKGROUND.tooltip.1=˙ᵷuᴉʇɔɐɹʇsᴉp ǝɹoɯ
 
 # Chat Settings
 

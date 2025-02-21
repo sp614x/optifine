@@ -59,7 +59,8 @@
       "uvWest": [<u1>, <v1>, <u2>, <v2>],                               - UV for face west, alias "uvLeft"
       "uvEast": [<u1>, <v1>, <u2>, <v2>],                               - UV for face east, alias "uvRight"
       "coordinates": [<x>, <y>, <z>, <width>, <height>, <depth>],       - Box position and dimensions
-      "sizeAdd": <size_add>                                             - Size increment (added to all dimensions) can be used for asymmetric scaling
+      "sizeAdd": <size_add>,                                            - Size increment (added to all dimensions) can be used for asymmetric scaling
+      "sizesAdd": [<size_add_x>, <size_add_y>, <size_add_z>]            - Separate size increments can be used for asymmetric scaling
     },
     ...
   ],

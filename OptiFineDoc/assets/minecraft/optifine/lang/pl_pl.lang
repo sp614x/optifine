@@ -484,7 +484,7 @@ of.options.TREES.tooltip.3=  Szybka — niższa jakość, wyższa wydajność
 of.options.TREES.tooltip.4=  Inteligentna — wyższa jakość, niższa wydajność
 of.options.TREES.tooltip.5=  Dokładna — najwyższa jakość, najniższa wydajność
 of.options.TREES.tooltip.6=Szybkie drzewa mają wypełnione liście.
-of.options.TREES.tooltip.7=Drzewa dokładne i Mądry mają przezroczyste liście.
+of.options.TREES.tooltip.7=Drzewa dokładne i inteligentne mają przezroczyste liście.
 
 of.options.RAIN=Deszcz i śnieg
 of.options.RAIN.tooltip.1=Deszcz i śnieg

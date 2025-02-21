@@ -3,6 +3,8 @@
 # General
 of.general.ambiguous=Ambiguë
 of.general.compact=Compact
+of.general.full=Complet
+of.general.detailed=Détaillé
 of.general.custom=Personnalisé
 of.general.from=De
 of.general.id=ID
@@ -338,6 +340,9 @@ of.options.animationsTitle=Paramètres des animations
 
 of.options.other=Autres...
 of.options.otherTitle=Autres paramètres
+
+of.options.quickInfo=Infos rapides...
+of.options.quickInfoTitle=Paramètres des infos rapides
 
 of.options.other.reset=Réinitialiser les réglages vidéos...
 
@@ -824,6 +829,118 @@ of.options.TELEMETRY.tooltip.5=La télémétrie complète envoie l'UUID de l'uti
 of.options.TELEMETRY.tooltip.6=pour suivre l'utilisateur sur différents appareils.
 of.options.TELEMETRY.tooltip.7=La télémétrie anonyme n'envoie aucune donnée identifiable
 of.options.TELEMETRY.tooltip.8=de l'utilisateur ou du client.
+
+# Quick Info
+of.options.QUICK_INFO=Infos rapides
+of.options.QUICK_INFO.tooltip.1=Infos rapides
+of.options.QUICK_INFO.tooltip.2=
+of.options.QUICK_INFO.tooltip.3=Affiche des informations compactes en haut de l'écran.
+
+of.options.QUICK_INFO_FPS=FPS max
+of.options.QUICK_INFO_FPS.tooltip.1=FPS max
+of.options.QUICK_INFO_FPS.tooltip.2=  Non - ne pas afficher les FPS
+of.options.QUICK_INFO_FPS.tooltip.3=  Compact - afficher les FPS moyen
+of.options.QUICK_INFO_FPS.tooltip.4=  Complet - afficher les FPS moyen et minimum
+of.options.QUICK_INFO_FPS.tooltip.5=Les FPS moyen montrent la performance générale du jeu.
+of.options.QUICK_INFO_FPS.tooltip.6=Le minimum montre la stabilité des FPS et
+of.options.QUICK_INFO_FPS.tooltip.7=la fluidité ressentie pendant le jeu.
+
+of.options.QUICK_INFO_CHUNKS=Tronçons rendus
+of.options.QUICK_INFO_CHUNKS.tooltip.1=Tronçons rendus
+of.options.QUICK_INFO_CHUNKS.tooltip.2=
+of.options.QUICK_INFO_CHUNKS.tooltip.3=Affiche le nombre de tronçons rendus.
+
+of.options.QUICK_INFO_ENTITIES=Entités rendues
+of.options.QUICK_INFO_ENTITIES.tooltip.1=Entités rendues
+of.options.QUICK_INFO_ENTITIES.tooltip.2=
+of.options.QUICK_INFO_ENTITIES.tooltip.3=Affiche le nombre d'entités et de blocs rendus.
+of.options.QUICK_INFO_ENTITIES.tooltip.4=Format : <entités> + <blocs rendus>
+
+of.options.QUICK_INFO_PARTICLES=Particules rendues
+of.options.QUICK_INFO_PARTICLES.tooltip.1=Particules rendues
+of.options.QUICK_INFO_PARTICLES.tooltip.2=
+of.options.QUICK_INFO_PARTICLES.tooltip.3=Affiche le nombre de particules rendues.
+
+of.options.QUICK_INFO_UPDATES=Mises à jour des tronçons
+of.options.QUICK_INFO_UPDATES.tooltip.1=Mises à jour des tronçons
+of.options.QUICK_INFO_UPDATES.tooltip.2=
+of.options.QUICK_INFO_UPDATES.tooltip.3=Affiche le nombre de mises à jour des tronçons par image.
+
+of.options.QUICK_INFO_GPU=Charge GPU
+of.options.QUICK_INFO_GPU.tooltip.1=Charge GPU
+of.options.QUICK_INFO_GPU.tooltip.2=  0%% à 30%% - performance limitée par le CPU
+of.options.QUICK_INFO_GPU.tooltip.3=  30%% à 70%% - performance limitée par le CPU/GPU
+of.options.QUICK_INFO_GPU.tooltip.4=  70%% à 100%% - performance limitée par le GPU
+of.options.QUICK_INFO_GPU.tooltip.5=La charge du GPU est calculée en mesurant le temps GPU
+of.options.QUICK_INFO_GPU.tooltip.6=nécéssaire pour rendre une image par rapport à la durée
+of.options.QUICK_INFO_GPU.tooltip.7=Cela n'inclut pas le temps de changement des tampons,
+of.options.QUICK_INFO_GPU.tooltip.8=ce qui peut entraîner des différences avec la charge réelle du GPU.
+
+of.options.QUICK_INFO_POS=Position
+of.options.QUICK_INFO_POS.tooltip.1=Position
+of.options.QUICK_INFO_POS.tooltip.2=
+of.options.QUICK_INFO_POS.tooltip.3=Affiche la position du joueur.
+of.options.QUICK_INFO_POS.tooltip.4=Format : <coordonnées mondiales> [<coordonnées relatives aux tronçons>]
+
+of.options.QUICK_INFO_FACING=Orientation
+of.options.QUICK_INFO_FACING.tooltip.1=Orientation
+of.options.QUICK_INFO_FACING.tooltip.2=
+of.options.QUICK_INFO_FACING.tooltip.3=Affiche la direction dans laquelle regarde le joueur.
+of.options.QUICK_INFO_FACING.tooltip.4=Format : <direction dans le monde> [direction XYZ] (lacet/tangage)
+
+of.options.QUICK_INFO_BIOME=Biome
+of.options.QUICK_INFO_BIOME.tooltip.1=Biome
+of.options.QUICK_INFO_BIOME.tooltip.2=
+of.options.QUICK_INFO_BIOME.tooltip.3=Affiche le nom du biome actuel.
+
+of.options.QUICK_INFO_LIGHT=Lumière
+of.options.QUICK_INFO_LIGHT.tooltip.1=Lumière
+of.options.QUICK_INFO_LIGHT.tooltip.2=
+of.options.QUICK_INFO_LIGHT.tooltip.3=Affiche les niveaux de lumière actuels.
+of.options.QUICK_INFO_LIGHT.tooltip.4=Format : <lumière du ciel> / <lumière des blocs>
+
+of.options.QUICK_INFO_MEMORY=Mémoire
+of.options.QUICK_INFO_MEMORY.tooltip.1=Mémoire
+of.options.QUICK_INFO_MEMORY.tooltip.2=
+of.options.QUICK_INFO_MEMORY.tooltip.3=Affiche la mémoire Java utilisée et maximale.
+of.options.QUICK_INFO_MEMORY.tooltip.4=Format : <mémoire utilisée> / <mémoire maximale> MB
+
+of.options.QUICK_INFO_NATIVE_MEMORY=Mémoire native
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.1=Mémoire native
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.2=
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.3=Affiche la mémoire native utilisée et maximale.
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.4=Format : <tampons utilisés> / <tampons maximaux> + <textures>
+
+of.options.QUICK_INFO_TARGET_BLOCK=Bloc ciblé
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.1=Bloc ciblé
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.2=
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.3=Affiche le nom et les coordonnées du bloc ciblé.
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.4=Format : <nom du bloc> (coordonnées du bloc)
+
+of.options.QUICK_INFO_TARGET_FLUID=Fluide ciblé
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.1=Fluide ciblé
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.2=
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.3=Format : <nom du fluide> (coordonnées du fluide)
+
+of.options.QUICK_INFO_TARGET_ENTITY=Entité ciblée
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.1=Entité ciblée
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.2=
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.3=Format : <nom de l'entité> (coordonnées de l'entité)
+
+of.options.QUICK_INFO_LABELS=Étiquettes
+of.options.QUICK_INFO_LABELS.tooltip.1=Étiquettes
+of.options.QUICK_INFO_LABELS.tooltip.2=  Compact - afficher les étiquettes compactes
+of.options.QUICK_INFO_LABELS.tooltip.3=  Complet - afficher les étiquettes complètes
+of.options.QUICK_INFO_LABELS.tooltip.4=  Détailé - afficher les étiquettes complètes et les coordonnées complètes
+of.options.QUICK_INFO_LABELS.tooltip.5=Lorsque les étiquettes complètes sont sélectionnées, la ligne de performance
+of.options.QUICK_INFO_LABELS.tooltip.6=(FPS) est divisée en deux lignes.
+
+of.options.QUICK_INFO_BACKGROUND=Arrière-plan
+of.options.QUICK_INFO_BACKGROUND.tooltip.1=Arrière-plan
+of.options.QUICK_INFO_BACKGROUND.tooltip.2=
+of.options.QUICK_INFO_BACKGROUND.tooltip.3=Affiche un arrière-plan translucide pour le texte, ce qui peut
+of.options.QUICK_INFO_BACKGROUND.tooltip.4=aider à la lisibilité, mais cela peut aussi rendre le texte
+of.options.QUICK_INFO_BACKGROUND.tooltip.5=plus distrayant.
 
 # Chat Settings
 
