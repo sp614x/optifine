@@ -1,13 +1,17 @@
 ﻿# Max 76-77 characters per tooltip
 # Tradus în română de nicuch, antoniu200 (Sergiu-Antoniu Alexa)
 
-# General
-of.general.ambiguous=ambiguu
+# When shaderpack (default?) config value is incorrect / ambiguous
+of.general.ambiguous=valoare ambiguă
+
 # Shader config
 of.general.custom=Personalizat
+
 # Shader setting ID
 of.general.id=ID
-of.general.restart=repornire
+
+# When config change requires a reboot
+of.general.restart=necesită repornire
 
 # Keys
 of.key.zoom=Mărire
