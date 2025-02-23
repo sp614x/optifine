@@ -232,7 +232,7 @@ of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
 
 of.options.shaders.packNone=DÉSACTIVÉS
-of.options.shaders.packDefault=(interne)
+of.options.shaders.packDefault=(débogage)
 
 of.options.shaders.ANTIALIASING=Anticrénelage 
 of.options.shaders.ANTIALIASING.tooltip.1=Anticrénelage
