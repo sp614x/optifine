@@ -67,5 +67,4 @@ This resource pack features a collection of useful animations for custom entity 
   | **piglin.jem**           | Cancels the default death animation and applies a new one.                                                                         | The piglin floats up into the air when it gets killed.                                                           |
   | **zombified_piglin.jem** | Snaps a model to the nearest in-game block.                                                                                        | The cube aligns precisely with the block grid, snapping to the next one instead of moving smoothly.              |
   | **armor_stand.jem**      | Plays an animation, waits a random amount of time, then repeats.                                                                   | The cube does a full rotation, then waits a random amount of time before doing another full rotation.            |
-
-<details>
+</details>
