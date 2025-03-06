@@ -1,0 +1,69 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 32],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -18, 0]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -18, 0],
+      "submodels": [
+        {
+          "id": "cancel",
+          "invertAxis": "xy",
+          "translate": [0, 22, 0],
+          "submodels": [
+            {
+              "id": "rotate",
+              "invertAxis": "xy",
+              "translate": [0, 0, 0],
+              "boxes": [
+                {
+                  "coordinates": [-4, -4, 0, 8, 8, 0],
+                  "uvNorth": [8, 8, 16, 16]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "cancel.ry": "-rot_y + torad(180)",
+          "rotate.rx": "-player_rot_x",
+          "rotate.ry": "player_rot_y"
+        }
+      ]
+    },
+    {
+      "part": "leg1",
+      "id": "leg1",
+      "invertAxis": "xy",
+      "translate": [-2, -6, -4]
+    },
+    {
+      "part": "leg2",
+      "id": "leg2",
+      "invertAxis": "xy",
+      "translate": [2, -6, -4]
+    },
+    {
+      "part": "leg3",
+      "id": "leg3",
+      "invertAxis": "xy",
+      "translate": [-2, -6, 4]
+    },
+    {
+      "part": "leg4",
+      "id": "leg4",
+      "invertAxis": "xy",
+      "translate": [2, -6, 4]
+    }
+  ]
+}

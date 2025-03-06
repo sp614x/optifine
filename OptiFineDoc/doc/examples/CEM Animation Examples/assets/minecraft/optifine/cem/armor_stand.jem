@@ -1,0 +1,88 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -23, 0]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "submodels": [
+        {
+          "id": "spin",
+          "invertAxis": "xy",
+          "translate": [0, 22.5, 0],
+          "boxes": [
+            {"coordinates": [-6, -1.5, -1.5, 12, 3, 3], "textureOffset": [0, 26]}
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "var.amount": "if(var.random == 0, lerp(random(), 0.1, 1), var.amount)",
+          "var.random": "if(var.random >= 3 || var.counter != 0, 0, var.random + var.amount * frame_time)",
+          "var.counter": "if(var.counter >= 1 || var.random != 0, 0, var.counter + 1 * frame_time)"
+        },
+        {
+          "spin.ry": "torad(var.counter * 360)"
+        }
+      ]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "mirrorTexture": "u",
+      "translate": [5, -22, 0]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-5, -22, 0]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "mirrorTexture": "u",
+      "translate": [1.85, -12, 0]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-1.85, -12, 0]
+    },
+    {
+      "part": "right",
+      "id": "right",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "left",
+      "id": "left",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "waist",
+      "id": "waist",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "base",
+      "id": "base",
+      "invertAxis": "xy",
+      "translate": [0, -12, 0]
+    }
+  ]
+}

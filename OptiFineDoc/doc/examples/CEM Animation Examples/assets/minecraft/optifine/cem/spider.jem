@@ -1,0 +1,157 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 32],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -9, 3]
+    },
+    {
+      "part": "neck",
+      "id": "neck",
+      "invertAxis": "xy",
+      "translate": [0, -9, 0]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -9, -9],
+      "submodels": [
+        {
+          "id": "normal",
+          "invertAxis": "xy",
+          "translate": [0, 9, 9],
+          "submodels": [
+            {
+              "id": "left_leg",
+              "invertAxis": "xy",
+              "translate": [-3, 3, -25],
+              "boxes": [
+                {"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [12, 12]}
+              ]
+            },
+            {
+              "id": "right_leg",
+              "invertAxis": "xy",
+              "translate": [3, 3, -25],
+              "boxes": [
+                {"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [12, 12]}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fast",
+          "invertAxis": "xy",
+          "translate": [0, 9, 9],
+          "submodels": [
+            {
+              "id": "left_leg_fast",
+              "invertAxis": "xy",
+              "translate": [-3, 3, -9],
+              "boxes": [
+                {"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [12, 12]}
+              ]
+            },
+            {
+              "id": "right_leg_fast",
+              "invertAxis": "xy",
+              "translate": [3, 3, -9],
+              "boxes": [
+                {"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [12, 12]}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "far",
+          "invertAxis": "xy",
+          "translate": [0, 9, 9],
+          "submodels": [
+            {
+              "id": "left_leg_far",
+              "invertAxis": "xy",
+              "translate": [-3, 3, 7],
+              "boxes": [
+                {"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [12, 12]}
+              ]
+            },
+            {
+              "id": "right_leg_far",
+              "invertAxis": "xy",
+              "translate": [3, 3, 7],
+              "boxes": [
+                {"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [12, 12]}
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "left_leg.rx": "sin(limb_swing) * limb_speed",
+          "right_leg.rx": "-sin(limb_swing) * limb_speed"
+        },
+        {
+          "left_leg_fast.rx": "sin(limb_swing * 3) * limb_speed",
+          "right_leg_fast.rx": "-sin(limb_swing * 3) * limb_speed"
+        },
+        {
+          "left_leg_far.rx": "sin(limb_swing) * limb_speed * 3",
+          "right_leg_far.rx": "-sin(limb_swing) * limb_speed * 3"
+        }
+      ]
+    },
+    {
+      "part": "leg1",
+      "id": "leg1",
+      "invertAxis": "xy",
+      "translate": [-4, -9, -4]
+    },
+    {
+      "part": "leg2",
+      "id": "leg2",
+      "invertAxis": "xy",
+      "translate": [4, -9, -4]
+    },
+    {
+      "part": "leg3",
+      "id": "leg3",
+      "invertAxis": "xy",
+      "translate": [-4, -9, -1]
+    },
+    {
+      "part": "leg4",
+      "id": "leg4",
+      "invertAxis": "xy",
+      "translate": [4, -9, -1]
+    },
+    {
+      "part": "leg5",
+      "id": "leg5",
+      "invertAxis": "xy",
+      "translate": [-4, -9, 2]
+    },
+    {
+      "part": "leg6",
+      "id": "leg6",
+      "invertAxis": "xy",
+      "translate": [4, -9, 2]
+    },
+    {
+      "part": "leg7",
+      "id": "leg7",
+      "invertAxis": "xy",
+      "translate": [-4, -9, 5]
+    },
+    {
+      "part": "leg8",
+      "id": "leg8",
+      "invertAxis": "xy",
+      "translate": [4, -9, 5]
+    }
+  ]
+}

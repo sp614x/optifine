@@ -1,0 +1,82 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "nose",
+      "id": "nose",
+      "invertAxis": "xy",
+      "translate": [0, -26, 0]
+    },
+    {
+      "part": "headwear",
+      "id": "headwear",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "headwear2",
+      "id": "headwear2",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "rotate": [90, 0, 0]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "boxes": [
+        {"coordinates": [-4, 0, -3, 8, 12, 6], "textureOffset": [16, 20]}
+      ],
+      "submodels": [
+        {
+          "id": "custom_head",
+          "invertAxis": "xy",
+          "translate": [0, 12, 0],
+          "boxes": [
+            {"coordinates": [-4, 0, -4, 8, 10, 8], "textureOffset": [0, 0]},
+            {"coordinates": [-1, -1, -6, 2, 4, 2], "textureOffset": [24, 0]}
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "custom_head.rx": "torad(head_pitch)",
+          "custom_head.ry": "torad(head_yaw)"
+        }
+      ]
+    },
+    {
+      "part": "bodywear",
+      "id": "bodywear",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "arms",
+      "id": "arms",
+      "invertAxis": "xy",
+      "translate": [0, -21.05, 1.05],
+      "rotate": [43, 0, 0]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-2, -12, 0]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [2, -12, 0]
+    }
+  ]
+}

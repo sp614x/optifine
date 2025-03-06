@@ -1,0 +1,84 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 32],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -20, 8],
+      "submodels": [
+        {
+          "id": "over",
+          "invertAxis": "xy",
+          "translate": [0, 28, -11],
+          "boxes": [
+            {"coordinates": [-4, -4, -3, 8, 8, 6], "textureOffset": [0, 0]}
+          ]
+        },
+        {
+          "id": "within",
+          "invertAxis": "xy",
+          "translate": [0, 20, -11],
+          "boxes": [
+            {"coordinates": [-4, -4, -3, 8, 8, 6], "textureOffset": [0, 0]}
+          ]
+        },
+        {
+          "id": "under",
+          "invertAxis": "xy",
+          "translate": [0, 12, -11],
+          "boxes": [
+            {"coordinates": [-4, -4, -3, 8, 8, 6], "textureOffset": [0, 0]}
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "var.distance": "sqrt(pow(pos_x - player_pos_x, 2) + pow(pos_y - player_pos_y, 2) + pow(pos_z - player_pos_z, 2))"
+        },
+        {
+          "var.limit": 5,
+          "under.ry": "if(var.distance < var.limit, time, 0)",
+          "over.ry": "if(var.distance > var.limit, time, 0)"
+        },
+        {
+          "var.max": 7,
+          "var.min": 3,
+          "within.ry": "if(var.distance > var.min && var.distance < var.max, time, 0)"
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -19, -2],
+      "rotate": [-90, 0, 0]
+    },
+    {
+      "part": "leg1",
+      "id": "leg1",
+      "invertAxis": "xy",
+      "translate": [-4, -12, -7]
+    },
+    {
+      "part": "leg2",
+      "id": "leg2",
+      "invertAxis": "xy",
+      "translate": [4, -12, -7]
+    },
+    {
+      "part": "leg3",
+      "id": "leg3",
+      "invertAxis": "xy",
+      "translate": [-4, -12, 6]
+    },
+    {
+      "part": "leg4",
+      "id": "leg4",
+      "invertAxis": "xy",
+      "translate": [4, -12, 6]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -6, 0],
+      "submodels": [
+        {
+          "id": "swing1",
+          "invertAxis": "xy",
+          "translate": [0, 22, 0],
+          "boxes": [
+            {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+          ],
+          "submodels": [
+            {
+              "id": "swing1_lower",
+              "invertAxis": "xy",
+              "translate": [0, -5, 0],
+              "boxes": [
+                {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "swing2",
+          "invertAxis": "xy",
+          "translate": [6, 11, 0],
+          "boxes": [
+            {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+          ],
+          "submodels": [
+            {
+              "id": "swing2_lower",
+              "invertAxis": "xy",
+              "translate": [0, -5, 0],
+              "boxes": [
+                {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "swing3",
+          "invertAxis": "xy",
+          "translate": [0, 11, 0],
+          "boxes": [
+            {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+          ],
+          "submodels": [
+            {
+              "id": "swing3_lower",
+              "invertAxis": "xy",
+              "translate": [0, -5, 0],
+              "boxes": [
+                {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "swing4",
+          "invertAxis": "xy",
+          "translate": [-6, 11, 0],
+          "boxes": [
+            {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+          ],
+          "submodels": [
+            {
+              "id": "swing4_lower",
+              "invertAxis": "xy",
+              "translate": [0, -5, 0],
+              "boxes": [
+                {"coordinates": [-2.5, -5, -2.5, 5, 5, 5], "textureOffset": [0, 0]}
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "var.time": "time / 8"
+        },
+        {
+          "swing1.rx": "sin(var.time)",
+          "swing1_lower.rx": "-cos(var.time)"
+        },
+        {
+          "swing2.rx": "sin(var.time)",
+          "swing2_lower.rx": "max(0, -cos(var.time))"
+        },
+        {
+          "swing3.rx": "sin(var.time)",
+          "swing3_lower.rx": "min(0, -cos(var.time))"
+        },
+        {
+          "swing4.rx": "sin(var.time)",
+          "swing4_lower.rx": "clamp(-cos(var.time), torad(-20), torad(20))"
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -6, 0]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-1.75, -5.5, 0]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [1.75, -5.5, 0]
+    },
+    {
+      "part": "left_wing",
+      "id": "left_wing",
+      "invertAxis": "xy",
+      "translate": [0.5, -6, -1]
+    },
+    {
+      "part": "right_wing",
+      "id": "right_wing",
+      "invertAxis": "xy",
+      "translate": [-0.5, -6, -1]
+    }
+  ]
+}
