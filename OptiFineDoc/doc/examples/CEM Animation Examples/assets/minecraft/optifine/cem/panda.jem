@@ -1,0 +1,63 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -12.5, 17],
+      "submodels": [
+        {
+          "id": "spin",
+          "invertAxis": "xy",
+          "translate": [0, 12.5, -16.5],
+          "boxes": [
+            {"coordinates": [-6.5, -5, -4.5, 13, 10, 9], "textureOffset": [0, 6]},
+            {"coordinates": [-3.5, -5, -6.5, 7, 5, 2], "textureOffset": [45, 16]},
+            {"coordinates": [3.5, 4, -1.5, 5, 4, 1], "textureOffset": [52, 25]},
+            {"coordinates": [-8.5, 4, -1.5, 5, 4, 1], "textureOffset": [52, 25]}
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "var.counter": "clamp(if(is_wet, var.counter + 100 * frame_time, var.counter - 100 * frame_time), 0, 180)"
+        },
+        {
+          "spin.rz": "torad(var.counter)"
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -14, 0]
+    },
+    {
+      "part": "leg4",
+      "id": "leg4",
+      "invertAxis": "xy",
+      "translate": [5.5, -9, 9]
+    },
+    {
+      "part": "leg3",
+      "id": "leg3",
+      "invertAxis": "xy",
+      "translate": [-5.5, -9, 9]
+    },
+    {
+      "part": "leg2",
+      "id": "leg2",
+      "invertAxis": "xy",
+      "translate": [5.5, -9, -9]
+    },
+    {
+      "part": "leg1",
+      "id": "leg1",
+      "invertAxis": "xy",
+      "translate": [-5.5, -9, -9]
+    }
+  ]
+}

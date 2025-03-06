@@ -1,0 +1,116 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "left_ear",
+      "id": "left_ear",
+      "invertAxis": "xy",
+      "translate": [4.5, -30, 0],
+      "rotate": [0, 0, -35]
+    },
+    {
+      "part": "right_ear",
+      "id": "right_ear",
+      "invertAxis": "xy",
+      "translate": [-4.5, -30, 0],
+      "rotate": [0, 0, 35]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "submodels": [
+        {
+          "id": "cancel",
+          "invertAxis": "xy",
+          "translate": [0, 24, 0],
+          "boxes": [
+            {"coordinates": [-5, 0, -4, 10, 8, 8], "textureOffset": [0, 0]},
+            {"coordinates": [-2, 0, -5, 4, 4, 1], "textureOffset": [31, 1]},
+            {"coordinates": [-3, 0, -5, 1, 2, 1], "textureOffset": [2, 4]},
+            {"coordinates": [2, 0, -5, 1, 2, 1], "textureOffset": [2, 0]},
+            {"coordinates": [-5.5, 1, -2, 1, 5, 4], "textureOffset": [51, 6]},
+            {"coordinates": [4.5, 1, -2, 1, 5, 4], "textureOffset": [39, 6]},
+            {"coordinates": [-4, -12, -2, 8, 12, 4], "textureOffset": [16, 16]},
+            {"coordinates": [-4, -12, -2, 8, 12, 4], "textureOffset": [16, 32], "sizeAdd": 0.25},
+            {"coordinates": [-8, -12, -2, 4, 12, 4], "textureOffset": [32, 48]},
+            {"coordinates": [-8, -12, -2, 4, 12, 4], "textureOffset": [48, 48], "sizeAdd": 0.25},
+            {"coordinates": [4, -12, -2, 4, 12, 4], "textureOffset": [40, 16]},
+            {"coordinates": [4, -12, -2, 4, 12, 4], "textureOffset": [40, 32], "sizeAdd": 0.25},
+            {"coordinates": [-4, -24, -2, 4, 12, 4], "textureOffset": [16, 48]},
+            {"coordinates": [-4, -24, -2, 4, 12, 4], "textureOffset": [0, 48], "sizeAdd": 0.25},
+            {"coordinates": [0, -24, -2, 4, 12, 4], "textureOffset": [0, 16]},
+            {"coordinates": [0, -24, -2, 4, 12, 4], "textureOffset": [0, 32], "sizeAdd": 0.25}
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "cancel.ry": "-rot_y"
+        }
+      ]
+    },
+    {
+      "part": "jacket",
+      "id": "jacket",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [5, -22, 0]
+    },
+    {
+      "part": "left_sleeve",
+      "id": "left_sleeve",
+      "invertAxis": "xy",
+      "translate": [5, -22, 0]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-5, -22, 0]
+    },
+    {
+      "part": "right_sleeve",
+      "id": "right_sleeve",
+      "invertAxis": "xy",
+      "translate": [-5, -22, 0]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [2, -12, 0]
+    },
+    {
+      "part": "left_pants",
+      "id": "left_pants",
+      "invertAxis": "xy",
+      "translate": [2, -12, 0]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-2, -12, 0]
+    },
+    {
+      "part": "right_pants",
+      "id": "right_pants",
+      "invertAxis": "xy",
+      "translate": [-2, -12, 0]
+    }
+  ]
+}

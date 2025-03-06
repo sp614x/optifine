@@ -1,0 +1,69 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "submodels": [
+        {
+          "id": "slide",
+          "invertAxis": "xy",
+          "translate": [0, 0, 0],
+          "boxes": [
+            {"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]}
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "var.speed": "time * random(id)",
+          "var.distance": "1 + random(id + 1) * 10"
+        },
+        {
+          "slide.tx": "sin(var.speed) * var.distance"
+        }
+      ]
+    },
+    {
+      "part": "headwear",
+      "id": "headwear",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "mirrorTexture": "u",
+      "translate": [5, -22, 0]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-5, -22, 0]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "mirrorTexture": "u",
+      "translate": [1.9, -12, 0]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-1.9, -12, 0]
+    }
+  ]
+}

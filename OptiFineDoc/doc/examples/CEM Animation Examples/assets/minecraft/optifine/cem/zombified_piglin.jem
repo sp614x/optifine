@@ -1,0 +1,111 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "left_ear",
+      "id": "left_ear",
+      "invertAxis": "xy",
+      "translate": [4.5, -30, 0],
+      "rotate": [0, 0, -35]
+    },
+    {
+      "part": "right_ear",
+      "id": "right_ear",
+      "invertAxis": "xy",
+      "translate": [-4.5, -30, 0],
+      "rotate": [0, 0, 35]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "submodels": [
+        {
+          "id": "rotate",
+          "invertAxis": "xy",
+          "translate": [0, 0, 0],
+          "submodels": [
+            {
+              "id": "snap",
+              "invertAxis": "xy",
+              "translate": [0, 0, 0],
+              "boxes": [
+                {"coordinates": [-8, 0, -8, 16, 16, 16], "textureOffset": [0, 0]}
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "rotate.ry": "-rot_y",
+          "snap.tx": "8 - frac(pos_x) * 16",
+          "snap.ty": "frac(pos_y) * 16",
+          "snap.tz": "-8 + frac(pos_z) * 16"
+        }
+      ]
+    },
+    {
+      "part": "jacket",
+      "id": "jacket",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [5, -22, 0]
+    },
+    {
+      "part": "left_sleeve",
+      "id": "left_sleeve",
+      "invertAxis": "xy",
+      "translate": [5, -22, 0]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-5, -22, 0]
+    },
+    {
+      "part": "right_sleeve",
+      "id": "right_sleeve",
+      "invertAxis": "xy",
+      "translate": [-5, -22, 0]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [2, -12, 0]
+    },
+    {
+      "part": "left_pants",
+      "id": "left_pants",
+      "invertAxis": "xy",
+      "translate": [2, -12, 0]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-2, -12, 0]
+    },
+    {
+      "part": "right_pants",
+      "id": "right_pants",
+      "invertAxis": "xy",
+      "translate": [-2, -12, 0]
+    }
+  ]
+}
