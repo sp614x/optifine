@@ -55,7 +55,7 @@ of.message.shaders.loading=Se încarcă pachetele Shader: %s
 
 of.message.other.reset=Sigur dorești să reinițializezi setările video?
  
-of.message.loadingVisibleChunks=Se încarcă chunkurile vizibile…
+of.message.loadingVisibleChunks=Se încarcă chunk-urile vizibile…
 
 # Skin customization
 
@@ -91,13 +91,13 @@ of.options.renderDistance.extreme=Extremă
 of.options.renderDistance.insane=Nebună
 of.options.renderDistance.ludicrous=Ridicolă
 
-options.renderDistance.tooltip.1=  2 chunkuri / Foarte scurtă - 32m (cel mai rapid)
-options.renderDistance.tooltip.2=  8 chunkuri / Normală - 128m
-options.renderDistance.tooltip.3=  16 chunkuri / Departe - 256m (lent)
-options.renderDistance.tooltip.4=  32 chunkuri / Extremă - 512m (foarte lent!)
-options.renderDistance.tooltip.5=  48 chunkuri / Nebună - 768m, necesită 2GB RAM alocați
-options.renderDistance.tooltip.6=  64 chunkuri / Ridicolă - 1024m, necesită 3GB RAM alocați
-options.renderDistance.tooltip.7=Peste 16 chunkuri, modificările au efect doar în Singleplayer.
+options.renderDistance.tooltip.1=  2 chunk-uri / Foarte scurtă - 32m (cel mai rapid)
+options.renderDistance.tooltip.2=  8 chunk-uri / Normală - 128m
+options.renderDistance.tooltip.3=  16 chunk-uri / Departe - 256m (lent)
+options.renderDistance.tooltip.4=  32 chunk-uri / Extremă - 512m (foarte lent!)
+options.renderDistance.tooltip.5=  48 chunk-uri / Nebună - 768m, necesită 2GB RAM alocați
+options.renderDistance.tooltip.6=  64 chunk-uri / Ridicolă - 1024m, necesită 3GB RAM alocați
+options.renderDistance.tooltip.7=Peste 16 chunk-uri, modificările au efect doar în Singleplayer.
 options.renderDistance.tooltip.8=
 
 options.simulationDistance.tooltip.1=  5-12 - Normală
@@ -187,14 +187,14 @@ options.fovEffectScale.tooltip.3=Intensitatea efectelor dinamice asupra câmpulu
 options.fovEffectScale.tooltip.4=cu arcul, alergatului și zburatului.
 options.fovEffectScale.tooltip.5= 
 
-# Actualizare chunkuri / Compilator chunks / Chunk Builder
-options.prioritizeChunkUpdates.tooltip.1=Actualizare chunkuri
-options.prioritizeChunkUpdates.tooltip.2=  În paralel – actualizează chunkurile alăturate pe fire CPU distincte
-options.prioritizeChunkUpdates.tooltip.3=  Anumite blocuri - actualizează numai chunkurile afectate de jucător
-options.prioritizeChunkUpdates.tooltip.4=  Toate blocurile – actualizează chunkurile alăturate pe un singur fir CPU
+# Actualizare chunk-uri / Compilator chunks / Chunk Builder
+options.prioritizeChunkUpdates.tooltip.1=Actualizare chunk-uri
+options.prioritizeChunkUpdates.tooltip.2=  În paralel – actualizează chunk-urile alăturate pe fire CPU distincte
+options.prioritizeChunkUpdates.tooltip.3=  La interacțiune - actualizează numai chunk-urile afectate de jucător
+options.prioritizeChunkUpdates.tooltip.4=  Pe rând – actualizează chunk-urile alăturate pe un singur fir CPU
 options.prioritizeChunkUpdates.tooltip.5=Actualizarea în paralel poate cauza apariția unor goluri în pământ pentru
 options.prioritizeChunkUpdates.tooltip.6=câteva momente.
-options.prioritizeChunkUpdates.tooltip.7=Actualizarea tuturor blocurilor poate afecta negativ performanța.
+options.prioritizeChunkUpdates.tooltip.7=Actualizarea pe rând poate afecta negativ performanța.
 options.prioritizeChunkUpdates.tooltip.8=
 
 of.options.ALTERNATE_BLOCKS=Blocuri alternative
@@ -216,13 +216,13 @@ of.options.FOG_START.tooltip.2=  0.8 - ceața începe departe de jucător
 of.options.FOG_START.tooltip.3=În general, opțiunea nu afectează performanța.
 of.options.FOG_START.tooltip.4=
  
-of.options.CHUNK_LOADING=Încărcare chunkuri
-of.options.CHUNK_LOADING.tooltip.1=Încărcare chunkuri
-of.options.CHUNK_LOADING.tooltip.2=  Normală - rata de cadre fluctuează la încărcarea chunkurilor
+of.options.CHUNK_LOADING=Încărcare chunk-uri
+of.options.CHUNK_LOADING.tooltip.1=Încărcare chunk-uri
+of.options.CHUNK_LOADING.tooltip.2=  Normală - rata de cadre fluctuează la încărcarea chunk-urilor
 of.options.CHUNK_LOADING.tooltip.3=  Constantă - rată de cadre stabilă
 of.options.CHUNK_LOADING.tooltip.4=  În paralel - rată de cadre stabilă, încărcare de 3 ori mai rapidă
 of.options.CHUNK_LOADING.tooltip.5=Încărcarea constantă și cea în paralel elimină sacadările cauzate de
-of.options.CHUNK_LOADING.tooltip.6=încărcarea chunkurilor.
+of.options.CHUNK_LOADING.tooltip.6=încărcarea chunk-urilor.
 of.options.CHUNK_LOADING.tooltip.7=Încărcarea în paralel încarcă lumea de 3 ori mai rapid,
 of.options.CHUNK_LOADING.tooltip.8=crescând rata de cadre prin utilizarea unui fir CPU secundar.
 of.options.chunkLoading.smooth=Constantă
@@ -659,25 +659,25 @@ of.options.FAST_MATH.tooltip.5=Opțiunea poate avea efecte negative minimale asu
 of.options.FAST_MATH.tooltip.6=
 
 
-of.options.CHUNK_UPDATES=Viteza de încărcare a chunkurilor
+of.options.CHUNK_UPDATES=Viteza de încărcare a chunk-urilor
 of.options.CHUNK_UPDATES.tooltip.1=  1 - încărcare lentă, rată de cadre mare (implicit)
 of.options.CHUNK_UPDATES.tooltip.2=  3 - încărcare mai rapidă, rată de cadre mai mică
 of.options.CHUNK_UPDATES.tooltip.3=  5 - încărcarea cea mai rapidă, rata de cadre cea mai mică
-of.options.CHUNK_UPDATES.tooltip.4=Numărul de chunkuri încărcate pe cadru.
+of.options.CHUNK_UPDATES.tooltip.4=Numărul de chunk-uri încărcate pe cadru.
 of.options.CHUNK_UPDATES.tooltip.5=Valori mari pot provoca instabilitate în rata de cadre.
 of.options.CHUNK_UPDATES.tooltip.6=
 
 of.options.CHUNK_UPDATES_DYNAMIC=Actualizări dinamice
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=  Nu – norma implicită de actualizare a chunkurilor
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=  Nu – norma implicită de actualizare a chunk-urilor
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=  Da – normă crescută când jucătorul stă pe loc
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=Opțiunea forțează mai multe actualizări cât timp jucătorul stă pe loc,
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=pentru o încărcare mai rapidă a lumii.
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=
 
-of.options.LAZY_CHUNK_LOADING=Actualizare leneșă a chunkurilor
-of.options.LAZY_CHUNK_LOADING.tooltip.1=  Nu - normă implicită de actualizare a chunkurilor
+of.options.LAZY_CHUNK_LOADING=Actualizare leneșă a chunk-urilor
+of.options.LAZY_CHUNK_LOADING.tooltip.1=  Nu - normă implicită de actualizare a chunk-urilor
 of.options.LAZY_CHUNK_LOADING.tooltip.2=  Da – normă redusă de actualizare (mai rapid)
-of.options.LAZY_CHUNK_LOADING.tooltip.3=Distribuie încărcarea chunkurilor pe parcursul câtorva ticuri (unitate de
+of.options.LAZY_CHUNK_LOADING.tooltip.3=Distribuie încărcarea chunk-urilor pe parcursul câtorva ticuri (unitate de
 of.options.LAZY_CHUNK_LOADING.tooltip.4=timp internă Minecraft).
 of.options.LAZY_CHUNK_LOADING.tooltip.5=Dezactivează opțiunea, dacă unele părți ale lumii nu se încarcă la timp.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Are efect doar în Singleplayer.
@@ -730,8 +730,8 @@ of.options.LAGOMETER.tooltip.1=Monitor grafic de performanță în ecranul de de
 of.options.LAGOMETER.tooltip.2=* Portocaliu – Operații de eliberare memorie
 of.options.LAGOMETER.tooltip.3=* Albastru verzui - Ticuri
 of.options.LAGOMETER.tooltip.4=* Albastru – Operații planificate
-of.options.LAGOMETER.tooltip.5=* Mov – Partajare de chunkuri
-of.options.LAGOMETER.tooltip.6=* Roșu - Actualizări de chunkuri
+of.options.LAGOMETER.tooltip.5=* Mov – Partajare de chunk-uri
+of.options.LAGOMETER.tooltip.6=* Roșu - Actualizări de chunk-uri
 of.options.LAGOMETER.tooltip.7=* Galben – Verificări de vizibilitate
 of.options.LAGOMETER.tooltip.8=* Verde – Afișarea terenului
 
@@ -776,9 +776,9 @@ options.fullscreen.resolution.tooltip.5=
 
 of.options.SHOW_FPS=Arată rata de cadre (FPS)
 of.options.SHOW_FPS.tooltip.1=  fps - actual / minim
-of.options.SHOW_FPS.tooltip.2=  C: - chunkuri afișate
+of.options.SHOW_FPS.tooltip.2=  C: - chunk-uri afișate
 of.options.SHOW_FPS.tooltip.3=  E: - entități (de tip bloc + animale) afișate
-of.options.SHOW_FPS.tooltip.4=  U: - chunkuri actualizate
+of.options.SHOW_FPS.tooltip.4=  U: - chunk-uri actualizate
 of.options.SHOW_FPS.tooltip.5=Mesaj compact în colțul din stânga-sus, actualizat în fiecare secundă.
 of.options.SHOW_FPS.tooltip.6=Apare doar când ecranul de depanare este dezactivat.
 of.options.SHOW_FPS.tooltip.7=
