@@ -264,7 +264,7 @@ of.options.shaders.SPECULAR_MAP.tooltip.7=
 of.options.shaders.RENDER_RES_MUL=Calitatea generării
 of.options.shaders.RENDER_RES_MUL.tooltip.1=  0.5x - redusă (rapid)
 of.options.shaders.RENDER_RES_MUL.tooltip.2=  1x - normală (implicit)
-of.options.shaders.RENDER_RES_MUL.tooltip.3=  2x - crescută (lent)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  2x - înaltă (lent)
 of.options.shaders.RENDER_RES_MUL.tooltip.4=Opțiunea controlează rezoluția generării pachetul Shader.
 of.options.shaders.RENDER_RES_MUL.tooltip.5=Valorile mici pot fi folositoare pentru monitoarele 4K.
 of.options.shaders.RENDER_RES_MUL.tooltip.6=Valorile mari funcționează ca un filtru antialiere.
@@ -274,7 +274,7 @@ of.options.shaders.RENDER_RES_MUL.tooltip.8=
 of.options.shaders.SHADOW_RES_MUL=Calitatea umbrei
 of.options.shaders.SHADOW_RES_MUL.tooltip.1=  0.5x - redusă (rapid)
 of.options.shaders.SHADOW_RES_MUL.tooltip.2=  1x - normală (implicit)
-of.options.shaders.SHADOW_RES_MUL.tooltip.3=  2x - crescută (lent)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  2x - înaltă (lent)
 of.options.shaders.SHADOW_RES_MUL.tooltip.4=Opțiunea controlează rezoluția umbrei generate de pachetul Shader.
 of.options.shaders.SHADOW_RES_MUL.tooltip.5=Valori mici = imprecis, umbre crestate.
 of.options.shaders.SHADOW_RES_MUL.tooltip.6=Valori mari = detaliat, umbre netede.
@@ -295,8 +295,8 @@ of.options.shaders.CLOUD_SHADOW=Umbre pentru nori
 
 of.options.shaders.OLD_HAND_LIGHT=Lumină clasică a mâinii
 of.options.shaders.OLD_HAND_LIGHT.tooltip.1=  Normală - controlată de pachetul Shader
-of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Da - folosește lumina veche
-of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Nu - folosește lumina nouă
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Da - folosește lumina clasică
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  Nu - folosește lumina normală
 of.options.shaders.OLD_HAND_LIGHT.tooltip.4=Opțiunea permite pachetelor Shader pregătite doar pentru mâna principală
 of.options.shaders.OLD_HAND_LIGHT.tooltip.5=să ilumineze corespunzător ambele mâini sau obiectele din ele.
 of.options.shaders.OLD_HAND_LIGHT.tooltip.6=
@@ -304,8 +304,8 @@ of.options.shaders.OLD_HAND_LIGHT.tooltip.7=
 
 of.options.shaders.OLD_LIGHTING=Lumină clasică
 of.options.shaders.OLD_LIGHTING.tooltip.1=  Normală - controlată de pachetul Shader
-of.options.shaders.OLD_LIGHTING.tooltip.2=  Da - folosește lumina veche
-of.options.shaders.OLD_LIGHTING.tooltip.3=  Nu - folosește lumina noua
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Da - folosește lumina clasică
+of.options.shaders.OLD_LIGHTING.tooltip.3=  Nu - folosește lumina normală
 of.options.shaders.OLD_LIGHTING.tooltip.4=Opțiunea controlează aplicarea luminii predefinite asupra fețelor blocurilor.
 of.options.shaders.OLD_LIGHTING.tooltip.5=Pachetele Shader furnizează, în general, lumină mult mai precisă.
 of.options.shaders.OLD_LIGHTING.tooltip.6=
@@ -504,8 +504,8 @@ of.options.CUSTOM_GUIS.tooltip.5=
 # Details
 of.options.CLOUDS=Grafica norilor
 of.options.CLOUDS.tooltip.1=  Normală - urmează configurația setării „Grafică“
-of.options.CLOUDS.tooltip.2=  Rapidă - calitate mică, rapid
-of.options.CLOUDS.tooltip.3=  Detaliată - calitate mare, lent
+of.options.CLOUDS.tooltip.2=  Rapidă - calitate redusă, rapid
+of.options.CLOUDS.tooltip.3=  Detaliată - calitate înaltă, lent
 of.options.CLOUDS.tooltip.4=  Nu - fără nori, foarte rapid
 of.options.CLOUDS.tooltip.5=Grafica rapidă redă nori în 2D.
 of.options.CLOUDS.tooltip.6=Grafica detaliată redă nori în 3D.
@@ -518,9 +518,9 @@ of.options.CLOUD_HEIGHT.tooltip.3=
 
 of.options.TREES=Grafica copacilor
 of.options.TREES.tooltip.1=  Normală - urmează configurația setării „Grafică“
-of.options.TREES.tooltip.2=  Rapidă - calitate mică, rapid
-of.options.TREES.tooltip.3=  Inteligentă - calitate mare, rapid
-of.options.TREES.tooltip.4=  Detaliată - calitate mare, lent
+of.options.TREES.tooltip.2=  Rapidă - calitate redusă, rapid
+of.options.TREES.tooltip.3=  Inteligentă - calitate înaltă, rapid
+of.options.TREES.tooltip.4=  Detaliată - calitate înaltă, lent
 of.options.TREES.tooltip.5=Grafica rapidă redă copaci cu frunze opace.
 of.options.TREES.tooltip.6=Grafica detaliată și cea inteligentă redau copaci cu frunze transparente.
 of.options.TREES.tooltip.7=
@@ -584,8 +584,8 @@ of.general.from=Fișier
 
 of.options.DROPPED_ITEMS=Grafica obiectelor aruncate
 of.options.DROPPED_ITEMS.tooltip.1=  Normală – urmează configurația setării „Grafică“
-of.options.DROPPED_ITEMS.tooltip.2=  Rapidă - obiecte aruncate 2D, rapid
-of.options.DROPPED_ITEMS.tooltip.3=  Detaliată - obiecte aruncate 3D, lent
+of.options.DROPPED_ITEMS.tooltip.2=  Rapidă - obiecte 2D, rapid
+of.options.DROPPED_ITEMS.tooltip.3=  Detaliată - obiecte 3D, lent
 of.options.DROPPED_ITEMS.tooltip.4= 
 
 options.entityShadows.tooltip.1=Umbre sub entități
