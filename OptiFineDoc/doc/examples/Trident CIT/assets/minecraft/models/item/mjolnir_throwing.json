@@ -1,0 +1,14 @@
+{
+  "credit": "By Ewan Howell",
+  "parent": "item/mjolnir",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [0, -90, -100],
+      "translation": [-3, -7.5, -12.4]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, 100],
+      "translation": [13, -7.5, -12.4]
+    }
+  }
+}

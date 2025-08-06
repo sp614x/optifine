@@ -1,0 +1,142 @@
+{
+  "model": {
+    "type": "select",
+    "cases": [
+      {
+        "model": {
+          "type": "select",
+          "property": "component",
+          "component": "custom_name",
+          "cases": [
+            {
+              "when": [
+                "Quindent",
+                "quindent"
+              ],
+              "model": {
+                "type": "model",
+                "model": "item/quindent"
+              }
+            },
+            {
+              "when": [
+                "Red Trident",
+                "red trident"
+              ],
+              "model": {
+                "type": "model",
+                "model": "item/red_trident"
+              }
+            },
+            {
+              "when": [
+                "Mjolnir",
+                "mjolnir"
+              ],
+              "model": {
+                "type": "model",
+                "model": "item/mjolnir"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "item/trident"
+          }
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "condition",
+      "on_false": {
+        "type": "select",
+        "property": "component",
+        "component": "custom_name",
+        "cases": [
+          {
+            "when": [
+              "Quindent",
+              "quindent"
+            ],
+            "model": {
+              "type": "model",
+              "model": "item/quindent_in_hand"
+            }
+          },
+          {
+            "when": [
+              "Red Trident",
+              "red trident"
+            ],
+            "model": {
+              "type": "model",
+              "model": "item/red_trident_in_hand"
+            }
+          },
+          {
+            "when": [
+              "Mjolnir",
+              "mjolnir"
+            ],
+            "model": {
+              "type": "model",
+              "model": "item/mjolnir"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "model",
+          "model": "item/trident_in_hand"
+        }
+      },
+      "on_true": {
+        "type": "select",
+        "property": "component",
+        "component": "custom_name",
+        "cases": [
+          {
+            "when": [
+              "Quindent",
+              "quindent"
+            ],
+            "model": {
+              "type": "model",
+              "model": "item/quindent_throwing"
+            }
+          },
+          {
+            "when": [
+              "Red Trident",
+              "red trident"
+            ],
+            "model": {
+              "type": "model",
+              "model": "item/red_trident_throwing"
+            }
+          },
+          {
+            "when": [
+              "Mjolnir",
+              "mjolnir"
+            ],
+            "model": {
+              "type": "model",
+              "model": "item/mjolnir_throwing"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "model",
+          "model": "item/trident_throwing"
+        }
+      },
+      "property": "using_item"
+    },
+    "property": "display_context"
+  }
+}

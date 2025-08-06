@@ -56,7 +56,7 @@ This resource pack features a collection of useful animations for custom entity 
   | **villager.jem**         | Custom head animation, not based on an existing head.                                                                              | The head looks around normally, but uses custom animations.                                                      |
   | **allay.jem**            | Limits values using min, max, or clamp.                                                                                            | Four swinging elements, one swings freely, two are limited in different directions, one is limited in both.      |
   | **zombie.jem**           | Stores a value and uses it across multiple animations (does not work for block entities).                                          | One sine wave is defined in the model, but it is used across three different elements in different ways.         |
-  | **pig.jem**              | Creates a counter independent of time or age.                                                                                      | The pigs head spins constantly.                                                                                  |
+  | **pig.jem**              | Creates a counter independent of time or age.                                                                                      | The pig's head spins constantly.                                                                                  |
   | **panda.jem**            | Uses custom counters to create smooth transitions with boolean values.                                                             | When the panda gets wet, its head takes smoothly rotates over a couple seconds to be upside down.                |
   | **husk.jem**             | Allows an entity to have randomized animation speeds, unique per instance.                                                         | Each husk's head wobbles side to side at different random speeds.                                                |
   | **cow.jem**              | Plays an animation when the player meets certain distance requirements.                                                            | One cube rotates when player is far away, one when medium distance, and one when close by.                       |
@@ -67,4 +67,20 @@ This resource pack features a collection of useful animations for custom entity 
   | **piglin.jem**           | Cancels the default death animation and applies a new one.                                                                         | The piglin floats up into the air when it gets killed.                                                           |
   | **zombified_piglin.jem** | Snaps a model to the nearest in-game block.                                                                                        | The cube aligns precisely with the block grid, snapping to the next one instead of moving smoothly.              |
   | **armor_stand.jem**      | Plays an animation, waits a random amount of time, then repeats.                                                                   | The cube does a full rotation, then waits a random amount of time before doing another full rotation.            |
+</details>
+
+## Trident CIT
+
+This resource pack demonstrates how to create Custom Item Textures (CIT) for tridents using item definitions and OptiFine CEM.
+
+<details>
+  <summary><strong>Features</strong></summary>
+  <ul>
+    <li>Uses item definitions to render tridents as items instead of entities</li>
+    <li>Includes three custom trident designs: <code>Red Trident</code>, <code>Quindent</code>, and <code>Mjolnir</code></li>
+    <li>Supports both uppercase and lowercase custom names</li>
+    <li>Thrown tridents use OptiFine CEM and random entities to change model and texture based on the item name</li>
+    <li>Atlases allow textures from the entity folder to be used on item models (optional)</li>
+    <li>Requires Minecraft 1.21.5+ and OptiFine CEM</li>
+  </ul>
 </details>

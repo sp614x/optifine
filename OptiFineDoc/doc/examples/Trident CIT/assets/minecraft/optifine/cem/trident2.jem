@@ -1,0 +1,57 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "textures/entity/trident/quindent.png",
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -27, 0],
+      "boxes": [
+        {"coordinates": [-1.5, 21, -0.5, 3, 6, 1], "textureOffset": [4, 3]},
+        {"coordinates": [-0.5, 27, -0.5, 1, 4, 1], "textureOffset": [0, 0]},
+        {"coordinates": [3.5, 25, -0.5, 1, 4, 1], "textureOffset": [4, 10]},
+        {"coordinates": [1.5, 26, -0.5, 1, 4, 1], "textureOffset": [4, 10]},
+        {"coordinates": [-4.5, 25, -0.5, 1, 4, 1], "textureOffset": [4, 10]},
+        {"coordinates": [2.5, 24, -0.5, 1, 2, 1], "textureOffset": [8, 7]},
+        {"coordinates": [-3.5, 24, -0.5, 1, 2, 1], "textureOffset": [8, 7]},
+        {"coordinates": [-2.5, 23, -0.5, 5, 2, 1], "textureOffset": [4, 0]},
+        {"coordinates": [-2.5, 26, -0.5, 1, 4, 1], "textureOffset": [4, 10]}
+      ],
+      "submodels": [
+        {
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "boxes": [
+            {"coordinates": [-0.5, 0, -0.5, 1, 21, 1], "textureOffset": [0, 10]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": "base",
+      "id": "base",
+      "invertAxis": "xy",
+      "translate": [0, 0, 0]
+    },
+    {
+      "part": "left_spike",
+      "id": "left_spike",
+      "invertAxis": "xy",
+      "translate": [0, 0, 0]
+    },
+    {
+      "part": "middle_spike",
+      "id": "middle_spike",
+      "invertAxis": "xy",
+      "translate": [0, 0, 0]
+    },
+    {
+      "part": "right_spike",
+      "id": "right_spike",
+      "invertAxis": "xy",
+      "translate": [0, 0, 0]
+    }
+  ]
+}
