@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "entity/trident",
+      "sprite": "entity/trident"
+    },
+    {
+      "type": "directory",
+      "prefix": "entity/trident/",
+      "source": "entity/trident"
+    }
+  ]
+}

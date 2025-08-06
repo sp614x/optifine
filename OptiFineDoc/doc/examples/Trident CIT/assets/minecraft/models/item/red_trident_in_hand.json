@@ -1,0 +1,8 @@
+{
+  "credit": "By Ewan Howell",
+  "parent": "item/trident_in_hand",
+  "textures": {
+    "trident": "entity/trident/red_trident",
+    "particle": "item/red_trident"
+  }
+}

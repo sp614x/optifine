@@ -1,6 +1,10 @@
 {
   "pack": {
     "description": "Examples for CEM Animation",
-    "pack_format": 46
+    "pack_format": 64,
+    "supported_formats": {
+      "min_inclusive": 46,
+      "max_inclusive": 64
+    }
   }
 }

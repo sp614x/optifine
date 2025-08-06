@@ -1,0 +1,14 @@
+{
+  "credit": "By Ewan Howell",
+  "parent": "item/trident_in_hand",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 90, 180],
+      "translation": [8, 10, 9]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, 180],
+      "translation": [8, 10, -7]
+    }
+  }
+}
