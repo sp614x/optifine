@@ -1,10 +1,7 @@
 {
   "pack": {
     "description": "Trident CIT examples",
-    "pack_format": 64,
-    "supported_formats": {
-      "min_inclusive": 55,
-      "max_inclusive": 64
-    }
+    "min_format": 69,
+    "max_format": 69
   }
 }
