@@ -587,10 +587,10 @@ Texture Formats
 1. 8-bit
  Normalized         Signed normalized  Integer            Unsigned integer
  =================  =================  =================  =================
- R8                 R8_SNORM           R8I                R8I
- RG8                RG8_SNORM          RG8I               RG8I
- RGB8               RGB8_SNORM         RGB8I              RGB8I
- RGBA8              RGBA8_SNORM        RGBA8I             RGBA8I
+ R8                 R8_SNORM           R8I                R8UI
+ RG8                RG8_SNORM          RG8I               RG8UI
+ RGB8               RGB8_SNORM         RGB8I              RGB8UI
+ RGBA8              RGBA8_SNORM        RGBA8I             RGBA8UI
 2. 16-bit
  Normalized         Signed normalized  Float              Integer            Unsigned integer
  =================  =================  =================  =================  =================
