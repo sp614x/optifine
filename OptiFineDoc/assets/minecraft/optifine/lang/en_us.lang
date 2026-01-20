@@ -18,11 +18,17 @@ of.key.zoom=Zoom
 of.message.aa.shaders1=Antialiasing is not compatible with Shaders.
 of.message.aa.shaders2=Please disable Shaders to enable this option.
 
-of.message.aa.gf1=Antialiasing is not compatible with Fabulous Graphics.
-of.message.aa.gf2=Please set Graphics to Fast or Fancy.
+of.message.aa.gf1=Antialiasing is not compatible with Improved Transparency.
+of.message.aa.gf2=Please set Improved Transparency to OFF.
+
+of.message.aa.tf1=Antialiasing is not compatible with Texture Filtering.
+of.message.aa.tf2=Please set Texture Filtering to None.
 
 of.message.af.shaders1=Anisotropic Filtering is not compatible with Shaders.
 of.message.af.shaders2=Please disable Shaders to enable this option.
+
+of.message.af.tf1=Anisotropic Filtering is not compatible with Texture Filtering.
+of.message.af.tf2=Please set Texture Filtering to None.
 
 of.message.fr.shaders1=Fast Render is not compatible with Shaders.
 of.message.fr.shaders2=Please disable Shaders to enable this option.
@@ -39,14 +45,26 @@ of.message.shaders.af2=Please set Quality -> Anisotropic Filtering to OFF.
 of.message.shaders.fr1=Shaders are not compatible with Fast Render.
 of.message.shaders.fr2=Please set Performance -> Fast Render to OFF.
 
-of.message.shaders.gf1=Shaders are not compatible with Fabulous Graphics.
-of.message.shaders.gf2=Please set Graphics to Fast or Fancy.
+of.message.shaders.gf1=Shaders are not compatible with Improved Transparency.
+of.message.shaders.gf2=Please set Improved Transparency to OFF.
 
 of.message.shaders.an1=Shaders are not compatible with 3D Anaglyph.
 of.message.shaders.an2=Please set Other -> 3D Anaglyph to OFF.
 
 of.message.shaders.nv1=This shader pack requires a newer OptiFine version: %s
 of.message.shaders.nv2=Are you sure you want to continue?
+
+of.message.tf.aa1=Texture Filtering is not compatible with Antialiasing.
+of.message.tf.aa2=Please set Quality -> Antialiasing to OFF and restart the game.
+
+of.message.tf.af1=Texture Filtering is not compatible with Anisotropic Filtering.
+of.message.tf.af2=Please set Quality -> Anisotropic Filtering to OFF and restart the game.
+
+of.message.it.aa1=Improved Transparency is not compatible with Antialiasing.
+of.message.it.aa2=Please set Quality -> Antialiasing to OFF and restart the game.
+
+of.message.it.sh1=Improved Transparency is not compatible with Shaders.
+of.message.it.sh2=Please disable Shaders to enable this option.
 
 of.message.newVersion=A new §eOptiFine§f version is available: §e%s§f
 of.message.java64Bit=You can install §e64-bit Java§f to increase performance.
@@ -334,6 +352,9 @@ of.options.performanceTitle=Performance Settings
 of.options.animations=Animations...
 of.options.animationsTitle=Animation Settings
 
+of.options.vanilla=Vanilla...
+of.options.vanillaTitle=Vanilla Settings
+
 of.options.other=Other...
 of.options.otherTitle=Other Settings
 
@@ -499,14 +520,13 @@ of.options.CUSTOM_GUIS.tooltip.5=resource pack.
 
 # Details
 
-of.options.CLOUDS=Clouds
-of.options.CLOUDS.tooltip.1=Clouds
-of.options.CLOUDS.tooltip.2=  Default - as set by setting Graphics
-of.options.CLOUDS.tooltip.3=  Fast - lower quality, faster
-of.options.CLOUDS.tooltip.4=  Fancy - higher quality, slower
-of.options.CLOUDS.tooltip.5=  OFF - no clouds, fastest
-of.options.CLOUDS.tooltip.6=Fast clouds are rendered 2D.
-of.options.CLOUDS.tooltip.7=Fancy clouds are rendered 3D.
+options.renderClouds=Clouds
+options.renderClouds.tooltip.1=Clouds
+options.renderClouds.tooltip.2=  Fast - lower quality, faster
+options.renderClouds.tooltip.3=  Fancy - higher quality, slower
+options.renderClouds.tooltip.4=  OFF - no clouds, fastest
+options.renderClouds.tooltip.5=Fast clouds are rendered 2D.
+options.renderClouds.tooltip.6=Fancy clouds are rendered 3D.
 
 of.options.CLOUD_HEIGHT=Cloud Height
 of.options.CLOUD_HEIGHT.tooltip.1=Cloud Height
@@ -522,14 +542,14 @@ of.options.TREES.tooltip.5=  Fancy - highest quality, slower
 of.options.TREES.tooltip.6=Fast trees have opaque leaves.
 of.options.TREES.tooltip.7=Fancy and smart trees have transparent leaves.
 
-of.options.RAIN=Rain & Snow
-of.options.RAIN.tooltip.1=Rain & Snow
-of.options.RAIN.tooltip.2=  Default - as set by setting Graphics
-of.options.RAIN.tooltip.3=  Fast  - light rain/snow, faster
-of.options.RAIN.tooltip.4=  Fancy - heavy rain/snow, slower
-of.options.RAIN.tooltip.5=  OFF - no rain/snow, fastest
-of.options.RAIN.tooltip.6=When rain is OFF the splashes and rain sounds
-of.options.RAIN.tooltip.7=are still active.
+options.weatherRadius=Weather Effect Radius
+options.weatherRadius.tooltip.1=Weather Effect Radius
+options.weatherRadius.tooltip.2=  OFF - no rain/snow, fastest
+options.weatherRadius.tooltip.3=  5 Blocks - light rain/snow, faster
+options.weatherRadius.tooltip.4=  10 Blocks - heavy rain/snow, slower
+options.weatherRadius.tooltip.5=Radius of the area where rain and snow effects
+options.weatherRadius.tooltip.6=are visible. When set to OFF the splashes and
+options.weatherRadius.tooltip.7=rain sounds are still active.
 
 of.options.SKY=Sky
 of.options.SKY.tooltip.1=Sky
@@ -584,15 +604,14 @@ options.entityShadows.tooltip.1=Entity Shadows
 options.entityShadows.tooltip.2=  ON - show entity shadows
 options.entityShadows.tooltip.3=  OFF - do not show entity shadows
 
-of.options.VIGNETTE=Vignette
-of.options.VIGNETTE.tooltip.1=Visual effect which slightly darkens the screen corners
-of.options.VIGNETTE.tooltip.2=  Default - as set by the setting Graphics (default)
-of.options.VIGNETTE.tooltip.3=  Fast - vignette disabled (faster)
-of.options.VIGNETTE.tooltip.4=  Fancy - vignette enabled (slower)
-of.options.VIGNETTE.tooltip.5=The vignette may have a significant effect on the FPS,
-of.options.VIGNETTE.tooltip.6=especially when playing fullscreen.
-of.options.VIGNETTE.tooltip.7=The vignette effect is very subtle and can safely
-of.options.VIGNETTE.tooltip.8=be disabled.
+options.vignette=Vignette
+options.vignette.tooltip.1=Visual effect which slightly darkens the screen corners
+options.vignette.tooltip.2=  ON - vignette enabled (slower)
+options.vignette.tooltip.3=  OFF - vignette disabled (faster)
+options.vignette.tooltip.4=The vignette may have a significant effect on the FPS,
+options.vignette.tooltip.5=especially when playing fullscreen.
+options.vignette.tooltip.6=The vignette effect is very subtle and can safely
+options.vignette.tooltip.7=be disabled.
 
 of.options.DYNAMIC_FOV=Dynamic FOV
 of.options.DYNAMIC_FOV.tooltip.1=Dynamic FOV
@@ -937,3 +956,31 @@ of.options.CHAT_SHADOW=Chat Shadow
 of.options.CHAT_SHADOW.tooltip.1=Chat Shadow
 of.options.CHAT_SHADOW.tooltip.2=  ON - use text shadow
 of.options.CHAT_SHADOW.tooltip.3=  OFF - no text shadow
+
+# Vanilla
+options.textureFiltering.tooltip.1=Texture Filtering
+options.textureFiltering.tooltip.2=  OFF - no filtering, fast
+options.textureFiltering.tooltip.3=  RGSS - slowest
+options.textureFiltering.tooltip.4=  Anisotropic - slower
+options.textureFiltering.tooltip.5=Restores details in mipmapped textures. Uses significantly
+options.textureFiltering.tooltip.6=more GPU memory and may not allow HD resource packs
+options.textureFiltering.tooltip.7=to be loaded. Not compatible with Quality -> Anisotropic
+options.textureFiltering.tooltip.8=Filtering and Antialasing.
+
+options.maxAnisotropy.tooltip.1=Anisotropic Texture Filtering
+options.maxAnisotropy.tooltip.2=  2x - faster
+options.maxAnisotropy.tooltip.3=  8x - slower
+options.maxAnisotropy.tooltip.4=Only active when Texture Filtering is set to Anisotropic.
+options.maxAnisotropy.tooltip.5=Higher levels use significantly more GPU memory
+options.maxAnisotropy.tooltip.6=and may not allow HD resource packs to be loaded.
+
+options.improvedTransparency.tooltip.1=Improved Transparency
+options.improvedTransparency.tooltip.2=  ON - slower
+options.improvedTransparency.tooltip.3=  OFF - faster
+options.improvedTransparency.tooltip.4=Multi-buffer transparency rendering, may decrease FPS.
+options.improvedTransparency.tooltip.5=Not compatible with Antialiasing and Shaders.
+
+options.renderCloudsDistance.tooltip.1=Cloud Render Distance
+options.renderCloudsDistance.tooltip.2=  32 chunks - fast
+options.renderCloudsDistance.tooltip.3=  64 chunks - slower
+options.renderCloudsDistance.tooltip.4=  128 chunks - slowest
