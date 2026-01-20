@@ -114,9 +114,8 @@ gbuffers_textured_lit        lit_particles, world border           gbuffers_text
 gbuffers_skybasic            sky, horizon, stars, void             gbuffers_basic
 gbuffers_skytextured         sun, moon                             gbuffers_textured
 gbuffers_clouds              clouds                                <none>
-gbuffers_terrain             solid, cutout, cutout_mip             gbuffers_textured_lit
+gbuffers_terrain             solid, cutout                         gbuffers_textured_lit
 gbuffers_terrain_solid       <not used>                            gbuffers_terrain
-gbuffers_terrain_cutout_mip  <not used>                            gbuffers_terrain
 gbuffers_terrain_cutout      <not used>                            gbuffers_terrain
 gbuffers_damagedblock        damaged_blocks                        gbuffers_terrain
 gbuffers_block               block_entities                        gbuffers_terrain
@@ -147,7 +146,7 @@ composite99                  <composite>                           <none>
 final                        <final>                               <none>
 
 Remarks:
- - The programs shadow_solid, shadow_cutout, gbuffers_terrain_solid, gbuffers_terrain_cutout and gbuffers_terrain_cutout_mip are not used
+ - The programs shadow_solid, shadow_cutout, gbuffers_terrain_solid, gbuffers_terrain_cutout are not used
 
 Todo:
  - Separate programs for world border, entities (by id, by type), cape, elytra, wolf collar, etc. 
@@ -242,6 +241,7 @@ uniform mat4 projectionMatrix;                  projection matrix
 uniform mat4 projectionMatrixInverse;           inverse projection matrix
 uniform mat4 textureMatrix = mat4(1.0);         texture matrix, default is identity
 uniform mat3 normalMatrix;                      normal matrix
+uniform vec4 colorModulator;                    color modulator
 uniform vec3 modelOffset;                       used by terrain chunks (with attribute "vaPosition") and clouds, replaces chunkOffset (1.21.2+)
 uniform float alphaTestRef;                     alpha test reference value, the check is "if (color.a < alphaTestRef) discard;"
 // 1.19+
@@ -255,7 +255,7 @@ const mat4 TEXTURE_MATRIX_2 = mat4(vec4(0.00390625, 0.0, 0.0, 0.0), vec4(0.0, 0.
 
 GBuffers Uniforms
 ================= 
-Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout_mip, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, hand_water, weather)
+Programs: basic, textured, textured_lit, skybasic, skytextured, clouds, terrain, terrain_solid, terrain_cutout, damagedblock, water, block, beaconbeam, item, entities, armor_glint, spidereyes, hand, hand_water, weather)
 ==================
 Source                                          Value                                                    
 =====================================================================================================================================================================
@@ -678,13 +678,11 @@ The custom block render layers are defined in "shaders/block.properties" include
 
   layer.solid=<blocks>
   layer.cutout=<blocks>
-  layer.cutout_mipped=<blocks>
   layer.translucent=<blocks>
 
 Layers
   solid - no alpha, no blending (solid textures)
-  cutout - alpha, no blending (cutout textures)
-  cutout_mipped - alpha, no blending, mipmaps (cutout with mipmaps)
+  cutout - alpha, no blending, mipmaps (cutout with mipmaps)
   translucent - alpha, blending, mipmaps (water, stained glass)
  
 Blocks which are solid opaque cubes (stone, dirt, ores, etc) can't be rendered on a custom layer
@@ -800,7 +798,6 @@ J. Render stages
  #define MC_RENDER_STAGE_STARS <const>                   // Stars
  #define MC_RENDER_STAGE_VOID <const>                    // Void
  #define MC_RENDER_STAGE_TERRAIN_SOLID <const>           // Terrain solid
- #define MC_RENDER_STAGE_TERRAIN_CUTOUT_MIPPED <const>   // Terrain cutout mipped
  #define MC_RENDER_STAGE_TERRAIN_CUTOUT <const>          // Terrain cutout
  #define MC_RENDER_STAGE_ENTITIES <const>                // Entities
  #define MC_RENDER_STAGE_BLOCK_ENTITIES <const>          // Block entities

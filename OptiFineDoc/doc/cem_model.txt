@@ -27,7 +27,7 @@
 # breeze                   body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
 # breeze_wind              body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
 # breeze_wind_charge       <fallback to wind_charge>
-# camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg, saddle, reins, bridle
+# camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg
 # cat                      body, head, tail, tail2, back_left_leg, back_right_leg, front_left_leg, front_right_leg
 # cat_collar               <fallback to cat>
 # cave_spider              body, head, neck, leg1 ... leg8
@@ -38,7 +38,7 @@
 # creeper                  body, head, leg1 ... leg4
 # creeper_charge           body, head, leg1 ... leg4
 # dolphin                  body, back_fin, left_fin, right_fin, tail, tail_fin, head
-# donkey                   body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband, left_chest, right_chest
+# donkey                   body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear, left_chest, right_chest
 # dragon                   head, jaw, body, neck1 ... neck4, neck5, tail1 ... tail12, left_wing, left_wing_tip, front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, right_wing, right_wing_tip, front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
 # drowned                  body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # drowned_outer            body, head, headwear, left_arm, right_arm, left_leg, right_leg
@@ -56,8 +56,8 @@
 # goat                     body, head, leg1 ... leg4, left_horn, right_horn, nose
 # guardian                 body, eye, spine1 ... spine12, tail1 ... tail3
 # hoglin                   body, mane, head, right_ear, left_ear, front_right_leg, front_left_leg, back_right_leg, back_left_leg
-# horse                    body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
-# horse_armor              body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
+# horse                    body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
+# horse_armor              body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
 # husk                     body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # illusioner               body, head, hat, arms, right_leg, left_leg, nose, right_arm, left_arm
 # iron_golem               body, head, right_arm, left_arm, left_leg, right_leg
@@ -67,7 +67,7 @@
 # llama_spit               body
 # magma_cube               core, segment1 ... segment8
 # mooshroom                body, head, leg1 ... leg4
-# mule                     body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband, left_chest, right_chest
+# mule                     body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear, left_chest, right_chest
 # ocelot                   body, head, tail, tail2, back_left_leg, back_right_leg, front_left_leg, front_right_leg
 # panda                    body, head, leg1 ... leg4
 # parrot                   body, tail, left_wing, right_wing, head, left_leg, right_leg
@@ -94,7 +94,7 @@
 # shulker_bullet           bullet
 # silverfish               body1 ... body7, wing1 ... wing3
 # skeleton                 body, head, headwear, left_arm, right_arm, left_leg, right_leg
-# skeleton_horse           body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
+# skeleton_horse           body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
 # slime                    body, left_eye, right_eye, mouth
 # slime_outer              body
 # sniffer                  body, back_left_leg, back_right_leg, middle_left_leg, middle_right_leg, front_left_leg, front_right_leg, head, left_ear, right_ear, nose, lower_beak
@@ -132,7 +132,7 @@
 # wolf_collar              <fallback to wolf>
 # zoglin                   body, mane, head, right_ear, left_ear, front_right_leg, front_left_leg, back_right_leg, back_left_leg
 # zombie                   body, head, headwear, left_arm, right_arm, left_leg, right_leg
-# zombie_horse             body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, saddle, head, mane, mouth, left_ear, right_ear, left_bit, right_bit, left_rein, right_rein, headpiece, noseband
+# zombie_horse             body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
 # zombie_villager          body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # zombified_piglin         body, head, headwear, left_arm, right_arm, left_leg, right_leg, left_sleeve, right_sleeve, left_pants, right_pants, jacket, left_ear, right_ear
 #
