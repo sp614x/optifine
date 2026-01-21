@@ -1,5 +1,5 @@
 # Contributors of Chinese localization #
-#   GeForceLegend 2024-12-03 ---- 2024-12-03
+#   GeForceLegend 2024-12-03 ---- 2026-01-21
 #   THGABS from Minecraft Wiki 2020-10-24 ---- 2021-12-25
 #   HeartyYF From InfinityStudio 2016-2-18 ---- 2020-7-25
 #   xwjcool123 From Rainbow Pixel 2018-5-20 ---- 2018-6-16
@@ -31,11 +31,17 @@ of.key.zoom=缩放
 of.message.aa.shaders1=抗锯齿与光影不兼容。
 of.message.aa.shaders2=请关闭光影以启用此选项。
 
-of.message.aa.gf1=抗锯齿与“极佳”画质不兼容。
-of.message.aa.gf2=请将图像品质设为“流畅”或“高品质”。
+of.message.aa.gf1=抗锯齿与改进透明显示不兼容。
+of.message.aa.gf2=请将改进透明显示设为“关闭”。
+
+of.message.aa.tf1=抗锯齿与纹理过滤不兼容。
+of.message.aa.tf2=请将纹理过滤设为“无”。
 
 of.message.af.shaders1=各向异性过滤与光影不兼容。
 of.message.af.shaders2=请关闭光影以启用此选项。
+
+of.message.af.tf1=各向异性过滤与纹理过滤不兼容。
+of.message.af.tf2=请将纹理过滤设为“无”。
 
 of.message.fr.shaders1=快速渲染与光影不兼容。
 of.message.fr.shaders2=请关闭光影以启用此选项。
@@ -52,14 +58,26 @@ of.message.shaders.af2=请将品质->各向异性过滤选项设为“关闭”�
 of.message.shaders.fr1=光影与快速渲染不兼容。
 of.message.shaders.fr2=请将性能->快速渲染选项设为“关闭”。
 
-of.message.shaders.gf1=光影与“极佳”画质不兼容。
-of.message.shaders.gf2=请将图像品质设为“流畅”或“高品质”。
+of.message.shaders.gf1=光影与改进透明显示不兼容。
+of.message.shaders.gf2=请将改进透明显示设为“关闭”。
 
 of.message.shaders.an1=光影与3D效果选项不兼容。
 of.message.shaders.an2=请将其他->3D效果选项设为“关闭”。
 
 of.message.shaders.nv1=此光影需要更新的OptiFine版本：%s
 of.message.shaders.nv2=你确定要继续吗？
+
+of.message.tf.aa1=纹理过滤与抗锯齿不兼容。
+of.message.tf.aa2=请将品质->抗锯齿选项设为“关闭”并重启游戏。
+
+of.message.tf.af1=纹理过滤与各向异性过滤不兼容。
+of.message.tf.af2=请将品质->各向异性过滤选项设为“关闭”并重启游戏。
+
+of.message.it.aa1=改进透明显示与抗锯齿不兼容
+of.message.it.aa2=请将品质->抗锯齿选项设为“关闭”并重启游戏。
+
+of.message.it.sh1=改进透明显示与光影不兼容。
+of.message.it.sh2=请关闭光影以启用此选项。
 
 of.message.newVersion=新的§eOptiFine§f版本现已可用：§e%s§f
 of.message.java64Bit=您可以安装§e64位Java§f来提升性能。
@@ -347,6 +365,9 @@ of.options.performanceTitle=性能设置
 of.options.animations=动画…
 of.options.animationsTitle=动画设置
 
+of.options.vanilla=原版…
+of.options.vanillaTitle=原版设置
+
 of.options.other=其他…
 of.options.otherTitle=其他设置
 
@@ -392,8 +413,8 @@ of.options.AA_LEVEL.tooltip.8=重启后生效！
 of.options.AF_LEVEL=各向异性过滤
 of.options.AF_LEVEL.tooltip.1=各向异性过滤
 of.options.AF_LEVEL.tooltip.2= 关闭 - （默认）标准纹理细节（较快）
-of.options.AF_LEVEL.tooltip.3= 2-16 - 还原多级纹理（mipmap）处理后的的细节（较慢）
-of.options.AF_LEVEL.tooltip.4=各向异性过滤还原了经多级纹理过滤后的纹理细节。
+of.options.AF_LEVEL.tooltip.3= 2-16 - 使用mipmap的纹理上更好的细节（较慢）
+of.options.AF_LEVEL.tooltip.4=各向异性过滤还原了使用mipmap的纹理的细节。
 of.options.AF_LEVEL.tooltip.5=启用它可能会大幅降低FPS。
 of.options.AF_LEVEL.tooltip.6= 
 
@@ -511,17 +532,16 @@ of.options.CUSTOM_GUIS.tooltip.5=
 
 # Details
 
-of.options.CLOUDS=云
-of.options.CLOUDS.tooltip.1=云
-of.options.CLOUDS.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.CLOUDS.tooltip.3=  流畅 - 低品质（较快）
-of.options.CLOUDS.tooltip.4=  高品质 - 高品质（较慢）
-of.options.CLOUDS.tooltip.5=  关闭 - 禁用云（最快）
-of.options.CLOUDS.tooltip.6=低品质的云采用2D渲染，
-of.options.CLOUDS.tooltip.7=高品质的云采用3D渲染。
+options.renderClouds=云
+options.renderClouds.tooltip.1=云
+options.renderClouds.tooltip.2=  流畅 - 低品质（较快）
+options.renderClouds.tooltip.3=  高品质 - 高品质（较慢）
+options.renderClouds.tooltip.4=  关闭 - 禁用云（最快）
+options.renderClouds.tooltip.5=低品质的云采用2D渲染，
+options.renderClouds.tooltip.6=高品质的云采用3D渲染。
 
-of.options.CLOUD_HEIGHT=云高度
-of.options.CLOUD_HEIGHT.tooltip.1=云高度
+of.options.CLOUD_HEIGHT=云层高度
+of.options.CLOUD_HEIGHT.tooltip.1=云层高度
 of.options.CLOUD_HEIGHT.tooltip.2=  关闭 - 默认高度
 of.options.CLOUD_HEIGHT.tooltip.3=  100%% - 超过世界的高度限制
 
@@ -534,14 +554,14 @@ of.options.TREES.tooltip.5=  高品质 - 最高品质（较慢）
 of.options.TREES.tooltip.6="低品质"的树叶不透明，
 of.options.TREES.tooltip.7="高品质"与"智能"的树叶透明镂空。
 
-of.options.RAIN=雨雪
-of.options.RAIN.tooltip.1=雨雪
-of.options.RAIN.tooltip.2=  默认 - 以“图形品质”的设定为准
-of.options.RAIN.tooltip.3=  流畅 - 少量的雨/雪（较快）
-of.options.RAIN.tooltip.4=  高品质 - 大量的雨/雪（较慢）
-of.options.RAIN.tooltip.5=  关闭 - 禁用雨/雪（最快）
-of.options.RAIN.tooltip.6=当“雨雪”选项关闭时，雨滴飞溅与雨声
-of.options.RAIN.tooltip.7=仍会正常出现。
+options.weatherRadius=天气效果范围
+options.weatherRadius.tooltip.1=天气效果范围
+options.weatherRadius.tooltip.2=  关闭 - 禁用雨/雪（最快）
+options.weatherRadius.tooltip.3=  5方块 - 轻微的雨/雪（较快）
+options.weatherRadius.tooltip.4=  10方块 - 大量的雨/雪（较慢）
+options.weatherRadius.tooltip.5=雨雪特效的可见范围。
+options.weatherRadius.tooltip.6=设为关闭时，雨滴飞溅与雨声仍会正常出现。
+options.weatherRadius.tooltip.7=
 
 of.options.SKY=天空
 of.options.SKY.tooltip.1=天空
@@ -605,6 +625,15 @@ of.options.VIGNETTE.tooltip.5=晕影可能对FPS有显著的影响，尤其是�
 of.options.VIGNETTE.tooltip.6=晕影的效果非常细微，并且可以被安全地禁用。
 of.options.VIGNETTE.tooltip.7= 
 of.options.VIGNETTE.tooltip.8= 
+
+options.vignette=晕影
+options.vignette.tooltip.1=使屏幕四角轻微变暗的视觉效果
+options.vignette.tooltip.2=  开启 - 晕影开启（较慢）
+options.vignette.tooltip.3=  关闭 - 晕影关闭（较快）
+options.vignette.tooltip.4=晕影可能对FPS有显著的影响，尤其是进行全屏游戏时。
+options.vignette.tooltip.5=晕影的效果非常细微，并且可以被安全地禁用。
+options.vignette.tooltip.6=
+options.vignette.tooltip.7=
 
 of.options.DYNAMIC_FOV=动态视场
 of.options.DYNAMIC_FOV.tooltip.1=动态视场
@@ -949,3 +978,31 @@ of.options.CHAT_SHADOW=聊天阴影
 of.options.CHAT_SHADOW.tooltip.1=聊天阴影
 of.options.CHAT_SHADOW.tooltip.2=  开启 - 使用字体阴影
 of.options.CHAT_SHADOW.tooltip.3=  关闭 - 无字体阴影
+
+# Vanilla
+options.textureFiltering.tooltip.1=纹理过滤
+options.textureFiltering.tooltip.2=  关闭 - 无纹理过滤，较快
+options.textureFiltering.tooltip.3=  RGSS - 最慢
+options.textureFiltering.tooltip.4=  各向异性 - 较慢
+options.textureFiltering.tooltip.5=还原使用mipmap的纹理的细节。
+options.textureFiltering.tooltip.6=使用显著更多的GPU内存并且可能会阻止高清资源包加载。
+options.textureFiltering.tooltip.7=与质量 -> 各向异性过滤和抗锯齿不兼容。
+options.textureFiltering.tooltip.8=
+
+options.maxAnisotropy.tooltip.1=各向异性纹理过滤
+options.maxAnisotropy.tooltip.2=  2x - 更快
+options.maxAnisotropy.tooltip.3=  8x - 更慢
+options.maxAnisotropy.tooltip.4=仅在纹理过滤设置为各向异性时激活。
+options.maxAnisotropy.tooltip.5=更高的等级显著使用更多GPU内存，
+options.maxAnisotropy.tooltip.6=并且可能会阻止高清资源包的加载。
+
+options.improvedTransparency.tooltip.1=改进透明显示
+options.improvedTransparency.tooltip.2=  开启 - 更慢
+options.improvedTransparency.tooltip.3=  关闭 - 更快
+options.improvedTransparency.tooltip.4=多缓冲的半透明渲染，可能会降低FPS。
+options.improvedTransparency.tooltip.5=与抗锯齿和光影不兼容。
+
+options.renderCloudsDistance.tooltip.1=云层渲染距离
+options.renderCloudsDistance.tooltip.2=  32区块 - 较快
+options.renderCloudsDistance.tooltip.3=  64区块 - 较慢
+options.renderCloudsDistance.tooltip.4=  128区块 - 最慢
