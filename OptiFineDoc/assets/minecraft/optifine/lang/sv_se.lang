@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2025-01-26
+#   Regnander (_Spitz) 2016-01-18 ---- 2026-01-26
 
 # General
 of.general.ambiguous=tvetydig
@@ -997,3 +997,4 @@ options.renderCloudsDistance.tooltip.1=Molnrenderingsavstånd
 options.renderCloudsDistance.tooltip.2=  32 datablock - snabbt
 options.renderCloudsDistance.tooltip.3=  64 datablock - långsammare
 options.renderCloudsDistance.tooltip.4=  128 datablock - långsammast
+
