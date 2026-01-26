@@ -1,5 +1,5 @@
 # Contributors of Swedish localization #
-#   Regnander (_Spitz) 2016-01-18 ---- 2024-12-05
+#   Regnander (_Spitz) 2016-01-18 ---- 2025-01-26
 
 # General
 of.general.ambiguous=tvetydig
@@ -21,11 +21,17 @@ of.key.zoom=Zooma in
 of.message.aa.shaders1=Kantutjämning är inte kompatibel med Shaders.
 of.message.aa.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
 
-of.message.aa.gf1=Kantutjämning är inte kompatibel med grafikalternativet Fabulöst.
-of.message.aa.gf2=Ändra "Grafik" till Snabbt eller Snyggt.
+of.message.aa.gf1=Kantutjämning är inte kompatibel med Bättre genomskinlighet.
+of.message.aa.gf2=Ändra "Bättre genomskinlighet" till AV.
+
+of.message.aa.tf1=Kantutjämning är inte kompatibel med Texturfiltrering.
+of.message.aa.tf2=Ändra Texturfiltrering till Ingen.
 
 of.message.af.shaders1=Anisotropisk filtrering är inte kompatibel med Shaders.
 of.message.af.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
+
+of.message.af.tf1=Anisotropisk filtrering är inte kompatibel with Texturfiltrering.
+of.message.af.tf2=Ändra Texturfiltrering till Ingen.
 
 of.message.fr.shaders1=Snabb rendering är inte kompatibel med Shaders.
 of.message.fr.shaders2=Inaktivera Shaders för att aktivera detta alternativ.
@@ -42,14 +48,26 @@ of.message.shaders.af2=Ändra "Kvalitet -> Anisotropisk filtrering" till AV.
 of.message.shaders.fr1=Shaders är inte kompatibla med Snabb rendering.
 of.message.shaders.fr2=Ändra "Prestanda -> Snabb rendering" till AV.
 
-of.message.shaders.gf1=Shaders är inte kompatibla med grafikalternativet Fabulöst.
-of.message.shaders.gf2=Ändra "Grafik" till Snabbt eller Snyggt.
+of.message.shaders.gf1=Shaders är inte kompatibla med Bättre genomskinlighet.
+of.message.shaders.gf2=Ändra Bättre genomskinlighet till AV.
 
 of.message.shaders.an1=Shaders är inte kompatibla med 3D-effekt.
 of.message.shaders.an2=Ändra "Övrigt -> 3D-effekt" till AV.
 
 of.message.shaders.nv1=Detta shaderpaket kräver en nyare version av OptiFine: %s
 of.message.shaders.nv2=Är du säker på att du vill fortsätta?
+
+of.message.tf.aa1=Texturfiltrering är inte kompatibel med Kantutjämning.
+of.message.tf.aa2=Ändra Kvalitet -> Kantutjämning till AV och starta om spelet.
+
+of.message.tf.af1=Texturfiltrering är inte kompatibel med Anisotropisk filtrering.
+of.message.tf.af2=Ändra Kvalitet -> Anisotropisk filtrering till AV och starta om spelet.
+
+of.message.it.aa1=Bättre genomskinlighet är inte kompatibel med Kantutjämning.
+of.message.it.aa2=Ändra Kvalitet -> Kantutjämning till AV och starta om spelet.
+
+of.message.it.sh1=Bättre genomskinlighet är inte kompatibel med shaders.
+of.message.it.sh2=Inaktivera shaders för att aktivera detta alternativ.
 
 of.message.newVersion=En ny version av §eOptiFine§f finns tillgänglig: §e%s§f
 of.message.java64Bit=Du kan installera §e64-bitarsversionen av Java§f för att förbättra prestandan.
@@ -337,6 +355,9 @@ of.options.performanceTitle=Prestandainställningar
 of.options.animations=Animeringar...
 of.options.animationsTitle=Animeringsinställningar
 
+of.options.vanilla=Grundspelet...
+of.options.vanillaTitle=Inställningar från grundspelet
+
 of.options.other=Övrigt...
 of.options.otherTitle=Övriga inställningar
 
@@ -503,14 +524,13 @@ of.options.CUSTOM_GUIS.tooltip.5=aktuella resurspaketet.
 
 # Details
 
-of.options.CLOUDS=Moln
-of.options.CLOUDS.tooltip.1=Moln
-of.options.CLOUDS.tooltip.2=  Standard - följer alternativet "Grafik"
-of.options.CLOUDS.tooltip.3=  Snabbt - lägre kvalitet, snabbare
-of.options.CLOUDS.tooltip.4=  Snyggt - högre kvalitet, långsammare
-of.options.CLOUDS.tooltip.5=  AV - inga moln, snabbast
-of.options.CLOUDS.tooltip.6=Snabba moln renderas i 2D.
-of.options.CLOUDS.tooltip.7=Snygga moln renderas i 3D.
+options.renderClouds=Moln
+options.renderClouds.tooltip.1=Moln
+options.renderClouds.tooltip.2=  Snabbt - lägre kvalitet, snabbare
+options.renderClouds.tooltip.3=  Snyggt - högre kvalitet, långsammare
+options.renderClouds.tooltip.4=  AV - inga moln, snabbast
+options.renderClouds.tooltip.5=Snabba moln renderas i 2D.
+options.renderClouds.tooltip.6=Snygga moln renderas i 3D.
 
 of.options.CLOUD_HEIGHT=Molnhöjd
 of.options.CLOUD_HEIGHT.tooltip.1=Molnhöjd
@@ -526,14 +546,14 @@ of.options.TREES.tooltip.5=  Snyggt - högst kvalitet, långsammare
 of.options.TREES.tooltip.6=Snabba träd har ogenomskinliga löv.
 of.options.TREES.tooltip.7=Snygga och smarta träd har genomskinliga löv.
 
-of.options.RAIN=Regn och snö
-of.options.RAIN.tooltip.1=Regn och snö
-of.options.RAIN.tooltip.2=  Standard - följer alternativet "Grafik"
-of.options.RAIN.tooltip.3=  Snabbt - lätt regn/snö, snabbare
-of.options.RAIN.tooltip.4=  Snyggt - tungt regn/snö, långsammare
-of.options.RAIN.tooltip.5=  AV - inget regn/snö, snabbast
-of.options.RAIN.tooltip.6=Regnljud och regnstänk kommer fortfarande höras och
-of.options.RAIN.tooltip.7=synas om regn stängs av.
+options.weatherRadius=Vädereffektsradie
+options.weatherRadius.tooltip.1=Vädereffektsradie
+options.weatherRadius.tooltip.2=  AV - inget regn/snö, snabbast
+options.weatherRadius.tooltip.3=  5 block - lätt regn/snö, snabbare
+options.weatherRadius.tooltip.4=  10 block - tungt regn/snö, långsammare
+options.weatherRadius.tooltip.5=Radien för området där regn- och snöeffekter syns
+options.weatherRadius.tooltip.6=När detta inaktiveras kommer regnstänk och -ljud
+options.weatherRadius.tooltip.7=fortfarande att synas och höras.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
@@ -588,15 +608,14 @@ options.entityShadows.tooltip.1=Entitetsskuggor
 options.entityShadows.tooltip.2=  PÅ - visa skuggor för entiteter
 options.entityShadows.tooltip.3=  AV - visa inte skuggor för entiteter
 
-of.options.VIGNETTE=Vinjett
-of.options.VIGNETTE.tooltip.1=Visuell effekt som mörklägger skärmens hörn en aning
-of.options.VIGNETTE.tooltip.2=  Standard - följer alternativet "Grafik" (standard)
-of.options.VIGNETTE.tooltip.3=  Snabbt - vinjetten är inaktiverad (snabbare)
-of.options.VIGNETTE.tooltip.4=  Snyggt - vinjetten är aktiverad (långsammare)
-of.options.VIGNETTE.tooltip.5=Vinjetten kan ha en betydande verkan på bildfrekvensen,
-of.options.VIGNETTE.tooltip.6=speciellt när fullskärm är aktiverad.
-of.options.VIGNETTE.tooltip.7=Vinjetteffekten är riktigt diskret och kan stängas av
-of.options.VIGNETTE.tooltip.8=utan någon fara.
+options.vignette=Vinjett
+options.vignette.tooltip.1=Visuell effekt som mörklägger skärmens hörn en aning
+options.vignette.tooltip.2=  PÅ - vinjetten är inaktiverad (snabbare)
+options.vignette.tooltip.3=  AV - vinjetten är aktiverad (långsammare)
+options.vignette.tooltip.4=Vinjetten kan ha en betydande verkan på bildfrekvensen,
+options.vignette.tooltip.5=speciellt när fullskärm är aktiverad.
+options.vignette.tooltip.6=Vinjetteffekten är riktigt diskret och kan inaktiveras
+options.vignette.tooltip.7=utan någon fara.
 
 of.options.DYNAMIC_FOV=Dynamiskt synfält
 of.options.DYNAMIC_FOV.tooltip.1=Dynamiskt synfält
@@ -949,3 +968,32 @@ of.options.CHAT_SHADOW=Chattskugga
 of.options.CHAT_SHADOW.tooltip.1=Chattskugga
 of.options.CHAT_SHADOW.tooltip.2=  PÅ - använd textskugga
 of.options.CHAT_SHADOW.tooltip.3=  AV - ingen textskugga
+
+# Vanilla
+options.textureFiltering.tooltip.1=Texturfiltrering
+options.textureFiltering.tooltip.2=  OFF - ingen filtrering, snabbt
+options.textureFiltering.tooltip.3=  RGSS - långsammast
+options.textureFiltering.tooltip.4=  Anisotropisk - långsammare
+options.textureFiltering.tooltip.5=Återställer detaljer i mipmappade texturer. Använder
+options.textureFiltering.tooltip.6=betydligt mer minne i grafikprocessorn och läser
+options.textureFiltering.tooltip.7=eventuellt inte in HD-resurspaket. Inte kompatibel med
+options.textureFiltering.tooltip.8=Kvalitet -> Anisotropisk filtrering och Kantutjämning.
+
+options.maxAnisotropy.tooltip.1=Anisotropisk texturfiltrering
+options.maxAnisotropy.tooltip.2=  2x - snabbare
+options.maxAnisotropy.tooltip.3=  8x - långsammare
+options.maxAnisotropy.tooltip.4=Endast aktiv när Texturfiltrering är Anisotropisk.
+options.maxAnisotropy.tooltip.5=Högre nivåer använder betydligt mer minne i grafik-
+options.maxAnisotropy.tooltip.6=processorn och läser eventuellt inte in HD-resurspaket.
+
+options.improvedTransparency.tooltip.1=Bättre genomskinlighet
+options.improvedTransparency.tooltip.2=  PÅ - långsammare
+options.improvedTransparency.tooltip.3=  AV - snabbare
+options.improvedTransparency.tooltip.4=Genomskinlighetsrendering med flera buffertar kan
+options.improvedTransparency.tooltip.5=få bildfrekvensen att sjunka. Inte kompatibel med
+options.improvedTransparency.tooltip.6=Kantutjämning och shaders.
+
+options.renderCloudsDistance.tooltip.1=Molnrenderingsavstånd
+options.renderCloudsDistance.tooltip.2=  32 datablock - snabbt
+options.renderCloudsDistance.tooltip.3=  64 datablock - långsammare
+options.renderCloudsDistance.tooltip.4=  128 datablock - långsammast
