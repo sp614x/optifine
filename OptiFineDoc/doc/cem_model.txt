@@ -28,17 +28,25 @@
 # breeze_wind              body, rods, head, wind_body, wind_middle, wind_bottom, wind_top
 # breeze_wind_charge       <fallback to wind_charge>
 # camel                    body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg
+# camel_saddle             <camel parts>, saddle, reins, bridle
+# camel_husk               body, hump, tail, head, left_ear, right_ear, back_left_leg, back_right_leg, front_left_leg, front_right_leg
+# camel_husk_saddle        <camel_husk parts>, saddle, reins, bridle
 # cat                      body, head, tail, tail2, back_left_leg, back_right_leg, front_left_leg, front_right_leg
 # cat_collar               <fallback to cat>
 # cave_spider              body, head, neck, leg1 ... leg8
 # chicken                  body, head, right_leg, left_leg, right_wing, left_wing, bill, chin
 # cod                      body, fin_back, head, nose, fin_right, fin_left, tail
+# cold_chicken             <chicken parts>
+# cold_cow                 <cow parts>
+# cold_pig                 <pig parts>
+# copper_golem             body, head, right_arm, left_arm, right_leg, left_leg
 # cow                      body, head, leg1 ... leg4
 # creaking                 body, upper_body, head, right_arm, left_arm, right_leg, left_leg
 # creeper                  body, head, leg1 ... leg4
 # creeper_charge           body, head, leg1 ... leg4
 # dolphin                  body, back_fin, left_fin, right_fin, tail, tail_fin, head
 # donkey                   body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear, left_chest, right_chest
+# donkey_saddle            <donkey parts>, saddle, left_saddle_mouth, right_saddle_mouth, left_saddle_line, right_saddle_line, head_saddle, mouth_saddle_wrap
 # dragon                   head, jaw, body, neck1 ... neck4, neck5, tail1 ... tail12, left_wing, left_wing_tip, front_left_leg, front_left_shin, front_left_foot, back_left_leg, back_left_shin, back_left_foot, right_wing, right_wing_tip, front_right_leg, front_right_shin, front_right_foot, back_right_leg, back_right_shin, back_right_foot
 # drowned                  body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # drowned_outer            body, head, headwear, left_arm, right_arm, left_leg, right_leg
@@ -55,9 +63,14 @@
 # glow_squid               body, tentacle1 ... tentacle8
 # goat                     body, head, leg1 ... leg4, left_horn, right_horn, nose
 # guardian                 body, eye, spine1 ... spine12, tail1 ... tail3
+# happy_ghast              body, tentacle1 ... tentacle9
+# happy_ghast_baby         body, inner_body, tentacle1 ... tentacle9
+# happy_ghast_harness      body, goggles
+# happy_ghast_ropes        body, tentacle1 ... tentacle9
 # hoglin                   body, mane, head, right_ear, left_ear, front_right_leg, front_left_leg, back_right_leg, back_left_leg
 # horse                    body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
 # horse_armor              body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
+# horse_saddle             <horse parts>, saddle, left_saddle_mouth, right_saddle_mouth, left_saddle_line, right_saddle_line, head_saddle, mouth_saddle_wrap
 # husk                     body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # illusioner               body, head, hat, arms, right_leg, left_leg, nose, right_arm, left_arm
 # iron_golem               body, head, right_arm, left_arm, left_leg, right_leg
@@ -68,8 +81,12 @@
 # magma_cube               core, segment1 ... segment8
 # mooshroom                body, head, leg1 ... leg4
 # mule                     body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear, left_chest, right_chest
+# mule_saddle              <mule parts>, saddle, left_saddle_mouth, right_saddle_mouth, left_saddle_line, right_saddle_line, head_saddle, mouth_saddle_wrap
+# nautilus                 body, shell, upper_mouth, inner_mouth, lower_mouth
+# nautilus_saddle          shell
 # ocelot                   body, head, tail, tail2, back_left_leg, back_right_leg, front_left_leg, front_right_leg
 # panda                    body, head, leg1 ... leg4
+# parched                  body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # parrot                   body, tail, left_wing, right_wing, head, left_leg, right_leg
 # parrot_shoulder          <fallback to parrot>
 # phantom                  body, head, left_wing, left_wing_tip, right_wing, right_wing_tip, tail, tail2
@@ -95,6 +112,8 @@
 # silverfish               body1 ... body7, wing1 ... wing3
 # skeleton                 body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # skeleton_horse           body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
+# skeleton_horse_armor     body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
+# skeleton_horse_saddle    <skeleton_horse parts>, saddle, left_saddle_mouth, right_saddle_mouth, left_saddle_line, right_saddle_line, head_saddle, mouth_saddle_wrap
 # slime                    body, left_eye, right_eye, mouth
 # slime_outer              body
 # sniffer                  body, back_left_leg, back_right_leg, middle_left_leg, middle_right_leg, front_left_leg, front_right_leg, head, left_ear, right_ear, nose, lower_beak
@@ -121,6 +140,9 @@
 # vindicator               body, head, hat, arms, right_leg, left_leg, nose, right_arm, left_arm
 # wandering_trader         body, head, headwear, headwear2, bodywear, arms, right_leg, left_leg, nose
 # warden                   body, torso, head, right_leg, left_leg, right_arm, left_arm, right_tendril, left_tendril, right_ribcage, left_ribcage
+# warm_chicken             <chicken parts>
+# warm_cow                 <cow parts>
+# warm_pig                 <pig parts>
 # wind_charge              wind, charge
 # witch                    body, head, headwear, headwear2, bodywear, arms, right_leg, left_leg, nose, mole
 # wither                   body1 ... body3, head1 ... head3
@@ -133,6 +155,10 @@
 # zoglin                   body, mane, head, right_ear, left_ear, front_right_leg, front_left_leg, back_right_leg, back_left_leg
 # zombie                   body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # zombie_horse             body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
+# zombie_horse_armor       body, neck, back_right_leg, back_left_leg, front_right_leg, front_left_leg, tail, head, mane, mouth, left_ear, right_ear
+# zombie_horse_saddle      <zombie_horse parts>, saddle, left_saddle_mouth, right_saddle_mouth, left_saddle_line, right_saddle_line, head_saddle, mouth_saddle_wrap
+# zombie_nautilus          body, shell, upper_mouth, inner_mouth, lower_mouth
+# zombie_nautilus_coral    body, shell, upper_mouth, inner_mouth, lower_mouth, corals
 # zombie_villager          body, head, headwear, left_arm, right_arm, left_leg, right_leg
 # zombified_piglin         body, head, headwear, left_arm, right_arm, left_leg, right_leg, left_sleeve, right_sleeve, left_pants, right_pants, jacket, left_ear, right_ear
 #
@@ -143,25 +169,35 @@
 # axolotl_baby             <fallback to axolotl>
 # bee_baby                 <fallback to bee>
 # camel_baby               <fallback to camel>
+# camel_baby_saddle        <fallback to camel_saddle>
+# camel_husk_baby          <fallback to camel_husk>
+# camel_husk_baby_saddle   <fallback to camel_husk_saddle>
 # cat_baby                 <fallback to cat>
 # cat_baby_collar          <fallback to cat_collar>
 # chicken_baby             <fallback to chicken>
+# cold_chicken_baby        <fallback to cold_chicken>
+# cold_cow_baby            <fallback to cold_cow>
+# cold_pig_baby            <fallback to cold_pig>
 # cow_baby                 <fallback to cow>
 # dolphin_baby             <fallback to dolphin>
-# donkey_baby              <fallback to donkey>
+# donkey_baby              <no fallback>
+# donkey_baby_saddle       <no fallback>
 # drowned_baby             <fallback to drowned>
 # drowned_baby_outer       <fallback to drowned_outer>
 # fox_baby                 <fallback to fox>
 # glow_squid_baby          <fallback to glow_squid>
 # goat_baby                <fallback to goat>
 # hoglin_baby              <fallback to hoglin>
-# horse_baby               <fallback to horse>
-# horse_baby_armor         <fallback to horse_armor>
+# horse_baby               <no fallback>
+# horse_baby_armor         <no fallback>
+# horse_baby_saddle        <no fallback>
 # husk_baby                <fallback to husk>
 # llama_baby               <fallback to llama>
 # llama_baby_decor         <fallback to llama_decor>
 # mooshroom_baby           <fallback to mooshroom>
-# mule_baby                <fallback to mule>
+# mule_baby                <no fallback>
+# mule_baby_saddle         <no fallback>
+# nautilus_baby            <no fallback>
 # ocelot_baby              <fallback to ocelot>
 # panda_baby               <fallback to panda>
 # pig_baby                 <fallback to pig>
@@ -171,7 +207,9 @@
 # rabbit_baby              <fallback to rabbit>
 # sheep_baby               <fallback to sheep>
 # sheep_baby_wool          <fallback to sheep_wool>
-# skeleton_horse_baby      <fallback to skeleton_horse>
+# skeleton_horse_baby        <no fallback>
+# skeleton_horse_baby_armor  <no fallback>
+# skeleton_horse_baby_saddle <no fallback>
 # sniffer_baby             <fallback to sniffer>
 # squid_baby               <fallback to squid>
 # strider_baby             <fallback to strider>
@@ -180,12 +218,17 @@
 # trader_llama_baby_decor  <fallback to trader_llama_decor>
 # turtle_baby              <fallback to turtle>
 # villager_baby            <fallback to villager>
+# warm_chicken_baby        <fallback to warm_chicken>
+# warm_cow_baby            <fallback to warm_cow>
+# warm_pig_baby            <fallback to warm_pig>
 # wolf_baby                <fallback to wolf>
 # wolf_baby_armor          <fallback to wolf_armor>
 # wolf_baby_collar         <fallback to wolf_collar>
 # zoglin_baby              <fallback to zoglin>
 # zombie_baby              <fallback to zombie>
-# zombie_horse_baby        <fallback to zombie_horse>
+# zombie_horse_baby        <no fallback>
+# zombie_horse_baby_armor  <no fallback>
+# zombie_horse_baby_saddle <no fallback>
 # zombie_villager_baby     <fallback to zombie_villager>
 # zombified_piglin_baby    <fallback to zombified_piglin>
 #
