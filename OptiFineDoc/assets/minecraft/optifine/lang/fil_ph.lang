@@ -1,0 +1,995 @@
+# EN:
+# Translated by wackycreeper
+# Translation is not always accurate
+# Translation follows KWF (Komisyon sa Wikang Filipino) rules (https://kwf.gov.ph)
+# FIL:
+# Isinalin ni wackycreeper
+# Hindi laging tumpak ang pagsasalin
+# Sumusunod ang pagsasalin sa tuntunin ng KWF (Komisyon sa Wikang Filipino) (https://kwf.gov.ph)
+
+# General
+of.general.ambiguous=malabo
+of.general.compact=Siksik
+of.general.full=Buo
+of.general.detailed=Detalyado
+of.general.custom=Pasadya
+of.general.from=Mula
+of.general.id=Id
+of.general.max=Pinakamataas
+of.general.restart=pag-restart
+of.general.smart=Matalino
+of.general.anonymous=Di-kilala
+
+# Keys
+of.key.zoom=Pag-zoom
+
+# Message
+of.message.aa.shaders1=Hindi tugma sa Mga Shader ang Antialiasing.
+of.message.aa.shaders2=Mangyaring patayin ang Mga Shader upang paganahin ang opsyong ito.
+
+of.message.aa.gf1=Hindi tugma ang Antialiasing sa Pinabuting Transparensya.
+of.message.aa.gf2=Mangyaring itakda ang Pinabuting Transparensya sa NAKAPATAY.
+
+of.message.aa.tf1=Hindi tugma ang Antialiasing sa Texture Filtering.
+of.message.aa.tf2=Mangyaring itakda ang Texture Filtering sa Wala.
+
+of.message.af.shaders1=Hindi tugma ang Anisotropic Filtering sa Mga Shader.
+of.message.af.shaders2=Mangyaring patayin ang Mga Shader upang paganahin ang opsyong ito.
+
+of.message.af.tf1=Hindi tugma ang Anisotropic Filtering sa Texture Filtering.
+of.message.af.tf2=Mangyaring itakda ang Texture Filtering sa Wala.
+
+of.message.fr.shaders1=Hindi tugma ang Mabilisang Pag-render sa Mga Shader.
+of.message.fr.shaders2=Mangyaring patayin ang Mga Shader upang paganahin ang opsyong ito.
+
+of.message.an.shaders1=Hindi tugma ang 3D Anaglyph sa Mga Shader.
+of.message.an.shaders2=Mangyaring patayin ang Mga Shader upang paganahin ang opsyong ito.
+
+of.message.shaders.aa1=Hindi tugma ang Mga Shader sa Antialiasing.
+of.message.shaders.aa2=Mangyaring itakda ang Kalidad -> Antialiasing sa NAKAPATAY at i-restart ang laro.
+
+of.message.shaders.af1=Hindi tugma ang Mga Shader sa Anisotropic Filtering.
+of.message.shaders.af2=Mangyaring itakda ang Kalidad -> Anisotropic Filtering sa NAKAPATAY.
+
+of.message.shaders.fr1=Hindi tugma ang Mga Shader sa Mabilisang Pag-render.
+of.message.shaders.fr2=Mangyaring itakda ang Pagganap -> Mabilisang Pag-render sa NAKAPATAY.
+
+of.message.shaders.gf1=Hindi tugma ang Mga Shader sa Pinabuting Transparensya.
+of.message.shaders.gf2=Mangyaring itakda ang Pinabuting Transparensya sa NAKAPATAY.
+
+of.message.shaders.an1=Hindi tugma ang Mga Shader sa 3D Anaglyph.
+of.message.shaders.an2=Mangyaring itakda ang Iba pa -> 3D Anaglyph sa NAKAPATAY.
+
+of.message.shaders.nv1=Kailangan ng pinakabagong bersyon ng OptiFine ang shader pack na ito: %s
+of.message.shaders.nv2=Sigurado ka bang gusto mong magpatuloy?
+
+of.message.tf.aa1=Hindi tugma ang Texture Filtering sa Antialiasing.
+of.message.tf.aa2=Mangyaring itakda ang Kalidad -> Antialiasing sa NAKAPATAY at i-restart ang laro.
+
+of.message.tf.af1=Hindi tugma ang Texture Filtering sa Anisotropic Filtering.
+of.message.tf.af2=Mangyaring itakda ang Kalidad -> Anisotropic Filtering sa NAKAPATAY at i-restart ang laro.
+
+of.message.it.aa1=Hindi tugma ang Pinabuting Transparensya sa Antialiasing.
+of.message.it.aa2=Mangyaring itakda ang Kalidad -> Antialiasing sa NAKAPATAY at i-restart ang laro.
+
+of.message.it.sh1=Hindi tugma ang Pinabuting Transparensya sa Mga Shader.
+of.message.it.sh2=Mangyaring patayin ang Mga Shader upang paganahin ang opsyong ito.
+
+of.message.newVersion=May bagong bersyon ng §eOptiFine§f na magagamit: §e%s§f
+of.message.java64Bit=Maaari mong i-install ang §e64-bit Java§f upang mapabuti ang pagganap.
+of.message.openglError=§eOpenGL Error§f: %s (%s)
+
+of.message.shaders.loading=Inilo-load ang mga shader: %s
+
+of.message.other.reset=Ibalik ang lahat ng opsyon ng video sa kanilang mga panimulang halaga?
+
+of.message.loadingVisibleChunks=Inilo-load ang mga natatanaw na mga tipak
+
+# Skin customization
+
+of.options.skinCustomisation.ofCape=OptiFine Cape...
+
+of.options.capeOF.title=OptiFine Cape
+of.options.capeOF.openEditor=Buksan ang Cape Editor
+of.options.capeOF.reloadCape=I-reload ang Cape
+of.options.capeOF.copyEditorLink=Kopyahin ang Link Sa Clipboard
+
+of.message.capeOF.openEditor=Dapat bumukas ang OptiFine cape editor sa isang web browser.
+of.message.capeOF.openEditorError=Nagkamali sa pagbubukas ng link ng editor sa isang web browser.
+of.message.capeOF.reloadCape=Ire-reload ang cape sa loob ng 15 segundo.
+
+of.message.capeOF.error1=Nabigo ang pagpapatunay sa Mojang.
+of.message.capeOF.error2=Nagkamali: %s
+
+# Video settings
+
+options.graphics.tooltip.1=Biswal na kalidad
+options.graphics.tooltip.2=  Mabilis - mas mababang kalidad, mas mabilis
+options.graphics.tooltip.3=  Magarbo - mas mataas na kalidad, mas mabagal
+options.graphics.tooltip.4=  Kamangha-mangha - mas mahusay na nanganganinag na mga bagay, pinakamabagal
+options.graphics.tooltip.5=Binabago ang hitsura ng mga ulap, dahon, tubig,
+options.graphics.tooltip.6=mga anino at mga gilid ng damo.
+options.graphics.tooltip.7=Hindi tugma ang kamangha-manghang graphics sa mga shader at
+options.graphics.tooltip.8=antialiasing.
+
+of.options.renderDistance.tiny=Maliit
+of.options.renderDistance.short=Mababa
+of.options.renderDistance.normal=Katamtaman
+of.options.renderDistance.far=Malayo
+of.options.renderDistance.extreme=Matindi
+of.options.renderDistance.insane=Malupit
+of.options.renderDistance.ludicrous=Katawa-tawa
+
+options.renderDistance.tooltip.1=Natatanaw na distansya
+options.renderDistance.tooltip.2=  2 Maliit - 32m (pinakamabilis)
+options.renderDistance.tooltip.3=  8 Katamtaman - 128m (katamtaman)
+options.renderDistance.tooltip.4=  16 Malayo - 256m (mas mabagal)
+options.renderDistance.tooltip.5=  32 Matindi - 512m (pinakamabagal!) napaka-resource demanding
+options.renderDistance.tooltip.6=  48 Malupit - 768m, kailangan ng 2GB RAM na nakalaan
+options.renderDistance.tooltip.7=  64 Katawa-tawa - 1024m, kailangan ng 3GB RAM na nakalaan
+options.renderDistance.tooltip.8= Epektibo lamang ang mga halagang higit sa 16 Malayo sa mga lokal na mundo.
+
+options.simulationDistance.tooltip.1=Distansya ng simulasyon
+options.simulationDistance.tooltip.2=  5-12 - Katamtaman (mas mabilis)
+options.simulationDistance.tooltip.3=  13-24 - Malayo (mas mabagal)
+options.simulationDistance.tooltip.4=  25-32 - Matindi (pinakamabagal)
+options.simulationDistance.tooltip.5=Kinokontrol kung gaano kalayo mula sa manlalaro ang mga tipak at entidad
+options.simulationDistance.tooltip.6=ang ina-update. 
+options.simulationDistance.tooltip.7=Maaaring magdulot ng makabuluhang lag spike ang mas mataas na halaga. 
+
+options.entityDistanceScaling.tooltip.1=Layo ng pag-render ng entidad
+options.entityDistanceScaling.tooltip.2=  50%% - mas mabilis
+options.entityDistanceScaling.tooltip.3=  100%% - panimula 
+options.entityDistanceScaling.tooltip.4=  500%% - mas mabagal
+options.entityDistanceScaling.tooltip.5=Binabago ang pinakamataas na distansya kung saan ipinapakita ang mga entidad.
+
+options.ao.tooltip.1=Dalisayang pag-iilaw
+options.ao.tooltip.2=  NAKAPATAY - walang dalisayang pag-iilaw (mas mabilis)
+options.ao.tooltip.3=  Pinakamababa - simpleng dalisayang pag-iilaw (mas mabagal)
+options.ao.tooltip.4=  Pinakamataas - masalimuot na dalisayang pag-iilaw (pinakamabagal)
+
+options.framerateLimit.tooltip.1=Pinakamataas na framerate
+options.framerateLimit.tooltip.2=  VSync - limitahan upang subaybayan ang framerate (60, 30, 20)
+options.framerateLimit.tooltip.3=  5-255 - pabagu-bago
+options.framerateLimit.tooltip.4=  Walang Limitasyon - walang limitasyon (pinakamabilis)
+options.framerateLimit.tooltip.5=Binabawasan ng limitasyon ng framerate ang FPS kahit na
+options.framerateLimit.tooltip.6=hindi naabot ang halaga ng limitasyon.
+of.options.framerateLimit.vsync=VSync
+
+of.options.AO_LEVEL=Antas ng Dalisayang Pag-iilaw
+of.options.AO_LEVEL.tooltip.1=Antas ng dalisayang pag-iilaw
+of.options.AO_LEVEL.tooltip.2=  NAKAPATAY - walang anino
+of.options.AO_LEVEL.tooltip.3=  50%% - maliwanag na anino 
+of.options.AO_LEVEL.tooltip.4=  100%% - madilim na anino
+
+options.viewBobbing.tooltip.1=Mas makatotohanang paggalaw.
+options.viewBobbing.tooltip.2=Kapag gumagamit ng mipmaps, itakda ito sa NAKAPATAY para sa pinakamahusay na mga resulta.
+
+options.guiScale.tooltip.1=Laki ng GUI 
+options.guiScale.tooltip.2=  Awtomatiko - pinakamataas na laki
+options.guiScale.tooltip.3=  Maliit, Katamtaman, Malaki - 1x to 3x
+options.guiScale.tooltip.4=  4x to 10x - magagamit sa mga 4K na mga display
+options.guiScale.tooltip.5=Hindi tugma ang mga kakaibang value (1x, 3x, 5x ...) sa Unicode.  
+options.guiScale.tooltip.6=Maaaring mas mabilis ang mas maliit na GUI. 
+
+options.vbo=Gumamit ng VBO
+options.vbo.tooltip.1=Vertex Buffer Objects
+options.vbo.tooltip.2=Gumagamit ng alternatibong modelo ng pag-render na karaniwan ay
+options.vbo.tooltip.3=mas mabilis (5-10%%) kaysa sa panimula ng pag-render.
+
+options.gamma.tooltip.1=Binabago ang liwanag ng mas madidilim na mga bagay.
+options.gamma.tooltip.2=  Madilim - karaniwang liwanag
+options.gamma.tooltip.3=  1-99%% - pabagu-bago
+options.gamma.tooltip.4=  Maliwanag - pinakamataas na liwanag para sa mas madidilim na mga bagay
+options.gamma.tooltip.5=Hindi binabago ng opsyong ito ang liwanag ng
+options.gamma.tooltip.6=mga ganap na itim na bagay.
+
+options.anaglyph.tooltip.1=3D Anaglyph
+options.anaglyph.tooltip.2=Pinapagana ang isang stereoscopic 3D na epekto gamit ang iba't ibang kulay
+options.anaglyph.tooltip.3=para sa bawat mata.
+options.anaglyph.tooltip.4=Nangangailangan ng pula-cyan na salamin para sa tamang pagtingin.
+
+options.attackIndicator.tooltip.1=Kinokonpigura ang posisyon ng indikasyon ng pag-atake
+options.attackIndicator.tooltip.2=  Crosshair - sa ilalim ng crosshair
+options.attackIndicator.tooltip.3=  Hotbar - sa tabi ng hotbar
+options.attackIndicator.tooltip.4=  NAKAPATAY - walang indikasyon ng pag-atake
+options.attackIndicator.tooltip.5=Nagpapakita ng lakas ng pag-atake ang indikasyon ng pag-atake sa
+options.attackIndicator.tooltip.6=kasalukuyang ginagamit na aytem
+
+options.screenEffectScale.tooltip.1=Epekto ng pagkabaluktot
+options.screenEffectScale.tooltip.2=  NAKAPATAY - hindi pinagana
+options.screenEffectScale.tooltip.3=  1-100%% - pinagana
+options.screenEffectScale.tooltip.4=Kinokontrol ang intensidad ng epekto ng pagkabaluktot sa screen
+options.screenEffectScale.tooltip.5=tulad ng portal animation at ang epektong pagkahilo.
+
+options.autosaveIndicator.tooltip.1=Indikasyon ng awtomatikong pag-save
+options.autosaveIndicator.tooltip.2=  NAKAPATAY - hindi pinagana
+options.autosaveIndicator.tooltip.3=  NAKAANDAR - pinagana
+options.autosaveIndicator.tooltip.4=Ipinapakita kapag awtomatikong nagsesave ng laro ang mundo.
+
+options.fovEffectScale.tooltip.1=Epekto ng FOV
+options.fovEffectScale.tooltip.2=  NAKAPATAY - hindi pinagana
+options.fovEffectScale.tooltip.3=  1-100%% - pinagana
+options.fovEffectScale.tooltip.4=Kinokontrol ang intensidad ng epekto ng screen zooming
+options.fovEffectScale.tooltip.5=tulad ng paghila ng pana, pagtakbo at paglipad.
+
+options.prioritizeChunkUpdates.tooltip.1=Tagagawa ng tipak
+options.prioritizeChunkUpdates.tooltip.2= Sunod-sunod - ina-update ang lahat ng mga tipak sa likuran
+options.prioritizeChunkUpdates.tooltip.3= Kalahating Pagharang - ina-update agad ang mga apektadong tipak ng manlalaro
+options.prioritizeChunkUpdates.tooltip.4= Lubos na Pagharang - ina-update agad ang lahat ng kalapit na mga tipak
+options.prioritizeChunkUpdates.tooltip.5=Ang mga sunod-sunod na pag-update ay maaaring panandaliang magpakita ng mga butas sa lupain.
+options.prioritizeChunkUpdates.tooltip.6=Maaaring magdulot ng makabuluhang lag spike ang pag-update gamit ang lubos na pagharang.
+
+of.options.ALTERNATE_BLOCKS=Alternatibong Bloke
+of.options.ALTERNATE_BLOCKS.tooltip.1=Alternatibong Bloke
+of.options.ALTERNATE_BLOCKS.tooltip.2=Gumagamit ng mga alternatibong modelo ng bloke para sa ilang bloke. 
+of.options.ALTERNATE_BLOCKS.tooltip.3=Depende sa piniling resource pack.
+
+of.options.FOG_FANCY=Hamog
+of.options.FOG_FANCY.tooltip.1=Uri ng hamog
+of.options.FOG_FANCY.tooltip.2=  Mabilis - mas mabilis na hamog
+of.options.FOG_FANCY.tooltip.3=  Magarbo - mas mabagal na hamog, mukhang mas maganda
+of.options.FOG_FANCY.tooltip.4=  NAKAPATAY - walang hamog, pinakamabilis
+of.options.FOG_FANCY.tooltip.5=Magagamit lamang ang magarbong hamog kung ito ay sinusuportahan ng
+of.options.FOG_FANCY.tooltip.6=graphic card.
+
+of.options.FOG_START=Pag-umpisa ng hamog
+of.options.FOG_START.tooltip.1=Pag-umpisa ng hamog
+of.options.FOG_START.tooltip.2=  0.2 - nagsisimula ang hamog malapit sa manlalaro
+of.options.FOG_START.tooltip.3=  0.8 - nagsisimula ang hamog sa malayo mula sa player
+of.options.FOG_START.tooltip.4=Karaniwang hindi nakakaapekto sa pagganap ang opsyong ito.
+
+of.options.CHUNK_LOADING=Pagloload ng tipak
+of.options.CHUNK_LOADING.tooltip.1=Pagloload ng tipak
+of.options.CHUNK_LOADING.tooltip.2=  Panimula - hindi matatag na FPS kapag naglo-load ng mga tipak
+of.options.CHUNK_LOADING.tooltip.3=  Magaan - matatag na FPS
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - matatag na FPS, 3x mas mabilis na pagloload ng mundo
+of.options.CHUNK_LOADING.tooltip.5=Inaalis ng Smooth and Multi-Core ang pagkakabagsak at 
+of.options.CHUNK_LOADING.tooltip.6=paghihinto dulot ng pagloload ng tipak
+of.options.CHUNK_LOADING.tooltip.7=Maaaring pabilisin ng Multi-Core ng 3x na paglo-load ng mundo at
+of.options.CHUNK_LOADING.tooltip.8=pagbutihin ang FPS sa pamamagitan ng paggamit ng ikalawang CPU core.
+of.options.chunkLoading.smooth=Magaan
+of.options.chunkLoading.multiCore=Multi-Core
+
+of.options.shaders=Mga Shader...
+of.options.shadersTitle=Mga Shader
+
+of.options.shaders.packNone=NAKAPATAY
+of.options.shaders.packDefault=(debug)
+
+of.options.shaders.ANTIALIASING=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.1=Antialiasing
+of.options.shaders.ANTIALIASING.tooltip.2=  NAKAPATAY - (panimula) walang antialiasing (mas mabilis)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - antialiased na mga linya at gilid (mas mabagal)
+of.options.shaders.ANTIALIASING.tooltip.4=Ang FXAA ay isang naprosesong epekto na nagpapahusay ng mga
+of.options.shaders.ANTIALIASING.tooltip.5=tulis-tulis na mga linya at transisyon ng mga maliwanag na kulay. 
+of.options.shaders.ANTIALIASING.tooltip.6=Mas mabilis pa ito kaysa sa tradisyonal na antialiasing
+of.options.shaders.ANTIALIASING.tooltip.7=at tugma sa shader.  
+
+of.options.shaders.NORMAL_MAP=Normal na Mapa
+of.options.shaders.NORMAL_MAP.tooltip.1=Normal na Mapa
+of.options.shaders.NORMAL_MAP.tooltip.2=  NAKAANDAR - (panimula) paganahin ang mga normal na mapa 
+of.options.shaders.NORMAL_MAP.tooltip.3=  NAKAPATAY - hindi pinagana ang mga normal na mapa
+of.options.shaders.NORMAL_MAP.tooltip.4=Maaaring gamitin ang mga normal na mapa ng shader pack
+of.options.shaders.NORMAL_MAP.tooltip.5=upang gayahin ang 3D na heometrya sa patag na ibabaw ng modelo.
+of.options.shaders.NORMAL_MAP.tooltip.6=Ang texture ng normal na mga mapa ay ibinibigay ng
+of.options.shaders.NORMAL_MAP.tooltip.7=kasalukuyang resource pack.
+
+of.options.shaders.SPECULAR_MAP=Specular na Mapa
+of.options.shaders.SPECULAR_MAP.tooltip.1=Specular na Mapa
+of.options.shaders.SPECULAR_MAP.tooltip.2=  NAKAANDAR - (panimula) paganahin ang mga specular na mapa
+of.options.shaders.SPECULAR_MAP.tooltip.3=  NAKAPATAY - hindi pinagana ang mga specular na mapa
+of.options.shaders.SPECULAR_MAP.tooltip.4=Maaaring gamitin ng mga specular na mapa ng shader pack
+of.options.shaders.SPECULAR_MAP.tooltip.5=upang gayahin ang espesyal na epekto ng aninag.
+of.options.shaders.SPECULAR_MAP.tooltip.6=Ang texture ng specular na mapa ay ibinibigay ng
+of.options.shaders.SPECULAR_MAP.tooltip.7=kasalukuyang resource pack.
+
+of.options.shaders.RENDER_RES_MUL=Kalidad ng Pag-render
+of.options.shaders.RENDER_RES_MUL.tooltip.1=Kalidad ng Pag-render
+of.options.shaders.RENDER_RES_MUL.tooltip.2=  0.5x - mababa (pinakamabilis)
+of.options.shaders.RENDER_RES_MUL.tooltip.3=  1x - karaniwan (panimula)
+of.options.shaders.RENDER_RES_MUL.tooltip.4=  2x - mataas (pinakamabagal)
+of.options.shaders.RENDER_RES_MUL.tooltip.5=Kinokontrol ng kalidad ng pag-render ang laki ng texture
+of.options.shaders.RENDER_RES_MUL.tooltip.6=kung saan nire-render ang shader pack.
+of.options.shaders.RENDER_RES_MUL.tooltip.7=Maaaring maging kapaki-pakinabang ang mas mababang mga halaga sa mga 4K na display.
+of.options.shaders.RENDER_RES_MUL.tooltip.8=Gumagana ang mas matataas na halaga bilang isang antialiasing na filter.
+
+of.options.shaders.SHADOW_RES_MUL=Kalidad ng Anino
+of.options.shaders.SHADOW_RES_MUL.tooltip.1=Kalidad ng Anino
+of.options.shaders.SHADOW_RES_MUL.tooltip.2=  0.5x - mababa (pinakamabilis)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3=  1x - karaniwan (panimula)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4=  2x - mataas (pinakamabagal)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5=Kinokontrol ng kalidad ng anino ang laki ng texture ng
+of.options.shaders.SHADOW_RES_MUL.tooltip.6=mapa ng anino na ginagamit ng shader pack.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7=Mas mababang halaga = hindi tumpak, magaspang na mga anino
+of.options.shaders.SHADOW_RES_MUL.tooltip.8=Mas mataas na halaga = detalyado, mas pino na mga anino.
+
+of.options.shaders.HAND_DEPTH_MUL=Lalim ng Kamay
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1=Lalim ng Kamay
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2=  0.5x - kamay malapit sa camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3=  1x - (panimula)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - kamay na malayo mula sa camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Kinokontrol ng lalim ng kamay kung gaano kalayo ang mga dala-dalang bagay
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6=mula sa camera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Para sa mga shader pack na gumagamit ng depth blur dapat nitong baguhin
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ang paglalabo ng mga dala-dalang bagay.
+
+of.options.shaders.CLOUD_SHADOW=Anino ng Ulap
+
+of.options.shaders.OLD_HAND_LIGHT=Lumang Ilaw ng Kamay
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1=Lumang Ilaw ng Kamay
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2=  Panimula - kinokontrol ng shader pack
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3=  NAKAANDAR - gamitin ang lumang ilaw ng kamay
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4=  NAKAPATAY - gamitin ang bagong ilaw ng kamay
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5=Ang lumang ilaw ng kamay ay nagbibigay-daan sa mga shader pack na nakikilala lamang  
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6=ang mga bagay na naglalabas ng ilaw sa pangunahing kamay
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7=upang gumana din sa mga aytem na nasa kaliwang kamay.
+
+of.options.shaders.OLD_LIGHTING=Lumang Pag-iilaw
+of.options.shaders.OLD_LIGHTING.tooltip.1=Lumang Pag-iilaw
+of.options.shaders.OLD_LIGHTING.tooltip.2=  Panimula - kinokontrol ng shader pack
+of.options.shaders.OLD_LIGHTING.tooltip.3=  NAKAANDAR - gamitin ang lumang pag-iilaw
+of.options.shaders.OLD_LIGHTING.tooltip.4=  NAKAPATAY - huwag gamitin ang lumang pag-iilaw
+of.options.shaders.OLD_LIGHTING.tooltip.5=Kinokontrol ng lumang pag-iilaw ang nakapirming pag-iilaw na inilapat
+of.options.shaders.OLD_LIGHTING.tooltip.6=ng vanilla sa mga gilid ng bloke.
+of.options.shaders.OLD_LIGHTING.tooltip.7=Ang mga shader pack na gumagamit ng mga anino ay kadalasang nagbibigay
+of.options.shaders.OLD_LIGHTING.tooltip.8=ng mas magandang liwanag depende sa posisyon ng araw.
+
+of.options.shaders.DOWNLOAD=I-download ang Mga Shader
+of.options.shaders.DOWNLOAD.tooltip.1=I-download ang Mga Shader
+of.options.shaders.DOWNLOAD.tooltip.2= 
+of.options.shaders.DOWNLOAD.tooltip.3=Binubuksan ang pahina ng mga shader pack sa isang browser.
+of.options.shaders.DOWNLOAD.tooltip.4=Ilagay ang na-download na shader pack sa "Shaders Folder"
+of.options.shaders.DOWNLOAD.tooltip.5=at lalabas ang mga ito sa listahan ng mga naka-install na shader.
+
+of.options.shaders.SHADER_PACK=Shader Pack
+
+of.options.shaders.shadersFolder=Shaders Folder
+of.options.shaders.shaderOptions=Mga Opsyon ng Shader...
+
+of.options.shaderOptionsTitle=Mga Opsyon ng Shader
+
+of.options.quality=Kalidad...
+of.options.qualityTitle=Mga Opsyon ng Kalidad
+
+of.options.details=Mga Detalye...
+of.options.detailsTitle=Mga Opsyon ng Detalye
+
+of.options.performance=Pagganap...
+of.options.performanceTitle=Mga Opsyon ng Pagganap
+
+of.options.animations=Animasyon...
+of.options.animationsTitle=Mga Opsyon ng Animasyon
+
+of.options.vanilla=Vanilla...
+of.options.vanillaTitle=Mga Opsyon ng Vanilla
+
+of.options.other=Iba pa...
+of.options.otherTitle=Iba pang mga opsyon
+
+of.options.quickInfo=Mabilisang Impormasyon...
+of.options.quickInfoTitle=Mga Opsyon ng Mabilisang Impormasyon
+
+of.options.other.reset=Ibalik ang Mga Opsyon ng Video...
+
+of.shaders.profile=Profile
+
+# Quality
+
+of.options.mipmap.bilinear=Dalinanyar
+of.options.mipmap.linear=Linyar
+of.options.mipmap.nearest=Pinakamalapit
+of.options.mipmap.trilinear=Talinanyar
+
+options.mipmapLevels.tooltip.1=Biswal na epekto na nagpapaganda ng mga malalayong bagay
+options.mipmapLevels.tooltip.2=sa pamamagitan ng pagpapahusay ng mga detalye ng texture
+options.mipmapLevels.tooltip.3=  NAKAPATAY - walang pagpapahusay
+options.mipmapLevels.tooltip.4=  1 - pinakamababa na pagpapahusay
+options.mipmapLevels.tooltip.5=  Pinakamataas - pinakamataas na pagpapahusay.
+options.mipmapLevels.tooltip.6=Karaniwang hindi nakakaapekto sa pagganap ang opsyong ito.
+
+of.options.MIPMAP_TYPE=Uri ng Mipmap
+of.options.MIPMAP_TYPE.tooltip.1=Biswal na epekto na nagpapaganda ng mga malalayong bagay
+of.options.MIPMAP_TYPE.tooltip.2=sa pamamagitan ng pagpapahusay ng mga detalye ng texture
+of.options.MIPMAP_TYPE.tooltip.3=  Pinakamalapit - magaspang na pagpapahusay (pinakamabilis)
+of.options.MIPMAP_TYPE.tooltip.4=  Linyar - katamtamang pagpapahusay
+of.options.MIPMAP_TYPE.tooltip.5=  Dalinanyar - pinong pagpapahusay
+of.options.MIPMAP_TYPE.tooltip.6=  Talinanyar - pinakapinong pagpapahusay (pinakamabagal)
+
+
+of.options.AA_LEVEL=Antialiasing
+of.options.AA_LEVEL.tooltip.1=Antialiasing
+of.options.AA_LEVEL.tooltip.2= NAKAPATAY - (panimula) walang antialiasing (pinakamabilis)
+of.options.AA_LEVEL.tooltip.3= 2-16 - antialiased na mga linya at gilid (pinakamabagal)
+of.options.AA_LEVEL.tooltip.4=Pinapahusay ng Antialiasing ang mga tulis-tulis na mga linya at
+of.options.AA_LEVEL.tooltip.5=transisyon ng mga maliwanag na kulay.
+of.options.AA_LEVEL.tooltip.6=Kapag pinagana, maaari nitong bawasan nang husto ang FPS.
+of.options.AA_LEVEL.tooltip.7=Hindi lahat ng antas ang sinusuportahan ng lahat ng mga graphic card.
+of.options.AA_LEVEL.tooltip.8=Epektibo pagkatapos ng PAG-RESTART!
+
+of.options.AF_LEVEL=Anisotropic Filtering
+of.options.AF_LEVEL.tooltip.1=Anisotropic Filtering
+of.options.AF_LEVEL.tooltip.2= NAKAPATAY - (panimula) karaniwang detalye ng texture (pinakamabilis)
+of.options.AF_LEVEL.tooltip.3= 2-16 - mas pinong detalye sa mga mipmapped texture (pinakamabagal)
+of.options.AF_LEVEL.tooltip.4=Ibinabalik ng Anisotropic Filtering ang mga detalye sa
+of.options.AF_LEVEL.tooltip.5=mga mipmapped texture.
+of.options.AF_LEVEL.tooltip.6=Kapag pinagana, maaari nitong bawasan nang husto ang FPS.
+
+of.options.CLEAR_WATER=Malinaw na Tubig
+of.options.CLEAR_WATER.tooltip.1=Malinaw na Tubig
+of.options.CLEAR_WATER.tooltip.2=  NAKAANDAR - malinaw, nanganganinag na tubig
+of.options.CLEAR_WATER.tooltip.3=  NAKAPATAY - panimulang tubig
+
+of.options.RANDOM_ENTITIES=Alinmang Entidad
+of.options.RANDOM_ENTITIES.tooltip.1=Alinmang Entidad
+of.options.RANDOM_ENTITIES.tooltip.2=  NAKAPATAY - walang kahit anong entidad, mas mabilis
+of.options.RANDOM_ENTITIES.tooltip.3=  NAKAANDAR - alinmang entidad, mas mabagal
+of.options.RANDOM_ENTITIES.tooltip.4=Nagpapakita ang mga alinmang entidad ng kahit anong texture para sa mga entidad ng laro.
+of.options.RANDOM_ENTITIES.tooltip.5=Ang mga alinmang texture ay ibinibigay ng kasalukuyang
+of.options.RANDOM_ENTITIES.tooltip.6=resource pack na may dalawa o higit pang mga texture ng entidad.
+
+of.options.BETTER_GRASS=Mas Magandang Damo
+of.options.BETTER_GRASS.tooltip.1=Mas Magandang Damo
+of.options.BETTER_GRASS.tooltip.2=  NAKAPATAY - panimulang texture ng gilid ng damo, pinakamabilis
+of.options.BETTER_GRASS.tooltip.3=  Mabilis - buong texture ng gilid ng damo, mas mabagal
+of.options.BETTER_GRASS.tooltip.4=  Magarbo - dynamic na texture ng gilid ng damo, pinakamabagal
+
+of.options.BETTER_SNOW=Mas Magandang Niyebe
+of.options.BETTER_SNOW.tooltip.1=Mas Magandang Niyebe
+of.options.BETTER_SNOW.tooltip.2=  NAKAPATAY - panimulang niyebe, mas mabilis
+of.options.BETTER_SNOW.tooltip.3=  NAKAANDAR - mas magandang niyebe, mas mabagal
+of.options.BETTER_SNOW.tooltip.4=Nagpapakita ng snow sa ilalim ng mga nanganganinag na bloke (bakod, matataas na damo)
+of.options.BETTER_SNOW.tooltip.5=kapag nasa hangganan ng mga bloke ng niyebe.
+
+of.options.CUSTOM_FONTS=Pasadyang Font
+of.options.CUSTOM_FONTS.tooltip.1=Pasadyang Font
+of.options.CUSTOM_FONTS.tooltip.2=  NAKAANDAR - gumagamit ng mga custom font (panimula), mas mabagal
+of.options.CUSTOM_FONTS.tooltip.3=  NAKAPATAY - gumagamit ng mga panimulang font, mas mabilis
+of.options.CUSTOM_FONTS.tooltip.4=Ang mga pasadyang font ay ibinibigay ng kasalukuyang
+of.options.CUSTOM_FONTS.tooltip.5=resource pack.
+
+of.options.CUSTOM_COLORS=Pasadyang Kulay
+of.options.CUSTOM_COLORS.tooltip.1=Pasadyang Kulay
+of.options.CUSTOM_COLORS.tooltip.2=  NAKAANDAR - gumagamit ng mga pasadyang kulay (panimula), mas mabagal
+of.options.CUSTOM_COLORS.tooltip.3=  NAKAPATAY - gumagamit ng mga pasadyang kulay, mas mabilis
+of.options.CUSTOM_COLORS.tooltip.4=Ang mga pasadyang kulay ay ibinibigay ng kasalukuyang
+of.options.CUSTOM_COLORS.tooltip.5=resource pack.
+
+of.options.SWAMP_COLORS=Kulay ng Latian
+of.options.SWAMP_COLORS.tooltip.1=Kulay ng Latian
+of.options.SWAMP_COLORS.tooltip.2=  NAKAANDAR - gumagamit ng mga kulay ng latian (panimula), mas mabagal
+of.options.SWAMP_COLORS.tooltip.3=  NAKAPATAY - huwag gamitin ang mga kulay ng latian, mas mabilis
+of.options.SWAMP_COLORS.tooltip.4=Ang mga kulay ng latian ay nakakaapekto sa damo, dahon, baging at tubig.
+
+of.options.SMOOTH_BIOMES=Mahusay na Biome
+of.options.SMOOTH_BIOMES.tooltip.1=Mahusay na Biome
+of.options.SMOOTH_BIOMES.tooltip.2=  NAKAANDAR - pagpapahusay sa mga hangganan ng biome (panimula), mas mabagal
+of.options.SMOOTH_BIOMES.tooltip.3=  NAKAPATAY - walang pagpapahusay sa mga hangganan ng biome, mas mabilis
+of.options.SMOOTH_BIOMES.tooltip.4=Ang pagpapahusay ng mga hangganan ng biome ay ginagawa sa pamamagitan ng pagsasampol at
+of.options.SMOOTH_BIOMES.tooltip.5=pagsusukat ng kulay ng lahat ng nakapalibot na mga bloke.
+of.options.SMOOTH_BIOMES.tooltip.6=Ang mga apektado ay damo, dahon, baging at tubig.
+
+of.options.CONNECTED_TEXTURES=Konektadong Texture
+of.options.CONNECTED_TEXTURES.tooltip.1=Konektadong Texture
+of.options.CONNECTED_TEXTURES.tooltip.2=  NAKAPATAY - walang konektadong texture (panimula)
+of.options.CONNECTED_TEXTURES.tooltip.3=  Mabilis - mabilis na mga konektadong texture
+of.options.CONNECTED_TEXTURES.tooltip.4=  Magarbo - magarbo na mga konektadong texture
+of.options.CONNECTED_TEXTURES.tooltip.5=Pinagsasama ng mga konektadong texture ang mga texture ng salamin,
+of.options.CONNECTED_TEXTURES.tooltip.6=batong buhangin at mga istante ng aklatan kapag inilagay sa tabi
+of.options.CONNECTED_TEXTURES.tooltip.7=ng isa't isa. Ang mga konektadong texture ay ibinibigay
+of.options.CONNECTED_TEXTURES.tooltip.8=ng kasalukuyang resource pack.
+
+of.options.NATURAL_TEXTURES=Natural na Texture
+of.options.NATURAL_TEXTURES.tooltip.1=Natural na Texture
+of.options.NATURAL_TEXTURES.tooltip.2=  NAKAPATAY - walang natural na mga texture (panimula)
+of.options.NATURAL_TEXTURES.tooltip.3=  NAKAANDAR - gumamit ng natural na mga texture
+of.options.NATURAL_TEXTURES.tooltip.4=Ang mga natural na texture ay nag-aalis ng mga parang salaguhit na estilo
+of.options.NATURAL_TEXTURES.tooltip.5=na ginawa sa pamamagitan ng paulit-ulit na mga bloke ng parehong uri.
+of.options.NATURAL_TEXTURES.tooltip.6=Gumagamit ito ng pinaikot at binaligtad na mga baryant ng basehang
+of.options.NATURAL_TEXTURES.tooltip.7=texture ng bloke. Ang konpigurasyon para sa mga natural na
+of.options.NATURAL_TEXTURES.tooltip.8=texture ay ibinibigay ng kasalukuyang resource pack.
+
+of.options.EMISSIVE_TEXTURES=Naglalabasang Texture
+of.options.EMISSIVE_TEXTURES.tooltip.1=Naglalabasang Texture
+of.options.EMISSIVE_TEXTURES.tooltip.2=  NAKAPATAY - walang naglalabasang texture (panimula)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  NAKAANDAR - gumamit ng naglalabasang texture
+of.options.EMISSIVE_TEXTURES.tooltip.4=Ang mga naglalabasang texture ay ipinapakita bilang mga patong
+of.options.EMISSIVE_TEXTURES.tooltip.5=na may ganap na liwanag. Magagamit ang mga ito upang gayahin
+of.options.EMISSIVE_TEXTURES.tooltip.6=ang mga bahaging naglalabas ng liwanag ng basehang texture.
+of.options.EMISSIVE_TEXTURES.tooltip.7=Ang mga naglalabasang texture ay ibinibigay ng kasalukuyang
+of.options.EMISSIVE_TEXTURES.tooltip.8=resource pack.
+
+of.options.CUSTOM_SKY=Pasadyang Langit
+of.options.CUSTOM_SKY.tooltip.1=Pasadyang Langit
+of.options.CUSTOM_SKY.tooltip.2=  NAKAANDAR - pasadyang texture ng langit (panimula), mabagal
+of.options.CUSTOM_SKY.tooltip.3=  NAKAPATAY - panimulang langit, mas mabilis
+of.options.CUSTOM_SKY.tooltip.4=Ang mga pasadyang texture ng langit ay ibinibigay ng kasalukuyang
+of.options.CUSTOM_SKY.tooltip.5=resource pack.
+
+of.options.CUSTOM_ITEMS=Pasadyang Aytem
+of.options.CUSTOM_ITEMS.tooltip.1=Pasadyang Aytem
+of.options.CUSTOM_ITEMS.tooltip.2=  NAKAANDAR - pasadyang texture ng aytem (panimula), mabagal
+of.options.CUSTOM_ITEMS.tooltip.3=  NAKAPATAY - panimulang texture ng aytem, mas mabilis
+of.options.CUSTOM_ITEMS.tooltip.4=Ang mga pasadyang texture ng aytem ay ibinibigay ng kasalukuyang
+of.options.CUSTOM_ITEMS.tooltip.5=resource pack.
+
+of.options.CUSTOM_ENTITY_MODELS=Pasadyang Modelo ng Entidad
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=Pasadyang Modelo ng Entidad
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=  NAKAANDAR - pasadyang modelo ng entidad (panimula), mabagal
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=  NAKAPATAY - panimulang modelo ng entidad, mas mabilis
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=Ang mga pasadyang modelo ng entidad ay ibinibigay ng kasalukuyang
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=resource pack.
+
+of.options.CUSTOM_GUIS=Pasadyang GUI
+of.options.CUSTOM_GUIS.tooltip.1=Pasadyang GUI
+of.options.CUSTOM_GUIS.tooltip.2=  NAKAANDAR - pasadyang GUI (panimula), mas mabagal
+of.options.CUSTOM_GUIS.tooltip.3=  NAKAPATAY - panimulang GUI, mas mabilis
+of.options.CUSTOM_GUIS.tooltip.4=Ang mga pasadyang texture ng GUI ay ibinibigay ng kasalukuyang
+of.options.CUSTOM_GUIS.tooltip.5=resource pack.
+
+# Details
+
+options.renderClouds=Mga Ulap
+options.renderClouds.tooltip.1=Mga Ulap
+options.renderClouds.tooltip.2=  Mabilis - mababang kalidad, mas mabilis
+options.renderClouds.tooltip.3=  Magarbo - mas mataas na kalidad, mas mabagal
+options.renderClouds.tooltip.4=  NAKAPATAY - walang ulap, pinakamabilis
+options.renderClouds.tooltip.5=Ipinapakita na 2D ang mabilis na ulap.
+options.renderClouds.tooltip.6=Ipinapakita na 3D ang magarbong ulap.
+
+of.options.CLOUD_HEIGHT=Taas ng Ulap
+of.options.CLOUD_HEIGHT.tooltip.1=Taas ng Ulap
+of.options.CLOUD_HEIGHT.tooltip.2=  NAKAPATAY - panimulang taas
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - higit sa limitasyon sa taas ng mundo
+
+of.options.TREES=Puno
+of.options.TREES.tooltip.1=Puno
+of.options.TREES.tooltip.2=  Panimula - itinakda sa pamamagitan ng opsyon ng Graphics
+of.options.TREES.tooltip.3=  Mabilis - mas mababang kalidad, mas mabilis
+of.options.TREES.tooltip.4=  Matalino - mas mataas na kalidad, mabilis
+of.options.TREES.tooltip.5=  Magarbo - pinakamataas na kalidad, mas mabagal
+of.options.TREES.tooltip.6=Ang mga mabibilis na puno ay may malabo na mga dahon.
+of.options.TREES.tooltip.7=Ang mga magarbong at matalinong puno ay may malinaw na mga dahon.
+
+options.weatherRadius=Radius ng Epekto ng Panahon
+options.weatherRadius.tooltip.1=Radius ng Epekto ng Panahon
+options.weatherRadius.tooltip.2=  NAKAPATAY - walang ulan/niyebe, pinakamabilis
+options.weatherRadius.tooltip.3=  5 Bloke - mahinang ulan/niyebe, mas mabilis
+options.weatherRadius.tooltip.4=  10 Bloke - malakas na ulan/niyebe, mas mabagal
+options.weatherRadius.tooltip.5=Radius ng lugar kung saan nakikita ang mga epekto ng ulan
+options.weatherRadius.tooltip.6=at niyebe. Kapag nakatakda sa NAKAPATAY, aktibo pa rin
+options.weatherRadius.tooltip.7=ang mga pagtalsik at tunog ng ulan.
+
+of.options.SKY=Langit
+of.options.SKY.tooltip.1=Langit
+of.options.SKY.tooltip.2=  NAKAANDAR - nakikita ang langit, mas mabagal
+of.options.SKY.tooltip.3=  NAKAPATAY  - hindi nakikita ang langit, mas mabilis
+of.options.SKY.tooltip.4=Kapag NAKAPATAY ang langit, nakikita pa rin ang buwan at araw.
+
+of.options.STARS=Bituin
+of.options.STARS.tooltip.1=Bituin
+of.options.STARS.tooltip.2=  NAKAANDAR - nakikita ang bituin, mas mabagal
+of.options.STARS.tooltip.3=  NAKAPATAY  - hindi nakikita ang bituin, mas mabilis
+
+of.options.SUN_MOON=Araw & Buwan
+of.options.SUN_MOON.tooltip.1=Araw & Buwan
+of.options.SUN_MOON.tooltip.2=  NAKAANDAR - nakikita ang araw at buwan (panimula)
+of.options.SUN_MOON.tooltip.3=  NAKAPATAY  - hindi nakikita ang araw at buwan (mas mabilis)
+
+of.options.SHOW_CAPES=Pagpapakita ng Mga Cape
+of.options.SHOW_CAPES.tooltip.1=Pagpapakita ng Mga Cape
+of.options.SHOW_CAPES.tooltip.2=  NAKAANDAR - ipakita ang cape ng manlalaro (panimula)
+of.options.SHOW_CAPES.tooltip.3=  NAKAPATAY - huwag ipakita ang cape ng manlalaro
+
+of.options.TRANSLUCENT_BLOCKS=Nanganganinag na Mga Bloke
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=Nanganganinag na Mga Bloke
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=  Panimula - itinakda sa pamamagitan ng opsyon ng Graphics
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=  Magarbo - tamang paghahalo ng kulay (mas mabagal)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=  Mabilis - mabilisang paghahalo ng kulay (mas mabilis)
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=Kinokontrol ang paghahalo ng kulay ng mga nanganganinag na bloke
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=na may iba't ibang kulay (puting salamin, tubig, yelo)
+of.options.TRANSLUCENT_BLOCKS.tooltip.7=kapag inilagay sa likod ng bawat isa na may hangin sa pagitan ng mga ito.
+
+of.options.HELD_ITEM_TOOLTIPS=Tooltip ng Dala-Dalang Aytem
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Tooltip ng dala-dalang aytem
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  NAKAANDAR - ipakita ang mga tooltip para sa mga dala-dalang aytem (panimula)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  NAKAPATAY - huwag ipakita ang mga tooltip para sa mga dala-dalang aytem
+
+of.options.ADVANCED_TOOLTIPS=Masalimuot na Tooltip
+of.options.ADVANCED_TOOLTIPS.tooltip.1=Masalimuot na tooltip
+of.options.ADVANCED_TOOLTIPS.tooltip.2=  NAKAANDAR - ipakita ang masalimuot na tooltip 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=  NAKAPATAY - huwag ipakita ang masalimuot na tooltip (panimula)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=Ang mga masalimuot na tooltip ay nagpapakita ng higit pang impormasyon para sa
+of.options.ADVANCED_TOOLTIPS.tooltip.5=mga aytem (id, tibay) at para sa mga opsyon sa shader
+of.options.ADVANCED_TOOLTIPS.tooltip.6=(id, pinagmulan, panimulang halaga).
+
+of.options.DROPPED_ITEMS=Mga Nahulog na Aytem
+of.options.DROPPED_ITEMS.tooltip.1=Mga Nahulog na Aytem
+of.options.DROPPED_ITEMS.tooltip.2=  Panimula - itinakda sa pamamagitan ng opsyon ng Graphics
+of.options.DROPPED_ITEMS.tooltip.3=  Mabilis - 2D na mga nahulog na aytem (mas mabilis)
+of.options.DROPPED_ITEMS.tooltip.4=  Magarbo - 3D na mga nahulog na aytem (mas mabagal)
+
+options.entityShadows.tooltip.1=Anino ng Entidad
+options.entityShadows.tooltip.2=  NAKAANDAR - ipakita ang anino ng entidad
+options.entityShadows.tooltip.3=  NAKAPATAY - huwag ipakita ang anino ng entidad
+
+options.vignette=Binyeta
+options.vignette.tooltip.1=Biswal na epekto na bahagyang nagpapadilim sa mga sulok ng screen
+options.vignette.tooltip.2=  NAKAANDAR - pinagana ang binyeta (mas mabagal)
+options.vignette.tooltip.3=  NAKAPATAY - hindi pinagana ang binyeta (mas mabilis)
+options.vignette.tooltip.4=Maaaring magkaroon ng malaking epekto ang binyeta sa FPS,
+options.vignette.tooltip.5=lalo na kapag naglalaro sa fullscreen.
+options.vignette.tooltip.6=Ang epekto ng binyeta ay napaka banayad at maaaring
+options.vignette.tooltip.7=patayin. 
+
+of.options.DYNAMIC_FOV=Dinamikong FOV
+of.options.DYNAMIC_FOV.tooltip.1=Dinamikong FOV
+of.options.DYNAMIC_FOV.tooltip.2=  NAKAANDAR - paganahin ang dinamikong FOV (panimula)
+of.options.DYNAMIC_FOV.tooltip.3=  NAKAPATAY - huwag paganahin ang dinamikong FOV
+of.options.DYNAMIC_FOV.tooltip.4=Binabago ang lawak ng paningin (FOV) kapag lumilipad, tumatakbo
+of.options.DYNAMIC_FOV.tooltip.5=o hinihila ang pana.
+
+of.options.DYNAMIC_LIGHTS=Dinamikong Liwanag
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dinamikong Liwanag
+of.options.DYNAMIC_LIGHTS.tooltip.2=  NAKAPATAY - walang dinamikong liwanag (panimula)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Mabilis - mabilisang dinamikong liwanag (ina-update bawat 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Magarbo - magarbong dinamikong liwanag (ina-update sa totoong oras)
+of.options.DYNAMIC_LIGHTS.tooltip.5=Nagbibigay-daan sa mga bagay na naglalabas ng liwanag (sulo, sindin-bato, atbp.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=na magbigay-liwanag sa lahat ng bagay sa kanilang paligid kapag hawak ito,
+of.options.DYNAMIC_LIGHTS.tooltip.7=nilagyan ng ibang manlalaro, o inihulog sa lupa.
+
+options.biomeBlendRadius.tooltip.1=Pinapadali ang paglipat ng kulay sa pagitan ng mga biome
+options.biomeBlendRadius.tooltip.2=  NAKAPATAY - walang paghahalo (mas mabilis)
+options.biomeBlendRadius.tooltip.3=  5x5 - normal na paghahalo (panimula)
+options.biomeBlendRadius.tooltip.4=  15x15 - pinakamataas na paghahalo (pinakamabagal)
+options.biomeBlendRadius.tooltip.5=Ang mas matataas na halaga ay maaaring makabuo ng makabuluhang lag spike
+options.biomeBlendRadius.tooltip.6=at makapagpabagal sa bilis ng pag-load ng tipak.
+
+# Performance
+
+of.options.SMOOTH_FPS=Pinahusay na FPS
+of.options.SMOOTH_FPS.tooltip.1=Pinapatatag ang FPS sa pamamagitan ng pag-alis ng mga buffer ng graphic driver.
+of.options.SMOOTH_FPS.tooltip.2=  NAKAPATAY - walang stabilisasyon, maaaring magbago ang FPS
+of.options.SMOOTH_FPS.tooltip.3=  NAKAANDAR - stabilisasyon sa FPS
+of.options.SMOOTH_FPS.tooltip.4=Ang opsyong ito ay umaasa sa graphic driver at
+of.options.SMOOTH_FPS.tooltip.5=hindi palaging nakikita ang epekto nito.
+
+of.options.SMOOTH_WORLD=Pinahusay na Mundo
+of.options.SMOOTH_WORLD.tooltip.1=Tinatanggal ang mga lag spike na dulot ng panloob na server.
+of.options.SMOOTH_WORLD.tooltip.2=  NAKAPATAY - walang stabilisasyon, maaaring magbago ang FPS
+of.options.SMOOTH_WORLD.tooltip.3=  NAKAANDAR - stabilisasyon sa FPS
+of.options.SMOOTH_WORLD.tooltip.4=Pinapatatag ang FPS sa pamamagitan ng pamamahagi ng bigat ng panloob na server.
+of.options.SMOOTH_WORLD.tooltip.5=Epektibo lamang para sa mga lokal na mundo (pang-isahang laro).
+
+of.options.FAST_RENDER=Mabilisang Pag-render
+of.options.FAST_RENDER.tooltip.1=Mabilisang Pag-render
+of.options.FAST_RENDER.tooltip.2= NAKAPATAY - karaniwang pag-render (panimula)
+of.options.FAST_RENDER.tooltip.3= NAKAANDAR - pinahusay na pag-render (mas mabilis)
+of.options.FAST_RENDER.tooltip.4=Gumagamit ng optimisadong algoritmo sa pag-render na nagpapababa
+of.options.FAST_RENDER.tooltip.5=ng bigat sa CPU at maaaring tumaas nang malaki sa FPS.
+of.options.FAST_RENDER.tooltip.6=Maaaring sumalungat ang opsyong ito sa ilang mod.
+
+of.options.FAST_MATH=Mabilisang Math
+of.options.FAST_MATH.tooltip.1=Mabilisang Math
+of.options.FAST_MATH.tooltip.2= NAKAPATAY - karaniwang math (panimula)
+of.options.FAST_MATH.tooltip.3= NAKAANDAR - mas mabilis na math
+of.options.FAST_MATH.tooltip.4=Gumagamit ng optimisadong sin() at cos() na mga punsyon na maaaring
+of.options.FAST_MATH.tooltip.5=mas mahusay na magamit ang CPU cache at pataasin ang FPS.
+of.options.FAST_MATH.tooltip.6=Ang opsyong ito ay maaaring bahagyang makakaapekto sa henerasyon ng mundo.
+
+of.options.CHUNK_UPDATES=Pag-Update sa Tipak
+of.options.CHUNK_UPDATES.tooltip.1=Pag-update sa tipak
+of.options.CHUNK_UPDATES.tooltip.2= 1 - mas mabagal na pagloload ng mundo, mas mataas na FPS (panimula)
+of.options.CHUNK_UPDATES.tooltip.3= 3 - mas mabilis na pagloload ng mundo, mas mababang FPS
+of.options.CHUNK_UPDATES.tooltip.4= 5 - pinakamabilis na pagloload ng mundo, pinakamababang FPS
+of.options.CHUNK_UPDATES.tooltip.5=Bilang ng mga pag-update sa tipak sa bawat na-render na frame,
+of.options.CHUNK_UPDATES.tooltip.6=ang mas mataas na mga halaga ay maaaring sirain ang katatagan ng framerate.
+
+of.options.CHUNK_UPDATES_DYNAMIC=Dinamikong Pag-update
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dinamikong pag-update ng tipak
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= NAKAPATAY - karaniwang pag-update ng tipak sa bawat frame (panimula)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= NAKAANDAR - higit pang mga update habang nakatayo pa rin ang manlalaro
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Pinipilit ng mga dinamikong pag-update ang higit pang pag-update sa tipak habang
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=nakatayo pa rin ang manlalaro upang mai-load ang mundo nang mas mabilis.
+
+of.options.LAZY_CHUNK_LOADING=Tamad na Pagloload ng Tipak
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Tamad na Pagloload ng Tipak
+of.options.LAZY_CHUNK_LOADING.tooltip.2= NAKAPATAY - panimulang paglo-load ng tipak ng server
+of.options.LAZY_CHUNK_LOADING.tooltip.3= NAKAANDAR - tamad na paglo-load ng tipak ng server (mas madali)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Pinapadali ang pinagsama-samang paglo-load ng tipak ng server
+of.options.LAZY_CHUNK_LOADING.tooltip.5=sa pamamagitan ng pamamahagi ng mga tipak sa ilang tick.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=PATAYIN ito kung ang mga bahagi ng mundo ay hindi naglo-load nang tama.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Epektibo lamang para sa mga lokal na mundo (pang-isahang laro).
+
+of.options.RENDER_REGIONS=Pag-Render ng Mga Rehiyon
+of.options.RENDER_REGIONS.tooltip.1=Pag-Render ng Mga Rehiyon
+of.options.RENDER_REGIONS.tooltip.2= NAKAPATAY - pag-render gamit ang vanilla (panimula)
+of.options.RENDER_REGIONS.tooltip.3= NAKAANDAR - gumamit ng pag-render ng rehiyon (mas mabilis)
+of.options.RENDER_REGIONS.tooltip.4=Nagbibigay-daan sa mas mabilis na pag-render ng lupain sa pamamagitan
+of.options.RENDER_REGIONS.tooltip.5=ng pagpapahusay sa bigat ng GPU. Mas epektibo sa mas mataas na distansya ng pag-render.
+of.options.RENDER_REGIONS.tooltip.6=Hindi inirerekomenda para sa pinagsamang mga graphics card.
+
+of.options.SMART_ANIMATIONS=Matalinong Animasyon
+of.options.SMART_ANIMATIONS.tooltip.1=Matalinong Animasyon
+of.options.SMART_ANIMATIONS.tooltip.2= NAKAPATAY - huwag gumamit ng mga matalinong animasyon (panimula)
+of.options.SMART_ANIMATIONS.tooltip.3= NAKAANDAR - gumamit ng mga matalinong animasyon (mas mabilis)
+of.options.SMART_ANIMATIONS.tooltip.4=Gamit ang mga matalinong animasyon, binibigyang-buhay lamang ng laro
+of.options.SMART_ANIMATIONS.tooltip.5=ang mga texture na kasalukuyang nakikita sa screen.
+of.options.SMART_ANIMATIONS.tooltip.6=Binabawasan nito ang mga tick lag spike at pinapataas ang FPS.
+of.options.SMART_ANIMATIONS.tooltip.7=Tanyag na kapaki-pakinabang para sa malalaking mod pack at HD resource pack.
+
+# Animations
+
+of.options.animation.allOn=Lahat NAKAANDAR
+of.options.animation.allOff=Lahat NAKAPATAY
+of.options.animation.dynamic=Dinamiko
+
+of.options.ANIMATED_WATER=Binibigyang-buhay ang Tubig
+of.options.ANIMATED_LAVA=Binibigyang-buhay ang Kumukulong Putik
+of.options.ANIMATED_FIRE=Binibigyang-buhay ang Apoy
+of.options.ANIMATED_PORTAL=Binibigyang-buhay ang Lagusan
+of.options.ANIMATED_REDSTONE=Binibigyang-buhay ang Redstone
+of.options.ANIMATED_EXPLOSION=Binibigyang-buhay ang Pasabog
+of.options.ANIMATED_FLAME=Binibigyang-buhay ang Liyab
+of.options.ANIMATED_SMOKE=Binibigyang-buhay any Usok
+of.options.VOID_PARTICLES=Mga Kapurit ng Kahungkagan
+of.options.WATER_PARTICLES=Mga Kapurit ng Tubig
+of.options.RAIN_SPLASH=Talsik ng Ulan
+of.options.PORTAL_PARTICLES=Mga Kapurit ng Lagusan
+of.options.POTION_PARTICLES=Mga Kapurit ng Gayuma
+of.options.DRIPPING_WATER_LAVA=Tumutulo na Tubig/Kumukulong Putik
+of.options.ANIMATED_TERRAIN=Binibigyang-buhay ang Lupain
+of.options.ANIMATED_TEXTURES=Binibigyang-buhay ang Texture
+of.options.FIREWORK_PARTICLES=Mga Kapurit ng Kuwitis
+
+# Other
+
+of.options.LAGOMETER=Lagometer
+of.options.LAGOMETER.tooltip.1=Ipinapakita ang lagometer sa debug screen (F3).
+of.options.LAGOMETER.tooltip.2=* Kahel - Pagkolekta ng basura ng memorya
+of.options.LAGOMETER.tooltip.3=* Cyan - Tick
+of.options.LAGOMETER.tooltip.4=* Asul - Nakaiskedyul na mga executable
+of.options.LAGOMETER.tooltip.5=* Lila - Pag-upload ng Tipak
+of.options.LAGOMETER.tooltip.6=* Pula - Pag-update sa Tipak
+of.options.LAGOMETER.tooltip.7=* Dilaw - Pagsusuri ng paningin
+of.options.LAGOMETER.tooltip.8=* Berde - Pag-render ng Lupain
+
+of.options.PROFILER=Debug Profiler
+of.options.PROFILER.tooltip.1=Debug Profiler
+of.options.PROFILER.tooltip.2=  NAKAANDAR - aktibo ang debug profiler, mas mabagal
+of.options.PROFILER.tooltip.3=  NAKAPATAY - hindi aktibo ang debug profiler, mas mabilis
+of.options.PROFILER.tooltip.4=Kinokolekta at ipinapakita ng debug profiler ang impormasyon
+of.options.PROFILER.tooltip.5=kapag nakabukas ang debug screen (F3).
+
+of.options.WEATHER=Panahon
+of.options.WEATHER.tooltip.1=Panahon
+of.options.WEATHER.tooltip.2=  NAKAANDAR - aktibo ang panahon, mas mabagal
+of.options.WEATHER.tooltip.3=  NAKAPATAY - hindi aktibo ang panahon, mas mabilis
+of.options.WEATHER.tooltip.4=Kinokontrol ng lagay ng panahon ang ulan, niyebe at mga bagyo.
+of.options.WEATHER.tooltip.5=Posible lamang ang pagkontrol sa panahon para sa mga lokal na mundo.
+
+of.options.time.dayOnly=Araw Lang
+of.options.time.nightOnly=Gabi Lang
+
+of.options.TIME=Oras
+of.options.TIME.tooltip.1=Oras
+of.options.TIME.tooltip.2= Panimula - normal na mga siklo sa araw/gabi
+of.options.TIME.tooltip.3= Araw Lang - araw lang
+of.options.TIME.tooltip.4= Gabi Lang - gabi lang
+of.options.TIME.tooltip.5=Ang setting ng oras ay epektibo lamang sa modong KALIKHAAN
+of.options.TIME.tooltip.6=at para sa mga lokal na mundo.
+
+options.fullscreen.tooltip.1=Fullscreen
+options.fullscreen.tooltip.2=  NAKAANDAR - gumamit ng fullscreen mode
+options.fullscreen.tooltip.3=  NAKAPATAY - gumamit ng window mode
+options.fullscreen.tooltip.4=Ang fullscreen mode ay maaaring mas mabilis o mas mabagal kaysa
+options.fullscreen.tooltip.5=window mode, depende sa graphic card.
+
+options.fullscreen.resolution=Fullscreen Mode
+options.fullscreen.resolution.tooltip.1=Fullscreen mode
+options.fullscreen.resolution.tooltip.2=  Panimula - gumamit ng resolusyon ng desktop screen, mas mabagal
+options.fullscreen.resolution.tooltip.3=  WxH - gumamit ng pasadyang resolusyon ng screen, maaaring mas mabilis
+options.fullscreen.resolution.tooltip.4=Ang napiling resolution ay ginagamit sa fullscreen mode (F11).
+options.fullscreen.resolution.tooltip.5=Ang mga mas mababang resolusyon sa pangkalahatan ay dapat na mas mabilis.
+
+of.options.SHOW_FPS=Ipakita ang FPS
+of.options.SHOW_FPS.tooltip.1=Ipinapakita ang siksik na FPS at impormasyon sa pag-render.
+of.options.SHOW_FPS.tooltip.2=  Fps - karaniwan/pinakamababa
+of.options.SHOW_FPS.tooltip.3=  C: - renderer ng tipak
+of.options.SHOW_FPS.tooltip.4=  E: - na-render na entidad + blokeng entidad
+of.options.SHOW_FPS.tooltip.5=  U: - pag-update sa chunk
+of.options.SHOW_FPS.tooltip.6=Ang impormasyon sa siksik na FPS ay ipinapakita lamang kapag
+of.options.SHOW_FPS.tooltip.7=hindi nakikita ang debug screen.
+
+of.options.save.45s=45s
+of.options.save.90s=90s
+of.options.save.3min=3min
+of.options.save.6min=6min
+of.options.save.12min=12min
+of.options.save.24min=24min
+
+of.options.AUTOSAVE_TICKS=Awtomatikong Pag-save
+of.options.AUTOSAVE_TICKS.tooltip.1=Pagitan ng Awtomatikong Pag-save
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - panimula
+of.options.AUTOSAVE_TICKS.tooltip.3=Ang awtomatikong pag-save ay maaaring magdulot ng mga lag spike depende sa distansya ng
+of.options.AUTOSAVE_TICKS.tooltip.4=pag-render.
+of.options.AUTOSAVE_TICKS.tooltip.5=Nasesave din ang mundo kapag binuksan ang menu ng laro.
+
+of.options.SCREENSHOT_SIZE=Laki ng Screenshot
+of.options.SCREENSHOT_SIZE.tooltip.1=Laki ng Screenshot
+of.options.SCREENSHOT_SIZE.tooltip.2=  Panimula - panimulang laki ng screenshot
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - pasadyang laki ng screenshot
+of.options.SCREENSHOT_SIZE.tooltip.4=Maaaring kailanganin ng mas malaking memorya ang pagkuha ng mas malalaking screenshot.
+of.options.SCREENSHOT_SIZE.tooltip.5=Hindi tugma sa Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=Nangangailangan ng suporta sa GPU framebuffer.
+
+of.options.SHOW_GL_ERRORS=Ipakita ang mga GL Error
+of.options.SHOW_GL_ERRORS.tooltip.1=Ipakita ang mga OpenGL Error
+of.options.SHOW_GL_ERRORS.tooltip.2=Kapag pinagana, ipinapakita sa chat ang mga OpenGL error.
+of.options.SHOW_GL_ERRORS.tooltip.3=Patayin lang ito kung may kilalang salungatan at
+of.options.SHOW_GL_ERRORS.tooltip.4=hindi na maayos ang mga pagkakamali.
+of.options.SHOW_GL_ERRORS.tooltip.5=Kapag hindi pinagana ang mga pagkakamali ay nakatala pa rin sa tala ng pagkakamali at
+of.options.SHOW_GL_ERRORS.tooltip.6=maaari pa rin silang magdulot ng makabuluhang pagbaba ng FPS.
+
+of.options.TELEMETRY=Telemetry
+of.options.TELEMETRY.tooltip.1=Ipadala ang telemetry data sa Mojang
+of.options.TELEMETRY.tooltip.2=  NAKAANDAR - buong telemetry (panimula)
+of.options.TELEMETRY.tooltip.3=  Di-kilala - di-kilalang telemetry
+of.options.TELEMETRY.tooltip.4=  NAKAPATAY - walang telemetry
+of.options.TELEMETRY.tooltip.5=Ang buong telemetry ay nagpapadala ng UUID ng tagagamit na maaaring magamit
+of.options.TELEMETRY.tooltip.6=upang subaybayan ang tagagamit sa iba't ibang device.
+of.options.TELEMETRY.tooltip.7=Ang di-kilalang telemetry ay hindi nagpapadala ng anumang datos ng tagagamit o
+of.options.TELEMETRY.tooltip.8=makikilalang kliyente.
+
+# Quick Info
+of.options.QUICK_INFO=Mabilisang Impormasyon
+of.options.QUICK_INFO.tooltip.1=Mabilisang Impormasyon
+of.options.QUICK_INFO.tooltip.2=
+of.options.QUICK_INFO.tooltip.3=Ipinapakita ang siksik na impormasyon sa tuktok ng screen.
+
+of.options.QUICK_INFO_FPS=Framerate
+of.options.QUICK_INFO_FPS.tooltip.1=Framerate
+of.options.QUICK_INFO_FPS.tooltip.2=  NAKAPATAY - huwag ipakita ang framerate
+of.options.QUICK_INFO_FPS.tooltip.3=  Siksik - ipakita ang karaniwang framerate
+of.options.QUICK_INFO_FPS.tooltip.4=  Buo - ipakita ang karaniwan at pinakamababang framerate
+of.options.QUICK_INFO_FPS.tooltip.5=Ipinapakita ng karaniwan ang pangkalahatang pagganap ng laro.
+of.options.QUICK_INFO_FPS.tooltip.6=Ipinapakita ng pinakamababa ang katatagan sa framerate at kung ano
+of.options.QUICK_INFO_FPS.tooltip.7=ang pakiramdam ng framerate kapag naglalaro.
+
+of.options.QUICK_INFO_CHUNKS=Na-render na Tipak
+of.options.QUICK_INFO_CHUNKS.tooltip.1=Na-render na Tipak
+of.options.QUICK_INFO_CHUNKS.tooltip.2=
+of.options.QUICK_INFO_CHUNKS.tooltip.3=Ipinapakita ang bilang ng mga na-render na tipak.
+
+of.options.QUICK_INFO_ENTITIES=Na-render na Entidad
+of.options.QUICK_INFO_ENTITIES.tooltip.1=Na-render na Entidad
+of.options.QUICK_INFO_ENTITIES.tooltip.2=
+of.options.QUICK_INFO_ENTITIES.tooltip.3=Ipinapakita ang bilang ng mga na-render na entidad at blokeng entidad.
+of.options.QUICK_INFO_ENTITIES.tooltip.4=Format: <entities> + <block entities>
+
+of.options.QUICK_INFO_PARTICLES=Na-render na Kapurit
+of.options.QUICK_INFO_PARTICLES.tooltip.1=Na-render na Kapurit
+of.options.QUICK_INFO_PARTICLES.tooltip.2=
+of.options.QUICK_INFO_PARTICLES.tooltip.3=Ipinapakita ang bilang ng mga na-render na kapurit.
+
+of.options.QUICK_INFO_UPDATES=Pag-update sa Tipak
+of.options.QUICK_INFO_UPDATES.tooltip.1=Pag-update sa Tipak
+of.options.QUICK_INFO_UPDATES.tooltip.2=
+of.options.QUICK_INFO_UPDATES.tooltip.3=Ipinapakita ang bilang ng mga pag-update ng tipak sa bawat frame.
+
+of.options.QUICK_INFO_GPU=Bigat sa GPU
+of.options.QUICK_INFO_GPU.tooltip.1=Bigat sa GPU
+of.options.QUICK_INFO_GPU.tooltip.2=  0%% to 30%% - ang pagganap ay limitado sa CPU
+of.options.QUICK_INFO_GPU.tooltip.3=  30%% to 70%% - ang pagganap ay limitado sa CPU/GPU
+of.options.QUICK_INFO_GPU.tooltip.4=  70%% to 100%% - ang pagganap ay limitado sa GPU
+of.options.QUICK_INFO_GPU.tooltip.5=Kinakalkula ang pag-load ng GPU sa pamamagitan ng pagsukat sa oras ng GPU
+of.options.QUICK_INFO_GPU.tooltip.6=na kailangan para sa pag-render ng frame kumpara sa tagal ng frame.
+of.options.QUICK_INFO_GPU.tooltip.7=Hindi nito isinasaalang-alang ang oras ng pagpapalit ng mga buffer na maaaring
+of.options.QUICK_INFO_GPU.tooltip.8=magdulot ng ilang pagkakaiba sa tunay na bigat ng GPU.
+
+of.options.QUICK_INFO_POS=Posisyon
+of.options.QUICK_INFO_POS.tooltip.1=Posisyon
+of.options.QUICK_INFO_POS.tooltip.2=
+of.options.QUICK_INFO_POS.tooltip.3=Ipinapakita ang posisyon ng manlalaro
+of.options.QUICK_INFO_POS.tooltip.4=Format: <world coordinates> [<chunk relative coordinates>]
+
+of.options.QUICK_INFO_FACING=Pagharap
+of.options.QUICK_INFO_FACING.tooltip.1=Pagharap
+of.options.QUICK_INFO_FACING.tooltip.2=
+of.options.QUICK_INFO_FACING.tooltip.3=Ipinapakita ang direksyon kung saan nakatingin ang manlalaro.
+of.options.QUICK_INFO_FACING.tooltip.4=Format: <world direction> [XYZ direction] (yaw/pitch)
+
+of.options.QUICK_INFO_BIOME=Biome
+of.options.QUICK_INFO_BIOME.tooltip.1=Biome
+of.options.QUICK_INFO_BIOME.tooltip.2=
+of.options.QUICK_INFO_BIOME.tooltip.3=Ipinapakita ang kasalukuyang pangalan ng biome.
+
+of.options.QUICK_INFO_LIGHT=Liwanag
+of.options.QUICK_INFO_LIGHT.tooltip.1=Liwanag
+of.options.QUICK_INFO_LIGHT.tooltip.2=
+of.options.QUICK_INFO_LIGHT.tooltip.3=Ipinapakita ang kasalukuyang mga antas ng liwanag.
+of.options.QUICK_INFO_LIGHT.tooltip.4=Format: <sky light> / <block light>
+
+of.options.QUICK_INFO_MEMORY=Memorya
+of.options.QUICK_INFO_MEMORY.tooltip.1=Memorya
+of.options.QUICK_INFO_MEMORY.tooltip.2=
+of.options.QUICK_INFO_MEMORY.tooltip.3=Ipinapakita ang kasalukuyang ginagamit at pinakamataas na memorya ng Java.
+of.options.QUICK_INFO_MEMORY.tooltip.4=Format: <used memory> / <maximum memory> MB
+
+of.options.QUICK_INFO_NATIVE_MEMORY=Katutubong Memorya
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.1=Katutubong Memorya
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.2=
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.3=Ipinapakita ang kasalukuyang ginagamit at pinakamataas na katutubong memorya.
+of.options.QUICK_INFO_NATIVE_MEMORY.tooltip.4=Format: <buffers used> / <buffers maximum> + <textures>
+
+of.options.QUICK_INFO_TARGET_BLOCK=Tinitignang Bloke
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.1=Tinitignang Bloke
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.2=
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.3=Ipinapakita ang pangalan at posisyon ng tinitignang bloke.
+of.options.QUICK_INFO_TARGET_BLOCK.tooltip.4=Format: <block name> (block coordinates)
+
+of.options.QUICK_INFO_TARGET_FLUID=Tinitignang Likido
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.1=Tinitignang Likido
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.2=
+of.options.QUICK_INFO_TARGET_FLUID.tooltip.3=Format: <fluid name> (fluid coordinates)
+
+of.options.QUICK_INFO_TARGET_ENTITY=Tinitignang Entidad
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.1=Target Entity
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.2=
+of.options.QUICK_INFO_TARGET_ENTITY.tooltip.3=Format: <entity name> (entity coordinates)
+
+of.options.QUICK_INFO_LABELS=Mga Tatak
+of.options.QUICK_INFO_LABELS.tooltip.1=Mga Tatak
+of.options.QUICK_INFO_LABELS.tooltip.2=  Siksik - ipakita ang mga siksik na tatak
+of.options.QUICK_INFO_LABELS.tooltip.3=  Buo - ipakita ang buong tatak
+of.options.QUICK_INFO_LABELS.tooltip.4=  Detalyado - ipakita ang buong tatak at buong posisyon
+of.options.QUICK_INFO_LABELS.tooltip.5=Kapag napili ang buong tatak, ang linya ng pagganap
+of.options.QUICK_INFO_LABELS.tooltip.6=(framerate) ay nahahati sa dalawang linya.
+
+of.options.QUICK_INFO_BACKGROUND=Likuran
+of.options.QUICK_INFO_BACKGROUND.tooltip.1=Likuran
+of.options.QUICK_INFO_BACKGROUND.tooltip.2=
+of.options.QUICK_INFO_BACKGROUND.tooltip.3=Ipinapakita ng aninag na likuran ng teksto na maaaring makatulong 
+of.options.QUICK_INFO_BACKGROUND.tooltip.4=sa kadalian sa pagbasa, ngunit maaari rin nitong gawing
+of.options.QUICK_INFO_BACKGROUND.tooltip.5=mas nakakagambala ang teksto.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=Likuran ng Chat
+of.options.CHAT_BACKGROUND.tooltip.1=Likuran ng Chat
+of.options.CHAT_BACKGROUND.tooltip.2=  Panimula - nakapirming lapad
+of.options.CHAT_BACKGROUND.tooltip.3=  Siksik - tumutugma sa lapad ng linya
+of.options.CHAT_BACKGROUND.tooltip.4=  NAKAPATAY - nakatago
+
+of.options.CHAT_SHADOW=Anino ng Chat
+of.options.CHAT_SHADOW.tooltip.1=Anino ng Chat
+of.options.CHAT_SHADOW.tooltip.2=  NAKAANDAR - gamitin ang anino ng teksto
+of.options.CHAT_SHADOW.tooltip.3=  NAKAPATAY - walang anino ng teksto
+
+# Vanilla
+options.textureFiltering.tooltip.1=Texture Filtering
+options.textureFiltering.tooltip.2=  NAKAPATAY - walang filtering, mabilis
+options.textureFiltering.tooltip.3=  RGSS - pinakamabagal
+options.textureFiltering.tooltip.4=  Anisotropic - mas mabagal
+options.textureFiltering.tooltip.5=Ibinabalik ang mga detalye sa mga mipmapped na texture. Gumagamit ng
+options.textureFiltering.tooltip.6=mas maraming memorya sa GPU at maaaring hindi payagan ang mga HD resource pack
+options.textureFiltering.tooltip.7=na ma-load. Hindi tugma sa Kalidad -> Anisotropic
+options.textureFiltering.tooltip.8=Filtering at Antialasing.
+
+options.maxAnisotropy.tooltip.1=Anisotropic Texture Filtering
+options.maxAnisotropy.tooltip.2=  2x - mas mabilis
+options.maxAnisotropy.tooltip.3=  8x - mas mabagal
+options.maxAnisotropy.tooltip.4=Aktibo lamang kapag ang Texture Filtering ay nakatakda sa Anisotropic.
+options.maxAnisotropy.tooltip.5=Gumagamit ng mas maraming GPU memorya sa GPU ang mas matataas na antas
+options.maxAnisotropy.tooltip.6=at maaaring hindi payagan ang mga HD resource pack na ma-load.
+
+options.improvedTransparency.tooltip.1=Pinabuting Transparensya
+options.improvedTransparency.tooltip.2=  NAKAANDAR - mas mabagal
+options.improvedTransparency.tooltip.3=  NAKAPATAY - mas mabilis
+options.improvedTransparency.tooltip.4=Transparensyang Multi-buffer na pag-render, maaaring bawasan ang FPS.
+options.improvedTransparency.tooltip.5=Hindi tugma sa Antialiasing at Mga Shader.
+
+options.renderCloudsDistance.tooltip.1=Distansya ng Pag-render ng Ulap
+options.renderCloudsDistance.tooltip.2=  32 tipak - mabilis
+options.renderCloudsDistance.tooltip.3=  64 tipak - mas mabagal
+options.renderCloudsDistance.tooltip.4=  128 tipak - pinakamabagal
